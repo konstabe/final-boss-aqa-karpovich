@@ -48,6 +48,13 @@ export default defineConfig({
 	/* Configure projects for major browsers */
 	projects: [
 		{
+			name: "sales-portal-api",
+			use: {
+				...devices["Desktop Chrome"],
+			},
+			testDir: "src/tests/api",
+		},
+		{
 			name: "chromium",
 			use: { ...devices["Desktop Chrome"] },
 		},
