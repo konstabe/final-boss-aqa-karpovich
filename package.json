@@ -4,6 +4,7 @@
   "description": "test framework",
   "scripts": {
     "test": "npx playwright test",
+    "ui-mode": "npx playwright test --ui",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepare": "husky",
@@ -44,9 +45,12 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "prettier": "^3.7.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
     "typescript-eslint": "^8.48.0"
   },
   "dependencies": {
+    "@faker-js/faker": "^10.1.0",
     "dotenv": "^17.2.3",
     "lodash": "^4.17.21"
   }
