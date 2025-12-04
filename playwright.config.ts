@@ -14,7 +14,7 @@ loadEnv();
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-	testDir: "./tests",
+	testDir: "./src/tests",
 	/* Run tests in files in parallel */
 	fullyParallel: true,
 	/* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -47,6 +47,13 @@ export default defineConfig({
 
 	/* Configure projects for major browsers */
 	projects: [
+		{
+			name: "sales-portal-api",
+			use: {
+				...devices["Desktop Chrome"],
+			},
+			testDir: "src/tests/api",
+		},
 		{
 			name: "chromium",
 			use: { ...devices["Desktop Chrome"] },
