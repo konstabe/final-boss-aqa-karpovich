@@ -18,3 +18,11 @@ export interface IResponse<T extends object | null> {
 }
 
 export type SortOrder = "asc" | "desc";
+
+export interface IRequestOptions {
+  baseURL: string;
+  url: string;
+  method: "get" | "post" | "put" | "delete";
+  data?: object;
+  headers?: Record<string, string>;
+}

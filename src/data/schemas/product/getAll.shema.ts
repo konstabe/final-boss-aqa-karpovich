@@ -1,12 +1,15 @@
 import { obligatoryFieldsSchema, obligatoryRequiredFields } from "../core.schema";
 import { productSchema } from "./product.schema";
 
-
-export const createProductSchema = {
+export const getAllProductSchema = {
   type: "object",
   properties: {
-    Product: productSchema,
+    Products: { 
+        type: "array", 
+        items: productSchema,
+        },     
     ...obligatoryFieldsSchema,
   },
-  required: ["Product", ...obligatoryRequiredFields],
+  required: ["Products", ...obligatoryRequiredFields],
 };
+
