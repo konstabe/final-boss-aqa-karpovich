@@ -33,13 +33,13 @@ test.describe("Delete customer", () => {
 	});
 
 	test.describe("negative", () => {
-		test("invalid token", { tag: TAGS.CUSTOMERS }, async ({ customersApiService }) => {
-			const response = await customersApiService.delete("invalid_token", "whatever");
+		test("invalid token", { tag: TAGS.CUSTOMERS }, async ({ customersApi }) => {
+			const response = await customersApi.delete("invalid_token", "whatever");
 			expect(response.status).toBe(STATUS_CODES.UNAUTHORIZED);
 		});
 
-		test("invalid id", { tag: TAGS.CUSTOMERS }, async ({ customersApiService }) => {
-			const response = await customersApiService.delete(token, "invalid_id");
+		test("invalid id", { tag: TAGS.CUSTOMERS }, async ({ customersApi }) => {
+			const response = await customersApi.delete(token, "invalid_id");
 			expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
 		});
 	});
