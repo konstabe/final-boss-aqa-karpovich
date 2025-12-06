@@ -77,7 +77,7 @@ test.describe("[API] [Sales Portal] [Customers]", () => {
 			});
 		}
 
-		test("Create a customer without autorization token", async ({ customersApi }) => {
+		test("Create a customer without authorization token", async ({ customersApi }) => {
 			const customerData = generateCustomerData();
 			const createdCustomer = await customersApi.create(customerData, "");
 			validateResponse(createdCustomer, {
@@ -110,15 +110,6 @@ test.describe("[API] [Sales Portal] [Customers]", () => {
 		});
 
 		test("Create a customer with empty request body", async ({ customersApi }) => {
-			const createdCustomer = await customersApi.create({} as unknown as ICustomer, token);
-			validateResponse(createdCustomer, {
-				status: STATUS_CODES.BAD_REQUEST,
-				IsSuccess: false,
-				ErrorMessage: NOTIFICATIONS.CREATED_FAIL_INCORRET_REQUEST_BODY,
-			});
-		});
-
-		test("Create a customer with invalid type for field", async ({ customersApi }) => {
 			const createdCustomer = await customersApi.create({} as unknown as ICustomer, token);
 			validateResponse(createdCustomer, {
 				status: STATUS_CODES.BAD_REQUEST,
