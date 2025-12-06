@@ -1,6 +1,12 @@
 import { IApiClient, IRequestOptions } from "api/core/types";
 import { apiConfig } from "config/apiConfig";
-import { ICustomer, ICustomerResponse, ICustomersSortedResponse, IGetCustomersParams } from "data/types/customer.types";
+import {
+	ICustomer,
+	ICustomerResponse,
+	ICustomersResponse,
+	ICustomersSortedResponse,
+	IGetCustomersParams,
+} from "data/types/customer.types";
 import { convertRequestParams } from "utils/queryParams.utils";
 
 export class CustomersApi {
@@ -35,10 +41,10 @@ export class CustomersApi {
 		return await this.apiClient.send<ICustomersSortedResponse>(options);
 	}
 
-	async getAll(token: string) {
+	async getAll(token: string, params?: Partial<IGetCustomersParams>) {
 		const options: IRequestOptions = {
 			baseURL: apiConfig.baseUrl!,
-			url: apiConfig.endpoints.customersAll,
+			url: apiConfig.endpoints.customers + (params ? convertRequestParams(params) : ""),
 			method: "get",
 			headers: {
 				"content-type": "application/json",
@@ -46,7 +52,7 @@ export class CustomersApi {
 			},
 		};
 
-		return await this.apiClient.send<ICustomerResponse>(options);
+		return await this.apiClient.send<ICustomersResponse>(options);
 	}
 
 	async getById(id: string, token: string) {
