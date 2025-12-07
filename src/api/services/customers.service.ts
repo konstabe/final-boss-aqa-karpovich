@@ -26,5 +26,7 @@ export class CustomersApiService {
 		validateResponse(response, {
 			status: STATUS_CODES.DELETED,
 		});
+
+		return response;
 	}
 }
