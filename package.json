@@ -4,6 +4,7 @@
   "description": "test framework",
   "scripts": {
     "test": "npx playwright test",
+    "test:api": "npm run test -- --project=sales-portal-api",
     "ui-mode": "npx playwright test --ui",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -40,6 +41,7 @@
     "@typescript-eslint/eslint-plugin": "^8.48.0",
     "@typescript-eslint/parser": "^8.48.0",
     "allure-playwright": "^3.4.2",
+    "bson": "^7.0.0",
     "eslint": "^9.39.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
