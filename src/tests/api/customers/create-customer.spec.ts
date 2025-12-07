@@ -20,7 +20,7 @@ test.describe("[API] [Sales Portal] [Customers]", () => {
 		id = "";
 	});
 
-	test.describe("[Positive]", () => {
+	test.describe("[Create Positive]", () => {
 		test("Create a customer with valid data with all fields", async ({ customersApi }) => {
 			const customerData = generateCustomerData();
 			const createdCustomer = await customersApi.create(customerData, token);
@@ -54,7 +54,7 @@ test.describe("[API] [Sales Portal] [Customers]", () => {
 		});
 	});
 
-	test.describe("[Negative]", () => {
+	test.describe("[Create Negative]", () => {
 		const requiredFields: (keyof ICustomer)[] = [
 			"city",
 			"country",
