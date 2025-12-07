@@ -1,11 +1,10 @@
 import { test as base, expect } from "@playwright/test";
-import { PlaywrightApiClient } from "api/core/requestApi";
 import { LoginApi } from "api/api/login.api";
 import { LoginService } from "api/services/login.service";
 import { ProductsApiService } from "api/services/products.service";
 import { CustomersApi } from "api/api/customers.api";
 import { CustomersApiService } from "api/services/customers.service";
-import { RequestApi } from "api/apiClients/requestApi";
+import { PlaywrightApiClient } from "api/core/requestApi";
 import { ProductsApi } from "api/api/product.api";
 
 export interface IApi {
@@ -23,7 +22,7 @@ export interface IApi {
 const test = base.extend<IApi>({
 	//api
 	productsApi: async ({ request }, use) => {
-		const apiClient = new RequestApi(request);
+		const apiClient = new PlaywrightApiClient(request);
 		const api = new ProductsApi(apiClient);
 		await use(api);
 	},

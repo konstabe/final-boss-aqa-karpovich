@@ -208,9 +208,8 @@ test.describe("[API] [Sales Portal] [Products] Get Sorted", () => {
 			{
 				tag: [TAGS.PRODUCTS],
 			},
-			async ({ productsApiService, productsApi, page }) => {
+			async ({ productsApiService, productsApi }) => {
 				const product1 = await productsApiService.create(token);
-				await page.waitForTimeout(1000);
 				const product2 = await productsApiService.create(token);
 
 				ids.push(product1._id, product2._id);

@@ -9,6 +9,10 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 	let id = "";
 	let token = "";
 
+	test.beforeEach(async ({ loginApiService }) => {
+		token = await loginApiService.loginAsAdmin();
+	});
+
 	test.afterEach(async ({ productsApiService }) => {
 		if (id) await productsApiService.delete(token, id);
 	});
@@ -17,10 +21,9 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 		test(
 			`${title}`,
 			{
-				tag: [TAGS.PRODUCTS],
+				tag: [TAGS.PRODUCTS, TAGS.SMOKE],
 			},
-			async ({ loginApiService, productsApi }) => {
-				token = await loginApiService.loginAsAdmin();
+			async ({ productsApi }) => {
 				const createdProduct = await productsApi.create(productData, token);
 				validateResponse(createdProduct, {
 					status: statusCode,

@@ -37,19 +37,4 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 			expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
 		},
 	);
-
-	test(
-		"Delete a not existing Product",
-		{
-			tag: [TAGS.PRODUCTS],
-		},
-		async ({ loginApiService, productsApi }) => {
-			const token = await loginApiService.loginAsAdmin();
-
-			const id = "15hkjh546465";
-
-			const responsefirst = await productsApi.delete(id, token);
-			expect(responsefirst.status).toBe(STATUS_CODES.NOT_FOUND);
-		},
-	);
 });

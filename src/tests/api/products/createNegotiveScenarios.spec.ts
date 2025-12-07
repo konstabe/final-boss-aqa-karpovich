@@ -20,14 +20,20 @@ test.describe("[API] [Sales Portal] [Products Negative test]", () => {
 	});
 
 	for (const { title, productData, successMessage, statusCode } of invalidTestDataForProduct) {
-		test(title, async ({ productsApi }) => {
-			const createdProduct = await productsApi.create(productData, token);
-			validateResponse(createdProduct, {
-				status: statusCode,
-				IsSuccess: false,
-				ErrorMessage: successMessage,
-			});
-		});
+		test(
+			title,
+			{
+				tag: [TAGS.PRODUCTS, TAGS.REGRESSION],
+			},
+			async ({ productsApi }) => {
+				const createdProduct = await productsApi.create(productData, token);
+				validateResponse(createdProduct, {
+					status: statusCode,
+					IsSuccess: false,
+					ErrorMessage: successMessage,
+				});
+			},
+		);
 	}
 
 	test(
