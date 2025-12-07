@@ -26,5 +26,4 @@ export function convertRequestParams<T extends Record<string, string | number | 
 	}
 
 	return `?${searchParams.toString()}`;
-	//test
 }
