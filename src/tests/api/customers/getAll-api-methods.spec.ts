@@ -1,7 +1,12 @@
+import { customerAllSchema, customerSchema } from "data/schemas/customers/customer.schema";
 import { STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";
+import { SortOrder } from "data/types/core.types";
+import { CustomersSortField } from "data/types/customer.types";
 import { expect, test } from "fixtures/api.fixture";
-import _ from "lodash";
+import { compareValues } from "utils/comprare.utils";
+import { validateResponse } from "utils/validation/validateResponse.utils";
+import { validateJsonSchema, registerSchema } from "utils/validation/validateSchema.utils";
 
 test.describe("Get customers all", () => {
 	let token = "";
@@ -20,26 +25,38 @@ test.describe("Get customers all", () => {
 		test("get list with created customer", { tag: TAGS.CUSTOMERS }, async ({ customersApiService }) => {
 			const response = await customersApiService.getAll(token);
 
-			expect(response.status).toBe(STATUS_CODES.OK);
-			expect(Array.isArray(response.body.Customers)).toBe(true);
-
-			const sample = response.body.Customers.find((c: any) => c._id === createdCustomer._id);
-			expect(_.omit(sample, ["_id", "createdOn"])).toMatchObject(_.omit(createdCustomer, ["_id", "createdOn"]));
+			registerSchema(customerSchema);
+			validateJsonSchema(response, customerAllSchema);
 
 			const exists = response.body.Customers.some((c: any) => c._id === createdCustomer._id);
 			expect(exists).toBe(true);
 		});
 
 		test("get sorted list", { tag: TAGS.CUSTOMERS }, async ({ customersApiService }) => {
-			const response = await customersApiService.getAll(token, { sortField: "email", sortOrder: "asc" });
+			const fields: CustomersSortField[] = ["email", "name", "country", "createdOn"];
+			const orders: SortOrder[] = ["asc", "desc"];
 
-			expect(response.status).toBe(STATUS_CODES.OK);
-			expect(Array.isArray(response.body.Customers)).toBe(true);
+			for (const field of fields) {
+				await test.step(`sort by ${field}`, async () => {
+					for (const order of orders) {
+						await test.step(`sort order ${order}`, async () => {
+							const response = await customersApiService.getAll(token, {
+								sortField: field,
+								sortOrder: order,
+							});
 
-			const emails = response.body.Customers.map((c: any) => c.email);
-			const sortedEmails = [...emails].sort((a, b) => a.localeCompare(b));
+							validateResponse(response, { status: STATUS_CODES.OK });
 
-			expect(emails).toEqual(sortedEmails);
+							const sorted = [...response.body.Customers].sort((a, b) => {
+								const base = compareValues(a[field], b[field]);
+								return order === "asc" ? base : -base;
+							});
+							console.log(response.body.Customers);
+							expect(response.body.Customers).toEqual(sorted);
+						});
+					}
+				});
+			}
 		});
 	});
 
