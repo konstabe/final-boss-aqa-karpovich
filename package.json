@@ -1,60 +1,63 @@
 {
-	"name": "sales-portal-api",
-	"version": "1.0.0",
-	"description": "test framework",
-	"scripts": {
-		"test": "npx playwright test",
-		"ui-mode": "npx playwright test --ui",
-		"lint": "eslint .",
-		"lint:fix": "eslint . --fix",
-		"prepare": "husky",
-		"allure:generate": "allure generate allure-results --clean",
-		"allure:open": "allure open",
-		"allure": "npm run allure:generate && npm run allure:open",
-		"format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
-	},
-	"lint-staged": {
-		"*.{js,ts,mjs,cjs}": [
-			"eslint --fix",
-			"prettier --write"
-		]
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/konstabe/final-boss-aqa-karpovich.git"
-	},
-	"keywords": [
-		"aqa"
-	],
-	"author": "good guys",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/konstabe/final-boss-aqa-karpovich/issues"
-	},
-	"homepage": "https://github.com/konstabe/final-boss-aqa-karpovich#readme",
-	"devDependencies": {
-		"@eslint/js": "^9.39.1",
-		"@playwright/test": "^1.57.0",
-		"@types/bson": "^4.0.5",
-		"@types/lodash": "^4.17.21",
-		"@types/node": "^24.10.1",
-		"@typescript-eslint/eslint-plugin": "^8.48.0",
-		"@typescript-eslint/parser": "^8.48.0",
-		"allure-playwright": "^3.4.2",
-		"eslint": "^9.39.1",
-		"eslint-config-prettier": "^10.1.8",
-		"eslint-plugin-prettier": "^5.5.4",
-		"husky": "^9.1.7",
-		"lint-staged": "^16.2.7",
-		"prettier": "^3.7.3",
-		"ts-node": "^10.9.2",
-		"typescript": "^5.9.3",
-		"typescript-eslint": "^8.48.0"
-	},
-	"dependencies": {
-		"@faker-js/faker": "^10.1.0",
-		"bson": "^7.0.0",
-		"dotenv": "^17.2.3",
-		"lodash": "^4.17.21"
-	}
+  "name": "sales-portal-api",
+  "version": "1.0.0",
+  "description": "test framework",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:api": "npm run test -- --project=sales-portal-api",
+    "ui-mode": "npx playwright test --ui",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open",
+    "allure-report": "allure generate allure-results -o allure-report --clean",
+    "allure": "npm run allure:generate && npm run allure:open"
+  },
+  "lint-staged": {
+    "*.{js,ts,mjs,cjs}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konstabe/final-boss-aqa-karpovich.git"
+  },
+  "keywords": [
+    "aqa"
+  ],
+  "author": "good guys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konstabe/final-boss-aqa-karpovich/issues"
+  },
+  "homepage": "https://github.com/konstabe/final-boss-aqa-karpovich#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@playwright/test": "^1.57.0",
+    "@types/lodash": "^4.17.21",
+    "@types/node": "^24.10.1",
+    "@types/node-telegram-bot-api": "^0.64.13",
+    "@typescript-eslint/eslint-plugin": "^8.48.0",
+    "@typescript-eslint/parser": "^8.48.0",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^3.4.2",
+    "bson": "^7.0.0",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.7.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.1.0",
+    "dotenv": "^17.2.3",
+    "lodash": "^4.17.21",
+    "node-telegram-bot-api": "^0.66.0"
+  }
 }
