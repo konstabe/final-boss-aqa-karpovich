@@ -1,3 +1,4 @@
+import { customerSearchSchema } from "data/schemas/customers/customer.schema";
 import { STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";
 import { expect, test } from "fixtures/api.fixture";
@@ -25,7 +26,7 @@ test.describe("[API] [Sales Portal] [Customers]", () => {
 			status: STATUS_CODES.OK,
 			IsSuccess: true,
 			ErrorMessage: null,
-			//schema: createCustomerSchema,
+			schema: customerSearchSchema,
 		});
 		const { limit, search, country, total, page, sorting } = response.body;
 

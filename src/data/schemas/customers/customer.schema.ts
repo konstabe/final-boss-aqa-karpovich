@@ -1,4 +1,5 @@
 import { COUNTRIES } from "data/customers/countries";
+import { obligatoryFieldsSchema, obligatoryRequiredFields } from "../core.schema";
 
 export const customerSchema = {
 	type: "object",
@@ -19,5 +20,42 @@ export const customerSchema = {
 		notes: { type: "string" },
 	},
 	required: ["_id", "email", "name", "country", "city", "street", "house", "flat", "phone", "createdOn"],
+	additionalProperties: false,
+};
+
+export const customerSearchSchema = {
+	type: "object",
+	properties: {
+		Customers: {
+			type: "array",
+			items: customerSchema,
+		},
+
+		total: { type: "number" },
+		page: { type: "number" },
+		limit: { type: "number" },
+		search: { type: "string" },
+
+		country: {
+			type: "array",
+			items: {
+				type: "string",
+				enum: Object.values(COUNTRIES),
+			},
+		},
+
+		sorting: {
+			type: "object",
+			properties: {
+				sortField: { type: "string" },
+				sortOrder: { type: "string", enum: ["asc", "desc"] },
+			},
+			required: ["sortField", "sortOrder"],
+			additionalProperties: false,
+		},
+		...obligatoryFieldsSchema,
+	},
+
+	required: ["Customers", "total", "page", "limit", "search", "country", "sorting", ...obligatoryRequiredFields],
 	additionalProperties: false,
 };
