@@ -62,4 +62,18 @@ export class OrdersApi {
 
 		return await this.apiClient.send<null>(options);
 	}
+
+	async assignManagerToOrder(orderId: string, managerId: string, token: string) {
+		const options: IRequestOptions = {
+			baseURL: apiConfig.baseUrl!,
+			url: apiConfig.endpoints.assignManagerToOrder(orderId, managerId),
+			method: "put",
+			headers: {
+				"content-type": "application/json",
+				Authorization: `Bearer ${token}`,
+			},
+		};
+
+		return await this.apiClient.send<IOrderResponse>(options);
+	}
 }
