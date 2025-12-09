@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 16:52:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-lSQqoA5Mg3jn8oyClDaU/W8t+C0\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693853ba1c508c5d5e9cfdd9",
+        "email": "Favian99@gmail.com",
+        "name": "Garrick Wisoky",
+        "country": "Russia",
+        "city": "East Einar",
+        "street": "Russell Street",
+        "house": 44,
+        "flat": 218,
+        "phone": "+17488771067",
+        "createdOn": "2025-12-09T16:52:10.000Z",
+        "notes": "XNrRhwutxP9HToVba9YO86fHR35B0tlKCkInbWH2mKx8W0KVyQuuuQfbTWkX2tzxVG5oMQC74xVIpPWQxz70dTHM1Wh55ygqDoyhQNVwX4Bw6LZ3UIpJlD34CMLhyGt93KwkV0bMKbodRfyBfyAcRcCmxfekAxbZStqthstZAahZhsw3jO6yjlx6pb2hCpyoE5XVPnEgUsGYYpxNrLcNA22iYd7HUICG43xuDtFfBysoSTP86iat5VUuSe"
+      },
+      "products": [
+        {
+          "_id": "693853ba1c508c5d5e9cfdde",
+          "name": "Cheese29100",
+          "amount": 386,
+          "price": 26678,
+          "manufacturer": "Microsoft",
+          "notes": "pyyIHd0kS5X0alALOErDPHjCGJvdShi9lP7D6MaE1iAZn4CUvyWGujcvhCLdryCZxV29Trh95BUlPghJuclFQdDrp8eO7oZR8mOfIGOrzZ292kBVCKqAeNSCxnp8KGcdkVjgzYViMwnU0tzY9OFOj4rgcFpbMxrs0AundHzusjFx33uBOkeYUNvI4q3422wTjgP6J2ttBurZEXYQIi5CgHtp6SYsfPZeyfWAvrgRDe70TFt8WazgCzKx7Z",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 26678,
+      "createdOn": "2025-12-09T16:52:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693853ba1c508c5d5e9cfdd9",
+          "products": [
+            {
+              "_id": "693853ba1c508c5d5e9cfdde",
+              "name": "Cheese29100",
+              "amount": 386,
+              "price": 26678,
+              "manufacturer": "Microsoft",
+              "notes": "pyyIHd0kS5X0alALOErDPHjCGJvdShi9lP7D6MaE1iAZn4CUvyWGujcvhCLdryCZxV29Trh95BUlPghJuclFQdDrp8eO7oZR8mOfIGOrzZ292kBVCKqAeNSCxnp8KGcdkVjgzYViMwnU0tzY9OFOj4rgcFpbMxrs0AundHzusjFx33uBOkeYUNvI4q3422wTjgP6J2ttBurZEXYQIi5CgHtp6SYsfPZeyfWAvrgRDe70TFt8WazgCzKx7Z",
+              "received": false
+            }
+          ],
+          "total_price": 26678,
+          "delivery": null,
+          "changedOn": "2025-12-09T16:52:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693853ba1c508c5d5e9cfde6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

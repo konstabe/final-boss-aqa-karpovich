@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 16:52:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-zMM2bRG80YPBaDYXpl2BKJTCHno\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693853b61c508c5d5e9cfd75",
+        "email": "Adele18@yahoo.com",
+        "name": "Fern Ankunding",
+        "country": "Belarus",
+        "city": "East Deven",
+        "street": "Fred Parkways",
+        "house": 2,
+        "flat": 116,
+        "phone": "+17662729532",
+        "createdOn": "2025-12-09T16:52:06.000Z",
+        "notes": "SPVOOMhsLATZtNohPnA8Hn71n7Xcu6iZJWo507Z9nrra5Ak0twMPkdHnxKia3Ivc8PIlZwb0YtmZvPvcs3QJg75VbzosSZkJDSIFU03ekwrl4v6Fg4rtN0fRq1oXf1kSBHmFBXyPGyvSESJqhVLYiPORx5FLGt5ZTPAXG0CxvT27cRKpwWrUPeAYHoJAqjdRvsyE8QsVQzFF9Ry2l20h9Y856RPRzaoIoUE2GmHsGQWCeiFl72XJoxZKhG"
+      },
+      "products": [
+        {
+          "_id": "693853b61c508c5d5e9cfd7a",
+          "name": "Gloves93175",
+          "amount": 589,
+          "price": 98441,
+          "manufacturer": "Amazon",
+          "notes": "rXtvu1v7tpUjqmYlXLukmBwomg3PHqbCzOYmcn5UAi3BTtBcd4LCeROzPZRZQD6QXqvomsCDSBsApciFd1IYu7eq7DafylhfgClsNHlX5aaW1gLXK7biaRjzkGrNEo2N2X1H9B28eNUkqTqkNj3B8N8vMfPkIpu9DVJK9JWbKVyrp7lbADrqKB1CHR83I9RxsbvqqT4DLQI0RbUOo5OGZy7iGHttKOL9daR8tIPICORoTRwgFJsHtY1WJ7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98441,
+      "createdOn": "2025-12-09T16:52:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693853b61c508c5d5e9cfd75",
+          "products": [
+            {
+              "_id": "693853b61c508c5d5e9cfd7a",
+              "name": "Gloves93175",
+              "amount": 589,
+              "price": 98441,
+              "manufacturer": "Amazon",
+              "notes": "rXtvu1v7tpUjqmYlXLukmBwomg3PHqbCzOYmcn5UAi3BTtBcd4LCeROzPZRZQD6QXqvomsCDSBsApciFd1IYu7eq7DafylhfgClsNHlX5aaW1gLXK7biaRjzkGrNEo2N2X1H9B28eNUkqTqkNj3B8N8vMfPkIpu9DVJK9JWbKVyrp7lbADrqKB1CHR83I9RxsbvqqT4DLQI0RbUOo5OGZy7iGHttKOL9daR8tIPICORoTRwgFJsHtY1WJ7",
+              "received": false
+            }
+          ],
+          "total_price": 98441,
+          "delivery": null,
+          "changedOn": "2025-12-09T16:52:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693853b61c508c5d5e9cfd82"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

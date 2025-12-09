@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 16:52:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-CdXvc5gx1DFOUKLygT2ckY+l5OM\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693853b71c508c5d5e9cfd95",
+      "status": "Draft",
+      "customer": {
+        "_id": "693853b71c508c5d5e9cfd88",
+        "email": "Ezequiel.Donnelly@yahoo.com",
+        "name": "Melba Dibbert",
+        "country": "Germany",
+        "city": "Priceville",
+        "street": "Jacobson Harbors",
+        "house": 30,
+        "flat": 397,
+        "phone": "+14256753451",
+        "createdOn": "2025-12-09T16:52:07.000Z",
+        "notes": "kzL1tJ8aPnv37HRHBQYTQSpZuGIJcfIb59rwbd9NwIwcjLSv5T6nKP8TjlSmfmVJERdFV7bCtFw0aqIuNFRl7YPUo0wy9yPwmvg5LChG1KdcR20tFU0HwF7O8xSAdvw9RUJ7pueywfz0qGUeKDPKUqlb8J8lfRNuAnIzsemNy8om3R6g8KeQoDWlBkzdXqz6KLFlN9zkug9SJgNCPt70DQbdTemgiNoyzsQy6VOMeirIutZp43y4KHx1xv"
+      },
+      "products": [
+        {
+          "_id": "693853b71c508c5d5e9cfd8d",
+          "name": "Fish34407",
+          "amount": 581,
+          "price": 40419,
+          "manufacturer": "Amazon",
+          "notes": "LQttWvVTISRWkDhQt9MIbAHs9pxvb8pKePnd09bpnlMvbvQ6rDWlZljXJpcKFYaRx7lTkzhuCUSrLzOuSFIuIFHhT38cCBtpn5TVNoeeYo1zVgmpJ1mH3h5AOoXfCddKaGlppO7JgQ1FbJ7xxr707S7shK29hz0BBwwcNRn0KnNbtZsT9dzAlEWCgsvoJ8I6leNUCbzdjBBi71Ha8gzdp7VSJuZqB21hbw7hMiUwvfeV3YvjEpCeaKRlVp",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 40419,
+      "createdOn": "2025-12-09T16:52:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693853b71c508c5d5e9cfd88",
+          "products": [
+            {
+              "_id": "693853b71c508c5d5e9cfd8d",
+              "name": "Fish34407",
+              "amount": 581,
+              "price": 40419,
+              "manufacturer": "Amazon",
+              "notes": "LQttWvVTISRWkDhQt9MIbAHs9pxvb8pKePnd09bpnlMvbvQ6rDWlZljXJpcKFYaRx7lTkzhuCUSrLzOuSFIuIFHhT38cCBtpn5TVNoeeYo1zVgmpJ1mH3h5AOoXfCddKaGlppO7JgQ1FbJ7xxr707S7shK29hz0BBwwcNRn0KnNbtZsT9dzAlEWCgsvoJ8I6leNUCbzdjBBi71Ha8gzdp7VSJuZqB21hbw7hMiUwvfeV3YvjEpCeaKRlVp",
+              "received": false
+            }
+          ],
+          "total_price": 40419,
+          "delivery": null,
+          "changedOn": "2025-12-09T16:52:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
