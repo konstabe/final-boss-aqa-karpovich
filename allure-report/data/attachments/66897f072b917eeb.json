@@ -1,0 +1,140 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 18:06:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3786",
+    "etag": "W/\"eca-94P07rWvXEKbdQz+e1qVSkiW3Pc\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693865201c508c5d5e9d729b",
+      "status": "Draft",
+      "customer": {
+        "_id": "693865201c508c5d5e9d727c",
+        "email": "Nola33@yahoo.com",
+        "name": "Bernita Rowe",
+        "country": "Russia",
+        "city": "South Reginald",
+        "street": "Raphaelle Dam",
+        "house": 27,
+        "flat": 997,
+        "phone": "+13112237165",
+        "createdOn": "2025-12-09T18:06:24.000Z",
+        "notes": "EsTKCJE6omhT84GS3lI88LIjE9LCDnQ2KWhRnEe3N97VhpjOVR6dLA2lWIeV3D5o0fyliAk9saCWukx83637swlvtEHkW6TRRkrWASjmv3rnkgbKS3FRhELtqIw2TV0rbzxJPS3f5hfIoeZBPyGA6SCJ4Hth0KLDAS5X6e0mF4Ld9EAFDdWUil2jYHgabNZzlj6ZUXFj0pmspTIjQWxrMoKBhAEwuC7LIx5k3dnqX30xLBm3lIS9REvEDQ"
+      },
+      "products": [
+        {
+          "_id": "693865201c508c5d5e9d7289",
+          "name": "Chips20116",
+          "amount": 645,
+          "price": 13995,
+          "manufacturer": "Sony",
+          "notes": "ImacVkn5l0vlSsqQMqCqhVRdvDgTb0prdAUTMBEREjWumYAX5sQQCXq7deHJANRJfQhoFxyBR8SAAlXdlrxd841daKvmJaYbKBgllpTronPOybEOlGeGaJAq4ybkrnlOvzNsnjerfpKomgfbhaMYiRLhRDNvs0vVWTqYGB1zMeGUHrn6yydJUV8T196j50rSaTv8mbiDIXgMDUmuYJn0Y2Fd0hnuU31CQkVbNW3quTHuuP01tOj1AvXYTX",
+          "received": false
+        },
+        {
+          "_id": "693865201c508c5d5e9d7291",
+          "name": "Shoes47002",
+          "amount": 263,
+          "price": 9938,
+          "manufacturer": "Google",
+          "notes": "kX8Qitwbf7arFfljJT2iBX59rzQlE1tnLirXuaSxLNe91zE2wo7xOMXHKszJwPuWk5SMBNRlBWwjgdlwMUsLMA2AJ1Oo7BQ2I4bsndfJzDru7N3d3iuXtjzqbIBUeWdNAQnupLaW9BVS86SuaoOfTu7Et5lpophI3F5kjqIY9KyqqTu0wZ9FBuLZZc2190Vh41vz9zkwSKPhmWN2wXU6kPomLS6N3craoTrwwZMdwbfomHkPhDQgOCIhEi",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 23933,
+      "createdOn": "2025-12-09T18:06:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693865201c508c5d5e9d727c",
+          "products": [
+            {
+              "_id": "693865201c508c5d5e9d7289",
+              "name": "Chips20116",
+              "amount": 645,
+              "price": 13995,
+              "manufacturer": "Sony",
+              "notes": "ImacVkn5l0vlSsqQMqCqhVRdvDgTb0prdAUTMBEREjWumYAX5sQQCXq7deHJANRJfQhoFxyBR8SAAlXdlrxd841daKvmJaYbKBgllpTronPOybEOlGeGaJAq4ybkrnlOvzNsnjerfpKomgfbhaMYiRLhRDNvs0vVWTqYGB1zMeGUHrn6yydJUV8T196j50rSaTv8mbiDIXgMDUmuYJn0Y2Fd0hnuU31CQkVbNW3quTHuuP01tOj1AvXYTX",
+              "received": false
+            },
+            {
+              "_id": "693865201c508c5d5e9d7291",
+              "name": "Shoes47002",
+              "amount": 263,
+              "price": 9938,
+              "manufacturer": "Google",
+              "notes": "kX8Qitwbf7arFfljJT2iBX59rzQlE1tnLirXuaSxLNe91zE2wo7xOMXHKszJwPuWk5SMBNRlBWwjgdlwMUsLMA2AJ1Oo7BQ2I4bsndfJzDru7N3d3iuXtjzqbIBUeWdNAQnupLaW9BVS86SuaoOfTu7Et5lpophI3F5kjqIY9KyqqTu0wZ9FBuLZZc2190Vh41vz9zkwSKPhmWN2wXU6kPomLS6N3craoTrwwZMdwbfomHkPhDQgOCIhEi",
+              "received": false
+            }
+          ],
+          "total_price": 23933,
+          "delivery": null,
+          "changedOn": "2025-12-09T18:06:24.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693865201c508c5d5e9d727c",
+          "products": [
+            {
+              "_id": "693865201c508c5d5e9d7284",
+              "name": "Bacon77137",
+              "amount": 611,
+              "price": 17364,
+              "manufacturer": "Sony",
+              "notes": "Tgn2PjUhQvvBSSg0h7HTxtwzVQJB6KdTBCAlotIdUlUcG5FLNKqUM602ypUcjJP1sS5GGd3SWQCfyOiBkqWiYgoJA0icA3WfikkwfPkeVgUPb0CE9gtM91ab8JkApOJMSu2RFc2ouA5au8WgyhbKCovYrVjBJ3Vz5ACTheznbpJY6VYoUHjAmcMEKigrFNagX5l9oJ02AIE97DzxK6DhGeQ7JiC1JGutwkp2lI8DDK7NHLZ2J3lMTwdPyZ",
+              "received": false
+            },
+            {
+              "_id": "693865201c508c5d5e9d7289",
+              "name": "Chips20116",
+              "amount": 645,
+              "price": 13995,
+              "manufacturer": "Sony",
+              "notes": "ImacVkn5l0vlSsqQMqCqhVRdvDgTb0prdAUTMBEREjWumYAX5sQQCXq7deHJANRJfQhoFxyBR8SAAlXdlrxd841daKvmJaYbKBgllpTronPOybEOlGeGaJAq4ybkrnlOvzNsnjerfpKomgfbhaMYiRLhRDNvs0vVWTqYGB1zMeGUHrn6yydJUV8T196j50rSaTv8mbiDIXgMDUmuYJn0Y2Fd0hnuU31CQkVbNW3quTHuuP01tOj1AvXYTX",
+              "received": false
+            }
+          ],
+          "total_price": 31359,
+          "delivery": null,
+          "changedOn": "2025-12-09T18:06:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
