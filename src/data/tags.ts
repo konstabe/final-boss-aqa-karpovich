@@ -3,4 +3,7 @@ export enum TAGS {
 	REGRESSION = "@regression",
 	PRODUCTS = "@product",
 	CUSTOMERS = "@customer",
+	UI = "@ui",
+	API = "@api",
+	NEGATIVE = "@negative",
 }
