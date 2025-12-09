@@ -12,9 +12,9 @@ export function validateResponse<T extends IResponseFields | null>(
 	},
 ) {
 	expect.soft(response.status, `Status code should be ${response.status}`).toBe(expected.status);
-	if (expected.IsSuccess)
+	if ("IsSuccess" in expected)
 		expect.soft(response.body!.IsSuccess, `IsSuccess should be ${expected.IsSuccess}`).toBe(expected.IsSuccess);
-	if (expected.ErrorMessage)
+	if ("ErrorMessage" in expected)
 		expect
 			.soft(response.body!.ErrorMessage, `ErrorMessage should be ${expected.ErrorMessage}`)
 			.toBe(expected.ErrorMessage);
