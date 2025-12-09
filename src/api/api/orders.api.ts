@@ -76,4 +76,33 @@ export class OrdersApi {
 
 		return await this.apiClient.send<IOrderResponse>(options);
 	}
+
+	async unAssignManagerToOrder(orderId: string, token: string) {
+		const options: IRequestOptions = {
+			baseURL: apiConfig.baseUrl!,
+			url: apiConfig.endpoints.unAssignManagerToOrder(orderId),
+			method: "put",
+			headers: {
+				"content-type": "application/json",
+				Authorization: `Bearer ${token}`,
+			},
+		};
+
+		return await this.apiClient.send<IOrderResponse>(options);
+	}
+
+	async addCommentToOrder(orderId: string, newComment: string, token: string) {
+		const options: IRequestOptions = {
+			baseURL: apiConfig.baseUrl!,
+			url: apiConfig.endpoints.addCommentToOrder(orderId),
+			method: "post",
+			headers: {
+				"content-type": "application/json",
+				Authorization: `Bearer ${token}`,
+			},
+			data: { comment: newComment },
+		};
+
+		return await this.apiClient.send<IOrderResponse>(options);
+	}
 }
