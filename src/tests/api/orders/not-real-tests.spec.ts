@@ -130,4 +130,46 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 			ErrorMessage: null,
 		});
 	});
+
+	test("Unassign Manager To Order", async ({ customersApiService, productsApiService, ordersApi }) => {
+		const customer = await customersApiService.create(token);
+		customersId.push(customer._id);
+		const product = await productsApiService.create(token);
+		productsId.push(product._id);
+
+		const order: IOrder = {
+			customer: customer._id,
+			products: [product._id],
+		};
+		const createdOrder = await ordersApi.create(order, token);
+		const userId = "692337cd1c508c5d5e953327";
+		await ordersApi.assignManagerToOrder(createdOrder.body.Order._id, userId, token);
+		const unAssignResp = await ordersApi.unAssignManagerToOrder(createdOrder.body.Order._id, token);
+		validateResponse(unAssignResp, {
+			status: STATUS_CODES.OK,
+
+			IsSuccess: true,
+			ErrorMessage: null,
+		});
+	});
+
+	test("Add Comment to Order", async ({ customersApiService, productsApiService, ordersApi }) => {
+		const customer = await customersApiService.create(token);
+		customersId.push(customer._id);
+		const product = await productsApiService.create(token);
+		productsId.push(product._id);
+
+		const order: IOrder = {
+			customer: customer._id,
+			products: [product._id],
+		};
+		const createdOrder = await ordersApi.create(order, token);
+		const response = await ordersApi.addCommentToOrder(createdOrder.body.Order._id, "jljklkl", token);
+		validateResponse(response, {
+			status: STATUS_CODES.OK,
+
+			IsSuccess: true,
+			ErrorMessage: null,
+		});
+	});
 });

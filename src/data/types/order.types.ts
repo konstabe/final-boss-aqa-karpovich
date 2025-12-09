@@ -1,7 +1,7 @@
 import { ICreatedOn, ID, IResponseFields } from "./core.types";
 import { ICustomer, ICustomerFromResponse } from "./customer.types";
 import { IProductForOrder } from "./product.types";
-import { OrderStates } from "data/orderStates";
+import { ORDER_HISTORY_ACTIONS } from "data/orderHistoryActions";
 import { ROLE } from "data/roles";
 
 export interface IOrder {
@@ -36,10 +36,12 @@ export interface IOrderPerformer extends ID, ICreatedOn {
 	roles: ROLE[];
 }
 
-export interface IOrderHistory extends IOrderBase {
+export interface IOrderHistory extends Omit<IOrderBase, "customer"> {
+	customer: string;
 	changedOn: string;
-	action: OrderStates[];
-	performer: IOrderPerformer;
+	action: ORDER_HISTORY_ACTIONS;
+	performer: IOrderPerformer | null;
+	assignedManager: IOrderPerformer | null;
 }
 
 export interface IComments extends ID, ICreatedOn {

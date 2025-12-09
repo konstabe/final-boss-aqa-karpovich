@@ -15,5 +15,7 @@ export const apiConfig = {
 		orderById: (id: string) => `/api/orders/${id}`,
 		assignManagerToOrder: (orderId: string, managerId: string) =>
 			`/api/orders/${orderId}/assign-manager/${managerId}`,
+		unAssignManagerToOrder: (orderId: string) => `/api/orders/${orderId}/unassign-manager`,
+		addCommentToOrder: (orderId: string) => `/api/orders/${orderId}/comments`,
 	},
 };
