@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 18:06:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2653",
+    "etag": "W/\"a5d-EpCUbTliBLrRFxMUsRkiigvrHmY\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693865191c508c5d5e9d70a3",
+        "email": "Juwan.Cormier@yahoo.com",
+        "name": "Ella Cartwright",
+        "country": "Germany",
+        "city": "Mertiefurt",
+        "street": "N 8th Street",
+        "house": 35,
+        "flat": 134,
+        "phone": "+15003185474",
+        "createdOn": "2025-12-09T18:06:17.000Z",
+        "notes": "UGRhoK6W13yY0RmPhu5XvhRHJWuxhPHPlVFqhjRssGaJxcCfIlcJAFHSJA4AQPIdk845bdwoqAZPm5egghztijQu4qJGXp3knPM8Z1uQeaXYsXAAhr79W5WaZllif9XQ1PpKS87t44xX42e6UMuw71VaON9FF3Cx8lAe93Elazn7jWw2U8AvOWABe2xp8THoA08vD0kVNditUEbaYId4KAl7WdkSYUJtC67dmcvmnEZZMgZajgY4g9ebid"
+      },
+      "products": [
+        {
+          "_id": "693865191c508c5d5e9d70aa",
+          "name": "Bike23175",
+          "amount": 921,
+          "price": 23960,
+          "manufacturer": "Amazon",
+          "notes": "qNJ2rHKHPqF5xMHHhYmhXJRmQyWvS7ChFUUaGxpNNTrXZ2UlSc0KU453zE9CtLigBnvBVIoLvZWW2ppfKfSciMi7OKx6HBphyvMmdPpwvEB1rEDjoJ03gDKtkD1RcAQAAdLNEk4IzJltFNuDX2b2Maljn1iohlp123wPt7FP32uHG5PvqVyn0kZTiaVWTzChkKfqFVZp2XLSYmkjTR9wa256IdCW8QX0fK9n4dZbT9qWvey4OeDT8dAB8k",
+          "received": false
+        },
+        {
+          "_id": "693865191c508c5d5e9d70af",
+          "name": "Gloves82443",
+          "amount": 916,
+          "price": 51923,
+          "manufacturer": "Google",
+          "notes": "pMuADrcOuzU5kBNYQKu6SMzx9JQcNgIijhaWLHLNcWpxWj0BFTJza7pYblgKwAN7BJeq7gJPzJxA5iLGWer7NTPZfy0blY9AuGEtyBzCdUNMWQX87R4eTgJhnkmVh9Tnlta4kMsiBcI3Ho6nil0QmJan6Q5BL463XtG64seE8n1IOBGDGYTUYDIQqZBZpCgcgkMSjsr8KNC2eunXzpkDHokFJVanZyh3XO0jKEjOj3Vj1tOXkdPM3qQpx6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 75883,
+      "createdOn": "2025-12-09T18:06:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693865191c508c5d5e9d70a3",
+          "products": [
+            {
+              "_id": "693865191c508c5d5e9d70aa",
+              "name": "Bike23175",
+              "amount": 921,
+              "price": 23960,
+              "manufacturer": "Amazon",
+              "notes": "qNJ2rHKHPqF5xMHHhYmhXJRmQyWvS7ChFUUaGxpNNTrXZ2UlSc0KU453zE9CtLigBnvBVIoLvZWW2ppfKfSciMi7OKx6HBphyvMmdPpwvEB1rEDjoJ03gDKtkD1RcAQAAdLNEk4IzJltFNuDX2b2Maljn1iohlp123wPt7FP32uHG5PvqVyn0kZTiaVWTzChkKfqFVZp2XLSYmkjTR9wa256IdCW8QX0fK9n4dZbT9qWvey4OeDT8dAB8k",
+              "received": false
+            },
+            {
+              "_id": "693865191c508c5d5e9d70af",
+              "name": "Gloves82443",
+              "amount": 916,
+              "price": 51923,
+              "manufacturer": "Google",
+              "notes": "pMuADrcOuzU5kBNYQKu6SMzx9JQcNgIijhaWLHLNcWpxWj0BFTJza7pYblgKwAN7BJeq7gJPzJxA5iLGWer7NTPZfy0blY9AuGEtyBzCdUNMWQX87R4eTgJhnkmVh9Tnlta4kMsiBcI3Ho6nil0QmJan6Q5BL463XtG64seE8n1IOBGDGYTUYDIQqZBZpCgcgkMSjsr8KNC2eunXzpkDHokFJVanZyh3XO0jKEjOj3Vj1tOXkdPM3qQpx6",
+              "received": false
+            }
+          ],
+          "total_price": 75883,
+          "delivery": null,
+          "changedOn": "2025-12-09T18:06:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6938651a1c508c5d5e9d70c0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

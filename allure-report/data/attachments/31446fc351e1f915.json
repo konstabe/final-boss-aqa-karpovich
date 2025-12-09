@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 18:06:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-0D2+JLezR6kRtn8f42BwJ371xLE\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6938651a1c508c5d5e9d70da",
+        "email": "Anissa8@hotmail.com",
+        "name": "Colby Dibbert",
+        "country": "France",
+        "city": "Schummshire",
+        "street": "Aracely Terrace",
+        "house": 40,
+        "flat": 151,
+        "phone": "+13933874472",
+        "createdOn": "2025-12-09T18:06:18.000Z",
+        "notes": "IHG3ZySTyxqZLMxlrmwdtZmTQkpZhyG9sNJxtPqDaxgZ10Fvywtm0RvIWrE6KE6CbCGALwPdVKtnC17n6yIbiFLjHrxN11NhWiLLnxY0SQtrRc5hd1zNJEbYuuPrCSgGcocEjweeuXQuCJONfMo1zuL6haGz2a2CIO4jyPemauP5pecBKMwE6fwTVybYFMNhQ7e31SJCrCwV7ioP2H4My3Mimfr4fzHaCqh5mbr11cIfTMPbbPJG6WwNnO"
+      },
+      "products": [
+        {
+          "_id": "6938651a1c508c5d5e9d70e8",
+          "name": "Gloves85579",
+          "amount": 208,
+          "price": 86382,
+          "manufacturer": "Microsoft",
+          "notes": "F6wRQ1DVGFAYzHZmiR5Pp9kgqfckvwpfdl7ppSkhpGbdkiKuPG5lNTllYGkTjNTw4lharZtPpeIwSLRJi0ZnTsolxh1ytWjcFldv8JQ8ElXeuUPzNIXVTqrXtIF7rjALR6HivbzhyI0LYkpd7e8KLnKavIs82qzlWsi34dwdErDHnnEYmiOuWPzR3B3EVqVPHkE5KPlhGGtqr5dmhe7PWxAayK7Q4utYZrXUl1ScSpfUizzb552JpVqUVt",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 86382,
+      "createdOn": "2025-12-09T18:06:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6938651a1c508c5d5e9d70da",
+          "products": [
+            {
+              "_id": "6938651a1c508c5d5e9d70e8",
+              "name": "Gloves85579",
+              "amount": 208,
+              "price": 86382,
+              "manufacturer": "Microsoft",
+              "notes": "F6wRQ1DVGFAYzHZmiR5Pp9kgqfckvwpfdl7ppSkhpGbdkiKuPG5lNTllYGkTjNTw4lharZtPpeIwSLRJi0ZnTsolxh1ytWjcFldv8JQ8ElXeuUPzNIXVTqrXtIF7rjALR6HivbzhyI0LYkpd7e8KLnKavIs82qzlWsi34dwdErDHnnEYmiOuWPzR3B3EVqVPHkE5KPlhGGtqr5dmhe7PWxAayK7Q4utYZrXUl1ScSpfUizzb552JpVqUVt",
+              "received": false
+            }
+          ],
+          "total_price": 86382,
+          "delivery": null,
+          "changedOn": "2025-12-09T18:06:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6938651a1c508c5d5e9d70f8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
