@@ -1,6 +1,5 @@
 import { generateCustomerData } from "data/customers/generateCustomerData";
 import { ERROR_MESSAGES, NOTIFICATIONS } from "data/notifications";
-import { errorSchema } from "data/schemas/core.schema";
 import { createCustomerSchema } from "data/schemas/customers/create.schema";
 import { STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";

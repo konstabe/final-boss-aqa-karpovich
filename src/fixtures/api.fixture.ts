@@ -6,12 +6,14 @@ import { LoginService } from "api/services/login.service";
 import { CustomersApi } from "api/api/customers.api";
 import { CustomersApiService } from "api/services/customers.service";
 import { PlaywrightApiClient } from "api/core/requestApi";
+import { OrdersApi } from "api/api/orders.api";
 
 export interface IApi {
 	// api
 	productsApi: ProductsApi;
 	loginApi: LoginApi;
 	customersApi: CustomersApi;
+	ordersApi: OrdersApi;
 
 	//services
 	productsApiService: ProductsApiService;
@@ -36,6 +38,12 @@ const test = base.extend<IApi>({
 	customersApi: async ({ request }, use) => {
 		const apiClient = new PlaywrightApiClient(request);
 		const api = new CustomersApi(apiClient);
+		await use(api);
+	},
+
+	ordersApi: async ({ request }, use) => {
+		const apiClient = new PlaywrightApiClient(request);
+		const api = new OrdersApi(apiClient);
 		await use(api);
 	},
 

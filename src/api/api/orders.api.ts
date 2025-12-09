@@ -19,4 +19,33 @@ export class OrdersApi {
 
 		return await this.apiClient.send<IOrderResponse>(options);
 	}
+
+	async getById(id: string, token: string) {
+		const options: IRequestOptions = {
+			baseURL: apiConfig.baseUrl!,
+			url: apiConfig.endpoints.orderById(id),
+			method: "get",
+			headers: {
+				"content-type": "application/json",
+				Authorization: `Bearer ${token}`,
+			},
+		};
+
+		return await this.apiClient.send<IOrderResponse>(options);
+	}
+
+	async update(id: string, newOrder: IOrder, token: string) {
+		const options: IRequestOptions = {
+			baseURL: apiConfig.baseUrl!,
+			url: apiConfig.endpoints.orderById(id),
+			method: "put",
+			headers: {
+				"content-type": "application/json",
+				Authorization: `Bearer ${token}`,
+			},
+			data: newOrder,
+		};
+
+		return await this.apiClient.send<IOrderResponse>(options);
+	}
 }
