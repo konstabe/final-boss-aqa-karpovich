@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 16:26:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-qoeechIvICXgHOyfjcQj6YpOecY\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69384dad1c508c5d5e9cdc91",
+        "email": "Keaton.Cronin@hotmail.com",
+        "name": "Catharine Orn",
+        "country": "Ukraine",
+        "city": "Lake Willow",
+        "street": "S 4th Street",
+        "house": 43,
+        "flat": 740,
+        "phone": "+16626497821",
+        "createdOn": "2025-12-09T16:26:21.000Z",
+        "notes": "JPrPxriZ0rqzhYUYmOLtZ4oxogVKwLWHS932cMP0uAEFku9m3yLq3wKyiom14m0Kb2zZh6abyXgGivh2qY0dQpyKrDsnjW8AldMfJZo5KgSdepRknLWNIGXaObLT38nQWBvkz3YrkgkKIrdbSLO55f1c1pfSDxS8eqUnnFr4hjq1jh8X3vn2UlC8hSfHP1BTYYWFGBwGsm04rLMB5Z2kCCI1Z5IAoLVZdqdy8SdfRlD0SMyVHT9PD5VjG3"
+      },
+      "products": [
+        {
+          "_id": "69384dad1c508c5d5e9cdc96",
+          "name": "Soap29490",
+          "amount": 393,
+          "price": 45844,
+          "manufacturer": "Xiaomi",
+          "notes": "j3HmXSlVJw3B4tZLvPE2pJJASRBZmIXGoIAwSZazLILjsCdileGsp5oQacomwn17V1PnB781jws3o5oEq34cyxJfZNEjcDSqqoxZF6maM3vYIemH1Q8Y009xXv6ZZCLzUHU0qPHjC53iMYq6EW3ADlCfPDdoJVdwviQtsV9p5qZG3PRoORgDbaJQESsLJAZu9IqJWNoLH7v8rL1rcdPtvgrl8CFmRilGykPwmiCT8YQYZtt2QIlc7WAR9X",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 45844,
+      "createdOn": "2025-12-09T16:26:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69384dad1c508c5d5e9cdc91",
+          "products": [
+            {
+              "_id": "69384dad1c508c5d5e9cdc96",
+              "name": "Soap29490",
+              "amount": 393,
+              "price": 45844,
+              "manufacturer": "Xiaomi",
+              "notes": "j3HmXSlVJw3B4tZLvPE2pJJASRBZmIXGoIAwSZazLILjsCdileGsp5oQacomwn17V1PnB781jws3o5oEq34cyxJfZNEjcDSqqoxZF6maM3vYIemH1Q8Y009xXv6ZZCLzUHU0qPHjC53iMYq6EW3ADlCfPDdoJVdwviQtsV9p5qZG3PRoORgDbaJQESsLJAZu9IqJWNoLH7v8rL1rcdPtvgrl8CFmRilGykPwmiCT8YQYZtt2QIlc7WAR9X",
+              "received": false
+            }
+          ],
+          "total_price": 45844,
+          "delivery": null,
+          "changedOn": "2025-12-09T16:26:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69384dad1c508c5d5e9cdc9e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

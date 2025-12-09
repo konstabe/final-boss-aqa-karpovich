@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 16:26:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-tAcv1Xe14mN7YCtQBLC9TmpPavg\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69384dab1c508c5d5e9cdc47",
+        "email": "Dameon61@yahoo.com",
+        "name": "Dovie Cartwright",
+        "country": "France",
+        "city": "Fort Annalisecester",
+        "street": "Long Lane",
+        "house": 47,
+        "flat": 324,
+        "phone": "+19326329522",
+        "createdOn": "2025-12-09T16:26:19.000Z",
+        "notes": "v7zWEB5LMpGua2f67Bi91xfeoJQmYj9Y3tvKQPV1ViVtgOesMj3bLWMIScOcnlvaCh5ELS1JHLpDm69qMWN2vw1QFMYGWo0sC703HwdKYcqskplorejbGoORE5qqHnJ9Dg3M5NeKRyGNh8royDKWPnov11nFIvH1WToPSRXym884sAGV0kzOupxohQFQbZ4IbrANEaohfGwWfZE8vwcPh8qEwgH0M7kqq5iFnZsVakiXEf0ajEYiWuc7AY"
+      },
+      "products": [
+        {
+          "_id": "69384dab1c508c5d5e9cdc4c",
+          "name": "Salad61118",
+          "amount": 911,
+          "price": 55110,
+          "manufacturer": "Sony",
+          "notes": "8xtMxkXE5eEuKQWO8MqYTb0pZhl4x2Sm18v3weuddBAUnI18tv3wpxBg8zzVhET895RowbmFB3vooirZIKI00F759ppLw9DXTGoEKpwXLVYloNWPe5CZ0v29xAbCGlm1BYrOGLopdIXZ1Q8VUhydtqkpCMHYtBpbS6nt2h3SpUG5T7h1svSuagdtPqruPMtpYyOTVY7qYxLzoMS3bser7eHlfATFlxhTKN7x5GJslOwmwliPApsKxT6GWo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55110,
+      "createdOn": "2025-12-09T16:26:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69384dab1c508c5d5e9cdc47",
+          "products": [
+            {
+              "_id": "69384dab1c508c5d5e9cdc4c",
+              "name": "Salad61118",
+              "amount": 911,
+              "price": 55110,
+              "manufacturer": "Sony",
+              "notes": "8xtMxkXE5eEuKQWO8MqYTb0pZhl4x2Sm18v3weuddBAUnI18tv3wpxBg8zzVhET895RowbmFB3vooirZIKI00F759ppLw9DXTGoEKpwXLVYloNWPe5CZ0v29xAbCGlm1BYrOGLopdIXZ1Q8VUhydtqkpCMHYtBpbS6nt2h3SpUG5T7h1svSuagdtPqruPMtpYyOTVY7qYxLzoMS3bser7eHlfATFlxhTKN7x5GJslOwmwliPApsKxT6GWo",
+              "received": false
+            }
+          ],
+          "total_price": 55110,
+          "delivery": null,
+          "changedOn": "2025-12-09T16:26:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69384dab1c508c5d5e9cdc54"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
