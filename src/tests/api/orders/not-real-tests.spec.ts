@@ -172,4 +172,23 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 			ErrorMessage: null,
 		});
 	});
+
+	test("Delete Comment from Order", async ({ customersApiService, productsApiService, ordersApi }) => {
+		const customer = await customersApiService.create(token);
+		customersId.push(customer._id);
+		const product = await productsApiService.create(token);
+		productsId.push(product._id);
+
+		const order: IOrder = {
+			customer: customer._id,
+			products: [product._id],
+		};
+		const createdOrder = await ordersApi.create(order, token);
+		const respWithComment = await ordersApi.addCommentToOrder(createdOrder.body.Order._id, "jljklkl", token);
+		const commentId = respWithComment.body.Order.comments[0]!._id;
+		const response = await ordersApi.deleteCommentFromOrder(createdOrder.body.Order._id, commentId, token);
+		validateResponse(response, {
+			status: STATUS_CODES.DELETED,
+		});
+	});
 });

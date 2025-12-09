@@ -105,4 +105,18 @@ export class OrdersApi {
 
 		return await this.apiClient.send<IOrderResponse>(options);
 	}
+
+	async deleteCommentFromOrder(orderId: string, commentId: string, token: string) {
+		const options: IRequestOptions = {
+			baseURL: apiConfig.baseUrl!,
+			url: apiConfig.endpoints.deleteCommentFromOrder(orderId, commentId),
+			method: "delete",
+			headers: {
+				"content-type": "application/json",
+				Authorization: `Bearer ${token}`,
+			},
+		};
+
+		return await this.apiClient.send<null>(options);
+	}
 }
