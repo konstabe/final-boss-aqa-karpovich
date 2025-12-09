@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 17:49:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-qkbKkWgGTkWHXgRU0JEjvb9n+jw\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6938611f1c508c5d5e9d5078",
+        "email": "Vallie.Nader@gmail.com",
+        "name": "Adrian Feeney",
+        "country": "Germany",
+        "city": "Fort Kayla",
+        "street": "Jaron Plain",
+        "house": 40,
+        "flat": 170,
+        "phone": "+14216242484",
+        "createdOn": "2025-12-09T17:49:19.000Z",
+        "notes": "WqUffK3ClPGyQpaVh4kuAD6C96pqIrq8fZ0y3S02p8zqMHiqwTYcma4rzVkEq1Z2S9fRiI5mquyF3CJXqlHqioOZj3AltcvWp188kdb6RpoPlqLYXB8dlbGuRJCV0mj0xiyTboxizxUMxDfAQySAZavQ6yDLri176Gz4uKETLOal5646KTLypcR4OOT8pFpy6HBGSK48duelg1UF8F7PSO1uA0H5i75057v9RC5j7ojbLFxIOmlMPpwabA"
+      },
+      "products": [
+        {
+          "_id": "6938611f1c508c5d5e9d507d",
+          "name": "Salad18873",
+          "amount": 617,
+          "price": 28604,
+          "manufacturer": "Google",
+          "notes": "YwdP2ydFqkwLpZER3PPQiIl6qzLNTa8Rk6rCTnBPfjOgxlPOeoCIsAc8U2rWrXA33rM0j5G9rKaNIqiyAeJFrKiAUqAnyz4OcmL1ZIVyiWlvF5NEHNakxXbeOcKUWwtIxU00rJA3xhOw5hLHPhhiqZX2qNnoYY2yZnZXKYReb8CHRmJ4HLWRodwrwNYFMrGE6kw3qSGGBExzHjzT59HdDsI70w8y5K0sHAKigcD73t2ChwA8AZSPETr94x",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 28604,
+      "createdOn": "2025-12-09T17:49:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6938611f1c508c5d5e9d5078",
+          "products": [
+            {
+              "_id": "6938611f1c508c5d5e9d507d",
+              "name": "Salad18873",
+              "amount": 617,
+              "price": 28604,
+              "manufacturer": "Google",
+              "notes": "YwdP2ydFqkwLpZER3PPQiIl6qzLNTa8Rk6rCTnBPfjOgxlPOeoCIsAc8U2rWrXA33rM0j5G9rKaNIqiyAeJFrKiAUqAnyz4OcmL1ZIVyiWlvF5NEHNakxXbeOcKUWwtIxU00rJA3xhOw5hLHPhhiqZX2qNnoYY2yZnZXKYReb8CHRmJ4HLWRodwrwNYFMrGE6kw3qSGGBExzHjzT59HdDsI70w8y5K0sHAKigcD73t2ChwA8AZSPETr94x",
+              "received": false
+            }
+          ],
+          "total_price": 28604,
+          "delivery": null,
+          "changedOn": "2025-12-09T17:49:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6938611f1c508c5d5e9d5085"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

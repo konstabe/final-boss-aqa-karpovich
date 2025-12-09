@@ -1,0 +1,140 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 17:49:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3809",
+    "etag": "W/\"ee1-1ntPjoKFpTfRewvOC4LrunBAlvY\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693861201c508c5d5e9d50bf",
+      "status": "Draft",
+      "customer": {
+        "_id": "693861201c508c5d5e9d50a6",
+        "email": "Ardella.Hartmann@yahoo.com",
+        "name": "Dedrick Gleason",
+        "country": "Germany",
+        "city": "Lake Carmineberg",
+        "street": "David Neck",
+        "house": 3,
+        "flat": 562,
+        "phone": "+15127663475",
+        "createdOn": "2025-12-09T17:49:20.000Z",
+        "notes": "dYdQX1tqRWkzMoTtsQmZxjkStm1AI54n7EKP1o9vWEB92duvRoGYftCLWK0QsTThNzdOmMhHGIUHgEOpYwiAnvKddh92NolYsnrXJVqA7jyBdDjCgBmrVqfn3SWMEAP7mQ5mwgsfh4UxZI1KRNaOVKnRux0EdGCGTDIwRLejUzB2bQIDDfyqm0SaQlGQTiAPU1dv0MiNNGnj0vYH4wLQ4cLtUknRDIWV2rQm8EJa3jlQgkjNsqpTNI33Ba"
+      },
+      "products": [
+        {
+          "_id": "693861201c508c5d5e9d50b0",
+          "name": "Table17251",
+          "amount": 638,
+          "price": 23112,
+          "manufacturer": "Amazon",
+          "notes": "UtB6MsgQZMAIJvRaHQ1Ffb1l2h6dcIkkcNoQ4901XEec73gAHiiPwYlSuZ6nv9IWVQy1AaK6BAz7ziHnD0HqDICtUhEMIyC9NceS336NanU8dmmCAa76Xpf4f9HvUGBo4AIoWSIx1I4uwohFifau0RLx0lrghjH8vPzjJ7NclhMKIhBdV6khIF5O00NIzEhxsAVpxbVLY2zxdlCAMq1FvUw6wyFDEKpisg01H8zMr5q9jcgYFoa6Wl3jYJ",
+          "received": false
+        },
+        {
+          "_id": "693861201c508c5d5e9d50b5",
+          "name": "Tuna22317",
+          "amount": 319,
+          "price": 39173,
+          "manufacturer": "Microsoft",
+          "notes": "15Yu2GWBVwQIv2ou5f56dX71WVgsq0vS8lKKlMOVuG9LibnNY9dM9VgksxvPcSAIPw7VmHkrMSNjjDpkuw8o9ZOfq1ux0MUADCSSqOXy7q6uBLNocTebxOlhQ81Q92ZlUGhJheIVanHI7x62tYxmABx9E3RTv545Ev4vQ4wChqjO7qzebwspBO4SU8zB3bKB45d8x9uwKBhJq7kiQJ8s4nwHCF8nfLjWVgEGwLlG6glNLfU08reFN29n2H",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 62285,
+      "createdOn": "2025-12-09T17:49:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693861201c508c5d5e9d50a6",
+          "products": [
+            {
+              "_id": "693861201c508c5d5e9d50b0",
+              "name": "Table17251",
+              "amount": 638,
+              "price": 23112,
+              "manufacturer": "Amazon",
+              "notes": "UtB6MsgQZMAIJvRaHQ1Ffb1l2h6dcIkkcNoQ4901XEec73gAHiiPwYlSuZ6nv9IWVQy1AaK6BAz7ziHnD0HqDICtUhEMIyC9NceS336NanU8dmmCAa76Xpf4f9HvUGBo4AIoWSIx1I4uwohFifau0RLx0lrghjH8vPzjJ7NclhMKIhBdV6khIF5O00NIzEhxsAVpxbVLY2zxdlCAMq1FvUw6wyFDEKpisg01H8zMr5q9jcgYFoa6Wl3jYJ",
+              "received": false
+            },
+            {
+              "_id": "693861201c508c5d5e9d50b5",
+              "name": "Tuna22317",
+              "amount": 319,
+              "price": 39173,
+              "manufacturer": "Microsoft",
+              "notes": "15Yu2GWBVwQIv2ou5f56dX71WVgsq0vS8lKKlMOVuG9LibnNY9dM9VgksxvPcSAIPw7VmHkrMSNjjDpkuw8o9ZOfq1ux0MUADCSSqOXy7q6uBLNocTebxOlhQ81Q92ZlUGhJheIVanHI7x62tYxmABx9E3RTv545Ev4vQ4wChqjO7qzebwspBO4SU8zB3bKB45d8x9uwKBhJq7kiQJ8s4nwHCF8nfLjWVgEGwLlG6glNLfU08reFN29n2H",
+              "received": false
+            }
+          ],
+          "total_price": 62285,
+          "delivery": null,
+          "changedOn": "2025-12-09T17:49:21.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693861201c508c5d5e9d50a6",
+          "products": [
+            {
+              "_id": "693861201c508c5d5e9d50ab",
+              "name": "Hat54338",
+              "amount": 347,
+              "price": 31404,
+              "manufacturer": "Tesla",
+              "notes": "dGpXF0LPv0niGeAiVEQHrv3UHQPWzaGbSszEvqUYebjYAJloUdjxQO47BPBZ7YyZYzFfbBdWBpNxybeFP9pwGz1iURz1h7rMIMlEBjXE4brrwKqj1eEhhxTIrx9mhnDA5Gj4AEwOpc08BcnNL9OQ75mbs1X1opxlyxQtPlwTNY8AvA6INsgyffj1UupFw1Z32nkm0zG4zdlDXKUb6P9Krfre3cpdwdI1A2Lr5j5vAK0OFILqW9RQY7KaR1",
+              "received": false
+            },
+            {
+              "_id": "693861201c508c5d5e9d50b0",
+              "name": "Table17251",
+              "amount": 638,
+              "price": 23112,
+              "manufacturer": "Amazon",
+              "notes": "UtB6MsgQZMAIJvRaHQ1Ffb1l2h6dcIkkcNoQ4901XEec73gAHiiPwYlSuZ6nv9IWVQy1AaK6BAz7ziHnD0HqDICtUhEMIyC9NceS336NanU8dmmCAa76Xpf4f9HvUGBo4AIoWSIx1I4uwohFifau0RLx0lrghjH8vPzjJ7NclhMKIhBdV6khIF5O00NIzEhxsAVpxbVLY2zxdlCAMq1FvUw6wyFDEKpisg01H8zMr5q9jcgYFoa6Wl3jYJ",
+              "received": false
+            }
+          ],
+          "total_price": 54516,
+          "delivery": null,
+          "changedOn": "2025-12-09T17:49:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

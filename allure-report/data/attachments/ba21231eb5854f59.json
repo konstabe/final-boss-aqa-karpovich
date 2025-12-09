@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 17:49:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-/nI+ELgJlJk1dFNSsqSibpMYHew\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693861201c508c5d5e9d5098",
+      "status": "Draft",
+      "customer": {
+        "_id": "6938611f1c508c5d5e9d508b",
+        "email": "Jettie.Howe75@hotmail.com",
+        "name": "Tessie Halvorson",
+        "country": "Germany",
+        "city": "Bufordhaven",
+        "street": "Hudson Orchard",
+        "house": 18,
+        "flat": 393,
+        "phone": "+19209674069",
+        "createdOn": "2025-12-09T17:49:19.000Z",
+        "notes": "KkJdytIEfng4Zpu53qxPPYlblxqL7OLnyBkJKY2ts7i3v6mehNzRBX1x9BVEYrQX6LBoIwhZ8sUEEPsZvFAeCjGleZQERFW6JxZUSZB3kpEuAZxn2hZH4Hgb3kv3a6AHWgabonDiMUVe19AlHDLyR62ZJlrbIo2ix4zbnW3XvkI40NtirPJE4TvYf9cY5DA3E6LCRnyb9LjEL1vnHVWgmJ7T6gtXN3r8HICjr3vAB9VPoKBp1R0jBo88MC"
+      },
+      "products": [
+        {
+          "_id": "6938611f1c508c5d5e9d5090",
+          "name": "Chair67906",
+          "amount": 532,
+          "price": 69483,
+          "manufacturer": "Amazon",
+          "notes": "5wtG82xjAER66q3S0err1qHRMrRZtRT7UpvmjXMzaCsCmEtSRdzvusJOTkNmk0a5vQNN4JRqbqadajDyP0UDKtNuUiP2H9gcZV14SlPsFbmbXKlNLIXJItkPYEYqaOwOkNwc199hxNRNSuMhMZAi6Qmp3XTp9JCVSmKbJYPAImPPpOx6PDHrqqU0NOwvtpw2imaBjnXo5oFb4U52jO5jdQVyuK5QcYjQqyfardRSw3uRPo64OMkfNvNN03",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 69483,
+      "createdOn": "2025-12-09T17:49:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6938611f1c508c5d5e9d508b",
+          "products": [
+            {
+              "_id": "6938611f1c508c5d5e9d5090",
+              "name": "Chair67906",
+              "amount": 532,
+              "price": 69483,
+              "manufacturer": "Amazon",
+              "notes": "5wtG82xjAER66q3S0err1qHRMrRZtRT7UpvmjXMzaCsCmEtSRdzvusJOTkNmk0a5vQNN4JRqbqadajDyP0UDKtNuUiP2H9gcZV14SlPsFbmbXKlNLIXJItkPYEYqaOwOkNwc199hxNRNSuMhMZAi6Qmp3XTp9JCVSmKbJYPAImPPpOx6PDHrqqU0NOwvtpw2imaBjnXo5oFb4U52jO5jdQVyuK5QcYjQqyfardRSw3uRPo64OMkfNvNN03",
+              "received": false
+            }
+          ],
+          "total_price": 69483,
+          "delivery": null,
+          "changedOn": "2025-12-09T17:49:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
