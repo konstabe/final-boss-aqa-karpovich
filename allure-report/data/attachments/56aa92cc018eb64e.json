@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 18:06:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-W3lfOGi5GkNhJlqfNj2p4UrtxYQ\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6938653f1c508c5d5e9d7efa",
+        "email": "Chandler_Watsica93@yahoo.com",
+        "name": "Abe Buckridge",
+        "country": "USA",
+        "city": "MacGyverberg",
+        "street": "Price Freeway",
+        "house": 38,
+        "flat": 982,
+        "phone": "+16365573080",
+        "createdOn": "2025-12-09T18:06:55.000Z",
+        "notes": "Uq66BxKyz6uCVnm720uQEXPjb0atRtJEO7XNMqj3voVcIaLqqetsPSZuGpK3ddjYJeBUfiS0XGERUyI50BKGrwizXlc9n0AxJWkM7JQLdWX30AursDjSKIA4GmyPfpj63lnSgi0ByYCzMe923VpTXRN0zgBVPRLzLjx22DjIaC0qXB0qp4L95YtjPDnSqXmvMYOvc8ndzVcavNNYqblRpGzEhCeQIa5AAWFJ8Dlt2toP6ZgktNGGwM0sXo"
+      },
+      "products": [
+        {
+          "_id": "693865401c508c5d5e9d7eff",
+          "name": "Soap53241",
+          "amount": 354,
+          "price": 48080,
+          "manufacturer": "Apple",
+          "notes": "lEVlCiHmGHcfeejgt5yBHGjT6A02epkUVm8eOn0D085Zg5QPHjO7EroVgLwm4QkUcVtLsJ3Wuboz5XZzqlH2BZHykWy6w5JLBe1Io0D4QyWxwMX0rmcnYbSxbxg1EDYRnJ0gCSTAgFvGidmN3nVUIWxcfJBQVn1oqRbCtYx1sWKHjfcaTW1cFrhXyZYMKHV8jQtOLii1i7dxlhh3ImzkEznBLcyGUeH6DL4yCaubeaks66qW1xE2xE1uLY",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 48080,
+      "createdOn": "2025-12-09T18:06:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6938653f1c508c5d5e9d7efa",
+          "products": [
+            {
+              "_id": "693865401c508c5d5e9d7eff",
+              "name": "Soap53241",
+              "amount": 354,
+              "price": 48080,
+              "manufacturer": "Apple",
+              "notes": "lEVlCiHmGHcfeejgt5yBHGjT6A02epkUVm8eOn0D085Zg5QPHjO7EroVgLwm4QkUcVtLsJ3Wuboz5XZzqlH2BZHykWy6w5JLBe1Io0D4QyWxwMX0rmcnYbSxbxg1EDYRnJ0gCSTAgFvGidmN3nVUIWxcfJBQVn1oqRbCtYx1sWKHjfcaTW1cFrhXyZYMKHV8jQtOLii1i7dxlhh3ImzkEznBLcyGUeH6DL4yCaubeaks66qW1xE2xE1uLY",
+              "received": false
+            }
+          ],
+          "total_price": 48080,
+          "delivery": null,
+          "changedOn": "2025-12-09T18:06:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693865401c508c5d5e9d7f07"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
