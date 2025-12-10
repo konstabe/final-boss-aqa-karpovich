@@ -8,6 +8,7 @@ import _ from "lodash";
 import { getRandomFutureDate } from "utils/generateData.utils";
 import { expect } from "fixtures/api.fixture";
 import { getRandomItemsFromArray } from "utils/getRandom.utils";
+import { orderSchema } from "data/schemas/orders/order.schema";
 
 export class OrdersApiService {
 	constructor(
@@ -31,7 +32,7 @@ export class OrdersApiService {
 		const createdOrder = await this.ordersApi.create(order, token);
 		validateResponse(createdOrder, {
 			status: STATUS_CODES.CREATED,
-
+			schema: orderSchema,
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
@@ -50,7 +51,7 @@ export class OrdersApiService {
 		const orderWithDelivery = await this.ordersApi.updateDeliveryDetails(order._id, deliveryDetails, token);
 		validateResponse(orderWithDelivery, {
 			status: STATUS_CODES.OK,
-
+			schema: orderSchema,
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
@@ -63,7 +64,7 @@ export class OrdersApiService {
 		const orderInProcess = await this.ordersApi.updateOrderStatus(order._id, "In Process", token);
 		validateResponse(orderInProcess, {
 			status: STATUS_CODES.OK,
-
+			schema: orderSchema,
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
@@ -78,7 +79,7 @@ export class OrdersApiService {
 		const received = await this.ordersApi.markOrdersAsReceived(order._id, productsId, token);
 		validateResponse(received, {
 			status: STATUS_CODES.OK,
-
+			schema: orderSchema,
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
@@ -107,7 +108,7 @@ export class OrdersApiService {
 		const partiallyReceived = await this.ordersApi.markOrdersAsReceived(order._id, randomProductsId, token);
 		validateResponse(partiallyReceived, {
 			status: STATUS_CODES.OK,
-
+			schema: orderSchema,
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
