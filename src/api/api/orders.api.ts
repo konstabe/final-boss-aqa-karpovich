@@ -1,6 +1,6 @@
 import { IApiClient, IRequestOptions } from "api/core/types";
 import { apiConfig } from "config/apiConfig";
-import { IOrderResponse, IOrder } from "data/types/order.types";
+import { IOrderResponse, IOrder, IOrderDelivery, OrderStatus } from "data/types/order.types";
 
 export class OrdersApi {
 	constructor(private apiClient: IApiClient) {}
@@ -101,6 +101,69 @@ export class OrdersApi {
 				Authorization: `Bearer ${token}`,
 			},
 			data: { comment: newComment },
+		};
+
+		return await this.apiClient.send<IOrderResponse>(options);
+	}
+
+	async deleteCommentFromOrder(orderId: string, commentId: string, token: string) {
+		const options: IRequestOptions = {
+			baseURL: apiConfig.baseUrl!,
+			url: apiConfig.endpoints.deleteCommentFromOrder(orderId, commentId),
+			method: "delete",
+			headers: {
+				"content-type": "application/json",
+				Authorization: `Bearer ${token}`,
+			},
+		};
+
+		return await this.apiClient.send<null>(options);
+	}
+
+	async updateDeliveryDetails(orderId: string, deliveryDetails: IOrderDelivery, token: string) {
+		const options: IRequestOptions = {
+			baseURL: apiConfig.baseUrl!,
+			url: apiConfig.endpoints.updateDelivery(orderId),
+			method: "post",
+			headers: {
+				"content-type": "application/json",
+				Authorization: `Bearer ${token}`,
+			},
+			data: deliveryDetails,
+		};
+
+		return await this.apiClient.send<IOrderResponse>(options);
+	}
+
+	async markOrdersAsReceived(orderId: string, products: string[], token: string) {
+		const options: IRequestOptions = {
+			baseURL: apiConfig.baseUrl!,
+			url: apiConfig.endpoints.markOrdersAsReceived(orderId),
+			method: "post",
+			headers: {
+				"content-type": "application/json",
+				Authorization: `Bearer ${token}`,
+			},
+			data: {
+				products: products,
+			},
+		};
+
+		return await this.apiClient.send<IOrderResponse>(options);
+	}
+
+	async updateOrderStatus(orderId: string, status: OrderStatus, token: string) {
+		const options: IRequestOptions = {
+			baseURL: apiConfig.baseUrl!,
+			url: apiConfig.endpoints.updateStatus(orderId),
+			method: "put",
+			headers: {
+				"content-type": "application/json",
+				Authorization: `Bearer ${token}`,
+			},
+			data: {
+				status: status,
+			},
 		};
 
 		return await this.apiClient.send<IOrderResponse>(options);

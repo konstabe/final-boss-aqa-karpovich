@@ -9,7 +9,7 @@ export interface IOrder {
 	products: string[];
 }
 
-export type OrderStatus = "Draft" | "In Process" | "Received";
+export type OrderStatus = "Draft" | "In Process" | "Received" | "Partially Received" | "Canceled";
 export type ConditionDelivery = "Delivery" | "Pickup";
 
 export type IAddress = Pick<ICustomer, "country" | "city" | "house" | "flat" | "street">;
