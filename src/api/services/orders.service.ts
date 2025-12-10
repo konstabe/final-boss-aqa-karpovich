@@ -32,7 +32,7 @@ export class OrdersApiService {
 		const createdOrder = await this.ordersApi.create(order, token);
 		validateResponse(createdOrder, {
 			status: STATUS_CODES.CREATED,
-			schema: orderSchema,
+			schema: orderSchema, //подставить нужную схему
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
@@ -51,7 +51,7 @@ export class OrdersApiService {
 		const orderWithDelivery = await this.ordersApi.updateDeliveryDetails(order._id, deliveryDetails, token);
 		validateResponse(orderWithDelivery, {
 			status: STATUS_CODES.OK,
-			schema: orderSchema,
+			schema: orderSchema, //подставить нужную схему
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
@@ -64,7 +64,7 @@ export class OrdersApiService {
 		const orderInProcess = await this.ordersApi.updateOrderStatus(order._id, "In Process", token);
 		validateResponse(orderInProcess, {
 			status: STATUS_CODES.OK,
-			schema: orderSchema,
+			schema: orderSchema, //подставить нужную схему
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
@@ -79,7 +79,7 @@ export class OrdersApiService {
 		const received = await this.ordersApi.markOrdersAsReceived(order._id, productsId, token);
 		validateResponse(received, {
 			status: STATUS_CODES.OK,
-			schema: orderSchema,
+			schema: orderSchema, //подставить нужную схему
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
@@ -108,7 +108,7 @@ export class OrdersApiService {
 		const partiallyReceived = await this.ordersApi.markOrdersAsReceived(order._id, randomProductsId, token);
 		validateResponse(partiallyReceived, {
 			status: STATUS_CODES.OK,
-			schema: orderSchema,
+			schema: orderSchema, //подставить нужную схему
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
@@ -122,7 +122,7 @@ export class OrdersApiService {
 		const changedStatus = await this.ordersApi.updateOrderStatus(order._id, "Canceled", token);
 		validateResponse(changedStatus, {
 			status: STATUS_CODES.OK,
-			schema: orderSchema,
+			schema: orderSchema, //подставить нужную схему
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
@@ -136,7 +136,7 @@ export class OrdersApiService {
 		const changedStatus = await this.ordersApi.updateOrderStatus(canceled._id, "Draft", token);
 		validateResponse(changedStatus, {
 			status: STATUS_CODES.OK,
-			schema: orderSchema,
+			schema: orderSchema, //подставить нужную схему
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
