@@ -1,5 +1,4 @@
 import { productSchema } from "../product/product.schema";
-import { assignedManagerSchema } from "./assignedManager.schema";
 
 export const historySchema = {
 	type: "object",

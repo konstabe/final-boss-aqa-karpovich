@@ -1,5 +1,4 @@
 import { productSchema } from "../product/product.schema";
-import { assignedManagerSchema } from "./assignedManager.schema";
 import { commentsSchema } from "./comments.schema";
 import { historySchema } from "./history.schema";
 
