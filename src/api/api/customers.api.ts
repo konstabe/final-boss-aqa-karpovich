@@ -1,6 +1,7 @@
 import { IApiClient, IRequestOptions } from "api/core/types";
 import { apiConfig } from "config/apiConfig";
 import { ICustomer, ICustomerResponse, ICustomersSortedResponse, IGetCustomersParams } from "data/types/customer.types";
+import { IOrderResponse } from "data/types/order.types";
 import { convertRequestParams } from "utils/queryParams.utils";
 
 export class CustomersApi {
@@ -61,6 +62,20 @@ export class CustomersApi {
 		};
 
 		return await this.apiClient.send<ICustomerResponse>(options);
+	}
+
+	async getOrdersForCustomer(id: string, token: string) {
+		const options: IRequestOptions = {
+			baseURL: apiConfig.baseUrl!,
+			url: apiConfig.endpoints.customerOrders(id),
+			method: "get",
+			headers: {
+				"content-type": "application/json",
+				Authorization: `Bearer ${token}`,
+			},
+		};
+
+		return await this.apiClient.send<IOrderResponse>(options);
 	}
 
 	async update(_id: string, newCustomer: ICustomer, token: string) {
