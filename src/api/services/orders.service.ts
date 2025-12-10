@@ -117,6 +117,34 @@ export class OrdersApiService {
 		return partiallyReceived.body.Order;
 	}
 
+	async cancelOrderInProgress(token: string, numberOfProducts: number) {
+		const order = await this.processOrder(token, numberOfProducts);
+		const changedStatus = await this.ordersApi.updateOrderStatus(order._id, "Canceled", token);
+		validateResponse(changedStatus, {
+			status: STATUS_CODES.OK,
+			schema: orderSchema,
+			IsSuccess: true,
+			ErrorMessage: null,
+		});
+		expect(changedStatus.body.Order.status).toBe("Canceled");
+
+		return changedStatus.body.Order;
+	}
+
+	async reopenOrderInProgress(token: string, numberOfProducts: number) {
+		const canceled = await this.cancelOrderInProgress(token, numberOfProducts);
+		const changedStatus = await this.ordersApi.updateOrderStatus(canceled._id, "Draft", token);
+		validateResponse(changedStatus, {
+			status: STATUS_CODES.OK,
+			schema: orderSchema,
+			IsSuccess: true,
+			ErrorMessage: null,
+		});
+		expect(changedStatus.body.Order.status).toBe("Draft");
+
+		return changedStatus.body.Order;
+	}
+
 	async deleteOrder(token: string, orderId: string) {
 		const deleted = await this.ordersApi.delete(orderId, token);
 		validateResponse(deleted, {
