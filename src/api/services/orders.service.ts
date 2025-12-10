@@ -116,4 +116,13 @@ export class OrdersApiService {
 
 		return partiallyReceived.body.Order;
 	}
+
+	async deleteOrder(token: string, orderId: string) {
+		const deleted = await this.ordersApi.delete(orderId, token);
+		validateResponse(deleted, {
+			status: STATUS_CODES.DELETED,
+		});
+
+		return deleted;
+	}
 }
