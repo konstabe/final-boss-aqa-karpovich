@@ -42,12 +42,7 @@ export class OrdersApiService {
 
 	async createDraftWithDelivery(token: string, numberOfProducts: number): Promise<IOrderFromResponse> {
 		const order = await this.createDraft(token, numberOfProducts);
-		const address: IAddress = _.pick(order.customer, ["country", "city", "house", "flat", "street"]);
-		const deliveryDetails: IOrderDelivery = {
-			finalDate: getRandomFutureDate(),
-			condition: "Pickup",
-			address: address,
-		};
+		const deliveryDetails = this.createDeliveryDetails(order);
 		const orderWithDelivery = await this.ordersApi.updateDeliveryDetails(order._id, deliveryDetails, token);
 		validateResponse(orderWithDelivery, {
 			status: STATUS_CODES.OK,
@@ -57,6 +52,15 @@ export class OrdersApiService {
 		});
 
 		return orderWithDelivery.body.Order;
+	}
+
+	private createDeliveryDetails(order: IOrderFromResponse): IOrderDelivery {
+		const address: IAddress = _.pick(order.customer, ["country", "city", "house", "flat", "street"]);
+		return {
+			finalDate: getRandomFutureDate(),
+			condition: "Pickup",
+			address: address,
+		};
 	}
 
 	async processOrder(token: string, numberOfProducts: number): Promise<IOrderFromResponse> {
@@ -93,18 +97,32 @@ export class OrdersApiService {
 		return received.body.Order;
 	}
 
+	private getNotReceivedProducts(order: IOrderFromResponse) {
+		return order.products.filter((product) => !product.received);
+	}
+
 	async partiallyReceived(
 		token: string,
-		numberOfProducts: number,
+		order: IOrderFromResponse,
 		numberOfReceivedProducts: number,
 	): Promise<IOrderFromResponse> {
-		if (numberOfProducts <= numberOfReceivedProducts) {
-			throw new Error("Number of received products must be less than total products");
-		}
-		const order = await this.processOrder(token, numberOfProducts);
-		const productsId = order.products.map((product) => product._id);
+		const notReceived = this.getNotReceivedProducts(order);
 
-		const randomProductsId = getRandomItemsFromArray(productsId, numberOfReceivedProducts);
+		if (numberOfReceivedProducts <= 0) {
+			throw new Error("Number of products to receive must be greater than 0");
+		}
+
+		if (numberOfReceivedProducts > notReceived.length) {
+			throw new Error(
+				`Cannot receive ${numberOfReceivedProducts} products. Only ${notReceived.length} products are not received yet.`,
+			);
+		}
+
+		const randomProductsId = getRandomItemsFromArray(
+			notReceived.map((p) => p._id),
+			numberOfReceivedProducts,
+		);
+
 		const partiallyReceived = await this.ordersApi.markOrdersAsReceived(order._id, randomProductsId, token);
 		validateResponse(partiallyReceived, {
 			status: STATUS_CODES.OK,
@@ -115,6 +133,23 @@ export class OrdersApiService {
 		expect(partiallyReceived.body.Order.status).toBe("Partially Received");
 
 		return partiallyReceived.body.Order;
+	}
+
+	async orderWithAssignedManager(
+		token: string,
+		numberOfProducts: number,
+		managerId: string,
+	): Promise<IOrderFromResponse> {
+		const order = await this.createDraftWithDelivery(token, numberOfProducts);
+		const assigned = await this.ordersApi.assignManagerToOrder(order._id, managerId, token);
+		validateResponse(assigned, {
+			status: STATUS_CODES.OK,
+			schema: orderSchema, //подставить нужную схему
+			IsSuccess: true,
+			ErrorMessage: null,
+		});
+
+		return assigned.body.Order;
 	}
 
 	async cancelOrderInProgress(token: string, numberOfProducts: number) {
@@ -152,5 +187,19 @@ export class OrdersApiService {
 		});
 
 		return deleted;
+	}
+
+	async fullDelete(token: string, ordersId: string[], customersId: string[], productsId: string[]) {
+		if (ordersId.length > 0) {
+			await Promise.all(ordersId.map((id) => this.deleteOrder(token, id)));
+		}
+
+		if (productsId.length > 0) {
+			await Promise.all(productsId.map((id) => this.productsApiService.delete(token, id)));
+		}
+
+		if (customersId.length > 0) {
+			await Promise.all(customersId.map((id) => this.customersApiService.delete(id, token)));
+		}
 	}
 }
