@@ -1,7 +1,9 @@
-import { productSchema } from "../product/product.schema";
-import { assignedManagerSchema } from "./assignedManager.schema";
+import { ORDER_STATUS } from "data/orders/orderStatus";
 import { commentsSchema } from "./comments.schema";
 import { historySchema } from "./history.schema";
+import { productForOrdersSchema } from "./productForOrders.schema";
+import { deliverySchema } from "./delivery.schema";
+import { assignedManagerSchema } from "./assignedManager.schema";
 
 export const orderSchema = {
 	type: "object",
@@ -9,16 +11,23 @@ export const orderSchema = {
 		_id: { type: "string" },
 		status: {
 			type: "string",
+			enum: Object.values(ORDER_STATUS),
 		},
 		customer: {
 			type: "string",
 		},
 		products: {
 			type: "array",
-			items: productSchema,
+			items: productForOrdersSchema,
 		},
 		delivery: {
-			type: ["object", "null"],
+			oneOf: [
+				{
+					type: "array",
+					items: deliverySchema,
+				},
+				{ type: "null" },
+			],
 		},
 		total_price: {
 			type: "number",
@@ -27,15 +36,26 @@ export const orderSchema = {
 			type: "string",
 		},
 		comments: {
-			type: "array",
-			items: commentsSchema,
+			oneOf: [
+				{
+					type: "array",
+					items: commentsSchema,
+				},
+				{ type: "null" },
+			],
 		},
 		history: {
 			type: "array",
 			items: historySchema,
 		},
 		assignedManager: {
-			type: ["object", "null"],
+			oneOf: [
+				{
+					type: "array",
+					items: assignedManagerSchema,
+				},
+				{ type: "null" },
+			],
 		},
 	},
 	required: [

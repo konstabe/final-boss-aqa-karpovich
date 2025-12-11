@@ -7,6 +7,7 @@ import { CustomersApi } from "api/api/customers.api";
 import { CustomersApiService } from "api/services/customers.service";
 import { PlaywrightApiClient } from "api/core/requestApi";
 import { OrdersApi } from "api/api/orders.api";
+import { OrdersApiService } from "api/services/orders.service";
 
 export interface IApi {
 	// api
@@ -19,6 +20,7 @@ export interface IApi {
 	productsApiService: ProductsApiService;
 	loginApiService: LoginService;
 	customersApiService: CustomersApiService;
+	ordersApiService: OrdersApiService;
 }
 
 const test = base.extend<IApi>({
@@ -58,6 +60,10 @@ const test = base.extend<IApi>({
 
 	customersApiService: async ({ customersApi }, use) => {
 		await use(new CustomersApiService(customersApi));
+	},
+
+	ordersApiService: async ({ ordersApi, customersApiService, productsApiService }, use) => {
+		await use(new OrdersApiService(ordersApi, customersApiService, productsApiService));
 	},
 });
 
