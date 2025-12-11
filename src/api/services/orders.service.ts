@@ -108,8 +108,10 @@ export class OrdersApiService {
 	): Promise<IOrderFromResponse> {
 		const notReceived = this.getNotReceivedProducts(order);
 
-		if (numberOfReceivedProducts <= 0) {
-			throw new Error("Number of products to receive must be greater than 0");
+		if (numberOfReceivedProducts < 1 && numberOfReceivedProducts > 5) {
+			throw new Error(
+				`Incorrect amount of products to receive is passed '${numberOfReceivedProducts}', min - 1, max - 5`,
+			);
 		}
 
 		if (numberOfReceivedProducts > notReceived.length) {
