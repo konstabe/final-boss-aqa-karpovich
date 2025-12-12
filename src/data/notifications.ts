@@ -15,4 +15,5 @@ export const ERROR_MESSAGES = {
 	CONFLICT: (email: string) => `Customer with email '${email}' already exists`,
 	CUSTOMER_NOT_FOUND: (id: string) => `Customer with id '${id}' wasn't found`,
 	ORDER_NOT_FOUND: (id: string) => `Not found customer with ID: ${id}`,
+	ORDER_BY_ID_NOT_FOUND: (id: string) => `Order with id '${id}' wasn't found`,
 };
