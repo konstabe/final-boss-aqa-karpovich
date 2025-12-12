@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Fri, 12 Dec 2025 18:44:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3407",
+    "etag": "W/\"d4f-4spm7ur2qtp85thI2KxHve1K3ew\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693c62801c508c5d5ebcfade",
+        "email": "Armand80@yahoo.com",
+        "name": "Claud Stamm",
+        "country": "France",
+        "city": "Lake Sasha",
+        "street": "Park Street",
+        "house": 4,
+        "flat": 104,
+        "phone": "+19579127511",
+        "createdOn": "2025-12-12T18:44:16.000Z",
+        "notes": "Z1mVodiyAfLDYqAPn75iKDFvJw2t5h5zVxoKi7q0alOaUhmpvnnbiEdwrx2vwQUxPe29cHQznBb1tfqhXAVrRcOOuPi3Co6UhIwf2zCu3EXu40o14xuzkd5yJuMN3wseSF51tsmaGAi0rpRxC8ZqzzhUavG0eSJUwpAafLryyxjjdsz2iNtmOR1xLcXSLFnk8bFvbkXQBSSpltqaSAtbZ1Gxq0eT8M7s62p18N5pTADbuSsCIBU8umPCsV"
+      },
+      "products": [
+        {
+          "_id": "693c62811c508c5d5ebcfb1d",
+          "name": "Gloves39439",
+          "amount": 548,
+          "price": 10696,
+          "manufacturer": "Amazon",
+          "notes": "7nGjVMoAZl2O6wY6ZWYE8vPusUXvOoy8EzBLmdQHRbqRKgifEE3qrz0kbLkz97okLiofTqP1HN1u3BFThy5ZGK9FAiEyCbxmfh9X3IdBK86LXCZPeUZhIEAA1ZjosUQIndjZiQFlnSRTafXI5Ww0jBlX4IuNzKpkUI9vpRBh6XgwBMo2IRcaHAPiisUnFL9t76cHKi0t6jq03sxJo5QJMBt48SrNRRHwr6Ly7V61F22eOmjIBctEL5cW9h",
+          "received": false
+        },
+        {
+          "_id": "693c62811c508c5d5ebcfb5d",
+          "name": "Fish32131",
+          "amount": 608,
+          "price": 72157,
+          "manufacturer": "Apple",
+          "notes": "6iU89jn9uw3r1909hPU28uMoAvACNg73OWS9FmzlkBnsdOzjzSLhjWLIX660SdELHW6H05hIo4W4YezpciupSySWd1cfbD9nCqH0iM4kaGSOi7ApCLGYyTPFOJv63GELqm8nfSmM2KIY4bS7npwWbEkQOYuDiqcPHogL0HhdoOf4dsPCjrd6sPwLs7waC1ilmKWjdOrpG9nuOe8T89lPJKI74tA0AFkP4muKhzyr8zWk8FbipcZvPkY6dv",
+          "received": false
+        },
+        {
+          "_id": "693c62821c508c5d5ebcfb9a",
+          "name": "Soap51251",
+          "amount": 452,
+          "price": 91061,
+          "manufacturer": "Amazon",
+          "notes": "TIBTxM6Ogeqd5BrvxwJrYBMcZGjfTMXH0OaSi8PRl99vIXFtMmX3ZjEWC3VwhPbv2uuNohAqSr2L3NfdOod9DKcjC9x0W4dkAS4j3sKFpSNQ14k3sng8yDLN7RNdt3GQswFMLtMGRb6NBb88AZlMXy0R8lvv7Pvm5JdzUF39YcwfN1ks3qNF8ZDaId8d8myOddIpHxv3PxK5iOv6fqogupXlkPtI2eg4qHqxUVAKQsbmKDYzINDjFtrGTi",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 173914,
+      "createdOn": "2025-12-12T18:44:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693c62801c508c5d5ebcfade",
+          "products": [
+            {
+              "_id": "693c62811c508c5d5ebcfb1d",
+              "name": "Gloves39439",
+              "amount": 548,
+              "price": 10696,
+              "manufacturer": "Amazon",
+              "notes": "7nGjVMoAZl2O6wY6ZWYE8vPusUXvOoy8EzBLmdQHRbqRKgifEE3qrz0kbLkz97okLiofTqP1HN1u3BFThy5ZGK9FAiEyCbxmfh9X3IdBK86LXCZPeUZhIEAA1ZjosUQIndjZiQFlnSRTafXI5Ww0jBlX4IuNzKpkUI9vpRBh6XgwBMo2IRcaHAPiisUnFL9t76cHKi0t6jq03sxJo5QJMBt48SrNRRHwr6Ly7V61F22eOmjIBctEL5cW9h",
+              "received": false
+            },
+            {
+              "_id": "693c62811c508c5d5ebcfb5d",
+              "name": "Fish32131",
+              "amount": 608,
+              "price": 72157,
+              "manufacturer": "Apple",
+              "notes": "6iU89jn9uw3r1909hPU28uMoAvACNg73OWS9FmzlkBnsdOzjzSLhjWLIX660SdELHW6H05hIo4W4YezpciupSySWd1cfbD9nCqH0iM4kaGSOi7ApCLGYyTPFOJv63GELqm8nfSmM2KIY4bS7npwWbEkQOYuDiqcPHogL0HhdoOf4dsPCjrd6sPwLs7waC1ilmKWjdOrpG9nuOe8T89lPJKI74tA0AFkP4muKhzyr8zWk8FbipcZvPkY6dv",
+              "received": false
+            },
+            {
+              "_id": "693c62821c508c5d5ebcfb9a",
+              "name": "Soap51251",
+              "amount": 452,
+              "price": 91061,
+              "manufacturer": "Amazon",
+              "notes": "TIBTxM6Ogeqd5BrvxwJrYBMcZGjfTMXH0OaSi8PRl99vIXFtMmX3ZjEWC3VwhPbv2uuNohAqSr2L3NfdOod9DKcjC9x0W4dkAS4j3sKFpSNQ14k3sng8yDLN7RNdt3GQswFMLtMGRb6NBb88AZlMXy0R8lvv7Pvm5JdzUF39YcwfN1ks3qNF8ZDaId8d8myOddIpHxv3PxK5iOv6fqogupXlkPtI2eg4qHqxUVAKQsbmKDYzINDjFtrGTi",
+              "received": false
+            }
+          ],
+          "total_price": 173914,
+          "delivery": null,
+          "changedOn": "2025-12-12T18:44:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693c62821c508c5d5ebcfbef"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
