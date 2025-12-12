@@ -4,6 +4,7 @@ import { historySchema } from "./history.schema";
 import { productForOrdersSchema } from "./productForOrders.schema";
 import { deliverySchema } from "./delivery.schema";
 import { assignedManagerSchema } from "./assignedManager.schema";
+import { customerSchema } from "../customers/customer.schema";
 
 export const orderSchema = {
 	type: "object",
@@ -14,7 +15,13 @@ export const orderSchema = {
 			enum: Object.values(ORDER_STATUS),
 		},
 		customer: {
-			type: "string",
+			oneOf: [
+				{ type: "string" },
+				{
+					...customerSchema,
+					additionalProperties: true,
+				},
+			],
 		},
 		products: {
 			type: "array",
@@ -22,6 +29,7 @@ export const orderSchema = {
 		},
 		delivery: {
 			oneOf: [
+				deliverySchema,
 				{
 					type: "array",
 					items: deliverySchema,
