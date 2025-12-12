@@ -1,10 +1,10 @@
 import { ERROR_MESSAGES, NOTIFICATIONS } from "data/notifications";
+import { ORDER_STATUS } from "data/orders/orderStatus";
 import { orderResponseSchema } from "data/schemas/orders/orderResponse.schema";
 import { STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";
 import { IOrder } from "data/types/order.types";
 import { expect, test } from "fixtures/api.fixture";
-
 import _ from "lodash";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 
@@ -12,7 +12,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 	let token = "";
 	const ordersIds: string[] = [];
 	const customersIds: string[] = [];
-	let productsIds: string[] = [];
+	const productsIds: string[] = [];
 
 	test.beforeAll(async ({ loginApiService }) => {
 		token = await loginApiService.loginAsAdmin();
@@ -32,7 +32,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 
 				const newOrder = await ordersApiService.createOrderData(token, 3);
 				customersIds.push(newOrder.customer);
-				productsIds = [...productsIds, ...newOrder.products];
+				productsIds.push(...newOrder.products);
 
 				const updatedOrder = await ordersApi.update(order._id, newOrder, token);
 				validateResponse(updatedOrder, {
@@ -49,7 +49,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 				const expectedProducts = newOrder.productsData.map((product) => _.omit(product, ["createdOn"]));
 
 				expect(actualProducts).toEqual(expectedProducts);
-				expect(status).toBe("Draft");
+				expect(status).toBe(ORDER_STATUS.DRAFT);
 				expect(orderId).toBe(updatedOrder.body.Order._id);
 			},
 		);
@@ -65,7 +65,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 
 				const newOrder = await ordersApiService.createOrderData(token, 5);
 				customersIds.push(newOrder.customer);
-				productsIds = [...productsIds, ...newOrder.products];
+				productsIds.push(...newOrder.products);
 
 				const updatedOrder = await ordersApi.update(order._id, newOrder, "");
 				validateResponse(updatedOrder, {
@@ -85,7 +85,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 
 				const newOrder = await ordersApiService.createOrderData(token, 2);
 				customersIds.push(newOrder.customer);
-				productsIds = [...productsIds, ...newOrder.products];
+				productsIds.push(...newOrder.products);
 
 				const updatedOrder = await ordersApi.update(order._id, newOrder, token + "1");
 				validateResponse(updatedOrder, {
@@ -121,7 +121,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 
 				const newOrder = await ordersApiService.createOrderData(token, 3);
 				customersIds.push(newOrder.customer);
-				productsIds = [...productsIds, ...newOrder.products];
+				productsIds.push(...newOrder.products);
 
 				const updatedOrder = await ordersApi.update(orderInProcess._id, newOrder, token);
 				validateResponse(updatedOrder, {

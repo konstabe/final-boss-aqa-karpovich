@@ -10,6 +10,7 @@ import { expect } from "fixtures/api.fixture";
 import { getRandomItemsFromArray } from "utils/getRandom.utils";
 import { orderResponseSchema } from "data/schemas/orders/orderResponse.schema";
 import { IProductFromResponse } from "data/types/product.types";
+import { ORDER_STATUS } from "data/orders/orderStatus";
 
 export class OrdersApiService {
 	constructor(
@@ -77,14 +78,14 @@ export class OrdersApiService {
 
 	async processOrder(token: string, numberOfProducts: number): Promise<IOrderFromResponse> {
 		const order = await this.createDraftWithDelivery(token, numberOfProducts);
-		const orderInProcess = await this.ordersApi.updateOrderStatus(order._id, "In Process", token);
+		const orderInProcess = await this.ordersApi.updateOrderStatus(order._id, ORDER_STATUS.IN_PROGRESS, token);
 		validateResponse(orderInProcess, {
 			status: STATUS_CODES.OK,
 			schema: orderResponseSchema,
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
-		expect(orderInProcess.body.Order.status).toBe("In Process");
+		expect(orderInProcess.body.Order.status).toBe(ORDER_STATUS.IN_PROGRESS);
 
 		return orderInProcess.body.Order;
 	}
@@ -99,7 +100,7 @@ export class OrdersApiService {
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
-		expect(received.body.Order.status).toBe("Received");
+		expect(received.body.Order.status).toBe(ORDER_STATUS.RECEIVED);
 		const productsArray = received.body.Order.products;
 		const allReceived = productsArray.every((product) => product.received === true);
 		if (!allReceived) {
@@ -144,7 +145,7 @@ export class OrdersApiService {
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
-		expect(partiallyReceived.body.Order.status).toBe("Partially Received");
+		expect(partiallyReceived.body.Order.status).toBe(ORDER_STATUS.PARTIALLY_RECEIVED);
 
 		return partiallyReceived.body.Order;
 	}
@@ -168,28 +169,28 @@ export class OrdersApiService {
 
 	async cancelOrderInProgress(token: string, numberOfProducts: number): Promise<IOrderFromResponse> {
 		const order = await this.processOrder(token, numberOfProducts);
-		const changedStatus = await this.ordersApi.updateOrderStatus(order._id, "Canceled", token);
+		const changedStatus = await this.ordersApi.updateOrderStatus(order._id, ORDER_STATUS.CANCELED, token);
 		validateResponse(changedStatus, {
 			status: STATUS_CODES.OK,
 			schema: orderResponseSchema, //подставить нужную схему
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
-		expect(changedStatus.body.Order.status).toBe("Canceled");
+		expect(changedStatus.body.Order.status).toBe(ORDER_STATUS.CANCELED);
 
 		return changedStatus.body.Order;
 	}
 
 	async reopenOrderInProgress(token: string, numberOfProducts: number): Promise<IOrderFromResponse> {
 		const canceled = await this.cancelOrderInProgress(token, numberOfProducts);
-		const changedStatus = await this.ordersApi.updateOrderStatus(canceled._id, "Draft", token);
+		const changedStatus = await this.ordersApi.updateOrderStatus(canceled._id, ORDER_STATUS.DRAFT, token);
 		validateResponse(changedStatus, {
 			status: STATUS_CODES.OK,
 			schema: orderResponseSchema, //подставить нужную схему
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
-		expect(changedStatus.body.Order.status).toBe("Draft");
+		expect(changedStatus.body.Order.status).toBe(ORDER_STATUS.DRAFT);
 
 		return changedStatus.body.Order;
 	}
