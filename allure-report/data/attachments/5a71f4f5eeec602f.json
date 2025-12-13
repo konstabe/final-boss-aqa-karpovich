@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:24:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5439",
+    "etag": "W/\"153f-S/WE/B8J7YGdu6+u4iIsylZBu84\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d4cd51c508c5d5ec05ad0",
+      "status": "In Process",
+      "customer": {
+        "_id": "693d4cca1c508c5d5ec05904",
+        "email": "Kasandra73@hotmail.com",
+        "name": "Mandy Ankunding",
+        "country": "France",
+        "city": "Lake Anibal",
+        "street": "Ortiz Trafficway",
+        "house": 32,
+        "flat": 617,
+        "phone": "+18664755364",
+        "createdOn": "2025-12-13T11:23:54.000Z",
+        "notes": "GzdANp4NlWZuUbFCFcIQXn7Gm01ajtHgpoIX01hcJhF6sBq2XmDZ78J9jES61oZjfM1nlkPemKNCstskdNBaFktSzGC79KdNS4U6bLwFlBWylLvWQkVh09gjr1P7wKXefX3zpTC3QjgxNnRPbbCPQDlCwC54DcZmlLRlAMqmKOUyUzW5oQOpfhqHYBCZdusjxvSlyOeGDAInhJckmZVIITSt9qtctz288Z00wP7PSJ54fXMqv6oQwCOKKt"
+      },
+      "products": [
+        {
+          "_id": "693d4ccd1c508c5d5ec059e6",
+          "name": "Chicken18126",
+          "amount": 959,
+          "price": 72364,
+          "manufacturer": "Amazon",
+          "notes": "NvAnwEA0gbJG1p2dAav2VuujiH2JBmr2CmcyFB6eGSTVKXRXglaVSLNMPObtSHfzNWQuU95muoUMyA1Yn08uLP1WParrkniCkZ2QMvam0iohjLwMquY1XzVfF2cgfyk6MiHXNqYhPfYRpX8wKr2Xl48OWXKuzEFtxoT66yhHgrQznxv11glBm3pKHStzsZJ7oT1nzKPvlSocfQT0z77IndeVbk6zeUyUrfA23Llu0DnBuP8hgi7EIg1D0g",
+          "received": false
+        },
+        {
+          "_id": "693d4cd11c508c5d5ec05a7e",
+          "name": "Soap17239",
+          "amount": 565,
+          "price": 43106,
+          "manufacturer": "Xiaomi",
+          "notes": "V4fbEooVrpgLQFxyBPx5NG86qRnEDkzUj3QlIxIaqQdftwenp4e3VLNrcHYTwpqNXY29DInp56sGJ1ZCHUrjFDQyyevUU3XVSD7Qq2VMdfzNUXlGlsxcm4fOiO76cVvLt1MuuVHMDZNQJG1X9i75wVsqGw0UrqBVLAUuw6NkVrAlalPEGg43yAHcHFd1FB6Zzcp3SEpTACWSaLb6CCA8Mzr8g5UjK6xYQVuEQ3JwHsj1jLtcMoS2kp2sHq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Lake Anibal",
+          "street": "Ortiz Trafficway",
+          "house": 32,
+          "flat": 617
+        },
+        "finalDate": "2025-12-18T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 115470,
+      "createdOn": "2025-12-13T11:24:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "693d4cca1c508c5d5ec05904",
+          "products": [
+            {
+              "_id": "693d4ccd1c508c5d5ec059e6",
+              "name": "Chicken18126",
+              "amount": 959,
+              "price": 72364,
+              "manufacturer": "Amazon",
+              "notes": "NvAnwEA0gbJG1p2dAav2VuujiH2JBmr2CmcyFB6eGSTVKXRXglaVSLNMPObtSHfzNWQuU95muoUMyA1Yn08uLP1WParrkniCkZ2QMvam0iohjLwMquY1XzVfF2cgfyk6MiHXNqYhPfYRpX8wKr2Xl48OWXKuzEFtxoT66yhHgrQznxv11glBm3pKHStzsZJ7oT1nzKPvlSocfQT0z77IndeVbk6zeUyUrfA23Llu0DnBuP8hgi7EIg1D0g",
+              "received": false
+            },
+            {
+              "_id": "693d4cd11c508c5d5ec05a7e",
+              "name": "Soap17239",
+              "amount": 565,
+              "price": 43106,
+              "manufacturer": "Xiaomi",
+              "notes": "V4fbEooVrpgLQFxyBPx5NG86qRnEDkzUj3QlIxIaqQdftwenp4e3VLNrcHYTwpqNXY29DInp56sGJ1ZCHUrjFDQyyevUU3XVSD7Qq2VMdfzNUXlGlsxcm4fOiO76cVvLt1MuuVHMDZNQJG1X9i75wVsqGw0UrqBVLAUuw6NkVrAlalPEGg43yAHcHFd1FB6Zzcp3SEpTACWSaLb6CCA8Mzr8g5UjK6xYQVuEQ3JwHsj1jLtcMoS2kp2sHq",
+              "received": false
+            }
+          ],
+          "total_price": 115470,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Lake Anibal",
+              "street": "Ortiz Trafficway",
+              "house": 32,
+              "flat": 617
+            },
+            "finalDate": "2025-12-18T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-13T11:24:07.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693d4cca1c508c5d5ec05904",
+          "products": [
+            {
+              "_id": "693d4ccd1c508c5d5ec059e6",
+              "name": "Chicken18126",
+              "amount": 959,
+              "price": 72364,
+              "manufacturer": "Amazon",
+              "notes": "NvAnwEA0gbJG1p2dAav2VuujiH2JBmr2CmcyFB6eGSTVKXRXglaVSLNMPObtSHfzNWQuU95muoUMyA1Yn08uLP1WParrkniCkZ2QMvam0iohjLwMquY1XzVfF2cgfyk6MiHXNqYhPfYRpX8wKr2Xl48OWXKuzEFtxoT66yhHgrQznxv11glBm3pKHStzsZJ7oT1nzKPvlSocfQT0z77IndeVbk6zeUyUrfA23Llu0DnBuP8hgi7EIg1D0g",
+              "received": false
+            },
+            {
+              "_id": "693d4cd11c508c5d5ec05a7e",
+              "name": "Soap17239",
+              "amount": 565,
+              "price": 43106,
+              "manufacturer": "Xiaomi",
+              "notes": "V4fbEooVrpgLQFxyBPx5NG86qRnEDkzUj3QlIxIaqQdftwenp4e3VLNrcHYTwpqNXY29DInp56sGJ1ZCHUrjFDQyyevUU3XVSD7Qq2VMdfzNUXlGlsxcm4fOiO76cVvLt1MuuVHMDZNQJG1X9i75wVsqGw0UrqBVLAUuw6NkVrAlalPEGg43yAHcHFd1FB6Zzcp3SEpTACWSaLb6CCA8Mzr8g5UjK6xYQVuEQ3JwHsj1jLtcMoS2kp2sHq",
+              "received": false
+            }
+          ],
+          "total_price": 115470,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Lake Anibal",
+              "street": "Ortiz Trafficway",
+              "house": 32,
+              "flat": 617
+            },
+            "finalDate": "2025-12-18T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-13T11:24:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693d4cca1c508c5d5ec05904",
+          "products": [
+            {
+              "_id": "693d4ccd1c508c5d5ec059e6",
+              "name": "Chicken18126",
+              "amount": 959,
+              "price": 72364,
+              "manufacturer": "Amazon",
+              "notes": "NvAnwEA0gbJG1p2dAav2VuujiH2JBmr2CmcyFB6eGSTVKXRXglaVSLNMPObtSHfzNWQuU95muoUMyA1Yn08uLP1WParrkniCkZ2QMvam0iohjLwMquY1XzVfF2cgfyk6MiHXNqYhPfYRpX8wKr2Xl48OWXKuzEFtxoT66yhHgrQznxv11glBm3pKHStzsZJ7oT1nzKPvlSocfQT0z77IndeVbk6zeUyUrfA23Llu0DnBuP8hgi7EIg1D0g",
+              "received": false
+            },
+            {
+              "_id": "693d4cd11c508c5d5ec05a7e",
+              "name": "Soap17239",
+              "amount": 565,
+              "price": 43106,
+              "manufacturer": "Xiaomi",
+              "notes": "V4fbEooVrpgLQFxyBPx5NG86qRnEDkzUj3QlIxIaqQdftwenp4e3VLNrcHYTwpqNXY29DInp56sGJ1ZCHUrjFDQyyevUU3XVSD7Qq2VMdfzNUXlGlsxcm4fOiO76cVvLt1MuuVHMDZNQJG1X9i75wVsqGw0UrqBVLAUuw6NkVrAlalPEGg43yAHcHFd1FB6Zzcp3SEpTACWSaLb6CCA8Mzr8g5UjK6xYQVuEQ3JwHsj1jLtcMoS2kp2sHq",
+              "received": false
+            }
+          ],
+          "total_price": 115470,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:24:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

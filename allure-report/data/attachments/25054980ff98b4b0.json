@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:23:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-Vj5i6uZLGrAVaXVpN4rjCISV7eA\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4cb71c508c5d5ec055d1",
+        "email": "Neal_Legros@hotmail.com",
+        "name": "Shyanne Stroman",
+        "country": "Ukraine",
+        "city": "Leesburg",
+        "street": "Orn Roads",
+        "house": 23,
+        "flat": 729,
+        "phone": "+12935351596",
+        "createdOn": "2025-12-13T11:23:35.000Z",
+        "notes": "t0tP3bU6Pf3QUoL9YJUgXQw8CYvzGJeti0kZ7okxwpTOcgJWtRS8JJITR8gY8uJmJaCiR7Z8rPxNcNdGrKHIV3V4B6q2pNyZ0HRZ418Mp4Leb7Wa27JRQtnioXj9JyO7R9T4lheG7Fq61rIRjWlWkQBqHIpHYjOYQDpD0GNmb6ci1rZgh6DBu4jpc2JNSjzD27LSPXu1OD3u5r1QHbfs0Sdboo2QEXlqcTcLoSPAUpeqtcpS9RrzvpGiQZ"
+      },
+      "products": [
+        {
+          "_id": "693d4cbd1c508c5d5ec05692",
+          "name": "Shoes89501",
+          "amount": 152,
+          "price": 98617,
+          "manufacturer": "Xiaomi",
+          "notes": "dbu21dFV2rbTyG1URJ23EMblXFBNEWTdmgmHXqWFF41awoAxR8WxP7B1pQvqvuOPhhCUoY2oDs21BfV3749zd9Lnbxzv8SWTWyzlaTxLNf2vi7SJydMEooytenlxU8NW9X3jo5sPM266ublFRrIH9KswfdcgzwDaaCbMn7tyrIoE5MXNWITXxIBzhdv2QpJEYAOYlYT0uUsPQ3x2rsEellXjZTUlyhJ2nY7jtcyjQ2gzuwGwLe8x3IViMT",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98617,
+      "createdOn": "2025-12-13T11:23:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4cb71c508c5d5ec055d1",
+          "products": [
+            {
+              "_id": "693d4cbd1c508c5d5ec05692",
+              "name": "Shoes89501",
+              "amount": 152,
+              "price": 98617,
+              "manufacturer": "Xiaomi",
+              "notes": "dbu21dFV2rbTyG1URJ23EMblXFBNEWTdmgmHXqWFF41awoAxR8WxP7B1pQvqvuOPhhCUoY2oDs21BfV3749zd9Lnbxzv8SWTWyzlaTxLNf2vi7SJydMEooytenlxU8NW9X3jo5sPM266ublFRrIH9KswfdcgzwDaaCbMn7tyrIoE5MXNWITXxIBzhdv2QpJEYAOYlYT0uUsPQ3x2rsEellXjZTUlyhJ2nY7jtcyjQ2gzuwGwLe8x3IViMT",
+              "received": false
+            }
+          ],
+          "total_price": 98617,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:23:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d4cbe1c508c5d5ec056b5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

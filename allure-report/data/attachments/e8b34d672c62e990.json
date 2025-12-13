@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:23:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "392",
+    "etag": "W/\"188-NB0LAqqiEsf/8WPgyHcBrdO+Fcg\"",
+    "connection": "close"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Incorrect request body",
+    "SchemaErrors": [
+      {
+        "instancePath": "",
+        "schemaPath": "#/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "customer"
+        },
+        "message": "must have required property 'customer'"
+      },
+      {
+        "instancePath": "",
+        "schemaPath": "#/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "products"
+        },
+        "message": "must have required property 'products'"
+      }
+    ]
+  }
+}

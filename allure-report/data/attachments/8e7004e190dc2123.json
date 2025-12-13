@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:24:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4111",
+    "etag": "W/\"100f-jslFGuucEJ43muEMB45NR4PLSZk\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d4cd51c508c5d5ec05ace",
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4cca1c508c5d5ec05906",
+        "email": "Lincoln70@gmail.com",
+        "name": "Jena Hickle",
+        "country": "Ukraine",
+        "city": "Marysville",
+        "street": "Pfannerstill Row",
+        "house": 30,
+        "flat": 367,
+        "phone": "+13587516831",
+        "createdOn": "2025-12-13T11:23:54.000Z",
+        "notes": "PzDiCFGHImN6U8r0XbWvvRKI5VWlQx2lvRGDLELUqA5Z0XJUvNwYYy16sk0TMedL028V4qucMg3alk4UMuheHLVyahRUeuDRhkfab6bGAjQ3IRDg5Uhc5hRaC5RJbPWp0mGxde42PDbFJP0tnl0v1rYVwp9Wcdm0yN797TfOZzEYxd8aWixDABwkG4AiN9xVw4EqkHOEAQkIS3j8Y6fhbLccovNd3koIoMGmQuWpXYx74lTxhdcqTnfr2L"
+      },
+      "products": [
+        {
+          "_id": "693d4ccd1c508c5d5ec059e8",
+          "name": "Shoes17170",
+          "amount": 704,
+          "price": 37415,
+          "manufacturer": "Microsoft",
+          "notes": "Kje5CsGq0FQgifUmIqaoFwQu7mkxsEH1J6KAlAASUnq10bweMxAhwmshGu7nuooKNGa8TLqYTpZRPqERORLafpy2t9jHGIY9hkn4sAPQXKPbH9ZZOKEu4M5HcCDS1jEJWIBap0JmjMzb9I8gmkLPjA5jNx4ewyU1gEG1mIC4piR5opKW5WTVTy6mAY6U1X4QAsfCgFqSJvB8lo0CEA5gpNJ3NFUirbrEiOOwQi88Je7VwDr0yopsqG5zbI",
+          "received": false
+        },
+        {
+          "_id": "693d4cd11c508c5d5ec05a80",
+          "name": "Pants8443",
+          "amount": 588,
+          "price": 71076,
+          "manufacturer": "Sony",
+          "notes": "m6OfLQweNADAWZDSldtGZmman5kL52iInJFAU2Yv2dbABsLKrpucvNmwmfI6IpGkB4wZ8xqaISlVDaKATLotruZhZ3P0xZB0AqZJ6zcivZvQrQkVHvMj66ZoKRWAYHjKGWzrdlA7IlzLHiIYox5y2M9dTV3cA9Jjf3FN0STB5PbROUVuN9DESAavD0ltUCgdCATmYpqZK8TbY1mTdOntJfD1n3ev3NOTJoRDQgFtbRxTOBqA6qzBVL8i9w",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Marysville",
+          "street": "Pfannerstill Row",
+          "house": 30,
+          "flat": 367
+        },
+        "finalDate": "2025-12-14T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 108491,
+      "createdOn": "2025-12-13T11:24:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4cca1c508c5d5ec05906",
+          "products": [
+            {
+              "_id": "693d4ccd1c508c5d5ec059e8",
+              "name": "Shoes17170",
+              "amount": 704,
+              "price": 37415,
+              "manufacturer": "Microsoft",
+              "notes": "Kje5CsGq0FQgifUmIqaoFwQu7mkxsEH1J6KAlAASUnq10bweMxAhwmshGu7nuooKNGa8TLqYTpZRPqERORLafpy2t9jHGIY9hkn4sAPQXKPbH9ZZOKEu4M5HcCDS1jEJWIBap0JmjMzb9I8gmkLPjA5jNx4ewyU1gEG1mIC4piR5opKW5WTVTy6mAY6U1X4QAsfCgFqSJvB8lo0CEA5gpNJ3NFUirbrEiOOwQi88Je7VwDr0yopsqG5zbI",
+              "received": false
+            },
+            {
+              "_id": "693d4cd11c508c5d5ec05a80",
+              "name": "Pants8443",
+              "amount": 588,
+              "price": 71076,
+              "manufacturer": "Sony",
+              "notes": "m6OfLQweNADAWZDSldtGZmman5kL52iInJFAU2Yv2dbABsLKrpucvNmwmfI6IpGkB4wZ8xqaISlVDaKATLotruZhZ3P0xZB0AqZJ6zcivZvQrQkVHvMj66ZoKRWAYHjKGWzrdlA7IlzLHiIYox5y2M9dTV3cA9Jjf3FN0STB5PbROUVuN9DESAavD0ltUCgdCATmYpqZK8TbY1mTdOntJfD1n3ev3NOTJoRDQgFtbRxTOBqA6qzBVL8i9w",
+              "received": false
+            }
+          ],
+          "total_price": 108491,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Marysville",
+              "street": "Pfannerstill Row",
+              "house": 30,
+              "flat": 367
+            },
+            "finalDate": "2025-12-14T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-13T11:24:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693d4cca1c508c5d5ec05906",
+          "products": [
+            {
+              "_id": "693d4ccd1c508c5d5ec059e8",
+              "name": "Shoes17170",
+              "amount": 704,
+              "price": 37415,
+              "manufacturer": "Microsoft",
+              "notes": "Kje5CsGq0FQgifUmIqaoFwQu7mkxsEH1J6KAlAASUnq10bweMxAhwmshGu7nuooKNGa8TLqYTpZRPqERORLafpy2t9jHGIY9hkn4sAPQXKPbH9ZZOKEu4M5HcCDS1jEJWIBap0JmjMzb9I8gmkLPjA5jNx4ewyU1gEG1mIC4piR5opKW5WTVTy6mAY6U1X4QAsfCgFqSJvB8lo0CEA5gpNJ3NFUirbrEiOOwQi88Je7VwDr0yopsqG5zbI",
+              "received": false
+            },
+            {
+              "_id": "693d4cd11c508c5d5ec05a80",
+              "name": "Pants8443",
+              "amount": 588,
+              "price": 71076,
+              "manufacturer": "Sony",
+              "notes": "m6OfLQweNADAWZDSldtGZmman5kL52iInJFAU2Yv2dbABsLKrpucvNmwmfI6IpGkB4wZ8xqaISlVDaKATLotruZhZ3P0xZB0AqZJ6zcivZvQrQkVHvMj66ZoKRWAYHjKGWzrdlA7IlzLHiIYox5y2M9dTV3cA9Jjf3FN0STB5PbROUVuN9DESAavD0ltUCgdCATmYpqZK8TbY1mTdOntJfD1n3ev3NOTJoRDQgFtbRxTOBqA6qzBVL8i9w",
+              "received": false
+            }
+          ],
+          "total_price": 108491,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:24:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

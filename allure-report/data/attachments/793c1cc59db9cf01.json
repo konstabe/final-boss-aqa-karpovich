@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:23:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-hji68HRChiDjurzvBlLAfO10U2Q\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4ca81c508c5d5ec0542a",
+        "email": "Marlee.Welch@gmail.com",
+        "name": "Grayce Batz",
+        "country": "Canada",
+        "city": "Sammiestad",
+        "street": "Armand Falls",
+        "house": 18,
+        "flat": 688,
+        "phone": "+12766487697",
+        "createdOn": "2025-12-13T11:23:20.000Z",
+        "notes": "Kt91t1e0g0mWVLAptpZG9KMVOhNqbKqKWT3Un12prRAbcj9yHANpBymTrVy3TsYk4zYldiC88obft0PF6TzOy7hPLT0flqxj995MNt51RIpliFmAixaAKFuyYvctZvcHWpmmgiBdsdgiTv5JbgyNyw5K1qBEL62wLks7E3RpI2CO5vBEBMq95wL2fhmXZSEQHlDYyVucAtUPjT4j5DIUR49VxhjDWUYiJREgv7nWhtwHBPoHOGMhEIoMoC"
+      },
+      "products": [
+        {
+          "_id": "693d4cb11c508c5d5ec05490",
+          "name": "Shoes24434",
+          "amount": 244,
+          "price": 37859,
+          "manufacturer": "Microsoft",
+          "notes": "opn9S9p7GSJe0pAILCr1Elv0bdDIPELdVNc9rnP8FpM35k75QGL6xZsSdEV2qEL2ptFGSFuPI7mLBwB6ZSRLpkIVzcQaNvprV2ts9vsGqiRvSEGlniXL1y7HxTxQaAgor5moj0EWgj3qWIANdbdyXfxJf3TGb2pqy2wl1csrMg8kkNGx81kbD0I4DFDWD47uqHJPofZyhClgcSfRHOIskTZycCFTLJR9mNn0AvqyK0y9yQO5k9fQmSZpgw",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 37859,
+      "createdOn": "2025-12-13T11:23:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4ca81c508c5d5ec0542a",
+          "products": [
+            {
+              "_id": "693d4cb11c508c5d5ec05490",
+              "name": "Shoes24434",
+              "amount": 244,
+              "price": 37859,
+              "manufacturer": "Microsoft",
+              "notes": "opn9S9p7GSJe0pAILCr1Elv0bdDIPELdVNc9rnP8FpM35k75QGL6xZsSdEV2qEL2ptFGSFuPI7mLBwB6ZSRLpkIVzcQaNvprV2ts9vsGqiRvSEGlniXL1y7HxTxQaAgor5moj0EWgj3qWIANdbdyXfxJf3TGb2pqy2wl1csrMg8kkNGx81kbD0I4DFDWD47uqHJPofZyhClgcSfRHOIskTZycCFTLJR9mNn0AvqyK0y9yQO5k9fQmSZpgw",
+              "received": false
+            }
+          ],
+          "total_price": 37859,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:23:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d4cb11c508c5d5ec054a7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

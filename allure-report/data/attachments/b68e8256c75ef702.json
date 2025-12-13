@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:23:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-BGsxKBGaAM7YNyhm5y2913yrIz4\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4ca81c508c5d5ec05422",
+        "email": "Marcelle44@gmail.com",
+        "name": "Kaylee Larkin",
+        "country": "France",
+        "city": "Llewellynhaven",
+        "street": "Yost Heights",
+        "house": 33,
+        "flat": 621,
+        "phone": "+14412152292",
+        "createdOn": "2025-12-13T11:23:20.000Z",
+        "notes": "3GZdFPOHhMffJmB21NZWewt2Kyh97rfqJF0fLVMvTkfkZlLTfE85ZLfkylAIXZtnmoFDjsj1JEJQdaZLAVAvXpuwWgOKuRAo2X2wly0UNQPc5Z6bxzKfBh1xAz3ARZUHMe1mclMgkVUcu7HefwKyn9lIZsKMTRPUJ0gr08jZamZtffEb7IipwLF8bO9q3A5TQCLjzQCCa05oI0IEWSntYkkzHakvSGFnaeFITFyLoLt6SixppYdbbQPIby"
+      },
+      "products": [
+        {
+          "_id": "693d4cb01c508c5d5ec0548e",
+          "name": "Sausages98024",
+          "amount": 911,
+          "price": 49977,
+          "manufacturer": "Sony",
+          "notes": "dQx3q9NEjNQKIaf9s4i8ySZWiCSs6lirO7vmCw8lke8kOc8xGNvK7AvNTblOW5z2EsTQzZQ3tY7yvUsIIaqmUmUPcMoKrCKT1Ew8MrX3xHa6DRyhiBihzvh4nrCIllGFI2l7uGs2EJLiY93RW8U16T31mIRPHRw0epG3u1JB7ylgAeHEznluQDFI2xOnIXBCBu40HyXHf8woiK6OQTSplQ2DwVIBsyX5XRdpZVzHS6uR5jki5bmzOb1PSK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 49977,
+      "createdOn": "2025-12-13T11:23:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4ca81c508c5d5ec05422",
+          "products": [
+            {
+              "_id": "693d4cb01c508c5d5ec0548e",
+              "name": "Sausages98024",
+              "amount": 911,
+              "price": 49977,
+              "manufacturer": "Sony",
+              "notes": "dQx3q9NEjNQKIaf9s4i8ySZWiCSs6lirO7vmCw8lke8kOc8xGNvK7AvNTblOW5z2EsTQzZQ3tY7yvUsIIaqmUmUPcMoKrCKT1Ew8MrX3xHa6DRyhiBihzvh4nrCIllGFI2l7uGs2EJLiY93RW8U16T31mIRPHRw0epG3u1JB7ylgAeHEznluQDFI2xOnIXBCBu40HyXHf8woiK6OQTSplQ2DwVIBsyX5XRdpZVzHS6uR5jki5bmzOb1PSK",
+              "received": false
+            }
+          ],
+          "total_price": 49977,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:23:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d4cb11c508c5d5ec054a4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

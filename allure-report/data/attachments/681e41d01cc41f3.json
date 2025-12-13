@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:24:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4126",
+    "etag": "W/\"101e-M/9zdxK/8pcLtQVuNaN88Pqmhb8\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d4ccf1c508c5d5ec05a38",
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4cc21c508c5d5ec05851",
+        "email": "Maurine_Fritsch55@hotmail.com",
+        "name": "Deonte Larson",
+        "country": "Germany",
+        "city": "East Ramonhaven",
+        "street": "Willow Street",
+        "house": 17,
+        "flat": 474,
+        "phone": "+19255678282",
+        "createdOn": "2025-12-13T11:23:46.000Z",
+        "notes": "kAwqJm0FmXkf8mZ3MPzK9GyL6yYtmKTstdCeJHzVF8eyG89jaAb5S5mWAPNDL363uod0t75Dvs1z2xILNxblqEIs54k2NMOSznaOGWhbN7rJqCvDILoxxIaTZylYPo5oLZ2K9VgSEIBvFtTPeccZ2c1mKowMxwZmuXlTXd6l7tYxpCJNnVFXo5b16YJriFb5ysH9oe0HgtpnRkikwKRgSa9t5FlblhDqAvYnDjRitTYQp3ToXrkZKjEQuC"
+      },
+      "products": [
+        {
+          "_id": "693d4ccb1c508c5d5ec05955",
+          "name": "Bike76752",
+          "amount": 541,
+          "price": 76399,
+          "manufacturer": "Google",
+          "notes": "3vQid86mY5bHwj2tLTr2q7Rm9qdlrHTlyxlqKYFM7LgonoZ1toIi0HmLJDcjOKw3FdcgEOfHfj4QqCx7fDJySiXIa3V1RhrS7lz6EFp08bI6rTDmxmI0VyKJUhqVeYDTEGZfbVWIeEy9ZpdmCdCHI7Dg2BDNqXgywveRxvOnV3zUYQpYXwJIC01p77A8tIuA06weJyBv8UnTfcQt8rgYshFWKVfvkGeenn6bVYyDBSgKZDqf7NPHFrwrRy",
+          "received": false
+        },
+        {
+          "_id": "693d4cce1c508c5d5ec05a10",
+          "name": "Table53002",
+          "amount": 921,
+          "price": 26920,
+          "manufacturer": "Google",
+          "notes": "347Qj5qwClquBtmIBJewJv4A9yoThmoIAe88nXgGaLsnf9AQhxRxcr5CeYVALtMICloN2QC9IcX5lKu02DsUP7EwlIGO4aw9XleYseon4uAyyqJTqGeGuIPm8QjAExQHnPvXbmf4AFQiUMT8OjvIZUOO6qKbW3uMdPXLuQ4O8yuXJMK2wGfB84FwGyhXuIai3nGU884doAUae9pw5keibFgOaiRJOlfi8mIKGSGkdwif3iINikK6DNNR9t",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "East Ramonhaven",
+          "street": "Willow Street",
+          "house": 17,
+          "flat": 474
+        },
+        "finalDate": "2025-12-20T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 103319,
+      "createdOn": "2025-12-13T11:23:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4cc21c508c5d5ec05851",
+          "products": [
+            {
+              "_id": "693d4ccb1c508c5d5ec05955",
+              "name": "Bike76752",
+              "amount": 541,
+              "price": 76399,
+              "manufacturer": "Google",
+              "notes": "3vQid86mY5bHwj2tLTr2q7Rm9qdlrHTlyxlqKYFM7LgonoZ1toIi0HmLJDcjOKw3FdcgEOfHfj4QqCx7fDJySiXIa3V1RhrS7lz6EFp08bI6rTDmxmI0VyKJUhqVeYDTEGZfbVWIeEy9ZpdmCdCHI7Dg2BDNqXgywveRxvOnV3zUYQpYXwJIC01p77A8tIuA06weJyBv8UnTfcQt8rgYshFWKVfvkGeenn6bVYyDBSgKZDqf7NPHFrwrRy",
+              "received": false
+            },
+            {
+              "_id": "693d4cce1c508c5d5ec05a10",
+              "name": "Table53002",
+              "amount": 921,
+              "price": 26920,
+              "manufacturer": "Google",
+              "notes": "347Qj5qwClquBtmIBJewJv4A9yoThmoIAe88nXgGaLsnf9AQhxRxcr5CeYVALtMICloN2QC9IcX5lKu02DsUP7EwlIGO4aw9XleYseon4uAyyqJTqGeGuIPm8QjAExQHnPvXbmf4AFQiUMT8OjvIZUOO6qKbW3uMdPXLuQ4O8yuXJMK2wGfB84FwGyhXuIai3nGU884doAUae9pw5keibFgOaiRJOlfi8mIKGSGkdwif3iINikK6DNNR9t",
+              "received": false
+            }
+          ],
+          "total_price": 103319,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "East Ramonhaven",
+              "street": "Willow Street",
+              "house": 17,
+              "flat": 474
+            },
+            "finalDate": "2025-12-20T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-13T11:24:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693d4cc21c508c5d5ec05851",
+          "products": [
+            {
+              "_id": "693d4ccb1c508c5d5ec05955",
+              "name": "Bike76752",
+              "amount": 541,
+              "price": 76399,
+              "manufacturer": "Google",
+              "notes": "3vQid86mY5bHwj2tLTr2q7Rm9qdlrHTlyxlqKYFM7LgonoZ1toIi0HmLJDcjOKw3FdcgEOfHfj4QqCx7fDJySiXIa3V1RhrS7lz6EFp08bI6rTDmxmI0VyKJUhqVeYDTEGZfbVWIeEy9ZpdmCdCHI7Dg2BDNqXgywveRxvOnV3zUYQpYXwJIC01p77A8tIuA06weJyBv8UnTfcQt8rgYshFWKVfvkGeenn6bVYyDBSgKZDqf7NPHFrwrRy",
+              "received": false
+            },
+            {
+              "_id": "693d4cce1c508c5d5ec05a10",
+              "name": "Table53002",
+              "amount": 921,
+              "price": 26920,
+              "manufacturer": "Google",
+              "notes": "347Qj5qwClquBtmIBJewJv4A9yoThmoIAe88nXgGaLsnf9AQhxRxcr5CeYVALtMICloN2QC9IcX5lKu02DsUP7EwlIGO4aw9XleYseon4uAyyqJTqGeGuIPm8QjAExQHnPvXbmf4AFQiUMT8OjvIZUOO6qKbW3uMdPXLuQ4O8yuXJMK2wGfB84FwGyhXuIai3nGU884doAUae9pw5keibFgOaiRJOlfi8mIKGSGkdwif3iINikK6DNNR9t",
+              "received": false
+            }
+          ],
+          "total_price": 103319,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:23:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

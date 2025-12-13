@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:23:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-pWZMbmJlBZOWsFevNopHO+0VSvM\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4cbe1c508c5d5ec056bd",
+        "email": "Tia.Hagenes64@gmail.com",
+        "name": "Blair Marvin",
+        "country": "Canada",
+        "city": "Kohlerland",
+        "street": "Ash Grove",
+        "house": 7,
+        "flat": 277,
+        "phone": "+13304180307",
+        "createdOn": "2025-12-13T11:23:42.000Z",
+        "notes": "EAXwfrjCusnQOAB9iLCtN3MGuV4UCr3Tr8MWTbsh7YtiubQGMCErZ9m04nsgYXEh0uBiOmSrNpY96Hx3yMUrQKtjMQkQlmLUmejGzwyY4qZvWNUdNzAyoSDZtAuQcLRs3Tl2e7TYVmM2cZkmdhHkPAF6qchxuHDVQfBIgD6T80cEnoXMaSZfLHRywTcw932fKOc5aheZq1MgYNTNU2pFo5RskadUcNja6wJMDxWBtQrasgVYXJSIMQtrCw"
+      },
+      "products": [
+        {
+          "_id": "693d4cc11c508c5d5ec057f6",
+          "name": "Shoes36478",
+          "amount": 474,
+          "price": 39712,
+          "manufacturer": "Amazon",
+          "notes": "YLzXMos4h2Hl21pkf7d9umJ3sFgcGfp6yxdkNbHjI9bJ6RzizKjjCJMleuYDmfWyat1ocQemcBCsyAnNv8w9yqJemwnG97seDxbhacfqBw6saVe5dAi53tDO2pskAv1S0Mb3gmWmffjz5D6fGFMkNeUfIq6VWcnWN91DXZOdQsDqukdY5ql59N8xavhVu0giiAd4BbzNjNjDTTZ7nXBu0zyiJ3tOkLzY5cG1iFeLfruvZ47YPt1C4GdtHq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 39712,
+      "createdOn": "2025-12-13T11:23:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4cbe1c508c5d5ec056bd",
+          "products": [
+            {
+              "_id": "693d4cc11c508c5d5ec057f6",
+              "name": "Shoes36478",
+              "amount": 474,
+              "price": 39712,
+              "manufacturer": "Amazon",
+              "notes": "YLzXMos4h2Hl21pkf7d9umJ3sFgcGfp6yxdkNbHjI9bJ6RzizKjjCJMleuYDmfWyat1ocQemcBCsyAnNv8w9yqJemwnG97seDxbhacfqBw6saVe5dAi53tDO2pskAv1S0Mb3gmWmffjz5D6fGFMkNeUfIq6VWcnWN91DXZOdQsDqukdY5ql59N8xavhVu0giiAd4BbzNjNjDTTZ7nXBu0zyiJ3tOkLzY5cG1iFeLfruvZ47YPt1C4GdtHq",
+              "received": false
+            }
+          ],
+          "total_price": 39712,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:23:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d4cc11c508c5d5ec05811"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
