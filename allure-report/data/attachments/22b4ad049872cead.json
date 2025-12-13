@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 18:05:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1894",
+    "etag": "W/\"766-1U2Iz2V8hgl90R1JJh9FMgT5tes\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693daafa1c508c5d5ec4e78f",
+        "email": "Clementina_Douglas@gmail.com",
+        "name": "Ramona Towne",
+        "country": "Ukraine",
+        "city": "North Kyle",
+        "street": "MacGyver Ford",
+        "house": 15,
+        "flat": 473,
+        "phone": "+13954735031",
+        "createdOn": "2025-12-13T18:05:46.000Z",
+        "notes": "1XwzdYessaKLgsmRm1m8XUK2uCmtHFqCFySJf58iXdoyZNNNffouq0AHmx2XU6ThqDJzM1sPFZvARMjbIIt5xkCY1r683D6ypzW4UiVQUcgG3uDj6b8EZEIGGIMe8zV0Euz3dnk3vulJ1QUeneYRQlePSfozwYrVOyGLL7MBrqPKuB0IASrvzQLHbIeonOVEj9gOPcksXlNXSCIlEVFqaUdtMWmrlBB0v5uvDxNRDbyPuowEXOvm6dWkPd"
+      },
+      "products": [
+        {
+          "_id": "693daafa1c508c5d5ec4e7b0",
+          "name": "Shirt97121",
+          "amount": 100,
+          "price": 19019,
+          "manufacturer": "Microsoft",
+          "notes": "dNHN5axZLjklEWNARUfG16IUOmOeAf53pwciklrpuQETml6H36CQBKJVQtQha27CSO69C7wkqCUYKJmkOwl7uAIKD9dBGlG6gCQpoP7pylXeR4YVw5rDm7kLFA2wJQBc4qbvMiUkgL2YAQ5RbUeSuHgCOCvtq275I8KvcbYZbxfpVS7xDS6E3aaCmnHAYUphzYZ8EWvTux3vuLHOtYelH14rR8Ntp1Hs5EydG1iQtiPgkJTYDKlIWe95Sb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 19019,
+      "createdOn": "2025-12-13T18:05:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693daafa1c508c5d5ec4e78f",
+          "products": [
+            {
+              "_id": "693daafa1c508c5d5ec4e7b0",
+              "name": "Shirt97121",
+              "amount": 100,
+              "price": 19019,
+              "manufacturer": "Microsoft",
+              "notes": "dNHN5axZLjklEWNARUfG16IUOmOeAf53pwciklrpuQETml6H36CQBKJVQtQha27CSO69C7wkqCUYKJmkOwl7uAIKD9dBGlG6gCQpoP7pylXeR4YVw5rDm7kLFA2wJQBc4qbvMiUkgL2YAQ5RbUeSuHgCOCvtq275I8KvcbYZbxfpVS7xDS6E3aaCmnHAYUphzYZ8EWvTux3vuLHOtYelH14rR8Ntp1Hs5EydG1iQtiPgkJTYDKlIWe95Sb",
+              "received": false
+            }
+          ],
+          "total_price": 19019,
+          "delivery": null,
+          "changedOn": "2025-12-13T18:05:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693daafa1c508c5d5ec4e7d3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

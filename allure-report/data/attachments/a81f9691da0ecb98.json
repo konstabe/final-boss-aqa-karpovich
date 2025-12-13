@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 18:05:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-MVPWop4Kia8EgJ6CvwRldPhUbNo\"",
+    "keep-alive": "timeout=5, max=65",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693daafc1c508c5d5ec4e884",
+        "email": "Karen21@hotmail.com",
+        "name": "Nyasia Littel",
+        "country": "Great Britain",
+        "city": "East Tellyboro",
+        "street": "Spinka Prairie",
+        "house": 47,
+        "flat": 840,
+        "phone": "+18837601750",
+        "createdOn": "2025-12-13T18:05:48.000Z",
+        "notes": "JWCeO3eSPjxwdrahsYZTB6GPth6PND0kgmnPaOsONkHtox4105mo8PbZHUD0dMvNiDZrnoEWrL6HrulyR8Lvj9l4RsV84QIh2W1zbxQuoEl4Lq3SdQlXA3P1kFvyjMLfZTgET2e245nQctomQzbVAGrD6mZ8aGXwTUztAusB50SbgHO65EtLUMdNl7GzrbU2B2vUdKN2U7YO1OqssBdalBbJoGQL9nnCaMzID63FEmDOwUhAMaN2Cfvzvv"
+      },
+      "products": [
+        {
+          "_id": "693daafc1c508c5d5ec4e8ad",
+          "name": "Cheese9917",
+          "amount": 734,
+          "price": 91814,
+          "manufacturer": "Google",
+          "notes": "pPrmlAcMsHL6vBFarWfN9q6qDjqpWoQrykfEg2UFhbRIuu3uJzDoaR7yZsazBw0ddvun85194NxIgzSjdTpgjFJ1QspxIcQcq8XmTd2Wew9PGnpkxB1lyavfOALxyBttse0F3aZruPmdkMoCroUOhcL2QaHmd8uh7r4e1Zwk0ANC1Dcp7wm7uLKJZ8Tb2RBX5hdL4m9ySKadMTAEXvxoLIkBuudC4eCzx0ypn8KI5bYOBPAeiUghAeMMrO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 91814,
+      "createdOn": "2025-12-13T18:05:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693daafc1c508c5d5ec4e884",
+          "products": [
+            {
+              "_id": "693daafc1c508c5d5ec4e8ad",
+              "name": "Cheese9917",
+              "amount": 734,
+              "price": 91814,
+              "manufacturer": "Google",
+              "notes": "pPrmlAcMsHL6vBFarWfN9q6qDjqpWoQrykfEg2UFhbRIuu3uJzDoaR7yZsazBw0ddvun85194NxIgzSjdTpgjFJ1QspxIcQcq8XmTd2Wew9PGnpkxB1lyavfOALxyBttse0F3aZruPmdkMoCroUOhcL2QaHmd8uh7r4e1Zwk0ANC1Dcp7wm7uLKJZ8Tb2RBX5hdL4m9ySKadMTAEXvxoLIkBuudC4eCzx0ypn8KI5bYOBPAeiUghAeMMrO",
+              "received": false
+            }
+          ],
+          "total_price": 91814,
+          "delivery": null,
+          "changedOn": "2025-12-13T18:05:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693daafd1c508c5d5ec4e8da"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

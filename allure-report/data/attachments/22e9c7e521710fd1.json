@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 18:05:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-q6KLB7HD1b8qseDkUo7ts3sKrdE\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693daaf81c508c5d5ec4e6ba",
+        "email": "Ryann_Watsica67@gmail.com",
+        "name": "Seth Rowe",
+        "country": "Ukraine",
+        "city": "Redlands",
+        "street": "Blanda Valleys",
+        "house": 15,
+        "flat": 247,
+        "phone": "+17917626962",
+        "createdOn": "2025-12-13T18:05:44.000Z",
+        "notes": "sOJUOYZ9el8vGZUoIMmiuG3u7zk743bN12juhr56XLGPJo1e9SBy6Uom55sS0miUq3TJ1UIrZTchfve0926QswNrUcu0AdGran9aYe7kAzWw30i94mWVvnrKC2IGsSnQ5wSGjXNjYHGnF7BLETd8pLLbt7o3dFJFljTe4O1AEZ51eWylMeiLFWxickmH5EF1Vd7L1mRwe0Eo8xc5GU5qXAuqCGWhnGdsXdHDlVZ8X0LQU2jhH6LMyWWJuc"
+      },
+      "products": [
+        {
+          "_id": "693daaf81c508c5d5ec4e6d5",
+          "name": "Sausages19489",
+          "amount": 786,
+          "price": 12086,
+          "manufacturer": "Sony",
+          "notes": "I5sjufHW5Drb2RmsVzTRUxDM3Y0zVUbEzWsSc4ePoKTDo23VlN72YEcb17LdwIhdhpHS5LAwuiHukOSGur3fHcXduxzllUprjvrLZU6JKEL48VsC1zEufpP9IObBdzbUwq7celQFM0OqbsjIIWpr4MkZKsqJXaWZzw3sO4IE97tcp0PnUZqLSPX9M24ki2PZ5LsTVd77mq280Gg8I4aCvKGzx9CgrCchSOdipxNe26ClD8mjOzqq6q4ozF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 12086,
+      "createdOn": "2025-12-13T18:05:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693daaf81c508c5d5ec4e6ba",
+          "products": [
+            {
+              "_id": "693daaf81c508c5d5ec4e6d5",
+              "name": "Sausages19489",
+              "amount": 786,
+              "price": 12086,
+              "manufacturer": "Sony",
+              "notes": "I5sjufHW5Drb2RmsVzTRUxDM3Y0zVUbEzWsSc4ePoKTDo23VlN72YEcb17LdwIhdhpHS5LAwuiHukOSGur3fHcXduxzllUprjvrLZU6JKEL48VsC1zEufpP9IObBdzbUwq7celQFM0OqbsjIIWpr4MkZKsqJXaWZzw3sO4IE97tcp0PnUZqLSPX9M24ki2PZ5LsTVd77mq280Gg8I4aCvKGzx9CgrCchSOdipxNe26ClD8mjOzqq6q4ozF",
+              "received": false
+            }
+          ],
+          "total_price": 12086,
+          "delivery": null,
+          "changedOn": "2025-12-13T18:05:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693daaf81c508c5d5ec4e6f0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

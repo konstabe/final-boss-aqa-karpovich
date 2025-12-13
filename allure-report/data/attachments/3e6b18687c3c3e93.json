@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 18:05:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-y4iL5z7AIIX6aPRGu/fQbNKrsX8\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693daaf51c508c5d5ec4e5a7",
+        "email": "Douglas.Sporer@yahoo.com",
+        "name": "Carrie Cruickshank",
+        "country": "USA",
+        "city": "Kenner",
+        "street": "Bahringer Ports",
+        "house": 18,
+        "flat": 182,
+        "phone": "+15483667997",
+        "createdOn": "2025-12-13T18:05:41.000Z",
+        "notes": "3Xh3mhRsBOSUmmoCwpIcPtfkp19DJQptAqIlFc3b1PhyqBU6NwcBnlK5lvdTtYyDf0xRvGjTGVXeJwcflX7HRHvoxXNnrBBYKJMqtcpK0SU0CLehommjHxZhIg5qD2YydOmzy2kedWIyoVpVJDMsUL7vj4VTsAbAP1zP3r3MLkSPOhG0nPGiu10WbUydpbrysGrdnKk3e1r2Vr0bVR9MjYrsG3W443AgSlYqQgNuamRBJrDq0rT8PFENru"
+      },
+      "products": [
+        {
+          "_id": "693daaf51c508c5d5ec4e5c2",
+          "name": "Bacon97968",
+          "amount": 774,
+          "price": 72112,
+          "manufacturer": "Microsoft",
+          "notes": "mt19RD0SKu4i99NJ0DiFpUWxPrVS17mk32n79zLSELhPeLFrZhrqOibah1yTsIb36APBeMc8K1DNpbN4k56EhlLccA3u5YrhchmYRbupjloaeC9KqQpPf8E9bPggoQrzWkR2PSepXMRS9jQzjMMinJf2vGYwQ1zMoWspBkM0LBMyXQy5wEdhwauoIqn8VH1CzyOZeFwezeztixOa0exvyohgBYRsbGJLQmP4fluflXarY7gpOYGZiRtktM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 72112,
+      "createdOn": "2025-12-13T18:05:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693daaf51c508c5d5ec4e5a7",
+          "products": [
+            {
+              "_id": "693daaf51c508c5d5ec4e5c2",
+              "name": "Bacon97968",
+              "amount": 774,
+              "price": 72112,
+              "manufacturer": "Microsoft",
+              "notes": "mt19RD0SKu4i99NJ0DiFpUWxPrVS17mk32n79zLSELhPeLFrZhrqOibah1yTsIb36APBeMc8K1DNpbN4k56EhlLccA3u5YrhchmYRbupjloaeC9KqQpPf8E9bPggoQrzWkR2PSepXMRS9jQzjMMinJf2vGYwQ1zMoWspBkM0LBMyXQy5wEdhwauoIqn8VH1CzyOZeFwezeztixOa0exvyohgBYRsbGJLQmP4fluflXarY7gpOYGZiRtktM",
+              "received": false
+            }
+          ],
+          "total_price": 72112,
+          "delivery": null,
+          "changedOn": "2025-12-13T18:05:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693daaf51c508c5d5ec4e5e0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
