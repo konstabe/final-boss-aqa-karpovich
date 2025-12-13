@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 13:49:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-e2Y4Zj9/dDK19k/IHSrqioP+HeI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d6eff1c508c5d5ec1596c",
+        "email": "Jazmin.Senger22@gmail.com",
+        "name": "Carleton Monahan",
+        "country": "Belarus",
+        "city": "Redlands",
+        "street": "Brakus Lock",
+        "house": 39,
+        "flat": 162,
+        "phone": "+17472510459",
+        "createdOn": "2025-12-13T13:49:51.000Z",
+        "notes": "5TxWWcM9EHr23hM1xQ8SqZ5tmJcHtCXNMnNtk13vIiYQoHgQwnokkY8jFCkpDnIqqvYNeSzvrmFqJ11Grh3Erczna7ifBeHOZFusIFfpdwvUcv6oKq5cYxGT1vhLXRwBvGa8gB1cn1HIWYn6rSOvGj4r6CKhwEHJNsWdjG1Yao97Egw64EAV0dZntDMwmLOvPVyXpy6uXV345GmOvF1mn0QYR8KqV81hEXso4QL5Jmj9AO6APk9dLOHi36"
+      },
+      "products": [
+        {
+          "_id": "693d6f031c508c5d5ec159b6",
+          "name": "Pizza47157",
+          "amount": 594,
+          "price": 79942,
+          "manufacturer": "Google",
+          "notes": "4wbVFL6YeaJBSyfWav8Vt7SfnM7pMkdvgqHWMhlO4AOPz5x7BpZHu0lxqRdfRsCbvQp5felggMoC3MmmoWwuK7bZCTv8jiGXSzFrTNCnxNiokfNVn4oFNbbHKV5neRfdZcm1c9NU5dFdbK7gQ81i4PHpHiKlKorhdhmnRoKB8E2nhyRDMBDXsJrVDnA8b0EEq4OqLrpEcE0RxjyZAGvEtw19SJ5GTznldS3fJ1Vam310nqpWEYrmbXhqk7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 79942,
+      "createdOn": "2025-12-13T13:49:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d6eff1c508c5d5ec1596c",
+          "products": [
+            {
+              "_id": "693d6f031c508c5d5ec159b6",
+              "name": "Pizza47157",
+              "amount": 594,
+              "price": 79942,
+              "manufacturer": "Google",
+              "notes": "4wbVFL6YeaJBSyfWav8Vt7SfnM7pMkdvgqHWMhlO4AOPz5x7BpZHu0lxqRdfRsCbvQp5felggMoC3MmmoWwuK7bZCTv8jiGXSzFrTNCnxNiokfNVn4oFNbbHKV5neRfdZcm1c9NU5dFdbK7gQ81i4PHpHiKlKorhdhmnRoKB8E2nhyRDMBDXsJrVDnA8b0EEq4OqLrpEcE0RxjyZAGvEtw19SJ5GTznldS3fJ1Vam310nqpWEYrmbXhqk7",
+              "received": false
+            }
+          ],
+          "total_price": 79942,
+          "delivery": null,
+          "changedOn": "2025-12-13T13:49:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d6f031c508c5d5ec159be"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

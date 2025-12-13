@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 13:50:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-6q9sC2Tvs49y5Ltk7IlqSgLSUc4\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d6f061c508c5d5ec159f5",
+        "email": "Kiley.Mante@hotmail.com",
+        "name": "Stanley Beer",
+        "country": "Russia",
+        "city": "East Harmony",
+        "street": "Spencer Lakes",
+        "house": 19,
+        "flat": 61,
+        "phone": "+19696716413",
+        "createdOn": "2025-12-13T13:49:58.000Z",
+        "notes": "DUYXeVN5cChWNXOxjYPqgo3OPKL2B10wwGsWIYZdvvVjFwtuMigJr3LCbldbRMu65hCVcL4Dx0TT7b3gDz0lqu0hT1NeJtkbkPDnYVd7gKh9gJX8yaLo8TJXSk8HmHM8h7YgYczuxFangr4hpQLBuabJnznD96EXG2l6XGXPSpCeuTAxTmKqU7KbJHt6hH0S2g3MUfUSqAEkFvIMIIqevKekenELvKfHsT8l0xU6roGb27jP0Q8EyG64NH"
+      },
+      "products": [
+        {
+          "_id": "693d6f0a1c508c5d5ec15ade",
+          "name": "Ball20614",
+          "amount": 409,
+          "price": 81070,
+          "manufacturer": "Microsoft",
+          "notes": "N8cGeFl7qDFMe5zw5J1eP5qbL1o7IOYvNxrZRLbjcHxKCO5klVyp15zL5E0SZPsQn4SCxxMn7uaDwQUquHBfYWbwP6gF4E0U3zWmG6eprL7G8ugdDioiruLOEhZsTTxodJFLMxfyfkerXtq3WvR00hyNQcGOiyIqdDSSeJuSmO5bCLlqxsFDCNZSRXkxAvT4Vtp8KMF38wjkIJUlKJlVUoAY0bg3HMpE6GiJ7R9Ndrc2SBJ0olzUL8gVeR",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 81070,
+      "createdOn": "2025-12-13T13:50:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d6f061c508c5d5ec159f5",
+          "products": [
+            {
+              "_id": "693d6f0a1c508c5d5ec15ade",
+              "name": "Ball20614",
+              "amount": 409,
+              "price": 81070,
+              "manufacturer": "Microsoft",
+              "notes": "N8cGeFl7qDFMe5zw5J1eP5qbL1o7IOYvNxrZRLbjcHxKCO5klVyp15zL5E0SZPsQn4SCxxMn7uaDwQUquHBfYWbwP6gF4E0U3zWmG6eprL7G8ugdDioiruLOEhZsTTxodJFLMxfyfkerXtq3WvR00hyNQcGOiyIqdDSSeJuSmO5bCLlqxsFDCNZSRXkxAvT4Vtp8KMF38wjkIJUlKJlVUoAY0bg3HMpE6GiJ7R9Ndrc2SBJ0olzUL8gVeR",
+              "received": false
+            }
+          ],
+          "total_price": 81070,
+          "delivery": null,
+          "changedOn": "2025-12-13T13:50:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d6f0a1c508c5d5ec15aeb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

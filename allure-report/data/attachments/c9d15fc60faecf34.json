@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 13:50:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-vj7GDNY6BtTWAmZBYNOFUUD5EbM\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d6f061c508c5d5ec15a04",
+        "email": "Alysson_Koss89@hotmail.com",
+        "name": "Emilia Ratke",
+        "country": "USA",
+        "city": "Emerystead",
+        "street": "Cale Extension",
+        "house": 28,
+        "flat": 948,
+        "phone": "+12077552471",
+        "createdOn": "2025-12-13T13:49:58.000Z",
+        "notes": "2BOy1IcGW4a3XNqVsto1OZ9eBuweRLkIG7yI9XrF8pNlzIzT1PccThGodGVkM1h096z2mWwImwPoJmjS9gZlH3VzJBldGGioK2DeHcZQKH6BJN2FyrvXosBsaALltgQDvlWzgFLJOXHWO8pNXR1MQ3sJB2EQVrfOYdhX4pc2xHzHCLwQVbBjoXWpi2R5zajGPELIbagmcHD8pW87gfGTMeVGgUVCvFPPHCkPYngKeGG0Tcwt4XNOWe4aMo"
+      },
+      "products": [
+        {
+          "_id": "693d6f0a1c508c5d5ec15afc",
+          "name": "Shoes32206",
+          "amount": 630,
+          "price": 32771,
+          "manufacturer": "Google",
+          "notes": "HuFxvxpRxHfXGw5Lt2FiSYR818rm3ldkvbKvKUwDohW41539RRlBAyzM5JyGDqikcmUjxqMm4w2eUkV9kxFopOy0EfrG0hgLVrdIixrF1Wj2RI73lNrjEyTXDnefLhrtGMu4f7KiJLwIqZBU8PdIuPpC38tNZvepHpJ4YnYXprpb3MMiH8iFmqAEq6Pm5FMjN0vgUpoyNMUGL9RpkIv6O8WOvvta0p4eI3ZHtoylO1Cn71VhCt08UKgW97",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 32771,
+      "createdOn": "2025-12-13T13:50:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d6f061c508c5d5ec15a04",
+          "products": [
+            {
+              "_id": "693d6f0a1c508c5d5ec15afc",
+              "name": "Shoes32206",
+              "amount": 630,
+              "price": 32771,
+              "manufacturer": "Google",
+              "notes": "HuFxvxpRxHfXGw5Lt2FiSYR818rm3ldkvbKvKUwDohW41539RRlBAyzM5JyGDqikcmUjxqMm4w2eUkV9kxFopOy0EfrG0hgLVrdIixrF1Wj2RI73lNrjEyTXDnefLhrtGMu4f7KiJLwIqZBU8PdIuPpC38tNZvepHpJ4YnYXprpb3MMiH8iFmqAEq6Pm5FMjN0vgUpoyNMUGL9RpkIv6O8WOvvta0p4eI3ZHtoylO1Cn71VhCt08UKgW97",
+              "received": false
+            }
+          ],
+          "total_price": 32771,
+          "delivery": null,
+          "changedOn": "2025-12-13T13:50:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d6f0b1c508c5d5ec15b0a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
