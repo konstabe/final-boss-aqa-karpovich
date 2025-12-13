@@ -56,15 +56,21 @@ export class OrdersApiService {
 	async createDraftWithDelivery(token: string, numberOfProducts: number): Promise<IOrderFromResponse> {
 		const order = await this.createDraft(token, numberOfProducts);
 		const deliveryDetails = this.createDeliveryDetails(order);
-		const orderWithDelivery = await this.ordersApi.updateDeliveryDetails(order._id, deliveryDetails, token);
-		validateResponse(orderWithDelivery, {
+		const response = await this.ordersApi.updateDeliveryDetails(order._id, deliveryDetails, token);
+		validateResponse(response, {
 			status: STATUS_CODES.OK,
 			schema: orderResponseSchema, //подставить нужную схему
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
 
-		return orderWithDelivery.body.Order;
+		const orderWithDelivery = response.body.Order;
+
+		if (!orderWithDelivery.delivery) {
+			throw new Error(`createDraftWithDelivery failed: delivery was not set for order ${order._id}`);
+		}
+
+		return orderWithDelivery;
 	}
 
 	private createDeliveryDetails(order: IOrderFromResponse): IOrderDelivery {
@@ -121,7 +127,7 @@ export class OrdersApiService {
 	): Promise<IOrderFromResponse> {
 		const notReceived = this.getNotReceivedProducts(order);
 
-		if (numberOfReceivedProducts < 1 && numberOfReceivedProducts > 5) {
+		if (numberOfReceivedProducts < 1 || numberOfReceivedProducts > 5) {
 			throw new Error(
 				`Incorrect amount of products to receive is passed '${numberOfReceivedProducts}', min - 1, max - 5`,
 			);
@@ -141,7 +147,7 @@ export class OrdersApiService {
 		const partiallyReceived = await this.ordersApi.markOrdersAsReceived(order._id, randomProductsId, token);
 		validateResponse(partiallyReceived, {
 			status: STATUS_CODES.OK,
-			schema: orderResponseSchema, //подставить нужную схему
+			schema: orderResponseSchema,
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
@@ -216,6 +222,10 @@ export class OrdersApiService {
 		if (customersId.length > 0) {
 			await Promise.all(customersId.map((id) => this.customersApiService.delete(id, token)));
 		}
+
+		ordersId.length = 0;
+		productsId.length = 0;
+		customersId.length = 0;
 	}
 
 	async collectIdsForDeletion(
