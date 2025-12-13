@@ -5,6 +5,7 @@ export enum NOTIFICATIONS {
 	CREATED_FAIL_BAD_REQUEST = "CREATED_FAIL_BAD_REQUEST",
 	CREATED_FAIL_INCORRET_REQUEST_BODY = "Incorrect request body",
 	CUSTOMER_CREATED = "Customer was successfully created",
+	COMMENT_WAS_NOT_FOUND = "Comment was not found",
 }
 
 export const ERROR_MESSAGES = {
