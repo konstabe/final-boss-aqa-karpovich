@@ -18,4 +18,5 @@ export const ERROR_MESSAGES = {
 	ORDER_NOT_FOUND: (id: string) => `Order with id '${id}' wasn't found`,
 	MANAGER_NOT_FOUND: (id: string) => `Manager with id '${id}' wasn't found`,
 	INVALID_ORDER_STATUS: "Invalid order status",
+	ORDER_BY_ID_NOT_FOUND: (id: string) => `Order with id '${id}' wasn't found`,
 };

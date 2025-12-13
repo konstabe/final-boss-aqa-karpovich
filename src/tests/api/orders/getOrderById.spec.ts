@@ -1,6 +1,6 @@
 import { ERROR_MESSAGES } from "data/notifications";
 import { generateProductData } from "data/products/generateProductData";
-import { getOrderByOdSchema } from "data/schemas/orders/getOrder.schema";
+import { orderByIdSchema } from "data/schemas/orders/getOrderById.schema";
 import { STATUS_CODES } from "data/statusCodes";
 import { IOrder } from "data/types/order.types";
 import { test } from "fixtures/api.fixture";
@@ -38,7 +38,7 @@ test.describe("[API] [Sales Portal] [Orders] [Get Oreder By Id]", () => {
 		const order = await ordersApi.getById(id_order, token);
 		validateResponse(order, {
 			status: STATUS_CODES.OK,
-			schema: getOrderByOdSchema,
+			schema: orderByIdSchema,
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
