@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 10:52:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-DhTp7wav1qdp/QQJzCUFWuJPuts\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d45731c508c5d5ebf3295",
+        "email": "Efren.Corkery7@yahoo.com",
+        "name": "Greyson Bernier",
+        "country": "USA",
+        "city": "Lake Carmelshire",
+        "street": "Jones Points",
+        "house": 20,
+        "flat": 219,
+        "phone": "+16692024766",
+        "createdOn": "2025-12-13T10:52:35.000Z",
+        "notes": "0i2ku3LKwrgVtbmcCBoqaj0NZ1LrrDWZl4BVTDScw51guVW3cELCHSGvI7AqnN4DB60MFniMlWImDDiiRw3iFK7JOh1UZ56dpnhNs2gBL1kokY0X8CAeIfpBwa68mrFLK3tzlRKzhZ1vVjAgakhPkuQpGcwIMKYUH06j5FsLEWyiYgsq1olQJNHKz6G7kumEhDz6YWe3balGw1MUKqQVZx9vE44ihJky9lWSawdaKj2c2tf4mFra133B53"
+      },
+      "products": [
+        {
+          "_id": "693d45781c508c5d5ebf33c0",
+          "name": "Keyboard532",
+          "amount": 52,
+          "price": 34774,
+          "manufacturer": "Sony",
+          "notes": "7ytRM8NUta0nO8P1oex5a7Oan15dgCraUAykpzGoGMofXPyMy9VGk8aWCkTvGk25dBik45FZ3wNf9TiTZiOMlpG9eF3QgwDsEzfKA4hsllv4dYwnby0KPOyrfTDAyAHOMdRx5bNbXPbZOjWg4RGb4siKhoHkBHG23h41YDTJmN89vNaLgcH5Cnq0uOZUqghSAnngSdpMSe8n3NwNnSOTg31uphT4LArPLqNbHQVo8LAuGmo7GT05jiSoHU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 34774,
+      "createdOn": "2025-12-13T10:52:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d45731c508c5d5ebf3295",
+          "products": [
+            {
+              "_id": "693d45781c508c5d5ebf33c0",
+              "name": "Keyboard532",
+              "amount": 52,
+              "price": 34774,
+              "manufacturer": "Sony",
+              "notes": "7ytRM8NUta0nO8P1oex5a7Oan15dgCraUAykpzGoGMofXPyMy9VGk8aWCkTvGk25dBik45FZ3wNf9TiTZiOMlpG9eF3QgwDsEzfKA4hsllv4dYwnby0KPOyrfTDAyAHOMdRx5bNbXPbZOjWg4RGb4siKhoHkBHG23h41YDTJmN89vNaLgcH5Cnq0uOZUqghSAnngSdpMSe8n3NwNnSOTg31uphT4LArPLqNbHQVo8LAuGmo7GT05jiSoHU",
+              "received": false
+            }
+          ],
+          "total_price": 34774,
+          "delivery": null,
+          "changedOn": "2025-12-13T10:52:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d457c1c508c5d5ebf3416"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

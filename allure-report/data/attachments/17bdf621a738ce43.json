@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 10:53:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3425",
+    "etag": "W/\"d61-GR5aqVPO+cd43xaOKR5Ix0SrnGs\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d45a51c508c5d5ebf4097",
+        "email": "Kassandra64@yahoo.com",
+        "name": "Arvilla Bauch",
+        "country": "Russia",
+        "city": "Jamisonview",
+        "street": "Scotty Island",
+        "house": 10,
+        "flat": 44,
+        "phone": "+18687220170",
+        "createdOn": "2025-12-13T10:53:25.000Z",
+        "notes": "SvtHmy1LT4lJorf8GzkoX9V79lhF8M4Sbt9uMQlN2DWO76MdF2kSHPpxb7zPS2JBjmClbHdOF4Y5XK96kSUW1BidP6T034SfFJBw7EDBtnmmYfwWS81OMwv7DAavED2evRTf58N8T5h1dB5KluBHNsCvhQSZPeQQzdZuIfSye9H6AKi19iXbMZrVhm6i8wDeeEkCWJSRrT3vXHEZv3SVbBoVfnHSoKSZZbwUo7LoHzK2z0thKRFzBHsyOp"
+      },
+      "products": [
+        {
+          "_id": "693d45a81c508c5d5ebf4168",
+          "name": "Sausages92696",
+          "amount": 658,
+          "price": 74600,
+          "manufacturer": "Sony",
+          "notes": "6nFB2p9b0AiIYR4MgsMBuKe3fxGGc2bmn7JgfYHyanUwRa09TnZx6jDGID6t2KCvWhupw2bJJWU2LGy1GBdiGIfxF0EWJnz6JBKbBy5sTRV8UFrOAlb7LuftPZcXIZP9Th84yfOBt3glaPBlPlhRe8HA9VDcywNH5jYEXL7Cyul3t0LVDPVBR8YJ1gWRTWirOIY6BXCqHzlIapJ3ZNsLlVgFCDQhNSoy0xibqttE4SHvfkHEtSzDMcbpLu",
+          "received": false
+        },
+        {
+          "_id": "693d45aa1c508c5d5ebf4353",
+          "name": "Computer15416",
+          "amount": 443,
+          "price": 6033,
+          "manufacturer": "Microsoft",
+          "notes": "ZhfPQFRC6RkLDHXv6Lo8hpmFM2eztU5IknBt51MNuOt4V0Xy5A0MJs45w0LVcBfy6VEf9ypwJic4H4ueChnKvkI46fX13mOSUGTj03rdY8dWCJE1T0zFhd9OjXHDJJqMmhG9rDTfqSUypubxoOR59lpQWUH2xRRbwkXRntberaIFqR0lvUHLczdB63hQU4VDUSu4VThMvO0s2tYS6JL9TOqSFOPSL0Alkp0PABe1fCjnLQzfAxjMOXFLJO",
+          "received": false
+        },
+        {
+          "_id": "693d45b21c508c5d5ebf44e1",
+          "name": "Tuna56300",
+          "amount": 202,
+          "price": 22886,
+          "manufacturer": "Sony",
+          "notes": "zybTM7Z6IbNatDIqCuINKXDrZmQEsUOo2fU4JhcLGpygHRfVf3ZU66VPRnIY2yq27XIinRguxdJjgo3yXwug7RHbZqse5Qs0xNDD6mpzelYzeRukGvYxjYRPIkHd5ljFnYqzhWbHWHb6hjACo2C0wIjhDAhb9XTR4yLuz3MXdQXsNbLHATy6iFFnLNe6JHF2MrGQWNNh8YW9C0e8fELd35rjzcvAk6kzC8Z84k13mDAOXXLp7is02oWkje",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 103519,
+      "createdOn": "2025-12-13T10:53:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d45a51c508c5d5ebf4097",
+          "products": [
+            {
+              "_id": "693d45a81c508c5d5ebf4168",
+              "name": "Sausages92696",
+              "amount": 658,
+              "price": 74600,
+              "manufacturer": "Sony",
+              "notes": "6nFB2p9b0AiIYR4MgsMBuKe3fxGGc2bmn7JgfYHyanUwRa09TnZx6jDGID6t2KCvWhupw2bJJWU2LGy1GBdiGIfxF0EWJnz6JBKbBy5sTRV8UFrOAlb7LuftPZcXIZP9Th84yfOBt3glaPBlPlhRe8HA9VDcywNH5jYEXL7Cyul3t0LVDPVBR8YJ1gWRTWirOIY6BXCqHzlIapJ3ZNsLlVgFCDQhNSoy0xibqttE4SHvfkHEtSzDMcbpLu",
+              "received": false
+            },
+            {
+              "_id": "693d45aa1c508c5d5ebf4353",
+              "name": "Computer15416",
+              "amount": 443,
+              "price": 6033,
+              "manufacturer": "Microsoft",
+              "notes": "ZhfPQFRC6RkLDHXv6Lo8hpmFM2eztU5IknBt51MNuOt4V0Xy5A0MJs45w0LVcBfy6VEf9ypwJic4H4ueChnKvkI46fX13mOSUGTj03rdY8dWCJE1T0zFhd9OjXHDJJqMmhG9rDTfqSUypubxoOR59lpQWUH2xRRbwkXRntberaIFqR0lvUHLczdB63hQU4VDUSu4VThMvO0s2tYS6JL9TOqSFOPSL0Alkp0PABe1fCjnLQzfAxjMOXFLJO",
+              "received": false
+            },
+            {
+              "_id": "693d45b21c508c5d5ebf44e1",
+              "name": "Tuna56300",
+              "amount": 202,
+              "price": 22886,
+              "manufacturer": "Sony",
+              "notes": "zybTM7Z6IbNatDIqCuINKXDrZmQEsUOo2fU4JhcLGpygHRfVf3ZU66VPRnIY2yq27XIinRguxdJjgo3yXwug7RHbZqse5Qs0xNDD6mpzelYzeRukGvYxjYRPIkHd5ljFnYqzhWbHWHb6hjACo2C0wIjhDAhb9XTR4yLuz3MXdQXsNbLHATy6iFFnLNe6JHF2MrGQWNNh8YW9C0e8fELd35rjzcvAk6kzC8Z84k13mDAOXXLp7is02oWkje",
+              "received": false
+            }
+          ],
+          "total_price": 103519,
+          "delivery": null,
+          "changedOn": "2025-12-13T10:53:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d45b41c508c5d5ebf45e8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

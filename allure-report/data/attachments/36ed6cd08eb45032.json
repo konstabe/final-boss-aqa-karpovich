@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 10:52:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2954",
+    "etag": "W/\"b8a-Red8JwkTA/aEfp6iOk0XZdXizG0\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d45781c508c5d5ebf3377",
+      "status": "Draft",
+      "customer": {
+        "_id": "693d45721c508c5d5ebf3210",
+        "email": "Shanon_Sporer39@hotmail.com",
+        "name": "Gene Rice",
+        "country": "Ukraine",
+        "city": "Barrowscester",
+        "street": "Washington Road",
+        "house": 38,
+        "flat": 936,
+        "phone": "+17197936762",
+        "createdOn": "2025-12-13T10:52:34.000Z",
+        "notes": "s0w4x5lm6EtoytFUUdk8b0WYbKAekLZuUQZwOSBYwbMcMpuVDmX5jTeAtqsIvF8rRskuNv23H2LhoOk2MJRYBVZrEW1VuBg22CbpO0rYX60EIMHkiEVwv3ZbPNPiSkWwKFuNG8O9v6yYso88HC23COBEg1tUidZm7a4tvxdXRYsU4lyS6F5wuJwUE8RqysT4cANGgHL0eTJPnac5aEnmKgGD8PIQfPAFSZGGyOF0tsMSMNnmY78ATJo0do"
+      },
+      "products": [
+        {
+          "_id": "693d45771c508c5d5ebf3343",
+          "name": "Shirt96073",
+          "amount": 225,
+          "price": 4450,
+          "manufacturer": "Amazon",
+          "notes": "bbvn2zcxP40gOVOx98WrKQkf3Y6Qf6jN9KR4MRqU2pRUg4puLlmyrmprwDDzAelP6aiwD4Wc9KVKbctOQ2XVp3EntqjyeFFPTIFZoixcdlzrxqHQACGRAAewGyjC7QQbXh0oqbiKKZx4oKGVusrj1cUbPq30Lro9oOVnl0OJWRIVE3zRsAZlC9y47i8OUAQ9Jvj2TiVqGq3gBz2mngv7akFSSTGo5VAOe7DY2p4qnUYHXqLWI571UZVF5l",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 4450,
+      "createdOn": "2025-12-13T10:52:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d45721c508c5d5ebf3210",
+          "products": [
+            {
+              "_id": "693d45771c508c5d5ebf3343",
+              "name": "Shirt96073",
+              "amount": 225,
+              "price": 4450,
+              "manufacturer": "Amazon",
+              "notes": "bbvn2zcxP40gOVOx98WrKQkf3Y6Qf6jN9KR4MRqU2pRUg4puLlmyrmprwDDzAelP6aiwD4Wc9KVKbctOQ2XVp3EntqjyeFFPTIFZoixcdlzrxqHQACGRAAewGyjC7QQbXh0oqbiKKZx4oKGVusrj1cUbPq30Lro9oOVnl0OJWRIVE3zRsAZlC9y47i8OUAQ9Jvj2TiVqGq3gBz2mngv7akFSSTGo5VAOe7DY2p4qnUYHXqLWI571UZVF5l",
+              "received": false
+            }
+          ],
+          "total_price": 4450,
+          "delivery": null,
+          "changedOn": "2025-12-13T10:52:40.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "693d45721c508c5d5ebf3210",
+          "products": [
+            {
+              "_id": "693d45771c508c5d5ebf3343",
+              "name": "Shirt96073",
+              "amount": 225,
+              "price": 4450,
+              "manufacturer": "Amazon",
+              "notes": "bbvn2zcxP40gOVOx98WrKQkf3Y6Qf6jN9KR4MRqU2pRUg4puLlmyrmprwDDzAelP6aiwD4Wc9KVKbctOQ2XVp3EntqjyeFFPTIFZoixcdlzrxqHQACGRAAewGyjC7QQbXh0oqbiKKZx4oKGVusrj1cUbPq30Lro9oOVnl0OJWRIVE3zRsAZlC9y47i8OUAQ9Jvj2TiVqGq3gBz2mngv7akFSSTGo5VAOe7DY2p4qnUYHXqLWI571UZVF5l",
+              "received": false
+            }
+          ],
+          "total_price": 4450,
+          "delivery": null,
+          "changedOn": "2025-12-13T10:52:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

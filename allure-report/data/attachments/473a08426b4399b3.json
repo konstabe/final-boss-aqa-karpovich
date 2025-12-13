@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 10:52:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1893",
+    "etag": "W/\"765-au+e4X1DGAODiqMOhfM+XikePGE\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d45661c508c5d5ebf2f4a",
+        "email": "Javon.Fay91@hotmail.com",
+        "name": "Davin Weissnat",
+        "country": "Great Britain",
+        "city": "Koepphaven",
+        "street": "Douglas Forks",
+        "house": 49,
+        "flat": 492,
+        "phone": "+13384046176",
+        "createdOn": "2025-12-13T10:52:22.000Z",
+        "notes": "UZMvAqRf23xubhmZtjj3wPE5oGyaKUQ6zqk40EKqkb0p4oADe2yp0dXamwpK0una6uoHaAQzRyNNQn6F6yR2DHdtqfGRHPejlXtbOPRw7aGN497iPVRF3v9WE91fcckiQfgaFLBKuFg6rrPLDKCXa8bP4ll6Eb2TnSeBrVzygKZmtL20PlsYCvSG0SnOHhLQMyXqrIyrqyWfMxbGlUalpieLMxjAdz1N8yTCt1zOGEfM8jAsW9ipuSl59o"
+      },
+      "products": [
+        {
+          "_id": "693d456b1c508c5d5ebf3061",
+          "name": "Towels51790",
+          "amount": 849,
+          "price": 37533,
+          "manufacturer": "Amazon",
+          "notes": "BRBL7r5nNCbklHSzIOsd4RmHuX45Vbmq3DM2TYoRVx9jugPVJvUAnyS8xhJsGgT0sFSKDDGVWiNYKGLyPtc06iu4acTGvMyM7RSF7sB5GHM6jcBEKZ1COceOdb2OcQNEsdTzInCCqgjn0mOvnvCqayH8A7MuvC6qbKIQIijKETSL0VgsB9vqseWfIp2nhuUQCP6gbKnemLJGEEQrRnxNkkLWfVwE1PtWa5ll0fLlpdQJflohFDFz7IFR0F",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 37533,
+      "createdOn": "2025-12-13T10:52:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d45661c508c5d5ebf2f4a",
+          "products": [
+            {
+              "_id": "693d456b1c508c5d5ebf3061",
+              "name": "Towels51790",
+              "amount": 849,
+              "price": 37533,
+              "manufacturer": "Amazon",
+              "notes": "BRBL7r5nNCbklHSzIOsd4RmHuX45Vbmq3DM2TYoRVx9jugPVJvUAnyS8xhJsGgT0sFSKDDGVWiNYKGLyPtc06iu4acTGvMyM7RSF7sB5GHM6jcBEKZ1COceOdb2OcQNEsdTzInCCqgjn0mOvnvCqayH8A7MuvC6qbKIQIijKETSL0VgsB9vqseWfIp2nhuUQCP6gbKnemLJGEEQrRnxNkkLWfVwE1PtWa5ll0fLlpdQJflohFDFz7IFR0F",
+              "received": false
+            }
+          ],
+          "total_price": 37533,
+          "delivery": null,
+          "changedOn": "2025-12-13T10:52:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d456c1c508c5d5ebf307c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
