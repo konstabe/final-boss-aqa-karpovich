@@ -8,7 +8,6 @@ import { errorSchema } from "data/schemas/core.schema";
 import { IProduct } from "data/types/product.types";
 import { negativeCasesProductCreate } from "data/products/createProductNegative.data";
 import { positiveCasesProductCreate } from "data/products/createProductPositive.data";
-import { TAGS } from "data/tags";
 
 test.describe("[API] [Sales Portal] [Products]", () => {
 	let id = "";

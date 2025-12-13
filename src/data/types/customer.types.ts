@@ -20,6 +20,10 @@ export interface ICustomerResponse extends IResponseFields {
 	Customer: ICustomerFromResponse;
 }
 
+export interface ICustomersResponse extends IResponseFields {
+	Customers: ICustomerFromResponse[];
+}
+
 export interface ICustomerInTable extends Pick<ICustomer, "email" | "name" | "country">, ICreatedOn {}
 
 export interface ICustomersSortedResponse extends ICustomerResponse {

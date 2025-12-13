@@ -7,7 +7,6 @@ import { TAGS } from "data/tags";
 import { generateProductData } from "data/products/generateProductData";
 import { createProductSchema } from "data/schemas/product/create.schema";
 import { ERROR_MESSAGES } from "data/notifications";
-import { MANUFACTURERS } from "data/products/manufacturers";
 
 test.describe("[API] [Sales Portal] [Products]", () => {
 	test.describe("Smoke", () => {

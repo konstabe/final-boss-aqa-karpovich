@@ -4,7 +4,6 @@ import { getOrdersSchema } from "data/schemas/orders/getOrder.schema";
 import { STATUS_CODES } from "data/statusCodes";
 import { IOrder } from "data/types/order.types";
 import { expect, test } from "fixtures/api.fixture";
-import _ from "lodash";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 
 test.describe("[API] [Sales Portal] [Orders] [Assign a manager to an order]", () => {

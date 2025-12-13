@@ -5,7 +5,6 @@ import { STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";
 import { IOrder } from "data/types/order.types";
 import { expect, test } from "fixtures/api.fixture";
-import _ from "lodash";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 
 test.describe("[API] [Sales Portal] [Customers]", () => {

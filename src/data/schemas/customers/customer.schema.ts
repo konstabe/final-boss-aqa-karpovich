@@ -2,6 +2,7 @@ import { COUNTRIES } from "data/customers/countries";
 import { obligatoryFieldsSchema, obligatoryRequiredFields } from "../core.schema";
 
 export const customerSchema = {
+	$id: "customerSchema",
 	type: "object",
 	properties: {
 		_id: { type: "string" },
@@ -21,6 +22,54 @@ export const customerSchema = {
 	},
 	required: ["_id", "email", "name", "country", "city", "street", "house", "flat", "phone", "createdOn"],
 	additionalProperties: false,
+};
+
+export const customerAllSchema = {
+	$id: "customerAllSchema",
+	type: "object",
+	properties: {
+		status: { type: "number", const: 200 },
+
+		body: {
+			type: "object",
+			properties: {
+				Customers: {
+					type: "array",
+					items: { $ref: "customerSchema" }, // <- БЕЗ #
+				},
+				total: { type: "number" },
+				page: { type: "number" },
+				limit: { type: "number" },
+				search: { type: "string" },
+				country: {
+					type: "array",
+					items: { type: "string" },
+				},
+				sorting: {
+					type: "object",
+					properties: {
+						sortField: { type: "string" },
+						sortOrder: { type: "string", enum: ["asc", "desc"] },
+					},
+					required: ["sortField", "sortOrder"],
+				},
+				IsSuccess: { type: "boolean" },
+				ErrorMessage: { type: ["string", "null"] },
+			},
+			required: [
+				"Customers",
+				"total",
+				"page",
+				"limit",
+				"search",
+				"country",
+				"sorting",
+				"IsSuccess",
+				"ErrorMessage",
+			],
+		},
+	},
+	required: ["status", "body"],
 };
 
 export const customerSearchSchema = {
