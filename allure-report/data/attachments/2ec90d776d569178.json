@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:00:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-eIlrB7bKqGwg5lMbqRa//5ii0vA\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d473e1c508c5d5ebf952c",
+        "email": "Edgar_Mills45@hotmail.com",
+        "name": "Lawson Bechtelar",
+        "country": "USA",
+        "city": "Heidenreichport",
+        "street": "Quarry Road",
+        "house": 15,
+        "flat": 136,
+        "phone": "+16352601688",
+        "createdOn": "2025-12-13T11:00:14.000Z",
+        "notes": "ZjmO0cROvNDLAnHT42MR5O7WdBd99esVlroiDoVTOOUaH6TvEsVVM8id2kMAKXD4uyhiSAcWksVq2Ha4Rk5JA5h44PJogwFiJelIG0YRmJPmYTmryCZlQYH2FbhOTsOE29YhVCVn6FYKSaHOKnXTmFHw4Kjl79xh1xaFreEAJMfxG5OtJe78BLKeusAZukxenGrsXCq2obRLg7k0xIMb2MZPel7ptu5xCBr0YWd7PWqhuemuJsjfUWFyQl"
+      },
+      "products": [
+        {
+          "_id": "693d47431c508c5d5ebf962e",
+          "name": "Shirt99972",
+          "amount": 250,
+          "price": 45729,
+          "manufacturer": "Google",
+          "notes": "ugCVwWBXdsdfUIvIWGoVezFDHNppom6cNEriJzoBWVJx4JNjhtxLW9llWwTO7MII909DAUbSJ1FCsH4SYwRULH6oWZvIherkxjHtnkPkyzK2qtYH5DckC34S3lU5xwbndAJqCC3dsmMG6ZC1if53HOq3SLgWQw0VJna6Ry2oFUgyXihkdpG5jT1Vt3tuzbu9IGjrgwZQ4yH47piyijIXhEEJZOqKCWx2CXxuoI67dmZMU34MHHcV6qBdcS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 45729,
+      "createdOn": "2025-12-13T11:00:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d473e1c508c5d5ebf952c",
+          "products": [
+            {
+              "_id": "693d47431c508c5d5ebf962e",
+              "name": "Shirt99972",
+              "amount": 250,
+              "price": 45729,
+              "manufacturer": "Google",
+              "notes": "ugCVwWBXdsdfUIvIWGoVezFDHNppom6cNEriJzoBWVJx4JNjhtxLW9llWwTO7MII909DAUbSJ1FCsH4SYwRULH6oWZvIherkxjHtnkPkyzK2qtYH5DckC34S3lU5xwbndAJqCC3dsmMG6ZC1if53HOq3SLgWQw0VJna6Ry2oFUgyXihkdpG5jT1Vt3tuzbu9IGjrgwZQ4yH47piyijIXhEEJZOqKCWx2CXxuoI67dmZMU34MHHcV6qBdcS",
+              "received": false
+            }
+          ],
+          "total_price": 45729,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:00:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d47451c508c5d5ebf96a0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

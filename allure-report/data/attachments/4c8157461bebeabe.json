@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:00:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-0Nmexy+Jv8yrT5F5SJztkyovhhg\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d47371c508c5d5ebf93a6",
+        "email": "Stephania35@gmail.com",
+        "name": "Rachel VonRueden",
+        "country": "Russia",
+        "city": "Lake Ellaton",
+        "street": "Lesly Throughway",
+        "house": 12,
+        "flat": 600,
+        "phone": "+19574631147",
+        "createdOn": "2025-12-13T11:00:07.000Z",
+        "notes": "NejpBuYoHjHUUJ6ZhpjIhgbgGdLB7PpwTkX6xDgUrQRW32yE9QilepjFFnRqt14oUbltgOfsX46h0lCZOYaAkvzQfVk20w9bdH8NKcsjTwFwlVFWuvpvyDLVBUt7tqa1M9arFm8quP8YFnvsm9LcqYW3nvW0F1gRR8b5j7ZSwFsqS5QSz4gfTvOIYfh6BrvpS52NQSjDAbtawEyWvt7WJmT2X6T3aidkd0OufgIER3hCInYWqa7OL837QL"
+      },
+      "products": [
+        {
+          "_id": "693d473b1c508c5d5ebf943b",
+          "name": "Salad19081",
+          "amount": 128,
+          "price": 69497,
+          "manufacturer": "Apple",
+          "notes": "eIYOA54jaN2PcW30L6MwXRAaOsmXO6clyfx7wB4stpWT4AHTNq1PRkqx22gnBsewB3yC9i9mdJuRebZOgxqf7fvZwDylYNmYQmtt0xHVUdbFB2O4Tv8bWnZSz0kbjT2jlFkciiwI8B1UOERhdxGzoKHCROvQO3R05ridZcgOgEftqrnMycQq9AVFwqca98mUF9prw2Mu4nHFkZQBOfqHUt8w6n6eUWxxSFeed8aFy2tWoxAPIVforaWiaZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 69497,
+      "createdOn": "2025-12-13T11:00:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d47371c508c5d5ebf93a6",
+          "products": [
+            {
+              "_id": "693d473b1c508c5d5ebf943b",
+              "name": "Salad19081",
+              "amount": 128,
+              "price": 69497,
+              "manufacturer": "Apple",
+              "notes": "eIYOA54jaN2PcW30L6MwXRAaOsmXO6clyfx7wB4stpWT4AHTNq1PRkqx22gnBsewB3yC9i9mdJuRebZOgxqf7fvZwDylYNmYQmtt0xHVUdbFB2O4Tv8bWnZSz0kbjT2jlFkciiwI8B1UOERhdxGzoKHCROvQO3R05ridZcgOgEftqrnMycQq9AVFwqca98mUF9prw2Mu4nHFkZQBOfqHUt8w6n6eUWxxSFeed8aFy2tWoxAPIVforaWiaZ",
+              "received": false
+            }
+          ],
+          "total_price": 69497,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:00:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d473c1c508c5d5ebf944d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

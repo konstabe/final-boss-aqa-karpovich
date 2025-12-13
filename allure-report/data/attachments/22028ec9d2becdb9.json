@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:00:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-k1mD1ldbLRav8wDL8YxmhPIsAow\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d472b1c508c5d5ebf925d",
+        "email": "Pinkie10@gmail.com",
+        "name": "Onie Wiza",
+        "country": "Great Britain",
+        "city": "Wellingtonmouth",
+        "street": "Laverna Garden",
+        "house": 8,
+        "flat": 717,
+        "phone": "+19728373164",
+        "createdOn": "2025-12-13T10:59:55.000Z",
+        "notes": "uAoXeCgSHNiq8XMb6XbBYxVfyXCdu0fJ3BL6loZ4rTUsrkGDEsrFTr6CORduBZj7jNxUK4nDYKpLBx5jr2AuwJgQGvOD9gPCm7Dla4c3mW98i3GgcB0OzNPcHPZ5L4KgLFzOiStuZoRNJs0XDr7ZbHpb6qGsDfUA9sWXW662C6WzbOmgcQn8WVxouRP08HNht1ARb5oqBU04jbmCnV3pnuTC7IpO3gmU2PEPwHXQOwc57JyOSm1I8g1jfm"
+      },
+      "products": [
+        {
+          "_id": "693d47311c508c5d5ebf92c8",
+          "name": "Mouse43518",
+          "amount": 228,
+          "price": 67748,
+          "manufacturer": "Google",
+          "notes": "RvuLr1Y6SrJeeIzpTEGzR6KxeyQZpb9YB8fC3nsXpo8KtNTBmaSNhD63oiHaZlzy8fZS49S1eF7bJtCQ1nIXGw8JYfyrEQOwJmFUeD9aNgrGeuEYLhxlXs2j0b1pnLbqBPTVqGPRIMyRkIeWwNeHgNqQQIUuC6FBdKb0t1x2g8qOD94dlmDbjrXRX8e002OV69dF7hN6qUYdBRyANyeaXkiZsnm3HRMiT04oAoYCzGDJjbLUX87vN6vWUf",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 67748,
+      "createdOn": "2025-12-13T11:00:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d472b1c508c5d5ebf925d",
+          "products": [
+            {
+              "_id": "693d47311c508c5d5ebf92c8",
+              "name": "Mouse43518",
+              "amount": 228,
+              "price": 67748,
+              "manufacturer": "Google",
+              "notes": "RvuLr1Y6SrJeeIzpTEGzR6KxeyQZpb9YB8fC3nsXpo8KtNTBmaSNhD63oiHaZlzy8fZS49S1eF7bJtCQ1nIXGw8JYfyrEQOwJmFUeD9aNgrGeuEYLhxlXs2j0b1pnLbqBPTVqGPRIMyRkIeWwNeHgNqQQIUuC6FBdKb0t1x2g8qOD94dlmDbjrXRX8e002OV69dF7hN6qUYdBRyANyeaXkiZsnm3HRMiT04oAoYCzGDJjbLUX87vN6vWUf",
+              "received": false
+            }
+          ],
+          "total_price": 67748,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:00:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d47341c508c5d5ebf92f9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

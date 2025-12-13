@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:00:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1903",
+    "etag": "W/\"76f-r7NVOIH+MWYw/iaW221cUfkJD/w\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d473c1c508c5d5ebf9480",
+        "email": "Madisyn_Carroll@gmail.com",
+        "name": "Scot Rippin",
+        "country": "Russia",
+        "city": "North Shyanneboro",
+        "street": "Effertz Valleys",
+        "house": 8,
+        "flat": 585,
+        "phone": "+19795600858",
+        "createdOn": "2025-12-13T11:00:12.000Z",
+        "notes": "xfDtoCXGxFS0UEnI9UL4Ql6wGdtVZ91Ut0m8juvAgCNEuoKSMf8UHNaQ344EWlI9UUEjco1K8TkoAEAi5T4xJciFJMmpkPu5HEPfUQhso49lj3uMoIl2D22J9xyrrSL39zN6jUsrN34MlFtKTfUuAiKVwXFMiUHvSfE9hchyuZLanISd9eHppmevEEBsP54talqKXElFjcQl2nuXvAXO1noQJzaYZwlH3F1omeynUfLtLpN4kTUyGDWmHQ"
+      },
+      "products": [
+        {
+          "_id": "693d473f1c508c5d5ebf954c",
+          "name": "Keyboard78911",
+          "amount": 171,
+          "price": 71471,
+          "manufacturer": "Microsoft",
+          "notes": "UDOYuHRfQCXh4xUiBKUj50i3yJdbW0C5Ybu6GOT2wdTetEdXuBdH2wkC2aWdetBnK3GSKTGBkesS78VWigV71RuCFtAjxCfIxkEpTaFeYdq783ddHEq8GcIxBDPCUGCS3ijqi4mugSa7XcmHH3yrHaOr2c0jialCSObVLsu4ouhOU7d4GKVmiyyIl9fN6pwLnjFoMSxg9YNp89vncLFwR0tcB2RYCk3N6EwS0CPpMkQEotyGxLVhyXmPYF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 71471,
+      "createdOn": "2025-12-13T11:00:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d473c1c508c5d5ebf9480",
+          "products": [
+            {
+              "_id": "693d473f1c508c5d5ebf954c",
+              "name": "Keyboard78911",
+              "amount": 171,
+              "price": 71471,
+              "manufacturer": "Microsoft",
+              "notes": "UDOYuHRfQCXh4xUiBKUj50i3yJdbW0C5Ybu6GOT2wdTetEdXuBdH2wkC2aWdetBnK3GSKTGBkesS78VWigV71RuCFtAjxCfIxkEpTaFeYdq783ddHEq8GcIxBDPCUGCS3ijqi4mugSa7XcmHH3yrHaOr2c0jialCSObVLsu4ouhOU7d4GKVmiyyIl9fN6pwLnjFoMSxg9YNp89vncLFwR0tcB2RYCk3N6EwS0CPpMkQEotyGxLVhyXmPYF",
+              "received": false
+            }
+          ],
+          "total_price": 71471,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:00:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d47411c508c5d5ebf9584"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
