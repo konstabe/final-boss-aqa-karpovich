@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 08:12:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3432",
+    "etag": "W/\"d68-BGUiXF3VAsvZT1zI1i/1LSSVbQo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d1ffc1c508c5d5ebe1ebf",
+        "email": "Braden_Pacocha35@gmail.com",
+        "name": "Marlon Ziemann",
+        "country": "Ukraine",
+        "city": "South Jaylon",
+        "street": "Clint Walks",
+        "house": 50,
+        "flat": 424,
+        "phone": "+15635242840",
+        "createdOn": "2025-12-13T08:12:44.000Z",
+        "notes": "YynUlzKVHWs1i1KwImMM3A9cgiuTv3zwohYv8BDAhkCd95zDzn9SCLGVlHLWHsLJXF3vfImC392hGhcLzxzMiGGzuIw3O2N7gOvhT2Is2CNTJIN03SreEU9cD5UhTrS5rQDtezcqgwvpVBlOdUfm2mrWVB41y0cTj2vNT2B0dLc4gW3sttpOAT8iqFDVEdCGgbfLg2yMud2R6vYmnMcTIrDq3fa7sZPl0HfA2crLbNX67jQj5owsMG4Y7f"
+      },
+      "products": [
+        {
+          "_id": "693d1ffd1c508c5d5ebe1f28",
+          "name": "Chair85146",
+          "amount": 257,
+          "price": 61876,
+          "manufacturer": "Tesla",
+          "notes": "SRQJ17PZYgQYtnj0KpaEGeaTK5213agdZOCwJpQzAdomMtxpsxZ9syJ3NtsQ8PVMCJBELCeT2BpHU31aRULu9Qb1f4PJyUs8jK8BeN1Ab72qvD5IS5zC63mvuibfapD4Zir9GXsg6jhc5YTcp8BEj7mpGDm3iyRpvcaEoF3nbKXOJRNsyPHTh3OLywhWOw1NrnaYgFN6dq6QDAf5gVsBNsilHOmmLj6UurScEBaffHzzGd2WYCN5tHiyEp",
+          "received": false
+        },
+        {
+          "_id": "693d1fff1c508c5d5ebe1f8d",
+          "name": "Gloves63089",
+          "amount": 524,
+          "price": 99226,
+          "manufacturer": "Xiaomi",
+          "notes": "i18oMGaO7PFrXFx9MVoTrnjKFMFXpZW2CQpHzzi8eL1keMk24Lfd8aOLkU8aYgVF07J3Cvs8mKvOJFZN5p9RsRV0TlyFbZmft0tI03ZrGIeu5yRdM9vHzm3RlUr1FZkaZ2f8y1B4Aj7Qn4s1KTe0NFQwsFjOYe6UxIiwV3ACEN6nyZ1F2Tan9mxQo163PqIz94aEN5IzeAo3Wg4g7jFDEDrcEvT9lJqjMaMTZjHn5CRGw7EbyuRRiImkeR",
+          "received": false
+        },
+        {
+          "_id": "693d20011c508c5d5ebe2030",
+          "name": "Towels5106",
+          "amount": 978,
+          "price": 55144,
+          "manufacturer": "Microsoft",
+          "notes": "JINybC60tTaSiP442FeFCL5K6R8j3InuB2IRmr5YiztwG2VHv4nicXWZxUIb9SC6pYlcQ2ZPfiRvwdJBHuUJc3WPoyjO6Q3cQSjnvDXOK01dpAhoh32GlaTGhv1YDCcyFfZsoUOjmfs0oUTlO4fxIpRBIIt9Wfd1zNKYlNggbKhG2ffPxPlnU11FExG9ewOglKhKaOZ2Iv2EpLe8968xYGxRjUvdutgTAb3DSqktdEYm2gXZA7YCIAzUCz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 216246,
+      "createdOn": "2025-12-13T08:12:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d1ffc1c508c5d5ebe1ebf",
+          "products": [
+            {
+              "_id": "693d1ffd1c508c5d5ebe1f28",
+              "name": "Chair85146",
+              "amount": 257,
+              "price": 61876,
+              "manufacturer": "Tesla",
+              "notes": "SRQJ17PZYgQYtnj0KpaEGeaTK5213agdZOCwJpQzAdomMtxpsxZ9syJ3NtsQ8PVMCJBELCeT2BpHU31aRULu9Qb1f4PJyUs8jK8BeN1Ab72qvD5IS5zC63mvuibfapD4Zir9GXsg6jhc5YTcp8BEj7mpGDm3iyRpvcaEoF3nbKXOJRNsyPHTh3OLywhWOw1NrnaYgFN6dq6QDAf5gVsBNsilHOmmLj6UurScEBaffHzzGd2WYCN5tHiyEp",
+              "received": false
+            },
+            {
+              "_id": "693d1fff1c508c5d5ebe1f8d",
+              "name": "Gloves63089",
+              "amount": 524,
+              "price": 99226,
+              "manufacturer": "Xiaomi",
+              "notes": "i18oMGaO7PFrXFx9MVoTrnjKFMFXpZW2CQpHzzi8eL1keMk24Lfd8aOLkU8aYgVF07J3Cvs8mKvOJFZN5p9RsRV0TlyFbZmft0tI03ZrGIeu5yRdM9vHzm3RlUr1FZkaZ2f8y1B4Aj7Qn4s1KTe0NFQwsFjOYe6UxIiwV3ACEN6nyZ1F2Tan9mxQo163PqIz94aEN5IzeAo3Wg4g7jFDEDrcEvT9lJqjMaMTZjHn5CRGw7EbyuRRiImkeR",
+              "received": false
+            },
+            {
+              "_id": "693d20011c508c5d5ebe2030",
+              "name": "Towels5106",
+              "amount": 978,
+              "price": 55144,
+              "manufacturer": "Microsoft",
+              "notes": "JINybC60tTaSiP442FeFCL5K6R8j3InuB2IRmr5YiztwG2VHv4nicXWZxUIb9SC6pYlcQ2ZPfiRvwdJBHuUJc3WPoyjO6Q3cQSjnvDXOK01dpAhoh32GlaTGhv1YDCcyFfZsoUOjmfs0oUTlO4fxIpRBIIt9Wfd1zNKYlNggbKhG2ffPxPlnU11FExG9ewOglKhKaOZ2Iv2EpLe8968xYGxRjUvdutgTAb3DSqktdEYm2gXZA7YCIAzUCz",
+              "received": false
+            }
+          ],
+          "total_price": 216246,
+          "delivery": null,
+          "changedOn": "2025-12-13T08:12:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d20021c508c5d5ebe2082"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
