@@ -15,7 +15,13 @@ export const orderSchema = {
 			enum: Object.values(ORDER_STATUS),
 		},
 		customer: {
-			type: "string",
+			oneOf: [
+				{ type: "string" },
+				{
+					...customerSchema,
+					additionalProperties: true,
+				},
+			],
 		},
 		products: {
 			type: "array",
@@ -23,6 +29,7 @@ export const orderSchema = {
 		},
 		delivery: {
 			oneOf: [
+				deliverySchema,
 				{
 					type: "array",
 					items: deliverySchema,
