@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 14:54:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-BpUoQQNkkJW1z4kPy34tMIMFoaA\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d7e131c508c5d5ec24644",
+        "email": "Jess_Schneider15@hotmail.com",
+        "name": "Trevion Harvey",
+        "country": "Canada",
+        "city": "Cristinaview",
+        "street": "Kunde Flat",
+        "house": 36,
+        "flat": 318,
+        "phone": "+16509486474",
+        "createdOn": "2025-12-13T14:54:11.000Z",
+        "notes": "J5aFFBTutMXpCR6O7LKg97EvK9peUpgy0q9Z9vLfoG4wDkLf7d1Uv9VpcGgAPZhPIzsI4gUQeICnNJ9yEbfARLgfFIoFdZRADQZH1xefSArGTgC1qvquqw0dlGeuxneEmVmwyV9tk5AbVk3xZ8y8dQk6B77bc7W8omp99Gvj0xURVdWJaotF2QzvYU8Js1qwbwHe4Pi7xFLq0MgSlYDhdky5Qcxhx60lOxtMwJJesUTLiwjyVbOD717gTi"
+      },
+      "products": [
+        {
+          "_id": "693d7e181c508c5d5ec246af",
+          "name": "Shoes38281",
+          "amount": 282,
+          "price": 60571,
+          "manufacturer": "Amazon",
+          "notes": "0xtDcdu833U6OjpzAsk9YtF8uoy6pAWwuqretFLHWRKp4vW4vV4hEOVjKVOTuEIn8FWxGDPgMQhclPN4Zo4OpDoISUFup19LwBNrUQ4utcht1vgSN3RvnaZ036G9CbfnWru8go0wLh6TXK0S7KZmHvxe1OrCiDtFs8r4gQ0m55N1Q9BDk1LJEgM8ePlQAJzK0DvtmKjWIgXcQEbBd1evxyWKeAftj9nYMJfiDDV8P4PYYNJ7SmPt07hMHb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 60571,
+      "createdOn": "2025-12-13T14:54:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d7e131c508c5d5ec24644",
+          "products": [
+            {
+              "_id": "693d7e181c508c5d5ec246af",
+              "name": "Shoes38281",
+              "amount": 282,
+              "price": 60571,
+              "manufacturer": "Amazon",
+              "notes": "0xtDcdu833U6OjpzAsk9YtF8uoy6pAWwuqretFLHWRKp4vW4vV4hEOVjKVOTuEIn8FWxGDPgMQhclPN4Zo4OpDoISUFup19LwBNrUQ4utcht1vgSN3RvnaZ036G9CbfnWru8go0wLh6TXK0S7KZmHvxe1OrCiDtFs8r4gQ0m55N1Q9BDk1LJEgM8ePlQAJzK0DvtmKjWIgXcQEbBd1evxyWKeAftj9nYMJfiDDV8P4PYYNJ7SmPt07hMHb",
+              "received": false
+            }
+          ],
+          "total_price": 60571,
+          "delivery": null,
+          "changedOn": "2025-12-13T14:54:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d7e191c508c5d5ec246d7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

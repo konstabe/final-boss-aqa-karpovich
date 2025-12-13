@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 14:55:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2646",
+    "etag": "W/\"a56-bJtQh4vgsOE7UIgjD71Bg2I6HpQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d7e541c508c5d5ec250db",
+        "email": "Myrtle.Gerlach@gmail.com",
+        "name": "Meta Hirthe",
+        "country": "Russia",
+        "city": "South Vita",
+        "street": "Raegan Walk",
+        "house": 24,
+        "flat": 893,
+        "phone": "+15393092099",
+        "createdOn": "2025-12-13T14:55:16.000Z",
+        "notes": "hOpKdyg5bOXlepdiIf7O6gCY4tafMRxD4I5lQMCD5AHRZm7DhMkwZD6ZWgZAHfzwu9Gi0cD78NnzEps8seLibMcfxKUuMCQcT1XFyUMswbcwM5RMDpEwmAFJEvY6zRHrp57s8YnIV8o0ZRJSH7bGcSpVYcamVyj1uNAutIy9sgC2wnqWIb6ddwcQllFHn7z0SXv50xj2Nnwu0tZmJ4zyzFcpyN6z60Cbb8fm5QbuQxln1jTMGL6NTYCeID"
+      },
+      "products": [
+        {
+          "_id": "693d7e5b1c508c5d5ec25232",
+          "name": "Cheese76179",
+          "amount": 403,
+          "price": 95082,
+          "manufacturer": "Apple",
+          "notes": "TTmiydPFvCvMahBSbjDgKpf28pF4JRaPyc65qErYrcFj0zbqxYoHx67MXo5AJjXOzFP3RgzrJKCJ1Sy1ZtNeh2DNusC6VuHOXcrJzNLrEe2Mv6ejpQ4yXgGjTk32sX9j4tNx9yLj4iyHakR3aRdpjxYxjTOD6FA6lBZIO5LJ42MTCuRl9oGjGKjGQwf37x6O2j2zsYgVC0Sa6KqmMgvRCS9GYoXjk4uZZYhTtf38iQtKVHUbNo4Y7nTAx7",
+          "received": false
+        },
+        {
+          "_id": "693d7e601c508c5d5ec252c8",
+          "name": "Chips68568",
+          "amount": 650,
+          "price": 49788,
+          "manufacturer": "Sony",
+          "notes": "3QK2TSIVdWxDCyREBzlH6Ql9Q8eyiRUUeEl30zA3vEPPs58HaByO1MC666Qtv9Kl1E6JLN51GEeFDBQMJh3mCsUBjTL9bM6fxFHDmwlu0BHk2lARQ9vepu3n22tvpqGERiULKkXXza4THbz5tVarTJMFFE06njB2y5yWfnhSStGlc54Quvsblti1cr8gkBu3wlcrt38SxxLJuHcugRG2vTAQ56AbdwhGKvTQH0a35GNb4KGr7QFeQjsxtP",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 144870,
+      "createdOn": "2025-12-13T14:55:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d7e541c508c5d5ec250db",
+          "products": [
+            {
+              "_id": "693d7e5b1c508c5d5ec25232",
+              "name": "Cheese76179",
+              "amount": 403,
+              "price": 95082,
+              "manufacturer": "Apple",
+              "notes": "TTmiydPFvCvMahBSbjDgKpf28pF4JRaPyc65qErYrcFj0zbqxYoHx67MXo5AJjXOzFP3RgzrJKCJ1Sy1ZtNeh2DNusC6VuHOXcrJzNLrEe2Mv6ejpQ4yXgGjTk32sX9j4tNx9yLj4iyHakR3aRdpjxYxjTOD6FA6lBZIO5LJ42MTCuRl9oGjGKjGQwf37x6O2j2zsYgVC0Sa6KqmMgvRCS9GYoXjk4uZZYhTtf38iQtKVHUbNo4Y7nTAx7",
+              "received": false
+            },
+            {
+              "_id": "693d7e601c508c5d5ec252c8",
+              "name": "Chips68568",
+              "amount": 650,
+              "price": 49788,
+              "manufacturer": "Sony",
+              "notes": "3QK2TSIVdWxDCyREBzlH6Ql9Q8eyiRUUeEl30zA3vEPPs58HaByO1MC666Qtv9Kl1E6JLN51GEeFDBQMJh3mCsUBjTL9bM6fxFHDmwlu0BHk2lARQ9vepu3n22tvpqGERiULKkXXza4THbz5tVarTJMFFE06njB2y5yWfnhSStGlc54Quvsblti1cr8gkBu3wlcrt38SxxLJuHcugRG2vTAQ56AbdwhGKvTQH0a35GNb4KGr7QFeQjsxtP",
+              "received": false
+            }
+          ],
+          "total_price": 144870,
+          "delivery": null,
+          "changedOn": "2025-12-13T14:55:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d7e611c508c5d5ec252d5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

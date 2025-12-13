@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 14:54:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-mW8A7WIyfks/uPjdsx/gD1V5xew\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d7e181c508c5d5ec2469f",
+        "email": "Tevin_Lesch43@hotmail.com",
+        "name": "Camron Ryan",
+        "country": "Belarus",
+        "city": "West Babylon",
+        "street": "Market Place",
+        "house": 43,
+        "flat": 241,
+        "phone": "+12449020411",
+        "createdOn": "2025-12-13T14:54:16.000Z",
+        "notes": "iSLoEy0RURRj56thovYD4t1x0NcK5j497YGKlk4YvmnJdIaCPO3a0q6MqCaKvBZRKfg31zDWUzloaS5tYYsFxXvUHb45cAu49HCbx7mlNcxPB3veow9yFUoTYOKlInM9aBJ7CAAnMMgcxwje2zmnTf8bt2TnTTp6BNEgJiQj8VB0d9ysgc033REDvGP7k6frS9CG7fogrxZWlUPwj4DX3tAh6kZrSUvXp3O7hYU56DcxPy2Q1VRLjjsmLT"
+      },
+      "products": [
+        {
+          "_id": "693d7e1d1c508c5d5ec24820",
+          "name": "Keyboard27012",
+          "amount": 835,
+          "price": 90204,
+          "manufacturer": "Amazon",
+          "notes": "xDIDh93ntRq5izMKBw5HmvplYICvjhO3AWGXIwTIaaWffibUiTBDXCQTA98ETi6vSQjMMAyuWB5tEiqZWzq1ekFlieN3gPXx7uG7YDcPZGkqO4WFQTVIKBzzz7Z14kywt64cD2hzuK2pBnqqXwaNCjW7IHLfo2vqLONJ3JjVh14KYH8bLRC1bT5YK4X5i5ULydDilV40jAEKK64UwuIVebwPWE20eyr8QXIY2IPEiJ5C0xmYi83pvK4V6p",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 90204,
+      "createdOn": "2025-12-13T14:54:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d7e181c508c5d5ec2469f",
+          "products": [
+            {
+              "_id": "693d7e1d1c508c5d5ec24820",
+              "name": "Keyboard27012",
+              "amount": 835,
+              "price": 90204,
+              "manufacturer": "Amazon",
+              "notes": "xDIDh93ntRq5izMKBw5HmvplYICvjhO3AWGXIwTIaaWffibUiTBDXCQTA98ETi6vSQjMMAyuWB5tEiqZWzq1ekFlieN3gPXx7uG7YDcPZGkqO4WFQTVIKBzzz7Z14kywt64cD2hzuK2pBnqqXwaNCjW7IHLfo2vqLONJ3JjVh14KYH8bLRC1bT5YK4X5i5ULydDilV40jAEKK64UwuIVebwPWE20eyr8QXIY2IPEiJ5C0xmYi83pvK4V6p",
+              "received": false
+            }
+          ],
+          "total_price": 90204,
+          "delivery": null,
+          "changedOn": "2025-12-13T14:54:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d7e1e1c508c5d5ec2482d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

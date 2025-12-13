@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 14:55:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3427",
+    "etag": "W/\"d63-XQqYTprjocZ9uhZEB+6q3HzBn/s\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d7e5e1c508c5d5ec25290",
+        "email": "Bo.Bahringer86@gmail.com",
+        "name": "Rosendo Hills",
+        "country": "France",
+        "city": "Laurieton",
+        "street": "Waelchi Pike",
+        "house": 1,
+        "flat": 677,
+        "phone": "+14772126191",
+        "createdOn": "2025-12-13T14:55:26.000Z",
+        "notes": "8X9UXHCJVjqcfsmxnbkSB8tJg0tVuJ60fiZ4jYdQnYZ7fPkSaZlbyocQZVcEmbR5Z8lj2vpsYfK7gPlL50UEugWV4xN3qBUP53pB3AUr6fBzZvH0wsU0Fkux5Zp0EjxIVnSJaeL6aYvmXHSDLF62xJ1lZLOUAQoMJAzH672w9lq44LftcqZt4cMtdiCXChsQ2ejsZfNEsDc3Xrh4M5tyfPXGWniSe5XVFKrZDd2Ka5KBlE80WVkXHLmRP7"
+      },
+      "products": [
+        {
+          "_id": "693d7e641c508c5d5ec25341",
+          "name": "Chips91773",
+          "amount": 308,
+          "price": 12246,
+          "manufacturer": "Samsung",
+          "notes": "88dqjLMwfZkM0GvMsVspgHNOQKqDszMq1sIX07Eu3Xs8K82yUzXz6rAs3Txbmnzz8GElDdy6rcwrabwhCBNnM5k7YadCRJKhE7R38hmphlVvhPVrapq7fgvokZ3fEH1yPfzrWLnFjSqv167QaAuVS9cyH7feIid5HHcw0RWxRPNzhtrwgQMPYk2rhsY0mD8Kd2M8PP0n7JXOXFx1OfbAVSGQ0TKpTmkLq98l4ZUq848J8aVSgXYxaReLAE",
+          "received": false
+        },
+        {
+          "_id": "693d7e691c508c5d5ec2539a",
+          "name": "Fish29186",
+          "amount": 769,
+          "price": 35945,
+          "manufacturer": "Tesla",
+          "notes": "xa0S6wWWZ8kEZU6RWd6tfKiixPK3DayWg1ny03G89hWygh8lovvzVI39RMsATrXY4keIW9h4i2g4SKvScQiNLryBBC0AHOA9n2NRGKVTbMEPJezdOxU24osRyULH8Nl2i8yraIRpcqwC9V0dLBSXy9aF6QzDTlGWeAa9fCJdBC3pIb3avw2MMlR8bfBKCAdQ49cQwHSnaxCTY0NWDQyctb6eL68bC5cz7xp63HBKk6jdqYEVAyfeeTslGi",
+          "received": false
+        },
+        {
+          "_id": "693d7e6f1c508c5d5ec2544d",
+          "name": "Keyboard61407",
+          "amount": 505,
+          "price": 16541,
+          "manufacturer": "Microsoft",
+          "notes": "n1PnCs6EcBx06LueRM7jU2Sk2EbKZbOAlWbmerABZcQJWVry3XO3JfCigDtZAqwxR0xAGFHXl6tIAM947hBuwzvG9ZHvJOLkiaJTd2jABkBQ4QerP9qIedraJGEPIPgnzRLWAm06SfpmV4kKCg5aMIeT8CzJTqJ8ePSKdLUX3cwymgT0AFUPa1ef6ZGVKvzXpUcmY2UvaUGbJA65CsoMnoTkGSmwujkHLnZaQKr2kpLLAj1PnXoY4SxGMK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 64732,
+      "createdOn": "2025-12-13T14:55:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d7e5e1c508c5d5ec25290",
+          "products": [
+            {
+              "_id": "693d7e641c508c5d5ec25341",
+              "name": "Chips91773",
+              "amount": 308,
+              "price": 12246,
+              "manufacturer": "Samsung",
+              "notes": "88dqjLMwfZkM0GvMsVspgHNOQKqDszMq1sIX07Eu3Xs8K82yUzXz6rAs3Txbmnzz8GElDdy6rcwrabwhCBNnM5k7YadCRJKhE7R38hmphlVvhPVrapq7fgvokZ3fEH1yPfzrWLnFjSqv167QaAuVS9cyH7feIid5HHcw0RWxRPNzhtrwgQMPYk2rhsY0mD8Kd2M8PP0n7JXOXFx1OfbAVSGQ0TKpTmkLq98l4ZUq848J8aVSgXYxaReLAE",
+              "received": false
+            },
+            {
+              "_id": "693d7e691c508c5d5ec2539a",
+              "name": "Fish29186",
+              "amount": 769,
+              "price": 35945,
+              "manufacturer": "Tesla",
+              "notes": "xa0S6wWWZ8kEZU6RWd6tfKiixPK3DayWg1ny03G89hWygh8lovvzVI39RMsATrXY4keIW9h4i2g4SKvScQiNLryBBC0AHOA9n2NRGKVTbMEPJezdOxU24osRyULH8Nl2i8yraIRpcqwC9V0dLBSXy9aF6QzDTlGWeAa9fCJdBC3pIb3avw2MMlR8bfBKCAdQ49cQwHSnaxCTY0NWDQyctb6eL68bC5cz7xp63HBKk6jdqYEVAyfeeTslGi",
+              "received": false
+            },
+            {
+              "_id": "693d7e6f1c508c5d5ec2544d",
+              "name": "Keyboard61407",
+              "amount": 505,
+              "price": 16541,
+              "manufacturer": "Microsoft",
+              "notes": "n1PnCs6EcBx06LueRM7jU2Sk2EbKZbOAlWbmerABZcQJWVry3XO3JfCigDtZAqwxR0xAGFHXl6tIAM947hBuwzvG9ZHvJOLkiaJTd2jABkBQ4QerP9qIedraJGEPIPgnzRLWAm06SfpmV4kKCg5aMIeT8CzJTqJ8ePSKdLUX3cwymgT0AFUPa1ef6ZGVKvzXpUcmY2UvaUGbJA65CsoMnoTkGSmwujkHLnZaQKr2kpLLAj1PnXoY4SxGMK",
+              "received": false
+            }
+          ],
+          "total_price": 64732,
+          "delivery": null,
+          "changedOn": "2025-12-13T14:55:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d7e6f1c508c5d5ec25479"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

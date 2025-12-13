@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 14:54:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2042",
+    "etag": "W/\"7fa-+Devp5ky/QdvuwFAEH/s300WMFE\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d7e331c508c5d5ec24ba7",
+      "status": "Draft",
+      "customer": {
+        "_id": "693d7e2e1c508c5d5ec24b15",
+        "email": "Sarina4@hotmail.com",
+        "name": "Catalina Kautzer",
+        "country": "Great Britain",
+        "city": "Agustinaburgh",
+        "street": "Stark Fort",
+        "house": 15,
+        "flat": 91,
+        "phone": "+19208089157",
+        "createdOn": "2025-12-13T14:54:38.000Z",
+        "notes": "pJA2rWussgSN4tSdigupNfBMHHxyrbQtVemxJ3CH1OExGBk6vBB1ptWl3H1arzftJlRs6qsfYEtepC1JXKL7mZFejOWSNxBhc3N5mSDyFdOuTHNXX6gv5GhKGVLFHJpqTE0Zv8CfbFc5nQmrvX4pjlOlrcJJuPvUkO7frYZd9Bo9QSa3tEP1Mji6hNxslWJwaQok09DmCXTMgtJ089GdaSKt5C4ejsBgU595yUiKJYlEcANjHLeiYhbiJN"
+      },
+      "products": [
+        {
+          "_id": "693d7e331c508c5d5ec24b82",
+          "name": "Chair95873",
+          "amount": 898,
+          "price": 21267,
+          "manufacturer": "Sony",
+          "notes": "Yi1118QEflZlEPbHYqGhVvGLoU2r9emic26D35Z2WziEzkZx8THxV9RII3hHiQKnUDcACtwAhYMu0hayqdQhVfLZPppCBzmDCUB9dt5FkcFXaEOVHtEI1tk0MnnTutiRWYjXnpPkeYJ6X3d9xhZucFIRH3hJeX9WVxIcmnEMsc1pCecnvXRwM1nd8z25OhVfpM36G32MZUWkCCuncJHls1w3RE1dZY7XMTYCdgGZxzrxUT8AuMyp0dgeTp",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 21267,
+      "createdOn": "2025-12-13T14:54:43.000Z",
+      "comments": [
+        {
+          "text": "uKoPv6IgLXEcYFMGRvjDEgGO6v3QdJabH9eUyHg6GNJ3FJUd3hYgUIL3KtgjKF09Ju7WtQ9qnHL",
+          "createdOn": "2025-12-13T14:54:43.000Z",
+          "_id": "693d7e331c508c5d5ec24bc4"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d7e2e1c508c5d5ec24b15",
+          "products": [
+            {
+              "_id": "693d7e331c508c5d5ec24b82",
+              "name": "Chair95873",
+              "amount": 898,
+              "price": 21267,
+              "manufacturer": "Sony",
+              "notes": "Yi1118QEflZlEPbHYqGhVvGLoU2r9emic26D35Z2WziEzkZx8THxV9RII3hHiQKnUDcACtwAhYMu0hayqdQhVfLZPppCBzmDCUB9dt5FkcFXaEOVHtEI1tk0MnnTutiRWYjXnpPkeYJ6X3d9xhZucFIRH3hJeX9WVxIcmnEMsc1pCecnvXRwM1nd8z25OhVfpM36G32MZUWkCCuncJHls1w3RE1dZY7XMTYCdgGZxzrxUT8AuMyp0dgeTp",
+              "received": false
+            }
+          ],
+          "total_price": 21267,
+          "delivery": null,
+          "changedOn": "2025-12-13T14:54:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

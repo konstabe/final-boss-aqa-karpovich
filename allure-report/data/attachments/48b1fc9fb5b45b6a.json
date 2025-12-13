@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 14:54:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-X895UEqsCgiqsPZamsf8P2a5lB8\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d7e1e1c508c5d5ec2483b",
+        "email": "Alice_Rosenbaum@yahoo.com",
+        "name": "Gianni Dickens",
+        "country": "USA",
+        "city": "Chadrickfurt",
+        "street": "Elm Road",
+        "house": 46,
+        "flat": 942,
+        "phone": "+16336769082",
+        "createdOn": "2025-12-13T14:54:22.000Z",
+        "notes": "SXQxaetuGKbxL8t16eLoBik9Ipa3PuTfa5rsuQQAhxQSrRj2oO8OO1b3uzfKwOMMbg7G1ywO8MEz4RQGjZOBvinG40drsybyd0n4FfsvI9Ko4Ws7APSk0tF8TdW6boFWVk1blTEJ5AS9tR2BzaMGxxaDxojSXLs03Jo9dKadMoFns4hJ6B2SYo5bSoF6MjVcdJw4WYNnqxypJCucJobIjfUS9PXLLRgRRrLPWsPE98neq8U9DZiM71K2Jn"
+      },
+      "products": [
+        {
+          "_id": "693d7e231c508c5d5ec248ad",
+          "name": "Keyboard66074",
+          "amount": 880,
+          "price": 89773,
+          "manufacturer": "Microsoft",
+          "notes": "fHIVCCdBJ0HglQQcdrswAfphlvMW5eYN40Fq9hVAXYrpkOf2sMy3L8Dnz6Gi621dVqb3mUU8ppWlBWY3OeqGaSgqmSQGsBylzfU5yXESQaE2iIYjdojrdygtGWB48ChZqqNjNeHmLlKdCpe0vjcDAMRS5fYaehLWt3OJ7p6XYHMfcGunY1GfMSErPIxj8kN5dHenMXt6rxxUfECJRjWNvW0O1RbiqjFHQ0KP3A6XW950CgmgPGDXl0cfd7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 89773,
+      "createdOn": "2025-12-13T14:54:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d7e1e1c508c5d5ec2483b",
+          "products": [
+            {
+              "_id": "693d7e231c508c5d5ec248ad",
+              "name": "Keyboard66074",
+              "amount": 880,
+              "price": 89773,
+              "manufacturer": "Microsoft",
+              "notes": "fHIVCCdBJ0HglQQcdrswAfphlvMW5eYN40Fq9hVAXYrpkOf2sMy3L8Dnz6Gi621dVqb3mUU8ppWlBWY3OeqGaSgqmSQGsBylzfU5yXESQaE2iIYjdojrdygtGWB48ChZqqNjNeHmLlKdCpe0vjcDAMRS5fYaehLWt3OJ7p6XYHMfcGunY1GfMSErPIxj8kN5dHenMXt6rxxUfECJRjWNvW0O1RbiqjFHQ0KP3A6XW950CgmgPGDXl0cfd7",
+              "received": false
+            }
+          ],
+          "total_price": 89773,
+          "delivery": null,
+          "changedOn": "2025-12-13T14:54:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d7e231c508c5d5ec248be"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

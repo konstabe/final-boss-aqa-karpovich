@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 14:54:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2042",
+    "etag": "W/\"7fa-bk9aq0Yxp6fb8Td8blBUY6OHwE0\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d7e351c508c5d5ec24c25",
+      "status": "Draft",
+      "customer": {
+        "_id": "693d7e2f1c508c5d5ec24b26",
+        "email": "Mohammed11@gmail.com",
+        "name": "Davonte Cummings",
+        "country": "France",
+        "city": "Todboro",
+        "street": "N Washington Avenue",
+        "house": 39,
+        "flat": 910,
+        "phone": "+16602772862",
+        "createdOn": "2025-12-13T14:54:39.000Z",
+        "notes": "5y7OIJEHNaemdCTIFPNWSXxMi8Ay1scVpEvURFyGs6Wmu7o57B4TLnbWrPuPHb6NXXIkku8I2Z5Y3f27huJTwKhxE975bgki06KUYdMsVW5ZZhWeyt1FIbdpI0z1JHANgUe1XcyCJ29N5eIuymO8L1uBP5pa0DIfrVBsKRKVqwhBJDtofdwoovXp6JfXh44lgPQpEIscutEhVqhrhZ64s8h4qYBk92qBnPMiTjVtkQatGOKw2nITIFOFvK"
+      },
+      "products": [
+        {
+          "_id": "693d7e351c508c5d5ec24c12",
+          "name": "Shirt44015",
+          "amount": 30,
+          "price": 34910,
+          "manufacturer": "Xiaomi",
+          "notes": "EjZTUM3aRCtwyTTcJfRoIv6BYEvWvS3GukGRboV9ljw08yOxXsK6MJZX62r1svEyOoLq5hHBPBXfWkfpdnLQuLG6fyZBaAa6icmepIUM4w69Yb80f0xXIJUxUKQfSFzszGxJt2Su2I1TRyKmxh4bF1FVOo9IcLPYCQMGwnsjJPGXLAoqaqBTWuIGCjl6zaT7KfV0ruPbs7OgESAnSxP1by36qCOFoRBM0HfnQNXtTaRQVAo9N7G77B6Rpg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 34910,
+      "createdOn": "2025-12-13T14:54:45.000Z",
+      "comments": [
+        {
+          "text": "e4z7lEKqZtaUICk2KzvBuSYxWbfSCPX1kfrZRYzXu9dqLTjbZ7ZOjxE2nNq0Cgghcq51VBPbcLp",
+          "createdOn": "2025-12-13T14:54:45.000Z",
+          "_id": "693d7e351c508c5d5ec24c30"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d7e2f1c508c5d5ec24b26",
+          "products": [
+            {
+              "_id": "693d7e351c508c5d5ec24c12",
+              "name": "Shirt44015",
+              "amount": 30,
+              "price": 34910,
+              "manufacturer": "Xiaomi",
+              "notes": "EjZTUM3aRCtwyTTcJfRoIv6BYEvWvS3GukGRboV9ljw08yOxXsK6MJZX62r1svEyOoLq5hHBPBXfWkfpdnLQuLG6fyZBaAa6icmepIUM4w69Yb80f0xXIJUxUKQfSFzszGxJt2Su2I1TRyKmxh4bF1FVOo9IcLPYCQMGwnsjJPGXLAoqaqBTWuIGCjl6zaT7KfV0ruPbs7OgESAnSxP1by36qCOFoRBM0HfnQNXtTaRQVAo9N7G77B6Rpg",
+              "received": false
+            }
+          ],
+          "total_price": 34910,
+          "delivery": null,
+          "changedOn": "2025-12-13T14:54:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

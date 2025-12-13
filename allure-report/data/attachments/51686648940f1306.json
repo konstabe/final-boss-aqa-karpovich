@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 14:54:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2180",
+    "etag": "W/\"884-VBIR8D+IbvvPjI6VkKflZ02Tugw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d7e311c508c5d5ec24b33",
+      "status": "Draft",
+      "customer": {
+        "_id": "693d7e2b1c508c5d5ec24add",
+        "email": "Eldred_Upton88@yahoo.com",
+        "name": "Ava Braun",
+        "country": "France",
+        "city": "New Myleneport",
+        "street": "Willow Drive",
+        "house": 33,
+        "flat": 200,
+        "phone": "+18895594523",
+        "createdOn": "2025-12-13T14:54:35.000Z",
+        "notes": "hNsTJgljBmxQSLAyH789t1gcVgxwhDjczkzTSy6vkZ6uifcoFXoJbqIcd14IHRKzqCZyChy0lFZj21qYog98BHUifE2xInybi1pHedNcDb8dOtZCfGuIBCJXuLo1oZfUb57jMV8krTV6UIdgeSVqLqZzhVbcGrKCzBw6LeWJkXepSDpOF4iVGcXfNNYZHvqXF2xzcBnQaEkwk7c95a1gcgGkTzz2BIhOo9aqF91MVEWILeLLop8fftBJht"
+      },
+      "products": [
+        {
+          "_id": "693d7e301c508c5d5ec24b2b",
+          "name": "Towels96734",
+          "amount": 250,
+          "price": 69185,
+          "manufacturer": "Samsung",
+          "notes": "cgc6cFwV54wkqDKX3ae52GEC5FLC8G7DqUSl0JWYXud0jWW0UpubQV8uxyXzssUhxbbS6oKl0rlCH6MCoIixHECb4cki55TrE52O2Wk0b9HlWUkh8VjkrFA2KlxRYBNLm187X16Pk7X5UJMSNDbEREulVOGCswuhqH9zz06JeAzmsvO5Ozk0aAn1JPj8OiU1rgfZEYxciy1SphDuCxfKcSPE82CRStZ4MAkQLqdiL6Q54Maks4KmhWAoF7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 69185,
+      "createdOn": "2025-12-13T14:54:41.000Z",
+      "comments": [
+        {
+          "text": "<script>ZPKqifCKekydqrEpCgTeosMUcVAh5YyzZJ4mYxINBGdJFzqJSpTx5sXOj6TiLwzd6spUEt5TBfurLw8uVNyL6IbgynnuscK5oF3AxCCfDOsr8ijzoCJV0dT7niyEy7iSRbRNhlo8kUdSAYY2SxPKpO6uke0RbF6DMYYrfMerrHpNeWcVlVEdIC9Vt6fHQ0GCC8797DbO >",
+          "createdOn": "2025-12-13T14:54:41.000Z",
+          "_id": "693d7e311c508c5d5ec24b3e"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d7e2b1c508c5d5ec24add",
+          "products": [
+            {
+              "_id": "693d7e301c508c5d5ec24b2b",
+              "name": "Towels96734",
+              "amount": 250,
+              "price": 69185,
+              "manufacturer": "Samsung",
+              "notes": "cgc6cFwV54wkqDKX3ae52GEC5FLC8G7DqUSl0JWYXud0jWW0UpubQV8uxyXzssUhxbbS6oKl0rlCH6MCoIixHECb4cki55TrE52O2Wk0b9HlWUkh8VjkrFA2KlxRYBNLm187X16Pk7X5UJMSNDbEREulVOGCswuhqH9zz06JeAzmsvO5Ozk0aAn1JPj8OiU1rgfZEYxciy1SphDuCxfKcSPE82CRStZ4MAkQLqdiL6Q54Maks4KmhWAoF7",
+              "received": false
+            }
+          ],
+          "total_price": 69185,
+          "delivery": null,
+          "changedOn": "2025-12-13T14:54:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

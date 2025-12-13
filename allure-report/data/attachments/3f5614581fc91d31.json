@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 14:54:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-C4XJ/N5E3wNe0+fUfPvcQsfX7vI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d7e0f1c508c5d5ec2462a",
+        "email": "Jammie.Bergnaum@gmail.com",
+        "name": "Hertha Schamberger",
+        "country": "Germany",
+        "city": "Leannonboro",
+        "street": "S East Street",
+        "house": 29,
+        "flat": 736,
+        "phone": "+17023024222",
+        "createdOn": "2025-12-13T14:54:07.000Z",
+        "notes": "Pv8uOs45hnqy7LwvNjcYkURVLuy39KczWF50tS7lYLQZR5xwwfixBjnIPDYyDFKChYvL28mkcE3i5Mlso7z6gcpGBx3vXQo0KS4nt3gfQY5UaeniVfCZ6YFh9FbslL7bUNxgpLZFP9Dn8pS6sy4ui6vvbiKoIKynq3UQucs0mjXd4rKtKMLQFx2W5KqcqO0JL8VaFialpHz3GtrUibjr9CwT5D68pNHj8SrV9gFt6ykkJnc2zkIn9nHl1J"
+      },
+      "products": [
+        {
+          "_id": "693d7e181c508c5d5ec246a9",
+          "name": "Soap361",
+          "amount": 344,
+          "price": 69514,
+          "manufacturer": "Samsung",
+          "notes": "cEvt42WBrvoNbXVXxt2dixhklCukJe98ho86RuGa6LYRaQ51pSeZETWw9iYbrmPWACZmX5fD2giDsVek7ynJsPsdqnOPkIXWGohKMwUR0CE385XRdTe7ITxifPxCdJ9aHIfBSSRCvt3PeJ4teNBwbZpABGHkCPPaepKe8fwf2wNjBpdNqU0EMIMiwSWk2nGHClsusH8F7UM5ovfx1XqLIH6fXkzGCcejphNfc9VdivNOx0Drovai0ItlmQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 69514,
+      "createdOn": "2025-12-13T14:54:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d7e0f1c508c5d5ec2462a",
+          "products": [
+            {
+              "_id": "693d7e181c508c5d5ec246a9",
+              "name": "Soap361",
+              "amount": 344,
+              "price": 69514,
+              "manufacturer": "Samsung",
+              "notes": "cEvt42WBrvoNbXVXxt2dixhklCukJe98ho86RuGa6LYRaQ51pSeZETWw9iYbrmPWACZmX5fD2giDsVek7ynJsPsdqnOPkIXWGohKMwUR0CE385XRdTe7ITxifPxCdJ9aHIfBSSRCvt3PeJ4teNBwbZpABGHkCPPaepKe8fwf2wNjBpdNqU0EMIMiwSWk2nGHClsusH8F7UM5ovfx1XqLIH6fXkzGCcejphNfc9VdivNOx0Drovai0ItlmQ",
+              "received": false
+            }
+          ],
+          "total_price": 69514,
+          "delivery": null,
+          "changedOn": "2025-12-13T14:54:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d7e181c508c5d5ec246c2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
