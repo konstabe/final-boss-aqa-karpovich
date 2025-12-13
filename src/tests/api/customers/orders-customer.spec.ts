@@ -5,7 +5,6 @@ import { STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";
 import { IOrder } from "data/types/order.types";
 import { expect, test } from "fixtures/api.fixture";
-import _ from "lodash";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 
 test.describe("[API] [Sales Portal] [Customers]", () => {
@@ -18,7 +17,9 @@ test.describe("[API] [Sales Portal] [Customers]", () => {
 		token = await loginApiService.loginAsAdmin();
 	});
 
-	test.afterEach(async ({ productsApiService, customersApiService }) => {
+	test.afterEach(async ({ productsApiService, customersApiService, ordersApiService }) => {
+		if (id_order) await ordersApiService.deleteOrder(token, id_order);
+		id_order = "";
 		if (id_customer) await customersApiService.delete(id_customer, token);
 		id_customer = "";
 		if (id_product) await productsApiService.delete(token, id_product);
@@ -32,7 +33,7 @@ test.describe("[API] [Sales Portal] [Customers]", () => {
 			validateResponse(getCustomerOrders, {
 				status: STATUS_CODES.NOT_FOUND,
 				IsSuccess: false,
-				ErrorMessage: ERROR_MESSAGES.ORDER_NOT_FOUND(_id),
+				ErrorMessage: ERROR_MESSAGES.CUSTOMER_NOT_FOUND_WITH_ID(_id),
 			});
 		});
 
@@ -53,11 +54,10 @@ test.describe("[API] [Sales Portal] [Customers]", () => {
 			},
 		);
 
-		test.skip(
+		test(
 			"Get orders for customer",
 			{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.SMOKE] },
 			async ({ customersApi, customersApiService, productsApi, ordersApi }) => {
-				// const customerData = generateCustomerData();
 				const customer = await customersApiService.create(token);
 				id_customer = customer._id;
 
@@ -87,7 +87,7 @@ test.describe("[API] [Sales Portal] [Customers]", () => {
 			},
 		);
 
-		test.skip(
+		test(
 			"Get orders for customer  without TOKEN",
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
 			async ({ customersApi, customersApiService, productsApi, ordersApi }) => {
@@ -105,6 +105,7 @@ test.describe("[API] [Sales Portal] [Customers]", () => {
 				};
 
 				const createOrderForCustomer = await ordersApi.create(orderData, token);
+				id_order = createOrderForCustomer.body.Order._id;
 
 				const getCustomerOrders = await customersApi.getOrdersForCustomer(id_customer, "");
 				validateResponse(getCustomerOrders, {

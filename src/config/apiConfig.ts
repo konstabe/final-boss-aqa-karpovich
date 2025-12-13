@@ -22,5 +22,8 @@ export const apiConfig = {
 		updateDelivery: (orderId: string) => `/api/orders/${orderId}/delivery`,
 		markOrdersAsReceived: (orderId: string) => `/api/orders/${orderId}/receive`,
 		updateStatus: (orderId: string) => `/api/orders/${orderId}/status`,
+		getNotifications: "/api/notifications",
+		markAllNotificationsAsReaded: "/api/notifications/mark-all-read",
+		markNotificationAsReaded: (notificationId: string) => `/api/notifications/${notificationId}/read`,
 	},
 };

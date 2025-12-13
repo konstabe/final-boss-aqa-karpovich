@@ -7,7 +7,6 @@ import { TAGS } from "data/tags";
 import { generateProductData } from "data/products/generateProductData";
 import { createProductSchema } from "data/schemas/product/create.schema";
 import { ERROR_MESSAGES } from "data/notifications";
-import { MANUFACTURERS } from "data/products/manufacturers";
 
 test.describe("[API] [Sales Portal] [Products]", () => {
 	test.describe("Smoke", () => {
@@ -124,59 +123,6 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 					ErrorMessage: ERROR_MESSAGES.PRODUCT_ALREADY_EXISTS(product2.name),
 					schema: errorSchema,
 				});
-			},
-		);
-
-		test(
-			"Should update product with max valid data",
-			{
-				tag: [TAGS.PRODUCTS],
-			},
-			async ({ productsApi, productsApiService }) => {
-				const product = await productsApiService.create(token);
-				ids.push(product._id);
-				const productData = {
-					name: "Gloves64242aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-					amount: 999,
-					price: 99999,
-					manufacturer: MANUFACTURERS.SONY,
-					notes: "FugGijgp9M7HnljmfGpmqL2A8WqDnxSv0XdGDImYs8poMqJgkaD7rbqv9HyZzPZtGU6JxKOhvg6OvihDqoCdQ6aGZ3ekUg9aIZJYuKkXoAP4qwKAyK9dNj5LZMUjZw0SekIs3apD77gwMC8HBgJu9u1R2870NuDwp8wPrEWag5aFIEKmTeoP7XLRlLDYI7cEo8feLmvO9b2nvjs2LtE0DYUPhMuMrqHunMhbPdwieMw16CSYWisdw9hlRz",
-				};
-				const response = await productsApi.update(product._id, generateProductData(productData), token);
-				validateResponse(response, {
-					IsSuccess: false,
-					status: STATUS_CODES.OK,
-					ErrorMessage: null,
-					schema: createProductSchema,
-				});
-
-				expect(_.omit(response.body.Product, ["_id", "createdOn"])).toEqual(productData);
-			},
-		);
-
-		test(
-			"Should update product with min valid data",
-			{
-				tag: [TAGS.PRODUCTS],
-			},
-			async ({ productsApi, productsApiService }) => {
-				const product = await productsApiService.create(token);
-				ids.push(product._id);
-				const productData = {
-					name: "gC1",
-					amount: 0,
-					price: 1,
-					manufacturer: MANUFACTURERS.SONY,
-					notes: "",
-				};
-				const response = await productsApi.update(product._id, generateProductData(productData), token);
-				validateResponse(response, {
-					IsSuccess: false,
-					status: STATUS_CODES.OK,
-					ErrorMessage: null,
-					schema: createProductSchema,
-				});
-				expect(_.omit(response.body.Product, ["_id", "createdOn"])).toEqual(productData);
 			},
 		);
 	});

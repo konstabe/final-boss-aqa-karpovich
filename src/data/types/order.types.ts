@@ -1,6 +1,6 @@
 import { ICreatedOn, ID, IResponseFields } from "./core.types";
 import { ICustomer, ICustomerFromResponse } from "./customer.types";
-import { IProductForOrder } from "./product.types";
+import { IProductForOrder, IProductFromResponse } from "./product.types";
 import { ORDER_HISTORY_ACTIONS } from "data/orderHistoryActions";
 import { ROLE } from "data/roles";
 
@@ -59,4 +59,9 @@ export interface IOrderResponse extends IResponseFields {
 
 export interface ICustomerOrdersResponse extends IResponseFields {
 	Orders: IOrderFromResponse[];
+}
+
+export interface IOrderWithCustomerAndProducts extends IOrder {
+	customerData: ICustomer;
+	productsData: IProductFromResponse[];
 }

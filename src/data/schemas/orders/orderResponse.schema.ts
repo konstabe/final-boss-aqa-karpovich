@@ -1,11 +1,12 @@
 import { obligatoryFieldsSchema, obligatoryRequiredFields } from "../core.schema";
-import { orderSchemaWithCustomerData } from "./order.schema";
+import { orderSchema } from "./order.schema";
 
-export const getOrdersSchema = {
+export const orderResponseSchema = {
 	type: "object",
 	properties: {
-		Order: orderSchemaWithCustomerData,
+		Order: orderSchema,
 		...obligatoryFieldsSchema,
 	},
 	required: ["Order", ...obligatoryRequiredFields],
+	additionalProperties: false,
 };
