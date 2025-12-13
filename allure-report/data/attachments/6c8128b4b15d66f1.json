@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:19:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2662",
+    "etag": "W/\"a66-wLwniG1L9AUsnAFY3YvooHyyCv8\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4bb01c508c5d5ec02839",
+        "email": "Paris_Watsica14@gmail.com",
+        "name": "Lenora Champlin",
+        "country": "Great Britain",
+        "city": "Port Opalton",
+        "street": "Columbia Avenue",
+        "house": 25,
+        "flat": 330,
+        "phone": "+12613337811",
+        "createdOn": "2025-12-13T11:19:12.000Z",
+        "notes": "lkptGkCbM0xUVEO5nrr05BWT2uWDq5DYhjQG3DgxtSTEdus0coSeXCK4kcK1ZVzmM9ub7U29IrDFIroznLQUZ1m3T1UTnSFj624cU5ZmmdLJPfBXDpzKcGU0cHhlpHhuK4fJXJgUzz9otFUoEzAgMfP9cweXpYAqLcGiXmTyU2mdY1u0nIKePRbgTE4qrgNlkqVuyC0zlHGwi1N0ru06YAl8YlUo29DMeoUElsbcgTYzi0w1oupRy5W27j"
+      },
+      "products": [
+        {
+          "_id": "693d4bb31c508c5d5ec0295d",
+          "name": "Tuna95492",
+          "amount": 214,
+          "price": 26219,
+          "manufacturer": "Samsung",
+          "notes": "THZXJ3v3ZNqFb6jj161Aj9VcBs99xlitC9P34rxDuXzpZbsiiJnFE2A4nSKpvRoINv9qioyirv46n08sFtUAgt6ZDHnjkpc10uWXh75XFAQXkoTLxGtrS2sJFfn7gbzV4pH1c6D8DRTPvzrF8znNO3N4t4xu4CJw7FWixs7qxnGhVQ3UmGdTT7wt7vr79Q2hhRy2GGXRl14hUJ7rGojYXTcQaq2mdzPyYaCP26qoHCrR57ivR7UUjaVA9Y",
+          "received": false
+        },
+        {
+          "_id": "693d4bba1c508c5d5ec02a59",
+          "name": "Pizza6687",
+          "amount": 731,
+          "price": 7431,
+          "manufacturer": "Google",
+          "notes": "munnMD2OoywbgXXon8BJo1RQ7Uck5caNvpOZ5UvsmVCgDidc4aJKD1Tj6tTLZ8VHuejvFcRuhHXyPft7SfrPr3TfEnS8WydoryXE7LEWfLdA8Pd5Bwa8wMcPN18ybAC3zDzkeNxD796XB0QiZLIeNPjaYamq18opfFLw3ayn9HKaZcofjRVYr3641SJ6qxPmEJVhx7gNAkQshRR3xgjQPjljdAml36QUgdHbJywkFJCzMwHvCcMuPa5saA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 33650,
+      "createdOn": "2025-12-13T11:19:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4bb01c508c5d5ec02839",
+          "products": [
+            {
+              "_id": "693d4bb31c508c5d5ec0295d",
+              "name": "Tuna95492",
+              "amount": 214,
+              "price": 26219,
+              "manufacturer": "Samsung",
+              "notes": "THZXJ3v3ZNqFb6jj161Aj9VcBs99xlitC9P34rxDuXzpZbsiiJnFE2A4nSKpvRoINv9qioyirv46n08sFtUAgt6ZDHnjkpc10uWXh75XFAQXkoTLxGtrS2sJFfn7gbzV4pH1c6D8DRTPvzrF8znNO3N4t4xu4CJw7FWixs7qxnGhVQ3UmGdTT7wt7vr79Q2hhRy2GGXRl14hUJ7rGojYXTcQaq2mdzPyYaCP26qoHCrR57ivR7UUjaVA9Y",
+              "received": false
+            },
+            {
+              "_id": "693d4bba1c508c5d5ec02a59",
+              "name": "Pizza6687",
+              "amount": 731,
+              "price": 7431,
+              "manufacturer": "Google",
+              "notes": "munnMD2OoywbgXXon8BJo1RQ7Uck5caNvpOZ5UvsmVCgDidc4aJKD1Tj6tTLZ8VHuejvFcRuhHXyPft7SfrPr3TfEnS8WydoryXE7LEWfLdA8Pd5Bwa8wMcPN18ybAC3zDzkeNxD796XB0QiZLIeNPjaYamq18opfFLw3ayn9HKaZcofjRVYr3641SJ6qxPmEJVhx7gNAkQshRR3xgjQPjljdAml36QUgdHbJywkFJCzMwHvCcMuPa5saA",
+              "received": false
+            }
+          ],
+          "total_price": 33650,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:19:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d4bbb1c508c5d5ec02a7b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

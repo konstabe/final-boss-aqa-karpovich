@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:18:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-n1SJ99kZa1NRj4YhjuVNQ7uQ2DU\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4b7c1c508c5d5ec01b25",
+        "email": "Otha_Gulgowski@hotmail.com",
+        "name": "Zena Funk",
+        "country": "Germany",
+        "city": "Paucekworth",
+        "street": "Alma Street",
+        "house": 11,
+        "flat": 663,
+        "phone": "+18238042437",
+        "createdOn": "2025-12-13T11:18:20.000Z",
+        "notes": "BovNId4eWnC9nCGvCDMOr6gZV6wQBSEB3v1wlVQ1OtTJvSz3h9pOs2KuCRJCVpn9aErTYnmCT6PxT1WfPeahB2l1htM7yE3AeIL2tSw04FomwHjauOF6PNUCjJoHycxePTVScQZORrTs4RiK0WaVN7V4Hql75MnHxWoNmCyaLdRUUEnKZeoRlcmDlQcVVujYLRsYzROIGTs0BBlL9m9iUe772MSusM5ypnezuBMZgCoTNBbWa5XtUb69uF"
+      },
+      "products": [
+        {
+          "_id": "693d4b7f1c508c5d5ec01b64",
+          "name": "Bike51040",
+          "amount": 772,
+          "price": 60573,
+          "manufacturer": "Amazon",
+          "notes": "smAbSvIagMfb9NJUtdxVLi9foeNAwFFble4K7YL1YiTLr3WIq3Dh2yP45j51gFFIIyMi0k2pwsQhUSKNuIcATUk0lPYQfQV6NbZMGSrIKUsHnMKN34opv5UIiX4IpHjbim3EVONYrrWoBDDmCmrc1JZM3svyFpQmiGEqR41OSOZ8TDLrTkr3yZoWM5RT6OyiymeFRaLvY4PlaZOmrxZPBL7eWwyfBBIf6CFOPEYLiwHRSm8Etm9Y6ZsP5Q",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 60573,
+      "createdOn": "2025-12-13T11:18:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4b7c1c508c5d5ec01b25",
+          "products": [
+            {
+              "_id": "693d4b7f1c508c5d5ec01b64",
+              "name": "Bike51040",
+              "amount": 772,
+              "price": 60573,
+              "manufacturer": "Amazon",
+              "notes": "smAbSvIagMfb9NJUtdxVLi9foeNAwFFble4K7YL1YiTLr3WIq3Dh2yP45j51gFFIIyMi0k2pwsQhUSKNuIcATUk0lPYQfQV6NbZMGSrIKUsHnMKN34opv5UIiX4IpHjbim3EVONYrrWoBDDmCmrc1JZM3svyFpQmiGEqR41OSOZ8TDLrTkr3yZoWM5RT6OyiymeFRaLvY4PlaZOmrxZPBL7eWwyfBBIf6CFOPEYLiwHRSm8Etm9Y6ZsP5Q",
+              "received": false
+            }
+          ],
+          "total_price": 60573,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:18:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d4b831c508c5d5ec01ba2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

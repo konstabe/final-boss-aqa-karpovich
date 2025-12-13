@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:19:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-bE2/kLkuJLSNkJNZwExGQfWpSAs\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4ba11c508c5d5ec023cd",
+        "email": "Jadon_Stiedemann@hotmail.com",
+        "name": "Dawson Wiegand",
+        "country": "Ukraine",
+        "city": "Delano",
+        "street": "The Hawthorns",
+        "house": 1,
+        "flat": 684,
+        "phone": "+18813666735",
+        "createdOn": "2025-12-13T11:18:57.000Z",
+        "notes": "MMoaluBaQu31Z5E0CHO1nDvsJMv5mIrXRnDKx679zT4Gz1MoRmPwMSC0oTh5iDle4VMCLsO44COOJYoKun0s98D6h9e8zxODq56Uaguntj4q5kEbDbJ2TA4LNOVh7ZudNOgopGnTeCzZFnpDokLFB0d4tLM2xqv0kJIZt2ebraNIcWUjgQoyIqAwLA84Iy5VhByYjOm0eUSgARA04U0OQuaMML7qU14PjVwEpP7cBg1thZ9NjeOtYl9bog"
+      },
+      "products": [
+        {
+          "_id": "693d4ba51c508c5d5ec0253f",
+          "name": "Fish46635",
+          "amount": 134,
+          "price": 53734,
+          "manufacturer": "Google",
+          "notes": "TJYrmeNO01ynk9Rmh16npEjxBJtq04bHPzDmOLkgEypMe0uXofMSLWeNhOwxhTKM62g1KH5vdHbtyi3gZDREVEQMP8PKZEHB4qLiZxRgEYLtnATMtM4Jc681IIkovSXj1fZmgCMAi0iWBeK3sNyi1NGGlHawwSWVn4ypHMe5jIbPCK6dNSvDLsNTByI4nQ91P63UJDFhxmweuLP90zcUVcBh1f1VXSFu85LDsoHAhiKo9SWIVA00B4DB9S",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 53734,
+      "createdOn": "2025-12-13T11:19:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4ba11c508c5d5ec023cd",
+          "products": [
+            {
+              "_id": "693d4ba51c508c5d5ec0253f",
+              "name": "Fish46635",
+              "amount": 134,
+              "price": 53734,
+              "manufacturer": "Google",
+              "notes": "TJYrmeNO01ynk9Rmh16npEjxBJtq04bHPzDmOLkgEypMe0uXofMSLWeNhOwxhTKM62g1KH5vdHbtyi3gZDREVEQMP8PKZEHB4qLiZxRgEYLtnATMtM4Jc681IIkovSXj1fZmgCMAi0iWBeK3sNyi1NGGlHawwSWVn4ypHMe5jIbPCK6dNSvDLsNTByI4nQ91P63UJDFhxmweuLP90zcUVcBh1f1VXSFu85LDsoHAhiKo9SWIVA00B4DB9S",
+              "received": false
+            }
+          ],
+          "total_price": 53734,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:19:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d4baa1c508c5d5ec02616"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

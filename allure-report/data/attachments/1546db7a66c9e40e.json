@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:19:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-uldr5rp54r2sWkj4Fze1qDc15CU\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4bbc1c508c5d5ec02af2",
+        "email": "Joanny_McKenzie@hotmail.com",
+        "name": "Luis Hirthe",
+        "country": "Ukraine",
+        "city": "Doloreston",
+        "street": "Tony Drives",
+        "house": 43,
+        "flat": 848,
+        "phone": "+19877765079",
+        "createdOn": "2025-12-13T11:19:24.000Z",
+        "notes": "vUqBJdY3UYGtMANvOomHL1bWE5BeqrLmAbPGIxzRF1ev5g1y8yvANKcl5cSsCfVdI5waeL6LjN8HsiubxWG2YeepPWC7rroXpr9uNJ0en3Y15X1U0Pogl3KcEHyyoELOPhE5FM4KSiiZBEwLjf9SFFOzWLtn4QEm4Ynd7oRcE3uGwUA3izNxx0STrH0VaFEts5FzNHhAeTP67Yx6vTRBwKxw8FUKBHDMQw25rvotDsur4LivsRLS8KPlr0"
+      },
+      "products": [
+        {
+          "_id": "693d4bbf1c508c5d5ec02bab",
+          "name": "Chips5500",
+          "amount": 851,
+          "price": 16749,
+          "manufacturer": "Microsoft",
+          "notes": "3tMA3Q2ERHK85QlqmgIwz0uZIDznXjewFMehGjPEWZ5PiJQ8YLfhZjp3eYWmgKKMgVJCOuiZnPQRW0Fgi5O1EmOj8QK1OU88PvlP0kzTHzL5qOwyl5xQqu87seJmkSEyZUXAaZLc5lYpVhod6V7CxzDpMzeRKjSBMV7xThU0fTkJwFyFGjo2gUlryZJ1byreVynundkMIKxkYUyebC1qGGb2nvsnGtK233O2K3NC6L07HirOZ14pe50xsy",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 16749,
+      "createdOn": "2025-12-13T11:19:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4bbc1c508c5d5ec02af2",
+          "products": [
+            {
+              "_id": "693d4bbf1c508c5d5ec02bab",
+              "name": "Chips5500",
+              "amount": 851,
+              "price": 16749,
+              "manufacturer": "Microsoft",
+              "notes": "3tMA3Q2ERHK85QlqmgIwz0uZIDznXjewFMehGjPEWZ5PiJQ8YLfhZjp3eYWmgKKMgVJCOuiZnPQRW0Fgi5O1EmOj8QK1OU88PvlP0kzTHzL5qOwyl5xQqu87seJmkSEyZUXAaZLc5lYpVhod6V7CxzDpMzeRKjSBMV7xThU0fTkJwFyFGjo2gUlryZJ1byreVynundkMIKxkYUyebC1qGGb2nvsnGtK233O2K3NC6L07HirOZ14pe50xsy",
+              "received": false
+            }
+          ],
+          "total_price": 16749,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:19:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d4bc41c508c5d5ec02c2a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:19:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-XMPIW+1RthUuE96Sp14X1q+JTg4\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4bae1c508c5d5ec0277e",
+        "email": "Colten.Schroeder@yahoo.com",
+        "name": "Chelsey Brown",
+        "country": "France",
+        "city": "Croninfort",
+        "street": "Marcelina Key",
+        "house": 48,
+        "flat": 403,
+        "phone": "+15713271368",
+        "createdOn": "2025-12-13T11:19:10.000Z",
+        "notes": "PnMk1CjOOOZr18oq34gEtPfCLI7ob2JwcmBdk1QfcAI2YTGGQow74yNep6EclX7o1iePOydJPW6Cwwp1VDrIc66VQxWidi5fTtxFW64vhcRcLd0t6cHsQE7XQfFmCOhnIOIXq8RlMtjSmx6n4NGYtgI6a4xFWHKIsdmtDW7NjTOcCW1fS7IAtGGvmdyUR35iSTBKnm3n0XzYLPeCAZ1RCCk2vq0tYGDYW0Gs8bdGSUz7IOYMky9Hp6YQPU"
+      },
+      "products": [
+        {
+          "_id": "693d4bb11c508c5d5ec028a5",
+          "name": "Sausages34326",
+          "amount": 854,
+          "price": 37979,
+          "manufacturer": "Google",
+          "notes": "BbwiY6pqYICyfsAYZERe4DzfolEvTSCIzwGg1ojjCugOaQXeVaoaQWNOJefOuyzPl9BFIbxfj0Hiov3NiJXNQYc5v3Vn1DcYRYWA1US7SRyHdZvYDihGKJPqFbYE9whdjVx0hfmNdh8VG34WKIVbQTWPylGddD6Vxr6cdMqNjcwhPptqxCKlKhBx4GPINqlVFsebfhKa9BkbYxil9QlZHcYOSAC7vk4TL5bJTrB3r0wO7BV1NxpEZZTiwB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 37979,
+      "createdOn": "2025-12-13T11:19:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4bae1c508c5d5ec0277e",
+          "products": [
+            {
+              "_id": "693d4bb11c508c5d5ec028a5",
+              "name": "Sausages34326",
+              "amount": 854,
+              "price": 37979,
+              "manufacturer": "Google",
+              "notes": "BbwiY6pqYICyfsAYZERe4DzfolEvTSCIzwGg1ojjCugOaQXeVaoaQWNOJefOuyzPl9BFIbxfj0Hiov3NiJXNQYc5v3Vn1DcYRYWA1US7SRyHdZvYDihGKJPqFbYE9whdjVx0hfmNdh8VG34WKIVbQTWPylGddD6Vxr6cdMqNjcwhPptqxCKlKhBx4GPINqlVFsebfhKa9BkbYxil9QlZHcYOSAC7vk4TL5bJTrB3r0wO7BV1NxpEZZTiwB",
+              "received": false
+            }
+          ],
+          "total_price": 37979,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:19:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d4bb11c508c5d5ec028c2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

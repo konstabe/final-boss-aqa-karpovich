@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:19:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1895",
+    "etag": "W/\"767-jwPHBqbn7XOHTYjIksCMTyaF/mc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d4bb11c508c5d5ec028c8",
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4bae1c508c5d5ec02765",
+        "email": "Miles_Dickinson@yahoo.com",
+        "name": "Chaim Stroman",
+        "country": "Great Britain",
+        "city": "Dearborn Heights",
+        "street": "Arthur Islands",
+        "house": 30,
+        "flat": 658,
+        "phone": "+17607196877",
+        "createdOn": "2025-12-13T11:19:10.000Z",
+        "notes": "zdQJg79M7c7CPz5jz1cn9nc9GFPTbEi45OT4gOv0nCRTiOEjTKIlBY9Brqs7UlhX2ErlH9izxjD2aHhktcTwMtrjReQtx9Jw5ck296eaywCbrj6fHjHvLOFPUXuV8qRylCGeayfTSKYEjsqOmUPcvje33JxBypJHWekVEulF2iZBGGZYHVxJMYFJYTaCnp3HKrqAYMUyqKENTQPRf0oJNWKgU2bf4dGKrJlvFAaFl4oxVPeUTUTQ4dv0d6"
+      },
+      "products": [
+        {
+          "_id": "693d4bb11c508c5d5ec028a8",
+          "name": "Tuna37058",
+          "amount": 355,
+          "price": 18931,
+          "manufacturer": "Apple",
+          "notes": "h1HixL53ZDNbERl49B1UptbgoSEKff5vH9arlt1qgZOfEbupZFrFr6dDTwJmLJsLutI1Wo2G2EK0lFY9OVXdEPyahvPjnkpSzvwlYuEAWXWZ1tXs4pl6d2w7YdFKV3cEmvuItqSTS8piBczbYMBTMjaXaZxhs4ffEpKMBwHTHoDPTCm6J6Aum6pnlQ9gJEVdWPjrJBUxJRLT2cVosZqNFNwXTrtw0ykc5awKCaGDMSPrDMYL7iokgjBQKg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 18931,
+      "createdOn": "2025-12-13T11:19:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4bae1c508c5d5ec02765",
+          "products": [
+            {
+              "_id": "693d4bb11c508c5d5ec028a8",
+              "name": "Tuna37058",
+              "amount": 355,
+              "price": 18931,
+              "manufacturer": "Apple",
+              "notes": "h1HixL53ZDNbERl49B1UptbgoSEKff5vH9arlt1qgZOfEbupZFrFr6dDTwJmLJsLutI1Wo2G2EK0lFY9OVXdEPyahvPjnkpSzvwlYuEAWXWZ1tXs4pl6d2w7YdFKV3cEmvuItqSTS8piBczbYMBTMjaXaZxhs4ffEpKMBwHTHoDPTCm6J6Aum6pnlQ9gJEVdWPjrJBUxJRLT2cVosZqNFNwXTrtw0ykc5awKCaGDMSPrDMYL7iokgjBQKg",
+              "received": false
+            }
+          ],
+          "total_price": 18931,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:19:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
