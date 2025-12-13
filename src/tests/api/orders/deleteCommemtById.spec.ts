@@ -57,7 +57,6 @@ test.describe("[API] [Sales Portal] [Orders] [Comments] [Delete Comment By Id]",
 	test("Delete comment by invalid id", async ({ ordersApi }) => {
 		const _id = "6894b2471c508c5d5e93e111";
 		const deleteComment = await ordersApi.deleteCommentFromOrder(id_order, _id, token);
-		console.log(deleteComment);
 		validateResponse(deleteComment, {
 			status: STATUS_CODES.BAD_REQUEST,
 			IsSuccess: false,
