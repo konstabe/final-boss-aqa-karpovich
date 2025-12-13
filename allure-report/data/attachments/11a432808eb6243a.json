@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:23:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-un41Oscx2tROEjE7Ugmo7zeQqQk\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693de7671c508c5d5ec68456",
+        "email": "Kenya_Veum@hotmail.com",
+        "name": "Isabell Macejkovic",
+        "country": "France",
+        "city": "Beerburgh",
+        "street": "Greyson Burgs",
+        "house": 17,
+        "flat": 425,
+        "phone": "+12962975820",
+        "createdOn": "2025-12-13T22:23:35.000Z",
+        "notes": "tDuIf0lRUkexjj4TnU0H7094LVx3ZhJK15V9qmbjPTNPwBIKg0HgDzt2a9AORwMe8YhCFYYXJMMHevB9ERPhwlhxL496GTLc04rKjevV1z3u2k1dJDcIpBQvRzxx9yr3Wx8ocQsPgaSrSgIdVr3njdUyCQoyFNEQHOlxZLjSDbTSTjABBZaCOSceDDbJTxNFpqzWYrWytZJYWT3ZG15tnpZt0ZEa5qzZGnyGGbK3OBs46lj3XAIJdDW0VJ"
+      },
+      "products": [
+        {
+          "_id": "693de7691c508c5d5ec6851f",
+          "name": "Towels77272",
+          "amount": 77,
+          "price": 7138,
+          "manufacturer": "Microsoft",
+          "notes": "6RjLJNWfU50IPlcv3BeHvCgzohT17NFocZoJRPlPInyrBW4gqSSEw2FdrHGDUWtp7mW2nCEJkHIkQMmw3YBBlKzlwj1bG88u4e2ZqOp4pBHU3ZTHG7iXJjrXKolHiJlpXAovZf06J698rHojEI4tUWCb0TFyQytFxkGF85b0mhvazmgCB4R7ZAvaUelTO83k2FbqIlZknToUc26MbjksNIbSGahjWSjKihiZpNiAveL4LCgyQNtq58iAeR",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7138,
+      "createdOn": "2025-12-13T22:23:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693de7671c508c5d5ec68456",
+          "products": [
+            {
+              "_id": "693de7691c508c5d5ec6851f",
+              "name": "Towels77272",
+              "amount": 77,
+              "price": 7138,
+              "manufacturer": "Microsoft",
+              "notes": "6RjLJNWfU50IPlcv3BeHvCgzohT17NFocZoJRPlPInyrBW4gqSSEw2FdrHGDUWtp7mW2nCEJkHIkQMmw3YBBlKzlwj1bG88u4e2ZqOp4pBHU3ZTHG7iXJjrXKolHiJlpXAovZf06J698rHojEI4tUWCb0TFyQytFxkGF85b0mhvazmgCB4R7ZAvaUelTO83k2FbqIlZknToUc26MbjksNIbSGahjWSjKihiZpNiAveL4LCgyQNtq58iAeR",
+              "received": false
+            }
+          ],
+          "total_price": 7138,
+          "delivery": null,
+          "changedOn": "2025-12-13T22:23:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693de76a1c508c5d5ec68531"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

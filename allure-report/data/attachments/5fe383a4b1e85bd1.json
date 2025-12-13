@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:23:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-T7NInfWsswu0wZNpD56vrhHv4HY\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693de7641c508c5d5ec68410",
+        "email": "Neva95@gmail.com",
+        "name": "Florencio Schowalter",
+        "country": "Russia",
+        "city": "Jadonmouth",
+        "street": "Erdman Course",
+        "house": 11,
+        "flat": 534,
+        "phone": "+14525120718",
+        "createdOn": "2025-12-13T22:23:32.000Z",
+        "notes": "8SFuwaSkYHCfrhaMdOIchVPmMnGkb1G4lvcTtidOWFERdaQ2nnDaqvWL0B5o9Q99wd6afkml35B6tKoF890jhGnzWU0h9XOM2LNi9ZMNptkWYm3g8G7jspxa9hSVuf2WFKV4kAHIcswZQCBKtNW8CmaCTZh6Y8DMLt0wklsKi2PiSB6Zxr7Ci0ZRrYT5yeBPEEkndfKoCMFdTZsMZIEdZNosqzeDyvsDckBkVnYLMuGHwFkVm37NJjfo6E"
+      },
+      "products": [
+        {
+          "_id": "693de7671c508c5d5ec6846b",
+          "name": "Gloves47156",
+          "amount": 10,
+          "price": 3711,
+          "manufacturer": "Google",
+          "notes": "HIdCSnq2sY67pMyLP6tsZirJgYR835hK7EZYYxjxpPRDw27uGvYmJPS4JvgJ7R1R8Oh5ikY2BtFn634mEE3E5JulGSScDeOsS2K9qPO69nRWeXa98EwkGkKw7lCzRhiKPnJaKUrXWOYyyfxfQ02vGfpU1WSP3fZSTd9nYP03H0VrQW8OqVu7NHfvLsZON9nuNKvzuaaDAZx7O5jHPjBz5noMinhOOIAYtQrQOGZzD8alEpF9Gx7ZT4V9tD",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 3711,
+      "createdOn": "2025-12-13T22:23:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693de7641c508c5d5ec68410",
+          "products": [
+            {
+              "_id": "693de7671c508c5d5ec6846b",
+              "name": "Gloves47156",
+              "amount": 10,
+              "price": 3711,
+              "manufacturer": "Google",
+              "notes": "HIdCSnq2sY67pMyLP6tsZirJgYR835hK7EZYYxjxpPRDw27uGvYmJPS4JvgJ7R1R8Oh5ikY2BtFn634mEE3E5JulGSScDeOsS2K9qPO69nRWeXa98EwkGkKw7lCzRhiKPnJaKUrXWOYyyfxfQ02vGfpU1WSP3fZSTd9nYP03H0VrQW8OqVu7NHfvLsZON9nuNKvzuaaDAZx7O5jHPjBz5noMinhOOIAYtQrQOGZzD8alEpF9Gx7ZT4V9tD",
+              "received": false
+            }
+          ],
+          "total_price": 3711,
+          "delivery": null,
+          "changedOn": "2025-12-13T22:23:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693de7671c508c5d5ec68484"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

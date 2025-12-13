@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:23:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3419",
+    "etag": "W/\"d5b-hvkbt/Nb/MQUBiDFEKyBLpiu6dQ\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693de7751c508c5d5ec6868b",
+        "email": "Cheyenne_Buckridge18@gmail.com",
+        "name": "Oral Dickinson",
+        "country": "Russia",
+        "city": "Lake Cheyenneport",
+        "street": "Gerhold Cove",
+        "house": 50,
+        "flat": 377,
+        "phone": "+13696556317",
+        "createdOn": "2025-12-13T22:23:49.000Z",
+        "notes": "tvfwx84IRlU2ke9MzyUw0m5SGSRDzFkbXjG9tbzcdrjNwvsK0iIEne8zC3ElAWO1IE9hcrd4EcD1NZnXC3rhZZV9OOvNBqzaircFndA9zdA93gFIMXdt5iEYB7PmnvBRHkwwenZgbxWz62JO8ZgcmaRD6RYJ5bDwSdz6EXtGv2znZne7w7umDE26B2GxJtkj7SET9uhl72LUSIaXdcfdyCD65TSbCyXZrHdLXQF4osWzk2WhseOgDkkYoT"
+      },
+      "products": [
+        {
+          "_id": "693de7781c508c5d5ec686f9",
+          "name": "Chips43304",
+          "amount": 945,
+          "price": 40472,
+          "manufacturer": "Sony",
+          "notes": "yh0jt8bJTbuitynOE9bFLskklQlSTEUJWbuB8Lp4MCuVKKIanm37gSDAbPcGDraCWi47w8O8pzkYw5kpgyNNdEXw5KRZTXAHYWBhHtDwLxZXsZhKaBqLupUIVoaHm5HOdcU9BR42fQ0oWUSPNh2mzDRPuPRXvSXKRgh9iXnJkJJtzdgXMVHgr4Dfzp1aCnno3QREFnTQAfHwoaoPqeu61WkoxHyN8q7LOgcwLST40Nq0s0iBHi5kSza7wj",
+          "received": false
+        },
+        {
+          "_id": "693de77b1c508c5d5ec68769",
+          "name": "Pants73795",
+          "amount": 14,
+          "price": 62587,
+          "manufacturer": "Sony",
+          "notes": "HScTOGoqNFqbHZBexRQBVVvtbezT3D7LoM5DQ9x8V3neKQrNC7XAfR0zu6SW5oMCzUKPX6w6fprC5ZgeNmB4fYi7XakA5NPQkGolgQPJh0LYbB4mz1UCfEzEPleF0dp7sbgTavfsXM4pM1U4APulL5de6EhKqmSrDZU7FDhMQiZzxqNcUVDGrop3Pu86UHUauy5EGBHVRTkrzO6hGOb2rSzJL5507EufMK3ZhEttTiQaV6yZg8ydW2aKtg",
+          "received": false
+        },
+        {
+          "_id": "693de77e1c508c5d5ec687d2",
+          "name": "Salad93245",
+          "amount": 51,
+          "price": 84792,
+          "manufacturer": "Sony",
+          "notes": "VTJvVBaNUBEC0TTWRQSTBZfLS8oFx74hAPnSZYGBJhjyO3HflrRzLDDvOzRxfQTgZ4IvLFaRIdNJUElUNxwIKZl5FxBQNykXcqzcc5YgsdGVAGnFPvFLCsQ1DEimWvRCMER2F4x1u0zFbi6M0VWDCJrFOqnKGWtLGosMon34apxq3hcd5KY3HkyvjlNfWMEjeYE1z0fNfiPhxrIGV6lIWfIND1OeTPbYVdyPEsEkBLCyr1keNtUVxsWJgL",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 187851,
+      "createdOn": "2025-12-13T22:23:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693de7751c508c5d5ec6868b",
+          "products": [
+            {
+              "_id": "693de7781c508c5d5ec686f9",
+              "name": "Chips43304",
+              "amount": 945,
+              "price": 40472,
+              "manufacturer": "Sony",
+              "notes": "yh0jt8bJTbuitynOE9bFLskklQlSTEUJWbuB8Lp4MCuVKKIanm37gSDAbPcGDraCWi47w8O8pzkYw5kpgyNNdEXw5KRZTXAHYWBhHtDwLxZXsZhKaBqLupUIVoaHm5HOdcU9BR42fQ0oWUSPNh2mzDRPuPRXvSXKRgh9iXnJkJJtzdgXMVHgr4Dfzp1aCnno3QREFnTQAfHwoaoPqeu61WkoxHyN8q7LOgcwLST40Nq0s0iBHi5kSza7wj",
+              "received": false
+            },
+            {
+              "_id": "693de77b1c508c5d5ec68769",
+              "name": "Pants73795",
+              "amount": 14,
+              "price": 62587,
+              "manufacturer": "Sony",
+              "notes": "HScTOGoqNFqbHZBexRQBVVvtbezT3D7LoM5DQ9x8V3neKQrNC7XAfR0zu6SW5oMCzUKPX6w6fprC5ZgeNmB4fYi7XakA5NPQkGolgQPJh0LYbB4mz1UCfEzEPleF0dp7sbgTavfsXM4pM1U4APulL5de6EhKqmSrDZU7FDhMQiZzxqNcUVDGrop3Pu86UHUauy5EGBHVRTkrzO6hGOb2rSzJL5507EufMK3ZhEttTiQaV6yZg8ydW2aKtg",
+              "received": false
+            },
+            {
+              "_id": "693de77e1c508c5d5ec687d2",
+              "name": "Salad93245",
+              "amount": 51,
+              "price": 84792,
+              "manufacturer": "Sony",
+              "notes": "VTJvVBaNUBEC0TTWRQSTBZfLS8oFx74hAPnSZYGBJhjyO3HflrRzLDDvOzRxfQTgZ4IvLFaRIdNJUElUNxwIKZl5FxBQNykXcqzcc5YgsdGVAGnFPvFLCsQ1DEimWvRCMER2F4x1u0zFbi6M0VWDCJrFOqnKGWtLGosMon34apxq3hcd5KY3HkyvjlNfWMEjeYE1z0fNfiPhxrIGV6lIWfIND1OeTPbYVdyPEsEkBLCyr1keNtUVxsWJgL",
+              "received": false
+            }
+          ],
+          "total_price": 187851,
+          "delivery": null,
+          "changedOn": "2025-12-13T22:23:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693de77e1c508c5d5ec687ec"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:23:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1870",
+    "etag": "W/\"74e-7RKduNCZrgYdpgJsftfkh6PFYkA\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693de75f1c508c5d5ec682f0",
+        "email": "Bryce11@hotmail.com",
+        "name": "Leann Wehner",
+        "country": "USA",
+        "city": "West Nelda",
+        "street": "Cicero Plaza",
+        "house": 37,
+        "flat": 627,
+        "phone": "+13388107854",
+        "createdOn": "2025-12-13T22:23:27.000Z",
+        "notes": "N8x5QOchiO9GuplXuXT9m4HlyvLcBIQf3x1yHpDhePSVJSlbrmsZNa5D90mH1VWahnx2ZvVDDbVuk9sBhZ6rBY6zWdYOrBEkvYm7J1BUhAq4ekSHPXZJF4rHlpNAviltJ1fcmJtCxJWOIZeMXXJbZBFrbjiWJ0whJDkjBpksnJIDrydRGdwTbt4yXa3NG0TZbMZHA6ne2iJnrF9jr3IIAu509GTctOurn3kvY4onOF3uie0rgi7wCMP1uc"
+      },
+      "products": [
+        {
+          "_id": "693de7621c508c5d5ec68332",
+          "name": "Pants74199",
+          "amount": 148,
+          "price": 8674,
+          "manufacturer": "Amazon",
+          "notes": "v2Fq7CpOz2NC6LNJ8Uq2Sgz0eAm1apzuiq8OdmhGmLagrI4bBtp20cKb6z2mRSmfHc9RpbJ2XJNf7fjry3J9p2iztU80Lg6vaIc1UdjAGAxeBnau9t0jhpO3lwCav9ccJF9FU3uAvZDOnbXpLBJmOEgwJ5MV9cZSUfGAhCKcViHb3nqRTrscA5zV6Y03MxUyz0UVenVvOusp3OcfRxMXzzH4aLueYkpWyCwLU6yw7xOHrgTxz1Wc39c8gA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 8674,
+      "createdOn": "2025-12-13T22:23:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693de75f1c508c5d5ec682f0",
+          "products": [
+            {
+              "_id": "693de7621c508c5d5ec68332",
+              "name": "Pants74199",
+              "amount": 148,
+              "price": 8674,
+              "manufacturer": "Amazon",
+              "notes": "v2Fq7CpOz2NC6LNJ8Uq2Sgz0eAm1apzuiq8OdmhGmLagrI4bBtp20cKb6z2mRSmfHc9RpbJ2XJNf7fjry3J9p2iztU80Lg6vaIc1UdjAGAxeBnau9t0jhpO3lwCav9ccJF9FU3uAvZDOnbXpLBJmOEgwJ5MV9cZSUfGAhCKcViHb3nqRTrscA5zV6Y03MxUyz0UVenVvOusp3OcfRxMXzzH4aLueYkpWyCwLU6yw7xOHrgTxz1Wc39c8gA",
+              "received": false
+            }
+          ],
+          "total_price": 8674,
+          "delivery": null,
+          "changedOn": "2025-12-13T22:23:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693de7621c508c5d5ec68351"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

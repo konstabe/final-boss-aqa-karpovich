@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:23:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1896",
+    "etag": "W/\"768-WyVgVF7il9Tnm97MzqTa0D05aNI\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693de7611c508c5d5ec68323",
+        "email": "Ashley.Konopelski62@yahoo.com",
+        "name": "Fritz Kirlin",
+        "country": "Germany",
+        "city": "South Roderickfield",
+        "street": "Alford Harbor",
+        "house": 30,
+        "flat": 121,
+        "phone": "+14529068869",
+        "createdOn": "2025-12-13T22:23:29.000Z",
+        "notes": "VhknEF6zjKdvwaysLLaHsDfOuWF9xRKkLNUykWg0YpV6iDiJxZWoTn3FuOnw2Ysr7shwocdO3wKWUpBOWMZJFLnCJXZWLfvYmiNdu4gxokBrtckprIMT4Fj3DEdBu0nFa8ucFQ4gTaqysSNi8vvlBTHRN3EE45CXRLU3NoY7iHoCtGPezXdR5jHzZJQpgMluUWy6MJ8N0d22A0qCs320xT2XYs29zTRQM7zd73I6wC7NcKLqrglb7GfQmT"
+      },
+      "products": [
+        {
+          "_id": "693de7641c508c5d5ec683c8",
+          "name": "Salad21481",
+          "amount": 277,
+          "price": 14483,
+          "manufacturer": "Tesla",
+          "notes": "gmtC4H9WWuFBiazf0HCKTM7FDUYJXB41wBNbUUPg3sWAaML959PpNZpXhNf9KdoeOaAUuJiluvBFXcs9STcr773uloM7a8eb1NKVUiTFQRbp9w1a2943JQW90Mrj6osyxOBOLbMOYZfeRXhCukRCBvGbk9DZOIOFTD8Eu8rr5b9LPtsFhz64ioMau5Xpw5FCLeWJg2nManFJ3UOQkiL8O6bGYeuYj37UJHHeU3BvRgVhWF5AZqGHWM0VJH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 14483,
+      "createdOn": "2025-12-13T22:23:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693de7611c508c5d5ec68323",
+          "products": [
+            {
+              "_id": "693de7641c508c5d5ec683c8",
+              "name": "Salad21481",
+              "amount": 277,
+              "price": 14483,
+              "manufacturer": "Tesla",
+              "notes": "gmtC4H9WWuFBiazf0HCKTM7FDUYJXB41wBNbUUPg3sWAaML959PpNZpXhNf9KdoeOaAUuJiluvBFXcs9STcr773uloM7a8eb1NKVUiTFQRbp9w1a2943JQW90Mrj6osyxOBOLbMOYZfeRXhCukRCBvGbk9DZOIOFTD8Eu8rr5b9LPtsFhz64ioMau5Xpw5FCLeWJg2nManFJ3UOQkiL8O6bGYeuYj37UJHHeU3BvRgVhWF5AZqGHWM0VJH",
+              "received": false
+            }
+          ],
+          "total_price": 14483,
+          "delivery": null,
+          "changedOn": "2025-12-13T22:23:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693de7641c508c5d5ec683e1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
