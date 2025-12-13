@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:28:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3429",
+    "etag": "W/\"d65-qfJP1Dkc1eLzOtUxwwT58d5b1Lk\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4dc81c508c5d5ec08565",
+        "email": "Maureen.Koch@yahoo.com",
+        "name": "Angelo Lubowitz",
+        "country": "Russia",
+        "city": "West Jasonworth",
+        "street": "Silver Street",
+        "house": 10,
+        "flat": 629,
+        "phone": "+13886089634",
+        "createdOn": "2025-12-13T11:28:08.000Z",
+        "notes": "NPE7F2acHpow6wygEW7ynlzh4nhFSiyhY8n85di1FV9rRGIs0TSImRYfRsIFjQTEF8pMTx2ldxtCyKpwSoX65LEJprSY0QxF1JSMRDBUCzxV06tQeHNHCGj4f6XXUPphtB1BPTs9WZmt8SavpZCxZ9AIOKjGevkMBCigDwKyVcHEW85T1D35wo9TLDlwAejFPAUeXtDucX6CCHMBdDxIzpfwcYAUa37lR5VflHCBlbJb2P93QsGLyTVmkV"
+      },
+      "products": [
+        {
+          "_id": "693d4dcb1c508c5d5ec08604",
+          "name": "Keyboard45281",
+          "amount": 777,
+          "price": 93017,
+          "manufacturer": "Apple",
+          "notes": "T2RtSUdGiCilzIYLGlPczAzr78g4xsoENMtTZGVunBhNn0FHAY1MOV0gYuHVnw5WsPf9wx89HTytku61VXhBzMbbCBuF7qfkK97hywJknMRfqMY27aq2KsZ42VtjE5UJfhBdaBH5sut8dOUYyx5vxa8zlEt8vb0OXCg6VG8AmJJ3BX0hgs6mKNTsmerPsKX59YeIa8IO8E7u3DZ40EAlXLpWNsuf85BAU5WURFIy9HL4CpbGff9A86Kbtt",
+          "received": false
+        },
+        {
+          "_id": "693d4dce1c508c5d5ec0865e",
+          "name": "Gloves40591",
+          "amount": 33,
+          "price": 55142,
+          "manufacturer": "Google",
+          "notes": "vbFbUZuaSbSZ9g1OTUeXWbgSLWMOahZttjvfjKlYHcuy8s6qxvcRiwvQbqSyD8q33KX4WLo14vGCeohI8nr3WcJDdiAvuNi2zOXqLjw2htL7U7l9tb1j2NxpsvMtbZQa1pNFgoH81uLCWFKsegPWJJVxslnWnujFej0ebHqSc2yXnsFHMfCnxsSKCszkLtPzvem8LfWWDkmcgcrjxUSa9VIQlf8fKJmCL4AsecvpJpWT8h0HlStch53BQF",
+          "received": false
+        },
+        {
+          "_id": "693d4dd21c508c5d5ec08699",
+          "name": "Mouse77133",
+          "amount": 974,
+          "price": 9289,
+          "manufacturer": "Google",
+          "notes": "181C87YyLBHdmZ34g74pUg43mbyJ2L67gKHJvosTj1SND8IldkCRsjXbghj7PBR4dsgIPX1kLDS2wcEVkoVrb8xk2vTB8XsliYEQUHcXOH8RZKqFhsiqQ175BKTZeFqb3RTtOp7QIucZxjmmjgLXVvzbfaZO5Wp6Jj90XBwsmY7NWxyPF95Vsgt8aKOTM1V8eiz4gjrYUkXCYbWTFebnaSvJIIxakLepZEuEmi9ATAR8JpsYSgFEQPsSrl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 157448,
+      "createdOn": "2025-12-13T11:28:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4dc81c508c5d5ec08565",
+          "products": [
+            {
+              "_id": "693d4dcb1c508c5d5ec08604",
+              "name": "Keyboard45281",
+              "amount": 777,
+              "price": 93017,
+              "manufacturer": "Apple",
+              "notes": "T2RtSUdGiCilzIYLGlPczAzr78g4xsoENMtTZGVunBhNn0FHAY1MOV0gYuHVnw5WsPf9wx89HTytku61VXhBzMbbCBuF7qfkK97hywJknMRfqMY27aq2KsZ42VtjE5UJfhBdaBH5sut8dOUYyx5vxa8zlEt8vb0OXCg6VG8AmJJ3BX0hgs6mKNTsmerPsKX59YeIa8IO8E7u3DZ40EAlXLpWNsuf85BAU5WURFIy9HL4CpbGff9A86Kbtt",
+              "received": false
+            },
+            {
+              "_id": "693d4dce1c508c5d5ec0865e",
+              "name": "Gloves40591",
+              "amount": 33,
+              "price": 55142,
+              "manufacturer": "Google",
+              "notes": "vbFbUZuaSbSZ9g1OTUeXWbgSLWMOahZttjvfjKlYHcuy8s6qxvcRiwvQbqSyD8q33KX4WLo14vGCeohI8nr3WcJDdiAvuNi2zOXqLjw2htL7U7l9tb1j2NxpsvMtbZQa1pNFgoH81uLCWFKsegPWJJVxslnWnujFej0ebHqSc2yXnsFHMfCnxsSKCszkLtPzvem8LfWWDkmcgcrjxUSa9VIQlf8fKJmCL4AsecvpJpWT8h0HlStch53BQF",
+              "received": false
+            },
+            {
+              "_id": "693d4dd21c508c5d5ec08699",
+              "name": "Mouse77133",
+              "amount": 974,
+              "price": 9289,
+              "manufacturer": "Google",
+              "notes": "181C87YyLBHdmZ34g74pUg43mbyJ2L67gKHJvosTj1SND8IldkCRsjXbghj7PBR4dsgIPX1kLDS2wcEVkoVrb8xk2vTB8XsliYEQUHcXOH8RZKqFhsiqQ175BKTZeFqb3RTtOp7QIucZxjmmjgLXVvzbfaZO5Wp6Jj90XBwsmY7NWxyPF95Vsgt8aKOTM1V8eiz4gjrYUkXCYbWTFebnaSvJIIxakLepZEuEmi9ATAR8JpsYSgFEQPsSrl",
+              "received": false
+            }
+          ],
+          "total_price": 157448,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:28:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d4dd21c508c5d5ec086a5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

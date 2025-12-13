@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:27:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-b8mpGYdiLuUK7iQL32jnXl05Td4\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4da81c508c5d5ec0810c",
+        "email": "Roslyn_Larson@yahoo.com",
+        "name": "Louvenia White",
+        "country": "France",
+        "city": "Camyllefort",
+        "street": "Virgil Curve",
+        "house": 24,
+        "flat": 460,
+        "phone": "+18963075851",
+        "createdOn": "2025-12-13T11:27:36.000Z",
+        "notes": "2wLpzm9otXVvrDygfnyyoJFAafnVYZVd67QXZxGckHUj7qfpded6TY27MI1yBeWIg6mne3jpzoIUvGJHd88mU2LkvR7rwU5j5pzSevcvNMD2lJAfeUvxKR5SQ4y9h08YbpTIeQxBFQt1WOk49QNSt9aS1guUoHUvwizOLNE28yEsLh03oQEhJ1Gfr9GIbRauKgdsxlDOqWTvnWOITZZ39rEmOMijnGp5W4cuADDFrAbmXWIxo406xt24GN"
+      },
+      "products": [
+        {
+          "_id": "693d4dab1c508c5d5ec0814f",
+          "name": "Keyboard57222",
+          "amount": 280,
+          "price": 60201,
+          "manufacturer": "Xiaomi",
+          "notes": "jPPgAsNuzEbRCp6kNuakQcVQrnz9dpCu8DIiHKJrquLLXDZq4mlJru05xzpECSOpZ9Qovi6SvRpU9vLfDAaUgBf09PqCNmg9ceReKMhjXOePK8YBDLhvEfjWAT0lTuPW5TilancIgtpkWnDwCKfG9s25Qi0Ev84f7pCsZ3RqodXtcO7Y4izY3fMZdbye0JOX1rz4eiBTs3526CssuSBNtQS2y78rOp6O9zBlJULGQ1khXtuJVQB8sxUJ6T",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 60201,
+      "createdOn": "2025-12-13T11:27:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4da81c508c5d5ec0810c",
+          "products": [
+            {
+              "_id": "693d4dab1c508c5d5ec0814f",
+              "name": "Keyboard57222",
+              "amount": 280,
+              "price": 60201,
+              "manufacturer": "Xiaomi",
+              "notes": "jPPgAsNuzEbRCp6kNuakQcVQrnz9dpCu8DIiHKJrquLLXDZq4mlJru05xzpECSOpZ9Qovi6SvRpU9vLfDAaUgBf09PqCNmg9ceReKMhjXOePK8YBDLhvEfjWAT0lTuPW5TilancIgtpkWnDwCKfG9s25Qi0Ev84f7pCsZ3RqodXtcO7Y4izY3fMZdbye0JOX1rz4eiBTs3526CssuSBNtQS2y78rOp6O9zBlJULGQ1khXtuJVQB8sxUJ6T",
+              "received": false
+            }
+          ],
+          "total_price": 60201,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:27:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d4dab1c508c5d5ec08163"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
