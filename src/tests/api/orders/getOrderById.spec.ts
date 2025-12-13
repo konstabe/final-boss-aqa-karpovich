@@ -59,7 +59,7 @@ test.describe("[API] [Sales Portal] [Orders] [Get Oreder By Id]", () => {
 		validateResponse(order, {
 			status: STATUS_CODES.NOT_FOUND,
 			IsSuccess: false,
-			ErrorMessage: ERROR_MESSAGES.ORDER_BY_ID_NOT_FOUND(_id),
+			ErrorMessage: ERROR_MESSAGES.ORDER_NOT_FOUND(_id),
 		});
 	});
 });
