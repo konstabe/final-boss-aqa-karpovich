@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:00:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3887",
+    "etag": "W/\"f2f-RrdaIi0Un1+muAUewUmsIDPu7Tw\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693db7be1c508c5d5ec52585",
+      "status": "Draft",
+      "customer": {
+        "_id": "693db7bd1c508c5d5ec52521",
+        "email": "Martin20@yahoo.com",
+        "name": "Novella Wisozk",
+        "country": "Ukraine",
+        "city": "Lake Leonora",
+        "street": "Pfeffer Vista",
+        "house": 8,
+        "flat": 877,
+        "phone": "+17656307709",
+        "createdOn": "2025-12-13T19:00:13.000Z",
+        "notes": "XdQgKPY17IpMjlk71261NSIsFxL4hkkqJbQAZnHfvd23Dtu9hEFnkxdhiylFmR5Rn33s1hbobKqwm6ZrANUpVYJHYMfUHTy5cwZUxCvKdpZZ07pT1TndgNEmONtVJeNINmmytxdx3yyL75FDm4FsXm5zzf3LgpmdwptvIptrn7nOzfCeFASnaFR7nsLLAjA0reVSpiAhAjep3ImppVAslpFWIsXkF4DZ76Z9NMv05vDOzwaIcrmI2PzsyB"
+      },
+      "products": [
+        {
+          "_id": "693db7bd1c508c5d5ec52566",
+          "name": "Shoes69480",
+          "amount": 761,
+          "price": 35181,
+          "manufacturer": "Amazon",
+          "notes": "OYRZCPWevFR1AJt8p2CRfHYnNQRBTLGFpsYx9wfRCbcngrMiVtcREKEi2Z8z57d7YmWyl1VvLwNKaEwrIzdyKdVgdjGg7Bqmi4xlUc4R6W75HQtjw1I3KMc2ZOmfsjtDNg8m9UsGgb9hrrijYk23qzVuJ3tLE0DFNIPn41I6OJ6S9KDZ3DOlTKd3q59xYqfoYTSXCjlM51gyAYRmCpaCO7cP6SexlnSJfHkWYNfwIPU79ER92fOtMCxgIq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35181,
+      "createdOn": "2025-12-13T19:00:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693db7bd1c508c5d5ec52521",
+          "products": [
+            {
+              "_id": "693db7bd1c508c5d5ec52566",
+              "name": "Shoes69480",
+              "amount": 761,
+              "price": 35181,
+              "manufacturer": "Amazon",
+              "notes": "OYRZCPWevFR1AJt8p2CRfHYnNQRBTLGFpsYx9wfRCbcngrMiVtcREKEi2Z8z57d7YmWyl1VvLwNKaEwrIzdyKdVgdjGg7Bqmi4xlUc4R6W75HQtjw1I3KMc2ZOmfsjtDNg8m9UsGgb9hrrijYk23qzVuJ3tLE0DFNIPn41I6OJ6S9KDZ3DOlTKd3q59xYqfoYTSXCjlM51gyAYRmCpaCO7cP6SexlnSJfHkWYNfwIPU79ER92fOtMCxgIq",
+              "received": false
+            }
+          ],
+          "total_price": 35181,
+          "delivery": null,
+          "changedOn": "2025-12-13T19:00:16.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95333f",
+            "username": "student9@gmail.com",
+            "firstName": "Mireille",
+            "lastName": "Altenwerth-Emmerich",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "693db7bd1c508c5d5ec52521",
+          "products": [
+            {
+              "_id": "693db7bd1c508c5d5ec52566",
+              "name": "Shoes69480",
+              "amount": 761,
+              "price": 35181,
+              "manufacturer": "Amazon",
+              "notes": "OYRZCPWevFR1AJt8p2CRfHYnNQRBTLGFpsYx9wfRCbcngrMiVtcREKEi2Z8z57d7YmWyl1VvLwNKaEwrIzdyKdVgdjGg7Bqmi4xlUc4R6W75HQtjw1I3KMc2ZOmfsjtDNg8m9UsGgb9hrrijYk23qzVuJ3tLE0DFNIPn41I6OJ6S9KDZ3DOlTKd3q59xYqfoYTSXCjlM51gyAYRmCpaCO7cP6SexlnSJfHkWYNfwIPU79ER92fOtMCxgIq",
+              "received": false
+            }
+          ],
+          "total_price": 35181,
+          "delivery": null,
+          "changedOn": "2025-12-13T19:00:14.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "693db7bd1c508c5d5ec52521",
+          "products": [
+            {
+              "_id": "693db7bd1c508c5d5ec52566",
+              "name": "Shoes69480",
+              "amount": 761,
+              "price": 35181,
+              "manufacturer": "Amazon",
+              "notes": "OYRZCPWevFR1AJt8p2CRfHYnNQRBTLGFpsYx9wfRCbcngrMiVtcREKEi2Z8z57d7YmWyl1VvLwNKaEwrIzdyKdVgdjGg7Bqmi4xlUc4R6W75HQtjw1I3KMc2ZOmfsjtDNg8m9UsGgb9hrrijYk23qzVuJ3tLE0DFNIPn41I6OJ6S9KDZ3DOlTKd3q59xYqfoYTSXCjlM51gyAYRmCpaCO7cP6SexlnSJfHkWYNfwIPU79ER92fOtMCxgIq",
+              "received": false
+            }
+          ],
+          "total_price": 35181,
+          "delivery": null,
+          "changedOn": "2025-12-13T19:00:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95333f",
+        "username": "student9@gmail.com",
+        "firstName": "Mireille",
+        "lastName": "Altenwerth-Emmerich",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:00:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-GMwg8tpdgxoTJkAWg+3Ei4chaBg\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693db7c11c508c5d5ec526f5",
+        "email": "General_Fritsch57@yahoo.com",
+        "name": "Rocio West",
+        "country": "Canada",
+        "city": "Lueilwitzville",
+        "street": "E Oak Street",
+        "house": 36,
+        "flat": 41,
+        "phone": "+14568586565",
+        "createdOn": "2025-12-13T19:00:17.000Z",
+        "notes": "0H3IwvxCmNQd7m3vami38qhLQQ3p6VBm2HNl3uuiC4ZwYniRb1q2z7eRiQMler5Oe0PFPVQUWnAVLgrbkZSbs1VwpbtpZ5KLfUiJsRKnybwtGhk3Z12zeYo0oF9fgtZPQ6Tf4l9lyMz1IJsiKTMtWeLWRH4Tr6I1i931ymr62hy3rmgYS436vZdw2FMvt3YzRsIBs6SHI9vfeOogQitQKTB4jGs6dHnESzfPXNndvmg7JirhMvubJfHik3"
+      },
+      "products": [
+        {
+          "_id": "693db7c31c508c5d5ec527c5",
+          "name": "Pants41041",
+          "amount": 792,
+          "price": 45882,
+          "manufacturer": "Samsung",
+          "notes": "sH5g9IjfC9h8sfgyBg1rxCiqqRGlQkrpfCDV3RX9NMvshzFK2m8xXF8DF4VAL7dT1rmXm8vWYIebs2RZvQmFm7G2TjImw6cveT4LAua23CwrfuGAPsJ3GyCLT5nuXP5MYemJL0J9NyOyJcBU3lAEn2DSNb2LWJLybQl46XRPUnYnDhMa1BP16fGB0omQX7rUMKF6e1voc3V0lF46yclo1J9CLucbyMIWRzKfPDhipVLoX6OrkEu7LYDowf",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 45882,
+      "createdOn": "2025-12-13T19:00:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693db7c11c508c5d5ec526f5",
+          "products": [
+            {
+              "_id": "693db7c31c508c5d5ec527c5",
+              "name": "Pants41041",
+              "amount": 792,
+              "price": 45882,
+              "manufacturer": "Samsung",
+              "notes": "sH5g9IjfC9h8sfgyBg1rxCiqqRGlQkrpfCDV3RX9NMvshzFK2m8xXF8DF4VAL7dT1rmXm8vWYIebs2RZvQmFm7G2TjImw6cveT4LAua23CwrfuGAPsJ3GyCLT5nuXP5MYemJL0J9NyOyJcBU3lAEn2DSNb2LWJLybQl46XRPUnYnDhMa1BP16fGB0omQX7rUMKF6e1voc3V0lF46yclo1J9CLucbyMIWRzKfPDhipVLoX6OrkEu7LYDowf",
+              "received": false
+            }
+          ],
+          "total_price": 45882,
+          "delivery": null,
+          "changedOn": "2025-12-13T19:00:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693db7c31c508c5d5ec52830"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

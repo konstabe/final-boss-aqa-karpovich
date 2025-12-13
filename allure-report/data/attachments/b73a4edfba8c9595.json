@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:00:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-k0274+iWbTHgHtxJ/5JrutvfL5A\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693db7bf1c508c5d5ec52601",
+        "email": "Abagail41@hotmail.com",
+        "name": "Ahmad Hettinger",
+        "country": "Germany",
+        "city": "Port Ramonton",
+        "street": "Flatley Club",
+        "house": 26,
+        "flat": 178,
+        "phone": "+19619157300",
+        "createdOn": "2025-12-13T19:00:15.000Z",
+        "notes": "rM4XBN7iCE1zfMyfvcabWzAN8FuE6hZJVt8rqGc257VRiMWRBRzYCWpiXwku9cdkUv4SWxCsMkhDD1HckBtvoqiqDQKVy4dr5AIKG99gbVCLr5vQE2ZWkT85MubCoMBsJYxRtvs60f4rSfGiKghnNrwb2nM6UtxrpdiqeYYDW0njh9ZBIIV8zFA53CXFVYWqxHPrjmiifsEkBlk93dDHKMXxrdWJwhLWocEd9CkpEwq4WIaEfVyUEnYzRH"
+      },
+      "products": [
+        {
+          "_id": "693db7c01c508c5d5ec52669",
+          "name": "Hat48120",
+          "amount": 970,
+          "price": 71435,
+          "manufacturer": "Samsung",
+          "notes": "0to64Acb7ZtC5xJOrwBbIHot0cES1ql9EQIUMfbs7ou2I2Jz7o65LIz1TkCc86DwAcCT34fl2ZhL1ShSy1qaOnhi9TwFBeFAAi13QxwAWq7k9HsSl4QHjayy1CizZuh4KCfyfjgva0pVl3OTsuznQaLs7rJQ59gNFukSNlH6FNP0rJVsiVX8iQK68gDfQYjABII6D78ow1bMN5NJxwgx6E3kqXlIwG0Cx0A9XY9I7qg106QA1NOjs2IcFb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 71435,
+      "createdOn": "2025-12-13T19:00:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693db7bf1c508c5d5ec52601",
+          "products": [
+            {
+              "_id": "693db7c01c508c5d5ec52669",
+              "name": "Hat48120",
+              "amount": 970,
+              "price": 71435,
+              "manufacturer": "Samsung",
+              "notes": "0to64Acb7ZtC5xJOrwBbIHot0cES1ql9EQIUMfbs7ou2I2Jz7o65LIz1TkCc86DwAcCT34fl2ZhL1ShSy1qaOnhi9TwFBeFAAi13QxwAWq7k9HsSl4QHjayy1CizZuh4KCfyfjgva0pVl3OTsuznQaLs7rJQ59gNFukSNlH6FNP0rJVsiVX8iQK68gDfQYjABII6D78ow1bMN5NJxwgx6E3kqXlIwG0Cx0A9XY9I7qg106QA1NOjs2IcFb",
+              "received": false
+            }
+          ],
+          "total_price": 71435,
+          "delivery": null,
+          "changedOn": "2025-12-13T19:00:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693db7c01c508c5d5ec526af"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

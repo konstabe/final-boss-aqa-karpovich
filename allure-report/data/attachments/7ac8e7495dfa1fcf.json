@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:00:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-nD/8aPkq0QcHDKZNYCFmEmGTjr4\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693db7b61c508c5d5ec52310",
+        "email": "Myra_Murphy28@yahoo.com",
+        "name": "Maurine Pfeffer",
+        "country": "Ukraine",
+        "city": "Muncie",
+        "street": "Cheyenne Parkways",
+        "house": 5,
+        "flat": 28,
+        "phone": "+19144757334",
+        "createdOn": "2025-12-13T19:00:06.000Z",
+        "notes": "EdN65ZMUN97rbGqRGTkiZDWZSPh2sl8dIohNnqBBIA4PYM4aPvzEttvqDwaYbg3PTbtd0Bv0oWc4vmhLaY91KPkpjcyvXVRlC66RWZvjg7uXR6cSDm4g3oDsHf3w0PRBeR16gg4dUju0ROmtEHspKp5eSwWLj8zWeP8YejSvnYP3I2Pi0lhk7cFuLecSCX30rf5IEWMsRbaY27cqzB6Rmb3qbCuNOENm5dv3COoE56Uhnum8EhFuOFWy99"
+      },
+      "products": [
+        {
+          "_id": "693db7b71c508c5d5ec52353",
+          "name": "Hat44062",
+          "amount": 772,
+          "price": 33670,
+          "manufacturer": "Microsoft",
+          "notes": "FPSDSGWkbuEQlr75jZTWmMMB06ACVprtYLfauX5drE2kfBGJj0J4zrNyAfVhg1wFtXQM6DKegbG0mtVL8jrb7EyJ1decsjBokOmBJIMXrmw2NoyeeaQjaAaYd5kNpYp8YJyUWwykkvA79UNXIyq0ibtTPwJ0ZdhOyUdVHr8HVl3Ja6qkqFoPZB3D2uCSHCKHLNj5WZ7Fkn7nCLuEqaOkmVrBXRLQjQkkbMEdSUgLpJs7uwf1LTcuygKNVb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 33670,
+      "createdOn": "2025-12-13T19:00:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693db7b61c508c5d5ec52310",
+          "products": [
+            {
+              "_id": "693db7b71c508c5d5ec52353",
+              "name": "Hat44062",
+              "amount": 772,
+              "price": 33670,
+              "manufacturer": "Microsoft",
+              "notes": "FPSDSGWkbuEQlr75jZTWmMMB06ACVprtYLfauX5drE2kfBGJj0J4zrNyAfVhg1wFtXQM6DKegbG0mtVL8jrb7EyJ1decsjBokOmBJIMXrmw2NoyeeaQjaAaYd5kNpYp8YJyUWwykkvA79UNXIyq0ibtTPwJ0ZdhOyUdVHr8HVl3Ja6qkqFoPZB3D2uCSHCKHLNj5WZ7Fkn7nCLuEqaOkmVrBXRLQjQkkbMEdSUgLpJs7uwf1LTcuygKNVb",
+              "received": false
+            }
+          ],
+          "total_price": 33670,
+          "delivery": null,
+          "changedOn": "2025-12-13T19:00:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693db7b81c508c5d5ec5236c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
