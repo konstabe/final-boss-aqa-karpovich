@@ -16,4 +16,6 @@ export const ERROR_MESSAGES = {
 	CUSTOMER_NOT_FOUND: (id: string) => `Customer with id '${id}' wasn't found`,
 	ORDER_NOT_FOUND: (id: string) => `Not found customer with ID: ${id}`,
 	INVALID_ORDER_STATUS: "Invalid order status",
+	CANT_PROCESS_ORDER_WITHOUT_DELIVERY: "Can't process order. Please, schedule delivery",
+	CANT_REOPEN_NOT_CANCELLED: "Can't reopen not canceled order",
 };
