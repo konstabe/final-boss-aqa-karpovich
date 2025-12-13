@@ -218,7 +218,7 @@ export class OrdersApiService {
 		}
 	}
 
-	async getAllIdsForDeletion(
+	async collectIdsForDeletion(
 		order: IOrderFromResponse,
 		ordersArray: string[],
 		customersArray: string[],
