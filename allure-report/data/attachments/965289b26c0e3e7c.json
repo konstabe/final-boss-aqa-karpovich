@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 08:05:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3421",
+    "etag": "W/\"d5d-tvqEh6sA9g+8MxlN9nPYRLCuUg4\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d1e471c508c5d5ebe0698",
+        "email": "Damion_Jacobs@yahoo.com",
+        "name": "Janet Hettinger",
+        "country": "Great Britain",
+        "city": "North Keiraton",
+        "street": "Rolfson Ridge",
+        "house": 26,
+        "flat": 27,
+        "phone": "+17704998357",
+        "createdOn": "2025-12-13T08:05:27.000Z",
+        "notes": "Wwu9xa3nIlN3kForoHdbwppsbxpLOBjdnUpQaV9hqpdYq8lzLjAIdKMDXUfidqd73ndbaKKGaj87CsOqmo8njSO6u1DqM45NMVELufFUGpUr7U43uVE4k9nAlU75I9ZtKPhqZ4HskpfHw76Gwdr4L4KhPtPVjDUg3wADmzfyEcz9aptxI0xzSLHqLnI7EL1oww2u9a6hTXa4AwhtRhuPdBsSThNsJvle5Ros4V193dWciiYF0ldgMvCzw6"
+      },
+      "products": [
+        {
+          "_id": "693d1e481c508c5d5ebe06e7",
+          "name": "Ball34146",
+          "amount": 46,
+          "price": 25634,
+          "manufacturer": "Tesla",
+          "notes": "oYtYfdLZDaMZqU2RYJkJtaSw3zRdgCMKmYCmQQpe3tgcxhGULyNSig6PCaWAG5OhytKpotE8F8a6N3sPykx4FhRWvoccyxitV1czq9hMid5Tlz3Lo0DKmvxx0WLyLDgWhSgH8atC58iVpX6f7OxVntKU2DsQwMNRwlhJcE4gYVY46u6sNcgIpFUWyEoT98GeGvm9oamedCDrUVYJgoyE7tJRdcEqA1bFS3Gnq7fm0hDeoNkCb36Qt5hk2Z",
+          "received": false
+        },
+        {
+          "_id": "693d1e4a1c508c5d5ebe076a",
+          "name": "Hat64796",
+          "amount": 463,
+          "price": 16884,
+          "manufacturer": "Sony",
+          "notes": "Cz9eQKGwGN05UOj6cCLPhTdiDSNvSfUR9iBXZP730M8FRM1llphNkiuG1lijUl0xvljIkRSBFMYXzCcs45Cvs249lcugGQ1cW5C0YVsawiBtsKnTbdu09W8ya3imyBRmzgchET2ZoZfuvd3zh7gP3qFSUgvXiZV7HR8f4PxPXBdHTJafNYc7pxvuNq0suSX4HVfLaMGuSZYuloHJm35pJD7Gw6zQ3upNy3xHolXtZKSYCU478MQT9PTDNY",
+          "received": false
+        },
+        {
+          "_id": "693d1e4c1c508c5d5ebe0821",
+          "name": "Chicken32079",
+          "amount": 152,
+          "price": 48215,
+          "manufacturer": "Amazon",
+          "notes": "dRk8vSijxMi6ZUq97Vle00I7NdfK67zWv3v8raHXEDyiJfCqPZKdIpxoOc8QJhWDPFSRyVM29rQECIiX4TRsrVkhmV4HVXAIVL9emY3k6pOiMTMD5DGFDwOOKtqeTuap6TdeACm3AN4Sw4QAMowfXwjvyWiIMe2cenxvfPLWuZq9WaZyg6c4wPo2qvHaW3g0OlFMoiuAZdj0V6iiIDv0twb4OMdd2mgep44kyrCSA5euTgmagSImzIrA33",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 90733,
+      "createdOn": "2025-12-13T08:05:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d1e471c508c5d5ebe0698",
+          "products": [
+            {
+              "_id": "693d1e481c508c5d5ebe06e7",
+              "name": "Ball34146",
+              "amount": 46,
+              "price": 25634,
+              "manufacturer": "Tesla",
+              "notes": "oYtYfdLZDaMZqU2RYJkJtaSw3zRdgCMKmYCmQQpe3tgcxhGULyNSig6PCaWAG5OhytKpotE8F8a6N3sPykx4FhRWvoccyxitV1czq9hMid5Tlz3Lo0DKmvxx0WLyLDgWhSgH8atC58iVpX6f7OxVntKU2DsQwMNRwlhJcE4gYVY46u6sNcgIpFUWyEoT98GeGvm9oamedCDrUVYJgoyE7tJRdcEqA1bFS3Gnq7fm0hDeoNkCb36Qt5hk2Z",
+              "received": false
+            },
+            {
+              "_id": "693d1e4a1c508c5d5ebe076a",
+              "name": "Hat64796",
+              "amount": 463,
+              "price": 16884,
+              "manufacturer": "Sony",
+              "notes": "Cz9eQKGwGN05UOj6cCLPhTdiDSNvSfUR9iBXZP730M8FRM1llphNkiuG1lijUl0xvljIkRSBFMYXzCcs45Cvs249lcugGQ1cW5C0YVsawiBtsKnTbdu09W8ya3imyBRmzgchET2ZoZfuvd3zh7gP3qFSUgvXiZV7HR8f4PxPXBdHTJafNYc7pxvuNq0suSX4HVfLaMGuSZYuloHJm35pJD7Gw6zQ3upNy3xHolXtZKSYCU478MQT9PTDNY",
+              "received": false
+            },
+            {
+              "_id": "693d1e4c1c508c5d5ebe0821",
+              "name": "Chicken32079",
+              "amount": 152,
+              "price": 48215,
+              "manufacturer": "Amazon",
+              "notes": "dRk8vSijxMi6ZUq97Vle00I7NdfK67zWv3v8raHXEDyiJfCqPZKdIpxoOc8QJhWDPFSRyVM29rQECIiX4TRsrVkhmV4HVXAIVL9emY3k6pOiMTMD5DGFDwOOKtqeTuap6TdeACm3AN4Sw4QAMowfXwjvyWiIMe2cenxvfPLWuZq9WaZyg6c4wPo2qvHaW3g0OlFMoiuAZdj0V6iiIDv0twb4OMdd2mgep44kyrCSA5euTgmagSImzIrA33",
+              "received": false
+            }
+          ],
+          "total_price": 90733,
+          "delivery": null,
+          "changedOn": "2025-12-13T08:05:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d1e4c1c508c5d5ebe0851"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
