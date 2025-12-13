@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 10:49:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3411",
+    "etag": "W/\"d53-XcVa7iKgE2BeJwIGtTJntdERMAY\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d44c41c508c5d5ebf0a05",
+        "email": "Theo61@yahoo.com",
+        "name": "Rae Streich",
+        "country": "Ukraine",
+        "city": "Davonport",
+        "street": "Kyra Club",
+        "house": 37,
+        "flat": 83,
+        "phone": "+13625063387",
+        "createdOn": "2025-12-13T10:49:40.000Z",
+        "notes": "1TRSyYd3oxlFS6x0YpIPkvV5LaFQSUMoR1YdDJH2kRJyVbRGK9WkFDlpOBny770uFfUO2NE1cX1aZECVhJWj9sqoHI6NHnbdEoBrUSqu6eKbttkO0yCEW5Wo4jtFVSTWzccMNWNuM17oLvJiwiBPo7o9lRNYVvIDU3cw195VJ16kxSbod8p7y4wu2W3yf6obnlUKktZ9YXhtHnbRxWDBcf5c84VFikgOWiS2qmlfp5yeBnlkohUls68pOv"
+      },
+      "products": [
+        {
+          "_id": "693d44c61c508c5d5ebf0b2a",
+          "name": "Chair11521",
+          "amount": 160,
+          "price": 67515,
+          "manufacturer": "Tesla",
+          "notes": "AvIyro5FupYr1CfNhQJawtZacszFgOGp9sOky6hTvl7AxVZq2IuKoieH9wtSKDsK9s27hobdHL79boiS0noT4xqBN7N3G8MOEKkZBpYGezXoLgSKRfATrabGWzltespjy8DXvysYNuzuoYgZcPmIeM3JNOJKDjVkv2yeTvx51dW8tO7yGQ0M6QRXU0K7wIfXsZTxtFn2etH7G5luiYTUqBUXah5iRTg4uKaQFWKVPbLjpxwIECs1uc0Se3",
+          "received": false
+        },
+        {
+          "_id": "693d44c91c508c5d5ebf0ca1",
+          "name": "Sausages56081",
+          "amount": 632,
+          "price": 79129,
+          "manufacturer": "Google",
+          "notes": "954kXAkfxSUNF4V4OAvhT8JBoCHlin4COk1yUowiKLNNozxRIhPYdyaRZgqvu6ICLmAfjp89mzMKRhufdxn4WpVYRGJN7LZnHmb80Fh5tQh8n0FkjhpX6QWdZRkBR3ChPGA896LXISk18uJUMzV7mZpttkFkVt5nCTMDwb28qECBarHRk9wr28ux6NAqa7RTzXhR7AtBH8QCZAWMDNybvdHeQAz0oOkDrfWE0M7q9V2Kiq6WsRGnH6xPi8",
+          "received": false
+        },
+        {
+          "_id": "693d44cf1c508c5d5ebf0de7",
+          "name": "Mouse44766",
+          "amount": 321,
+          "price": 22184,
+          "manufacturer": "Xiaomi",
+          "notes": "2prRB85tjKufqD8uHPAKb930TaLv6ayueZm17Uq3U78mObPm0oYgeoOrXTMGXssrKezVD1xPD9YOIyMPuvCrChp5wHaSEY3MnKyp9KTDEp709BZvJg1G6OPu2ENkfs9VVHYGiAC2P7FsEEGBiyQkCY6a1ukY9uXRPWl4UBBjk8Cco2vEShZl2QlaMOx3to7rjn5O8jz7NivRJZ8WRxAAuoFDOfzhCqU5q3meO9C5ykySg5EOL5hQch7GUC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 168828,
+      "createdOn": "2025-12-13T10:49:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d44c41c508c5d5ebf0a05",
+          "products": [
+            {
+              "_id": "693d44c61c508c5d5ebf0b2a",
+              "name": "Chair11521",
+              "amount": 160,
+              "price": 67515,
+              "manufacturer": "Tesla",
+              "notes": "AvIyro5FupYr1CfNhQJawtZacszFgOGp9sOky6hTvl7AxVZq2IuKoieH9wtSKDsK9s27hobdHL79boiS0noT4xqBN7N3G8MOEKkZBpYGezXoLgSKRfATrabGWzltespjy8DXvysYNuzuoYgZcPmIeM3JNOJKDjVkv2yeTvx51dW8tO7yGQ0M6QRXU0K7wIfXsZTxtFn2etH7G5luiYTUqBUXah5iRTg4uKaQFWKVPbLjpxwIECs1uc0Se3",
+              "received": false
+            },
+            {
+              "_id": "693d44c91c508c5d5ebf0ca1",
+              "name": "Sausages56081",
+              "amount": 632,
+              "price": 79129,
+              "manufacturer": "Google",
+              "notes": "954kXAkfxSUNF4V4OAvhT8JBoCHlin4COk1yUowiKLNNozxRIhPYdyaRZgqvu6ICLmAfjp89mzMKRhufdxn4WpVYRGJN7LZnHmb80Fh5tQh8n0FkjhpX6QWdZRkBR3ChPGA896LXISk18uJUMzV7mZpttkFkVt5nCTMDwb28qECBarHRk9wr28ux6NAqa7RTzXhR7AtBH8QCZAWMDNybvdHeQAz0oOkDrfWE0M7q9V2Kiq6WsRGnH6xPi8",
+              "received": false
+            },
+            {
+              "_id": "693d44cf1c508c5d5ebf0de7",
+              "name": "Mouse44766",
+              "amount": 321,
+              "price": 22184,
+              "manufacturer": "Xiaomi",
+              "notes": "2prRB85tjKufqD8uHPAKb930TaLv6ayueZm17Uq3U78mObPm0oYgeoOrXTMGXssrKezVD1xPD9YOIyMPuvCrChp5wHaSEY3MnKyp9KTDEp709BZvJg1G6OPu2ENkfs9VVHYGiAC2P7FsEEGBiyQkCY6a1ukY9uXRPWl4UBBjk8Cco2vEShZl2QlaMOx3to7rjn5O8jz7NivRJZ8WRxAAuoFDOfzhCqU5q3meO9C5ykySg5EOL5hQch7GUC",
+              "received": false
+            }
+          ],
+          "total_price": 168828,
+          "delivery": null,
+          "changedOn": "2025-12-13T10:49:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d44cf1c508c5d5ebf0e0a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 10:49:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3417",
+    "etag": "W/\"d59-Vk64eMWDu+NYgDhj1GKE6ifc0X4\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d44981c508c5d5ebefbce",
+        "email": "Lexie.Howell@gmail.com",
+        "name": "Delphia McLaughlin",
+        "country": "Canada",
+        "city": "Eulahside",
+        "street": "Jerome Dale",
+        "house": 9,
+        "flat": 498,
+        "phone": "+17522812862",
+        "createdOn": "2025-12-13T10:48:56.000Z",
+        "notes": "Qgyry2gW6QmjSlb39kf4AOQEAPTSj1a30eOCYpnpUXL2OJM5LV7JktIoEbSu0T4htO1J5sCxwV1qVEHOI6FzmPqgPih0jzebXXg4F09Td3hNk6gJEe8S3k2EQgkw5xocBl9KhFTxk9l0QYdvVLYUhti3fKFj5XyKRsPnNdiGVycEqoZBzOEPCHrw2OyjtCEwOdPfJKrnMpuvkZwxA07aDh6DDklI99knXvDXIlUhK0x2WZh6nEBOJ3XQA4"
+      },
+      "products": [
+        {
+          "_id": "693d449d1c508c5d5ebefcf5",
+          "name": "Fish96686",
+          "amount": 640,
+          "price": 12439,
+          "manufacturer": "Amazon",
+          "notes": "KMgWJNcLPKks6FPKwXme8Nj8voeqG67muKdQDMHarV4ZvEu94mNwGIKVsWvJRzE1XzgKHe4ukb8x13cGTX0GfucmcRVVdCImNAKlw9FQXWHdHGYKAmbXAFsCDv7ywuaRtbO5sWAcL71rwGvK15Si4yLNlSy7r3pVTT9qFMfRJlapjVwlT4iZE691GANWPda1gbGMEXKksLKeChgz0H9LcSMFsgI0piFaDGZo8VWVaGrgKY3wYuZ3j8fSKV",
+          "received": false
+        },
+        {
+          "_id": "693d449f1c508c5d5ebefd68",
+          "name": "Ball15113",
+          "amount": 371,
+          "price": 77757,
+          "manufacturer": "Sony",
+          "notes": "UaCCq4MXfWNkpLiretbHz44eYJMXtlGCgBkeV9XFrzB8soUHriMMV1A0tJGyxRrcH7hMG5HDhbwRhKOQRYUrLTYK5fxlCipAsN8IIvVAJ9vJ14VyJ2bU8VxucUN1UghQQg4Ta4lDziknUDKDNmEgS5aUpAwtc4LVdmPH0Wk2HoN2Zok03M8LFreCGQuIIVWnbYjO59sVoqw27GjcqcuTK85wPxQwU8vWKSOsXeX4g7ZpfxU7PhIeodQWkm",
+          "received": false
+        },
+        {
+          "_id": "693d44a21c508c5d5ebefe2e",
+          "name": "Towels52561",
+          "amount": 878,
+          "price": 20250,
+          "manufacturer": "Samsung",
+          "notes": "5vCJlnkCkTMgBZsRhOZZDrqlx5sMY3qDDOMmEiTeZPlpEzGLAGT2RLOO30gxpRNN4Qs0HgXF1jzkFSe287Fopu0TomhB42CRCYw0dq1aa4WEUMUvBnSChqFdelBeUvjsx3j2m2CZ65UPNDdfdJmhzN5a03AsoePAjJy12flaVHk0ztPMNcnlZ4BynCfkvAfpnGCAJ8zZkAeQqHGz35hcG19MlvWTLF8cJ80CoYWPFIsir7qcO6YHnzV2Uy",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 110446,
+      "createdOn": "2025-12-13T10:49:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d44981c508c5d5ebefbce",
+          "products": [
+            {
+              "_id": "693d449d1c508c5d5ebefcf5",
+              "name": "Fish96686",
+              "amount": 640,
+              "price": 12439,
+              "manufacturer": "Amazon",
+              "notes": "KMgWJNcLPKks6FPKwXme8Nj8voeqG67muKdQDMHarV4ZvEu94mNwGIKVsWvJRzE1XzgKHe4ukb8x13cGTX0GfucmcRVVdCImNAKlw9FQXWHdHGYKAmbXAFsCDv7ywuaRtbO5sWAcL71rwGvK15Si4yLNlSy7r3pVTT9qFMfRJlapjVwlT4iZE691GANWPda1gbGMEXKksLKeChgz0H9LcSMFsgI0piFaDGZo8VWVaGrgKY3wYuZ3j8fSKV",
+              "received": false
+            },
+            {
+              "_id": "693d449f1c508c5d5ebefd68",
+              "name": "Ball15113",
+              "amount": 371,
+              "price": 77757,
+              "manufacturer": "Sony",
+              "notes": "UaCCq4MXfWNkpLiretbHz44eYJMXtlGCgBkeV9XFrzB8soUHriMMV1A0tJGyxRrcH7hMG5HDhbwRhKOQRYUrLTYK5fxlCipAsN8IIvVAJ9vJ14VyJ2bU8VxucUN1UghQQg4Ta4lDziknUDKDNmEgS5aUpAwtc4LVdmPH0Wk2HoN2Zok03M8LFreCGQuIIVWnbYjO59sVoqw27GjcqcuTK85wPxQwU8vWKSOsXeX4g7ZpfxU7PhIeodQWkm",
+              "received": false
+            },
+            {
+              "_id": "693d44a21c508c5d5ebefe2e",
+              "name": "Towels52561",
+              "amount": 878,
+              "price": 20250,
+              "manufacturer": "Samsung",
+              "notes": "5vCJlnkCkTMgBZsRhOZZDrqlx5sMY3qDDOMmEiTeZPlpEzGLAGT2RLOO30gxpRNN4Qs0HgXF1jzkFSe287Fopu0TomhB42CRCYw0dq1aa4WEUMUvBnSChqFdelBeUvjsx3j2m2CZ65UPNDdfdJmhzN5a03AsoePAjJy12flaVHk0ztPMNcnlZ4BynCfkvAfpnGCAJ8zZkAeQqHGz35hcG19MlvWTLF8cJ80CoYWPFIsir7qcO6YHnzV2Uy",
+              "received": false
+            }
+          ],
+          "total_price": 110446,
+          "delivery": null,
+          "changedOn": "2025-12-13T10:49:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d44a71c508c5d5ebefe98"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

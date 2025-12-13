@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 10:48:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-2nafZtFREl5tlVVQ/xQ1zRIAPr0\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d44921c508c5d5ebefa3a",
+        "email": "Dawn_Blanda@yahoo.com",
+        "name": "Ruth Dickens",
+        "country": "USA",
+        "city": "Kirlinport",
+        "street": "Eugenia Knolls",
+        "house": 14,
+        "flat": 622,
+        "phone": "+18697376490",
+        "createdOn": "2025-12-13T10:48:50.000Z",
+        "notes": "BgIQ2JcO2XWenI8G1NzD4nzUJcQHs45D0GzdIBnGykewHWZV6dIkKoWPx3t1aQJ3dKUUvOBVsj8FdLWO3Eqe5BezNjw1N8Tf3hE0Otu5ZSAGBFRhHsdwLHC0KMItS14sqgzzjUXdR1H2sEUhnb41K7VGglN4u0d84w4VGsuJslLf20eBcbM8WgjTY6pBgmsW0KjFP2eL0wuddTpNV6KLGOXpbVYB2qOS2pLyX392YItb3xWEeZcSxdLfNO"
+      },
+      "products": [
+        {
+          "_id": "693d44961c508c5d5ebefb24",
+          "name": "Chair21865",
+          "amount": 710,
+          "price": 59834,
+          "manufacturer": "Google",
+          "notes": "MbIP3vD9sEjp4p2ePJwyGSzOQRVSkt4kLYUA6pQvBIJglE25jP2aafXtwhRtAaaXK5L7SgxSuXOBbtfSyRB5g0Cq73SSW48O9VZOrq45UWJRraMcpL6yLmEvbOxggG1TTjES1qDYusuFmsyO8Ob8OgMPYNUGAFyNxjgJpD96jnGpDIusZedaH55pSH8oXeEeXWBsPJnDw3ghWuO7DQGSj5SWYPs6vHZaeYC26GqhnIO7cDbegQb9l4b3XU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 59834,
+      "createdOn": "2025-12-13T10:48:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d44921c508c5d5ebefa3a",
+          "products": [
+            {
+              "_id": "693d44961c508c5d5ebefb24",
+              "name": "Chair21865",
+              "amount": 710,
+              "price": 59834,
+              "manufacturer": "Google",
+              "notes": "MbIP3vD9sEjp4p2ePJwyGSzOQRVSkt4kLYUA6pQvBIJglE25jP2aafXtwhRtAaaXK5L7SgxSuXOBbtfSyRB5g0Cq73SSW48O9VZOrq45UWJRraMcpL6yLmEvbOxggG1TTjES1qDYusuFmsyO8Ob8OgMPYNUGAFyNxjgJpD96jnGpDIusZedaH55pSH8oXeEeXWBsPJnDw3ghWuO7DQGSj5SWYPs6vHZaeYC26GqhnIO7cDbegQb9l4b3XU",
+              "received": false
+            }
+          ],
+          "total_price": 59834,
+          "delivery": null,
+          "changedOn": "2025-12-13T10:48:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d44961c508c5d5ebefb3e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
