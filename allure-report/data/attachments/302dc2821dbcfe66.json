@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 20:41:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2654",
+    "etag": "W/\"a5e-VUUZ46bFiCkQkljymoCZv7t40Mw\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693dcf871c508c5d5ec65765",
+        "email": "Shanel_Larkin@gmail.com",
+        "name": "Camden Sipes",
+        "country": "Russia",
+        "city": "South Destanystad",
+        "street": "Camden Shores",
+        "house": 9,
+        "flat": 614,
+        "phone": "+13989911845",
+        "createdOn": "2025-12-13T20:41:43.000Z",
+        "notes": "aZEX7Bp1xKuxSQxKLHvWHuBe3XkiVGFDDdIrCRDyzc1XiYooCh9LSYUnO0IcFfhEdizGS9V2TbWQAnf0XxfVxUPJ59mXlkmIsG0u27TKbD5YqBzQh98ZrsH0iJD0SENRI71gvVoGrpnJ2YurUrvIIz22BuCxGAVUaSW97cESpUozX5QN3cSZCQWo5meH2jis4tPOet2IVOIntu7vEB5acb1q2IL8ejrJ9nGvgKYzqgdgN4fEgF1CQn0eEr"
+      },
+      "products": [
+        {
+          "_id": "693dcf8a1c508c5d5ec65803",
+          "name": "Chips17217",
+          "amount": 561,
+          "price": 56799,
+          "manufacturer": "Google",
+          "notes": "LhqV4WPK3IxbAVhVOEj9toMVOmQEZz1thGMYKj5b1uswh82YKZwYcQrUTg2jBSHQ6NWrwPUDHwBuX7v3rTwJbWGuRwyvnzg8yBlSvOju4BITqLYSOS5MB6k2s2DBsXCb3YzKZZfG4765wJwTBxsWuxrWT3V0qFv6FgZ02A2B28xZIHEl6mg3zLCufkbS8IibS4NOfheqlLwmIE6WSwTHT8Ss1M2fAN1VuujCrbS0OJUaTh0I0oFYq3tk4H",
+          "received": false
+        },
+        {
+          "_id": "693dcf8c1c508c5d5ec6583d",
+          "name": "Fish41569",
+          "amount": 784,
+          "price": 32774,
+          "manufacturer": "Google",
+          "notes": "fPfheRfzZPRhiuZbLDpMMZON4WIU3m7PVGxUUaDxAOAIb00ucClwRF988H3Hm79UFOegLrn3vALke5gaA9mYYMRe6Uc1veXyV2w1Y39rKfEoskuVXDuxca89pR2jzu2ERU5wIa1qHIEPEfYFysnSi0xVnw3T2uemz52uQTWu4fa6uCopseQePxGHdcCMV8S5UlIYA7QlMxGJ4PjCjlV9ofPdjTd7zhS5pWy20GgKfwS7fNsunRyh6tiyir",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 89573,
+      "createdOn": "2025-12-13T20:41:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693dcf871c508c5d5ec65765",
+          "products": [
+            {
+              "_id": "693dcf8a1c508c5d5ec65803",
+              "name": "Chips17217",
+              "amount": 561,
+              "price": 56799,
+              "manufacturer": "Google",
+              "notes": "LhqV4WPK3IxbAVhVOEj9toMVOmQEZz1thGMYKj5b1uswh82YKZwYcQrUTg2jBSHQ6NWrwPUDHwBuX7v3rTwJbWGuRwyvnzg8yBlSvOju4BITqLYSOS5MB6k2s2DBsXCb3YzKZZfG4765wJwTBxsWuxrWT3V0qFv6FgZ02A2B28xZIHEl6mg3zLCufkbS8IibS4NOfheqlLwmIE6WSwTHT8Ss1M2fAN1VuujCrbS0OJUaTh0I0oFYq3tk4H",
+              "received": false
+            },
+            {
+              "_id": "693dcf8c1c508c5d5ec6583d",
+              "name": "Fish41569",
+              "amount": 784,
+              "price": 32774,
+              "manufacturer": "Google",
+              "notes": "fPfheRfzZPRhiuZbLDpMMZON4WIU3m7PVGxUUaDxAOAIb00ucClwRF988H3Hm79UFOegLrn3vALke5gaA9mYYMRe6Uc1veXyV2w1Y39rKfEoskuVXDuxca89pR2jzu2ERU5wIa1qHIEPEfYFysnSi0xVnw3T2uemz52uQTWu4fa6uCopseQePxGHdcCMV8S5UlIYA7QlMxGJ4PjCjlV9ofPdjTd7zhS5pWy20GgKfwS7fNsunRyh6tiyir",
+              "received": false
+            }
+          ],
+          "total_price": 89573,
+          "delivery": null,
+          "changedOn": "2025-12-13T20:41:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693dcf8d1c508c5d5ec6584d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,24 @@
+Data is valid according to the schema.
+Data is valid according to the schema.
+Data is valid according to the schema.
+Data is not valid according to the schema.
+[
+  {
+    keyword: 'oneOf',
+    dataPath: '.Order.history[0].delivery',
+    schemaPath: '#/properties/Order/properties/history/items/properties/delivery/oneOf',
+    params: { passingSchemas: [Array] },
+    message: 'should match exactly one schema in oneOf'
+  }
+]
+{
+  address: {
+    country: 'Canada',
+    city: 'East Kim',
+    street: 'Kiley Stravenue',
+    house: 37,
+    flat: 856
+  },
+  finalDate: '2025-12-13T20:41:39.853Z',
+  condition: 'Pickup'
+}

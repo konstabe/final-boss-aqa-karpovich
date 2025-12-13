@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 20:41:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-IUYREz8DqpgHbIAgnNYauNRY/lk\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693dcf7e1c508c5d5ec655a7",
+        "email": "Al_Deckow25@hotmail.com",
+        "name": "Stefanie Walter",
+        "country": "Belarus",
+        "city": "Sugar Land",
+        "street": "Homenick Landing",
+        "house": 5,
+        "flat": 22,
+        "phone": "+18345179439",
+        "createdOn": "2025-12-13T20:41:34.000Z",
+        "notes": "jEwfk4qAZQOygzh2kqaVWQJBhKWkzDw6ENLcOPgWVn7pmPeJnGiPo1q5Bk0Vvji4GxcAHhWyEvcicUROkLruZ4uVem7hKCGEVpbI8WYskjRrCxSCws8pj3MulY3qYedTDIvFEFiIQFqECGCL69GT0jdABFRV7mTIbgE5fCV2gyRoAhFoKa17fmGX5gK4nohQdGQNvXEttT4yE3mA07znTHizib8P2tqIwA8h8bIQ7L3tkqHkzDG8AnCjJa"
+      },
+      "products": [
+        {
+          "_id": "693dcf811c508c5d5ec65602",
+          "name": "Chips20665",
+          "amount": 350,
+          "price": 52553,
+          "manufacturer": "Xiaomi",
+          "notes": "uAMs7B04dMCvHXHKsxdGVCM2fca8q7DxKhkPNWwD68EJWkWluMWfiDe8bQHpsz7dOPkGISERisske9bvAAr8bO8sAV4xsV3Ma92PR4Uhe73g93UElug5z1qGoK4iKgLl94IyZowlv3mFwy4Z9j1K1GjtvdqPG0EvJHvRuiZT1wBx69U7ttyGXvvBB4qcus6y2gxWjkLVgxrvnDZa2nUgnhhylleiULG29t4r20yksXJr8ShZCAqHj5Rgpz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 52553,
+      "createdOn": "2025-12-13T20:41:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693dcf7e1c508c5d5ec655a7",
+          "products": [
+            {
+              "_id": "693dcf811c508c5d5ec65602",
+              "name": "Chips20665",
+              "amount": 350,
+              "price": 52553,
+              "manufacturer": "Xiaomi",
+              "notes": "uAMs7B04dMCvHXHKsxdGVCM2fca8q7DxKhkPNWwD68EJWkWluMWfiDe8bQHpsz7dOPkGISERisske9bvAAr8bO8sAV4xsV3Ma92PR4Uhe73g93UElug5z1qGoK4iKgLl94IyZowlv3mFwy4Z9j1K1GjtvdqPG0EvJHvRuiZT1wBx69U7ttyGXvvBB4qcus6y2gxWjkLVgxrvnDZa2nUgnhhylleiULG29t4r20yksXJr8ShZCAqHj5Rgpz",
+              "received": false
+            }
+          ],
+          "total_price": 52553,
+          "delivery": null,
+          "changedOn": "2025-12-13T20:41:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693dcf811c508c5d5ec6560f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

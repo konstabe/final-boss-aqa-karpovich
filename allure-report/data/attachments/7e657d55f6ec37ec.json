@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 20:41:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1412",
+    "etag": "W/\"584-MKR5Q5FvUo67ZuT+n5/tVdB+RbE\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "693dcf701c508c5d5ec653c3",
+        "status": "Draft",
+        "customer": "693dcf6d1c508c5d5ec65387",
+        "products": [
+          {
+            "_id": "693dcf6f1c508c5d5ec653bb",
+            "name": "Bacon33822",
+            "amount": 474,
+            "price": 46948,
+            "manufacturer": "Google",
+            "notes": "Mq17AjTJ3KcXaefESJ8EJqXXpmcDVRqi30APn5y2Dumvf7Kg9UyAcOvffkJSJeGOOvGURySCHr6IWfjoXRyjw42I02GbgXZ7v8gNidVV47myeUjKK9YU5ET2FYiyeBOvACM4HqcwBSICyn7UZoDNhLiDXdI2WDo0htxnL2KXP6jI8rTXxYh0IKUnOOmd3PWX1r7XZM4LGXI7LWD7VbyliSZluYTboyQlxmRBIazgMdy6c8JSpcCivpSRzi",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 46948,
+        "createdOn": "2025-12-13T20:41:20.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "693dcf6d1c508c5d5ec65387",
+            "products": [
+              {
+                "_id": "693dcf6f1c508c5d5ec653bb",
+                "name": "Bacon33822",
+                "amount": 474,
+                "price": 46948,
+                "manufacturer": "Google",
+                "notes": "Mq17AjTJ3KcXaefESJ8EJqXXpmcDVRqi30APn5y2Dumvf7Kg9UyAcOvffkJSJeGOOvGURySCHr6IWfjoXRyjw42I02GbgXZ7v8gNidVV47myeUjKK9YU5ET2FYiyeBOvACM4HqcwBSICyn7UZoDNhLiDXdI2WDo0htxnL2KXP6jI8rTXxYh0IKUnOOmd3PWX1r7XZM4LGXI7LWD7VbyliSZluYTboyQlxmRBIazgMdy6c8JSpcCivpSRzi",
+                "received": false
+              }
+            ],
+            "total_price": 46948,
+            "delivery": null,
+            "changedOn": "2025-12-13T20:41:20.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953315",
+              "username": "student2@gmail.com",
+              "firstName": "Wilfrid",
+              "lastName": "Daugherty",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

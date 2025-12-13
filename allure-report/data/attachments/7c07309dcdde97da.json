@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 20:42:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3422",
+    "etag": "W/\"d5e-/OvTVPyYmy/hadY+dRcOvmQKBYw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693dcf971c508c5d5ec6593d",
+        "email": "Ethan.McLaughlin39@yahoo.com",
+        "name": "Jaycee Champlin",
+        "country": "France",
+        "city": "South Enoch",
+        "street": "W Main Street",
+        "house": 6,
+        "flat": 926,
+        "phone": "+12122898694",
+        "createdOn": "2025-12-13T20:41:59.000Z",
+        "notes": "5h1zunxSUEYdu4i3RSGjXbXZeoQlfo1N9iNeeYXFnwGCKq7PsV1jW3GX1I390RQghGw7WTYdC3ZFOxocmTURq0fq5ErTVuwG7tEHwrGdNk0nOCGr45WvP1ZiVeWoTLlwYcv0gXxyjcPL6bouHaVhp5r5DTwPn5edGvAA7N18QHNol4WaxfC7J8FlxTqBZzsw6jgRtk0ledNKTLNMtdGN5vggZ396PMzZd4ZvU8xgzFHPYIy5BuO9pC9iv0"
+      },
+      "products": [
+        {
+          "_id": "693dcf9a1c508c5d5ec659ae",
+          "name": "Table37533",
+          "amount": 512,
+          "price": 23699,
+          "manufacturer": "Apple",
+          "notes": "53ZyZdNacTXHCWQ0K15m6OgjxqYHiq0h1gvJeXtW0u7iA6nzsdeKY7CiEFtiYkcg9yjodiKevvA7Q36FXo0x4RyYfQT4NHRYb2KkJakob4c98Pd13rdV59qo7GbWsmVGY704xGDz6G7TamjVz247oRa2iOBzanmYQ1dz4osL2emIOShKLl25jgyEhTYqfKlRDRbYa41oYDQFlb1iCqhhlpRfCj4RatKNhV8ruf6BSI3BFzuJOm35lxkEkT",
+          "received": false
+        },
+        {
+          "_id": "693dcf9c1c508c5d5ec65a73",
+          "name": "Bacon42423",
+          "amount": 623,
+          "price": 38971,
+          "manufacturer": "Sony",
+          "notes": "RMh0jvKM3pJhEukTD4nrdHIIvG1mf0DmN2b4JSt3uAYqO9l66SlcPE4DfiZrxznmYhVStV9BDDkrXRXPNDb8MdZ4X1B2ldeNkH5H1EbT81tGqhxWhBa9NU24u4fScqQdeSFXqKLji5XmCBVeRPqLPEIjBeki2tH1Q5h9fRsiK7JX8AWXQXkuaoMTINi2Up0JxrIGSbZwBrxdSHbOLKAsVzhPzCp81nN9elJyzzslrxuUfzpNYkxSHUcGCW",
+          "received": false
+        },
+        {
+          "_id": "693dcf9f1c508c5d5ec65b41",
+          "name": "Mouse18073",
+          "amount": 261,
+          "price": 69589,
+          "manufacturer": "Amazon",
+          "notes": "RuquzrErf9beyLDApAUL6fJZMSBnib7Bu4iLA3JaSKBXmEBTTPaaxhtKjUlLZfzgUwTkrQdJBFjIX0zL7B2KvzONxjBxZhhI2nxP5O8aSyyr2dOjeKiRpKYU787IJanx9Oko96XAV1SAWJ2WONZ2XA39p8i5jWvdi6AvfmLOC1HKBE2znzgIW2s2EoJzBRKgoIk3y6P8X3k6rmQOE095Qhm6DzcKO4kOVrpGKZ7a7odUJumXrzsmYGg0bY",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 132259,
+      "createdOn": "2025-12-13T20:42:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693dcf971c508c5d5ec6593d",
+          "products": [
+            {
+              "_id": "693dcf9a1c508c5d5ec659ae",
+              "name": "Table37533",
+              "amount": 512,
+              "price": 23699,
+              "manufacturer": "Apple",
+              "notes": "53ZyZdNacTXHCWQ0K15m6OgjxqYHiq0h1gvJeXtW0u7iA6nzsdeKY7CiEFtiYkcg9yjodiKevvA7Q36FXo0x4RyYfQT4NHRYb2KkJakob4c98Pd13rdV59qo7GbWsmVGY704xGDz6G7TamjVz247oRa2iOBzanmYQ1dz4osL2emIOShKLl25jgyEhTYqfKlRDRbYa41oYDQFlb1iCqhhlpRfCj4RatKNhV8ruf6BSI3BFzuJOm35lxkEkT",
+              "received": false
+            },
+            {
+              "_id": "693dcf9c1c508c5d5ec65a73",
+              "name": "Bacon42423",
+              "amount": 623,
+              "price": 38971,
+              "manufacturer": "Sony",
+              "notes": "RMh0jvKM3pJhEukTD4nrdHIIvG1mf0DmN2b4JSt3uAYqO9l66SlcPE4DfiZrxznmYhVStV9BDDkrXRXPNDb8MdZ4X1B2ldeNkH5H1EbT81tGqhxWhBa9NU24u4fScqQdeSFXqKLji5XmCBVeRPqLPEIjBeki2tH1Q5h9fRsiK7JX8AWXQXkuaoMTINi2Up0JxrIGSbZwBrxdSHbOLKAsVzhPzCp81nN9elJyzzslrxuUfzpNYkxSHUcGCW",
+              "received": false
+            },
+            {
+              "_id": "693dcf9f1c508c5d5ec65b41",
+              "name": "Mouse18073",
+              "amount": 261,
+              "price": 69589,
+              "manufacturer": "Amazon",
+              "notes": "RuquzrErf9beyLDApAUL6fJZMSBnib7Bu4iLA3JaSKBXmEBTTPaaxhtKjUlLZfzgUwTkrQdJBFjIX0zL7B2KvzONxjBxZhhI2nxP5O8aSyyr2dOjeKiRpKYU787IJanx9Oko96XAV1SAWJ2WONZ2XA39p8i5jWvdi6AvfmLOC1HKBE2znzgIW2s2EoJzBRKgoIk3y6P8X3k6rmQOE095Qhm6DzcKO4kOVrpGKZ7a7odUJumXrzsmYGg0bY",
+              "received": false
+            }
+          ],
+          "total_price": 132259,
+          "delivery": null,
+          "changedOn": "2025-12-13T20:42:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693dcf9f1c508c5d5ec65b5b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

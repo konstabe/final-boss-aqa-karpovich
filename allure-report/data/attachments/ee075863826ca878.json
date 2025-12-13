@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 20:41:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-6ymhavjcvJbzZXPNQzjmon9mtyo\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693dcf7e1c508c5d5ec65582",
+        "email": "Leon.Rath82@yahoo.com",
+        "name": "Jamir Leannon",
+        "country": "Great Britain",
+        "city": "Jacobsonburgh",
+        "street": "Leann Fort",
+        "house": 29,
+        "flat": 531,
+        "phone": "+16784559394",
+        "createdOn": "2025-12-13T20:41:34.000Z",
+        "notes": "vYhfUJg69QYBUeb9qP97pTVSqjxxwlSTZ7F0bfv7PyHMYsNHb5P1zqWChXw17PVRJDWdK5dSAA9HRPkQD9QOAUCZQfoEy40F20Iwmk50Lty2b3nxGvo5YAI4I67i7odTxIqXBAxARKlJirgXkOUTSheWSP1FkjNMr5qBou845osbEFdTXLpIafnL6gBNiEPL6fMPG8l1LQEFAMYRoBKWylODlB59fS6teFQPciPRQ1XsnqgWWaTnR1VOun"
+      },
+      "products": [
+        {
+          "_id": "693dcf801c508c5d5ec655e5",
+          "name": "Ball37548",
+          "amount": 372,
+          "price": 93710,
+          "manufacturer": "Apple",
+          "notes": "ZUL4Fzz6ihQ1EvqG4DWNDSAyLbfyyNNuR2QkXKyrFNEsA2WMUVl9lJCBcXmqGEefiJGWFFPJHHqi96saLnQ0R6SVoKx59jHI9v8oNIoWCtvvhc7giDC7E79LILbKM0xuB5aFHzHE6zxwFP09GCh5RI8xSVeCYWeUUSBsBTvRjqbcGQuWytuwhg1l2lgFKeb5BnjaNlbKlpOGHNMX1Tt2C6mCz0xNRl2AER38Q6qHyZHytAER2GYAr4uC7I",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 93710,
+      "createdOn": "2025-12-13T20:41:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693dcf7e1c508c5d5ec65582",
+          "products": [
+            {
+              "_id": "693dcf801c508c5d5ec655e5",
+              "name": "Ball37548",
+              "amount": 372,
+              "price": 93710,
+              "manufacturer": "Apple",
+              "notes": "ZUL4Fzz6ihQ1EvqG4DWNDSAyLbfyyNNuR2QkXKyrFNEsA2WMUVl9lJCBcXmqGEefiJGWFFPJHHqi96saLnQ0R6SVoKx59jHI9v8oNIoWCtvvhc7giDC7E79LILbKM0xuB5aFHzHE6zxwFP09GCh5RI8xSVeCYWeUUSBsBTvRjqbcGQuWytuwhg1l2lgFKeb5BnjaNlbKlpOGHNMX1Tt2C6mCz0xNRl2AER38Q6qHyZHytAER2GYAr4uC7I",
+              "received": false
+            }
+          ],
+          "total_price": 93710,
+          "delivery": null,
+          "changedOn": "2025-12-13T20:41:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693dcf801c508c5d5ec655ed"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

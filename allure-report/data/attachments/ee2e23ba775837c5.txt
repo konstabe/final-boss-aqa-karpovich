@@ -1,0 +1,52 @@
+Data is valid according to the schema.
+Data is valid according to the schema.
+Data is valid according to the schema.
+Data is valid according to the schema.
+Data is valid according to the schema.
+Data is valid according to the schema.
+Data is valid according to the schema.
+Data is not valid according to the schema.
+[
+  {
+    keyword: 'oneOf',
+    dataPath: '.Order.delivery',
+    schemaPath: '#/properties/Order/properties/delivery/oneOf',
+    params: { passingSchemas: [Array] },
+    message: 'should match exactly one schema in oneOf'
+  },
+  {
+    keyword: 'oneOf',
+    dataPath: '.Order.history[0].delivery',
+    schemaPath: '#/properties/Order/properties/history/items/properties/delivery/oneOf',
+    params: { passingSchemas: [Array] },
+    message: 'should match exactly one schema in oneOf'
+  }
+]
+Data is not valid according to the schema.
+[
+  {
+    keyword: 'oneOf',
+    dataPath: '.Order.delivery',
+    schemaPath: '#/properties/Order/properties/delivery/oneOf',
+    params: { passingSchemas: [Array] },
+    message: 'should match exactly one schema in oneOf'
+  },
+  {
+    keyword: 'oneOf',
+    dataPath: '.Order.history[0].delivery',
+    schemaPath: '#/properties/Order/properties/history/items/properties/delivery/oneOf',
+    params: { passingSchemas: [Array] },
+    message: 'should match exactly one schema in oneOf'
+  },
+  {
+    keyword: 'oneOf',
+    dataPath: '.Order.history[1].delivery',
+    schemaPath: '#/properties/Order/properties/history/items/properties/delivery/oneOf',
+    params: { passingSchemas: [Array] },
+    message: 'should match exactly one schema in oneOf'
+  }
+]
+Data is valid according to the schema.
+Data is valid according to the schema.
+Data is valid according to the schema.
+Data is valid according to the schema.

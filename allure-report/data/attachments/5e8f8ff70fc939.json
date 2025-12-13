@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 20:41:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2963",
+    "etag": "W/\"b93-zoIb2E8QHbApzTuy9g6EpKkHBSA\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693dcf831c508c5d5ec656b6",
+      "status": "Draft",
+      "customer": {
+        "_id": "693dcf801c508c5d5ec655f2",
+        "email": "Leopoldo51@gmail.com",
+        "name": "Elinore Morissette",
+        "country": "Ukraine",
+        "city": "West Emily",
+        "street": "Jaden Court",
+        "house": 48,
+        "flat": 427,
+        "phone": "+12405574888",
+        "createdOn": "2025-12-13T20:41:36.000Z",
+        "notes": "rDUafB8fgiKe0sHeoT76IQMCMMhCjeDJdruHgKnHTlgSWAjWVnOcOIKXESVr7xr5fVYjayT33mB6GJxsJ5SVQzEftRNSFirhdcTlLlcZT1tYFNSTOOEl84ewjGWgnMuBATz8IDbI0whUcnqYHPn0uRsQvdAwzVDqmdeFyRyeJxahins5MVzh701VlHCGCzSuYRHAsK4HpzLgUkZkvHT86qtmEIW36y7LvUWIKoMtMyp4MBUdckuYbZ6Mk7"
+      },
+      "products": [
+        {
+          "_id": "693dcf831c508c5d5ec65699",
+          "name": "Towels30577",
+          "amount": 110,
+          "price": 79281,
+          "manufacturer": "Microsoft",
+          "notes": "zESKtMve9pAjAWXWcpUiaghYXeb6o5MfE8kkESFglR3iwVF0IVWHAtvSYn8rjLUg5FLNJtynMTuHoLE3DIRJ1hbHG3kcFs3kDcblxDw4Sw99c7XS2riS4xAFp1e99rCQ8UQoHz5uEnW1mSyCTKH9x9Xq1Ba7PJSCg1hVS0QQ0YEUYQkIMwiUJW8vjHdlHKYO3EEuP6sy0q3ypAiSd19T5SxjjYYqeuvpXTBh5danLHCp8fMyrngh3QH3JW",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "East Kim",
+          "street": "Kiley Stravenue",
+          "house": 37,
+          "flat": 856
+        },
+        "finalDate": "2025-12-13T20:41:39.853Z",
+        "condition": "Pickup"
+      },
+      "total_price": 79281,
+      "createdOn": "2025-12-13T20:41:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693dcf801c508c5d5ec655f2",
+          "products": [
+            {
+              "_id": "693dcf831c508c5d5ec65699",
+              "name": "Towels30577",
+              "amount": 110,
+              "price": 79281,
+              "manufacturer": "Microsoft",
+              "notes": "zESKtMve9pAjAWXWcpUiaghYXeb6o5MfE8kkESFglR3iwVF0IVWHAtvSYn8rjLUg5FLNJtynMTuHoLE3DIRJ1hbHG3kcFs3kDcblxDw4Sw99c7XS2riS4xAFp1e99rCQ8UQoHz5uEnW1mSyCTKH9x9Xq1Ba7PJSCg1hVS0QQ0YEUYQkIMwiUJW8vjHdlHKYO3EEuP6sy0q3ypAiSd19T5SxjjYYqeuvpXTBh5danLHCp8fMyrngh3QH3JW",
+              "received": false
+            }
+          ],
+          "total_price": 79281,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "East Kim",
+              "street": "Kiley Stravenue",
+              "house": 37,
+              "flat": 856
+            },
+            "finalDate": "2025-12-13T20:41:39.853Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-13T20:41:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693dcf801c508c5d5ec655f2",
+          "products": [
+            {
+              "_id": "693dcf831c508c5d5ec65699",
+              "name": "Towels30577",
+              "amount": 110,
+              "price": 79281,
+              "manufacturer": "Microsoft",
+              "notes": "zESKtMve9pAjAWXWcpUiaghYXeb6o5MfE8kkESFglR3iwVF0IVWHAtvSYn8rjLUg5FLNJtynMTuHoLE3DIRJ1hbHG3kcFs3kDcblxDw4Sw99c7XS2riS4xAFp1e99rCQ8UQoHz5uEnW1mSyCTKH9x9Xq1Ba7PJSCg1hVS0QQ0YEUYQkIMwiUJW8vjHdlHKYO3EEuP6sy0q3ypAiSd19T5SxjjYYqeuvpXTBh5danLHCp8fMyrngh3QH3JW",
+              "received": false
+            }
+          ],
+          "total_price": 79281,
+          "delivery": null,
+          "changedOn": "2025-12-13T20:41:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
