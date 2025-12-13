@@ -1,6 +1,8 @@
+import { ERROR_MESSAGES } from "data/notifications";
 import { STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";
 import { expect, test } from "fixtures/api.fixture";
+import { validateResponse } from "utils/validation/validateResponse.utils";
 
 test.describe("Delete customer", () => {
 	let token = "";
@@ -10,37 +12,42 @@ test.describe("Delete customer", () => {
 	});
 
 	test.describe("positive", () => {
-		let customerId: string;
-
-		test.beforeEach(async ({ customersApiService }) => {
-			const customer = await customersApiService.create(token);
-			customerId = customer._id;
-		});
-
 		test("success", { tag: TAGS.CUSTOMERS }, async ({ customersApiService }) => {
-			const response = await customersApiService.delete(token, customerId);
+			const createdCustomer = await customersApiService.create(token);
+			const customerId = createdCustomer._id;
+
+			const response = await customersApiService.delete(customerId, token);
 
 			expect(response.status).toBe(STATUS_CODES.DELETED);
-			expect(response.body).toBeNull();
 		});
 
-		test("customer already deleted", { tag: TAGS.CUSTOMERS }, async ({ customersApiService }) => {
-			await customersApiService.delete(token, customerId);
+		test("customer already deleted", { tag: TAGS.CUSTOMERS }, async ({ customersApiService, customersApi }) => {
+			const createdCustomer = await customersApiService.create(token);
+			const customerId = createdCustomer._id;
+			await customersApiService.delete(customerId, token);
 
-			const response = await customersApiService.delete(token, customerId);
-			expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
+			const response = await customersApi.delete(customerId, token);
+			validateResponse(response, {
+				status: STATUS_CODES.NOT_FOUND,
+				IsSuccess: false,
+				ErrorMessage: ERROR_MESSAGES.CUSTOMER_NOT_FOUND(customerId),
+			});
 		});
 	});
 
 	test.describe("negative", () => {
 		test("invalid token", { tag: TAGS.CUSTOMERS }, async ({ customersApi }) => {
-			const response = await customersApi.delete("invalid_token", "whatever");
+			const response = await customersApi.delete("693f15631d508c5e5ebdf616", "");
 			expect(response.status).toBe(STATUS_CODES.UNAUTHORIZED);
 		});
 
 		test("invalid id", { tag: TAGS.CUSTOMERS }, async ({ customersApi }) => {
-			const response = await customersApi.delete(token, "invalid_id");
-			expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
+			const response = await customersApi.delete("693f15631d508c5e5ebdf616", token);
+			validateResponse(response, {
+				status: STATUS_CODES.NOT_FOUND,
+				IsSuccess: false,
+				ErrorMessage: ERROR_MESSAGES.CUSTOMER_NOT_FOUND("693f15631d508c5e5ebdf616"),
+			});
 		});
 	});
 });

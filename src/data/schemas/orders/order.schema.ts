@@ -79,3 +79,60 @@ export const orderSchema = {
 		"assignedManager",
 	],
 };
+
+export const orderSchemaWithCustomerData = {
+	type: "object",
+	properties: {
+		_id: { type: "string" },
+		status: {
+			type: "string",
+			enum: Object.values(ORDER_STATUS),
+		},
+		customer: customerSchema,
+		products: {
+			type: "array",
+			items: productForOrdersSchema,
+		},
+		delivery: {
+			oneOf: [
+				{
+					type: "array",
+					items: deliverySchema,
+				},
+				{ type: "null" },
+			],
+		},
+		total_price: {
+			type: "number",
+		},
+		createdOn: {
+			type: "string",
+		},
+		comments: {
+			oneOf: [
+				{
+					type: "array",
+					items: commentsSchema,
+				},
+				{ type: "null" },
+			],
+		},
+		history: {
+			type: "array",
+			items: historySchema,
+		},
+		assignedManager: assignedManagerSchema,
+	},
+	required: [
+		"_id",
+		"status",
+		"customer",
+		"products",
+		"delivery",
+		"total_price",
+		"createdOn",
+		"comments",
+		"history",
+		"assignedManager",
+	],
+};
