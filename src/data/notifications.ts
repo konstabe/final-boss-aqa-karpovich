@@ -18,4 +18,7 @@ export const ERROR_MESSAGES = {
 	ORDER_NOT_FOUND: (id: string) => `Order with id '${id}' wasn't found`,
 	MANAGER_NOT_FOUND: (id: string) => `Manager with id '${id}' wasn't found`,
 	INVALID_ORDER_STATUS: "Invalid order status",
+	INVALID_ARGUMENT: "Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer",
+	ORDERID_NOT_FOUND: `Order with id 'undefined' wasn't found`,
+	INCORRECT_REQUEST_BODY: "Incorrect request body",
 };
