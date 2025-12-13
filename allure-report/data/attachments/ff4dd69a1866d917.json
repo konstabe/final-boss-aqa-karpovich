@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:05:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-K+lP1YciopR0VCF6VqtMcEYFmuI\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693db8fa1c508c5d5ec57db5",
+        "email": "Ruby44@hotmail.com",
+        "name": "Margaretta Boehm",
+        "country": "Ukraine",
+        "city": "Lake Jettie",
+        "street": "Church Street",
+        "house": 48,
+        "flat": 498,
+        "phone": "+12645874859",
+        "createdOn": "2025-12-13T19:05:30.000Z",
+        "notes": "MRzMISk65Yj2A1PjZoGtGOYViqEtdHRb2FVtxSUEZRyvHLG2DKqH8D98DDjPyCfU8yPb3THpb6dVXk0rIpzNouq7oXnyAvnnaJnHNu7v1QPWVW3tJQelru2wInHf5lESNSKQwcylldr1kfJn9aqX6BGPKAKHuxRaf35zFC4xqfMpGLi1EZ2O0KLNxLrKLqsbODpJQBibjzALTexWSunOJCc4i1t6rVNIYnYsiqvYZVerb6bM3mVcWnkiHB"
+      },
+      "products": [
+        {
+          "_id": "693db8fb1c508c5d5ec57df1",
+          "name": "Shoes73250",
+          "amount": 921,
+          "price": 25877,
+          "manufacturer": "Xiaomi",
+          "notes": "mTROoROoInmTbmsrgMjhQXAN1b4w9QUkFbkqR3SCdDsjQqNpv8avwot4cs9w4eAV5p8tTJihmARlFX7KyNbLO1cRe6a1NXJX2D6H0N4bESsVJSK6DF2vLxTmC8WZuzGz8EzfeRqYOZElTUxxBD5pn2WipbnbCvos8eGCwGAfP30NChOzkHq7fwfaX0WN3vZpredOceGSqxCiLgNlUyNYaq6KaIiU7cp1pReF3CVkzJB9rfkR1DvLVcPQUa",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 25877,
+      "createdOn": "2025-12-13T19:05:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693db8fa1c508c5d5ec57db5",
+          "products": [
+            {
+              "_id": "693db8fb1c508c5d5ec57df1",
+              "name": "Shoes73250",
+              "amount": 921,
+              "price": 25877,
+              "manufacturer": "Xiaomi",
+              "notes": "mTROoROoInmTbmsrgMjhQXAN1b4w9QUkFbkqR3SCdDsjQqNpv8avwot4cs9w4eAV5p8tTJihmARlFX7KyNbLO1cRe6a1NXJX2D6H0N4bESsVJSK6DF2vLxTmC8WZuzGz8EzfeRqYOZElTUxxBD5pn2WipbnbCvos8eGCwGAfP30NChOzkHq7fwfaX0WN3vZpredOceGSqxCiLgNlUyNYaq6KaIiU7cp1pReF3CVkzJB9rfkR1DvLVcPQUa",
+              "received": false
+            }
+          ],
+          "total_price": 25877,
+          "delivery": null,
+          "changedOn": "2025-12-13T19:05:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693db8fc1c508c5d5ec57e16"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

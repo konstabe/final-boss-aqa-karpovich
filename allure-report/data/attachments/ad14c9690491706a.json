@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:05:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-08//N5AZQYusQtG4KogPCpFbKUQ\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693db9001c508c5d5ec57ff9",
+      "status": "Draft",
+      "customer": {
+        "_id": "693db8fe1c508c5d5ec57f21",
+        "email": "Deshawn30@hotmail.com",
+        "name": "Jerel Gleichner",
+        "country": "Russia",
+        "city": "Aloha",
+        "street": "Russel Mountains",
+        "house": 20,
+        "flat": 504,
+        "phone": "+18606238439",
+        "createdOn": "2025-12-13T19:05:34.000Z",
+        "notes": "N0HimExbeWBwY95kSN8T1orAY1lilLSjrAWM9CjiLRW46ZmpUuVbtMCx0nIIeT2cPneSC9iRRO6Rtp6ziG7UkyPbmhErCphrgIdYUdcjZ9zNZkEnv30EjclLvEPSxj8UddAosSy7Zt6BtfkBtBSuOOTsI5IvIrz2ByN32hWLERiVKgCkXZnbDQKw6GZoB8E8aLiU9yKYyfbl3BtgZQvmItEMzKznqlEuLyB6SHvaai4hxUk3RMk0CLFTNv"
+      },
+      "products": [
+        {
+          "_id": "693db8ff1c508c5d5ec57fdb",
+          "name": "Computer47756",
+          "amount": 57,
+          "price": 68457,
+          "manufacturer": "Google",
+          "notes": "3qQS2dLrDAVUhV3K9M4gms5W6YLrv8xn9C5vSwNFwkaJ30EDj5fYuQpOz4BTVYUku09FyaQf3hwT76N023iAh9MycAegafI4VKCA8MbzMnqdN0PTk3cn8wOkGaNzE6N9e2vPfWlrdxKW4vSKbQRpL4WUr9fMIyIRRqsT5EbSuKpeKbuCofZu5bcoVjLZjLBLBhMZstvuOhP6lEhZLtpb51Zvsovhde5C1mJlih68zUW7YzRNCkhlt8Pn2c",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68457,
+      "createdOn": "2025-12-13T19:05:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693db8fe1c508c5d5ec57f21",
+          "products": [
+            {
+              "_id": "693db8ff1c508c5d5ec57fdb",
+              "name": "Computer47756",
+              "amount": 57,
+              "price": 68457,
+              "manufacturer": "Google",
+              "notes": "3qQS2dLrDAVUhV3K9M4gms5W6YLrv8xn9C5vSwNFwkaJ30EDj5fYuQpOz4BTVYUku09FyaQf3hwT76N023iAh9MycAegafI4VKCA8MbzMnqdN0PTk3cn8wOkGaNzE6N9e2vPfWlrdxKW4vSKbQRpL4WUr9fMIyIRRqsT5EbSuKpeKbuCofZu5bcoVjLZjLBLBhMZstvuOhP6lEhZLtpb51Zvsovhde5C1mJlih68zUW7YzRNCkhlt8Pn2c",
+              "received": false
+            }
+          ],
+          "total_price": 68457,
+          "delivery": null,
+          "changedOn": "2025-12-13T19:05:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

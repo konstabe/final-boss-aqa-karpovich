@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:05:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-zTsd0MPdC3i06wuwUyQFdUJITpQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693db8fa1c508c5d5ec57dab",
+        "email": "Andre_Wuckert85@hotmail.com",
+        "name": "Marlen Lind",
+        "country": "USA",
+        "city": "South Americofurt",
+        "street": "Wunsch Brook",
+        "house": 5,
+        "flat": 215,
+        "phone": "+18776255790",
+        "createdOn": "2025-12-13T19:05:30.000Z",
+        "notes": "9lufsQv64FtvuWoLMyBdYbL8DYA1nWaBM5bFlE4FHtC8Yxs8QpP6py4EIPEqmMO835BaCMSfRpqWbOO5MRpxfyFxEVJQkK3131fgTbQsBT4JRN3Sw0T0tGhP0mJpGDkdatoDp5w6tFQn3ghtb91CcCiu873GJJLKIB0vD2Xrx5MPUhKikC9QPhZEr4REqzTkXn1pgXdPrmRph5hN4GTfd1WDzoJK5Hnezd0RrmdcQ2fB1x6l0bVPG00dPd"
+      },
+      "products": [
+        {
+          "_id": "693db8fb1c508c5d5ec57ddb",
+          "name": "Bacon6055",
+          "amount": 821,
+          "price": 95172,
+          "manufacturer": "Xiaomi",
+          "notes": "g4JPINVKbhRhi7zqmGNXQyzJpvd2WMTOjL3zUQhzzGX6MnTBnOG6DPnwcVJOF1QZhSe84xsexTYBhdBEwA9o7bOExVENKMPK3TQ4UbhwgilmOoRgYaNaZnl6AtVNiOiYVexGhTUBUlt9bh2J7ffSUIqHUFDzXem24ndQ9eiBW67R8u5I5FYbjuEeB20Aaz6gdIxoQlxVt5P5Ve43lhqakfv2l9ksCV7ruOwT2KrM0B6eaXXGxZUnkkPFxb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 95172,
+      "createdOn": "2025-12-13T19:05:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693db8fa1c508c5d5ec57dab",
+          "products": [
+            {
+              "_id": "693db8fb1c508c5d5ec57ddb",
+              "name": "Bacon6055",
+              "amount": 821,
+              "price": 95172,
+              "manufacturer": "Xiaomi",
+              "notes": "g4JPINVKbhRhi7zqmGNXQyzJpvd2WMTOjL3zUQhzzGX6MnTBnOG6DPnwcVJOF1QZhSe84xsexTYBhdBEwA9o7bOExVENKMPK3TQ4UbhwgilmOoRgYaNaZnl6AtVNiOiYVexGhTUBUlt9bh2J7ffSUIqHUFDzXem24ndQ9eiBW67R8u5I5FYbjuEeB20Aaz6gdIxoQlxVt5P5Ve43lhqakfv2l9ksCV7ruOwT2KrM0B6eaXXGxZUnkkPFxb",
+              "received": false
+            }
+          ],
+          "total_price": 95172,
+          "delivery": null,
+          "changedOn": "2025-12-13T19:05:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693db8fb1c508c5d5ec57df6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
