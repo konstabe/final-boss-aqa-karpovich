@@ -24,3 +24,12 @@ export function compareValues(a: Comparable, b: Comparable): number {
 	//String
 	return String(a).localeCompare(String(b), undefined, { numeric: true });
 }
+
+export function returnSortedArrayWithOrder<T>(array: T[], field: keyof T, order: "asc" | "desc" = "asc"): T[] {
+	return [...array].sort((a, b) => {
+		const aValue = a[field] as Comparable;
+		const bValue = b[field] as Comparable;
+		const comparison = compareValues(aValue, bValue);
+		return order === "asc" ? comparison : -comparison;
+	});
+}

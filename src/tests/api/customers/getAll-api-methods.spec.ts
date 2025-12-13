@@ -2,9 +2,9 @@ import { customerAllSchema, customerSchema } from "data/schemas/customers/custom
 import { STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";
 import { SortOrder } from "data/types/core.types";
-import { CustomersSortField } from "data/types/customer.types";
+import { CustomersSortField, ICustomerFromResponse } from "data/types/customer.types";
 import { expect, test } from "fixtures/api.fixture";
-import { compareValues } from "utils/comprare.utils";
+import { returnSortedArrayWithOrder } from "utils/comprare.utils";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 import { validateJsonSchema, registerSchema } from "utils/validation/validateSchema.utils";
 
@@ -16,7 +16,7 @@ test.describe("Get customers all", () => {
 	});
 
 	test.describe("positive", () => {
-		let createdCustomer: any;
+		let createdCustomer: ICustomerFromResponse;
 
 		test.beforeEach(async ({ customersApiService }) => {
 			createdCustomer = await customersApiService.create(token);
@@ -28,7 +28,7 @@ test.describe("Get customers all", () => {
 			registerSchema(customerSchema);
 			validateJsonSchema(response, customerAllSchema);
 
-			const exists = response.body.Customers.some((c: any) => c._id === createdCustomer._id);
+			const exists = response.body.Customers.some((c: ICustomerFromResponse) => c._id === createdCustomer._id);
 			expect(exists).toBe(true);
 		});
 
@@ -46,11 +46,7 @@ test.describe("Get customers all", () => {
 
 						validateResponse(response, { status: STATUS_CODES.OK });
 
-						const sorted = [...response.body.Customers].sort((a, b) => {
-							const base = compareValues(a[field], b[field]);
-							return order === "asc" ? base : -base;
-						});
-						console.log(response.body.Customers);
+						const sorted = returnSortedArrayWithOrder(response.body.Customers, field, order);
 						expect(response.body.Customers).toEqual(sorted);
 					});
 				}
@@ -59,9 +55,9 @@ test.describe("Get customers all", () => {
 	});
 
 	test.describe("negative", () => {
-		test("no token", { tag: TAGS.CUSTOMERS }, async ({ customersApi }) => {
+		test("get customers without token", { tag: TAGS.CUSTOMERS }, async ({ customersApi }) => {
 			const response = await customersApi.getAll("");
-			expect(response.status).toBe(STATUS_CODES.UNAUTHORIZED);
+			validateResponse(response, { status: STATUS_CODES.UNAUTHORIZED });
 		});
 	});
 });
