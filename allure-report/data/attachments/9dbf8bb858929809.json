@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 13:54:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1897",
+    "etag": "W/\"769-WvKCoPl5GU2O17mdX9gKC1B5jsg\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d70201c508c5d5ec181f4",
+        "email": "Priscilla_Kub33@hotmail.com",
+        "name": "Alexys McLaughlin",
+        "country": "Germany",
+        "city": "East Alfredaport",
+        "street": "Chelsey Dale",
+        "house": 37,
+        "flat": 358,
+        "phone": "+14223453170",
+        "createdOn": "2025-12-13T13:54:40.000Z",
+        "notes": "r32IdEeiW04uIgmx684ojw74zfNhOWXwwc82pradPIAZpGCqMqwOrMmJm8TmEFaSG145ikIiBHX25M97DEVl3AFlOqugx7cryhEIwRqq8akoeeoXysHRSvkx3vOhx21tuL8Tcm6CvpiTiOdRHIMSz9SqyCgr2QzVqMmGLN2UlzI1LF2pWSLERLW9mi1dADih1RjeU82jwX9SHDY7rWP2soHHj8xtezkXjwJe99g3mFmi74eI1BQ0gXS01x"
+      },
+      "products": [
+        {
+          "_id": "693d70251c508c5d5ec18263",
+          "name": "Shoes79183",
+          "amount": 348,
+          "price": 65211,
+          "manufacturer": "Amazon",
+          "notes": "y5tovSf8VpErwUi9DcsR373SGP4zgfMI1NtCussVK4hsl8mKNHKXbEtcNijijUESfVyiuL41hWYtYuvfuyju65b0ruUOgRLSOkt545lBbMauvXo7wmioTYlmPbOMz9wmGlbwBqxF1CuTd69QKxi3JoEWrP9Wyjc2IQww2zNTO3VZQf3WvYL1RCzreC1lzYvp9i7L9mrpRKf2bsEXneebYTgrDnHgu0TpOPdphFEWbPiSsgTjtcfkaSVn2b",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 65211,
+      "createdOn": "2025-12-13T13:54:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d70201c508c5d5ec181f4",
+          "products": [
+            {
+              "_id": "693d70251c508c5d5ec18263",
+              "name": "Shoes79183",
+              "amount": 348,
+              "price": 65211,
+              "manufacturer": "Amazon",
+              "notes": "y5tovSf8VpErwUi9DcsR373SGP4zgfMI1NtCussVK4hsl8mKNHKXbEtcNijijUESfVyiuL41hWYtYuvfuyju65b0ruUOgRLSOkt545lBbMauvXo7wmioTYlmPbOMz9wmGlbwBqxF1CuTd69QKxi3JoEWrP9Wyjc2IQww2zNTO3VZQf3WvYL1RCzreC1lzYvp9i7L9mrpRKf2bsEXneebYTgrDnHgu0TpOPdphFEWbPiSsgTjtcfkaSVn2b",
+              "received": false
+            }
+          ],
+          "total_price": 65211,
+          "delivery": null,
+          "changedOn": "2025-12-13T13:54:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d70251c508c5d5ec18273"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

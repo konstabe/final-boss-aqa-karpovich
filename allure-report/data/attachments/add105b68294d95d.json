@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 13:55:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3416",
+    "etag": "W/\"d58-47kUBoVtQ2eHIKe41DY/rR4ILt0\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d70381c508c5d5ec185d5",
+        "email": "Lewis52@gmail.com",
+        "name": "Valentine Purdy",
+        "country": "Canada",
+        "city": "Fort Serenity",
+        "street": "Victoria Place",
+        "house": 35,
+        "flat": 26,
+        "phone": "+12974947719",
+        "createdOn": "2025-12-13T13:55:04.000Z",
+        "notes": "m7wvNjAJigmongjfBCFmplEXYgjTyFYtAp0Iqmg6Ux8zUX5vEN7XFswg1B7supmkWMRBHOiVNb1YqZmb4yj1yNfh13KG7RGUktSm59tH1hz3J2R1MZV1DC5qijq1LxJYE91wLAl9VESGAqzdVnhObLx60y3h6I1BWANEWHgSmCnyJ8gD3y2dPHs4e7OTJll8htosV2tRA215SFEK8r6d0KBXMNbxlN33tcJinnyB5ZqDuLaH5CgINc9X3D"
+      },
+      "products": [
+        {
+          "_id": "693d703c1c508c5d5ec1866c",
+          "name": "Ball77565",
+          "amount": 891,
+          "price": 86845,
+          "manufacturer": "Samsung",
+          "notes": "HCWKz1cLl4Eg8QZfd3gC5vA6UOMBPtn1hQIog3giVbJCPQkukoaNyIDK1oyXJcIhVqDREAtXorI0XUnsEqUSNndyBxpKLZmrHffjQya4K2iF1uz10uuqH4CTBAVAP5KMzYjOFcURgelHI7pbfN35qW6xIT2m9StHK0jpdCGjYtnvYrsSlVR1jqGjWWH0SjHnn3oIb58WWVK53L6FjXBhWrdYD5XAI33NsiccLd4WVRaLNuVLCmAlLmMqiK",
+          "received": false
+        },
+        {
+          "_id": "693d70401c508c5d5ec186af",
+          "name": "Table13208",
+          "amount": 106,
+          "price": 52622,
+          "manufacturer": "Apple",
+          "notes": "PndEGbzq00SuxhhUaIU4YTz6qSPLaRatYfRkAa310ZskKQfTVQVz7hXln9tyNsenopcyqQbOWd47bMLXOBvpdFKMGDmBHXQvTUiJEHPORC8zKEalWyHa84MVzvYWJCa5xKSObNUWbcw9Wig8f52m9tWNsnNoG854OEfCEHBiwvJk164R8ip7Z4XFCPZPfBUgN9VCUvzvojbiT0PkphoR3rLgIPhc6SZNwt5EPBuILyAwIbXLu3kxZIp9fI",
+          "received": false
+        },
+        {
+          "_id": "693d70451c508c5d5ec186e3",
+          "name": "Chair11151",
+          "amount": 373,
+          "price": 24395,
+          "manufacturer": "Tesla",
+          "notes": "Ye9LJCkvlEkxk8JHT8Lsg3XNLC1iDlFHMC355gLQH5UkwJvEItbsWwfW7gATT5RkDQi352KxBA4IujfXrkOhdijc1rBUjvnB4Oj7N5kocyXdNLiKFMcMmaBEpWDXVOQWYRjrKnlctjKXqqaFpXtXESDQIVdySmo21SJDgdjJeAV5j09GdcvkrMgU7dfhrqtRPGpqUUnmcDpjJ3UNBBHvbEaKCUVCrJ2xebMJ7572FnxqZ50AFjX85nceQd",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 163862,
+      "createdOn": "2025-12-13T13:55:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d70381c508c5d5ec185d5",
+          "products": [
+            {
+              "_id": "693d703c1c508c5d5ec1866c",
+              "name": "Ball77565",
+              "amount": 891,
+              "price": 86845,
+              "manufacturer": "Samsung",
+              "notes": "HCWKz1cLl4Eg8QZfd3gC5vA6UOMBPtn1hQIog3giVbJCPQkukoaNyIDK1oyXJcIhVqDREAtXorI0XUnsEqUSNndyBxpKLZmrHffjQya4K2iF1uz10uuqH4CTBAVAP5KMzYjOFcURgelHI7pbfN35qW6xIT2m9StHK0jpdCGjYtnvYrsSlVR1jqGjWWH0SjHnn3oIb58WWVK53L6FjXBhWrdYD5XAI33NsiccLd4WVRaLNuVLCmAlLmMqiK",
+              "received": false
+            },
+            {
+              "_id": "693d70401c508c5d5ec186af",
+              "name": "Table13208",
+              "amount": 106,
+              "price": 52622,
+              "manufacturer": "Apple",
+              "notes": "PndEGbzq00SuxhhUaIU4YTz6qSPLaRatYfRkAa310ZskKQfTVQVz7hXln9tyNsenopcyqQbOWd47bMLXOBvpdFKMGDmBHXQvTUiJEHPORC8zKEalWyHa84MVzvYWJCa5xKSObNUWbcw9Wig8f52m9tWNsnNoG854OEfCEHBiwvJk164R8ip7Z4XFCPZPfBUgN9VCUvzvojbiT0PkphoR3rLgIPhc6SZNwt5EPBuILyAwIbXLu3kxZIp9fI",
+              "received": false
+            },
+            {
+              "_id": "693d70451c508c5d5ec186e3",
+              "name": "Chair11151",
+              "amount": 373,
+              "price": 24395,
+              "manufacturer": "Tesla",
+              "notes": "Ye9LJCkvlEkxk8JHT8Lsg3XNLC1iDlFHMC355gLQH5UkwJvEItbsWwfW7gATT5RkDQi352KxBA4IujfXrkOhdijc1rBUjvnB4Oj7N5kocyXdNLiKFMcMmaBEpWDXVOQWYRjrKnlctjKXqqaFpXtXESDQIVdySmo21SJDgdjJeAV5j09GdcvkrMgU7dfhrqtRPGpqUUnmcDpjJ3UNBBHvbEaKCUVCrJ2xebMJ7572FnxqZ50AFjX85nceQd",
+              "received": false
+            }
+          ],
+          "total_price": 163862,
+          "delivery": null,
+          "changedOn": "2025-12-13T13:55:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d70451c508c5d5ec186f0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

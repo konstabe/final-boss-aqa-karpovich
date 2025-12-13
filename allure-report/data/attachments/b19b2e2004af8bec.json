@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 13:54:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-olz6p+tocPrWzyBtxj5OeuU9i4g\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d70231c508c5d5ec18240",
+        "email": "Kylie.Mohr32@yahoo.com",
+        "name": "Maximillian Hettinger",
+        "country": "USA",
+        "city": "North Alvera",
+        "street": "Marguerite Wall",
+        "house": 41,
+        "flat": 571,
+        "phone": "+15923265581",
+        "createdOn": "2025-12-13T13:54:43.000Z",
+        "notes": "hknYFbLzJscqUd4xKtUXtpGpPUu9LdQS3LWWZVcV9qi5tUpqagAQnGbB4KNuSHLyI1KkqwUeXpNtICd2sKhMoCOGboTJUSsBBLVus8sYCIsUs5A1yk5MBCTOzJPxTXG5lbeIcQhB5G4vtGC6x8HFf8gem8fZutu5fygtG2T3n152r0WLSdHE9xvWpsrZ1TLJFLmGwlGnDDlrWIoPp1iCh8CItg9tgG7BRjBN148wEBhvXt1MpcMgm2lbXw"
+      },
+      "products": [
+        {
+          "_id": "693d70281c508c5d5ec18339",
+          "name": "Chair54321",
+          "amount": 964,
+          "price": 64246,
+          "manufacturer": "Amazon",
+          "notes": "hHCNnOflTrzvNBHKdM4Csd8lGd5Fqt0syXSZOsgWazGHpW1H0ULZ1UpN6ySvrqkw6ZfvTqAynfXITEKVTQ53MgTK3RorgG2Dt7mcDlwTzNWJTz2Ed9wVe3lSIFM2fQmjmHVpen4QHXXnfFCp5TuzZn8t5Wyj15Zk73k6WLzTcX04uKMLG7gehGRTrrgmU1xcHY2180d1nYGxKjlxFag5TXOPHTrO4Vc0NUKuxUEnaBK1FACd9PLtm1yJuC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 64246,
+      "createdOn": "2025-12-13T13:54:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d70231c508c5d5ec18240",
+          "products": [
+            {
+              "_id": "693d70281c508c5d5ec18339",
+              "name": "Chair54321",
+              "amount": 964,
+              "price": 64246,
+              "manufacturer": "Amazon",
+              "notes": "hHCNnOflTrzvNBHKdM4Csd8lGd5Fqt0syXSZOsgWazGHpW1H0ULZ1UpN6ySvrqkw6ZfvTqAynfXITEKVTQ53MgTK3RorgG2Dt7mcDlwTzNWJTz2Ed9wVe3lSIFM2fQmjmHVpen4QHXXnfFCp5TuzZn8t5Wyj15Zk73k6WLzTcX04uKMLG7gehGRTrrgmU1xcHY2180d1nYGxKjlxFag5TXOPHTrO4Vc0NUKuxUEnaBK1FACd9PLtm1yJuC",
+              "received": false
+            }
+          ],
+          "total_price": 64246,
+          "delivery": null,
+          "changedOn": "2025-12-13T13:54:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d70281c508c5d5ec1834a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

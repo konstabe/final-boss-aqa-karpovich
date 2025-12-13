@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 13:55:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3445",
+    "etag": "W/\"d75-3yEI00+IYNqx2WFbF5pxG6HKUz0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d705d1c508c5d5ec18be9",
+        "email": "Adella.Lueilwitz-Frami@hotmail.com",
+        "name": "Litzy Lesch",
+        "country": "Great Britain",
+        "city": "New Louveniafurt",
+        "street": "Sycamore Drive",
+        "house": 9,
+        "flat": 195,
+        "phone": "+19117891036",
+        "createdOn": "2025-12-13T13:55:41.000Z",
+        "notes": "eOfbVOgXyTM3DqRHjSMny70Tt6gQhNbIgenvBP9iWFHb27l9TuJw9l6Vp3C6zViC9H74Qw4htXyTW6Sb3As0BO7F9MGWdxSlxktnY8NBkXeAEsGS6tWUzfCp07kJE8zQ3FyPrGpwiPWNZ7DH7epgcW7Mi66GMP457l1OBPSJ59YqHpWRvHqyKn6G9ZbwYma0xr2koHx8DPVseUGJA6A3cyeWU8p4G3HwoJeGOhlQJtXPYmQ1P6wra6bDIs"
+      },
+      "products": [
+        {
+          "_id": "693d70611c508c5d5ec18cdc",
+          "name": "Tuna16868",
+          "amount": 429,
+          "price": 55918,
+          "manufacturer": "Apple",
+          "notes": "w5e7bdJ2MivumskrifY3HcTr1pYEr9TTrSkQAtZCNWAEMVSPRgj7qlC6hwzbCYZk06nwKHBxSwZLok2DZKCvOWQ89bNbcMb7LUGmXQlPBQO0KUEeWkScYcq8jnSN9PUE11S8KSLsq2Wlv1TbFNX3zTDjwc1mKxw2ObAQGd2EYc2UBr7FBOj3g4dfLyr9xwyILXhLrjUkPJMhk1Ef3DNDX0G2C8kstiWoDzoxXu8D79NeVX90z38hPM2HNw",
+          "received": false
+        },
+        {
+          "_id": "693d70661c508c5d5ec18d53",
+          "name": "Sausages36926",
+          "amount": 846,
+          "price": 79667,
+          "manufacturer": "Google",
+          "notes": "GCwza0hwTOBxUo9dfo0g766d4rA0p8vdH3QM9V8UfeUVyJe6Y5eAzYRmFv3ZOkC2CqfA30WNPnNjesZjU28iFBpdur2pB6MczaKWkV1fbAst4bWdp2wCOhUVskyexvuNLoff3Zjl91I3NYbAHpeDo4UVW8yWbY55Fsg4TjB3jpruXzBOQvFYKbJMeqJlaAUIWD1vfsOtN9CC8cwoeTQ0nmq8gORfVKFabJHr8pkJYU6kkNo0TatpfJec4p",
+          "received": false
+        },
+        {
+          "_id": "693d706a1c508c5d5ec18d7b",
+          "name": "Cheese34894",
+          "amount": 923,
+          "price": 25514,
+          "manufacturer": "Apple",
+          "notes": "UFPkgNC10XH5OkpUmUb1B4QisDDcZ5CObsZYjSqAkV4hOeDKakN9OSwrqKNeP42YebvhW5PZqG8MltV8ETpshBQZVjE0IKwG086pGME34XCD6CF1cvaoEED8b4msLniscgKhdzbs8wPM6bdMBxkp3tcvwWNeW9tDmnjxwIR8ocVUJtMy4Anj2hyhACAe2vT0w7T66bCQWD1TDgvVzyR2ximeVjTPccpvd97Rx69XWCl66Rj24WXNhCT1Vq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 161099,
+      "createdOn": "2025-12-13T13:55:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d705d1c508c5d5ec18be9",
+          "products": [
+            {
+              "_id": "693d70611c508c5d5ec18cdc",
+              "name": "Tuna16868",
+              "amount": 429,
+              "price": 55918,
+              "manufacturer": "Apple",
+              "notes": "w5e7bdJ2MivumskrifY3HcTr1pYEr9TTrSkQAtZCNWAEMVSPRgj7qlC6hwzbCYZk06nwKHBxSwZLok2DZKCvOWQ89bNbcMb7LUGmXQlPBQO0KUEeWkScYcq8jnSN9PUE11S8KSLsq2Wlv1TbFNX3zTDjwc1mKxw2ObAQGd2EYc2UBr7FBOj3g4dfLyr9xwyILXhLrjUkPJMhk1Ef3DNDX0G2C8kstiWoDzoxXu8D79NeVX90z38hPM2HNw",
+              "received": false
+            },
+            {
+              "_id": "693d70661c508c5d5ec18d53",
+              "name": "Sausages36926",
+              "amount": 846,
+              "price": 79667,
+              "manufacturer": "Google",
+              "notes": "GCwza0hwTOBxUo9dfo0g766d4rA0p8vdH3QM9V8UfeUVyJe6Y5eAzYRmFv3ZOkC2CqfA30WNPnNjesZjU28iFBpdur2pB6MczaKWkV1fbAst4bWdp2wCOhUVskyexvuNLoff3Zjl91I3NYbAHpeDo4UVW8yWbY55Fsg4TjB3jpruXzBOQvFYKbJMeqJlaAUIWD1vfsOtN9CC8cwoeTQ0nmq8gORfVKFabJHr8pkJYU6kkNo0TatpfJec4p",
+              "received": false
+            },
+            {
+              "_id": "693d706a1c508c5d5ec18d7b",
+              "name": "Cheese34894",
+              "amount": 923,
+              "price": 25514,
+              "manufacturer": "Apple",
+              "notes": "UFPkgNC10XH5OkpUmUb1B4QisDDcZ5CObsZYjSqAkV4hOeDKakN9OSwrqKNeP42YebvhW5PZqG8MltV8ETpshBQZVjE0IKwG086pGME34XCD6CF1cvaoEED8b4msLniscgKhdzbs8wPM6bdMBxkp3tcvwWNeW9tDmnjxwIR8ocVUJtMy4Anj2hyhACAe2vT0w7T66bCQWD1TDgvVzyR2ximeVjTPccpvd97Rx69XWCl66Rj24WXNhCT1Vq",
+              "received": false
+            }
+          ],
+          "total_price": 161099,
+          "delivery": null,
+          "changedOn": "2025-12-13T13:55:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d706a1c508c5d5ec18d8a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

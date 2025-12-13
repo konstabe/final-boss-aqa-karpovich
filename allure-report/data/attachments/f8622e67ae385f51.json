@@ -1,0 +1,245 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 13:55:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6962",
+    "etag": "W/\"1b32-n4eka8a8YDtfI5rH8haAZtiPfTo\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d703a1c508c5d5ec185ee",
+      "status": "In Process",
+      "customer": {
+        "_id": "693d702c1c508c5d5ec183d9",
+        "email": "Harold.Spinka45@gmail.com",
+        "name": "Lea Nicolas",
+        "country": "Great Britain",
+        "city": "Alberthaland",
+        "street": "Will Islands",
+        "house": 40,
+        "flat": 732,
+        "phone": "+17478713429",
+        "createdOn": "2025-12-13T13:54:52.000Z",
+        "notes": "x2twV00egUDEK263gKmEXixqLOkcKxIMacRDmEpHAJgp2I3kWZIKBHcrstYc8x8hy7C4BV1fFYx84SowmVNQ93zj699GCvdXwkuuIsQMmq27IhtYmJ5rU5kli9rvGJG6db4vqDDe79lZ2hI0eoAGwq0WA7qAnblNdaiweWZV7wFDUNfkNypaPR9BRSQbWAwKa176vte2WfLMnj6N2KUPabNDRQr3oBdSKNVTgCR61phV5imEjEfEEgEPcM"
+      },
+      "products": [
+        {
+          "_id": "693d70311c508c5d5ec18460",
+          "name": "Soap60877",
+          "amount": 310,
+          "price": 82967,
+          "manufacturer": "Tesla",
+          "notes": "U9eevvsEeuHLF7NMYKlgMXiIm6WslnLaRgTOJZVapesSrDyXHF1wg3D4wtKRiHqMPwwICYU3P2ArxEWmaPUZdKRZkIlQNePdk6jlBqqQQDccDkzhnEnxMX2L5QdDp5CujCQnlEXvtIurSxCoFS4A08S6IxY2vD7Ws7dvmgdHS9zvqCuI76xL4YpwmOfVGxMlux7tP6dKaPPoqP9zPydpvBPwACdbNxhg8cDno43TcuN9Ql6zZHysrRj4Ng",
+          "received": false
+        },
+        {
+          "_id": "693d70351c508c5d5ec1858c",
+          "name": "Tuna79432",
+          "amount": 695,
+          "price": 29701,
+          "manufacturer": "Apple",
+          "notes": "TLmJdBIndq34XNOpDJZ8grDl28Pt8AKLaAZzclhOAyNPPSqfhAEi6K6WGLuBb7Hxpx07FdKdZScYhDOEuoWFB9o6FGMFk65cLDya3Twjl4WhrHYjz8olcGmXOvdKotMtJJksOyvhFQPXHQoSuUiKSgrcl3ZgdmYKr7vjZOrjizInOSdguy7CZNCoE9Onk3AYPNkxu5XrNyWt4qUwUqqj6bMvfr7L82cv6xpkWbmWe3i0IysewLCILUK7gg",
+          "received": false
+        },
+        {
+          "_id": "693d70391c508c5d5ec185e2",
+          "name": "Fish65700",
+          "amount": 68,
+          "price": 76040,
+          "manufacturer": "Google",
+          "notes": "pt1kNMAcvlT30Y5Wkx4nddiVGh6bH69pzU45jS7HcwVsRlIfSyfsKOHEe1Chf7gwlmPtR9jHWgnyfpHRMQHTTUttIGES2Gn0L7OKpYe8uWERz1lTU6vN2iYCqtTeBzyXfIR6Z4JxdaAH1jmaWKEh5Tku6mPLkJ3qa8NK4AgYL1OTZ2AmYrFuWcjEEWm3hXoe9ATNba4SLlEqeD8WWRylQJtsLLFfriSyde38a7I8RDIJvCb0HiglusqUap",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Alberthaland",
+          "street": "Will Islands",
+          "house": 40,
+          "flat": 732
+        },
+        "finalDate": "2025-12-17T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 188708,
+      "createdOn": "2025-12-13T13:55:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "693d702c1c508c5d5ec183d9",
+          "products": [
+            {
+              "_id": "693d70311c508c5d5ec18460",
+              "name": "Soap60877",
+              "amount": 310,
+              "price": 82967,
+              "manufacturer": "Tesla",
+              "notes": "U9eevvsEeuHLF7NMYKlgMXiIm6WslnLaRgTOJZVapesSrDyXHF1wg3D4wtKRiHqMPwwICYU3P2ArxEWmaPUZdKRZkIlQNePdk6jlBqqQQDccDkzhnEnxMX2L5QdDp5CujCQnlEXvtIurSxCoFS4A08S6IxY2vD7Ws7dvmgdHS9zvqCuI76xL4YpwmOfVGxMlux7tP6dKaPPoqP9zPydpvBPwACdbNxhg8cDno43TcuN9Ql6zZHysrRj4Ng",
+              "received": false
+            },
+            {
+              "_id": "693d70351c508c5d5ec1858c",
+              "name": "Tuna79432",
+              "amount": 695,
+              "price": 29701,
+              "manufacturer": "Apple",
+              "notes": "TLmJdBIndq34XNOpDJZ8grDl28Pt8AKLaAZzclhOAyNPPSqfhAEi6K6WGLuBb7Hxpx07FdKdZScYhDOEuoWFB9o6FGMFk65cLDya3Twjl4WhrHYjz8olcGmXOvdKotMtJJksOyvhFQPXHQoSuUiKSgrcl3ZgdmYKr7vjZOrjizInOSdguy7CZNCoE9Onk3AYPNkxu5XrNyWt4qUwUqqj6bMvfr7L82cv6xpkWbmWe3i0IysewLCILUK7gg",
+              "received": false
+            },
+            {
+              "_id": "693d70391c508c5d5ec185e2",
+              "name": "Fish65700",
+              "amount": 68,
+              "price": 76040,
+              "manufacturer": "Google",
+              "notes": "pt1kNMAcvlT30Y5Wkx4nddiVGh6bH69pzU45jS7HcwVsRlIfSyfsKOHEe1Chf7gwlmPtR9jHWgnyfpHRMQHTTUttIGES2Gn0L7OKpYe8uWERz1lTU6vN2iYCqtTeBzyXfIR6Z4JxdaAH1jmaWKEh5Tku6mPLkJ3qa8NK4AgYL1OTZ2AmYrFuWcjEEWm3hXoe9ATNba4SLlEqeD8WWRylQJtsLLFfriSyde38a7I8RDIJvCb0HiglusqUap",
+              "received": false
+            }
+          ],
+          "total_price": 188708,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Alberthaland",
+              "street": "Will Islands",
+              "house": 40,
+              "flat": 732
+            },
+            "finalDate": "2025-12-17T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-13T13:55:07.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693d702c1c508c5d5ec183d9",
+          "products": [
+            {
+              "_id": "693d70311c508c5d5ec18460",
+              "name": "Soap60877",
+              "amount": 310,
+              "price": 82967,
+              "manufacturer": "Tesla",
+              "notes": "U9eevvsEeuHLF7NMYKlgMXiIm6WslnLaRgTOJZVapesSrDyXHF1wg3D4wtKRiHqMPwwICYU3P2ArxEWmaPUZdKRZkIlQNePdk6jlBqqQQDccDkzhnEnxMX2L5QdDp5CujCQnlEXvtIurSxCoFS4A08S6IxY2vD7Ws7dvmgdHS9zvqCuI76xL4YpwmOfVGxMlux7tP6dKaPPoqP9zPydpvBPwACdbNxhg8cDno43TcuN9Ql6zZHysrRj4Ng",
+              "received": false
+            },
+            {
+              "_id": "693d70351c508c5d5ec1858c",
+              "name": "Tuna79432",
+              "amount": 695,
+              "price": 29701,
+              "manufacturer": "Apple",
+              "notes": "TLmJdBIndq34XNOpDJZ8grDl28Pt8AKLaAZzclhOAyNPPSqfhAEi6K6WGLuBb7Hxpx07FdKdZScYhDOEuoWFB9o6FGMFk65cLDya3Twjl4WhrHYjz8olcGmXOvdKotMtJJksOyvhFQPXHQoSuUiKSgrcl3ZgdmYKr7vjZOrjizInOSdguy7CZNCoE9Onk3AYPNkxu5XrNyWt4qUwUqqj6bMvfr7L82cv6xpkWbmWe3i0IysewLCILUK7gg",
+              "received": false
+            },
+            {
+              "_id": "693d70391c508c5d5ec185e2",
+              "name": "Fish65700",
+              "amount": 68,
+              "price": 76040,
+              "manufacturer": "Google",
+              "notes": "pt1kNMAcvlT30Y5Wkx4nddiVGh6bH69pzU45jS7HcwVsRlIfSyfsKOHEe1Chf7gwlmPtR9jHWgnyfpHRMQHTTUttIGES2Gn0L7OKpYe8uWERz1lTU6vN2iYCqtTeBzyXfIR6Z4JxdaAH1jmaWKEh5Tku6mPLkJ3qa8NK4AgYL1OTZ2AmYrFuWcjEEWm3hXoe9ATNba4SLlEqeD8WWRylQJtsLLFfriSyde38a7I8RDIJvCb0HiglusqUap",
+              "received": false
+            }
+          ],
+          "total_price": 188708,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Alberthaland",
+              "street": "Will Islands",
+              "house": 40,
+              "flat": 732
+            },
+            "finalDate": "2025-12-17T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-13T13:55:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693d702c1c508c5d5ec183d9",
+          "products": [
+            {
+              "_id": "693d70311c508c5d5ec18460",
+              "name": "Soap60877",
+              "amount": 310,
+              "price": 82967,
+              "manufacturer": "Tesla",
+              "notes": "U9eevvsEeuHLF7NMYKlgMXiIm6WslnLaRgTOJZVapesSrDyXHF1wg3D4wtKRiHqMPwwICYU3P2ArxEWmaPUZdKRZkIlQNePdk6jlBqqQQDccDkzhnEnxMX2L5QdDp5CujCQnlEXvtIurSxCoFS4A08S6IxY2vD7Ws7dvmgdHS9zvqCuI76xL4YpwmOfVGxMlux7tP6dKaPPoqP9zPydpvBPwACdbNxhg8cDno43TcuN9Ql6zZHysrRj4Ng",
+              "received": false
+            },
+            {
+              "_id": "693d70351c508c5d5ec1858c",
+              "name": "Tuna79432",
+              "amount": 695,
+              "price": 29701,
+              "manufacturer": "Apple",
+              "notes": "TLmJdBIndq34XNOpDJZ8grDl28Pt8AKLaAZzclhOAyNPPSqfhAEi6K6WGLuBb7Hxpx07FdKdZScYhDOEuoWFB9o6FGMFk65cLDya3Twjl4WhrHYjz8olcGmXOvdKotMtJJksOyvhFQPXHQoSuUiKSgrcl3ZgdmYKr7vjZOrjizInOSdguy7CZNCoE9Onk3AYPNkxu5XrNyWt4qUwUqqj6bMvfr7L82cv6xpkWbmWe3i0IysewLCILUK7gg",
+              "received": false
+            },
+            {
+              "_id": "693d70391c508c5d5ec185e2",
+              "name": "Fish65700",
+              "amount": 68,
+              "price": 76040,
+              "manufacturer": "Google",
+              "notes": "pt1kNMAcvlT30Y5Wkx4nddiVGh6bH69pzU45jS7HcwVsRlIfSyfsKOHEe1Chf7gwlmPtR9jHWgnyfpHRMQHTTUttIGES2Gn0L7OKpYe8uWERz1lTU6vN2iYCqtTeBzyXfIR6Z4JxdaAH1jmaWKEh5Tku6mPLkJ3qa8NK4AgYL1OTZ2AmYrFuWcjEEWm3hXoe9ATNba4SLlEqeD8WWRylQJtsLLFfriSyde38a7I8RDIJvCb0HiglusqUap",
+              "received": false
+            }
+          ],
+          "total_price": 188708,
+          "delivery": null,
+          "changedOn": "2025-12-13T13:55:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
