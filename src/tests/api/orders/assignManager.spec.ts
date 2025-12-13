@@ -26,13 +26,13 @@ test.describe("[API] [Sales Portal] [Orders] [Assign a manager to an order]", ()
 
 	test("Assign a manager", async ({ customersApiService, productsApi, ordersApi }) => {
 		const customer = await customersApiService.create(token);
-		let id_customer = customer._id;
+		const id_customer = customer._id;
 
 		idCustomers.push(id_customer);
 
 		const createdProduct = await productsApi.create(generateProductData(), token);
 
-		let id_product = createdProduct.body.Product._id;
+		const id_product = createdProduct.body.Product._id;
 		idProducts.push(id_product);
 
 		const orderData: IOrder = {
@@ -41,7 +41,7 @@ test.describe("[API] [Sales Portal] [Orders] [Assign a manager to an order]", ()
 		};
 
 		const createOrderForCustomer = await ordersApi.create(orderData, token);
-		let id_order = createOrderForCustomer.body.Order._id;
+		const id_order = createOrderForCustomer.body.Order._id;
 		idOrders.push(id_order);
 
 		const manager_id = "692337cd1c508c5d5e95332d";
@@ -60,13 +60,13 @@ test.describe("[API] [Sales Portal] [Orders] [Assign a manager to an order]", ()
 
 	test("Assign same manager again", async ({ customersApiService, productsApi, ordersApi }) => {
 		const customer = await customersApiService.create(token);
-		let id_customer = customer._id;
+		const id_customer = customer._id;
 
 		idCustomers.push(id_customer);
 
 		const createdProduct = await productsApi.create(generateProductData(), token);
 
-		let id_product = createdProduct.body.Product._id;
+		const id_product = createdProduct.body.Product._id;
 		idProducts.push(id_product);
 
 		const orderData: IOrder = {
@@ -75,7 +75,7 @@ test.describe("[API] [Sales Portal] [Orders] [Assign a manager to an order]", ()
 		};
 
 		const createOrderForCustomer = await ordersApi.create(orderData, token);
-		let id_order = createOrderForCustomer.body.Order._id;
+		const id_order = createOrderForCustomer.body.Order._id;
 		idOrders.push(id_order);
 
 		const manager_id = "692337cd1c508c5d5e95332d";
@@ -95,13 +95,13 @@ test.describe("[API] [Sales Portal] [Orders] [Assign a manager to an order]", ()
 
 	test("Assign different manager to an order", async ({ customersApiService, productsApi, ordersApi }) => {
 		const customer = await customersApiService.create(token);
-		let id_customer = customer._id;
+		const id_customer = customer._id;
 
 		idCustomers.push(id_customer);
 
 		const createdProduct = await productsApi.create(generateProductData(), token);
 
-		let id_product = createdProduct.body.Product._id;
+		const id_product = createdProduct.body.Product._id;
 		idProducts.push(id_product);
 
 		const orderData: IOrder = {
@@ -110,7 +110,7 @@ test.describe("[API] [Sales Portal] [Orders] [Assign a manager to an order]", ()
 		};
 
 		const createOrderForCustomer = await ordersApi.create(orderData, token);
-		let id_order = createOrderForCustomer.body.Order._id;
+		const id_order = createOrderForCustomer.body.Order._id;
 		idOrders.push(id_order);
 
 		const manager1_id = "692337cd1c508c5d5e95332d";
@@ -132,13 +132,13 @@ test.describe("[API] [Sales Portal] [Orders] [Assign a manager to an order]", ()
 
 	test("Assign a manager without TOKEN", async ({ customersApiService, productsApi, ordersApi }) => {
 		const customer = await customersApiService.create(token);
-		let id_customer = customer._id;
+		const id_customer = customer._id;
 
 		idCustomers.push(id_customer);
 
 		const createdProduct = await productsApi.create(generateProductData(), token);
 
-		let id_product = createdProduct.body.Product._id;
+		const id_product = createdProduct.body.Product._id;
 		idProducts.push(id_product);
 
 		const orderData: IOrder = {
@@ -147,7 +147,7 @@ test.describe("[API] [Sales Portal] [Orders] [Assign a manager to an order]", ()
 		};
 
 		const createOrderForCustomer = await ordersApi.create(orderData, token);
-		let id_order = createOrderForCustomer.body.Order._id;
+		const id_order = createOrderForCustomer.body.Order._id;
 		idOrders.push(id_order);
 
 		const manager_id = "692337cd1c508c5d5e95332d";
@@ -158,13 +158,13 @@ test.describe("[API] [Sales Portal] [Orders] [Assign a manager to an order]", ()
 
 	test("Assign a manager to non-existent order", async ({ customersApiService, productsApi, ordersApi }) => {
 		const customer = await customersApiService.create(token);
-		let id_customer = customer._id;
+		const id_customer = customer._id;
 
 		idCustomers.push(id_customer);
 
 		const createdProduct = await productsApi.create(generateProductData(), token);
 
-		let id_product = createdProduct.body.Product._id;
+		const id_product = createdProduct.body.Product._id;
 		idProducts.push(id_product);
 
 		const manager_id = "692337cd1c508c5d5e95332d";
@@ -179,12 +179,12 @@ test.describe("[API] [Sales Portal] [Orders] [Assign a manager to an order]", ()
 
 	test("Assign non-existent manager", async ({ customersApiService, productsApi, ordersApi }) => {
 		const customer = await customersApiService.create(token);
-		let id_customer = customer._id;
+		const id_customer = customer._id;
 
 		idCustomers.push(id_customer);
 		const createdProduct = await productsApi.create(generateProductData(), token);
 
-		let id_product = createdProduct.body.Product._id;
+		const id_product = createdProduct.body.Product._id;
 		idProducts.push(id_product);
 
 		const orderData: IOrder = {
@@ -193,7 +193,7 @@ test.describe("[API] [Sales Portal] [Orders] [Assign a manager to an order]", ()
 		};
 
 		const createOrderForCustomer = await ordersApi.create(orderData, token);
-		let id_order = createOrderForCustomer.body.Order._id;
+		const id_order = createOrderForCustomer.body.Order._id;
 		idOrders.push(id_order);
 
 		const manager_id = "111111cd1c508c5d5e95332d";

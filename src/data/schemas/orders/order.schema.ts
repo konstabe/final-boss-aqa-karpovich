@@ -24,7 +24,7 @@ export const orderSchema = {
 		delivery: {
 			oneOf: [
 				{
-					type: "array",
+					type: "object",
 					items: deliverySchema,
 				},
 				{ type: "null" },
@@ -89,7 +89,7 @@ export const orderSchemaWithCustomerData = {
 		delivery: {
 			oneOf: [
 				{
-					type: "array",
+					type: "object",
 					items: deliverySchema,
 				},
 				{ type: "null" },
@@ -114,7 +114,15 @@ export const orderSchemaWithCustomerData = {
 			type: "array",
 			items: historySchema,
 		},
-		assignedManager: assignedManagerSchema,
+		assignedManager: {
+			oneOf: [
+				{
+					type: "object",
+					items: assignedManagerSchema,
+				},
+				{ type: "null" },
+			],
+		},
 	},
 	required: [
 		"_id",

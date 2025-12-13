@@ -9,6 +9,7 @@ import { getRandomFutureDate } from "utils/generateData.utils";
 import { expect } from "fixtures/api.fixture";
 import { getRandomItemsFromArray } from "utils/getRandom.utils";
 import { orderSchema } from "data/schemas/orders/order.schema";
+import { getOrdersSchema } from "data/schemas/orders/getOrder.schema";
 
 export class OrdersApiService {
 	constructor(
@@ -32,7 +33,7 @@ export class OrdersApiService {
 		const createdOrder = await this.ordersApi.create(order, token);
 		validateResponse(createdOrder, {
 			status: STATUS_CODES.CREATED,
-			schema: orderSchema, //подставить нужную схему
+			schema: getOrdersSchema,
 			IsSuccess: true,
 			ErrorMessage: null,
 		});

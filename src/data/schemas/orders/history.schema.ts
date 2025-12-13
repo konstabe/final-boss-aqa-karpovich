@@ -1,7 +1,7 @@
 import { ORDER_STATUS } from "data/orders/orderStatus";
 import { productForOrdersSchema } from "./productForOrders.schema";
-import { DELIVERY_CONDITION } from "data/orders/deliveryCondition";
 import { assignedManagerSchema } from "./assignedManager.schema";
+import { deliverySchema } from "./delivery.schema";
 
 export const historySchema = {
 	type: "object",
@@ -23,8 +23,8 @@ export const historySchema = {
 		delivery: {
 			oneOf: [
 				{
-					type: "string",
-					enum: Object.values(DELIVERY_CONDITION),
+					type: "object",
+					items: deliverySchema,
 				},
 				{ type: "null" },
 			],

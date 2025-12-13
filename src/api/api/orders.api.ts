@@ -1,6 +1,6 @@
 import { IApiClient, IRequestOptions } from "api/core/types";
 import { apiConfig } from "config/apiConfig";
-import { IOrderResponse, IOrder, IOrderDelivery, OrderStatus } from "data/types/order.types";
+import { IOrderResponse, IOrder, IOrderDelivery, OrderStatus, IDelivery } from "data/types/order.types";
 
 export class OrdersApi {
 	constructor(private apiClient: IApiClient) {}
@@ -120,7 +120,7 @@ export class OrdersApi {
 		return await this.apiClient.send<null>(options);
 	}
 
-	async updateDeliveryDetails(orderId: string, deliveryDetails: IOrderDelivery, token: string) {
+	async updateDeliveryDetails(orderId: string, deliveryDetails: IDelivery, token: string) {
 		const options: IRequestOptions = {
 			baseURL: apiConfig.baseUrl!,
 			url: apiConfig.endpoints.updateDelivery(orderId),

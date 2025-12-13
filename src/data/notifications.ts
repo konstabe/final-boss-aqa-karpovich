@@ -17,4 +17,5 @@ export const ERROR_MESSAGES = {
 	CUSTOMER_NOT_FOUND_WITH_ID: (id: string) => `Not found customer with ID: ${id}`,
 	ORDER_NOT_FOUND: (id: string) => `Order with id '${id}' wasn't found`,
 	MANAGER_NOT_FOUND: (id: string) => `Manager with id '${id}' wasn't found`,
+	INVALID_DELIVERY_DATE: "Invalid final date",
 };
