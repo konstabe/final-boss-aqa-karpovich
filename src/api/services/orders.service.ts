@@ -13,6 +13,9 @@ import { IProductFromResponse } from "data/types/product.types";
 import { ORDER_STATUS } from "data/orders/orderStatus";
 
 export class OrdersApiService {
+	ordersIds: string[] = [];
+	customersIds: string[] = [];
+	productsIds: string[] = [];
 	constructor(
 		private ordersApi: OrdersApi,
 		private customersApiService: CustomersApiService,
@@ -43,6 +46,8 @@ export class OrdersApiService {
 		const { customer, products } = await this.createOrderData(token, numberOfProducts);
 
 		const createdOrder = await this.ordersApi.create({ customer, products }, token);
+		this.collectIdsForDeletion(createdOrder.body.Order);
+
 		validateResponse(createdOrder, {
 			status: STATUS_CODES.CREATED,
 			schema: orderResponseSchema,
@@ -59,7 +64,7 @@ export class OrdersApiService {
 		const response = await this.ordersApi.updateDeliveryDetails(order._id, deliveryDetails, token);
 		validateResponse(response, {
 			status: STATUS_CODES.OK,
-			schema: orderResponseSchema, //подставить нужную схему
+			schema: orderResponseSchema,
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
@@ -210,32 +215,27 @@ export class OrdersApiService {
 		return deleted;
 	}
 
-	async fullDelete(token: string, ordersId: string[], customersId: string[], productsId: string[]) {
-		if (ordersId.length > 0) {
-			await Promise.all(ordersId.map((id) => this.deleteOrder(token, id)));
+	async fullDelete(token: string) {
+		if (this.ordersIds.length > 0) {
+			await Promise.all(this.ordersIds.map((id) => this.deleteOrder(token, id)));
 		}
 
-		if (productsId.length > 0) {
-			await Promise.all(productsId.map((id) => this.productsApiService.delete(token, id)));
+		if (this.productsIds.length > 0) {
+			await Promise.all(this.productsIds.map((id) => this.productsApiService.delete(token, id)));
 		}
 
-		if (customersId.length > 0) {
-			await Promise.all(customersId.map((id) => this.customersApiService.delete(id, token)));
+		if (this.customersIds.length > 0) {
+			await Promise.all(this.customersIds.map((id) => this.customersApiService.delete(id, token)));
 		}
 
-		ordersId.length = 0;
-		productsId.length = 0;
-		customersId.length = 0;
+		this.ordersIds.length = 0;
+		this.productsIds.length = 0;
+		this.customersIds.length = 0;
 	}
 
-	async collectIdsForDeletion(
-		order: IOrderFromResponse,
-		ordersArray: string[],
-		customersArray: string[],
-		productsArray: string[],
-	) {
-		ordersArray.push(order._id);
-		customersArray.push(order.customer._id);
-		order.products.forEach((product) => productsArray.push(product._id));
+	collectIdsForDeletion(order: IOrderFromResponse) {
+		this.ordersIds.push(order._id);
+		this.customersIds.push(order.customer._id);
+		order.products.forEach((product) => this.productsIds.push(product._id));
 	}
 }
