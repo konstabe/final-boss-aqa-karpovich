@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 19:34:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-r8kHZXLBLmLO/hvDG2VffzzbZ7w\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f112e1c508c5d5ec7f8d3",
+        "email": "Ramon.Fahey16@gmail.com",
+        "name": "Jade Denesik",
+        "country": "France",
+        "city": "Port Quentin",
+        "street": "W Broadway Street",
+        "house": 19,
+        "flat": 192,
+        "phone": "+14106215218",
+        "createdOn": "2025-12-14T19:34:06.000Z",
+        "notes": "iIX7yFozo0VyhP9JYdzPMSm8ibOKyrneG0I1BSKG1dQXbJrNYINfXQbEPqj0HR9WqtX4XxpTWp6qS2pXvp77votGka1qIh2u8bM4QCR8UmRvsRfPVRZfDepb7Rlb9VuH4BEreLDlt20oJqsYUwwPYqsGZNyBMWEkMKrwf0sFzCpStVkTzgj876S0OgwOD6kR3YItivnbxBrroA4ZDuLfzqZ4QQ9QIyYQjfx1L5gco55oKKyNY5n0b76PRZ"
+      },
+      "products": [
+        {
+          "_id": "693f11361c508c5d5ec7fb28",
+          "name": "Pizza15146",
+          "amount": 95,
+          "price": 5034,
+          "manufacturer": "Sony",
+          "notes": "1nGxvDbDsES91RjKzmlnObbzu9y8IBWbc9lfQnDZcH97gBhp6G0ys90LSnfdQoCzyUwGPcsdfDFU3cCmh4ql8t89FBUFg4dQZ9egP6ogwTtAXIPJKfslf4EyCVQt67mG8A13NXBeN6kOyBy61BNMsPABMNgOlPSHDxEemfeymYMYn1jA4yPxbgg74Lf2hVKQbvAgZJh5QPzusIyUiq2mpUw1VOUWPMSmFHvoPTVLkZvQTDoEPAj8DhgOzl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 5034,
+      "createdOn": "2025-12-14T19:34:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f112e1c508c5d5ec7f8d3",
+          "products": [
+            {
+              "_id": "693f11361c508c5d5ec7fb28",
+              "name": "Pizza15146",
+              "amount": 95,
+              "price": 5034,
+              "manufacturer": "Sony",
+              "notes": "1nGxvDbDsES91RjKzmlnObbzu9y8IBWbc9lfQnDZcH97gBhp6G0ys90LSnfdQoCzyUwGPcsdfDFU3cCmh4ql8t89FBUFg4dQZ9egP6ogwTtAXIPJKfslf4EyCVQt67mG8A13NXBeN6kOyBy61BNMsPABMNgOlPSHDxEemfeymYMYn1jA4yPxbgg74Lf2hVKQbvAgZJh5QPzusIyUiq2mpUw1VOUWPMSmFHvoPTVLkZvQTDoEPAj8DhgOzl",
+              "received": false
+            }
+          ],
+          "total_price": 5034,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:34:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f11361c508c5d5ec7fb3b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

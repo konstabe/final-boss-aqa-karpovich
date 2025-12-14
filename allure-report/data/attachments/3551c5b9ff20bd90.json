@@ -1,0 +1,194 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 19:36:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6126",
+    "etag": "W/\"17ee-CPPsrU0ktsK54HP0fs78i+8Yw7U\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693f11d91c508c5d5ec82c13",
+      "status": "Canceled",
+      "customer": {
+        "_id": "693f11c61c508c5d5ec828a9",
+        "email": "Joany54@yahoo.com",
+        "name": "Eloy Wuckert",
+        "country": "Great Britain",
+        "city": "Fort Myron",
+        "street": "W Front Street",
+        "house": 28,
+        "flat": 132,
+        "phone": "+16845244179",
+        "createdOn": "2025-12-14T19:36:38.000Z",
+        "notes": "f3cBaeRDIhFwQxP14p3CuCMy59we9MWTetNKySG8s4eb2s7CSEDYW9PqXahfqivtGgkkIXRMt9smVWGPTQBQuOSWHKygooZwV2CzLyOp7rFLegFUDamu4io0wXBD0RCKdZyJj6hAlvN7yhJfVAbCtDbcScOIbqdxKnNjFlwoExsF8xrU1g1QZN8U3ezV3cPhMlXdTEeeOaBrFlDuQG49UGxVedB7p446RpGtp1r4p6p7VXRMdj5lRHLE9H"
+      },
+      "products": [
+        {
+          "_id": "693f11cb1c508c5d5ec828e2",
+          "name": "Pants5620",
+          "amount": 136,
+          "price": 71338,
+          "manufacturer": "Xiaomi",
+          "notes": "B6zHUpXHFaSxvDy9qUYsiAafNBvXc4uw3HWqIkqd3r7m4MvUzEdSP889nMu0VradiyjdClxZUCrqw8DvoLsfOwgQfG3ZFfWfwPcMdzgynTkJXxjYSODQFiVvF6ZfSdbo8557ynF8P3bewgKvjgknWIGYSAHaUERvYva7sTUaZxevK3Je7doL2OUNZa4DlQVuRqTsvX8TqAGidzuPXAVIKoa0sH93fpzXBughHyScEQvTfSldkGntmntKUb",
+          "received": false
+        },
+        {
+          "_id": "693f11cf1c508c5d5ec82a5d",
+          "name": "Keyboard17709",
+          "amount": 550,
+          "price": 99086,
+          "manufacturer": "Samsung",
+          "notes": "T8tP6UHqaSLTYJxPT018Or7Pi12uEtGkEmP28TMvSankyFIPs14MKNw6u1CBz0gGkdV9NJk3QDw12ea2xrkdPEVFQZ1PUdSGB78eKo3z7i6Cb8tao4HQqVOWnhMvx5dIpQUO6gPu6JrFKCJMsftFcAyMxEBZM3AD30k62Z7Th8nrVWC6jol9fDPwu2OAFGYCG9xnOCxNipFsFBhmw0ridrEJnbCiz87mnPPHPxiaWUTB9mmmJJGLXLyHcu",
+          "received": false
+        },
+        {
+          "_id": "693f11d41c508c5d5ec82b0d",
+          "name": "Computer28011",
+          "amount": 550,
+          "price": 61811,
+          "manufacturer": "Microsoft",
+          "notes": "ufCVEzuwaMrKUJ0fEPtsBuKaIJK5dGxusLycItmOu3EhxkPjh8jnawUqJUp5zkHAJeCDoQGo8V94gcnnlFDoaVJoweQm0SvIFEs4wN5ELutHHWjXgwOKcCsNNvDwcx9TE0x2cRz7xxgrQ4Zk2ZJpiM1PrSwHbm2TXpd6j2Eytr6ttjkkJ1z0P8w2wwgfDbH2Ht3lQTUMefomXqQdD5s2812ENWslnPH9NeUcQZWWHhHn5d6TyiAaLY5BwX",
+          "received": false
+        },
+        {
+          "_id": "693f11d91c508c5d5ec82c03",
+          "name": "Chicken8016",
+          "amount": 159,
+          "price": 13658,
+          "manufacturer": "Sony",
+          "notes": "oBpdQTaTjATs3NRLJrVw6VUGVc2cA9Ali9yjPoLMXKIrC8KSRpWLtbciM6kOsyHuNVIsmoe65uNIm65a4mGp11ueiu39F4pzdfbmbTfQ3NjhAq0gE9B3MODOCujVUN0plMMTs6lkjiXpJSKt5hxO2FdHZjj9kEo4XgcInf2tecEejszi8lNC6isHUjcP55fhtGFW9wQMKYQ2kecAXAK6r70IFGKV7nEg2NWJGcqOulmd8z0zXN7oHTg94l",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 245893,
+      "createdOn": "2025-12-14T19:36:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "693f11c61c508c5d5ec828a9",
+          "products": [
+            {
+              "_id": "693f11cb1c508c5d5ec828e2",
+              "name": "Pants5620",
+              "amount": 136,
+              "price": 71338,
+              "manufacturer": "Xiaomi",
+              "notes": "B6zHUpXHFaSxvDy9qUYsiAafNBvXc4uw3HWqIkqd3r7m4MvUzEdSP889nMu0VradiyjdClxZUCrqw8DvoLsfOwgQfG3ZFfWfwPcMdzgynTkJXxjYSODQFiVvF6ZfSdbo8557ynF8P3bewgKvjgknWIGYSAHaUERvYva7sTUaZxevK3Je7doL2OUNZa4DlQVuRqTsvX8TqAGidzuPXAVIKoa0sH93fpzXBughHyScEQvTfSldkGntmntKUb",
+              "received": false
+            },
+            {
+              "_id": "693f11cf1c508c5d5ec82a5d",
+              "name": "Keyboard17709",
+              "amount": 550,
+              "price": 99086,
+              "manufacturer": "Samsung",
+              "notes": "T8tP6UHqaSLTYJxPT018Or7Pi12uEtGkEmP28TMvSankyFIPs14MKNw6u1CBz0gGkdV9NJk3QDw12ea2xrkdPEVFQZ1PUdSGB78eKo3z7i6Cb8tao4HQqVOWnhMvx5dIpQUO6gPu6JrFKCJMsftFcAyMxEBZM3AD30k62Z7Th8nrVWC6jol9fDPwu2OAFGYCG9xnOCxNipFsFBhmw0ridrEJnbCiz87mnPPHPxiaWUTB9mmmJJGLXLyHcu",
+              "received": false
+            },
+            {
+              "_id": "693f11d41c508c5d5ec82b0d",
+              "name": "Computer28011",
+              "amount": 550,
+              "price": 61811,
+              "manufacturer": "Microsoft",
+              "notes": "ufCVEzuwaMrKUJ0fEPtsBuKaIJK5dGxusLycItmOu3EhxkPjh8jnawUqJUp5zkHAJeCDoQGo8V94gcnnlFDoaVJoweQm0SvIFEs4wN5ELutHHWjXgwOKcCsNNvDwcx9TE0x2cRz7xxgrQ4Zk2ZJpiM1PrSwHbm2TXpd6j2Eytr6ttjkkJ1z0P8w2wwgfDbH2Ht3lQTUMefomXqQdD5s2812ENWslnPH9NeUcQZWWHhHn5d6TyiAaLY5BwX",
+              "received": false
+            },
+            {
+              "_id": "693f11d91c508c5d5ec82c03",
+              "name": "Chicken8016",
+              "amount": 159,
+              "price": 13658,
+              "manufacturer": "Sony",
+              "notes": "oBpdQTaTjATs3NRLJrVw6VUGVc2cA9Ali9yjPoLMXKIrC8KSRpWLtbciM6kOsyHuNVIsmoe65uNIm65a4mGp11ueiu39F4pzdfbmbTfQ3NjhAq0gE9B3MODOCujVUN0plMMTs6lkjiXpJSKt5hxO2FdHZjj9kEo4XgcInf2tecEejszi8lNC6isHUjcP55fhtGFW9wQMKYQ2kecAXAK6r70IFGKV7nEg2NWJGcqOulmd8z0zXN7oHTg94l",
+              "received": false
+            }
+          ],
+          "total_price": 245893,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:36:57.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693f11c61c508c5d5ec828a9",
+          "products": [
+            {
+              "_id": "693f11cb1c508c5d5ec828e2",
+              "name": "Pants5620",
+              "amount": 136,
+              "price": 71338,
+              "manufacturer": "Xiaomi",
+              "notes": "B6zHUpXHFaSxvDy9qUYsiAafNBvXc4uw3HWqIkqd3r7m4MvUzEdSP889nMu0VradiyjdClxZUCrqw8DvoLsfOwgQfG3ZFfWfwPcMdzgynTkJXxjYSODQFiVvF6ZfSdbo8557ynF8P3bewgKvjgknWIGYSAHaUERvYva7sTUaZxevK3Je7doL2OUNZa4DlQVuRqTsvX8TqAGidzuPXAVIKoa0sH93fpzXBughHyScEQvTfSldkGntmntKUb",
+              "received": false
+            },
+            {
+              "_id": "693f11cf1c508c5d5ec82a5d",
+              "name": "Keyboard17709",
+              "amount": 550,
+              "price": 99086,
+              "manufacturer": "Samsung",
+              "notes": "T8tP6UHqaSLTYJxPT018Or7Pi12uEtGkEmP28TMvSankyFIPs14MKNw6u1CBz0gGkdV9NJk3QDw12ea2xrkdPEVFQZ1PUdSGB78eKo3z7i6Cb8tao4HQqVOWnhMvx5dIpQUO6gPu6JrFKCJMsftFcAyMxEBZM3AD30k62Z7Th8nrVWC6jol9fDPwu2OAFGYCG9xnOCxNipFsFBhmw0ridrEJnbCiz87mnPPHPxiaWUTB9mmmJJGLXLyHcu",
+              "received": false
+            },
+            {
+              "_id": "693f11d41c508c5d5ec82b0d",
+              "name": "Computer28011",
+              "amount": 550,
+              "price": 61811,
+              "manufacturer": "Microsoft",
+              "notes": "ufCVEzuwaMrKUJ0fEPtsBuKaIJK5dGxusLycItmOu3EhxkPjh8jnawUqJUp5zkHAJeCDoQGo8V94gcnnlFDoaVJoweQm0SvIFEs4wN5ELutHHWjXgwOKcCsNNvDwcx9TE0x2cRz7xxgrQ4Zk2ZJpiM1PrSwHbm2TXpd6j2Eytr6ttjkkJ1z0P8w2wwgfDbH2Ht3lQTUMefomXqQdD5s2812ENWslnPH9NeUcQZWWHhHn5d6TyiAaLY5BwX",
+              "received": false
+            },
+            {
+              "_id": "693f11d91c508c5d5ec82c03",
+              "name": "Chicken8016",
+              "amount": 159,
+              "price": 13658,
+              "manufacturer": "Sony",
+              "notes": "oBpdQTaTjATs3NRLJrVw6VUGVc2cA9Ali9yjPoLMXKIrC8KSRpWLtbciM6kOsyHuNVIsmoe65uNIm65a4mGp11ueiu39F4pzdfbmbTfQ3NjhAq0gE9B3MODOCujVUN0plMMTs6lkjiXpJSKt5hxO2FdHZjj9kEo4XgcInf2tecEejszi8lNC6isHUjcP55fhtGFW9wQMKYQ2kecAXAK6r70IFGKV7nEg2NWJGcqOulmd8z0zXN7oHTg94l",
+              "received": false
+            }
+          ],
+          "total_price": 245893,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:36:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

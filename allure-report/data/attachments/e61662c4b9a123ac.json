@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 19:35:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2637",
+    "etag": "W/\"a4d-VhazCV57cXHNyKpo36zGRO1JBS0\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f11751c508c5d5ec81163",
+        "email": "Abner.Von86@yahoo.com",
+        "name": "Fay Lowe",
+        "country": "Canada",
+        "city": "Gradyview",
+        "street": "Chadrick Knolls",
+        "house": 22,
+        "flat": 887,
+        "phone": "+15505785104",
+        "createdOn": "2025-12-14T19:35:17.000Z",
+        "notes": "ebEZ85eDx6aWwRbxtlKaoz8cG9QvdqdIai7VgXBCpLQjWCvJYLDL05U1xFEoohqn0Cav7FXtLgqXebQkfqstVcbyuR2cj4TcUPFNBcrUQomTrmYRe2mDuELXkMzeQKJ0lC0tcVAO0lV4ZA96tAkKQJ9kMH38py4I9vuhdMEulQssdFfdXmBdZZ3tkP4Dmp7zD2Q10j45c77265jzM3ZmjeBbjIgRitRJ5BUGojBYG3hqDOKMLXPsJ4rFLT"
+      },
+      "products": [
+        {
+          "_id": "693f117a1c508c5d5ec812a2",
+          "name": "Soap99204",
+          "amount": 361,
+          "price": 67449,
+          "manufacturer": "Xiaomi",
+          "notes": "wJQlknhrRGCrdaIrliIBveoa3xCPCkmhRaNvR8x8D1KxZT7dcx86ZIU5alFWYgMLnyK29bsEOM4NDH71yXhXWdeShhUx1XHvpU6oCcThh79a9s4zIiuklplpXQGAC6eRsSo849PDuaCStqhIRVDw9XSFyO9sayOFCeJL5FIFATvaJsBJWqe3GIHM89gb4fbxqXX9UElQ2xtULWyjFCFwifamNhuMJCz0PS50bqAhtyN2g1PLLdWDDT0Ehb",
+          "received": false
+        },
+        {
+          "_id": "693f117f1c508c5d5ec81366",
+          "name": "Chips53047",
+          "amount": 0,
+          "price": 2993,
+          "manufacturer": "Amazon",
+          "notes": "szlssNpK3gypEzjN14OkywAgI8gGkRdBtjKIWBmcQgT2LuyU5e3RhQDAc3PWKBOHpvLUzjOW9cAFlqasiDfUvkD7WzAblAclbwuFEuewp4qDEAjLw3wD0FV5AY8NYy5f30faV6Nfdp6TczFdorzK5w7PahsABKZjOyER0B1myyy2KLbOHrBDowMo40uYVBbKQbGbdnYf7J1BfOonoENqmS9TgIyqJZtfBpv1xP3nRkw261ShU6QUVjZIHD",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 70442,
+      "createdOn": "2025-12-14T19:35:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f11751c508c5d5ec81163",
+          "products": [
+            {
+              "_id": "693f117a1c508c5d5ec812a2",
+              "name": "Soap99204",
+              "amount": 361,
+              "price": 67449,
+              "manufacturer": "Xiaomi",
+              "notes": "wJQlknhrRGCrdaIrliIBveoa3xCPCkmhRaNvR8x8D1KxZT7dcx86ZIU5alFWYgMLnyK29bsEOM4NDH71yXhXWdeShhUx1XHvpU6oCcThh79a9s4zIiuklplpXQGAC6eRsSo849PDuaCStqhIRVDw9XSFyO9sayOFCeJL5FIFATvaJsBJWqe3GIHM89gb4fbxqXX9UElQ2xtULWyjFCFwifamNhuMJCz0PS50bqAhtyN2g1PLLdWDDT0Ehb",
+              "received": false
+            },
+            {
+              "_id": "693f117f1c508c5d5ec81366",
+              "name": "Chips53047",
+              "amount": 0,
+              "price": 2993,
+              "manufacturer": "Amazon",
+              "notes": "szlssNpK3gypEzjN14OkywAgI8gGkRdBtjKIWBmcQgT2LuyU5e3RhQDAc3PWKBOHpvLUzjOW9cAFlqasiDfUvkD7WzAblAclbwuFEuewp4qDEAjLw3wD0FV5AY8NYy5f30faV6Nfdp6TczFdorzK5w7PahsABKZjOyER0B1myyy2KLbOHrBDowMo40uYVBbKQbGbdnYf7J1BfOonoENqmS9TgIyqJZtfBpv1xP3nRkw261ShU6QUVjZIHD",
+              "received": false
+            }
+          ],
+          "total_price": 70442,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:35:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f11821c508c5d5ec813cf"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

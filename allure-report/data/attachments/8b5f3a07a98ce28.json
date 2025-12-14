@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 19:34:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-/atV5KhUo7wtF/oxP2MKwh0ucrk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f11581c508c5d5ec8047d",
+        "email": "Xavier18@gmail.com",
+        "name": "Jaunita Rowe",
+        "country": "Belarus",
+        "city": "Quitzonburgh",
+        "street": "Carroll Rapids",
+        "house": 30,
+        "flat": 571,
+        "phone": "+16222969101",
+        "createdOn": "2025-12-14T19:34:48.000Z",
+        "notes": "60wbh87LZoMgawufRpoSidg1Tgj3sb2hkgxTNnz6tx0ApaUKUGTKSIbEph0esJQN1MJIESeq5iodHikvKHX6FnfdEPVRlTeCGT24iHbverb1tG10aKoM51xnrV8KtaEka5ZGcS2U8LNWfUXRHEV5cERIFuKFiBZL0Ne2XrURsVsaF0SKdW27hN8FNBdp1IBtqGOGgx8IhOdqRLHpN60Bbj9KoOKrsOkRFHY48TAnHwb7HODeMdRA7k5JB8"
+      },
+      "products": [
+        {
+          "_id": "693f11611c508c5d5ec80721",
+          "name": "Shirt65312",
+          "amount": 463,
+          "price": 19126,
+          "manufacturer": "Xiaomi",
+          "notes": "O0L9koeSabTmA6HU1FG1DDQB3mOD0cBcpniabTk0D6gqAvpIMq0pPqca2XH18m82YWJKDIZmYvQyvyIGyLjb0M5VfOEYBMCcqOjbMOzN5v2YmAD6VjmmYKcA3ZGqhZB4fu5bcQJtlzUf0EAViWGO7MOT1mXkVq4dV8knC90AlXMvhki9cnvdJ4Ho5Jwf96CqC1rzTpdksYq9UCEV7k8oM1eyEVfdnTHSPDpoy5eMlMIe6KbWJ3TOIGfU1i",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 19126,
+      "createdOn": "2025-12-14T19:34:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f11581c508c5d5ec8047d",
+          "products": [
+            {
+              "_id": "693f11611c508c5d5ec80721",
+              "name": "Shirt65312",
+              "amount": 463,
+              "price": 19126,
+              "manufacturer": "Xiaomi",
+              "notes": "O0L9koeSabTmA6HU1FG1DDQB3mOD0cBcpniabTk0D6gqAvpIMq0pPqca2XH18m82YWJKDIZmYvQyvyIGyLjb0M5VfOEYBMCcqOjbMOzN5v2YmAD6VjmmYKcA3ZGqhZB4fu5bcQJtlzUf0EAViWGO7MOT1mXkVq4dV8knC90AlXMvhki9cnvdJ4Ho5Jwf96CqC1rzTpdksYq9UCEV7k8oM1eyEVfdnTHSPDpoy5eMlMIe6KbWJ3TOIGfU1i",
+              "received": false
+            }
+          ],
+          "total_price": 19126,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:34:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f11621c508c5d5ec8075e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

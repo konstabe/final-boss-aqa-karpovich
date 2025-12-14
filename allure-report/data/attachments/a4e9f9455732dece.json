@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 19:36:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2659",
+    "etag": "W/\"a63-fgjwzeYvln3/2rWby5jgykodGxo\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f11a21c508c5d5ec81e8f",
+        "email": "Zelda_Champlin86@gmail.com",
+        "name": "Izaiah Bailey",
+        "country": "Canada",
+        "city": "Carrollworth",
+        "street": "Bashirian Spring",
+        "house": 50,
+        "flat": 515,
+        "phone": "+16065387035",
+        "createdOn": "2025-12-14T19:36:02.000Z",
+        "notes": "8ZBSP0Qnscysx3uFeBHbSCAIx2iHPUsK6cuXOpLBKZj1jN0UWZHsIt9MkJmAHzNORg3Bjc4rAnyb2diJL9aoGa5LmAe7XAHgpaoCRQqDzz7DUrMNiYv4QmEeTbVMIZVlu549RRKhbTo8yqMe24BX5P46wKh7Fo7Ny9fSeCwiUq5eOARlD0suGUPEjaEuKAtMzhnFSdzn5YwH4vyHnTwEtS6yWgg6QwKRIJxoeB04InkEbALDfTMGK2QGH9"
+      },
+      "products": [
+        {
+          "_id": "693f11a81c508c5d5ec81f2e",
+          "name": "Fish84816",
+          "amount": 685,
+          "price": 17029,
+          "manufacturer": "Google",
+          "notes": "dXJ5SHwt3c4ngBj5G1i6KMFsYXQzZfrSnKtJaXpP8Dfi79nk7RvGAXDT654OATE5VDYhGfXXCo2gNbSSwtG1XEjzw7UMqCoodDS1yNrM2sdq2BD8MLDdIdq573zP5GFx7qEGEuVHBmlU4prbguuT5pt6VKAVF1dsrV49wygFPcBJHFlnvH3NRtB5HbpPJ1hHFF3Cr0Ua6ZsitOJQpnJ5PBjOb9Hiaf1Qjxaz0ICwEWAe9xI3VPNskeqBxE",
+          "received": false
+        },
+        {
+          "_id": "693f11ad1c508c5d5ec820a7",
+          "name": "Towels62989",
+          "amount": 133,
+          "price": 38412,
+          "manufacturer": "Amazon",
+          "notes": "FcAJ3thlpoS9i2rRvoLfcAkcGlCpAjWtlp8wFnqnkEAZwILjqdXjsTHKx4p25zu3qOE8OLcWFbpuPup66DArhn07aMxJd8TntpKUiZXYSprUXEr9AhDzGPfsINdrZMci1dp6XUvL8OblN32S1i1DzshguedKlucjX5ud4sv0OvHAJF3lzkyzBuIoYhF0YBdTfdfRKWEc2nTRS7xAGHrWTtpQeDNioT3rpLRiAaoPeoBsj7lt2SPwdMLX8J",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55441,
+      "createdOn": "2025-12-14T19:36:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f11a21c508c5d5ec81e8f",
+          "products": [
+            {
+              "_id": "693f11a81c508c5d5ec81f2e",
+              "name": "Fish84816",
+              "amount": 685,
+              "price": 17029,
+              "manufacturer": "Google",
+              "notes": "dXJ5SHwt3c4ngBj5G1i6KMFsYXQzZfrSnKtJaXpP8Dfi79nk7RvGAXDT654OATE5VDYhGfXXCo2gNbSSwtG1XEjzw7UMqCoodDS1yNrM2sdq2BD8MLDdIdq573zP5GFx7qEGEuVHBmlU4prbguuT5pt6VKAVF1dsrV49wygFPcBJHFlnvH3NRtB5HbpPJ1hHFF3Cr0Ua6ZsitOJQpnJ5PBjOb9Hiaf1Qjxaz0ICwEWAe9xI3VPNskeqBxE",
+              "received": false
+            },
+            {
+              "_id": "693f11ad1c508c5d5ec820a7",
+              "name": "Towels62989",
+              "amount": 133,
+              "price": 38412,
+              "manufacturer": "Amazon",
+              "notes": "FcAJ3thlpoS9i2rRvoLfcAkcGlCpAjWtlp8wFnqnkEAZwILjqdXjsTHKx4p25zu3qOE8OLcWFbpuPup66DArhn07aMxJd8TntpKUiZXYSprUXEr9AhDzGPfsINdrZMci1dp6XUvL8OblN32S1i1DzshguedKlucjX5ud4sv0OvHAJF3lzkyzBuIoYhF0YBdTfdfRKWEc2nTRS7xAGHrWTtpQeDNioT3rpLRiAaoPeoBsj7lt2SPwdMLX8J",
+              "received": false
+            }
+          ],
+          "total_price": 55441,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:36:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f11ae1c508c5d5ec820e0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

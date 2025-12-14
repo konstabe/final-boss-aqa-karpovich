@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 19:35:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2658",
+    "etag": "W/\"a62-7y1Mu+PYsr/BvQgHw9mJeIXlbeA\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f117c1c508c5d5ec81306",
+        "email": "Rashawn.Feeney@yahoo.com",
+        "name": "Cordia Cummings",
+        "country": "USA",
+        "city": "Botsfordfort",
+        "street": "Gutkowski Ramp",
+        "house": 25,
+        "flat": 189,
+        "phone": "+13065564712",
+        "createdOn": "2025-12-14T19:35:24.000Z",
+        "notes": "3h5KBkqGXcZ0zJvf8s9lIgdsUEDE6hQnmGbTcNc0N75ndIrwGseoK1Mp5DmxLO0wox89BtTWaDH5eCXCT0MUUlipvT65ZZ1LBoAwK5RDOAC64ksWQ4dKKkcutsETqxijcprsewxlFZCnjWuMxVfoJUQV1DkDoypdIW5TIumYLyAbGbjPCu217TUC5mKWwrEYQUQ2JkWPbCo5EOBcuzmWgvWigu0uObB6ORtHjObsMq6doLRgvj6UNZMfNZ"
+      },
+      "products": [
+        {
+          "_id": "693f11841c508c5d5ec81425",
+          "name": "Pizza67924",
+          "amount": 245,
+          "price": 41522,
+          "manufacturer": "Samsung",
+          "notes": "AIFR90GV4yeCs1F8bfTaIdSSVgU63btf8sin15nAwil4R8yQSc3tSqfBrzMNFeUstMA1yZoVSgWgrfcqWfrdGbZu3G8Bh86XVPUxh2gBW8su57RAGX42uM2076ryO6ZfaCfON1V4pPX4g4oLAzSySFNiaOQu4UssJeJkzZ4LRdGLzi1JCKGQMGDa6srAOIi08GIpTGC6A28v3UMIUXy8EgdDp4y4woTWeooCqsoX273glfgSeICdyhq4W7",
+          "received": false
+        },
+        {
+          "_id": "693f11881c508c5d5ec81539",
+          "name": "Cheese66887",
+          "amount": 868,
+          "price": 42085,
+          "manufacturer": "Xiaomi",
+          "notes": "U4LtgzllxWkYqkkl6cO2NWtSYhSW3rUQcAykx82Ghm0XcUNc4H34njAHwu1UUAYRiounaovML8ORfV93OIQ7IenP4HEP9Lh5AVW5r9CGAz6WAosb2pZMiVE8JN4P5tzgyNFFk8dIpOeBsYjpE4CSZoMf5lRoG97OsV9q9UjkTE5lQk8YtV2z8SUqsu5k60O2EXaVR2iEeqooIbkPJlHYIIDSu5x2iz0pUiD7hYZGPVvnsDRV4IIQCGHmAp",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 83607,
+      "createdOn": "2025-12-14T19:35:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f117c1c508c5d5ec81306",
+          "products": [
+            {
+              "_id": "693f11841c508c5d5ec81425",
+              "name": "Pizza67924",
+              "amount": 245,
+              "price": 41522,
+              "manufacturer": "Samsung",
+              "notes": "AIFR90GV4yeCs1F8bfTaIdSSVgU63btf8sin15nAwil4R8yQSc3tSqfBrzMNFeUstMA1yZoVSgWgrfcqWfrdGbZu3G8Bh86XVPUxh2gBW8su57RAGX42uM2076ryO6ZfaCfON1V4pPX4g4oLAzSySFNiaOQu4UssJeJkzZ4LRdGLzi1JCKGQMGDa6srAOIi08GIpTGC6A28v3UMIUXy8EgdDp4y4woTWeooCqsoX273glfgSeICdyhq4W7",
+              "received": false
+            },
+            {
+              "_id": "693f11881c508c5d5ec81539",
+              "name": "Cheese66887",
+              "amount": 868,
+              "price": 42085,
+              "manufacturer": "Xiaomi",
+              "notes": "U4LtgzllxWkYqkkl6cO2NWtSYhSW3rUQcAykx82Ghm0XcUNc4H34njAHwu1UUAYRiounaovML8ORfV93OIQ7IenP4HEP9Lh5AVW5r9CGAz6WAosb2pZMiVE8JN4P5tzgyNFFk8dIpOeBsYjpE4CSZoMf5lRoG97OsV9q9UjkTE5lQk8YtV2z8SUqsu5k60O2EXaVR2iEeqooIbkPJlHYIIDSu5x2iz0pUiD7hYZGPVvnsDRV4IIQCGHmAp",
+              "received": false
+            }
+          ],
+          "total_price": 83607,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:35:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f11891c508c5d5ec81549"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

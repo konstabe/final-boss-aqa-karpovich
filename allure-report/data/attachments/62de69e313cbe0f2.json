@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 19:36:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4104",
+    "etag": "W/\"1008-doaFM6+q+8n4DJZdFCExc3bwf9s\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693f11ae1c508c5d5ec820c8",
+      "status": "Draft",
+      "customer": {
+        "_id": "693f119f1c508c5d5ec81d8f",
+        "email": "Piper51@gmail.com",
+        "name": "Nels Shields",
+        "country": "Great Britain",
+        "city": "Pricebury",
+        "street": "Koss Club",
+        "house": 42,
+        "flat": 81,
+        "phone": "+14435455755",
+        "createdOn": "2025-12-14T19:35:59.000Z",
+        "notes": "GeWonIQFBOZjUbBnoOD6h5I8WDw3hTkdQX6d32DNTSNfvjs9spMmPeWPkGGA2bE2Y8jHbcJOVD9il7iGiHs8kZw28t8UVo6wWH5LaJa0vnmMSY2C1T0RHamYDM5J4hElboOEfqDu9fOuwMt4IhUZQN0NfILzuVKh4F2bi6aWILjGRsiIkCaJzhDQ7b9z8zyARaEHQIBsgJUHfDxGHxBAypgGIYgCVbGx05VzvqGFNtIguGki17ALp61Piv"
+      },
+      "products": [
+        {
+          "_id": "693f11a81c508c5d5ec81f39",
+          "name": "Bacon56031",
+          "amount": 603,
+          "price": 67328,
+          "manufacturer": "Samsung",
+          "notes": "oP8PPeAxI2HinWcOfRdHPCrMQxqVKJxcpDPBn8kWr7Mtxs2zJ6OmFzFAzMM9dUrSAemD1hKYWnDRxSkwEJFT2y4C3SfUn9YCxHS78e8ICJNyVh6Xc5uXliMnNusHGCglTXw1uzSH3JsbPI6syaD5dN5pO91e7U0s37In3uZVtOZFiLSPyrRt8rnP2AylUy0JF73sBCvi2A4H3uTCsukCtDF7W4IejQMm2VShiHOht9McTra717V9Lecv6B",
+          "received": false
+        },
+        {
+          "_id": "693f11ad1c508c5d5ec820a1",
+          "name": "Chair90764",
+          "amount": 606,
+          "price": 83064,
+          "manufacturer": "Amazon",
+          "notes": "YwyqywEnqfM7uj5jz0bZhD6gIwr8DQDSK04zE72K2Q691hYhqkIz2NExDgW1U12EBTsxRUqidNzcdbFHwy1NMFeJ2x4T5B0dBd1WMh5gwz5fxuSsAULeNIZHDBGr3L7uKHV4TsmbaggaptiOvkUX40nJWn8swpNOk2BlaoidCN2gbZ6PFMBdg2rTPnNzj7yMAMo5VdZSOw4dtBexc5eR8DoPLIVenpXBBFir3W9riYEtOl9oxaSkzy5Jmk",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Pricebury",
+          "street": "Koss Club",
+          "house": 42,
+          "flat": 81
+        },
+        "finalDate": "2025-12-21T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 150392,
+      "createdOn": "2025-12-14T19:36:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f119f1c508c5d5ec81d8f",
+          "products": [
+            {
+              "_id": "693f11a81c508c5d5ec81f39",
+              "name": "Bacon56031",
+              "amount": 603,
+              "price": 67328,
+              "manufacturer": "Samsung",
+              "notes": "oP8PPeAxI2HinWcOfRdHPCrMQxqVKJxcpDPBn8kWr7Mtxs2zJ6OmFzFAzMM9dUrSAemD1hKYWnDRxSkwEJFT2y4C3SfUn9YCxHS78e8ICJNyVh6Xc5uXliMnNusHGCglTXw1uzSH3JsbPI6syaD5dN5pO91e7U0s37In3uZVtOZFiLSPyrRt8rnP2AylUy0JF73sBCvi2A4H3uTCsukCtDF7W4IejQMm2VShiHOht9McTra717V9Lecv6B",
+              "received": false
+            },
+            {
+              "_id": "693f11ad1c508c5d5ec820a1",
+              "name": "Chair90764",
+              "amount": 606,
+              "price": 83064,
+              "manufacturer": "Amazon",
+              "notes": "YwyqywEnqfM7uj5jz0bZhD6gIwr8DQDSK04zE72K2Q691hYhqkIz2NExDgW1U12EBTsxRUqidNzcdbFHwy1NMFeJ2x4T5B0dBd1WMh5gwz5fxuSsAULeNIZHDBGr3L7uKHV4TsmbaggaptiOvkUX40nJWn8swpNOk2BlaoidCN2gbZ6PFMBdg2rTPnNzj7yMAMo5VdZSOw4dtBexc5eR8DoPLIVenpXBBFir3W9riYEtOl9oxaSkzy5Jmk",
+              "received": false
+            }
+          ],
+          "total_price": 150392,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Pricebury",
+              "street": "Koss Club",
+              "house": 42,
+              "flat": 81
+            },
+            "finalDate": "2025-12-21T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-14T19:36:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693f119f1c508c5d5ec81d8f",
+          "products": [
+            {
+              "_id": "693f11a81c508c5d5ec81f39",
+              "name": "Bacon56031",
+              "amount": 603,
+              "price": 67328,
+              "manufacturer": "Samsung",
+              "notes": "oP8PPeAxI2HinWcOfRdHPCrMQxqVKJxcpDPBn8kWr7Mtxs2zJ6OmFzFAzMM9dUrSAemD1hKYWnDRxSkwEJFT2y4C3SfUn9YCxHS78e8ICJNyVh6Xc5uXliMnNusHGCglTXw1uzSH3JsbPI6syaD5dN5pO91e7U0s37In3uZVtOZFiLSPyrRt8rnP2AylUy0JF73sBCvi2A4H3uTCsukCtDF7W4IejQMm2VShiHOht9McTra717V9Lecv6B",
+              "received": false
+            },
+            {
+              "_id": "693f11ad1c508c5d5ec820a1",
+              "name": "Chair90764",
+              "amount": 606,
+              "price": 83064,
+              "manufacturer": "Amazon",
+              "notes": "YwyqywEnqfM7uj5jz0bZhD6gIwr8DQDSK04zE72K2Q691hYhqkIz2NExDgW1U12EBTsxRUqidNzcdbFHwy1NMFeJ2x4T5B0dBd1WMh5gwz5fxuSsAULeNIZHDBGr3L7uKHV4TsmbaggaptiOvkUX40nJWn8swpNOk2BlaoidCN2gbZ6PFMBdg2rTPnNzj7yMAMo5VdZSOw4dtBexc5eR8DoPLIVenpXBBFir3W9riYEtOl9oxaSkzy5Jmk",
+              "received": false
+            }
+          ],
+          "total_price": 150392,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:36:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
