@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 15:27:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6698",
+    "etag": "W/\"1a2a-8A0YXH3KiptwKRgAK5xW884h+sY\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693ed75b1c508c5d5ec71e05",
+      "status": "Canceled",
+      "customer": {
+        "_id": "693ed7541c508c5d5ec71d91",
+        "email": "Jerome88@yahoo.com",
+        "name": "Lawrence Thiel",
+        "country": "USA",
+        "city": "Hudsonborough",
+        "street": "Reilly Cove",
+        "house": 2,
+        "flat": 699,
+        "phone": "+18223276243",
+        "createdOn": "2025-12-14T15:27:16.000Z",
+        "notes": "3XTPB6BuaQs5QXVsY5I3ZevS4c6VyrOPiL978mQdowT5D0HBWQq4MAc6Rl7DIp6P67ncMFxG5f1z3EEFLFxSt5Az9ozouAfIjjI6HQ4AmgIfulIDPBy36FuPc93P1YU4vm0ZLuOyMeuXvQAxn4zrhDcUOy0OHZHEWdA5jjBwkiZkrCnQWqATyQZ2Mj62G0cqiUmcYCa71Il0YKxql5rvPDs4LQJI9DF93UjWh79CgIQI4cDkgNTVQzmbPK"
+      },
+      "products": [
+        {
+          "_id": "693ed7581c508c5d5ec71dc4",
+          "name": "Chips28865",
+          "amount": 470,
+          "price": 5661,
+          "manufacturer": "Microsoft",
+          "notes": "rPr5HVhqaQbUUORcJQfcQMxq2sHxxBLgatSyGYZrfSNpYVvzgFV6mjl5Q4MKx1KAfdzPmSbeNNvRY0jknLIzCnkMXsVax4Fgpg3en7hiMyWgdzJjLPZONsIq9DZBkFHeRS0DI6XhIYaq7Dnq4tLaVoLO4YAkvSDdMNS3dSsaLMeNenN1Y8fmqRVjpaZEg7a9b3qVYz8w4zA1bpU3PIlgES17KeDwiWpiKVw7RIQTryOmnXrvYcVAuRHQmC",
+          "received": false
+        },
+        {
+          "_id": "693ed75b1c508c5d5ec71df9",
+          "name": "Shirt42632",
+          "amount": 685,
+          "price": 99366,
+          "manufacturer": "Apple",
+          "notes": "XwW0BCstXbsVKu8yMP8u3exVHhQdCT95SpUuPIPOTr2VBNNDjLkJ49G14E52q1fbl3tszMosG5074apb0EJHgKctEuRoYLwbDAjsnfZYgPB1lpBKEdEiVPdhOVJRHcD14PE8Gibzyp6UTf1ek3KKhUDfhclywlnpGapCNu10e4EZ89OO5Ki2oygYh0s4MzqEgSRGOayCWTfnjhibcNh3RS1GEc9xIvHJZVLQf72NUYjbA2k3TSFyXTIbA1",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Hudsonborough",
+          "street": "Reilly Cove",
+          "house": 2,
+          "flat": 699
+        },
+        "finalDate": "2025-12-19T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 105027,
+      "createdOn": "2025-12-14T15:27:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "693ed7541c508c5d5ec71d91",
+          "products": [
+            {
+              "_id": "693ed7581c508c5d5ec71dc4",
+              "name": "Chips28865",
+              "amount": 470,
+              "price": 5661,
+              "manufacturer": "Microsoft",
+              "notes": "rPr5HVhqaQbUUORcJQfcQMxq2sHxxBLgatSyGYZrfSNpYVvzgFV6mjl5Q4MKx1KAfdzPmSbeNNvRY0jknLIzCnkMXsVax4Fgpg3en7hiMyWgdzJjLPZONsIq9DZBkFHeRS0DI6XhIYaq7Dnq4tLaVoLO4YAkvSDdMNS3dSsaLMeNenN1Y8fmqRVjpaZEg7a9b3qVYz8w4zA1bpU3PIlgES17KeDwiWpiKVw7RIQTryOmnXrvYcVAuRHQmC",
+              "received": false
+            },
+            {
+              "_id": "693ed75b1c508c5d5ec71df9",
+              "name": "Shirt42632",
+              "amount": 685,
+              "price": 99366,
+              "manufacturer": "Apple",
+              "notes": "XwW0BCstXbsVKu8yMP8u3exVHhQdCT95SpUuPIPOTr2VBNNDjLkJ49G14E52q1fbl3tszMosG5074apb0EJHgKctEuRoYLwbDAjsnfZYgPB1lpBKEdEiVPdhOVJRHcD14PE8Gibzyp6UTf1ek3KKhUDfhclywlnpGapCNu10e4EZ89OO5Ki2oygYh0s4MzqEgSRGOayCWTfnjhibcNh3RS1GEc9xIvHJZVLQf72NUYjbA2k3TSFyXTIbA1",
+              "received": false
+            }
+          ],
+          "total_price": 105027,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Hudsonborough",
+              "street": "Reilly Cove",
+              "house": 2,
+              "flat": 699
+            },
+            "finalDate": "2025-12-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-14T15:27:25.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "693ed7541c508c5d5ec71d91",
+          "products": [
+            {
+              "_id": "693ed7581c508c5d5ec71dc4",
+              "name": "Chips28865",
+              "amount": 470,
+              "price": 5661,
+              "manufacturer": "Microsoft",
+              "notes": "rPr5HVhqaQbUUORcJQfcQMxq2sHxxBLgatSyGYZrfSNpYVvzgFV6mjl5Q4MKx1KAfdzPmSbeNNvRY0jknLIzCnkMXsVax4Fgpg3en7hiMyWgdzJjLPZONsIq9DZBkFHeRS0DI6XhIYaq7Dnq4tLaVoLO4YAkvSDdMNS3dSsaLMeNenN1Y8fmqRVjpaZEg7a9b3qVYz8w4zA1bpU3PIlgES17KeDwiWpiKVw7RIQTryOmnXrvYcVAuRHQmC",
+              "received": false
+            },
+            {
+              "_id": "693ed75b1c508c5d5ec71df9",
+              "name": "Shirt42632",
+              "amount": 685,
+              "price": 99366,
+              "manufacturer": "Apple",
+              "notes": "XwW0BCstXbsVKu8yMP8u3exVHhQdCT95SpUuPIPOTr2VBNNDjLkJ49G14E52q1fbl3tszMosG5074apb0EJHgKctEuRoYLwbDAjsnfZYgPB1lpBKEdEiVPdhOVJRHcD14PE8Gibzyp6UTf1ek3KKhUDfhclywlnpGapCNu10e4EZ89OO5Ki2oygYh0s4MzqEgSRGOayCWTfnjhibcNh3RS1GEc9xIvHJZVLQf72NUYjbA2k3TSFyXTIbA1",
+              "received": false
+            }
+          ],
+          "total_price": 105027,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Hudsonborough",
+              "street": "Reilly Cove",
+              "house": 2,
+              "flat": 699
+            },
+            "finalDate": "2025-12-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-14T15:27:24.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693ed7541c508c5d5ec71d91",
+          "products": [
+            {
+              "_id": "693ed7581c508c5d5ec71dc4",
+              "name": "Chips28865",
+              "amount": 470,
+              "price": 5661,
+              "manufacturer": "Microsoft",
+              "notes": "rPr5HVhqaQbUUORcJQfcQMxq2sHxxBLgatSyGYZrfSNpYVvzgFV6mjl5Q4MKx1KAfdzPmSbeNNvRY0jknLIzCnkMXsVax4Fgpg3en7hiMyWgdzJjLPZONsIq9DZBkFHeRS0DI6XhIYaq7Dnq4tLaVoLO4YAkvSDdMNS3dSsaLMeNenN1Y8fmqRVjpaZEg7a9b3qVYz8w4zA1bpU3PIlgES17KeDwiWpiKVw7RIQTryOmnXrvYcVAuRHQmC",
+              "received": false
+            },
+            {
+              "_id": "693ed75b1c508c5d5ec71df9",
+              "name": "Shirt42632",
+              "amount": 685,
+              "price": 99366,
+              "manufacturer": "Apple",
+              "notes": "XwW0BCstXbsVKu8yMP8u3exVHhQdCT95SpUuPIPOTr2VBNNDjLkJ49G14E52q1fbl3tszMosG5074apb0EJHgKctEuRoYLwbDAjsnfZYgPB1lpBKEdEiVPdhOVJRHcD14PE8Gibzyp6UTf1ek3KKhUDfhclywlnpGapCNu10e4EZ89OO5Ki2oygYh0s4MzqEgSRGOayCWTfnjhibcNh3RS1GEc9xIvHJZVLQf72NUYjbA2k3TSFyXTIbA1",
+              "received": false
+            }
+          ],
+          "total_price": 105027,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Hudsonborough",
+              "street": "Reilly Cove",
+              "house": 2,
+              "flat": 699
+            },
+            "finalDate": "2025-12-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-14T15:27:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693ed7541c508c5d5ec71d91",
+          "products": [
+            {
+              "_id": "693ed7581c508c5d5ec71dc4",
+              "name": "Chips28865",
+              "amount": 470,
+              "price": 5661,
+              "manufacturer": "Microsoft",
+              "notes": "rPr5HVhqaQbUUORcJQfcQMxq2sHxxBLgatSyGYZrfSNpYVvzgFV6mjl5Q4MKx1KAfdzPmSbeNNvRY0jknLIzCnkMXsVax4Fgpg3en7hiMyWgdzJjLPZONsIq9DZBkFHeRS0DI6XhIYaq7Dnq4tLaVoLO4YAkvSDdMNS3dSsaLMeNenN1Y8fmqRVjpaZEg7a9b3qVYz8w4zA1bpU3PIlgES17KeDwiWpiKVw7RIQTryOmnXrvYcVAuRHQmC",
+              "received": false
+            },
+            {
+              "_id": "693ed75b1c508c5d5ec71df9",
+              "name": "Shirt42632",
+              "amount": 685,
+              "price": 99366,
+              "manufacturer": "Apple",
+              "notes": "XwW0BCstXbsVKu8yMP8u3exVHhQdCT95SpUuPIPOTr2VBNNDjLkJ49G14E52q1fbl3tszMosG5074apb0EJHgKctEuRoYLwbDAjsnfZYgPB1lpBKEdEiVPdhOVJRHcD14PE8Gibzyp6UTf1ek3KKhUDfhclywlnpGapCNu10e4EZ89OO5Ki2oygYh0s4MzqEgSRGOayCWTfnjhibcNh3RS1GEc9xIvHJZVLQf72NUYjbA2k3TSFyXTIbA1",
+              "received": false
+            }
+          ],
+          "total_price": 105027,
+          "delivery": null,
+          "changedOn": "2025-12-14T15:27:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

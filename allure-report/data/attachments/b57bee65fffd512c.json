@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 15:27:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2954",
+    "etag": "W/\"b8a-CjwtA3oi3VazURjh7LJ0pB2HyzI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693ed76f1c508c5d5ec7239f",
+      "status": "Draft",
+      "customer": {
+        "_id": "693ed76a1c508c5d5ec72151",
+        "email": "Foster12@hotmail.com",
+        "name": "Rogers Ullrich",
+        "country": "France",
+        "city": "East Alycia",
+        "street": "Schuyler Pine",
+        "house": 22,
+        "flat": 557,
+        "phone": "+16027126392",
+        "createdOn": "2025-12-14T15:27:38.000Z",
+        "notes": "MSF82v9t9sotCS1BQDm7D7mnOmdizKmyUEzK7f4RX6UKsDBJQ7n56eehJ0Q2zcs2L7hcuAVdAIBrI87wVEhqTrL7Qqv79PejOyFC4RdNFkTJxnzuOp844l3LeR8bPL20MYfDB2KHpnUR6WFEhqasBkoOqW7eu9KjOyhrYzxB5bE7wAst9BjIfUxh3ldv1IuF6OkDwZdOolXMKAs50VcoHWQLRb0WGvLTxy8Xoaz2U0TYEctenFm7ycuptZ"
+      },
+      "products": [
+        {
+          "_id": "693ed76d1c508c5d5ec7235f",
+          "name": "Computer57018",
+          "amount": 935,
+          "price": 53471,
+          "manufacturer": "Sony",
+          "notes": "Hxv5HYO07lucYgGxRhl5Pdvksbeib1YlvkBebDM71yU2OjV11oNKWjI14Dv0KVUZ9s4V9efxCcRWFzikE3O8NW1s4f1WX6jiXFVcccauIEcXjA2C1WsGecpFM0z0iT37JsiY1XIg9yFPur3QgMvEgX58LrJItxIRcQ2S0hGSRZNg6XXORovRY0568JvC1NFsyoJbpqx0xdllb1N3XRWXq8cLKkQArgRCCBvb2E9YVt7K0M0BaYSP69223m",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "East Alycia",
+          "street": "Schuyler Pine",
+          "house": 22,
+          "flat": 557
+        },
+        "finalDate": "2025-12-19T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 53471,
+      "createdOn": "2025-12-14T15:27:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ed76a1c508c5d5ec72151",
+          "products": [
+            {
+              "_id": "693ed76d1c508c5d5ec7235f",
+              "name": "Computer57018",
+              "amount": 935,
+              "price": 53471,
+              "manufacturer": "Sony",
+              "notes": "Hxv5HYO07lucYgGxRhl5Pdvksbeib1YlvkBebDM71yU2OjV11oNKWjI14Dv0KVUZ9s4V9efxCcRWFzikE3O8NW1s4f1WX6jiXFVcccauIEcXjA2C1WsGecpFM0z0iT37JsiY1XIg9yFPur3QgMvEgX58LrJItxIRcQ2S0hGSRZNg6XXORovRY0568JvC1NFsyoJbpqx0xdllb1N3XRWXq8cLKkQArgRCCBvb2E9YVt7K0M0BaYSP69223m",
+              "received": false
+            }
+          ],
+          "total_price": 53471,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "East Alycia",
+              "street": "Schuyler Pine",
+              "house": 22,
+              "flat": 557
+            },
+            "finalDate": "2025-12-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-14T15:27:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693ed76a1c508c5d5ec72151",
+          "products": [
+            {
+              "_id": "693ed76d1c508c5d5ec7235f",
+              "name": "Computer57018",
+              "amount": 935,
+              "price": 53471,
+              "manufacturer": "Sony",
+              "notes": "Hxv5HYO07lucYgGxRhl5Pdvksbeib1YlvkBebDM71yU2OjV11oNKWjI14Dv0KVUZ9s4V9efxCcRWFzikE3O8NW1s4f1WX6jiXFVcccauIEcXjA2C1WsGecpFM0z0iT37JsiY1XIg9yFPur3QgMvEgX58LrJItxIRcQ2S0hGSRZNg6XXORovRY0568JvC1NFsyoJbpqx0xdllb1N3XRWXq8cLKkQArgRCCBvb2E9YVt7K0M0BaYSP69223m",
+              "received": false
+            }
+          ],
+          "total_price": 53471,
+          "delivery": null,
+          "changedOn": "2025-12-14T15:27:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

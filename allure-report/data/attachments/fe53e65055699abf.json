@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 15:27:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3411",
+    "etag": "W/\"d53-Xivluk6sKAt5fE7165MwCti1flM\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693ed7501c508c5d5ec71d31",
+        "email": "Theresia59@gmail.com",
+        "name": "Merritt Abbott",
+        "country": "Canada",
+        "city": "Tamiami",
+        "street": "Sofia Expressway",
+        "house": 37,
+        "flat": 164,
+        "phone": "+16415225882",
+        "createdOn": "2025-12-14T15:27:12.000Z",
+        "notes": "UM19KmNrtbInMAMEGmHvWHogLQ4XmG0LXVxqW7Xd0vZvtvZbq9gAcCITW2Z0pvSGq65s3obMpJZTanKShQhvdWKrcUp6xwsyzNobMupENiDhRyku84l0EghL8R5kNtqKyO7o6DhmiCDk5LOpcUmc7YGr7CvsI0hfrLtsmLmRwo2GjmUh0GE2FlopFKA1TXHAGBTxZJbYUQrIw16MJX5ZLWbQP12JIHSXQE1q0oiWRnm0CfwXaKmlHGz16n"
+      },
+      "products": [
+        {
+          "_id": "693ed7541c508c5d5ec71d89",
+          "name": "Chicken32900",
+          "amount": 237,
+          "price": 22731,
+          "manufacturer": "Apple",
+          "notes": "EDSbzKHwqpLsKuWO47EecyadrrBYRpFo9bZEsPiEBgR08xhWW2wqKqmO7C4pM18ovEeQepiOeBd43VjkoMfJ8QyKvr7IYEIqaLa7WIcOZGGqezTLCLsgExok9cNe58ho9Ksdi1VhjjI3NPPum8ejwqW6GWfU7kHSKPllk7orPVDJmkF0EOZQhrBzNyqo6e0xq9ItcjPp7hGiOLgdriMv6K5KtoXCxRdYortRtxXyAmZ86CfiXdQxR8LNiH",
+          "received": false
+        },
+        {
+          "_id": "693ed7571c508c5d5ec71dba",
+          "name": "Car72744",
+          "amount": 736,
+          "price": 74305,
+          "manufacturer": "Samsung",
+          "notes": "mlFj9kQEErPPuJF1V0nxKAoxsDrdPdm7rLPtWz0Z9MmIVaQd3ONF9yj9tl4XYKXFUGJa6nd75LrVy3I2y13GFMPi2RwoH5g6HBLvjpCWKusDq2bOQ8szAiZ58UxxUX77AiWp5lAptArw3yesEC6iSoGZFhJgRkBWORRJQTgJFMyreqHKaFzSVq4sUjVN9OcOiDOZubutr9PpNsEi1zaNfZd7T4ycYp6nN6ZQw1ITMRAK74bQ3ur8n9ZzJW",
+          "received": false
+        },
+        {
+          "_id": "693ed75a1c508c5d5ec71de2",
+          "name": "Car75464",
+          "amount": 842,
+          "price": 30732,
+          "manufacturer": "Sony",
+          "notes": "5AEieIm4xrhAXHjI4eSS76SmZeRc3IcmNwrm6H2sHG85nBdR1NgGkNy7b9Iglm47HTdLHPuQm2BqfYsAJxd1Kgj53EfoY1LtN2poo9J7tKsCAFIGxqZjvOKqeMVYEXQZhdlRV63JFiofIINyd5xUSb8a1ivkhHyjQUPM9SNtjmHkq1CDPZtJnhZqwqziGAJYnzn4WprS4OXN6jVKptQGtkYiOAufJJSvv7DbNDIr2D7svGRavYtcPAym3D",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 127768,
+      "createdOn": "2025-12-14T15:27:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ed7501c508c5d5ec71d31",
+          "products": [
+            {
+              "_id": "693ed7541c508c5d5ec71d89",
+              "name": "Chicken32900",
+              "amount": 237,
+              "price": 22731,
+              "manufacturer": "Apple",
+              "notes": "EDSbzKHwqpLsKuWO47EecyadrrBYRpFo9bZEsPiEBgR08xhWW2wqKqmO7C4pM18ovEeQepiOeBd43VjkoMfJ8QyKvr7IYEIqaLa7WIcOZGGqezTLCLsgExok9cNe58ho9Ksdi1VhjjI3NPPum8ejwqW6GWfU7kHSKPllk7orPVDJmkF0EOZQhrBzNyqo6e0xq9ItcjPp7hGiOLgdriMv6K5KtoXCxRdYortRtxXyAmZ86CfiXdQxR8LNiH",
+              "received": false
+            },
+            {
+              "_id": "693ed7571c508c5d5ec71dba",
+              "name": "Car72744",
+              "amount": 736,
+              "price": 74305,
+              "manufacturer": "Samsung",
+              "notes": "mlFj9kQEErPPuJF1V0nxKAoxsDrdPdm7rLPtWz0Z9MmIVaQd3ONF9yj9tl4XYKXFUGJa6nd75LrVy3I2y13GFMPi2RwoH5g6HBLvjpCWKusDq2bOQ8szAiZ58UxxUX77AiWp5lAptArw3yesEC6iSoGZFhJgRkBWORRJQTgJFMyreqHKaFzSVq4sUjVN9OcOiDOZubutr9PpNsEi1zaNfZd7T4ycYp6nN6ZQw1ITMRAK74bQ3ur8n9ZzJW",
+              "received": false
+            },
+            {
+              "_id": "693ed75a1c508c5d5ec71de2",
+              "name": "Car75464",
+              "amount": 842,
+              "price": 30732,
+              "manufacturer": "Sony",
+              "notes": "5AEieIm4xrhAXHjI4eSS76SmZeRc3IcmNwrm6H2sHG85nBdR1NgGkNy7b9Iglm47HTdLHPuQm2BqfYsAJxd1Kgj53EfoY1LtN2poo9J7tKsCAFIGxqZjvOKqeMVYEXQZhdlRV63JFiofIINyd5xUSb8a1ivkhHyjQUPM9SNtjmHkq1CDPZtJnhZqwqziGAJYnzn4WprS4OXN6jVKptQGtkYiOAufJJSvv7DbNDIr2D7svGRavYtcPAym3D",
+              "received": false
+            }
+          ],
+          "total_price": 127768,
+          "delivery": null,
+          "changedOn": "2025-12-14T15:27:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693ed75b1c508c5d5ec71dee"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

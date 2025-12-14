@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 15:27:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3422",
+    "etag": "W/\"d5e-2TSoinT5M4/4GbAjqbzxXxiNc2M\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693ed7551c508c5d5ec71d9b",
+        "email": "Tyree99@hotmail.com",
+        "name": "Dahlia Lehner",
+        "country": "Russia",
+        "city": "Willfield",
+        "street": "Karianne Ford",
+        "house": 14,
+        "flat": 188,
+        "phone": "+14872126382",
+        "createdOn": "2025-12-14T15:27:17.000Z",
+        "notes": "r1niz1uIulLYwRsNoGT557KUdbGoMXx09LpQ2jpKTpz9Q1gMAqYTIHE05tUsTVar6DvxmScRUqqVRtVU29RLYEdrnXuquWA40AT11TCvJF0BrXcI4UypHlq791aEGbBTLeW86MYe30RisAta7oDuCqLVLQFtmTQetx1aimS8TEdwRkm3VKTbtdHLPXhYPk28jwha2gY7Eh7PM2GQ9KOd5pNoGkWwqihfGb89Lk0prfqDoi9RsSNnDCFzgW"
+      },
+      "products": [
+        {
+          "_id": "693ed7591c508c5d5ec71dce",
+          "name": "Chips80454",
+          "amount": 895,
+          "price": 57402,
+          "manufacturer": "Xiaomi",
+          "notes": "kuYtBaUe2wljW1bFFS77tQXn3NTCVH1X0Mmz94Zb8fN8HqrPO0yjYcqUdcXXQ5GBZXGmUtCfgAUe62DiXurCzthwImqlNr2PUmXIVlS4U6tMtAApLkbCcEZGEk7hbCQUAm4zX1Sgq8XDq8p9Ym6otGefyBDOZSOODVIoyYp1xFlFLXEKM7LuqYL1M97OcgThM3CsLcyjEFTCRwY2mJKNjBpPgDXvPCBkITmcygO4Bo0uBKBXWjAiWitGs9",
+          "received": false
+        },
+        {
+          "_id": "693ed75c1c508c5d5ec71e25",
+          "name": "Bacon59791",
+          "amount": 96,
+          "price": 80181,
+          "manufacturer": "Microsoft",
+          "notes": "4IcfR406Nt2jlkbBNj3dwgVyQv9A2yAYWmekITarCUVSiFMLz6fOIpPd3ap8XE77Ec0rmu0TJKdiYvOW3PtR4MIxBELge4cMbYUemwb67JMrE1ge3rmmfpGPK6RCsY88xUbtAl8Ue4p9QNEMIuK8ZJhe4VlanIp6z2PlvPGlIpRhB5MHg2ZgkBDRou1szOwFJk7o69ysMSPCDLSsqtx51Apc7ytYCQYGcP7AEz8ot8bE5G3IoSuV7rX8Fn",
+          "received": false
+        },
+        {
+          "_id": "693ed75f1c508c5d5ec71f2b",
+          "name": "Computer30026",
+          "amount": 904,
+          "price": 8559,
+          "manufacturer": "Tesla",
+          "notes": "76dLMZlr6eA2oA5a8tzW9TpJc4PMyeW9q5BCS22Ipiv2ITlaqLujUCsXn2fQO4vv6qzh8S1Gk0wqwjYD8SUWvAWgfy2O9ViMIMw6WGIcZOemGlH5I4Fn9yB3DZErTndmJSr0NYEXIEAPTnYtZ3bBu07gRMbrz90EaWmeyO5x5seF2mpl9s8wd36LlNgWGfr8XiZwZSdqjz8Cr7dtLUPj58xIXH7sokjRGqhJQqiTWeSuxz2d0KLFQydeEG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 146142,
+      "createdOn": "2025-12-14T15:27:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ed7551c508c5d5ec71d9b",
+          "products": [
+            {
+              "_id": "693ed7591c508c5d5ec71dce",
+              "name": "Chips80454",
+              "amount": 895,
+              "price": 57402,
+              "manufacturer": "Xiaomi",
+              "notes": "kuYtBaUe2wljW1bFFS77tQXn3NTCVH1X0Mmz94Zb8fN8HqrPO0yjYcqUdcXXQ5GBZXGmUtCfgAUe62DiXurCzthwImqlNr2PUmXIVlS4U6tMtAApLkbCcEZGEk7hbCQUAm4zX1Sgq8XDq8p9Ym6otGefyBDOZSOODVIoyYp1xFlFLXEKM7LuqYL1M97OcgThM3CsLcyjEFTCRwY2mJKNjBpPgDXvPCBkITmcygO4Bo0uBKBXWjAiWitGs9",
+              "received": false
+            },
+            {
+              "_id": "693ed75c1c508c5d5ec71e25",
+              "name": "Bacon59791",
+              "amount": 96,
+              "price": 80181,
+              "manufacturer": "Microsoft",
+              "notes": "4IcfR406Nt2jlkbBNj3dwgVyQv9A2yAYWmekITarCUVSiFMLz6fOIpPd3ap8XE77Ec0rmu0TJKdiYvOW3PtR4MIxBELge4cMbYUemwb67JMrE1ge3rmmfpGPK6RCsY88xUbtAl8Ue4p9QNEMIuK8ZJhe4VlanIp6z2PlvPGlIpRhB5MHg2ZgkBDRou1szOwFJk7o69ysMSPCDLSsqtx51Apc7ytYCQYGcP7AEz8ot8bE5G3IoSuV7rX8Fn",
+              "received": false
+            },
+            {
+              "_id": "693ed75f1c508c5d5ec71f2b",
+              "name": "Computer30026",
+              "amount": 904,
+              "price": 8559,
+              "manufacturer": "Tesla",
+              "notes": "76dLMZlr6eA2oA5a8tzW9TpJc4PMyeW9q5BCS22Ipiv2ITlaqLujUCsXn2fQO4vv6qzh8S1Gk0wqwjYD8SUWvAWgfy2O9ViMIMw6WGIcZOemGlH5I4Fn9yB3DZErTndmJSr0NYEXIEAPTnYtZ3bBu07gRMbrz90EaWmeyO5x5seF2mpl9s8wd36LlNgWGfr8XiZwZSdqjz8Cr7dtLUPj58xIXH7sokjRGqhJQqiTWeSuxz2d0KLFQydeEG",
+              "received": false
+            }
+          ],
+          "total_price": 146142,
+          "delivery": null,
+          "changedOn": "2025-12-14T15:27:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693ed7601c508c5d5ec71f3b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

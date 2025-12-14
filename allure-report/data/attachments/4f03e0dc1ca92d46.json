@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 15:27:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3429",
+    "etag": "W/\"d65-9b/9T+V69LZtsEQjPdzrP/pmH/E\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693ed76a1c508c5d5ec72158",
+        "email": "Delbert_Reichert29@gmail.com",
+        "name": "Clifton Rolfson",
+        "country": "Belarus",
+        "city": "Amirton",
+        "street": "W Jefferson Street",
+        "house": 22,
+        "flat": 868,
+        "phone": "+13017133918",
+        "createdOn": "2025-12-14T15:27:38.000Z",
+        "notes": "HdcfnaMqkoOq3TU2VpPHKccr7KKCgc4KRj0G7vaX8891G9s8up0qrg2EeAfTUyyB2eqXkfvgNtsa1atR88GV4eZL243HAD7fYaQemt7XfVdFsSYpXn7TCEHp0x4eRfKxVnqbcO6r4eVpzl3SEX463ZAMMpGyFPBOBSlRokljAsmOAu4kzW9buOuCrMyHJcOtjJ94W7xuo03fNd1B0x7KiFar94pOVxVTBvU5px8Uo7q8TWjY3wi5j2hWTa"
+      },
+      "products": [
+        {
+          "_id": "693ed76d1c508c5d5ec72369",
+          "name": "Chips54853",
+          "amount": 792,
+          "price": 44167,
+          "manufacturer": "Sony",
+          "notes": "7bhGBAVl9vOpKlsvEdERUeA2tEhUVYztOviNQs7rHqjamKm6Yywzvedud7GENCyFdH5oJ9WFO1VQReWSWvBO2quOAM894QaZY1OTYYB4dFY5FxmV9asHbh6mhj4zo4usOS57UNc3t4xwo9MPD41e6RM1MEdZygFAlDQqO6GfrC7WRQVYDqGhrEW1Vdf4YoY1UbWRZX2xGwkaNZXg1Qm8RKvawXOcuJCUF6TwK7sBHey3g75dS7deMv1h54",
+          "received": false
+        },
+        {
+          "_id": "693ed7721c508c5d5ec724f3",
+          "name": "Fish30057",
+          "amount": 628,
+          "price": 14585,
+          "manufacturer": "Microsoft",
+          "notes": "w8GApOmTfFsMXHiUUG51gbH5bh0OwUGQQwNbbrFFIP8mgz9hYD84HayvPV01cs7mB8MJ2FS4gdDpCCw2fLgprSGenI7Nt6hRzHfJkXNIAdP03BPuxkRsfACPhS3xBIwBkcddWjgnAy6Nq4eWyPS0NURKBMlQ4Hn0CdJRJRbwL88FsZ4Ceno4drAQzelQPWmACqj3nzmNMPP3DIfcSAfxzuaZLLtF7nzIUh4QaSFP6aJfq7aA6st4VO4luK",
+          "received": false
+        },
+        {
+          "_id": "693ed7761c508c5d5ec72601",
+          "name": "Chair17710",
+          "amount": 672,
+          "price": 40182,
+          "manufacturer": "Xiaomi",
+          "notes": "NlURW0q8HZrtTx8bn4JcPBdMbV2RxpJmJ9tMbIxL4mi7ZLpbSkF5rexdHpcL6a3SdWJUBE7JFgyCU2z54MmHpnrY1HMczH9hDGa9tZEGdcsokQ1MmqUirjn9DfMktvccFBCnjz7S6rqmzgKYXC3FcpZPjvw99xECSfnABLhal8HX7XtAqptyJm7UT8IquNVQpr9NvnsfOJi1MDrVG9c9hNGJEZ7RBfbJkN9b2MzhfRo5qZ7RRydQIFfZLK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98934,
+      "createdOn": "2025-12-14T15:27:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ed76a1c508c5d5ec72158",
+          "products": [
+            {
+              "_id": "693ed76d1c508c5d5ec72369",
+              "name": "Chips54853",
+              "amount": 792,
+              "price": 44167,
+              "manufacturer": "Sony",
+              "notes": "7bhGBAVl9vOpKlsvEdERUeA2tEhUVYztOviNQs7rHqjamKm6Yywzvedud7GENCyFdH5oJ9WFO1VQReWSWvBO2quOAM894QaZY1OTYYB4dFY5FxmV9asHbh6mhj4zo4usOS57UNc3t4xwo9MPD41e6RM1MEdZygFAlDQqO6GfrC7WRQVYDqGhrEW1Vdf4YoY1UbWRZX2xGwkaNZXg1Qm8RKvawXOcuJCUF6TwK7sBHey3g75dS7deMv1h54",
+              "received": false
+            },
+            {
+              "_id": "693ed7721c508c5d5ec724f3",
+              "name": "Fish30057",
+              "amount": 628,
+              "price": 14585,
+              "manufacturer": "Microsoft",
+              "notes": "w8GApOmTfFsMXHiUUG51gbH5bh0OwUGQQwNbbrFFIP8mgz9hYD84HayvPV01cs7mB8MJ2FS4gdDpCCw2fLgprSGenI7Nt6hRzHfJkXNIAdP03BPuxkRsfACPhS3xBIwBkcddWjgnAy6Nq4eWyPS0NURKBMlQ4Hn0CdJRJRbwL88FsZ4Ceno4drAQzelQPWmACqj3nzmNMPP3DIfcSAfxzuaZLLtF7nzIUh4QaSFP6aJfq7aA6st4VO4luK",
+              "received": false
+            },
+            {
+              "_id": "693ed7761c508c5d5ec72601",
+              "name": "Chair17710",
+              "amount": 672,
+              "price": 40182,
+              "manufacturer": "Xiaomi",
+              "notes": "NlURW0q8HZrtTx8bn4JcPBdMbV2RxpJmJ9tMbIxL4mi7ZLpbSkF5rexdHpcL6a3SdWJUBE7JFgyCU2z54MmHpnrY1HMczH9hDGa9tZEGdcsokQ1MmqUirjn9DfMktvccFBCnjz7S6rqmzgKYXC3FcpZPjvw99xECSfnABLhal8HX7XtAqptyJm7UT8IquNVQpr9NvnsfOJi1MDrVG9c9hNGJEZ7RBfbJkN9b2MzhfRo5qZ7RRydQIFfZLK",
+              "received": false
+            }
+          ],
+          "total_price": 98934,
+          "delivery": null,
+          "changedOn": "2025-12-14T15:27:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693ed7761c508c5d5ec7260f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

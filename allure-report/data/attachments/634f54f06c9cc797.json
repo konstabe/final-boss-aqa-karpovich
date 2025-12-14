@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 15:27:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3426",
+    "etag": "W/\"d62-z0eKjY4yK0BhoL1jS1wVjm5qQDY\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693ed7511c508c5d5ec71d47",
+        "email": "Amelie65@yahoo.com",
+        "name": "Rod Swaniawski",
+        "country": "Canada",
+        "city": "Sierra Vista",
+        "street": "Erdman Light",
+        "house": 21,
+        "flat": 594,
+        "phone": "+15127696532",
+        "createdOn": "2025-12-14T15:27:13.000Z",
+        "notes": "J89M7gefJwPRPo9MJ4L7B772ZVBqYGFtcgVthCXl5cW9SeuiKeqwW280oeHMPgiYR66vuHA0vo7GLVdNvl9TBcFmcXZpr0MVtnFvnlsffl5y63NnNZyJ2VI8ST73UByOreCHz743CiBDdWwLy42yRRMjuxRjcOTAEtIj7M79KJ9cm5cTD40DltBJWAdRXQ9mwTQcg4bNKXt2oDsY1ghU50lMFem9BfMUZiHHdz1tIMq4VZZD8E1Qsxpn4I"
+      },
+      "products": [
+        {
+          "_id": "693ed7551c508c5d5ec71d93",
+          "name": "Bike26853",
+          "amount": 804,
+          "price": 57926,
+          "manufacturer": "Google",
+          "notes": "sI9135d9n2cRKlbw5lOfTjt5WTW9FiNwicwrCVLMcSlhwjv4XXYPgva9A2xM9IivNpcGN1I5k3eSVfdLoUsNtnVWGuDRhF7HYJxGOi633oTFSMCYvgHN3xLMVpr7sqP69EqkFkZIOhQIFvyw1JclqyoTnbInvlBNYu0ACihwsvZxiaLK1YZaz9lmxv02noQhf8YuVqjIcf9T4huxKqYTEl4ynbP8bKF8dABckcCMr6hw22JblSGC1S51Kd",
+          "received": false
+        },
+        {
+          "_id": "693ed7581c508c5d5ec71dc6",
+          "name": "Sausages91181",
+          "amount": 195,
+          "price": 64482,
+          "manufacturer": "Amazon",
+          "notes": "bk7KYP7lBwkajPuS7i7TFFH1IkjgXtJPy3ZHfvXS0cmW8cvBN8OVM2IBTKXTDmcZ1Jzh13hfDGOunUyotXKs2HzDLLt5VDy41YxEy24xieC1e49BrLPO0R0BjejZy7DrocFzNrbS1B2APc7R4hIEtCDkTBy3obNgFztisV8ZGk6l1zF1NlcaaLCVyeaoBlqJ48FC2DutW2DvvUShpsRrOXHeD8DcyX6YzjTOoISh2piZYJEe7FAT94ynfu",
+          "received": false
+        },
+        {
+          "_id": "693ed75b1c508c5d5ec71dfb",
+          "name": "Fish31413",
+          "amount": 546,
+          "price": 70029,
+          "manufacturer": "Microsoft",
+          "notes": "e97vP4eg7TYLi9mHHdR96mfFutkyoUavcw8jJerZ1cA09D2IK1V2z6mC61OwlCehnEcmZaZg9DgzOOJPwyQc4hIbo0kVWSL4OFhnjvkmA6VoLin0HNE9o2jcxikt3YM2WQof8Pv5TYJOYWHJcvhj9to6BVDPxuECt0HfAcbRUhdTnsf20HZya3K19MeP3X3yOhfTKnUeTvF1BmnGP4Y7QO6kPPSwlFQ5vEo0A2IFA5aTirm0nxvAKSf5pd",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 192437,
+      "createdOn": "2025-12-14T15:27:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ed7511c508c5d5ec71d47",
+          "products": [
+            {
+              "_id": "693ed7551c508c5d5ec71d93",
+              "name": "Bike26853",
+              "amount": 804,
+              "price": 57926,
+              "manufacturer": "Google",
+              "notes": "sI9135d9n2cRKlbw5lOfTjt5WTW9FiNwicwrCVLMcSlhwjv4XXYPgva9A2xM9IivNpcGN1I5k3eSVfdLoUsNtnVWGuDRhF7HYJxGOi633oTFSMCYvgHN3xLMVpr7sqP69EqkFkZIOhQIFvyw1JclqyoTnbInvlBNYu0ACihwsvZxiaLK1YZaz9lmxv02noQhf8YuVqjIcf9T4huxKqYTEl4ynbP8bKF8dABckcCMr6hw22JblSGC1S51Kd",
+              "received": false
+            },
+            {
+              "_id": "693ed7581c508c5d5ec71dc6",
+              "name": "Sausages91181",
+              "amount": 195,
+              "price": 64482,
+              "manufacturer": "Amazon",
+              "notes": "bk7KYP7lBwkajPuS7i7TFFH1IkjgXtJPy3ZHfvXS0cmW8cvBN8OVM2IBTKXTDmcZ1Jzh13hfDGOunUyotXKs2HzDLLt5VDy41YxEy24xieC1e49BrLPO0R0BjejZy7DrocFzNrbS1B2APc7R4hIEtCDkTBy3obNgFztisV8ZGk6l1zF1NlcaaLCVyeaoBlqJ48FC2DutW2DvvUShpsRrOXHeD8DcyX6YzjTOoISh2piZYJEe7FAT94ynfu",
+              "received": false
+            },
+            {
+              "_id": "693ed75b1c508c5d5ec71dfb",
+              "name": "Fish31413",
+              "amount": 546,
+              "price": 70029,
+              "manufacturer": "Microsoft",
+              "notes": "e97vP4eg7TYLi9mHHdR96mfFutkyoUavcw8jJerZ1cA09D2IK1V2z6mC61OwlCehnEcmZaZg9DgzOOJPwyQc4hIbo0kVWSL4OFhnjvkmA6VoLin0HNE9o2jcxikt3YM2WQof8Pv5TYJOYWHJcvhj9to6BVDPxuECt0HfAcbRUhdTnsf20HZya3K19MeP3X3yOhfTKnUeTvF1BmnGP4Y7QO6kPPSwlFQ5vEo0A2IFA5aTirm0nxvAKSf5pd",
+              "received": false
+            }
+          ],
+          "total_price": 192437,
+          "delivery": null,
+          "changedOn": "2025-12-14T15:27:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693ed75c1c508c5d5ec71e12"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
