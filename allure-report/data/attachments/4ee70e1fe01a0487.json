@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:24:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4104",
+    "etag": "W/\"1008-Ub8xB5VKTDq5+ZatE+qN4DzE0Go\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693f39191c508c5d5ec8b4b0",
+      "status": "Draft",
+      "customer": {
+        "_id": "693f390e1c508c5d5ec8b3b7",
+        "email": "Elias31@gmail.com",
+        "name": "Colin Feeney",
+        "country": "USA",
+        "city": "Miatown",
+        "street": "Cartwright Circles",
+        "house": 41,
+        "flat": 848,
+        "phone": "+16498383476",
+        "createdOn": "2025-12-14T22:24:14.000Z",
+        "notes": "13y67WP5EIEL9CzJFwNuD9KMbPaYOLvBOmFBJS9KezXCEOyrqzbH58GhWc4qwiRaLWy1f2CVeG6WNYBXMc0WFYeIYtMMi4qq1jGDCO6u97UJ9wEyMODXwyapjYYjTSw01r3nzEJxYHekuOLqtBgUM4HS23DpKAAKjKfBMf1HtRRguBlFQ39J8IEuzOr9xPQNq0dxOf8BsjIapvtYau0JS1veNz6ndDBJzAaVYrxkSmh3nqAvWVAkiJqwV0"
+      },
+      "products": [
+        {
+          "_id": "693f39131c508c5d5ec8b46b",
+          "name": "Chicken50176",
+          "amount": 569,
+          "price": 58077,
+          "manufacturer": "Tesla",
+          "notes": "XNe69R6OK1t2dffjGxS9wBXGVB7gaI0KBlgYUkDoMsiSEFg4ZfmSQ20TKEiajv8faMwHmTxpUFAW8xldGutFX0teRcnwj5o8MBoVG1sPFdhhaeFqRFPhMG8ieobKLNHCWFEZArHp0icusseKhKsea6BA6v7UIL4FJbTV1X97qSsk1gJ2wiWdscUsFbBqztdmPoy6SIqMMWzf5MdOlRec6LoapObSOFVDKgiQxwJXxh580JEnXUcxqOBY0K",
+          "received": false
+        },
+        {
+          "_id": "693f39181c508c5d5ec8b493",
+          "name": "Fish95227",
+          "amount": 603,
+          "price": 76708,
+          "manufacturer": "Microsoft",
+          "notes": "rmxxUIvTxPLqYHCAmcCL7oQemNMSqusK12NPTsIw1EdpmkwmJ288aFTRbBNuKNExPcXhBjb8PnWOb17et7hSITl50pnKW3n6JdGJSNNPQe3wqvX4HQx2aKPBTwvWDLZ3LUo0vKzhrZ9DwpATGrapi1Gn1fCzq0eFgk7WLhSP2DMIWvLXmn2fQ7nnz8Jv8lmOeSwJ1v6pGnuQRkKL5ttUswclQaLaOng1tcKzBZE2YqEAVgr9pTIP2yAc1r",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Miatown",
+          "street": "Cartwright Circles",
+          "house": 41,
+          "flat": 848
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 134785,
+      "createdOn": "2025-12-14T22:24:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f390e1c508c5d5ec8b3b7",
+          "products": [
+            {
+              "_id": "693f39131c508c5d5ec8b46b",
+              "name": "Chicken50176",
+              "amount": 569,
+              "price": 58077,
+              "manufacturer": "Tesla",
+              "notes": "XNe69R6OK1t2dffjGxS9wBXGVB7gaI0KBlgYUkDoMsiSEFg4ZfmSQ20TKEiajv8faMwHmTxpUFAW8xldGutFX0teRcnwj5o8MBoVG1sPFdhhaeFqRFPhMG8ieobKLNHCWFEZArHp0icusseKhKsea6BA6v7UIL4FJbTV1X97qSsk1gJ2wiWdscUsFbBqztdmPoy6SIqMMWzf5MdOlRec6LoapObSOFVDKgiQxwJXxh580JEnXUcxqOBY0K",
+              "received": false
+            },
+            {
+              "_id": "693f39181c508c5d5ec8b493",
+              "name": "Fish95227",
+              "amount": 603,
+              "price": 76708,
+              "manufacturer": "Microsoft",
+              "notes": "rmxxUIvTxPLqYHCAmcCL7oQemNMSqusK12NPTsIw1EdpmkwmJ288aFTRbBNuKNExPcXhBjb8PnWOb17et7hSITl50pnKW3n6JdGJSNNPQe3wqvX4HQx2aKPBTwvWDLZ3LUo0vKzhrZ9DwpATGrapi1Gn1fCzq0eFgk7WLhSP2DMIWvLXmn2fQ7nnz8Jv8lmOeSwJ1v6pGnuQRkKL5ttUswclQaLaOng1tcKzBZE2YqEAVgr9pTIP2yAc1r",
+              "received": false
+            }
+          ],
+          "total_price": 134785,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Miatown",
+              "street": "Cartwright Circles",
+              "house": 41,
+              "flat": 848
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-14T22:24:25.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693f390e1c508c5d5ec8b3b7",
+          "products": [
+            {
+              "_id": "693f39131c508c5d5ec8b46b",
+              "name": "Chicken50176",
+              "amount": 569,
+              "price": 58077,
+              "manufacturer": "Tesla",
+              "notes": "XNe69R6OK1t2dffjGxS9wBXGVB7gaI0KBlgYUkDoMsiSEFg4ZfmSQ20TKEiajv8faMwHmTxpUFAW8xldGutFX0teRcnwj5o8MBoVG1sPFdhhaeFqRFPhMG8ieobKLNHCWFEZArHp0icusseKhKsea6BA6v7UIL4FJbTV1X97qSsk1gJ2wiWdscUsFbBqztdmPoy6SIqMMWzf5MdOlRec6LoapObSOFVDKgiQxwJXxh580JEnXUcxqOBY0K",
+              "received": false
+            },
+            {
+              "_id": "693f39181c508c5d5ec8b493",
+              "name": "Fish95227",
+              "amount": 603,
+              "price": 76708,
+              "manufacturer": "Microsoft",
+              "notes": "rmxxUIvTxPLqYHCAmcCL7oQemNMSqusK12NPTsIw1EdpmkwmJ288aFTRbBNuKNExPcXhBjb8PnWOb17et7hSITl50pnKW3n6JdGJSNNPQe3wqvX4HQx2aKPBTwvWDLZ3LUo0vKzhrZ9DwpATGrapi1Gn1fCzq0eFgk7WLhSP2DMIWvLXmn2fQ7nnz8Jv8lmOeSwJ1v6pGnuQRkKL5ttUswclQaLaOng1tcKzBZE2YqEAVgr9pTIP2yAc1r",
+              "received": false
+            }
+          ],
+          "total_price": 134785,
+          "delivery": null,
+          "changedOn": "2025-12-14T22:24:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:24:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3438",
+    "etag": "W/\"d6e-QNyQfgYg9LF26gzCMgaG6vEINHc\"",
+    "keep-alive": "timeout=5, max=63",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f38f41c508c5d5ec8ac87",
+        "email": "Everett_Schroeder@hotmail.com",
+        "name": "Melba Monahan",
+        "country": "Russia",
+        "city": "South Kendrickbury",
+        "street": "Stehr Hill",
+        "house": 17,
+        "flat": 424,
+        "phone": "+13018531387",
+        "createdOn": "2025-12-14T22:23:48.000Z",
+        "notes": "SAdHPymiDZtMp5arULHHrIbbbqcpg9df27lzrXvxj0ds3fd0Fy1WDwyXAbItU2HbDQVNf6g3ZrcS28eSzcEtHa04sytPyFts4VgCVW1fFUMRfL4vnBspUkyC5fKIZ8MUWbOB6jpFftcgWPCQyv13YLg3CKgZarL5NEKcy1ZIWs7wD71cZzyfWC5Q2bHbMP3QtumetGRj6CfaNNHckMYrOgAFuOVlHGuXwDH9cHJeaYr8nJMI0Pe5Iz313R"
+      },
+      "products": [
+        {
+          "_id": "693f38f91c508c5d5ec8acc6",
+          "name": "Cheese40713",
+          "amount": 289,
+          "price": 17147,
+          "manufacturer": "Microsoft",
+          "notes": "nM7XUZbTqpN6ZfIWJgSss8iM6Z4XLzDjEbm28xIgKFypEAyea7lNvLDB7bcVcZa56HcbKiFpK9jRBl1uZwvpmwMShCqaDOxkSy38W3JGwi5E0t2w3EEqAcIXSiBtHlgjexetj6OEpoUT1q4ScSIYGhfXiYm5PklqjJgjdXGwVSLAA5qeVzAoOTT916bp0qGnBNFQLuZCWpdDFtAr8jUvPRmYKnvShAMrwohlZWMfFXr4zvhRq5KjxBto9B",
+          "received": false
+        },
+        {
+          "_id": "693f38fe1c508c5d5ec8ae30",
+          "name": "Table92068",
+          "amount": 969,
+          "price": 847,
+          "manufacturer": "Tesla",
+          "notes": "asgtXIzkUuHt9W05zrqFwA7twlA5n5OOqzzJGowI0IqxCIJb52aETVwT5iNYRENCE1UQw6uPKVL1VxqT4nEb1ycFtpo8KoNqUpCD6TjdvCiEuaJX6ms7miEQz4WzGPb9Ya9LSJWfI0xfHqKxaw6Mv30pbLJDuBEqTXEw33t7NANvCLnsBgzWMRGAX0llU7kAVBPRs1UL5SuTdDt7XRte5FsGpbnSvkmimFxX512dV6lmhUZ14Ds1VkjwWJ",
+          "received": false
+        },
+        {
+          "_id": "693f39041c508c5d5ec8b071",
+          "name": "Computer51502",
+          "amount": 833,
+          "price": 60602,
+          "manufacturer": "Google",
+          "notes": "MC9QPwxVqxtWLBYcWliP2XGybhdUBvDKIhjsVrPUsxD0bEaPunCytR0VuA4nH3ixtgfwCvr8ZfizazfwBSGDD0ASliy3Oq5xDiIRsYXuJPgpoUJ67KlvrS3q6PldRAdEhowy6lydLmfqAOiE7wFWaHvPJbqJXUEaiSNT4C7VbwzomiLHdIazrRSgi10MhuesKt0OEiThwXmiZdCi5BGjDuEM3J66hs1vPwBoaOcQUs6cWJVs22LMI77t6r",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 78596,
+      "createdOn": "2025-12-14T22:24:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f38f41c508c5d5ec8ac87",
+          "products": [
+            {
+              "_id": "693f38f91c508c5d5ec8acc6",
+              "name": "Cheese40713",
+              "amount": 289,
+              "price": 17147,
+              "manufacturer": "Microsoft",
+              "notes": "nM7XUZbTqpN6ZfIWJgSss8iM6Z4XLzDjEbm28xIgKFypEAyea7lNvLDB7bcVcZa56HcbKiFpK9jRBl1uZwvpmwMShCqaDOxkSy38W3JGwi5E0t2w3EEqAcIXSiBtHlgjexetj6OEpoUT1q4ScSIYGhfXiYm5PklqjJgjdXGwVSLAA5qeVzAoOTT916bp0qGnBNFQLuZCWpdDFtAr8jUvPRmYKnvShAMrwohlZWMfFXr4zvhRq5KjxBto9B",
+              "received": false
+            },
+            {
+              "_id": "693f38fe1c508c5d5ec8ae30",
+              "name": "Table92068",
+              "amount": 969,
+              "price": 847,
+              "manufacturer": "Tesla",
+              "notes": "asgtXIzkUuHt9W05zrqFwA7twlA5n5OOqzzJGowI0IqxCIJb52aETVwT5iNYRENCE1UQw6uPKVL1VxqT4nEb1ycFtpo8KoNqUpCD6TjdvCiEuaJX6ms7miEQz4WzGPb9Ya9LSJWfI0xfHqKxaw6Mv30pbLJDuBEqTXEw33t7NANvCLnsBgzWMRGAX0llU7kAVBPRs1UL5SuTdDt7XRte5FsGpbnSvkmimFxX512dV6lmhUZ14Ds1VkjwWJ",
+              "received": false
+            },
+            {
+              "_id": "693f39041c508c5d5ec8b071",
+              "name": "Computer51502",
+              "amount": 833,
+              "price": 60602,
+              "manufacturer": "Google",
+              "notes": "MC9QPwxVqxtWLBYcWliP2XGybhdUBvDKIhjsVrPUsxD0bEaPunCytR0VuA4nH3ixtgfwCvr8ZfizazfwBSGDD0ASliy3Oq5xDiIRsYXuJPgpoUJ67KlvrS3q6PldRAdEhowy6lydLmfqAOiE7wFWaHvPJbqJXUEaiSNT4C7VbwzomiLHdIazrRSgi10MhuesKt0OEiThwXmiZdCi5BGjDuEM3J66hs1vPwBoaOcQUs6cWJVs22LMI77t6r",
+              "received": false
+            }
+          ],
+          "total_price": 78596,
+          "delivery": null,
+          "changedOn": "2025-12-14T22:24:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f39041c508c5d5ec8b08c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

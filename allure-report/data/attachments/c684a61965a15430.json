@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:24:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2639",
+    "etag": "W/\"a4f-MJl/Mbep2wpPz9D7XIGo2impmd8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f39131c508c5d5ec8b46d",
+        "email": "Sasha.Schuster29@gmail.com",
+        "name": "Ilene Rowe",
+        "country": "USA",
+        "city": "Homenickshire",
+        "street": "The Glebe",
+        "house": 29,
+        "flat": 633,
+        "phone": "+18819551030",
+        "createdOn": "2025-12-14T22:24:19.000Z",
+        "notes": "ykSPExv4WuM66ZQju4kCE9a4V5WEDj6x3lMWSChrXTRWQbvOtya5vkUZvA33BsJpcPKxchDH0HaqkSFaVosd6ECFBrNZgevsRZoleFC6Q9VvD4BRPSH3E36sKlcIP8Iut0niXAh9d44GKXGVXuI7b5qpHqDsTsnwK3f6FfDPwailH6Ihx1r835evknFqTXuxuk1IuOQ0SdIATrkg70QBrnuACCa4aHuDi59MMa7udO23JmJ7k292yzoOY0"
+      },
+      "products": [
+        {
+          "_id": "693f39181c508c5d5ec8b495",
+          "name": "Chicken3657",
+          "amount": 450,
+          "price": 77473,
+          "manufacturer": "Apple",
+          "notes": "TZXyu4xKQNjPDqo95s08jdIaLQm4ieLOb3RdeDe5a2upEvdFI7VogjBUUWeBC1XXmwJG0shcZm16vLDlzFqYjbC1Mkm81TknBZ5TjhGvZUfblb77O7oOln2oVgi2e9MV5WRbv3TsnC5ySQgms9IwtezLud7PDsAWqeXsV62locm8E5LcJLjMgsgmujVAkXvHdKWXLRw3pv3q5HnibHFNOHhMN6YFFzzbU0cBh0j9Vx4BCdC45XJFMfut2s",
+          "received": false
+        },
+        {
+          "_id": "693f391d1c508c5d5ec8b5cb",
+          "name": "Soap92085",
+          "amount": 5,
+          "price": 18927,
+          "manufacturer": "Tesla",
+          "notes": "LTUAFlj5WW9FqZufp3KJES8XshBu9dmbyAtcSgxV11gGiFMBcLaosz9WPIhNkA0PzdRyaA0zfdOgmXCLhUZdgQgG1xW69bmv0WXd2dCQ8XQtlTQWK5ZrSruBJ4G1vuFANGLJOWfiTKkbd8vtg1mdP5naWn6Xt6qyi4O2nLOeMYB1oolRqABxAYWx7bkvFp5sBCZCVEGivtnaoj76tkCKZW5BtuYjuqSCFH0i7iTHz6WoCtNFDuFtzfYwGM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 96400,
+      "createdOn": "2025-12-14T22:24:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f39131c508c5d5ec8b46d",
+          "products": [
+            {
+              "_id": "693f39181c508c5d5ec8b495",
+              "name": "Chicken3657",
+              "amount": 450,
+              "price": 77473,
+              "manufacturer": "Apple",
+              "notes": "TZXyu4xKQNjPDqo95s08jdIaLQm4ieLOb3RdeDe5a2upEvdFI7VogjBUUWeBC1XXmwJG0shcZm16vLDlzFqYjbC1Mkm81TknBZ5TjhGvZUfblb77O7oOln2oVgi2e9MV5WRbv3TsnC5ySQgms9IwtezLud7PDsAWqeXsV62locm8E5LcJLjMgsgmujVAkXvHdKWXLRw3pv3q5HnibHFNOHhMN6YFFzzbU0cBh0j9Vx4BCdC45XJFMfut2s",
+              "received": false
+            },
+            {
+              "_id": "693f391d1c508c5d5ec8b5cb",
+              "name": "Soap92085",
+              "amount": 5,
+              "price": 18927,
+              "manufacturer": "Tesla",
+              "notes": "LTUAFlj5WW9FqZufp3KJES8XshBu9dmbyAtcSgxV11gGiFMBcLaosz9WPIhNkA0PzdRyaA0zfdOgmXCLhUZdgQgG1xW69bmv0WXd2dCQ8XQtlTQWK5ZrSruBJ4G1vuFANGLJOWfiTKkbd8vtg1mdP5naWn6Xt6qyi4O2nLOeMYB1oolRqABxAYWx7bkvFp5sBCZCVEGivtnaoj76tkCKZW5BtuYjuqSCFH0i7iTHz6WoCtNFDuFtzfYwGM",
+              "received": false
+            }
+          ],
+          "total_price": 96400,
+          "delivery": null,
+          "changedOn": "2025-12-14T22:24:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f391e1c508c5d5ec8b5e3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

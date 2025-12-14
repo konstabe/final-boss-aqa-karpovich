@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:23:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3428",
+    "etag": "W/\"d64-NolWk4ey5sfgHvBB6Gvk20uuDy0\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f38ef1c508c5d5ec8abf8",
+        "email": "Stephania.Hermann92@hotmail.com",
+        "name": "Charlie Dietrich",
+        "country": "USA",
+        "city": "Homenickland",
+        "street": "North Avenue",
+        "house": 32,
+        "flat": 990,
+        "phone": "+14507580902",
+        "createdOn": "2025-12-14T22:23:43.000Z",
+        "notes": "pxi9Rv1sw8Kg7VLG1waGff4U3JTUCaEFXLDx3QFk91ujKS7lCLPKHATCc00zYrEhbExtSczq5VJTMVUSX1yUncTpbJqRMzBEvGKu5Yj3dCWvjpPYH7WmtzBqVcoPwnGTxk1jUCH7IFOf4HwOKrKwYJjFhzAOy3MllUnlLRxTmDlG2tp5Euf0xL6STZbzPcIMJnu0mEmAwVQugU1YIoCTLL9bJz1BDWH6tffk8GbF6wmsIimIdG8TL9dlX8"
+      },
+      "products": [
+        {
+          "_id": "693f38f41c508c5d5ec8ac85",
+          "name": "Towels96197",
+          "amount": 607,
+          "price": 25049,
+          "manufacturer": "Samsung",
+          "notes": "Re9YfVZBsGlwqnVZ2SjpWWTEWsTUP6WhDoTSLbM2SEQVL8rsgMBSq3fRCe2Ufyr2mwS2C1WWlWLm6ZpkqhZDYEIowk18H9tXsiS0KZkkmQqJ4EcN8emRX7XK7M793Zknvy1AwZMr4IL1pSdeFyN7SSwvbzgLE56Kw1otfQ7F5EmaTvRtLkBkEN5ir5ssDtc2Wz5NtJTUj1kXLeUnja9OcpLHFblCkKjxMwlcF2C4HctycgPCfdoOXqgBIs",
+          "received": false
+        },
+        {
+          "_id": "693f38f91c508c5d5ec8acc4",
+          "name": "Sausages78176",
+          "amount": 966,
+          "price": 24586,
+          "manufacturer": "Sony",
+          "notes": "g5gCAhRN3UvSmtXalqGgSeNO9YGrMB7zsGWlNBV2sDjK1mpV7UKB683LULXwqu9bpzbDlcZNA9GNXVqqTUtcjqAL1rrETHCupfgDyx1UDPcr4eKkshLPqeYgDyQIuUWj2bGwDOpyAVmAY2jltHgZTq1YljgUi0fmoE2gH7Iv2PvqAe7zhygGKomoUynSNUXHodZbXpjUrVXvYwkwwXOIF1iudumvYsvcuCLMqSrNXUcDtvhzFxdBF5wwEK",
+          "received": false
+        },
+        {
+          "_id": "693f38fe1c508c5d5ec8ae2e",
+          "name": "Bike10132",
+          "amount": 524,
+          "price": 46222,
+          "manufacturer": "Sony",
+          "notes": "xc2SeMgXihrs9oXqovejqmxbfFcnVtHmK5EGa0XyaK13hi02cAuqFeg3Hs0oF3W6s9S2HCv5Avz5sZoPfeANubKudFJ9mmNdsfb8JJimDts9eVar1SrHWhgg6FX94nu0dqgBwgWG3YP0bR8EzdAkXiywqrzaB6MTo7e0W3SFebrrtndu9xiWkkZZXsVCLoCQ0hMiQgnsofqghOOBsJ9Oa8GOSbqJtRGjsFoyKJ6h1icSyblfovRa9LUeTs",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 95857,
+      "createdOn": "2025-12-14T22:23:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f38ef1c508c5d5ec8abf8",
+          "products": [
+            {
+              "_id": "693f38f41c508c5d5ec8ac85",
+              "name": "Towels96197",
+              "amount": 607,
+              "price": 25049,
+              "manufacturer": "Samsung",
+              "notes": "Re9YfVZBsGlwqnVZ2SjpWWTEWsTUP6WhDoTSLbM2SEQVL8rsgMBSq3fRCe2Ufyr2mwS2C1WWlWLm6ZpkqhZDYEIowk18H9tXsiS0KZkkmQqJ4EcN8emRX7XK7M793Zknvy1AwZMr4IL1pSdeFyN7SSwvbzgLE56Kw1otfQ7F5EmaTvRtLkBkEN5ir5ssDtc2Wz5NtJTUj1kXLeUnja9OcpLHFblCkKjxMwlcF2C4HctycgPCfdoOXqgBIs",
+              "received": false
+            },
+            {
+              "_id": "693f38f91c508c5d5ec8acc4",
+              "name": "Sausages78176",
+              "amount": 966,
+              "price": 24586,
+              "manufacturer": "Sony",
+              "notes": "g5gCAhRN3UvSmtXalqGgSeNO9YGrMB7zsGWlNBV2sDjK1mpV7UKB683LULXwqu9bpzbDlcZNA9GNXVqqTUtcjqAL1rrETHCupfgDyx1UDPcr4eKkshLPqeYgDyQIuUWj2bGwDOpyAVmAY2jltHgZTq1YljgUi0fmoE2gH7Iv2PvqAe7zhygGKomoUynSNUXHodZbXpjUrVXvYwkwwXOIF1iudumvYsvcuCLMqSrNXUcDtvhzFxdBF5wwEK",
+              "received": false
+            },
+            {
+              "_id": "693f38fe1c508c5d5ec8ae2e",
+              "name": "Bike10132",
+              "amount": 524,
+              "price": 46222,
+              "manufacturer": "Sony",
+              "notes": "xc2SeMgXihrs9oXqovejqmxbfFcnVtHmK5EGa0XyaK13hi02cAuqFeg3Hs0oF3W6s9S2HCv5Avz5sZoPfeANubKudFJ9mmNdsfb8JJimDts9eVar1SrHWhgg6FX94nu0dqgBwgWG3YP0bR8EzdAkXiywqrzaB6MTo7e0W3SFebrrtndu9xiWkkZZXsVCLoCQ0hMiQgnsofqghOOBsJ9Oa8GOSbqJtRGjsFoyKJ6h1icSyblfovRa9LUeTs",
+              "received": false
+            }
+          ],
+          "total_price": 95857,
+          "delivery": null,
+          "changedOn": "2025-12-14T22:23:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f38fe1c508c5d5ec8ae49"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

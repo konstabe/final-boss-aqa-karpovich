@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:23:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5409",
+    "etag": "W/\"1521-Rje+febw9DqoDUQln7NSbV6symw\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693f38fb1c508c5d5ec8aced",
+      "status": "In Process",
+      "customer": {
+        "_id": "693f38f11c508c5d5ec8ac5c",
+        "email": "Oran.Purdy@gmail.com",
+        "name": "Joey Wunsch",
+        "country": "USA",
+        "city": "Crooksside",
+        "street": "Nathaniel Lights",
+        "house": 3,
+        "flat": 342,
+        "phone": "+15332029780",
+        "createdOn": "2025-12-14T22:23:45.000Z",
+        "notes": "dBQTgJAt5uqgNeuAuQQXSneYOktooxpGT3pmoNdwCrQPmlN3FTxzDGVtbptbUt7OOsSQPVfIT91NA8QlTuQmDjyAASgVe90PIK0SjSx8Ms1x1kAfEcR8IJXh2x9oYa7CCI2gXK8OHGUpHOfhdnyUI2ka4eetGkoPiW4vwBl58NHhSXxBsw8Hhrli3oPqLbAQvf61ET0MgA1IdwiPPONgnoD50hmdXsI41WGu4HWQ1XEaUhjC2fYp3oFmJy"
+      },
+      "products": [
+        {
+          "_id": "693f38f61c508c5d5ec8ac8f",
+          "name": "Computer12709",
+          "amount": 64,
+          "price": 59051,
+          "manufacturer": "Apple",
+          "notes": "DRZPtvBCbdOIeLrYnJHWwYGBHKj8oAEycVnm6UBAiDevB5k5Rf8gqe6SlEPRUehcY1BKLzAEm0AdQbCWrxRdZNsSZrwPxeEeWKXbbnTWe6Mc3EmwGAZOo20DEUgda8oDrqHZP5vahYj55TxW2trEBnickbMGrGFKXYieUIp9RE4JQR119QMoiiKwqnd6ZIwNR4ZCKoHoT2AFLc72bdiA3ebyT0JTvWVAGValwzKjuTx1Tl0NKMcJlvsOGH",
+          "received": false
+        },
+        {
+          "_id": "693f38fb1c508c5d5ec8ace3",
+          "name": "Bacon26668",
+          "amount": 875,
+          "price": 81067,
+          "manufacturer": "Tesla",
+          "notes": "yIBc9GBzW34RXeWGgYmOMmOBV4kMmCWXnarqKRvK6foGpPgFX2HEZHe2gwlcrGOtQjPNuSn4d7wSrIqmfpGbSv32tlWVs6ULaT8yNusNxopv38oQemqvwlkxdXKS5MDb9cdl8Hx9Q30prNXf62wdYdAFTWJMoHDkuENnN7RrrJpM4V32IJxpJL4H1U3cH6nKzhugGJGOqK4OLlBYdikpZNNMxY0XQDrKXHD2tNjHNwzRUUk6jz2mIdyGMh",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Crooksside",
+          "street": "Nathaniel Lights",
+          "house": 3,
+          "flat": 342
+        },
+        "finalDate": "2025-12-15T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 140118,
+      "createdOn": "2025-12-14T22:23:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "693f38f11c508c5d5ec8ac5c",
+          "products": [
+            {
+              "_id": "693f38f61c508c5d5ec8ac8f",
+              "name": "Computer12709",
+              "amount": 64,
+              "price": 59051,
+              "manufacturer": "Apple",
+              "notes": "DRZPtvBCbdOIeLrYnJHWwYGBHKj8oAEycVnm6UBAiDevB5k5Rf8gqe6SlEPRUehcY1BKLzAEm0AdQbCWrxRdZNsSZrwPxeEeWKXbbnTWe6Mc3EmwGAZOo20DEUgda8oDrqHZP5vahYj55TxW2trEBnickbMGrGFKXYieUIp9RE4JQR119QMoiiKwqnd6ZIwNR4ZCKoHoT2AFLc72bdiA3ebyT0JTvWVAGValwzKjuTx1Tl0NKMcJlvsOGH",
+              "received": false
+            },
+            {
+              "_id": "693f38fb1c508c5d5ec8ace3",
+              "name": "Bacon26668",
+              "amount": 875,
+              "price": 81067,
+              "manufacturer": "Tesla",
+              "notes": "yIBc9GBzW34RXeWGgYmOMmOBV4kMmCWXnarqKRvK6foGpPgFX2HEZHe2gwlcrGOtQjPNuSn4d7wSrIqmfpGbSv32tlWVs6ULaT8yNusNxopv38oQemqvwlkxdXKS5MDb9cdl8Hx9Q30prNXf62wdYdAFTWJMoHDkuENnN7RrrJpM4V32IJxpJL4H1U3cH6nKzhugGJGOqK4OLlBYdikpZNNMxY0XQDrKXHD2tNjHNwzRUUk6jz2mIdyGMh",
+              "received": false
+            }
+          ],
+          "total_price": 140118,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Crooksside",
+              "street": "Nathaniel Lights",
+              "house": 3,
+              "flat": 342
+            },
+            "finalDate": "2025-12-15T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-14T22:23:58.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693f38f11c508c5d5ec8ac5c",
+          "products": [
+            {
+              "_id": "693f38f61c508c5d5ec8ac8f",
+              "name": "Computer12709",
+              "amount": 64,
+              "price": 59051,
+              "manufacturer": "Apple",
+              "notes": "DRZPtvBCbdOIeLrYnJHWwYGBHKj8oAEycVnm6UBAiDevB5k5Rf8gqe6SlEPRUehcY1BKLzAEm0AdQbCWrxRdZNsSZrwPxeEeWKXbbnTWe6Mc3EmwGAZOo20DEUgda8oDrqHZP5vahYj55TxW2trEBnickbMGrGFKXYieUIp9RE4JQR119QMoiiKwqnd6ZIwNR4ZCKoHoT2AFLc72bdiA3ebyT0JTvWVAGValwzKjuTx1Tl0NKMcJlvsOGH",
+              "received": false
+            },
+            {
+              "_id": "693f38fb1c508c5d5ec8ace3",
+              "name": "Bacon26668",
+              "amount": 875,
+              "price": 81067,
+              "manufacturer": "Tesla",
+              "notes": "yIBc9GBzW34RXeWGgYmOMmOBV4kMmCWXnarqKRvK6foGpPgFX2HEZHe2gwlcrGOtQjPNuSn4d7wSrIqmfpGbSv32tlWVs6ULaT8yNusNxopv38oQemqvwlkxdXKS5MDb9cdl8Hx9Q30prNXf62wdYdAFTWJMoHDkuENnN7RrrJpM4V32IJxpJL4H1U3cH6nKzhugGJGOqK4OLlBYdikpZNNMxY0XQDrKXHD2tNjHNwzRUUk6jz2mIdyGMh",
+              "received": false
+            }
+          ],
+          "total_price": 140118,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Crooksside",
+              "street": "Nathaniel Lights",
+              "house": 3,
+              "flat": 342
+            },
+            "finalDate": "2025-12-15T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-14T22:23:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693f38f11c508c5d5ec8ac5c",
+          "products": [
+            {
+              "_id": "693f38f61c508c5d5ec8ac8f",
+              "name": "Computer12709",
+              "amount": 64,
+              "price": 59051,
+              "manufacturer": "Apple",
+              "notes": "DRZPtvBCbdOIeLrYnJHWwYGBHKj8oAEycVnm6UBAiDevB5k5Rf8gqe6SlEPRUehcY1BKLzAEm0AdQbCWrxRdZNsSZrwPxeEeWKXbbnTWe6Mc3EmwGAZOo20DEUgda8oDrqHZP5vahYj55TxW2trEBnickbMGrGFKXYieUIp9RE4JQR119QMoiiKwqnd6ZIwNR4ZCKoHoT2AFLc72bdiA3ebyT0JTvWVAGValwzKjuTx1Tl0NKMcJlvsOGH",
+              "received": false
+            },
+            {
+              "_id": "693f38fb1c508c5d5ec8ace3",
+              "name": "Bacon26668",
+              "amount": 875,
+              "price": 81067,
+              "manufacturer": "Tesla",
+              "notes": "yIBc9GBzW34RXeWGgYmOMmOBV4kMmCWXnarqKRvK6foGpPgFX2HEZHe2gwlcrGOtQjPNuSn4d7wSrIqmfpGbSv32tlWVs6ULaT8yNusNxopv38oQemqvwlkxdXKS5MDb9cdl8Hx9Q30prNXf62wdYdAFTWJMoHDkuENnN7RrrJpM4V32IJxpJL4H1U3cH6nKzhugGJGOqK4OLlBYdikpZNNMxY0XQDrKXHD2tNjHNwzRUUk6jz2mIdyGMh",
+              "received": false
+            }
+          ],
+          "total_price": 140118,
+          "delivery": null,
+          "changedOn": "2025-12-14T22:23:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:23:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-9xC3tYHLpSuYV1GRAUj3Af6s4Zs\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f38c01c508c5d5ec8a4ee",
+        "email": "River11@hotmail.com",
+        "name": "Kassandra Herman",
+        "country": "Germany",
+        "city": "South Gust",
+        "street": "Wuckert Lodge",
+        "house": 11,
+        "flat": 651,
+        "phone": "+17784360957",
+        "createdOn": "2025-12-14T22:22:56.000Z",
+        "notes": "2ZTHwEdOicXRhOtZdGmnyTn3Bg3509MZFloGFyJnJmBEahDJ5ZPY3RPJJssYm8MaUxFp5gQYP8gqTVzPqSC6kSwrG4hCHMHmPeqhQlQ2p7Tf14XKRKvzAGnXK5Z8yB7H5D0BMkLKB5Q3quVYl4g4RwEixDYdtLuqKqcwDX5yytd6lEaxmKsB8YJD99ajrdU2vk6L9sLn4IF1cFyPDFCKl95fkKqvQlDaTSpOvjUgUeKHfpbWOMj0MNBU1f"
+      },
+      "products": [
+        {
+          "_id": "693f38c51c508c5d5ec8a51c",
+          "name": "Pants93299",
+          "amount": 910,
+          "price": 55758,
+          "manufacturer": "Sony",
+          "notes": "GxO5yokriuPXbDGgjSzbjR0T0MPTmWNwaOpQ7s2ybsBwOHMFJinWJjN2fvtRNvD7NVYucDIEoFvgZgmuraUgtHEPbcgIUI2nyngccbZVae5dGfyR5hHfo8m9Ce5z6xCDi9XbFdiPzJLgRIVnkfmU42gfGpH5qzUaQQYU6fSR6FNZ60h3DZouOAzsFG3L0kCx8hAwpFB6ive8Cwq4MiFc8U9fTojno40nsJcyO5W9xfCUBYAB6CXiD7Hrzo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55758,
+      "createdOn": "2025-12-14T22:23:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f38c01c508c5d5ec8a4ee",
+          "products": [
+            {
+              "_id": "693f38c51c508c5d5ec8a51c",
+              "name": "Pants93299",
+              "amount": 910,
+              "price": 55758,
+              "manufacturer": "Sony",
+              "notes": "GxO5yokriuPXbDGgjSzbjR0T0MPTmWNwaOpQ7s2ybsBwOHMFJinWJjN2fvtRNvD7NVYucDIEoFvgZgmuraUgtHEPbcgIUI2nyngccbZVae5dGfyR5hHfo8m9Ce5z6xCDi9XbFdiPzJLgRIVnkfmU42gfGpH5qzUaQQYU6fSR6FNZ60h3DZouOAzsFG3L0kCx8hAwpFB6ive8Cwq4MiFc8U9fTojno40nsJcyO5W9xfCUBYAB6CXiD7Hrzo",
+              "received": false
+            }
+          ],
+          "total_price": 55758,
+          "delivery": null,
+          "changedOn": "2025-12-14T22:23:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f38c61c508c5d5ec8a527"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

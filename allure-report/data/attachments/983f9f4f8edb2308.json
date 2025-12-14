@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:23:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-yBZ7ROj6qtJXrTzgo1RoAl8fRro\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693f38ea1c508c5d5ec8aaf2",
+      "status": "Draft",
+      "customer": {
+        "_id": "693f38e41c508c5d5ec8a9ba",
+        "email": "Vivian_Dicki@gmail.com",
+        "name": "Jazmyne McKenzie",
+        "country": "Germany",
+        "city": "Apopka",
+        "street": "Enid Highway",
+        "house": 1,
+        "flat": 90,
+        "phone": "+12454250621",
+        "createdOn": "2025-12-14T22:23:32.000Z",
+        "notes": "r6oCKkPDEePAnSNoNMa7lBojbMKXfvBC8YBKXbEh6pT7jIOiVGgAFFRHw2UZcPKpTdBi2rpPPdzcKATyd5ACRHqDTELFjqA8eAnMcR208J2XLPrfa5wbxOy3V780ImRoyyaKSAcOiVEN5vXM9Jd0jHsdRGEGwXbaeRqByuAuWkVbuMkbM4kcfCUMOSGX2UFQJUOzU4krqaWQBGqzhxr0NcnykRfXKQzM5Bo6IvTDDyneQpxJ3EQLKy54i6"
+      },
+      "products": [
+        {
+          "_id": "693f38e91c508c5d5ec8aade",
+          "name": "Salad31354",
+          "amount": 438,
+          "price": 32115,
+          "manufacturer": "Google",
+          "notes": "iaHK1msFqE8s2zwQ3SE0mIUoeu6BuZtcuFZdtWlNxBnGLgcNNWZqMKyY29KQx5Jshi6qE28LU5DYlnSPvrNjBK5KEwsNoQ42Yr3rnrjQwKJJq425kQkyUm2WrWAB5SxsZ1nu3L2S64cd5bIMlDRHj36xbXTgTBi8JeIYFKnySJMeOl7liaYR7172HkItpM0qMAUJ4HdsSC6ojqLEGZQUtYC4hhNR8D5hK5wInlL2775LAOA02snChbRfUD",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 32115,
+      "createdOn": "2025-12-14T22:23:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f38e41c508c5d5ec8a9ba",
+          "products": [
+            {
+              "_id": "693f38e91c508c5d5ec8aade",
+              "name": "Salad31354",
+              "amount": 438,
+              "price": 32115,
+              "manufacturer": "Google",
+              "notes": "iaHK1msFqE8s2zwQ3SE0mIUoeu6BuZtcuFZdtWlNxBnGLgcNNWZqMKyY29KQx5Jshi6qE28LU5DYlnSPvrNjBK5KEwsNoQ42Yr3rnrjQwKJJq425kQkyUm2WrWAB5SxsZ1nu3L2S64cd5bIMlDRHj36xbXTgTBi8JeIYFKnySJMeOl7liaYR7172HkItpM0qMAUJ4HdsSC6ojqLEGZQUtYC4hhNR8D5hK5wInlL2775LAOA02snChbRfUD",
+              "received": false
+            }
+          ],
+          "total_price": 32115,
+          "delivery": null,
+          "changedOn": "2025-12-14T22:23:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
