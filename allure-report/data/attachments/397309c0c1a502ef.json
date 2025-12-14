@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 16:28:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-Oq2+JJYFJUGqVXr3pWi2Wd6vAZU\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693ee58d1c508c5d5ec75cf0",
+        "email": "Harrison.Leannon-Schinner@gmail.com",
+        "name": "Hilton Walter",
+        "country": "Canada",
+        "city": "Lilymouth",
+        "street": "Trever Parkways",
+        "house": 46,
+        "flat": 79,
+        "phone": "+14585083926",
+        "createdOn": "2025-12-14T16:27:57.000Z",
+        "notes": "DxRL7oXlRrvlUt1WYqeYdbI3MYveBRYsxL2i4Z2EfqmZHgi2ZTyQ2VM58SUBqYixJE4IpzdzOZ9r2eRMvpp3aYYQ5vXIQQhSwUVCp8DgiM4beDrCIP2mOc8P2cKdoxEyv7c0z1uADVvEzaqHQvjidhtoFpqv5yVuhYVsEqy24xmV4sRIsBgq95plxjwPjR4T4XgqPaI7CsAEnWGFOj0sNnk0ckfWDr73iriXD4V0VZjJsPEUmScW3nFRZJ"
+      },
+      "products": [
+        {
+          "_id": "693ee5901c508c5d5ec75d89",
+          "name": "Ball25156",
+          "amount": 306,
+          "price": 8415,
+          "manufacturer": "Tesla",
+          "notes": "IQFAg57XMePKk8hHxXCABSW83Pme5X69IySJDNHnrbcRitYC4bLtduwZNCWrwaU83MaHjsePT19d5wHWe7xFmrNfid8vfrRgcCuG6Tmgnpuvc5rDjwNM56EpItLvPXzrkVqtTfb2UHZHcdxSN7JtZ1aIP63hGHJ8oOi3kS5XEWI2iuv6j0e316jySZPQd2lFmkPj6ExWPUQ8s0BESPDwDfKbhoSWxMFVV2yA4BSUzIqVotyflTSwmrm5XH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 8415,
+      "createdOn": "2025-12-14T16:28:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ee58d1c508c5d5ec75cf0",
+          "products": [
+            {
+              "_id": "693ee5901c508c5d5ec75d89",
+              "name": "Ball25156",
+              "amount": 306,
+              "price": 8415,
+              "manufacturer": "Tesla",
+              "notes": "IQFAg57XMePKk8hHxXCABSW83Pme5X69IySJDNHnrbcRitYC4bLtduwZNCWrwaU83MaHjsePT19d5wHWe7xFmrNfid8vfrRgcCuG6Tmgnpuvc5rDjwNM56EpItLvPXzrkVqtTfb2UHZHcdxSN7JtZ1aIP63hGHJ8oOi3kS5XEWI2iuv6j0e316jySZPQd2lFmkPj6ExWPUQ8s0BESPDwDfKbhoSWxMFVV2yA4BSUzIqVotyflTSwmrm5XH",
+              "received": false
+            }
+          ],
+          "total_price": 8415,
+          "delivery": null,
+          "changedOn": "2025-12-14T16:28:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693ee5931c508c5d5ec75dc7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 16:28:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-2SIgKcSE7Nnv4E8DNu3U4Xnh7Eg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693ee59a1c508c5d5ec76066",
+      "status": "Draft",
+      "customer": {
+        "_id": "693ee5961c508c5d5ec75eff",
+        "email": "Aniyah_Mann2@gmail.com",
+        "name": "Stephany Mills",
+        "country": "USA",
+        "city": "North Saulhaven",
+        "street": "Wiegand Points",
+        "house": 27,
+        "flat": 226,
+        "phone": "+13635104822",
+        "createdOn": "2025-12-14T16:28:06.000Z",
+        "notes": "Wno4VARg2jThiquGT8NbkZtN9UbnGJQfGRxSyu67H8xiXk6qZlSNEzQoKuj6wYiyOokSpvAQPCOVSn4f4wdvwTFv84ZKKhjzS9fBIGIKsbJFVubTTg7aqwLd9biFpbpKm69r5G6QdRdIwp3FHe9D8Yzymc1KF13xU2CLQsFuvrGHGpksdRBVlRwyXTb6k15wv5y18i1KFBiufIuIwWKOdJ2hevI4RNNtDU9J2BpojUZQgHjr7idUwN5LkE"
+      },
+      "products": [
+        {
+          "_id": "693ee59a1c508c5d5ec7605e",
+          "name": "Chair85144",
+          "amount": 685,
+          "price": 23036,
+          "manufacturer": "Apple",
+          "notes": "oTyxBrvbaZq2pQutkeIobPl12VrPlkVM1D9Tx4fT6TWvgaVsuI2j2UL6sIEGBkHevMzQbRqINcFdHu4feyhevJKmUSkVf11en5PXjtXBbxVA0WV7f0JQaTSf3ZcFo7UJ6euYaYz4AYtSAbXcjFHQHH2go6CW3Z782L4c8M2zeZ2GNNfmt0Xi8DtlZYMs8TbROOLB46rw1VNxsdIrIABbUngD9vq7YHiDQG9LfSqGpXjCptZbk1ZQwFNR4k",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 23036,
+      "createdOn": "2025-12-14T16:28:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ee5961c508c5d5ec75eff",
+          "products": [
+            {
+              "_id": "693ee59a1c508c5d5ec7605e",
+              "name": "Chair85144",
+              "amount": 685,
+              "price": 23036,
+              "manufacturer": "Apple",
+              "notes": "oTyxBrvbaZq2pQutkeIobPl12VrPlkVM1D9Tx4fT6TWvgaVsuI2j2UL6sIEGBkHevMzQbRqINcFdHu4feyhevJKmUSkVf11en5PXjtXBbxVA0WV7f0JQaTSf3ZcFo7UJ6euYaYz4AYtSAbXcjFHQHH2go6CW3Z782L4c8M2zeZ2GNNfmt0Xi8DtlZYMs8TbROOLB46rw1VNxsdIrIABbUngD9vq7YHiDQG9LfSqGpXjCptZbk1ZQwFNR4k",
+              "received": false
+            }
+          ],
+          "total_price": 23036,
+          "delivery": null,
+          "changedOn": "2025-12-14T16:28:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

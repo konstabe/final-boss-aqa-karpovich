@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 16:28:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2638",
+    "etag": "W/\"a4e-lBGPaAitCIqY/QaWPCFfbe1TgsU\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693ee5b61c508c5d5ec76690",
+        "email": "Aracely92@hotmail.com",
+        "name": "Leo Rosenbaum",
+        "country": "France",
+        "city": "Lenexa",
+        "street": "Douglas Fork",
+        "house": 44,
+        "flat": 625,
+        "phone": "+18099104603",
+        "createdOn": "2025-12-14T16:28:38.000Z",
+        "notes": "4bs9dJxqlKcXR7wp12yGesHLxmmcBBagoT32ZEYiJmLbyOYQxPITvYdJfwbFKbNUqXJCMlbJK9HLsd8JhCQUUPm0aVBzIPEQBhQUVL8riPOrCi3TyD5aWvqUVR5uvzOR74Hfz8Z6VuFGR9tlfcGX0r4IEKoxZsDeNKjMIV6SFZi6DBqdO7y2KWWoqZJHtcPwt3IEnPGNQNeydcUC9lirhrLwmnTL4OzOEYmPPxVGNGl3JjoKMxg7UY6bit"
+      },
+      "products": [
+        {
+          "_id": "693ee5be1c508c5d5ec768b7",
+          "name": "Bike77027",
+          "amount": 843,
+          "price": 85020,
+          "manufacturer": "Sony",
+          "notes": "C0WI23KVtRQab10qbum60NnfIpYVOtmRbfoBU2YAHW864BHZpeS7I3dNavtSfcUOr5wW7CHuWX05OKrUQhMsOaZgB4NTkCLhOXCmqqqbBfgf09lPimwal4rGFSbskObQBtszYa6ejJ3ILudW7gkMotpi0JXkieDx3UHcRyNdrFu5l4ScmuwPX71NJLWlQCtkvio4sldboBOlwsN0CPg72ms0nPpM4RxZFKKN9NciwngWnjsYVBU1kuhhVL",
+          "received": false
+        },
+        {
+          "_id": "693ee5c11c508c5d5ec76994",
+          "name": "Mouse54318",
+          "amount": 137,
+          "price": 24314,
+          "manufacturer": "Tesla",
+          "notes": "Mk1GdGt4tNnNGkpKTjWPUj2lyJXYcecnG78zHv4yHHhq3PguEl1nlir37LCAhQvdVODv8d7M8XFHwRUpVbTJnXfVwofn1UdDGNbBQvyuHFAT5EaJhGUx8lva73bkJhOui8DadvEZJRemN2UmqBzLr3dZCVdFjD0br7lqStz8SMQdZGJXZ5pRfMn9QGbdYgITYpyZWcR8URIXaNHDNqEDhscntbPzvBKEMRyZOR6MeP3aLHip1CZ3fOdgtT",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 109334,
+      "createdOn": "2025-12-14T16:28:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ee5b61c508c5d5ec76690",
+          "products": [
+            {
+              "_id": "693ee5be1c508c5d5ec768b7",
+              "name": "Bike77027",
+              "amount": 843,
+              "price": 85020,
+              "manufacturer": "Sony",
+              "notes": "C0WI23KVtRQab10qbum60NnfIpYVOtmRbfoBU2YAHW864BHZpeS7I3dNavtSfcUOr5wW7CHuWX05OKrUQhMsOaZgB4NTkCLhOXCmqqqbBfgf09lPimwal4rGFSbskObQBtszYa6ejJ3ILudW7gkMotpi0JXkieDx3UHcRyNdrFu5l4ScmuwPX71NJLWlQCtkvio4sldboBOlwsN0CPg72ms0nPpM4RxZFKKN9NciwngWnjsYVBU1kuhhVL",
+              "received": false
+            },
+            {
+              "_id": "693ee5c11c508c5d5ec76994",
+              "name": "Mouse54318",
+              "amount": 137,
+              "price": 24314,
+              "manufacturer": "Tesla",
+              "notes": "Mk1GdGt4tNnNGkpKTjWPUj2lyJXYcecnG78zHv4yHHhq3PguEl1nlir37LCAhQvdVODv8d7M8XFHwRUpVbTJnXfVwofn1UdDGNbBQvyuHFAT5EaJhGUx8lva73bkJhOui8DadvEZJRemN2UmqBzLr3dZCVdFjD0br7lqStz8SMQdZGJXZ5pRfMn9QGbdYgITYpyZWcR8URIXaNHDNqEDhscntbPzvBKEMRyZOR6MeP3aLHip1CZ3fOdgtT",
+              "received": false
+            }
+          ],
+          "total_price": 109334,
+          "delivery": null,
+          "changedOn": "2025-12-14T16:28:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693ee5c21c508c5d5ec769c4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

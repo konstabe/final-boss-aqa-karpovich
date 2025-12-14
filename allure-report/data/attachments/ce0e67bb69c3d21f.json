@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 16:29:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4098",
+    "etag": "W/\"1002-AVLEH3d7/81mkYuK2pWfJnqm7Kc\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693ee5cc1c508c5d5ec76b86",
+      "status": "Draft",
+      "customer": {
+        "_id": "693ee5be1c508c5d5ec768e1",
+        "email": "Nash.Kautzer@hotmail.com",
+        "name": "Gunner Lockman",
+        "country": "Russia",
+        "city": "Ebonyshire",
+        "street": "Jimmy Centers",
+        "house": 44,
+        "flat": 181,
+        "phone": "+13626203387",
+        "createdOn": "2025-12-14T16:28:46.000Z",
+        "notes": "8wXdFfLpxhkZpmu8BDZYu0crX7NcYmnUyWy8eiYn7Tvi1O55nPLyQqs5fLj9LSKDUai1Fgvmec9GRlAbFUB3vsimBP3wA2d7pkqor5QChZIRwoAD8tE8DtEgTcBfCmEuYkH1jn4ry0a0UoIGO1hBsmQ8T1yZD6PDlL5SLHwC4zYI7QhMKPHJFpyHDxh7QB5ItSICBbmdY8qJfKaWaG3gkcaW0g3lkzbJBHEQPmvQfWz2eNKKcqDldYH7h8"
+      },
+      "products": [
+        {
+          "_id": "693ee5c21c508c5d5ec769cf",
+          "name": "Fish65360",
+          "amount": 614,
+          "price": 64933,
+          "manufacturer": "Google",
+          "notes": "m9JYyXGU0O9BEHWVEa1U1eMD7dnZRbTPVNA6Naw1iAxIozPUPFxevtftxBiv96HlFULhBMXShi2FzjEzmTu9fjW82GVbFx47ZwORWoXKdCPrr2gAvLXei0H7nmmM1JyZTpuVYnW6svcKUDAubz6y6GedhJIOZkglS1iZAlsJk0kq2o4pMKxxiCyjwpNlEDvKPXefyUoursZJxI850GSVEwFEXdAYRm6Qwjg7O0m92ekkfGWvWLY106bmfD",
+          "received": false
+        },
+        {
+          "_id": "693ee5cb1c508c5d5ec76b5d",
+          "name": "Salad40164",
+          "amount": 458,
+          "price": 29771,
+          "manufacturer": "Tesla",
+          "notes": "SqBMkwnql699RgYrjSKpMKlPI0FCh2j0gQl3AdPtSjgf54IryQThtFYgnF37qal4tyVkPhPv3Wz0PBLv9i0T1e8WIFLnegXBJkJvFbPCGugkMSuYjQzCKTq9yrzN0wgDLCiuWhG418dk2eg069HagNGSZtkdD0sVnuvqESExmP6AqyvRviPJL7Ulo2euM8kkb9MkiLuziUbeX3gqHNDsrGQh85pDUE2ewli5d6rwUgMLfphJM0hVIQNlrT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Ebonyshire",
+          "street": "Jimmy Centers",
+          "house": 44,
+          "flat": 181
+        },
+        "finalDate": "2025-12-17T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 94704,
+      "createdOn": "2025-12-14T16:29:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ee5be1c508c5d5ec768e1",
+          "products": [
+            {
+              "_id": "693ee5c21c508c5d5ec769cf",
+              "name": "Fish65360",
+              "amount": 614,
+              "price": 64933,
+              "manufacturer": "Google",
+              "notes": "m9JYyXGU0O9BEHWVEa1U1eMD7dnZRbTPVNA6Naw1iAxIozPUPFxevtftxBiv96HlFULhBMXShi2FzjEzmTu9fjW82GVbFx47ZwORWoXKdCPrr2gAvLXei0H7nmmM1JyZTpuVYnW6svcKUDAubz6y6GedhJIOZkglS1iZAlsJk0kq2o4pMKxxiCyjwpNlEDvKPXefyUoursZJxI850GSVEwFEXdAYRm6Qwjg7O0m92ekkfGWvWLY106bmfD",
+              "received": false
+            },
+            {
+              "_id": "693ee5cb1c508c5d5ec76b5d",
+              "name": "Salad40164",
+              "amount": 458,
+              "price": 29771,
+              "manufacturer": "Tesla",
+              "notes": "SqBMkwnql699RgYrjSKpMKlPI0FCh2j0gQl3AdPtSjgf54IryQThtFYgnF37qal4tyVkPhPv3Wz0PBLv9i0T1e8WIFLnegXBJkJvFbPCGugkMSuYjQzCKTq9yrzN0wgDLCiuWhG418dk2eg069HagNGSZtkdD0sVnuvqESExmP6AqyvRviPJL7Ulo2euM8kkb9MkiLuziUbeX3gqHNDsrGQh85pDUE2ewli5d6rwUgMLfphJM0hVIQNlrT",
+              "received": false
+            }
+          ],
+          "total_price": 94704,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Ebonyshire",
+              "street": "Jimmy Centers",
+              "house": 44,
+              "flat": 181
+            },
+            "finalDate": "2025-12-17T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-14T16:29:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693ee5be1c508c5d5ec768e1",
+          "products": [
+            {
+              "_id": "693ee5c21c508c5d5ec769cf",
+              "name": "Fish65360",
+              "amount": 614,
+              "price": 64933,
+              "manufacturer": "Google",
+              "notes": "m9JYyXGU0O9BEHWVEa1U1eMD7dnZRbTPVNA6Naw1iAxIozPUPFxevtftxBiv96HlFULhBMXShi2FzjEzmTu9fjW82GVbFx47ZwORWoXKdCPrr2gAvLXei0H7nmmM1JyZTpuVYnW6svcKUDAubz6y6GedhJIOZkglS1iZAlsJk0kq2o4pMKxxiCyjwpNlEDvKPXefyUoursZJxI850GSVEwFEXdAYRm6Qwjg7O0m92ekkfGWvWLY106bmfD",
+              "received": false
+            },
+            {
+              "_id": "693ee5cb1c508c5d5ec76b5d",
+              "name": "Salad40164",
+              "amount": 458,
+              "price": 29771,
+              "manufacturer": "Tesla",
+              "notes": "SqBMkwnql699RgYrjSKpMKlPI0FCh2j0gQl3AdPtSjgf54IryQThtFYgnF37qal4tyVkPhPv3Wz0PBLv9i0T1e8WIFLnegXBJkJvFbPCGugkMSuYjQzCKTq9yrzN0wgDLCiuWhG418dk2eg069HagNGSZtkdD0sVnuvqESExmP6AqyvRviPJL7Ulo2euM8kkb9MkiLuziUbeX3gqHNDsrGQh85pDUE2ewli5d6rwUgMLfphJM0hVIQNlrT",
+              "received": false
+            }
+          ],
+          "total_price": 94704,
+          "delivery": null,
+          "changedOn": "2025-12-14T16:29:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

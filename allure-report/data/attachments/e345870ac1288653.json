@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 16:28:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3421",
+    "etag": "W/\"d5d-Azr7V6ozQZyBkOPoCFO+ooci+KA\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693ee59c1c508c5d5ec760ee",
+        "email": "Mercedes32@gmail.com",
+        "name": "Raphaelle Hills",
+        "country": "Belarus",
+        "city": "Lindhaven",
+        "street": "Cow Lane",
+        "house": 47,
+        "flat": 716,
+        "phone": "+13775134710",
+        "createdOn": "2025-12-14T16:28:12.000Z",
+        "notes": "FYFe30xiY8vZxKF9Xcvyx6o5BcERN2wzblDJnhn3cZ9XEzufJbkUOjPSbEgDrm3e2TtNspkSZBXA3NaE20Zx8eaVtw1nfABB2sONriOEMGA1WUzrfgzEyf9VHZUw4BB4vrxRhSZdXxkXtFJbvh1425tptmPgj2a1d5By5u7Sy8nCLxTP5yAMf1eT8wm90bgVotGTT67s9uMHptUxVjfVpnQnB3mEYyVYtYQHjIwH7LDuq6OVKbS1usssbY"
+      },
+      "products": [
+        {
+          "_id": "693ee5a51c508c5d5ec761a6",
+          "name": "Table85215",
+          "amount": 492,
+          "price": 89515,
+          "manufacturer": "Amazon",
+          "notes": "y0eVRmndt41Pi9iFjwOnEqVNRYtDtvYoQ8zMUStCdUMMheSfsMxen2hN4b4ZnNht2JOoWnBhlMSFdsXv9ZAB2Zy3bTL10qoKPfjLxVci9aZKfMHW3Q6FrSpjr9lZJraMHcpR0UAqIENz4kU0gbPF2VA3YlIPkvtQE1cs8RmhDbjiFa6OUUpM8USXMTdUItQBDUUsamPb4p7b6bBZ5Ga5uIFHJ2fPHWccQknBENmz1PWp0ZljknZlwzc0Dn",
+          "received": false
+        },
+        {
+          "_id": "693ee5a91c508c5d5ec762c6",
+          "name": "Towels56441",
+          "amount": 737,
+          "price": 96392,
+          "manufacturer": "Samsung",
+          "notes": "BfImKQOYOG1rydC4wtKmik1A2yF1guBCsMlDDemMpZur40sWIuMVC5yaF4Tz84QweOI1fGcTOqEXcvxer27RbAfwOMpLe160o5NdnKjNxUp5ZFQs9Qs2NNvWDNcQYIG2FgVPzbrdxW2UMbdNVZOs9dtATunwJRnF8Wu8T0acnRTKD6Bvq7uq8REHQbrxvm0xRE3ttJo62UxLIiz3663OijB2Dq58flyQ4IvxSHupmFNbcuKhtATNgnAvtD",
+          "received": false
+        },
+        {
+          "_id": "693ee5b11c508c5d5ec7647e",
+          "name": "Salad21331",
+          "amount": 344,
+          "price": 80121,
+          "manufacturer": "Samsung",
+          "notes": "bkJBor0MtG0wDbAW3Z9JhRRIO15SfdkqT6edqYexkZREyeGPvsCYKooekeIEdmt4chokgj01A24ySK1rl2Bkaa1AByYyuyNXaA7xzv6n7gr0wZOsmp04aDP1IzLeOSqZwwpzOt8axrNkbD2RKt781FakYIH0h9UA0K1KXxNRc9qjFmuHzbQVvxR6uybhSeBwxYO3vnbqhMThRqNye7EoJXf5A4eZYwcjaP2EVtxUbqlciC8UuvPr6UOoa0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 266028,
+      "createdOn": "2025-12-14T16:28:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ee59c1c508c5d5ec760ee",
+          "products": [
+            {
+              "_id": "693ee5a51c508c5d5ec761a6",
+              "name": "Table85215",
+              "amount": 492,
+              "price": 89515,
+              "manufacturer": "Amazon",
+              "notes": "y0eVRmndt41Pi9iFjwOnEqVNRYtDtvYoQ8zMUStCdUMMheSfsMxen2hN4b4ZnNht2JOoWnBhlMSFdsXv9ZAB2Zy3bTL10qoKPfjLxVci9aZKfMHW3Q6FrSpjr9lZJraMHcpR0UAqIENz4kU0gbPF2VA3YlIPkvtQE1cs8RmhDbjiFa6OUUpM8USXMTdUItQBDUUsamPb4p7b6bBZ5Ga5uIFHJ2fPHWccQknBENmz1PWp0ZljknZlwzc0Dn",
+              "received": false
+            },
+            {
+              "_id": "693ee5a91c508c5d5ec762c6",
+              "name": "Towels56441",
+              "amount": 737,
+              "price": 96392,
+              "manufacturer": "Samsung",
+              "notes": "BfImKQOYOG1rydC4wtKmik1A2yF1guBCsMlDDemMpZur40sWIuMVC5yaF4Tz84QweOI1fGcTOqEXcvxer27RbAfwOMpLe160o5NdnKjNxUp5ZFQs9Qs2NNvWDNcQYIG2FgVPzbrdxW2UMbdNVZOs9dtATunwJRnF8Wu8T0acnRTKD6Bvq7uq8REHQbrxvm0xRE3ttJo62UxLIiz3663OijB2Dq58flyQ4IvxSHupmFNbcuKhtATNgnAvtD",
+              "received": false
+            },
+            {
+              "_id": "693ee5b11c508c5d5ec7647e",
+              "name": "Salad21331",
+              "amount": 344,
+              "price": 80121,
+              "manufacturer": "Samsung",
+              "notes": "bkJBor0MtG0wDbAW3Z9JhRRIO15SfdkqT6edqYexkZREyeGPvsCYKooekeIEdmt4chokgj01A24ySK1rl2Bkaa1AByYyuyNXaA7xzv6n7gr0wZOsmp04aDP1IzLeOSqZwwpzOt8axrNkbD2RKt781FakYIH0h9UA0K1KXxNRc9qjFmuHzbQVvxR6uybhSeBwxYO3vnbqhMThRqNye7EoJXf5A4eZYwcjaP2EVtxUbqlciC8UuvPr6UOoa0",
+              "received": false
+            }
+          ],
+          "total_price": 266028,
+          "delivery": null,
+          "changedOn": "2025-12-14T16:28:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693ee5b21c508c5d5ec764af"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

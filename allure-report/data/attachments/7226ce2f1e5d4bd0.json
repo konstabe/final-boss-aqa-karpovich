@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 16:28:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2965",
+    "etag": "W/\"b95-8WsQyNxfTQMJDqm2MkRBd2U43Y0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693ee58d1c508c5d5ec75d23",
+      "status": "Draft",
+      "customer": {
+        "_id": "693ee58a1c508c5d5ec75bda",
+        "email": "Kristopher.Steuber25@yahoo.com",
+        "name": "Eleanore Stokes",
+        "country": "Great Britain",
+        "city": "Bellingham",
+        "street": "Blick Ports",
+        "house": 12,
+        "flat": 338,
+        "phone": "+13158686012",
+        "createdOn": "2025-12-14T16:27:54.000Z",
+        "notes": "Sn4EzVHMjgpV915jL7Hs6ZhREAWR4uaqpbgBMK6oJLvQav00yTnG7B5HbPxBvKxnTcGMciKm6K6PVFT62StzpiSwFp1n8Y12pCtWZ5bA1rRkyuQhQBLaymApsiZE5CoVG2wIsIqDZuRF48jbnI744UCDz6J6olAoDvM5msJLr45YEc8ykzwR81e8mGpSC1pqkHVQubaPE14MnIL73k0rivzIg8uU2EX9VymuT78dF8HQ75Xqw97ZgGv5C0"
+      },
+      "products": [
+        {
+          "_id": "693ee58d1c508c5d5ec75cfc",
+          "name": "Chair92873",
+          "amount": 239,
+          "price": 77708,
+          "manufacturer": "Tesla",
+          "notes": "XihYG5jvAMlgkF3bzk3Q9B49UwHMzjYrcWyr5CkvbJL11agndaY7Pj9H9dASAzihldA7YdRynivMl7neLeGPM7yx2MHDTR5IzwFemE8qorsoEombCopGYvNi23Bbt21RtJ2Jezlq2vAdYDl16e0Ej2JddEmMtnCX7mrHS5eP35RqkY8WQjFMxKxPFyGpeKxqVNYA0QfseDq8h622j9QaI7Ehzwt8s6VIu2Wp7NFU1doMKGpEhCZlmt7xkU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 77708,
+      "createdOn": "2025-12-14T16:27:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ee58a1c508c5d5ec75bda",
+          "products": [
+            {
+              "_id": "693ee58d1c508c5d5ec75cfc",
+              "name": "Chair92873",
+              "amount": 239,
+              "price": 77708,
+              "manufacturer": "Tesla",
+              "notes": "XihYG5jvAMlgkF3bzk3Q9B49UwHMzjYrcWyr5CkvbJL11agndaY7Pj9H9dASAzihldA7YdRynivMl7neLeGPM7yx2MHDTR5IzwFemE8qorsoEombCopGYvNi23Bbt21RtJ2Jezlq2vAdYDl16e0Ej2JddEmMtnCX7mrHS5eP35RqkY8WQjFMxKxPFyGpeKxqVNYA0QfseDq8h622j9QaI7Ehzwt8s6VIu2Wp7NFU1doMKGpEhCZlmt7xkU",
+              "received": false
+            }
+          ],
+          "total_price": 77708,
+          "delivery": null,
+          "changedOn": "2025-12-14T16:27:58.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "693ee58a1c508c5d5ec75bda",
+          "products": [
+            {
+              "_id": "693ee58d1c508c5d5ec75cfc",
+              "name": "Chair92873",
+              "amount": 239,
+              "price": 77708,
+              "manufacturer": "Tesla",
+              "notes": "XihYG5jvAMlgkF3bzk3Q9B49UwHMzjYrcWyr5CkvbJL11agndaY7Pj9H9dASAzihldA7YdRynivMl7neLeGPM7yx2MHDTR5IzwFemE8qorsoEombCopGYvNi23Bbt21RtJ2Jezlq2vAdYDl16e0Ej2JddEmMtnCX7mrHS5eP35RqkY8WQjFMxKxPFyGpeKxqVNYA0QfseDq8h622j9QaI7Ehzwt8s6VIu2Wp7NFU1doMKGpEhCZlmt7xkU",
+              "received": false
+            }
+          ],
+          "total_price": 77708,
+          "delivery": null,
+          "changedOn": "2025-12-14T16:27:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
