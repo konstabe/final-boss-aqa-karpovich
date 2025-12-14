@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 11:30:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3888",
+    "etag": "W/\"f30-HCnzV9n8k9jBq30Ty/WNYtJZjYM\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693e9fbc1c508c5d5ec6dfe4",
+      "status": "Draft",
+      "customer": {
+        "_id": "693e9fb81c508c5d5ec6df47",
+        "email": "Cindy_Balistreri@gmail.com",
+        "name": "Ivory Leffler",
+        "country": "Belarus",
+        "city": "Enaside",
+        "street": "S Bridge Street",
+        "house": 17,
+        "flat": 663,
+        "phone": "+19262020515",
+        "createdOn": "2025-12-14T11:30:00.000Z",
+        "notes": "ZhYK2hNYlcQeZ4jYqtnRsjag2m2YO2p1qrfSVTFsdSSVZztfb6Y4HCt0J8DWjDuJMWMWB7hcQdjM4kfDRiwFi8F4KC5cJuA1X3RVgtUNDlMUuiEVwvXCbb0yPd1d5RGcj24tI35lMI6sooVKPqTr5GHpzBCntI0fxojfX9f3cMQxBLKo3oaVk50bP2TjY216M4I7tpHfW45174ac7fwEzsPh16lC9N0Lo6r2VABj6EYD9MPx7MFP3VonW3"
+      },
+      "products": [
+        {
+          "_id": "693e9fbb1c508c5d5ec6dfd5",
+          "name": "Tuna50541",
+          "amount": 410,
+          "price": 56282,
+          "manufacturer": "Amazon",
+          "notes": "dK6TUmm1b3qNORE4bvAXdU0wPVyMili6y0782qObbktA5DcacVNi9ND4LDzaWuraittLZMVea7OsXYxmYAGMRI9iaLluGv8I5ih7nnUjF74FKv3vUknINFD0d5FjXwyyQZd72PpNMmukEZFrNe9j3YfBQB5GWLSpsPz0g6pzGVsuf2XNdQJuepikDWcrRDJf9WfIa2sknfVnmtBEQ5vcSLMYDLal8IjCedET3pSsU2uzEHdug2jisDKJha",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 56282,
+      "createdOn": "2025-12-14T11:30:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693e9fb81c508c5d5ec6df47",
+          "products": [
+            {
+              "_id": "693e9fbb1c508c5d5ec6dfd5",
+              "name": "Tuna50541",
+              "amount": 410,
+              "price": 56282,
+              "manufacturer": "Amazon",
+              "notes": "dK6TUmm1b3qNORE4bvAXdU0wPVyMili6y0782qObbktA5DcacVNi9ND4LDzaWuraittLZMVea7OsXYxmYAGMRI9iaLluGv8I5ih7nnUjF74FKv3vUknINFD0d5FjXwyyQZd72PpNMmukEZFrNe9j3YfBQB5GWLSpsPz0g6pzGVsuf2XNdQJuepikDWcrRDJf9WfIa2sknfVnmtBEQ5vcSLMYDLal8IjCedET3pSsU2uzEHdug2jisDKJha",
+              "received": false
+            }
+          ],
+          "total_price": 56282,
+          "delivery": null,
+          "changedOn": "2025-12-14T11:30:06.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95333f",
+            "username": "student9@gmail.com",
+            "firstName": "Mireille",
+            "lastName": "Altenwerth-Emmerich",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "693e9fb81c508c5d5ec6df47",
+          "products": [
+            {
+              "_id": "693e9fbb1c508c5d5ec6dfd5",
+              "name": "Tuna50541",
+              "amount": 410,
+              "price": 56282,
+              "manufacturer": "Amazon",
+              "notes": "dK6TUmm1b3qNORE4bvAXdU0wPVyMili6y0782qObbktA5DcacVNi9ND4LDzaWuraittLZMVea7OsXYxmYAGMRI9iaLluGv8I5ih7nnUjF74FKv3vUknINFD0d5FjXwyyQZd72PpNMmukEZFrNe9j3YfBQB5GWLSpsPz0g6pzGVsuf2XNdQJuepikDWcrRDJf9WfIa2sknfVnmtBEQ5vcSLMYDLal8IjCedET3pSsU2uzEHdug2jisDKJha",
+              "received": false
+            }
+          ],
+          "total_price": 56282,
+          "delivery": null,
+          "changedOn": "2025-12-14T11:30:04.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "693e9fb81c508c5d5ec6df47",
+          "products": [
+            {
+              "_id": "693e9fbb1c508c5d5ec6dfd5",
+              "name": "Tuna50541",
+              "amount": 410,
+              "price": 56282,
+              "manufacturer": "Amazon",
+              "notes": "dK6TUmm1b3qNORE4bvAXdU0wPVyMili6y0782qObbktA5DcacVNi9ND4LDzaWuraittLZMVea7OsXYxmYAGMRI9iaLluGv8I5ih7nnUjF74FKv3vUknINFD0d5FjXwyyQZd72PpNMmukEZFrNe9j3YfBQB5GWLSpsPz0g6pzGVsuf2XNdQJuepikDWcrRDJf9WfIa2sknfVnmtBEQ5vcSLMYDLal8IjCedET3pSsU2uzEHdug2jisDKJha",
+              "received": false
+            }
+          ],
+          "total_price": 56282,
+          "delivery": null,
+          "changedOn": "2025-12-14T11:30:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95333f",
+        "username": "student9@gmail.com",
+        "firstName": "Mireille",
+        "lastName": "Altenwerth-Emmerich",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

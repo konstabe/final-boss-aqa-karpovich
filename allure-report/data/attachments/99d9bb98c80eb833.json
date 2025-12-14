@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 11:30:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2647",
+    "etag": "W/\"a57-29oo/rT7mIYmmzDAW7MQDFhcvHs\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693e9fc01c508c5d5ec6e157",
+        "email": "Ansley.OHara@hotmail.com",
+        "name": "Gladyce Kozey",
+        "country": "Belarus",
+        "city": "Boehmburgh",
+        "street": "Mayert Greens",
+        "house": 12,
+        "flat": 955,
+        "phone": "+19268897114",
+        "createdOn": "2025-12-14T11:30:08.000Z",
+        "notes": "lzCBuN36ZtSzIphAFXR0llVmW16evIVWGiNOBirvd4OouxuvLmna3Gr4oVhaywMu1E57yWPueyZwUcTZSq73fHODw6p7fn17LssMTwBQGeOmzOt53XfS29uPZaSVrYh72rq2sVD0Mea6LH05fnG1sIzqILwfthyTRLUvwmxtDHqNmevAqMmj2stfZnvoVXcuQhuw6SSEVPG134KsZ3bsIHNQjZtk8EEL29nH3Z2iPsEEhrTS8bIVhheFwe"
+      },
+      "products": [
+        {
+          "_id": "693e9fc31c508c5d5ec6e1d2",
+          "name": "Soap34021",
+          "amount": 460,
+          "price": 36649,
+          "manufacturer": "Sony",
+          "notes": "nIGpNCeYAeXrQWHqEPyFAGNVLyeEA4VNnP2zi7TXgqSHT9myaqCh3HBTSFb1MJzgUXZA7DDfe7IcJj8jSIIa7BORXIIcMEJ9wuSpiwRq95LEALLjHZ8Pz7QRZo3G8guTliuZi815R0T48tORaOelx604116H8J5a1wlsBbucXoBgdoohVMjY7F0ezt0ZWbPmhMdDanTlRAWFLpmMSkc5gNc4pDlDgMxszoZoGxJCF4HBlSLqqv8hrJWzMm",
+          "received": false
+        },
+        {
+          "_id": "693e9fc71c508c5d5ec6e203",
+          "name": "Tuna66290",
+          "amount": 276,
+          "price": 72190,
+          "manufacturer": "Amazon",
+          "notes": "j962aQKOFP5yVBliNg1sS0dbvrt4vxk4s5RrkqVapUEzuuJDrZkHUVoOOP0knHf37taWByI2jSMguQaGKRH2rGQgsNB1XdAu8oW3qMrYGEA5Rgj9DAfTm1ZYx8sC63YD1KtfwkJKH1C2TIWdhHZ8ZIGEiTPMyC3H7oTvXRFinvX4Lf2RakEXGdn1TJjAiW429FruGMqeAmiy0CFqDhV0UCecOlooHfHHzxXVnDf8YmUEpPZycyx0FAPgsw",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 108839,
+      "createdOn": "2025-12-14T11:30:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693e9fc01c508c5d5ec6e157",
+          "products": [
+            {
+              "_id": "693e9fc31c508c5d5ec6e1d2",
+              "name": "Soap34021",
+              "amount": 460,
+              "price": 36649,
+              "manufacturer": "Sony",
+              "notes": "nIGpNCeYAeXrQWHqEPyFAGNVLyeEA4VNnP2zi7TXgqSHT9myaqCh3HBTSFb1MJzgUXZA7DDfe7IcJj8jSIIa7BORXIIcMEJ9wuSpiwRq95LEALLjHZ8Pz7QRZo3G8guTliuZi815R0T48tORaOelx604116H8J5a1wlsBbucXoBgdoohVMjY7F0ezt0ZWbPmhMdDanTlRAWFLpmMSkc5gNc4pDlDgMxszoZoGxJCF4HBlSLqqv8hrJWzMm",
+              "received": false
+            },
+            {
+              "_id": "693e9fc71c508c5d5ec6e203",
+              "name": "Tuna66290",
+              "amount": 276,
+              "price": 72190,
+              "manufacturer": "Amazon",
+              "notes": "j962aQKOFP5yVBliNg1sS0dbvrt4vxk4s5RrkqVapUEzuuJDrZkHUVoOOP0knHf37taWByI2jSMguQaGKRH2rGQgsNB1XdAu8oW3qMrYGEA5Rgj9DAfTm1ZYx8sC63YD1KtfwkJKH1C2TIWdhHZ8ZIGEiTPMyC3H7oTvXRFinvX4Lf2RakEXGdn1TJjAiW429FruGMqeAmiy0CFqDhV0UCecOlooHfHHzxXVnDf8YmUEpPZycyx0FAPgsw",
+              "received": false
+            }
+          ],
+          "total_price": 108839,
+          "delivery": null,
+          "changedOn": "2025-12-14T11:30:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693e9fc71c508c5d5ec6e20d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

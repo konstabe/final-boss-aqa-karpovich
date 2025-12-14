@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 11:30:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5460",
+    "etag": "W/\"1554-Z04WL1reveUr1UfwDDTSTPT9xJM\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693e9fd61c508c5d5ec6e463",
+      "status": "In Process",
+      "customer": {
+        "_id": "693e9fcf1c508c5d5ec6e318",
+        "email": "Jaunita_Hane@gmail.com",
+        "name": "Magnus Lueilwitz",
+        "country": "Belarus",
+        "city": "West Ewellboro",
+        "street": "Borer Port",
+        "house": 44,
+        "flat": 672,
+        "phone": "+18906437269",
+        "createdOn": "2025-12-14T11:30:23.000Z",
+        "notes": "39DCyKOxApmODv9sEtNb9nOqMC7GOjZhGJsJfAUD8A4zArj8CruGTI0UFPxv50FP7XLFhH11az3ViziisdVZFicB1NQMj876OdeZyViZRsgs42qYobonlG17Ia01AV4GW2vDW30uaeDpMssMUd8qOrrnUfzgmnDLcqEl5SSZv2XVm54ruSlpMBa27Lbo1g7jNVjt69JBa9N1xvYjMjrE5GSuE3wTIks2Y0f2tGYQ8HCFdTxhAOCIAlD52r"
+      },
+      "products": [
+        {
+          "_id": "693e9fd21c508c5d5ec6e3d2",
+          "name": "Sausages63262",
+          "amount": 133,
+          "price": 54206,
+          "manufacturer": "Microsoft",
+          "notes": "stwoRWh3i1yXVmyTRUBPuSEzzmBHIpiHsxxExT3fWipLwcBAJKc9udrRs74n1RFmYgCGEDqxOwrLfG6NkjsT0EmTsXQ11UESMkmdoIqwJ1rB4joHw3odd6NEHAWqAQiCQQYiOvU1KpBJULzJJgdJJpwJfouIt6qKyOQwMAueniJFEcVzAnp3An7YDxCmEBvoDTn3nIsUMM7ek6lcKRyDNcJgavB1SdI962ww3lujCADMGMmMsM0IjCqeoo",
+          "received": false
+        },
+        {
+          "_id": "693e9fd51c508c5d5ec6e457",
+          "name": "Sausages91450",
+          "amount": 469,
+          "price": 7654,
+          "manufacturer": "Samsung",
+          "notes": "dBTRciuIo8cZpDxzehd2E91spt9zLyGDvmgpzer6XB5aPHu6LJus5Uqp03SP4IoJkx7nTf0BdIEYVXvp72awvMlBs0ib5R3oZwT3LzHkXHoUmUfe1b5VJ84qhX2Oc0vYfZOhhged3EQC3PcNLTzzf6cGDMd5UCfCqqa4Iv6XJ3a8hHt6qqSM5GhEeNDYX1MoIhHxPrUGw3wVu26cJRjfa9IIkRdIG2QNPNhcXIABCKvqZR5iQyUoyP7Oha",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "West Ewellboro",
+          "street": "Borer Port",
+          "house": 44,
+          "flat": 672
+        },
+        "finalDate": "2025-12-17T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 61860,
+      "createdOn": "2025-12-14T11:30:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "693e9fcf1c508c5d5ec6e318",
+          "products": [
+            {
+              "_id": "693e9fd21c508c5d5ec6e3d2",
+              "name": "Sausages63262",
+              "amount": 133,
+              "price": 54206,
+              "manufacturer": "Microsoft",
+              "notes": "stwoRWh3i1yXVmyTRUBPuSEzzmBHIpiHsxxExT3fWipLwcBAJKc9udrRs74n1RFmYgCGEDqxOwrLfG6NkjsT0EmTsXQ11UESMkmdoIqwJ1rB4joHw3odd6NEHAWqAQiCQQYiOvU1KpBJULzJJgdJJpwJfouIt6qKyOQwMAueniJFEcVzAnp3An7YDxCmEBvoDTn3nIsUMM7ek6lcKRyDNcJgavB1SdI962ww3lujCADMGMmMsM0IjCqeoo",
+              "received": false
+            },
+            {
+              "_id": "693e9fd51c508c5d5ec6e457",
+              "name": "Sausages91450",
+              "amount": 469,
+              "price": 7654,
+              "manufacturer": "Samsung",
+              "notes": "dBTRciuIo8cZpDxzehd2E91spt9zLyGDvmgpzer6XB5aPHu6LJus5Uqp03SP4IoJkx7nTf0BdIEYVXvp72awvMlBs0ib5R3oZwT3LzHkXHoUmUfe1b5VJ84qhX2Oc0vYfZOhhged3EQC3PcNLTzzf6cGDMd5UCfCqqa4Iv6XJ3a8hHt6qqSM5GhEeNDYX1MoIhHxPrUGw3wVu26cJRjfa9IIkRdIG2QNPNhcXIABCKvqZR5iQyUoyP7Oha",
+              "received": false
+            }
+          ],
+          "total_price": 61860,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Ewellboro",
+              "street": "Borer Port",
+              "house": 44,
+              "flat": 672
+            },
+            "finalDate": "2025-12-17T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-14T11:30:31.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693e9fcf1c508c5d5ec6e318",
+          "products": [
+            {
+              "_id": "693e9fd21c508c5d5ec6e3d2",
+              "name": "Sausages63262",
+              "amount": 133,
+              "price": 54206,
+              "manufacturer": "Microsoft",
+              "notes": "stwoRWh3i1yXVmyTRUBPuSEzzmBHIpiHsxxExT3fWipLwcBAJKc9udrRs74n1RFmYgCGEDqxOwrLfG6NkjsT0EmTsXQ11UESMkmdoIqwJ1rB4joHw3odd6NEHAWqAQiCQQYiOvU1KpBJULzJJgdJJpwJfouIt6qKyOQwMAueniJFEcVzAnp3An7YDxCmEBvoDTn3nIsUMM7ek6lcKRyDNcJgavB1SdI962ww3lujCADMGMmMsM0IjCqeoo",
+              "received": false
+            },
+            {
+              "_id": "693e9fd51c508c5d5ec6e457",
+              "name": "Sausages91450",
+              "amount": 469,
+              "price": 7654,
+              "manufacturer": "Samsung",
+              "notes": "dBTRciuIo8cZpDxzehd2E91spt9zLyGDvmgpzer6XB5aPHu6LJus5Uqp03SP4IoJkx7nTf0BdIEYVXvp72awvMlBs0ib5R3oZwT3LzHkXHoUmUfe1b5VJ84qhX2Oc0vYfZOhhged3EQC3PcNLTzzf6cGDMd5UCfCqqa4Iv6XJ3a8hHt6qqSM5GhEeNDYX1MoIhHxPrUGw3wVu26cJRjfa9IIkRdIG2QNPNhcXIABCKvqZR5iQyUoyP7Oha",
+              "received": false
+            }
+          ],
+          "total_price": 61860,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Ewellboro",
+              "street": "Borer Port",
+              "house": 44,
+              "flat": 672
+            },
+            "finalDate": "2025-12-17T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-14T11:30:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693e9fcf1c508c5d5ec6e318",
+          "products": [
+            {
+              "_id": "693e9fd21c508c5d5ec6e3d2",
+              "name": "Sausages63262",
+              "amount": 133,
+              "price": 54206,
+              "manufacturer": "Microsoft",
+              "notes": "stwoRWh3i1yXVmyTRUBPuSEzzmBHIpiHsxxExT3fWipLwcBAJKc9udrRs74n1RFmYgCGEDqxOwrLfG6NkjsT0EmTsXQ11UESMkmdoIqwJ1rB4joHw3odd6NEHAWqAQiCQQYiOvU1KpBJULzJJgdJJpwJfouIt6qKyOQwMAueniJFEcVzAnp3An7YDxCmEBvoDTn3nIsUMM7ek6lcKRyDNcJgavB1SdI962ww3lujCADMGMmMsM0IjCqeoo",
+              "received": false
+            },
+            {
+              "_id": "693e9fd51c508c5d5ec6e457",
+              "name": "Sausages91450",
+              "amount": 469,
+              "price": 7654,
+              "manufacturer": "Samsung",
+              "notes": "dBTRciuIo8cZpDxzehd2E91spt9zLyGDvmgpzer6XB5aPHu6LJus5Uqp03SP4IoJkx7nTf0BdIEYVXvp72awvMlBs0ib5R3oZwT3LzHkXHoUmUfe1b5VJ84qhX2Oc0vYfZOhhged3EQC3PcNLTzzf6cGDMd5UCfCqqa4Iv6XJ3a8hHt6qqSM5GhEeNDYX1MoIhHxPrUGw3wVu26cJRjfa9IIkRdIG2QNPNhcXIABCKvqZR5iQyUoyP7Oha",
+              "received": false
+            }
+          ],
+          "total_price": 61860,
+          "delivery": null,
+          "changedOn": "2025-12-14T11:30:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

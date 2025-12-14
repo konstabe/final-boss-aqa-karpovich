@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 11:30:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-F4K49H0NzJPGJMm+e/4ODY8aOU0\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693e9fbc1c508c5d5ec6e01c",
+        "email": "Kyler.Glover@gmail.com",
+        "name": "Marlene Bednar",
+        "country": "Canada",
+        "city": "Fort Clemens",
+        "street": "Kshlerin Gardens",
+        "house": 30,
+        "flat": 181,
+        "phone": "+16593417878",
+        "createdOn": "2025-12-14T11:30:04.000Z",
+        "notes": "b6zh8etu6MEIRKrdkhAokUKMdg1FQ1I3XgUis41DodftwZWvhpEGDtnST2Z6rNveNAjozxpYsiLHfs0GHytMiI3s2ADyZinpR0Bm0W2pSyvejwgRFYd7krTuY2p8zH1Uor8bNYIX1pmO4uxmscTaCGqQAWVgnGxg2aGkTsGNHH8s9eUYQkdBuMceQYtx0GH1Aa2hx656Y3UD7fTpsMYpgdXntCp4SxdxTPKodx2P7ohT8Nf3PUIBIrccmq"
+      },
+      "products": [
+        {
+          "_id": "693e9fc01c508c5d5ec6e12d",
+          "name": "Tuna48952",
+          "amount": 14,
+          "price": 89802,
+          "manufacturer": "Tesla",
+          "notes": "kmQnz2apvAMG4XYZJhilAOVEq2lQAmzwju6hOmc0EcCTWUtb4NyKDPKJyxP8Cp4mqcu8cwLgZxEGWo7oDMk87VlaONJS43bhq3Xl570ieGZerGIbLhFqZc7xzKjyqanxPBtxCG4YZlfHM0IsMz2eRiWR2TEwWnXWORScAC1pfC4atJZWXuTrWxtN6RwagIo2O1B69sssQV5U6Ni6Ib8yNyaZQTxGKmLP75l66PJd8hPQHmmpSD93f1k4Wc",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 89802,
+      "createdOn": "2025-12-14T11:30:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693e9fbc1c508c5d5ec6e01c",
+          "products": [
+            {
+              "_id": "693e9fc01c508c5d5ec6e12d",
+              "name": "Tuna48952",
+              "amount": 14,
+              "price": 89802,
+              "manufacturer": "Tesla",
+              "notes": "kmQnz2apvAMG4XYZJhilAOVEq2lQAmzwju6hOmc0EcCTWUtb4NyKDPKJyxP8Cp4mqcu8cwLgZxEGWo7oDMk87VlaONJS43bhq3Xl570ieGZerGIbLhFqZc7xzKjyqanxPBtxCG4YZlfHM0IsMz2eRiWR2TEwWnXWORScAC1pfC4atJZWXuTrWxtN6RwagIo2O1B69sssQV5U6Ni6Ib8yNyaZQTxGKmLP75l66PJd8hPQHmmpSD93f1k4Wc",
+              "received": false
+            }
+          ],
+          "total_price": 89802,
+          "delivery": null,
+          "changedOn": "2025-12-14T11:30:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693e9fc01c508c5d5ec6e135"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
