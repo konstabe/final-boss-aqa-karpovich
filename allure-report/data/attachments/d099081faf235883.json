@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 19:32:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2641",
+    "etag": "W/\"a51-knlUJY3JBLWbSB1E7bDHv1RE++U\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f10b91c508c5d5ec7d78f",
+        "email": "Devin.Lakin@gmail.com",
+        "name": "Jermaine Steuber",
+        "country": "Russia",
+        "city": "Nikomouth",
+        "street": "Oda Station",
+        "house": 33,
+        "flat": 824,
+        "phone": "+16284733725",
+        "createdOn": "2025-12-14T19:32:09.000Z",
+        "notes": "m5USUzkGpHKfP7fPmFEIINhdcDGwLZyUz0UmeljmTrCvpnWOdVNcOtLnflzyZ7WvhoHa5F6iBCb5r7rmq4S2PWyCWF8ZC2f4CoxxjMGkIoBC8w9anRiLdntt7Sw1TCqjcDua2d8yc3A1JkQgS2PJwPyFSNMjzPOyFY2NAsggxxkPlVCHPIBKW8Nctzfv9RlAcTBL0gkUGygSLuSf4wd0X6xMs3zbkEOlimYIvMjykLfw0WUoNOJvBTnXeQ"
+      },
+      "products": [
+        {
+          "_id": "693f10bd1c508c5d5ec7d7fc",
+          "name": "Mouse30914",
+          "amount": 113,
+          "price": 30700,
+          "manufacturer": "Sony",
+          "notes": "CkjjaqIFaUMpmW1GtjMSnmrrvvLvudkajgNnG0zue6lAz1MIPB7jLcOmWxDlqErfruDAu0dXzQyOd4bbx2Ir9xMJ2imoFYQt1nUh9gjvxZuTGm9UBIn7NbFW8GEdSomBMuAUUe6IyLQxuhOjmz2zqHswt73N9vLYNjGB6G6iayu6ZzNhYb6JuZiitBtkg4tEgXT3v8zG4gMuQydpWbJYcJmLS56tt2dnqaAAS4KLcbB4SnI3b34CSNLH5a",
+          "received": false
+        },
+        {
+          "_id": "693f10c21c508c5d5ec7d93e",
+          "name": "Tuna2901",
+          "amount": 531,
+          "price": 17493,
+          "manufacturer": "Xiaomi",
+          "notes": "bhXssK7Ynj6vXyIu1Y93qbmsieJOh6WFjPb821clkfVAmkdEw2ynNSU8GtGMb0vBnUj6KovPGAGqi6rMFnrtHgZeKdXHD0BNbBK71VuDssKKju7Ts4cble5rYHT3YKZpsoKKQzX8CZKQ4zYMWjI7e6TAW411goepPjmuy0cfx22BjJYTKXw3wDDytUMJnMLASLtjmmtMCmIaS0CWiw3UB5Ms7Q8xMi0UyVfZzGBKvoa3yQmV7AQkuLTZKx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 48193,
+      "createdOn": "2025-12-14T19:32:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f10b91c508c5d5ec7d78f",
+          "products": [
+            {
+              "_id": "693f10bd1c508c5d5ec7d7fc",
+              "name": "Mouse30914",
+              "amount": 113,
+              "price": 30700,
+              "manufacturer": "Sony",
+              "notes": "CkjjaqIFaUMpmW1GtjMSnmrrvvLvudkajgNnG0zue6lAz1MIPB7jLcOmWxDlqErfruDAu0dXzQyOd4bbx2Ir9xMJ2imoFYQt1nUh9gjvxZuTGm9UBIn7NbFW8GEdSomBMuAUUe6IyLQxuhOjmz2zqHswt73N9vLYNjGB6G6iayu6ZzNhYb6JuZiitBtkg4tEgXT3v8zG4gMuQydpWbJYcJmLS56tt2dnqaAAS4KLcbB4SnI3b34CSNLH5a",
+              "received": false
+            },
+            {
+              "_id": "693f10c21c508c5d5ec7d93e",
+              "name": "Tuna2901",
+              "amount": 531,
+              "price": 17493,
+              "manufacturer": "Xiaomi",
+              "notes": "bhXssK7Ynj6vXyIu1Y93qbmsieJOh6WFjPb821clkfVAmkdEw2ynNSU8GtGMb0vBnUj6KovPGAGqi6rMFnrtHgZeKdXHD0BNbBK71VuDssKKju7Ts4cble5rYHT3YKZpsoKKQzX8CZKQ4zYMWjI7e6TAW411goepPjmuy0cfx22BjJYTKXw3wDDytUMJnMLASLtjmmtMCmIaS0CWiw3UB5Ms7Q8xMi0UyVfZzGBKvoa3yQmV7AQkuLTZKx",
+              "received": false
+            }
+          ],
+          "total_price": 48193,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:32:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f10c21c508c5d5ec7d952"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

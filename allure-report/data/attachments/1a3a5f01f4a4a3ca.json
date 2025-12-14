@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 19:31:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3888",
+    "etag": "W/\"f30-Ngrvd1cYXFSNUF2MkeYDaFdI8mM\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693f10811c508c5d5ec7bf2b",
+      "status": "Draft",
+      "customer": {
+        "_id": "693f107d1c508c5d5ec7be87",
+        "email": "Winnifred.Thiel@gmail.com",
+        "name": "Gina McCullough",
+        "country": "Canada",
+        "city": "Dolorestown",
+        "street": "Pinkie Ways",
+        "house": 27,
+        "flat": 145,
+        "phone": "+15039953801",
+        "createdOn": "2025-12-14T19:31:09.000Z",
+        "notes": "k4nAiZO5mNX4uPxxem3iEP7xiSHG4nGvk5VKtAq9EHEkXOhjOYbG2T3ybuj2k7HbsyJqd00Rlk6fgBkzNHIpoIN1UXBWF1daveyaRY4GN4xxIQhM35k2t0ZETnf6hlL8KRnHnDvhYy7KXlxDmdVab0REdDYnFUOHrJEDpsEATATAi9abfASx4cGJOLJy181tF3EltFPrlKgyuGyMZ32kenGBJyjEAsC3z6GCu55IF1h8DfMqQsHjXInJsM"
+      },
+      "products": [
+        {
+          "_id": "693f10811c508c5d5ec7bf0b",
+          "name": "Soap87014",
+          "amount": 200,
+          "price": 24921,
+          "manufacturer": "Xiaomi",
+          "notes": "yQrTBEeMJVUAKT3WWw6Az7hrjansMWVAOoe2Qi6LRWM3K7J98nJVJGSTpqY13LHPJb8XefrxBGPcV85BtYRUENNAauwBLeWEOLq0WjvIUT0kZ4e8BDBhzfReSpdiEAyRuI9CWJNpUkKxJg2eqtFLYNHXmW1K4je5Cyf9vy0a3CauFzQRDNxBywsBLCefmaPe9F2poI2Ocgjw3s2ZgBaDvzdwDyLxxtFilCK6qsx4Tr28ksAMxhOz9Sktzd",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 24921,
+      "createdOn": "2025-12-14T19:31:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f107d1c508c5d5ec7be87",
+          "products": [
+            {
+              "_id": "693f10811c508c5d5ec7bf0b",
+              "name": "Soap87014",
+              "amount": 200,
+              "price": 24921,
+              "manufacturer": "Xiaomi",
+              "notes": "yQrTBEeMJVUAKT3WWw6Az7hrjansMWVAOoe2Qi6LRWM3K7J98nJVJGSTpqY13LHPJb8XefrxBGPcV85BtYRUENNAauwBLeWEOLq0WjvIUT0kZ4e8BDBhzfReSpdiEAyRuI9CWJNpUkKxJg2eqtFLYNHXmW1K4je5Cyf9vy0a3CauFzQRDNxBywsBLCefmaPe9F2poI2Ocgjw3s2ZgBaDvzdwDyLxxtFilCK6qsx4Tr28ksAMxhOz9Sktzd",
+              "received": false
+            }
+          ],
+          "total_price": 24921,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:31:15.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95333f",
+            "username": "student9@gmail.com",
+            "firstName": "Mireille",
+            "lastName": "Altenwerth-Emmerich",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "693f107d1c508c5d5ec7be87",
+          "products": [
+            {
+              "_id": "693f10811c508c5d5ec7bf0b",
+              "name": "Soap87014",
+              "amount": 200,
+              "price": 24921,
+              "manufacturer": "Xiaomi",
+              "notes": "yQrTBEeMJVUAKT3WWw6Az7hrjansMWVAOoe2Qi6LRWM3K7J98nJVJGSTpqY13LHPJb8XefrxBGPcV85BtYRUENNAauwBLeWEOLq0WjvIUT0kZ4e8BDBhzfReSpdiEAyRuI9CWJNpUkKxJg2eqtFLYNHXmW1K4je5Cyf9vy0a3CauFzQRDNxBywsBLCefmaPe9F2poI2Ocgjw3s2ZgBaDvzdwDyLxxtFilCK6qsx4Tr28ksAMxhOz9Sktzd",
+              "received": false
+            }
+          ],
+          "total_price": 24921,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:31:13.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "693f107d1c508c5d5ec7be87",
+          "products": [
+            {
+              "_id": "693f10811c508c5d5ec7bf0b",
+              "name": "Soap87014",
+              "amount": 200,
+              "price": 24921,
+              "manufacturer": "Xiaomi",
+              "notes": "yQrTBEeMJVUAKT3WWw6Az7hrjansMWVAOoe2Qi6LRWM3K7J98nJVJGSTpqY13LHPJb8XefrxBGPcV85BtYRUENNAauwBLeWEOLq0WjvIUT0kZ4e8BDBhzfReSpdiEAyRuI9CWJNpUkKxJg2eqtFLYNHXmW1K4je5Cyf9vy0a3CauFzQRDNxBywsBLCefmaPe9F2poI2Ocgjw3s2ZgBaDvzdwDyLxxtFilCK6qsx4Tr28ksAMxhOz9Sktzd",
+              "received": false
+            }
+          ],
+          "total_price": 24921,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:31:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95333f",
+        "username": "student9@gmail.com",
+        "firstName": "Mireille",
+        "lastName": "Altenwerth-Emmerich",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

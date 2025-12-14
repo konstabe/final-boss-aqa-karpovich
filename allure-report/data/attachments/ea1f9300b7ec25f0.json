@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 19:32:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4810",
+    "etag": "W/\"12ca-6gXZxcn5qvu3zt6+F7Zs7tZhoJU\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693f10bc1c508c5d5ec7d7a5",
+      "status": "Canceled",
+      "customer": {
+        "_id": "693f10b71c508c5d5ec7d76d",
+        "email": "Jean97@gmail.com",
+        "name": "Nikita Ernser",
+        "country": "Canada",
+        "city": "Esperanzastead",
+        "street": "6th Street",
+        "house": 23,
+        "flat": 258,
+        "phone": "+19543553937",
+        "createdOn": "2025-12-14T19:32:07.000Z",
+        "notes": "cVqODYFNR9GRCltThpf1eDYo8O0Mi6viKtFomiZ6YnxZmCCxcPBsRAAHktLSyrmyKH41qPg8xh6plQT64swuoxohR71yuIJGA5uxKvYIUzMUDldGxg6e4RiXgfCtBTOX4FRFzs5jNzJ6Htn6oqp0qwRYJANxhZVL3Nul5MPLNiQ4POKz0mFeYSx0m317gpCaIvINyGDagnzhbarmnUmCYfG6HuiGOEtSLmec8fPC3Aczi7KkM4kRhCWhOm"
+      },
+      "products": [
+        {
+          "_id": "693f10bb1c508c5d5ec7d799",
+          "name": "Chicken99412",
+          "amount": 866,
+          "price": 81108,
+          "manufacturer": "Microsoft",
+          "notes": "jwxsA0jKDUOAp5gS0JBDLuwH7DsBlkbaXCa5PAkAOnJq9QxuIywKvgMcmhsG96YrVvB0cQtIYQSRevEYa9MzgfH7dv5uyXMdlr5oTbAoNC29gssMD1eeSpctNcMnfC7QhewDWut5oiFnkbbriSzuot1zCwwtABPhJodNKV1UgzM4iaqqUwHBwzWotkHy5pFnI1QoSVDXNyxgIpKCOqi565xgbQkjctOViAs0SQCH1Q0mpTy4XhAhPmymv2",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Esperanzastead",
+          "street": "6th Street",
+          "house": 23,
+          "flat": 258
+        },
+        "finalDate": "2025-12-20T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 81108,
+      "createdOn": "2025-12-14T19:32:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "693f10b71c508c5d5ec7d76d",
+          "products": [
+            {
+              "_id": "693f10bb1c508c5d5ec7d799",
+              "name": "Chicken99412",
+              "amount": 866,
+              "price": 81108,
+              "manufacturer": "Microsoft",
+              "notes": "jwxsA0jKDUOAp5gS0JBDLuwH7DsBlkbaXCa5PAkAOnJq9QxuIywKvgMcmhsG96YrVvB0cQtIYQSRevEYa9MzgfH7dv5uyXMdlr5oTbAoNC29gssMD1eeSpctNcMnfC7QhewDWut5oiFnkbbriSzuot1zCwwtABPhJodNKV1UgzM4iaqqUwHBwzWotkHy5pFnI1QoSVDXNyxgIpKCOqi565xgbQkjctOViAs0SQCH1Q0mpTy4XhAhPmymv2",
+              "received": false
+            }
+          ],
+          "total_price": 81108,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Esperanzastead",
+              "street": "6th Street",
+              "house": 23,
+              "flat": 258
+            },
+            "finalDate": "2025-12-20T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-14T19:32:13.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "693f10b71c508c5d5ec7d76d",
+          "products": [
+            {
+              "_id": "693f10bb1c508c5d5ec7d799",
+              "name": "Chicken99412",
+              "amount": 866,
+              "price": 81108,
+              "manufacturer": "Microsoft",
+              "notes": "jwxsA0jKDUOAp5gS0JBDLuwH7DsBlkbaXCa5PAkAOnJq9QxuIywKvgMcmhsG96YrVvB0cQtIYQSRevEYa9MzgfH7dv5uyXMdlr5oTbAoNC29gssMD1eeSpctNcMnfC7QhewDWut5oiFnkbbriSzuot1zCwwtABPhJodNKV1UgzM4iaqqUwHBwzWotkHy5pFnI1QoSVDXNyxgIpKCOqi565xgbQkjctOViAs0SQCH1Q0mpTy4XhAhPmymv2",
+              "received": false
+            }
+          ],
+          "total_price": 81108,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Esperanzastead",
+              "street": "6th Street",
+              "house": 23,
+              "flat": 258
+            },
+            "finalDate": "2025-12-20T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-14T19:32:13.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693f10b71c508c5d5ec7d76d",
+          "products": [
+            {
+              "_id": "693f10bb1c508c5d5ec7d799",
+              "name": "Chicken99412",
+              "amount": 866,
+              "price": 81108,
+              "manufacturer": "Microsoft",
+              "notes": "jwxsA0jKDUOAp5gS0JBDLuwH7DsBlkbaXCa5PAkAOnJq9QxuIywKvgMcmhsG96YrVvB0cQtIYQSRevEYa9MzgfH7dv5uyXMdlr5oTbAoNC29gssMD1eeSpctNcMnfC7QhewDWut5oiFnkbbriSzuot1zCwwtABPhJodNKV1UgzM4iaqqUwHBwzWotkHy5pFnI1QoSVDXNyxgIpKCOqi565xgbQkjctOViAs0SQCH1Q0mpTy4XhAhPmymv2",
+              "received": false
+            }
+          ],
+          "total_price": 81108,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Esperanzastead",
+              "street": "6th Street",
+              "house": 23,
+              "flat": 258
+            },
+            "finalDate": "2025-12-20T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-14T19:32:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693f10b71c508c5d5ec7d76d",
+          "products": [
+            {
+              "_id": "693f10bb1c508c5d5ec7d799",
+              "name": "Chicken99412",
+              "amount": 866,
+              "price": 81108,
+              "manufacturer": "Microsoft",
+              "notes": "jwxsA0jKDUOAp5gS0JBDLuwH7DsBlkbaXCa5PAkAOnJq9QxuIywKvgMcmhsG96YrVvB0cQtIYQSRevEYa9MzgfH7dv5uyXMdlr5oTbAoNC29gssMD1eeSpctNcMnfC7QhewDWut5oiFnkbbriSzuot1zCwwtABPhJodNKV1UgzM4iaqqUwHBwzWotkHy5pFnI1QoSVDXNyxgIpKCOqi565xgbQkjctOViAs0SQCH1Q0mpTy4XhAhPmymv2",
+              "received": false
+            }
+          ],
+          "total_price": 81108,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:32:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

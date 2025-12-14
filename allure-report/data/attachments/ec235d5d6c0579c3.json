@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 19:32:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3427",
+    "etag": "W/\"d63-xpQs+F2iCn///x0/TD5z3Ah3Dl4\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f10b91c508c5d5ec7d791",
+        "email": "Sammie.Lynch@hotmail.com",
+        "name": "Tristian Carroll",
+        "country": "USA",
+        "city": "Deckowboro",
+        "street": "Marlborough Road",
+        "house": 49,
+        "flat": 166,
+        "phone": "+16094051321",
+        "createdOn": "2025-12-14T19:32:09.000Z",
+        "notes": "S4GknzMq7VCyEqn58ThvaueeWYXAOKFu35JdYThOJ9BzGN1fpSsF0BpuecYT9tsqdwMI9suM5m8XUqT6eUOJvut95CI2WidTq08yXK5dDCTVg2xWgccz91hCqPLVJfTcxe6jdzXL8x8NnsM2hgJvBXxAYSX1BAsvAU7Ny2hXAfjGfXqJnZorbRjWKVm27Ukm4PGf8uGZFXJD1D2xCR56NE3oyRfwvapqqKOBcwREWdUquvP3eeQnTkzWLn"
+      },
+      "products": [
+        {
+          "_id": "693f10bd1c508c5d5ec7d7fe",
+          "name": "Table8718",
+          "amount": 814,
+          "price": 20695,
+          "manufacturer": "Samsung",
+          "notes": "L7NIcGBfaDd0oKVNKT8nvZ6Vgadmo7bc9TbLuMeJkHe1Dmn64w9dRgyBNZJ9mFr8nXUpKZttcCXFMjD1WttRxpcbyee3KatmB7B959FQFcEKQ3HFQRG8JkGXAgrJPBXCOQ8IfvVfz7QTrkuFvwLWRhi3jHYTGJ9PnxiQgCCdfUG84FI22UXzVdLgoRC9GXMOaod8VSk37ejwK3YEWigcIZW3sqQ04nV9ulHzgg6T7GzTaKAO0pqnHtPrEO",
+          "received": false
+        },
+        {
+          "_id": "693f10c21c508c5d5ec7d940",
+          "name": "Shoes44088",
+          "amount": 630,
+          "price": 39069,
+          "manufacturer": "Microsoft",
+          "notes": "oJs2SnfjBa1jzyXjmF5UaoZxehGvB8wAR1rpVrcrymeG85rdsGPbDMbnpK9Jc0wyrpa6WkcktQv4tdpTEyMSGFisg34m8gEy4CGPSbdVcQ6baX8ugJKyEDXX79Jkx3EbhgU4e3pdCsYKfNiWSnDGSp2A642W7SsEvYH5a9kkO4aH7E8wDi1hIA6FpfYCKjPxMio0aH1HiE5Gn2gLuY63MK1NtdHvw6LY9c5qJVbITr4IEOpG1LHafBLKCF",
+          "received": false
+        },
+        {
+          "_id": "693f10c61c508c5d5ec7da21",
+          "name": "Pizza98306",
+          "amount": 507,
+          "price": 69540,
+          "manufacturer": "Sony",
+          "notes": "rvSkpQUi9RMUEjrOO4ZNikwTcKEvkD0xqdnAI3gSVjRi252HuwXT0r5AntXoSaPBI1vmWI6wgs7KcjAWXVIj1el54frx0LZHJqjPDXihqYsrBOfWTV4T6XWcqG7yruMhZBCzebUCqkefURUFlDVSIoAnfjjJhB7S45etuDyTH0GZ7FmrHZsfY1ZhMji0AcU4UBPDnA0idlOIwiGlUSfEs12IatuSh6FMsPHy24HKhlSPfyvPHAm5qKu9OQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 129304,
+      "createdOn": "2025-12-14T19:32:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f10b91c508c5d5ec7d791",
+          "products": [
+            {
+              "_id": "693f10bd1c508c5d5ec7d7fe",
+              "name": "Table8718",
+              "amount": 814,
+              "price": 20695,
+              "manufacturer": "Samsung",
+              "notes": "L7NIcGBfaDd0oKVNKT8nvZ6Vgadmo7bc9TbLuMeJkHe1Dmn64w9dRgyBNZJ9mFr8nXUpKZttcCXFMjD1WttRxpcbyee3KatmB7B959FQFcEKQ3HFQRG8JkGXAgrJPBXCOQ8IfvVfz7QTrkuFvwLWRhi3jHYTGJ9PnxiQgCCdfUG84FI22UXzVdLgoRC9GXMOaod8VSk37ejwK3YEWigcIZW3sqQ04nV9ulHzgg6T7GzTaKAO0pqnHtPrEO",
+              "received": false
+            },
+            {
+              "_id": "693f10c21c508c5d5ec7d940",
+              "name": "Shoes44088",
+              "amount": 630,
+              "price": 39069,
+              "manufacturer": "Microsoft",
+              "notes": "oJs2SnfjBa1jzyXjmF5UaoZxehGvB8wAR1rpVrcrymeG85rdsGPbDMbnpK9Jc0wyrpa6WkcktQv4tdpTEyMSGFisg34m8gEy4CGPSbdVcQ6baX8ugJKyEDXX79Jkx3EbhgU4e3pdCsYKfNiWSnDGSp2A642W7SsEvYH5a9kkO4aH7E8wDi1hIA6FpfYCKjPxMio0aH1HiE5Gn2gLuY63MK1NtdHvw6LY9c5qJVbITr4IEOpG1LHafBLKCF",
+              "received": false
+            },
+            {
+              "_id": "693f10c61c508c5d5ec7da21",
+              "name": "Pizza98306",
+              "amount": 507,
+              "price": 69540,
+              "manufacturer": "Sony",
+              "notes": "rvSkpQUi9RMUEjrOO4ZNikwTcKEvkD0xqdnAI3gSVjRi252HuwXT0r5AntXoSaPBI1vmWI6wgs7KcjAWXVIj1el54frx0LZHJqjPDXihqYsrBOfWTV4T6XWcqG7yruMhZBCzebUCqkefURUFlDVSIoAnfjjJhB7S45etuDyTH0GZ7FmrHZsfY1ZhMji0AcU4UBPDnA0idlOIwiGlUSfEs12IatuSh6FMsPHy24HKhlSPfyvPHAm5qKu9OQ",
+              "received": false
+            }
+          ],
+          "total_price": 129304,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:32:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f10c61c508c5d5ec7da2d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

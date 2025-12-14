@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 19:31:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1893",
+    "etag": "W/\"765-gwltt+k6Trt64oS8OeKJFNxDi34\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f10831c508c5d5ec7c00e",
+        "email": "Fleta.Reichert7@gmail.com",
+        "name": "Darius Strosin",
+        "country": "Great Britain",
+        "city": "North Gersonland",
+        "street": "Elenor Pass",
+        "house": 50,
+        "flat": 453,
+        "phone": "+19715727866",
+        "createdOn": "2025-12-14T19:31:15.000Z",
+        "notes": "ZY0XHs89vD9PtzfxdE3txiOmzZGiY6cwytRqhtmcHxqLoXKjbPh84jfdqPEjIp2YVEquiCcuQIoF0R5ylFxOmoRUwyj2o3DfZXRl39xhIDdeLFFhJSGbvTnDaAbVn5muhjyHIcK2e3CzeqrLpUhnkxwfoLmde1XUgP5dq6WYNKNNw91zrEIXS8NaYFHyS4yRG7Xu3pRue7cPfugKv6nyjol7wqWfBpXe6YmpdDo45QoeLhe90W0q2YuBEX"
+      },
+      "products": [
+        {
+          "_id": "693f10881c508c5d5ec7c1af",
+          "name": "Hat98352",
+          "amount": 591,
+          "price": 45333,
+          "manufacturer": "Amazon",
+          "notes": "cqVrHtm845yL0EZJSFQ9qgDeI5FOl4WjlO0cZlJlmXBoPAjmpF5dsKkcDiISg7ESk9kXZg0KAcIHjJNiCZicl3kqFqeg3dxSYfBz2Mn3Cw6c9c1mXkH6lE8xyugb4mhdplfjL1OAxdBk8LiKzQZQzVvv8rk9o00JoU3tOTk6DkyvcqgkaEg5jVhU77Xpbm1Y8hlLrIf8ljrmKxrHGkkPrdiVj62VqPAWkxDV7mAEzIX2TQQaSNmfRlcG3a",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 45333,
+      "createdOn": "2025-12-14T19:31:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f10831c508c5d5ec7c00e",
+          "products": [
+            {
+              "_id": "693f10881c508c5d5ec7c1af",
+              "name": "Hat98352",
+              "amount": 591,
+              "price": 45333,
+              "manufacturer": "Amazon",
+              "notes": "cqVrHtm845yL0EZJSFQ9qgDeI5FOl4WjlO0cZlJlmXBoPAjmpF5dsKkcDiISg7ESk9kXZg0KAcIHjJNiCZicl3kqFqeg3dxSYfBz2Mn3Cw6c9c1mXkH6lE8xyugb4mhdplfjL1OAxdBk8LiKzQZQzVvv8rk9o00JoU3tOTk6DkyvcqgkaEg5jVhU77Xpbm1Y8hlLrIf8ljrmKxrHGkkPrdiVj62VqPAWkxDV7mAEzIX2TQQaSNmfRlcG3a",
+              "received": false
+            }
+          ],
+          "total_price": 45333,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:31:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f10881c508c5d5ec7c1f2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

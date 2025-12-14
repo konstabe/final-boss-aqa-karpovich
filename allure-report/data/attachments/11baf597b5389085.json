@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 19:31:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3880",
+    "etag": "W/\"f28-C53x5UacYavLN9vPzjW40ncWfcQ\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693f10811c508c5d5ec7bf08",
+      "status": "Draft",
+      "customer": {
+        "_id": "693f107c1c508c5d5ec7be73",
+        "email": "Arlene_Christiansen92@yahoo.com",
+        "name": "Josefina Quigley",
+        "country": "Germany",
+        "city": "Rancho Cucamonga",
+        "street": "First Street",
+        "house": 25,
+        "flat": 461,
+        "phone": "+14835110729",
+        "createdOn": "2025-12-14T19:31:08.000Z",
+        "notes": "ICWsq5oQmcuCTMAnz6sh7UjFCZGaJA6UnojTLUt41MXnJyntyxCarMALvPQy6qeqfI4oAxcsLVhAAKPja3PbyL0YRbIfrteMpUaxZllf6LG19WfpJ7sd3wn6oHwtQH1guDgQjBwiJmh2I7uLhcoj10SkoPCf5RhVd9rJfH2WLcqHjvIwTr3f2GGHRhVZ1gMl6qX04LzbjR8mm7Lu9YnCGik2lhkLtpY0n2Sa5Lm8qVZrW1ycAel0wviOYq"
+      },
+      "products": [
+        {
+          "_id": "693f10801c508c5d5ec7bf00",
+          "name": "Table76058",
+          "amount": 78,
+          "price": 48778,
+          "manufacturer": "Amazon",
+          "notes": "GV5z6C1SGTx4gSxs3r2xno2FlgJG8tXuoYuK30jrgcnPMXNUiAxLSz8pI3wLPqbSNWBwKOUdRD2vsbeistQwWitYqgCuEF0FBD7G1Nvt1Kv3O5YhxCzK5AfGeWHECqjrXKUzEg6Ujjv8LyEpnpyR9I26077MtHuZXDr2wRoz0QMIdLbYkXZ8plVMy1O1gFBURAnMz455po4XLsKdoxAXVnUu8yjxywhojWzcjjBhQgHgnc3KC9oQowPjwb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 48778,
+      "createdOn": "2025-12-14T19:31:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f107c1c508c5d5ec7be73",
+          "products": [
+            {
+              "_id": "693f10801c508c5d5ec7bf00",
+              "name": "Table76058",
+              "amount": 78,
+              "price": 48778,
+              "manufacturer": "Amazon",
+              "notes": "GV5z6C1SGTx4gSxs3r2xno2FlgJG8tXuoYuK30jrgcnPMXNUiAxLSz8pI3wLPqbSNWBwKOUdRD2vsbeistQwWitYqgCuEF0FBD7G1Nvt1Kv3O5YhxCzK5AfGeWHECqjrXKUzEg6Ujjv8LyEpnpyR9I26077MtHuZXDr2wRoz0QMIdLbYkXZ8plVMy1O1gFBURAnMz455po4XLsKdoxAXVnUu8yjxywhojWzcjjBhQgHgnc3KC9oQowPjwb",
+              "received": false
+            }
+          ],
+          "total_price": 48778,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:31:14.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "693f107c1c508c5d5ec7be73",
+          "products": [
+            {
+              "_id": "693f10801c508c5d5ec7bf00",
+              "name": "Table76058",
+              "amount": 78,
+              "price": 48778,
+              "manufacturer": "Amazon",
+              "notes": "GV5z6C1SGTx4gSxs3r2xno2FlgJG8tXuoYuK30jrgcnPMXNUiAxLSz8pI3wLPqbSNWBwKOUdRD2vsbeistQwWitYqgCuEF0FBD7G1Nvt1Kv3O5YhxCzK5AfGeWHECqjrXKUzEg6Ujjv8LyEpnpyR9I26077MtHuZXDr2wRoz0QMIdLbYkXZ8plVMy1O1gFBURAnMz455po4XLsKdoxAXVnUu8yjxywhojWzcjjBhQgHgnc3KC9oQowPjwb",
+              "received": false
+            }
+          ],
+          "total_price": 48778,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:31:13.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "693f107c1c508c5d5ec7be73",
+          "products": [
+            {
+              "_id": "693f10801c508c5d5ec7bf00",
+              "name": "Table76058",
+              "amount": 78,
+              "price": 48778,
+              "manufacturer": "Amazon",
+              "notes": "GV5z6C1SGTx4gSxs3r2xno2FlgJG8tXuoYuK30jrgcnPMXNUiAxLSz8pI3wLPqbSNWBwKOUdRD2vsbeistQwWitYqgCuEF0FBD7G1Nvt1Kv3O5YhxCzK5AfGeWHECqjrXKUzEg6Ujjv8LyEpnpyR9I26077MtHuZXDr2wRoz0QMIdLbYkXZ8plVMy1O1gFBURAnMz455po4XLsKdoxAXVnUu8yjxywhojWzcjjBhQgHgnc3KC9oQowPjwb",
+              "received": false
+            }
+          ],
+          "total_price": 48778,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:31:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

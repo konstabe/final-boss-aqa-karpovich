@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 19:31:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-TWA2Cl7im+26YnHAQ63rhBcA1yM\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f107c1c508c5d5ec7be85",
+        "email": "Marie.Cummings@gmail.com",
+        "name": "Freeda Murphy",
+        "country": "Russia",
+        "city": "Fort Careymouth",
+        "street": "Kenyatta Fort",
+        "house": 34,
+        "flat": 355,
+        "phone": "+16328378878",
+        "createdOn": "2025-12-14T19:31:08.000Z",
+        "notes": "fVa6Qj1bBvJ5OFQovETH7mYitgjKhzsjt0auVvL89lfFpfLrfKwEeW1OWmhxhI1PiFXeHOwoWPlKAfG3pV9jS6IVolzxYgBCrnS1HTUsWJxaEqTgHucFMofpYwdoVkwihTbTYZo3snwWZA59VdHwQWY6BmHszR4uoAEskBFTT9h156h83b0PSohWmPmbvsFbxjf5pgmt5pyiDhVC7ZImiHs41chIk9mnY9DtlTZIUt2bKiXyYLOxen09Uz"
+      },
+      "products": [
+        {
+          "_id": "693f10811c508c5d5ec7bf0d",
+          "name": "Pizza63660",
+          "amount": 681,
+          "price": 46057,
+          "manufacturer": "Amazon",
+          "notes": "JYgFVsygTH9kS6mQipsdMbQlEp3m7uKhexlQuwDdRBDng6WSyhHAHpQR6NPxQt607dTmyu6AYUZCtspKIzvgQAm2fYoBCzRr9ErBaY0dNHcZXgS0tgJcDYrYwLnnbcagK95I4gc3J2v8JC8s9lhMBPboTA0tXiAF6zKiburrmtBBchMiryYNMTMrSBl5IeD3vvsDUtJzMrHNjHXNSbbzYV5N9ISOzZHZvre9MOT5y7PtrwJugKkGhRRpnx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 46057,
+      "createdOn": "2025-12-14T19:31:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f107c1c508c5d5ec7be85",
+          "products": [
+            {
+              "_id": "693f10811c508c5d5ec7bf0d",
+              "name": "Pizza63660",
+              "amount": 681,
+              "price": 46057,
+              "manufacturer": "Amazon",
+              "notes": "JYgFVsygTH9kS6mQipsdMbQlEp3m7uKhexlQuwDdRBDng6WSyhHAHpQR6NPxQt607dTmyu6AYUZCtspKIzvgQAm2fYoBCzRr9ErBaY0dNHcZXgS0tgJcDYrYwLnnbcagK95I4gc3J2v8JC8s9lhMBPboTA0tXiAF6zKiburrmtBBchMiryYNMTMrSBl5IeD3vvsDUtJzMrHNjHXNSbbzYV5N9ISOzZHZvre9MOT5y7PtrwJugKkGhRRpnx",
+              "received": false
+            }
+          ],
+          "total_price": 46057,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:31:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f10811c508c5d5ec7bf2d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

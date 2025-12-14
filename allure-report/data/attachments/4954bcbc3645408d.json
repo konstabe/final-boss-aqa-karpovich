@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 19:31:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3427",
+    "etag": "W/\"d63-8iMb1y2dNDMbu9ckNqbyyX9jF/w\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f10961c508c5d5ec7c88b",
+        "email": "Kaycee_Aufderhar34@hotmail.com",
+        "name": "Rex Halvorson",
+        "country": "France",
+        "city": "South Geraldhaven",
+        "street": "Myrtie Keys",
+        "house": 24,
+        "flat": 765,
+        "phone": "+14775446982",
+        "createdOn": "2025-12-14T19:31:34.000Z",
+        "notes": "SpBjvSxc1nycRLEuS7ET6zohTONHRF1hILiR9mM9Q8CjoWVb5xyhPcx3FFAPE5XItHanfoUubWNdrWqlfoKiBWv9Ms0vAwFIFwNsDhtYPPOMnLEhFgixUgp9QYqmxlVl3ABYinI0jkjNuKKAjVrfymWD5D3SBsbVSYx9IV5BUkNFPm7HmbUQ19CiV499tllbhCTYc6EF2Vizyk3wd2ZKYxRB1xZKAOpvLfAecNFbd8t50bhW67BliUMaLr"
+      },
+      "products": [
+        {
+          "_id": "693f109c1c508c5d5ec7cbaf",
+          "name": "Bike58548",
+          "amount": 963,
+          "price": 74689,
+          "manufacturer": "Tesla",
+          "notes": "0oOYtithnC9xiyedm2gNSuK2PmsR3RYB7ok4ONUVhg0Nq5Dd6ib1TkCMbistEUvv3YGVQPUFqvEmDeI8RAICKj9mTPxYG39BFF8zrZ54oiIhZyf5Uo9eItHxvFnAmJWffTFPQS75R0DspwzITB1HlWGWsU294yqdKeHHZ0yxhAyYzrZFJ0Wcb8iNt9iS4ASn4aGpf044jaMkTPOx6JDBvbIYSmY9k2gshmNGq2QAC5XqaqeNs3dBhw3S57",
+          "received": false
+        },
+        {
+          "_id": "693f10a11c508c5d5ec7cdb0",
+          "name": "Fish53138",
+          "amount": 497,
+          "price": 99635,
+          "manufacturer": "Samsung",
+          "notes": "L0wrVYacm24zBMZab8DwLVL0kW0OqESRPUNjDFOrGJTh34SaCPl6qYWfFTtUYdZ6MJc4s7BHLPJDT77jDqgJMD801BIrVk7YGs2ng85imn2OSTTmWoDBX8ZX7iShgWAgpL1suQCoynOGYhbOJook3oPbWhSy8gs7I4bqc13pNP7bSw7xPdDk2QjZh9I3Fer1ImyJbzxDJqGOwBKbMhR5TEaI1uubwL7usa0zplZWRjd18czVVz509XObzI",
+          "received": false
+        },
+        {
+          "_id": "693f10a81c508c5d5ec7d21b",
+          "name": "Shoes80130",
+          "amount": 879,
+          "price": 38665,
+          "manufacturer": "Tesla",
+          "notes": "enzxncuPX3xUQy7Ke3s9ppB9ix3BhA3EHFykDuKI1pReEONwqo2jb6fEIcUQC3dVuwpfkwtnlPXTlQkdKJMjU851WbA69X6YRj1ruH2EzyAg28FxxWPHmyS7xJNlKdtx1j2MCxFv6z2fX70AQlmhHQ3K8xt2fxXGAdKtmLrzI7DRu7chIAzLN3U0j681jgm4wAZu0ISg1vRNJFvbqpjCi4L2opJ80WmUpy4FNoCcZOiA6WsWDTCyT79hEd",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 212989,
+      "createdOn": "2025-12-14T19:31:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f10961c508c5d5ec7c88b",
+          "products": [
+            {
+              "_id": "693f109c1c508c5d5ec7cbaf",
+              "name": "Bike58548",
+              "amount": 963,
+              "price": 74689,
+              "manufacturer": "Tesla",
+              "notes": "0oOYtithnC9xiyedm2gNSuK2PmsR3RYB7ok4ONUVhg0Nq5Dd6ib1TkCMbistEUvv3YGVQPUFqvEmDeI8RAICKj9mTPxYG39BFF8zrZ54oiIhZyf5Uo9eItHxvFnAmJWffTFPQS75R0DspwzITB1HlWGWsU294yqdKeHHZ0yxhAyYzrZFJ0Wcb8iNt9iS4ASn4aGpf044jaMkTPOx6JDBvbIYSmY9k2gshmNGq2QAC5XqaqeNs3dBhw3S57",
+              "received": false
+            },
+            {
+              "_id": "693f10a11c508c5d5ec7cdb0",
+              "name": "Fish53138",
+              "amount": 497,
+              "price": 99635,
+              "manufacturer": "Samsung",
+              "notes": "L0wrVYacm24zBMZab8DwLVL0kW0OqESRPUNjDFOrGJTh34SaCPl6qYWfFTtUYdZ6MJc4s7BHLPJDT77jDqgJMD801BIrVk7YGs2ng85imn2OSTTmWoDBX8ZX7iShgWAgpL1suQCoynOGYhbOJook3oPbWhSy8gs7I4bqc13pNP7bSw7xPdDk2QjZh9I3Fer1ImyJbzxDJqGOwBKbMhR5TEaI1uubwL7usa0zplZWRjd18czVVz509XObzI",
+              "received": false
+            },
+            {
+              "_id": "693f10a81c508c5d5ec7d21b",
+              "name": "Shoes80130",
+              "amount": 879,
+              "price": 38665,
+              "manufacturer": "Tesla",
+              "notes": "enzxncuPX3xUQy7Ke3s9ppB9ix3BhA3EHFykDuKI1pReEONwqo2jb6fEIcUQC3dVuwpfkwtnlPXTlQkdKJMjU851WbA69X6YRj1ruH2EzyAg28FxxWPHmyS7xJNlKdtx1j2MCxFv6z2fX70AQlmhHQ3K8xt2fxXGAdKtmLrzI7DRu7chIAzLN3U0j681jgm4wAZu0ISg1vRNJFvbqpjCi4L2opJ80WmUpy4FNoCcZOiA6WsWDTCyT79hEd",
+              "received": false
+            }
+          ],
+          "total_price": 212989,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:31:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f10aa1c508c5d5ec7d249"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

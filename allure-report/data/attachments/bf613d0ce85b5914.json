@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 19:31:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-TEZbs8cRAPkbRNKgntRAk94l6o4\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f107e1c508c5d5ec7bea9",
+        "email": "Jedidiah.Schroeder@hotmail.com",
+        "name": "Lynn Koepp",
+        "country": "Canada",
+        "city": "North Danialland",
+        "street": "Abigayle Track",
+        "house": 8,
+        "flat": 254,
+        "phone": "+15584628079",
+        "createdOn": "2025-12-14T19:31:10.000Z",
+        "notes": "tx7yxSaU5XmkQN6eUsyaGd501uiqRrWN3j9jR21hYfmsDyaYjNYwvm2EPWwmMQfqrxnrbRR0loQK8sESx0bAgYus3RePdyzYKkUhVtzkzJTG4PqlGxP5JF54ll4MJBPYnopqBQa9iMWgPs3MhJhZ8TcTpH4rTfYoL05EIJv8ZWe9P4XfpTKaVilGkz7sOi6Hfz1Ep1h6sYSVA9UwPbkY2WNWghGEzHXVg55jWTBR0UVzTAvAvoh4WmlvTf"
+      },
+      "products": [
+        {
+          "_id": "693f10821c508c5d5ec7bf6b",
+          "name": "Soap76209",
+          "amount": 241,
+          "price": 24954,
+          "manufacturer": "Google",
+          "notes": "OWWP3nqe5R5yyoAdQzi7lvtgQ7iJhsOq2SWkkgNxmeX52arQBENMRhrRKsxdckQWc3aPrSjw2KkhnqUgkmBN2A52nYlCMaNzM43SsWqwEds3LVrk8ClOlWNV7jczQ3BP6kJuFWxgIOlZ3wYiw4vgS95Ag82Ej8U9Qp6SYTLBT1J5O8z22CUQZqQ0WQNDYSLuaH4p37AzJKrzXGezgYukALPvwX7CHPV93bD8Sp17xtlY9W8ZOp022QqN8B",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 24954,
+      "createdOn": "2025-12-14T19:31:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f107e1c508c5d5ec7bea9",
+          "products": [
+            {
+              "_id": "693f10821c508c5d5ec7bf6b",
+              "name": "Soap76209",
+              "amount": 241,
+              "price": 24954,
+              "manufacturer": "Google",
+              "notes": "OWWP3nqe5R5yyoAdQzi7lvtgQ7iJhsOq2SWkkgNxmeX52arQBENMRhrRKsxdckQWc3aPrSjw2KkhnqUgkmBN2A52nYlCMaNzM43SsWqwEds3LVrk8ClOlWNV7jczQ3BP6kJuFWxgIOlZ3wYiw4vgS95Ag82Ej8U9Qp6SYTLBT1J5O8z22CUQZqQ0WQNDYSLuaH4p37AzJKrzXGezgYukALPvwX7CHPV93bD8Sp17xtlY9W8ZOp022QqN8B",
+              "received": false
+            }
+          ],
+          "total_price": 24954,
+          "delivery": null,
+          "changedOn": "2025-12-14T19:31:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f10831c508c5d5ec7bf7e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
