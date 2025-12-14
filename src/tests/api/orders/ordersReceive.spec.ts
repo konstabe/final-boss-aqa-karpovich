@@ -6,21 +6,19 @@ import { orderResponseSchema } from "data/schemas/orders/orderResponse.schema";
 import { ERROR_MESSAGES } from "data/notifications";
 import { errorSchema } from "data/schemas/core.schema";
 import { errorOrderSchema } from "data/schemas/orders/orderError.schema";
+import { ORDER_STATUS } from "data/orders/orderStatus";
 
 test.describe("[API] [Sales Portal] [Products]", () => {
 	let id = "";
 	let token = "";
 
-	test.afterEach(async ({ ordersApiService }) => {
-		if (id) await ordersApiService.deleteOrder(token, id);
+	test.beforeAll(async ({ loginApiService }) => {
+		token = await loginApiService.loginAsAdmin();
 	});
-
 	test(
 		"Receive Product from order",
 		{ tag: [TAGS.ORDERS, TAGS.REGRESSION, TAGS.SMOKE] },
-		async ({ loginApiService, ordersApiService, ordersApi }) => {
-			token = await loginApiService.loginAsAdmin();
-
+		async ({ ordersApiService, ordersApi }) => {
 			const orderInProcess = await ordersApiService.processOrder(token, 1);
 			id = orderInProcess._id;
 
@@ -36,15 +34,13 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 				ErrorMessage: null,
 			});
 
-			expect(receivedOrder.body.Order.status).toBe("Received");
+			expect(receivedOrder.body.Order.status).toBe(ORDER_STATUS.RECEIVED);
 		},
 	);
 	test(
 		"Receive few Products from order",
 		{ tag: [TAGS.ORDERS, TAGS.REGRESSION, TAGS.SMOKE] },
-		async ({ loginApiService, ordersApiService, ordersApi }) => {
-			token = await loginApiService.loginAsAdmin();
-
+		async ({ ordersApiService, ordersApi }) => {
 			const orderInProcess = await ordersApiService.processOrder(token, 3);
 			id = orderInProcess._id;
 
@@ -60,15 +56,13 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 				ErrorMessage: null,
 			});
 
-			expect(receivedOrder.body.Order.status).toBe("Received");
+			expect(receivedOrder.body.Order.status).toBe(ORDER_STATUS.RECEIVED);
 		},
 	);
 	test(
 		"Receive Products from order without token",
 		{ tag: [TAGS.ORDERS, TAGS.REGRESSION, TAGS.NEGATIVE] },
-		async ({ loginApiService, ordersApiService, ordersApi }) => {
-			token = await loginApiService.loginAsAdmin();
-
+		async ({ ordersApiService, ordersApi }) => {
 			const orderInProcess = await ordersApiService.processOrder(token, 1);
 			id = orderInProcess._id;
 
@@ -88,9 +82,7 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 	test(
 		"Receive Product with invalid order ID argument",
 		{ tag: [TAGS.ORDERS, TAGS.REGRESSION, TAGS.NEGATIVE] },
-		async ({ loginApiService, ordersApiService, ordersApi }) => {
-			token = await loginApiService.loginAsAdmin();
-
+		async ({ ordersApiService, ordersApi }) => {
 			const orderInProcess = await ordersApiService.processOrder(token, 1);
 			id = orderInProcess._id;
 
@@ -110,9 +102,7 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 	test(
 		"Receive Product with unexisted order ID",
 		{ tag: [TAGS.ORDERS, TAGS.REGRESSION, TAGS.NEGATIVE] },
-		async ({ loginApiService, ordersApiService, ordersApi }) => {
-			token = await loginApiService.loginAsAdmin();
-
+		async ({ ordersApiService, ordersApi }) => {
 			const orderInProcess = await ordersApiService.processOrder(token, 1);
 			id = orderInProcess._id;
 			const invalid_id = "222265661c508c5d5ec11111";
@@ -126,16 +116,14 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 				status: STATUS_CODES.NOT_FOUND,
 				schema: errorSchema,
 				IsSuccess: false,
-				ErrorMessage: ERROR_MESSAGES.ORDERID_NOT_FOUND,
+				ErrorMessage: ERROR_MESSAGES.ORDERID_NOT_FOUND(invalid_id), // undefined
 			});
 		},
 	);
 	test(
 		"Receive Product with no product ID",
 		{ tag: [TAGS.ORDERS, TAGS.REGRESSION, TAGS.NEGATIVE] },
-		async ({ loginApiService, ordersApiService, ordersApi }) => {
-			token = await loginApiService.loginAsAdmin();
-
+		async ({ ordersApiService, ordersApi }) => {
 			const orderInProcess = await ordersApiService.processOrder(token, 1);
 			id = orderInProcess._id;
 
@@ -152,9 +140,7 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 	test(
 		"Receive Product with invalid product ID",
 		{ tag: [TAGS.ORDERS, TAGS.REGRESSION, TAGS.NEGATIVE] },
-		async ({ loginApiService, ordersApiService, ordersApi }) => {
-			token = await loginApiService.loginAsAdmin();
-
+		async ({ ordersApiService, ordersApi }) => {
 			const orderInProcess = await ordersApiService.processOrder(token, 1);
 			id = orderInProcess._id;
 
