@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 16:28:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2666",
+    "etag": "W/\"a6a-+8OZ21l2mVXAZISzTZ6ORVn2xd0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693ee5b51c508c5d5ec7666f",
+        "email": "Tyree.Okuneva94@yahoo.com",
+        "name": "Bradford Hansen",
+        "country": "Germany",
+        "city": "Cummeratashire",
+        "street": "E Franklin Street",
+        "house": 27,
+        "flat": 987,
+        "phone": "+15306762106",
+        "createdOn": "2025-12-14T16:28:37.000Z",
+        "notes": "03jbcwSx97mdPbHFBgmhLWovCDomRkcbdDHYBmaDUzCw0onTH36vd5OoAc84qN99xnz9wRemARj3lHCgTcVDe5KWia0QAQswTmdWOPxYoeVZBHdtXV7vLYde8siyZCtzdufEJMPzdZNWOmXZfwkanGfg9lOpBRAxzs5WOOm3g08ehmDVEZwgsyludDaMK75K3r2ZA6XNou4NaqP2cz06AvBg0KIIfbIZUqmsHGshceVnSWUV1FhLkWnFqZ"
+      },
+      "products": [
+        {
+          "_id": "693ee5be1c508c5d5ec768ab",
+          "name": "Computer30424",
+          "amount": 334,
+          "price": 80696,
+          "manufacturer": "Google",
+          "notes": "BwSlKh5rd9vgBMPtBxH9Vv0ZLkLvudlkQpXIDBzyNmgvZ0GAlUxw1DueOe9Drw8gXPMtg1ON1zoVrGEhTptCPRwikkxUKgKV4SoULoRTzihskAipUuKAmDl1ahrGCxrm3vcBkEFQjfUH9ITfWcGGplH11aSrWX1m6fQuNxo9gHD8SBYTruZBNAx3iwPSMe29RL83TzMBt67I9dGz7gTG3jVHnH50q04HjqjIBLcwlBP866ySI7bYsaQb67",
+          "received": false
+        },
+        {
+          "_id": "693ee5c21c508c5d5ec769b7",
+          "name": "Shoes14542",
+          "amount": 417,
+          "price": 16558,
+          "manufacturer": "Sony",
+          "notes": "rDoXJJ4ow5a5wyUp3js5xEP42PasgQazeoDOtP5xgw7HhYy7WpHXOmRFr91WKU75YybXtGdbB7JjSlFqjsYsbTURvczuhO3fehJ1yKyNkugtpUEwKd8otNgWkzKnmlS7wldMqD09Zku8lSOtWGRxeDii58J8akeRwce5eCzxF9EyHiHGLbZVwffQtvvDUtLj0zGP2b9ausaJUO0AetdFZ5QKbToobL9psnktPQuPoannGrifFya2hbv5D1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 97254,
+      "createdOn": "2025-12-14T16:28:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ee5b51c508c5d5ec7666f",
+          "products": [
+            {
+              "_id": "693ee5be1c508c5d5ec768ab",
+              "name": "Computer30424",
+              "amount": 334,
+              "price": 80696,
+              "manufacturer": "Google",
+              "notes": "BwSlKh5rd9vgBMPtBxH9Vv0ZLkLvudlkQpXIDBzyNmgvZ0GAlUxw1DueOe9Drw8gXPMtg1ON1zoVrGEhTptCPRwikkxUKgKV4SoULoRTzihskAipUuKAmDl1ahrGCxrm3vcBkEFQjfUH9ITfWcGGplH11aSrWX1m6fQuNxo9gHD8SBYTruZBNAx3iwPSMe29RL83TzMBt67I9dGz7gTG3jVHnH50q04HjqjIBLcwlBP866ySI7bYsaQb67",
+              "received": false
+            },
+            {
+              "_id": "693ee5c21c508c5d5ec769b7",
+              "name": "Shoes14542",
+              "amount": 417,
+              "price": 16558,
+              "manufacturer": "Sony",
+              "notes": "rDoXJJ4ow5a5wyUp3js5xEP42PasgQazeoDOtP5xgw7HhYy7WpHXOmRFr91WKU75YybXtGdbB7JjSlFqjsYsbTURvczuhO3fehJ1yKyNkugtpUEwKd8otNgWkzKnmlS7wldMqD09Zku8lSOtWGRxeDii58J8akeRwce5eCzxF9EyHiHGLbZVwffQtvvDUtLj0zGP2b9ausaJUO0AetdFZ5QKbToobL9psnktPQuPoannGrifFya2hbv5D1",
+              "received": false
+            }
+          ],
+          "total_price": 97254,
+          "delivery": null,
+          "changedOn": "2025-12-14T16:28:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693ee5c81c508c5d5ec769fb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 16:28:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-TI4TVUsbB5kriGX0wSe1qrpXkPw\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693ee5931c508c5d5ec75dd3",
+      "status": "Draft",
+      "customer": {
+        "_id": "693ee58c1c508c5d5ec75c8c",
+        "email": "Ellen31@hotmail.com",
+        "name": "Marlee Mosciski",
+        "country": "Ukraine",
+        "city": "North Brooklynville",
+        "street": "W Broadway",
+        "house": 46,
+        "flat": 525,
+        "phone": "+19699787136",
+        "createdOn": "2025-12-14T16:27:56.000Z",
+        "notes": "7G14aRWH6DuJX4eW7Fsa2VVTzxYoqf2Y4zlv8ZuY9Ia32yUsvdn94Q9htHDZ3nlzxnRhpE0eVAgfLNmIT6xweYLln5UYfENfdp3SAn2efJFr5tquhQuo9wkwdjePjnZ4yhgh17c2xBnTwCxQlKx2J0JLjjUJU3UeqKaRfy6egHpjhaqiqOST90wRJo0I6fcKV3edhaDLKYXAFRY27tMBAzQmQ3ofDhKmAuf44ilZlXY001zXptPDIdwcky"
+      },
+      "products": [
+        {
+          "_id": "693ee58f1c508c5d5ec75d81",
+          "name": "Salad15061",
+          "amount": 957,
+          "price": 1695,
+          "manufacturer": "Tesla",
+          "notes": "JrH8qa6DxLg33enUo0yexEaZCRNQ9N5gHpXdGmIXQufvZpTgmZwjD1mMZu4rHxRRq8MbToNQQJmz10kiAUYzGaU0MZbtpC1Khiu2VCsO4wN7lHNsnehojV0HdVZfJASgDcQK5sccF9nyP9ZqG4yQRHL8AzbsRcZMgyZiN0G2lNkPoqndQi5igElftHlhbAtNsmB5RHhKnLPXfht2B4XHCaLP9xUn9QXVcMoYTySebBCN0d8uHNQTt9G1uB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 1695,
+      "createdOn": "2025-12-14T16:28:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ee58c1c508c5d5ec75c8c",
+          "products": [
+            {
+              "_id": "693ee58f1c508c5d5ec75d81",
+              "name": "Salad15061",
+              "amount": 957,
+              "price": 1695,
+              "manufacturer": "Tesla",
+              "notes": "JrH8qa6DxLg33enUo0yexEaZCRNQ9N5gHpXdGmIXQufvZpTgmZwjD1mMZu4rHxRRq8MbToNQQJmz10kiAUYzGaU0MZbtpC1Khiu2VCsO4wN7lHNsnehojV0HdVZfJASgDcQK5sccF9nyP9ZqG4yQRHL8AzbsRcZMgyZiN0G2lNkPoqndQi5igElftHlhbAtNsmB5RHhKnLPXfht2B4XHCaLP9xUn9QXVcMoYTySebBCN0d8uHNQTt9G1uB",
+              "received": false
+            }
+          ],
+          "total_price": 1695,
+          "delivery": null,
+          "changedOn": "2025-12-14T16:28:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

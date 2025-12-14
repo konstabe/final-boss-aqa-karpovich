@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 16:27:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3895",
+    "etag": "W/\"f37-CIlbnlFxYlOGPxXCm+I56ZzjIE4\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693ee5891c508c5d5ec75bc7",
+      "status": "Draft",
+      "customer": {
+        "_id": "693ee5831c508c5d5ec75acb",
+        "email": "Oliver_Runte55@gmail.com",
+        "name": "Maia Daniel",
+        "country": "Belarus",
+        "city": "New Priceborough",
+        "street": "Wilford River",
+        "house": 33,
+        "flat": 399,
+        "phone": "+16093809743",
+        "createdOn": "2025-12-14T16:27:47.000Z",
+        "notes": "NtY9gpXWTdGR6i4HuG8vJ0IBi3ktnYnBfccVxnyVBNsMnfQezseDazKpcRFAd6U8AjAU9ydHkJfTO8HrCpKnIEFCH2az5z87lnuZ96H1dCKyU4y1CHmZUhvXq4EKMBvcN31LsMkKcm2gLka03xgqtSbdzSEMRe9zJTnlttwlGFqgTNZ4RduRkxBl40m6Zy1yFURg81pKEe1Jvh5pMWwhBmOQUW3XXvXVvnyc5W2tT2l8epu11YREhBv8GX"
+      },
+      "products": [
+        {
+          "_id": "693ee5891c508c5d5ec75b9c",
+          "name": "Pizza13708",
+          "amount": 696,
+          "price": 76417,
+          "manufacturer": "Google",
+          "notes": "gM804rGtFLBZtkHckFK9vd1zNkghmANFXAsvmz5meLYF8Fihf04maGHXYsggIYRCpw64bvvKEtZkIBTUT0C1eUDUhVlzd3qlEckRdFtuT0xa8ZFn82pNQHV4ApSIMDV0vhnyPIbXAUNcPpYNYjUhvyTydvgTCaj3WZXXcbqSn4VYRq5w3I1rCS87LuXdaxCt0YUYg4S7IY9r8egSS5CkhImljUihbOtkVF8eSBFQfgklBGEcfHaFFvw1UH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 76417,
+      "createdOn": "2025-12-14T16:27:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ee5831c508c5d5ec75acb",
+          "products": [
+            {
+              "_id": "693ee5891c508c5d5ec75b9c",
+              "name": "Pizza13708",
+              "amount": 696,
+              "price": 76417,
+              "manufacturer": "Google",
+              "notes": "gM804rGtFLBZtkHckFK9vd1zNkghmANFXAsvmz5meLYF8Fihf04maGHXYsggIYRCpw64bvvKEtZkIBTUT0C1eUDUhVlzd3qlEckRdFtuT0xa8ZFn82pNQHV4ApSIMDV0vhnyPIbXAUNcPpYNYjUhvyTydvgTCaj3WZXXcbqSn4VYRq5w3I1rCS87LuXdaxCt0YUYg4S7IY9r8egSS5CkhImljUihbOtkVF8eSBFQfgklBGEcfHaFFvw1UH",
+              "received": false
+            }
+          ],
+          "total_price": 76417,
+          "delivery": null,
+          "changedOn": "2025-12-14T16:27:55.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95333f",
+            "username": "student9@gmail.com",
+            "firstName": "Mireille",
+            "lastName": "Altenwerth-Emmerich",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "693ee5831c508c5d5ec75acb",
+          "products": [
+            {
+              "_id": "693ee5891c508c5d5ec75b9c",
+              "name": "Pizza13708",
+              "amount": 696,
+              "price": 76417,
+              "manufacturer": "Google",
+              "notes": "gM804rGtFLBZtkHckFK9vd1zNkghmANFXAsvmz5meLYF8Fihf04maGHXYsggIYRCpw64bvvKEtZkIBTUT0C1eUDUhVlzd3qlEckRdFtuT0xa8ZFn82pNQHV4ApSIMDV0vhnyPIbXAUNcPpYNYjUhvyTydvgTCaj3WZXXcbqSn4VYRq5w3I1rCS87LuXdaxCt0YUYg4S7IY9r8egSS5CkhImljUihbOtkVF8eSBFQfgklBGEcfHaFFvw1UH",
+              "received": false
+            }
+          ],
+          "total_price": 76417,
+          "delivery": null,
+          "changedOn": "2025-12-14T16:27:54.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "693ee5831c508c5d5ec75acb",
+          "products": [
+            {
+              "_id": "693ee5891c508c5d5ec75b9c",
+              "name": "Pizza13708",
+              "amount": 696,
+              "price": 76417,
+              "manufacturer": "Google",
+              "notes": "gM804rGtFLBZtkHckFK9vd1zNkghmANFXAsvmz5meLYF8Fihf04maGHXYsggIYRCpw64bvvKEtZkIBTUT0C1eUDUhVlzd3qlEckRdFtuT0xa8ZFn82pNQHV4ApSIMDV0vhnyPIbXAUNcPpYNYjUhvyTydvgTCaj3WZXXcbqSn4VYRq5w3I1rCS87LuXdaxCt0YUYg4S7IY9r8egSS5CkhImljUihbOtkVF8eSBFQfgklBGEcfHaFFvw1UH",
+              "received": false
+            }
+          ],
+          "total_price": 76417,
+          "delivery": null,
+          "changedOn": "2025-12-14T16:27:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95333f",
+        "username": "student9@gmail.com",
+        "firstName": "Mireille",
+        "lastName": "Altenwerth-Emmerich",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

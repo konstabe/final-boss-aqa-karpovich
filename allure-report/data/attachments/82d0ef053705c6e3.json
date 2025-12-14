@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 16:29:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3422",
+    "etag": "W/\"d5e-i1yiffGyaw2Ghl0bE7MnGSAVAk8\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693ee5cf1c508c5d5ec76c33",
+        "email": "Buford_OHara-Heller2@gmail.com",
+        "name": "Dante Bednar",
+        "country": "Russia",
+        "city": "South Cruz",
+        "street": "Muller Meadow",
+        "house": 27,
+        "flat": 56,
+        "phone": "+14768500237",
+        "createdOn": "2025-12-14T16:29:03.000Z",
+        "notes": "nO8sODB8na2CSGIP3oPn79BrVQg2o2FQGN7B1jVd7iL7ILnMzQ9n46LT9GzVaLNgQ9beP6mCgi4SgVbeP9PxZXU7BNPCqwc4KClnvS9cCRHnkmsOsxjhWKuVgqS1zY50fr4SzEYqhex0FHX1PiaeGbYTu4HWRQQwzi5FaEhNYVknMlsFJu2bbR1cY0gdkUoUqYKFo7Qvcx2GgTG6KpTUxGFJEhRTiod3LlYKsh57kZ1QmELQOKTXyDb7Lh"
+      },
+      "products": [
+        {
+          "_id": "693ee5d81c508c5d5ec76d56",
+          "name": "Chicken63971",
+          "amount": 321,
+          "price": 81747,
+          "manufacturer": "Apple",
+          "notes": "cacLHbE5BaqGttcZhduMbMXHAZSjJP5833FG9mlHKOfeP0bFyWmxnPLtWgeHW2Rnv40lBRsG8B5UEmDASsfUsDHgfPHAlFw0U85hzk2M6pEQCAoOd80SmX6xMA5XJcTQeWyeGctBkBGbnBMEPzjou4weY9JPICFucrDSj7N1IsbZebWQJPYS1PZYBBrkarKsslVlkctMkzbc9QgGTBMNPpd5jywCeC4ftMGZbQxxY7dVsjhPGAAoAg7yQc",
+          "received": false
+        },
+        {
+          "_id": "693ee5dc1c508c5d5ec76f5c",
+          "name": "Car46363",
+          "amount": 66,
+          "price": 14813,
+          "manufacturer": "Samsung",
+          "notes": "1tRDXSX8szX3QBHFziQiWTLLWknpSji7BbzC9Kx7oaGd6S1o72d9UmN1mNndXr90IheRXgBcC0JwajN5hb1ycU1Tjx8qcLwRJGltz5euVjMa7snb5xnDawvpwct9CtCBBgcqBWmCsLJhpIsr51Zj7dbXqYuxrHejgNNuQRfCLY9tgNvBKxtQnZeKVSKK6qQGJFH7HfdTrCtwapYynhmmH2CSxS8fxVPfv1Fo1EwTEjjp4E1SdIrn735C77",
+          "received": false
+        },
+        {
+          "_id": "693ee5e01c508c5d5ec77012",
+          "name": "Pants59275",
+          "amount": 169,
+          "price": 25379,
+          "manufacturer": "Apple",
+          "notes": "2maHraESoTPA0fXLgGngcO9WpsbxRdztEtlXwAGv8FFBOUMziV236ac4ntXtpLbCKmJWlGELrIGSKqKxRoypoeVPex5JBkAbMcEZSWKE6UUWFc7qRLeEMPZMdHUBAZKejmViOpliWYIwtq25dIl3xke4bJkX5XuqV4jHw2tHQJybreWPqB4G0J8x0JEgTQpa3ORwggXRwbbN8kbnmEgS0ETXXbXDmyZaQOLFumAuo6eFbtEMAP9rycOB2q",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 121939,
+      "createdOn": "2025-12-14T16:29:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ee5cf1c508c5d5ec76c33",
+          "products": [
+            {
+              "_id": "693ee5d81c508c5d5ec76d56",
+              "name": "Chicken63971",
+              "amount": 321,
+              "price": 81747,
+              "manufacturer": "Apple",
+              "notes": "cacLHbE5BaqGttcZhduMbMXHAZSjJP5833FG9mlHKOfeP0bFyWmxnPLtWgeHW2Rnv40lBRsG8B5UEmDASsfUsDHgfPHAlFw0U85hzk2M6pEQCAoOd80SmX6xMA5XJcTQeWyeGctBkBGbnBMEPzjou4weY9JPICFucrDSj7N1IsbZebWQJPYS1PZYBBrkarKsslVlkctMkzbc9QgGTBMNPpd5jywCeC4ftMGZbQxxY7dVsjhPGAAoAg7yQc",
+              "received": false
+            },
+            {
+              "_id": "693ee5dc1c508c5d5ec76f5c",
+              "name": "Car46363",
+              "amount": 66,
+              "price": 14813,
+              "manufacturer": "Samsung",
+              "notes": "1tRDXSX8szX3QBHFziQiWTLLWknpSji7BbzC9Kx7oaGd6S1o72d9UmN1mNndXr90IheRXgBcC0JwajN5hb1ycU1Tjx8qcLwRJGltz5euVjMa7snb5xnDawvpwct9CtCBBgcqBWmCsLJhpIsr51Zj7dbXqYuxrHejgNNuQRfCLY9tgNvBKxtQnZeKVSKK6qQGJFH7HfdTrCtwapYynhmmH2CSxS8fxVPfv1Fo1EwTEjjp4E1SdIrn735C77",
+              "received": false
+            },
+            {
+              "_id": "693ee5e01c508c5d5ec77012",
+              "name": "Pants59275",
+              "amount": 169,
+              "price": 25379,
+              "manufacturer": "Apple",
+              "notes": "2maHraESoTPA0fXLgGngcO9WpsbxRdztEtlXwAGv8FFBOUMziV236ac4ntXtpLbCKmJWlGELrIGSKqKxRoypoeVPex5JBkAbMcEZSWKE6UUWFc7qRLeEMPZMdHUBAZKejmViOpliWYIwtq25dIl3xke4bJkX5XuqV4jHw2tHQJybreWPqB4G0J8x0JEgTQpa3ORwggXRwbbN8kbnmEgS0ETXXbXDmyZaQOLFumAuo6eFbtEMAP9rycOB2q",
+              "received": false
+            }
+          ],
+          "total_price": 121939,
+          "delivery": null,
+          "changedOn": "2025-12-14T16:29:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693ee5e31c508c5d5ec7705e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 16:28:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-09VvYLN2Cp1nkof936aIEe6sIYE\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693ee58e1c508c5d5ec75d4a",
+        "email": "Taylor.Lang@hotmail.com",
+        "name": "Elizabeth Dickinson",
+        "country": "Belarus",
+        "city": "Glenview",
+        "street": "S Maple Street",
+        "house": 36,
+        "flat": 496,
+        "phone": "+19047201553",
+        "createdOn": "2025-12-14T16:27:58.000Z",
+        "notes": "BIUJ2i0zYR6TCjAwDFdCBHkUr3gnRMrY1IyehET2LgFF7IvDVzstT9xGDDbazCNJHweufykWZoXgDhgr7cSckFNf1tZAfq8T7a9Moc6sdzfyYM7DFFvwsLijqHc4dkNpjG18IVxGjjuiQJDbtu0CKtrWzvfBXtZfAzDr6hyRX3L5bPKsz9kXqQuBg7EeuBOFHs5bJYMrVEynoDMto2SXvUyBLVRpPNGZkHD1ePuHKAnnBULbiWzwEjuRVp"
+      },
+      "products": [
+        {
+          "_id": "693ee5961c508c5d5ec75edc",
+          "name": "Tuna90289",
+          "amount": 226,
+          "price": 82174,
+          "manufacturer": "Google",
+          "notes": "VTOHIyDJKngZ5HkMMRh0TRTEkxZprVt1V45e8efDdjdPQ0Xxu7jKO5flfsiU74LvJ4gMrDscuBgftGSMY1scRCBH7VuJRSaEEJW2TVfAvJII9VOPQjs0OxQEFuNEC2dEMxNfILQjvL3qI9dVhr07A2rXlW51r1Ws4QmdllzRUxfqVz5DcxGMPEVsuWcOSdD8SKRk99mKKKsDyKzdCPED1JFbUC5Hq8bXjYeX9AS9uMT1bxsbne2bbzDlc4",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 82174,
+      "createdOn": "2025-12-14T16:28:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ee58e1c508c5d5ec75d4a",
+          "products": [
+            {
+              "_id": "693ee5961c508c5d5ec75edc",
+              "name": "Tuna90289",
+              "amount": 226,
+              "price": 82174,
+              "manufacturer": "Google",
+              "notes": "VTOHIyDJKngZ5HkMMRh0TRTEkxZprVt1V45e8efDdjdPQ0Xxu7jKO5flfsiU74LvJ4gMrDscuBgftGSMY1scRCBH7VuJRSaEEJW2TVfAvJII9VOPQjs0OxQEFuNEC2dEMxNfILQjvL3qI9dVhr07A2rXlW51r1Ws4QmdllzRUxfqVz5DcxGMPEVsuWcOSdD8SKRk99mKKKsDyKzdCPED1JFbUC5Hq8bXjYeX9AS9uMT1bxsbne2bbzDlc4",
+              "received": false
+            }
+          ],
+          "total_price": 82174,
+          "delivery": null,
+          "changedOn": "2025-12-14T16:28:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693ee5961c508c5d5ec75ef5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

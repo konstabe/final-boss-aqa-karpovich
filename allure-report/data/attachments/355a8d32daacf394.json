@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 16:28:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5447",
+    "etag": "W/\"1547-OZGiS9wAUtMPzzJ7/zKv2eN3tno\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693ee5be1c508c5d5ec768e8",
+      "status": "In Process",
+      "customer": {
+        "_id": "693ee5b11c508c5d5ec76420",
+        "email": "Pasquale39@gmail.com",
+        "name": "Alexys Cronin",
+        "country": "Belarus",
+        "city": "Rutherfordchester",
+        "street": "Bailey Knolls",
+        "house": 44,
+        "flat": 520,
+        "phone": "+15377699399",
+        "createdOn": "2025-12-14T16:28:33.000Z",
+        "notes": "tgpytYxJ6bpBf9LmtmAX5OZsbdfWIA4ib4rY9pbpV3w4pGRmI6t7ApBQJrr7LT67PjuTWjzxpuhn6HEKtpzBFlpnuEiv86N0tMgM1IPdKThu9mpCK2B0KoR5NKOwoI93cwJmOAXMoNWbk1jU2uY6RizxdLLPm0EfYr9MeYRSGsmJZkAFtHyue4YDcFvjBJGBUrrKeTUcqFtbHGIgxKt61W3e6Duca1TGqsTPpAYVamJi0b3DWa4mSPavza"
+      },
+      "products": [
+        {
+          "_id": "693ee5b61c508c5d5ec76675",
+          "name": "Bike72310",
+          "amount": 358,
+          "price": 75571,
+          "manufacturer": "Xiaomi",
+          "notes": "dtuPLiUKzQaMmQV10SKMX8Alfw2jkVgXp7V2MnJQs2IFBAoNrAaqPrcBQk5mpYsH5q5DietOl3EkCd9kEIcDJfrgrQ7ANghMhEs3ogCttG7Ub7chbGjDeBTW5SNWH2S8G0YWzobsOuHVdhBFyVUmsQXcpDz6qbHYqHtBOVi6LYRabDfn8wMCDzQ7Ua0Edr1HA7KievmM9gw3Fv6Y25hUz4tfiimkJg8i1f2n2J8brBOjFZlAS6bEHLa1AP",
+          "received": false
+        },
+        {
+          "_id": "693ee5be1c508c5d5ec768b1",
+          "name": "Hat68943",
+          "amount": 378,
+          "price": 27830,
+          "manufacturer": "Microsoft",
+          "notes": "idlMzYJJWDlKmCHHCKWBTA460TT70jT0B5CBXVUNHUaOryEn1IX3kz32zCxLWr2lMz8pSRa5n9a5Ko6OxWUhir1JmU75J5uAzoiV3qZsBtPsnrGQGvwQvtsRERhYHErbt7rTcRUbzbqVt6NMEszmm4syafAFf1B4t11wUmK7NWnCp0bXWiJyI5ezSd9B5UhrYkIU1pwBJmqWCTNNItDutLbiymp7yxrN0zqWYGDccOf9wt9gE6nodLYRM0",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Rutherfordchester",
+          "street": "Bailey Knolls",
+          "house": 44,
+          "flat": 520
+        },
+        "finalDate": "2025-12-17T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 103401,
+      "createdOn": "2025-12-14T16:28:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "693ee5b11c508c5d5ec76420",
+          "products": [
+            {
+              "_id": "693ee5b61c508c5d5ec76675",
+              "name": "Bike72310",
+              "amount": 358,
+              "price": 75571,
+              "manufacturer": "Xiaomi",
+              "notes": "dtuPLiUKzQaMmQV10SKMX8Alfw2jkVgXp7V2MnJQs2IFBAoNrAaqPrcBQk5mpYsH5q5DietOl3EkCd9kEIcDJfrgrQ7ANghMhEs3ogCttG7Ub7chbGjDeBTW5SNWH2S8G0YWzobsOuHVdhBFyVUmsQXcpDz6qbHYqHtBOVi6LYRabDfn8wMCDzQ7Ua0Edr1HA7KievmM9gw3Fv6Y25hUz4tfiimkJg8i1f2n2J8brBOjFZlAS6bEHLa1AP",
+              "received": false
+            },
+            {
+              "_id": "693ee5be1c508c5d5ec768b1",
+              "name": "Hat68943",
+              "amount": 378,
+              "price": 27830,
+              "manufacturer": "Microsoft",
+              "notes": "idlMzYJJWDlKmCHHCKWBTA460TT70jT0B5CBXVUNHUaOryEn1IX3kz32zCxLWr2lMz8pSRa5n9a5Ko6OxWUhir1JmU75J5uAzoiV3qZsBtPsnrGQGvwQvtsRERhYHErbt7rTcRUbzbqVt6NMEszmm4syafAFf1B4t11wUmK7NWnCp0bXWiJyI5ezSd9B5UhrYkIU1pwBJmqWCTNNItDutLbiymp7yxrN0zqWYGDccOf9wt9gE6nodLYRM0",
+              "received": false
+            }
+          ],
+          "total_price": 103401,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Rutherfordchester",
+              "street": "Bailey Knolls",
+              "house": 44,
+              "flat": 520
+            },
+            "finalDate": "2025-12-17T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-14T16:28:47.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693ee5b11c508c5d5ec76420",
+          "products": [
+            {
+              "_id": "693ee5b61c508c5d5ec76675",
+              "name": "Bike72310",
+              "amount": 358,
+              "price": 75571,
+              "manufacturer": "Xiaomi",
+              "notes": "dtuPLiUKzQaMmQV10SKMX8Alfw2jkVgXp7V2MnJQs2IFBAoNrAaqPrcBQk5mpYsH5q5DietOl3EkCd9kEIcDJfrgrQ7ANghMhEs3ogCttG7Ub7chbGjDeBTW5SNWH2S8G0YWzobsOuHVdhBFyVUmsQXcpDz6qbHYqHtBOVi6LYRabDfn8wMCDzQ7Ua0Edr1HA7KievmM9gw3Fv6Y25hUz4tfiimkJg8i1f2n2J8brBOjFZlAS6bEHLa1AP",
+              "received": false
+            },
+            {
+              "_id": "693ee5be1c508c5d5ec768b1",
+              "name": "Hat68943",
+              "amount": 378,
+              "price": 27830,
+              "manufacturer": "Microsoft",
+              "notes": "idlMzYJJWDlKmCHHCKWBTA460TT70jT0B5CBXVUNHUaOryEn1IX3kz32zCxLWr2lMz8pSRa5n9a5Ko6OxWUhir1JmU75J5uAzoiV3qZsBtPsnrGQGvwQvtsRERhYHErbt7rTcRUbzbqVt6NMEszmm4syafAFf1B4t11wUmK7NWnCp0bXWiJyI5ezSd9B5UhrYkIU1pwBJmqWCTNNItDutLbiymp7yxrN0zqWYGDccOf9wt9gE6nodLYRM0",
+              "received": false
+            }
+          ],
+          "total_price": 103401,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Rutherfordchester",
+              "street": "Bailey Knolls",
+              "house": 44,
+              "flat": 520
+            },
+            "finalDate": "2025-12-17T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-14T16:28:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693ee5b11c508c5d5ec76420",
+          "products": [
+            {
+              "_id": "693ee5b61c508c5d5ec76675",
+              "name": "Bike72310",
+              "amount": 358,
+              "price": 75571,
+              "manufacturer": "Xiaomi",
+              "notes": "dtuPLiUKzQaMmQV10SKMX8Alfw2jkVgXp7V2MnJQs2IFBAoNrAaqPrcBQk5mpYsH5q5DietOl3EkCd9kEIcDJfrgrQ7ANghMhEs3ogCttG7Ub7chbGjDeBTW5SNWH2S8G0YWzobsOuHVdhBFyVUmsQXcpDz6qbHYqHtBOVi6LYRabDfn8wMCDzQ7Ua0Edr1HA7KievmM9gw3Fv6Y25hUz4tfiimkJg8i1f2n2J8brBOjFZlAS6bEHLa1AP",
+              "received": false
+            },
+            {
+              "_id": "693ee5be1c508c5d5ec768b1",
+              "name": "Hat68943",
+              "amount": 378,
+              "price": 27830,
+              "manufacturer": "Microsoft",
+              "notes": "idlMzYJJWDlKmCHHCKWBTA460TT70jT0B5CBXVUNHUaOryEn1IX3kz32zCxLWr2lMz8pSRa5n9a5Ko6OxWUhir1JmU75J5uAzoiV3qZsBtPsnrGQGvwQvtsRERhYHErbt7rTcRUbzbqVt6NMEszmm4syafAFf1B4t11wUmK7NWnCp0bXWiJyI5ezSd9B5UhrYkIU1pwBJmqWCTNNItDutLbiymp7yxrN0zqWYGDccOf9wt9gE6nodLYRM0",
+              "received": false
+            }
+          ],
+          "total_price": 103401,
+          "delivery": null,
+          "changedOn": "2025-12-14T16:28:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

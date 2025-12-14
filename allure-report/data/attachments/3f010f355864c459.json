@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 16:29:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3426",
+    "etag": "W/\"d62-BMu47pWDTogtl1V723LKUTqRqiQ\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693ee5c31c508c5d5ec769d3",
+        "email": "Lindsay.Prosacco2@yahoo.com",
+        "name": "Carolanne Mayer",
+        "country": "Great Britain",
+        "city": "New Joesph",
+        "street": "Faustino Mission",
+        "house": 4,
+        "flat": 685,
+        "phone": "+19504819366",
+        "createdOn": "2025-12-14T16:28:51.000Z",
+        "notes": "xZKg6VH46l43nnO89euomo7FDJeaBjzctgYfRrv66ef8s4Ztcgv7MHhFrZnwiXjVNaeRfnarVqy2HqX2ketmab75vr6bkGcbM4AcqXZpSe9j8XkMjDHGsMxCoWU3vpwxt8L71ijQxnW2IxXwB9vge6vOri8JqCpIV6AtvAesRv0H08vaOw3PKUjrmNFwGe3yC4j7rLqAEBGg2yUJcX1Y77KL0AzyTFbboEP3oRC3KUSsUO3Gpcew2sCTr6"
+      },
+      "products": [
+        {
+          "_id": "693ee5cb1c508c5d5ec76b61",
+          "name": "Bacon68827",
+          "amount": 412,
+          "price": 30822,
+          "manufacturer": "Sony",
+          "notes": "zzbHuq88AuaiuRtKKJRK4YIVVbgXc8YhHMnINZoogd5P20L9sbEH6C4anCQ8LiT0XjfBXcxNk3WoOYuFzRCT1ihOzQhsu9NbWq0VLT2uyMybLeyrZH4rAce3VWL6PRY9Z2rU7d0pPar4SFDOKXTL5XjRPsm3qXs1SDSdrIGd9im8ubHQpFNT254MDFqNm84jGo77pfqYR2IN11Z4s1wZxsUAivEi0qBVD2wyMI9UsSAN6bhRDyMkrvQbhm",
+          "received": false
+        },
+        {
+          "_id": "693ee5cf1c508c5d5ec76c4b",
+          "name": "Car9163",
+          "amount": 647,
+          "price": 20461,
+          "manufacturer": "Amazon",
+          "notes": "8bZ61JjEnSLXIbn9gsz2IoGQs9L28vgkzubAXCr4Jel0n6qliO6zBFhD0HsAqsAWHgv4hhyj2p2X4Wq8grDaiN87bIkYZRlh8HaJWAaP4spG47AsjVjayMrUrF6aAr86KkiYS0I1MOnB83FDNKoWvjcUXny6cgdD1YhAf5FtqBnsgFZ54tETp1cA1q1fj2qogsiMWGNFq0q4gOeaFgQWKgL9ZlGg5fHJwI0KP8tUI45WQK8QZAPy7e4DBZ",
+          "received": false
+        },
+        {
+          "_id": "693ee5d91c508c5d5ec76dca",
+          "name": "Pants1350",
+          "amount": 137,
+          "price": 54248,
+          "manufacturer": "Samsung",
+          "notes": "99eg6Vtlc7cefsM1JklTPd3sbJyI43MYc0yDnbF9lEtOCxWoQpAScwEw0waziAjZFfZNAfO6Fdn3DJ8ucqgz3nxS6OwYHMKp4QeN52kTZV9QTSnQZjU16EPECEcCPuqQCvKAkLYe46RdFAIlvJmR52UoIY2wGIsTdKUvR55Wui8dLfZ30eTGWPqhMULCEtLw1L2P887wQ7zXv7YyoiAy15L571aRFneYde0AGJTJThK2wxZOKzGjMEiAaC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 105531,
+      "createdOn": "2025-12-14T16:29:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ee5c31c508c5d5ec769d3",
+          "products": [
+            {
+              "_id": "693ee5cb1c508c5d5ec76b61",
+              "name": "Bacon68827",
+              "amount": 412,
+              "price": 30822,
+              "manufacturer": "Sony",
+              "notes": "zzbHuq88AuaiuRtKKJRK4YIVVbgXc8YhHMnINZoogd5P20L9sbEH6C4anCQ8LiT0XjfBXcxNk3WoOYuFzRCT1ihOzQhsu9NbWq0VLT2uyMybLeyrZH4rAce3VWL6PRY9Z2rU7d0pPar4SFDOKXTL5XjRPsm3qXs1SDSdrIGd9im8ubHQpFNT254MDFqNm84jGo77pfqYR2IN11Z4s1wZxsUAivEi0qBVD2wyMI9UsSAN6bhRDyMkrvQbhm",
+              "received": false
+            },
+            {
+              "_id": "693ee5cf1c508c5d5ec76c4b",
+              "name": "Car9163",
+              "amount": 647,
+              "price": 20461,
+              "manufacturer": "Amazon",
+              "notes": "8bZ61JjEnSLXIbn9gsz2IoGQs9L28vgkzubAXCr4Jel0n6qliO6zBFhD0HsAqsAWHgv4hhyj2p2X4Wq8grDaiN87bIkYZRlh8HaJWAaP4spG47AsjVjayMrUrF6aAr86KkiYS0I1MOnB83FDNKoWvjcUXny6cgdD1YhAf5FtqBnsgFZ54tETp1cA1q1fj2qogsiMWGNFq0q4gOeaFgQWKgL9ZlGg5fHJwI0KP8tUI45WQK8QZAPy7e4DBZ",
+              "received": false
+            },
+            {
+              "_id": "693ee5d91c508c5d5ec76dca",
+              "name": "Pants1350",
+              "amount": 137,
+              "price": 54248,
+              "manufacturer": "Samsung",
+              "notes": "99eg6Vtlc7cefsM1JklTPd3sbJyI43MYc0yDnbF9lEtOCxWoQpAScwEw0waziAjZFfZNAfO6Fdn3DJ8ucqgz3nxS6OwYHMKp4QeN52kTZV9QTSnQZjU16EPECEcCPuqQCvKAkLYe46RdFAIlvJmR52UoIY2wGIsTdKUvR55Wui8dLfZ30eTGWPqhMULCEtLw1L2P887wQ7zXv7YyoiAy15L571aRFneYde0AGJTJThK2wxZOKzGjMEiAaC",
+              "received": false
+            }
+          ],
+          "total_price": 105531,
+          "delivery": null,
+          "changedOn": "2025-12-14T16:29:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693ee5d91c508c5d5ec76e1f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

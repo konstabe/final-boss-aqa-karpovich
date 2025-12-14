@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 16:27:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1893",
+    "etag": "W/\"765-b8mkOD+P8laoOZx4AGKfG+G57vs\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693ee5661c508c5d5ec756cb",
+        "email": "Colby.Hermiston@hotmail.com",
+        "name": "Ronny Harvey",
+        "country": "Belarus",
+        "city": "Port Martyport",
+        "street": "Garth Drive",
+        "house": 16,
+        "flat": 362,
+        "phone": "+18262123967",
+        "createdOn": "2025-12-14T16:27:18.000Z",
+        "notes": "nWzwHFVMXpIaE4xuajK7uCtcUxfEcCEQmfRDnJm60VLKyfWtCGhaHjFxcMiSch5sW3z0HRaIVFpLzWHcBT62Jxf4PMlVM7r5nFywGA85CyCCI5Djn5eAnJ1KaKdGxdIOidcZ9bAgyeQcBit1yptDQKTdBS7UUgiEsmMr37Gb33UHGpDS8dEVoaPAhGO8iXn9DCsNrJKKzSiIaDPoXFXFZFV2TXizv1YGZwsfDHTpmVe57iZ8cXkxNk9785"
+      },
+      "products": [
+        {
+          "_id": "693ee56a1c508c5d5ec7571c",
+          "name": "Tuna49040",
+          "amount": 323,
+          "price": 57871,
+          "manufacturer": "Microsoft",
+          "notes": "XePujbT6x8yh6RMrgH76F7OI2v2I062HgPMg1jnVAFUiKFYWcSEuynsfUUCohd0BU3DNUkdftEsIViYkpwEM3Xo2Pbo203MrBY9e2y8LWMFChJA4rYjgCmZcIax6GYoy9C52MXUeLvbvahdol64fOQAgqJ90OlLabkchY1QPKwTddrsXaPe6gSoEUua6xi79hRINadEaOgUv1ql9q6GqboXbKLx2MXqsnM43YbceiEUP2pIMqZTL4DOI4G",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 57871,
+      "createdOn": "2025-12-14T16:27:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693ee5661c508c5d5ec756cb",
+          "products": [
+            {
+              "_id": "693ee56a1c508c5d5ec7571c",
+              "name": "Tuna49040",
+              "amount": 323,
+              "price": 57871,
+              "manufacturer": "Microsoft",
+              "notes": "XePujbT6x8yh6RMrgH76F7OI2v2I062HgPMg1jnVAFUiKFYWcSEuynsfUUCohd0BU3DNUkdftEsIViYkpwEM3Xo2Pbo203MrBY9e2y8LWMFChJA4rYjgCmZcIax6GYoy9C52MXUeLvbvahdol64fOQAgqJ90OlLabkchY1QPKwTddrsXaPe6gSoEUua6xi79hRINadEaOgUv1ql9q6GqboXbKLx2MXqsnM43YbceiEUP2pIMqZTL4DOI4G",
+              "received": false
+            }
+          ],
+          "total_price": 57871,
+          "delivery": null,
+          "changedOn": "2025-12-14T16:27:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693ee56c1c508c5d5ec75751"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
