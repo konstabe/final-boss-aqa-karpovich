@@ -1,4 +1,4 @@
-import { ICreatedOn, ID, IResponseFields } from "./core.types";
+import { ICreatedOn, ID, IResponseFields, SortOrder } from "./core.types";
 import { ICustomer, ICustomerFromResponse } from "./customer.types";
 import { IProductForOrder, IProductFromResponse } from "./product.types";
 import { ORDER_HISTORY_ACTIONS } from "data/orderHistoryActions";
@@ -64,4 +64,13 @@ export interface ICustomerOrdersResponse extends IResponseFields {
 export interface IOrderWithCustomerAndProducts extends IOrder {
 	customerData: ICustomer;
 	productsData: IProductFromResponse[];
+}
+
+export type OrderSortField = "createdOn" | "total_price" | "status";
+
+export interface IGetOrdersQuery {
+	search?: string;
+	status?: OrderStatus[];
+	sortField?: OrderSortField;
+	sortOrder?: SortOrder;
 }

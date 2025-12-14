@@ -9,3 +9,14 @@ export const getOrdersSchema = {
 	},
 	required: ["Order", ...obligatoryRequiredFields],
 };
+
+export const getAllOrdersSchema = {
+	type: "object",
+	properties: {
+		Orders: {
+			type: "array",
+			items: getOrdersSchema,
+		},
+		...obligatoryFieldsSchema,
+	},
+};
