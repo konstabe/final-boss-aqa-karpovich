@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:16:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3877",
+    "etag": "W/\"f25-NFaQ3OAsB2o+067w1u1IgLzoJf8\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694088d81c508c5d5ecc5841",
+      "status": "Draft",
+      "customer": {
+        "_id": "694088d71c508c5d5ecc57d7",
+        "email": "Shanon76@gmail.com",
+        "name": "Khalid Pacocha",
+        "country": "Russia",
+        "city": "Lake Winnifredcester",
+        "street": "Jackson Canyon",
+        "house": 4,
+        "flat": 887,
+        "phone": "+13287966808",
+        "createdOn": "2025-12-15T22:16:55.000Z",
+        "notes": "V9fN5LCkseyYvGnPdXUTEPk83EBNMgHfn1g5MyIahaAPfjKW80bRzVX3iIxqfgWF9Dho2FgJM6nujS92hOL13BkHUW59fWGcsygIcNjrvbOhxZ9PA64xDYzQPjFwdMwt1Nb6EdtIduI9gnjZdlKTgcDJbbgSAFbWsBihNrSucQgs7Wp0Thmt34man95Q3BfwpTI4ILmp3iX2mp0oVf1KWFO0qlAOyTaV3E1maOv8pbNz9HVprsJ1zGscwK"
+      },
+      "products": [
+        {
+          "_id": "694088d71c508c5d5ecc57fd",
+          "name": "Shirt42579",
+          "amount": 642,
+          "price": 52129,
+          "manufacturer": "Samsung",
+          "notes": "1VGZt5bkrhqf41Tanid05ayPfSzN7Fzz1nF7gWUiBxgnKXG472kqPxXnbIwuPb270rUOvRGZtSkblOnRaWxo5DPRFHsV2o6gffoB8cZrbcMHAkWuklFrLWQcBanCHRES1HfvLban1frKgMi38fH3gtBQP4m1XfVPygwbH6wXJfQAunEfZA7gjoZexnyDkjuHyaz1VVCIio6eHMJVgj0lD6yg3b1K6ZpOXdGSOZtOrCnpbitHno9QxuGEzG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 52129,
+      "createdOn": "2025-12-15T22:16:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088d71c508c5d5ecc57d7",
+          "products": [
+            {
+              "_id": "694088d71c508c5d5ecc57fd",
+              "name": "Shirt42579",
+              "amount": 642,
+              "price": 52129,
+              "manufacturer": "Samsung",
+              "notes": "1VGZt5bkrhqf41Tanid05ayPfSzN7Fzz1nF7gWUiBxgnKXG472kqPxXnbIwuPb270rUOvRGZtSkblOnRaWxo5DPRFHsV2o6gffoB8cZrbcMHAkWuklFrLWQcBanCHRES1HfvLban1frKgMi38fH3gtBQP4m1XfVPygwbH6wXJfQAunEfZA7gjoZexnyDkjuHyaz1VVCIio6eHMJVgj0lD6yg3b1K6ZpOXdGSOZtOrCnpbitHno9QxuGEzG",
+              "received": false
+            }
+          ],
+          "total_price": 52129,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:16:57.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "694088d71c508c5d5ecc57d7",
+          "products": [
+            {
+              "_id": "694088d71c508c5d5ecc57fd",
+              "name": "Shirt42579",
+              "amount": 642,
+              "price": 52129,
+              "manufacturer": "Samsung",
+              "notes": "1VGZt5bkrhqf41Tanid05ayPfSzN7Fzz1nF7gWUiBxgnKXG472kqPxXnbIwuPb270rUOvRGZtSkblOnRaWxo5DPRFHsV2o6gffoB8cZrbcMHAkWuklFrLWQcBanCHRES1HfvLban1frKgMi38fH3gtBQP4m1XfVPygwbH6wXJfQAunEfZA7gjoZexnyDkjuHyaz1VVCIio6eHMJVgj0lD6yg3b1K6ZpOXdGSOZtOrCnpbitHno9QxuGEzG",
+              "received": false
+            }
+          ],
+          "total_price": 52129,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:16:56.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "694088d71c508c5d5ecc57d7",
+          "products": [
+            {
+              "_id": "694088d71c508c5d5ecc57fd",
+              "name": "Shirt42579",
+              "amount": 642,
+              "price": 52129,
+              "manufacturer": "Samsung",
+              "notes": "1VGZt5bkrhqf41Tanid05ayPfSzN7Fzz1nF7gWUiBxgnKXG472kqPxXnbIwuPb270rUOvRGZtSkblOnRaWxo5DPRFHsV2o6gffoB8cZrbcMHAkWuklFrLWQcBanCHRES1HfvLban1frKgMi38fH3gtBQP4m1XfVPygwbH6wXJfQAunEfZA7gjoZexnyDkjuHyaz1VVCIio6eHMJVgj0lD6yg3b1K6ZpOXdGSOZtOrCnpbitHno9QxuGEzG",
+              "received": false
+            }
+          ],
+          "total_price": 52129,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:16:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

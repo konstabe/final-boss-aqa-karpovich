@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:17:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3422",
+    "etag": "W/\"d5e-srywx1YDrWQA7dO2LviDX4SCoJk\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694088fe1c508c5d5ecc6b11",
+        "email": "Lincoln5@hotmail.com",
+        "name": "Laney Sporer",
+        "country": "Russia",
+        "city": "Karenport",
+        "street": "Sanford Parkways",
+        "house": 3,
+        "flat": 216,
+        "phone": "+15928809299",
+        "createdOn": "2025-12-15T22:17:34.000Z",
+        "notes": "Qy81ohuXJ8UINNejAdEoLPmRyLKPPbh1rxkE2emFsVrJTG1XYdjCh0VzUmmgb9F0mNvb7e3UFA8xvHEFH4DUCCgA3A02JcppyCeaHHsomcptc7NX2epvnyHEthEllJSGl4mUAD9XlC5gF0oh95vhLl2UCRsVNf88YybuEbbpBWr2YpimDdMrLYVuKSc1Kqd2ZvrSV5PpHeIrDgswcs1V2FqpxJINagtfXehP9OQ80yJAEybu3sBkBsYQPF"
+      },
+      "products": [
+        {
+          "_id": "694088fe1c508c5d5ecc6b51",
+          "name": "Towels42285",
+          "amount": 389,
+          "price": 63843,
+          "manufacturer": "Xiaomi",
+          "notes": "kJHv2av89ip6dlPYFiDuYOpM8cYVQs6HtOiTlSb1dktZMEKMSVIkV8sSjAdZbpmjammKEKNlycSdT39dZdXfpTxaCvTjJiMVIIqpjPGglDWTuW22ml6DyvgT7VOEVpnsglDAgAfM5k9DjbipUjeYH4aj79pccfzLyoAd5M73xNhgdgVSLBjpP8tAnarJaGdTWdWbJ2TFDZYmLQjrqzx7pbOfyV3QYAIf26Ygg8UlQZzg3hVvVeDZi5zy0F",
+          "received": false
+        },
+        {
+          "_id": "694088ff1c508c5d5ecc6b84",
+          "name": "Bacon34618",
+          "amount": 30,
+          "price": 53692,
+          "manufacturer": "Apple",
+          "notes": "6801JKxtE2jxJACwsZ6g7ktbR9sUr7A6QBGstBgmE1vplqCrgXyK1CEmBTdqr7qRmxnRhoHTzHIyA9CPbPOuRGUFE3TphY2IN8ULB7ySZtyPBugBvvio3dlAtGyOf3NRbsE37dZDe9CzMSWlRLhpqlB7VlEIQox0di2P8Lvkjox7c8zyB58PBqzunFUDtNcQfVMmBkMHZGQ31jYaS91BNAJI4kvB83j0rEaMwIiHsLvJlYFTlkVFcqUUPJ",
+          "received": false
+        },
+        {
+          "_id": "694089001c508c5d5ecc6c87",
+          "name": "Mouse60567",
+          "amount": 767,
+          "price": 19354,
+          "manufacturer": "Microsoft",
+          "notes": "RK9iJ0IOjwydtHfk7kvd2T8CPLlPuerv6SdjSYueJZtMbF7r5n3BhFpB2V7vYyCI6k4WdBw23MZw40oCh9RKwdI1iHQ1lZkxjd4R9Znz14EGp7bIYeGHpODQCdQpNelNJscy7NXzK6TluK2O47aTTrDLDuB6SHTl1T3WuLKC0LbqDzshBvbyf6B9Og2UmuTmpoDOSC6RbtbxLxFHx0e5y2sCpUTEJ34ijBtsN9B5LVZkDcKWfiNmJlcyNI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 136889,
+      "createdOn": "2025-12-15T22:17:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088fe1c508c5d5ecc6b11",
+          "products": [
+            {
+              "_id": "694088fe1c508c5d5ecc6b51",
+              "name": "Towels42285",
+              "amount": 389,
+              "price": 63843,
+              "manufacturer": "Xiaomi",
+              "notes": "kJHv2av89ip6dlPYFiDuYOpM8cYVQs6HtOiTlSb1dktZMEKMSVIkV8sSjAdZbpmjammKEKNlycSdT39dZdXfpTxaCvTjJiMVIIqpjPGglDWTuW22ml6DyvgT7VOEVpnsglDAgAfM5k9DjbipUjeYH4aj79pccfzLyoAd5M73xNhgdgVSLBjpP8tAnarJaGdTWdWbJ2TFDZYmLQjrqzx7pbOfyV3QYAIf26Ygg8UlQZzg3hVvVeDZi5zy0F",
+              "received": false
+            },
+            {
+              "_id": "694088ff1c508c5d5ecc6b84",
+              "name": "Bacon34618",
+              "amount": 30,
+              "price": 53692,
+              "manufacturer": "Apple",
+              "notes": "6801JKxtE2jxJACwsZ6g7ktbR9sUr7A6QBGstBgmE1vplqCrgXyK1CEmBTdqr7qRmxnRhoHTzHIyA9CPbPOuRGUFE3TphY2IN8ULB7ySZtyPBugBvvio3dlAtGyOf3NRbsE37dZDe9CzMSWlRLhpqlB7VlEIQox0di2P8Lvkjox7c8zyB58PBqzunFUDtNcQfVMmBkMHZGQ31jYaS91BNAJI4kvB83j0rEaMwIiHsLvJlYFTlkVFcqUUPJ",
+              "received": false
+            },
+            {
+              "_id": "694089001c508c5d5ecc6c87",
+              "name": "Mouse60567",
+              "amount": 767,
+              "price": 19354,
+              "manufacturer": "Microsoft",
+              "notes": "RK9iJ0IOjwydtHfk7kvd2T8CPLlPuerv6SdjSYueJZtMbF7r5n3BhFpB2V7vYyCI6k4WdBw23MZw40oCh9RKwdI1iHQ1lZkxjd4R9Znz14EGp7bIYeGHpODQCdQpNelNJscy7NXzK6TluK2O47aTTrDLDuB6SHTl1T3WuLKC0LbqDzshBvbyf6B9Og2UmuTmpoDOSC6RbtbxLxFHx0e5y2sCpUTEJ34ijBtsN9B5LVZkDcKWfiNmJlcyNI",
+              "received": false
+            }
+          ],
+          "total_price": 136889,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:17:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694089041c508c5d5ecc6ea4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:18:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3416",
+    "etag": "W/\"d58-S0rj+NOeeT0K5l5IQPcovt1jtIk\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694089241c508c5d5ecc80bb",
+        "email": "Kali73@yahoo.com",
+        "name": "Alejandra Bechtelar",
+        "country": "France",
+        "city": "Parkerberg",
+        "street": "Leuschke Park",
+        "house": 32,
+        "flat": 172,
+        "phone": "+18744551938",
+        "createdOn": "2025-12-15T22:18:12.000Z",
+        "notes": "gzs8pX5sX3eyYzaPpSytkPcw8gkJxju1G2qXgJq52GqRvASzdEB1NJnXX9o5osplSJsWBKaoVTVd9Hdl2iqFBiG4RfZ0mkj9FWxjeMG0COu0hiNdrAN3T0W4RTQKGdfiOjJjLcnmU7MBhmNqmMMm5DmoIDcARvaOv0GGtrrpkrbT7SkBmH2NyPdKqwr52J1KUpMpUjCt50L2ekLXDwoIpvyiSYU7wa9tkiMZ1pOKt04tG7jKdxBJNKbeo0"
+      },
+      "products": [
+        {
+          "_id": "694089241c508c5d5ecc8105",
+          "name": "Tuna91996",
+          "amount": 116,
+          "price": 92002,
+          "manufacturer": "Sony",
+          "notes": "HzqCMIa0UmnAgqWCUVJDDKyOlfqifjYsv5oqgbtNGMul5Qwy6S07ZoicxALE2sS3lrNcrteLG5VVBxGxqMwmGjELq5nquzZUg6N2oJ0GQbxYPXbTM2isOHnS9IEZct28ApRKUg5Ogn09v45T1QwEbgc5P3Scf9AEg7gaprDp85luYJre0WkyzUYtVSpJnlPrFWC5OuYar5eiuAHx9uoKPTQ4MUuiXNIhmv8P6Ys4Q0QCAkrEF44a2haPhd",
+          "received": false
+        },
+        {
+          "_id": "694089251c508c5d5ecc8126",
+          "name": "Ball50481",
+          "amount": 294,
+          "price": 88071,
+          "manufacturer": "Microsoft",
+          "notes": "YrYlSpTRDLYD7eFjEB0vfTtoSz6NOmiRRNcGUCQ3fcTaoTSj2zsSzk7AvuAuzwt8X2CtGxb4mlYx8O0yR641R5O5FqWy4cAvWpNqaXltlopCLRK7tUqUb0yiZjw8oXuFEV6yC3mh0p2hTyxbWfm7Hmx5oPHjfpNzliA1nSn8haAA20FLbOAP6ln4O5QNwroxF0PK0qtB9F1ozvumdnUDZRhthbDSHhxXjQcH84QUM2FCMTV6LzV6qI5jH7",
+          "received": false
+        },
+        {
+          "_id": "694089261c508c5d5ecc81ec",
+          "name": "Shirt20613",
+          "amount": 286,
+          "price": 21048,
+          "manufacturer": "Tesla",
+          "notes": "k7WhV0YUVKpJXw1O6lQqmwBaICfqVdh6lQJw1EYdHFUtvXxkFOIXeICSJkQW3orzWQkei4YDB6922YD7ha49fHcxFVUYXXPepZJQvVwhMonKXIlhYvbiJCYr6qouboFckhqCtaX2MSqeTIctb9H1uyktDnjp6Nx1xAZi7SOhGanW279yYisd1Yg6wyYOKPwOIFiCBpMSm4AgLoG2zDqVC1UEkoGQBd21VAY4kdZls7SK09sRareaQSTWU7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 201121,
+      "createdOn": "2025-12-15T22:18:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694089241c508c5d5ecc80bb",
+          "products": [
+            {
+              "_id": "694089241c508c5d5ecc8105",
+              "name": "Tuna91996",
+              "amount": 116,
+              "price": 92002,
+              "manufacturer": "Sony",
+              "notes": "HzqCMIa0UmnAgqWCUVJDDKyOlfqifjYsv5oqgbtNGMul5Qwy6S07ZoicxALE2sS3lrNcrteLG5VVBxGxqMwmGjELq5nquzZUg6N2oJ0GQbxYPXbTM2isOHnS9IEZct28ApRKUg5Ogn09v45T1QwEbgc5P3Scf9AEg7gaprDp85luYJre0WkyzUYtVSpJnlPrFWC5OuYar5eiuAHx9uoKPTQ4MUuiXNIhmv8P6Ys4Q0QCAkrEF44a2haPhd",
+              "received": false
+            },
+            {
+              "_id": "694089251c508c5d5ecc8126",
+              "name": "Ball50481",
+              "amount": 294,
+              "price": 88071,
+              "manufacturer": "Microsoft",
+              "notes": "YrYlSpTRDLYD7eFjEB0vfTtoSz6NOmiRRNcGUCQ3fcTaoTSj2zsSzk7AvuAuzwt8X2CtGxb4mlYx8O0yR641R5O5FqWy4cAvWpNqaXltlopCLRK7tUqUb0yiZjw8oXuFEV6yC3mh0p2hTyxbWfm7Hmx5oPHjfpNzliA1nSn8haAA20FLbOAP6ln4O5QNwroxF0PK0qtB9F1ozvumdnUDZRhthbDSHhxXjQcH84QUM2FCMTV6LzV6qI5jH7",
+              "received": false
+            },
+            {
+              "_id": "694089261c508c5d5ecc81ec",
+              "name": "Shirt20613",
+              "amount": 286,
+              "price": 21048,
+              "manufacturer": "Tesla",
+              "notes": "k7WhV0YUVKpJXw1O6lQqmwBaICfqVdh6lQJw1EYdHFUtvXxkFOIXeICSJkQW3orzWQkei4YDB6922YD7ha49fHcxFVUYXXPepZJQvVwhMonKXIlhYvbiJCYr6qouboFckhqCtaX2MSqeTIctb9H1uyktDnjp6Nx1xAZi7SOhGanW279yYisd1Yg6wyYOKPwOIFiCBpMSm4AgLoG2zDqVC1UEkoGQBd21VAY4kdZls7SK09sRareaQSTWU7",
+              "received": false
+            }
+          ],
+          "total_price": 201121,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:18:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694089271c508c5d5ecc8253"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

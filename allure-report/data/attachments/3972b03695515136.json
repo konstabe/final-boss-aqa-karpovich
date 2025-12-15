@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:17:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2952",
+    "etag": "W/\"b88-D3A+aV/AHtTVdOzX+6l1FY37rv0\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694088ec1c508c5d5ecc61c0",
+      "status": "Draft",
+      "customer": {
+        "_id": "694088ec1c508c5d5ecc618a",
+        "email": "Destany.Sawayn85@yahoo.com",
+        "name": "Chase Brakus",
+        "country": "USA",
+        "city": "Port Gunnar",
+        "street": "Waelchi Burgs",
+        "house": 7,
+        "flat": 104,
+        "phone": "+15324406508",
+        "createdOn": "2025-12-15T22:17:16.000Z",
+        "notes": "b0mE8BvrnefwM1umzVG8hSh5ggNakpPyLp3u95SSncV6irKjEFTE1h1IMRDOiN6MGd28b7s98xRmXbp6MTaHYgPLJG0QBjAcJaY3JJvC0bAEFH0cnfXUPizwUJtgu0QuJ8YydOWOQNWxgTNmRKBe5otLGc4mJzPgFVVKU2eftq9oToz4J33s4RFFQwPQKztTRBepmEzUcckwABbNxZhEmCu0difRSPIbjRk3o5UilewUz3P7WuoKZ1SpcC"
+      },
+      "products": [
+        {
+          "_id": "694088ec1c508c5d5ecc61a4",
+          "name": "Salad52722",
+          "amount": 661,
+          "price": 70549,
+          "manufacturer": "Microsoft",
+          "notes": "8ZshdvS8rGgoTaE9VAa0YuYrQghbgVWBj94Ela7vAeElDFfCwDY556ry3pUMRKmiQNqZBZSG3XVXMbweFHq9FYiZfkyy9rgQxX8Gl01nvlQEvAGy3InCpZgAQvv03XtZM6pTu2qwiluoziVIYUWOCK9u6FjtCMCWfo3bUFF5FuIrKZJu6Acnawhr2lOk4EznT9EmFiCgjX7AqWJeqLTBBLtB30HtfPlXn5otXCtzM4kqeeP6B8j2nl5GNj",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Port Gunnar",
+          "street": "Waelchi Burgs",
+          "house": 7,
+          "flat": 104
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 70549,
+      "createdOn": "2025-12-15T22:17:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088ec1c508c5d5ecc618a",
+          "products": [
+            {
+              "_id": "694088ec1c508c5d5ecc61a4",
+              "name": "Salad52722",
+              "amount": 661,
+              "price": 70549,
+              "manufacturer": "Microsoft",
+              "notes": "8ZshdvS8rGgoTaE9VAa0YuYrQghbgVWBj94Ela7vAeElDFfCwDY556ry3pUMRKmiQNqZBZSG3XVXMbweFHq9FYiZfkyy9rgQxX8Gl01nvlQEvAGy3InCpZgAQvv03XtZM6pTu2qwiluoziVIYUWOCK9u6FjtCMCWfo3bUFF5FuIrKZJu6Acnawhr2lOk4EznT9EmFiCgjX7AqWJeqLTBBLtB30HtfPlXn5otXCtzM4kqeeP6B8j2nl5GNj",
+              "received": false
+            }
+          ],
+          "total_price": 70549,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Port Gunnar",
+              "street": "Waelchi Burgs",
+              "house": 7,
+              "flat": 104
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T22:17:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694088ec1c508c5d5ecc618a",
+          "products": [
+            {
+              "_id": "694088ec1c508c5d5ecc61a4",
+              "name": "Salad52722",
+              "amount": 661,
+              "price": 70549,
+              "manufacturer": "Microsoft",
+              "notes": "8ZshdvS8rGgoTaE9VAa0YuYrQghbgVWBj94Ela7vAeElDFfCwDY556ry3pUMRKmiQNqZBZSG3XVXMbweFHq9FYiZfkyy9rgQxX8Gl01nvlQEvAGy3InCpZgAQvv03XtZM6pTu2qwiluoziVIYUWOCK9u6FjtCMCWfo3bUFF5FuIrKZJu6Acnawhr2lOk4EznT9EmFiCgjX7AqWJeqLTBBLtB30HtfPlXn5otXCtzM4kqeeP6B8j2nl5GNj",
+              "received": false
+            }
+          ],
+          "total_price": 70549,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:17:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

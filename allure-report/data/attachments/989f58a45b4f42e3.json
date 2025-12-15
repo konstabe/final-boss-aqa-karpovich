@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:17:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3406",
+    "etag": "W/\"d4e-VgrWEYPGwkmzf+kLkn+HoSR3txY\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694088f21c508c5d5ecc64bf",
+        "email": "Aiyana49@gmail.com",
+        "name": "Bella Hansen",
+        "country": "Ukraine",
+        "city": "Jerdemouth",
+        "street": "S Railroad Street",
+        "house": 27,
+        "flat": 744,
+        "phone": "+18967648205",
+        "createdOn": "2025-12-15T22:17:22.000Z",
+        "notes": "gTtAPVwdhaSXRck07HRaW3nSjboZXoX2tJh8Xaqcx13fBNtLPA16cDX5QrT6yVeb6OOAtxYRWzkETswChHAsUW2IBM1S1DMHTrPQru77VvJGmpV4w50uowx61h8cSbjbcuMseq3CGApm6lM4h18Xi2g4VRQYPBjb146dY1Z1N5E0sdMbyp3VzOnO7gYrXeQd95Aprx1stSyoddqA0H8YfZUpHmxAptVg79KovQKfHVatpK3uncH210KCMa"
+      },
+      "products": [
+        {
+          "_id": "694088f21c508c5d5ecc64ee",
+          "name": "Tuna15087",
+          "amount": 578,
+          "price": 94577,
+          "manufacturer": "Tesla",
+          "notes": "tbQvY0j9gMjPsSujjKbe8nZOgrFUlDB7js6PxBplAmiWUphCRnQA3FZuEEFilsLFENQ0WK6FRONL2Y7povYBuHq9q35iUzAgw3djrIblZc00izgwVcNPIK3wrgwbwyve4NEusQi0RNRavLvQ3emrditT7fu5P9uhHLZ6Rw0ncsC9dbigUBvEqZQ1p9QPbVo10k9b15DR5pB1rf4eFfQjACcMzijpycAkYiPsuV2gSxMiNHdSPVV2KtC7q4",
+          "received": false
+        },
+        {
+          "_id": "694088f31c508c5d5ecc6527",
+          "name": "Soap37680",
+          "amount": 642,
+          "price": 16870,
+          "manufacturer": "Sony",
+          "notes": "FUUyBgwFZksZYgK2j3dAMxPUEooS6ZTOK8Lfta7ag0uyza2tY5txctqCVgSCLM6GqeEerisyniwdS4IKTLa9qlr6DI77uUBFB33MhhRb6kPUevNo0wlI7r31ti7NzQspWGRlx6cYDy36s2P1MIAWPw3klWj4EZvzeqf34h58YS48aEtp1MMpQiqovV3lpVi4EtMIlHg4KTbi7iOD155zZSB0VQOvadesRwBqpMsZcLykI7DpIw3dbn3s4N",
+          "received": false
+        },
+        {
+          "_id": "694088f31c508c5d5ecc653c",
+          "name": "Chips72926",
+          "amount": 502,
+          "price": 44350,
+          "manufacturer": "Sony",
+          "notes": "XxQbXzyF2CCUzEMW9sOr2VEnSsnJumJt5HBLfB6oFIGk0PvGBdVLobJl6dO5Dj0gWwSIq95YbkOg2yWalkvghl7MKFh1oY5gR6XIKCmVyCpiJzYKDoJ83ns5EVRsVgsNTKquEDGPgFdwozRcDu7r1JbWAMvhrov3fL6YxN9kF2ZzI7OJwQx9VIBHR0FXdmoFnLmMUpawNta3Y5uh8bN8yAYNTUHxikFF2f2ROOb7S1qPaKOPQzNKuWKTlh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 155797,
+      "createdOn": "2025-12-15T22:17:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088f21c508c5d5ecc64bf",
+          "products": [
+            {
+              "_id": "694088f21c508c5d5ecc64ee",
+              "name": "Tuna15087",
+              "amount": 578,
+              "price": 94577,
+              "manufacturer": "Tesla",
+              "notes": "tbQvY0j9gMjPsSujjKbe8nZOgrFUlDB7js6PxBplAmiWUphCRnQA3FZuEEFilsLFENQ0WK6FRONL2Y7povYBuHq9q35iUzAgw3djrIblZc00izgwVcNPIK3wrgwbwyve4NEusQi0RNRavLvQ3emrditT7fu5P9uhHLZ6Rw0ncsC9dbigUBvEqZQ1p9QPbVo10k9b15DR5pB1rf4eFfQjACcMzijpycAkYiPsuV2gSxMiNHdSPVV2KtC7q4",
+              "received": false
+            },
+            {
+              "_id": "694088f31c508c5d5ecc6527",
+              "name": "Soap37680",
+              "amount": 642,
+              "price": 16870,
+              "manufacturer": "Sony",
+              "notes": "FUUyBgwFZksZYgK2j3dAMxPUEooS6ZTOK8Lfta7ag0uyza2tY5txctqCVgSCLM6GqeEerisyniwdS4IKTLa9qlr6DI77uUBFB33MhhRb6kPUevNo0wlI7r31ti7NzQspWGRlx6cYDy36s2P1MIAWPw3klWj4EZvzeqf34h58YS48aEtp1MMpQiqovV3lpVi4EtMIlHg4KTbi7iOD155zZSB0VQOvadesRwBqpMsZcLykI7DpIw3dbn3s4N",
+              "received": false
+            },
+            {
+              "_id": "694088f31c508c5d5ecc653c",
+              "name": "Chips72926",
+              "amount": 502,
+              "price": 44350,
+              "manufacturer": "Sony",
+              "notes": "XxQbXzyF2CCUzEMW9sOr2VEnSsnJumJt5HBLfB6oFIGk0PvGBdVLobJl6dO5Dj0gWwSIq95YbkOg2yWalkvghl7MKFh1oY5gR6XIKCmVyCpiJzYKDoJ83ns5EVRsVgsNTKquEDGPgFdwozRcDu7r1JbWAMvhrov3fL6YxN9kF2ZzI7OJwQx9VIBHR0FXdmoFnLmMUpawNta3Y5uh8bN8yAYNTUHxikFF2f2ROOb7S1qPaKOPQzNKuWKTlh",
+              "received": false
+            }
+          ],
+          "total_price": 155797,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:17:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694088f31c508c5d5ecc6566"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

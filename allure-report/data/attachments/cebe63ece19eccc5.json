@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:17:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-xRBIBgNU0OE5x9KIzKCWOJfw3nw\"",
+    "keep-alive": "timeout=5, max=54",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694088dd1c508c5d5ecc5a7b",
+        "email": "Floy_Jacobson56@hotmail.com",
+        "name": "Kiel Daniel",
+        "country": "Germany",
+        "city": "New Elody",
+        "street": "Clark Street",
+        "house": 5,
+        "flat": 550,
+        "phone": "+17804885188",
+        "createdOn": "2025-12-15T22:17:01.000Z",
+        "notes": "CVPX4S2p3XIXTkXrcOXKApZ0rYKy9F2whLKtmqDBE9pEJCIFeECWOBsykDODAnfEM8VuomBhr1mF0XPHioFzOhMQymE7rR9GMFOnHlGyOXam7ABQjYYBSfmKujC43RQTeqOXMTNzpwRrIqVjFfGJLo46OPU56oQsVhN4VywjosgbBSC0cLt1y2lGWEGBl6xCmuxtjp7wuvRpv2NYaP0dJmQRsSm4XM293aS7t3gCbph7BgqdCQYRrMuHwj"
+      },
+      "products": [
+        {
+          "_id": "694088dd1c508c5d5ecc5ab6",
+          "name": "Bike21689",
+          "amount": 107,
+          "price": 95555,
+          "manufacturer": "Google",
+          "notes": "zBqdAPcKZlVrFsY9DjaeOsUqp5tQi633yuX2aIrTkgGkAAlZMWsjL8z4cUkSgGAcy9eC0vtCNrCcwH2ZOnuFJQhe0BRWh6CZk7NayQ00xDEutEfT89X4Du3ot1eDgiGiXkcYtPum8RT8vPXKfQUG2JaTpBix4mv5dfGWzyNeKWBaxOIfG0VkBQHn6yrDJneuPYeb1i6tqsAYto3am6MatD2sDN8BqazJj34jrWtOU6RGhhb6p4tSSc4Uef",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 95555,
+      "createdOn": "2025-12-15T22:17:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088dd1c508c5d5ecc5a7b",
+          "products": [
+            {
+              "_id": "694088dd1c508c5d5ecc5ab6",
+              "name": "Bike21689",
+              "amount": 107,
+              "price": 95555,
+              "manufacturer": "Google",
+              "notes": "zBqdAPcKZlVrFsY9DjaeOsUqp5tQi633yuX2aIrTkgGkAAlZMWsjL8z4cUkSgGAcy9eC0vtCNrCcwH2ZOnuFJQhe0BRWh6CZk7NayQ00xDEutEfT89X4Du3ot1eDgiGiXkcYtPum8RT8vPXKfQUG2JaTpBix4mv5dfGWzyNeKWBaxOIfG0VkBQHn6yrDJneuPYeb1i6tqsAYto3am6MatD2sDN8BqazJj34jrWtOU6RGhhb6p4tSSc4Uef",
+              "received": false
+            }
+          ],
+          "total_price": 95555,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:17:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694088de1c508c5d5ecc5aed"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

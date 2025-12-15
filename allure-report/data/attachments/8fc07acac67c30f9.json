@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:17:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3433",
+    "etag": "W/\"d69-Rx2L/6So1SNgT5f+OxvupX275sY\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694088f11c508c5d5ecc64b7",
+        "email": "Gino6@gmail.com",
+        "name": "Camylle Schneider",
+        "country": "Great Britain",
+        "city": "Waynestead",
+        "street": "Roger Circle",
+        "house": 46,
+        "flat": 459,
+        "phone": "+14468800071",
+        "createdOn": "2025-12-15T22:17:21.000Z",
+        "notes": "icZVXPrjGs0e8LApBROS14F2LSD4qBU4WsPwbfP8uiZjPAvLJniSZfBX6NJXGXyMnh60gRHyYl0yeQ2nH9qEPHt46BfHzDNnjeLWYfQDvy75PdkZxTBbjw3pjcGhawoG5vgJYdWis1i1lpqS5eCwjj56Qx7TW74ESYDxbBEV4q55SzKkeoSGFuLRNLWNvKbN6ILOLQ8iJdZ8oHeMkCZfmsveDJ6p3M6FRrfPTjkUaS4njW3vRyy72OA0nh"
+      },
+      "products": [
+        {
+          "_id": "694088f21c508c5d5ecc64dc",
+          "name": "Computer13190",
+          "amount": 401,
+          "price": 5977,
+          "manufacturer": "Microsoft",
+          "notes": "UbfkUAr1yY5XtV5jWPZGwRV5zQ98VA80UlWJvYB0A3D7AffZk4kkWgM89RlRSOSYo4M0ifVf3XwO38BOMa650PdGAHEjXYxYTGJwGZJ9u7itBeojMWIhxU4IEt1NFPGnPCyx20OQcYkEgOCeerrB3KQIfomcsln9Pqu5OnGLt0PCNxoHxgB9cwSgXL8xSMCGVimsjtcMAwSAMBOVhHHmZ0dDGUfHhrscBN9Pn3lBMUFE94qiLBjOquB0gm",
+          "received": false
+        },
+        {
+          "_id": "694088f21c508c5d5ecc650b",
+          "name": "Chicken1901",
+          "amount": 831,
+          "price": 77922,
+          "manufacturer": "Apple",
+          "notes": "Mn6mfZmC3VCor85JPq6Ab6EBwGasYKSMmACK6XPn58zEezjG5wRToFVaDvh1oUetSqRPxyhjNuX10gvbgQdn5BPxBKeLdalK3XrYkyDAExs24SxvDB486vLmRWZtqqtgtrlAdu3aBtUZHOgeadTECjpZxeXw3Wl71UHqvn5Hc27JTUG4d1sNdsI09uwm4yGbYwf9lzTWVfU8ybtlGIUvDBa10S4iLIOwGT9zpaD65jB5NmkiofOqVjLfEz",
+          "received": false
+        },
+        {
+          "_id": "694088f31c508c5d5ecc6529",
+          "name": "Tuna10949",
+          "amount": 248,
+          "price": 7241,
+          "manufacturer": "Microsoft",
+          "notes": "TIMQu1YahMLZrnGSaRzfscdfwUfLRKXUFWGg3dQnLXxjyGcWuEF5RaU30eebUGsV5JXIY235iDnrC6LmSZqtd48Rh59qXdhomrzqPSbm2OidxVfxLJB84vf9pciG1r2mnbgUnz7fj8DF6cSVD7qVW0VfsjG4BaTYRucqPMvXDdkkgmXF3lx8AQOaTdwYZqsJOxBy3kK7CvqMm7w1IoqCCcMg0hVuqMkwmnhqqxk6VMYc03h6mjPoPSckBy",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 91140,
+      "createdOn": "2025-12-15T22:17:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088f11c508c5d5ecc64b7",
+          "products": [
+            {
+              "_id": "694088f21c508c5d5ecc64dc",
+              "name": "Computer13190",
+              "amount": 401,
+              "price": 5977,
+              "manufacturer": "Microsoft",
+              "notes": "UbfkUAr1yY5XtV5jWPZGwRV5zQ98VA80UlWJvYB0A3D7AffZk4kkWgM89RlRSOSYo4M0ifVf3XwO38BOMa650PdGAHEjXYxYTGJwGZJ9u7itBeojMWIhxU4IEt1NFPGnPCyx20OQcYkEgOCeerrB3KQIfomcsln9Pqu5OnGLt0PCNxoHxgB9cwSgXL8xSMCGVimsjtcMAwSAMBOVhHHmZ0dDGUfHhrscBN9Pn3lBMUFE94qiLBjOquB0gm",
+              "received": false
+            },
+            {
+              "_id": "694088f21c508c5d5ecc650b",
+              "name": "Chicken1901",
+              "amount": 831,
+              "price": 77922,
+              "manufacturer": "Apple",
+              "notes": "Mn6mfZmC3VCor85JPq6Ab6EBwGasYKSMmACK6XPn58zEezjG5wRToFVaDvh1oUetSqRPxyhjNuX10gvbgQdn5BPxBKeLdalK3XrYkyDAExs24SxvDB486vLmRWZtqqtgtrlAdu3aBtUZHOgeadTECjpZxeXw3Wl71UHqvn5Hc27JTUG4d1sNdsI09uwm4yGbYwf9lzTWVfU8ybtlGIUvDBa10S4iLIOwGT9zpaD65jB5NmkiofOqVjLfEz",
+              "received": false
+            },
+            {
+              "_id": "694088f31c508c5d5ecc6529",
+              "name": "Tuna10949",
+              "amount": 248,
+              "price": 7241,
+              "manufacturer": "Microsoft",
+              "notes": "TIMQu1YahMLZrnGSaRzfscdfwUfLRKXUFWGg3dQnLXxjyGcWuEF5RaU30eebUGsV5JXIY235iDnrC6LmSZqtd48Rh59qXdhomrzqPSbm2OidxVfxLJB84vf9pciG1r2mnbgUnz7fj8DF6cSVD7qVW0VfsjG4BaTYRucqPMvXDdkkgmXF3lx8AQOaTdwYZqsJOxBy3kK7CvqMm7w1IoqCCcMg0hVuqMkwmnhqqxk6VMYc03h6mjPoPSckBy",
+              "received": false
+            }
+          ],
+          "total_price": 91140,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:17:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694088f31c508c5d5ecc6548"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

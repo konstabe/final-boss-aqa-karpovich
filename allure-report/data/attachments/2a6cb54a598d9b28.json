@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:17:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-wy9PJXIwxHIbysPFf1xVnEVtX9g\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694088dc1c508c5d5ecc59fd",
+        "email": "Nathaniel_Bernhard@hotmail.com",
+        "name": "Kacey Lubowitz",
+        "country": "Ukraine",
+        "city": "Pharr",
+        "street": "Klein Ridge",
+        "house": 30,
+        "flat": 904,
+        "phone": "+16097485035",
+        "createdOn": "2025-12-15T22:17:00.000Z",
+        "notes": "LSJqJSWiFprx4GiZFsJZts8EJsX8QDSgbM6LkEYew58RFXdwsU8nQXwrgohhdckAvSs69RRspIvNQc25kmlNIWEF3QubRLGantL4PjS7NPHzHjeuP7tET3QEi7Bu4yIry61f3o7U55wApDzi21cV5P6tWt93FC3TxXxBGbLV1oRmUjA13Ycq2N3Ylh0SQyqBkZ6MiXnMoXJ43jDGP5nBzfeBHMXSQm7dQnkybGW3pFOrgDDe7JtTtFmssZ"
+      },
+      "products": [
+        {
+          "_id": "694088dc1c508c5d5ecc5a30",
+          "name": "Bike74590",
+          "amount": 838,
+          "price": 34628,
+          "manufacturer": "Tesla",
+          "notes": "dYv79MUFrBfVwcfIfQgRh2HrV4v2f30PBmn1Z8cCFxcBL4dStMRU7T0xXAjwFMnWKez0qyj04eYHeMEGTnchmWwpR3BoD7WUMXK3RimUwAlVMfOqkNgLrzZB3qmV7VfNuo6QBz2UqGXtydAjc9hDP29EBeGpr2L3zs3T42Owp3ENpROOOGlrYO5DMKmI7nkALpNpKTk3ymsp7OcSCkpGBlDO2kSfkaf8RcK2hnHENdwtBIwBn1I2K1msKI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 34628,
+      "createdOn": "2025-12-15T22:17:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088dc1c508c5d5ecc59fd",
+          "products": [
+            {
+              "_id": "694088dc1c508c5d5ecc5a30",
+              "name": "Bike74590",
+              "amount": 838,
+              "price": 34628,
+              "manufacturer": "Tesla",
+              "notes": "dYv79MUFrBfVwcfIfQgRh2HrV4v2f30PBmn1Z8cCFxcBL4dStMRU7T0xXAjwFMnWKez0qyj04eYHeMEGTnchmWwpR3BoD7WUMXK3RimUwAlVMfOqkNgLrzZB3qmV7VfNuo6QBz2UqGXtydAjc9hDP29EBeGpr2L3zs3T42Owp3ENpROOOGlrYO5DMKmI7nkALpNpKTk3ymsp7OcSCkpGBlDO2kSfkaf8RcK2hnHENdwtBIwBn1I2K1msKI",
+              "received": false
+            }
+          ],
+          "total_price": 34628,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:17:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694088dc1c508c5d5ecc5a52"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:17:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2655",
+    "etag": "W/\"a5f-Qllcefirw4zTfmKJi0FoGWnXCmk\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694089091c508c5d5ecc71ca",
+        "email": "Alfred_Swift56@gmail.com",
+        "name": "Felicita Schiller",
+        "country": "Russia",
+        "city": "Hansenbury",
+        "street": "Highfield Avenue",
+        "house": 41,
+        "flat": 550,
+        "phone": "+14437998005",
+        "createdOn": "2025-12-15T22:17:45.000Z",
+        "notes": "9YZED9rJSmhCROQWg23r67PjkY3SV6bA4kZa5YYWtHItz445l1me5RrV3hNAhhwnhE2BuUMiQSpiEZbB3xbWDgxs11yRjN2lM6jONdnN0uADkZSB5nev5mt3K7LnrjWKtCHTs9L3z6dgANSkgtXjMZtKlowGJc8hKsvT18UWyq1ttEjCZNQQueaMWGKij8GCXhbKbGie24qRi2qfI0YrGI9pmWDRGSSXyoPEhFWKSVeceYzWCvhsiNvnPu"
+      },
+      "products": [
+        {
+          "_id": "694089091c508c5d5ecc71d7",
+          "name": "Computer46891",
+          "amount": 426,
+          "price": 75452,
+          "manufacturer": "Sony",
+          "notes": "PplCzR7MGsKb1vVVLfEuDVpKfj2Ok5hD0LWUiOKRV09xSHYsSwqhs3YH36eVED8Fky8t3vkCqbSp12qxGMujKNGTNWrrrTtUfMSltjAJKPZS4fNdvet68j8SlDC0L0yTc4WXelRhGBFl5pqQ3XDr6ZE52fJ9t5O3Lle1pod3WGGJQdlJ7qPY27QWL9xG55gjC9vV5pSQb9sfyEJ4Wz1eHF8P5cf022PRELYxKIOjs7fMFbGK6aHnFSPmyt",
+          "received": false
+        },
+        {
+          "_id": "694089091c508c5d5ecc71f9",
+          "name": "Hat88981",
+          "amount": 254,
+          "price": 63600,
+          "manufacturer": "Sony",
+          "notes": "z16F1SfzxpVeyObYuKkTivt0zH4FD9kStCC1yAMoinF0ok9EWsMDD43MUWMeSU0C2O3uhtwU53NdgejbLknpwZwEAtnULtUTrP7My7twFG3xr6KKw0Tu0IGCPcIBRmSVNaoHI8PGlu9mZuTl8GFjt8GEcXYXvoO6XVwqiOBmZ5VZ7PGn3Tn8gAXb7prDyt5TR1FGT5UPmE8TXKFQZvLofTm6atEB3kB2NDXIepAkjcjQ3bGxVHtM5fNOj4",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 139052,
+      "createdOn": "2025-12-15T22:17:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694089091c508c5d5ecc71ca",
+          "products": [
+            {
+              "_id": "694089091c508c5d5ecc71d7",
+              "name": "Computer46891",
+              "amount": 426,
+              "price": 75452,
+              "manufacturer": "Sony",
+              "notes": "PplCzR7MGsKb1vVVLfEuDVpKfj2Ok5hD0LWUiOKRV09xSHYsSwqhs3YH36eVED8Fky8t3vkCqbSp12qxGMujKNGTNWrrrTtUfMSltjAJKPZS4fNdvet68j8SlDC0L0yTc4WXelRhGBFl5pqQ3XDr6ZE52fJ9t5O3Lle1pod3WGGJQdlJ7qPY27QWL9xG55gjC9vV5pSQb9sfyEJ4Wz1eHF8P5cf022PRELYxKIOjs7fMFbGK6aHnFSPmyt",
+              "received": false
+            },
+            {
+              "_id": "694089091c508c5d5ecc71f9",
+              "name": "Hat88981",
+              "amount": 254,
+              "price": 63600,
+              "manufacturer": "Sony",
+              "notes": "z16F1SfzxpVeyObYuKkTivt0zH4FD9kStCC1yAMoinF0ok9EWsMDD43MUWMeSU0C2O3uhtwU53NdgejbLknpwZwEAtnULtUTrP7My7twFG3xr6KKw0Tu0IGCPcIBRmSVNaoHI8PGlu9mZuTl8GFjt8GEcXYXvoO6XVwqiOBmZ5VZ7PGn3Tn8gAXb7prDyt5TR1FGT5UPmE8TXKFQZvLofTm6atEB3kB2NDXIepAkjcjQ3bGxVHtM5fNOj4",
+              "received": false
+            }
+          ],
+          "total_price": 139052,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:17:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6940890a1c508c5d5ecc7223"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:18:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3424",
+    "etag": "W/\"d60-4olvxxmqtqCTJkpwf9bpL2ZEX24\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6940891a1c508c5d5ecc7b7c",
+        "email": "Pearl_Zieme77@yahoo.com",
+        "name": "Isabell Hansen",
+        "country": "Belarus",
+        "city": "Peabody",
+        "street": "Lake Avenue",
+        "house": 34,
+        "flat": 203,
+        "phone": "+19382481055",
+        "createdOn": "2025-12-15T22:18:02.000Z",
+        "notes": "dYzkszj46Bgv8OjAaoeVLv80LSDnApCA0hhk1G0XZSwlc1RWvxCMJtgaMfrMDFBOFcObU3D62QkjhJea8wkavYa1KkU8nQfgPD30NeNX53YW7SDrVrWAUd2Jry1HedzU6KdcaBG0IOqBuxiwTp5PknVWzsE6LZYHcuRdwjEtBACQo3Ai5Qh8MyVLKZSdSzZrUKo4YzPxSwGsP1W9phUigvInWgfADIPVE4aJ1FARCjVzhqyDLSHDc7iWLt"
+      },
+      "products": [
+        {
+          "_id": "6940891b1c508c5d5ecc7ba5",
+          "name": "Keyboard16862",
+          "amount": 447,
+          "price": 73575,
+          "manufacturer": "Sony",
+          "notes": "2IKDfZgL0Ds5tCZH4fExVnCoBU7XO9fV7hM2HHEK9YKnWJIuchJWI6XpgWyPoZkAnlcHgQ2xU2zvcULHTRYRvti1iZRy9WqFAHECAb0D7gXtZc9DJui856gsAF1Co4pG3S3R25nT2uC0HwQGe0sz97OBdjxTtj6w2Ems4qyeSQe3cd8txQI0hGYPROZwt5xrFzOKAmP4Q3YQWwBQnyirYpouisKBqsStksmQEJtOq88BXTEKKgpC5URzI6",
+          "received": false
+        },
+        {
+          "_id": "6940891b1c508c5d5ecc7bb1",
+          "name": "Soap89934",
+          "amount": 336,
+          "price": 5225,
+          "manufacturer": "Microsoft",
+          "notes": "82gJL6GK74KszBV8vn0tBWQED3U1WmlmkrbRoAeu1OicTUwNg5AhRs0LlDwBVVQyu2RZSSTDti87yihuCWSqQjb8xLQp2DK4iygePJeyc2kr0qzdQmF9nfPmSr94M4AWxZUL1JzAKGZImtgq1lXqJv2wJBceVFAg357m5teWZsuLzWUbRBojmdHxex8YPvYWat7YPsu0XlBvRTMDfIn73K5sZ6xZJWTs4bpn7LCj39ZH9D8TrpJ0EJ6bLX",
+          "received": false
+        },
+        {
+          "_id": "6940891b1c508c5d5ecc7bc5",
+          "name": "Mouse37691",
+          "amount": 483,
+          "price": 30156,
+          "manufacturer": "Samsung",
+          "notes": "r4HMJAyFN5faoPm5gBPr3owJYHJus3OQvmNb467slnLLhwPdGnhUF4HSMsFKOZVVRfJ5iWaAY24TlRyqUf6MjA5Cm6bQeaL24yysggCIjA8CKZjwhndMbBp8sLE7Ny2mViCgVbAZuJ5NXy2leTOl5NdRySDd5QBX5cZNV0XS7DC9ZE0MU5aHYMpH75GfVdbVqFg4uk9cXa2pQEvCCUpaBTpj7ogV4pej5VGPRFXjtE9bR1lsR9hOEjDtiE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 108956,
+      "createdOn": "2025-12-15T22:18:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6940891a1c508c5d5ecc7b7c",
+          "products": [
+            {
+              "_id": "6940891b1c508c5d5ecc7ba5",
+              "name": "Keyboard16862",
+              "amount": 447,
+              "price": 73575,
+              "manufacturer": "Sony",
+              "notes": "2IKDfZgL0Ds5tCZH4fExVnCoBU7XO9fV7hM2HHEK9YKnWJIuchJWI6XpgWyPoZkAnlcHgQ2xU2zvcULHTRYRvti1iZRy9WqFAHECAb0D7gXtZc9DJui856gsAF1Co4pG3S3R25nT2uC0HwQGe0sz97OBdjxTtj6w2Ems4qyeSQe3cd8txQI0hGYPROZwt5xrFzOKAmP4Q3YQWwBQnyirYpouisKBqsStksmQEJtOq88BXTEKKgpC5URzI6",
+              "received": false
+            },
+            {
+              "_id": "6940891b1c508c5d5ecc7bb1",
+              "name": "Soap89934",
+              "amount": 336,
+              "price": 5225,
+              "manufacturer": "Microsoft",
+              "notes": "82gJL6GK74KszBV8vn0tBWQED3U1WmlmkrbRoAeu1OicTUwNg5AhRs0LlDwBVVQyu2RZSSTDti87yihuCWSqQjb8xLQp2DK4iygePJeyc2kr0qzdQmF9nfPmSr94M4AWxZUL1JzAKGZImtgq1lXqJv2wJBceVFAg357m5teWZsuLzWUbRBojmdHxex8YPvYWat7YPsu0XlBvRTMDfIn73K5sZ6xZJWTs4bpn7LCj39ZH9D8TrpJ0EJ6bLX",
+              "received": false
+            },
+            {
+              "_id": "6940891b1c508c5d5ecc7bc5",
+              "name": "Mouse37691",
+              "amount": 483,
+              "price": 30156,
+              "manufacturer": "Samsung",
+              "notes": "r4HMJAyFN5faoPm5gBPr3owJYHJus3OQvmNb467slnLLhwPdGnhUF4HSMsFKOZVVRfJ5iWaAY24TlRyqUf6MjA5Cm6bQeaL24yysggCIjA8CKZjwhndMbBp8sLE7Ny2mViCgVbAZuJ5NXy2leTOl5NdRySDd5QBX5cZNV0XS7DC9ZE0MU5aHYMpH75GfVdbVqFg4uk9cXa2pQEvCCUpaBTpj7ogV4pej5VGPRFXjtE9bR1lsR9hOEjDtiE",
+              "received": false
+            }
+          ],
+          "total_price": 108956,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:18:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6940891c1c508c5d5ecc7c0e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

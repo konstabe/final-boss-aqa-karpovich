@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:17:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-plTxuYI78kiHXdjLqvq06hdrNiw\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694088de1c508c5d5ecc5b5b",
+        "email": "Kaden_Beahan@hotmail.com",
+        "name": "Liza Jones",
+        "country": "Russia",
+        "city": "New Florenciohaven",
+        "street": "Kaylin Mill",
+        "house": 37,
+        "flat": 687,
+        "phone": "+18497345691",
+        "createdOn": "2025-12-15T22:17:02.000Z",
+        "notes": "DMX9i9FlbIHW3E1dlIHnKC5InD5fLsCETegLGZvHB6VLbW7sk3rBOPY2wj25m2oYzlHGTv6zaHJ9GvelPgABnTsUYYJ67lEbbfvYhb6WyXY7CEm4JeutUPNY36X86BmaT0TzHLzcIpPnw0hIT4MJQdq7RbVcZeD8Fhlr9Ht0fVUialqt8sMjSro99HIScwUGQm4KX216JunUpn2DMwki9s6k7kZbj2yWGdmz5DNDpR8F0H8r0VPTZZPFOF"
+      },
+      "products": [
+        {
+          "_id": "694088df1c508c5d5ecc5b7b",
+          "name": "Chicken74008",
+          "amount": 848,
+          "price": 27104,
+          "manufacturer": "Amazon",
+          "notes": "l8TnhGACpoQiWK1zpjJypxspa7lmJpzxD0L1MBMnysTDqAywOv8cqw11ZJnlrEI1hYrU2fRqqK79TxXH9dqLptmUy5JdE7qitxBisJeJqwpcIA0D9Dzw2dHqS7zaczcHYCsewUI0pvrHKlwIWj8f89t4gGnUkdYLFIlYHHtivLn8WNhJ2pCAmaAw6thRkjc7kXI7i7o6ueZXGwpumOBFXhL9dkubLKsx05X5P7TRSvB0QLRIE5Aqa1oXp1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 27104,
+      "createdOn": "2025-12-15T22:17:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088de1c508c5d5ecc5b5b",
+          "products": [
+            {
+              "_id": "694088df1c508c5d5ecc5b7b",
+              "name": "Chicken74008",
+              "amount": 848,
+              "price": 27104,
+              "manufacturer": "Amazon",
+              "notes": "l8TnhGACpoQiWK1zpjJypxspa7lmJpzxD0L1MBMnysTDqAywOv8cqw11ZJnlrEI1hYrU2fRqqK79TxXH9dqLptmUy5JdE7qitxBisJeJqwpcIA0D9Dzw2dHqS7zaczcHYCsewUI0pvrHKlwIWj8f89t4gGnUkdYLFIlYHHtivLn8WNhJ2pCAmaAw6thRkjc7kXI7i7o6ueZXGwpumOBFXhL9dkubLKsx05X5P7TRSvB0QLRIE5Aqa1oXp1",
+              "received": false
+            }
+          ],
+          "total_price": 27104,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:17:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694088df1c508c5d5ecc5bb2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

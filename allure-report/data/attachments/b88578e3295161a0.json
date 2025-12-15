@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:17:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4808",
+    "etag": "W/\"12c8-36zQAfJAUzKtZedxNYCgjf9cFLA\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694088ec1c508c5d5ecc619e",
+      "status": "Received",
+      "customer": {
+        "_id": "694088eb1c508c5d5ecc610f",
+        "email": "Lourdes_Pouros@hotmail.com",
+        "name": "Angelina Monahan",
+        "country": "Belarus",
+        "city": "New Edythborough",
+        "street": "Metz Cape",
+        "house": 46,
+        "flat": 786,
+        "phone": "+18516833849",
+        "createdOn": "2025-12-15T22:17:15.000Z",
+        "notes": "rlemsBzn9zM5lQ1Xh1fXhVuclLFas2IyzAIz9KzSaQH4v4oyG0HzXGw175JOoHWypXZKzObI4LODoeLX9M8vYKpIA5ujPmPjS1QCCWGCH7wBUFg6gvMie6ccg4V7V3fbO2xVPHsxt5wXsCnjN7LHrW3bEBg9xKVsSVMPLzvJ1CJQezz6n38eitE4JdMjoQxlXnjlO8PgbgyExTNXYw2YH9hI3KDcuoRrBlhEe0Uilq8o0G0ercLkY586ps"
+      },
+      "products": [
+        {
+          "_id": "694088ec1c508c5d5ecc618c",
+          "name": "Soap53590",
+          "amount": 367,
+          "price": 91220,
+          "manufacturer": "Google",
+          "notes": "WC30BH5hW2GkQpJ30HL2gljucIjqPk48XEA8jnapAoTmMAXPH66dD9aPXmMkJ23Py33z0O8F1rICCBcI9aVPujYU58ITE6mXUKfO4fC3MHSYta5MOxKVbWRAgv3ekDYDgfrXxB7fO3ZLDqrwcTRwFQzjdpTRTJmyu3drPNbBjwgqYXADnKz2wAhI0GUlr4ut92wFEfuuM5aGEOL3pRwpT8sRwuIPsUrw5aVksGEDGzcnUJr4UJ84DxmVjC",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "New Edythborough",
+          "street": "Metz Cape",
+          "house": 46,
+          "flat": 786
+        },
+        "finalDate": "2025-12-16T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 91220,
+      "createdOn": "2025-12-15T22:17:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694088eb1c508c5d5ecc610f",
+          "products": [
+            {
+              "_id": "694088ec1c508c5d5ecc618c",
+              "name": "Soap53590",
+              "amount": 367,
+              "price": 91220,
+              "manufacturer": "Google",
+              "notes": "WC30BH5hW2GkQpJ30HL2gljucIjqPk48XEA8jnapAoTmMAXPH66dD9aPXmMkJ23Py33z0O8F1rICCBcI9aVPujYU58ITE6mXUKfO4fC3MHSYta5MOxKVbWRAgv3ekDYDgfrXxB7fO3ZLDqrwcTRwFQzjdpTRTJmyu3drPNbBjwgqYXADnKz2wAhI0GUlr4ut92wFEfuuM5aGEOL3pRwpT8sRwuIPsUrw5aVksGEDGzcnUJr4UJ84DxmVjC",
+              "received": true
+            }
+          ],
+          "total_price": 91220,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "New Edythborough",
+              "street": "Metz Cape",
+              "house": 46,
+              "flat": 786
+            },
+            "finalDate": "2025-12-16T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T22:17:17.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694088eb1c508c5d5ecc610f",
+          "products": [
+            {
+              "_id": "694088ec1c508c5d5ecc618c",
+              "name": "Soap53590",
+              "amount": 367,
+              "price": 91220,
+              "manufacturer": "Google",
+              "notes": "WC30BH5hW2GkQpJ30HL2gljucIjqPk48XEA8jnapAoTmMAXPH66dD9aPXmMkJ23Py33z0O8F1rICCBcI9aVPujYU58ITE6mXUKfO4fC3MHSYta5MOxKVbWRAgv3ekDYDgfrXxB7fO3ZLDqrwcTRwFQzjdpTRTJmyu3drPNbBjwgqYXADnKz2wAhI0GUlr4ut92wFEfuuM5aGEOL3pRwpT8sRwuIPsUrw5aVksGEDGzcnUJr4UJ84DxmVjC",
+              "received": false
+            }
+          ],
+          "total_price": 91220,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "New Edythborough",
+              "street": "Metz Cape",
+              "house": 46,
+              "flat": 786
+            },
+            "finalDate": "2025-12-16T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T22:17:17.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694088eb1c508c5d5ecc610f",
+          "products": [
+            {
+              "_id": "694088ec1c508c5d5ecc618c",
+              "name": "Soap53590",
+              "amount": 367,
+              "price": 91220,
+              "manufacturer": "Google",
+              "notes": "WC30BH5hW2GkQpJ30HL2gljucIjqPk48XEA8jnapAoTmMAXPH66dD9aPXmMkJ23Py33z0O8F1rICCBcI9aVPujYU58ITE6mXUKfO4fC3MHSYta5MOxKVbWRAgv3ekDYDgfrXxB7fO3ZLDqrwcTRwFQzjdpTRTJmyu3drPNbBjwgqYXADnKz2wAhI0GUlr4ut92wFEfuuM5aGEOL3pRwpT8sRwuIPsUrw5aVksGEDGzcnUJr4UJ84DxmVjC",
+              "received": false
+            }
+          ],
+          "total_price": 91220,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "New Edythborough",
+              "street": "Metz Cape",
+              "house": 46,
+              "flat": 786
+            },
+            "finalDate": "2025-12-16T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T22:17:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694088eb1c508c5d5ecc610f",
+          "products": [
+            {
+              "_id": "694088ec1c508c5d5ecc618c",
+              "name": "Soap53590",
+              "amount": 367,
+              "price": 91220,
+              "manufacturer": "Google",
+              "notes": "WC30BH5hW2GkQpJ30HL2gljucIjqPk48XEA8jnapAoTmMAXPH66dD9aPXmMkJ23Py33z0O8F1rICCBcI9aVPujYU58ITE6mXUKfO4fC3MHSYta5MOxKVbWRAgv3ekDYDgfrXxB7fO3ZLDqrwcTRwFQzjdpTRTJmyu3drPNbBjwgqYXADnKz2wAhI0GUlr4ut92wFEfuuM5aGEOL3pRwpT8sRwuIPsUrw5aVksGEDGzcnUJr4UJ84DxmVjC",
+              "received": false
+            }
+          ],
+          "total_price": 91220,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:17:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:16:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2974",
+    "etag": "W/\"b9e-TT8H9mTZW7gzJUfsLKcetQ+bzpU\"",
+    "keep-alive": "timeout=5, max=61",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694088db1c508c5d5ecc59b0",
+      "status": "Draft",
+      "customer": {
+        "_id": "694088da1c508c5d5ecc5951",
+        "email": "Ali_Bruen-Tromp@yahoo.com",
+        "name": "Isobel McClure",
+        "country": "Ukraine",
+        "city": "Spinkafield",
+        "street": "Judge Court",
+        "house": 11,
+        "flat": 614,
+        "phone": "+19212279126",
+        "createdOn": "2025-12-15T22:16:58.000Z",
+        "notes": "KXOBuWZ4WFWbhIyMbNTb8xOPevnAebcP9af0KcvR54EWM9p2GrEuH7rv13oTwMAaaSIgNGfHKl3uyVntg1fw4hkmeAyfScV5plwewNcnLxUWPOFP8boaRXNpVQHspjCQ5RvHJfNphlamPfATuJGjuJbHxSumka6iYF5zrRql5cmbJilgmb4VcZ84UmsOAx9jGy8bgnuVbFfH7eata8kIPSX2kejyiIJtaSEL0L0vIU8ADiyBQOmP9VWNWv"
+      },
+      "products": [
+        {
+          "_id": "694088da1c508c5d5ecc597d",
+          "name": "Towels19775",
+          "amount": 431,
+          "price": 48552,
+          "manufacturer": "Amazon",
+          "notes": "HCuEU9JdO69GfpsTuZFxmXXXMOy76wdgmnVuWUGD7N7PLobKPqOYINiJB9nWr7DIUdKznMYgkg297Zyb1EUH3Ia9u1fAVubLVdfTuR5Uub4Dxs501ZHsp7EUsAChHskbGAfLC8vnK8pjjdv1hsOA65oKpuTRJtTHKUfPtfnwVOPqQvcGfvPJ6W75OLhUul65EvTTseCb4Z8DtvgQVnvHMDiBz46q8aGID951wdk1fFPHHa78Q6JaWnODwg",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Kuhnview",
+          "street": "Aiyana Extensions",
+          "house": 44,
+          "flat": 379
+        },
+        "finalDate": "2025-12-15T22:16:59.266Z",
+        "condition": "Pickup"
+      },
+      "total_price": 48552,
+      "createdOn": "2025-12-15T22:16:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088da1c508c5d5ecc5951",
+          "products": [
+            {
+              "_id": "694088da1c508c5d5ecc597d",
+              "name": "Towels19775",
+              "amount": 431,
+              "price": 48552,
+              "manufacturer": "Amazon",
+              "notes": "HCuEU9JdO69GfpsTuZFxmXXXMOy76wdgmnVuWUGD7N7PLobKPqOYINiJB9nWr7DIUdKznMYgkg297Zyb1EUH3Ia9u1fAVubLVdfTuR5Uub4Dxs501ZHsp7EUsAChHskbGAfLC8vnK8pjjdv1hsOA65oKpuTRJtTHKUfPtfnwVOPqQvcGfvPJ6W75OLhUul65EvTTseCb4Z8DtvgQVnvHMDiBz46q8aGID951wdk1fFPHHa78Q6JaWnODwg",
+              "received": false
+            }
+          ],
+          "total_price": 48552,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Kuhnview",
+              "street": "Aiyana Extensions",
+              "house": 44,
+              "flat": 379
+            },
+            "finalDate": "2025-12-15T22:16:59.266Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T22:16:59.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694088da1c508c5d5ecc5951",
+          "products": [
+            {
+              "_id": "694088da1c508c5d5ecc597d",
+              "name": "Towels19775",
+              "amount": 431,
+              "price": 48552,
+              "manufacturer": "Amazon",
+              "notes": "HCuEU9JdO69GfpsTuZFxmXXXMOy76wdgmnVuWUGD7N7PLobKPqOYINiJB9nWr7DIUdKznMYgkg297Zyb1EUH3Ia9u1fAVubLVdfTuR5Uub4Dxs501ZHsp7EUsAChHskbGAfLC8vnK8pjjdv1hsOA65oKpuTRJtTHKUfPtfnwVOPqQvcGfvPJ6W75OLhUul65EvTTseCb4Z8DtvgQVnvHMDiBz46q8aGID951wdk1fFPHHa78Q6JaWnODwg",
+              "received": false
+            }
+          ],
+          "total_price": 48552,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:16:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

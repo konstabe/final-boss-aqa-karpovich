@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:16:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2735",
+    "etag": "W/\"aaf-79weveFd8IsA17aZqGCQuirFW54\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694088d51c508c5d5ecc5708",
+      "status": "Draft",
+      "customer": {
+        "_id": "694088d41c508c5d5ecc5696",
+        "email": "Gilbert.Dickens@hotmail.com",
+        "name": "Abagail Green",
+        "country": "Russia",
+        "city": "Fort Casimer",
+        "street": "Brown Grove",
+        "house": 29,
+        "flat": 856,
+        "phone": "+14792236604",
+        "createdOn": "2025-12-15T22:16:52.000Z",
+        "notes": "IiG9jLDkx0gZDDRQ8iE4sqASIzlQmms0vOtwIp5EjiksMMU8S4DT7QwxV05fA58oGfA8ypNn916U2oR0pcvbHgGl4V1WMhQOHePOZrKhz4Wb58AYUZX3gn155kiHwrlbDabtwEtuW5KCGHmTqzbgoGB4r1uVRsLQJBpTuEi11ADpH7gNOPzCpc669lTvFZcIDKdCMoyBnd4wnYCockIOpTDBbUVPr97bWXrDUECpaMU2fTRkDACpbEiHYB"
+      },
+      "products": [
+        {
+          "_id": "694088d41c508c5d5ecc56ba",
+          "name": "Shoes33580",
+          "amount": 679,
+          "price": 11636,
+          "manufacturer": "Apple",
+          "notes": "yqhWtvANiDiG35gYgmwAXYlfbaX5Y0nRKNjMNAKUpVQil1uwC2FopSNtyW9Ri5e4vXYbhG6vtdfkGP7UqGQDvpOCqMk51v47IP3Thyguv0OlYUChtBpq8H2iRZtZ5M2lLYlifIODxEi4S3rZF23nxx24vvgyUnONqfgoSIJxsyhudgQ5o7LklF08ORURKIRK1qDEyzVUmcMxvd2HiuC58nqMzkke8iulYpPhntJES6pfSPC5gdvtCbndf2",
+          "received": false
+        },
+        {
+          "_id": "694088d51c508c5d5ecc56dc",
+          "name": "Salad60730",
+          "amount": 222,
+          "price": 84717,
+          "manufacturer": "Apple",
+          "notes": "5asyWqWnZ25jUK5wi6lNDAGhJttIdr5dI8rIPEB2QJl0enZSYlScNrdA9qSHd1kHvBzpiiobOWHElyqRnsbISEvsPxGdwjVshIaTpXufVFadAo5h0uCFq4pR33ZfwL9bRMtaVJitYFK98aGtYrhelnjI1Kiyeef02NZ8y7BQNYmc0XLQ8UiaK6KGvTg7LDKpuhJd9zsrioynfa7vR1Q8p4xYtyt6qVAeKc0GcZGMQsj6hjN5Dq3pC2AbJd",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 96353,
+      "createdOn": "2025-12-15T22:16:53.000Z",
+      "comments": [
+        {
+          "text": "C",
+          "createdOn": "2025-12-15T22:16:54.000Z",
+          "_id": "694088d61c508c5d5ecc5748"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088d41c508c5d5ecc5696",
+          "products": [
+            {
+              "_id": "694088d41c508c5d5ecc56ba",
+              "name": "Shoes33580",
+              "amount": 679,
+              "price": 11636,
+              "manufacturer": "Apple",
+              "notes": "yqhWtvANiDiG35gYgmwAXYlfbaX5Y0nRKNjMNAKUpVQil1uwC2FopSNtyW9Ri5e4vXYbhG6vtdfkGP7UqGQDvpOCqMk51v47IP3Thyguv0OlYUChtBpq8H2iRZtZ5M2lLYlifIODxEi4S3rZF23nxx24vvgyUnONqfgoSIJxsyhudgQ5o7LklF08ORURKIRK1qDEyzVUmcMxvd2HiuC58nqMzkke8iulYpPhntJES6pfSPC5gdvtCbndf2",
+              "received": false
+            },
+            {
+              "_id": "694088d51c508c5d5ecc56dc",
+              "name": "Salad60730",
+              "amount": 222,
+              "price": 84717,
+              "manufacturer": "Apple",
+              "notes": "5asyWqWnZ25jUK5wi6lNDAGhJttIdr5dI8rIPEB2QJl0enZSYlScNrdA9qSHd1kHvBzpiiobOWHElyqRnsbISEvsPxGdwjVshIaTpXufVFadAo5h0uCFq4pR33ZfwL9bRMtaVJitYFK98aGtYrhelnjI1Kiyeef02NZ8y7BQNYmc0XLQ8UiaK6KGvTg7LDKpuhJd9zsrioynfa7vR1Q8p4xYtyt6qVAeKc0GcZGMQsj6hjN5Dq3pC2AbJd",
+              "received": false
+            }
+          ],
+          "total_price": 96353,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:16:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

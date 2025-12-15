@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:17:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5412",
+    "etag": "W/\"1524-oQe5B/Dl4p6p28dRGGjTiAIGBOk\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694089031c508c5d5ecc6e3f",
+      "status": "In Process",
+      "customer": {
+        "_id": "694088fe1c508c5d5ecc6b13",
+        "email": "Angela_Friesen22@gmail.com",
+        "name": "Jovani Bogan",
+        "country": "Russia",
+        "city": "University",
+        "street": "Maryjane Mountain",
+        "house": 5,
+        "flat": 403,
+        "phone": "+19128017682",
+        "createdOn": "2025-12-15T22:17:34.000Z",
+        "notes": "qvaXRw4XNtGZkRwz2jXhYOjjtBcVBCLnShwAWGPEW8wOJ26KkLQlmHV6uSKn17P8OAr6H7sCdb8TZQDIwF7comU17PQfiFJh1CYdTpzkqsI8GnD3QHSrHc9ASCvLXsk16T0WqnTrsGklQhYakXI4DMNXZLxDrIRjrtgsVlh5rmoz56k5yFb9EpidNAtwogvw8RbeFT3RSCJQf5jb3afR7CmROo88Vo46SEjXKlwibFqOVVlc7HiJliqqpj"
+      },
+      "products": [
+        {
+          "_id": "694088ff1c508c5d5ecc6b61",
+          "name": "Shoes51481",
+          "amount": 867,
+          "price": 50581,
+          "manufacturer": "Apple",
+          "notes": "E3ri52FAKgl8uGNUObSskBGEe2bqROLQqAeLEVS1331xTh6yI1Klg9wIAAk1XI5xojk1Jv99nJRk8CSbVa811ka9ismzhg4CSEWrCKA1jBmFbqgl2LDXI27Ia0pP5XXDj0bYihm9JVafRo4ioBlO0A5gfiF9CuT06nXAEaTgmbr2qbvebKcxexJApBA9uvfzzsozInlF0YQLW3tS1Iic9pC5PpZe6dNPM25fXGIePvCgg9zIei8zzCtZkC",
+          "received": false
+        },
+        {
+          "_id": "694088ff1c508c5d5ecc6b87",
+          "name": "Car97198",
+          "amount": 444,
+          "price": 46211,
+          "manufacturer": "Apple",
+          "notes": "ZjIDCFhaqI9w4sQXn5o6AXpILYJQIovcY1Y3dWsU2NCIu0DclxcteNVezrGIjDSxLzSsSl49RSy8cemsgjktyYPyLJcDJ8zbrEn8rqG6vbeIV7U9Ig5m9czNvWl3n2VTLL8redempRtovK4ajpEcAibOVzquHFnDUY3JO08BL0Ko7oDNObWeMKPNIrFl6tmkDqCPS9Xo3kwTcssZGIKbpVw4scuMJGZHrilSWy20VL03X5qvbKZHJKslqE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "University",
+          "street": "Maryjane Mountain",
+          "house": 5,
+          "flat": 403
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 96792,
+      "createdOn": "2025-12-15T22:17:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694088fe1c508c5d5ecc6b13",
+          "products": [
+            {
+              "_id": "694088ff1c508c5d5ecc6b61",
+              "name": "Shoes51481",
+              "amount": 867,
+              "price": 50581,
+              "manufacturer": "Apple",
+              "notes": "E3ri52FAKgl8uGNUObSskBGEe2bqROLQqAeLEVS1331xTh6yI1Klg9wIAAk1XI5xojk1Jv99nJRk8CSbVa811ka9ismzhg4CSEWrCKA1jBmFbqgl2LDXI27Ia0pP5XXDj0bYihm9JVafRo4ioBlO0A5gfiF9CuT06nXAEaTgmbr2qbvebKcxexJApBA9uvfzzsozInlF0YQLW3tS1Iic9pC5PpZe6dNPM25fXGIePvCgg9zIei8zzCtZkC",
+              "received": false
+            },
+            {
+              "_id": "694088ff1c508c5d5ecc6b87",
+              "name": "Car97198",
+              "amount": 444,
+              "price": 46211,
+              "manufacturer": "Apple",
+              "notes": "ZjIDCFhaqI9w4sQXn5o6AXpILYJQIovcY1Y3dWsU2NCIu0DclxcteNVezrGIjDSxLzSsSl49RSy8cemsgjktyYPyLJcDJ8zbrEn8rqG6vbeIV7U9Ig5m9czNvWl3n2VTLL8redempRtovK4ajpEcAibOVzquHFnDUY3JO08BL0Ko7oDNObWeMKPNIrFl6tmkDqCPS9Xo3kwTcssZGIKbpVw4scuMJGZHrilSWy20VL03X5qvbKZHJKslqE",
+              "received": false
+            }
+          ],
+          "total_price": 96792,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "University",
+              "street": "Maryjane Mountain",
+              "house": 5,
+              "flat": 403
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T22:17:45.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694088fe1c508c5d5ecc6b13",
+          "products": [
+            {
+              "_id": "694088ff1c508c5d5ecc6b61",
+              "name": "Shoes51481",
+              "amount": 867,
+              "price": 50581,
+              "manufacturer": "Apple",
+              "notes": "E3ri52FAKgl8uGNUObSskBGEe2bqROLQqAeLEVS1331xTh6yI1Klg9wIAAk1XI5xojk1Jv99nJRk8CSbVa811ka9ismzhg4CSEWrCKA1jBmFbqgl2LDXI27Ia0pP5XXDj0bYihm9JVafRo4ioBlO0A5gfiF9CuT06nXAEaTgmbr2qbvebKcxexJApBA9uvfzzsozInlF0YQLW3tS1Iic9pC5PpZe6dNPM25fXGIePvCgg9zIei8zzCtZkC",
+              "received": false
+            },
+            {
+              "_id": "694088ff1c508c5d5ecc6b87",
+              "name": "Car97198",
+              "amount": 444,
+              "price": 46211,
+              "manufacturer": "Apple",
+              "notes": "ZjIDCFhaqI9w4sQXn5o6AXpILYJQIovcY1Y3dWsU2NCIu0DclxcteNVezrGIjDSxLzSsSl49RSy8cemsgjktyYPyLJcDJ8zbrEn8rqG6vbeIV7U9Ig5m9czNvWl3n2VTLL8redempRtovK4ajpEcAibOVzquHFnDUY3JO08BL0Ko7oDNObWeMKPNIrFl6tmkDqCPS9Xo3kwTcssZGIKbpVw4scuMJGZHrilSWy20VL03X5qvbKZHJKslqE",
+              "received": false
+            }
+          ],
+          "total_price": 96792,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "University",
+              "street": "Maryjane Mountain",
+              "house": 5,
+              "flat": 403
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T22:17:45.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694088fe1c508c5d5ecc6b13",
+          "products": [
+            {
+              "_id": "694088ff1c508c5d5ecc6b61",
+              "name": "Shoes51481",
+              "amount": 867,
+              "price": 50581,
+              "manufacturer": "Apple",
+              "notes": "E3ri52FAKgl8uGNUObSskBGEe2bqROLQqAeLEVS1331xTh6yI1Klg9wIAAk1XI5xojk1Jv99nJRk8CSbVa811ka9ismzhg4CSEWrCKA1jBmFbqgl2LDXI27Ia0pP5XXDj0bYihm9JVafRo4ioBlO0A5gfiF9CuT06nXAEaTgmbr2qbvebKcxexJApBA9uvfzzsozInlF0YQLW3tS1Iic9pC5PpZe6dNPM25fXGIePvCgg9zIei8zzCtZkC",
+              "received": false
+            },
+            {
+              "_id": "694088ff1c508c5d5ecc6b87",
+              "name": "Car97198",
+              "amount": 444,
+              "price": 46211,
+              "manufacturer": "Apple",
+              "notes": "ZjIDCFhaqI9w4sQXn5o6AXpILYJQIovcY1Y3dWsU2NCIu0DclxcteNVezrGIjDSxLzSsSl49RSy8cemsgjktyYPyLJcDJ8zbrEn8rqG6vbeIV7U9Ig5m9czNvWl3n2VTLL8redempRtovK4ajpEcAibOVzquHFnDUY3JO08BL0Ko7oDNObWeMKPNIrFl6tmkDqCPS9Xo3kwTcssZGIKbpVw4scuMJGZHrilSWy20VL03X5qvbKZHJKslqE",
+              "received": false
+            }
+          ],
+          "total_price": 96792,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:17:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

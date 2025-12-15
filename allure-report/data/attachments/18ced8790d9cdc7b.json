@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:17:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1899",
+    "etag": "W/\"76b-VuwBZQ3oOQ8j7Mv7gTVGGLWh6zk\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694088e21c508c5d5ecc5cde",
+        "email": "Rhiannon_Nader@hotmail.com",
+        "name": "Stone Beier",
+        "country": "Great Britain",
+        "city": "South Mortontown",
+        "street": "Herta Mill",
+        "house": 9,
+        "flat": 294,
+        "phone": "+19742320657",
+        "createdOn": "2025-12-15T22:17:06.000Z",
+        "notes": "oUc7ndKpZ3rpoKmhoYgN8e0FmYs4XJkXAEOvzZ5QGAdN7W0nRlFPLPDYuZfDF92wB3WFKApuikNjh8k6s2xGWDbEY9uu67H6xIB8jpslGNE9iypkhfnrfA9jHFdasslyvdnKxJVrm8WGwnx4m3n6yHXO2D2FPY2I922wKnDyp6boHwkup1JyU4JPiC2MIXzmto3Ng1OZcjAler5sLPPBzRLUVzh3sahSfYjXy4jS22TujXfdj74zJr1pVG"
+      },
+      "products": [
+        {
+          "_id": "694088e21c508c5d5ecc5d3f",
+          "name": "Computer20543",
+          "amount": 913,
+          "price": 68609,
+          "manufacturer": "Google",
+          "notes": "yITBEQ1a9s648sCMrc6lqjbCnbVjcFcoKM8wlfYNo2ilB7bxINbaGgsbBdeakrfWqECLo1ocm2Ar41w05I1pJXUDoRw5d4ME3KFs50Fs5lNc2Gp82wqJED8PvIvdk9Iw1uNwvuIMU0qkk3IBJkVKDG3j6ajkmqgwLS7jRi3WJJpitmckGSpiYbMINMDVVjnVASufDdABMoaOSVRGaZc33cwslfOs7oFLoJJeLz94FKJAkwKAHGtMLD5lE2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68609,
+      "createdOn": "2025-12-15T22:17:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088e21c508c5d5ecc5cde",
+          "products": [
+            {
+              "_id": "694088e21c508c5d5ecc5d3f",
+              "name": "Computer20543",
+              "amount": 913,
+              "price": 68609,
+              "manufacturer": "Google",
+              "notes": "yITBEQ1a9s648sCMrc6lqjbCnbVjcFcoKM8wlfYNo2ilB7bxINbaGgsbBdeakrfWqECLo1ocm2Ar41w05I1pJXUDoRw5d4ME3KFs50Fs5lNc2Gp82wqJED8PvIvdk9Iw1uNwvuIMU0qkk3IBJkVKDG3j6ajkmqgwLS7jRi3WJJpitmckGSpiYbMINMDVVjnVASufDdABMoaOSVRGaZc33cwslfOs7oFLoJJeLz94FKJAkwKAHGtMLD5lE2",
+              "received": false
+            }
+          ],
+          "total_price": 68609,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:17:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694088e31c508c5d5ecc5da7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

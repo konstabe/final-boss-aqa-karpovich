@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:16:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2675",
+    "etag": "W/\"a73-oSzNO51gQLq0pir+KCXZU5rq+iM\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694088d51c508c5d5ecc56ca",
+        "email": "Esperanza.Cruickshank81@hotmail.com",
+        "name": "Russel Hilpert",
+        "country": "Great Britain",
+        "city": "Friedrichhaven",
+        "street": "Bernier Pines",
+        "house": 50,
+        "flat": 667,
+        "phone": "+17996419540",
+        "createdOn": "2025-12-15T22:16:53.000Z",
+        "notes": "CuzDK13IKiMJt6nxeVPAID2cdfHO84clUOOm7t5JWz9eegu1Edvxcg3Cmw2CaQfW9j9lLxrpmZsaYYtWx0m8qlPQG5e8VmXvvUfsM5SLLEY6nYm4un4SXA9y4uMokbD5w7XCFWCVQdGnRedHBr6V0phJBU1tK0aAXHGvB96p0ktOxp90JTCp9maCTFR10EH1mUrqNJrxcFnpRhPOMRBhi1URpK0jWLlnbumts2IsOqGOcdhfTEBEVkcgsg"
+      },
+      "products": [
+        {
+          "_id": "694088d51c508c5d5ecc56f1",
+          "name": "Bike9865",
+          "amount": 290,
+          "price": 31706,
+          "manufacturer": "Amazon",
+          "notes": "eM137ULOAeyBVkljuE13k2IrLmW5RIRatAdKhYFtayjZiFtPkXW0vinVHTYVMKDqjnmJRRMkU9vg31cCjgBf1wvWEXBFlLUfrGkRZaYurXrAcZPPByCMoSjpKxwNnFnb4QUby1DlnWGFqfaG7U1VTAUy3JouRi5CQJQDtR1zKBPOVxya2eWUvlOYzNBOPiTgOOtHHD9y6zMkyI1gPPw6P7a8RTEqp35yu0f9n1EZCkwXuOTaZiJv6cqnDt",
+          "received": false
+        },
+        {
+          "_id": "694088d51c508c5d5ecc5738",
+          "name": "Computer85420",
+          "amount": 960,
+          "price": 5802,
+          "manufacturer": "Xiaomi",
+          "notes": "9GzUgNda2VezcVbHeNOZhggyTqoS22GR1RlsfN5D46kIY4h1tseDifgqkOfnyFDpUUIcdsSt3IuMAGV4DMc8nJCnXztpSJfsCtBm10iSIlZjORCTF1tA9rK4awU75TpmzMfdYnxJuMCHGDGcF2WXPaC5TUR2FWiNDmsv6QGgA6tDilKvBu2RVcPDx8KfN7wr8tNPEKJQ6KMeudlN19JUWazFWNakda6vHMQGOUGGXLckMUrYcs9RnvKA0r",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 37508,
+      "createdOn": "2025-12-15T22:16:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088d51c508c5d5ecc56ca",
+          "products": [
+            {
+              "_id": "694088d51c508c5d5ecc56f1",
+              "name": "Bike9865",
+              "amount": 290,
+              "price": 31706,
+              "manufacturer": "Amazon",
+              "notes": "eM137ULOAeyBVkljuE13k2IrLmW5RIRatAdKhYFtayjZiFtPkXW0vinVHTYVMKDqjnmJRRMkU9vg31cCjgBf1wvWEXBFlLUfrGkRZaYurXrAcZPPByCMoSjpKxwNnFnb4QUby1DlnWGFqfaG7U1VTAUy3JouRi5CQJQDtR1zKBPOVxya2eWUvlOYzNBOPiTgOOtHHD9y6zMkyI1gPPw6P7a8RTEqp35yu0f9n1EZCkwXuOTaZiJv6cqnDt",
+              "received": false
+            },
+            {
+              "_id": "694088d51c508c5d5ecc5738",
+              "name": "Computer85420",
+              "amount": 960,
+              "price": 5802,
+              "manufacturer": "Xiaomi",
+              "notes": "9GzUgNda2VezcVbHeNOZhggyTqoS22GR1RlsfN5D46kIY4h1tseDifgqkOfnyFDpUUIcdsSt3IuMAGV4DMc8nJCnXztpSJfsCtBm10iSIlZjORCTF1tA9rK4awU75TpmzMfdYnxJuMCHGDGcF2WXPaC5TUR2FWiNDmsv6QGgA6tDilKvBu2RVcPDx8KfN7wr8tNPEKJQ6KMeudlN19JUWazFWNakda6vHMQGOUGGXLckMUrYcs9RnvKA0r",
+              "received": false
+            }
+          ],
+          "total_price": 37508,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:16:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694088d61c508c5d5ecc5768"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

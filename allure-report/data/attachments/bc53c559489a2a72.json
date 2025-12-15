@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:17:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3421",
+    "etag": "W/\"d5d-dr7/bA4qZ0iruzYcGTWE4RHBy7A\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6940890f1c508c5d5ecc7557",
+        "email": "Sunny.Luettgen@yahoo.com",
+        "name": "Lewis Gutkowski",
+        "country": "Great Britain",
+        "city": "Flower Mound",
+        "street": "Sporer Trace",
+        "house": 5,
+        "flat": 236,
+        "phone": "+17589344915",
+        "createdOn": "2025-12-15T22:17:51.000Z",
+        "notes": "FNVOYfS7ZPSIuzMv8KkF7mtodw6UAB3nkIZstAUP2LQtX1K6pusKJxntlFXbQ2C0QIy9FDdlycqbaN072HU8fnhG9wvFOGXCYKGOc4ObF57UY8SlM8VUkDRnzcCaq0j9maEEp1GUIV3MAOnP71r1c2Sm2ikDJvjrw0e0nXdjFIcHg1naWNHhXiFPtgx0Ddv6QrZgTjyD7bUhVqe2Wckv6R3sdcsnLApPv52NQWPE2pQ8kgzYe9msT2h3ar"
+      },
+      "products": [
+        {
+          "_id": "694089101c508c5d5ecc7597",
+          "name": "Shoes15679",
+          "amount": 333,
+          "price": 14169,
+          "manufacturer": "Sony",
+          "notes": "8jQvxeEIUmpUq55jFlNQ7XhGIWptnWuOYda52FSdEYWU4uXvCzoF6hQSl7Uda2DGhfOwKb2LLUjUghbw3PVEMiKqcq64ejGwFpd3dhFowmudj1XbFk7DkbE4hPp6S14R8KIaEUlL9k0F2ELKx5c9GAOmUa9qJOi4v9gABpS4aeXEwPyGtOWIHMyoAYL9VNTc3a2BfD939Qhli9Lr7mIFl1Cw9AK8hRg7nLbC6Nm99bUx02gKlWEd6QcJry",
+          "received": false
+        },
+        {
+          "_id": "694089111c508c5d5ecc7650",
+          "name": "Towels10093",
+          "amount": 680,
+          "price": 8117,
+          "manufacturer": "Amazon",
+          "notes": "jQKtcuHeRobo58xuJSMOojttc7yJ0w1r3hsmp2El75ZLUe09XbgQJ60Sz0yLaJFRj2DdRbAj05zP9KxMJAbT4dwlrfwjlLxFl84eFAK57gQcg8T8mhLfxOh8pqqRSeKWsp65tPwTK55XLHBgzk7MmkKbxpHCaQ2hfiYfuFGAcAlLuAdverkBNqi5n17BoH0oIMfFYX4RQz5qnkKlmrLOiZGaInavPDSxUW1VfaVZ2SyPEH31mmjA6CiWVp",
+          "received": false
+        },
+        {
+          "_id": "694089121c508c5d5ecc76b3",
+          "name": "Car66279",
+          "amount": 143,
+          "price": 21173,
+          "manufacturer": "Amazon",
+          "notes": "MsxZvuGfVy2166bvBCUEr8gJcJa2IZF51kyBrEKsPFmd0WFJUy6l32T2eTchwKCZta5SgEh5Y4vreWcMvzyElaWlDJhVCBbpdDj75LUYiClkWFBlPkrbYXNchs7G2k7Mwf4kuPyUDhvTKKOmC0YjfAZdiifxAnxqNhnFZRQGkwdQl0RkPNTjvqDIHMQw64uyhJczqYAoIuaSUigKgrVFZ1tIfzpAMStqwgilfyMMM40PfAjvOLcfXT5b6I",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 43459,
+      "createdOn": "2025-12-15T22:17:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6940890f1c508c5d5ecc7557",
+          "products": [
+            {
+              "_id": "694089101c508c5d5ecc7597",
+              "name": "Shoes15679",
+              "amount": 333,
+              "price": 14169,
+              "manufacturer": "Sony",
+              "notes": "8jQvxeEIUmpUq55jFlNQ7XhGIWptnWuOYda52FSdEYWU4uXvCzoF6hQSl7Uda2DGhfOwKb2LLUjUghbw3PVEMiKqcq64ejGwFpd3dhFowmudj1XbFk7DkbE4hPp6S14R8KIaEUlL9k0F2ELKx5c9GAOmUa9qJOi4v9gABpS4aeXEwPyGtOWIHMyoAYL9VNTc3a2BfD939Qhli9Lr7mIFl1Cw9AK8hRg7nLbC6Nm99bUx02gKlWEd6QcJry",
+              "received": false
+            },
+            {
+              "_id": "694089111c508c5d5ecc7650",
+              "name": "Towels10093",
+              "amount": 680,
+              "price": 8117,
+              "manufacturer": "Amazon",
+              "notes": "jQKtcuHeRobo58xuJSMOojttc7yJ0w1r3hsmp2El75ZLUe09XbgQJ60Sz0yLaJFRj2DdRbAj05zP9KxMJAbT4dwlrfwjlLxFl84eFAK57gQcg8T8mhLfxOh8pqqRSeKWsp65tPwTK55XLHBgzk7MmkKbxpHCaQ2hfiYfuFGAcAlLuAdverkBNqi5n17BoH0oIMfFYX4RQz5qnkKlmrLOiZGaInavPDSxUW1VfaVZ2SyPEH31mmjA6CiWVp",
+              "received": false
+            },
+            {
+              "_id": "694089121c508c5d5ecc76b3",
+              "name": "Car66279",
+              "amount": 143,
+              "price": 21173,
+              "manufacturer": "Amazon",
+              "notes": "MsxZvuGfVy2166bvBCUEr8gJcJa2IZF51kyBrEKsPFmd0WFJUy6l32T2eTchwKCZta5SgEh5Y4vreWcMvzyElaWlDJhVCBbpdDj75LUYiClkWFBlPkrbYXNchs7G2k7Mwf4kuPyUDhvTKKOmC0YjfAZdiifxAnxqNhnFZRQGkwdQl0RkPNTjvqDIHMQw64uyhJczqYAoIuaSUigKgrVFZ1tIfzpAMStqwgilfyMMM40PfAjvOLcfXT5b6I",
+              "received": false
+            }
+          ],
+          "total_price": 43459,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:17:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694089131c508c5d5ecc7794"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

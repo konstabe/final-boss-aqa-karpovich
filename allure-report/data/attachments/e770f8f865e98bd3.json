@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:17:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3416",
+    "etag": "W/\"d58-IRwikypPkO9Tap9td6eDg5OtJ9Q\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694088fb1c508c5d5ecc69d0",
+        "email": "Garnet_OConner@gmail.com",
+        "name": "Maiya Marks",
+        "country": "USA",
+        "city": "South Toney",
+        "street": "Block Springs",
+        "house": 10,
+        "flat": 178,
+        "phone": "+15012296212",
+        "createdOn": "2025-12-15T22:17:31.000Z",
+        "notes": "y4g4qw6oQGmZ2XoJzBMehTKutpuSVUtc6VebUehdF5w6WssyGILkBixalfU1RhQUpkKEXoO5bNIX7jXhw1QMh0ZhoLfbKFKqVUYkVLnmF64oo7QrtD5nqPZlHUQQ49WVpsnAYljRzROo4cucyPK3sqwZ5gwOnFfVRVTemJmd9boPQTniuPxQ8MesFxxMiqSvRbm9bJV17AKv8BvjGJHCZPrxEhD64gvoQtMM1d5M1A5y7iZHVXlT8L8HYA"
+      },
+      "products": [
+        {
+          "_id": "694088fc1c508c5d5ecc69ee",
+          "name": "Car90338",
+          "amount": 792,
+          "price": 31610,
+          "manufacturer": "Sony",
+          "notes": "fd4QkQwJl8lGsiGX2kBRboso42G7BeEtT96Op9r1XgmTlvvll7GFrpbUoZ3HG3fOf7nh7uF4SNJxJ1ND7kG1qIntQjGwXQF7RNHg5en0N41ZIEX7pn52hzf3gFkmm11pusmajV1JDiJeEgvnxL3aRH05uoz948UGux1kc7ia25uF63AI51PYpEGetWB1hADb8Gj5ul3PlGOWItm5V75OjWfhR5zRVjg2ZkGpOkISoDbVDNrXCY2q4X1xt8",
+          "received": false
+        },
+        {
+          "_id": "694088fd1c508c5d5ecc6a56",
+          "name": "Computer11838",
+          "amount": 248,
+          "price": 46012,
+          "manufacturer": "Samsung",
+          "notes": "oEMYRKCTF2DSuZ0gZd9sA78qoj5KVDLgWsKkcvz5ujEehylmEcVYxKqTiRzdUpHruzn8mJnfkCzfhbUTMCq13h1swIyYt7ntDL95ZpbWDjd5kVxzRbLbYRbpwtjdLduYTJHnewk2om7RrjB2XcR47bP2cNFunbmbl6Zbm0GUpahKzkgU28gQAjyRXBgO5eJUVxvowFS4I0i7GjVZhRuhBIfyMqm0wNFwwBXIY8J9PQfXYHUrQXpoyjtJoP",
+          "received": false
+        },
+        {
+          "_id": "694088fe1c508c5d5ecc6b16",
+          "name": "Pants61066",
+          "amount": 746,
+          "price": 21203,
+          "manufacturer": "Google",
+          "notes": "lZZwWJb5NJeQtb4lb2lnazO88fRMA0GFFC9jJSE6Qb6dqXNsJq3XOSkZ5ftOpqaUiGlGAqqHcmahRCgD9DpOZz7obT5C8k69R9l96bILGV9W16Ipyd1jkkHAJTvOc9Iiknrvw9Xg9hQ3J7WVTIzRtx2EF74ZRGMB9hicmVAePrcPnhLfnc4UMDmEudguKBfImxcIWZ6TZcWiZb1FeuJIXYWmYxgfIzI8Jg0FmZR4RuMpsX3Z23xouSpNa5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98825,
+      "createdOn": "2025-12-15T22:17:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088fb1c508c5d5ecc69d0",
+          "products": [
+            {
+              "_id": "694088fc1c508c5d5ecc69ee",
+              "name": "Car90338",
+              "amount": 792,
+              "price": 31610,
+              "manufacturer": "Sony",
+              "notes": "fd4QkQwJl8lGsiGX2kBRboso42G7BeEtT96Op9r1XgmTlvvll7GFrpbUoZ3HG3fOf7nh7uF4SNJxJ1ND7kG1qIntQjGwXQF7RNHg5en0N41ZIEX7pn52hzf3gFkmm11pusmajV1JDiJeEgvnxL3aRH05uoz948UGux1kc7ia25uF63AI51PYpEGetWB1hADb8Gj5ul3PlGOWItm5V75OjWfhR5zRVjg2ZkGpOkISoDbVDNrXCY2q4X1xt8",
+              "received": false
+            },
+            {
+              "_id": "694088fd1c508c5d5ecc6a56",
+              "name": "Computer11838",
+              "amount": 248,
+              "price": 46012,
+              "manufacturer": "Samsung",
+              "notes": "oEMYRKCTF2DSuZ0gZd9sA78qoj5KVDLgWsKkcvz5ujEehylmEcVYxKqTiRzdUpHruzn8mJnfkCzfhbUTMCq13h1swIyYt7ntDL95ZpbWDjd5kVxzRbLbYRbpwtjdLduYTJHnewk2om7RrjB2XcR47bP2cNFunbmbl6Zbm0GUpahKzkgU28gQAjyRXBgO5eJUVxvowFS4I0i7GjVZhRuhBIfyMqm0wNFwwBXIY8J9PQfXYHUrQXpoyjtJoP",
+              "received": false
+            },
+            {
+              "_id": "694088fe1c508c5d5ecc6b16",
+              "name": "Pants61066",
+              "amount": 746,
+              "price": 21203,
+              "manufacturer": "Google",
+              "notes": "lZZwWJb5NJeQtb4lb2lnazO88fRMA0GFFC9jJSE6Qb6dqXNsJq3XOSkZ5ftOpqaUiGlGAqqHcmahRCgD9DpOZz7obT5C8k69R9l96bILGV9W16Ipyd1jkkHAJTvOc9Iiknrvw9Xg9hQ3J7WVTIzRtx2EF74ZRGMB9hicmVAePrcPnhLfnc4UMDmEudguKBfImxcIWZ6TZcWiZb1FeuJIXYWmYxgfIzI8Jg0FmZR4RuMpsX3Z23xouSpNa5",
+              "received": false
+            }
+          ],
+          "total_price": 98825,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:17:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694088ff1c508c5d5ecc6b79"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

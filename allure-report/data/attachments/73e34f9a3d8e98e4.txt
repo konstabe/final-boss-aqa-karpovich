@@ -1,0 +1,24 @@
+Data is valid according to the schema.
+Data is valid according to the schema.
+Data is valid according to the schema.
+Data is not valid according to the schema.
+[
+  {
+    keyword: 'oneOf',
+    dataPath: '.Order.delivery',
+    schemaPath: '#/properties/Order/properties/delivery/oneOf',
+    params: { passingSchemas: [Array] },
+    message: 'should match exactly one schema in oneOf'
+  }
+]
+Data is not valid according to the schema.
+[
+  {
+    keyword: 'oneOf',
+    dataPath: '.Order.delivery',
+    schemaPath: '#/properties/Order/properties/delivery/oneOf',
+    params: { passingSchemas: [Array] },
+    message: 'should match exactly one schema in oneOf'
+  }
+]
+Data is valid according to the schema.

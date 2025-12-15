@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:17:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2663",
+    "etag": "W/\"a67-x8JurLveSPiyJfzm5dnm59DM2Ok\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6940890d1c508c5d5ecc73c1",
+        "email": "Kari.Kihn@yahoo.com",
+        "name": "Reginald Kertzmann",
+        "country": "Belarus",
+        "city": "Richland",
+        "street": "Stefanie Overpass",
+        "house": 22,
+        "flat": 688,
+        "phone": "+18953718985",
+        "createdOn": "2025-12-15T22:17:49.000Z",
+        "notes": "zCyKQ4NhcbvRy5vkriQBriBfM3QJGuDlRFaALquO34AEF1M9sL4HwOLLIXyyGAzovOwH9iBMyk06wP7qZzrk6d5dHn0bNWpDJ6dERKP0Qxh61qulDzXdpfoo9X6Glm2U7hQnCpOBmo5i7Ya1DJ4rQ8WRvQfqHIe9PYADxaRCPNoYffPkALyvZO9LafO8JnMstaQb9qJMANIei3mkILPlQfAX4qvJwJ27GJYXgaP4NyyFL7bxyHU83SA2LJ"
+      },
+      "products": [
+        {
+          "_id": "6940890f1c508c5d5ecc755b",
+          "name": "Bacon20816",
+          "amount": 774,
+          "price": 71527,
+          "manufacturer": "Microsoft",
+          "notes": "nv2PdAkmpS2DC8UG6794JXsXGBXpFwEbJnxAyzZGaswJO5PTfVr6eo32aM4h4m1BdwEIDdUE1fn5Vi0cISD4vWNqiHKLi9XuQMPZCd5tU5ivJWI5G7hFwGXY3jrQwb1Yz5u8aNtH7HikUCykRZnJhySeqMtYynJdVUiKR39DrOG8x5RzYth8yUPo5shLO09D8vPFsHs2J05lkYb0sdgyVVuU8cuheIRINsXaKEjrY2zO2Gs9ItwyOQ7xB5",
+          "received": false
+        },
+        {
+          "_id": "6940890f1c508c5d5ecc758b",
+          "name": "Shirt28752",
+          "amount": 429,
+          "price": 43545,
+          "manufacturer": "Amazon",
+          "notes": "QdorwWTMus8R36ORp9x35pgE4ToY1lmGZn1hYwAMWzEOZnYSJokvShZLmj5yBBB4JdywYDFHgDZUS5smXltIXHJ9bMrkZlnula3CDo8nPxwsJV47Lpmb3XU1ojuTlWZ3yafkKZhHTKYwYT3bRwzNJIsvMqHTUw1od3TtY4NjfFjLENnsiPlt50n0hSUH8MdxuE93zd2QSmgXfXWDkMYCQbzqhmjVbtrdazF6tXorAFhNeVcRxPwfIBfZxv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 115072,
+      "createdOn": "2025-12-15T22:17:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6940890d1c508c5d5ecc73c1",
+          "products": [
+            {
+              "_id": "6940890f1c508c5d5ecc755b",
+              "name": "Bacon20816",
+              "amount": 774,
+              "price": 71527,
+              "manufacturer": "Microsoft",
+              "notes": "nv2PdAkmpS2DC8UG6794JXsXGBXpFwEbJnxAyzZGaswJO5PTfVr6eo32aM4h4m1BdwEIDdUE1fn5Vi0cISD4vWNqiHKLi9XuQMPZCd5tU5ivJWI5G7hFwGXY3jrQwb1Yz5u8aNtH7HikUCykRZnJhySeqMtYynJdVUiKR39DrOG8x5RzYth8yUPo5shLO09D8vPFsHs2J05lkYb0sdgyVVuU8cuheIRINsXaKEjrY2zO2Gs9ItwyOQ7xB5",
+              "received": false
+            },
+            {
+              "_id": "6940890f1c508c5d5ecc758b",
+              "name": "Shirt28752",
+              "amount": 429,
+              "price": 43545,
+              "manufacturer": "Amazon",
+              "notes": "QdorwWTMus8R36ORp9x35pgE4ToY1lmGZn1hYwAMWzEOZnYSJokvShZLmj5yBBB4JdywYDFHgDZUS5smXltIXHJ9bMrkZlnula3CDo8nPxwsJV47Lpmb3XU1ojuTlWZ3yafkKZhHTKYwYT3bRwzNJIsvMqHTUw1od3TtY4NjfFjLENnsiPlt50n0hSUH8MdxuE93zd2QSmgXfXWDkMYCQbzqhmjVbtrdazF6tXorAFhNeVcRxPwfIBfZxv",
+              "received": false
+            }
+          ],
+          "total_price": 115072,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:17:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694089111c508c5d5ecc7655"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

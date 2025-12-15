@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:16:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2647",
+    "etag": "W/\"a57-QkJ46DmwzdQwSuOIxhH5ImOS2qM\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694088d41c508c5d5ecc567c",
+        "email": "Modesta_Nicolas81@gmail.com",
+        "name": "Aaliyah Jones",
+        "country": "USA",
+        "city": "Kenville",
+        "street": "Kim Hill",
+        "house": 49,
+        "flat": 252,
+        "phone": "+14975734567",
+        "createdOn": "2025-12-15T22:16:52.000Z",
+        "notes": "Q3UzysptaJXJBhsHPuE6zIhdEo34OIjcXXhKBnQdZqaqiJJLxdYo5Yv1p9mOPbCmOoaRYPEMmzdJeGs50A4sYASKvY0JnV1BaQiB10A237GIWRnrFYoWBx1l5igc0c36ogFiCquZWoZMu7EiYEY0vSXWKlAhSrtI0STn6qD8YYH296XawfUyXtvsGuPxrG8oVp9VWHKWgeV3xlUUBOTt3kL1yiIgzTOlPVNmFsQDAIQ4zA2ULMIEt7pGUW"
+      },
+      "products": [
+        {
+          "_id": "694088d41c508c5d5ecc5698",
+          "name": "Chair66674",
+          "amount": 997,
+          "price": 25422,
+          "manufacturer": "Sony",
+          "notes": "ygyD3FBvdkk4a6KmA49Hx6Rrlr3yqMDprtDvYxwgnFOWUxBrCYOh7FwVXqnNDxyKHEbduxvSZj49v1jDswTXdtm67TD9gMwVDng8PYVmhvIhIzOXfbvyJDwHGmrCMrZx7NOyrkv8K9Ml0UlbCtNu8ETKw537aqeJhoz4QVIFq4A2OLH30wDt1u0BLLzF5C2p7REKOzTRbRSuKnDqHnsPdBWkAvplA0q8shSDkSe6OeqnKRwB7zX759VX8G",
+          "received": false
+        },
+        {
+          "_id": "694088d41c508c5d5ecc56be",
+          "name": "Mouse73484",
+          "amount": 427,
+          "price": 65204,
+          "manufacturer": "Microsoft",
+          "notes": "onFruqm8bWDb4Z3RMla5sTVigqblD4tn5HHGV7LiFRfDDzHojut4YQPRnjgS6frELWeKi0AYDchgXYjUGCDuXKEkgKm9just8GQcqiWYclVbKG4RNVOdCIaQC6WC5VWhiwnzX1dbNZHxn5oSSxxmp5cywuxV9AZHmz21priR6pWUEeaRerDwOBljhIAhWdei497dDQfaMpwtTf8AWdJ4QPnHrWZSBk7lySsFQmKrY1Yiw2iWmMjiBfGE6s",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 90626,
+      "createdOn": "2025-12-15T22:16:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088d41c508c5d5ecc567c",
+          "products": [
+            {
+              "_id": "694088d41c508c5d5ecc5698",
+              "name": "Chair66674",
+              "amount": 997,
+              "price": 25422,
+              "manufacturer": "Sony",
+              "notes": "ygyD3FBvdkk4a6KmA49Hx6Rrlr3yqMDprtDvYxwgnFOWUxBrCYOh7FwVXqnNDxyKHEbduxvSZj49v1jDswTXdtm67TD9gMwVDng8PYVmhvIhIzOXfbvyJDwHGmrCMrZx7NOyrkv8K9Ml0UlbCtNu8ETKw537aqeJhoz4QVIFq4A2OLH30wDt1u0BLLzF5C2p7REKOzTRbRSuKnDqHnsPdBWkAvplA0q8shSDkSe6OeqnKRwB7zX759VX8G",
+              "received": false
+            },
+            {
+              "_id": "694088d41c508c5d5ecc56be",
+              "name": "Mouse73484",
+              "amount": 427,
+              "price": 65204,
+              "manufacturer": "Microsoft",
+              "notes": "onFruqm8bWDb4Z3RMla5sTVigqblD4tn5HHGV7LiFRfDDzHojut4YQPRnjgS6frELWeKi0AYDchgXYjUGCDuXKEkgKm9just8GQcqiWYclVbKG4RNVOdCIaQC6WC5VWhiwnzX1dbNZHxn5oSSxxmp5cywuxV9AZHmz21priR6pWUEeaRerDwOBljhIAhWdei497dDQfaMpwtTf8AWdJ4QPnHrWZSBk7lySsFQmKrY1Yiw2iWmMjiBfGE6s",
+              "received": false
+            }
+          ],
+          "total_price": 90626,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:16:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694088d51c508c5d5ecc56de"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

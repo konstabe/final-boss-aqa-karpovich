@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:16:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-cc2KCWTmC+v3kHrPDlnxZ1H4Eb0\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694088d01c508c5d5ecc54c0",
+        "email": "Zelma.Baumbach@gmail.com",
+        "name": "Angelina Feest",
+        "country": "Germany",
+        "city": "Tucson",
+        "street": "S 5th Street",
+        "house": 22,
+        "flat": 391,
+        "phone": "+14173197949",
+        "createdOn": "2025-12-15T22:16:48.000Z",
+        "notes": "qXYcNWPwk6NRfZHUfwxDrJ02HCi9pu89b7Rgkt2AfYhu5lUhhlwyHWkRbEXDC1AYzIQtdT59xQC742rHlOVjFmT2Ga2jlWnSTgJW8I9dWuSQG2aiVIGmRx1iYW750QWm8uIZJ2AS3WwMeELU0fXjstSgi4ajClgSxkrRnwdhywCDSJ6zDkg9d5ytxPdwOe1B9wIstkEhE8rZWnwM8XRvAUyC1VFaCApYwN7wjh5EmzCypwx8NhI3fUPoxh"
+      },
+      "products": [
+        {
+          "_id": "694088d01c508c5d5ecc54e9",
+          "name": "Salad43070",
+          "amount": 766,
+          "price": 84222,
+          "manufacturer": "Google",
+          "notes": "7ikmjSKvX3RRTdarhSj01OqBilTmh1z9GUzyXEGzqAcwHmk993jLgZvyHWQ0tLcVcUhnys8OMjYxYrjHVfmOYr7xRa6cElYB1nBElh8IRVKLwdsVB6YGA3RtqEsZGvh5oD10EgX0uOQ7f84ErBFcCUNwHmO2daW4zdXXEa11tvc5YJ7IVbsfx3P903ZGUqrGiv5coa6dTX9x1PpAZqu20QO4Fn5hyzwasFTyIktKp0HdNwTXAxF4JM8aV8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 84222,
+      "createdOn": "2025-12-15T22:16:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088d01c508c5d5ecc54c0",
+          "products": [
+            {
+              "_id": "694088d01c508c5d5ecc54e9",
+              "name": "Salad43070",
+              "amount": 766,
+              "price": 84222,
+              "manufacturer": "Google",
+              "notes": "7ikmjSKvX3RRTdarhSj01OqBilTmh1z9GUzyXEGzqAcwHmk993jLgZvyHWQ0tLcVcUhnys8OMjYxYrjHVfmOYr7xRa6cElYB1nBElh8IRVKLwdsVB6YGA3RtqEsZGvh5oD10EgX0uOQ7f84ErBFcCUNwHmO2daW4zdXXEa11tvc5YJ7IVbsfx3P903ZGUqrGiv5coa6dTX9x1PpAZqu20QO4Fn5hyzwasFTyIktKp0HdNwTXAxF4JM8aV8",
+              "received": false
+            }
+          ],
+          "total_price": 84222,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:16:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694088d11c508c5d5ecc5507"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
