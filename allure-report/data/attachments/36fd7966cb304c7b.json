@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 20:28:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-xI9EP8ZqJLAjMYaMSmOimqOMwkc\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69406f571c508c5d5ecb03b4",
+        "email": "Paul.Bergstrom@yahoo.com",
+        "name": "Meta Dach",
+        "country": "Ukraine",
+        "city": "Rock Hill",
+        "street": "Front Street",
+        "house": 39,
+        "flat": 902,
+        "phone": "+17436911046",
+        "createdOn": "2025-12-15T20:28:07.000Z",
+        "notes": "dflP3JgmYGZmvKk7UKDjvWSWZNqjLBfs4mLP9fJa00SzljBoB4LF2NfnJEcnV0HDfQTadTCMQPuJpJwuInQtHxNfzV37Blx0gJOB8B4HPWxKUkhslM0X3tvd3uyZPBXN3NYk6OsZ5bqJlg76PkavlhQC57YMrXwFTwODk5JoZSy8ecA0lE55LOsuOiLZX0FopQGfQVWhMdD2ulJQhZLGmIe9UySWBTrx6zLE4DWpU8f0BfSS5Ji2WESQWh"
+      },
+      "products": [
+        {
+          "_id": "69406f571c508c5d5ecb03d4",
+          "name": "Salad50947",
+          "amount": 112,
+          "price": 64004,
+          "manufacturer": "Google",
+          "notes": "d023WplY8pJtKILqNQvh3e1Sgt2Qqv6p6Q1bDwTQ720hTvExYg3QgxERdbulViMmNQlBujyUh0nzdPCc9DdF1qpNwKLpDGYJ4sJ1LN3R7GJMCZeLPiyXdrOoZ2qk3YILoamrykj0WZ5KfgIIRsgLMioJmVPaTc6c5ZnGoNirYwLCVs6HL5sGXvWRDl33Uzr3Y8IkBjBtPF1cUBEJ8O33o3vgW8kAXFokkEBB1YgOF3AhYPYHX2ml70PaDi",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 64004,
+      "createdOn": "2025-12-15T20:28:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69406f571c508c5d5ecb03b4",
+          "products": [
+            {
+              "_id": "69406f571c508c5d5ecb03d4",
+              "name": "Salad50947",
+              "amount": 112,
+              "price": 64004,
+              "manufacturer": "Google",
+              "notes": "d023WplY8pJtKILqNQvh3e1Sgt2Qqv6p6Q1bDwTQ720hTvExYg3QgxERdbulViMmNQlBujyUh0nzdPCc9DdF1qpNwKLpDGYJ4sJ1LN3R7GJMCZeLPiyXdrOoZ2qk3YILoamrykj0WZ5KfgIIRsgLMioJmVPaTc6c5ZnGoNirYwLCVs6HL5sGXvWRDl33Uzr3Y8IkBjBtPF1cUBEJ8O33o3vgW8kAXFokkEBB1YgOF3AhYPYHX2ml70PaDi",
+              "received": false
+            }
+          ],
+          "total_price": 64004,
+          "delivery": null,
+          "changedOn": "2025-12-15T20:28:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69406f571c508c5d5ecb03f2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

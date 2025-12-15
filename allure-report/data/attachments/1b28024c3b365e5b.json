@@ -1,0 +1,303 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 20:28:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8609",
+    "etag": "W/\"21a1-DpxKJeq2rsp8LeZWj1ZACFBP1yU\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69406f591c508c5d5ecb04df",
+      "status": "Received",
+      "customer": {
+        "_id": "69406f571c508c5d5ecb040a",
+        "email": "Bertrand32@yahoo.com",
+        "name": "Johann Hoppe",
+        "country": "Canada",
+        "city": "Bednarcester",
+        "street": "Volkman Fork",
+        "house": 1,
+        "flat": 781,
+        "phone": "+12226453009",
+        "createdOn": "2025-12-15T20:28:07.000Z",
+        "notes": "TGa7iJc7Nr08yjNMUaPKdrQnL43m4P0gS3l01DBaXaL4XZlZas2omqBK72WzMKKLwuFR8qh2ObDPXin0UmukW3GUJtzD1j0vF4NMYLFPTEiUOTTNRuGzk0ohDuVQgFAUsOQ4lTX2gzuLiXt0H64jRTIsSrtl1gIZbiYpopGaBPmXc1Nw7GoLSLN7mrxZEsPI2mdD83AuyJNsNaE66jCgMXAOgniv1ZC5GT1McVk2zmbknzw7X8F9VwUyj1"
+      },
+      "products": [
+        {
+          "_id": "69406f581c508c5d5ecb042e",
+          "name": "Shirt59544",
+          "amount": 517,
+          "price": 84442,
+          "manufacturer": "Tesla",
+          "notes": "egPtLO3rtamwHIE57PzRKQzAL31EOUgMxs0Dp8MUFlctuv3ah05xLz2rHdyfkP0DvVHFndm0izpVPyGa9uxpkhnis11R3QpMdtiVT7076acsc0VRdMskDuDxEZefqhYAsqEW0g4fpzX2nljpm0lbJosDpPYkWc9V0UB9ogsaF3IReYFuaaEPHPCKkqL2cJevBTRiFpw2rokgYvG9LauA8TsAcILfElj2APGEYmDuMDGF5Zo1Je7hGyGPrp",
+          "received": true
+        },
+        {
+          "_id": "69406f581c508c5d5ecb0469",
+          "name": "Bike61629",
+          "amount": 478,
+          "price": 57099,
+          "manufacturer": "Tesla",
+          "notes": "CJZ8SeLhZAkxH5IvI5iZ3kCxCjKfoA3ZzM7cZjE1nMWfLhz1Q6MwaRKK2Ze4M1Cnu5CWKkjcqQFWwtHbGED1sxYATRe3L2XdfiVAssIGGOUPCt1Ey3Z6rp3lfQxozRsQP8gZoJlTw28qqWd2CXrP9DO9eFobPA52r24gUO03sNeNSAlPuy44OvxrwnkSjOiZbxd1oQ05gGY9DLHFGnEdfG14uZbX6XpaAnKsbH2TkJCBDCjMvk3k4YHwNp",
+          "received": true
+        },
+        {
+          "_id": "69406f581c508c5d5ecb0490",
+          "name": "Pants54507",
+          "amount": 687,
+          "price": 9990,
+          "manufacturer": "Google",
+          "notes": "AbFgKzBuuQ7whvEpiHDi2G0xktgfVK4wLChzVANwEIz1uRL2K26fzBgpYXzcIyZDkU9CWzejXdS3QDFejs1VQMk1s9InoOyljVbKkHaTAwIeelZLVb5bapvQw3cCmxvAfZzHlt1l3VFCIz02f9t5eDG8Xd7eUrUDsxXZ6TPuXUYCJtwuIogAxdhAMCnJ1mAvrBxM6QSUZ2QQ6J1ukPYFIOSjCwm6QrIMd23ggBeMplTAlNzPklqomofnoT",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Bednarcester",
+          "street": "Volkman Fork",
+          "house": 1,
+          "flat": 781
+        },
+        "finalDate": "2025-12-19T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 151531,
+      "createdOn": "2025-12-15T20:28:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69406f571c508c5d5ecb040a",
+          "products": [
+            {
+              "_id": "69406f581c508c5d5ecb042e",
+              "name": "Shirt59544",
+              "amount": 517,
+              "price": 84442,
+              "manufacturer": "Tesla",
+              "notes": "egPtLO3rtamwHIE57PzRKQzAL31EOUgMxs0Dp8MUFlctuv3ah05xLz2rHdyfkP0DvVHFndm0izpVPyGa9uxpkhnis11R3QpMdtiVT7076acsc0VRdMskDuDxEZefqhYAsqEW0g4fpzX2nljpm0lbJosDpPYkWc9V0UB9ogsaF3IReYFuaaEPHPCKkqL2cJevBTRiFpw2rokgYvG9LauA8TsAcILfElj2APGEYmDuMDGF5Zo1Je7hGyGPrp",
+              "received": true
+            },
+            {
+              "_id": "69406f581c508c5d5ecb0469",
+              "name": "Bike61629",
+              "amount": 478,
+              "price": 57099,
+              "manufacturer": "Tesla",
+              "notes": "CJZ8SeLhZAkxH5IvI5iZ3kCxCjKfoA3ZzM7cZjE1nMWfLhz1Q6MwaRKK2Ze4M1Cnu5CWKkjcqQFWwtHbGED1sxYATRe3L2XdfiVAssIGGOUPCt1Ey3Z6rp3lfQxozRsQP8gZoJlTw28qqWd2CXrP9DO9eFobPA52r24gUO03sNeNSAlPuy44OvxrwnkSjOiZbxd1oQ05gGY9DLHFGnEdfG14uZbX6XpaAnKsbH2TkJCBDCjMvk3k4YHwNp",
+              "received": true
+            },
+            {
+              "_id": "69406f581c508c5d5ecb0490",
+              "name": "Pants54507",
+              "amount": 687,
+              "price": 9990,
+              "manufacturer": "Google",
+              "notes": "AbFgKzBuuQ7whvEpiHDi2G0xktgfVK4wLChzVANwEIz1uRL2K26fzBgpYXzcIyZDkU9CWzejXdS3QDFejs1VQMk1s9InoOyljVbKkHaTAwIeelZLVb5bapvQw3cCmxvAfZzHlt1l3VFCIz02f9t5eDG8Xd7eUrUDsxXZ6TPuXUYCJtwuIogAxdhAMCnJ1mAvrBxM6QSUZ2QQ6J1ukPYFIOSjCwm6QrIMd23ggBeMplTAlNzPklqomofnoT",
+              "received": true
+            }
+          ],
+          "total_price": 151531,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Bednarcester",
+              "street": "Volkman Fork",
+              "house": 1,
+              "flat": 781
+            },
+            "finalDate": "2025-12-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T20:28:11.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69406f571c508c5d5ecb040a",
+          "products": [
+            {
+              "_id": "69406f581c508c5d5ecb042e",
+              "name": "Shirt59544",
+              "amount": 517,
+              "price": 84442,
+              "manufacturer": "Tesla",
+              "notes": "egPtLO3rtamwHIE57PzRKQzAL31EOUgMxs0Dp8MUFlctuv3ah05xLz2rHdyfkP0DvVHFndm0izpVPyGa9uxpkhnis11R3QpMdtiVT7076acsc0VRdMskDuDxEZefqhYAsqEW0g4fpzX2nljpm0lbJosDpPYkWc9V0UB9ogsaF3IReYFuaaEPHPCKkqL2cJevBTRiFpw2rokgYvG9LauA8TsAcILfElj2APGEYmDuMDGF5Zo1Je7hGyGPrp",
+              "received": false
+            },
+            {
+              "_id": "69406f581c508c5d5ecb0469",
+              "name": "Bike61629",
+              "amount": 478,
+              "price": 57099,
+              "manufacturer": "Tesla",
+              "notes": "CJZ8SeLhZAkxH5IvI5iZ3kCxCjKfoA3ZzM7cZjE1nMWfLhz1Q6MwaRKK2Ze4M1Cnu5CWKkjcqQFWwtHbGED1sxYATRe3L2XdfiVAssIGGOUPCt1Ey3Z6rp3lfQxozRsQP8gZoJlTw28qqWd2CXrP9DO9eFobPA52r24gUO03sNeNSAlPuy44OvxrwnkSjOiZbxd1oQ05gGY9DLHFGnEdfG14uZbX6XpaAnKsbH2TkJCBDCjMvk3k4YHwNp",
+              "received": false
+            },
+            {
+              "_id": "69406f581c508c5d5ecb0490",
+              "name": "Pants54507",
+              "amount": 687,
+              "price": 9990,
+              "manufacturer": "Google",
+              "notes": "AbFgKzBuuQ7whvEpiHDi2G0xktgfVK4wLChzVANwEIz1uRL2K26fzBgpYXzcIyZDkU9CWzejXdS3QDFejs1VQMk1s9InoOyljVbKkHaTAwIeelZLVb5bapvQw3cCmxvAfZzHlt1l3VFCIz02f9t5eDG8Xd7eUrUDsxXZ6TPuXUYCJtwuIogAxdhAMCnJ1mAvrBxM6QSUZ2QQ6J1ukPYFIOSjCwm6QrIMd23ggBeMplTAlNzPklqomofnoT",
+              "received": false
+            }
+          ],
+          "total_price": 151531,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Bednarcester",
+              "street": "Volkman Fork",
+              "house": 1,
+              "flat": 781
+            },
+            "finalDate": "2025-12-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T20:28:10.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69406f571c508c5d5ecb040a",
+          "products": [
+            {
+              "_id": "69406f581c508c5d5ecb042e",
+              "name": "Shirt59544",
+              "amount": 517,
+              "price": 84442,
+              "manufacturer": "Tesla",
+              "notes": "egPtLO3rtamwHIE57PzRKQzAL31EOUgMxs0Dp8MUFlctuv3ah05xLz2rHdyfkP0DvVHFndm0izpVPyGa9uxpkhnis11R3QpMdtiVT7076acsc0VRdMskDuDxEZefqhYAsqEW0g4fpzX2nljpm0lbJosDpPYkWc9V0UB9ogsaF3IReYFuaaEPHPCKkqL2cJevBTRiFpw2rokgYvG9LauA8TsAcILfElj2APGEYmDuMDGF5Zo1Je7hGyGPrp",
+              "received": false
+            },
+            {
+              "_id": "69406f581c508c5d5ecb0469",
+              "name": "Bike61629",
+              "amount": 478,
+              "price": 57099,
+              "manufacturer": "Tesla",
+              "notes": "CJZ8SeLhZAkxH5IvI5iZ3kCxCjKfoA3ZzM7cZjE1nMWfLhz1Q6MwaRKK2Ze4M1Cnu5CWKkjcqQFWwtHbGED1sxYATRe3L2XdfiVAssIGGOUPCt1Ey3Z6rp3lfQxozRsQP8gZoJlTw28qqWd2CXrP9DO9eFobPA52r24gUO03sNeNSAlPuy44OvxrwnkSjOiZbxd1oQ05gGY9DLHFGnEdfG14uZbX6XpaAnKsbH2TkJCBDCjMvk3k4YHwNp",
+              "received": false
+            },
+            {
+              "_id": "69406f581c508c5d5ecb0490",
+              "name": "Pants54507",
+              "amount": 687,
+              "price": 9990,
+              "manufacturer": "Google",
+              "notes": "AbFgKzBuuQ7whvEpiHDi2G0xktgfVK4wLChzVANwEIz1uRL2K26fzBgpYXzcIyZDkU9CWzejXdS3QDFejs1VQMk1s9InoOyljVbKkHaTAwIeelZLVb5bapvQw3cCmxvAfZzHlt1l3VFCIz02f9t5eDG8Xd7eUrUDsxXZ6TPuXUYCJtwuIogAxdhAMCnJ1mAvrBxM6QSUZ2QQ6J1ukPYFIOSjCwm6QrIMd23ggBeMplTAlNzPklqomofnoT",
+              "received": false
+            }
+          ],
+          "total_price": 151531,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Bednarcester",
+              "street": "Volkman Fork",
+              "house": 1,
+              "flat": 781
+            },
+            "finalDate": "2025-12-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T20:28:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69406f571c508c5d5ecb040a",
+          "products": [
+            {
+              "_id": "69406f581c508c5d5ecb042e",
+              "name": "Shirt59544",
+              "amount": 517,
+              "price": 84442,
+              "manufacturer": "Tesla",
+              "notes": "egPtLO3rtamwHIE57PzRKQzAL31EOUgMxs0Dp8MUFlctuv3ah05xLz2rHdyfkP0DvVHFndm0izpVPyGa9uxpkhnis11R3QpMdtiVT7076acsc0VRdMskDuDxEZefqhYAsqEW0g4fpzX2nljpm0lbJosDpPYkWc9V0UB9ogsaF3IReYFuaaEPHPCKkqL2cJevBTRiFpw2rokgYvG9LauA8TsAcILfElj2APGEYmDuMDGF5Zo1Je7hGyGPrp",
+              "received": false
+            },
+            {
+              "_id": "69406f581c508c5d5ecb0469",
+              "name": "Bike61629",
+              "amount": 478,
+              "price": 57099,
+              "manufacturer": "Tesla",
+              "notes": "CJZ8SeLhZAkxH5IvI5iZ3kCxCjKfoA3ZzM7cZjE1nMWfLhz1Q6MwaRKK2Ze4M1Cnu5CWKkjcqQFWwtHbGED1sxYATRe3L2XdfiVAssIGGOUPCt1Ey3Z6rp3lfQxozRsQP8gZoJlTw28qqWd2CXrP9DO9eFobPA52r24gUO03sNeNSAlPuy44OvxrwnkSjOiZbxd1oQ05gGY9DLHFGnEdfG14uZbX6XpaAnKsbH2TkJCBDCjMvk3k4YHwNp",
+              "received": false
+            },
+            {
+              "_id": "69406f581c508c5d5ecb0490",
+              "name": "Pants54507",
+              "amount": 687,
+              "price": 9990,
+              "manufacturer": "Google",
+              "notes": "AbFgKzBuuQ7whvEpiHDi2G0xktgfVK4wLChzVANwEIz1uRL2K26fzBgpYXzcIyZDkU9CWzejXdS3QDFejs1VQMk1s9InoOyljVbKkHaTAwIeelZLVb5bapvQw3cCmxvAfZzHlt1l3VFCIz02f9t5eDG8Xd7eUrUDsxXZ6TPuXUYCJtwuIogAxdhAMCnJ1mAvrBxM6QSUZ2QQ6J1ukPYFIOSjCwm6QrIMd23ggBeMplTAlNzPklqomofnoT",
+              "received": false
+            }
+          ],
+          "total_price": 151531,
+          "delivery": null,
+          "changedOn": "2025-12-15T20:28:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
