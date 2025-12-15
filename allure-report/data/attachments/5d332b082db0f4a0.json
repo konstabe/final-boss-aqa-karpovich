@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 20:00:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2977",
+    "etag": "W/\"ba1-L/3zZ3u4JMu1Ebmii0myxPXUPlc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694068f71c508c5d5eca6f36",
+      "status": "Draft",
+      "customer": {
+        "_id": "694068f71c508c5d5eca6f0f",
+        "email": "Melody_Hyatt49@yahoo.com",
+        "name": "Akeem Jacobi",
+        "country": "Great Britain",
+        "city": "Kayleechester",
+        "street": "Maymie Hill",
+        "house": 36,
+        "flat": 675,
+        "phone": "+17637076948",
+        "createdOn": "2025-12-15T20:00:55.000Z",
+        "notes": "XOvjjZ8S9l8PXeetQ3v8plXXMVBQLZEenMQbyJO2aNP7epCzC6AFduTfHoDxolCsWWrPu0Dwpb3BzCP5UhNSiOr1sd78v1xglSwfN6tpNsyWnUblIHtfYhpJrcfr1G44x4CBzJqUMfLlKpzOcm4AuDOyTUC70Gd5Czx4HEApc4OWdZXZKOaCRG5ZVocTMGRFDq5EfpWw1MAK0D6Z6xcd35aWrh6NHrXonGJRd4D3x61QRCcEVmzbHvacT2"
+      },
+      "products": [
+        {
+          "_id": "694068f71c508c5d5eca6f24",
+          "name": "Chair1535",
+          "amount": 22,
+          "price": 49693,
+          "manufacturer": "Microsoft",
+          "notes": "JkMxMdcyQnVFa1UdVrZ0VwL00fQaaHHFUsauNGuyQWc5uWIfYYlAEe3VsKluPKoK9hZfZsJ3AAxVJCs6O0wbsNR8fUFvZ22YphzckPZzSh3rIiUWNOCMHoy1piqxqveBJkERKXrxH4ovf20ma5Kb6s8A17mTRGOf2GF10mQHkh2eejDBsZnKloHWr8wZQ0b2Yae6thVniosp2jn42dQZFZvdzDi4gsO7rihiAedMD6j8pLERrgp6tm7NvB",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Kayleechester",
+          "street": "Maymie Hill",
+          "house": 36,
+          "flat": 675
+        },
+        "finalDate": "2025-12-20T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 49693,
+      "createdOn": "2025-12-15T20:00:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694068f71c508c5d5eca6f0f",
+          "products": [
+            {
+              "_id": "694068f71c508c5d5eca6f24",
+              "name": "Chair1535",
+              "amount": 22,
+              "price": 49693,
+              "manufacturer": "Microsoft",
+              "notes": "JkMxMdcyQnVFa1UdVrZ0VwL00fQaaHHFUsauNGuyQWc5uWIfYYlAEe3VsKluPKoK9hZfZsJ3AAxVJCs6O0wbsNR8fUFvZ22YphzckPZzSh3rIiUWNOCMHoy1piqxqveBJkERKXrxH4ovf20ma5Kb6s8A17mTRGOf2GF10mQHkh2eejDBsZnKloHWr8wZQ0b2Yae6thVniosp2jn42dQZFZvdzDi4gsO7rihiAedMD6j8pLERrgp6tm7NvB",
+              "received": false
+            }
+          ],
+          "total_price": 49693,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Kayleechester",
+              "street": "Maymie Hill",
+              "house": 36,
+              "flat": 675
+            },
+            "finalDate": "2025-12-20T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T20:00:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694068f71c508c5d5eca6f0f",
+          "products": [
+            {
+              "_id": "694068f71c508c5d5eca6f24",
+              "name": "Chair1535",
+              "amount": 22,
+              "price": 49693,
+              "manufacturer": "Microsoft",
+              "notes": "JkMxMdcyQnVFa1UdVrZ0VwL00fQaaHHFUsauNGuyQWc5uWIfYYlAEe3VsKluPKoK9hZfZsJ3AAxVJCs6O0wbsNR8fUFvZ22YphzckPZzSh3rIiUWNOCMHoy1piqxqveBJkERKXrxH4ovf20ma5Kb6s8A17mTRGOf2GF10mQHkh2eejDBsZnKloHWr8wZQ0b2Yae6thVniosp2jn42dQZFZvdzDi4gsO7rihiAedMD6j8pLERrgp6tm7NvB",
+              "received": false
+            }
+          ],
+          "total_price": 49693,
+          "delivery": null,
+          "changedOn": "2025-12-15T20:00:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 20:00:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2947",
+    "etag": "W/\"b83-lOUkuk9usTfhKBort6JNK2+C00M\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694068e41c508c5d5eca665c",
+      "status": "Draft",
+      "customer": {
+        "_id": "694068e31c508c5d5eca65e9",
+        "email": "Ada61@hotmail.com",
+        "name": "Harrison Bernier",
+        "country": "Great Britain",
+        "city": "Jesusfort",
+        "street": "15th Street",
+        "house": 39,
+        "flat": 11,
+        "phone": "+19754900329",
+        "createdOn": "2025-12-15T20:00:35.000Z",
+        "notes": "0hguClPPDwTQRlOjNGpqWNYH4XmKRZQrSpU7bDz8OP8VQawsE1QlDBKH0cZajTllxlPAv8OZm4aRnoAx4h30TT7jujaMz6ed6oqvO7brGDoMfwD0YOrO95Kdzy3y5tOwVtH2PtNGbcBNaqD5AtRZFzU1F7cxGX133TBUaigHT2q073Qg55SwOWiKhRw0RtDVKpm3fHRnGxOfUQYm0HXbahx2N2XrgV6KVkSev4VPQaV5kSDKaPAEcHmMti"
+      },
+      "products": [
+        {
+          "_id": "694068e31c508c5d5eca660d",
+          "name": "Pants11820",
+          "amount": 429,
+          "price": 9390,
+          "manufacturer": "Tesla",
+          "notes": "XXAKz9bwiAnhfatbgBCGZNo3wImdftVI27Xn3uHFw6JroQQ02RC4OczERH7Hmf1YVcLGR3p1uJZMp8UGIVM7DujhmPEPV0Zbz0tmMiGbRh27DL0ps2EhcfO7ED1I6ORoavJmGLOIz1C3ViQGbmQOwlQ7lsBiGxqrXPgVzdT3SGzdZ2NkmKkEGouaq7hHwBZV77jcAzwEx6Dkz7OEStOoxE7ALrp8zkxsNZkXXOp3EwOFGuByJFGvYpyMA6",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Jesusfort",
+          "street": "15th Street",
+          "house": 39,
+          "flat": 11
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 9390,
+      "createdOn": "2025-12-15T20:00:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694068e31c508c5d5eca65e9",
+          "products": [
+            {
+              "_id": "694068e31c508c5d5eca660d",
+              "name": "Pants11820",
+              "amount": 429,
+              "price": 9390,
+              "manufacturer": "Tesla",
+              "notes": "XXAKz9bwiAnhfatbgBCGZNo3wImdftVI27Xn3uHFw6JroQQ02RC4OczERH7Hmf1YVcLGR3p1uJZMp8UGIVM7DujhmPEPV0Zbz0tmMiGbRh27DL0ps2EhcfO7ED1I6ORoavJmGLOIz1C3ViQGbmQOwlQ7lsBiGxqrXPgVzdT3SGzdZ2NkmKkEGouaq7hHwBZV77jcAzwEx6Dkz7OEStOoxE7ALrp8zkxsNZkXXOp3EwOFGuByJFGvYpyMA6",
+              "received": false
+            }
+          ],
+          "total_price": 9390,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Jesusfort",
+              "street": "15th Street",
+              "house": 39,
+              "flat": 11
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T20:00:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694068e31c508c5d5eca65e9",
+          "products": [
+            {
+              "_id": "694068e31c508c5d5eca660d",
+              "name": "Pants11820",
+              "amount": 429,
+              "price": 9390,
+              "manufacturer": "Tesla",
+              "notes": "XXAKz9bwiAnhfatbgBCGZNo3wImdftVI27Xn3uHFw6JroQQ02RC4OczERH7Hmf1YVcLGR3p1uJZMp8UGIVM7DujhmPEPV0Zbz0tmMiGbRh27DL0ps2EhcfO7ED1I6ORoavJmGLOIz1C3ViQGbmQOwlQ7lsBiGxqrXPgVzdT3SGzdZ2NkmKkEGouaq7hHwBZV77jcAzwEx6Dkz7OEStOoxE7ALrp8zkxsNZkXXOp3EwOFGuByJFGvYpyMA6",
+              "received": false
+            }
+          ],
+          "total_price": 9390,
+          "delivery": null,
+          "changedOn": "2025-12-15T20:00:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

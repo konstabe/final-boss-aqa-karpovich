@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 20:00:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-unlA5QBIDPMMKlIHoqIdYRvUNPM\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694068e21c508c5d5eca6584",
+        "email": "Ken_Schneider@yahoo.com",
+        "name": "Waylon Reichert",
+        "country": "Canada",
+        "city": "East Columbus",
+        "street": "Ignacio Lake",
+        "house": 47,
+        "flat": 804,
+        "phone": "+18982984342",
+        "createdOn": "2025-12-15T20:00:34.000Z",
+        "notes": "4KQeKXdZy2X6U6XJ3krCqiE6jvLg1zQvHYkRFRSRIowndMfV45vVmyNL2A8WZ9nXX2MWKdldTKPrDw5bAeCdLNcQsi1fakUJocRfYiFPiZ9TSxBByX08W2W0RAHtcBELOYMjl4IMJzA9zE9U5KSUMnnIsWNQMX6aTGrdw9wHxtthKTzZEqh8Jve4Iaidx1lZwOlRMBGf7ahdzKnRVX9OIRaJPKikhd1jeM9lJiANwEuRP1LXTvSeyCzSKl"
+      },
+      "products": [
+        {
+          "_id": "694068e31c508c5d5eca65ef",
+          "name": "Shirt52718",
+          "amount": 727,
+          "price": 94742,
+          "manufacturer": "Xiaomi",
+          "notes": "sHDA3yqabppiOu3tUpBfz4mkiclWUU6g0Luy5WY6RxnZ2aylgwKsjYEJJzXRxntgLVjaP3LZsfIzEdYJACjAJgmosGsl19kp87IP3bcKr97BfJ0kkR7OI423mMHmjkATrmEGVKhMEjnAO66nMHmEZMpqglhTfjRMPyT7gsVxPZgFSDALO3IymWgOSCGeMu6yLM05sxhgmO6PH8eXJZkx2xyViRMHxQC4w4DFDRvboTe32BC8I9ziWiK3mS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94742,
+      "createdOn": "2025-12-15T20:00:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694068e21c508c5d5eca6584",
+          "products": [
+            {
+              "_id": "694068e31c508c5d5eca65ef",
+              "name": "Shirt52718",
+              "amount": 727,
+              "price": 94742,
+              "manufacturer": "Xiaomi",
+              "notes": "sHDA3yqabppiOu3tUpBfz4mkiclWUU6g0Luy5WY6RxnZ2aylgwKsjYEJJzXRxntgLVjaP3LZsfIzEdYJACjAJgmosGsl19kp87IP3bcKr97BfJ0kkR7OI423mMHmjkATrmEGVKhMEjnAO66nMHmEZMpqglhTfjRMPyT7gsVxPZgFSDALO3IymWgOSCGeMu6yLM05sxhgmO6PH8eXJZkx2xyViRMHxQC4w4DFDRvboTe32BC8I9ziWiK3mS",
+              "received": false
+            }
+          ],
+          "total_price": 94742,
+          "delivery": null,
+          "changedOn": "2025-12-15T20:00:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694068e31c508c5d5eca6624"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

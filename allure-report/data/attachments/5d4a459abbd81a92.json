@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 20:00:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2933",
+    "etag": "W/\"b75-SHbBh/I/Zl6zTj1CZlxnJ0a+Uek\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694068f21c508c5d5eca6d2a",
+      "status": "Draft",
+      "customer": {
+        "_id": "694068f11c508c5d5eca6cc7",
+        "email": "Jamison.Hamill@hotmail.com",
+        "name": "Estel Lindgren",
+        "country": "Germany",
+        "city": "Brownmouth",
+        "street": "5th Street",
+        "house": 1,
+        "flat": 810,
+        "phone": "+17552711929",
+        "createdOn": "2025-12-15T20:00:49.000Z",
+        "notes": "XOAtErLxsSqjSm92jnZzahkHIANN8vMmNu4HeNQuiabMFDfxLJjfGSZa04b2qZT5yRsElsN0wX0Xo3Puhk1LGT81paeOW0X2GhqLGI64uTkvk7ZMoVdYBth0asftdhBM844wBs6ZmHuaz81PdGaLt4s9zBAY7LmGL9MI8itwxzLUjBUFCYNlgmKJ5Fhpt1Qqvz0iSATKcVoOP6kgpfXnTogcDcfKZIS6O0SysS2IaXBRF4zhfvtXQa49oa"
+      },
+      "products": [
+        {
+          "_id": "694068f21c508c5d5eca6d13",
+          "name": "Car83129",
+          "amount": 259,
+          "price": 2439,
+          "manufacturer": "Xiaomi",
+          "notes": "x9Aso5Ja6Dm1jIfTDfTSdF0hbJVleYm9H1DN7UxNocQcH6zICL3c1poSzdgQKL9Qxch8fpp5u0EYof3Wl8HGa8jW2PZnobj84HCrpMHUn5g4bnWLGAtXHQ1uZhz2hwwROv4s7iWd7G56yM89TewhjumHy3CrbNKZ459QaS0IyUk8vfuWrmnQMLbgPmfCrgwfmur5i1vraR9ZEPuqk8hYCjSLB7wRWxA4ZKx59KAOw716PpdOhgxWHJSugR",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Brownmouth",
+          "street": "5th Street",
+          "house": 1,
+          "flat": 810
+        },
+        "finalDate": "2025-12-22T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 2439,
+      "createdOn": "2025-12-15T20:00:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694068f11c508c5d5eca6cc7",
+          "products": [
+            {
+              "_id": "694068f21c508c5d5eca6d13",
+              "name": "Car83129",
+              "amount": 259,
+              "price": 2439,
+              "manufacturer": "Xiaomi",
+              "notes": "x9Aso5Ja6Dm1jIfTDfTSdF0hbJVleYm9H1DN7UxNocQcH6zICL3c1poSzdgQKL9Qxch8fpp5u0EYof3Wl8HGa8jW2PZnobj84HCrpMHUn5g4bnWLGAtXHQ1uZhz2hwwROv4s7iWd7G56yM89TewhjumHy3CrbNKZ459QaS0IyUk8vfuWrmnQMLbgPmfCrgwfmur5i1vraR9ZEPuqk8hYCjSLB7wRWxA4ZKx59KAOw716PpdOhgxWHJSugR",
+              "received": false
+            }
+          ],
+          "total_price": 2439,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Brownmouth",
+              "street": "5th Street",
+              "house": 1,
+              "flat": 810
+            },
+            "finalDate": "2025-12-22T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T20:00:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694068f11c508c5d5eca6cc7",
+          "products": [
+            {
+              "_id": "694068f21c508c5d5eca6d13",
+              "name": "Car83129",
+              "amount": 259,
+              "price": 2439,
+              "manufacturer": "Xiaomi",
+              "notes": "x9Aso5Ja6Dm1jIfTDfTSdF0hbJVleYm9H1DN7UxNocQcH6zICL3c1poSzdgQKL9Qxch8fpp5u0EYof3Wl8HGa8jW2PZnobj84HCrpMHUn5g4bnWLGAtXHQ1uZhz2hwwROv4s7iWd7G56yM89TewhjumHy3CrbNKZ459QaS0IyUk8vfuWrmnQMLbgPmfCrgwfmur5i1vraR9ZEPuqk8hYCjSLB7wRWxA4ZKx59KAOw716PpdOhgxWHJSugR",
+              "received": false
+            }
+          ],
+          "total_price": 2439,
+          "delivery": null,
+          "changedOn": "2025-12-15T20:00:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
