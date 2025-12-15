@@ -11,6 +11,7 @@ import { getRandomItemsFromArray } from "utils/getRandom.utils";
 import { orderResponseSchema } from "data/schemas/orders/orderResponse.schema";
 import { IProductFromResponse } from "data/types/product.types";
 import { ORDER_STATUS } from "data/orders/orderStatus";
+import { IOrder } from "data/types/order.types.js";
 
 export class OrdersApiService {
 	constructor(
@@ -51,6 +52,19 @@ export class OrdersApiService {
 		});
 
 		return createdOrder.body.Order;
+	}
+
+	async createDraftNew(token: string, order: IOrder): Promise<IOrderFromResponse> {
+		const response = await this.ordersApi.create(order, token);
+
+		validateResponse(response, {
+			status: STATUS_CODES.CREATED,
+			schema: orderResponseSchema,
+			IsSuccess: true,
+			ErrorMessage: null,
+		});
+
+		return response.body.Order;
 	}
 
 	async createDraftWithDelivery(token: string, numberOfProducts: number): Promise<IOrderFromResponse> {
