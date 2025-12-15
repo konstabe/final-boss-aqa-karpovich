@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 18:31:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-A80v1tPoHYI2ravhpbLrkY3/ijY\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694053f81c508c5d5ec9fa36",
+        "email": "Tianna_Labadie30@gmail.com",
+        "name": "Althea Koch",
+        "country": "USA",
+        "city": "New Teagan",
+        "street": "Mayer Plaza",
+        "house": 50,
+        "flat": 162,
+        "phone": "+17003817630",
+        "createdOn": "2025-12-15T18:31:20.000Z",
+        "notes": "JNMxOzNzmMIU1GnCyUGbbUcmD7a0Zh70Qepo8fbpNKAQy2KHaBKclF0XHhLAs9la433n74PKUGec0yTZ5LGUvUq6hL1Y8rs9zfuK9RiAbeVJRWzyxHxp6nyS4aC6PSgBBAXI56pTvGhu8PregAvPqKw1UDi1QJadcqumtAmDFXDKE1hpxYd8l09nmEPmYAsueJh1OT3tsmGp2yCNlXfQJR6JSBDzs4NxyWhV57mHCBY87dnFNMKnK5y2dF"
+      },
+      "products": [
+        {
+          "_id": "694053f81c508c5d5ec9fa55",
+          "name": "Pizza77007",
+          "amount": 570,
+          "price": 11015,
+          "manufacturer": "Google",
+          "notes": "pLPMJXKuYFFJPO8kUCMR6HBAzkz0tV7uHHKNSZTDDbBtOSiIHcXXD3UFIQVPNqKORqj6hDEDlmWC2MyioGhwAA1SzfpPLZxCIPbK2q9Zp4tJuWTnq8MvqP8s59UxcIoJmzctOVAngYggCZ73qjw3ITLt1mmqvNPYcYymiVwYkhENIk2Yw1WE5uij0COxNB5BDAjx7cT0rQXEXHASTSarO16pSsVjVHfQhPFpNF97Ph3U2QOJGf28lfQfCv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 11015,
+      "createdOn": "2025-12-15T18:31:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694053f81c508c5d5ec9fa36",
+          "products": [
+            {
+              "_id": "694053f81c508c5d5ec9fa55",
+              "name": "Pizza77007",
+              "amount": 570,
+              "price": 11015,
+              "manufacturer": "Google",
+              "notes": "pLPMJXKuYFFJPO8kUCMR6HBAzkz0tV7uHHKNSZTDDbBtOSiIHcXXD3UFIQVPNqKORqj6hDEDlmWC2MyioGhwAA1SzfpPLZxCIPbK2q9Zp4tJuWTnq8MvqP8s59UxcIoJmzctOVAngYggCZ73qjw3ITLt1mmqvNPYcYymiVwYkhENIk2Yw1WE5uij0COxNB5BDAjx7cT0rQXEXHASTSarO16pSsVjVHfQhPFpNF97Ph3U2QOJGf28lfQfCv",
+              "received": false
+            }
+          ],
+          "total_price": 11015,
+          "delivery": null,
+          "changedOn": "2025-12-15T18:31:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694053f81c508c5d5ec9fa7b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
