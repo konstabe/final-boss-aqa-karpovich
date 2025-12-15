@@ -1,3 +1,5 @@
+import { obligatoryFieldsSchema, obligatoryRequiredFields } from "../core.schema";
+
 export const getNotificationSchema = {
 	type: "object",
 	properties: {
@@ -17,6 +19,8 @@ export const getnotificationsSchema = {
 	type: "object",
 	properties: {
 		Notifications: { type: "array", items: getNotificationSchema },
+		...obligatoryFieldsSchema,
 	},
-	required: ["Notifications"],
+	required: ["Notifications", ...obligatoryRequiredFields],
+	additionalProperties: false,
 };
