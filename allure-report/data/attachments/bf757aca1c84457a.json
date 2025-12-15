@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 20:08:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3885",
+    "etag": "W/\"f2d-r2w6kDccpNOyA2ETeikgJPURYvs\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69406ad21c508c5d5eca8ca7",
+      "status": "In Process",
+      "customer": {
+        "_id": "69406ad11c508c5d5eca8c6f",
+        "email": "Angelo_Koelpin-Champlin@hotmail.com",
+        "name": "Concepcion Koepp",
+        "country": "Belarus",
+        "city": "Warwick",
+        "street": "Camilla Path",
+        "house": 25,
+        "flat": 74,
+        "phone": "+17494632447",
+        "createdOn": "2025-12-15T20:08:49.000Z",
+        "notes": "Xqme7fkdCuinBUl3CWkqH4E55anmt1WI8mty2pWzC28ZsU6cOOhFgdNEkHCedbGbAP8BQURo6gMDtYULyQlDUmAxcI1WEH9p33PbtMx3vmtz7LjGia38xRk7Hki49sKGgc3iXManZyI138C04vN96DzeeTB7OeI4XtFPGVZ8WAExEdYwLsDWK9tC3BtjIAxIfV7FD6U280b7ZODsx9HXYdixmeGhpBsIqvGXbDrH1FPsMlUKZp6pQbFrn0"
+      },
+      "products": [
+        {
+          "_id": "69406ad11c508c5d5eca8c8f",
+          "name": "Chicken88864",
+          "amount": 54,
+          "price": 23719,
+          "manufacturer": "Samsung",
+          "notes": "EiXshaVfLiEJuwwrbThZXH5MWLywsOCzFmHHmZFD0g8ph220dn3CtcuqIMCtbKCnaPyxYd6evH6UXu0M1qZvA8zukFq2a2eF7wDiT4tt7V8YTxizJlpIYqCXtXg8Sqb5AYhKCh1GRtWFWCrWcOlH9I1RFGH9rGJ7Jfk1fRTQ73rd5mL2oYb4mxBSu2SF1CgUHq2SKNZIUxKPYrLpndT1JQPzLGm73aWfALJZM2abRiAifbZWZM1wES3wiq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Warwick",
+          "street": "Camilla Path",
+          "house": 25,
+          "flat": 74
+        },
+        "finalDate": "2025-12-19T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 23719,
+      "createdOn": "2025-12-15T20:08:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69406ad11c508c5d5eca8c6f",
+          "products": [
+            {
+              "_id": "69406ad11c508c5d5eca8c8f",
+              "name": "Chicken88864",
+              "amount": 54,
+              "price": 23719,
+              "manufacturer": "Samsung",
+              "notes": "EiXshaVfLiEJuwwrbThZXH5MWLywsOCzFmHHmZFD0g8ph220dn3CtcuqIMCtbKCnaPyxYd6evH6UXu0M1qZvA8zukFq2a2eF7wDiT4tt7V8YTxizJlpIYqCXtXg8Sqb5AYhKCh1GRtWFWCrWcOlH9I1RFGH9rGJ7Jfk1fRTQ73rd5mL2oYb4mxBSu2SF1CgUHq2SKNZIUxKPYrLpndT1JQPzLGm73aWfALJZM2abRiAifbZWZM1wES3wiq",
+              "received": false
+            }
+          ],
+          "total_price": 23719,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Warwick",
+              "street": "Camilla Path",
+              "house": 25,
+              "flat": 74
+            },
+            "finalDate": "2025-12-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T20:08:51.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69406ad11c508c5d5eca8c6f",
+          "products": [
+            {
+              "_id": "69406ad11c508c5d5eca8c8f",
+              "name": "Chicken88864",
+              "amount": 54,
+              "price": 23719,
+              "manufacturer": "Samsung",
+              "notes": "EiXshaVfLiEJuwwrbThZXH5MWLywsOCzFmHHmZFD0g8ph220dn3CtcuqIMCtbKCnaPyxYd6evH6UXu0M1qZvA8zukFq2a2eF7wDiT4tt7V8YTxizJlpIYqCXtXg8Sqb5AYhKCh1GRtWFWCrWcOlH9I1RFGH9rGJ7Jfk1fRTQ73rd5mL2oYb4mxBSu2SF1CgUHq2SKNZIUxKPYrLpndT1JQPzLGm73aWfALJZM2abRiAifbZWZM1wES3wiq",
+              "received": false
+            }
+          ],
+          "total_price": 23719,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Warwick",
+              "street": "Camilla Path",
+              "house": 25,
+              "flat": 74
+            },
+            "finalDate": "2025-12-19T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T20:08:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69406ad11c508c5d5eca8c6f",
+          "products": [
+            {
+              "_id": "69406ad11c508c5d5eca8c8f",
+              "name": "Chicken88864",
+              "amount": 54,
+              "price": 23719,
+              "manufacturer": "Samsung",
+              "notes": "EiXshaVfLiEJuwwrbThZXH5MWLywsOCzFmHHmZFD0g8ph220dn3CtcuqIMCtbKCnaPyxYd6evH6UXu0M1qZvA8zukFq2a2eF7wDiT4tt7V8YTxizJlpIYqCXtXg8Sqb5AYhKCh1GRtWFWCrWcOlH9I1RFGH9rGJ7Jfk1fRTQ73rd5mL2oYb4mxBSu2SF1CgUHq2SKNZIUxKPYrLpndT1JQPzLGm73aWfALJZM2abRiAifbZWZM1wES3wiq",
+              "received": false
+            }
+          ],
+          "total_price": 23719,
+          "delivery": null,
+          "changedOn": "2025-12-15T20:08:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
