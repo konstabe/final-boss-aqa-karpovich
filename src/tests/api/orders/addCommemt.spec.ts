@@ -1,53 +1,46 @@
 import { expect, test } from "fixtures/api.fixture";
 import { generateProductData } from "data/products/generateProductData";
-import { IOrder } from "data/types/order.types";
-import { randomString } from "utils/rendomStringsGeneration";
+import { randomString } from "utils/randomStringsGeneration";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 import { STATUS_CODES } from "data/statusCodes";
 import { orderByIdSchema } from "data/schemas/orders/getOrderById.schema";
 import { negativeCasesAddComment } from "data/orders/addCommentNegativeCases";
-import { faker } from "@faker-js/faker";
 import { ERROR_MESSAGES, NOTIFICATIONS } from "data/notifications";
 
 test.describe("[API] [Sales Portal] [Orders] [Comments] [Add Comment]", () => {
 	let token = "";
-	let id_customer = "";
-	let id_product = "";
-	let id_order = "";
-	const ids_comment: string[] = [];
+	let idCustomer = "";
+	let idProduct = "";
+	let idOrder = "";
+	const idsComment: string[] = [];
 
-	test.beforeAll(async ({ loginApiService, customersApiService, productsApi, ordersApi }) => {
+	test.beforeAll(async ({ loginApiService, customersApiService, productsApi, ordersApiService }) => {
 		token = await loginApiService.loginAsAdmin();
 		const customer = await customersApiService.create(token);
-		id_customer = customer._id;
+		idCustomer = customer._id;
 		const productData = generateProductData();
 		const createdProduct = await productsApi.create(productData, token);
 
-		id_product = createdProduct.body.Product._id;
+		idProduct = createdProduct.body.Product._id;
 
-		const orderData: IOrder = {
-			customer: id_customer,
-			products: [id_product],
-		};
-
-		const createOrderForCustomer = await ordersApi.create(orderData, token);
-		id_order = createOrderForCustomer.body.Order._id;
+		const createOrderForCustomer = await ordersApiService.createDraft(token, 2);
+		idOrder = createOrderForCustomer._id;
 	});
 
 	test.afterEach(async ({ ordersApiService }) => {
-		for (const id_comment of ids_comment) {
-			await ordersApiService.deleteComment(token, id_comment, id_order);
+		for (const id_comment of idsComment) {
+			await ordersApiService.deleteComment(token, id_comment, idOrder);
 		}
-		ids_comment.length = 0;
+		idsComment.length = 0;
 	});
 
 	test.afterAll(async ({ ordersApiService }) => {
-		await ordersApiService.fullDelete(token, [id_order], [id_customer], [id_product]);
+		await ordersApiService.fullDelete(token, [idOrder], [idCustomer], [idProduct]);
 	});
 
 	test("Add comment with valid length", async ({ ordersApi }) => {
-		const commentValue = faker.string.alphanumeric({ length: 75 });
-		const addedComment = await ordersApi.addCommentToOrder(id_order, commentValue, token);
+		const commentValue = randomString(75);
+		const addedComment = await ordersApi.addCommentToOrder(idOrder, commentValue, token);
 
 		validateResponse(addedComment, {
 			status: STATUS_CODES.OK,
@@ -59,15 +52,15 @@ test.describe("[API] [Sales Portal] [Orders] [Comments] [Add Comment]", () => {
 		expect(commentValue).toBe(addedComment.body.Order.comments?.[0]?.text);
 		const firstId = addedComment.body.Order.comments?.[0]?._id;
 		if (firstId) {
-			ids_comment.push(firstId);
+			idsComment.push(firstId);
 		}
 	});
 
 	test("Add 2 valid comments", async ({ ordersApi }) => {
-		const commentValueFirst = faker.string.alphanumeric({ length: 1 });
-		const commentValueSecond = faker.string.alphanumeric({ length: 250 });
-		const addedCommentFirst = await ordersApi.addCommentToOrder(id_order, commentValueFirst, token);
-		const addedCommentSecond = await ordersApi.addCommentToOrder(id_order, commentValueSecond, token);
+		const commentValueFirst = randomString(1);
+		const commentValueSecond = randomString(250);
+		const addedCommentFirst = await ordersApi.addCommentToOrder(idOrder, commentValueFirst, token);
+		const addedCommentSecond = await ordersApi.addCommentToOrder(idOrder, commentValueSecond, token);
 
 		validateResponse(addedCommentFirst, {
 			status: STATUS_CODES.OK,
@@ -87,16 +80,16 @@ test.describe("[API] [Sales Portal] [Orders] [Comments] [Add Comment]", () => {
 		const firstId = addedCommentFirst.body.Order.comments?.[0]?._id;
 		const secondId = addedCommentFirst.body.Order.comments?.[1]?._id;
 		if (firstId) {
-			ids_comment.push(firstId);
+			idsComment.push(firstId);
 		}
 		if (secondId) {
-			ids_comment.push(secondId);
+			idsComment.push(secondId);
 		}
 	});
 
 	test("Add comment without auth token", async ({ ordersApi }) => {
 		const commentValue = randomString(75);
-		const addedComment = await ordersApi.addCommentToOrder(id_order, commentValue, "");
+		const addedComment = await ordersApi.addCommentToOrder(idOrder, commentValue, "");
 		validateResponse(addedComment, {
 			status: STATUS_CODES.UNAUTHORIZED,
 			IsSuccess: false,
@@ -107,7 +100,7 @@ test.describe("[API] [Sales Portal] [Orders] [Comments] [Add Comment]", () => {
 	for (const addCommentNegativeCase of negativeCasesAddComment) {
 		test(`Add ${addCommentNegativeCase.description}`, async ({ ordersApi }) => {
 			const addedComment = await ordersApi.addCommentToOrder(
-				id_order,
+				idOrder,
 				addCommentNegativeCase.testData.comment,
 				token,
 			);
