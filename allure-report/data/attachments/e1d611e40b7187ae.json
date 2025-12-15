@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 03:58:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-4NomkEmH9rdCX6IhuBzxt8jleso\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f87561c508c5d5ec92bd6",
+        "email": "Harley18@hotmail.com",
+        "name": "Zoie Denesik",
+        "country": "Belarus",
+        "city": "Idaho Falls",
+        "street": "N Union Street",
+        "house": 31,
+        "flat": 394,
+        "phone": "+17512111038",
+        "createdOn": "2025-12-15T03:58:14.000Z",
+        "notes": "g0K4vVTNTOSk5EGdaC2zKiJdpyO8Z62MEYCzuv591JXxp49d9G8Q6NwRRAh0IASrdBFErPzQjZsHwWckS4LETBXkUUZ7KZJZfgY2f53jbtkKhZTDoLBs4ksbfOhO826yUfqffEzDHPsbC1m8zMAAGsVFwp1xpt7VDAEvb64pPAyByhPgQ95AajfhUNfByYEsSrVWiMe8jugpFEGc9oFpxTN5nMLaWdBYL3VR7zR7XNxfXIWZwVh5e8uI8m"
+      },
+      "products": [
+        {
+          "_id": "693f87561c508c5d5ec92bf0",
+          "name": "Salad21233",
+          "amount": 434,
+          "price": 64533,
+          "manufacturer": "Google",
+          "notes": "A3DJ8f1UMWHTvxs8NjlwOFsllsmrjjqRfmMZUbRDOTBxp6INqzQvJjg5cMvMoQ2Sa2zn7b1JgyBNh6Y0OWThg67JvYCJ8Nt8aRajolTXqu2No7EEJ0qZ8yOBlo9PiD4OH1KBJ3WGWKA9gWh6vMSajbFy9SBqezhy1UCEPVp8GwUEJJMJmb2OEWVtkb76Qw3tjSWw44vk3J6tN8cANpOpx2cz10E9baVBbmV4ZwmQeazMl82oZBvcTQj1xU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 64533,
+      "createdOn": "2025-12-15T03:58:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f87561c508c5d5ec92bd6",
+          "products": [
+            {
+              "_id": "693f87561c508c5d5ec92bf0",
+              "name": "Salad21233",
+              "amount": 434,
+              "price": 64533,
+              "manufacturer": "Google",
+              "notes": "A3DJ8f1UMWHTvxs8NjlwOFsllsmrjjqRfmMZUbRDOTBxp6INqzQvJjg5cMvMoQ2Sa2zn7b1JgyBNh6Y0OWThg67JvYCJ8Nt8aRajolTXqu2No7EEJ0qZ8yOBlo9PiD4OH1KBJ3WGWKA9gWh6vMSajbFy9SBqezhy1UCEPVp8GwUEJJMJmb2OEWVtkb76Qw3tjSWw44vk3J6tN8cANpOpx2cz10E9baVBbmV4ZwmQeazMl82oZBvcTQj1xU",
+              "received": false
+            }
+          ],
+          "total_price": 64533,
+          "delivery": null,
+          "changedOn": "2025-12-15T03:58:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f87561c508c5d5ec92c1e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
