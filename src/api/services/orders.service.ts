@@ -14,6 +14,9 @@ import { ORDER_STATUS } from "data/orders/orderStatus";
 import { getOrdersSchema } from "data/schemas/orders/getOrder.schema";
 
 export class OrdersApiService {
+	ordersIds: string[] = [];
+	customersIds: string[] = [];
+	productsIds: string[] = [];
 	constructor(
 		private ordersApi: OrdersApi,
 		private customersApiService: CustomersApiService,
@@ -44,6 +47,8 @@ export class OrdersApiService {
 		const { customer, products } = await this.createOrderData(token, numberOfProducts);
 
 		const createdOrder = await this.ordersApi.create({ customer, products }, token);
+		this.collectIdsForDeletion(createdOrder.body.Order);
+
 		validateResponse(createdOrder, {
 			status: STATUS_CODES.CREATED,
 			schema: getOrdersSchema,
@@ -57,15 +62,21 @@ export class OrdersApiService {
 	async createDraftWithDelivery(token: string, numberOfProducts: number): Promise<IOrderFromResponse> {
 		const order = await this.createDraft(token, numberOfProducts);
 		const deliveryDetails = this.createDeliveryDetails(order);
-		const orderWithDelivery = await this.ordersApi.updateDeliveryDetails(order._id, deliveryDetails, token);
-		validateResponse(orderWithDelivery, {
+		const response = await this.ordersApi.updateDeliveryDetails(order._id, deliveryDetails, token);
+		validateResponse(response, {
 			status: STATUS_CODES.OK,
-			schema: orderResponseSchema, //подставить нужную схему
+			schema: orderResponseSchema,
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
 
-		return orderWithDelivery.body.Order;
+		const orderWithDelivery = response.body.Order;
+
+		if (!orderWithDelivery.delivery) {
+			throw new Error(`createDraftWithDelivery failed: delivery was not set for order ${order._id}`);
+		}
+
+		return orderWithDelivery;
 	}
 
 	private createDeliveryDetails(order: IOrderFromResponse): IOrderDelivery {
@@ -122,7 +133,7 @@ export class OrdersApiService {
 	): Promise<IOrderFromResponse> {
 		const notReceived = this.getNotReceivedProducts(order);
 
-		if (numberOfReceivedProducts < 1 && numberOfReceivedProducts > 5) {
+		if (numberOfReceivedProducts < 1 || numberOfReceivedProducts > 5) {
 			throw new Error(
 				`Incorrect amount of products to receive is passed '${numberOfReceivedProducts}', min - 1, max - 5`,
 			);
@@ -142,7 +153,7 @@ export class OrdersApiService {
 		const partiallyReceived = await this.ordersApi.markOrdersAsReceived(order._id, randomProductsId, token);
 		validateResponse(partiallyReceived, {
 			status: STATUS_CODES.OK,
-			schema: orderResponseSchema, //подставить нужную схему
+			schema: orderResponseSchema,
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
@@ -205,28 +216,45 @@ export class OrdersApiService {
 		return deleted;
 	}
 
-	async fullDelete(token: string, ordersId: string[], customersId: string[], productsId: string[]) {
-		if (ordersId.length > 0) {
-			await Promise.all(ordersId.map((id) => this.deleteOrder(token, id)));
+	async fullDelete(token: string) {
+		if (this.ordersIds.length > 0) {
+			await Promise.all(this.ordersIds.map((id) => this.deleteOrder(token, id)));
 		}
 
-		if (productsId.length > 0) {
-			await Promise.all(productsId.map((id) => this.productsApiService.delete(token, id)));
+		if (this.productsIds.length > 0) {
+			await Promise.all(this.productsIds.map((id) => this.productsApiService.delete(token, id)));
 		}
 
-		if (customersId.length > 0) {
-			await Promise.all(customersId.map((id) => this.customersApiService.delete(id, token)));
+		if (this.customersIds.length > 0) {
+			await Promise.all(this.customersIds.map((id) => this.customersApiService.delete(id, token)));
 		}
+
+		this.ordersIds.length = 0;
+		this.productsIds.length = 0;
+		this.customersIds.length = 0;
 	}
 
-	async collectIdsForDeletion(
-		order: IOrderFromResponse,
-		ordersArray: string[],
-		customersArray: string[],
-		productsArray: string[],
-	) {
-		ordersArray.push(order._id);
-		customersArray.push(order.customer._id);
-		order.products.forEach((product) => productsArray.push(product._id));
+	collectIdsForDeletion(order: IOrderFromResponse) {
+		this.ordersIds.push(order._id);
+		this.customersIds.push(order.customer._id);
+		order.products.forEach((product) => this.productsIds.push(product._id));
+	}
+
+	async deleteComment(token: string, commentId: string, orderId: string) {
+		const deleted = await this.ordersApi.deleteCommentFromOrder(orderId, commentId, token);
+		validateResponse(deleted, {
+			status: STATUS_CODES.DELETED,
+		});
+
+		return deleted;
+	}
+
+	async addComment(token: string, commentId: string, orderId: string) {
+		const created = await this.ordersApi.addCommentToOrder(orderId, commentId, token);
+		validateResponse(created, {
+			status: STATUS_CODES.OK,
+		});
+
+		return created;
 	}
 }

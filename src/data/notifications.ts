@@ -5,6 +5,7 @@ export enum NOTIFICATIONS {
 	CREATED_FAIL_BAD_REQUEST = "CREATED_FAIL_BAD_REQUEST",
 	CREATED_FAIL_INCORRET_REQUEST_BODY = "Incorrect request body",
 	CUSTOMER_CREATED = "Customer was successfully created",
+	COMMENT_WAS_NOT_FOUND = "Comment was not found",
 }
 
 export const ERROR_MESSAGES = {
@@ -20,4 +21,9 @@ export const ERROR_MESSAGES = {
 	INVALID_DELIVERY_DATE: "Invalid final date",
 	INVALID_ORDER_STATUS: "Invalid order status",
 	NOT_AUTHORIZED: "Not authorized",
+	INVALID_ARGUMENT: "Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer",
+	ORDERID_NOT_FOUND: `Order with id 'undefined' wasn't found`,
+	INCORRECT_REQUEST_BODY: "Incorrect request body",
+	CANT_PROCESS_ORDER_WITHOUT_DELIVERY: "Can't process order. Please, schedule delivery",
+	CANT_REOPEN_NOT_CANCELLED: "Can't reopen not canceled order",
 };
