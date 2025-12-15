@@ -3,10 +3,10 @@ import { apiConfig } from "config/apiConfig";
 import {
 	IOrderResponse,
 	IOrder,
-	IOrderDelivery,
 	OrderStatus,
 	ICustomerOrdersResponse,
 	IGetOrdersQuery,
+	IDelivery,
 } from "data/types/order.types";
 import { convertRequestParams } from "utils/queryParams.utils";
 
