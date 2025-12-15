@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 18:43:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-PotxWDNXOffwNk40/jPbkr4bKUg\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694056c21c508c5d5eca0cbf",
+        "email": "Hank40@gmail.com",
+        "name": "Marty Simonis",
+        "country": "Canada",
+        "city": "North Keatonview",
+        "street": "Beech Grove",
+        "house": 20,
+        "flat": 605,
+        "phone": "+19907312443",
+        "createdOn": "2025-12-15T18:43:14.000Z",
+        "notes": "d3Qtd2z0F69JAWOBSWlgZDGl1AIz7Y0VvsDaQO1rdnx0yXWwrvw34DnvsVHygu8gClS0hl60nyKT8vJT2FrfL0as1BQa8be7FSpEreKsPVdyU68W6aEA7RRJTiiSbFJqXFqS73Xjnjl4BnEvLU7ey04qEtySQI5cwkrbnt97YYAjiCMvzY8L5QQOrKOGQuc6nD9IQhxfDCH1GxofizxUMxphnDgh5VuEeYxsAENAkakao8Y5wt2E0McdtL"
+      },
+      "products": [
+        {
+          "_id": "694056c21c508c5d5eca0ce1",
+          "name": "Gloves44033",
+          "amount": 955,
+          "price": 19694,
+          "manufacturer": "Amazon",
+          "notes": "kM5UQinpa5c32wbm6kdBPGpGiYszzv0XIb1DKkliZK3ZlOIrsDr1CwI9Johyl0WRJ2SWSfwC3yhEFHttNOlAWzrFksxHwwK74eLXn74EMch6SZGi2uUDZ7weSeCgxjidIMs5eu2QB1E4tO2h3zZdrCKaQcFxLhooDzj62KyhuOqZ90aI4lbAwhGHFwoN8LoGPLjYfou2HfBLmoJpy0TAf4EVWTpViVnsqYrYMWnzdfcJIOiv9W9IdMShBp",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 19694,
+      "createdOn": "2025-12-15T18:43:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694056c21c508c5d5eca0cbf",
+          "products": [
+            {
+              "_id": "694056c21c508c5d5eca0ce1",
+              "name": "Gloves44033",
+              "amount": 955,
+              "price": 19694,
+              "manufacturer": "Amazon",
+              "notes": "kM5UQinpa5c32wbm6kdBPGpGiYszzv0XIb1DKkliZK3ZlOIrsDr1CwI9Johyl0WRJ2SWSfwC3yhEFHttNOlAWzrFksxHwwK74eLXn74EMch6SZGi2uUDZ7weSeCgxjidIMs5eu2QB1E4tO2h3zZdrCKaQcFxLhooDzj62KyhuOqZ90aI4lbAwhGHFwoN8LoGPLjYfou2HfBLmoJpy0TAf4EVWTpViVnsqYrYMWnzdfcJIOiv9W9IdMShBp",
+              "received": false
+            }
+          ],
+          "total_price": 19694,
+          "delivery": null,
+          "changedOn": "2025-12-15T18:43:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694056c21c508c5d5eca0cf9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
