@@ -3,6 +3,7 @@ import { TAGS } from "data/tags";
 import { Flow } from "flows/flows.js";
 import { validateResponse } from "utils/validation/validateResponse.utils.js";
 import { STATUS_CODES } from "data/statusCodes.js";
+import { IOrder } from "data/types/order.types.js";
 
 test.describe("Create order", () => {
 	let token = "";
@@ -49,7 +50,8 @@ test.describe("Create order", () => {
 	});
 
 	test("create order with empty body", { tag: TAGS.API }, async ({ ordersApi }) => {
-		const response = await ordersApi.create({}, token);
+		const invalidBody = {} as unknown as IOrder;
+		const response = await ordersApi.create(invalidBody, token);
 
 		validateResponse(response, {
 			status: STATUS_CODES.BAD_REQUEST,
