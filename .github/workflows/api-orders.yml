@@ -40,7 +40,7 @@ jobs:
                   USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
                   TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
                   TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-              run: npm run test:api-oorders
+              run: npm run test:api-orders
               continue-on-error: true
 
             # Create Allure report
