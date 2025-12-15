@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 18:46:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-vr8mmZpJR5UJEAOr/8X2UaWXMlc\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694057861c508c5d5eca1b0b",
+        "email": "Daphne13@gmail.com",
+        "name": "Allison Runte",
+        "country": "Germany",
+        "city": "Fort Andrewcester",
+        "street": "Hills Curve",
+        "house": 1,
+        "flat": 1,
+        "phone": "+17289166984",
+        "createdOn": "2025-12-15T18:46:30.000Z",
+        "notes": "eqecSomGQsacLkDBgbaO0oimiFNCe5iwkArT03tfryX87KJ3jpA4fX2oaO78J05NaZgcPWQQse2l3EYLRyaSjPeDXjiOUBCsYWBvArS6lQF073fuQzEODZm6raMDqYZ0kXkfyY887VwmFZve0C2Xy56gagecDFr7S3fFU1zTCW8QogiiyyjKqnbUAYkBGtFEI5bS4MRvR9kmEJcf0wbKwJNxHYpJiyuYdYWEFnBP785GMCuVkTs66lPEpJ"
+      },
+      "products": [
+        {
+          "_id": "694057861c508c5d5eca1b27",
+          "name": "Keyboard56888",
+          "amount": 627,
+          "price": 5145,
+          "manufacturer": "Amazon",
+          "notes": "BiskR0eOfMEeO7H7KkZuc9k7dLEJpCMOs2IArdCuQeYx6wNymsZeFyGYTMHborAogoj5Kkske8Ou3cwiGlMoRu4KMVa3QU6E6TYveI18xrRtzt4YeDIzd7bItbowklP1Q8yWJ0bossnVwXYg32mJbWBuwagwQdFk29S7d1N9e1qLG5FbXJUBpSwrqOlqIvAgZYCxCH4MRZK4F4pirq5rw2MYOIbrkFHfThGb94e0wlyzz27jI6Rfph9Cqo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 5145,
+      "createdOn": "2025-12-15T18:46:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694057861c508c5d5eca1b0b",
+          "products": [
+            {
+              "_id": "694057861c508c5d5eca1b27",
+              "name": "Keyboard56888",
+              "amount": 627,
+              "price": 5145,
+              "manufacturer": "Amazon",
+              "notes": "BiskR0eOfMEeO7H7KkZuc9k7dLEJpCMOs2IArdCuQeYx6wNymsZeFyGYTMHborAogoj5Kkske8Ou3cwiGlMoRu4KMVa3QU6E6TYveI18xrRtzt4YeDIzd7bItbowklP1Q8yWJ0bossnVwXYg32mJbWBuwagwQdFk29S7d1N9e1qLG5FbXJUBpSwrqOlqIvAgZYCxCH4MRZK4F4pirq5rw2MYOIbrkFHfThGb94e0wlyzz27jI6Rfph9Cqo",
+              "received": false
+            }
+          ],
+          "total_price": 5145,
+          "delivery": null,
+          "changedOn": "2025-12-15T18:46:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694057861c508c5d5eca1b62"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

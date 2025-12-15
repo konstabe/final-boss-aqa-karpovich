@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 18:46:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-8LVka1QuQ8JD7IIyNkxtzK5lFmc\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694057861c508c5d5eca1af8",
+        "email": "Clyde_Kub66@hotmail.com",
+        "name": "Mattie Sipes",
+        "country": "Belarus",
+        "city": "South Natashafurt",
+        "street": "Main Street E",
+        "house": 25,
+        "flat": 493,
+        "phone": "+14175051839",
+        "createdOn": "2025-12-15T18:46:30.000Z",
+        "notes": "cp23p7hda6csMKbsZ5mNqguD5t55y2qFXHAod09fjrYj4xppS88KAKMrH0N8qiiV8YXmKHqnJnkcz2SdqCgOaT7MiXrsPgN3XCPCV04mprKMQHAKWzKNUv7F0MNPCYVzgCIsm0FSrkogcmI6G2vlz53TNyyOhFfFd9oeEVdwIEoRrAMY3ym2BgsNsmsX2pSpVgJruYqM69HBjIekzsHCLrCr6F3sKCXvLb1w3ryNYuYd0ZCRE1SiFmftU6"
+      },
+      "products": [
+        {
+          "_id": "694057861c508c5d5eca1b21",
+          "name": "Pizza5395",
+          "amount": 878,
+          "price": 67019,
+          "manufacturer": "Amazon",
+          "notes": "3KPL7WlEHrC6oVvIhaVfS24QDjyozvPChFGFKGTHWwKyVrBikbWjNMluxDgeokBzbHCX1A79UOXFZ4cwxgreJD6RPUraK25XJKubeRYulirrXVNppQBLqaFocEG0gaVMe7RcVU53JYslh7Gi532MwncKuLJfHAqoft0dsC9kXrdKdHzFd0KQ5fcmPTMbGWSZl0mTCa95087xUZBCe8F0ZmQCkXXH7gyil5WuPhN2V5AWutC6huJvq8lUrr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 67019,
+      "createdOn": "2025-12-15T18:46:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694057861c508c5d5eca1af8",
+          "products": [
+            {
+              "_id": "694057861c508c5d5eca1b21",
+              "name": "Pizza5395",
+              "amount": 878,
+              "price": 67019,
+              "manufacturer": "Amazon",
+              "notes": "3KPL7WlEHrC6oVvIhaVfS24QDjyozvPChFGFKGTHWwKyVrBikbWjNMluxDgeokBzbHCX1A79UOXFZ4cwxgreJD6RPUraK25XJKubeRYulirrXVNppQBLqaFocEG0gaVMe7RcVU53JYslh7Gi532MwncKuLJfHAqoft0dsC9kXrdKdHzFd0KQ5fcmPTMbGWSZl0mTCa95087xUZBCe8F0ZmQCkXXH7gyil5WuPhN2V5AWutC6huJvq8lUrr",
+              "received": false
+            }
+          ],
+          "total_price": 67019,
+          "delivery": null,
+          "changedOn": "2025-12-15T18:46:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694057861c508c5d5eca1b56"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
