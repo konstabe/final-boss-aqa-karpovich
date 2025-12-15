@@ -238,4 +238,22 @@ export class OrdersApiService {
 		this.customersIds.push(order.customer._id);
 		order.products.forEach((product) => this.productsIds.push(product._id));
 	}
+
+	async deleteComment(token: string, commentId: string, orderId: string) {
+		const deleted = await this.ordersApi.deleteCommentFromOrder(orderId, commentId, token);
+		validateResponse(deleted, {
+			status: STATUS_CODES.DELETED,
+		});
+
+		return deleted;
+	}
+
+	async addComment(token: string, commentId: string, orderId: string) {
+		const created = await this.ordersApi.addCommentToOrder(orderId, commentId, token);
+		validateResponse(created, {
+			status: STATUS_CODES.OK,
+		});
+
+		return created;
+	}
 }

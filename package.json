@@ -5,6 +5,10 @@
   "scripts": {
     "test": "npx playwright test",
     "test:api": "npm run test -- --project=sales-portal-api",
+    "test:api-smoke": "npm run test -- --project=sales-portal-api --grep @smoke",
+    "test:api-products": "npm run test -- --project=sales-portal-api --grep @product",
+    "test:api-customers": "npm run test -- --project=sales-portal-api --grep @customer",
+    "test:api-orders": "npm run test -- --project=sales-portal-api --grep @order",
     "ui-mode": "npx playwright test --ui",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",

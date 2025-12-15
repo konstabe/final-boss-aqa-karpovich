@@ -8,22 +8,26 @@
  *          returns an empty string.
  */
 
-export function convertRequestParams<T extends Record<string, string | number | Array<string | number>>>(params: T) {
-	if (!params) return "";
+type QueryPrimitive = string | number;
+type QueryValue = QueryPrimitive | QueryPrimitive[] | undefined | null;
 
+export function convertRequestParams<T extends object>(params: T): string {
 	const searchParams = new URLSearchParams();
 
-	for (const key of Object.keys(params)) {
-		const value = params[key];
+	for (const [key, value] of Object.entries(params)) {
+		const v = value as QueryValue;
 
-		if (Array.isArray(value)) {
-			for (const v of value) {
-				searchParams.append(key, String(v));
+		if (v === null || v === undefined) continue;
+
+		if (Array.isArray(v)) {
+			for (const item of v) {
+				searchParams.append(key, String(item));
 			}
 		} else {
-			searchParams.append(key, String(value));
+			searchParams.append(key, String(v));
 		}
 	}
 
-	return `?${searchParams.toString()}`;
+	const queryString = searchParams.toString();
+	return queryString ? `?${queryString}` : "";
 }

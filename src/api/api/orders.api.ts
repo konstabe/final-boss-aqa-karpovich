@@ -1,6 +1,14 @@
 import { IApiClient, IRequestOptions } from "api/core/types";
 import { apiConfig } from "config/apiConfig";
-import { IOrderResponse, IOrder, IOrderDelivery, OrderStatus } from "data/types/order.types";
+import {
+	IOrderResponse,
+	IOrder,
+	IOrderDelivery,
+	OrderStatus,
+	ICustomerOrdersResponse,
+	IGetOrdersQuery,
+} from "data/types/order.types";
+import { convertRequestParams } from "utils/queryParams.utils";
 
 export class OrdersApi {
 	constructor(private apiClient: IApiClient) {}
@@ -32,6 +40,20 @@ export class OrdersApi {
 		};
 
 		return await this.apiClient.send<IOrderResponse>(options);
+	}
+
+	async get(token: string, params?: IGetOrdersQuery) {
+		const options: IRequestOptions = {
+			baseURL: apiConfig.baseUrl!,
+			url: apiConfig.endpoints.orders + (params ? convertRequestParams(params) : ""),
+			method: "get",
+			headers: {
+				"content-type": "application/json",
+				Authorization: `Bearer ${token}`,
+			},
+		};
+
+		return await this.apiClient.send<ICustomerOrdersResponse>(options);
 	}
 
 	async update(id: string, newOrder: IOrder, token: string) {
