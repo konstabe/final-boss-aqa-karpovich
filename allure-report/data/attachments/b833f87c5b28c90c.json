@@ -1,0 +1,187 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 19:51:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5295",
+    "etag": "W/\"14af-wEGE+8DTuvKxjitbDlmCD4d0zU0\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694066a51c508c5d5eca581a",
+      "status": "Draft",
+      "customer": {
+        "_id": "694066a21c508c5d5eca5693",
+        "email": "Maximus.Kohler38@yahoo.com",
+        "name": "Leanna Cruickshank",
+        "country": "Great Britain",
+        "city": "Cranston",
+        "street": "N Center Street",
+        "house": 10,
+        "flat": 960,
+        "phone": "+12008461871",
+        "createdOn": "2025-12-15T19:50:58.000Z",
+        "notes": "JSo62AnZBXqAKEeDMq05WpbNYds7ob8s3qeJjlqvFzVKaQz6Eh0tyPZISdtnOyGBSehv3dowNgFc7nkQiNhXzSb0Q1TRfSn7ici7D2ETwAU8YL9quGvnOxwhfVNky54O9oXVmmO78gr2gRy1onYHu1z5qSOXQMn3OCFGrCOJM08svgpPSUhfT7MdoqEcotnUuwjdpXZhkARj5BH3vC0gqDVElijQZATg8fI3LVc1mtyv1PtCBvOcaBOxIm"
+      },
+      "products": [
+        {
+          "_id": "694066a21c508c5d5eca56b8",
+          "name": "Gloves52229",
+          "amount": 774,
+          "price": 46118,
+          "manufacturer": "Xiaomi",
+          "notes": "LgE2NKrFuO3acYO76Dz3JeI1XyuUtsROHMBahJumKZX63HxrWMH9Eg8tSVCerMLRZqCXvXvrYZPRu73jxfcNv5xgYzBKtY0GPeZAe3JrQQnN2acTrVWd5bYr2aS7qCsSI0E1uYrUd1ZlufDxYLuDBTpjGtNzMcABoZdDHQ8wYeK2UjF7tHAWHKnk80dHTHuDvObuJTiLlQGlQdAXixLeQgelr8bE79zosi3XmMMCgBpdyqSUmJRer67Pr1",
+          "received": false
+        },
+        {
+          "_id": "694066a31c508c5d5eca56d2",
+          "name": "Sausages64373",
+          "amount": 885,
+          "price": 46106,
+          "manufacturer": "Tesla",
+          "notes": "6r8e8q5VWAy0NmVJ41igzQj4k3YO7X8Q1fce4Y6k3ea0l1E490ZU2EPekGs0Payhl9zlPVKPpPGPRrI6U5yJmLvilAbJclRXWpFiSoSoAaHjYNPnzBQ3cCRyorr3eTLXfWD8JRzKbv6eC0sE9rz3GNtwcyRVkty43sw0qZUrgP30mwOJdyMvgEA1y6ELSPNnNXPPVDL2sPzZExmT40FrfAWHmEP5e6dVd21D4TJXOX7MFPeLaWiXSrXWnf",
+          "received": false
+        },
+        {
+          "_id": "694066a31c508c5d5eca56fb",
+          "name": "Towels14598",
+          "amount": 154,
+          "price": 55149,
+          "manufacturer": "Tesla",
+          "notes": "p6TzfQLgTVIymhor7wQAcxBpmoImcG554NyfmT8pmT9u4E6owWuAmXZetlYjxNJncwfnKAnnaHW00rsw3osaVuqB0fX0R3UqMZLvc7d4SOjaRTs2MOwzxk3t5BdscqqPgxQw9cAKVH3tOpkEweupjtb0voteDkRwWh5I7ujeQQgpFPkFe9VEQNE6oTBKyxXfPjBhACe6XplwePqrDdF9OPNEmqaW05sIikKUpEcibrzjLQCY4qcGJp2s9t",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Cranston",
+          "street": "N Center Street",
+          "house": 10,
+          "flat": 960
+        },
+        "finalDate": "2025-12-17T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 147373,
+      "createdOn": "2025-12-15T19:51:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694066a21c508c5d5eca5693",
+          "products": [
+            {
+              "_id": "694066a21c508c5d5eca56b8",
+              "name": "Gloves52229",
+              "amount": 774,
+              "price": 46118,
+              "manufacturer": "Xiaomi",
+              "notes": "LgE2NKrFuO3acYO76Dz3JeI1XyuUtsROHMBahJumKZX63HxrWMH9Eg8tSVCerMLRZqCXvXvrYZPRu73jxfcNv5xgYzBKtY0GPeZAe3JrQQnN2acTrVWd5bYr2aS7qCsSI0E1uYrUd1ZlufDxYLuDBTpjGtNzMcABoZdDHQ8wYeK2UjF7tHAWHKnk80dHTHuDvObuJTiLlQGlQdAXixLeQgelr8bE79zosi3XmMMCgBpdyqSUmJRer67Pr1",
+              "received": false
+            },
+            {
+              "_id": "694066a31c508c5d5eca56d2",
+              "name": "Sausages64373",
+              "amount": 885,
+              "price": 46106,
+              "manufacturer": "Tesla",
+              "notes": "6r8e8q5VWAy0NmVJ41igzQj4k3YO7X8Q1fce4Y6k3ea0l1E490ZU2EPekGs0Payhl9zlPVKPpPGPRrI6U5yJmLvilAbJclRXWpFiSoSoAaHjYNPnzBQ3cCRyorr3eTLXfWD8JRzKbv6eC0sE9rz3GNtwcyRVkty43sw0qZUrgP30mwOJdyMvgEA1y6ELSPNnNXPPVDL2sPzZExmT40FrfAWHmEP5e6dVd21D4TJXOX7MFPeLaWiXSrXWnf",
+              "received": false
+            },
+            {
+              "_id": "694066a31c508c5d5eca56fb",
+              "name": "Towels14598",
+              "amount": 154,
+              "price": 55149,
+              "manufacturer": "Tesla",
+              "notes": "p6TzfQLgTVIymhor7wQAcxBpmoImcG554NyfmT8pmT9u4E6owWuAmXZetlYjxNJncwfnKAnnaHW00rsw3osaVuqB0fX0R3UqMZLvc7d4SOjaRTs2MOwzxk3t5BdscqqPgxQw9cAKVH3tOpkEweupjtb0voteDkRwWh5I7ujeQQgpFPkFe9VEQNE6oTBKyxXfPjBhACe6XplwePqrDdF9OPNEmqaW05sIikKUpEcibrzjLQCY4qcGJp2s9t",
+              "received": false
+            }
+          ],
+          "total_price": 147373,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Cranston",
+              "street": "N Center Street",
+              "house": 10,
+              "flat": 960
+            },
+            "finalDate": "2025-12-17T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T19:51:02.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694066a21c508c5d5eca5693",
+          "products": [
+            {
+              "_id": "694066a21c508c5d5eca56b8",
+              "name": "Gloves52229",
+              "amount": 774,
+              "price": 46118,
+              "manufacturer": "Xiaomi",
+              "notes": "LgE2NKrFuO3acYO76Dz3JeI1XyuUtsROHMBahJumKZX63HxrWMH9Eg8tSVCerMLRZqCXvXvrYZPRu73jxfcNv5xgYzBKtY0GPeZAe3JrQQnN2acTrVWd5bYr2aS7qCsSI0E1uYrUd1ZlufDxYLuDBTpjGtNzMcABoZdDHQ8wYeK2UjF7tHAWHKnk80dHTHuDvObuJTiLlQGlQdAXixLeQgelr8bE79zosi3XmMMCgBpdyqSUmJRer67Pr1",
+              "received": false
+            },
+            {
+              "_id": "694066a31c508c5d5eca56d2",
+              "name": "Sausages64373",
+              "amount": 885,
+              "price": 46106,
+              "manufacturer": "Tesla",
+              "notes": "6r8e8q5VWAy0NmVJ41igzQj4k3YO7X8Q1fce4Y6k3ea0l1E490ZU2EPekGs0Payhl9zlPVKPpPGPRrI6U5yJmLvilAbJclRXWpFiSoSoAaHjYNPnzBQ3cCRyorr3eTLXfWD8JRzKbv6eC0sE9rz3GNtwcyRVkty43sw0qZUrgP30mwOJdyMvgEA1y6ELSPNnNXPPVDL2sPzZExmT40FrfAWHmEP5e6dVd21D4TJXOX7MFPeLaWiXSrXWnf",
+              "received": false
+            },
+            {
+              "_id": "694066a31c508c5d5eca56fb",
+              "name": "Towels14598",
+              "amount": 154,
+              "price": 55149,
+              "manufacturer": "Tesla",
+              "notes": "p6TzfQLgTVIymhor7wQAcxBpmoImcG554NyfmT8pmT9u4E6owWuAmXZetlYjxNJncwfnKAnnaHW00rsw3osaVuqB0fX0R3UqMZLvc7d4SOjaRTs2MOwzxk3t5BdscqqPgxQw9cAKVH3tOpkEweupjtb0voteDkRwWh5I7ujeQQgpFPkFe9VEQNE6oTBKyxXfPjBhACe6XplwePqrDdF9OPNEmqaW05sIikKUpEcibrzjLQCY4qcGJp2s9t",
+              "received": false
+            }
+          ],
+          "total_price": 147373,
+          "delivery": null,
+          "changedOn": "2025-12-15T19:51:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

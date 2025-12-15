@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 19:51:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4834",
+    "etag": "W/\"12e2-DdN8O3bo72NRpI42ERUsbWFdhCM\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694066a31c508c5d5eca56f1",
+      "status": "Received",
+      "customer": {
+        "_id": "694066a21c508c5d5eca5697",
+        "email": "Colin.Cole15@gmail.com",
+        "name": "Tia Pfeffer",
+        "country": "France",
+        "city": "New Richardbury",
+        "street": "Euclid Avenue",
+        "house": 26,
+        "flat": 198,
+        "phone": "+13543504546",
+        "createdOn": "2025-12-15T19:50:58.000Z",
+        "notes": "X9VWfxKyLS1DXisp40Y4m5iWdSFlt72KjJKqm4tM2ngKReArLBmEWAqiSU3tVEHF4AAeDWRXLZQvXlb17GZqvXKdScFBs56zA61yyOfmaJMTgxJtr9JAqXkqPFU8pG8gbZQlHD5XzRfwBrUzCbUDO4bWYVC7DEIrtxoDeaV0JqfX0jD8UNgw7CA1JK5TKFS8gP3ZOfa5wucXP85EfVWgmvlIZ2H5Ejeatig7jmWglUne0U9zTMoAY8v990"
+      },
+      "products": [
+        {
+          "_id": "694066a21c508c5d5eca56c0",
+          "name": "Sausages11260",
+          "amount": 730,
+          "price": 23007,
+          "manufacturer": "Samsung",
+          "notes": "nHwfuptRcuamRA4hMamI5wBUTsSGH8znrqerwSiFsbH3rTYPn5uekBcgwRFfpjHC1Ua28rYDyYytXlTFsNvmniGRFooWBO8lSDeFZPgE4luAE2LwxwboLY6SZjUueNtn3kPUvyVlSlgLG4PC8Iw9VOAMM10TIRYpVfvqbP6yl2OiuucsvQ6nOAocXbZ35o1fQmcSWacoJrM30ZV299f5U5QR0WoZHO3lTfOq74r3ETwwRH3fKDaI23Pzhr",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "New Richardbury",
+          "street": "Euclid Avenue",
+          "house": 26,
+          "flat": 198
+        },
+        "finalDate": "2025-12-16T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 23007,
+      "createdOn": "2025-12-15T19:50:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694066a21c508c5d5eca5697",
+          "products": [
+            {
+              "_id": "694066a21c508c5d5eca56c0",
+              "name": "Sausages11260",
+              "amount": 730,
+              "price": 23007,
+              "manufacturer": "Samsung",
+              "notes": "nHwfuptRcuamRA4hMamI5wBUTsSGH8znrqerwSiFsbH3rTYPn5uekBcgwRFfpjHC1Ua28rYDyYytXlTFsNvmniGRFooWBO8lSDeFZPgE4luAE2LwxwboLY6SZjUueNtn3kPUvyVlSlgLG4PC8Iw9VOAMM10TIRYpVfvqbP6yl2OiuucsvQ6nOAocXbZ35o1fQmcSWacoJrM30ZV299f5U5QR0WoZHO3lTfOq74r3ETwwRH3fKDaI23Pzhr",
+              "received": true
+            }
+          ],
+          "total_price": 23007,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "New Richardbury",
+              "street": "Euclid Avenue",
+              "house": 26,
+              "flat": 198
+            },
+            "finalDate": "2025-12-16T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T19:51:03.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694066a21c508c5d5eca5697",
+          "products": [
+            {
+              "_id": "694066a21c508c5d5eca56c0",
+              "name": "Sausages11260",
+              "amount": 730,
+              "price": 23007,
+              "manufacturer": "Samsung",
+              "notes": "nHwfuptRcuamRA4hMamI5wBUTsSGH8znrqerwSiFsbH3rTYPn5uekBcgwRFfpjHC1Ua28rYDyYytXlTFsNvmniGRFooWBO8lSDeFZPgE4luAE2LwxwboLY6SZjUueNtn3kPUvyVlSlgLG4PC8Iw9VOAMM10TIRYpVfvqbP6yl2OiuucsvQ6nOAocXbZ35o1fQmcSWacoJrM30ZV299f5U5QR0WoZHO3lTfOq74r3ETwwRH3fKDaI23Pzhr",
+              "received": false
+            }
+          ],
+          "total_price": 23007,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "New Richardbury",
+              "street": "Euclid Avenue",
+              "house": 26,
+              "flat": 198
+            },
+            "finalDate": "2025-12-16T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T19:51:02.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694066a21c508c5d5eca5697",
+          "products": [
+            {
+              "_id": "694066a21c508c5d5eca56c0",
+              "name": "Sausages11260",
+              "amount": 730,
+              "price": 23007,
+              "manufacturer": "Samsung",
+              "notes": "nHwfuptRcuamRA4hMamI5wBUTsSGH8znrqerwSiFsbH3rTYPn5uekBcgwRFfpjHC1Ua28rYDyYytXlTFsNvmniGRFooWBO8lSDeFZPgE4luAE2LwxwboLY6SZjUueNtn3kPUvyVlSlgLG4PC8Iw9VOAMM10TIRYpVfvqbP6yl2OiuucsvQ6nOAocXbZ35o1fQmcSWacoJrM30ZV299f5U5QR0WoZHO3lTfOq74r3ETwwRH3fKDaI23Pzhr",
+              "received": false
+            }
+          ],
+          "total_price": 23007,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "New Richardbury",
+              "street": "Euclid Avenue",
+              "house": 26,
+              "flat": 198
+            },
+            "finalDate": "2025-12-16T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-15T19:51:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694066a21c508c5d5eca5697",
+          "products": [
+            {
+              "_id": "694066a21c508c5d5eca56c0",
+              "name": "Sausages11260",
+              "amount": 730,
+              "price": 23007,
+              "manufacturer": "Samsung",
+              "notes": "nHwfuptRcuamRA4hMamI5wBUTsSGH8znrqerwSiFsbH3rTYPn5uekBcgwRFfpjHC1Ua28rYDyYytXlTFsNvmniGRFooWBO8lSDeFZPgE4luAE2LwxwboLY6SZjUueNtn3kPUvyVlSlgLG4PC8Iw9VOAMM10TIRYpVfvqbP6yl2OiuucsvQ6nOAocXbZ35o1fQmcSWacoJrM30ZV299f5U5QR0WoZHO3lTfOq74r3ETwwRH3fKDaI23Pzhr",
+              "received": false
+            }
+          ],
+          "total_price": 23007,
+          "delivery": null,
+          "changedOn": "2025-12-15T19:50:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
