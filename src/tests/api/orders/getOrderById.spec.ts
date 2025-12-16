@@ -30,8 +30,8 @@ test.describe("[API] [Sales Portal] [Orders] [Get Oreder By Id]", () => {
 		id_order = createOrderForCustomer.body.Order._id;
 	});
 
-	test.afterAll(async ({ ordersApiService }) => {
-		await ordersApiService.fullDelete(token, [id_order], [id_customer], [id_product]);
+	test.afterAll(async ({ flow }) => {
+		await flow.cleanup(token, { orderIds: [id_order], productIds: [id_product], customerIds: [id_customer] });
 	});
 
 	test("Get order by valid id", async ({ ordersApi }) => {

@@ -17,16 +17,16 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		token = await loginApiService.loginAsAdmin();
 	});
 
-	test.afterEach(async ({ ordersApiService }) => {
-		await ordersApiService.fullDelete(token, ordersIds, customersIds, productsIds);
+	test.afterEach(async ({ flow }) => {
+		await flow.fullDelete(token, ordersIds, customersIds, productsIds);
 	});
 
 	test.describe("[Update Order Status Positive]", () => {
 		test(
 			"Update status: Draft to In Process with scheduled delivery",
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
-			async ({ ordersApiService, ordersApi }) => {
-				const draftWithDelivery = await ordersApiService.createDraftWithDelivery(token, 3);
+			async ({ flow, ordersApiService, ordersApi }) => {
+				const draftWithDelivery = await flow.createDraftWithDelivery(token, 3);
 				ordersApiService.collectIdsForDeletion(draftWithDelivery, ordersIds, customersIds, productsIds);
 
 				const updatedStatus = await ordersApi.updateOrderStatus(
@@ -49,8 +49,8 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		test(
 			"Update status: Draft to Canceled",
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
-			async ({ ordersApiService, ordersApi }) => {
-				const draft = await ordersApiService.createDraft(token, 4);
+			async ({ flow, ordersApiService, ordersApi }) => {
+				const draft = await flow.createDraft(token, 4);
 				ordersApiService.collectIdsForDeletion(draft, ordersIds, customersIds, productsIds);
 
 				const updatedStatus = await ordersApi.updateOrderStatus(draft._id, ORDER_STATUS.CANCELED, token);
@@ -68,8 +68,8 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		test(
 			"Update status: In Process to Canceled",
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
-			async ({ ordersApiService, ordersApi }) => {
-				const orderInProcess = await ordersApiService.processOrder(token, 2);
+			async ({ flow, ordersApiService, ordersApi }) => {
+				const orderInProcess = await flow.processOrder(token, 2);
 				ordersApiService.collectIdsForDeletion(orderInProcess, ordersIds, customersIds, productsIds);
 
 				const updatedStatus = await ordersApi.updateOrderStatus(
@@ -92,8 +92,8 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		test(
 			"Update status: Canceled to Draft (reopen)",
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
-			async ({ ordersApiService, ordersApi }) => {
-				const canceledOrderInProcess = await ordersApiService.cancelOrderInProgress(token, 1);
+			async ({ flow, ordersApiService, ordersApi }) => {
+				const canceledOrderInProcess = await flow.cancelOrderInProgress(token, 1);
 				ordersApiService.collectIdsForDeletion(canceledOrderInProcess, ordersIds, customersIds, productsIds);
 
 				const updatedStatus = await ordersApi.updateOrderStatus(
@@ -119,8 +119,8 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		test(
 			"Update status: Draft to In Process without scheduled delivery",
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
-			async ({ ordersApiService, ordersApi }) => {
-				const draft = await ordersApiService.createDraft(token, 3);
+			async ({ flow, ordersApiService, ordersApi }) => {
+				const draft = await flow.createDraft(token, 3);
 				ordersApiService.collectIdsForDeletion(draft, ordersIds, customersIds, productsIds);
 
 				const updatedStatus = await ordersApi.updateOrderStatus(draft._id, ORDER_STATUS.IN_PROGRESS, token);
@@ -135,8 +135,8 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		test(
 			"Update status: In Process to Partially Received",
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
-			async ({ ordersApiService, ordersApi }) => {
-				const orderInProcess = await ordersApiService.processOrder(token, 2);
+			async ({ flow, ordersApiService, ordersApi }) => {
+				const orderInProcess = await flow.processOrder(token, 2);
 				ordersApiService.collectIdsForDeletion(orderInProcess, ordersIds, customersIds, productsIds);
 
 				const updatedStatus = await ordersApi.updateOrderStatus(
@@ -155,8 +155,8 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		test(
 			"Update status: In Process to Received",
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
-			async ({ ordersApiService, ordersApi }) => {
-				const orderInProcess = await ordersApiService.processOrder(token, 2);
+			async ({ flow, ordersApiService, ordersApi }) => {
+				const orderInProcess = await flow.processOrder(token, 2);
 				ordersApiService.collectIdsForDeletion(orderInProcess, ordersIds, customersIds, productsIds);
 
 				const updatedStatus = await ordersApi.updateOrderStatus(
@@ -175,8 +175,8 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		test(
 			"Update status: Partially Received to Received",
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
-			async ({ ordersApiService, ordersApi }) => {
-				const orderInProcess = await ordersApiService.processOrder(token, 5);
+			async ({ flow, ordersApiService, ordersApi }) => {
+				const orderInProcess = await flow.processOrder(token, 5);
 				const partiallyReceivedOrder = await ordersApiService.partiallyReceived(token, orderInProcess, 4);
 				ordersApiService.collectIdsForDeletion(partiallyReceivedOrder, ordersIds, customersIds, productsIds);
 
@@ -196,8 +196,8 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		test(
 			"Update status: Draft to In Process with scheduled delivery without authorization token",
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
-			async ({ ordersApiService, ordersApi }) => {
-				const draft = await ordersApiService.createDraft(token, 3);
+			async ({ flow, ordersApiService, ordersApi }) => {
+				const draft = await flow.createDraft(token, 3);
 				ordersApiService.collectIdsForDeletion(draft, ordersIds, customersIds, productsIds);
 
 				const updatedStatus = await ordersApi.updateOrderStatus(draft._id, ORDER_STATUS.IN_PROGRESS, "");
@@ -212,8 +212,8 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		test(
 			"Update status: Draft to In Process with scheduled delivery with invalid token",
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
-			async ({ ordersApiService, ordersApi }) => {
-				const draft = await ordersApiService.createDraft(token, 3);
+			async ({ flow, ordersApiService, ordersApi }) => {
+				const draft = await flow.createDraft(token, 3);
 				ordersApiService.collectIdsForDeletion(draft, ordersIds, customersIds, productsIds);
 
 				const updatedStatus = await ordersApi.updateOrderStatus(
@@ -232,8 +232,8 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		test(
 			"Update status: Draft to In Process with scheduled delivery with empty request body",
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
-			async ({ ordersApiService, ordersApi }) => {
-				const draft = await ordersApiService.createDraft(token, 3);
+			async ({ flow, ordersApiService, ordersApi }) => {
+				const draft = await flow.createDraft(token, 3);
 				ordersApiService.collectIdsForDeletion(draft, ordersIds, customersIds, productsIds);
 
 				const updatedStatus = await ordersApi.updateOrderStatus(draft._id, {} as unknown as OrderStatus, token);
@@ -248,8 +248,8 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		test(
 			"Update status with same current status (Draft to Draft is not allowed)",
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
-			async ({ ordersApiService, ordersApi }) => {
-				const draft = await ordersApiService.createDraft(token, 3);
+			async ({ flow, ordersApiService, ordersApi }) => {
+				const draft = await flow.createDraft(token, 3);
 				ordersApiService.collectIdsForDeletion(draft, ordersIds, customersIds, productsIds);
 
 				const updatedStatus = await ordersApi.updateOrderStatus(draft._id, ORDER_STATUS.DRAFT, token);

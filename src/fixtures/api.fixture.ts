@@ -10,6 +10,7 @@ import { OrdersApi } from "api/api/orders.api";
 import { OrdersApiService } from "api/services/orders.service";
 import { NotificationsApi } from "api/api/notifications.api";
 import { NotificationsService } from "api/services/notifications.service";
+import { Flow } from "flows/flows.js";
 
 export interface IApi {
 	// api
@@ -25,6 +26,7 @@ export interface IApi {
 	customersApiService: CustomersApiService;
 	ordersApiService: OrdersApiService;
 	notificationsApiService: NotificationsService;
+	flow: Flow;
 }
 
 const test = base.extend<IApi>({
@@ -71,11 +73,15 @@ const test = base.extend<IApi>({
 		await use(new CustomersApiService(customersApi));
 	},
 
-	ordersApiService: async ({ ordersApi, customersApiService, productsApiService }, use) => {
-		await use(new OrdersApiService(ordersApi, customersApiService, productsApiService));
+	ordersApiService: async ({ ordersApi }, use) => {
+		await use(new OrdersApiService(ordersApi));
 	},
 	notificationsApiService: async ({ notificationsApi }, use) => {
 		await use(new NotificationsService(notificationsApi));
+	},
+
+	flow: async ({ customersApiService, productsApiService, ordersApiService }, use) => {
+		await use(new Flow(customersApiService, productsApiService, ordersApiService));
 	},
 });
 

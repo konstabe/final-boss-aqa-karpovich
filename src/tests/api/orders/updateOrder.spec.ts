@@ -18,19 +18,19 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		token = await loginApiService.loginAsAdmin();
 	});
 
-	test.afterEach(async ({ ordersApiService }) => {
-		await ordersApiService.fullDelete(token, ordersIds, customersIds, productsIds);
+	test.afterEach(async ({ flow }) => {
+		await flow.cleanup(token, { orderIds: ordersIds, productIds: productsIds, customerIds: customersIds });
 	});
 
 	test.describe("[Update Positive]", () => {
 		test(
 			"Update a draft order with existing customer and existing products",
 			{ tag: [TAGS.API, TAGS.SMOKE, TAGS.REGRESSION] },
-			async ({ ordersApiService, ordersApi }) => {
-				const order = await ordersApiService.createDraft(token, 5);
+			async ({ flow, ordersApiService, ordersApi }) => {
+				const order = await flow.createDraft(token, 5);
 				ordersApiService.collectIdsForDeletion(order, ordersIds, customersIds, productsIds);
 
-				const newOrder = await ordersApiService.createOrderData(token, 3);
+				const newOrder = await flow.createOrderData(token, 3);
 				customersIds.push(newOrder.customer);
 				productsIds.push(...newOrder.products);
 
@@ -59,11 +59,11 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		test(
 			"Update an order without authorization token",
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
-			async ({ ordersApiService, ordersApi }) => {
-				const order = await ordersApiService.createDraft(token, 2);
+			async ({ flow, ordersApiService, ordersApi }) => {
+				const order = await flow.createDraft(token, 2);
 				ordersApiService.collectIdsForDeletion(order, ordersIds, customersIds, productsIds);
 
-				const newOrder = await ordersApiService.createOrderData(token, 5);
+				const newOrder = await flow.createOrderData(token, 5);
 				customersIds.push(newOrder.customer);
 				productsIds.push(...newOrder.products);
 
@@ -79,11 +79,11 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		test(
 			"Update an order with invalid token",
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
-			async ({ ordersApiService, ordersApi }) => {
-				const order = await ordersApiService.createDraft(token, 3);
+			async ({ flow, ordersApiService, ordersApi }) => {
+				const order = await flow.createDraft(token, 3);
 				ordersApiService.collectIdsForDeletion(order, ordersIds, customersIds, productsIds);
 
-				const newOrder = await ordersApiService.createOrderData(token, 2);
+				const newOrder = await flow.createOrderData(token, 2);
 				customersIds.push(newOrder.customer);
 				productsIds.push(...newOrder.products);
 
@@ -99,8 +99,8 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		test(
 			"Update an order with empty request body",
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
-			async ({ ordersApiService, ordersApi }) => {
-				const order = await ordersApiService.createDraft(token, 3);
+			async ({ flow, ordersApiService, ordersApi }) => {
+				const order = await flow.createDraft(token, 3);
 				ordersApiService.collectIdsForDeletion(order, ordersIds, customersIds, productsIds);
 
 				const updatedOrder = await ordersApi.update(order._id, {} as unknown as IOrder, token);
@@ -115,11 +115,11 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 		test(
 			"Update an order in process",
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
-			async ({ ordersApi, ordersApiService }) => {
-				const orderInProcess = await ordersApiService.processOrder(token, 5);
+			async ({ ordersApi, flow, ordersApiService }) => {
+				const orderInProcess = await flow.processOrder(token, 5);
 				ordersApiService.collectIdsForDeletion(orderInProcess, ordersIds, customersIds, productsIds);
 
-				const newOrder = await ordersApiService.createOrderData(token, 3);
+				const newOrder = await flow.createOrderData(token, 3);
 				customersIds.push(newOrder.customer);
 				productsIds.push(...newOrder.products);
 

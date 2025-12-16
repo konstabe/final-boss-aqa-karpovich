@@ -1,5 +1,4 @@
 import { ERROR_MESSAGES, NOTIFICATIONS } from "data/notifications";
-import { generateProductData } from "data/products/generateProductData";
 import { STATUS_CODES } from "data/statusCodes";
 import { expect, test } from "fixtures/api.fixture";
 import { randomString } from "utils/randomStringsGeneration";
@@ -8,21 +7,16 @@ import { validateResponse } from "utils/validation/validateResponse.utils";
 test.describe("[API] [Sales Portal] [Orders] [Comments] [Delete Comment By Id]", () => {
 	let token = "";
 	let idCustomer = "";
-	let idProduct = "";
+	let idProducts: string[] = [];
 	let idOrder = "";
 	let idComment = "";
 
-	test.beforeAll(async ({ loginApiService, customersApiService, productsApi, ordersApiService }) => {
+	test.beforeAll(async ({ loginApiService, flow, ordersApiService }) => {
 		token = await loginApiService.loginAsAdmin();
-		const customer = await customersApiService.create(token);
-		idCustomer = customer._id;
-		const productData = generateProductData();
-		const createdProduct = await productsApi.create(productData, token);
-
-		idProduct = createdProduct.body.Product._id;
-
-		const createOrderForCustomer = await ordersApiService.createDraft(token, 2);
-		idOrder = createOrderForCustomer._id;
+		const createdOrder = await flow.createDraft(token, 2);
+		idCustomer = createdOrder.customer._id;
+		idProducts = createdOrder.products.map((p) => p._id);
+		idOrder = createdOrder._id;
 
 		const comment = await ordersApiService.addComment(token, randomString(75), idOrder);
 		if (comment.body.Order.comments?.[0]?._id) {
@@ -30,8 +24,8 @@ test.describe("[API] [Sales Portal] [Orders] [Comments] [Delete Comment By Id]",
 		}
 	});
 
-	test.afterAll(async ({ ordersApiService }) => {
-		await ordersApiService.fullDelete(token, [idOrder], [idCustomer], [idProduct]);
+	test.afterAll(async ({ flow }) => {
+		await flow.cleanup(token, { orderIds: [idOrder], productIds: idProducts, customerIds: [idCustomer] });
 	});
 
 	test("Delete comment by valid id", async ({ ordersApi }) => {

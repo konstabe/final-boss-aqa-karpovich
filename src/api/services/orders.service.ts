@@ -1,58 +1,14 @@
 import { OrdersApi } from "api/api/orders.api";
-import { IAddress, IOrderDelivery, IOrderFromResponse, IOrderWithCustomerAndProducts } from "data/types/order.types";
-import { validateResponse } from "utils/validation/validateResponse.utils";
-import { CustomersApiService } from "./customers.service";
-import { ProductsApiService } from "./products.service";
+import { ORDER_STATUS } from "data/orders/orderStatus";
+import { orderResponseSchema } from "data/schemas/orders/orderResponse.schema";
 import { STATUS_CODES } from "data/statusCodes";
-import _ from "lodash";
-import { getRandomFutureDate } from "utils/generateData.utils";
+import { IOrder, IOrderDelivery, IOrderFromResponse, OrderStatus } from "data/types/order.types.js";
 import { expect } from "fixtures/api.fixture";
 import { getRandomItemsFromArray } from "utils/getRandom.utils";
-import { orderResponseSchema } from "data/schemas/orders/orderResponse.schema";
-import { IProductFromResponse } from "data/types/product.types";
-import { ORDER_STATUS } from "data/orders/orderStatus";
-import { IOrder } from "data/types/order.types.js";
+import { validateResponse } from "utils/validation/validateResponse.utils";
 
 export class OrdersApiService {
-	constructor(
-		private ordersApi: OrdersApi,
-		private customersApiService: CustomersApiService,
-		private productsApiService: ProductsApiService,
-	) {}
-
-	async createOrderData(token: string, numberOfProducts: number): Promise<IOrderWithCustomerAndProducts> {
-		const customer = await this.customersApiService.create(token);
-
-		const productsIds: string[] = [];
-		const productsData: IProductFromResponse[] = [];
-
-		for (let i = 1; i <= numberOfProducts; i++) {
-			const product = await this.productsApiService.create(token);
-			productsIds.push(product._id);
-			productsData.push(product);
-		}
-
-		return {
-			customer: customer._id,
-			products: productsIds,
-			customerData: customer,
-			productsData: productsData,
-		};
-	}
-
-	async createDraft(token: string, numberOfProducts: number): Promise<IOrderFromResponse> {
-		const { customer, products } = await this.createOrderData(token, numberOfProducts);
-
-		const createdOrder = await this.ordersApi.create({ customer, products }, token);
-		validateResponse(createdOrder, {
-			status: STATUS_CODES.CREATED,
-			schema: orderResponseSchema,
-			IsSuccess: true,
-			ErrorMessage: null,
-		});
-
-		return createdOrder.body.Order;
-	}
+	constructor(private ordersApi: OrdersApi) {}
 
 	async createDraftNew(token: string, order: IOrder): Promise<IOrderFromResponse> {
 		const response = await this.ordersApi.create(order, token);
@@ -65,69 +21,6 @@ export class OrdersApiService {
 		});
 
 		return response.body.Order;
-	}
-
-	async createDraftWithDelivery(token: string, numberOfProducts: number): Promise<IOrderFromResponse> {
-		const order = await this.createDraft(token, numberOfProducts);
-		const deliveryDetails = this.createDeliveryDetails(order);
-		const response = await this.ordersApi.updateDeliveryDetails(order._id, deliveryDetails, token);
-		validateResponse(response, {
-			status: STATUS_CODES.OK,
-			schema: orderResponseSchema, //подставить нужную схему
-			IsSuccess: true,
-			ErrorMessage: null,
-		});
-
-		const orderWithDelivery = response.body.Order;
-
-		if (!orderWithDelivery.delivery) {
-			throw new Error(`createDraftWithDelivery failed: delivery was not set for order ${order._id}`);
-		}
-
-		return orderWithDelivery;
-	}
-
-	private createDeliveryDetails(order: IOrderFromResponse): IOrderDelivery {
-		const address: IAddress = _.pick(order.customer, ["country", "city", "house", "flat", "street"]);
-		return {
-			finalDate: getRandomFutureDate(),
-			condition: "Pickup",
-			address: address,
-		};
-	}
-
-	async processOrder(token: string, numberOfProducts: number): Promise<IOrderFromResponse> {
-		const order = await this.createDraftWithDelivery(token, numberOfProducts);
-		const orderInProcess = await this.ordersApi.updateOrderStatus(order._id, ORDER_STATUS.IN_PROGRESS, token);
-		validateResponse(orderInProcess, {
-			status: STATUS_CODES.OK,
-			schema: orderResponseSchema,
-			IsSuccess: true,
-			ErrorMessage: null,
-		});
-		expect(orderInProcess.body.Order.status).toBe(ORDER_STATUS.IN_PROGRESS);
-
-		return orderInProcess.body.Order;
-	}
-
-	async allReceived(token: string, numberOfProducts: number): Promise<IOrderFromResponse> {
-		const order = await this.processOrder(token, numberOfProducts);
-		const productsId = order.products.map((product) => product._id);
-		const received = await this.ordersApi.markOrdersAsReceived(order._id, productsId, token);
-		validateResponse(received, {
-			status: STATUS_CODES.OK,
-			schema: orderResponseSchema, //подставить нужную схему
-			IsSuccess: true,
-			ErrorMessage: null,
-		});
-		expect(received.body.Order.status).toBe(ORDER_STATUS.RECEIVED);
-		const productsArray = received.body.Order.products;
-		const allReceived = productsArray.every((product) => product.received === true);
-		if (!allReceived) {
-			throw new Error("Not all products were marked as received");
-		}
-
-		return received.body.Order;
 	}
 
 	private getNotReceivedProducts(order: IOrderFromResponse) {
@@ -170,51 +63,6 @@ export class OrdersApiService {
 		return partiallyReceived.body.Order;
 	}
 
-	async orderWithAssignedManager(
-		token: string,
-		numberOfProducts: number,
-		managerId: string,
-	): Promise<IOrderFromResponse> {
-		const order = await this.createDraftWithDelivery(token, numberOfProducts);
-		const assigned = await this.ordersApi.assignManagerToOrder(order._id, managerId, token);
-		validateResponse(assigned, {
-			status: STATUS_CODES.OK,
-			schema: orderResponseSchema, //подставить нужную схему
-			IsSuccess: true,
-			ErrorMessage: null,
-		});
-
-		return assigned.body.Order;
-	}
-
-	async cancelOrderInProgress(token: string, numberOfProducts: number): Promise<IOrderFromResponse> {
-		const order = await this.processOrder(token, numberOfProducts);
-		const changedStatus = await this.ordersApi.updateOrderStatus(order._id, ORDER_STATUS.CANCELED, token);
-		validateResponse(changedStatus, {
-			status: STATUS_CODES.OK,
-			schema: orderResponseSchema, //подставить нужную схему
-			IsSuccess: true,
-			ErrorMessage: null,
-		});
-		expect(changedStatus.body.Order.status).toBe(ORDER_STATUS.CANCELED);
-
-		return changedStatus.body.Order;
-	}
-
-	async reopenOrderInProgress(token: string, numberOfProducts: number): Promise<IOrderFromResponse> {
-		const canceled = await this.cancelOrderInProgress(token, numberOfProducts);
-		const changedStatus = await this.ordersApi.updateOrderStatus(canceled._id, ORDER_STATUS.DRAFT, token);
-		validateResponse(changedStatus, {
-			status: STATUS_CODES.OK,
-			schema: orderResponseSchema, //подставить нужную схему
-			IsSuccess: true,
-			ErrorMessage: null,
-		});
-		expect(changedStatus.body.Order.status).toBe(ORDER_STATUS.DRAFT);
-
-		return changedStatus.body.Order;
-	}
-
 	async deleteOrder(token: string, orderId: string) {
 		const deleted = await this.ordersApi.delete(orderId, token);
 		validateResponse(deleted, {
@@ -222,24 +70,6 @@ export class OrdersApiService {
 		});
 
 		return deleted;
-	}
-
-	async fullDelete(token: string, ordersId: string[], customersId: string[], productsId: string[]) {
-		if (ordersId.length > 0) {
-			await Promise.all(ordersId.map((id) => this.deleteOrder(token, id)));
-		}
-
-		if (productsId.length > 0) {
-			await Promise.all(productsId.map((id) => this.productsApiService.delete(token, id)));
-		}
-
-		if (customersId.length > 0) {
-			await Promise.all(customersId.map((id) => this.customersApiService.delete(id, token)));
-		}
-
-		ordersId.length = 0;
-		productsId.length = 0;
-		customersId.length = 0;
 	}
 
 	async collectIdsForDeletion(
@@ -269,5 +99,57 @@ export class OrdersApiService {
 		});
 
 		return created;
+	}
+
+	async updateDeliveryDetails(
+		orderId: string,
+		deliveryDetails: IOrderDelivery,
+		token: string,
+	): Promise<IOrderFromResponse> {
+		const response = await this.ordersApi.updateDeliveryDetails(orderId, deliveryDetails, token);
+		validateResponse(response, {
+			status: STATUS_CODES.OK,
+			schema: orderResponseSchema,
+			IsSuccess: true,
+			ErrorMessage: null,
+		});
+
+		return response.body.Order;
+	}
+
+	async updateOrderStatus(orderId: string, status: OrderStatus, token: string): Promise<IOrderFromResponse> {
+		const response = await this.ordersApi.updateOrderStatus(orderId, status, token);
+		validateResponse(response, {
+			status: STATUS_CODES.OK,
+			schema: orderResponseSchema,
+			IsSuccess: true,
+			ErrorMessage: null,
+		});
+
+		return response.body.Order;
+	}
+
+	async markOrdersAsReceived(orderId: string, products: string[], token: string): Promise<IOrderFromResponse> {
+		const response = await this.ordersApi.markOrdersAsReceived(orderId, products, token);
+		validateResponse(response, {
+			status: STATUS_CODES.OK,
+			schema: orderResponseSchema,
+			IsSuccess: true,
+			ErrorMessage: null,
+		});
+
+		return response.body.Order;
+	}
+
+	async assignManagerToOrder(orderId: string, managerId: string, token: string): Promise<IOrderFromResponse> {
+		const response = await this.ordersApi.assignManagerToOrder(orderId, managerId, token);
+		validateResponse(response, {
+			status: STATUS_CODES.OK,
+			schema: orderResponseSchema,
+			IsSuccess: true,
+			ErrorMessage: null,
+		});
+
+		return response.body.Order;
 	}
 }

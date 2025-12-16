@@ -16,8 +16,8 @@ test.describe("[API] [Sales Portal] [Orders] [Assign a manager to an order]", ()
 		token = await loginApiService.loginAsAdmin();
 	});
 
-	test.afterEach(async ({ ordersApiService }) => {
-		await ordersApiService.fullDelete(token, idOrders, idCustomers, idProducts);
+	test.afterEach(async ({ flow }) => {
+		await flow.cleanup(token, { orderIds: idOrders, productIds: idProducts, customerIds: idCustomers });
 		idCustomers = [];
 		idProducts = [];
 		idOrders = [];
