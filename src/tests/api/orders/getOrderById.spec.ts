@@ -12,14 +12,17 @@ test.describe("[API] [Sales Portal] [Orders] [Get Oreder By Id]", () => {
 	let id_product = "";
 	let id_order = "";
 
-	test.beforeAll(async ({ loginApiService, customersApiService, productsApi, ordersApi }) => {
+	test.beforeAll(async ({ ordersApiService, loginApiService, customersApiService, productsApi, ordersApi }) => {
 		token = await loginApiService.loginAsAdmin();
 		const customer = await customersApiService.create(token);
 		id_customer = customer._id;
+		ordersApiService.customersIds.push(id_customer);
+
 		const productData = generateProductData();
 		const createdProduct = await productsApi.create(productData, token);
 
 		id_product = createdProduct.body.Product._id;
+		ordersApiService.productsIds.push(id_product);
 
 		const orderData: IOrder = {
 			customer: id_customer,
@@ -28,10 +31,11 @@ test.describe("[API] [Sales Portal] [Orders] [Get Oreder By Id]", () => {
 
 		const createOrderForCustomer = await ordersApi.create(orderData, token);
 		id_order = createOrderForCustomer.body.Order._id;
+		ordersApiService.ordersIds.push(id_order);
 	});
 
 	test.afterAll(async ({ ordersApiService }) => {
-		await ordersApiService.fullDelete(token, [id_order], [id_customer], [id_product]);
+		await ordersApiService.fullDelete(token);
 	});
 
 	test("Get order by valid id", async ({ ordersApi }) => {
