@@ -10,16 +10,13 @@ import { validateResponse } from "utils/validation/validateResponse.utils";
 
 test.describe("[API] [Sales Portal] [Orders]", () => {
 	let token = "";
-	const ordersIds: string[] = [];
-	const customersIds: string[] = [];
-	const productsIds: string[] = [];
 
 	test.beforeAll(async ({ loginApiService }) => {
 		token = await loginApiService.loginAsAdmin();
 	});
 
 	test.afterEach(async ({ ordersApiService }) => {
-		await ordersApiService.fullDelete(token, ordersIds, customersIds, productsIds);
+		await ordersApiService.fullDelete(token);
 	});
 
 	test.describe("[Update Positive]", () => {
@@ -28,11 +25,10 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 			{ tag: [TAGS.API, TAGS.SMOKE, TAGS.REGRESSION] },
 			async ({ ordersApiService, ordersApi }) => {
 				const order = await ordersApiService.createDraft(token, 5);
-				ordersApiService.collectIdsForDeletion(order, ordersIds, customersIds, productsIds);
 
 				const newOrder = await ordersApiService.createOrderData(token, 3);
-				customersIds.push(newOrder.customer);
-				productsIds.push(...newOrder.products);
+				ordersApiService.customersIds.push(newOrder.customer);
+				ordersApiService.productsIds.push(...newOrder.products);
 
 				const updatedOrder = await ordersApi.update(order._id, newOrder, token);
 				validateResponse(updatedOrder, {
@@ -61,11 +57,10 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
 			async ({ ordersApiService, ordersApi }) => {
 				const order = await ordersApiService.createDraft(token, 2);
-				ordersApiService.collectIdsForDeletion(order, ordersIds, customersIds, productsIds);
 
 				const newOrder = await ordersApiService.createOrderData(token, 5);
-				customersIds.push(newOrder.customer);
-				productsIds.push(...newOrder.products);
+				ordersApiService.customersIds.push(newOrder.customer);
+				ordersApiService.productsIds.push(...newOrder.products);
 
 				const updatedOrder = await ordersApi.update(order._id, newOrder, "");
 				validateResponse(updatedOrder, {
@@ -81,11 +76,10 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
 			async ({ ordersApiService, ordersApi }) => {
 				const order = await ordersApiService.createDraft(token, 3);
-				ordersApiService.collectIdsForDeletion(order, ordersIds, customersIds, productsIds);
 
 				const newOrder = await ordersApiService.createOrderData(token, 2);
-				customersIds.push(newOrder.customer);
-				productsIds.push(...newOrder.products);
+				ordersApiService.customersIds.push(newOrder.customer);
+				ordersApiService.productsIds.push(...newOrder.products);
 
 				const updatedOrder = await ordersApi.update(order._id, newOrder, token + "1");
 				validateResponse(updatedOrder, {
@@ -101,7 +95,6 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
 			async ({ ordersApiService, ordersApi }) => {
 				const order = await ordersApiService.createDraft(token, 3);
-				ordersApiService.collectIdsForDeletion(order, ordersIds, customersIds, productsIds);
 
 				const updatedOrder = await ordersApi.update(order._id, {} as unknown as IOrder, token);
 				validateResponse(updatedOrder, {
@@ -117,11 +110,10 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 			{ tag: [TAGS.API, TAGS.REGRESSION] },
 			async ({ ordersApi, ordersApiService }) => {
 				const orderInProcess = await ordersApiService.processOrder(token, 5);
-				ordersApiService.collectIdsForDeletion(orderInProcess, ordersIds, customersIds, productsIds);
 
 				const newOrder = await ordersApiService.createOrderData(token, 3);
-				customersIds.push(newOrder.customer);
-				productsIds.push(...newOrder.products);
+				ordersApiService.customersIds.push(newOrder.customer);
+				ordersApiService.productsIds.push(...newOrder.products);
 
 				const updatedOrder = await ordersApi.update(orderInProcess._id, newOrder, token);
 				validateResponse(updatedOrder, {
