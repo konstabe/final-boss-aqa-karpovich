@@ -1,0 +1,245 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 08:13:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6966",
+    "etag": "W/\"1b36-f8MzKLRvk9eGIENHK9QKwq1Eqjs\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941149d1c508c5d5ecd3807",
+      "status": "In Process",
+      "customer": {
+        "_id": "6941149c1c508c5d5ecd37d3",
+        "email": "Pauline_Mills67@gmail.com",
+        "name": "Madonna Sanford",
+        "country": "Russia",
+        "city": "Justinastead",
+        "street": "Park Crescent",
+        "house": 36,
+        "flat": 521,
+        "phone": "+14639303488",
+        "createdOn": "2025-12-16T08:13:16.000Z",
+        "notes": "QValHQpAOlQs0kEjMpJ1mnxEbMQehaa5dC8sxFEyLReP1ElDfJnp5s2I245c2Hiiu5r8IBKv4RM7upuv41aHMz0lbyev3SD0443leED4CilnGO1H9wzPY07aO2b4rWwRQWYdo0z1yHNINbzQZEugKJDmeemGgfb6K7KOP2sexn3AhgS3jQO0fB00JPpE9bLkBK1SLyvO88JXn38dR0eYw6m9w8K7nlU0yzmKiqfNkTMeAJ9S2JERk6ewXQ"
+      },
+      "products": [
+        {
+          "_id": "6941149c1c508c5d5ecd37df",
+          "name": "Keyboard55661",
+          "amount": 530,
+          "price": 21711,
+          "manufacturer": "Google",
+          "notes": "9Oc1Qu2eDORT59I4w7kyjcmc5mF7mJIoD8fXr2cWbtvhNVVEUltBt1KlMS6Oe4J3aAJURzhsmqDeLOz19FlDmTj4nJS7YETylJbfFhdm2CTEE7gaqRihdZXLpfl4K1jRahhpjYCJdQbtq7pIx9fEUd4PukneLiUyLHRFoCZrGJuBBEkbkotSqf9NFbW1hjiGe6nUK2cEs00n72jtJTfJwLcpjbiHIjvubOBjXjBAwH8WNc2VlduC1jpghc",
+          "received": false
+        },
+        {
+          "_id": "6941149d1c508c5d5ecd37e9",
+          "name": "Car32037",
+          "amount": 376,
+          "price": 24251,
+          "manufacturer": "Tesla",
+          "notes": "Lot3W547SLeyTujBFCWZwXgh8e6esWTaPLzEegMZQMpiYLnMuQpweIOhW9Y5hToepyW11K94dTC8pbiQkkmsEno2eaMqJECDBzh2lUkZwqegDAh1iLRms8e5yAlUgYecXB41Jes0uqzDtdK4WhpejPTlqG2yRkJQW7ORE0BcnVeqb5g67DptHs5E2NDJGxgdMUo3pZ5sjg6ryxDTfyytGTF1arzpoWd54yszALI04GUNWfHjFcR5amgGRR",
+          "received": false
+        },
+        {
+          "_id": "6941149d1c508c5d5ecd37f3",
+          "name": "Shoes44953",
+          "amount": 325,
+          "price": 82904,
+          "manufacturer": "Xiaomi",
+          "notes": "Q3Y3NwREWhizcUNPIjRHsQDfnV6bo7mFghQmFDgN0qS5pKRe6WnodULY6gJyecdX6ueDD8GJOFog8DWuDpKIH1GuDnJu5UgInIEhuEzkpURcTz4YcxEeqcnnfMIzXzcTjvG0U8JAxujkgwPbO41gL2nL86HR44iduLv8nzxDeryQsd6DT5VT20Rfpexta0JlDKjQ9URIeTnSQquxcsmMh9G7fFOkwlMsNMwAo9KaFyI9R6pd7D3Zb5EK1F",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Justinastead",
+          "street": "Park Crescent",
+          "house": 36,
+          "flat": 521
+        },
+        "finalDate": "2025-12-21T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 128866,
+      "createdOn": "2025-12-16T08:13:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6941149c1c508c5d5ecd37d3",
+          "products": [
+            {
+              "_id": "6941149c1c508c5d5ecd37df",
+              "name": "Keyboard55661",
+              "amount": 530,
+              "price": 21711,
+              "manufacturer": "Google",
+              "notes": "9Oc1Qu2eDORT59I4w7kyjcmc5mF7mJIoD8fXr2cWbtvhNVVEUltBt1KlMS6Oe4J3aAJURzhsmqDeLOz19FlDmTj4nJS7YETylJbfFhdm2CTEE7gaqRihdZXLpfl4K1jRahhpjYCJdQbtq7pIx9fEUd4PukneLiUyLHRFoCZrGJuBBEkbkotSqf9NFbW1hjiGe6nUK2cEs00n72jtJTfJwLcpjbiHIjvubOBjXjBAwH8WNc2VlduC1jpghc",
+              "received": false
+            },
+            {
+              "_id": "6941149d1c508c5d5ecd37e9",
+              "name": "Car32037",
+              "amount": 376,
+              "price": 24251,
+              "manufacturer": "Tesla",
+              "notes": "Lot3W547SLeyTujBFCWZwXgh8e6esWTaPLzEegMZQMpiYLnMuQpweIOhW9Y5hToepyW11K94dTC8pbiQkkmsEno2eaMqJECDBzh2lUkZwqegDAh1iLRms8e5yAlUgYecXB41Jes0uqzDtdK4WhpejPTlqG2yRkJQW7ORE0BcnVeqb5g67DptHs5E2NDJGxgdMUo3pZ5sjg6ryxDTfyytGTF1arzpoWd54yszALI04GUNWfHjFcR5amgGRR",
+              "received": false
+            },
+            {
+              "_id": "6941149d1c508c5d5ecd37f3",
+              "name": "Shoes44953",
+              "amount": 325,
+              "price": 82904,
+              "manufacturer": "Xiaomi",
+              "notes": "Q3Y3NwREWhizcUNPIjRHsQDfnV6bo7mFghQmFDgN0qS5pKRe6WnodULY6gJyecdX6ueDD8GJOFog8DWuDpKIH1GuDnJu5UgInIEhuEzkpURcTz4YcxEeqcnnfMIzXzcTjvG0U8JAxujkgwPbO41gL2nL86HR44iduLv8nzxDeryQsd6DT5VT20Rfpexta0JlDKjQ9URIeTnSQquxcsmMh9G7fFOkwlMsNMwAo9KaFyI9R6pd7D3Zb5EK1F",
+              "received": false
+            }
+          ],
+          "total_price": 128866,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Justinastead",
+              "street": "Park Crescent",
+              "house": 36,
+              "flat": 521
+            },
+            "finalDate": "2025-12-21T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T08:13:17.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941149c1c508c5d5ecd37d3",
+          "products": [
+            {
+              "_id": "6941149c1c508c5d5ecd37df",
+              "name": "Keyboard55661",
+              "amount": 530,
+              "price": 21711,
+              "manufacturer": "Google",
+              "notes": "9Oc1Qu2eDORT59I4w7kyjcmc5mF7mJIoD8fXr2cWbtvhNVVEUltBt1KlMS6Oe4J3aAJURzhsmqDeLOz19FlDmTj4nJS7YETylJbfFhdm2CTEE7gaqRihdZXLpfl4K1jRahhpjYCJdQbtq7pIx9fEUd4PukneLiUyLHRFoCZrGJuBBEkbkotSqf9NFbW1hjiGe6nUK2cEs00n72jtJTfJwLcpjbiHIjvubOBjXjBAwH8WNc2VlduC1jpghc",
+              "received": false
+            },
+            {
+              "_id": "6941149d1c508c5d5ecd37e9",
+              "name": "Car32037",
+              "amount": 376,
+              "price": 24251,
+              "manufacturer": "Tesla",
+              "notes": "Lot3W547SLeyTujBFCWZwXgh8e6esWTaPLzEegMZQMpiYLnMuQpweIOhW9Y5hToepyW11K94dTC8pbiQkkmsEno2eaMqJECDBzh2lUkZwqegDAh1iLRms8e5yAlUgYecXB41Jes0uqzDtdK4WhpejPTlqG2yRkJQW7ORE0BcnVeqb5g67DptHs5E2NDJGxgdMUo3pZ5sjg6ryxDTfyytGTF1arzpoWd54yszALI04GUNWfHjFcR5amgGRR",
+              "received": false
+            },
+            {
+              "_id": "6941149d1c508c5d5ecd37f3",
+              "name": "Shoes44953",
+              "amount": 325,
+              "price": 82904,
+              "manufacturer": "Xiaomi",
+              "notes": "Q3Y3NwREWhizcUNPIjRHsQDfnV6bo7mFghQmFDgN0qS5pKRe6WnodULY6gJyecdX6ueDD8GJOFog8DWuDpKIH1GuDnJu5UgInIEhuEzkpURcTz4YcxEeqcnnfMIzXzcTjvG0U8JAxujkgwPbO41gL2nL86HR44iduLv8nzxDeryQsd6DT5VT20Rfpexta0JlDKjQ9URIeTnSQquxcsmMh9G7fFOkwlMsNMwAo9KaFyI9R6pd7D3Zb5EK1F",
+              "received": false
+            }
+          ],
+          "total_price": 128866,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Justinastead",
+              "street": "Park Crescent",
+              "house": 36,
+              "flat": 521
+            },
+            "finalDate": "2025-12-21T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T08:13:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941149c1c508c5d5ecd37d3",
+          "products": [
+            {
+              "_id": "6941149c1c508c5d5ecd37df",
+              "name": "Keyboard55661",
+              "amount": 530,
+              "price": 21711,
+              "manufacturer": "Google",
+              "notes": "9Oc1Qu2eDORT59I4w7kyjcmc5mF7mJIoD8fXr2cWbtvhNVVEUltBt1KlMS6Oe4J3aAJURzhsmqDeLOz19FlDmTj4nJS7YETylJbfFhdm2CTEE7gaqRihdZXLpfl4K1jRahhpjYCJdQbtq7pIx9fEUd4PukneLiUyLHRFoCZrGJuBBEkbkotSqf9NFbW1hjiGe6nUK2cEs00n72jtJTfJwLcpjbiHIjvubOBjXjBAwH8WNc2VlduC1jpghc",
+              "received": false
+            },
+            {
+              "_id": "6941149d1c508c5d5ecd37e9",
+              "name": "Car32037",
+              "amount": 376,
+              "price": 24251,
+              "manufacturer": "Tesla",
+              "notes": "Lot3W547SLeyTujBFCWZwXgh8e6esWTaPLzEegMZQMpiYLnMuQpweIOhW9Y5hToepyW11K94dTC8pbiQkkmsEno2eaMqJECDBzh2lUkZwqegDAh1iLRms8e5yAlUgYecXB41Jes0uqzDtdK4WhpejPTlqG2yRkJQW7ORE0BcnVeqb5g67DptHs5E2NDJGxgdMUo3pZ5sjg6ryxDTfyytGTF1arzpoWd54yszALI04GUNWfHjFcR5amgGRR",
+              "received": false
+            },
+            {
+              "_id": "6941149d1c508c5d5ecd37f3",
+              "name": "Shoes44953",
+              "amount": 325,
+              "price": 82904,
+              "manufacturer": "Xiaomi",
+              "notes": "Q3Y3NwREWhizcUNPIjRHsQDfnV6bo7mFghQmFDgN0qS5pKRe6WnodULY6gJyecdX6ueDD8GJOFog8DWuDpKIH1GuDnJu5UgInIEhuEzkpURcTz4YcxEeqcnnfMIzXzcTjvG0U8JAxujkgwPbO41gL2nL86HR44iduLv8nzxDeryQsd6DT5VT20Rfpexta0JlDKjQ9URIeTnSQquxcsmMh9G7fFOkwlMsNMwAo9KaFyI9R6pd7D3Zb5EK1F",
+              "received": false
+            }
+          ],
+          "total_price": 128866,
+          "delivery": null,
+          "changedOn": "2025-12-16T08:13:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

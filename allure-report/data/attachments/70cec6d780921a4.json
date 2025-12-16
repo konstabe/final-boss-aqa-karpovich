@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 08:13:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3871",
+    "etag": "W/\"f1f-UA9M9+/Was8ykb6aSONN3Kuyx9c\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694114a01c508c5d5ecd3956",
+      "status": "In Process",
+      "customer": {
+        "_id": "6941149f1c508c5d5ecd3904",
+        "email": "Tracey_Robel97@hotmail.com",
+        "name": "Aurore Dach",
+        "country": "Russia",
+        "city": "Patsystead",
+        "street": "E 5th Street",
+        "house": 42,
+        "flat": 169,
+        "phone": "+14594205100",
+        "createdOn": "2025-12-16T08:13:19.000Z",
+        "notes": "mzi7dT8IF3pKUbFpTXsrz050HSPPllk8D2teVTnzEd1h3VkKDA8ixQtkS0ofKqbwRE2Dhq9k8dGtPOlVSs3CKYlA85ZaWvSXvAR2F81XzcOm8WimGsFFXfwcxcsGwSaQvogAoJ2LoqzJHxDeGamGtc04pbwAfkvmGGoanKzGIGzmk1A6vhCGB2qO4kH7n7jydxutIl6AaZeXVGv8BZf7UIGIKBHUWjVudvAictllxlIUAoO5HGADGJyTLH"
+      },
+      "products": [
+        {
+          "_id": "6941149f1c508c5d5ecd3923",
+          "name": "Shirt90891",
+          "amount": 4,
+          "price": 91524,
+          "manufacturer": "Samsung",
+          "notes": "LX3nBlwNKgDGZQQbj4YNXewnjhm5dp3WbYD2EU7jn8dWp20RPvh31sZsiivbfXQoSIyDFmwpjpeGFmossuPwQW0aSOEClIPSfE0vnBaY2DzKpjMQGOu2nwijI3O9u8cz6IpAus6IODS0pJDnUUYy7qQhR3HX08XZfoxP3G38TMJaud8zx73nOq5LA8JSfVrsSR0SU2gcSs3oZzjTznWUAHiIDBds2DlnBav1AIaGNcxpR3cyrpLvGjqFum",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Patsystead",
+          "street": "E 5th Street",
+          "house": 42,
+          "flat": 169
+        },
+        "finalDate": "2025-12-21T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 91524,
+      "createdOn": "2025-12-16T08:13:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6941149f1c508c5d5ecd3904",
+          "products": [
+            {
+              "_id": "6941149f1c508c5d5ecd3923",
+              "name": "Shirt90891",
+              "amount": 4,
+              "price": 91524,
+              "manufacturer": "Samsung",
+              "notes": "LX3nBlwNKgDGZQQbj4YNXewnjhm5dp3WbYD2EU7jn8dWp20RPvh31sZsiivbfXQoSIyDFmwpjpeGFmossuPwQW0aSOEClIPSfE0vnBaY2DzKpjMQGOu2nwijI3O9u8cz6IpAus6IODS0pJDnUUYy7qQhR3HX08XZfoxP3G38TMJaud8zx73nOq5LA8JSfVrsSR0SU2gcSs3oZzjTznWUAHiIDBds2DlnBav1AIaGNcxpR3cyrpLvGjqFum",
+              "received": false
+            }
+          ],
+          "total_price": 91524,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Patsystead",
+              "street": "E 5th Street",
+              "house": 42,
+              "flat": 169
+            },
+            "finalDate": "2025-12-21T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T08:13:21.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941149f1c508c5d5ecd3904",
+          "products": [
+            {
+              "_id": "6941149f1c508c5d5ecd3923",
+              "name": "Shirt90891",
+              "amount": 4,
+              "price": 91524,
+              "manufacturer": "Samsung",
+              "notes": "LX3nBlwNKgDGZQQbj4YNXewnjhm5dp3WbYD2EU7jn8dWp20RPvh31sZsiivbfXQoSIyDFmwpjpeGFmossuPwQW0aSOEClIPSfE0vnBaY2DzKpjMQGOu2nwijI3O9u8cz6IpAus6IODS0pJDnUUYy7qQhR3HX08XZfoxP3G38TMJaud8zx73nOq5LA8JSfVrsSR0SU2gcSs3oZzjTznWUAHiIDBds2DlnBav1AIaGNcxpR3cyrpLvGjqFum",
+              "received": false
+            }
+          ],
+          "total_price": 91524,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Patsystead",
+              "street": "E 5th Street",
+              "house": 42,
+              "flat": 169
+            },
+            "finalDate": "2025-12-21T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T08:13:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941149f1c508c5d5ecd3904",
+          "products": [
+            {
+              "_id": "6941149f1c508c5d5ecd3923",
+              "name": "Shirt90891",
+              "amount": 4,
+              "price": 91524,
+              "manufacturer": "Samsung",
+              "notes": "LX3nBlwNKgDGZQQbj4YNXewnjhm5dp3WbYD2EU7jn8dWp20RPvh31sZsiivbfXQoSIyDFmwpjpeGFmossuPwQW0aSOEClIPSfE0vnBaY2DzKpjMQGOu2nwijI3O9u8cz6IpAus6IODS0pJDnUUYy7qQhR3HX08XZfoxP3G38TMJaud8zx73nOq5LA8JSfVrsSR0SU2gcSs3oZzjTznWUAHiIDBds2DlnBav1AIaGNcxpR3cyrpLvGjqFum",
+              "received": false
+            }
+          ],
+          "total_price": 91524,
+          "delivery": null,
+          "changedOn": "2025-12-16T08:13:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

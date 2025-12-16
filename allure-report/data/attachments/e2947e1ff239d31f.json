@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 08:13:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4738",
+    "etag": "W/\"1282-86AnPPpLWoqrx7MaiC+hn20foXA\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941149b1c508c5d5ecd3797",
+      "status": "Received",
+      "customer": {
+        "_id": "6941149b1c508c5d5ecd377a",
+        "email": "Jamaal88@yahoo.com",
+        "name": "Halie Tremblay",
+        "country": "Canada",
+        "city": "Smyrna",
+        "street": "Cliff Road",
+        "house": 14,
+        "flat": 515,
+        "phone": "+12935263691",
+        "createdOn": "2025-12-16T08:13:15.000Z",
+        "notes": "3erL5hu7TDiURqCNxnyHGATEHeVeutI0fxslg4vXTe0zcEOuUai37Kb7aWib2fNZlblt6UsDdUNsqMjFY0CFwUNH127cqcndqMc6G4xaB6wukNa0v8gk4Dc78bsi5nkzbEMXpCyOvH1VDUWlGcZJPLc0EJKjksAouPrpCLAtIurxtC68WdhcZCz3WpTYuvqXkn2N6vUC9rrUQAHT9ai7KYxGgiuxmx43mHAjR4q9XsIF3HwfNhTqaUpUrm"
+      },
+      "products": [
+        {
+          "_id": "6941149b1c508c5d5ecd3788",
+          "name": "Car56968",
+          "amount": 816,
+          "price": 56713,
+          "manufacturer": "Tesla",
+          "notes": "6vIQODaocA6Rc5v0nvjleQkfj26JbzdjenzhvhQr737lJKb2GlAN5Ml8QLoXHUVmT89FGw4qUypoHIZZjQzF2JJtByizOe7obNdz03wc67dblJLuyQmtnOwVHDSohqUGl5s8nckBfx1u7Qb66SQgJJ8dsOypmyCfD5rEuJlVVqzssqs1vamGYgXw24atS6k7H6Ej3yXGrFEMJgckzlbORoJ5xVewE7OsPgroMxUWbg1Hy88RAgmZ0wzNb6",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Smyrna",
+          "street": "Cliff Road",
+          "house": 14,
+          "flat": 515
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 56713,
+      "createdOn": "2025-12-16T08:13:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6941149b1c508c5d5ecd377a",
+          "products": [
+            {
+              "_id": "6941149b1c508c5d5ecd3788",
+              "name": "Car56968",
+              "amount": 816,
+              "price": 56713,
+              "manufacturer": "Tesla",
+              "notes": "6vIQODaocA6Rc5v0nvjleQkfj26JbzdjenzhvhQr737lJKb2GlAN5Ml8QLoXHUVmT89FGw4qUypoHIZZjQzF2JJtByizOe7obNdz03wc67dblJLuyQmtnOwVHDSohqUGl5s8nckBfx1u7Qb66SQgJJ8dsOypmyCfD5rEuJlVVqzssqs1vamGYgXw24atS6k7H6Ej3yXGrFEMJgckzlbORoJ5xVewE7OsPgroMxUWbg1Hy88RAgmZ0wzNb6",
+              "received": true
+            }
+          ],
+          "total_price": 56713,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Smyrna",
+              "street": "Cliff Road",
+              "house": 14,
+              "flat": 515
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T08:13:16.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6941149b1c508c5d5ecd377a",
+          "products": [
+            {
+              "_id": "6941149b1c508c5d5ecd3788",
+              "name": "Car56968",
+              "amount": 816,
+              "price": 56713,
+              "manufacturer": "Tesla",
+              "notes": "6vIQODaocA6Rc5v0nvjleQkfj26JbzdjenzhvhQr737lJKb2GlAN5Ml8QLoXHUVmT89FGw4qUypoHIZZjQzF2JJtByizOe7obNdz03wc67dblJLuyQmtnOwVHDSohqUGl5s8nckBfx1u7Qb66SQgJJ8dsOypmyCfD5rEuJlVVqzssqs1vamGYgXw24atS6k7H6Ej3yXGrFEMJgckzlbORoJ5xVewE7OsPgroMxUWbg1Hy88RAgmZ0wzNb6",
+              "received": false
+            }
+          ],
+          "total_price": 56713,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Smyrna",
+              "street": "Cliff Road",
+              "house": 14,
+              "flat": 515
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T08:13:16.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941149b1c508c5d5ecd377a",
+          "products": [
+            {
+              "_id": "6941149b1c508c5d5ecd3788",
+              "name": "Car56968",
+              "amount": 816,
+              "price": 56713,
+              "manufacturer": "Tesla",
+              "notes": "6vIQODaocA6Rc5v0nvjleQkfj26JbzdjenzhvhQr737lJKb2GlAN5Ml8QLoXHUVmT89FGw4qUypoHIZZjQzF2JJtByizOe7obNdz03wc67dblJLuyQmtnOwVHDSohqUGl5s8nckBfx1u7Qb66SQgJJ8dsOypmyCfD5rEuJlVVqzssqs1vamGYgXw24atS6k7H6Ej3yXGrFEMJgckzlbORoJ5xVewE7OsPgroMxUWbg1Hy88RAgmZ0wzNb6",
+              "received": false
+            }
+          ],
+          "total_price": 56713,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Smyrna",
+              "street": "Cliff Road",
+              "house": 14,
+              "flat": 515
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T08:13:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941149b1c508c5d5ecd377a",
+          "products": [
+            {
+              "_id": "6941149b1c508c5d5ecd3788",
+              "name": "Car56968",
+              "amount": 816,
+              "price": 56713,
+              "manufacturer": "Tesla",
+              "notes": "6vIQODaocA6Rc5v0nvjleQkfj26JbzdjenzhvhQr737lJKb2GlAN5Ml8QLoXHUVmT89FGw4qUypoHIZZjQzF2JJtByizOe7obNdz03wc67dblJLuyQmtnOwVHDSohqUGl5s8nckBfx1u7Qb66SQgJJ8dsOypmyCfD5rEuJlVVqzssqs1vamGYgXw24atS6k7H6Ej3yXGrFEMJgckzlbORoJ5xVewE7OsPgroMxUWbg1Hy88RAgmZ0wzNb6",
+              "received": false
+            }
+          ],
+          "total_price": 56713,
+          "delivery": null,
+          "changedOn": "2025-12-16T08:13:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 08:13:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3425",
+    "etag": "W/\"d61-rPA2ZpV+uGBMmzTDs2YmJ6WblJw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694114a11c508c5d5ecd3a0e",
+        "email": "Pink_Cormier54@hotmail.com",
+        "name": "Cristal Nikolaus",
+        "country": "Belarus",
+        "city": "Buckridgefort",
+        "street": "Mitchell Unions",
+        "house": 15,
+        "flat": 813,
+        "phone": "+15607593252",
+        "createdOn": "2025-12-16T08:13:21.000Z",
+        "notes": "b084pF1hHJMZz4bDzponHiGtDdWLq0sROGTJpodU2VabSXRmarJWc7KRKfiEm43Jes4k3uV6h1yStbDQGsU4FT8MSyD0WsdSZxixkldnwqVQMdVzx1eLeuX7EhYNGa9eRWXu1GAJyGf8QLTpoGFowbCuhZvzF7j5dz9GGx0Q9NMaowMuxHI06HxDKvCE81sLL53JG4ifmr1fYMiMdsS4ZioFZn6W4AFifrfVOhJzYV52RxSGxwWInVxnDD"
+      },
+      "products": [
+        {
+          "_id": "694114a21c508c5d5ecd3a2e",
+          "name": "Bacon37211",
+          "amount": 160,
+          "price": 97546,
+          "manufacturer": "Apple",
+          "notes": "EhQy8VlaX4QW8arp52ZYcfUoHM2BYUj2mRQE06gZ77fNOOf37vXc4fgIZwlyLr9GgbL2t88ZfcGWaH66x6xAjT94vGKzy9INQSDbtzBsvrNABWpVdrgqPC8CdqeEwu6zL8RI321mIeO9YTm7eGrOj8ZvoFJzdbc8ckpQakTp2LtrBCbd68ZiXoxJ4ajiVK8l0B1AoXLeDrgHO3cOrjvr7muPDjPHme81G1XPYF41L5ZcZkSmctm1W4CMaQ",
+          "received": false
+        },
+        {
+          "_id": "694114a21c508c5d5ecd3a48",
+          "name": "Bike41833",
+          "amount": 977,
+          "price": 20884,
+          "manufacturer": "Tesla",
+          "notes": "EG83TDrdDzqrCL8gGXsOkOpczUzH5B7CcZ6ETvxhrLmQbM9he0f0FhB6zFMdQZZ8nCrjiVRSEKu07bcMEt4YQOPZdnUAonTJWyrY8GX5HnT0cc3FCiUu1pj0l11LfzIgWH1ERQSNUsQu4vTdvN4GKoSMVh8ZLtuclTq1AbAGAtbVqMEJruHX8skZPGf1WSoV89DtRR2Mf77IVhDBe5yvzzmTd9GGgZgZJpM1HqSHdhRbokphBbrjd35zkd",
+          "received": false
+        },
+        {
+          "_id": "694114a21c508c5d5ecd3a6c",
+          "name": "Chair56072",
+          "amount": 494,
+          "price": 98493,
+          "manufacturer": "Tesla",
+          "notes": "YciAhdsRx61LuoQEg7gBXUNb4SfIspxezRCornMsVRz423p7fkCwFxjW3vhwYwYtPUhQ4GlAPMMubwz48mRGmCJcGRlGTIAIFNbL9vP2bFceneibJYZaj1B4wxxmCkOMLDTNFFRWN9mZVN0zNAsYks9k8trU3DTRmdN4Kisz5q0SE5tuP0zshyGPTJR6o0MLq8ZR4EyIDDuW6rKzI1YACHAg6IdTNcTRbxbH2IpqzBhyYtnTD6zSZs8YO5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 216923,
+      "createdOn": "2025-12-16T08:13:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694114a11c508c5d5ecd3a0e",
+          "products": [
+            {
+              "_id": "694114a21c508c5d5ecd3a2e",
+              "name": "Bacon37211",
+              "amount": 160,
+              "price": 97546,
+              "manufacturer": "Apple",
+              "notes": "EhQy8VlaX4QW8arp52ZYcfUoHM2BYUj2mRQE06gZ77fNOOf37vXc4fgIZwlyLr9GgbL2t88ZfcGWaH66x6xAjT94vGKzy9INQSDbtzBsvrNABWpVdrgqPC8CdqeEwu6zL8RI321mIeO9YTm7eGrOj8ZvoFJzdbc8ckpQakTp2LtrBCbd68ZiXoxJ4ajiVK8l0B1AoXLeDrgHO3cOrjvr7muPDjPHme81G1XPYF41L5ZcZkSmctm1W4CMaQ",
+              "received": false
+            },
+            {
+              "_id": "694114a21c508c5d5ecd3a48",
+              "name": "Bike41833",
+              "amount": 977,
+              "price": 20884,
+              "manufacturer": "Tesla",
+              "notes": "EG83TDrdDzqrCL8gGXsOkOpczUzH5B7CcZ6ETvxhrLmQbM9he0f0FhB6zFMdQZZ8nCrjiVRSEKu07bcMEt4YQOPZdnUAonTJWyrY8GX5HnT0cc3FCiUu1pj0l11LfzIgWH1ERQSNUsQu4vTdvN4GKoSMVh8ZLtuclTq1AbAGAtbVqMEJruHX8skZPGf1WSoV89DtRR2Mf77IVhDBe5yvzzmTd9GGgZgZJpM1HqSHdhRbokphBbrjd35zkd",
+              "received": false
+            },
+            {
+              "_id": "694114a21c508c5d5ecd3a6c",
+              "name": "Chair56072",
+              "amount": 494,
+              "price": 98493,
+              "manufacturer": "Tesla",
+              "notes": "YciAhdsRx61LuoQEg7gBXUNb4SfIspxezRCornMsVRz423p7fkCwFxjW3vhwYwYtPUhQ4GlAPMMubwz48mRGmCJcGRlGTIAIFNbL9vP2bFceneibJYZaj1B4wxxmCkOMLDTNFFRWN9mZVN0zNAsYks9k8trU3DTRmdN4Kisz5q0SE5tuP0zshyGPTJR6o0MLq8ZR4EyIDDuW6rKzI1YACHAg6IdTNcTRbxbH2IpqzBhyYtnTD6zSZs8YO5",
+              "received": false
+            }
+          ],
+          "total_price": 216923,
+          "delivery": null,
+          "changedOn": "2025-12-16T08:13:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694114a31c508c5d5ecd3abe"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
