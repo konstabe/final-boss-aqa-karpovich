@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2644",
+    "etag": "W/\"a54-cTeqJXrrPtnwwQ1Yau0h0LY5exQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da4d1c508c5d5ecea36e",
+        "email": "Jaclyn64@yahoo.com",
+        "name": "Mellie Leuschke",
+        "country": "Canada",
+        "city": "Tempe",
+        "street": "Jerde Estate",
+        "house": 12,
+        "flat": 448,
+        "phone": "+13528073713",
+        "createdOn": "2025-12-16T22:16:45.000Z",
+        "notes": "d38qiHbOYRV3FfyM8ncCt0Q6ENxPkGpaDENTfCUe62Y9o7N5jw3zHZ45aP3gjSNFs2rwKtRlsS9ULuIlcyTsGNW73YYWwgJJ42AxxeAySi5jCuT1b1lejZphFnBBRc7k8I6O5DAIvINwEfbh2cV28aIuvtAkiYOz7M3n5e0Vkb6028GNIeVs1BPKwaYra36rHD5gUtlpjyHwaxAoDgGAdrIF9yh6NoBOdeCmqncYLQJCNBAME8GsKiI2bu"
+      },
+      "products": [
+        {
+          "_id": "6941da4d1c508c5d5ecea38f",
+          "name": "Gloves83786",
+          "amount": 353,
+          "price": 61568,
+          "manufacturer": "Google",
+          "notes": "ssqb5150M2juxUa6Sk3pckX3NlD9acrylCNcyDVnzonCt3GNtxAuuzXQWz1LBdWd4iqDPxx4ATRqLk3IuX5u3X5ChRPCs6jH9qxvJw4Rw7EYmyHYRozc7NJogbR1lCR57AAXrktQDgMqLRIKw0nKQQPR6dYWRidG9N6WKNvUxSHQ6VJOtmPnkD4GZOtNPZGf19ryr5pm0yK2VLfkMk5vjQY27h86yRDfNUiHHb5ScKihWx0QxPzpwet0FG",
+          "received": false
+        },
+        {
+          "_id": "6941da4e1c508c5d5ecea3da",
+          "name": "Table23138",
+          "amount": 127,
+          "price": 53175,
+          "manufacturer": "Tesla",
+          "notes": "PsCSb7UTYxWIbRrtBDnlOi2ld8mafCqIKe3NfE4SSxAKg9O7YkIOVxYIghoNEWUWcjDnKg5BGxcbqOwO6STXOBjw0gxY8uhzWNqZVlZKzB6S4FTirG5ByoTRUsCLF0aqCMKgFXdW65btXRptNQ8HzJHQGtqINGOr52JtxT8QDAhkLTX7Hb8CbtZ2cjY7hVKRaknWYq22n6kBWXdesPncuOQ2CYA0zrTCXqHqN8iYyqXJi27w3JJx0iV9AT",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 114743,
+      "createdOn": "2025-12-16T22:16:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da4d1c508c5d5ecea36e",
+          "products": [
+            {
+              "_id": "6941da4d1c508c5d5ecea38f",
+              "name": "Gloves83786",
+              "amount": 353,
+              "price": 61568,
+              "manufacturer": "Google",
+              "notes": "ssqb5150M2juxUa6Sk3pckX3NlD9acrylCNcyDVnzonCt3GNtxAuuzXQWz1LBdWd4iqDPxx4ATRqLk3IuX5u3X5ChRPCs6jH9qxvJw4Rw7EYmyHYRozc7NJogbR1lCR57AAXrktQDgMqLRIKw0nKQQPR6dYWRidG9N6WKNvUxSHQ6VJOtmPnkD4GZOtNPZGf19ryr5pm0yK2VLfkMk5vjQY27h86yRDfNUiHHb5ScKihWx0QxPzpwet0FG",
+              "received": false
+            },
+            {
+              "_id": "6941da4e1c508c5d5ecea3da",
+              "name": "Table23138",
+              "amount": 127,
+              "price": 53175,
+              "manufacturer": "Tesla",
+              "notes": "PsCSb7UTYxWIbRrtBDnlOi2ld8mafCqIKe3NfE4SSxAKg9O7YkIOVxYIghoNEWUWcjDnKg5BGxcbqOwO6STXOBjw0gxY8uhzWNqZVlZKzB6S4FTirG5ByoTRUsCLF0aqCMKgFXdW65btXRptNQ8HzJHQGtqINGOr52JtxT8QDAhkLTX7Hb8CbtZ2cjY7hVKRaknWYq22n6kBWXdesPncuOQ2CYA0zrTCXqHqN8iYyqXJi27w3JJx0iV9AT",
+              "received": false
+            }
+          ],
+          "total_price": 114743,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:16:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6941da4e1c508c5d5ecea3ff"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

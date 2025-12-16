@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:17:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4121",
+    "etag": "W/\"1019-NWxXr2ljywpgzQz2Bi6lzV/lRvY\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941da5b1c508c5d5eceaa98",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da591c508c5d5ecea982",
+        "email": "Sylvia_Cormier@yahoo.com",
+        "name": "Jordon Hickle",
+        "country": "Ukraine",
+        "city": "Pacochastad",
+        "street": "W Lake Street",
+        "house": 12,
+        "flat": 866,
+        "phone": "+15935743490",
+        "createdOn": "2025-12-16T22:16:57.000Z",
+        "notes": "FuOJr6ar6eiL6sUE9ZQc6Un8eMo1i0opBE15v4xFge3OseUUA58xAqVNvJh89rEB1BjlWOur6peCL3KASHPQcBY4oYGsWuR7dpX4VcFIy4vkfMtArWLLx24KNPV3c6CNbYCzJyGLlqnSQUEFd9AUaiQ7K04frDev7ufd8jhuNANzeOol8RohDdLN6T2ngs66173pqZrZ5f4oFzUC2UY5OEFr5mr3QbStWwhMv00cGOZLyJupir95aAuX2F"
+      },
+      "products": [
+        {
+          "_id": "6941da5a1c508c5d5eceaa11",
+          "name": "Salad92219",
+          "amount": 256,
+          "price": 15128,
+          "manufacturer": "Amazon",
+          "notes": "DtZa7ET0QXwfnIbbfhA9NLykl7V2d1CIHhT3DnrgzVhMgokyTVzNH3l9ljqDxxFUaaJ4DFlTxdXdDmJnJX93XVZ4yZ796lH5ejFbILAiBziMRtyqAmPm8WoYICOgyZDG1FUPspMqn8CEbMNzUyQALcpLAJjruBluVx0sk84IWrhqwWY9T10j33THQM1vpRRjB2chiafmw4S8VojzOPgNDOKpOoTcNON0FslMGyxjwPojfs0zswpCFbXlo4",
+          "received": false
+        },
+        {
+          "_id": "6941da5a1c508c5d5eceaa39",
+          "name": "Cheese53005",
+          "amount": 122,
+          "price": 50303,
+          "manufacturer": "Microsoft",
+          "notes": "TaXigkljI4tie1QqjuDEmgPCQ91QfLAd5HbnEp8s2tVVjaEcly5TuDtAg7JjuGc2mnErcaPojIqGUNmAcmHSTYOMjS3D4vgSWm4tHgkf4jYp3bkTKlHhNh1hEMO17YFG4LJqAk3dXyBNI8A8zJxWOSqPbdyGUkrIM3yd4yWOVwABCcfPx82Bbv8u8v3tPe17eCXBrsCrxufYwLfc8DMPASPU8gmreDtvPCWsP1vnkz7AC6dT6eRO06fWkr",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Pacochastad",
+          "street": "W Lake Street",
+          "house": 12,
+          "flat": 866
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 65431,
+      "createdOn": "2025-12-16T22:16:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da591c508c5d5ecea982",
+          "products": [
+            {
+              "_id": "6941da5a1c508c5d5eceaa11",
+              "name": "Salad92219",
+              "amount": 256,
+              "price": 15128,
+              "manufacturer": "Amazon",
+              "notes": "DtZa7ET0QXwfnIbbfhA9NLykl7V2d1CIHhT3DnrgzVhMgokyTVzNH3l9ljqDxxFUaaJ4DFlTxdXdDmJnJX93XVZ4yZ796lH5ejFbILAiBziMRtyqAmPm8WoYICOgyZDG1FUPspMqn8CEbMNzUyQALcpLAJjruBluVx0sk84IWrhqwWY9T10j33THQM1vpRRjB2chiafmw4S8VojzOPgNDOKpOoTcNON0FslMGyxjwPojfs0zswpCFbXlo4",
+              "received": false
+            },
+            {
+              "_id": "6941da5a1c508c5d5eceaa39",
+              "name": "Cheese53005",
+              "amount": 122,
+              "price": 50303,
+              "manufacturer": "Microsoft",
+              "notes": "TaXigkljI4tie1QqjuDEmgPCQ91QfLAd5HbnEp8s2tVVjaEcly5TuDtAg7JjuGc2mnErcaPojIqGUNmAcmHSTYOMjS3D4vgSWm4tHgkf4jYp3bkTKlHhNh1hEMO17YFG4LJqAk3dXyBNI8A8zJxWOSqPbdyGUkrIM3yd4yWOVwABCcfPx82Bbv8u8v3tPe17eCXBrsCrxufYwLfc8DMPASPU8gmreDtvPCWsP1vnkz7AC6dT6eRO06fWkr",
+              "received": false
+            }
+          ],
+          "total_price": 65431,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Pacochastad",
+              "street": "W Lake Street",
+              "house": 12,
+              "flat": 866
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T22:17:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941da591c508c5d5ecea982",
+          "products": [
+            {
+              "_id": "6941da5a1c508c5d5eceaa11",
+              "name": "Salad92219",
+              "amount": 256,
+              "price": 15128,
+              "manufacturer": "Amazon",
+              "notes": "DtZa7ET0QXwfnIbbfhA9NLykl7V2d1CIHhT3DnrgzVhMgokyTVzNH3l9ljqDxxFUaaJ4DFlTxdXdDmJnJX93XVZ4yZ796lH5ejFbILAiBziMRtyqAmPm8WoYICOgyZDG1FUPspMqn8CEbMNzUyQALcpLAJjruBluVx0sk84IWrhqwWY9T10j33THQM1vpRRjB2chiafmw4S8VojzOPgNDOKpOoTcNON0FslMGyxjwPojfs0zswpCFbXlo4",
+              "received": false
+            },
+            {
+              "_id": "6941da5a1c508c5d5eceaa39",
+              "name": "Cheese53005",
+              "amount": 122,
+              "price": 50303,
+              "manufacturer": "Microsoft",
+              "notes": "TaXigkljI4tie1QqjuDEmgPCQ91QfLAd5HbnEp8s2tVVjaEcly5TuDtAg7JjuGc2mnErcaPojIqGUNmAcmHSTYOMjS3D4vgSWm4tHgkf4jYp3bkTKlHhNh1hEMO17YFG4LJqAk3dXyBNI8A8zJxWOSqPbdyGUkrIM3yd4yWOVwABCcfPx82Bbv8u8v3tPe17eCXBrsCrxufYwLfc8DMPASPU8gmreDtvPCWsP1vnkz7AC6dT6eRO06fWkr",
+              "received": false
+            }
+          ],
+          "total_price": 65431,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:16:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

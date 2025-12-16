@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-icnv4Jk3QRY98Tn3fZlz9sIDG7Q\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da3b1c508c5d5ece9abe",
+        "email": "Bartholome20@yahoo.com",
+        "name": "Gregory Shields",
+        "country": "USA",
+        "city": "South Kendrickville",
+        "street": "S Maple Street",
+        "house": 45,
+        "flat": 154,
+        "phone": "+16653474274",
+        "createdOn": "2025-12-16T22:16:27.000Z",
+        "notes": "DrpWNLN4ZDQAEBM81SsEhL1AHasRyVBivsLxbiqE88NkgrIXjPeZ3Jmh3rTxsM63XY99okbJAm8wqgP3X6W93BacD9hWnXsg3a2luoOELpv7TGmkMF23nxvCJxiHbQ6X7AXqPzaKdk4OlPbZZWaESuXipiN8tI6NlMcbLQbS5BUK7G2A9zHZUcOoPFj8ARn6bia3MbYZpisiX2Dect5Wz8UZP3CWwL7WVuY0Oj7vhVTmK74dvqSswf6oCU"
+      },
+      "products": [
+        {
+          "_id": "6941da3b1c508c5d5ece9b0e",
+          "name": "Car81023",
+          "amount": 201,
+          "price": 35097,
+          "manufacturer": "Sony",
+          "notes": "uGtq3NZgA9vf9Yy7cQL2tdOFDV99a7spUcsPbrodxHKskegpksIWFuYtCdBDErpFkL2GxbgzcBktC2dZYwn9nLOFgjBqzGgc5NW3Xjt5XmzPcrAV2XFeg2tAWTwfH0WK81ONEGDEV4AUcuFEb1vwKtD2MgpXv68WvHcwmb4pE4HESCkTjIvwo0aYGCzDR9pZ6CmiJTE0GpTXbCRGhJTpATNfwc7U3f51fV9D52URhJOzwHAcZUd6Q9dnbu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35097,
+      "createdOn": "2025-12-16T22:16:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da3b1c508c5d5ece9abe",
+          "products": [
+            {
+              "_id": "6941da3b1c508c5d5ece9b0e",
+              "name": "Car81023",
+              "amount": 201,
+              "price": 35097,
+              "manufacturer": "Sony",
+              "notes": "uGtq3NZgA9vf9Yy7cQL2tdOFDV99a7spUcsPbrodxHKskegpksIWFuYtCdBDErpFkL2GxbgzcBktC2dZYwn9nLOFgjBqzGgc5NW3Xjt5XmzPcrAV2XFeg2tAWTwfH0WK81ONEGDEV4AUcuFEb1vwKtD2MgpXv68WvHcwmb4pE4HESCkTjIvwo0aYGCzDR9pZ6CmiJTE0GpTXbCRGhJTpATNfwc7U3f51fV9D52URhJOzwHAcZUd6Q9dnbu",
+              "received": false
+            }
+          ],
+          "total_price": 35097,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:16:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6941da3c1c508c5d5ece9b4c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

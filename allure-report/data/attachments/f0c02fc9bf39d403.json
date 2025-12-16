@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-HtL7Gt1Ne90m+3IhUJiiGsRUzBo\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da3a1c508c5d5ece9a42",
+        "email": "Berniece.Schamberger@gmail.com",
+        "name": "Teagan Shields",
+        "country": "USA",
+        "city": "Lebsackfurt",
+        "street": "Lansdowne Road",
+        "house": 11,
+        "flat": 812,
+        "phone": "+15667001789",
+        "createdOn": "2025-12-16T22:16:26.000Z",
+        "notes": "cdrFPnT5Y86vODuPkuxwsI2Lz8INEH05GsVS8nNlQXzm1m1DLReU5obXEYn84q6LxROiaDrshLZ8DHEl4TQkNL0SnE6iwiAcg7X5l6Krm41qKRJjAeJfitzALd1SShHVqv1D8HRLPHYA8XQdFXvb60jOMxZQGU9tfzW5q9jPyuxvTcRF5lxoVGdKSG3Nql6yNj6bSATWPDaUCuMvN9BtVJvUGvSSzxP6MeXhAnrYY95QLQwfsOrmAls7NB"
+      },
+      "products": [
+        {
+          "_id": "6941da3a1c508c5d5ece9a7d",
+          "name": "Fish83116",
+          "amount": 818,
+          "price": 31475,
+          "manufacturer": "Google",
+          "notes": "mYDcWYMVvVJ6LVc7JKJLzZPO99qeNei8q9bf0G6cBvP5cilnmnBW6wOeUa36zekHLlflDKg82Bzop9jkO54lFKBG2dcoqHn7dnDssd0tQt4tLf7m2sTuYTReR4GExYRPSFu8TZrIrhcDqjgRl1Q15gJ2LvfuVDBFAxvM06uIb2hXDcqERLWu5EuWHxbSDOfzf6kwZQ3fBx9jwLxU5tUTZzs87j8IFsxUYHyZhN3oKRL86Gpffl6IS5UahS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 31475,
+      "createdOn": "2025-12-16T22:16:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da3a1c508c5d5ece9a42",
+          "products": [
+            {
+              "_id": "6941da3a1c508c5d5ece9a7d",
+              "name": "Fish83116",
+              "amount": 818,
+              "price": 31475,
+              "manufacturer": "Google",
+              "notes": "mYDcWYMVvVJ6LVc7JKJLzZPO99qeNei8q9bf0G6cBvP5cilnmnBW6wOeUa36zekHLlflDKg82Bzop9jkO54lFKBG2dcoqHn7dnDssd0tQt4tLf7m2sTuYTReR4GExYRPSFu8TZrIrhcDqjgRl1Q15gJ2LvfuVDBFAxvM06uIb2hXDcqERLWu5EuWHxbSDOfzf6kwZQ3fBx9jwLxU5tUTZzs87j8IFsxUYHyZhN3oKRL86Gpffl6IS5UahS",
+              "received": false
+            }
+          ],
+          "total_price": 31475,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:16:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6941da3b1c508c5d5ece9ace"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

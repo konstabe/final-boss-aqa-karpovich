@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3420",
+    "etag": "W/\"d5c-NEUPA5mHCIcIBLB2BBbDD70RP1Y\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da4f1c508c5d5ecea482",
+        "email": "Lisa57@gmail.com",
+        "name": "Cordie Bartoletti",
+        "country": "Ukraine",
+        "city": "North Zettaville",
+        "street": "Abbey Flats",
+        "house": 48,
+        "flat": 58,
+        "phone": "+16199945283",
+        "createdOn": "2025-12-16T22:16:47.000Z",
+        "notes": "UY4vIv2XKDyeIFpVvjJKN62JxJorhHvtZmudIcKplFNQj0z73Upxnr3OUmzLFJHYmlXoKi7tviQzgPkraT0NbQSqTdwCwWi4iEIkq6AnBp9Iamq2RMOlZIrOsxC3j4Mx7o9SnQwVskE19HBwzOIv1UqHAcVHlWyQp2Fp5gT4LY2WZvDXcR2eGlCn4Wzm6IEgcPDKEWkgcADGr4r1Bo59fOHh16bqaJ1wOptqoYzMUo33eslFwygcZzahsU"
+      },
+      "products": [
+        {
+          "_id": "6941da501c508c5d5ecea4c6",
+          "name": "Salad57116",
+          "amount": 7,
+          "price": 65978,
+          "manufacturer": "Google",
+          "notes": "VnPz3rw681koaqSy4nB1S9BCAANAYsK9QHTk1okkNNXXNSaAlQzwxvBk8uOMLKly29HeCn6VoSkZcy6niAJcxytvAymCcbVwtvkSxyaHwg5KTtu8Bq21zIX9oHf7AidiJq1oVodnP29eZI5UdwORwt8Peb22882AJgIz2lIwienJ3b18SaK72GfazLEJNgy9g91KoRxMbNiVWqP4hog7K6nFozQO3rcaBosxzAgsfwx2aDPP5wlTSakqhg",
+          "received": false
+        },
+        {
+          "_id": "6941da501c508c5d5ecea4f2",
+          "name": "Cheese6342",
+          "amount": 125,
+          "price": 63915,
+          "manufacturer": "Xiaomi",
+          "notes": "5cDB7qV4le0A5OvO3lztRPc6wfxVmAl4bYnsMW2CWESLcGAlsSFNKB0bG0RYjnTypZsaPuJekewq3JcwE6sLSvRnOn8n2ZCAAYuwWtXFlLYLrRoJ7DPCmAmHCkzUbKZEqY618UY82aSS41UIl3o0BLbOSyhx1o4sXXNgaHa3sJvqohAmR8z4J6vEPCljqdTOFfNrGfQbjvDx8qUJSr8tl9wrpcQRIbVxOppG6nhSdMqXn9I0YLy0mjYk6y",
+          "received": false
+        },
+        {
+          "_id": "6941da511c508c5d5ecea536",
+          "name": "Shirt28462",
+          "amount": 765,
+          "price": 68597,
+          "manufacturer": "Samsung",
+          "notes": "HPRZTi71wLAslfSCjz049NNHpCcRy1qIwN3G3pcqMtUFI94D3AVWlriojPddPK1tN6s111YdknrD1SZawUcy6BAetC0XFRTXQ9flkR2tAHFR8SMBar7Jr6KOAIdYNTFfFrrrDYVZobCuDrs7KPc708YUhlr0VCVqfMvRIGBMKBqfsziJ0WSFNXi2NhjNKB07T300djK11WvE1ytEJsh3V9ns6zFVx3lZB5CK2rcEZuqxagC3W0ZcLKL3Xj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 198490,
+      "createdOn": "2025-12-16T22:16:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da4f1c508c5d5ecea482",
+          "products": [
+            {
+              "_id": "6941da501c508c5d5ecea4c6",
+              "name": "Salad57116",
+              "amount": 7,
+              "price": 65978,
+              "manufacturer": "Google",
+              "notes": "VnPz3rw681koaqSy4nB1S9BCAANAYsK9QHTk1okkNNXXNSaAlQzwxvBk8uOMLKly29HeCn6VoSkZcy6niAJcxytvAymCcbVwtvkSxyaHwg5KTtu8Bq21zIX9oHf7AidiJq1oVodnP29eZI5UdwORwt8Peb22882AJgIz2lIwienJ3b18SaK72GfazLEJNgy9g91KoRxMbNiVWqP4hog7K6nFozQO3rcaBosxzAgsfwx2aDPP5wlTSakqhg",
+              "received": false
+            },
+            {
+              "_id": "6941da501c508c5d5ecea4f2",
+              "name": "Cheese6342",
+              "amount": 125,
+              "price": 63915,
+              "manufacturer": "Xiaomi",
+              "notes": "5cDB7qV4le0A5OvO3lztRPc6wfxVmAl4bYnsMW2CWESLcGAlsSFNKB0bG0RYjnTypZsaPuJekewq3JcwE6sLSvRnOn8n2ZCAAYuwWtXFlLYLrRoJ7DPCmAmHCkzUbKZEqY618UY82aSS41UIl3o0BLbOSyhx1o4sXXNgaHa3sJvqohAmR8z4J6vEPCljqdTOFfNrGfQbjvDx8qUJSr8tl9wrpcQRIbVxOppG6nhSdMqXn9I0YLy0mjYk6y",
+              "received": false
+            },
+            {
+              "_id": "6941da511c508c5d5ecea536",
+              "name": "Shirt28462",
+              "amount": 765,
+              "price": 68597,
+              "manufacturer": "Samsung",
+              "notes": "HPRZTi71wLAslfSCjz049NNHpCcRy1qIwN3G3pcqMtUFI94D3AVWlriojPddPK1tN6s111YdknrD1SZawUcy6BAetC0XFRTXQ9flkR2tAHFR8SMBar7Jr6KOAIdYNTFfFrrrDYVZobCuDrs7KPc708YUhlr0VCVqfMvRIGBMKBqfsziJ0WSFNXi2NhjNKB07T300djK11WvE1ytEJsh3V9ns6zFVx3lZB5CK2rcEZuqxagC3W0ZcLKL3Xj",
+              "received": false
+            }
+          ],
+          "total_price": 198490,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:16:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6941da511c508c5d5ecea576"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

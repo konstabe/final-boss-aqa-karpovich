@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1871",
+    "etag": "W/\"74f-8lMtU3/mM0UBERYQXHZdBtpFCCY\"",
+    "keep-alive": "timeout=5, max=51",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da351c508c5d5ece97db",
+        "email": "Dashawn32@hotmail.com",
+        "name": "Malika Robel",
+        "country": "Canada",
+        "city": "Port Bella",
+        "street": "Cedar Street",
+        "house": 38,
+        "flat": 264,
+        "phone": "+18144652304",
+        "createdOn": "2025-12-16T22:16:21.000Z",
+        "notes": "OIv3SQo6pXv3HPoB5mjqSDBeUlGksIasv4N02jnqQ7CBlXYXhxfUYNFqxR1XTcC8qyZmfyszUnB493zTNOfgWMm9LB16iZLuRtMtthopG8z1AI6b3AXaVqSb1sKiRtiGHnnfI2Uf9eKSaYA4Skq4wJFeu2ggXOlWPpHiy36r63wdGLjYxCPIMPLQolXIJ02iRc9RKXYVkxjMmYYHasLa98v7yIeCQEN6dj0wZohwxcsXtXVLGFnQWCvcVy"
+      },
+      "products": [
+        {
+          "_id": "6941da351c508c5d5ece9806",
+          "name": "Chair192",
+          "amount": 613,
+          "price": 5330,
+          "manufacturer": "Amazon",
+          "notes": "PmmB6XZwAmVT2YxRhffD9ClPAruNlu3kzT31l0jA0Yu8gcfd51JbeOb9URuYGyc5l7u3TWof5tbyxsalau4rBDceKqf4Vk1PADLTeELlYZcR2obN21mVtBQq3YbrPSof3JvNecIsDLDHftqAY7mD65E4VQkNIMBqNXirejj5TWAO2BUDbQhzi6gooox7ITKijwGMvAu1EVDfLrdHSw6zHIvTmAmtfgE6TQdyj8I0nyXurf9zPufww1GTdv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 5330,
+      "createdOn": "2025-12-16T22:16:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da351c508c5d5ece97db",
+          "products": [
+            {
+              "_id": "6941da351c508c5d5ece9806",
+              "name": "Chair192",
+              "amount": 613,
+              "price": 5330,
+              "manufacturer": "Amazon",
+              "notes": "PmmB6XZwAmVT2YxRhffD9ClPAruNlu3kzT31l0jA0Yu8gcfd51JbeOb9URuYGyc5l7u3TWof5tbyxsalau4rBDceKqf4Vk1PADLTeELlYZcR2obN21mVtBQq3YbrPSof3JvNecIsDLDHftqAY7mD65E4VQkNIMBqNXirejj5TWAO2BUDbQhzi6gooox7ITKijwGMvAu1EVDfLrdHSw6zHIvTmAmtfgE6TQdyj8I0nyXurf9zPufww1GTdv",
+              "received": false
+            }
+          ],
+          "total_price": 5330,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:16:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6941da361c508c5d5ece985f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

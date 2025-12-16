@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2930",
+    "etag": "W/\"b72-J+Qt3oCUb/XKKQsax5PY6T+/pxU\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941da491c508c5d5ecea1ce",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da491c508c5d5ecea18c",
+        "email": "Coy66@yahoo.com",
+        "name": "Kaya Thiel",
+        "country": "Canada",
+        "city": "Flossiestead",
+        "street": "Autumn Land",
+        "house": 9,
+        "flat": 751,
+        "phone": "+16283678798",
+        "createdOn": "2025-12-16T22:16:41.000Z",
+        "notes": "XMVXOK6LJX4CD0nP0vv3l7UYXuzP1ac5Qe1QPzf4YuUJSEXZl6M3DnOjLBQxL6NjWI0hWgLawrSO0y3eJMf7j1cyl7bK45iovd8XFJVa3AQ2zm2soiufCHyCrEy7fQgce1SpKgpWwk0bCQbAfvAhlnv8t2kYoPZRAxesfZoSgSvPyZW7FNNYFFfEC9I4jkZDNNvuFNUdkKZR0EuW3MTyWW7kAmADbFbEdHejT4Qcn3s1PGBRex1RaLzZUU"
+      },
+      "products": [
+        {
+          "_id": "6941da491c508c5d5ecea1b5",
+          "name": "Chips68626",
+          "amount": 618,
+          "price": 68283,
+          "manufacturer": "Sony",
+          "notes": "FKoGueaoE9TfYCKTkPxByogubUBhIcakoZbkGghEYGB8m8bdOYUs144fLLQXvz8z5hfej7gtqwj26XB6ph7IZj7jpP5ROigpQwDUovklg4NmNygVmNasjLQQ7FM1i8raATmJZ9r6HKZqfCZfHbEVauhapgQZM4BgH99CXWKh9iFqc5gjDTREXF8JDwiWq5civIJUB003tq9ZUfw3ho9rKSn4CXcDQMH9tSbOnu08v7stPevqXMDLQXOQ9w",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Flossiestead",
+          "street": "Autumn Land",
+          "house": 9,
+          "flat": 751
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 68283,
+      "createdOn": "2025-12-16T22:16:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da491c508c5d5ecea18c",
+          "products": [
+            {
+              "_id": "6941da491c508c5d5ecea1b5",
+              "name": "Chips68626",
+              "amount": 618,
+              "price": 68283,
+              "manufacturer": "Sony",
+              "notes": "FKoGueaoE9TfYCKTkPxByogubUBhIcakoZbkGghEYGB8m8bdOYUs144fLLQXvz8z5hfej7gtqwj26XB6ph7IZj7jpP5ROigpQwDUovklg4NmNygVmNasjLQQ7FM1i8raATmJZ9r6HKZqfCZfHbEVauhapgQZM4BgH99CXWKh9iFqc5gjDTREXF8JDwiWq5civIJUB003tq9ZUfw3ho9rKSn4CXcDQMH9tSbOnu08v7stPevqXMDLQXOQ9w",
+              "received": false
+            }
+          ],
+          "total_price": 68283,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Flossiestead",
+              "street": "Autumn Land",
+              "house": 9,
+              "flat": 751
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T22:16:42.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941da491c508c5d5ecea18c",
+          "products": [
+            {
+              "_id": "6941da491c508c5d5ecea1b5",
+              "name": "Chips68626",
+              "amount": 618,
+              "price": 68283,
+              "manufacturer": "Sony",
+              "notes": "FKoGueaoE9TfYCKTkPxByogubUBhIcakoZbkGghEYGB8m8bdOYUs144fLLQXvz8z5hfej7gtqwj26XB6ph7IZj7jpP5ROigpQwDUovklg4NmNygVmNasjLQQ7FM1i8raATmJZ9r6HKZqfCZfHbEVauhapgQZM4BgH99CXWKh9iFqc5gjDTREXF8JDwiWq5civIJUB003tq9ZUfw3ho9rKSn4CXcDQMH9tSbOnu08v7stPevqXMDLQXOQ9w",
+              "received": false
+            }
+          ],
+          "total_price": 68283,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:16:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

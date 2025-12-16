@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:17:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4127",
+    "etag": "W/\"101f-edXDf2bcwVCdTIR7ujOfTm+gV6U\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941da691c508c5d5eceb1dd",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da671c508c5d5eceb0a4",
+        "email": "Sofia_Bergnaum@yahoo.com",
+        "name": "Quinten Cruickshank",
+        "country": "Canada",
+        "city": "South Eleazarland",
+        "street": "Sandy Lane",
+        "house": 39,
+        "flat": 604,
+        "phone": "+12178994045",
+        "createdOn": "2025-12-16T22:17:11.000Z",
+        "notes": "E4fMVlEzs7RqSHlRUf8nYY6p48XpcmDgprpQ5oz57BuJpjvY7MK9L2WunkYPFDb1RoAn5RIdWZOlNSbIVmHakRhbGnHG9Ppeqn4hLDCI5n2PNlbSlYv5I0PQH9csdxw6ai3w5KAXSG9YLglEjMOobvbJLA7SKybMqeHyd9pREIiOyIUjXHFNF2nCflZ6PjwCvwzvN0lYQfS6pFMMClf2ygzbaegSBJ7S93a3a2Xt01E1GRxaoA9332HeYP"
+      },
+      "products": [
+        {
+          "_id": "6941da671c508c5d5eceb0d4",
+          "name": "Bike8621",
+          "amount": 439,
+          "price": 40645,
+          "manufacturer": "Microsoft",
+          "notes": "lxqpNJP8HzNOugMF4vxFfcIljxQIHC6mVtgRrqvMlCq7FQVJyhzEQfYeu88DdviUZJ6MIkOaULA7prKXnxzP2j3DYB9eXNYboj33tbW6okDvuCkAhOvW5IxegTiMqTTNfTdm25k3ImaMYw8JaVWbUVxdm1Lpo5hEaCKX0SN4bcOOdTcuPh8EUJO3PCdjS6zl8HhAg9RuKgRu3nTfgWcaIdo3aSf0NKqEn7KXs1GYIAe8GybZhUfKOz4Gy5",
+          "received": false
+        },
+        {
+          "_id": "6941da681c508c5d5eceb11d",
+          "name": "Chips63454",
+          "amount": 487,
+          "price": 82094,
+          "manufacturer": "Xiaomi",
+          "notes": "tXXsXKELDzS8lGr0S31g4034Q9Ls5Nk1lPMWeMtwvPR0PJQzNwL7gDMjkXx0lozXf2XX13vQN6BMcFw6QP96RRNyWcCSd7cMnnGcegojtqMj5IeWxaXa0KZ0nnVjSLuqKpSzMmwMLwwPg4c5SnQ0xYi7zmCIzQWsbJYQBK5PF6EbrIkbrC6A2rBwf4WWKpjAFi0cv9EpIjfpzskWtmQahysfmvP2VKFrwEcdg2GgJEmRmOoprf58gXN57q",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "South Eleazarland",
+          "street": "Sandy Lane",
+          "house": 39,
+          "flat": 604
+        },
+        "finalDate": "2025-12-20T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 122739,
+      "createdOn": "2025-12-16T22:17:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da671c508c5d5eceb0a4",
+          "products": [
+            {
+              "_id": "6941da671c508c5d5eceb0d4",
+              "name": "Bike8621",
+              "amount": 439,
+              "price": 40645,
+              "manufacturer": "Microsoft",
+              "notes": "lxqpNJP8HzNOugMF4vxFfcIljxQIHC6mVtgRrqvMlCq7FQVJyhzEQfYeu88DdviUZJ6MIkOaULA7prKXnxzP2j3DYB9eXNYboj33tbW6okDvuCkAhOvW5IxegTiMqTTNfTdm25k3ImaMYw8JaVWbUVxdm1Lpo5hEaCKX0SN4bcOOdTcuPh8EUJO3PCdjS6zl8HhAg9RuKgRu3nTfgWcaIdo3aSf0NKqEn7KXs1GYIAe8GybZhUfKOz4Gy5",
+              "received": false
+            },
+            {
+              "_id": "6941da681c508c5d5eceb11d",
+              "name": "Chips63454",
+              "amount": 487,
+              "price": 82094,
+              "manufacturer": "Xiaomi",
+              "notes": "tXXsXKELDzS8lGr0S31g4034Q9Ls5Nk1lPMWeMtwvPR0PJQzNwL7gDMjkXx0lozXf2XX13vQN6BMcFw6QP96RRNyWcCSd7cMnnGcegojtqMj5IeWxaXa0KZ0nnVjSLuqKpSzMmwMLwwPg4c5SnQ0xYi7zmCIzQWsbJYQBK5PF6EbrIkbrC6A2rBwf4WWKpjAFi0cv9EpIjfpzskWtmQahysfmvP2VKFrwEcdg2GgJEmRmOoprf58gXN57q",
+              "received": false
+            }
+          ],
+          "total_price": 122739,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "South Eleazarland",
+              "street": "Sandy Lane",
+              "house": 39,
+              "flat": 604
+            },
+            "finalDate": "2025-12-20T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T22:17:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941da671c508c5d5eceb0a4",
+          "products": [
+            {
+              "_id": "6941da671c508c5d5eceb0d4",
+              "name": "Bike8621",
+              "amount": 439,
+              "price": 40645,
+              "manufacturer": "Microsoft",
+              "notes": "lxqpNJP8HzNOugMF4vxFfcIljxQIHC6mVtgRrqvMlCq7FQVJyhzEQfYeu88DdviUZJ6MIkOaULA7prKXnxzP2j3DYB9eXNYboj33tbW6okDvuCkAhOvW5IxegTiMqTTNfTdm25k3ImaMYw8JaVWbUVxdm1Lpo5hEaCKX0SN4bcOOdTcuPh8EUJO3PCdjS6zl8HhAg9RuKgRu3nTfgWcaIdo3aSf0NKqEn7KXs1GYIAe8GybZhUfKOz4Gy5",
+              "received": false
+            },
+            {
+              "_id": "6941da681c508c5d5eceb11d",
+              "name": "Chips63454",
+              "amount": 487,
+              "price": 82094,
+              "manufacturer": "Xiaomi",
+              "notes": "tXXsXKELDzS8lGr0S31g4034Q9Ls5Nk1lPMWeMtwvPR0PJQzNwL7gDMjkXx0lozXf2XX13vQN6BMcFw6QP96RRNyWcCSd7cMnnGcegojtqMj5IeWxaXa0KZ0nnVjSLuqKpSzMmwMLwwPg4c5SnQ0xYi7zmCIzQWsbJYQBK5PF6EbrIkbrC6A2rBwf4WWKpjAFi0cv9EpIjfpzskWtmQahysfmvP2VKFrwEcdg2GgJEmRmOoprf58gXN57q",
+              "received": false
+            }
+          ],
+          "total_price": 122739,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:17:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

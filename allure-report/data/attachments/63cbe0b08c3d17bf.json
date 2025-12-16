@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-fz2MgK5gsGJEtXhx/R8lHobeIBA\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da2c1c508c5d5ece9416",
+        "email": "Justice54@hotmail.com",
+        "name": "Mathilde McGlynn",
+        "country": "Canada",
+        "city": "Cletusburgh",
+        "street": "McDermott Trail",
+        "house": 48,
+        "flat": 182,
+        "phone": "+17666799410",
+        "createdOn": "2025-12-16T22:16:12.000Z",
+        "notes": "3JBX53ganPxLiCTPiwQfaudzv0rbEyA1sUDc9KlSwV7mIZuwmxS1kqEXs0jvsuYVYNUux9uX5nlawrLI8QIjYPTOFA0p9aFkdnLZG2J3Uovzr9pDMbOTT6UFpYZtjkLoBFv3ZScMHPuSeRmWVK1OCUTThC3YMVe1E9KUzeGG2ZDepW40WPVbPa1gw98xfXHrwNjQReZlt16fkyRZfXSmKu1ltIXFBgaT7LGk98Oe2Cd4jpuzE0ciGy4tcW"
+      },
+      "products": [
+        {
+          "_id": "6941da2c1c508c5d5ece942a",
+          "name": "Chips62938",
+          "amount": 899,
+          "price": 13825,
+          "manufacturer": "Sony",
+          "notes": "HacOcLerXcgGQr98C0cgxVRMBDhr0eoienoRRkIYbyTD5L6bhmv7S9zGxwxP7fGI7xJvN6uVIMaZCaFJUXsvnWYo6nqrjUTNO4wwyyEvkgFGGKAHZ6UjOE1oaxb9UtTpg1otJUas0ONpuV2E0Xr8T2Qk7XxH9uEP7bkiAikw0DGbLWkqXLMvgrZBhowW7VgjkaZ6oXOCOoAk0AMkKmI4AOvMHTSnGaVG0yMX6IRtsOdTFPtf5UVKoTFYx8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 13825,
+      "createdOn": "2025-12-16T22:16:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da2c1c508c5d5ece9416",
+          "products": [
+            {
+              "_id": "6941da2c1c508c5d5ece942a",
+              "name": "Chips62938",
+              "amount": 899,
+              "price": 13825,
+              "manufacturer": "Sony",
+              "notes": "HacOcLerXcgGQr98C0cgxVRMBDhr0eoienoRRkIYbyTD5L6bhmv7S9zGxwxP7fGI7xJvN6uVIMaZCaFJUXsvnWYo6nqrjUTNO4wwyyEvkgFGGKAHZ6UjOE1oaxb9UtTpg1otJUas0ONpuV2E0Xr8T2Qk7XxH9uEP7bkiAikw0DGbLWkqXLMvgrZBhowW7VgjkaZ6oXOCOoAk0AMkKmI4AOvMHTSnGaVG0yMX6IRtsOdTFPtf5UVKoTFYx8",
+              "received": false
+            }
+          ],
+          "total_price": 13825,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:16:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6941da2d1c508c5d5ece9442"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

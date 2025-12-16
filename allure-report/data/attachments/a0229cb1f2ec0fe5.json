@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:17:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4111",
+    "etag": "W/\"100f-HJiai7HBIFfjuz+Nv2qmf/iU+tI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941da681c508c5d5eceb14a",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da671c508c5d5eceb094",
+        "email": "Howard.Prohaska99@gmail.com",
+        "name": "Jason VonRueden",
+        "country": "Ukraine",
+        "city": "Rathborough",
+        "street": "Kassulke Isle",
+        "house": 19,
+        "flat": 884,
+        "phone": "+16898248692",
+        "createdOn": "2025-12-16T22:17:11.000Z",
+        "notes": "XyRrnA912uLXqikeEwAlinzsVYzBw5LlqXWcsMQfVuRHvrX3ABnAMaTwF8VUtDoVizrwEWPUhyMixD7t1Qb6EQtcIY7BZd3pnSqjDC9CWEBMWzH38QnwGxIHNmTx3qzhbk78BNbZE8SrzCQGJNtYrGtGk2dq8NWFWTSv32ILJoXZRo84DnMIHhLSJF2IH2CStUXVcsWtYS6yE8Mv5SDEzeGECfYYX8pEcJW2EPxTZA0LSEl6PlCFVfQ31a"
+      },
+      "products": [
+        {
+          "_id": "6941da671c508c5d5eceb0c9",
+          "name": "Gloves66389",
+          "amount": 181,
+          "price": 5692,
+          "manufacturer": "Amazon",
+          "notes": "G5GKis9u2HhZpDXTg55ve3SmI7ReRWfifmRfePUAroXyXYZ6k8JDXZeUYoiEmJG8kFdQyxDfBpNmbNKXHeTR2EqmESdzC2KtHVIgI48dan1996m7Tc5yB3qXUFysbfQvrUjgZHKUYFGQAzGG0NgyDmS9axSv9r7pMLRiSPi88srlmYWKWD6Ij5hMahgcbmCuVHFtiWMZOlBpxXuIRIMYjZZSDBB07FzVM5NyWz4c2jqWmCOR12lDCT8uIp",
+          "received": false
+        },
+        {
+          "_id": "6941da681c508c5d5eceb10e",
+          "name": "Gloves82708",
+          "amount": 442,
+          "price": 24473,
+          "manufacturer": "Sony",
+          "notes": "oL441INamO4O8I5T832NwOmVseglvJTqlHLIpXEz5EK3tbfaWudNWFqaJgYo4O7iirCw9fZDYjMsBmbXzhrjHQc85ExsJpEJYkAGnesR6B6UQdHApWWD2UiHpX9omDFCjNnCGz0kn8Il4LAkF6tAMybo69MiwqVQhlLJP74puLjudTupa4QhO0YPPagEUwfUakSEFe3PVrWDbJjd8df9HFUopGFXSOLlE0FxVcbqh1svOAmfzAik0KURnL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Rathborough",
+          "street": "Kassulke Isle",
+          "house": 19,
+          "flat": 884
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 30165,
+      "createdOn": "2025-12-16T22:17:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da671c508c5d5eceb094",
+          "products": [
+            {
+              "_id": "6941da671c508c5d5eceb0c9",
+              "name": "Gloves66389",
+              "amount": 181,
+              "price": 5692,
+              "manufacturer": "Amazon",
+              "notes": "G5GKis9u2HhZpDXTg55ve3SmI7ReRWfifmRfePUAroXyXYZ6k8JDXZeUYoiEmJG8kFdQyxDfBpNmbNKXHeTR2EqmESdzC2KtHVIgI48dan1996m7Tc5yB3qXUFysbfQvrUjgZHKUYFGQAzGG0NgyDmS9axSv9r7pMLRiSPi88srlmYWKWD6Ij5hMahgcbmCuVHFtiWMZOlBpxXuIRIMYjZZSDBB07FzVM5NyWz4c2jqWmCOR12lDCT8uIp",
+              "received": false
+            },
+            {
+              "_id": "6941da681c508c5d5eceb10e",
+              "name": "Gloves82708",
+              "amount": 442,
+              "price": 24473,
+              "manufacturer": "Sony",
+              "notes": "oL441INamO4O8I5T832NwOmVseglvJTqlHLIpXEz5EK3tbfaWudNWFqaJgYo4O7iirCw9fZDYjMsBmbXzhrjHQc85ExsJpEJYkAGnesR6B6UQdHApWWD2UiHpX9omDFCjNnCGz0kn8Il4LAkF6tAMybo69MiwqVQhlLJP74puLjudTupa4QhO0YPPagEUwfUakSEFe3PVrWDbJjd8df9HFUopGFXSOLlE0FxVcbqh1svOAmfzAik0KURnL",
+              "received": false
+            }
+          ],
+          "total_price": 30165,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Rathborough",
+              "street": "Kassulke Isle",
+              "house": 19,
+              "flat": 884
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T22:17:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941da671c508c5d5eceb094",
+          "products": [
+            {
+              "_id": "6941da671c508c5d5eceb0c9",
+              "name": "Gloves66389",
+              "amount": 181,
+              "price": 5692,
+              "manufacturer": "Amazon",
+              "notes": "G5GKis9u2HhZpDXTg55ve3SmI7ReRWfifmRfePUAroXyXYZ6k8JDXZeUYoiEmJG8kFdQyxDfBpNmbNKXHeTR2EqmESdzC2KtHVIgI48dan1996m7Tc5yB3qXUFysbfQvrUjgZHKUYFGQAzGG0NgyDmS9axSv9r7pMLRiSPi88srlmYWKWD6Ij5hMahgcbmCuVHFtiWMZOlBpxXuIRIMYjZZSDBB07FzVM5NyWz4c2jqWmCOR12lDCT8uIp",
+              "received": false
+            },
+            {
+              "_id": "6941da681c508c5d5eceb10e",
+              "name": "Gloves82708",
+              "amount": 442,
+              "price": 24473,
+              "manufacturer": "Sony",
+              "notes": "oL441INamO4O8I5T832NwOmVseglvJTqlHLIpXEz5EK3tbfaWudNWFqaJgYo4O7iirCw9fZDYjMsBmbXzhrjHQc85ExsJpEJYkAGnesR6B6UQdHApWWD2UiHpX9omDFCjNnCGz0kn8Il4LAkF6tAMybo69MiwqVQhlLJP74puLjudTupa4QhO0YPPagEUwfUakSEFe3PVrWDbJjd8df9HFUopGFXSOLlE0FxVcbqh1svOAmfzAik0KURnL",
+              "received": false
+            }
+          ],
+          "total_price": 30165,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:17:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

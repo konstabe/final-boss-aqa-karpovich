@@ -1,0 +1,112 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3072",
+    "etag": "W/\"c00-JrzHJxlbMo4p/VK6iSxXmQNSigs\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941da301c508c5d5ece95c6",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da2f1c508c5d5ece9564",
+        "email": "Kaylee.Schiller@hotmail.com",
+        "name": "Arnaldo Jones",
+        "country": "Russia",
+        "city": "Port Marcchester",
+        "street": "Glover Isle",
+        "house": 8,
+        "flat": 833,
+        "phone": "+14738435665",
+        "createdOn": "2025-12-16T22:16:15.000Z",
+        "notes": "v8sfmiWOAYAFN9puMGIs4caPvaRi7DUXcLYN88MTvRAzGl2ncWVybiqd4PqeAwvjdnkk8Br2fFgKU039Jj0U2cGOTfID7RGtxzq2YaRkIgXPjjiSTqYcnNR82iweVIXXVml7kiyiY3iGugIGl36rrkoSExQYLFq9zpheUg46aWa7mgxxse00aJDWsfdwUfBwwFUTjdB8x0RBVruv68RUPAyGp4sVUYs2p3zZwKsLP5GtJmK5aUKb8biceb"
+      },
+      "products": [
+        {
+          "_id": "6941da301c508c5d5ece958a",
+          "name": "Pants13660",
+          "amount": 974,
+          "price": 35393,
+          "manufacturer": "Xiaomi",
+          "notes": "U1jDLxhJsoAQbAqPr9CIVcOk6p4Wf8YZyDzElbqqwSekbWNseDRbH9jII2dcvvIlNCrZZqDM6ZETfbhfsPj96AUpNXrqx9KBMviD6WLKsWqM1w7uY6YrbYpqUPf3VAd0eU3YFC6APMybSgA8ES2YZDDYXkQ3vb9q1X5NuT8NFHzASBSTlUxjik3QBGRpJHzitCXSAAFXnWcnjyACo1Rl028G6ggbVIhDKmfxuRTuoeKRAZuXafQj53bBmf",
+          "received": false
+        },
+        {
+          "_id": "6941da301c508c5d5ece95a0",
+          "name": "Ball28151",
+          "amount": 778,
+          "price": 28202,
+          "manufacturer": "Tesla",
+          "notes": "bZT0Vpdes8Wr1yvoXMPmGQTwjOvUlkWo69zYZjt0MB07KHoWcUDdmFQUl3ZtRmWMIXgznmijv6BXne7NIm5tCRYAiIBFJCaGFzisbBTKPcz9YipA87Q0E5sZ6fFrVgTgndfKEtXcA0mKi8m9A0SHQ6366XFzsUr8HX6uWu9gTxEEm2r1hwBpx4aE6uvXSmChvQjr1S4DRulr0bgvZ9olS0TXEvliOwikg8UxXnwucv3Jy9DdZsktwaVsEx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 63595,
+      "createdOn": "2025-12-16T22:16:16.000Z",
+      "comments": [
+        {
+          "text": "R",
+          "createdOn": "2025-12-16T22:16:17.000Z",
+          "_id": "6941da311c508c5d5ece9613"
+        },
+        {
+          "text": "38BtMiJLoAWMx3SBwp4WNWRKDnFgLxBaKTKaIH7aulnkar4LAWR5VxQrwUwYBvw5WdKAJfksyXyR8ZTUKPkwPbW2YiZHVJURppHbdkHZfa4GihkcTHnupI6AOTP8LzMth1Bxer0nlQZW1BihvAN5MBTfmUzImli063nROs9bDPUVYlI05aTKwhoGG4hAcaWKNQa5MNeIFcKKvJPdBXNsJFuapq7lcl3gvTeGQQGF7U1vxVGZSAOvtSQBnA",
+          "createdOn": "2025-12-16T22:16:17.000Z",
+          "_id": "6941da311c508c5d5ece963b"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da2f1c508c5d5ece9564",
+          "products": [
+            {
+              "_id": "6941da301c508c5d5ece958a",
+              "name": "Pants13660",
+              "amount": 974,
+              "price": 35393,
+              "manufacturer": "Xiaomi",
+              "notes": "U1jDLxhJsoAQbAqPr9CIVcOk6p4Wf8YZyDzElbqqwSekbWNseDRbH9jII2dcvvIlNCrZZqDM6ZETfbhfsPj96AUpNXrqx9KBMviD6WLKsWqM1w7uY6YrbYpqUPf3VAd0eU3YFC6APMybSgA8ES2YZDDYXkQ3vb9q1X5NuT8NFHzASBSTlUxjik3QBGRpJHzitCXSAAFXnWcnjyACo1Rl028G6ggbVIhDKmfxuRTuoeKRAZuXafQj53bBmf",
+              "received": false
+            },
+            {
+              "_id": "6941da301c508c5d5ece95a0",
+              "name": "Ball28151",
+              "amount": 778,
+              "price": 28202,
+              "manufacturer": "Tesla",
+              "notes": "bZT0Vpdes8Wr1yvoXMPmGQTwjOvUlkWo69zYZjt0MB07KHoWcUDdmFQUl3ZtRmWMIXgznmijv6BXne7NIm5tCRYAiIBFJCaGFzisbBTKPcz9YipA87Q0E5sZ6fFrVgTgndfKEtXcA0mKi8m9A0SHQ6366XFzsUr8HX6uWu9gTxEEm2r1hwBpx4aE6uvXSmChvQjr1S4DRulr0bgvZ9olS0TXEvliOwikg8UxXnwucv3Jy9DdZsktwaVsEx",
+              "received": false
+            }
+          ],
+          "total_price": 63595,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:16:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

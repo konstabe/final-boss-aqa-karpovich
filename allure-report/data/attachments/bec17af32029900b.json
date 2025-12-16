@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1898",
+    "etag": "W/\"76a-wixh0IAqRNYqX5+H9YE2Naax7do\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da4a1c508c5d5ecea24c",
+        "email": "Demetris_Lockman-Hagenes@gmail.com",
+        "name": "Ike Farrell",
+        "country": "Great Britain",
+        "city": "Danielboro",
+        "street": "Sanford Plains",
+        "house": 45,
+        "flat": 494,
+        "phone": "+17496890255",
+        "createdOn": "2025-12-16T22:16:42.000Z",
+        "notes": "raIyhzfgWVg2JHTyeIDYfoqvupeYIqAdZvfmzsLCbHIPIf1yDYTt1mClfnB8cOIILmobxuP37d9or41yMLCMSM8RZf5G9kBReaZanTQe4qeezCGr5soAblQCGEj3VD2waKXA3nBT3oBCXRAgijRyJ12lE585MJf5igoSozn5xWtaRQcZ7mbU0jEw5Ud0nb1LH5JWJcvnpeyypOsgyeTRQHefrqUOXa9e7w4atYeGV8ZNbFXgOYEbTN0Jrp"
+      },
+      "products": [
+        {
+          "_id": "6941da4b1c508c5d5ecea26f",
+          "name": "Ball89714",
+          "amount": 971,
+          "price": 73364,
+          "manufacturer": "Google",
+          "notes": "Wj04nAUnd1EXB4z7Kke7cXItj3i8CoiNQpmcAhlTGAOhk2oGKZ2UV3gQl15V1uyg7FAwneuG5fsVSzHluwaxN5gijiRHktN11zwMV1W6WsAXL3wVQIIeRt18H3CA2SAR8XyFLbNsEU4ksm2BQI3n7FLyQvdjlRK3Zrdw9tnafTAKRrrrrzpUAWw6xvXlq8PdzFMziTiAtMdqOJTTO6HCq4kFUfdQuTQRSGucNE65rTfl4OMIC9hAQYsbRM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 73364,
+      "createdOn": "2025-12-16T22:16:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da4a1c508c5d5ecea24c",
+          "products": [
+            {
+              "_id": "6941da4b1c508c5d5ecea26f",
+              "name": "Ball89714",
+              "amount": 971,
+              "price": 73364,
+              "manufacturer": "Google",
+              "notes": "Wj04nAUnd1EXB4z7Kke7cXItj3i8CoiNQpmcAhlTGAOhk2oGKZ2UV3gQl15V1uyg7FAwneuG5fsVSzHluwaxN5gijiRHktN11zwMV1W6WsAXL3wVQIIeRt18H3CA2SAR8XyFLbNsEU4ksm2BQI3n7FLyQvdjlRK3Zrdw9tnafTAKRrrrrzpUAWw6xvXlq8PdzFMziTiAtMdqOJTTO6HCq4kFUfdQuTQRSGucNE65rTfl4OMIC9hAQYsbRM",
+              "received": false
+            }
+          ],
+          "total_price": 73364,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:16:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6941da4b1c508c5d5ecea290"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

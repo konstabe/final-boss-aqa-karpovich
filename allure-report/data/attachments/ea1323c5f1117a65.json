@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2823",
+    "etag": "W/\"b07-MKisANLuZN8RBnv+podLFzSXWuE\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941da381c508c5d5ece9976",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da371c508c5d5ece990a",
+        "email": "Berry.Lueilwitz50@gmail.com",
+        "name": "Reba Gerlach",
+        "country": "Belarus",
+        "city": "Knoxville",
+        "street": "W Jackson Street",
+        "house": 20,
+        "flat": 354,
+        "phone": "+17877994713",
+        "createdOn": "2025-12-16T22:16:23.000Z",
+        "notes": "ehrU9AlcvfPwIU2ds2wIZxOyzk5iu7346eTUqoAHdiLys1s3hO2FsVyEL3ZvixDcRJWGr42fR4A747jMjjmULKgFmqEcblurXHJiGPhB1iCt95Ke5gYBUBDyEDMIloiiSnNVtfQrepFKavhxRTx7g1W1Ugp6PGbSWo8pkBN6Kf0oFiyYuAINpD0xgoDSMaczirLSywLrxe1pmLRqrCR7LfW2CzLKce8wCuADhnWPHmmQpOzvUyOGAM0e7d"
+      },
+      "products": [
+        {
+          "_id": "6941da371c508c5d5ece9920",
+          "name": "Pants57447",
+          "amount": 442,
+          "price": 82562,
+          "manufacturer": "Google",
+          "notes": "iyOJWNeBFsECaXNr34jbsTCztNz0glHImQd8kXySmJDQh5szqOYOKLQmCecQVolr2KgMxaFNAoXU7Amb5KwidBqHniuj0safFmhPPP5nKaFrVQAF1i2ZmvnkTH793G2SV5hWxmHxDTIYMY00utYtrf8Bj5d9jinrN4ZOYKxLBP2nHpCV2ZUqr7hZq1UBAjJ2U34vUSVvmEQyCoZ3upeOctoi4CRpTFd0twoTocSiZlTuHfpqu2FVeRn5GR",
+          "received": false
+        },
+        {
+          "_id": "6941da381c508c5d5ece9949",
+          "name": "Sausages17872",
+          "amount": 637,
+          "price": 56401,
+          "manufacturer": "Amazon",
+          "notes": "t198JpSngVDmFhAY0OKAcodYbbMZwg6Jrf2QRTXtYHMUmANR3xmdGGAiyZhnpNWSWXHzy5EFYJqdfm8ahF8p7HYHsWZNQHqUIVtkqmv7odGJ3EvC12RoOEqV7B2NUNG5qfYXoo0bbrxUo2JKuuh1BpAeVqeZdyJq0538kiUTg6xqIf43Ak2IlXlfJQ94G6NocFsu9YYLmaEMqihxAtFhRXzm9XOldb04FgnMnB3xkm1FsvhXedHP7w6pll",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 138963,
+      "createdOn": "2025-12-16T22:16:24.000Z",
+      "comments": [
+        {
+          "text": "HS1cQdbKKEZlYtlOAXDeOcd1jtyKX7IIa49KMWRtoq2ZsQirYsgvamKH4repBe4OgrrGajPvjf3",
+          "createdOn": "2025-12-16T22:16:25.000Z",
+          "_id": "6941da391c508c5d5ece99e7"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da371c508c5d5ece990a",
+          "products": [
+            {
+              "_id": "6941da371c508c5d5ece9920",
+              "name": "Pants57447",
+              "amount": 442,
+              "price": 82562,
+              "manufacturer": "Google",
+              "notes": "iyOJWNeBFsECaXNr34jbsTCztNz0glHImQd8kXySmJDQh5szqOYOKLQmCecQVolr2KgMxaFNAoXU7Amb5KwidBqHniuj0safFmhPPP5nKaFrVQAF1i2ZmvnkTH793G2SV5hWxmHxDTIYMY00utYtrf8Bj5d9jinrN4ZOYKxLBP2nHpCV2ZUqr7hZq1UBAjJ2U34vUSVvmEQyCoZ3upeOctoi4CRpTFd0twoTocSiZlTuHfpqu2FVeRn5GR",
+              "received": false
+            },
+            {
+              "_id": "6941da381c508c5d5ece9949",
+              "name": "Sausages17872",
+              "amount": 637,
+              "price": 56401,
+              "manufacturer": "Amazon",
+              "notes": "t198JpSngVDmFhAY0OKAcodYbbMZwg6Jrf2QRTXtYHMUmANR3xmdGGAiyZhnpNWSWXHzy5EFYJqdfm8ahF8p7HYHsWZNQHqUIVtkqmv7odGJ3EvC12RoOEqV7B2NUNG5qfYXoo0bbrxUo2JKuuh1BpAeVqeZdyJq0538kiUTg6xqIf43Ak2IlXlfJQ94G6NocFsu9YYLmaEMqihxAtFhRXzm9XOldb04FgnMnB3xkm1FsvhXedHP7w6pll",
+              "received": false
+            }
+          ],
+          "total_price": 138963,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:16:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

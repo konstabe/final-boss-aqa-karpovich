@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2809",
+    "etag": "W/\"af9-6Jc7X/cHSl2MsIDuNXNM4D3oh3Q\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941da391c508c5d5ece99f3",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da371c508c5d5ece9928",
+        "email": "Erin65@yahoo.com",
+        "name": "Liam Toy",
+        "country": "Germany",
+        "city": "Kansas City",
+        "street": "Hettinger Mount",
+        "house": 39,
+        "flat": 809,
+        "phone": "+16632624562",
+        "createdOn": "2025-12-16T22:16:23.000Z",
+        "notes": "ZxbNbDmYw4UL78WjXSipsFoOO0CLUhEZSIjDMHlbMDF4k6e2DoqZ835BA3DBs9Ra7ZQRdMuBVBEkFJG2JNjeYlaKhKXFGX1MwlbkdMasytRhMxcBicA4h2cv2e3IcwoaRFxHf9c9UEcBaScD2qUUPw4YFoZ5UWyVI04vEVaxUSLoPJza2obe8hToTG20NSDjIn5vw8sbXyggVOAGTdG8NmRgNKC2CoWG3PnzMpNgawiiic6Ou3Zt75CBf7"
+      },
+      "products": [
+        {
+          "_id": "6941da381c508c5d5ece9965",
+          "name": "Tuna80190",
+          "amount": 398,
+          "price": 67711,
+          "manufacturer": "Microsoft",
+          "notes": "aUFlVrMfvp1IYFV24fmKAmf9fYzlqbVxeHIDPo34kf9PoObuos5h5gV7DX400E9pfLIFisykDkZstIzqDfBlGMI88LMevdHdQJcyjeIZDZ9xzU01hxCQ4sKvTM2VzYlX5D6TQPmzmparahEyI1dqxdsS7Bxj530NWSDqgnFyho1rK3aDyBW4aHLuX6U6gGOO4KedvLpApJDqf0QKQMaVtgf4au0dqJPNMwkMk77sKiy91OrCwgYuDfg02K",
+          "received": false
+        },
+        {
+          "_id": "6941da381c508c5d5ece99a0",
+          "name": "Towels99403",
+          "amount": 246,
+          "price": 90333,
+          "manufacturer": "Google",
+          "notes": "3NDHNlMdl2OGo2BEhggZi0mP8QS9j02meDdRvhKgRWmHJhqOjdQOD28dHX6ihc5S4eTiYO6xxyK1o3eWdpygLGtcMKG7s2eyxM2hRFbvnO2bCGjIEvfw0DBnqImEkRGb2DhCHyhkvGH4zNDyILZEAQ3w7kfJFedPDul3bFcjgIHSbji8R2HgCR9luAWtb5KD1XiquqMxjwvBcrnWWu6n7kAnmZxpgbS1R2zPoXKMqOlo8PlYUgTuX6GkO9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 158044,
+      "createdOn": "2025-12-16T22:16:25.000Z",
+      "comments": [
+        {
+          "text": "AWUjbrqlK3geygXwM2WC5nH6Jzp2oplPNI2r0n8MzW45uTmWD34qjEfd0vzezNR3BVZEZ8dI4aS",
+          "createdOn": "2025-12-16T22:16:26.000Z",
+          "_id": "6941da3a1c508c5d5ece9a64"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da371c508c5d5ece9928",
+          "products": [
+            {
+              "_id": "6941da381c508c5d5ece9965",
+              "name": "Tuna80190",
+              "amount": 398,
+              "price": 67711,
+              "manufacturer": "Microsoft",
+              "notes": "aUFlVrMfvp1IYFV24fmKAmf9fYzlqbVxeHIDPo34kf9PoObuos5h5gV7DX400E9pfLIFisykDkZstIzqDfBlGMI88LMevdHdQJcyjeIZDZ9xzU01hxCQ4sKvTM2VzYlX5D6TQPmzmparahEyI1dqxdsS7Bxj530NWSDqgnFyho1rK3aDyBW4aHLuX6U6gGOO4KedvLpApJDqf0QKQMaVtgf4au0dqJPNMwkMk77sKiy91OrCwgYuDfg02K",
+              "received": false
+            },
+            {
+              "_id": "6941da381c508c5d5ece99a0",
+              "name": "Towels99403",
+              "amount": 246,
+              "price": 90333,
+              "manufacturer": "Google",
+              "notes": "3NDHNlMdl2OGo2BEhggZi0mP8QS9j02meDdRvhKgRWmHJhqOjdQOD28dHX6ihc5S4eTiYO6xxyK1o3eWdpygLGtcMKG7s2eyxM2hRFbvnO2bCGjIEvfw0DBnqImEkRGb2DhCHyhkvGH4zNDyILZEAQ3w7kfJFedPDul3bFcjgIHSbji8R2HgCR9luAWtb5KD1XiquqMxjwvBcrnWWu6n7kAnmZxpgbS1R2zPoXKMqOlo8PlYUgTuX6GkO9",
+              "received": false
+            }
+          ],
+          "total_price": 158044,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:16:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

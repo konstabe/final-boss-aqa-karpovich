@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-ODeAqBhOav6qXDgyiUj0Lnnh1Cs\"",
+    "keep-alive": "timeout=5, max=59",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da321c508c5d5ece96ba",
+        "email": "Elmira_Paucek@yahoo.com",
+        "name": "Hilbert Green",
+        "country": "Belarus",
+        "city": "Port Ardella",
+        "street": "Hettinger Lakes",
+        "house": 44,
+        "flat": 823,
+        "phone": "+13476527686",
+        "createdOn": "2025-12-16T22:16:18.000Z",
+        "notes": "1Wnp7cBVamMLIiQIw0ODm8t0GZFlzju0EKPBbwPGpi2Wka1JwysrNIosVsWfMiaueNgepuGz3RFQslLB58jh9zHXyCO9P5DRjdWgscJ9CT0oubRDtzRjPGLyMPcB6kjj3Bec99Jn6X5OlTJxqt3dAaiNUSaqpgLp3Eo5Z8cd4cRnbcJE01JAsMEZqKbaiy4riGBu5Qj9mOfbVxUxKi1YuUfSj5WuIuLCP2ZUg0L3phr1URwqiQEFhcME85"
+      },
+      "products": [
+        {
+          "_id": "6941da321c508c5d5ece96d3",
+          "name": "Gloves73742",
+          "amount": 426,
+          "price": 83110,
+          "manufacturer": "Apple",
+          "notes": "Y91zuSHVW7iMLuFO1lrkNdblXNETEH3dX1ld71gGll6eTKrkjhD5bFDQk6gryuzdEyPycX5eZvlnlGmeJMFOI42u2OsQUoodk5FImJW3BM4znmT1QRm43eTzJFXN8yGqb50q8lkCdwhwEMCa8punpTmdcPYcB9bzhLuQIqaV5lJhAygwej3ZBHWeISV9wLor04WHLiykQoqVETxhBeQ4M0Ja1kTd13IbDPVDTTAVUHm0pcOKmmcB5x9hQh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 83110,
+      "createdOn": "2025-12-16T22:16:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da321c508c5d5ece96ba",
+          "products": [
+            {
+              "_id": "6941da321c508c5d5ece96d3",
+              "name": "Gloves73742",
+              "amount": 426,
+              "price": 83110,
+              "manufacturer": "Apple",
+              "notes": "Y91zuSHVW7iMLuFO1lrkNdblXNETEH3dX1ld71gGll6eTKrkjhD5bFDQk6gryuzdEyPycX5eZvlnlGmeJMFOI42u2OsQUoodk5FImJW3BM4znmT1QRm43eTzJFXN8yGqb50q8lkCdwhwEMCa8punpTmdcPYcB9bzhLuQIqaV5lJhAygwej3ZBHWeISV9wLor04WHLiykQoqVETxhBeQ4M0Ja1kTd13IbDPVDTTAVUHm0pcOKmmcB5x9hQh",
+              "received": false
+            }
+          ],
+          "total_price": 83110,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:16:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6941da331c508c5d5ece9705"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

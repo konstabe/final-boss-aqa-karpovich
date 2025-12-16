@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2971",
+    "etag": "W/\"b9b-YpL7VF+0XDnQXWYESctniLkF6ZU\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941da4e1c508c5d5ecea3e2",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da4d1c508c5d5ecea36c",
+        "email": "Savannah_Leffler43@hotmail.com",
+        "name": "Favian Kunde",
+        "country": "Germany",
+        "city": "Schroederport",
+        "street": "Alexandra Harbor",
+        "house": 26,
+        "flat": 758,
+        "phone": "+16833705517",
+        "createdOn": "2025-12-16T22:16:45.000Z",
+        "notes": "uh6FEBNMzRH8rYFcuGh57Z283nP6M2K4ps1jklX39HI6t9CWUzCjQk4D3KlnxLdq7Wp8x6nQo3lUVh09X8S04o4DaxL9RKDYd6knc21BAYyokfsX71RHr0AAKZ0wZ5al1LMZk2vsxpyIJG70rlTlvjpFrXl6X2Me9REMJa0Z4S6FAlBOaacd35NnsSZ4F9UXcTKsHOB5RKYn1ZD5E97blabRndYMv1L0cg9KH2FRkzh5efVbpsWOqnFwdD"
+      },
+      "products": [
+        {
+          "_id": "6941da4d1c508c5d5ecea3a3",
+          "name": "Shirt50140",
+          "amount": 16,
+          "price": 50328,
+          "manufacturer": "Apple",
+          "notes": "nj8l8Clu4wkvT13kfdnxV3hh37ofdWvsxWN4TtzBCrjXjUYVEUDgdHUMefokUqtp051u6hLmajfa7MdrnlfZOUk2OxPL697PQvA8XLbTnBi99GEjdNn65xKX3tpLLNEWQt48k1v1spXYs8GwT6ZreljeCd4vvDQ4iokqVIxSFfVjftRxtKG55OIphN5gekSNjBwMlQDMWX81ZBJXEqohkE4bm3BXV3BluqAzOBJIq6YzXpyuUMkMM3LhvX",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Schroederport",
+          "street": "Alexandra Harbor",
+          "house": 26,
+          "flat": 758
+        },
+        "finalDate": "2025-12-20T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 50328,
+      "createdOn": "2025-12-16T22:16:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da4d1c508c5d5ecea36c",
+          "products": [
+            {
+              "_id": "6941da4d1c508c5d5ecea3a3",
+              "name": "Shirt50140",
+              "amount": 16,
+              "price": 50328,
+              "manufacturer": "Apple",
+              "notes": "nj8l8Clu4wkvT13kfdnxV3hh37ofdWvsxWN4TtzBCrjXjUYVEUDgdHUMefokUqtp051u6hLmajfa7MdrnlfZOUk2OxPL697PQvA8XLbTnBi99GEjdNn65xKX3tpLLNEWQt48k1v1spXYs8GwT6ZreljeCd4vvDQ4iokqVIxSFfVjftRxtKG55OIphN5gekSNjBwMlQDMWX81ZBJXEqohkE4bm3BXV3BluqAzOBJIq6YzXpyuUMkMM3LhvX",
+              "received": false
+            }
+          ],
+          "total_price": 50328,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Schroederport",
+              "street": "Alexandra Harbor",
+              "house": 26,
+              "flat": 758
+            },
+            "finalDate": "2025-12-20T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T22:16:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941da4d1c508c5d5ecea36c",
+          "products": [
+            {
+              "_id": "6941da4d1c508c5d5ecea3a3",
+              "name": "Shirt50140",
+              "amount": 16,
+              "price": 50328,
+              "manufacturer": "Apple",
+              "notes": "nj8l8Clu4wkvT13kfdnxV3hh37ofdWvsxWN4TtzBCrjXjUYVEUDgdHUMefokUqtp051u6hLmajfa7MdrnlfZOUk2OxPL697PQvA8XLbTnBi99GEjdNn65xKX3tpLLNEWQt48k1v1spXYs8GwT6ZreljeCd4vvDQ4iokqVIxSFfVjftRxtKG55OIphN5gekSNjBwMlQDMWX81ZBJXEqohkE4bm3BXV3BluqAzOBJIq6YzXpyuUMkMM3LhvX",
+              "received": false
+            }
+          ],
+          "total_price": 50328,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:16:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

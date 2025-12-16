@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2946",
+    "etag": "W/\"b82-3lkwt3oxof481NIZ8T3331S/cVg\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941da321c508c5d5ece96c8",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da321c508c5d5ece9681",
+        "email": "Madie.Glover@yahoo.com",
+        "name": "Terence Hauck",
+        "country": "Great Britain",
+        "city": "Port Deionport",
+        "street": "Hawthorn Avenue",
+        "house": 24,
+        "flat": 122,
+        "phone": "+16017688194",
+        "createdOn": "2025-12-16T22:16:18.000Z",
+        "notes": "2CT5zxTR5kd6GhAX2MoBoNZgx0A9m0GgVIoDOj4nMlYMLrpR8mZNBebYJyVupaiXoneM8mSRsnIvLPmbP4UDHGSTrtAiD0UAwUIQ5zjqXssdIwnOhpga0tjztDHtN2KqCaAtBlFPjOvJV6VSR7EiAQ4Pnamm9inoJfVlqO9UWY7PmP7QicURpDOLZbzN7dYni1CrAnqttiALrv5KDiTDe59ePa39TzrkCcLdyMINZObLPIn5jXUhCBUauF"
+      },
+      "products": [
+        {
+          "_id": "6941da321c508c5d5ece9698",
+          "name": "Mouse9339",
+          "amount": 520,
+          "price": 15521,
+          "manufacturer": "Google",
+          "notes": "MLiTeqi6uPwyYYAeGfP1vwnuUzVaWnSTC7TDfqkzCftYVLk2DcBOaBxksimJwRhwPiISjgkbgeDCQTa2g7S20OiJ0OMLHLqyWczclya5h5szalwPi0Lz85Lmn8u4b725EJha8lZuLdqZr9s0NrTqbR7ZtsiDEWxgLK5Wj1ZppOZf6eCJtP5TI4fIYTERDPioDqqK9Msoksgj1TIcK2XDPsZmLXyGYA5SY9toJ1wtDQWVJHaRtqTQtL3rlE",
+          "received": false
+        },
+        {
+          "_id": "6941da321c508c5d5ece96ae",
+          "name": "Hat65574",
+          "amount": 98,
+          "price": 67506,
+          "manufacturer": "Tesla",
+          "notes": "PvnRYXCaXpmWS0bbejj7fqEXWTWkiiz2VDIbqRUS6N4gZ3YWXkTmNwmKf1n9s0TWdvuf3IaNnY80WzB9ul3GaBCYeBTvlha2jWUQGESi5QRvAfqGTgGmP6z23melqaIQ7CZ2Bp3pIeqMroAlOqK705X16fKbYllyhFzb26TEfPR7u0NIGKVRGy1n0d3u3f1VQkRuAWINfyNI6wfYIuPNudx2td0vkFcwmGr9KltDGMtN5RL4n84oM7b24k",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 83027,
+      "createdOn": "2025-12-16T22:16:18.000Z",
+      "comments": [
+        {
+          "text": "<script>N1urJoVlTanozUOElOuA5zEZjCXxqcrdpsGPWThXqnS8aIBOOyIuZ30rGL9tFpLMhLe9ZIHNfbvQSs5ylHXPGl8aZrS3TWRjjAYNEEJdgxpVPmZZ4kNcrRxiIkCsdnq14dW99GK2eZrtvzgzvmFInXf63YnEPZVVgvfjuhb9JoTIrE8EEC84cLuXz8n4k2a1Py8MYn6h >",
+          "createdOn": "2025-12-16T22:16:19.000Z",
+          "_id": "6941da331c508c5d5ece9707"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da321c508c5d5ece9681",
+          "products": [
+            {
+              "_id": "6941da321c508c5d5ece9698",
+              "name": "Mouse9339",
+              "amount": 520,
+              "price": 15521,
+              "manufacturer": "Google",
+              "notes": "MLiTeqi6uPwyYYAeGfP1vwnuUzVaWnSTC7TDfqkzCftYVLk2DcBOaBxksimJwRhwPiISjgkbgeDCQTa2g7S20OiJ0OMLHLqyWczclya5h5szalwPi0Lz85Lmn8u4b725EJha8lZuLdqZr9s0NrTqbR7ZtsiDEWxgLK5Wj1ZppOZf6eCJtP5TI4fIYTERDPioDqqK9Msoksgj1TIcK2XDPsZmLXyGYA5SY9toJ1wtDQWVJHaRtqTQtL3rlE",
+              "received": false
+            },
+            {
+              "_id": "6941da321c508c5d5ece96ae",
+              "name": "Hat65574",
+              "amount": 98,
+              "price": 67506,
+              "manufacturer": "Tesla",
+              "notes": "PvnRYXCaXpmWS0bbejj7fqEXWTWkiiz2VDIbqRUS6N4gZ3YWXkTmNwmKf1n9s0TWdvuf3IaNnY80WzB9ul3GaBCYeBTvlha2jWUQGESi5QRvAfqGTgGmP6z23melqaIQ7CZ2Bp3pIeqMroAlOqK705X16fKbYllyhFzb26TEfPR7u0NIGKVRGy1n0d3u3f1VQkRuAWINfyNI6wfYIuPNudx2td0vkFcwmGr9KltDGMtN5RL4n84oM7b24k",
+              "received": false
+            }
+          ],
+          "total_price": 83027,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:16:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
