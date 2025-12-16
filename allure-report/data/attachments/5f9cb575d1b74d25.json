@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 09:22:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3880",
+    "etag": "W/\"f28-OKOpPJNNSvllzdr2yvIatZRjw+c\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694124ed1c508c5d5ecd41b8",
+      "status": "In Process",
+      "customer": {
+        "_id": "694124ec1c508c5d5ecd419f",
+        "email": "Carli78@gmail.com",
+        "name": "Eryn Predovic",
+        "country": "Great Britain",
+        "city": "Lonnyberg",
+        "street": "Angela Rest",
+        "house": 14,
+        "flat": 898,
+        "phone": "+13039684807",
+        "createdOn": "2025-12-16T09:22:52.000Z",
+        "notes": "biFTf2VvWMFZMZwsnyZduCCNzWy8AMZwJ1Wk72l8LRWVfCukqhw3BGXxxNRsAhmWRkhmM3WWd3nGvk3gcWql19wAkUVztY0OLKCGkxs3rP9ZvFUTWj3cuLDS3WCMygzTmypupXhmDl9x1q837miBKRUyiyqijGts8K0uzmBUHif5Y3EcvuEaZ2nhprqD67QiJ90r9xbrnJMSRgJH8FkIwOE2OYIXL06I90rMDTrpt26l5v1DOYN5AKC9sG"
+      },
+      "products": [
+        {
+          "_id": "694124ed1c508c5d5ecd41a8",
+          "name": "Pizza64269",
+          "amount": 655,
+          "price": 14333,
+          "manufacturer": "Sony",
+          "notes": "GUHSN7w8TWrooqbciI2oPllr4UY3frrhLvqEWtznYi3NWui1g4PLLUafzpBV1Y5KfAyLY32tJyeeBbaaoQy2hJQ8tm0El6F92H0tAtJyDVxTEWgrKMn4wIjxcFnQJrEZhiqi3Wn5PP2fTopupTaASEKXIf39UfUM7i4mlV80UkHeO604CYAMgd3JlSPb09TYzZ5wzVN6WrLdqMD8CbpsGcdnrWG61jW56rv1ybJr800MlBOrQAIbH7WMdv",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Lonnyberg",
+          "street": "Angela Rest",
+          "house": 14,
+          "flat": 898
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 14333,
+      "createdOn": "2025-12-16T09:22:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694124ec1c508c5d5ecd419f",
+          "products": [
+            {
+              "_id": "694124ed1c508c5d5ecd41a8",
+              "name": "Pizza64269",
+              "amount": 655,
+              "price": 14333,
+              "manufacturer": "Sony",
+              "notes": "GUHSN7w8TWrooqbciI2oPllr4UY3frrhLvqEWtznYi3NWui1g4PLLUafzpBV1Y5KfAyLY32tJyeeBbaaoQy2hJQ8tm0El6F92H0tAtJyDVxTEWgrKMn4wIjxcFnQJrEZhiqi3Wn5PP2fTopupTaASEKXIf39UfUM7i4mlV80UkHeO604CYAMgd3JlSPb09TYzZ5wzVN6WrLdqMD8CbpsGcdnrWG61jW56rv1ybJr800MlBOrQAIbH7WMdv",
+              "received": false
+            }
+          ],
+          "total_price": 14333,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lonnyberg",
+              "street": "Angela Rest",
+              "house": 14,
+              "flat": 898
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T09:22:53.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694124ec1c508c5d5ecd419f",
+          "products": [
+            {
+              "_id": "694124ed1c508c5d5ecd41a8",
+              "name": "Pizza64269",
+              "amount": 655,
+              "price": 14333,
+              "manufacturer": "Sony",
+              "notes": "GUHSN7w8TWrooqbciI2oPllr4UY3frrhLvqEWtznYi3NWui1g4PLLUafzpBV1Y5KfAyLY32tJyeeBbaaoQy2hJQ8tm0El6F92H0tAtJyDVxTEWgrKMn4wIjxcFnQJrEZhiqi3Wn5PP2fTopupTaASEKXIf39UfUM7i4mlV80UkHeO604CYAMgd3JlSPb09TYzZ5wzVN6WrLdqMD8CbpsGcdnrWG61jW56rv1ybJr800MlBOrQAIbH7WMdv",
+              "received": false
+            }
+          ],
+          "total_price": 14333,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lonnyberg",
+              "street": "Angela Rest",
+              "house": 14,
+              "flat": 898
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T09:22:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694124ec1c508c5d5ecd419f",
+          "products": [
+            {
+              "_id": "694124ed1c508c5d5ecd41a8",
+              "name": "Pizza64269",
+              "amount": 655,
+              "price": 14333,
+              "manufacturer": "Sony",
+              "notes": "GUHSN7w8TWrooqbciI2oPllr4UY3frrhLvqEWtznYi3NWui1g4PLLUafzpBV1Y5KfAyLY32tJyeeBbaaoQy2hJQ8tm0El6F92H0tAtJyDVxTEWgrKMn4wIjxcFnQJrEZhiqi3Wn5PP2fTopupTaASEKXIf39UfUM7i4mlV80UkHeO604CYAMgd3JlSPb09TYzZ5wzVN6WrLdqMD8CbpsGcdnrWG61jW56rv1ybJr800MlBOrQAIbH7WMdv",
+              "received": false
+            }
+          ],
+          "total_price": 14333,
+          "delivery": null,
+          "changedOn": "2025-12-16T09:22:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

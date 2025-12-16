@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 09:22:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-ThRykukrLOXoUpEl6ItRqFl5g14\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694124e61c508c5d5ecd3f5b",
+        "email": "Peggie28@gmail.com",
+        "name": "Daisy Gibson",
+        "country": "France",
+        "city": "Balistrerifield",
+        "street": "Treutel Passage",
+        "house": 5,
+        "flat": 834,
+        "phone": "+15593352055",
+        "createdOn": "2025-12-16T09:22:46.000Z",
+        "notes": "H4GivCJ4ZphdDi2E4KKn5GVFcqXz16tXSWNEA0GZUJaeGSutW7MyzlvhFXspe0d6mBVLN7za6H9ZiBnwuhy5zddG7B2SZkfri5N3HlhgSgrO8nAIOwlclGIpTWf2XDhrtrXp0LLOa9BbIan3FZsQMGXzDnO6QJPYP0maVvvcomCTXQOhUibEBa3zwJml8TFUBeA2BwPVHGD1rqMBm7h20svIRaxXYsKFtB8ZECC6SkQDp3M05R2UcUa6b5"
+      },
+      "products": [
+        {
+          "_id": "694124e71c508c5d5ecd3f8f",
+          "name": "Soap77538",
+          "amount": 938,
+          "price": 23126,
+          "manufacturer": "Amazon",
+          "notes": "z3nL7hacOWq6TnIkG6bIl6fOQ6niPU9pJGLJpEgzNyJiKuTaAtWIH5uOEzBU4ioJGkky4HsjufF1Qi21Cdtw1mfa8IA24bkvEGqZuT5GBshK9E2v8FnBk6fr84Af6pdsk9YDSYfjfBt1nSFyMeygWaYxTsCylFhiB4A3UBEt2jedXLMO6bHOkTP78fLKzOfbIOD5ezflqQjaiAc8XNTvcfbzUlSE5mzmi1OF9ixwXpv3fznPl1YKmdNEPw",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 23126,
+      "createdOn": "2025-12-16T09:22:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694124e61c508c5d5ecd3f5b",
+          "products": [
+            {
+              "_id": "694124e71c508c5d5ecd3f8f",
+              "name": "Soap77538",
+              "amount": 938,
+              "price": 23126,
+              "manufacturer": "Amazon",
+              "notes": "z3nL7hacOWq6TnIkG6bIl6fOQ6niPU9pJGLJpEgzNyJiKuTaAtWIH5uOEzBU4ioJGkky4HsjufF1Qi21Cdtw1mfa8IA24bkvEGqZuT5GBshK9E2v8FnBk6fr84Af6pdsk9YDSYfjfBt1nSFyMeygWaYxTsCylFhiB4A3UBEt2jedXLMO6bHOkTP78fLKzOfbIOD5ezflqQjaiAc8XNTvcfbzUlSE5mzmi1OF9ixwXpv3fznPl1YKmdNEPw",
+              "received": false
+            }
+          ],
+          "total_price": 23126,
+          "delivery": null,
+          "changedOn": "2025-12-16T09:22:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694124e71c508c5d5ecd3fc1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

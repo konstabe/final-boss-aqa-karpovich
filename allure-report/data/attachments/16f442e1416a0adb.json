@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 09:22:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2962",
+    "etag": "W/\"b92-Opyyw+D0ceSBm6fz1R54TZJOdbk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694124ea1c508c5d5ecd40f0",
+      "status": "Draft",
+      "customer": {
+        "_id": "694124e91c508c5d5ecd40af",
+        "email": "Floyd41@yahoo.com",
+        "name": "Queen Cormier",
+        "country": "France",
+        "city": "Lake Katlynnport",
+        "street": "Paucek Walks",
+        "house": 2,
+        "flat": 71,
+        "phone": "+12117022485",
+        "createdOn": "2025-12-16T09:22:49.000Z",
+        "notes": "h76IH5QqYzyA8YPhr4t6FJlVOhyDizME7Z1y4iwHLkdR9db2oYrw46D1m3mnFTvfWAzuD6S3sLbCrvFXMzlB7Sv2sRQamth5Zuj3T5PmJ0AHhl7aEEuSQArqOxlRTWhIRpE05iAEWnJEq5jzcaHkhKtoFF3rYfaYCsmcUeXW8LyKwX64kavnS5ndUdIHy5jF8z8FpbTFUFh3EUvEjTqN4K5DSb1N3BdsDjFD4lFNepVMZ0ENEgxM0lLKrp"
+      },
+      "products": [
+        {
+          "_id": "694124ea1c508c5d5ecd40ce",
+          "name": "Sausages20890",
+          "amount": 229,
+          "price": 10597,
+          "manufacturer": "Amazon",
+          "notes": "pSv6apgtOtU7hgA8WJ9SjKZmvaDOK5vQ8JAxWxCmYdC3O4knSar5HeGhIyWpbnkUy86i81cd4wtD3dc9muRvVI7n6GZ2Iavk0o1ijyymV5LNVRs4OyWEhVdezwmmHUv6RgsgPV7uchbYOS1mTZBKVoTHdrLh3UftQG3GwPxm37UcGpvxuvewi9Guw0NsizKsq8mCMCKV8K4fh8Pc3jmT36T8GPUVXA8VNW3NEGWE59q7gj6ESO9HqVinsq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Lake Katlynnport",
+          "street": "Paucek Walks",
+          "house": 2,
+          "flat": 71
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 10597,
+      "createdOn": "2025-12-16T09:22:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694124e91c508c5d5ecd40af",
+          "products": [
+            {
+              "_id": "694124ea1c508c5d5ecd40ce",
+              "name": "Sausages20890",
+              "amount": 229,
+              "price": 10597,
+              "manufacturer": "Amazon",
+              "notes": "pSv6apgtOtU7hgA8WJ9SjKZmvaDOK5vQ8JAxWxCmYdC3O4knSar5HeGhIyWpbnkUy86i81cd4wtD3dc9muRvVI7n6GZ2Iavk0o1ijyymV5LNVRs4OyWEhVdezwmmHUv6RgsgPV7uchbYOS1mTZBKVoTHdrLh3UftQG3GwPxm37UcGpvxuvewi9Guw0NsizKsq8mCMCKV8K4fh8Pc3jmT36T8GPUVXA8VNW3NEGWE59q7gj6ESO9HqVinsq",
+              "received": false
+            }
+          ],
+          "total_price": 10597,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Lake Katlynnport",
+              "street": "Paucek Walks",
+              "house": 2,
+              "flat": 71
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T09:22:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694124e91c508c5d5ecd40af",
+          "products": [
+            {
+              "_id": "694124ea1c508c5d5ecd40ce",
+              "name": "Sausages20890",
+              "amount": 229,
+              "price": 10597,
+              "manufacturer": "Amazon",
+              "notes": "pSv6apgtOtU7hgA8WJ9SjKZmvaDOK5vQ8JAxWxCmYdC3O4knSar5HeGhIyWpbnkUy86i81cd4wtD3dc9muRvVI7n6GZ2Iavk0o1ijyymV5LNVRs4OyWEhVdezwmmHUv6RgsgPV7uchbYOS1mTZBKVoTHdrLh3UftQG3GwPxm37UcGpvxuvewi9Guw0NsizKsq8mCMCKV8K4fh8Pc3jmT36T8GPUVXA8VNW3NEGWE59q7gj6ESO9HqVinsq",
+              "received": false
+            }
+          ],
+          "total_price": 10597,
+          "delivery": null,
+          "changedOn": "2025-12-16T09:22:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
