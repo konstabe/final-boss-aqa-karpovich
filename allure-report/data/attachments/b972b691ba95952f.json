@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 08:58:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-Y+b921185SXzqly9m0Zg0M940wE\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69411f451c508c5d5ecd3b47",
+        "email": "Unique.Torphy@gmail.com",
+        "name": "Bernardo Romaguera",
+        "country": "Great Britain",
+        "city": "Jalenton",
+        "street": "High Street",
+        "house": 27,
+        "flat": 831,
+        "phone": "+17549191177",
+        "createdOn": "2025-12-16T08:58:45.000Z",
+        "notes": "tQph68AIUgqbaoq0di4JZxSlvXQAKByuKOwiYg5RcoiSUVT3mlSdXX11cXI54SZxcYNAAZmsS5IemkAYJtv5Q62iK3wCqYMy7SBtPkvNRy9JYME8vJOIcdmQgzVdBVmHW0KlDSGrXfqA1QQvJ4aMdG5MvBsxRLoL0ThP4wVKpv2OkDRPxAuUDEWRrppDwiA0pWG7DO4J47h04BBCoEE0uEeO1AGpDr9Lvr07rJComHGeM38GndCDDiSKCo"
+      },
+      "products": [
+        {
+          "_id": "69411f451c508c5d5ecd3b6f",
+          "name": "Cheese65072",
+          "amount": 601,
+          "price": 59524,
+          "manufacturer": "Sony",
+          "notes": "lmHDpxaKUMIuGccZSOcB4y64320OANNqc6l55Poe9vmRLTDgv26540sf91qk7mDeuSRJFlCmRScxjSbvMRxY6ubzl5Oi6Yhj4bDj3RzjRvMDsw7AovghbWLUvWypxeDXd6sFJpGjV1YUs9UUXBEKHr4JkgizSeA8RoIVIR7bTrr9OOIvEMbkLZYBqSr2PYgZwTYu7qSTjF0Lxr60Paot4oeJvfWx0s74pQvUS7tsZVmw5Ztr0uRVXtRMGe",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 59524,
+      "createdOn": "2025-12-16T08:58:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69411f451c508c5d5ecd3b47",
+          "products": [
+            {
+              "_id": "69411f451c508c5d5ecd3b6f",
+              "name": "Cheese65072",
+              "amount": 601,
+              "price": 59524,
+              "manufacturer": "Sony",
+              "notes": "lmHDpxaKUMIuGccZSOcB4y64320OANNqc6l55Poe9vmRLTDgv26540sf91qk7mDeuSRJFlCmRScxjSbvMRxY6ubzl5Oi6Yhj4bDj3RzjRvMDsw7AovghbWLUvWypxeDXd6sFJpGjV1YUs9UUXBEKHr4JkgizSeA8RoIVIR7bTrr9OOIvEMbkLZYBqSr2PYgZwTYu7qSTjF0Lxr60Paot4oeJvfWx0s74pQvUS7tsZVmw5Ztr0uRVXtRMGe",
+              "received": false
+            }
+          ],
+          "total_price": 59524,
+          "delivery": null,
+          "changedOn": "2025-12-16T08:58:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69411f461c508c5d5ecd3ba1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

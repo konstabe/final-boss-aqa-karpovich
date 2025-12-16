@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 08:58:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4800",
+    "etag": "W/\"12c0-Fy0Q+2c9uDuwVas0Z1iVgxycsPw\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69411f461c508c5d5ecd3bce",
+      "status": "Received",
+      "customer": {
+        "_id": "69411f461c508c5d5ecd3b8c",
+        "email": "Stuart92@hotmail.com",
+        "name": "Lawson Koelpin",
+        "country": "USA",
+        "city": "South Mohamed",
+        "street": "Rectory Lane",
+        "house": 39,
+        "flat": 638,
+        "phone": "+15094568909",
+        "createdOn": "2025-12-16T08:58:46.000Z",
+        "notes": "FYwB3sMBKAFQ72vzUU8hpzKLfWp1qbUqHRUyWMdIkCFwt6BL773gSiSI5t1JJh9D47wgkASDjCVZzgLNi5eLhKMtWiAO6aAfm8wlzDBv4gm2qm0fottdUTovtGuATU9rAxP4GIa5sxSO2RLd9gJJbRcrJgoLmXnOFJzxJjaviSc55fCN27A1UOGOVMF90mItcnFwnpc2DKdwcb2PrSgH4Y5VM6els6ygTbeGmm0cGnrvCFkFgWlsA1y6hb"
+      },
+      "products": [
+        {
+          "_id": "69411f461c508c5d5ecd3ba7",
+          "name": "Bacon85078",
+          "amount": 813,
+          "price": 22047,
+          "manufacturer": "Microsoft",
+          "notes": "aXOEDMOXcq3qzGIMFwlDMNmmEH8HSo61uRzx3SRWfaIU2Fasv9loYMEE2ucTKrkAWzk8f7IVmazTN7VxNmMQm5L6mQs8FFiEKnDV5nFLjQ7Vq20au99WAGpRmjp1LFKodZvWDRb3JTDDSErpaFKy2qjtH634fqiOUr6RTMhpY6tIisS7v1xt6AtQjthTzBh5pVp6yKuYLdH3z4kWoj81KppbEx4NvLkv5kbyW4S4bKyOuMiM11PbI75KF3",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "South Mohamed",
+          "street": "Rectory Lane",
+          "house": 39,
+          "flat": 638
+        },
+        "finalDate": "2025-12-22T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 22047,
+      "createdOn": "2025-12-16T08:58:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69411f461c508c5d5ecd3b8c",
+          "products": [
+            {
+              "_id": "69411f461c508c5d5ecd3ba7",
+              "name": "Bacon85078",
+              "amount": 813,
+              "price": 22047,
+              "manufacturer": "Microsoft",
+              "notes": "aXOEDMOXcq3qzGIMFwlDMNmmEH8HSo61uRzx3SRWfaIU2Fasv9loYMEE2ucTKrkAWzk8f7IVmazTN7VxNmMQm5L6mQs8FFiEKnDV5nFLjQ7Vq20au99WAGpRmjp1LFKodZvWDRb3JTDDSErpaFKy2qjtH634fqiOUr6RTMhpY6tIisS7v1xt6AtQjthTzBh5pVp6yKuYLdH3z4kWoj81KppbEx4NvLkv5kbyW4S4bKyOuMiM11PbI75KF3",
+              "received": true
+            }
+          ],
+          "total_price": 22047,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "South Mohamed",
+              "street": "Rectory Lane",
+              "house": 39,
+              "flat": 638
+            },
+            "finalDate": "2025-12-22T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T08:58:48.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69411f461c508c5d5ecd3b8c",
+          "products": [
+            {
+              "_id": "69411f461c508c5d5ecd3ba7",
+              "name": "Bacon85078",
+              "amount": 813,
+              "price": 22047,
+              "manufacturer": "Microsoft",
+              "notes": "aXOEDMOXcq3qzGIMFwlDMNmmEH8HSo61uRzx3SRWfaIU2Fasv9loYMEE2ucTKrkAWzk8f7IVmazTN7VxNmMQm5L6mQs8FFiEKnDV5nFLjQ7Vq20au99WAGpRmjp1LFKodZvWDRb3JTDDSErpaFKy2qjtH634fqiOUr6RTMhpY6tIisS7v1xt6AtQjthTzBh5pVp6yKuYLdH3z4kWoj81KppbEx4NvLkv5kbyW4S4bKyOuMiM11PbI75KF3",
+              "received": false
+            }
+          ],
+          "total_price": 22047,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "South Mohamed",
+              "street": "Rectory Lane",
+              "house": 39,
+              "flat": 638
+            },
+            "finalDate": "2025-12-22T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T08:58:47.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69411f461c508c5d5ecd3b8c",
+          "products": [
+            {
+              "_id": "69411f461c508c5d5ecd3ba7",
+              "name": "Bacon85078",
+              "amount": 813,
+              "price": 22047,
+              "manufacturer": "Microsoft",
+              "notes": "aXOEDMOXcq3qzGIMFwlDMNmmEH8HSo61uRzx3SRWfaIU2Fasv9loYMEE2ucTKrkAWzk8f7IVmazTN7VxNmMQm5L6mQs8FFiEKnDV5nFLjQ7Vq20au99WAGpRmjp1LFKodZvWDRb3JTDDSErpaFKy2qjtH634fqiOUr6RTMhpY6tIisS7v1xt6AtQjthTzBh5pVp6yKuYLdH3z4kWoj81KppbEx4NvLkv5kbyW4S4bKyOuMiM11PbI75KF3",
+              "received": false
+            }
+          ],
+          "total_price": 22047,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "South Mohamed",
+              "street": "Rectory Lane",
+              "house": 39,
+              "flat": 638
+            },
+            "finalDate": "2025-12-22T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T08:58:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69411f461c508c5d5ecd3b8c",
+          "products": [
+            {
+              "_id": "69411f461c508c5d5ecd3ba7",
+              "name": "Bacon85078",
+              "amount": 813,
+              "price": 22047,
+              "manufacturer": "Microsoft",
+              "notes": "aXOEDMOXcq3qzGIMFwlDMNmmEH8HSo61uRzx3SRWfaIU2Fasv9loYMEE2ucTKrkAWzk8f7IVmazTN7VxNmMQm5L6mQs8FFiEKnDV5nFLjQ7Vq20au99WAGpRmjp1LFKodZvWDRb3JTDDSErpaFKy2qjtH634fqiOUr6RTMhpY6tIisS7v1xt6AtQjthTzBh5pVp6yKuYLdH3z4kWoj81KppbEx4NvLkv5kbyW4S4bKyOuMiM11PbI75KF3",
+              "received": false
+            }
+          ],
+          "total_price": 22047,
+          "delivery": null,
+          "changedOn": "2025-12-16T08:58:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

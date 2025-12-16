@@ -1,0 +1,245 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 08:58:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6973",
+    "etag": "W/\"1b3d-ll47XpvpZAKE2rNf3mp9xc5yKo0\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69411f471c508c5d5ecd3c59",
+      "status": "In Process",
+      "customer": {
+        "_id": "69411f461c508c5d5ecd3baf",
+        "email": "Mckenzie_Balistreri@hotmail.com",
+        "name": "Isabella Gerhold",
+        "country": "Great Britain",
+        "city": "Woodbury",
+        "street": "Monroe Rapid",
+        "house": 8,
+        "flat": 704,
+        "phone": "+16953604620",
+        "createdOn": "2025-12-16T08:58:46.000Z",
+        "notes": "x5MM3RDjarwHPa2f5leUeN6eQQMUkgaF2xoxpSrwyw2tp35Jm7pkpGirpuBvZYjiwDsuKDfDJZpWHLIpLYWd3ElDphoqN2n8mBDlHJOpEdXcBYCNvCv8GT5mS9evO9JFnPKRKq4qKWBFrjkEB9dAzvvbgdZolAbMnhkxVTeNx0itAke9wU7ZMBWVphYd9j2LJQwbInGqPuNts2F1z3Gnltn8za2zsvVYK0rCnLlLWgNijeLTj1VbC9aWzj"
+      },
+      "products": [
+        {
+          "_id": "69411f461c508c5d5ecd3bdc",
+          "name": "Bike60607",
+          "amount": 639,
+          "price": 66215,
+          "manufacturer": "Samsung",
+          "notes": "2IPehGXhEHeXJz1mjYaVX8iknLqEhjnPsbmkPZdmzsab5ViaIrSNp2HnLQZzXOjfsDwwGkR4Bmt84JWDwv1VCN34E7Xwq5co4TPykFlJvMvL7VpiSnGjJjcAOYj8qaZwkHYxPX4PeXEF92umQAzu8fkqq2tIIZFjRp2pU8vsgMIfvP38fEvwlgVXTN3bsod1WaMDwzdNA9XPuJjJjW2LcOU31Ob7fRWs26r69CpRGLoT8zCgieUiOIX1MF",
+          "received": false
+        },
+        {
+          "_id": "69411f471c508c5d5ecd3c0f",
+          "name": "Towels37324",
+          "amount": 518,
+          "price": 60785,
+          "manufacturer": "Apple",
+          "notes": "PdgW4rGAxMi5MLBRA7Q5KCPaonnkcFrAGtQ5ouYnLEk6qW9zTLfGjTKtjin2aNaDEzOOf8ytlwDWe5uSFD9yOvDMANfLrQGyLDx1eu5IcXMX0rvVbd3eRhl2gNRpN93XMeaBBfv1lTlJchpPQ2OEZCmSHS7atvF43UVvVaoM2hIfNzigjVSFKjw7K0FgRgYKxA0n2K8Z93trSNRgbrZK1z1gedxlwbObfnkcUA1Kev7RTZSzO49du0HhUx",
+          "received": false
+        },
+        {
+          "_id": "69411f471c508c5d5ecd3c23",
+          "name": "Soap16253",
+          "amount": 163,
+          "price": 97197,
+          "manufacturer": "Amazon",
+          "notes": "356wyVoNRgRctaR7zvK18awyvyoHyr9SMq1k9klGrnY7oKmzdhLt0PPgSYfsLnhtv0UgRhGBDVHvZ6blQqY4EsWHlA8euAvfCUHCpT7IDdcVbIneUqkKZoL3zUv7kvr0y0Ta7mv6mQeFNX8fQQQaS2j1uOe0H5UigWC5eKYpVqtpQ7W70EKXPmCnYaDvFpC753bJecoB3OeLdVFTox93xONfzm3C3mNVJl45Itk1CEtbDvDVBBEwqT4GV7",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Woodbury",
+          "street": "Monroe Rapid",
+          "house": 8,
+          "flat": 704
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 224197,
+      "createdOn": "2025-12-16T08:58:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69411f461c508c5d5ecd3baf",
+          "products": [
+            {
+              "_id": "69411f461c508c5d5ecd3bdc",
+              "name": "Bike60607",
+              "amount": 639,
+              "price": 66215,
+              "manufacturer": "Samsung",
+              "notes": "2IPehGXhEHeXJz1mjYaVX8iknLqEhjnPsbmkPZdmzsab5ViaIrSNp2HnLQZzXOjfsDwwGkR4Bmt84JWDwv1VCN34E7Xwq5co4TPykFlJvMvL7VpiSnGjJjcAOYj8qaZwkHYxPX4PeXEF92umQAzu8fkqq2tIIZFjRp2pU8vsgMIfvP38fEvwlgVXTN3bsod1WaMDwzdNA9XPuJjJjW2LcOU31Ob7fRWs26r69CpRGLoT8zCgieUiOIX1MF",
+              "received": false
+            },
+            {
+              "_id": "69411f471c508c5d5ecd3c0f",
+              "name": "Towels37324",
+              "amount": 518,
+              "price": 60785,
+              "manufacturer": "Apple",
+              "notes": "PdgW4rGAxMi5MLBRA7Q5KCPaonnkcFrAGtQ5ouYnLEk6qW9zTLfGjTKtjin2aNaDEzOOf8ytlwDWe5uSFD9yOvDMANfLrQGyLDx1eu5IcXMX0rvVbd3eRhl2gNRpN93XMeaBBfv1lTlJchpPQ2OEZCmSHS7atvF43UVvVaoM2hIfNzigjVSFKjw7K0FgRgYKxA0n2K8Z93trSNRgbrZK1z1gedxlwbObfnkcUA1Kev7RTZSzO49du0HhUx",
+              "received": false
+            },
+            {
+              "_id": "69411f471c508c5d5ecd3c23",
+              "name": "Soap16253",
+              "amount": 163,
+              "price": 97197,
+              "manufacturer": "Amazon",
+              "notes": "356wyVoNRgRctaR7zvK18awyvyoHyr9SMq1k9klGrnY7oKmzdhLt0PPgSYfsLnhtv0UgRhGBDVHvZ6blQqY4EsWHlA8euAvfCUHCpT7IDdcVbIneUqkKZoL3zUv7kvr0y0Ta7mv6mQeFNX8fQQQaS2j1uOe0H5UigWC5eKYpVqtpQ7W70EKXPmCnYaDvFpC753bJecoB3OeLdVFTox93xONfzm3C3mNVJl45Itk1CEtbDvDVBBEwqT4GV7",
+              "received": false
+            }
+          ],
+          "total_price": 224197,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Woodbury",
+              "street": "Monroe Rapid",
+              "house": 8,
+              "flat": 704
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T08:58:48.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69411f461c508c5d5ecd3baf",
+          "products": [
+            {
+              "_id": "69411f461c508c5d5ecd3bdc",
+              "name": "Bike60607",
+              "amount": 639,
+              "price": 66215,
+              "manufacturer": "Samsung",
+              "notes": "2IPehGXhEHeXJz1mjYaVX8iknLqEhjnPsbmkPZdmzsab5ViaIrSNp2HnLQZzXOjfsDwwGkR4Bmt84JWDwv1VCN34E7Xwq5co4TPykFlJvMvL7VpiSnGjJjcAOYj8qaZwkHYxPX4PeXEF92umQAzu8fkqq2tIIZFjRp2pU8vsgMIfvP38fEvwlgVXTN3bsod1WaMDwzdNA9XPuJjJjW2LcOU31Ob7fRWs26r69CpRGLoT8zCgieUiOIX1MF",
+              "received": false
+            },
+            {
+              "_id": "69411f471c508c5d5ecd3c0f",
+              "name": "Towels37324",
+              "amount": 518,
+              "price": 60785,
+              "manufacturer": "Apple",
+              "notes": "PdgW4rGAxMi5MLBRA7Q5KCPaonnkcFrAGtQ5ouYnLEk6qW9zTLfGjTKtjin2aNaDEzOOf8ytlwDWe5uSFD9yOvDMANfLrQGyLDx1eu5IcXMX0rvVbd3eRhl2gNRpN93XMeaBBfv1lTlJchpPQ2OEZCmSHS7atvF43UVvVaoM2hIfNzigjVSFKjw7K0FgRgYKxA0n2K8Z93trSNRgbrZK1z1gedxlwbObfnkcUA1Kev7RTZSzO49du0HhUx",
+              "received": false
+            },
+            {
+              "_id": "69411f471c508c5d5ecd3c23",
+              "name": "Soap16253",
+              "amount": 163,
+              "price": 97197,
+              "manufacturer": "Amazon",
+              "notes": "356wyVoNRgRctaR7zvK18awyvyoHyr9SMq1k9klGrnY7oKmzdhLt0PPgSYfsLnhtv0UgRhGBDVHvZ6blQqY4EsWHlA8euAvfCUHCpT7IDdcVbIneUqkKZoL3zUv7kvr0y0Ta7mv6mQeFNX8fQQQaS2j1uOe0H5UigWC5eKYpVqtpQ7W70EKXPmCnYaDvFpC753bJecoB3OeLdVFTox93xONfzm3C3mNVJl45Itk1CEtbDvDVBBEwqT4GV7",
+              "received": false
+            }
+          ],
+          "total_price": 224197,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Woodbury",
+              "street": "Monroe Rapid",
+              "house": 8,
+              "flat": 704
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T08:58:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69411f461c508c5d5ecd3baf",
+          "products": [
+            {
+              "_id": "69411f461c508c5d5ecd3bdc",
+              "name": "Bike60607",
+              "amount": 639,
+              "price": 66215,
+              "manufacturer": "Samsung",
+              "notes": "2IPehGXhEHeXJz1mjYaVX8iknLqEhjnPsbmkPZdmzsab5ViaIrSNp2HnLQZzXOjfsDwwGkR4Bmt84JWDwv1VCN34E7Xwq5co4TPykFlJvMvL7VpiSnGjJjcAOYj8qaZwkHYxPX4PeXEF92umQAzu8fkqq2tIIZFjRp2pU8vsgMIfvP38fEvwlgVXTN3bsod1WaMDwzdNA9XPuJjJjW2LcOU31Ob7fRWs26r69CpRGLoT8zCgieUiOIX1MF",
+              "received": false
+            },
+            {
+              "_id": "69411f471c508c5d5ecd3c0f",
+              "name": "Towels37324",
+              "amount": 518,
+              "price": 60785,
+              "manufacturer": "Apple",
+              "notes": "PdgW4rGAxMi5MLBRA7Q5KCPaonnkcFrAGtQ5ouYnLEk6qW9zTLfGjTKtjin2aNaDEzOOf8ytlwDWe5uSFD9yOvDMANfLrQGyLDx1eu5IcXMX0rvVbd3eRhl2gNRpN93XMeaBBfv1lTlJchpPQ2OEZCmSHS7atvF43UVvVaoM2hIfNzigjVSFKjw7K0FgRgYKxA0n2K8Z93trSNRgbrZK1z1gedxlwbObfnkcUA1Kev7RTZSzO49du0HhUx",
+              "received": false
+            },
+            {
+              "_id": "69411f471c508c5d5ecd3c23",
+              "name": "Soap16253",
+              "amount": 163,
+              "price": 97197,
+              "manufacturer": "Amazon",
+              "notes": "356wyVoNRgRctaR7zvK18awyvyoHyr9SMq1k9klGrnY7oKmzdhLt0PPgSYfsLnhtv0UgRhGBDVHvZ6blQqY4EsWHlA8euAvfCUHCpT7IDdcVbIneUqkKZoL3zUv7kvr0y0Ta7mv6mQeFNX8fQQQaS2j1uOe0H5UigWC5eKYpVqtpQ7W70EKXPmCnYaDvFpC753bJecoB3OeLdVFTox93xONfzm3C3mNVJl45Itk1CEtbDvDVBBEwqT4GV7",
+              "received": false
+            }
+          ],
+          "total_price": 224197,
+          "delivery": null,
+          "changedOn": "2025-12-16T08:58:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

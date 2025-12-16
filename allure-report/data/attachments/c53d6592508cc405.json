@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 08:58:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2943",
+    "etag": "W/\"b7f-eZ09O12/RCR9bGJHGpiK9Rbii7w\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69411f4c1c508c5d5ecd3e51",
+      "status": "Draft",
+      "customer": {
+        "_id": "69411f4b1c508c5d5ecd3ded",
+        "email": "George.Schneider@hotmail.com",
+        "name": "Zula Homenick",
+        "country": "Belarus",
+        "city": "Nannieport",
+        "street": "Park View",
+        "house": 43,
+        "flat": 442,
+        "phone": "+14632401310",
+        "createdOn": "2025-12-16T08:58:51.000Z",
+        "notes": "1NPimFxOw9fm58813Lh2oMKng9Z0FHZP7KLBNw0NJ4lVVOKGIisC9XSjj88UsZH6QhZQZo6mMH257yJcbWhuw3ZgpLY9q8p6XVxVuuRyuo3ws8POqllxuatRx84xYkthjs7h2caul3JBrZZLzjzxpgxzJPvm5XjkMER4IG5nOHEgO8UKzG3a4VCnsDURIM38yp4fCKcH2t8MiSzSbHHgoiVtvXPuJy8rEsIhrnrH8yoWsX8X3nBsS5sMnm"
+      },
+      "products": [
+        {
+          "_id": "69411f4b1c508c5d5ecd3e09",
+          "name": "Pants54148",
+          "amount": 121,
+          "price": 45647,
+          "manufacturer": "Tesla",
+          "notes": "54WwSkaPbFf71B0GhPKyIIY4qMRIIigICtvyRvKNs4g41mA3ZtbN7mYdpxLoEBZXM4ACGA8iHvllnMyIy8cvWtKkrUkAsmUOKW2XKPvNiCkvCBHpajprUEUBIrv3GcvN0C999DHhgdzdrVTe3ZoolinvtyEBhnak1HhT8Cn50tlUeNQ40lDrTPtjOFks1vVxusEzcyl5ZtFl1sIDDtvHG4PA078fvD9O0zeOZrp77c4Wjo7Zmi9pdY6aRa",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Nannieport",
+          "street": "Park View",
+          "house": 43,
+          "flat": 442
+        },
+        "finalDate": "2025-12-22T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 45647,
+      "createdOn": "2025-12-16T08:58:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69411f4b1c508c5d5ecd3ded",
+          "products": [
+            {
+              "_id": "69411f4b1c508c5d5ecd3e09",
+              "name": "Pants54148",
+              "amount": 121,
+              "price": 45647,
+              "manufacturer": "Tesla",
+              "notes": "54WwSkaPbFf71B0GhPKyIIY4qMRIIigICtvyRvKNs4g41mA3ZtbN7mYdpxLoEBZXM4ACGA8iHvllnMyIy8cvWtKkrUkAsmUOKW2XKPvNiCkvCBHpajprUEUBIrv3GcvN0C999DHhgdzdrVTe3ZoolinvtyEBhnak1HhT8Cn50tlUeNQ40lDrTPtjOFks1vVxusEzcyl5ZtFl1sIDDtvHG4PA078fvD9O0zeOZrp77c4Wjo7Zmi9pdY6aRa",
+              "received": false
+            }
+          ],
+          "total_price": 45647,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Nannieport",
+              "street": "Park View",
+              "house": 43,
+              "flat": 442
+            },
+            "finalDate": "2025-12-22T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-16T08:58:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69411f4b1c508c5d5ecd3ded",
+          "products": [
+            {
+              "_id": "69411f4b1c508c5d5ecd3e09",
+              "name": "Pants54148",
+              "amount": 121,
+              "price": 45647,
+              "manufacturer": "Tesla",
+              "notes": "54WwSkaPbFf71B0GhPKyIIY4qMRIIigICtvyRvKNs4g41mA3ZtbN7mYdpxLoEBZXM4ACGA8iHvllnMyIy8cvWtKkrUkAsmUOKW2XKPvNiCkvCBHpajprUEUBIrv3GcvN0C999DHhgdzdrVTe3ZoolinvtyEBhnak1HhT8Cn50tlUeNQ40lDrTPtjOFks1vVxusEzcyl5ZtFl1sIDDtvHG4PA078fvD9O0zeOZrp77c4Wjo7Zmi9pdY6aRa",
+              "received": false
+            }
+          ],
+          "total_price": 45647,
+          "delivery": null,
+          "changedOn": "2025-12-16T08:58:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
