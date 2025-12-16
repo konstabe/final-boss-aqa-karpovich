@@ -1,5 +1,4 @@
 import { expect, test } from "fixtures/api.fixture";
-import { generateProductData } from "data/products/generateProductData";
 import { randomString } from "utils/randomStringsGeneration";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 import { STATUS_CODES } from "data/statusCodes";
@@ -9,19 +8,11 @@ import { ERROR_MESSAGES, NOTIFICATIONS } from "data/notifications";
 
 test.describe("[API] [Sales Portal] [Orders] [Comments] [Add Comment]", () => {
 	let token = "";
-	let idCustomer = "";
-	let idProduct = "";
 	let idOrder = "";
 	const idsComment: string[] = [];
 
-	test.beforeAll(async ({ loginApiService, customersApiService, productsApi, ordersApiService }) => {
+	test.beforeAll(async ({ loginApiService, ordersApiService }) => {
 		token = await loginApiService.loginAsAdmin();
-		const customer = await customersApiService.create(token);
-		idCustomer = customer._id;
-		const productData = generateProductData();
-		const createdProduct = await productsApi.create(productData, token);
-
-		idProduct = createdProduct.body.Product._id;
 
 		const createOrderForCustomer = await ordersApiService.createDraft(token, 2);
 		idOrder = createOrderForCustomer._id;
@@ -35,7 +26,7 @@ test.describe("[API] [Sales Portal] [Orders] [Comments] [Add Comment]", () => {
 	});
 
 	test.afterAll(async ({ ordersApiService }) => {
-		await ordersApiService.fullDelete(token, [idOrder], [idCustomer], [idProduct]);
+		await ordersApiService.fullDelete(token);
 	});
 
 	test("Add comment with valid length", async ({ ordersApi }) => {
