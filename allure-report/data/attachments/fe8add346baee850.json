@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:19:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1899",
+    "etag": "W/\"76b-qlBJVRuFnMzgAf3dBHwpeT/6PH4\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69432c641c508c5d5ed2d873",
+        "email": "Alivia.Balistreri24@hotmail.com",
+        "name": "Bo Hegmann",
+        "country": "Belarus",
+        "city": "East Mertiehaven",
+        "street": "N East Street",
+        "house": 15,
+        "flat": 312,
+        "phone": "+18036265746",
+        "createdOn": "2025-12-17T22:19:16.000Z",
+        "notes": "cGGkflj9NjPiDv4SiOjvt3hmJbE9dNyQbgXBRN7E9mo2oKmRRdP9C5sW2wCFvKJpUUq6z8liA1V0T0t9pA1OEOGrL5X74wJvx1ru8ChTcGGqjMwrQkrO96yLfGcXIhWwykYd0Zx7R0FIDrVwzQUA4jkwfKr8LvMnbsk6nwCVOz6j5lmk1a3mCFDuKdKuieuznW7CCvhcaA41VGbJECV5BP01YbSJvH7mXJn7Lxe9b3AQnOwYYvIQedgwZC"
+      },
+      "products": [
+        {
+          "_id": "69432c661c508c5d5ed2dac0",
+          "name": "Computer46835",
+          "amount": 270,
+          "price": 72312,
+          "manufacturer": "Apple",
+          "notes": "ZEEdd7DxEA6uyscHL0OXwBiR5yozQhjYK0pbrc5DN3C2syVXZIXIXokkriOaFi2EM06KY1WJpDsJuBiloOP9AFYY1NAsXU8iEDV4QqKmaSm3kAdcrSGChv1BaHpzRY6oD2CRuvbzzl3SCmT38y3X5GQS2Skm6FZmRCvKGqtJPCi5HH9TmJ1dseKUJukJ0Hm0X9SYs2APU0bpetHlxvyAY8fECRfhOKZNNyq9Z0KxDxqhNR8MkZAJwtJMtj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 72312,
+      "createdOn": "2025-12-17T22:19:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69432c641c508c5d5ed2d873",
+          "products": [
+            {
+              "_id": "69432c661c508c5d5ed2dac0",
+              "name": "Computer46835",
+              "amount": 270,
+              "price": 72312,
+              "manufacturer": "Apple",
+              "notes": "ZEEdd7DxEA6uyscHL0OXwBiR5yozQhjYK0pbrc5DN3C2syVXZIXIXokkriOaFi2EM06KY1WJpDsJuBiloOP9AFYY1NAsXU8iEDV4QqKmaSm3kAdcrSGChv1BaHpzRY6oD2CRuvbzzl3SCmT38y3X5GQS2Skm6FZmRCvKGqtJPCi5HH9TmJ1dseKUJukJ0Hm0X9SYs2APU0bpetHlxvyAY8fECRfhOKZNNyq9Z0KxDxqhNR8MkZAJwtJMtj",
+              "received": false
+            }
+          ],
+          "total_price": 72312,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:19:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69432c691c508c5d5ed2dbf8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

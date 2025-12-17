@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:16:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-4mo6fQ5cbe7cvRTV/D3fDiA5bgI\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69432bd01c508c5d5ed2860a",
+        "email": "Brock25@gmail.com",
+        "name": "Colleen Fritsch",
+        "country": "Germany",
+        "city": "South Brionna",
+        "street": "Boehm Heights",
+        "house": 49,
+        "flat": 901,
+        "phone": "+17704304987",
+        "createdOn": "2025-12-17T22:16:48.000Z",
+        "notes": "LCaI4zglYuaW3HgVppHVxByPNjEDkGm5vjRG8IjGyGoA7EfUmb2vPqlqXWdMTw2mNFyKl1EIFqt6o8IGUYqsczwQ7pCuXdHloyb0XxCfl7T7xLeb7jzK63KMnWVPhqqaqc8WhT10cz2SptWu5CQY1HlNYYDuyOmhZI2sLVnLZ2smXPDh6gVj0w8hDkT1axTuWKuhmlr24J2caah9KbQs7p2rcXVVODO3IVbPbGIxJou2ujlQjAS3M5XjoD"
+      },
+      "products": [
+        {
+          "_id": "69432bd01c508c5d5ed28651",
+          "name": "Ball80253",
+          "amount": 365,
+          "price": 88350,
+          "manufacturer": "Microsoft",
+          "notes": "HDEH3U3WPWR01uVxcZPtOAjh7BhfxNrVaGLZLMC0HhPVW9VkFrA7KOXPd9fSZMz2VSmuc5ZKPtfaJ59pJhFSyegI275EOihmPECp1CemiwLvYaCYoQmU5VrBmH8gNFEBcJMLy1dtuVxb4MAFwqyGbD4CPWV0QwtnA3t5kUs1EKzQITA0mKgj3IzGeDXkn1KNvC0KZyMvttqYL98CBjXRqQhvrft6tO9Mu0bs6h9PzUxWvtfJUwvaDapCvG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 88350,
+      "createdOn": "2025-12-17T22:16:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69432bd01c508c5d5ed2860a",
+          "products": [
+            {
+              "_id": "69432bd01c508c5d5ed28651",
+              "name": "Ball80253",
+              "amount": 365,
+              "price": 88350,
+              "manufacturer": "Microsoft",
+              "notes": "HDEH3U3WPWR01uVxcZPtOAjh7BhfxNrVaGLZLMC0HhPVW9VkFrA7KOXPd9fSZMz2VSmuc5ZKPtfaJ59pJhFSyegI275EOihmPECp1CemiwLvYaCYoQmU5VrBmH8gNFEBcJMLy1dtuVxb4MAFwqyGbD4CPWV0QwtnA3t5kUs1EKzQITA0mKgj3IzGeDXkn1KNvC0KZyMvttqYL98CBjXRqQhvrft6tO9Mu0bs6h9PzUxWvtfJUwvaDapCvG",
+              "received": false
+            }
+          ],
+          "total_price": 88350,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:16:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69432bd31c508c5d5ed28a53"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

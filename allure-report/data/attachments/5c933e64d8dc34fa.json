@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:21:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4094",
+    "etag": "W/\"ffe-+z8ni541QALJH071HpQve9waCXw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69432cdb1c508c5d5ed31c27",
+      "status": "Draft",
+      "customer": {
+        "_id": "69432ccd1c508c5d5ed3147d",
+        "email": "Seth_Huels18@hotmail.com",
+        "name": "Kennith Green",
+        "country": "Canada",
+        "city": "Donnellyside",
+        "street": "Howe River",
+        "house": 30,
+        "flat": 862,
+        "phone": "+12887972496",
+        "createdOn": "2025-12-17T22:21:01.000Z",
+        "notes": "KnEiVn8NIR2B8sEH5JzMYoqyGuVWMk7Qk2BqD53FJzJpBDEP1MTxBZGh1M1bKVFDV0VfGsbyWVoX4B5uJazvrnUW1xVtvrHFSJdqwxlgwCX1vVe7V8XkkerLUcwBVEfObtyiXHaSpVTt8fPAVSIhbr1ZTd5k2E0K9QBez1y9QPYf7FNgtratjd6sokE1aVMHLwkTrcFHiiCwUHAA5zRoCYo3xlYGLEXFQ4BkXk85qkz6cCuUV4EmMcDuwF"
+      },
+      "products": [
+        {
+          "_id": "69432cce1c508c5d5ed314ac",
+          "name": "Bike14604",
+          "amount": 692,
+          "price": 53166,
+          "manufacturer": "Sony",
+          "notes": "1ZVBzwnABkCC7smttcqun3ox7r7FGSpgs573yIIzfhueRgGdOq7RKkec3oljV1XGQPDzxMuzMpBjK3IrR6TjM8QwPE9Sei2x94JAjY5Gf5GviLG2JEjWLpN3S8swfPWqxnA56TrotiitUdBuGUEh0BhV8bdWQ75Sg51tlW8Rn0D9VfQbeybhZcTRfTMhZWYn0Z7ZQVdGHPag4v2FEdGauUMEzoAzIU9w9tY4cSjYgwBz7nQq6OOLnJnHeT",
+          "received": false
+        },
+        {
+          "_id": "69432ccf1c508c5d5ed3151f",
+          "name": "Sausages93030",
+          "amount": 883,
+          "price": 8515,
+          "manufacturer": "Tesla",
+          "notes": "f8Ose2FxTPqSKtQPzesjwFMXhicwn5HQcpIrKo6gONQKZEpRB8R4g5ve99biRJdPWq8o4Epfh17TUPC4OWaRcvurqxPOSq43eYAW7YW7x66FzoSasKwxs7ppXOZRTsiYH3vZ6IYOEa9qSqmfFZ0uFMklrVBC4PNt1RVrtzaokejgdLrgZNtmiZ47Ift4aZFmnXTYxEcp36TqQMatKKnyzzvPEIM8OkwU3Sqj5t8FDypN8VI7O5HQO5nz0H",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Donnellyside",
+          "street": "Howe River",
+          "house": 30,
+          "flat": 862
+        },
+        "finalDate": "2025-12-21T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 61681,
+      "createdOn": "2025-12-17T22:21:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69432ccd1c508c5d5ed3147d",
+          "products": [
+            {
+              "_id": "69432cce1c508c5d5ed314ac",
+              "name": "Bike14604",
+              "amount": 692,
+              "price": 53166,
+              "manufacturer": "Sony",
+              "notes": "1ZVBzwnABkCC7smttcqun3ox7r7FGSpgs573yIIzfhueRgGdOq7RKkec3oljV1XGQPDzxMuzMpBjK3IrR6TjM8QwPE9Sei2x94JAjY5Gf5GviLG2JEjWLpN3S8swfPWqxnA56TrotiitUdBuGUEh0BhV8bdWQ75Sg51tlW8Rn0D9VfQbeybhZcTRfTMhZWYn0Z7ZQVdGHPag4v2FEdGauUMEzoAzIU9w9tY4cSjYgwBz7nQq6OOLnJnHeT",
+              "received": false
+            },
+            {
+              "_id": "69432ccf1c508c5d5ed3151f",
+              "name": "Sausages93030",
+              "amount": 883,
+              "price": 8515,
+              "manufacturer": "Tesla",
+              "notes": "f8Ose2FxTPqSKtQPzesjwFMXhicwn5HQcpIrKo6gONQKZEpRB8R4g5ve99biRJdPWq8o4Epfh17TUPC4OWaRcvurqxPOSq43eYAW7YW7x66FzoSasKwxs7ppXOZRTsiYH3vZ6IYOEa9qSqmfFZ0uFMklrVBC4PNt1RVrtzaokejgdLrgZNtmiZ47Ift4aZFmnXTYxEcp36TqQMatKKnyzzvPEIM8OkwU3Sqj5t8FDypN8VI7O5HQO5nz0H",
+              "received": false
+            }
+          ],
+          "total_price": 61681,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Donnellyside",
+              "street": "Howe River",
+              "house": 30,
+              "flat": 862
+            },
+            "finalDate": "2025-12-21T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-17T22:21:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69432ccd1c508c5d5ed3147d",
+          "products": [
+            {
+              "_id": "69432cce1c508c5d5ed314ac",
+              "name": "Bike14604",
+              "amount": 692,
+              "price": 53166,
+              "manufacturer": "Sony",
+              "notes": "1ZVBzwnABkCC7smttcqun3ox7r7FGSpgs573yIIzfhueRgGdOq7RKkec3oljV1XGQPDzxMuzMpBjK3IrR6TjM8QwPE9Sei2x94JAjY5Gf5GviLG2JEjWLpN3S8swfPWqxnA56TrotiitUdBuGUEh0BhV8bdWQ75Sg51tlW8Rn0D9VfQbeybhZcTRfTMhZWYn0Z7ZQVdGHPag4v2FEdGauUMEzoAzIU9w9tY4cSjYgwBz7nQq6OOLnJnHeT",
+              "received": false
+            },
+            {
+              "_id": "69432ccf1c508c5d5ed3151f",
+              "name": "Sausages93030",
+              "amount": 883,
+              "price": 8515,
+              "manufacturer": "Tesla",
+              "notes": "f8Ose2FxTPqSKtQPzesjwFMXhicwn5HQcpIrKo6gONQKZEpRB8R4g5ve99biRJdPWq8o4Epfh17TUPC4OWaRcvurqxPOSq43eYAW7YW7x66FzoSasKwxs7ppXOZRTsiYH3vZ6IYOEa9qSqmfFZ0uFMklrVBC4PNt1RVrtzaokejgdLrgZNtmiZ47Ift4aZFmnXTYxEcp36TqQMatKKnyzzvPEIM8OkwU3Sqj5t8FDypN8VI7O5HQO5nz0H",
+              "received": false
+            }
+          ],
+          "total_price": 61681,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:21:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

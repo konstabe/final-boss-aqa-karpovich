@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:18:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-HwFqHPCTgziys348di9zG/Komic\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69432c351c508c5d5ed2be07",
+      "status": "Draft",
+      "customer": {
+        "_id": "69432c2d1c508c5d5ed2ba0b",
+        "email": "Taylor.Friesen@hotmail.com",
+        "name": "Audra Franey",
+        "country": "USA",
+        "city": "Joshuahchester",
+        "street": "The Sidings",
+        "house": 15,
+        "flat": 586,
+        "phone": "+13609802344",
+        "createdOn": "2025-12-17T22:18:21.000Z",
+        "notes": "Oyg0keESbrzZedYuKEUliClw1HSApBMovmVsrVBiMweXYjAOFV8lfLgtQgR4IKvgPS019RMweVWFVUKOWFFaH9CBWZ4YhXmpTZupSzYzNm1Bd2zRtvfEcoanpB2NBA6WNf1J0TKDBuSmYLQQDjFqra2fhKAQfoJm7bvWUOrOcsB6ca17plFu17J6V6KS11kwnioygKYTV5QHch1j2fezKfsNPm0TDBM2GzlXkMB2fZalLpdZwDfhRmaRBC"
+      },
+      "products": [
+        {
+          "_id": "69432c2f1c508c5d5ed2bb6c",
+          "name": "Hat61078",
+          "amount": 87,
+          "price": 98187,
+          "manufacturer": "Microsoft",
+          "notes": "ORwTJbOsM1uYQGiNw27fFhTdBcKPzu5I3zv41TMLUxZEszcKDQrImiyj5acCUES61QwvbBYLVvMYUmHC9R22ITVE6LpsRv8KdRGij65JenPu18F0yRRkqa7qIJBoM5sDgp9sY1AajHZhc5124jV9sjWb56nueLvjJhvMYGuqZ8xi0SLCzhMKamjIsf2p2DBaATVPSduAFMTje47Uwp6MKNsocGePF2wzhg0AaBOK5kTZxAM9tltpJE5fkb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98187,
+      "createdOn": "2025-12-17T22:18:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69432c2d1c508c5d5ed2ba0b",
+          "products": [
+            {
+              "_id": "69432c2f1c508c5d5ed2bb6c",
+              "name": "Hat61078",
+              "amount": 87,
+              "price": 98187,
+              "manufacturer": "Microsoft",
+              "notes": "ORwTJbOsM1uYQGiNw27fFhTdBcKPzu5I3zv41TMLUxZEszcKDQrImiyj5acCUES61QwvbBYLVvMYUmHC9R22ITVE6LpsRv8KdRGij65JenPu18F0yRRkqa7qIJBoM5sDgp9sY1AajHZhc5124jV9sjWb56nueLvjJhvMYGuqZ8xi0SLCzhMKamjIsf2p2DBaATVPSduAFMTje47Uwp6MKNsocGePF2wzhg0AaBOK5kTZxAM9tltpJE5fkb",
+              "received": false
+            }
+          ],
+          "total_price": 98187,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:18:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

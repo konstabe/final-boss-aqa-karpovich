@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:18:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2654",
+    "etag": "W/\"a5e-MU//epp0CoDTtXyMkelx9bUAO1c\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69432c151c508c5d5ed2ac7f",
+        "email": "Madelynn_Gutmann63@hotmail.com",
+        "name": "Ola Wisoky",
+        "country": "Great Britain",
+        "city": "East Henry",
+        "street": "Norma Fort",
+        "house": 19,
+        "flat": 56,
+        "phone": "+12183947455",
+        "createdOn": "2025-12-17T22:17:57.000Z",
+        "notes": "s6I14sYHyZw0VnZLyeM8uf806mSydSka6cDfD1veU1DWZGlUIaQ3ADAwtPlhYHPWWXtHgUZyYw6EzySdxFuPSxjJb9RAnL1TXSBx8VGQDFI32H09yrOsTic1BfMs4uMweFXIgaFqPy8i7pidlPQhe1tc2CbsYGxLArcSJAN3yKGCGK50Mp7bXDHc7NSEbPF467YxvhWKsTGxJVBLR0i4WQ4pF7reAN9XpQYewxKLcHtJZvVpo58bmXr0ew"
+      },
+      "products": [
+        {
+          "_id": "69432c171c508c5d5ed2accc",
+          "name": "Pizza75173",
+          "amount": 464,
+          "price": 23449,
+          "manufacturer": "Apple",
+          "notes": "hbj5gZGbnzwSvBh7jaaV4VD79b8Rn1iMxcPBOhXTG72gxq8XWVGDecMClzuuhN1KB8IB3P0dk3pXc3zU92gcq0EbGX2btDWmabQQIPk8V3IWXokSxlhSMiZKsisFpgpkLBkWFfjKzIVPQa3ByU0dfeV6dfUUy2aobsf6iMh3QMwB8s3J8WS8A8MgL9AMS2m5Tb6eSgsDHVE0yJ3rAKGOmUbuZzXbZsnlEuuoPVR6j3d4HCMldIPTrIPKvS",
+          "received": false
+        },
+        {
+          "_id": "69432c1a1c508c5d5ed2af27",
+          "name": "Shoes30308",
+          "amount": 343,
+          "price": 87727,
+          "manufacturer": "Sony",
+          "notes": "5iMg6NCkCqFfpa2efydTbAywDTdJFQdHLoJxuDECCocU3jPZXqJwpluZtMKecYHuDyzdj8LJsRhtzsBp9F7x7VxH8oqjhHAvzoyo0IqWYrPVCp0RIDGWrNJoUiKJGlAOVXUtJOWBHss3buX3dPLJ8zB6zO4zHotIt6MRDWJdCCHzFXbatydhVqnNvxYp8YgRbvx2Wn0iYqGAopEYi3NeLliOewaOAerhuVowvJ6UCDRe6xf0DWatMbcRmN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 111176,
+      "createdOn": "2025-12-17T22:18:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69432c151c508c5d5ed2ac7f",
+          "products": [
+            {
+              "_id": "69432c171c508c5d5ed2accc",
+              "name": "Pizza75173",
+              "amount": 464,
+              "price": 23449,
+              "manufacturer": "Apple",
+              "notes": "hbj5gZGbnzwSvBh7jaaV4VD79b8Rn1iMxcPBOhXTG72gxq8XWVGDecMClzuuhN1KB8IB3P0dk3pXc3zU92gcq0EbGX2btDWmabQQIPk8V3IWXokSxlhSMiZKsisFpgpkLBkWFfjKzIVPQa3ByU0dfeV6dfUUy2aobsf6iMh3QMwB8s3J8WS8A8MgL9AMS2m5Tb6eSgsDHVE0yJ3rAKGOmUbuZzXbZsnlEuuoPVR6j3d4HCMldIPTrIPKvS",
+              "received": false
+            },
+            {
+              "_id": "69432c1a1c508c5d5ed2af27",
+              "name": "Shoes30308",
+              "amount": 343,
+              "price": 87727,
+              "manufacturer": "Sony",
+              "notes": "5iMg6NCkCqFfpa2efydTbAywDTdJFQdHLoJxuDECCocU3jPZXqJwpluZtMKecYHuDyzdj8LJsRhtzsBp9F7x7VxH8oqjhHAvzoyo0IqWYrPVCp0RIDGWrNJoUiKJGlAOVXUtJOWBHss3buX3dPLJ8zB6zO4zHotIt6MRDWJdCCHzFXbatydhVqnNvxYp8YgRbvx2Wn0iYqGAopEYi3NeLliOewaOAerhuVowvJ6UCDRe6xf0DWatMbcRmN",
+              "received": false
+            }
+          ],
+          "total_price": 111176,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:18:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69432c211c508c5d5ed2b2b2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

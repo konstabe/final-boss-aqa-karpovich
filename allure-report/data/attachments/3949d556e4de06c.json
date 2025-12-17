@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:18:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-h5mJUGUU5bm/2tQefgJ5v0HmHxM\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69432c321c508c5d5ed2bdbd",
+        "email": "Madisyn_Dicki@yahoo.com",
+        "name": "Rahsaan Nikolaus",
+        "country": "Russia",
+        "city": "Paucekside",
+        "street": "Henderson Ferry",
+        "house": 29,
+        "flat": 901,
+        "phone": "+12067548300",
+        "createdOn": "2025-12-17T22:18:26.000Z",
+        "notes": "uJKvMfQVLdfOO9GmirEVXO1tCIE8QZUIipAvAfxad4B4ikRpCxSh4SdjQSGRnwCLJolB4fiKgS1L908nr1JiomQ55GJ6e6H1HiNAWgacOLwHJGU4p4DoXiWUIlW1IUpDtOisuXDdlBrvCZckdscOd0lJgDWWGkmpcds2vpdDMNbKkEvZDIrayzCTE1DJdE12jDbwxffvSypXtZPsHpXlUnGuVE6h5nFViC96SxIuYmyPU5Du1SZvKIduho"
+      },
+      "products": [
+        {
+          "_id": "69432c351c508c5d5ed2be0d",
+          "name": "Tuna17546",
+          "amount": 277,
+          "price": 58912,
+          "manufacturer": "Microsoft",
+          "notes": "Bu4fgEGyTBG7qGcl9dlA8MXT584jJoo2PdDLptujAF8TMmY5qmnl925CXqmQg1t1PPcw5eQhsgcz50KRj8ekQWRg34qigkfOTVwACxVkW838UNwPSAOw2gUablC4IaAtASKnrgX1Msx0bOZhtIlsXoPV1efgV27WUnp75zUUevApmQMooE2NEATsSIOivBaFwRtRFq8UQp1FipuTA6EkQpIjnu19Mdcz9SQ0HFO2hSDq1m1K1vrEuRfsht",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 58912,
+      "createdOn": "2025-12-17T22:18:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69432c321c508c5d5ed2bdbd",
+          "products": [
+            {
+              "_id": "69432c351c508c5d5ed2be0d",
+              "name": "Tuna17546",
+              "amount": 277,
+              "price": 58912,
+              "manufacturer": "Microsoft",
+              "notes": "Bu4fgEGyTBG7qGcl9dlA8MXT584jJoo2PdDLptujAF8TMmY5qmnl925CXqmQg1t1PPcw5eQhsgcz50KRj8ekQWRg34qigkfOTVwACxVkW838UNwPSAOw2gUablC4IaAtASKnrgX1Msx0bOZhtIlsXoPV1efgV27WUnp75zUUevApmQMooE2NEATsSIOivBaFwRtRFq8UQp1FipuTA6EkQpIjnu19Mdcz9SQ0HFO2hSDq1m1K1vrEuRfsht",
+              "received": false
+            }
+          ],
+          "total_price": 58912,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:18:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69432c3e1c508c5d5ed2c3d0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

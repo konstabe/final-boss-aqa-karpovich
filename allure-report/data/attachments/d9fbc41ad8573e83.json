@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:17:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2936",
+    "etag": "W/\"b78-d0C8l1CLZr3Fu7ocCDyhjnP2ALU\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69432bfc1c508c5d5ed29dd2",
+      "status": "Draft",
+      "customer": {
+        "_id": "69432bf01c508c5d5ed29797",
+        "email": "Beau_Larkin53@gmail.com",
+        "name": "Mozell Hoppe",
+        "country": "USA",
+        "city": "Budside",
+        "street": "Gunnar Haven",
+        "house": 44,
+        "flat": 423,
+        "phone": "+14066875294",
+        "createdOn": "2025-12-17T22:17:20.000Z",
+        "notes": "6sgdfm35ajL2xUMoGrdspscGfRrOYu0FwLY507DqYNT5Cs5cMxllsZMf47mA5mrKUUhzyctOBJ8vH9jeA92GncXNWq1HabOkyAd4HwxyJj3GT8RxooNdgr3zH47qQr2iqaBNsW7y9mGN9aqEmrdEL52GSrf1lCV3LBiVOpVqBY55ZeWDkgtWJ6M5grmVhqDMcjNs0Nq3kdG8D8tjJlVbAtRyvPKlTCY8fI5SUV8WOrBcf4JkqobP7i7t1A"
+      },
+      "products": [
+        {
+          "_id": "69432bf61c508c5d5ed29add",
+          "name": "Pizza7759",
+          "amount": 574,
+          "price": 29148,
+          "manufacturer": "Microsoft",
+          "notes": "pw3h6eYUKVpyeSb8jiZrsb6waDVqiORm5LARZ0n8T2LwmTlM7EIJ2Uv2ErvOayCZPTwCYiinBTvyyVcO12s2uaODZVmoXEJtu1VwzMJcHfw0Ie4nPyEdU5KIpZhgqYmsYtnLACMkAnzN0UB5nAXIta3Zk4RBLQLMS2KDTyRfq3KCPbykyKw8foEGBwOBvVtWNucdvs9u2EeZDZDiCM8OFq2AN1csHu0ikiWz69251uO8GlM5QGy4XWML1N",
+          "received": false
+        },
+        {
+          "_id": "69432bf91c508c5d5ed29c3e",
+          "name": "Sausages44613",
+          "amount": 349,
+          "price": 66927,
+          "manufacturer": "Apple",
+          "notes": "hvBycXfJYw1emrgbS12ignbts84VZFHTX1ACSzqTJuUt3BLbr8KjJexxZPGKAtxOjP0pmzYYaiO55pT3soYb9hVFo1EOqIbo1etiFgpJTV1utnyQ4lSwPS0rQkrYTFC6WN85JZiyhE3htr3XNSpkpXfacIKPQQvJoxSe8sVsO17ghtMhmLeQ1nPxOj0UrSFGdWZ8Hh0j0lfoe93bJuQMtdlvlp63nv0U60w8tDJLdOSO422SW9HghGMkIz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 96075,
+      "createdOn": "2025-12-17T22:17:32.000Z",
+      "comments": [
+        {
+          "text": "MMkY6sWpXUDb5QvJwC6HV5a3Pqu5kZ6dlLXrSfg4mOp4vVYSyQo18eootRGBuFCvvP62qXI9aYGauKux9oFLlVBKNeRO62Pmcvv0EooPc7PjfP64pR8u0SFuzD701yiBee6Rg7tlY2XYNnhpdjDLxD88rczyKioEC86FN2N9U6QQUEjr9hH8zXsH7vCNgfrFjV5BFstx <",
+          "createdOn": "2025-12-17T22:17:34.000Z",
+          "_id": "69432c001c508c5d5ed2a068"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69432bf01c508c5d5ed29797",
+          "products": [
+            {
+              "_id": "69432bf61c508c5d5ed29add",
+              "name": "Pizza7759",
+              "amount": 574,
+              "price": 29148,
+              "manufacturer": "Microsoft",
+              "notes": "pw3h6eYUKVpyeSb8jiZrsb6waDVqiORm5LARZ0n8T2LwmTlM7EIJ2Uv2ErvOayCZPTwCYiinBTvyyVcO12s2uaODZVmoXEJtu1VwzMJcHfw0Ie4nPyEdU5KIpZhgqYmsYtnLACMkAnzN0UB5nAXIta3Zk4RBLQLMS2KDTyRfq3KCPbykyKw8foEGBwOBvVtWNucdvs9u2EeZDZDiCM8OFq2AN1csHu0ikiWz69251uO8GlM5QGy4XWML1N",
+              "received": false
+            },
+            {
+              "_id": "69432bf91c508c5d5ed29c3e",
+              "name": "Sausages44613",
+              "amount": 349,
+              "price": 66927,
+              "manufacturer": "Apple",
+              "notes": "hvBycXfJYw1emrgbS12ignbts84VZFHTX1ACSzqTJuUt3BLbr8KjJexxZPGKAtxOjP0pmzYYaiO55pT3soYb9hVFo1EOqIbo1etiFgpJTV1utnyQ4lSwPS0rQkrYTFC6WN85JZiyhE3htr3XNSpkpXfacIKPQQvJoxSe8sVsO17ghtMhmLeQ1nPxOj0UrSFGdWZ8Hh0j0lfoe93bJuQMtdlvlp63nv0U60w8tDJLdOSO422SW9HghGMkIz",
+              "received": false
+            }
+          ],
+          "total_price": 96075,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:17:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

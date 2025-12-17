@@ -1,0 +1,233 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:23:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5417",
+    "etag": "W/\"1529-EHMJwVtkbRvQa1HbB9BRRUzqKyk\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69432d501c508c5d5ed36008",
+      "status": "Draft",
+      "customer": {
+        "_id": "69432d4c1c508c5d5ed35d1c",
+        "email": "Mariano_Bogisich@yahoo.com",
+        "name": "Patience Bergnaum",
+        "country": "Belarus",
+        "city": "Virginia Beach",
+        "street": "Stracke Manor",
+        "house": 29,
+        "flat": 17,
+        "phone": "+14045248000",
+        "createdOn": "2025-12-17T22:23:08.000Z",
+        "notes": "E0HOuvSItDh1yhrG7zLImIi0Bq3G4xvYVZMayAP0TU0nYGLFXpQyvoJRf3ukt3IHyAUcceqlNReezrUFNwq25Xyz74K1cv8Wbz00LKPpHVZW3OeoWsnDtcqJLlXfRagxjm5nJMI2PLCn6inUDLEEtujb7v3M6qwMTa7tFAVzx3rgKpRc3Ildg8df5ZB3RFNZPlLknhPNNAuDlHwLIMEzEfUK9bccEFCbauVblIQhugaf1bbICk4PKLqBsq"
+      },
+      "products": [
+        {
+          "_id": "69432d4d1c508c5d5ed35d83",
+          "name": "Soap36485",
+          "amount": 467,
+          "price": 27090,
+          "manufacturer": "Microsoft",
+          "notes": "7HikewmUu0Qtjz8b8D9I23uCax3UWfd6QsieE8eqO0l2UBfopmSpKQYM46mtzmgX50k4LGSXQI1TU6c8BRaNJPAgsvnjBeOYp43DBCNR4ermNACgQXc7yg0EsTETwguSUTQULwr9UHgovEbrdvmFW2PepQKbQoYYcqha8OqSCILYQYVTQn86FBaW4E6pKLRpWr3TrtJ5JMz5f6Ng2rTfR31M5WIjloHneT8u0XAYtE9BDG4vCTPApuUSjE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 27090,
+      "createdOn": "2025-12-17T22:23:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69432d4c1c508c5d5ed35d1c",
+          "products": [
+            {
+              "_id": "69432d4d1c508c5d5ed35d83",
+              "name": "Soap36485",
+              "amount": 467,
+              "price": 27090,
+              "manufacturer": "Microsoft",
+              "notes": "7HikewmUu0Qtjz8b8D9I23uCax3UWfd6QsieE8eqO0l2UBfopmSpKQYM46mtzmgX50k4LGSXQI1TU6c8BRaNJPAgsvnjBeOYp43DBCNR4ermNACgQXc7yg0EsTETwguSUTQULwr9UHgovEbrdvmFW2PepQKbQoYYcqha8OqSCILYQYVTQn86FBaW4E6pKLRpWr3TrtJ5JMz5f6Ng2rTfR31M5WIjloHneT8u0XAYtE9BDG4vCTPApuUSjE",
+              "received": false
+            }
+          ],
+          "total_price": 27090,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:23:32.000Z",
+          "action": "Order reopened",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Canceled",
+          "customer": "69432d4c1c508c5d5ed35d1c",
+          "products": [
+            {
+              "_id": "69432d4d1c508c5d5ed35d83",
+              "name": "Soap36485",
+              "amount": 467,
+              "price": 27090,
+              "manufacturer": "Microsoft",
+              "notes": "7HikewmUu0Qtjz8b8D9I23uCax3UWfd6QsieE8eqO0l2UBfopmSpKQYM46mtzmgX50k4LGSXQI1TU6c8BRaNJPAgsvnjBeOYp43DBCNR4ermNACgQXc7yg0EsTETwguSUTQULwr9UHgovEbrdvmFW2PepQKbQoYYcqha8OqSCILYQYVTQn86FBaW4E6pKLRpWr3TrtJ5JMz5f6Ng2rTfR31M5WIjloHneT8u0XAYtE9BDG4vCTPApuUSjE",
+              "received": false
+            }
+          ],
+          "total_price": 27090,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Virginia Beach",
+              "street": "Stracke Manor",
+              "house": 29,
+              "flat": 17
+            },
+            "finalDate": "2025-12-20T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-17T22:23:31.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69432d4c1c508c5d5ed35d1c",
+          "products": [
+            {
+              "_id": "69432d4d1c508c5d5ed35d83",
+              "name": "Soap36485",
+              "amount": 467,
+              "price": 27090,
+              "manufacturer": "Microsoft",
+              "notes": "7HikewmUu0Qtjz8b8D9I23uCax3UWfd6QsieE8eqO0l2UBfopmSpKQYM46mtzmgX50k4LGSXQI1TU6c8BRaNJPAgsvnjBeOYp43DBCNR4ermNACgQXc7yg0EsTETwguSUTQULwr9UHgovEbrdvmFW2PepQKbQoYYcqha8OqSCILYQYVTQn86FBaW4E6pKLRpWr3TrtJ5JMz5f6Ng2rTfR31M5WIjloHneT8u0XAYtE9BDG4vCTPApuUSjE",
+              "received": false
+            }
+          ],
+          "total_price": 27090,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Virginia Beach",
+              "street": "Stracke Manor",
+              "house": 29,
+              "flat": 17
+            },
+            "finalDate": "2025-12-20T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-17T22:23:23.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69432d4c1c508c5d5ed35d1c",
+          "products": [
+            {
+              "_id": "69432d4d1c508c5d5ed35d83",
+              "name": "Soap36485",
+              "amount": 467,
+              "price": 27090,
+              "manufacturer": "Microsoft",
+              "notes": "7HikewmUu0Qtjz8b8D9I23uCax3UWfd6QsieE8eqO0l2UBfopmSpKQYM46mtzmgX50k4LGSXQI1TU6c8BRaNJPAgsvnjBeOYp43DBCNR4ermNACgQXc7yg0EsTETwguSUTQULwr9UHgovEbrdvmFW2PepQKbQoYYcqha8OqSCILYQYVTQn86FBaW4E6pKLRpWr3TrtJ5JMz5f6Ng2rTfR31M5WIjloHneT8u0XAYtE9BDG4vCTPApuUSjE",
+              "received": false
+            }
+          ],
+          "total_price": 27090,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Virginia Beach",
+              "street": "Stracke Manor",
+              "house": 29,
+              "flat": 17
+            },
+            "finalDate": "2025-12-20T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-17T22:23:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69432d4c1c508c5d5ed35d1c",
+          "products": [
+            {
+              "_id": "69432d4d1c508c5d5ed35d83",
+              "name": "Soap36485",
+              "amount": 467,
+              "price": 27090,
+              "manufacturer": "Microsoft",
+              "notes": "7HikewmUu0Qtjz8b8D9I23uCax3UWfd6QsieE8eqO0l2UBfopmSpKQYM46mtzmgX50k4LGSXQI1TU6c8BRaNJPAgsvnjBeOYp43DBCNR4ermNACgQXc7yg0EsTETwguSUTQULwr9UHgovEbrdvmFW2PepQKbQoYYcqha8OqSCILYQYVTQn86FBaW4E6pKLRpWr3TrtJ5JMz5f6Ng2rTfR31M5WIjloHneT8u0XAYtE9BDG4vCTPApuUSjE",
+              "received": false
+            }
+          ],
+          "total_price": 27090,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:23:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

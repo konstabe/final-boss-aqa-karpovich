@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:22:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2942",
+    "etag": "W/\"b7e-+/VaG+eNnEcgzVoMheh5Y+EEesw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69432d171c508c5d5ed33e46",
+      "status": "Draft",
+      "customer": {
+        "_id": "69432d141c508c5d5ed33cc8",
+        "email": "Grace_Kuvalis@hotmail.com",
+        "name": "Elmer Schumm",
+        "country": "Ukraine",
+        "city": "Kirkland",
+        "street": "Trinity Road",
+        "house": 11,
+        "flat": 808,
+        "phone": "+16182096292",
+        "createdOn": "2025-12-17T22:22:12.000Z",
+        "notes": "bfFOLBa7j1iiljPom4I3pqn2D4LkK9xlTeY4WapQLSnNER9US1Tk8dNgCMdCfdxtY7BJinXlR3umRhHPeEOLspCKL32zq5RUYN55SDTp36Dz0GJF804A3SjifB9rzZ7msPX0UhRikv1KUu6sqri06ZsdjdDWQMFm3zHdE7xIEv7H3ZIEv2Sx1HANrjDi1AWRQBnsNvpaO6o8SrfIcjIiQfoLpOmJBXHtqDm7enI1mcSXwtPy34FG7mhxFu"
+      },
+      "products": [
+        {
+          "_id": "69432d161c508c5d5ed33e12",
+          "name": "Car59157",
+          "amount": 748,
+          "price": 69554,
+          "manufacturer": "Samsung",
+          "notes": "KaslSB2hPCbYYMV0lgqR82XYt3sHFlsSAXGpsWvF5FwMV4zO8D69E0dkNpFpgxRQHvLaTxEnTH9LARJaOX2qyvj6fkhx7vmcbHCTCHiB5nK7Sh0Zc48FHwuUXceOBRcFKNRW7sIsIoLU1ZIaTEfgsuc009BGG1TIdDa2DN2G9NAUZzsEg7SFZCCyBcQSmMl5HLoB3O9VOoVA7YgrgpgGUyy7JUHS9ItiRkMVYwjBXCJgvHnk9WbAw2kNrx",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Kirkland",
+          "street": "Trinity Road",
+          "house": 11,
+          "flat": 808
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 69554,
+      "createdOn": "2025-12-17T22:22:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69432d141c508c5d5ed33cc8",
+          "products": [
+            {
+              "_id": "69432d161c508c5d5ed33e12",
+              "name": "Car59157",
+              "amount": 748,
+              "price": 69554,
+              "manufacturer": "Samsung",
+              "notes": "KaslSB2hPCbYYMV0lgqR82XYt3sHFlsSAXGpsWvF5FwMV4zO8D69E0dkNpFpgxRQHvLaTxEnTH9LARJaOX2qyvj6fkhx7vmcbHCTCHiB5nK7Sh0Zc48FHwuUXceOBRcFKNRW7sIsIoLU1ZIaTEfgsuc009BGG1TIdDa2DN2G9NAUZzsEg7SFZCCyBcQSmMl5HLoB3O9VOoVA7YgrgpgGUyy7JUHS9ItiRkMVYwjBXCJgvHnk9WbAw2kNrx",
+              "received": false
+            }
+          ],
+          "total_price": 69554,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Kirkland",
+              "street": "Trinity Road",
+              "house": 11,
+              "flat": 808
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-17T22:22:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69432d141c508c5d5ed33cc8",
+          "products": [
+            {
+              "_id": "69432d161c508c5d5ed33e12",
+              "name": "Car59157",
+              "amount": 748,
+              "price": 69554,
+              "manufacturer": "Samsung",
+              "notes": "KaslSB2hPCbYYMV0lgqR82XYt3sHFlsSAXGpsWvF5FwMV4zO8D69E0dkNpFpgxRQHvLaTxEnTH9LARJaOX2qyvj6fkhx7vmcbHCTCHiB5nK7Sh0Zc48FHwuUXceOBRcFKNRW7sIsIoLU1ZIaTEfgsuc009BGG1TIdDa2DN2G9NAUZzsEg7SFZCCyBcQSmMl5HLoB3O9VOoVA7YgrgpgGUyy7JUHS9ItiRkMVYwjBXCJgvHnk9WbAw2kNrx",
+              "received": false
+            }
+          ],
+          "total_price": 69554,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:22:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

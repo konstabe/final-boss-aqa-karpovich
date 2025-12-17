@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:21:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3431",
+    "etag": "W/\"d67-VY80vFXvfeDaa4zBU430ONOPjTQ\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69432cdb1c508c5d5ed31c80",
+        "email": "Felicia.Turner95@gmail.com",
+        "name": "Camron Runolfsson",
+        "country": "Great Britain",
+        "city": "Wymanview",
+        "street": "Gerhold Greens",
+        "house": 26,
+        "flat": 374,
+        "phone": "+14955491003",
+        "createdOn": "2025-12-17T22:21:15.000Z",
+        "notes": "TWAyr3W3KdF3IXZeVJum24UfZiQzIEok5qqSXYZdmgglxgUIqzvt1jSSdAQB6SrD2RCaaCkaBEK22kTJiwN7AzXprwJcroIOYnKYIuWr3xOYDeniP6yCcsfZcBREEceYIt3XykArdnUQalPjwaZs3cc3PX7k6neb2uXvKvbiARajshP9tejC4t3DjDejNsvutXxHcvJm4HFA9eEscvFQtMF5azHQvoxjM2u0zCQquVVOD84MPAC1XaBYff"
+      },
+      "products": [
+        {
+          "_id": "69432cde1c508c5d5ed3212c",
+          "name": "Bike10172",
+          "amount": 422,
+          "price": 85326,
+          "manufacturer": "Sony",
+          "notes": "vLWlrC7pjdaRLTZGYBVmjHLB2op7IJT1vJB55C5eRxJKjuWTnrJ6i0TNhYtkss8yIChy0OTSRiweUALMlcpup4JELbV4dDU7u3Gehxa7jMIYWuEiSXXJOi9zqz62U1orRzQlYOnoXPpnUQodhSdAKxiHnEmLvZCIXr2UYNmEsGl6xRjq4W7UJqmoO7OEMYv3EMLrg81TPSnzQPL6tEG8N0b8H2mra6messv6wGQ1wIP1mOIp7mUNEpgJdo",
+          "received": false
+        },
+        {
+          "_id": "69432ce61c508c5d5ed3228f",
+          "name": "Shoes10555",
+          "amount": 356,
+          "price": 53037,
+          "manufacturer": "Amazon",
+          "notes": "lb6Ru5GkJiRYIqh029idS4niVpiMDkA814ZWFB0ASJyQSdlVjcr61SNHOubo3RoafCSQp004hFYhXYcmUvv7TssI0WqekD959zhNEdmsS8FUYXg7fsQOn6JrLJI6sEODgEfDU7h9YgOz0yaKNAMGpgK13VQsWPO3A9rn9aAw7m8YtSzdGMjF8bWyd8LbLbV060M386QtWNUFxJVxonsVuclSixcTE7aVO9NPcrYouaX6Dsq1gChwd8Vtzh",
+          "received": false
+        },
+        {
+          "_id": "69432ce71c508c5d5ed322e2",
+          "name": "Cheese69982",
+          "amount": 832,
+          "price": 13433,
+          "manufacturer": "Google",
+          "notes": "52NvVrJ3YFURl9YAqYgg8FuK0MD8BVBZu8P7S7MZIgGDL5B1ofhVb6hiHhI5bFr4ODtf1PcUTHSoCiSV7UXqvsWHyWMQO5bHCgNnEhRlB7QxwA70RsRjsZ94EeV7lnYwFpVbrKZHhpd1hCfA3kM2CwkNPVQt8YnLVS3xzATp7BLQKd8bXkN40acbVz4bqIxbGR0FYI2S0nzSpLhdloI0TXoX4XMiPV76B4jjGfxTEG28qjqgDdhu9EK0bf",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 151796,
+      "createdOn": "2025-12-17T22:21:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69432cdb1c508c5d5ed31c80",
+          "products": [
+            {
+              "_id": "69432cde1c508c5d5ed3212c",
+              "name": "Bike10172",
+              "amount": 422,
+              "price": 85326,
+              "manufacturer": "Sony",
+              "notes": "vLWlrC7pjdaRLTZGYBVmjHLB2op7IJT1vJB55C5eRxJKjuWTnrJ6i0TNhYtkss8yIChy0OTSRiweUALMlcpup4JELbV4dDU7u3Gehxa7jMIYWuEiSXXJOi9zqz62U1orRzQlYOnoXPpnUQodhSdAKxiHnEmLvZCIXr2UYNmEsGl6xRjq4W7UJqmoO7OEMYv3EMLrg81TPSnzQPL6tEG8N0b8H2mra6messv6wGQ1wIP1mOIp7mUNEpgJdo",
+              "received": false
+            },
+            {
+              "_id": "69432ce61c508c5d5ed3228f",
+              "name": "Shoes10555",
+              "amount": 356,
+              "price": 53037,
+              "manufacturer": "Amazon",
+              "notes": "lb6Ru5GkJiRYIqh029idS4niVpiMDkA814ZWFB0ASJyQSdlVjcr61SNHOubo3RoafCSQp004hFYhXYcmUvv7TssI0WqekD959zhNEdmsS8FUYXg7fsQOn6JrLJI6sEODgEfDU7h9YgOz0yaKNAMGpgK13VQsWPO3A9rn9aAw7m8YtSzdGMjF8bWyd8LbLbV060M386QtWNUFxJVxonsVuclSixcTE7aVO9NPcrYouaX6Dsq1gChwd8Vtzh",
+              "received": false
+            },
+            {
+              "_id": "69432ce71c508c5d5ed322e2",
+              "name": "Cheese69982",
+              "amount": 832,
+              "price": 13433,
+              "manufacturer": "Google",
+              "notes": "52NvVrJ3YFURl9YAqYgg8FuK0MD8BVBZu8P7S7MZIgGDL5B1ofhVb6hiHhI5bFr4ODtf1PcUTHSoCiSV7UXqvsWHyWMQO5bHCgNnEhRlB7QxwA70RsRjsZ94EeV7lnYwFpVbrKZHhpd1hCfA3kM2CwkNPVQt8YnLVS3xzATp7BLQKd8bXkN40acbVz4bqIxbGR0FYI2S0nzSpLhdloI0TXoX4XMiPV76B4jjGfxTEG28qjqgDdhu9EK0bf",
+              "received": false
+            }
+          ],
+          "total_price": 151796,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:21:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69432ce81c508c5d5ed32380"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

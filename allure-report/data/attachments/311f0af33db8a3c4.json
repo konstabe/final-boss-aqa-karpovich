@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:18:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-iZFW0EzoH2A9h+7BHa9Xr39tKrI\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69432c301c508c5d5ed2bb8c",
+        "email": "Matt5@yahoo.com",
+        "name": "Vida Harber",
+        "country": "Russia",
+        "city": "Port Friedrichfurt",
+        "street": "Frieda Way",
+        "house": 7,
+        "flat": 399,
+        "phone": "+19909698293",
+        "createdOn": "2025-12-17T22:18:24.000Z",
+        "notes": "KYwCEinMC1anDoGkEKLxmRXsi3SapYW0W8HOJTOTTiWFpVjo99Q18ZvPxYBmkpO8k72sBtUWnCKrp2QLibPoKZAEjxEYeomzr8jWbMzfhJrn0yFv24aKnf8g5FrK5brZvh7dwAUiCazMPvblrUH5e511eRve9ndaX2XsQ54xzrDYf0zrwtBskoe6zmipiVOw8o86uAnadgcAUXpJe1zaulXzjAsmzP5GYxtJBBYzMpJDNJp5ynHVwMnsHf"
+      },
+      "products": [
+        {
+          "_id": "69432c351c508c5d5ed2bde2",
+          "name": "Towels68531",
+          "amount": 927,
+          "price": 75599,
+          "manufacturer": "Samsung",
+          "notes": "6F0tNRnk8PuNBlpNB2nBXirCQZ4dZwcHqoxwkhQBJVNkBcio2J4rIWEzzFxjgodKrumwL6rSFJ4pBVZRnvtofHFyfx7r4X3OH07mn5DeWbQonYXAzzl0oKEj4izwWRxb7ldkBkUb6mrVM6PvsKa9cKpXCrcmRUENWN6TT4OpMvcUAh8ulxRqairpqzWBz64iqvhPeOk1L3sSNqEwItJ1P9JW1AiCx9YVG2FOd9aipJ2XqdWjFA7L8deATp",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 75599,
+      "createdOn": "2025-12-17T22:18:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69432c301c508c5d5ed2bb8c",
+          "products": [
+            {
+              "_id": "69432c351c508c5d5ed2bde2",
+              "name": "Towels68531",
+              "amount": 927,
+              "price": 75599,
+              "manufacturer": "Samsung",
+              "notes": "6F0tNRnk8PuNBlpNB2nBXirCQZ4dZwcHqoxwkhQBJVNkBcio2J4rIWEzzFxjgodKrumwL6rSFJ4pBVZRnvtofHFyfx7r4X3OH07mn5DeWbQonYXAzzl0oKEj4izwWRxb7ldkBkUb6mrVM6PvsKa9cKpXCrcmRUENWN6TT4OpMvcUAh8ulxRqairpqzWBz64iqvhPeOk1L3sSNqEwItJ1P9JW1AiCx9YVG2FOd9aipJ2XqdWjFA7L8deATp",
+              "received": false
+            }
+          ],
+          "total_price": 75599,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:18:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69432c3a1c508c5d5ed2c189"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
