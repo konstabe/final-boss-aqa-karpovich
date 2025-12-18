@@ -20,7 +20,7 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 	});
 	test(
 		"Receive Product from order",
-		{ tag: [TAGS.ORDERS, TAGS.REGRESSION, TAGS.SMOKE] },
+		{ tag: [TAGS.ORDER, TAGS.REGRESSION, TAGS.SMOKE] },
 		async ({ ordersApiService, ordersApi }) => {
 			const orderInProcess = await ordersApiService.processOrder(token, 1);
 			id = orderInProcess._id;
@@ -40,7 +40,7 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 	);
 	test(
 		"Receive few Products from order",
-		{ tag: [TAGS.ORDERS, TAGS.REGRESSION, TAGS.SMOKE] },
+		{ tag: [TAGS.ORDER, TAGS.REGRESSION, TAGS.SMOKE] },
 		async ({ ordersApiService, ordersApi }) => {
 			const orderInProcess = await ordersApiService.processOrder(token, 3);
 			id = orderInProcess._id;
@@ -62,7 +62,7 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 	);
 	test(
 		"Receive Products from order without token",
-		{ tag: [TAGS.ORDERS, TAGS.REGRESSION, TAGS.NEGATIVE] },
+		{ tag: [TAGS.ORDER, TAGS.REGRESSION, TAGS.NEGATIVE] },
 		async ({ ordersApiService, ordersApi }) => {
 			const orderInProcess = await ordersApiService.processOrder(token, 1);
 			id = orderInProcess._id;
@@ -82,7 +82,7 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 	);
 	test(
 		"Receive Product with invalid order ID argument",
-		{ tag: [TAGS.ORDERS, TAGS.REGRESSION, TAGS.NEGATIVE] },
+		{ tag: [TAGS.ORDER, TAGS.REGRESSION, TAGS.NEGATIVE] },
 		async ({ ordersApiService, ordersApi }) => {
 			const orderInProcess = await ordersApiService.processOrder(token, 1);
 			id = orderInProcess._id;
@@ -102,7 +102,7 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 	);
 	test(
 		"Receive Product with unexisted order ID",
-		{ tag: [TAGS.ORDERS, TAGS.REGRESSION, TAGS.NEGATIVE] },
+		{ tag: [TAGS.ORDER, TAGS.REGRESSION, TAGS.NEGATIVE] },
 		async ({ ordersApiService, ordersApi }) => {
 			const orderInProcess = await ordersApiService.processOrder(token, 1);
 			id = orderInProcess._id;
@@ -123,7 +123,7 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 	);
 	test(
 		"Receive Product with no product ID",
-		{ tag: [TAGS.ORDERS, TAGS.REGRESSION, TAGS.NEGATIVE] },
+		{ tag: [TAGS.ORDER, TAGS.REGRESSION, TAGS.NEGATIVE] },
 		async ({ ordersApiService, ordersApi }) => {
 			const orderInProcess = await ordersApiService.processOrder(token, 1);
 			id = orderInProcess._id;
@@ -140,7 +140,7 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 	);
 	test(
 		"Receive Product with invalid product ID",
-		{ tag: [TAGS.ORDERS, TAGS.REGRESSION, TAGS.NEGATIVE] },
+		{ tag: [TAGS.ORDER, TAGS.REGRESSION, TAGS.NEGATIVE] },
 		async ({ ordersApiService, ordersApi }) => {
 			const orderInProcess = await ordersApiService.processOrder(token, 1);
 			id = orderInProcess._id;
