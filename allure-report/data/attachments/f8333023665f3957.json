@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:36:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-pUyoKlu4V6GR8d0ZD2RkOiHeQUs\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694411671c508c5d5eda770d",
+        "email": "Amalia32@gmail.com",
+        "name": "Elnora Kertzmann",
+        "country": "Germany",
+        "city": "Port Hermanhaven",
+        "street": "Sipes Junctions",
+        "house": 9,
+        "flat": 249,
+        "phone": "+18216139307",
+        "createdOn": "2025-12-18T14:36:23.000Z",
+        "notes": "yIBcYTYyIHGQtsZt4giLbXyqddBpYut7ZiNhkcpvEKhCLUw1GNFR4uxrw7yOAyKk8yFOtJWynQGIFG82cTbn74aJ5rZflhnQp1xtHNStkO2fyT4n5dNBFxNhRxIhqV9y9kRCokva5FnCeGo97XpdwmmASicTSJi6hVhoxLtopTQZhLIVW54AHPd0qhs6NK6TFGddqMYlPh6iWaJC7x0kFZcZ0wLGSvsPFcoZWP6Wge8Pxj2QzcsxysrYaC"
+      },
+      "products": [
+        {
+          "_id": "694411671c508c5d5eda7741",
+          "name": "Chips53803",
+          "amount": 114,
+          "price": 2371,
+          "manufacturer": "Amazon",
+          "notes": "epd0ncthS3WDQA0B0oLiTM3ldtab8I9bDndcZjbhenKkXPt4nvAZk3yeTIDRMX5TvDrKdguHCdeaA21SJ6H5hO4YCvWSadzE6sBkvdCI5sbh6umwPApCX0Qdo8msl4BX3VX9hrjH0o02aiLOraKDUNmhZMnSWSq3VYMwkGXe3EJ9rrmpJcaQw1Mr5WgNs9PQVGja59lAD8q3ILNAUFQYaecOWBFqQFyFe1h0kig4sH4fDFg9GbUuf7iLJH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 2371,
+      "createdOn": "2025-12-18T14:36:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694411671c508c5d5eda770d",
+          "products": [
+            {
+              "_id": "694411671c508c5d5eda7741",
+              "name": "Chips53803",
+              "amount": 114,
+              "price": 2371,
+              "manufacturer": "Amazon",
+              "notes": "epd0ncthS3WDQA0B0oLiTM3ldtab8I9bDndcZjbhenKkXPt4nvAZk3yeTIDRMX5TvDrKdguHCdeaA21SJ6H5hO4YCvWSadzE6sBkvdCI5sbh6umwPApCX0Qdo8msl4BX3VX9hrjH0o02aiLOraKDUNmhZMnSWSq3VYMwkGXe3EJ9rrmpJcaQw1Mr5WgNs9PQVGja59lAD8q3ILNAUFQYaecOWBFqQFyFe1h0kig4sH4fDFg9GbUuf7iLJH",
+              "received": false
+            }
+          ],
+          "total_price": 2371,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:36:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694411681c508c5d5eda7795"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

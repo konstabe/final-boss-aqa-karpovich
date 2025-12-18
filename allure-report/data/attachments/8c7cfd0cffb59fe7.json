@@ -1,0 +1,187 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:35:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5242",
+    "etag": "W/\"147a-qO39yASe6m3nN79/Msq2ivPS/kM\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694411491c508c5d5eda696c",
+      "status": "Draft",
+      "customer": {
+        "_id": "694411461c508c5d5eda6810",
+        "email": "Tabitha.Dickens@gmail.com",
+        "name": "Felicita Lubowitz",
+        "country": "USA",
+        "city": "Palmdale",
+        "street": "Bath Road",
+        "house": 42,
+        "flat": 142,
+        "phone": "+18898290976",
+        "createdOn": "2025-12-18T14:35:50.000Z",
+        "notes": "XxXnJTqGKbKgxDJSLjNzyMK6eQoxc1A4C0ksRvHPcl1oG1VXKJGZbuf1t2Nj4HfV7asb5u55RP7PUqtk3ugN7xyOn0dlSkFLG1oNAgqB2n2RMILrn1T7XZBnmv53zWTGOY8GnGSQv0FHAMtcPh2DQiOHhghhVDrnIt2Nzkkcfmu8UgRhljonrJRF9dC5wPkm99fQMThD5Kugwh93WCCceXJ4sKSIaKpcT2nbzgijClDz49b16cAN7v62Qy"
+      },
+      "products": [
+        {
+          "_id": "694411471c508c5d5eda685b",
+          "name": "Chair88564",
+          "amount": 998,
+          "price": 700,
+          "manufacturer": "Samsung",
+          "notes": "L7ByLhX4YOUUyt60eqBZXNKNYiECkIB9wdFe1czk7UWlILzD92bPVcW0YFtIie1diPI5P1fVUki87bJIduye64hBUiLj3gUny3k84NblhI3bKpLWwfZgtebCpdL9gNnUm6GogshE3XUUGw5JTB6TDm0ZfGbnEEdNen1djqkemiQQeZGHGiH9W5BHS2rG1zz9Nb3I9yYmxM8VTU0qCsmOTwmqhXlJgqnvUmyFXiv1doZ9j0zizfe5s8JM6Z",
+          "received": false
+        },
+        {
+          "_id": "694411471c508c5d5eda68b3",
+          "name": "Computer11458",
+          "amount": 238,
+          "price": 87997,
+          "manufacturer": "Xiaomi",
+          "notes": "aNMwDY6A4wUe8XiVl2s7IREs7PDe95carDN129s6IKJwA8yPPqxA5yTmB5wPTNWekpkHtd3k2sAXyKem2YCzgDb75N97KmJtom4mfnaqKIikLlWv8Yh8a3GNAkssiolgGRggFqtPssEWNighhpg0hKdcxxXe54EaPGUGTA2zJPvMMuhnz0xkPtV0J7eoZF8dmZ30jvMFYwnUHCJXFM67WptqKE0VRBtXvRPCtG6L6JDyFA1xokrA8QEx7S",
+          "received": false
+        },
+        {
+          "_id": "694411481c508c5d5eda6906",
+          "name": "Pizza24094",
+          "amount": 541,
+          "price": 24827,
+          "manufacturer": "Google",
+          "notes": "cs0ZSKmTOIeVVU9jA4zl0vkGg6SgnZvRWcXgOa99Qdbu8D3JlaVXrmVRblvTR95pBGv6ugvNY9u6AF1eo2COBnMNJL9eX5tPN3Tj2cRJLshv2v4X6cE2NrPvADYV0xliUX8McLRFc1wHMWjcxz0vPXIPyUzPzel0cVupgtZMblttVK46pK8fJNvkJExd4b6CpdSFPG9SoRaH6oVk13OM7zkNGFEWryF4XhKxUJOOm5AhZVKJ0xxlFvNLlw",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Palmdale",
+          "street": "Bath Road",
+          "house": 42,
+          "flat": 142
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 113524,
+      "createdOn": "2025-12-18T14:35:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694411461c508c5d5eda6810",
+          "products": [
+            {
+              "_id": "694411471c508c5d5eda685b",
+              "name": "Chair88564",
+              "amount": 998,
+              "price": 700,
+              "manufacturer": "Samsung",
+              "notes": "L7ByLhX4YOUUyt60eqBZXNKNYiECkIB9wdFe1czk7UWlILzD92bPVcW0YFtIie1diPI5P1fVUki87bJIduye64hBUiLj3gUny3k84NblhI3bKpLWwfZgtebCpdL9gNnUm6GogshE3XUUGw5JTB6TDm0ZfGbnEEdNen1djqkemiQQeZGHGiH9W5BHS2rG1zz9Nb3I9yYmxM8VTU0qCsmOTwmqhXlJgqnvUmyFXiv1doZ9j0zizfe5s8JM6Z",
+              "received": false
+            },
+            {
+              "_id": "694411471c508c5d5eda68b3",
+              "name": "Computer11458",
+              "amount": 238,
+              "price": 87997,
+              "manufacturer": "Xiaomi",
+              "notes": "aNMwDY6A4wUe8XiVl2s7IREs7PDe95carDN129s6IKJwA8yPPqxA5yTmB5wPTNWekpkHtd3k2sAXyKem2YCzgDb75N97KmJtom4mfnaqKIikLlWv8Yh8a3GNAkssiolgGRggFqtPssEWNighhpg0hKdcxxXe54EaPGUGTA2zJPvMMuhnz0xkPtV0J7eoZF8dmZ30jvMFYwnUHCJXFM67WptqKE0VRBtXvRPCtG6L6JDyFA1xokrA8QEx7S",
+              "received": false
+            },
+            {
+              "_id": "694411481c508c5d5eda6906",
+              "name": "Pizza24094",
+              "amount": 541,
+              "price": 24827,
+              "manufacturer": "Google",
+              "notes": "cs0ZSKmTOIeVVU9jA4zl0vkGg6SgnZvRWcXgOa99Qdbu8D3JlaVXrmVRblvTR95pBGv6ugvNY9u6AF1eo2COBnMNJL9eX5tPN3Tj2cRJLshv2v4X6cE2NrPvADYV0xliUX8McLRFc1wHMWjcxz0vPXIPyUzPzel0cVupgtZMblttVK46pK8fJNvkJExd4b6CpdSFPG9SoRaH6oVk13OM7zkNGFEWryF4XhKxUJOOm5AhZVKJ0xxlFvNLlw",
+              "received": false
+            }
+          ],
+          "total_price": 113524,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Palmdale",
+              "street": "Bath Road",
+              "house": 42,
+              "flat": 142
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T14:35:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694411461c508c5d5eda6810",
+          "products": [
+            {
+              "_id": "694411471c508c5d5eda685b",
+              "name": "Chair88564",
+              "amount": 998,
+              "price": 700,
+              "manufacturer": "Samsung",
+              "notes": "L7ByLhX4YOUUyt60eqBZXNKNYiECkIB9wdFe1czk7UWlILzD92bPVcW0YFtIie1diPI5P1fVUki87bJIduye64hBUiLj3gUny3k84NblhI3bKpLWwfZgtebCpdL9gNnUm6GogshE3XUUGw5JTB6TDm0ZfGbnEEdNen1djqkemiQQeZGHGiH9W5BHS2rG1zz9Nb3I9yYmxM8VTU0qCsmOTwmqhXlJgqnvUmyFXiv1doZ9j0zizfe5s8JM6Z",
+              "received": false
+            },
+            {
+              "_id": "694411471c508c5d5eda68b3",
+              "name": "Computer11458",
+              "amount": 238,
+              "price": 87997,
+              "manufacturer": "Xiaomi",
+              "notes": "aNMwDY6A4wUe8XiVl2s7IREs7PDe95carDN129s6IKJwA8yPPqxA5yTmB5wPTNWekpkHtd3k2sAXyKem2YCzgDb75N97KmJtom4mfnaqKIikLlWv8Yh8a3GNAkssiolgGRggFqtPssEWNighhpg0hKdcxxXe54EaPGUGTA2zJPvMMuhnz0xkPtV0J7eoZF8dmZ30jvMFYwnUHCJXFM67WptqKE0VRBtXvRPCtG6L6JDyFA1xokrA8QEx7S",
+              "received": false
+            },
+            {
+              "_id": "694411481c508c5d5eda6906",
+              "name": "Pizza24094",
+              "amount": 541,
+              "price": 24827,
+              "manufacturer": "Google",
+              "notes": "cs0ZSKmTOIeVVU9jA4zl0vkGg6SgnZvRWcXgOa99Qdbu8D3JlaVXrmVRblvTR95pBGv6ugvNY9u6AF1eo2COBnMNJL9eX5tPN3Tj2cRJLshv2v4X6cE2NrPvADYV0xliUX8McLRFc1wHMWjcxz0vPXIPyUzPzel0cVupgtZMblttVK46pK8fJNvkJExd4b6CpdSFPG9SoRaH6oVk13OM7zkNGFEWryF4XhKxUJOOm5AhZVKJ0xxlFvNLlw",
+              "received": false
+            }
+          ],
+          "total_price": 113524,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:35:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
