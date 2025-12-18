@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:48:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1894",
+    "etag": "W/\"766-1XO1AaPFDUZtsurN4gwYgqkhoxI\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6943bff01c508c5d5ed80995",
+        "email": "Julianne28@hotmail.com",
+        "name": "Natalia Pouros",
+        "country": "Ukraine",
+        "city": "South Mireilleworth",
+        "street": "The Paddocks",
+        "house": 14,
+        "flat": 445,
+        "phone": "+19473076660",
+        "createdOn": "2025-12-18T08:48:48.000Z",
+        "notes": "CmLe0Z92lauVJ8zbNfnvndTJ0UL42XpJspWRqGMuEVtlEyLTqLP6j1w1r7i8Q10aOV347QkbwBJo3sIGKWUvbwAjQOkn2t4i7wzx6TVoNcGHuIsnXeUEfrvNtJK8LFdri68fSoXv2lP0gSrXQE5U0CfYLApuBHhcnTgFY9Z6F7er7TZA54bpGoR9SCUSX0cdiXa50tBIoZepnaqJSdSE9yBgiPgg4EzfojlY7oVtQIZYaFOB7gfh6t8SIk"
+      },
+      "products": [
+        {
+          "_id": "6943bff01c508c5d5ed809bc",
+          "name": "Gloves39038",
+          "amount": 478,
+          "price": 68233,
+          "manufacturer": "Xiaomi",
+          "notes": "Sf896nCiijE5O83Yz37ZDD6E40O0aMGUii2QcU9uwS6GCd6EXasd56CVQp64W7Yr8wtEqaR0LDrEaifkx6XlW8KrbDDJoKpPKPGtFy2SloS83BF3BFX6xmETP41OEnAM66yYO4fEkdnQk74ViIEG1Hv16G0ygvaZggY3NS80MfZzJUKQSxQ7dE59miRZPpvZRjiQzvS1CusmAgjAy9B6rfOm84BTIVBt4IremSbwXCtvMt8n6KJOTl4fXi",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68233,
+      "createdOn": "2025-12-18T08:48:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943bff01c508c5d5ed80995",
+          "products": [
+            {
+              "_id": "6943bff01c508c5d5ed809bc",
+              "name": "Gloves39038",
+              "amount": 478,
+              "price": 68233,
+              "manufacturer": "Xiaomi",
+              "notes": "Sf896nCiijE5O83Yz37ZDD6E40O0aMGUii2QcU9uwS6GCd6EXasd56CVQp64W7Yr8wtEqaR0LDrEaifkx6XlW8KrbDDJoKpPKPGtFy2SloS83BF3BFX6xmETP41OEnAM66yYO4fEkdnQk74ViIEG1Hv16G0ygvaZggY3NS80MfZzJUKQSxQ7dE59miRZPpvZRjiQzvS1CusmAgjAy9B6rfOm84BTIVBt4IremSbwXCtvMt8n6KJOTl4fXi",
+              "received": false
+            }
+          ],
+          "total_price": 68233,
+          "delivery": null,
+          "changedOn": "2025-12-18T08:48:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6943bff01c508c5d5ed809e1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

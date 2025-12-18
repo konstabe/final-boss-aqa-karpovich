@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:49:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2960",
+    "etag": "W/\"b90-KdbWzeFrKJl9wxjUr+tevxIN5h4\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943bff11c508c5d5ed80a43",
+      "status": "Draft",
+      "customer": {
+        "_id": "6943bff01c508c5d5ed809d5",
+        "email": "Enid4@yahoo.com",
+        "name": "Kenyon Langworth",
+        "country": "Germany",
+        "city": "East Domenicfurt",
+        "street": "Deckow Pass",
+        "house": 33,
+        "flat": 441,
+        "phone": "+18588729049",
+        "createdOn": "2025-12-18T08:48:48.000Z",
+        "notes": "HjxWR7eGxFCDHZtiedaVlGvti7kpx50b5qWXgaFQLWKvxnWEJft7egroXYzHaDF8i6ZYnOnoYpeA6orExgvNrjYCybGmxhHnIKWzp1TUHzrLfsRRTBZHNenayRsRaLnx6P2ncZFU6IIBfbt8jnRHV05kgOwX8HQ5f1AsqqBmObhvyy4HwZzXR93n6tqGcEVTjMmDLGcvCsVru5jroAVqzoerErNkXCjvw1JGPQiFdABPWthJFUf2ie8jiN"
+      },
+      "products": [
+        {
+          "_id": "6943bff01c508c5d5ed80a05",
+          "name": "Chair30623",
+          "amount": 997,
+          "price": 72228,
+          "manufacturer": "Google",
+          "notes": "P8Q2bmnTvErvjaf8GXjsTUHbTnCRWoYEjnBtc4VmyW6K8voloHEsrfGCd4ZtL1LPIvHh9a3ZxRpinxU7P31NqFqv34Ocpog5i60UfofVNvFx7qHPbU8wR9lvU0SYVq0KRszIwRggApgUvu3Kt2LqKQ6eTwXpOvXED9ycoYde289k4NpPVrd7G6B4MEq8Bkiaz0DA3nOYZKesrkByvDmSQsVJsAH2K8xknT1fbZMJFYNCz6iq2bB4u7nXQv",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "East Domenicfurt",
+          "street": "Deckow Pass",
+          "house": 33,
+          "flat": 441
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 72228,
+      "createdOn": "2025-12-18T08:48:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943bff01c508c5d5ed809d5",
+          "products": [
+            {
+              "_id": "6943bff01c508c5d5ed80a05",
+              "name": "Chair30623",
+              "amount": 997,
+              "price": 72228,
+              "manufacturer": "Google",
+              "notes": "P8Q2bmnTvErvjaf8GXjsTUHbTnCRWoYEjnBtc4VmyW6K8voloHEsrfGCd4ZtL1LPIvHh9a3ZxRpinxU7P31NqFqv34Ocpog5i60UfofVNvFx7qHPbU8wR9lvU0SYVq0KRszIwRggApgUvu3Kt2LqKQ6eTwXpOvXED9ycoYde289k4NpPVrd7G6B4MEq8Bkiaz0DA3nOYZKesrkByvDmSQsVJsAH2K8xknT1fbZMJFYNCz6iq2bB4u7nXQv",
+              "received": false
+            }
+          ],
+          "total_price": 72228,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "East Domenicfurt",
+              "street": "Deckow Pass",
+              "house": 33,
+              "flat": 441
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T08:49:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943bff01c508c5d5ed809d5",
+          "products": [
+            {
+              "_id": "6943bff01c508c5d5ed80a05",
+              "name": "Chair30623",
+              "amount": 997,
+              "price": 72228,
+              "manufacturer": "Google",
+              "notes": "P8Q2bmnTvErvjaf8GXjsTUHbTnCRWoYEjnBtc4VmyW6K8voloHEsrfGCd4ZtL1LPIvHh9a3ZxRpinxU7P31NqFqv34Ocpog5i60UfofVNvFx7qHPbU8wR9lvU0SYVq0KRszIwRggApgUvu3Kt2LqKQ6eTwXpOvXED9ycoYde289k4NpPVrd7G6B4MEq8Bkiaz0DA3nOYZKesrkByvDmSQsVJsAH2K8xknT1fbZMJFYNCz6iq2bB4u7nXQv",
+              "received": false
+            }
+          ],
+          "total_price": 72228,
+          "delivery": null,
+          "changedOn": "2025-12-18T08:48:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

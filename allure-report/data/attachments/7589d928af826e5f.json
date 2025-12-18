@@ -1,0 +1,187 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:50:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5259",
+    "etag": "W/\"148b-wKss+wvidMP78YRaS0GMpRFEzIQ\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943c0411c508c5d5ed836a6",
+      "status": "Draft",
+      "customer": {
+        "_id": "6943c0371c508c5d5ed83170",
+        "email": "Angeline.Predovic51@yahoo.com",
+        "name": "Watson Bernhard",
+        "country": "Belarus",
+        "city": "Stehrberg",
+        "street": "Third Avenue",
+        "house": 6,
+        "flat": 419,
+        "phone": "+12404450441",
+        "createdOn": "2025-12-18T08:49:59.000Z",
+        "notes": "AvDESLx16Q371rPtQshs4iWwcQlc2vbuf9q4tJzNIwUv1AAg1XNmJUg3oROYkiPFF0xvWevL8PgrMyh7fP85lFwKeViHWuLcWzoV2OlL4EnKf5D2HRiav9TpBePXLwhygFzjMiwz06WTYfe3iKpZdSfmgTJBRR1RUHRVBHnaBWTElZiUrWJqwXNUuGryZNVS9h9Zb7XxLzO7HIStKEyia5IPMKdFi7QlPCqFZiNWHM27N4XC5WthH2OKBP"
+      },
+      "products": [
+        {
+          "_id": "6943c0381c508c5d5ed83188",
+          "name": "Chicken79145",
+          "amount": 791,
+          "price": 9449,
+          "manufacturer": "Apple",
+          "notes": "B3g2lpEBQUJRfkWxYR0SZeQqhFLUtqaip0gGIbEfOaYNnMVhZsGhN0rOMigVcJQgBB4i087Eu24MqKZZKJHMgU8jNLPMzC5UiUay4xDA488S6FKPWxClvgjqgAVdvMsroEd0UKHtAaLJ4fy1ToT9AWhPAyZhY7owpLNB0A9Kw4JcgOLOvysWkuTT91RECYm0D3ulocxLDHmdcmX2pXGe6pKjLBrk77axyyv0LD0EDxJrUM7Yb97Vo4eRno",
+          "received": false
+        },
+        {
+          "_id": "6943c0381c508c5d5ed83198",
+          "name": "Sausages82299",
+          "amount": 412,
+          "price": 60187,
+          "manufacturer": "Amazon",
+          "notes": "EHyKlzJwGftlxpqAwIB3sqYbzTTJGj98paS05RkIEUInZXl4liNGP41oHZwYpvkLCc55fp9ykUz1vzfd77U2jWM7co3MSAz6WIgDzA0GVFpJtXtSitR318MT6rNhzojpW6KkT2rBf4jKe2dshIED1qAgOglsHmQPCMyIize4X8gRAUhHDe0AfFq0KVQm6OerzL5HePyQWDEA0d7ulxAMOsohIvK96BYZGhLNUZlCgpiXMzEMXg21gf38RC",
+          "received": false
+        },
+        {
+          "_id": "6943c03d1c508c5d5ed834e4",
+          "name": "Bike15021",
+          "amount": 261,
+          "price": 54119,
+          "manufacturer": "Sony",
+          "notes": "w5X8GJ9oEJp3pKARISQQ58MG7myy2irjJf3nblLTOb7SmCt9bJazSnUa0Nh9WLDiJ1R44zHlKLoXKqNqRUdKFxweGVKyc8hQGkEUxbgtQmmCvuQvYEtsyFqzzeF6DJtICVvZvx10RoXpFC6G8fGlFkELKAnXEsiuDVAX2gRNE2tMMPy4WtTQVen4Ygf02pwJUlrna9urWMxInOHKKy7oMbUjs1H71iEIpP7WXAiKcpcIwLt8CjsizzTvX5",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Stehrberg",
+          "street": "Third Avenue",
+          "house": 6,
+          "flat": 419
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 123755,
+      "createdOn": "2025-12-18T08:50:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943c0371c508c5d5ed83170",
+          "products": [
+            {
+              "_id": "6943c0381c508c5d5ed83188",
+              "name": "Chicken79145",
+              "amount": 791,
+              "price": 9449,
+              "manufacturer": "Apple",
+              "notes": "B3g2lpEBQUJRfkWxYR0SZeQqhFLUtqaip0gGIbEfOaYNnMVhZsGhN0rOMigVcJQgBB4i087Eu24MqKZZKJHMgU8jNLPMzC5UiUay4xDA488S6FKPWxClvgjqgAVdvMsroEd0UKHtAaLJ4fy1ToT9AWhPAyZhY7owpLNB0A9Kw4JcgOLOvysWkuTT91RECYm0D3ulocxLDHmdcmX2pXGe6pKjLBrk77axyyv0LD0EDxJrUM7Yb97Vo4eRno",
+              "received": false
+            },
+            {
+              "_id": "6943c0381c508c5d5ed83198",
+              "name": "Sausages82299",
+              "amount": 412,
+              "price": 60187,
+              "manufacturer": "Amazon",
+              "notes": "EHyKlzJwGftlxpqAwIB3sqYbzTTJGj98paS05RkIEUInZXl4liNGP41oHZwYpvkLCc55fp9ykUz1vzfd77U2jWM7co3MSAz6WIgDzA0GVFpJtXtSitR318MT6rNhzojpW6KkT2rBf4jKe2dshIED1qAgOglsHmQPCMyIize4X8gRAUhHDe0AfFq0KVQm6OerzL5HePyQWDEA0d7ulxAMOsohIvK96BYZGhLNUZlCgpiXMzEMXg21gf38RC",
+              "received": false
+            },
+            {
+              "_id": "6943c03d1c508c5d5ed834e4",
+              "name": "Bike15021",
+              "amount": 261,
+              "price": 54119,
+              "manufacturer": "Sony",
+              "notes": "w5X8GJ9oEJp3pKARISQQ58MG7myy2irjJf3nblLTOb7SmCt9bJazSnUa0Nh9WLDiJ1R44zHlKLoXKqNqRUdKFxweGVKyc8hQGkEUxbgtQmmCvuQvYEtsyFqzzeF6DJtICVvZvx10RoXpFC6G8fGlFkELKAnXEsiuDVAX2gRNE2tMMPy4WtTQVen4Ygf02pwJUlrna9urWMxInOHKKy7oMbUjs1H71iEIpP7WXAiKcpcIwLt8CjsizzTvX5",
+              "received": false
+            }
+          ],
+          "total_price": 123755,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Stehrberg",
+              "street": "Third Avenue",
+              "house": 6,
+              "flat": 419
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T08:50:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943c0371c508c5d5ed83170",
+          "products": [
+            {
+              "_id": "6943c0381c508c5d5ed83188",
+              "name": "Chicken79145",
+              "amount": 791,
+              "price": 9449,
+              "manufacturer": "Apple",
+              "notes": "B3g2lpEBQUJRfkWxYR0SZeQqhFLUtqaip0gGIbEfOaYNnMVhZsGhN0rOMigVcJQgBB4i087Eu24MqKZZKJHMgU8jNLPMzC5UiUay4xDA488S6FKPWxClvgjqgAVdvMsroEd0UKHtAaLJ4fy1ToT9AWhPAyZhY7owpLNB0A9Kw4JcgOLOvysWkuTT91RECYm0D3ulocxLDHmdcmX2pXGe6pKjLBrk77axyyv0LD0EDxJrUM7Yb97Vo4eRno",
+              "received": false
+            },
+            {
+              "_id": "6943c0381c508c5d5ed83198",
+              "name": "Sausages82299",
+              "amount": 412,
+              "price": 60187,
+              "manufacturer": "Amazon",
+              "notes": "EHyKlzJwGftlxpqAwIB3sqYbzTTJGj98paS05RkIEUInZXl4liNGP41oHZwYpvkLCc55fp9ykUz1vzfd77U2jWM7co3MSAz6WIgDzA0GVFpJtXtSitR318MT6rNhzojpW6KkT2rBf4jKe2dshIED1qAgOglsHmQPCMyIize4X8gRAUhHDe0AfFq0KVQm6OerzL5HePyQWDEA0d7ulxAMOsohIvK96BYZGhLNUZlCgpiXMzEMXg21gf38RC",
+              "received": false
+            },
+            {
+              "_id": "6943c03d1c508c5d5ed834e4",
+              "name": "Bike15021",
+              "amount": 261,
+              "price": 54119,
+              "manufacturer": "Sony",
+              "notes": "w5X8GJ9oEJp3pKARISQQ58MG7myy2irjJf3nblLTOb7SmCt9bJazSnUa0Nh9WLDiJ1R44zHlKLoXKqNqRUdKFxweGVKyc8hQGkEUxbgtQmmCvuQvYEtsyFqzzeF6DJtICVvZvx10RoXpFC6G8fGlFkELKAnXEsiuDVAX2gRNE2tMMPy4WtTQVen4Ygf02pwJUlrna9urWMxInOHKKy7oMbUjs1H71iEIpP7WXAiKcpcIwLt8CjsizzTvX5",
+              "received": false
+            }
+          ],
+          "total_price": 123755,
+          "delivery": null,
+          "changedOn": "2025-12-18T08:50:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
