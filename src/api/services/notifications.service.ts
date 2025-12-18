@@ -39,6 +39,6 @@ export class NotificationsService {
 			ErrorMessage: null,
 		});
 
-		return response.body.Notification;
+		return response.body.Notifications;
 	}
 }
