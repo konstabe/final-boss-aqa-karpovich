@@ -17,7 +17,7 @@ test.describe("[API] [Sales Portal] [Orders] [Update delivery details of an orde
 	});
 
 	test.afterEach(async ({ ordersApiService }) => {
-		await ordersApiService.fullDelete(token, idOrders, idCustomers, idProducts);
+		await ordersApiService.fullDelete(token);
 		idCustomers = [];
 		idProducts = [];
 		idOrders = [];
