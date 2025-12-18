@@ -19,8 +19,9 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 	});
 
 	test(
-		"Update product without token",
-		{ tag: [TAGS.API, TAGS.NEGATIVE] },
+		"Update product without token", {
+			tag: [TAGS.API, TAGS.NEGATIVE]
+		},
 		async ({ loginApiService, productsApiService, productsApi }) => {
 			token = await loginApiService.loginAsAdmin();
 			const createdProduct = await productsApiService.create(token);

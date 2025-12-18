@@ -1,13 +1,100 @@
-import test from "@playwright/test";
+import { ERROR_MESSAGES } from "data/notifications";
+import { generateDeliveryData } from "data/orders/generateDeliveryData";
+import { getOrdersSchema } from "data/schemas/orders/getOrder.schema";
+import { STATUS_CODES } from "data/statusCodes";
+import { expect, test } from "fixtures/api.fixture";
+import _ from "lodash";
+import { validateResponse } from "utils/validation/validateResponse.utils";
 
-test.describe("[API] [Sales Portal] [Orders]", () => {
-	test.describe("[Update delivery details of an order]", () => {
-		test.skip("Update delivery details of an order", async ({}) => {});
+test.describe("[API] [Sales Portal] [Orders] [Update delivery details of an order]", () => {
+	let token = "";
+	let idCustomers: string[] = [];
+	let idProducts: string[] = [];
+	let idOrders: string[] = [];
 
-		test.skip("Update delivery details to non-existent order", async ({}) => {});
+	test.beforeAll(async ({ loginApiService }) => {
+		token = await loginApiService.loginAsAdmin();
+	});
 
-		test.skip("Update delivery details without Request body", async ({}) => {});
+	test.afterEach(async ({ ordersApiService }) => {
+		await ordersApiService.fullDelete(token, idOrders, idCustomers, idProducts);
+		idCustomers = [];
+		idProducts = [];
+		idOrders = [];
+	});
 
-		test.skip("Update delivery details of an order without TOKEN", async ({}) => {});
+	test("Update delivery details of an order", async ({ ordersApi, ordersApiService }) => {
+		const createOrderForCustomer = await ordersApiService.createDraft(token, 1);
+		const id_order = createOrderForCustomer._id;
+		idOrders.push(id_order);
+
+		const delivaryData = generateDeliveryData();
+
+		const deliveryDetails = await ordersApi.updateDeliveryDetails(id_order, delivaryData, token);
+		validateResponse(deliveryDetails, {
+			status: STATUS_CODES.OK,
+			schema: getOrdersSchema,
+			IsSuccess: true,
+			ErrorMessage: null,
+		});
+
+		const deliveryDetailsFromResponse = deliveryDetails.body.Order.delivery;
+		console.log(deliveryDetailsFromResponse);
+		expect(deliveryDetailsFromResponse).toMatchObject({ ...delivaryData });
+	});
+
+	test("Update delivery details to non-existent order", async ({ ordersApi, ordersApiService }) => {
+		const createOrderForCustomer = await ordersApiService.createDraft(token, 1);
+		const id_order = createOrderForCustomer._id;
+		idOrders.push(id_order);
+
+		const delivaryData = generateDeliveryData();
+
+		const deliveryDetails = await ordersApi.updateDeliveryDetails("693d353f1c666c5d5ebe6bb0", delivaryData, token);
+		validateResponse(deliveryDetails, {
+			status: STATUS_CODES.NOT_FOUND,
+			IsSuccess: false,
+			ErrorMessage: ERROR_MESSAGES.ORDER_NOT_FOUND("693d353f1c666c5d5ebe6bb0"),
+		});
+	});
+
+	test("Update delivery details without invalid delivery date", async ({ ordersApi, ordersApiService }) => {
+		const createOrderForCustomer = await ordersApiService.createDraft(token, 1);
+		const id_order = createOrderForCustomer._id;
+		idOrders.push(id_order);
+
+		const deliveryData = {
+			finalDate: "",
+			address: {
+				country: "Belarus",
+				city: "Roelchester",
+				street: "County Road",
+				house: 17,
+				flat: 525,
+			},
+			condition: "Pickup",
+		};
+
+		const deliveryDetails = await ordersApi.updateDeliveryDetails(id_order, deliveryData, token);
+		validateResponse(deliveryDetails, {
+			status: STATUS_CODES.BAD_REQUEST,
+			IsSuccess: false,
+			ErrorMessage: ERROR_MESSAGES.INVALID_DELIVERY_DATE,
+		});
+	});
+
+	test("Update delivery details of an order without TOKEN", async ({ ordersApi, ordersApiService }) => {
+		const createOrderForCustomer = await ordersApiService.createDraft(token, 1);
+		const id_order = createOrderForCustomer._id;
+		idOrders.push(id_order);
+
+		const delivaryData = generateDeliveryData();
+
+		const deliveryDetails = await ordersApi.updateDeliveryDetails(id_order, delivaryData, "");
+		validateResponse(deliveryDetails, {
+			status: STATUS_CODES.UNAUTHORIZED,
+			IsSuccess: false,
+			ErrorMessage: ERROR_MESSAGES.NOT_AUTHORIZED,
+		});
 	});
 });

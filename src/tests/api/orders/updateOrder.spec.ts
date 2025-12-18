@@ -10,9 +10,6 @@ import { validateResponse } from "utils/validation/validateResponse.utils";
 
 test.describe("[API] [Sales Portal] [Orders]", () => {
 	let token = "";
-	const ordersIds: string[] = [];
-	const customersIds: string[] = [];
-	const productsIds: string[] = [];
 
 	test.beforeAll(async ({ loginApiService }) => {
 		token = await loginApiService.loginAsAdmin();

@@ -14,6 +14,22 @@ export type ConditionDelivery = "Delivery" | "Pickup";
 
 export type IAddress = Pick<ICustomer, "country" | "city" | "house" | "flat" | "street">;
 
+export type LocationDelivery = "Home" | "Other";
+
+export interface IAddressDelivery {
+	country: string;
+	city: string;
+	street: string;
+	house: number;
+	flat: number;
+}
+
+export interface IDelivery {
+	address: IAddressDelivery;
+	finalDate: string;
+	condition: string;
+}
+
 export interface IOrderDelivery {
 	address: IAddress;
 	finalDate: string;

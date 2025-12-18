@@ -9,9 +9,6 @@ import { validateResponse } from "utils/validation/validateResponse.utils";
 
 test.describe("[API] [Sales Portal] [Orders]", () => {
 	let token = "";
-	const ordersIds: string[] = [];
-	const customersIds: string[] = [];
-	const productsIds: string[] = [];
 
 	test.beforeAll(async ({ loginApiService }) => {
 		token = await loginApiService.loginAsAdmin();
@@ -178,7 +175,6 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 			async ({ flow, ordersApiService, ordersApi }) => {
 				const orderInProcess = await flow.processOrder(token, 5);
 				const partiallyReceivedOrder = await ordersApiService.partiallyReceived(token, orderInProcess, 4);
-				ordersApiService.collectIdsForDeletion(partiallyReceivedOrder, ordersIds, customersIds, productsIds);
 
 				const updatedStatus = await ordersApi.updateOrderStatus(
 					partiallyReceivedOrder._id,
