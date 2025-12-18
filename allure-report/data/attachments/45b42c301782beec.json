@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:21:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4963",
+    "etag": "W/\"1363-X1QijdUoX49BTs9EH5JDsHbAVOk\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694446121c508c5d5edcc9a5",
+        "email": "Jairo4@hotmail.com",
+        "name": "Carmen Cassin",
+        "country": "Belarus",
+        "city": "Waterbury",
+        "street": "Robbie Wall",
+        "house": 44,
+        "flat": 99,
+        "phone": "+12012618294",
+        "createdOn": "2025-12-18T18:21:06.000Z",
+        "notes": "zXReTd8vCCyCCqBnmKQnoj9tw2VD3eW1OYQ6uCFJBofbL00udX5Ca7VoGTdr6SFJIWJNxZY5pPcKFVTgisXedLatymjuM585l46xDU46UluRdfBfzMdw6RVCnxmYR6GRpdPt9R5WJBSVqDHui3UI3gs6DDWsZvMNLGyr8X7ecl5P9HQiR7L34RrsQ03jwCGUQpeqGJaPChPDAQTUtsAzAmyZelbg7F20sv45NqtUrNZp1cdj2EHr7KuzqH"
+      },
+      "products": [
+        {
+          "_id": "694446131c508c5d5edcc9cc",
+          "name": "Pants13973",
+          "amount": 471,
+          "price": 19297,
+          "manufacturer": "Samsung",
+          "notes": "o9GHaUuVd2EkvD154MMbbSNsfjveW4NLu8CjL4qn9zeiJTMWuioxHMllNDkrpil4cV7kqngtkbEd9VQErCmlw1P1MIjlb9pTLeiEPGVJ6NAAakAHaW6ZS6MQaNEqLRdgEv6fex4IgeUoFRxr6066Oaqkgz5jFXYiJ5llTrCXNXBt0F56qOE6zs5qtbRsY9CgqqhLftJ00i2FHHPddHxiioJNQHFSTnLXHeu5FXmPHKIXgYoeXGqnkgRf2Y",
+          "received": false
+        },
+        {
+          "_id": "694446141c508c5d5edcca9b",
+          "name": "Shoes78263",
+          "amount": 324,
+          "price": 68311,
+          "manufacturer": "Samsung",
+          "notes": "YQ4g1Z7wtvedt7V7iu8Xhz2beVV00XPoZhJEFK1Q8GLIgKSCnV89b9YKRpHE8G2XdEPVfO2GKeN7JT5tqTLGBmRmE7feSwvDY6NVeL59T17jBGQzaqR3iWUhvid67cRrs704T0jK2Z7ZOa3MswCMzadLTdA3x0pxna2oq8k1CfFiMgcSLJK1NXyZFJFWM8MstwhOa9zkw1yFRDFwZwBs6qz5tElKHdxLsuaHf0GdGLXyu6D1waRrx9v8Wy",
+          "received": false
+        },
+        {
+          "_id": "694446161c508c5d5edccbcc",
+          "name": "Keyboard78599",
+          "amount": 305,
+          "price": 62681,
+          "manufacturer": "Microsoft",
+          "notes": "YZkumL2kRLxjLg9HxeGUpAw1trtRgsIsXcq1jx8czotGYoIwmCuMem9eMHuThTqnVyOQF788mm1j2DgDcl6uAs4UWst66obDrN6Tq6NJkLJxy20JQh3zFmjMshhrCkFUeqLGG9LHNVLHTXGhNkiToFuI2zNVNLjY7gYHn9qCOXI7l1HMZtBj3zLeZrI64CrLsX1TBT9raa6zF8RjRtymhtbd3b2jqQOauGMfTMryJdljxACoGlqstIST4y",
+          "received": false
+        },
+        {
+          "_id": "694446191c508c5d5edccdab",
+          "name": "Salad90202",
+          "amount": 129,
+          "price": 3300,
+          "manufacturer": "Samsung",
+          "notes": "roppi652kFzGrKG4L2cs7x5lYY3FrSHNJNQ6GPiufgKzCD5xh4oEy33CqcVZefQlOC9dtXQyeW0bCzyvI5lOjF7l6CcPYcxeMcHkRQyKq00SR0Gqymvq39nnULilo6bQilVJvZxYk8x8hYnJlIZLeedliDo5TADZVR16Ejpwwd8fR9fSJw0CBrkXdMORJZEKySWcHU4PqEtiOOZQYD6YfnsZQ3TArEdyxIQZHzntWykNxw7SdBARPhdjiw",
+          "received": false
+        },
+        {
+          "_id": "6944461a1c508c5d5edcce28",
+          "name": "Pants22155",
+          "amount": 14,
+          "price": 97443,
+          "manufacturer": "Amazon",
+          "notes": "wA1iwTiuP9VjPEBEzlDWCsWFwMw42cwCfroxydi0F7tmTNatlhpbmeH9y4Yvhv3t2JMip9TFFqNSZKwX31JE8wfVT6S4RltvRGEPX9ax7QOZKsszsfzS0TyevG2Ve9Y7MjdkqrJmwwZ1I5m91MnkXgXZqBbsTWHsW0TByO6ABCpsv0fjbAMYZ0Y9uQ4oPuyni3GnXnfSYvxLeLq0xL1wfXt13FzEcRqIRGvX2rjsc9PX27CwU0StXYQjCi",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 251032,
+      "createdOn": "2025-12-18T18:21:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694446121c508c5d5edcc9a5",
+          "products": [
+            {
+              "_id": "694446131c508c5d5edcc9cc",
+              "name": "Pants13973",
+              "amount": 471,
+              "price": 19297,
+              "manufacturer": "Samsung",
+              "notes": "o9GHaUuVd2EkvD154MMbbSNsfjveW4NLu8CjL4qn9zeiJTMWuioxHMllNDkrpil4cV7kqngtkbEd9VQErCmlw1P1MIjlb9pTLeiEPGVJ6NAAakAHaW6ZS6MQaNEqLRdgEv6fex4IgeUoFRxr6066Oaqkgz5jFXYiJ5llTrCXNXBt0F56qOE6zs5qtbRsY9CgqqhLftJ00i2FHHPddHxiioJNQHFSTnLXHeu5FXmPHKIXgYoeXGqnkgRf2Y",
+              "received": false
+            },
+            {
+              "_id": "694446141c508c5d5edcca9b",
+              "name": "Shoes78263",
+              "amount": 324,
+              "price": 68311,
+              "manufacturer": "Samsung",
+              "notes": "YQ4g1Z7wtvedt7V7iu8Xhz2beVV00XPoZhJEFK1Q8GLIgKSCnV89b9YKRpHE8G2XdEPVfO2GKeN7JT5tqTLGBmRmE7feSwvDY6NVeL59T17jBGQzaqR3iWUhvid67cRrs704T0jK2Z7ZOa3MswCMzadLTdA3x0pxna2oq8k1CfFiMgcSLJK1NXyZFJFWM8MstwhOa9zkw1yFRDFwZwBs6qz5tElKHdxLsuaHf0GdGLXyu6D1waRrx9v8Wy",
+              "received": false
+            },
+            {
+              "_id": "694446161c508c5d5edccbcc",
+              "name": "Keyboard78599",
+              "amount": 305,
+              "price": 62681,
+              "manufacturer": "Microsoft",
+              "notes": "YZkumL2kRLxjLg9HxeGUpAw1trtRgsIsXcq1jx8czotGYoIwmCuMem9eMHuThTqnVyOQF788mm1j2DgDcl6uAs4UWst66obDrN6Tq6NJkLJxy20JQh3zFmjMshhrCkFUeqLGG9LHNVLHTXGhNkiToFuI2zNVNLjY7gYHn9qCOXI7l1HMZtBj3zLeZrI64CrLsX1TBT9raa6zF8RjRtymhtbd3b2jqQOauGMfTMryJdljxACoGlqstIST4y",
+              "received": false
+            },
+            {
+              "_id": "694446191c508c5d5edccdab",
+              "name": "Salad90202",
+              "amount": 129,
+              "price": 3300,
+              "manufacturer": "Samsung",
+              "notes": "roppi652kFzGrKG4L2cs7x5lYY3FrSHNJNQ6GPiufgKzCD5xh4oEy33CqcVZefQlOC9dtXQyeW0bCzyvI5lOjF7l6CcPYcxeMcHkRQyKq00SR0Gqymvq39nnULilo6bQilVJvZxYk8x8hYnJlIZLeedliDo5TADZVR16Ejpwwd8fR9fSJw0CBrkXdMORJZEKySWcHU4PqEtiOOZQYD6YfnsZQ3TArEdyxIQZHzntWykNxw7SdBARPhdjiw",
+              "received": false
+            },
+            {
+              "_id": "6944461a1c508c5d5edcce28",
+              "name": "Pants22155",
+              "amount": 14,
+              "price": 97443,
+              "manufacturer": "Amazon",
+              "notes": "wA1iwTiuP9VjPEBEzlDWCsWFwMw42cwCfroxydi0F7tmTNatlhpbmeH9y4Yvhv3t2JMip9TFFqNSZKwX31JE8wfVT6S4RltvRGEPX9ax7QOZKsszsfzS0TyevG2Ve9Y7MjdkqrJmwwZ1I5m91MnkXgXZqBbsTWHsW0TByO6ABCpsv0fjbAMYZ0Y9uQ4oPuyni3GnXnfSYvxLeLq0xL1wfXt13FzEcRqIRGvX2rjsc9PX27CwU0StXYQjCi",
+              "received": false
+            }
+          ],
+          "total_price": 251032,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:21:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6944461c1c508c5d5edccf24"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

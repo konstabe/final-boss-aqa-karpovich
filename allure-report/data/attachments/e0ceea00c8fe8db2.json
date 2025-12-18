@@ -1,0 +1,245 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:21:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6952",
+    "etag": "W/\"1b28-abEMlL4n4F3JuC63bBgTa828Tuc\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944460f1c508c5d5edcc787",
+      "status": "In Process",
+      "customer": {
+        "_id": "6944460b1c508c5d5edcc561",
+        "email": "Bonita80@hotmail.com",
+        "name": "Domenic Wisoky",
+        "country": "Russia",
+        "city": "Leannonfurt",
+        "street": "Schaefer Brook",
+        "house": 15,
+        "flat": 148,
+        "phone": "+16639144835",
+        "createdOn": "2025-12-18T18:20:59.000Z",
+        "notes": "S27tjAH5vbkJifDJH26rCEybU1QaYNwXAxQjygu5NZG7vdDWaLn6VRTcGw15fjMMASV7BqKWQIqf9IsfrCWcFoW0LrQs5EnZO6Np5kShgc2LQekfVaTxj3NLvyNv6lzMyLDRI8HMApqmpQHQqPyHYBQtghobSpVLHre75CObwwjgb6GScyJhEgPuqmMN4eNAcmsC32Vf5IUxB6hcCtASw2tmkXni1kan0lfDCL30wJGSmcpLqHAGvkRneo"
+      },
+      "products": [
+        {
+          "_id": "6944460b1c508c5d5edcc58b",
+          "name": "Chair25751",
+          "amount": 152,
+          "price": 10835,
+          "manufacturer": "Sony",
+          "notes": "cuVAkTwXT10VH1u7t6WH6qY5i2PfEgxqleasKErRGN9XPC8ByEZfHFcuP00hBlvkiLfAQ99p4vqhRlaeBZuPag30AjGFCw1fdfW8WB3RaRBoAD8l3xDPeAmtPvEnbcsKM6NHfH7rgu6XcRsJgVv5pr53oLg5mVnW98g8svE6XptACZcJOKq6vjwwIqfKVfucvGHgJOaTaIkRELTE1OR4LgHOjC1RXquCP0RgzaJ6rCJLXyu6A7Xt6g8CrV",
+          "received": false
+        },
+        {
+          "_id": "6944460c1c508c5d5edcc606",
+          "name": "Towels39513",
+          "amount": 663,
+          "price": 58335,
+          "manufacturer": "Tesla",
+          "notes": "gUIXQPUoLOFRO7hmngCEdlRLQsBSBH74wTtV7T8akP9LZrVHcmv56PLxgsd1YlPnYGYjrx6ew4JsKa9LzRi9IZyqyDaZoDUexl1lj9egC80Nqe545K04bzZVCIYgFlTMgkQkxejKez0xnGlBg77vpsfQNOYbXNUR1rwajwJE6UOkN0fi1b2hLsXCJqXWmOii3ELbfgkocx0pTeZZL55wNzWJLFoYp9IjwQSiNQu28uZu46pDIWXzpIqC4c",
+          "received": false
+        },
+        {
+          "_id": "6944460d1c508c5d5edcc6e2",
+          "name": "Shirt3582",
+          "amount": 623,
+          "price": 35497,
+          "manufacturer": "Samsung",
+          "notes": "yRapGz7mxDQQjUQkdafPa75gh9x3qn4CLDwSSz4QZStwWyaOyAfzSeSnVBhxqeIdtiqGxQ0fvwhW2if7rDfXlQlZGUTlzK4NRMH5jLcqd1fSNyyrnV6SsX0EwyIYpqI2Zeh1feBt3uqqgXN9DyQaPsbWzvR7NcKVRWytvr07H1qvMLeVdL4LRi94ABjLUlDpCzmXqnkJ9MRkFn3wONmOO2ubrnMS2k0vQ95vqQNhKORnVXmTV4qa9PrPFb",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Leannonfurt",
+          "street": "Schaefer Brook",
+          "house": 15,
+          "flat": 148
+        },
+        "finalDate": "2025-12-21T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 104667,
+      "createdOn": "2025-12-18T18:21:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6944460b1c508c5d5edcc561",
+          "products": [
+            {
+              "_id": "6944460b1c508c5d5edcc58b",
+              "name": "Chair25751",
+              "amount": 152,
+              "price": 10835,
+              "manufacturer": "Sony",
+              "notes": "cuVAkTwXT10VH1u7t6WH6qY5i2PfEgxqleasKErRGN9XPC8ByEZfHFcuP00hBlvkiLfAQ99p4vqhRlaeBZuPag30AjGFCw1fdfW8WB3RaRBoAD8l3xDPeAmtPvEnbcsKM6NHfH7rgu6XcRsJgVv5pr53oLg5mVnW98g8svE6XptACZcJOKq6vjwwIqfKVfucvGHgJOaTaIkRELTE1OR4LgHOjC1RXquCP0RgzaJ6rCJLXyu6A7Xt6g8CrV",
+              "received": false
+            },
+            {
+              "_id": "6944460c1c508c5d5edcc606",
+              "name": "Towels39513",
+              "amount": 663,
+              "price": 58335,
+              "manufacturer": "Tesla",
+              "notes": "gUIXQPUoLOFRO7hmngCEdlRLQsBSBH74wTtV7T8akP9LZrVHcmv56PLxgsd1YlPnYGYjrx6ew4JsKa9LzRi9IZyqyDaZoDUexl1lj9egC80Nqe545K04bzZVCIYgFlTMgkQkxejKez0xnGlBg77vpsfQNOYbXNUR1rwajwJE6UOkN0fi1b2hLsXCJqXWmOii3ELbfgkocx0pTeZZL55wNzWJLFoYp9IjwQSiNQu28uZu46pDIWXzpIqC4c",
+              "received": false
+            },
+            {
+              "_id": "6944460d1c508c5d5edcc6e2",
+              "name": "Shirt3582",
+              "amount": 623,
+              "price": 35497,
+              "manufacturer": "Samsung",
+              "notes": "yRapGz7mxDQQjUQkdafPa75gh9x3qn4CLDwSSz4QZStwWyaOyAfzSeSnVBhxqeIdtiqGxQ0fvwhW2if7rDfXlQlZGUTlzK4NRMH5jLcqd1fSNyyrnV6SsX0EwyIYpqI2Zeh1feBt3uqqgXN9DyQaPsbWzvR7NcKVRWytvr07H1qvMLeVdL4LRi94ABjLUlDpCzmXqnkJ9MRkFn3wONmOO2ubrnMS2k0vQ95vqQNhKORnVXmTV4qa9PrPFb",
+              "received": false
+            }
+          ],
+          "total_price": 104667,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Leannonfurt",
+              "street": "Schaefer Brook",
+              "house": 15,
+              "flat": 148
+            },
+            "finalDate": "2025-12-21T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T18:21:06.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944460b1c508c5d5edcc561",
+          "products": [
+            {
+              "_id": "6944460b1c508c5d5edcc58b",
+              "name": "Chair25751",
+              "amount": 152,
+              "price": 10835,
+              "manufacturer": "Sony",
+              "notes": "cuVAkTwXT10VH1u7t6WH6qY5i2PfEgxqleasKErRGN9XPC8ByEZfHFcuP00hBlvkiLfAQ99p4vqhRlaeBZuPag30AjGFCw1fdfW8WB3RaRBoAD8l3xDPeAmtPvEnbcsKM6NHfH7rgu6XcRsJgVv5pr53oLg5mVnW98g8svE6XptACZcJOKq6vjwwIqfKVfucvGHgJOaTaIkRELTE1OR4LgHOjC1RXquCP0RgzaJ6rCJLXyu6A7Xt6g8CrV",
+              "received": false
+            },
+            {
+              "_id": "6944460c1c508c5d5edcc606",
+              "name": "Towels39513",
+              "amount": 663,
+              "price": 58335,
+              "manufacturer": "Tesla",
+              "notes": "gUIXQPUoLOFRO7hmngCEdlRLQsBSBH74wTtV7T8akP9LZrVHcmv56PLxgsd1YlPnYGYjrx6ew4JsKa9LzRi9IZyqyDaZoDUexl1lj9egC80Nqe545K04bzZVCIYgFlTMgkQkxejKez0xnGlBg77vpsfQNOYbXNUR1rwajwJE6UOkN0fi1b2hLsXCJqXWmOii3ELbfgkocx0pTeZZL55wNzWJLFoYp9IjwQSiNQu28uZu46pDIWXzpIqC4c",
+              "received": false
+            },
+            {
+              "_id": "6944460d1c508c5d5edcc6e2",
+              "name": "Shirt3582",
+              "amount": 623,
+              "price": 35497,
+              "manufacturer": "Samsung",
+              "notes": "yRapGz7mxDQQjUQkdafPa75gh9x3qn4CLDwSSz4QZStwWyaOyAfzSeSnVBhxqeIdtiqGxQ0fvwhW2if7rDfXlQlZGUTlzK4NRMH5jLcqd1fSNyyrnV6SsX0EwyIYpqI2Zeh1feBt3uqqgXN9DyQaPsbWzvR7NcKVRWytvr07H1qvMLeVdL4LRi94ABjLUlDpCzmXqnkJ9MRkFn3wONmOO2ubrnMS2k0vQ95vqQNhKORnVXmTV4qa9PrPFb",
+              "received": false
+            }
+          ],
+          "total_price": 104667,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Leannonfurt",
+              "street": "Schaefer Brook",
+              "house": 15,
+              "flat": 148
+            },
+            "finalDate": "2025-12-21T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T18:21:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944460b1c508c5d5edcc561",
+          "products": [
+            {
+              "_id": "6944460b1c508c5d5edcc58b",
+              "name": "Chair25751",
+              "amount": 152,
+              "price": 10835,
+              "manufacturer": "Sony",
+              "notes": "cuVAkTwXT10VH1u7t6WH6qY5i2PfEgxqleasKErRGN9XPC8ByEZfHFcuP00hBlvkiLfAQ99p4vqhRlaeBZuPag30AjGFCw1fdfW8WB3RaRBoAD8l3xDPeAmtPvEnbcsKM6NHfH7rgu6XcRsJgVv5pr53oLg5mVnW98g8svE6XptACZcJOKq6vjwwIqfKVfucvGHgJOaTaIkRELTE1OR4LgHOjC1RXquCP0RgzaJ6rCJLXyu6A7Xt6g8CrV",
+              "received": false
+            },
+            {
+              "_id": "6944460c1c508c5d5edcc606",
+              "name": "Towels39513",
+              "amount": 663,
+              "price": 58335,
+              "manufacturer": "Tesla",
+              "notes": "gUIXQPUoLOFRO7hmngCEdlRLQsBSBH74wTtV7T8akP9LZrVHcmv56PLxgsd1YlPnYGYjrx6ew4JsKa9LzRi9IZyqyDaZoDUexl1lj9egC80Nqe545K04bzZVCIYgFlTMgkQkxejKez0xnGlBg77vpsfQNOYbXNUR1rwajwJE6UOkN0fi1b2hLsXCJqXWmOii3ELbfgkocx0pTeZZL55wNzWJLFoYp9IjwQSiNQu28uZu46pDIWXzpIqC4c",
+              "received": false
+            },
+            {
+              "_id": "6944460d1c508c5d5edcc6e2",
+              "name": "Shirt3582",
+              "amount": 623,
+              "price": 35497,
+              "manufacturer": "Samsung",
+              "notes": "yRapGz7mxDQQjUQkdafPa75gh9x3qn4CLDwSSz4QZStwWyaOyAfzSeSnVBhxqeIdtiqGxQ0fvwhW2if7rDfXlQlZGUTlzK4NRMH5jLcqd1fSNyyrnV6SsX0EwyIYpqI2Zeh1feBt3uqqgXN9DyQaPsbWzvR7NcKVRWytvr07H1qvMLeVdL4LRi94ABjLUlDpCzmXqnkJ9MRkFn3wONmOO2ubrnMS2k0vQ95vqQNhKORnVXmTV4qa9PrPFb",
+              "received": false
+            }
+          ],
+          "total_price": 104667,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:21:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
