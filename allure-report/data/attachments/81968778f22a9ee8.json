@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:08:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-5mTwa0BkWqMBxz16K/pmRc5h1HQ\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694442fe1c508c5d5edc0b37",
+        "email": "Bert50@hotmail.com",
+        "name": "Candace Crona",
+        "country": "Germany",
+        "city": "Fort Darrell",
+        "street": "Water Street",
+        "house": 16,
+        "flat": 651,
+        "phone": "+12836600579",
+        "createdOn": "2025-12-18T18:07:58.000Z",
+        "notes": "TB150y044X1EedRPTOIjpndREMJhlZcVnH6izeR1y4V483d2jVb2esbyGg6aKOw66cKMKRPMAP5JNFUTRFwhwt6tjwNltyhdQiBIDJ5LRshuZdm72tn9Vk4zmQoDcQvC3L3niRONHwKy1CfEeQQXBTzF9LIkGwv0C3VDgnTrHwyXQrj4IXN0yvo0txl1cHsTL13ZQRlR7mGy3rThLamrEf6cx0GgfFPzvTiLySu91a8hZ9ZcgyQTIQ1EQR"
+      },
+      "products": [
+        {
+          "_id": "694443011c508c5d5edc0bf8",
+          "name": "Shoes27600",
+          "amount": 133,
+          "price": 53970,
+          "manufacturer": "Samsung",
+          "notes": "BixY3fAS3Pb2sYkPnJM0U3YN8JzHyMDRkhmqZbK8zfH3IwhNfwHKrs5JQGT8AeRk88y9Lgk4weg1syIZ1JzfJJgyaqT3vTH1wXm3Ea8bbLaTIUBgruecJe7fBzCHjSMDjQzgVNfYw6u2izAxitey2rQYCUKnv8c3IEtnzDo2X0u7xhMIAK2jVhyLIMHfXh3jLd3kRFjfFNvz9jOQhr88nTK4alOnAsl7TSaJySuEpod8R6p6dQ7FVMWdHj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 53970,
+      "createdOn": "2025-12-18T18:08:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694442fe1c508c5d5edc0b37",
+          "products": [
+            {
+              "_id": "694443011c508c5d5edc0bf8",
+              "name": "Shoes27600",
+              "amount": 133,
+              "price": 53970,
+              "manufacturer": "Samsung",
+              "notes": "BixY3fAS3Pb2sYkPnJM0U3YN8JzHyMDRkhmqZbK8zfH3IwhNfwHKrs5JQGT8AeRk88y9Lgk4weg1syIZ1JzfJJgyaqT3vTH1wXm3Ea8bbLaTIUBgruecJe7fBzCHjSMDjQzgVNfYw6u2izAxitey2rQYCUKnv8c3IEtnzDo2X0u7xhMIAK2jVhyLIMHfXh3jLd3kRFjfFNvz9jOQhr88nTK4alOnAsl7TSaJySuEpod8R6p6dQ7FVMWdHj",
+              "received": false
+            }
+          ],
+          "total_price": 53970,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:08:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694443011c508c5d5edc0c27"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
