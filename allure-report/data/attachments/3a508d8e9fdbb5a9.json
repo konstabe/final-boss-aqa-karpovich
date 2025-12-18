@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:51:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-HWtjHio0+UkT0FmvP2oNuWqC6l8\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6943c09a1c508c5d5ed84bf0",
+        "email": "Gavin47@hotmail.com",
+        "name": "Brando Emmerich",
+        "country": "Russia",
+        "city": "Blacksburg",
+        "street": "E Walnut Street",
+        "house": 31,
+        "flat": 77,
+        "phone": "+19565221244",
+        "createdOn": "2025-12-18T08:51:38.000Z",
+        "notes": "CNsyzhQ9qwh64yuY6Y0S0SHLT1SBz3tG32NvIbz0bYmvsa5prlm39wwPKsxFJyYOCty7uWDQ3FUA0nVvJMH6O7GAO1LQydsLLK1NqFSEpXyjhmq6TLTPi62snJU9pScVfNE9xbfFP00oE0iAjcs5OK3Mxmbydm70ywd2o9qVcbOiUy8H6NuiP0HPsku59iv5SYdvXX8FsPYCl4eio39EQxWU9ISAQ5YsoGb5eUkQAxdeOUT3jaakF4IB8K"
+      },
+      "products": [
+        {
+          "_id": "6943c09a1c508c5d5ed84c22",
+          "name": "Chicken56969",
+          "amount": 200,
+          "price": 76183,
+          "manufacturer": "Apple",
+          "notes": "cqpvFEBnMgJKGhZDS2AwBhgrDohXgNFpg9LFbx1zOu8BjednmtI4boaHQYDlCz3r1Y6A87ruEcSUWP8N6UNtawnHYkEarg6j9XdqRoHYLCMG8Vg7LDJn7U2Ktb887Zg0nyhRGllQfCbfZnoHBC7MnvudiekZG6qtYhJd6l3t9CrEFxS8nesurL8GTbsQ8CdQUjn7GDzA5Kb2ZjjRB6smDbVxEPd4WaPyAEJuGMo7HAmlCXzKmjwUK2sYRJ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 76183,
+      "createdOn": "2025-12-18T08:51:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943c09a1c508c5d5ed84bf0",
+          "products": [
+            {
+              "_id": "6943c09a1c508c5d5ed84c22",
+              "name": "Chicken56969",
+              "amount": 200,
+              "price": 76183,
+              "manufacturer": "Apple",
+              "notes": "cqpvFEBnMgJKGhZDS2AwBhgrDohXgNFpg9LFbx1zOu8BjednmtI4boaHQYDlCz3r1Y6A87ruEcSUWP8N6UNtawnHYkEarg6j9XdqRoHYLCMG8Vg7LDJn7U2Ktb887Zg0nyhRGllQfCbfZnoHBC7MnvudiekZG6qtYhJd6l3t9CrEFxS8nesurL8GTbsQ8CdQUjn7GDzA5Kb2ZjjRB6smDbVxEPd4WaPyAEJuGMo7HAmlCXzKmjwUK2sYRJ",
+              "received": false
+            }
+          ],
+          "total_price": 76183,
+          "delivery": null,
+          "changedOn": "2025-12-18T08:51:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6943c09b1c508c5d5ed84c4f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:51:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-z7XG2neP3Ljno4FUvC2k+tVqrgM\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6943c0a31c508c5d5ed8507f",
+        "email": "Evan_Zboncak0@gmail.com",
+        "name": "Talon Mante",
+        "country": "Belarus",
+        "city": "Valentinborough",
+        "street": "Tower Road",
+        "house": 42,
+        "flat": 555,
+        "phone": "+13133379036",
+        "createdOn": "2025-12-18T08:51:47.000Z",
+        "notes": "sHclfVG4FO7dZ6WaiaMxDWJrLy89JYFOkPDT6Plmq6vP3NE6Ljc7SsTxCi7uFTJTsIjagELhiV5ULr5OkIklbiuUMwEIactuyrXatzvvrm3NDt7cUGy05F0chSRN1AjnYgEj6uJ4nYtW2XUldekn9hTj6aBFGeEOO65ce8RdjBBCGUzGEfH7m44ggzszYyU0y66Kn99DJBGlMEfcxg0QitwaJqruiE34hWrFYglJcgj46j5BULV6QqyCn0"
+      },
+      "products": [
+        {
+          "_id": "6943c0a31c508c5d5ed8509f",
+          "name": "Shoes82431",
+          "amount": 317,
+          "price": 17471,
+          "manufacturer": "Xiaomi",
+          "notes": "tUldrNt9gEe5VAf0LtLz9v1eEKj5LyPF1s0LbEZPMd7a1OrjxIHyqX7h4v8sS8jBrzgpzkb7Nw5cjZcDrc828Mc7ljuslO4mFSeamJzMcZimpyqLrSsQZR45a4lV4j6i47uSmO8CG28ksF6mgiTWeL3tMgSWBtRM47NvN52P2RrevcOlxVog7hd70vp8sFoVvh1Vk7AaIlyXB5noktHtqP5BYC7CbBkylQ8Xz7S96lnBkgO6jSvzH6FojN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 17471,
+      "createdOn": "2025-12-18T08:51:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943c0a31c508c5d5ed8507f",
+          "products": [
+            {
+              "_id": "6943c0a31c508c5d5ed8509f",
+              "name": "Shoes82431",
+              "amount": 317,
+              "price": 17471,
+              "manufacturer": "Xiaomi",
+              "notes": "tUldrNt9gEe5VAf0LtLz9v1eEKj5LyPF1s0LbEZPMd7a1OrjxIHyqX7h4v8sS8jBrzgpzkb7Nw5cjZcDrc828Mc7ljuslO4mFSeamJzMcZimpyqLrSsQZR45a4lV4j6i47uSmO8CG28ksF6mgiTWeL3tMgSWBtRM47NvN52P2RrevcOlxVog7hd70vp8sFoVvh1Vk7AaIlyXB5noktHtqP5BYC7CbBkylQ8Xz7S96lnBkgO6jSvzH6FojN",
+              "received": false
+            }
+          ],
+          "total_price": 17471,
+          "delivery": null,
+          "changedOn": "2025-12-18T08:51:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6943c0a41c508c5d5ed850e8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

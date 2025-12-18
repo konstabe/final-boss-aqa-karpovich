@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:51:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1876",
+    "etag": "W/\"754-vLzFJu+R7tk1pN5LA+YWo58/Uaw\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6943c09a1c508c5d5ed84c03",
+        "email": "Shanelle29@yahoo.com",
+        "name": "Keara Kemmer",
+        "country": "USA",
+        "city": "South Murl",
+        "street": "Brando Land",
+        "house": 39,
+        "flat": 502,
+        "phone": "+18008882413",
+        "createdOn": "2025-12-18T08:51:38.000Z",
+        "notes": "OVNoFyEoVJcoxM1yIWnSIIVsGJli9eSdyBb9fq9QGPx8YsvJVnjtA9UWEjuDsNclrT2wYUmgn9uUER3AvWvbX1DpuPKe6Fr06dXMg14DiuqbtNoczqxiDtlx1WSfUNerFKzDqSz4c7wa9ajjYmSbGPkgk01RJuNQIk6vGzaJ7QHIxHjjKf3a6P6eoWCK36JV02IuF7XuhjwFjequ6qC8AIEFXZz8eDpogAdkhalF9GOlMSVVTDTfErmkTy"
+      },
+      "products": [
+        {
+          "_id": "6943c09a1c508c5d5ed84c24",
+          "name": "Keyboard45739",
+          "amount": 383,
+          "price": 78734,
+          "manufacturer": "Sony",
+          "notes": "aQS4wQTAflHuIXrwGz3VBDuv1RTkMGeYimg1wFbxeCj2AMDCIYtrZn0xzojqoXocjcyAqvcMBaRNVXHBr5t441haWZma9mYasWuCjQ6Sf3aqYns7mYhv2ER7cNPZd3QJ2LvEwCpgDYE4DnqsRmv8kvEVX35JHD1HsTLAokVemtJJkjgHZOKy1gSBi2DjHVr7IYWJ2LuwTjxQS4A5tppFhIOhX0WBAuEnWxU8zcWXYdA7S2TyI0IrfwkAKu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 78734,
+      "createdOn": "2025-12-18T08:51:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943c09a1c508c5d5ed84c03",
+          "products": [
+            {
+              "_id": "6943c09a1c508c5d5ed84c24",
+              "name": "Keyboard45739",
+              "amount": 383,
+              "price": 78734,
+              "manufacturer": "Sony",
+              "notes": "aQS4wQTAflHuIXrwGz3VBDuv1RTkMGeYimg1wFbxeCj2AMDCIYtrZn0xzojqoXocjcyAqvcMBaRNVXHBr5t441haWZma9mYasWuCjQ6Sf3aqYns7mYhv2ER7cNPZd3QJ2LvEwCpgDYE4DnqsRmv8kvEVX35JHD1HsTLAokVemtJJkjgHZOKy1gSBi2DjHVr7IYWJ2LuwTjxQS4A5tppFhIOhX0WBAuEnWxU8zcWXYdA7S2TyI0IrfwkAKu",
+              "received": false
+            }
+          ],
+          "total_price": 78734,
+          "delivery": null,
+          "changedOn": "2025-12-18T08:51:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6943c09b1c508c5d5ed84c5c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

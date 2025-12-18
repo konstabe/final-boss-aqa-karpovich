@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:51:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-fTKvrLyOBQ/+sZUvZ1++OvPdtPc\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6943c09a1c508c5d5ed84bed",
+        "email": "Trenton21@yahoo.com",
+        "name": "Amani Hermann",
+        "country": "Russia",
+        "city": "Davistown",
+        "street": "Devonte Prairie",
+        "house": 11,
+        "flat": 802,
+        "phone": "+12126806138",
+        "createdOn": "2025-12-18T08:51:38.000Z",
+        "notes": "62eNPUUi5aTWzV9MLcIYG4JNq8PNt2noeJ0aA7qNpFeJOh1EegytxNGbLsYtR9Q9GioQGiwrQZ76gZP5okfuZJH6pmzU44CcrEhOTI4pmrzYTPUR0gOefyBf4PgF80MLyTAOCxDSQFV5XzSGz6jLuVX7m9JIAFZvkdf2skklT1idMOjXS1XIlicXnq0626pKEs5tAZCa4g1slhyFwULBcKhuQT2SCclomsTPsdYKgTh077ATIqpx45Dbwn"
+      },
+      "products": [
+        {
+          "_id": "6943c09a1c508c5d5ed84c20",
+          "name": "Gloves72680",
+          "amount": 872,
+          "price": 36364,
+          "manufacturer": "Tesla",
+          "notes": "KZBCFLDYQgoA5HEMlF6tawK2rODyIKRPtFfwVKEDrxDd3kdTJjNZTtim9k1e68zW64NF2hiwbxekZghRIkwGFTqbiNt6FUIrLKTviyzAEGGEVbmj65wMs8j60J79JsMbLJebKYUw3KUPOMNRgFxuH8OY2sOyM4eqZcrUwpl5SeW89EIkSBjpmQHtXXWUuoJ4S7Qz4k2tdh6lKiYNEMRuTBPZzxzKEt5tjQmOV9WdXzp6uH7veCQI0Br0V0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 36364,
+      "createdOn": "2025-12-18T08:51:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943c09a1c508c5d5ed84bed",
+          "products": [
+            {
+              "_id": "6943c09a1c508c5d5ed84c20",
+              "name": "Gloves72680",
+              "amount": 872,
+              "price": 36364,
+              "manufacturer": "Tesla",
+              "notes": "KZBCFLDYQgoA5HEMlF6tawK2rODyIKRPtFfwVKEDrxDd3kdTJjNZTtim9k1e68zW64NF2hiwbxekZghRIkwGFTqbiNt6FUIrLKTviyzAEGGEVbmj65wMs8j60J79JsMbLJebKYUw3KUPOMNRgFxuH8OY2sOyM4eqZcrUwpl5SeW89EIkSBjpmQHtXXWUuoJ4S7Qz4k2tdh6lKiYNEMRuTBPZzxzKEt5tjQmOV9WdXzp6uH7veCQI0Br0V0",
+              "received": false
+            }
+          ],
+          "total_price": 36364,
+          "delivery": null,
+          "changedOn": "2025-12-18T08:51:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6943c09b1c508c5d5ed84c5a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

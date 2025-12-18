@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:52:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3888",
+    "etag": "W/\"f30-RsDYUO9nH5JYQkh+LKkblGHyiJo\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943c0a41c508c5d5ed850e8",
+      "status": "In Process",
+      "customer": {
+        "_id": "6943c0a31c508c5d5ed8507f",
+        "email": "Evan_Zboncak0@gmail.com",
+        "name": "Talon Mante",
+        "country": "Belarus",
+        "city": "Valentinborough",
+        "street": "Tower Road",
+        "house": 42,
+        "flat": 555,
+        "phone": "+13133379036",
+        "createdOn": "2025-12-18T08:51:47.000Z",
+        "notes": "sHclfVG4FO7dZ6WaiaMxDWJrLy89JYFOkPDT6Plmq6vP3NE6Ljc7SsTxCi7uFTJTsIjagELhiV5ULr5OkIklbiuUMwEIactuyrXatzvvrm3NDt7cUGy05F0chSRN1AjnYgEj6uJ4nYtW2XUldekn9hTj6aBFGeEOO65ce8RdjBBCGUzGEfH7m44ggzszYyU0y66Kn99DJBGlMEfcxg0QitwaJqruiE34hWrFYglJcgj46j5BULV6QqyCn0"
+      },
+      "products": [
+        {
+          "_id": "6943c0a31c508c5d5ed8509f",
+          "name": "Shoes82431",
+          "amount": 317,
+          "price": 17471,
+          "manufacturer": "Xiaomi",
+          "notes": "tUldrNt9gEe5VAf0LtLz9v1eEKj5LyPF1s0LbEZPMd7a1OrjxIHyqX7h4v8sS8jBrzgpzkb7Nw5cjZcDrc828Mc7ljuslO4mFSeamJzMcZimpyqLrSsQZR45a4lV4j6i47uSmO8CG28ksF6mgiTWeL3tMgSWBtRM47NvN52P2RrevcOlxVog7hd70vp8sFoVvh1Vk7AaIlyXB5noktHtqP5BYC7CbBkylQ8Xz7S96lnBkgO6jSvzH6FojN",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Valentinborough",
+          "street": "Tower Road",
+          "house": 42,
+          "flat": 555
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 17471,
+      "createdOn": "2025-12-18T08:51:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6943c0a31c508c5d5ed8507f",
+          "products": [
+            {
+              "_id": "6943c0a31c508c5d5ed8509f",
+              "name": "Shoes82431",
+              "amount": 317,
+              "price": 17471,
+              "manufacturer": "Xiaomi",
+              "notes": "tUldrNt9gEe5VAf0LtLz9v1eEKj5LyPF1s0LbEZPMd7a1OrjxIHyqX7h4v8sS8jBrzgpzkb7Nw5cjZcDrc828Mc7ljuslO4mFSeamJzMcZimpyqLrSsQZR45a4lV4j6i47uSmO8CG28ksF6mgiTWeL3tMgSWBtRM47NvN52P2RrevcOlxVog7hd70vp8sFoVvh1Vk7AaIlyXB5noktHtqP5BYC7CbBkylQ8Xz7S96lnBkgO6jSvzH6FojN",
+              "received": false
+            }
+          ],
+          "total_price": 17471,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Valentinborough",
+              "street": "Tower Road",
+              "house": 42,
+              "flat": 555
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T08:52:09.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943c0a31c508c5d5ed8507f",
+          "products": [
+            {
+              "_id": "6943c0a31c508c5d5ed8509f",
+              "name": "Shoes82431",
+              "amount": 317,
+              "price": 17471,
+              "manufacturer": "Xiaomi",
+              "notes": "tUldrNt9gEe5VAf0LtLz9v1eEKj5LyPF1s0LbEZPMd7a1OrjxIHyqX7h4v8sS8jBrzgpzkb7Nw5cjZcDrc828Mc7ljuslO4mFSeamJzMcZimpyqLrSsQZR45a4lV4j6i47uSmO8CG28ksF6mgiTWeL3tMgSWBtRM47NvN52P2RrevcOlxVog7hd70vp8sFoVvh1Vk7AaIlyXB5noktHtqP5BYC7CbBkylQ8Xz7S96lnBkgO6jSvzH6FojN",
+              "received": false
+            }
+          ],
+          "total_price": 17471,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Valentinborough",
+              "street": "Tower Road",
+              "house": 42,
+              "flat": 555
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T08:52:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943c0a31c508c5d5ed8507f",
+          "products": [
+            {
+              "_id": "6943c0a31c508c5d5ed8509f",
+              "name": "Shoes82431",
+              "amount": 317,
+              "price": 17471,
+              "manufacturer": "Xiaomi",
+              "notes": "tUldrNt9gEe5VAf0LtLz9v1eEKj5LyPF1s0LbEZPMd7a1OrjxIHyqX7h4v8sS8jBrzgpzkb7Nw5cjZcDrc828Mc7ljuslO4mFSeamJzMcZimpyqLrSsQZR45a4lV4j6i47uSmO8CG28ksF6mgiTWeL3tMgSWBtRM47NvN52P2RrevcOlxVog7hd70vp8sFoVvh1Vk7AaIlyXB5noktHtqP5BYC7CbBkylQ8Xz7S96lnBkgO6jSvzH6FojN",
+              "received": false
+            }
+          ],
+          "total_price": 17471,
+          "delivery": null,
+          "changedOn": "2025-12-18T08:51:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
