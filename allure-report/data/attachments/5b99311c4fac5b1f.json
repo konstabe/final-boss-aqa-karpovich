@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 17:46:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3884",
+    "etag": "W/\"f2c-sb+29OYLpVXHyRhHFcO2loZvqcQ\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69443dfd1c508c5d5edbd227",
+      "status": "In Process",
+      "customer": {
+        "_id": "69443dfa1c508c5d5edbd085",
+        "email": "Mary22@yahoo.com",
+        "name": "Jessie Simonis",
+        "country": "Ukraine",
+        "city": "East Vidal",
+        "street": "Elm Street",
+        "house": 43,
+        "flat": 129,
+        "phone": "+14362355540",
+        "createdOn": "2025-12-18T17:46:34.000Z",
+        "notes": "BhuXwLgelqbYzCore6g27YkmKqSkHjc2Hlg67lct50hqraIkZTraGPXVWUnbtl6zPjItn5onRHWhei3G1KrSVnbbL6TF8F76A0lppuKKSblj1LWJTic85V3NBnnEU4MFwYAafFmeZwr0REs1Y01W516JCNCZrhXwQmMd9okNHYXiRDxj6q1TtaK1toWAZx0eVwTOel83NQCjdAZe6xp4VY7FByzmTzNo6HLbYdvohVAwDIMEPGtLRFzDGz"
+      },
+      "products": [
+        {
+          "_id": "69443dfb1c508c5d5edbd176",
+          "name": "Chicken31359",
+          "amount": 850,
+          "price": 66254,
+          "manufacturer": "Microsoft",
+          "notes": "NC5t4vQ1VNS0JbktSKaoCC5NfNjjUgWj1hVS6CgqFSq86fjdcqTy2r3DVTMqDHVpt9P5gePlvoT4o77UPNhvKFMMRLdulD5yvWxyLJrgS8RF507pHDzET3yMZKXmYsfI5ATZ9NgmpeRdEyUqjKse7o90zj92YQtmm7wYENMoD7JrKaN1IalwYiDB2F37he0Jvu6ISI7H9DAxleq5NmNGLoC8Ra5oihPIZmMV9ZPvx6RYbkMqZjeueYM3iu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "East Vidal",
+          "street": "Elm Street",
+          "house": 43,
+          "flat": 129
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 66254,
+      "createdOn": "2025-12-18T17:46:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69443dfa1c508c5d5edbd085",
+          "products": [
+            {
+              "_id": "69443dfb1c508c5d5edbd176",
+              "name": "Chicken31359",
+              "amount": 850,
+              "price": 66254,
+              "manufacturer": "Microsoft",
+              "notes": "NC5t4vQ1VNS0JbktSKaoCC5NfNjjUgWj1hVS6CgqFSq86fjdcqTy2r3DVTMqDHVpt9P5gePlvoT4o77UPNhvKFMMRLdulD5yvWxyLJrgS8RF507pHDzET3yMZKXmYsfI5ATZ9NgmpeRdEyUqjKse7o90zj92YQtmm7wYENMoD7JrKaN1IalwYiDB2F37he0Jvu6ISI7H9DAxleq5NmNGLoC8Ra5oihPIZmMV9ZPvx6RYbkMqZjeueYM3iu",
+              "received": false
+            }
+          ],
+          "total_price": 66254,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Vidal",
+              "street": "Elm Street",
+              "house": 43,
+              "flat": 129
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T17:46:39.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69443dfa1c508c5d5edbd085",
+          "products": [
+            {
+              "_id": "69443dfb1c508c5d5edbd176",
+              "name": "Chicken31359",
+              "amount": 850,
+              "price": 66254,
+              "manufacturer": "Microsoft",
+              "notes": "NC5t4vQ1VNS0JbktSKaoCC5NfNjjUgWj1hVS6CgqFSq86fjdcqTy2r3DVTMqDHVpt9P5gePlvoT4o77UPNhvKFMMRLdulD5yvWxyLJrgS8RF507pHDzET3yMZKXmYsfI5ATZ9NgmpeRdEyUqjKse7o90zj92YQtmm7wYENMoD7JrKaN1IalwYiDB2F37he0Jvu6ISI7H9DAxleq5NmNGLoC8Ra5oihPIZmMV9ZPvx6RYbkMqZjeueYM3iu",
+              "received": false
+            }
+          ],
+          "total_price": 66254,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Vidal",
+              "street": "Elm Street",
+              "house": 43,
+              "flat": 129
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T17:46:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69443dfa1c508c5d5edbd085",
+          "products": [
+            {
+              "_id": "69443dfb1c508c5d5edbd176",
+              "name": "Chicken31359",
+              "amount": 850,
+              "price": 66254,
+              "manufacturer": "Microsoft",
+              "notes": "NC5t4vQ1VNS0JbktSKaoCC5NfNjjUgWj1hVS6CgqFSq86fjdcqTy2r3DVTMqDHVpt9P5gePlvoT4o77UPNhvKFMMRLdulD5yvWxyLJrgS8RF507pHDzET3yMZKXmYsfI5ATZ9NgmpeRdEyUqjKse7o90zj92YQtmm7wYENMoD7JrKaN1IalwYiDB2F37he0Jvu6ISI7H9DAxleq5NmNGLoC8Ra5oihPIZmMV9ZPvx6RYbkMqZjeueYM3iu",
+              "received": false
+            }
+          ],
+          "total_price": 66254,
+          "delivery": null,
+          "changedOn": "2025-12-18T17:46:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

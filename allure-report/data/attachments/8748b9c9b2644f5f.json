@@ -1,0 +1,187 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 17:46:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5243",
+    "etag": "W/\"147b-r6TZw26FfsD8Xbs6rK5xLGdOTIQ\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69443df51c508c5d5edbcdf0",
+      "status": "Draft",
+      "customer": {
+        "_id": "69443df21c508c5d5edbccda",
+        "email": "Andreane80@gmail.com",
+        "name": "Andreane Bogan",
+        "country": "Canada",
+        "city": "Brennabury",
+        "street": "Iliana Plaza",
+        "house": 26,
+        "flat": 614,
+        "phone": "+16124561060",
+        "createdOn": "2025-12-18T17:46:26.000Z",
+        "notes": "Ys9z5aOs4nJlZTqvMBFT1lEDqrqaK0eSw7Gpopf2kiumCg0FP9YwUaDY4UePitERkkpT3iXQbBQgY7B5XJfatTgGlDRukBJfOAFVy6NwUbQ3vQM5OtTxr4IpoGJBILuy3dL1UtaPMj1gG6fpOxTrUIRKzW9u1O4QybxEHJhjaNJaAdzQNzk4jI3pOAf1Vq53vr3j97u0I8cCHmb76IH6PHEIUpRmZ2w1CgqeO4WHjUCJwHgODFEA1hfJB7"
+      },
+      "products": [
+        {
+          "_id": "69443df21c508c5d5edbccf7",
+          "name": "Table62457",
+          "amount": 573,
+          "price": 44599,
+          "manufacturer": "Apple",
+          "notes": "uvFeHBl0ooGbyB6lgJoCq8PVci8ijIqPgssg8bRUgFPZLpmV2CBVRF6ke1EZume7cbm4c03jCoD8h6MysBq26dqwlj2gg3lm3HRudIpLFFULMLw0bZufYbfVEVU8y6pEeDyj5e2NQG4ce7bRb49RuYspAP0pxEoKpjxGFF2XCPaSgIjhD7FamxNnuJs9ku79eEpC3h3BppOiU6vEm22WKyqJJivSlORalN74SvEhBPhWLowba9y4o7L01q",
+          "received": false
+        },
+        {
+          "_id": "69443df31c508c5d5edbcd46",
+          "name": "Bike40932",
+          "amount": 729,
+          "price": 67496,
+          "manufacturer": "Tesla",
+          "notes": "Fv5FPrHNFMPP546OJST9kjSUDC2zYnCp0Z1ZEPAJ6C0hdCMTVRFqdRkUaXcExTPuaDyjHdGEXIxLXPvtq0hJ0CqoLS8t6a3doitBHFgXXjF0pc33ERpBECk4Zs55UtRZAvlC0XW3WRasheL0Qud1LPUSBEiygCTmO4vFT0oH1MywhIC0tFVSxTznRElSxr0lsS7UmvPrVU8PniTKcJBc5eG19ytGf5YQbcvbdFSKs0IuWtlVeW3D8ZOQj4",
+          "received": false
+        },
+        {
+          "_id": "69443df41c508c5d5edbcdbd",
+          "name": "Towels2008",
+          "amount": 692,
+          "price": 73014,
+          "manufacturer": "Amazon",
+          "notes": "zwJ16A0gelnPH0M0hzYFJ7o7CjBXVTwXulDzoWcF1kyjc2bN6QqAGeVZYuqEUIL62em9c4HKsP8adQwWLmPRCjN7E1pl3ngbocJrtyHjtZn32jPzbQLGdutgsv5aUbnQxzL4xNzpiPevFWzYl1VNjtwpsi8a0gYUkw5r03WyGVxoxSAXjBMROjcje527Ck6DhOPy72jqGCwH0RZy5muVeHCDspwY9L1GHdoAEyJgToyPGb0WJqghAfGK88",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Brennabury",
+          "street": "Iliana Plaza",
+          "house": 26,
+          "flat": 614
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 185109,
+      "createdOn": "2025-12-18T17:46:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69443df21c508c5d5edbccda",
+          "products": [
+            {
+              "_id": "69443df21c508c5d5edbccf7",
+              "name": "Table62457",
+              "amount": 573,
+              "price": 44599,
+              "manufacturer": "Apple",
+              "notes": "uvFeHBl0ooGbyB6lgJoCq8PVci8ijIqPgssg8bRUgFPZLpmV2CBVRF6ke1EZume7cbm4c03jCoD8h6MysBq26dqwlj2gg3lm3HRudIpLFFULMLw0bZufYbfVEVU8y6pEeDyj5e2NQG4ce7bRb49RuYspAP0pxEoKpjxGFF2XCPaSgIjhD7FamxNnuJs9ku79eEpC3h3BppOiU6vEm22WKyqJJivSlORalN74SvEhBPhWLowba9y4o7L01q",
+              "received": false
+            },
+            {
+              "_id": "69443df31c508c5d5edbcd46",
+              "name": "Bike40932",
+              "amount": 729,
+              "price": 67496,
+              "manufacturer": "Tesla",
+              "notes": "Fv5FPrHNFMPP546OJST9kjSUDC2zYnCp0Z1ZEPAJ6C0hdCMTVRFqdRkUaXcExTPuaDyjHdGEXIxLXPvtq0hJ0CqoLS8t6a3doitBHFgXXjF0pc33ERpBECk4Zs55UtRZAvlC0XW3WRasheL0Qud1LPUSBEiygCTmO4vFT0oH1MywhIC0tFVSxTznRElSxr0lsS7UmvPrVU8PniTKcJBc5eG19ytGf5YQbcvbdFSKs0IuWtlVeW3D8ZOQj4",
+              "received": false
+            },
+            {
+              "_id": "69443df41c508c5d5edbcdbd",
+              "name": "Towels2008",
+              "amount": 692,
+              "price": 73014,
+              "manufacturer": "Amazon",
+              "notes": "zwJ16A0gelnPH0M0hzYFJ7o7CjBXVTwXulDzoWcF1kyjc2bN6QqAGeVZYuqEUIL62em9c4HKsP8adQwWLmPRCjN7E1pl3ngbocJrtyHjtZn32jPzbQLGdutgsv5aUbnQxzL4xNzpiPevFWzYl1VNjtwpsi8a0gYUkw5r03WyGVxoxSAXjBMROjcje527Ck6DhOPy72jqGCwH0RZy5muVeHCDspwY9L1GHdoAEyJgToyPGb0WJqghAfGK88",
+              "received": false
+            }
+          ],
+          "total_price": 185109,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Brennabury",
+              "street": "Iliana Plaza",
+              "house": 26,
+              "flat": 614
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T17:46:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69443df21c508c5d5edbccda",
+          "products": [
+            {
+              "_id": "69443df21c508c5d5edbccf7",
+              "name": "Table62457",
+              "amount": 573,
+              "price": 44599,
+              "manufacturer": "Apple",
+              "notes": "uvFeHBl0ooGbyB6lgJoCq8PVci8ijIqPgssg8bRUgFPZLpmV2CBVRF6ke1EZume7cbm4c03jCoD8h6MysBq26dqwlj2gg3lm3HRudIpLFFULMLw0bZufYbfVEVU8y6pEeDyj5e2NQG4ce7bRb49RuYspAP0pxEoKpjxGFF2XCPaSgIjhD7FamxNnuJs9ku79eEpC3h3BppOiU6vEm22WKyqJJivSlORalN74SvEhBPhWLowba9y4o7L01q",
+              "received": false
+            },
+            {
+              "_id": "69443df31c508c5d5edbcd46",
+              "name": "Bike40932",
+              "amount": 729,
+              "price": 67496,
+              "manufacturer": "Tesla",
+              "notes": "Fv5FPrHNFMPP546OJST9kjSUDC2zYnCp0Z1ZEPAJ6C0hdCMTVRFqdRkUaXcExTPuaDyjHdGEXIxLXPvtq0hJ0CqoLS8t6a3doitBHFgXXjF0pc33ERpBECk4Zs55UtRZAvlC0XW3WRasheL0Qud1LPUSBEiygCTmO4vFT0oH1MywhIC0tFVSxTznRElSxr0lsS7UmvPrVU8PniTKcJBc5eG19ytGf5YQbcvbdFSKs0IuWtlVeW3D8ZOQj4",
+              "received": false
+            },
+            {
+              "_id": "69443df41c508c5d5edbcdbd",
+              "name": "Towels2008",
+              "amount": 692,
+              "price": 73014,
+              "manufacturer": "Amazon",
+              "notes": "zwJ16A0gelnPH0M0hzYFJ7o7CjBXVTwXulDzoWcF1kyjc2bN6QqAGeVZYuqEUIL62em9c4HKsP8adQwWLmPRCjN7E1pl3ngbocJrtyHjtZn32jPzbQLGdutgsv5aUbnQxzL4xNzpiPevFWzYl1VNjtwpsi8a0gYUkw5r03WyGVxoxSAXjBMROjcje527Ck6DhOPy72jqGCwH0RZy5muVeHCDspwY9L1GHdoAEyJgToyPGb0WJqghAfGK88",
+              "received": false
+            }
+          ],
+          "total_price": 185109,
+          "delivery": null,
+          "changedOn": "2025-12-18T17:46:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 17:46:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-l3N80CHfynYlPL486xtJqKKbZU8\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69443df11c508c5d5edbcc69",
+        "email": "Ruben_Rodriguez36@gmail.com",
+        "name": "Braulio Metz",
+        "country": "Canada",
+        "city": "Tatyanaworth",
+        "street": "Broadway",
+        "house": 18,
+        "flat": 85,
+        "phone": "+19609571037",
+        "createdOn": "2025-12-18T17:46:25.000Z",
+        "notes": "jVgdKb4SYXstXMBKPljTv2PY77m51p9PTYBBSbzkfLhaI2BAsw8769zbWup3a2w4Q99f6wl3jb3F6Uz2JNqKTVbh5nJ82zNtrqVGDTMBy3IBUJEbKqTrOdDKdBMrkSpMv1gXQdrPkh33sjLRD71yXBXOtOUtNEwxxryQQy3l94WcaNP2YjK14nUcs3zrpRO7oqzRAw6itIH5oOv2jypho5lWWIVOzCKidX2rgib6EpEQgMHtOLpejtC0RV"
+      },
+      "products": [
+        {
+          "_id": "69443df11c508c5d5edbcc8b",
+          "name": "Mouse83689",
+          "amount": 784,
+          "price": 35270,
+          "manufacturer": "Microsoft",
+          "notes": "dXkSMQiFweeP5iviMnLxkAFW17jIA7EPPZc7OjmxxZGp3JN6ijasoHY264XM29XzQSxzmGIFJ4TH0It1EqL2BLp9NaKzqYK1RIy6jLRlcLi6eEUTmZM1XCzlBzezNgYlHEnHyDcnPlorM3Okj0apIRVnobDLIiKrNWBhravGjoOd2h6nFlT24jmdpTtM8W3xkqS7cL9q0zPUbpn6ihh92IVkf3MZiZhaneaGIrsNpvTSdGpriTE4fq2q1g",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35270,
+      "createdOn": "2025-12-18T17:46:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69443df11c508c5d5edbcc69",
+          "products": [
+            {
+              "_id": "69443df11c508c5d5edbcc8b",
+              "name": "Mouse83689",
+              "amount": 784,
+              "price": 35270,
+              "manufacturer": "Microsoft",
+              "notes": "dXkSMQiFweeP5iviMnLxkAFW17jIA7EPPZc7OjmxxZGp3JN6ijasoHY264XM29XzQSxzmGIFJ4TH0It1EqL2BLp9NaKzqYK1RIy6jLRlcLi6eEUTmZM1XCzlBzezNgYlHEnHyDcnPlorM3Okj0apIRVnobDLIiKrNWBhravGjoOd2h6nFlT24jmdpTtM8W3xkqS7cL9q0zPUbpn6ihh92IVkf3MZiZhaneaGIrsNpvTSdGpriTE4fq2q1g",
+              "received": false
+            }
+          ],
+          "total_price": 35270,
+          "delivery": null,
+          "changedOn": "2025-12-18T17:46:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69443df21c508c5d5edbccaa"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
