@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:33:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1410",
+    "etag": "W/\"582-JmP1HeJXRjhWr+SBfbJCECt1Hwg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "6943bc4d1c508c5d5ed7ed5d",
+        "status": "Draft",
+        "customer": "6943bc4d1c508c5d5ed7ed26",
+        "products": [
+          {
+            "_id": "6943bc4d1c508c5d5ed7ed44",
+            "name": "Bike87562",
+            "amount": 780,
+            "price": 17196,
+            "manufacturer": "Google",
+            "notes": "ku0GtD7I78w1NuZi3zONBwCXmrxSAWMGAyx4Hraku9kgalvdjBB88RcdHjIovlCjLjAQoqifAb8GqyPepbxJ520uikR8XFb1XoT2Mc2v07QPO5rvZOMn3uhz1TijMYASVebWOJQ2Y4PtJ7jHF25YsDO6MrPBSHcHMRkkI9Y4YvlgHQkFTIlAzm3gRoU7sqmhATPP5LPl9vMeHmf8sswpWqlKOLGERXMyvP9AanFXrSkxulpgBnBxwxVef8",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 17196,
+        "createdOn": "2025-12-18T08:33:17.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "6943bc4d1c508c5d5ed7ed26",
+            "products": [
+              {
+                "_id": "6943bc4d1c508c5d5ed7ed44",
+                "name": "Bike87562",
+                "amount": 780,
+                "price": 17196,
+                "manufacturer": "Google",
+                "notes": "ku0GtD7I78w1NuZi3zONBwCXmrxSAWMGAyx4Hraku9kgalvdjBB88RcdHjIovlCjLjAQoqifAb8GqyPepbxJ520uikR8XFb1XoT2Mc2v07QPO5rvZOMn3uhz1TijMYASVebWOJQ2Y4PtJ7jHF25YsDO6MrPBSHcHMRkkI9Y4YvlgHQkFTIlAzm3gRoU7sqmhATPP5LPl9vMeHmf8sswpWqlKOLGERXMyvP9AanFXrSkxulpgBnBxwxVef8",
+                "received": false
+              }
+            ],
+            "total_price": 17196,
+            "delivery": null,
+            "changedOn": "2025-12-18T08:33:17.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953315",
+              "username": "student2@gmail.com",
+              "firstName": "Wilfrid",
+              "lastName": "Daugherty",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

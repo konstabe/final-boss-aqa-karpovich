@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:33:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-Ggmtk3rk8ZO/bNqC+XDmrlDD+tQ\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6943bc4d1c508c5d5ed7ed26",
+        "email": "Naomie52@gmail.com",
+        "name": "Brandyn Abernathy",
+        "country": "France",
+        "city": "Flint",
+        "street": "Armstrong Divide",
+        "house": 27,
+        "flat": 596,
+        "phone": "+19669868575",
+        "createdOn": "2025-12-18T08:33:17.000Z",
+        "notes": "ubzV2lgNgFZYHeOPkZcfUnmcPsUApTnq5xq6qnPIoak5Lea2yhYRxxd13hyxI70iK8xcMzKsDLxqmzFUjAM86A4rUcB7lXIH9h1YvRzbcfrx7eyV6q5MUpq5Qk3xjgA7hJHyfNAJdu7nv3T0fNpOcArfx4SUI8HgwV5KHnLrjU43vEtjIFnAjEOjbUVMJL567FjDPgNtcjGasNLialfWBjiCrPh96sPbS8QCmXr4p5NT6aCFP82XReRiWn"
+      },
+      "products": [
+        {
+          "_id": "6943bc4d1c508c5d5ed7ed44",
+          "name": "Bike87562",
+          "amount": 780,
+          "price": 17196,
+          "manufacturer": "Google",
+          "notes": "ku0GtD7I78w1NuZi3zONBwCXmrxSAWMGAyx4Hraku9kgalvdjBB88RcdHjIovlCjLjAQoqifAb8GqyPepbxJ520uikR8XFb1XoT2Mc2v07QPO5rvZOMn3uhz1TijMYASVebWOJQ2Y4PtJ7jHF25YsDO6MrPBSHcHMRkkI9Y4YvlgHQkFTIlAzm3gRoU7sqmhATPP5LPl9vMeHmf8sswpWqlKOLGERXMyvP9AanFXrSkxulpgBnBxwxVef8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 17196,
+      "createdOn": "2025-12-18T08:33:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943bc4d1c508c5d5ed7ed26",
+          "products": [
+            {
+              "_id": "6943bc4d1c508c5d5ed7ed44",
+              "name": "Bike87562",
+              "amount": 780,
+              "price": 17196,
+              "manufacturer": "Google",
+              "notes": "ku0GtD7I78w1NuZi3zONBwCXmrxSAWMGAyx4Hraku9kgalvdjBB88RcdHjIovlCjLjAQoqifAb8GqyPepbxJ520uikR8XFb1XoT2Mc2v07QPO5rvZOMn3uhz1TijMYASVebWOJQ2Y4PtJ7jHF25YsDO6MrPBSHcHMRkkI9Y4YvlgHQkFTIlAzm3gRoU7sqmhATPP5LPl9vMeHmf8sswpWqlKOLGERXMyvP9AanFXrSkxulpgBnBxwxVef8",
+              "received": false
+            }
+          ],
+          "total_price": 17196,
+          "delivery": null,
+          "changedOn": "2025-12-18T08:33:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6943bc4d1c508c5d5ed7ed5d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
