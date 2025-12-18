@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 17:42:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-fMFktv2g70fe8r2H0LkAr5Ersp8\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69443cf61c508c5d5edbc34c",
+        "email": "Antwon.Jerde-Bashirian96@yahoo.com",
+        "name": "Giovanna Rice",
+        "country": "Russia",
+        "city": "West Chester",
+        "street": "Von Dale",
+        "house": 21,
+        "flat": 407,
+        "phone": "+13197457263",
+        "createdOn": "2025-12-18T17:42:14.000Z",
+        "notes": "fstlEnj8vKmnQGotGbSFtHqNAlcZrhmwQegOp70USVTPfmnllRikncevp06y6KgECGjgQIShezCPqO3ZutPrhvvsr8dcRIZEBFWsTpZyiXLgD7e1dIf3HswzYK0CjLaptTfjQzSbYDWPxEzBu1Y8WPWh9UDlSUFSYZIgNEhbCDE5KbsOIXvzxvlH8CnbpuVxSsjPEvlcfpn8NdHygh3tyyM1twJ6TGIzfX60GxDoPlYCVfzh45wJ5HovVZ"
+      },
+      "products": [
+        {
+          "_id": "69443cf71c508c5d5edbc372",
+          "name": "Pizza70067",
+          "amount": 18,
+          "price": 58711,
+          "manufacturer": "Tesla",
+          "notes": "XFOGuHfx2D8LbmKb56Zle5298lTZvo3IYKeAWyWzKDApuvMQuhOaisuVfHE8fNEwgFfckJpr2k7Ypbdy4CCHN6TswvwzpQwXhcTc0oEAgfNtfD5RC9Ps2XmEIV1cJeFzZWW7e1OpP74kSNYI8tOVfdGouOIsmz3lbxa3Ep6IE8OxCGaWS7jeav4GtM7j4RpjDxuXtozpbCHrTuhZwEqyUOKDqQAUmlC5dpEYDGBbjGyUwKqeW5O4hby4hZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 58711,
+      "createdOn": "2025-12-18T17:42:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69443cf61c508c5d5edbc34c",
+          "products": [
+            {
+              "_id": "69443cf71c508c5d5edbc372",
+              "name": "Pizza70067",
+              "amount": 18,
+              "price": 58711,
+              "manufacturer": "Tesla",
+              "notes": "XFOGuHfx2D8LbmKb56Zle5298lTZvo3IYKeAWyWzKDApuvMQuhOaisuVfHE8fNEwgFfckJpr2k7Ypbdy4CCHN6TswvwzpQwXhcTc0oEAgfNtfD5RC9Ps2XmEIV1cJeFzZWW7e1OpP74kSNYI8tOVfdGouOIsmz3lbxa3Ep6IE8OxCGaWS7jeav4GtM7j4RpjDxuXtozpbCHrTuhZwEqyUOKDqQAUmlC5dpEYDGBbjGyUwKqeW5O4hby4hZ",
+              "received": false
+            }
+          ],
+          "total_price": 58711,
+          "delivery": null,
+          "changedOn": "2025-12-18T17:42:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69443cf71c508c5d5edbc3a6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

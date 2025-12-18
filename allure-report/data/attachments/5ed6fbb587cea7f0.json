@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 17:42:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-99cZdZ38prXUjPUhTtGzIu3n5Sw\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69443d001c508c5d5edbc7d0",
+        "email": "Kavon28@yahoo.com",
+        "name": "Mckenna Barton",
+        "country": "France",
+        "city": "Mount Vernon",
+        "street": "Crown Street",
+        "house": 18,
+        "flat": 439,
+        "phone": "+13914278565",
+        "createdOn": "2025-12-18T17:42:24.000Z",
+        "notes": "7psG5HxfwBpY55VFAPNThPqDJhom99SqaY02nCbqF3fS2C09lBQCmbsYYomrgpSRX1oU4OXObUSuaHhUy4e82X1fM5O9BP0vVoT31WEYQaprpPNsMac2qwno5Fmw7rLtXqPdX4CUFF7pEpXjkBDiYjgcfceihpAp2PwaRl8YOnHPN2WHFSmSeyH0hluHCVhziExdyiDzB2cvxTBbOKbJqnJL12STH2PtJo15gflg6Spji8dtW6D3QjIh8p"
+      },
+      "products": [
+        {
+          "_id": "69443d011c508c5d5edbc8b0",
+          "name": "Table25366",
+          "amount": 378,
+          "price": 80480,
+          "manufacturer": "Google",
+          "notes": "DnFmrkDbesNlDFKkTGYeRTnvQR5DCrG6vzbpjfDfZ6qH4H0uZYuhp21gYv176GMvjUJHlbF2Yw5sfkxeAwIbBeQJwBbKj1ijaHSyyw5WZXv38d2gIT6NApjE5AOsCmc7FioGUWw6gXUlmHWsH4h6U3dPOkyKcmfAgIt3Nz0jOzjMD6xlUkM3s0chi7ZzbeOKDLL01lGbCHEhrK7kjqoR7DlyLAhUPnFiBoz8VAxjw5vASiJIeEgGEjKGbn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 80480,
+      "createdOn": "2025-12-18T17:42:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69443d001c508c5d5edbc7d0",
+          "products": [
+            {
+              "_id": "69443d011c508c5d5edbc8b0",
+              "name": "Table25366",
+              "amount": 378,
+              "price": 80480,
+              "manufacturer": "Google",
+              "notes": "DnFmrkDbesNlDFKkTGYeRTnvQR5DCrG6vzbpjfDfZ6qH4H0uZYuhp21gYv176GMvjUJHlbF2Yw5sfkxeAwIbBeQJwBbKj1ijaHSyyw5WZXv38d2gIT6NApjE5AOsCmc7FioGUWw6gXUlmHWsH4h6U3dPOkyKcmfAgIt3Nz0jOzjMD6xlUkM3s0chi7ZzbeOKDLL01lGbCHEhrK7kjqoR7DlyLAhUPnFiBoz8VAxjw5vASiJIeEgGEjKGbn",
+              "received": false
+            }
+          ],
+          "total_price": 80480,
+          "delivery": null,
+          "changedOn": "2025-12-18T17:42:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69443d031c508c5d5edbc954"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

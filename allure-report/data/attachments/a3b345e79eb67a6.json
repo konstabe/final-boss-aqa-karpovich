@@ -1,0 +1,187 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 17:42:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5259",
+    "etag": "W/\"148b-LExlqLiL28Bf8J4ud1Vtg1wSALA\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69443cf81c508c5d5edbc45e",
+      "status": "Draft",
+      "customer": {
+        "_id": "69443cf61c508c5d5edbc351",
+        "email": "Barton24@yahoo.com",
+        "name": "Philip Pacocha",
+        "country": "France",
+        "city": "Bernhardbury",
+        "street": "Tillman Ranch",
+        "house": 14,
+        "flat": 740,
+        "phone": "+15292954806",
+        "createdOn": "2025-12-18T17:42:14.000Z",
+        "notes": "OJoj7wDJjHdmZ3uC27dEqOkLGXTAyrfMDGABTnEpMZwJaMd4ELgT2RtE9GH7eOjXQv6cY9UZqXjfUWTwJnurBi1aLprpSJ5Vpg7HvbMFQexX81gyhatbG9VUQnjD6rcPYZhsaBpYTy4ogvf6h1KmdIUV7HwmjW5Ixqy0mEPfjQ6bayDkxDXwhIOalTwCDZZeP7mV8uimOZqUV3RkHBHfmlhYWgBSFxmsvc7J5nN9zz3N2X8hvHZYB1DNi1"
+      },
+      "products": [
+        {
+          "_id": "69443cf71c508c5d5edbc376",
+          "name": "Hat46245",
+          "amount": 581,
+          "price": 244,
+          "manufacturer": "Google",
+          "notes": "ckSFopyqMKPAibQwnBi8QL1gGHUiILbYdzvLtKlOLxW2ukKsKY9v25pAo5e5IEGlnqw6SwIvHrgOvhE10irN8zRhAUZfWvHB2TSI8qHlwqIhcaeXKlZYuE1GJzK4iLWhTA28EkhodYcMS7g6NHQ49XfrR5HEEkWK0OstFHLbFCMkXjj7jnX5xl9Mf9VRp5F5nLR6xIaKYi1VpBOEnhvqWdNWh2oROkRn619Di4SGnrwfqeGxu6y3kSrOBW",
+          "received": false
+        },
+        {
+          "_id": "69443cf71c508c5d5edbc39f",
+          "name": "Computer36009",
+          "amount": 951,
+          "price": 58481,
+          "manufacturer": "Xiaomi",
+          "notes": "nd3IQh2p9MBj1536SSoi3Y76yY0nNy0owDYiIQCSxVIJEZhFBUIQnhliw99ubEJQ27kOGuFdlIhaCiydJ5GmqcTSwjIMCqq0LlEYwY7VLmiUC5I3TrNbRCkgQj1lJWGrSUMuyM1hF3lww9F7VitDIA8DuxXGB0xe1PepN2f6hPpQ53lLmLhaBljMVEbu1T22zV541uWgJfeNognwtWntT8w5v83jXZ4P9YH0g55MJaELqeuGHy8jTbQ9gZ",
+          "received": false
+        },
+        {
+          "_id": "69443cf71c508c5d5edbc3ec",
+          "name": "Chicken64231",
+          "amount": 612,
+          "price": 81156,
+          "manufacturer": "Apple",
+          "notes": "qKTaU0dfNAuam1t1FnupLsgUJqUYqE3zhvfN8NevJSxlkT6moAZcwLuAmLpUVs5Y0MjuMpHii7fy5RDYU1ezBJGiSg68Q86MpAZG0MxvKco4F4fvdspE6r07UEzruqWYAkxHOYS16J8ex5rUO5G5q5l6DldUg6sAFXJaEyrDKwW2KkPFFI1Im0nFc70O05bSoKJofetkqPaif05iXEGIo1I9UDU5JQTRvlu6pRItTkh1hIZqazPyESMU74",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Bernhardbury",
+          "street": "Tillman Ranch",
+          "house": 14,
+          "flat": 740
+        },
+        "finalDate": "2025-12-20T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 139881,
+      "createdOn": "2025-12-18T17:42:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69443cf61c508c5d5edbc351",
+          "products": [
+            {
+              "_id": "69443cf71c508c5d5edbc376",
+              "name": "Hat46245",
+              "amount": 581,
+              "price": 244,
+              "manufacturer": "Google",
+              "notes": "ckSFopyqMKPAibQwnBi8QL1gGHUiILbYdzvLtKlOLxW2ukKsKY9v25pAo5e5IEGlnqw6SwIvHrgOvhE10irN8zRhAUZfWvHB2TSI8qHlwqIhcaeXKlZYuE1GJzK4iLWhTA28EkhodYcMS7g6NHQ49XfrR5HEEkWK0OstFHLbFCMkXjj7jnX5xl9Mf9VRp5F5nLR6xIaKYi1VpBOEnhvqWdNWh2oROkRn619Di4SGnrwfqeGxu6y3kSrOBW",
+              "received": false
+            },
+            {
+              "_id": "69443cf71c508c5d5edbc39f",
+              "name": "Computer36009",
+              "amount": 951,
+              "price": 58481,
+              "manufacturer": "Xiaomi",
+              "notes": "nd3IQh2p9MBj1536SSoi3Y76yY0nNy0owDYiIQCSxVIJEZhFBUIQnhliw99ubEJQ27kOGuFdlIhaCiydJ5GmqcTSwjIMCqq0LlEYwY7VLmiUC5I3TrNbRCkgQj1lJWGrSUMuyM1hF3lww9F7VitDIA8DuxXGB0xe1PepN2f6hPpQ53lLmLhaBljMVEbu1T22zV541uWgJfeNognwtWntT8w5v83jXZ4P9YH0g55MJaELqeuGHy8jTbQ9gZ",
+              "received": false
+            },
+            {
+              "_id": "69443cf71c508c5d5edbc3ec",
+              "name": "Chicken64231",
+              "amount": 612,
+              "price": 81156,
+              "manufacturer": "Apple",
+              "notes": "qKTaU0dfNAuam1t1FnupLsgUJqUYqE3zhvfN8NevJSxlkT6moAZcwLuAmLpUVs5Y0MjuMpHii7fy5RDYU1ezBJGiSg68Q86MpAZG0MxvKco4F4fvdspE6r07UEzruqWYAkxHOYS16J8ex5rUO5G5q5l6DldUg6sAFXJaEyrDKwW2KkPFFI1Im0nFc70O05bSoKJofetkqPaif05iXEGIo1I9UDU5JQTRvlu6pRItTkh1hIZqazPyESMU74",
+              "received": false
+            }
+          ],
+          "total_price": 139881,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Bernhardbury",
+              "street": "Tillman Ranch",
+              "house": 14,
+              "flat": 740
+            },
+            "finalDate": "2025-12-20T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T17:42:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69443cf61c508c5d5edbc351",
+          "products": [
+            {
+              "_id": "69443cf71c508c5d5edbc376",
+              "name": "Hat46245",
+              "amount": 581,
+              "price": 244,
+              "manufacturer": "Google",
+              "notes": "ckSFopyqMKPAibQwnBi8QL1gGHUiILbYdzvLtKlOLxW2ukKsKY9v25pAo5e5IEGlnqw6SwIvHrgOvhE10irN8zRhAUZfWvHB2TSI8qHlwqIhcaeXKlZYuE1GJzK4iLWhTA28EkhodYcMS7g6NHQ49XfrR5HEEkWK0OstFHLbFCMkXjj7jnX5xl9Mf9VRp5F5nLR6xIaKYi1VpBOEnhvqWdNWh2oROkRn619Di4SGnrwfqeGxu6y3kSrOBW",
+              "received": false
+            },
+            {
+              "_id": "69443cf71c508c5d5edbc39f",
+              "name": "Computer36009",
+              "amount": 951,
+              "price": 58481,
+              "manufacturer": "Xiaomi",
+              "notes": "nd3IQh2p9MBj1536SSoi3Y76yY0nNy0owDYiIQCSxVIJEZhFBUIQnhliw99ubEJQ27kOGuFdlIhaCiydJ5GmqcTSwjIMCqq0LlEYwY7VLmiUC5I3TrNbRCkgQj1lJWGrSUMuyM1hF3lww9F7VitDIA8DuxXGB0xe1PepN2f6hPpQ53lLmLhaBljMVEbu1T22zV541uWgJfeNognwtWntT8w5v83jXZ4P9YH0g55MJaELqeuGHy8jTbQ9gZ",
+              "received": false
+            },
+            {
+              "_id": "69443cf71c508c5d5edbc3ec",
+              "name": "Chicken64231",
+              "amount": 612,
+              "price": 81156,
+              "manufacturer": "Apple",
+              "notes": "qKTaU0dfNAuam1t1FnupLsgUJqUYqE3zhvfN8NevJSxlkT6moAZcwLuAmLpUVs5Y0MjuMpHii7fy5RDYU1ezBJGiSg68Q86MpAZG0MxvKco4F4fvdspE6r07UEzruqWYAkxHOYS16J8ex5rUO5G5q5l6DldUg6sAFXJaEyrDKwW2KkPFFI1Im0nFc70O05bSoKJofetkqPaif05iXEGIo1I9UDU5JQTRvlu6pRItTkh1hIZqazPyESMU74",
+              "received": false
+            }
+          ],
+          "total_price": 139881,
+          "delivery": null,
+          "changedOn": "2025-12-18T17:42:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
