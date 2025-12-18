@@ -1,0 +1,303 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:31:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8682",
+    "etag": "W/\"21ea-YmoRr7u6yoobm+7pxR3v/OjiY3Q\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694410261c508c5d5eda3a14",
+      "status": "Received",
+      "customer": {
+        "_id": "694410241c508c5d5eda392a",
+        "email": "Sage_Jerde@yahoo.com",
+        "name": "Hans Olson",
+        "country": "Great Britain",
+        "city": "National City",
+        "street": "Warren Close",
+        "house": 25,
+        "flat": 239,
+        "phone": "+13299648713",
+        "createdOn": "2025-12-18T14:31:00.000Z",
+        "notes": "HxT71efz4M0MQMPDyAIleQ0JtcqPVLRuJeHS5zCJSeyje0jrEKZj2yxDasxIf6Afz9PktSwhUcl5kOW6vFFxoRsATWTQVtptpEeGrmmfAa0V6SZ51TOKOh0HvqRuVcb4TmpnCQmAVbkqbvWrk5UhgIgDJZw1oRfMrWfQN4ScDrczEkW4LCSoZotzuymeDV5gnBzVQnNYaJ5ICuDHYZpKFpADzlUfS6xs10XrtyP8FhM0aAh19wu61bbxWk"
+      },
+      "products": [
+        {
+          "_id": "694410251c508c5d5eda3963",
+          "name": "Pants70704",
+          "amount": 954,
+          "price": 18753,
+          "manufacturer": "Samsung",
+          "notes": "TcjzN4VtWGEDPSXKWr7gIuIb2L5hnyCchhth8W8dhpGuC5OVBMT1kBRbfoB6byIzuDVWuxI0ZJdracJeatVpe1VQFkTSQLlS7lGtpeMhSWRutgBia0duPjcBpgLAWlwOl1qWQsXudf0fcvceI20MryF4LriAlBIqLIneQdoM9McxubyWKGyJNBSIf2pThjBHWSdfzIr6kXMnsaSOWydo3OOGs9uCrMWs8RS6nUrxw77J7OrkCl27o3NPY7",
+          "received": true
+        },
+        {
+          "_id": "694410251c508c5d5eda3984",
+          "name": "Mouse97858",
+          "amount": 150,
+          "price": 51049,
+          "manufacturer": "Apple",
+          "notes": "8lMNOKiC5lbhU6EK4KMd7EQhS9PA8q1HH6VRU6YWWkI2dlOimBI3pGPzEJCHCnibBlg1XrkoEJGmgupICQLLWCo8ahi9SdWmZ4v102UN1sPUFqAZpoNDbwMBhtMqsEeUmtdLFrevS83SgdVw9PqqQIBvt1cYJMJNE2Ht0nfyPaGGlGhvpuzKyMTjNCynh8avHYzvhjNvI73CelJRAHcc3hfNIkMbE4hnr0m4Q5uPW72NzxuvqqGZD4LEUS",
+          "received": true
+        },
+        {
+          "_id": "694410261c508c5d5eda39bf",
+          "name": "Towels91046",
+          "amount": 806,
+          "price": 59922,
+          "manufacturer": "Samsung",
+          "notes": "9sXTYI6bU6JeOuhHnveyMftP3eVtmmCQ0IV2FhC8tkx1aGqPtlOj5xIPRiAPP1d5Cri5J8YLkmgGkBkYy1T3APUP9u4anFBg5QxMDDOA3IgsQF5t7j0DKFSC35PjyO6isHRRIQMcoPZsMk3MBDAjRlHEfQX45nlgNk6uH27MzTmP42113gglBghQqusefPsQmeeSE1LdHPF2sTZpWS34Hm29mqF3mD5xXHkIbOgEuJmkeawtTCAZZSr7El",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "National City",
+          "street": "Warren Close",
+          "house": 25,
+          "flat": 239
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 129724,
+      "createdOn": "2025-12-18T14:31:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694410241c508c5d5eda392a",
+          "products": [
+            {
+              "_id": "694410251c508c5d5eda3963",
+              "name": "Pants70704",
+              "amount": 954,
+              "price": 18753,
+              "manufacturer": "Samsung",
+              "notes": "TcjzN4VtWGEDPSXKWr7gIuIb2L5hnyCchhth8W8dhpGuC5OVBMT1kBRbfoB6byIzuDVWuxI0ZJdracJeatVpe1VQFkTSQLlS7lGtpeMhSWRutgBia0duPjcBpgLAWlwOl1qWQsXudf0fcvceI20MryF4LriAlBIqLIneQdoM9McxubyWKGyJNBSIf2pThjBHWSdfzIr6kXMnsaSOWydo3OOGs9uCrMWs8RS6nUrxw77J7OrkCl27o3NPY7",
+              "received": true
+            },
+            {
+              "_id": "694410251c508c5d5eda3984",
+              "name": "Mouse97858",
+              "amount": 150,
+              "price": 51049,
+              "manufacturer": "Apple",
+              "notes": "8lMNOKiC5lbhU6EK4KMd7EQhS9PA8q1HH6VRU6YWWkI2dlOimBI3pGPzEJCHCnibBlg1XrkoEJGmgupICQLLWCo8ahi9SdWmZ4v102UN1sPUFqAZpoNDbwMBhtMqsEeUmtdLFrevS83SgdVw9PqqQIBvt1cYJMJNE2Ht0nfyPaGGlGhvpuzKyMTjNCynh8avHYzvhjNvI73CelJRAHcc3hfNIkMbE4hnr0m4Q5uPW72NzxuvqqGZD4LEUS",
+              "received": true
+            },
+            {
+              "_id": "694410261c508c5d5eda39bf",
+              "name": "Towels91046",
+              "amount": 806,
+              "price": 59922,
+              "manufacturer": "Samsung",
+              "notes": "9sXTYI6bU6JeOuhHnveyMftP3eVtmmCQ0IV2FhC8tkx1aGqPtlOj5xIPRiAPP1d5Cri5J8YLkmgGkBkYy1T3APUP9u4anFBg5QxMDDOA3IgsQF5t7j0DKFSC35PjyO6isHRRIQMcoPZsMk3MBDAjRlHEfQX45nlgNk6uH27MzTmP42113gglBghQqusefPsQmeeSE1LdHPF2sTZpWS34Hm29mqF3mD5xXHkIbOgEuJmkeawtTCAZZSr7El",
+              "received": true
+            }
+          ],
+          "total_price": 129724,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "National City",
+              "street": "Warren Close",
+              "house": 25,
+              "flat": 239
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T14:31:03.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694410241c508c5d5eda392a",
+          "products": [
+            {
+              "_id": "694410251c508c5d5eda3963",
+              "name": "Pants70704",
+              "amount": 954,
+              "price": 18753,
+              "manufacturer": "Samsung",
+              "notes": "TcjzN4VtWGEDPSXKWr7gIuIb2L5hnyCchhth8W8dhpGuC5OVBMT1kBRbfoB6byIzuDVWuxI0ZJdracJeatVpe1VQFkTSQLlS7lGtpeMhSWRutgBia0duPjcBpgLAWlwOl1qWQsXudf0fcvceI20MryF4LriAlBIqLIneQdoM9McxubyWKGyJNBSIf2pThjBHWSdfzIr6kXMnsaSOWydo3OOGs9uCrMWs8RS6nUrxw77J7OrkCl27o3NPY7",
+              "received": false
+            },
+            {
+              "_id": "694410251c508c5d5eda3984",
+              "name": "Mouse97858",
+              "amount": 150,
+              "price": 51049,
+              "manufacturer": "Apple",
+              "notes": "8lMNOKiC5lbhU6EK4KMd7EQhS9PA8q1HH6VRU6YWWkI2dlOimBI3pGPzEJCHCnibBlg1XrkoEJGmgupICQLLWCo8ahi9SdWmZ4v102UN1sPUFqAZpoNDbwMBhtMqsEeUmtdLFrevS83SgdVw9PqqQIBvt1cYJMJNE2Ht0nfyPaGGlGhvpuzKyMTjNCynh8avHYzvhjNvI73CelJRAHcc3hfNIkMbE4hnr0m4Q5uPW72NzxuvqqGZD4LEUS",
+              "received": false
+            },
+            {
+              "_id": "694410261c508c5d5eda39bf",
+              "name": "Towels91046",
+              "amount": 806,
+              "price": 59922,
+              "manufacturer": "Samsung",
+              "notes": "9sXTYI6bU6JeOuhHnveyMftP3eVtmmCQ0IV2FhC8tkx1aGqPtlOj5xIPRiAPP1d5Cri5J8YLkmgGkBkYy1T3APUP9u4anFBg5QxMDDOA3IgsQF5t7j0DKFSC35PjyO6isHRRIQMcoPZsMk3MBDAjRlHEfQX45nlgNk6uH27MzTmP42113gglBghQqusefPsQmeeSE1LdHPF2sTZpWS34Hm29mqF3mD5xXHkIbOgEuJmkeawtTCAZZSr7El",
+              "received": false
+            }
+          ],
+          "total_price": 129724,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "National City",
+              "street": "Warren Close",
+              "house": 25,
+              "flat": 239
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T14:31:03.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694410241c508c5d5eda392a",
+          "products": [
+            {
+              "_id": "694410251c508c5d5eda3963",
+              "name": "Pants70704",
+              "amount": 954,
+              "price": 18753,
+              "manufacturer": "Samsung",
+              "notes": "TcjzN4VtWGEDPSXKWr7gIuIb2L5hnyCchhth8W8dhpGuC5OVBMT1kBRbfoB6byIzuDVWuxI0ZJdracJeatVpe1VQFkTSQLlS7lGtpeMhSWRutgBia0duPjcBpgLAWlwOl1qWQsXudf0fcvceI20MryF4LriAlBIqLIneQdoM9McxubyWKGyJNBSIf2pThjBHWSdfzIr6kXMnsaSOWydo3OOGs9uCrMWs8RS6nUrxw77J7OrkCl27o3NPY7",
+              "received": false
+            },
+            {
+              "_id": "694410251c508c5d5eda3984",
+              "name": "Mouse97858",
+              "amount": 150,
+              "price": 51049,
+              "manufacturer": "Apple",
+              "notes": "8lMNOKiC5lbhU6EK4KMd7EQhS9PA8q1HH6VRU6YWWkI2dlOimBI3pGPzEJCHCnibBlg1XrkoEJGmgupICQLLWCo8ahi9SdWmZ4v102UN1sPUFqAZpoNDbwMBhtMqsEeUmtdLFrevS83SgdVw9PqqQIBvt1cYJMJNE2Ht0nfyPaGGlGhvpuzKyMTjNCynh8avHYzvhjNvI73CelJRAHcc3hfNIkMbE4hnr0m4Q5uPW72NzxuvqqGZD4LEUS",
+              "received": false
+            },
+            {
+              "_id": "694410261c508c5d5eda39bf",
+              "name": "Towels91046",
+              "amount": 806,
+              "price": 59922,
+              "manufacturer": "Samsung",
+              "notes": "9sXTYI6bU6JeOuhHnveyMftP3eVtmmCQ0IV2FhC8tkx1aGqPtlOj5xIPRiAPP1d5Cri5J8YLkmgGkBkYy1T3APUP9u4anFBg5QxMDDOA3IgsQF5t7j0DKFSC35PjyO6isHRRIQMcoPZsMk3MBDAjRlHEfQX45nlgNk6uH27MzTmP42113gglBghQqusefPsQmeeSE1LdHPF2sTZpWS34Hm29mqF3mD5xXHkIbOgEuJmkeawtTCAZZSr7El",
+              "received": false
+            }
+          ],
+          "total_price": 129724,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "National City",
+              "street": "Warren Close",
+              "house": 25,
+              "flat": 239
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T14:31:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694410241c508c5d5eda392a",
+          "products": [
+            {
+              "_id": "694410251c508c5d5eda3963",
+              "name": "Pants70704",
+              "amount": 954,
+              "price": 18753,
+              "manufacturer": "Samsung",
+              "notes": "TcjzN4VtWGEDPSXKWr7gIuIb2L5hnyCchhth8W8dhpGuC5OVBMT1kBRbfoB6byIzuDVWuxI0ZJdracJeatVpe1VQFkTSQLlS7lGtpeMhSWRutgBia0duPjcBpgLAWlwOl1qWQsXudf0fcvceI20MryF4LriAlBIqLIneQdoM9McxubyWKGyJNBSIf2pThjBHWSdfzIr6kXMnsaSOWydo3OOGs9uCrMWs8RS6nUrxw77J7OrkCl27o3NPY7",
+              "received": false
+            },
+            {
+              "_id": "694410251c508c5d5eda3984",
+              "name": "Mouse97858",
+              "amount": 150,
+              "price": 51049,
+              "manufacturer": "Apple",
+              "notes": "8lMNOKiC5lbhU6EK4KMd7EQhS9PA8q1HH6VRU6YWWkI2dlOimBI3pGPzEJCHCnibBlg1XrkoEJGmgupICQLLWCo8ahi9SdWmZ4v102UN1sPUFqAZpoNDbwMBhtMqsEeUmtdLFrevS83SgdVw9PqqQIBvt1cYJMJNE2Ht0nfyPaGGlGhvpuzKyMTjNCynh8avHYzvhjNvI73CelJRAHcc3hfNIkMbE4hnr0m4Q5uPW72NzxuvqqGZD4LEUS",
+              "received": false
+            },
+            {
+              "_id": "694410261c508c5d5eda39bf",
+              "name": "Towels91046",
+              "amount": 806,
+              "price": 59922,
+              "manufacturer": "Samsung",
+              "notes": "9sXTYI6bU6JeOuhHnveyMftP3eVtmmCQ0IV2FhC8tkx1aGqPtlOj5xIPRiAPP1d5Cri5J8YLkmgGkBkYy1T3APUP9u4anFBg5QxMDDOA3IgsQF5t7j0DKFSC35PjyO6isHRRIQMcoPZsMk3MBDAjRlHEfQX45nlgNk6uH27MzTmP42113gglBghQqusefPsQmeeSE1LdHPF2sTZpWS34Hm29mqF3mD5xXHkIbOgEuJmkeawtTCAZZSr7El",
+              "received": false
+            }
+          ],
+          "total_price": 129724,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:31:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

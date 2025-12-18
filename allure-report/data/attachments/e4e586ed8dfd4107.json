@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:30:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4794",
+    "etag": "W/\"12ba-HRDEXXYArav2cUU6YaDbmSkZn2E\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694410191c508c5d5eda3409",
+      "status": "Received",
+      "customer": {
+        "_id": "694410181c508c5d5eda339d",
+        "email": "Oliver96@gmail.com",
+        "name": "Solon Conn",
+        "country": "Canada",
+        "city": "Southfield",
+        "street": "Kingfisher Close",
+        "house": 36,
+        "flat": 331,
+        "phone": "+15729189124",
+        "createdOn": "2025-12-18T14:30:48.000Z",
+        "notes": "OEa0bNguzYRsiOxwu0M8Iw9AedaPXwjO8ADpEC2uttwXPGHT9edpUoEFRM0cjYiAlXXTRb4SNhGhaztXa7weJu8zzTjf7qvZoOoSgJHpWzh2eDzamu5s3OzAnwTk7E8N7nazqnTvuDyxGdLvIPLKZMYgr8Ml6wHpliyHnqPtUAHS2lCFgFs0bn9rOdiVBjlvBWHdqaJ7QaEjFtcgaFoezPGDSCaeiINou3zCn3Dlt2KClF7BaMtSRiPxjf"
+      },
+      "products": [
+        {
+          "_id": "694410191c508c5d5eda33d1",
+          "name": "Bike40626",
+          "amount": 207,
+          "price": 21000,
+          "manufacturer": "Xiaomi",
+          "notes": "fBBuqJhDiC9W1FXEbWvQhwbRVCpnzngJsRFunvn9WKVktKd8qZEcUsRwcoCx8L1MtX2xl8X0rnSL78EZb3LoyzAQrVJWiE8DmiYlG80faiHHO1xbcBSeBMRsGtVLQqu5K98mHDnhwlsh0DwApmtL94kVhjRQ1GnREZTOPUKMCecIXvU6kr2KVxg34hDfdv2FWa8TNO2BMdEn9C88ObGe1IXWqL9cH5Uhybry6YbBPlqRBmuZUc9XPA3mus",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Southfield",
+          "street": "Kingfisher Close",
+          "house": 36,
+          "flat": 331
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 21000,
+      "createdOn": "2025-12-18T14:30:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694410181c508c5d5eda339d",
+          "products": [
+            {
+              "_id": "694410191c508c5d5eda33d1",
+              "name": "Bike40626",
+              "amount": 207,
+              "price": 21000,
+              "manufacturer": "Xiaomi",
+              "notes": "fBBuqJhDiC9W1FXEbWvQhwbRVCpnzngJsRFunvn9WKVktKd8qZEcUsRwcoCx8L1MtX2xl8X0rnSL78EZb3LoyzAQrVJWiE8DmiYlG80faiHHO1xbcBSeBMRsGtVLQqu5K98mHDnhwlsh0DwApmtL94kVhjRQ1GnREZTOPUKMCecIXvU6kr2KVxg34hDfdv2FWa8TNO2BMdEn9C88ObGe1IXWqL9cH5Uhybry6YbBPlqRBmuZUc9XPA3mus",
+              "received": true
+            }
+          ],
+          "total_price": 21000,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Southfield",
+              "street": "Kingfisher Close",
+              "house": 36,
+              "flat": 331
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T14:30:51.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694410181c508c5d5eda339d",
+          "products": [
+            {
+              "_id": "694410191c508c5d5eda33d1",
+              "name": "Bike40626",
+              "amount": 207,
+              "price": 21000,
+              "manufacturer": "Xiaomi",
+              "notes": "fBBuqJhDiC9W1FXEbWvQhwbRVCpnzngJsRFunvn9WKVktKd8qZEcUsRwcoCx8L1MtX2xl8X0rnSL78EZb3LoyzAQrVJWiE8DmiYlG80faiHHO1xbcBSeBMRsGtVLQqu5K98mHDnhwlsh0DwApmtL94kVhjRQ1GnREZTOPUKMCecIXvU6kr2KVxg34hDfdv2FWa8TNO2BMdEn9C88ObGe1IXWqL9cH5Uhybry6YbBPlqRBmuZUc9XPA3mus",
+              "received": false
+            }
+          ],
+          "total_price": 21000,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Southfield",
+              "street": "Kingfisher Close",
+              "house": 36,
+              "flat": 331
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T14:30:50.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694410181c508c5d5eda339d",
+          "products": [
+            {
+              "_id": "694410191c508c5d5eda33d1",
+              "name": "Bike40626",
+              "amount": 207,
+              "price": 21000,
+              "manufacturer": "Xiaomi",
+              "notes": "fBBuqJhDiC9W1FXEbWvQhwbRVCpnzngJsRFunvn9WKVktKd8qZEcUsRwcoCx8L1MtX2xl8X0rnSL78EZb3LoyzAQrVJWiE8DmiYlG80faiHHO1xbcBSeBMRsGtVLQqu5K98mHDnhwlsh0DwApmtL94kVhjRQ1GnREZTOPUKMCecIXvU6kr2KVxg34hDfdv2FWa8TNO2BMdEn9C88ObGe1IXWqL9cH5Uhybry6YbBPlqRBmuZUc9XPA3mus",
+              "received": false
+            }
+          ],
+          "total_price": 21000,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Southfield",
+              "street": "Kingfisher Close",
+              "house": 36,
+              "flat": 331
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T14:30:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694410181c508c5d5eda339d",
+          "products": [
+            {
+              "_id": "694410191c508c5d5eda33d1",
+              "name": "Bike40626",
+              "amount": 207,
+              "price": 21000,
+              "manufacturer": "Xiaomi",
+              "notes": "fBBuqJhDiC9W1FXEbWvQhwbRVCpnzngJsRFunvn9WKVktKd8qZEcUsRwcoCx8L1MtX2xl8X0rnSL78EZb3LoyzAQrVJWiE8DmiYlG80faiHHO1xbcBSeBMRsGtVLQqu5K98mHDnhwlsh0DwApmtL94kVhjRQ1GnREZTOPUKMCecIXvU6kr2KVxg34hDfdv2FWa8TNO2BMdEn9C88ObGe1IXWqL9cH5Uhybry6YbBPlqRBmuZUc9XPA3mus",
+              "received": false
+            }
+          ],
+          "total_price": 21000,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:30:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
