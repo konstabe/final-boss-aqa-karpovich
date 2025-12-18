@@ -121,7 +121,15 @@ export const orderSchemaWithCustomerData = {
 			type: "array",
 			items: historySchema,
 		},
-		assignedManager: assignedManagerSchema,
+		assignedManager: {
+			oneOf: [
+				{
+					type: "array",
+					items: assignedManagerSchema,
+				},
+				{ type: "null" },
+			],
+		},
 	},
 	required: [
 		"_id",
