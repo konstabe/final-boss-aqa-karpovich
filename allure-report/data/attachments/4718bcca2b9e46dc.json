@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 20:37:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3415",
+    "etag": "W/\"d57-3M4dPRsFmUwkezoVXZi1Crz/4aU\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694465fe1c508c5d5edecadb",
+        "email": "Brianne_Hahn@gmail.com",
+        "name": "Halie Leffler",
+        "country": "Ukraine",
+        "city": "Fort Linda",
+        "street": "Rodolfo Mill",
+        "house": 42,
+        "flat": 69,
+        "phone": "+19063453461",
+        "createdOn": "2025-12-18T20:37:18.000Z",
+        "notes": "jd0jzpY5h8tVBh6PKZtBmozZ30HVFQk2Bei8Olu6C76GF2qT8hyejIQu1otkCqdMaHsZ66C9gJGNCHkv8PXtw7zoDqApH4wgpPLXGnccqWdOzYlEVW18aDFPAbYoYZP1eyR6WjzMiciYbRc3V0nU1QJTW2kgFYhBAMXcclnZoL4nmrhbCudnqUcCfTk293855oNtCWBn3XMooC5pe7D84ZSbbT0aj443hW04nujJt7b1fvBB2ni1qYJVAb"
+      },
+      "products": [
+        {
+          "_id": "694465ff1c508c5d5edecb08",
+          "name": "Shirt57721",
+          "amount": 635,
+          "price": 28483,
+          "manufacturer": "Samsung",
+          "notes": "VX4307wuILtwnYPe92MEXn5f439pARcRuUGn3FLxXvWCTNyii3LodG0ZZuzcHFJ7JlBFuEuDch4oVGH1ldE28Jn3sJtzIIUy1CwgJJJ0Xz5pkLJ1Gwg9zcuEgPcstFJSokPHOuPDSIAban6thiJMHLz4JhMJx9jaeQgocfLTvIruTpZPqQCC6V7qrId2nHCdDhMUMYIMXYTC8RjPtM70qmhqfo5s1v0JbXdepCqh8JbtPshlfRU9tiX3nd",
+          "received": false
+        },
+        {
+          "_id": "694466001c508c5d5edecbd4",
+          "name": "Mouse49554",
+          "amount": 73,
+          "price": 94962,
+          "manufacturer": "Apple",
+          "notes": "oCPgAhDUXnojcvIygxRenqmK8jrFDCyjQ3cFqmnAjmyJdYamxlHQVeYCpz7a0isHOjAQBJ6cbySfcu0evlt1SL0od35ruOE10HaLNOz8BCIsvtfRTzdWPK1TCQzwc3q5Z9PxuXVsHl0UMg2dVSc0itizR9jWYYFuFFJe6ozdvVIo5W22L51CA0vnTWys8Q0Uvenjv0sljuRoQa7YRJOxHTpbPlEpBs7WdIcJzu6T5dmbLkoSO7z4n8Tr6O",
+          "received": false
+        },
+        {
+          "_id": "694466011c508c5d5edecc9d",
+          "name": "Shoes12939",
+          "amount": 759,
+          "price": 57511,
+          "manufacturer": "Tesla",
+          "notes": "SjIE0iRpmUpi6EymcWm8uQCDqzBThjTerPcWh2Ub1ofeCnS8HMQej3eiMQmjScCihiWrEAblA5BGnXbQIJjbgms2xRqUnJk9VYtTRlkAh9K7mGwbk3iybTiCoj1R2i8pPYIsZ6x8wecHrgnsnU9wCGiYlt8ZexH6fXhHZa2Mzi3OjuNpHHWZ3QaPvkHlsTpPeS6QQLV7IWO4nexttkg024wpL2gfV22QqWxUeX5T1683iuG9i2m46Abz42",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 180956,
+      "createdOn": "2025-12-18T20:37:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694465fe1c508c5d5edecadb",
+          "products": [
+            {
+              "_id": "694465ff1c508c5d5edecb08",
+              "name": "Shirt57721",
+              "amount": 635,
+              "price": 28483,
+              "manufacturer": "Samsung",
+              "notes": "VX4307wuILtwnYPe92MEXn5f439pARcRuUGn3FLxXvWCTNyii3LodG0ZZuzcHFJ7JlBFuEuDch4oVGH1ldE28Jn3sJtzIIUy1CwgJJJ0Xz5pkLJ1Gwg9zcuEgPcstFJSokPHOuPDSIAban6thiJMHLz4JhMJx9jaeQgocfLTvIruTpZPqQCC6V7qrId2nHCdDhMUMYIMXYTC8RjPtM70qmhqfo5s1v0JbXdepCqh8JbtPshlfRU9tiX3nd",
+              "received": false
+            },
+            {
+              "_id": "694466001c508c5d5edecbd4",
+              "name": "Mouse49554",
+              "amount": 73,
+              "price": 94962,
+              "manufacturer": "Apple",
+              "notes": "oCPgAhDUXnojcvIygxRenqmK8jrFDCyjQ3cFqmnAjmyJdYamxlHQVeYCpz7a0isHOjAQBJ6cbySfcu0evlt1SL0od35ruOE10HaLNOz8BCIsvtfRTzdWPK1TCQzwc3q5Z9PxuXVsHl0UMg2dVSc0itizR9jWYYFuFFJe6ozdvVIo5W22L51CA0vnTWys8Q0Uvenjv0sljuRoQa7YRJOxHTpbPlEpBs7WdIcJzu6T5dmbLkoSO7z4n8Tr6O",
+              "received": false
+            },
+            {
+              "_id": "694466011c508c5d5edecc9d",
+              "name": "Shoes12939",
+              "amount": 759,
+              "price": 57511,
+              "manufacturer": "Tesla",
+              "notes": "SjIE0iRpmUpi6EymcWm8uQCDqzBThjTerPcWh2Ub1ofeCnS8HMQej3eiMQmjScCihiWrEAblA5BGnXbQIJjbgms2xRqUnJk9VYtTRlkAh9K7mGwbk3iybTiCoj1R2i8pPYIsZ6x8wecHrgnsnU9wCGiYlt8ZexH6fXhHZa2Mzi3OjuNpHHWZ3QaPvkHlsTpPeS6QQLV7IWO4nexttkg024wpL2gfV22QqWxUeX5T1683iuG9i2m46Abz42",
+              "received": false
+            }
+          ],
+          "total_price": 180956,
+          "delivery": null,
+          "changedOn": "2025-12-18T20:37:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694466031c508c5d5edece1d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

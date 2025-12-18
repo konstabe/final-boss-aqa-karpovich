@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 20:37:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-lzey3DfOMuQa8FnCwD2IuuPo5nM\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694465fd1c508c5d5edeca87",
+        "email": "Ali11@gmail.com",
+        "name": "Keaton Lubowitz",
+        "country": "Canada",
+        "city": "North Alfberg",
+        "street": "Prohaska Highway",
+        "house": 4,
+        "flat": 116,
+        "phone": "+16094841789",
+        "createdOn": "2025-12-18T20:37:17.000Z",
+        "notes": "EMnTHaxE5wqYbuxmTecxGsiuD0NralC6o6Rzl1MPnCw1gxGTFgBJVpJuFqyj4LXBQdN8TtGiYfpDp5Wu5qKALi5d9Paa4FsqvEYLUfRNznRccmm58RYy0uszFe0liYzyauKC1T9gAeg1HZBcX8H4ETmBqR9A2we9InKSo6T7wSxtB4FIP0CeZrbOYKGQMlVDym1JxVdOlYaPdVkJ7WeQr1joG5wXX7f6YjItrOUsxMtxmvbSdPjJFlaGZB"
+      },
+      "products": [
+        {
+          "_id": "694465fe1c508c5d5edecaac",
+          "name": "Computer63694",
+          "amount": 279,
+          "price": 40018,
+          "manufacturer": "Apple",
+          "notes": "VVMqCXd6C8xjKbWEH8mlqOgLRzY9dwnGVvkGQZzTip6eOJFGKX13r57SCCuoGSi6lPrZLhqEEfUIkhuci6LoGLSpd2Lzv8l0zz18C5fatKJNmTTpMYuHXNnaMVpBqivxPDfgrNczEs2GuIsQAwtYb1JTGxfouhZ3nnHItq1SUNQUZCRi2wrW8d8x0g389aEFFkMb88xoFSFOxFn3VsaIc58GGq8UJKlRL2AaItX99yQ2mrOB68dcfov8b3",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 40018,
+      "createdOn": "2025-12-18T20:37:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694465fd1c508c5d5edeca87",
+          "products": [
+            {
+              "_id": "694465fe1c508c5d5edecaac",
+              "name": "Computer63694",
+              "amount": 279,
+              "price": 40018,
+              "manufacturer": "Apple",
+              "notes": "VVMqCXd6C8xjKbWEH8mlqOgLRzY9dwnGVvkGQZzTip6eOJFGKX13r57SCCuoGSi6lPrZLhqEEfUIkhuci6LoGLSpd2Lzv8l0zz18C5fatKJNmTTpMYuHXNnaMVpBqivxPDfgrNczEs2GuIsQAwtYb1JTGxfouhZ3nnHItq1SUNQUZCRi2wrW8d8x0g389aEFFkMb88xoFSFOxFn3VsaIc58GGq8UJKlRL2AaItX99yQ2mrOB68dcfov8b3",
+              "received": false
+            }
+          ],
+          "total_price": 40018,
+          "delivery": null,
+          "changedOn": "2025-12-18T20:37:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694465fe1c508c5d5edecace"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

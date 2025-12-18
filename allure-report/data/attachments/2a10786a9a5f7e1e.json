@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 20:37:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3864",
+    "etag": "W/\"f18-bajj2Ghsx8LkXkCD0qTkq5iZY9I\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694465ff1c508c5d5edecb06",
+      "status": "In Process",
+      "customer": {
+        "_id": "694465fe1c508c5d5edecaa7",
+        "email": "Robyn.Yost53@yahoo.com",
+        "name": "Lorena Abernathy",
+        "country": "USA",
+        "city": "Treverchester",
+        "street": "Langosh Dale",
+        "house": 36,
+        "flat": 888,
+        "phone": "+16945466791",
+        "createdOn": "2025-12-18T20:37:18.000Z",
+        "notes": "YA4C2qBlLIM0l34pKfW0CPsJ9JIy4irOCIShB1Y50ZEHaupMdFNmv6dD9hluI7pTUziWk84fDE0j8BnauyK6YGXgnVzH0OJ9adRSEx5wZJ6yqezmlzMBlcnYqA4HAyKXBfxpJMlU1YYeIUnpOPCTUqxUe5YMNJOgL31sJZn7rXY8tmKu1NLJY3RGemIxNPS5O1Vyg226AY2ioSR0lKOzB8PMPdLRReazadTVy4NKZZVNiKz0lZCeO98hga"
+      },
+      "products": [
+        {
+          "_id": "694465fe1c508c5d5edecacb",
+          "name": "Car58987",
+          "amount": 63,
+          "price": 71697,
+          "manufacturer": "Amazon",
+          "notes": "kkZEf0CTSeBvBlg8oAEBMeBFBNB8Q4fFkGSLEjTfKyUbtawdlO08bk5EoKBzvHvOJz4g1oHmhPLDweV59W6IvnnW3gETazD6ngP4YfVTGC0DOiQNlYtamiBgJoXsqec3vkWuvDl2uxhZpyMHKgRkiQG0mmcAiBofGjJAJKbrYlPdV0JKM3Tm7M44sossCWuDP8Uvgoe8V9k18CXNrGxTiYIDFn80tM7DMh26DEzhvzs22hgywzMc4K7btt",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Treverchester",
+          "street": "Langosh Dale",
+          "house": 36,
+          "flat": 888
+        },
+        "finalDate": "2025-12-27T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 71697,
+      "createdOn": "2025-12-18T20:37:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694465fe1c508c5d5edecaa7",
+          "products": [
+            {
+              "_id": "694465fe1c508c5d5edecacb",
+              "name": "Car58987",
+              "amount": 63,
+              "price": 71697,
+              "manufacturer": "Amazon",
+              "notes": "kkZEf0CTSeBvBlg8oAEBMeBFBNB8Q4fFkGSLEjTfKyUbtawdlO08bk5EoKBzvHvOJz4g1oHmhPLDweV59W6IvnnW3gETazD6ngP4YfVTGC0DOiQNlYtamiBgJoXsqec3vkWuvDl2uxhZpyMHKgRkiQG0mmcAiBofGjJAJKbrYlPdV0JKM3Tm7M44sossCWuDP8Uvgoe8V9k18CXNrGxTiYIDFn80tM7DMh26DEzhvzs22hgywzMc4K7btt",
+              "received": false
+            }
+          ],
+          "total_price": 71697,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Treverchester",
+              "street": "Langosh Dale",
+              "house": 36,
+              "flat": 888
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T20:37:26.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694465fe1c508c5d5edecaa7",
+          "products": [
+            {
+              "_id": "694465fe1c508c5d5edecacb",
+              "name": "Car58987",
+              "amount": 63,
+              "price": 71697,
+              "manufacturer": "Amazon",
+              "notes": "kkZEf0CTSeBvBlg8oAEBMeBFBNB8Q4fFkGSLEjTfKyUbtawdlO08bk5EoKBzvHvOJz4g1oHmhPLDweV59W6IvnnW3gETazD6ngP4YfVTGC0DOiQNlYtamiBgJoXsqec3vkWuvDl2uxhZpyMHKgRkiQG0mmcAiBofGjJAJKbrYlPdV0JKM3Tm7M44sossCWuDP8Uvgoe8V9k18CXNrGxTiYIDFn80tM7DMh26DEzhvzs22hgywzMc4K7btt",
+              "received": false
+            }
+          ],
+          "total_price": 71697,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Treverchester",
+              "street": "Langosh Dale",
+              "house": 36,
+              "flat": 888
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T20:37:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694465fe1c508c5d5edecaa7",
+          "products": [
+            {
+              "_id": "694465fe1c508c5d5edecacb",
+              "name": "Car58987",
+              "amount": 63,
+              "price": 71697,
+              "manufacturer": "Amazon",
+              "notes": "kkZEf0CTSeBvBlg8oAEBMeBFBNB8Q4fFkGSLEjTfKyUbtawdlO08bk5EoKBzvHvOJz4g1oHmhPLDweV59W6IvnnW3gETazD6ngP4YfVTGC0DOiQNlYtamiBgJoXsqec3vkWuvDl2uxhZpyMHKgRkiQG0mmcAiBofGjJAJKbrYlPdV0JKM3Tm7M44sossCWuDP8Uvgoe8V9k18CXNrGxTiYIDFn80tM7DMh26DEzhvzs22hgywzMc4K7btt",
+              "received": false
+            }
+          ],
+          "total_price": 71697,
+          "delivery": null,
+          "changedOn": "2025-12-18T20:37:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
