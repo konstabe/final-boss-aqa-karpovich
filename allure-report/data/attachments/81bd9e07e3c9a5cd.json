@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 20:58:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-MxPtZ7dL72Yo1QYcn3A76dbufDM\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69446b0f1c508c5d5edf1b74",
+        "email": "Melody49@hotmail.com",
+        "name": "Bonita Halvorson",
+        "country": "Belarus",
+        "city": "Port Frankieside",
+        "street": "Alvera Park",
+        "house": 32,
+        "flat": 445,
+        "phone": "+15469057777",
+        "createdOn": "2025-12-18T20:58:55.000Z",
+        "notes": "qOIYBuFXojk6cAHhBw4DQiQHxx3lMQZ52R7gIq6uaQmEfXWdDMJFckslaCjtFH9dZaGUE14EbfVI8QuumrXCA9in0GWpZ95r5GIcaYFByTyqUqqzTKUKrh5LT99nXu5o7d6PBsnQrWsh2ODfvNGSxzhbVNZuTeelYTj4mUHds12cpu3oV9f2vIaltDNg9j1qXMlnBQ23609WXlphTCwin20zDcAwuJfmfo9lE4kXfwABaB9OgSlzxZ1NKo"
+      },
+      "products": [
+        {
+          "_id": "69446b0f1c508c5d5edf1b95",
+          "name": "Chair26850",
+          "amount": 553,
+          "price": 7377,
+          "manufacturer": "Google",
+          "notes": "hb2GSsf8vZIkH6rcCsPLlzxJRCWpkt3kNy4jrkRlA8rLzlRiMlCqBKs3SVxnkrClTAxJX62luLEqD6L1usG4SMeFoI0qrd0ICVRwMa0w6JDLqeUiNyX1w251ps85fEd6S1SYKG1MPlf9q0uRqpK5z9xPNmyqfiFagm5Y9ILpU1zvH6KqrNIebBMM9xflHfmNDSIg6uMQ8R1p4O8VNUz6Q9w3BA6TcBS0gY63SqdUAlpNYBh6KAiAJWZwOv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7377,
+      "createdOn": "2025-12-18T20:58:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69446b0f1c508c5d5edf1b74",
+          "products": [
+            {
+              "_id": "69446b0f1c508c5d5edf1b95",
+              "name": "Chair26850",
+              "amount": 553,
+              "price": 7377,
+              "manufacturer": "Google",
+              "notes": "hb2GSsf8vZIkH6rcCsPLlzxJRCWpkt3kNy4jrkRlA8rLzlRiMlCqBKs3SVxnkrClTAxJX62luLEqD6L1usG4SMeFoI0qrd0ICVRwMa0w6JDLqeUiNyX1w251ps85fEd6S1SYKG1MPlf9q0uRqpK5z9xPNmyqfiFagm5Y9ILpU1zvH6KqrNIebBMM9xflHfmNDSIg6uMQ8R1p4O8VNUz6Q9w3BA6TcBS0gY63SqdUAlpNYBh6KAiAJWZwOv",
+              "received": false
+            }
+          ],
+          "total_price": 7377,
+          "delivery": null,
+          "changedOn": "2025-12-18T20:58:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69446b0f1c508c5d5edf1bb9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

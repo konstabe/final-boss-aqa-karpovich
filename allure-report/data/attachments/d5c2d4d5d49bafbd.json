@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 20:58:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3421",
+    "etag": "W/\"d5d-M/HFmoV8zY8DxG0XatnaBMGBvjs\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69446b111c508c5d5edf1c58",
+        "email": "Freda_Corwin76@yahoo.com",
+        "name": "Vickie Dare",
+        "country": "Germany",
+        "city": "Livermore",
+        "street": "Kallie Circles",
+        "house": 16,
+        "flat": 547,
+        "phone": "+19715803534",
+        "createdOn": "2025-12-18T20:58:57.000Z",
+        "notes": "nkHmVWUaRScWnHFqOyKbzNz93Om5Vc3W86egApIvctPUBdeHtza8JLYt1RN78jfOz9iheDpT8vDUQepKMEUsrx3edyYEH0KH5isndB6ZNDHWtwM160BuyUkj1J5KRZXR0N30jQtJpI9SpmNdCIAgAieMV9QBfaWuvCBH1ZoJAeamFA08On9T6LxPmYaghRjhyIlanlipC9InfljJsTjxhMBFa8sbtq7kErNMFqjhxG00kaAB4kOHS0pD6T"
+      },
+      "products": [
+        {
+          "_id": "69446b121c508c5d5edf1d1f",
+          "name": "Fish27697",
+          "amount": 850,
+          "price": 92689,
+          "manufacturer": "Amazon",
+          "notes": "CR8nJneYr8VKKcAK3sP2V3j2Ydek2D0Ee63AKGn7nBaFQnGUP6kn0r1W4t7mz68UHgknvZdC0WQjwD01v8bAcg4ALuWPWVd3w9PXrnb9xcqCgEx9H8hQ1lmI236VuvFDCT1176YtRZ564AYdYsHXumlrkkvRQ6pG0TT0nOo3voBv42lCdMIgptc8E6sCAVBlMNrzWGktLqT2FDhlaQeQbIRtLCH9L8FlEKwSNDz0rC9vlM8lNZRbmEjg4w",
+          "received": false
+        },
+        {
+          "_id": "69446b121c508c5d5edf1d45",
+          "name": "Sausages54516",
+          "amount": 339,
+          "price": 28982,
+          "manufacturer": "Xiaomi",
+          "notes": "fqTsjpKZHxzcxTSOLQAM5qwQstgqPxOmspQYaC1MV7R6qw0ANmiovf4raHG9uEceJlWG0qClRmvHRRB6DvNq3XP16QhzLXaZOs1Yi2ULUu6Ru1NdAkG9ONVrj7PsYHnUSC1JpQ3q7At2LL1oRUFh2Uks4KS2Yl8DYb4gd4hAOivOmEPmfGjO2ruNPVMeGA5dLkSx1IgLthrbBd6ahVJrNS4A3AEVZaDbTImviEWorC1hlDCfhafcdj3UJj",
+          "received": false
+        },
+        {
+          "_id": "69446b131c508c5d5edf1d69",
+          "name": "Shoes47416",
+          "amount": 449,
+          "price": 19657,
+          "manufacturer": "Sony",
+          "notes": "ZsGc1ZVlZuIbdjMC20ei65CGVxtCle5s65KfW3U2iByaHJkh1cJqRJM319maKqo5GkM5CNYZ6BKFDBbr1NRrj996t8FFj7KsFhJFmYDyzCyulyJub4LvAcaMPJMo6NPenZZNXx7Lzyp7dqdiuI3NZclBIZztV42BCIqd448GRQ9neLlxnJn3uS5W5Ki4AjEIAjGfIFBifzd5H3QHkXoS6gC2O5LyLxJpyg2SpAcxcwfw508k336iCHUPFr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 141328,
+      "createdOn": "2025-12-18T20:58:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69446b111c508c5d5edf1c58",
+          "products": [
+            {
+              "_id": "69446b121c508c5d5edf1d1f",
+              "name": "Fish27697",
+              "amount": 850,
+              "price": 92689,
+              "manufacturer": "Amazon",
+              "notes": "CR8nJneYr8VKKcAK3sP2V3j2Ydek2D0Ee63AKGn7nBaFQnGUP6kn0r1W4t7mz68UHgknvZdC0WQjwD01v8bAcg4ALuWPWVd3w9PXrnb9xcqCgEx9H8hQ1lmI236VuvFDCT1176YtRZ564AYdYsHXumlrkkvRQ6pG0TT0nOo3voBv42lCdMIgptc8E6sCAVBlMNrzWGktLqT2FDhlaQeQbIRtLCH9L8FlEKwSNDz0rC9vlM8lNZRbmEjg4w",
+              "received": false
+            },
+            {
+              "_id": "69446b121c508c5d5edf1d45",
+              "name": "Sausages54516",
+              "amount": 339,
+              "price": 28982,
+              "manufacturer": "Xiaomi",
+              "notes": "fqTsjpKZHxzcxTSOLQAM5qwQstgqPxOmspQYaC1MV7R6qw0ANmiovf4raHG9uEceJlWG0qClRmvHRRB6DvNq3XP16QhzLXaZOs1Yi2ULUu6Ru1NdAkG9ONVrj7PsYHnUSC1JpQ3q7At2LL1oRUFh2Uks4KS2Yl8DYb4gd4hAOivOmEPmfGjO2ruNPVMeGA5dLkSx1IgLthrbBd6ahVJrNS4A3AEVZaDbTImviEWorC1hlDCfhafcdj3UJj",
+              "received": false
+            },
+            {
+              "_id": "69446b131c508c5d5edf1d69",
+              "name": "Shoes47416",
+              "amount": 449,
+              "price": 19657,
+              "manufacturer": "Sony",
+              "notes": "ZsGc1ZVlZuIbdjMC20ei65CGVxtCle5s65KfW3U2iByaHJkh1cJqRJM319maKqo5GkM5CNYZ6BKFDBbr1NRrj996t8FFj7KsFhJFmYDyzCyulyJub4LvAcaMPJMo6NPenZZNXx7Lzyp7dqdiuI3NZclBIZztV42BCIqd448GRQ9neLlxnJn3uS5W5Ki4AjEIAjGfIFBifzd5H3QHkXoS6gC2O5LyLxJpyg2SpAcxcwfw508k336iCHUPFr",
+              "received": false
+            }
+          ],
+          "total_price": 141328,
+          "delivery": null,
+          "changedOn": "2025-12-18T20:58:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69446b131c508c5d5edf1d90"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

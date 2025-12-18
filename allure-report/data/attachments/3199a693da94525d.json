@@ -1,0 +1,245 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 20:59:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6908",
+    "etag": "W/\"1afc-DKwLmN3EmlJ8Hs4Dl5jggNWw0Wg\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69446b2d1c508c5d5edf300d",
+      "status": "In Process",
+      "customer": {
+        "_id": "69446b221c508c5d5edf2808",
+        "email": "Verna.Blick@yahoo.com",
+        "name": "Sharon Fisher",
+        "country": "Russia",
+        "city": "Spring",
+        "street": "7th Avenue",
+        "house": 5,
+        "flat": 450,
+        "phone": "+18758070807",
+        "createdOn": "2025-12-18T20:59:14.000Z",
+        "notes": "H942oNygNSoh1S3r0OZXiDtcy2cuGhgE13tFCQTcoaHOJM9j7Kgnn5nQgHacP1UiH6nEFJro0AnRqg9z8yGeyHwBEtlLkHmhYH71EWpxeKgp4G9JF4db9fs4fVpVJv7bsTBwGLwHPHJ8yV3nXHFm3p8FWRko2uOqw3K29cmbYxGVDh93IFQfrZVZxcg7Z0b8w3hIiWinGBdIDslQLazsyyKEgQvaArj9EKwG9Fbti5SPXrq5En1IOByztH"
+      },
+      "products": [
+        {
+          "_id": "69446b2a1c508c5d5edf2e48",
+          "name": "Bike91296",
+          "amount": 586,
+          "price": 4267,
+          "manufacturer": "Google",
+          "notes": "qPCAcJEU57orgpEBWt11PsWlFE6msPQRgy6NECP6bPGj5NAyqlwPIubRv0RBlkQDWjU09oov1Ch4yNswiDVeuQ3A1CsqeJLCDy6wSmSjdVpSuMefUJu0mtzrzomVkKCGsoub9EXHrzUrdpU1eHK2Dep1RcPLZwgRrlzqb8dVbTfvS3ffyA0NshKhCkKo93p3Dk1tyVdorVanK7qIuR7Ux8cj6CIV2cdI9mbGvi5EYmFUGEFC8BKLxYiVr4",
+          "received": false
+        },
+        {
+          "_id": "69446b2b1c508c5d5edf2e6a",
+          "name": "Shirt24671",
+          "amount": 115,
+          "price": 46913,
+          "manufacturer": "Samsung",
+          "notes": "jLbXorH9ErCwnfLWwYiPFeK09AKfq8O5EzxZsGdO6ilptAVxFL1hZb0U4nCd0DDNkluIFxm1Fb90JOI6L61LCPniE7Dx12pXD096TTyFauYAHVE9qO7s1Er4lXjxqF4ZS9gVgXhRrEhox1feQpWlrnKYb61fpk5pZFY21VNYVlz7X4sR0USUN7kiXqFlaeCkjPTWvPZtybpHpUMPCUQL1guVL0ZT5qbmD4fitZDxvPPS2RYmUwvz8R4IJU",
+          "received": false
+        },
+        {
+          "_id": "69446b2c1c508c5d5edf2f36",
+          "name": "Shoes38599",
+          "amount": 196,
+          "price": 57445,
+          "manufacturer": "Sony",
+          "notes": "wnB5k5ed1ZRflhjKzvqvTKRzYAElZfKv6Czrvh8hC6g3tZgTuwy235BNqUpuRfcAgwffCOAHWn1Jy862SBvcdChwnIa19HqsLi083bwh3CJQ2gXgdNx6xK97j04d68RsF0PoV3G7aXLLjP9JwoAHpYgRz75yNNyyXfsNAMNkHkLLMwiPkhdKzMKchIeZrSw9ye0bvpIloyb7pHwRB4ZdvurOsQW3CRoZ5L74uZUDRWb9H9SYW1w83XLabB",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Spring",
+          "street": "7th Avenue",
+          "house": 5,
+          "flat": 450
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 108625,
+      "createdOn": "2025-12-18T20:59:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69446b221c508c5d5edf2808",
+          "products": [
+            {
+              "_id": "69446b2a1c508c5d5edf2e48",
+              "name": "Bike91296",
+              "amount": 586,
+              "price": 4267,
+              "manufacturer": "Google",
+              "notes": "qPCAcJEU57orgpEBWt11PsWlFE6msPQRgy6NECP6bPGj5NAyqlwPIubRv0RBlkQDWjU09oov1Ch4yNswiDVeuQ3A1CsqeJLCDy6wSmSjdVpSuMefUJu0mtzrzomVkKCGsoub9EXHrzUrdpU1eHK2Dep1RcPLZwgRrlzqb8dVbTfvS3ffyA0NshKhCkKo93p3Dk1tyVdorVanK7qIuR7Ux8cj6CIV2cdI9mbGvi5EYmFUGEFC8BKLxYiVr4",
+              "received": false
+            },
+            {
+              "_id": "69446b2b1c508c5d5edf2e6a",
+              "name": "Shirt24671",
+              "amount": 115,
+              "price": 46913,
+              "manufacturer": "Samsung",
+              "notes": "jLbXorH9ErCwnfLWwYiPFeK09AKfq8O5EzxZsGdO6ilptAVxFL1hZb0U4nCd0DDNkluIFxm1Fb90JOI6L61LCPniE7Dx12pXD096TTyFauYAHVE9qO7s1Er4lXjxqF4ZS9gVgXhRrEhox1feQpWlrnKYb61fpk5pZFY21VNYVlz7X4sR0USUN7kiXqFlaeCkjPTWvPZtybpHpUMPCUQL1guVL0ZT5qbmD4fitZDxvPPS2RYmUwvz8R4IJU",
+              "received": false
+            },
+            {
+              "_id": "69446b2c1c508c5d5edf2f36",
+              "name": "Shoes38599",
+              "amount": 196,
+              "price": 57445,
+              "manufacturer": "Sony",
+              "notes": "wnB5k5ed1ZRflhjKzvqvTKRzYAElZfKv6Czrvh8hC6g3tZgTuwy235BNqUpuRfcAgwffCOAHWn1Jy862SBvcdChwnIa19HqsLi083bwh3CJQ2gXgdNx6xK97j04d68RsF0PoV3G7aXLLjP9JwoAHpYgRz75yNNyyXfsNAMNkHkLLMwiPkhdKzMKchIeZrSw9ye0bvpIloyb7pHwRB4ZdvurOsQW3CRoZ5L74uZUDRWb9H9SYW1w83XLabB",
+              "received": false
+            }
+          ],
+          "total_price": 108625,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Spring",
+              "street": "7th Avenue",
+              "house": 5,
+              "flat": 450
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T20:59:32.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69446b221c508c5d5edf2808",
+          "products": [
+            {
+              "_id": "69446b2a1c508c5d5edf2e48",
+              "name": "Bike91296",
+              "amount": 586,
+              "price": 4267,
+              "manufacturer": "Google",
+              "notes": "qPCAcJEU57orgpEBWt11PsWlFE6msPQRgy6NECP6bPGj5NAyqlwPIubRv0RBlkQDWjU09oov1Ch4yNswiDVeuQ3A1CsqeJLCDy6wSmSjdVpSuMefUJu0mtzrzomVkKCGsoub9EXHrzUrdpU1eHK2Dep1RcPLZwgRrlzqb8dVbTfvS3ffyA0NshKhCkKo93p3Dk1tyVdorVanK7qIuR7Ux8cj6CIV2cdI9mbGvi5EYmFUGEFC8BKLxYiVr4",
+              "received": false
+            },
+            {
+              "_id": "69446b2b1c508c5d5edf2e6a",
+              "name": "Shirt24671",
+              "amount": 115,
+              "price": 46913,
+              "manufacturer": "Samsung",
+              "notes": "jLbXorH9ErCwnfLWwYiPFeK09AKfq8O5EzxZsGdO6ilptAVxFL1hZb0U4nCd0DDNkluIFxm1Fb90JOI6L61LCPniE7Dx12pXD096TTyFauYAHVE9qO7s1Er4lXjxqF4ZS9gVgXhRrEhox1feQpWlrnKYb61fpk5pZFY21VNYVlz7X4sR0USUN7kiXqFlaeCkjPTWvPZtybpHpUMPCUQL1guVL0ZT5qbmD4fitZDxvPPS2RYmUwvz8R4IJU",
+              "received": false
+            },
+            {
+              "_id": "69446b2c1c508c5d5edf2f36",
+              "name": "Shoes38599",
+              "amount": 196,
+              "price": 57445,
+              "manufacturer": "Sony",
+              "notes": "wnB5k5ed1ZRflhjKzvqvTKRzYAElZfKv6Czrvh8hC6g3tZgTuwy235BNqUpuRfcAgwffCOAHWn1Jy862SBvcdChwnIa19HqsLi083bwh3CJQ2gXgdNx6xK97j04d68RsF0PoV3G7aXLLjP9JwoAHpYgRz75yNNyyXfsNAMNkHkLLMwiPkhdKzMKchIeZrSw9ye0bvpIloyb7pHwRB4ZdvurOsQW3CRoZ5L74uZUDRWb9H9SYW1w83XLabB",
+              "received": false
+            }
+          ],
+          "total_price": 108625,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Spring",
+              "street": "7th Avenue",
+              "house": 5,
+              "flat": 450
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T20:59:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69446b221c508c5d5edf2808",
+          "products": [
+            {
+              "_id": "69446b2a1c508c5d5edf2e48",
+              "name": "Bike91296",
+              "amount": 586,
+              "price": 4267,
+              "manufacturer": "Google",
+              "notes": "qPCAcJEU57orgpEBWt11PsWlFE6msPQRgy6NECP6bPGj5NAyqlwPIubRv0RBlkQDWjU09oov1Ch4yNswiDVeuQ3A1CsqeJLCDy6wSmSjdVpSuMefUJu0mtzrzomVkKCGsoub9EXHrzUrdpU1eHK2Dep1RcPLZwgRrlzqb8dVbTfvS3ffyA0NshKhCkKo93p3Dk1tyVdorVanK7qIuR7Ux8cj6CIV2cdI9mbGvi5EYmFUGEFC8BKLxYiVr4",
+              "received": false
+            },
+            {
+              "_id": "69446b2b1c508c5d5edf2e6a",
+              "name": "Shirt24671",
+              "amount": 115,
+              "price": 46913,
+              "manufacturer": "Samsung",
+              "notes": "jLbXorH9ErCwnfLWwYiPFeK09AKfq8O5EzxZsGdO6ilptAVxFL1hZb0U4nCd0DDNkluIFxm1Fb90JOI6L61LCPniE7Dx12pXD096TTyFauYAHVE9qO7s1Er4lXjxqF4ZS9gVgXhRrEhox1feQpWlrnKYb61fpk5pZFY21VNYVlz7X4sR0USUN7kiXqFlaeCkjPTWvPZtybpHpUMPCUQL1guVL0ZT5qbmD4fitZDxvPPS2RYmUwvz8R4IJU",
+              "received": false
+            },
+            {
+              "_id": "69446b2c1c508c5d5edf2f36",
+              "name": "Shoes38599",
+              "amount": 196,
+              "price": 57445,
+              "manufacturer": "Sony",
+              "notes": "wnB5k5ed1ZRflhjKzvqvTKRzYAElZfKv6Czrvh8hC6g3tZgTuwy235BNqUpuRfcAgwffCOAHWn1Jy862SBvcdChwnIa19HqsLi083bwh3CJQ2gXgdNx6xK97j04d68RsF0PoV3G7aXLLjP9JwoAHpYgRz75yNNyyXfsNAMNkHkLLMwiPkhdKzMKchIeZrSw9ye0bvpIloyb7pHwRB4ZdvurOsQW3CRoZ5L74uZUDRWb9H9SYW1w83XLabB",
+              "received": false
+            }
+          ],
+          "total_price": 108625,
+          "delivery": null,
+          "changedOn": "2025-12-18T20:59:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
