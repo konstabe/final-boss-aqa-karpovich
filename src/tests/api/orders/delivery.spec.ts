@@ -3,13 +3,11 @@ import { generateDeliveryData } from "data/orders/generateDeliveryData";
 import { getOrdersSchema } from "data/schemas/orders/getOrder.schema";
 import { STATUS_CODES } from "data/statusCodes";
 import { expect, test } from "fixtures/api.fixture";
-import _ from "lodash";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 
 test.describe("[API] [Sales Portal] [Orders] [Update delivery details of an order]", () => {
 	let token = "";
-	let idCustomers: string[] = [];
-	let idProducts: string[] = [];
+
 	let idOrders: string[] = [];
 
 	test.beforeAll(async ({ loginApiService }) => {
@@ -18,8 +16,6 @@ test.describe("[API] [Sales Portal] [Orders] [Update delivery details of an orde
 
 	test.afterEach(async ({ ordersApiService }) => {
 		await ordersApiService.fullDelete(token);
-		idCustomers = [];
-		idProducts = [];
 		idOrders = [];
 	});
 

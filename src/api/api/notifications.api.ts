@@ -1,5 +1,5 @@
 import { IApiClient } from "api/core/types";
-import { INotificationResponse, INotificationsResponse } from "data/types/notifications.types";
+import { INotificationsResponse } from "data/types/notifications.types";
 import { apiConfig } from "config/apiConfig";
 import { IRequestOptions } from "api/core/types";
 
@@ -45,6 +45,6 @@ export class NotificationsApi {
 			},
 		};
 
-		return await this.apiClient.send<INotificationResponse>(options);
+		return await this.apiClient.send<INotificationsResponse>(options);
 	}
 }

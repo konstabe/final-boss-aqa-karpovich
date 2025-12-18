@@ -9,16 +9,13 @@ import { validateResponse } from "utils/validation/validateResponse.utils";
 
 test.describe("[API] [Orders]", () => {
 	let token = "";
-	const ordersIds: string[] = [];
-	const customersIds: string[] = [];
-	const productsIds: string[] = [];
 
 	test.beforeAll(async ({ loginApiService }) => {
 		token = await loginApiService.loginAsAdmin();
 	});
 
 	test.afterEach(async ({ ordersApiService }) => {
-		await ordersApiService.fullDelete(token, ordersIds, customersIds, productsIds);
+		await ordersApiService.fullDelete(token);
 	});
 
 	test.describe("[Create Positive]", () => {
