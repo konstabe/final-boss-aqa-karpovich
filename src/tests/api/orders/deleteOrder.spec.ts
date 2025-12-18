@@ -16,7 +16,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 	test(
 		"Delete Order",
 		{
-			tag: [TAGS.ORDERS, TAGS.REGRESSION, TAGS.SMOKE],
+			tag: [TAGS.ORDER, TAGS.REGRESSION, TAGS.SMOKE],
 		},
 		async ({ ordersApiService, ordersApi }) => {
 			const createdOrder = await ordersApiService.createDraft(token, 1);
@@ -30,7 +30,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 	test(
 		"Delete Order without TOKEN",
 		{
-			tag: [TAGS.ORDERS, TAGS.REGRESSION],
+			tag: [TAGS.ORDER, TAGS.REGRESSION],
 		},
 		async ({ ordersApiService, ordersApi }) => {
 			const createdOrder = await ordersApiService.createDraft(token, 1);
