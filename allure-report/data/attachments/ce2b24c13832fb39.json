@@ -1,0 +1,187 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:14:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5271",
+    "etag": "W/\"1497-eYoz5tghXtkz7LVnA0VGnk8VxRE\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694444851c508c5d5edc16da",
+      "status": "Draft",
+      "customer": {
+        "_id": "694444811c508c5d5edc150c",
+        "email": "America_Herman@yahoo.com",
+        "name": "Quentin Greenholt",
+        "country": "Belarus",
+        "city": "Dooleyfield",
+        "street": "Hester Mission",
+        "house": 39,
+        "flat": 423,
+        "phone": "+13188234761",
+        "createdOn": "2025-12-18T18:14:25.000Z",
+        "notes": "gtHxGjizi6XSQKmq5MBYTOO5yisaEaP8FBvUULsFUaAc10mOpOFgbwFRtjOVmDvdhX5422gbPdGDm6HeJB7kMDPwUKgzCkK7gF1HQgbgV0dOalocBEQFHWD0QPdEgXfsDdm10CtwhwxynzGmr0Lj95iIGugIuBn56qJ3qeUds9PmAD0kVDulTXxvqBRgkJRZeqQsijcSIIv6F8YHWmcJTrWIQkqr9Xg8YPP0vs36bXBCTKbkYFry9ZJafG"
+      },
+      "products": [
+        {
+          "_id": "694444811c508c5d5edc1545",
+          "name": "Table66115",
+          "amount": 21,
+          "price": 40133,
+          "manufacturer": "Microsoft",
+          "notes": "xw4cB9QEa2Ttwo9GbHJrYhlKRHnCC9Kq8PrjGRHjZRXwWi4b1LKasHCJOvQA1bL2C2c00VkPNASkZT5lxyt91AxhzRzt5e13kMG49xnMpmlXqEcGVgmzN1Z5u40ait9kcoCAOnURIBTbsB9tHTV1KJ5ovETmcBAHvQmRiM2p5NYIbWiKCR5dro9DP4p1suBlMscCmSbe5HQaxlIYaknsBJinxCBMTQPO9n0rkZXKHe6mHV8ESsfiUh0bpe",
+          "received": false
+        },
+        {
+          "_id": "694444821c508c5d5edc163c",
+          "name": "Soap97877",
+          "amount": 540,
+          "price": 20613,
+          "manufacturer": "Xiaomi",
+          "notes": "gsby5PGCB2a8G2scyZwFRqHoHrXFy3LVG0XYAzgdgjqJNZ05FFTyohVj2kh9DaQlGB27OV1lslH45GxifS5aYo4u1VCbZ7ZUYderTtAH1spCSyzg55XbHs5jnSKT8EyqKkVOWhrx1yYXh4WwO7AKXawyoyKpmGBRJ8aVhddEdmt7Za5phFGgbHR7hH2Q3835vukIEOOq3HcoZTr7Gt1dZ8nBpUF6QnOl6yl0d9Yq9GsQxKHm5vGbFQfUZ8",
+          "received": false
+        },
+        {
+          "_id": "694444831c508c5d5edc1663",
+          "name": "Pants75460",
+          "amount": 806,
+          "price": 43090,
+          "manufacturer": "Tesla",
+          "notes": "lR3NF8eXsb4znT8JHSbHVsdYhYWxeyAz6IK91SJFITbX4QgYgm9ZxzprZBEg0RsHFHs32OsTMe500Tfcod8t7AIiPR4tMlPcsqYf9g8JD5SSG90R3l5bAI1xoVn5RJFdI23vB82qx874xG6koHrx4L2p6LL0E9qN9u2nFwwLBOVgOasth7hrp9xEWdyN98z6lLGFIizGUGnIXeQZRJhJoxcAJOpQrK4kAcpHo3THNBiuWwfwBuRIfMjocu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Dooleyfield",
+          "street": "Hester Mission",
+          "house": 39,
+          "flat": 423
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 103836,
+      "createdOn": "2025-12-18T18:14:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694444811c508c5d5edc150c",
+          "products": [
+            {
+              "_id": "694444811c508c5d5edc1545",
+              "name": "Table66115",
+              "amount": 21,
+              "price": 40133,
+              "manufacturer": "Microsoft",
+              "notes": "xw4cB9QEa2Ttwo9GbHJrYhlKRHnCC9Kq8PrjGRHjZRXwWi4b1LKasHCJOvQA1bL2C2c00VkPNASkZT5lxyt91AxhzRzt5e13kMG49xnMpmlXqEcGVgmzN1Z5u40ait9kcoCAOnURIBTbsB9tHTV1KJ5ovETmcBAHvQmRiM2p5NYIbWiKCR5dro9DP4p1suBlMscCmSbe5HQaxlIYaknsBJinxCBMTQPO9n0rkZXKHe6mHV8ESsfiUh0bpe",
+              "received": false
+            },
+            {
+              "_id": "694444821c508c5d5edc163c",
+              "name": "Soap97877",
+              "amount": 540,
+              "price": 20613,
+              "manufacturer": "Xiaomi",
+              "notes": "gsby5PGCB2a8G2scyZwFRqHoHrXFy3LVG0XYAzgdgjqJNZ05FFTyohVj2kh9DaQlGB27OV1lslH45GxifS5aYo4u1VCbZ7ZUYderTtAH1spCSyzg55XbHs5jnSKT8EyqKkVOWhrx1yYXh4WwO7AKXawyoyKpmGBRJ8aVhddEdmt7Za5phFGgbHR7hH2Q3835vukIEOOq3HcoZTr7Gt1dZ8nBpUF6QnOl6yl0d9Yq9GsQxKHm5vGbFQfUZ8",
+              "received": false
+            },
+            {
+              "_id": "694444831c508c5d5edc1663",
+              "name": "Pants75460",
+              "amount": 806,
+              "price": 43090,
+              "manufacturer": "Tesla",
+              "notes": "lR3NF8eXsb4znT8JHSbHVsdYhYWxeyAz6IK91SJFITbX4QgYgm9ZxzprZBEg0RsHFHs32OsTMe500Tfcod8t7AIiPR4tMlPcsqYf9g8JD5SSG90R3l5bAI1xoVn5RJFdI23vB82qx874xG6koHrx4L2p6LL0E9qN9u2nFwwLBOVgOasth7hrp9xEWdyN98z6lLGFIizGUGnIXeQZRJhJoxcAJOpQrK4kAcpHo3THNBiuWwfwBuRIfMjocu",
+              "received": false
+            }
+          ],
+          "total_price": 103836,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Dooleyfield",
+              "street": "Hester Mission",
+              "house": 39,
+              "flat": 423
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T18:14:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694444811c508c5d5edc150c",
+          "products": [
+            {
+              "_id": "694444811c508c5d5edc1545",
+              "name": "Table66115",
+              "amount": 21,
+              "price": 40133,
+              "manufacturer": "Microsoft",
+              "notes": "xw4cB9QEa2Ttwo9GbHJrYhlKRHnCC9Kq8PrjGRHjZRXwWi4b1LKasHCJOvQA1bL2C2c00VkPNASkZT5lxyt91AxhzRzt5e13kMG49xnMpmlXqEcGVgmzN1Z5u40ait9kcoCAOnURIBTbsB9tHTV1KJ5ovETmcBAHvQmRiM2p5NYIbWiKCR5dro9DP4p1suBlMscCmSbe5HQaxlIYaknsBJinxCBMTQPO9n0rkZXKHe6mHV8ESsfiUh0bpe",
+              "received": false
+            },
+            {
+              "_id": "694444821c508c5d5edc163c",
+              "name": "Soap97877",
+              "amount": 540,
+              "price": 20613,
+              "manufacturer": "Xiaomi",
+              "notes": "gsby5PGCB2a8G2scyZwFRqHoHrXFy3LVG0XYAzgdgjqJNZ05FFTyohVj2kh9DaQlGB27OV1lslH45GxifS5aYo4u1VCbZ7ZUYderTtAH1spCSyzg55XbHs5jnSKT8EyqKkVOWhrx1yYXh4WwO7AKXawyoyKpmGBRJ8aVhddEdmt7Za5phFGgbHR7hH2Q3835vukIEOOq3HcoZTr7Gt1dZ8nBpUF6QnOl6yl0d9Yq9GsQxKHm5vGbFQfUZ8",
+              "received": false
+            },
+            {
+              "_id": "694444831c508c5d5edc1663",
+              "name": "Pants75460",
+              "amount": 806,
+              "price": 43090,
+              "manufacturer": "Tesla",
+              "notes": "lR3NF8eXsb4znT8JHSbHVsdYhYWxeyAz6IK91SJFITbX4QgYgm9ZxzprZBEg0RsHFHs32OsTMe500Tfcod8t7AIiPR4tMlPcsqYf9g8JD5SSG90R3l5bAI1xoVn5RJFdI23vB82qx874xG6koHrx4L2p6LL0E9qN9u2nFwwLBOVgOasth7hrp9xEWdyN98z6lLGFIizGUGnIXeQZRJhJoxcAJOpQrK4kAcpHo3THNBiuWwfwBuRIfMjocu",
+              "received": false
+            }
+          ],
+          "total_price": 103836,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:14:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

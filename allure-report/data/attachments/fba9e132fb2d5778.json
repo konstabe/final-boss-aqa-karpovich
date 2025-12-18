@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:14:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-RNIrQAlCskCAy7AqUlwNVuWFm8M\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694444801c508c5d5edc1499",
+        "email": "Romaine.Pollich60@gmail.com",
+        "name": "Imani Carter",
+        "country": "Great Britain",
+        "city": "Fort Gunnertown",
+        "street": "Brakus Neck",
+        "house": 27,
+        "flat": 703,
+        "phone": "+12327136810",
+        "createdOn": "2025-12-18T18:14:24.000Z",
+        "notes": "6JYgGbdxJG1jEVkxqf0L18YMjfl29moZkYynYKXvZ2kRarQUq65JWnvCVzkYFt8wHaDyxiudOP4sdDG7x9ciKQj5FjRTi1Lg42nV32vKmhKJBQtzybrhYB7pVJ112mgpIg4F3ICzTEK9OPvJ52HlVPz69AtHOK0N16hwzr1Pg87rWgfWkyapewM5zkg4MDHWwEsNpsdNGnVZ3I1FbIV1sCt75JZB9FdS7rGEk1r1t260jKbpMNZ8PnMnya"
+      },
+      "products": [
+        {
+          "_id": "694444801c508c5d5edc14c2",
+          "name": "Ball24062",
+          "amount": 643,
+          "price": 91282,
+          "manufacturer": "Tesla",
+          "notes": "AJz0GamPR8nEwHHxTBZlPcUD0k7HsosTPsVsYU6LQiMuXdORJP6jrlBUhhQC2acRYk3TFgquvUVbidGz3RXE4Yt4NhklE7oY3RN7059wGuV68iHJCh4zRaBnjOfxjfpH5E5LxRwuWFtnS64xQPqiKmcEQYKFpFusE4ujcuWihULj6iCICn4Dow2GUMqw2XvjmkHcMDTRuazowIK6wKd3bp4GgXrgQ82PRnioZ5I2sgV6AwrmTFnZuz8pOO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 91282,
+      "createdOn": "2025-12-18T18:14:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694444801c508c5d5edc1499",
+          "products": [
+            {
+              "_id": "694444801c508c5d5edc14c2",
+              "name": "Ball24062",
+              "amount": 643,
+              "price": 91282,
+              "manufacturer": "Tesla",
+              "notes": "AJz0GamPR8nEwHHxTBZlPcUD0k7HsosTPsVsYU6LQiMuXdORJP6jrlBUhhQC2acRYk3TFgquvUVbidGz3RXE4Yt4NhklE7oY3RN7059wGuV68iHJCh4zRaBnjOfxjfpH5E5LxRwuWFtnS64xQPqiKmcEQYKFpFusE4ujcuWihULj6iCICn4Dow2GUMqw2XvjmkHcMDTRuazowIK6wKd3bp4GgXrgQ82PRnioZ5I2sgV6AwrmTFnZuz8pOO",
+              "received": false
+            }
+          ],
+          "total_price": 91282,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:14:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694444801c508c5d5edc14e8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
