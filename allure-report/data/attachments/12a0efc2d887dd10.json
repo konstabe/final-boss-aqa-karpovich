@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 19:40:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2979",
+    "etag": "W/\"ba3-LYD4PycV4+kdBmZXbqPvgqlyDec\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694458931c508c5d5edeb0ae",
+      "status": "Draft",
+      "customer": {
+        "_id": "694458921c508c5d5edeafb6",
+        "email": "Payton.Wunsch@gmail.com",
+        "name": "Danny Erdman",
+        "country": "France",
+        "city": "New Carissaberg",
+        "street": "Columbia Avenue",
+        "house": 25,
+        "flat": 648,
+        "phone": "+14238859685",
+        "createdOn": "2025-12-18T19:40:02.000Z",
+        "notes": "0xwjelAbm3B6J0rF9ExsYrf1gha2nftqkvKGsqgBTRoKm79ce9L3TzbCBRo7aQ2qir030krZ1PzGreKaAxbMX62Lm1B2o7RPUoqOAYlUa6tzUWQUfZ3UdNmT0kfxMKwd4LPz5szJDjRutV4PUgkzkMWWxBHNj8nB6fo7kg2Su2s0Ijb36KrIXP3ftKpHrgjZUNodezSBjy1YmsbVZNhCiNxDY6eUOV0TXDYcy5ZENdUA7qTMHuoP7HnYp7"
+      },
+      "products": [
+        {
+          "_id": "694458921c508c5d5edeafde",
+          "name": "Computer69114",
+          "amount": 839,
+          "price": 83119,
+          "manufacturer": "Xiaomi",
+          "notes": "XL48NmS5TE6f8ulmmuL70gHJmST0kke1O9Zi2o53PcHR5PmS9WKY5OCSQSR4ebDaN3KkDOUzDet6rsoSYBm3HTr3GDAkqDJkIFriVOosMMFGniMtQuTlMeFsJ05ouZ77Bd2sK5OWtX5IGbHJkfB2sYWmJMMfgYP2nT76tooC0lg4YUycP7DImAh3kPkwIxbdYetYvfbCK9NrCrAXpdLH6fd6fFbGCdjjq0tJ2tb5nP0VTBWvJcqJdeSyKI",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "New Carissaberg",
+          "street": "Columbia Avenue",
+          "house": 25,
+          "flat": 648
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 83119,
+      "createdOn": "2025-12-18T19:40:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694458921c508c5d5edeafb6",
+          "products": [
+            {
+              "_id": "694458921c508c5d5edeafde",
+              "name": "Computer69114",
+              "amount": 839,
+              "price": 83119,
+              "manufacturer": "Xiaomi",
+              "notes": "XL48NmS5TE6f8ulmmuL70gHJmST0kke1O9Zi2o53PcHR5PmS9WKY5OCSQSR4ebDaN3KkDOUzDet6rsoSYBm3HTr3GDAkqDJkIFriVOosMMFGniMtQuTlMeFsJ05ouZ77Bd2sK5OWtX5IGbHJkfB2sYWmJMMfgYP2nT76tooC0lg4YUycP7DImAh3kPkwIxbdYetYvfbCK9NrCrAXpdLH6fd6fFbGCdjjq0tJ2tb5nP0VTBWvJcqJdeSyKI",
+              "received": false
+            }
+          ],
+          "total_price": 83119,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "New Carissaberg",
+              "street": "Columbia Avenue",
+              "house": 25,
+              "flat": 648
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T19:40:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694458921c508c5d5edeafb6",
+          "products": [
+            {
+              "_id": "694458921c508c5d5edeafde",
+              "name": "Computer69114",
+              "amount": 839,
+              "price": 83119,
+              "manufacturer": "Xiaomi",
+              "notes": "XL48NmS5TE6f8ulmmuL70gHJmST0kke1O9Zi2o53PcHR5PmS9WKY5OCSQSR4ebDaN3KkDOUzDet6rsoSYBm3HTr3GDAkqDJkIFriVOosMMFGniMtQuTlMeFsJ05ouZ77Bd2sK5OWtX5IGbHJkfB2sYWmJMMfgYP2nT76tooC0lg4YUycP7DImAh3kPkwIxbdYetYvfbCK9NrCrAXpdLH6fd6fFbGCdjjq0tJ2tb5nP0VTBWvJcqJdeSyKI",
+              "received": false
+            }
+          ],
+          "total_price": 83119,
+          "delivery": null,
+          "changedOn": "2025-12-18T19:40:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

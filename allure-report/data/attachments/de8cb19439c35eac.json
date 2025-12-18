@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 19:40:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-g74hB6ShQTrgK0LrhoG1Pjuvdfo\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694458991c508c5d5edeb4b0",
+        "email": "Sanford.Batz96@yahoo.com",
+        "name": "Anthony Schimmel",
+        "country": "Germany",
+        "city": "West Florian",
+        "street": "Madison Street",
+        "house": 45,
+        "flat": 871,
+        "phone": "+15393616309",
+        "createdOn": "2025-12-18T19:40:09.000Z",
+        "notes": "3L7r4llR9RzEXBJss2sO45NgLxKsY34HqnfhSkC5TDKJaguupemBcIWRcdomBDOz8moh3tbChG4oNdLcJRa9LtHrLGSUGIWQAzgWM33XBFXOFB5wDntAsrJ8i3t9nMXHDNbs8GMDtI5jQagE5s7eTXgeIWgbnU9WsBHtk03t0YyUcILOaTrdqU1YUmaPvSImXUyjlm1pviqprT8vbUbdpSNp7HZYdxWGUO1q1HTPguxWSWvT6RM73yKVVH"
+      },
+      "products": [
+        {
+          "_id": "694458991c508c5d5edeb4ca",
+          "name": "Tuna47025",
+          "amount": 356,
+          "price": 18753,
+          "manufacturer": "Google",
+          "notes": "JkXKn1fbaOUImWJlV6A9w51slHODq80qcrJIZ2yuoT02FoDd1yKu70ii4WKnEtTl1aJpvoOT0MtHrJn9aV5oAlASV2SmMFCYs5gJOIrfYxS4WiV7FuIJJLBr2l7b3PdCBhufvCcjBPog5GBE8rzXTEPMn7zP9xxzc1gypy4HSrS7SyKJqPwo8M3T3A5FLztpy2PTLqChnVXdZUVrKtL6JDVV2vDhTc6fLAUTrLh3VXu1ugmqtM8c72DknF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 18753,
+      "createdOn": "2025-12-18T19:40:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694458991c508c5d5edeb4b0",
+          "products": [
+            {
+              "_id": "694458991c508c5d5edeb4ca",
+              "name": "Tuna47025",
+              "amount": 356,
+              "price": 18753,
+              "manufacturer": "Google",
+              "notes": "JkXKn1fbaOUImWJlV6A9w51slHODq80qcrJIZ2yuoT02FoDd1yKu70ii4WKnEtTl1aJpvoOT0MtHrJn9aV5oAlASV2SmMFCYs5gJOIrfYxS4WiV7FuIJJLBr2l7b3PdCBhufvCcjBPog5GBE8rzXTEPMn7zP9xxzc1gypy4HSrS7SyKJqPwo8M3T3A5FLztpy2PTLqChnVXdZUVrKtL6JDVV2vDhTc6fLAUTrLh3VXu1ugmqtM8c72DknF",
+              "received": false
+            }
+          ],
+          "total_price": 18753,
+          "delivery": null,
+          "changedOn": "2025-12-18T19:40:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6944589a1c508c5d5edeb59a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

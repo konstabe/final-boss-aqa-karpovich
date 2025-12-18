@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 19:40:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2959",
+    "etag": "W/\"b8f-GhxtmOFVzpy2xlXo3xG3VW6iwko\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944588e1c508c5d5edeada2",
+      "status": "Draft",
+      "customer": {
+        "_id": "6944588d1c508c5d5edead50",
+        "email": "Camden.Schmeler@yahoo.com",
+        "name": "Cicero Spencer",
+        "country": "Russia",
+        "city": "The Villages",
+        "street": "Vicarage Road",
+        "house": 10,
+        "flat": 375,
+        "phone": "+19355576081",
+        "createdOn": "2025-12-18T19:39:57.000Z",
+        "notes": "tAFNalj5maP1smGbmDA7a6qUCtO8x3Mzo53BSzhkjAnMdTz98bwRTNoaZtbycYuDJjuWno4mWb4P1w0LjPoFoSC7hwzjLjpbz2GX9wGdo6bR9MOoIswgq4pzjLPQ0am9DWujIieUmuLQe36p7XLmKEx7ik2FAXP7UqDDqOm2hoynmq1RLuNRMZJ8z6hARJ2gUaSKy4SloAdNDbd6cGJEMGkKJLLL97X0cxX7l62bpKC87f2R8Xyhr9M8SL"
+      },
+      "products": [
+        {
+          "_id": "6944588e1c508c5d5edead7c",
+          "name": "Chicken7570",
+          "amount": 73,
+          "price": 16932,
+          "manufacturer": "Google",
+          "notes": "HmBHtdX09csHhOxIsWfCs9OmGqWDQz9GXxJvWNliOdMgsJM9YhMOW0mXMu2rrey86rzgipJAgj4HXzIOJW8x85V4SPrKRqGOM8yo4v41hrkBiwqfr6I6HaBKVLiCYdZQkZPTwpJNDAceSunLK61dp9aC6AzVjwQjDCZevre35lZmTKqGRyMTbObaBL5lSTEwC5vw634gBsofgYfiWEEDgLdnf0pDN4QqDCgQY8qotzmEfcvqXwaY2v1I5E",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "The Villages",
+          "street": "Vicarage Road",
+          "house": 10,
+          "flat": 375
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 16932,
+      "createdOn": "2025-12-18T19:39:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6944588d1c508c5d5edead50",
+          "products": [
+            {
+              "_id": "6944588e1c508c5d5edead7c",
+              "name": "Chicken7570",
+              "amount": 73,
+              "price": 16932,
+              "manufacturer": "Google",
+              "notes": "HmBHtdX09csHhOxIsWfCs9OmGqWDQz9GXxJvWNliOdMgsJM9YhMOW0mXMu2rrey86rzgipJAgj4HXzIOJW8x85V4SPrKRqGOM8yo4v41hrkBiwqfr6I6HaBKVLiCYdZQkZPTwpJNDAceSunLK61dp9aC6AzVjwQjDCZevre35lZmTKqGRyMTbObaBL5lSTEwC5vw634gBsofgYfiWEEDgLdnf0pDN4QqDCgQY8qotzmEfcvqXwaY2v1I5E",
+              "received": false
+            }
+          ],
+          "total_price": 16932,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "The Villages",
+              "street": "Vicarage Road",
+              "house": 10,
+              "flat": 375
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-18T19:40:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944588d1c508c5d5edead50",
+          "products": [
+            {
+              "_id": "6944588e1c508c5d5edead7c",
+              "name": "Chicken7570",
+              "amount": 73,
+              "price": 16932,
+              "manufacturer": "Google",
+              "notes": "HmBHtdX09csHhOxIsWfCs9OmGqWDQz9GXxJvWNliOdMgsJM9YhMOW0mXMu2rrey86rzgipJAgj4HXzIOJW8x85V4SPrKRqGOM8yo4v41hrkBiwqfr6I6HaBKVLiCYdZQkZPTwpJNDAceSunLK61dp9aC6AzVjwQjDCZevre35lZmTKqGRyMTbObaBL5lSTEwC5vw634gBsofgYfiWEEDgLdnf0pDN4QqDCgQY8qotzmEfcvqXwaY2v1I5E",
+              "received": false
+            }
+          ],
+          "total_price": 16932,
+          "delivery": null,
+          "changedOn": "2025-12-18T19:39:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
