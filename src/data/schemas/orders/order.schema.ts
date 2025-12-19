@@ -50,13 +50,7 @@ export const orderSchema = {
 			items: historySchema,
 		},
 		assignedManager: {
-			oneOf: [
-				{
-					type: "array",
-					items: assignedManagerSchema,
-				},
-				{ type: "null" },
-			],
+			oneOf: [assignedManagerSchema, { type: "null" }],
 		},
 	},
 	required: [
@@ -109,13 +103,7 @@ export const orderSchemaWithCustomerData = {
 			items: historySchema,
 		},
 		assignedManager: {
-			oneOf: [
-				{
-					type: "array",
-					items: assignedManagerSchema,
-				},
-				{ type: "null" },
-			],
+			oneOf: [assignedManagerSchema, { type: "null" }],
 		},
 	},
 	required: [
