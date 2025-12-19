@@ -28,14 +28,7 @@ export const orderSchema = {
 			items: productForOrdersSchema,
 		},
 		delivery: {
-			oneOf: [
-				deliverySchema,
-				{
-					type: "object",
-					items: deliverySchema,
-				},
-				{ type: "null" },
-			],
+			oneOf: [deliverySchema, { type: "null" }],
 		},
 		total_price: {
 			type: "number",
@@ -94,13 +87,7 @@ export const orderSchemaWithCustomerData = {
 			items: productForOrdersSchema,
 		},
 		delivery: {
-			oneOf: [
-				{
-					type: "object",
-					items: deliverySchema,
-				},
-				{ type: "null" },
-			],
+			oneOf: [deliverySchema, { type: "null" }],
 		},
 		total_price: {
 			type: "number",
@@ -124,7 +111,7 @@ export const orderSchemaWithCustomerData = {
 		assignedManager: {
 			oneOf: [
 				{
-					type: "object",
+					type: "array",
 					items: assignedManagerSchema,
 				},
 				{ type: "null" },
