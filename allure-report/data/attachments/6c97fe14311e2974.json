@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:16:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3867",
+    "etag": "W/\"f1b-JRiU7kOnIxlffno8H3dBAo7NdkI\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6945ced51c508c5d5ee4a7a0",
+      "status": "Draft",
+      "customer": {
+        "_id": "6945ced41c508c5d5ee4a701",
+        "email": "Darron99@hotmail.com",
+        "name": "Javier Hintz",
+        "country": "Belarus",
+        "city": "Yuma",
+        "street": "Liza Parks",
+        "house": 49,
+        "flat": 862,
+        "phone": "+17914533187",
+        "createdOn": "2025-12-19T22:16:52.000Z",
+        "notes": "PvPQ8PMsRflVcU385345d0ZwlW5HDp6ZNeHs38ZsFnif78GoNbf5kXsdat9XZZ4RRKTfCT6VYDBKZ6UzuQYAolGxHAdJuYHmKQwnQuVzKSSgVstTCEwwZ0fUu9oabqlXhoXeFUpvZ9Vc67m80ETvmmRewBjf9xlBNjKtfrIbOtlZnYR94XM2dKuNntUZJ2tROCp2PzER0D9Apmx73zGcOK720cJhuA0vJ6JJL4w39tLswF22WxSYHEWEpA"
+      },
+      "products": [
+        {
+          "_id": "6945ced51c508c5d5ee4a78e",
+          "name": "Computer95903",
+          "amount": 626,
+          "price": 17333,
+          "manufacturer": "Google",
+          "notes": "aceIoxuJZRVYTJ8uatuqCPccm1qjmLOXJj1MV3hDXxGzgGlX01ObUQVHWBMs1okLNFYney6YsZPZARlrEH9xabvcJWrR58OW2wzDMqUq2FzVXH3DpI3fhO0UjdbUopoeeH0VOLHsqC5uamLO49Y0Iuj8mWMv0eYcdMwvbWNZNm6qkwpzC7nAErNRHoH6BzYrd83r4rcoEzj932DZXUyQn45JfZc0juDe6qn5v7b7omk2XZ4u0bY06itwsZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 17333,
+      "createdOn": "2025-12-19T22:16:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945ced41c508c5d5ee4a701",
+          "products": [
+            {
+              "_id": "6945ced51c508c5d5ee4a78e",
+              "name": "Computer95903",
+              "amount": 626,
+              "price": 17333,
+              "manufacturer": "Google",
+              "notes": "aceIoxuJZRVYTJ8uatuqCPccm1qjmLOXJj1MV3hDXxGzgGlX01ObUQVHWBMs1okLNFYney6YsZPZARlrEH9xabvcJWrR58OW2wzDMqUq2FzVXH3DpI3fhO0UjdbUopoeeH0VOLHsqC5uamLO49Y0Iuj8mWMv0eYcdMwvbWNZNm6qkwpzC7nAErNRHoH6BzYrd83r4rcoEzj932DZXUyQn45JfZc0juDe6qn5v7b7omk2XZ4u0bY06itwsZ",
+              "received": false
+            }
+          ],
+          "total_price": 17333,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:16:54.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6945ced41c508c5d5ee4a701",
+          "products": [
+            {
+              "_id": "6945ced51c508c5d5ee4a78e",
+              "name": "Computer95903",
+              "amount": 626,
+              "price": 17333,
+              "manufacturer": "Google",
+              "notes": "aceIoxuJZRVYTJ8uatuqCPccm1qjmLOXJj1MV3hDXxGzgGlX01ObUQVHWBMs1okLNFYney6YsZPZARlrEH9xabvcJWrR58OW2wzDMqUq2FzVXH3DpI3fhO0UjdbUopoeeH0VOLHsqC5uamLO49Y0Iuj8mWMv0eYcdMwvbWNZNm6qkwpzC7nAErNRHoH6BzYrd83r4rcoEzj932DZXUyQn45JfZc0juDe6qn5v7b7omk2XZ4u0bY06itwsZ",
+              "received": false
+            }
+          ],
+          "total_price": 17333,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:16:54.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6945ced41c508c5d5ee4a701",
+          "products": [
+            {
+              "_id": "6945ced51c508c5d5ee4a78e",
+              "name": "Computer95903",
+              "amount": 626,
+              "price": 17333,
+              "manufacturer": "Google",
+              "notes": "aceIoxuJZRVYTJ8uatuqCPccm1qjmLOXJj1MV3hDXxGzgGlX01ObUQVHWBMs1okLNFYney6YsZPZARlrEH9xabvcJWrR58OW2wzDMqUq2FzVXH3DpI3fhO0UjdbUopoeeH0VOLHsqC5uamLO49Y0Iuj8mWMv0eYcdMwvbWNZNm6qkwpzC7nAErNRHoH6BzYrd83r4rcoEzj932DZXUyQn45JfZc0juDe6qn5v7b7omk2XZ4u0bY06itwsZ",
+              "received": false
+            }
+          ],
+          "total_price": 17333,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:16:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

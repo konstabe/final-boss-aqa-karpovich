@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:16:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-303E6Ptf6aQOdfAPbkL7M6pu6r0\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6945ced91c508c5d5ee4aa27",
+        "email": "Bryon13@gmail.com",
+        "name": "Richie Kassulke",
+        "country": "France",
+        "city": "Larkinville",
+        "street": "Cummings Points",
+        "house": 6,
+        "flat": 900,
+        "phone": "+14804879790",
+        "createdOn": "2025-12-19T22:16:57.000Z",
+        "notes": "330JFZiD5Ev7EQ8XVBHkmbnKU0gvAAoaFy8fXYAEXEl2yOuSvHfGaTfMv6NN7Yv6EtcNXU1MqWED7f4QsassxYsZp7EZF9wD8NL2IPEGaSOEbmqx6oo01SoMawexiIbSbqmdrmU4D6rqKVDDi70J1ovDJAGs3rrQFgAtca65URU0atTvZW59f2Je6Anq21X8iEHsiY4ezAoZXYNq32rLVco4mRasXmR5IriliOcxn0Uq2HzGUuFszAylkq"
+      },
+      "products": [
+        {
+          "_id": "6945ced91c508c5d5ee4aa50",
+          "name": "Shirt91520",
+          "amount": 626,
+          "price": 62395,
+          "manufacturer": "Google",
+          "notes": "a61PjHOisBA5scs1uW8HhXjqKsCm6OJyMGKB76lrbIpo9G4hEX370km8NIim69Z9USXD2wwYHspo7tyo7GfXesl5r492QvTo1oX5efvaouaOSyM9ZVDSWseibucJsKrY1YA1sAsdEnwE5WyWBAEvR17cK3kZrzs6NakVHfY0TPugqBImkH6FiXFbysfzJBbyxsaM3gAWZ6W4XpKXkJaLzkzlunzR5BzyxXX9JutosMVWKmxzCI0gbSHiVu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 62395,
+      "createdOn": "2025-12-19T22:16:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945ced91c508c5d5ee4aa27",
+          "products": [
+            {
+              "_id": "6945ced91c508c5d5ee4aa50",
+              "name": "Shirt91520",
+              "amount": 626,
+              "price": 62395,
+              "manufacturer": "Google",
+              "notes": "a61PjHOisBA5scs1uW8HhXjqKsCm6OJyMGKB76lrbIpo9G4hEX370km8NIim69Z9USXD2wwYHspo7tyo7GfXesl5r492QvTo1oX5efvaouaOSyM9ZVDSWseibucJsKrY1YA1sAsdEnwE5WyWBAEvR17cK3kZrzs6NakVHfY0TPugqBImkH6FiXFbysfzJBbyxsaM3gAWZ6W4XpKXkJaLzkzlunzR5BzyxXX9JutosMVWKmxzCI0gbSHiVu",
+              "received": false
+            }
+          ],
+          "total_price": 62395,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:16:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6945ceda1c508c5d5ee4aa78"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

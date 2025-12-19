@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:17:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2816",
+    "etag": "W/\"b00-PXYMJOfhQbi1nBXMC+freAyPBhE\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6945cee01c508c5d5ee4adf1",
+      "status": "Draft",
+      "customer": {
+        "_id": "6945cedd1c508c5d5ee4ac01",
+        "email": "Jacklyn.Crooks69@yahoo.com",
+        "name": "Deshaun Schulist",
+        "country": "Germany",
+        "city": "Moore",
+        "street": "Schmitt Mill",
+        "house": 33,
+        "flat": 252,
+        "phone": "+15642352614",
+        "createdOn": "2025-12-19T22:17:01.000Z",
+        "notes": "Eb50OyKxQ2meO4Vs3C0s65dDjqdl26KGbR5ZAdNPHYqcJdwSxKSthqMKxXjVtqRduEdm6sY3kTCDRksTrcckl1OsKwn2jzi3Hd7fOvMZ7l4NXVHypFWWouOLbAlny0WYTkKGNX5xahy4ToLpFptMYllxbq0LvJ18fzvNoxBhdosrV6fxBdW103IdHss9C6EZLv7wjRwUYPiW1ygvrCUeH5QTTMjLIJjw2T1yq1CJl022R2OhicFRGXim6i"
+      },
+      "products": [
+        {
+          "_id": "6945cedf1c508c5d5ee4ad92",
+          "name": "Towels66818",
+          "amount": 416,
+          "price": 79343,
+          "manufacturer": "Tesla",
+          "notes": "1GEoOfL36RPkt3yVEtsmVpwhzFWm3zO4zwFKcvFFPqO5eiGnBxp1cOcwyL7WZgHdEjvLaa2gctzpYOd2KNkvkdd9OyZB5P2R2hyucQWFnOOkGlsUkaXdr4EFrOp3o9XSToQlfIcga6HtvBJvZJNgLo0zs8bdG7aeITM9K5HQPd6GihasYMWnfCEiWXyH3GtCsSh3IcuMoFAf1QE1TGs01masBt8kvDZxr0NFIjqH1YSSN3fWtrhME0glqw",
+          "received": false
+        },
+        {
+          "_id": "6945cedf1c508c5d5ee4adad",
+          "name": "Pants13073",
+          "amount": 49,
+          "price": 38262,
+          "manufacturer": "Microsoft",
+          "notes": "ju1poC3r3CEuoUkMZQU4FbEHxqQjwAlBa3D4E5F2LXacUV0xuGCKYr4QOp1bTDrrRpRxJGkjELk6DAEv5RmXS0wm7TB9R8C9NPHBOizjnzm7zBc8vlsAPlolT5bCazZW4ZrhTvUPW03LUdtRwKQPNqZ610uMW8Lnzlnt0yHpFX6WMC2I1f11kKk1CbQd5qJQo5qbymxylFab9xwcKZuTLdbnxtV563sCjMwq1jRGuoymYNQu0pm8uZvOR2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 117605,
+      "createdOn": "2025-12-19T22:17:04.000Z",
+      "comments": [
+        {
+          "text": "u7M0dycB4vGsIWQ2zb2wyCDtCk1OfzsS4YwtiHC63O4qTmAy2WoAeVL8PiVgs9g2C2MCXIVDtHu",
+          "createdOn": "2025-12-19T22:17:05.000Z",
+          "_id": "6945cee11c508c5d5ee4aea7"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945cedd1c508c5d5ee4ac01",
+          "products": [
+            {
+              "_id": "6945cedf1c508c5d5ee4ad92",
+              "name": "Towels66818",
+              "amount": 416,
+              "price": 79343,
+              "manufacturer": "Tesla",
+              "notes": "1GEoOfL36RPkt3yVEtsmVpwhzFWm3zO4zwFKcvFFPqO5eiGnBxp1cOcwyL7WZgHdEjvLaa2gctzpYOd2KNkvkdd9OyZB5P2R2hyucQWFnOOkGlsUkaXdr4EFrOp3o9XSToQlfIcga6HtvBJvZJNgLo0zs8bdG7aeITM9K5HQPd6GihasYMWnfCEiWXyH3GtCsSh3IcuMoFAf1QE1TGs01masBt8kvDZxr0NFIjqH1YSSN3fWtrhME0glqw",
+              "received": false
+            },
+            {
+              "_id": "6945cedf1c508c5d5ee4adad",
+              "name": "Pants13073",
+              "amount": 49,
+              "price": 38262,
+              "manufacturer": "Microsoft",
+              "notes": "ju1poC3r3CEuoUkMZQU4FbEHxqQjwAlBa3D4E5F2LXacUV0xuGCKYr4QOp1bTDrrRpRxJGkjELk6DAEv5RmXS0wm7TB9R8C9NPHBOizjnzm7zBc8vlsAPlolT5bCazZW4ZrhTvUPW03LUdtRwKQPNqZ610uMW8Lnzlnt0yHpFX6WMC2I1f11kKk1CbQd5qJQo5qbymxylFab9xwcKZuTLdbnxtV563sCjMwq1jRGuoymYNQu0pm8uZvOR2",
+              "received": false
+            }
+          ],
+          "total_price": 117605,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:17:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:17:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2963",
+    "etag": "W/\"b93-JPv9PsU8d4DCpH3t6fBrVLbjIPY\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6945cef81c508c5d5ee4bdd1",
+      "status": "Draft",
+      "customer": {
+        "_id": "6945cef41c508c5d5ee4bb19",
+        "email": "Ila_Stracke@hotmail.com",
+        "name": "Elfrieda Hauck",
+        "country": "Great Britain",
+        "city": "Teresashire",
+        "street": "Dark Lane",
+        "house": 4,
+        "flat": 654,
+        "phone": "+18996880240",
+        "createdOn": "2025-12-19T22:17:24.000Z",
+        "notes": "AHBDaWytxpbZvd8NCqEXYrsdmfOUOiGzzynLZNlbMhb3pPkvInDLy9etre5burfPzoFrzxaM5pm5sfHT998sd6ZNg85PMJF5KCxpZupt8xDbWval6wM33gBm0nzeRIs0FJiLjkFZW142huYSOhxLZRQvrDNAarYbqSrLdzvndiobRofBuGjd5zoBGhgeIL4pRePq2epV1RXYO3vRtAVh2C3SvkyEnxEqWbksoHhbIPDHOQr24mR1tmQ81s"
+      },
+      "products": [
+        {
+          "_id": "6945cef71c508c5d5ee4bd93",
+          "name": "Mouse95421",
+          "amount": 919,
+          "price": 71101,
+          "manufacturer": "Samsung",
+          "notes": "WCC89btOFipgsVzCm0QcOIwi0c0qvvQSpWj9KPvkEb1NR31PUoPWqqzxY4hK7msUtH6Pa5xzeeVdCZCMYcBJ62cV7vnIqt2hPprA33Yty8RiccDvcq2OCGe73Ehl86sEOsTBTQJTrbsOxWDpdDACmZAsxIn81xwYCevK7IJjdxJTYmQ7lJnOF7Dpb7zpgjc6oZxgSZ1ixw0p063zMVqFoxrO1OobTjyan6rI7BmFsBaLEKVrFlCJcvBMNG",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Teresashire",
+          "street": "Dark Lane",
+          "house": 4,
+          "flat": 654
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 71101,
+      "createdOn": "2025-12-19T22:17:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945cef41c508c5d5ee4bb19",
+          "products": [
+            {
+              "_id": "6945cef71c508c5d5ee4bd93",
+              "name": "Mouse95421",
+              "amount": 919,
+              "price": 71101,
+              "manufacturer": "Samsung",
+              "notes": "WCC89btOFipgsVzCm0QcOIwi0c0qvvQSpWj9KPvkEb1NR31PUoPWqqzxY4hK7msUtH6Pa5xzeeVdCZCMYcBJ62cV7vnIqt2hPprA33Yty8RiccDvcq2OCGe73Ehl86sEOsTBTQJTrbsOxWDpdDACmZAsxIn81xwYCevK7IJjdxJTYmQ7lJnOF7Dpb7zpgjc6oZxgSZ1ixw0p063zMVqFoxrO1OobTjyan6rI7BmFsBaLEKVrFlCJcvBMNG",
+              "received": false
+            }
+          ],
+          "total_price": 71101,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Teresashire",
+              "street": "Dark Lane",
+              "house": 4,
+              "flat": 654
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-19T22:17:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6945cef41c508c5d5ee4bb19",
+          "products": [
+            {
+              "_id": "6945cef71c508c5d5ee4bd93",
+              "name": "Mouse95421",
+              "amount": 919,
+              "price": 71101,
+              "manufacturer": "Samsung",
+              "notes": "WCC89btOFipgsVzCm0QcOIwi0c0qvvQSpWj9KPvkEb1NR31PUoPWqqzxY4hK7msUtH6Pa5xzeeVdCZCMYcBJ62cV7vnIqt2hPprA33Yty8RiccDvcq2OCGe73Ehl86sEOsTBTQJTrbsOxWDpdDACmZAsxIn81xwYCevK7IJjdxJTYmQ7lJnOF7Dpb7zpgjc6oZxgSZ1ixw0p063zMVqFoxrO1OobTjyan6rI7BmFsBaLEKVrFlCJcvBMNG",
+              "received": false
+            }
+          ],
+          "total_price": 71101,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:17:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

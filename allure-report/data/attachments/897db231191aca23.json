@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:16:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1900",
+    "etag": "W/\"76c-wtGtUqc+RaTZdpYW/1gdHfXJuYM\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6945ced51c508c5d5ee4a7ab",
+        "email": "Velda_Deckow@gmail.com",
+        "name": "Madelyn Mante",
+        "country": "Russia",
+        "city": "New Christopher",
+        "street": "Giovanna Knolls",
+        "house": 7,
+        "flat": 830,
+        "phone": "+16665192679",
+        "createdOn": "2025-12-19T22:16:53.000Z",
+        "notes": "AwLYfCs2vqqIwzC0t4rasDf7suO0iDTgqxmXWZuEYbqd8l3fkMlWpFmKXbquiFxTI95C5intLKttCe8Ocal70l9tH1PpluYLOukX5CiiL3GZC9VVAEp04Nt8ig7sgEp8pwg1ElQltaQAaGWiRX0hOx46fib98PYbdpXGkXLmuDQgBYZ5Mtxwi9adgIkXfsIAlXZttkbb2kgjxwEYpNhhtL5gB88dAlkt1xwc8P469JERZeYuXatrO8athy"
+      },
+      "products": [
+        {
+          "_id": "6945ced61c508c5d5ee4a7d0",
+          "name": "Computer48346",
+          "amount": 133,
+          "price": 56575,
+          "manufacturer": "Microsoft",
+          "notes": "4jScdWk5rGqvvcxvsUp7DNncNhQRC63aPvnkMevslhsSPD6DD467R8E54IzDWxYEppK4bcUrGBweyF02nWNmod9TlFYVkC0rIoUsZzFThtMBEtpTqAqyJow0EJhXXPO1HNWIFGHvvmnEFERhJogaAQGhPtr1PqNDMqi6BgntkHt2jeoXyGgINPiGQT8DiHafUMWnxcVmFadjtFWelj8Mw2jhFOOFw8CzEOiYsR1vncAIy2f4cweqQodKjI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 56575,
+      "createdOn": "2025-12-19T22:16:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945ced51c508c5d5ee4a7ab",
+          "products": [
+            {
+              "_id": "6945ced61c508c5d5ee4a7d0",
+              "name": "Computer48346",
+              "amount": 133,
+              "price": 56575,
+              "manufacturer": "Microsoft",
+              "notes": "4jScdWk5rGqvvcxvsUp7DNncNhQRC63aPvnkMevslhsSPD6DD467R8E54IzDWxYEppK4bcUrGBweyF02nWNmod9TlFYVkC0rIoUsZzFThtMBEtpTqAqyJow0EJhXXPO1HNWIFGHvvmnEFERhJogaAQGhPtr1PqNDMqi6BgntkHt2jeoXyGgINPiGQT8DiHafUMWnxcVmFadjtFWelj8Mw2jhFOOFw8CzEOiYsR1vncAIy2f4cweqQodKjI",
+              "received": false
+            }
+          ],
+          "total_price": 56575,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:16:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6945ced61c508c5d5ee4a809"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

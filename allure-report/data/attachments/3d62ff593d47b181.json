@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:17:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5480",
+    "etag": "W/\"1568-l2P98oOvXr9Dvwq5BTYMX6cmEgs\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6945cf131c508c5d5ee4cfaf",
+      "status": "In Process",
+      "customer": {
+        "_id": "6945cf0f1c508c5d5ee4cd3f",
+        "email": "Elyse.Becker84@yahoo.com",
+        "name": "Narciso Lehner",
+        "country": "Great Britain",
+        "city": "Fort Lauderdale",
+        "street": "Marilyne Estate",
+        "house": 9,
+        "flat": 921,
+        "phone": "+18578838763",
+        "createdOn": "2025-12-19T22:17:51.000Z",
+        "notes": "KkbN1662NWirLPZ1i7saU3C6VyAB34JIhLVFzOcS8dU7PhkQCwG1YQ8veZdHNXSjhhf22uAEISdKFOTFcPJIr3uhZpJbuF6tDHaG6DdDBCzamUTqXhWABoXLTliwHNctuPDORmPdCKofc6qZA8Ur1tyGFlnp7mnPVs0Sc43Tkl6Wb42rggrXsBhSptaWpWUcoP23gHZP9ldvfXEbWFsnQFUpIuxQRK3ozKPcgUBvIMxqwatYi8JBfTdZPZ"
+      },
+      "products": [
+        {
+          "_id": "6945cf111c508c5d5ee4cedb",
+          "name": "Chicken57481",
+          "amount": 894,
+          "price": 62853,
+          "manufacturer": "Microsoft",
+          "notes": "ojsZoWclHCrqnRPqLbivFhcdVdY8N8RLQwHrsqoKybqw5f69LM2uTphPSUeyHDagHaVjl5FOduikfKQpOSMoFFSHexHt09YB8WGzWdhZZI3F1o5oqjqDBBSM348MnJi3Vv3jeDyCvyDA4rZECJx1as6LyhfuoQ1IOgyb0oaPyNv05pynfF5EKGxwM7i6Tt9s43izEPbexgAUNdnnJnxSGnlciW9dxAO0fGgTNGNZjeSLPrBkNvpYSDI7VX",
+          "received": false
+        },
+        {
+          "_id": "6945cf121c508c5d5ee4cefb",
+          "name": "Bike65773",
+          "amount": 634,
+          "price": 35565,
+          "manufacturer": "Apple",
+          "notes": "IgAqkLkTPSrfOQQaaf4HTiecZSQNCOytp1I0dllTN8VinZU0HHZ8qLdKS6k5MKQeOqffhZ7a0ffn4zwX4Yu0YLM54TSWHE1lL16DENMbcGKMP1Zn6IZLmi7w7i2tRNJ9nmpfO0rlBuCUzYWKjTOA4FFevKRSIYwQCszT6PBqY18zIfBcGO9h5XMQdjYyCzK4ugdoR8jm52jKTJ96ugnMVHPTFy6WnpIjFTOv0R0DObGrdKBfyOdijCfchO",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Fort Lauderdale",
+          "street": "Marilyne Estate",
+          "house": 9,
+          "flat": 921
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 98418,
+      "createdOn": "2025-12-19T22:17:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6945cf0f1c508c5d5ee4cd3f",
+          "products": [
+            {
+              "_id": "6945cf111c508c5d5ee4cedb",
+              "name": "Chicken57481",
+              "amount": 894,
+              "price": 62853,
+              "manufacturer": "Microsoft",
+              "notes": "ojsZoWclHCrqnRPqLbivFhcdVdY8N8RLQwHrsqoKybqw5f69LM2uTphPSUeyHDagHaVjl5FOduikfKQpOSMoFFSHexHt09YB8WGzWdhZZI3F1o5oqjqDBBSM348MnJi3Vv3jeDyCvyDA4rZECJx1as6LyhfuoQ1IOgyb0oaPyNv05pynfF5EKGxwM7i6Tt9s43izEPbexgAUNdnnJnxSGnlciW9dxAO0fGgTNGNZjeSLPrBkNvpYSDI7VX",
+              "received": false
+            },
+            {
+              "_id": "6945cf121c508c5d5ee4cefb",
+              "name": "Bike65773",
+              "amount": 634,
+              "price": 35565,
+              "manufacturer": "Apple",
+              "notes": "IgAqkLkTPSrfOQQaaf4HTiecZSQNCOytp1I0dllTN8VinZU0HHZ8qLdKS6k5MKQeOqffhZ7a0ffn4zwX4Yu0YLM54TSWHE1lL16DENMbcGKMP1Zn6IZLmi7w7i2tRNJ9nmpfO0rlBuCUzYWKjTOA4FFevKRSIYwQCszT6PBqY18zIfBcGO9h5XMQdjYyCzK4ugdoR8jm52jKTJ96ugnMVHPTFy6WnpIjFTOv0R0DObGrdKBfyOdijCfchO",
+              "received": false
+            }
+          ],
+          "total_price": 98418,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Lauderdale",
+              "street": "Marilyne Estate",
+              "house": 9,
+              "flat": 921
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-19T22:17:57.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6945cf0f1c508c5d5ee4cd3f",
+          "products": [
+            {
+              "_id": "6945cf111c508c5d5ee4cedb",
+              "name": "Chicken57481",
+              "amount": 894,
+              "price": 62853,
+              "manufacturer": "Microsoft",
+              "notes": "ojsZoWclHCrqnRPqLbivFhcdVdY8N8RLQwHrsqoKybqw5f69LM2uTphPSUeyHDagHaVjl5FOduikfKQpOSMoFFSHexHt09YB8WGzWdhZZI3F1o5oqjqDBBSM348MnJi3Vv3jeDyCvyDA4rZECJx1as6LyhfuoQ1IOgyb0oaPyNv05pynfF5EKGxwM7i6Tt9s43izEPbexgAUNdnnJnxSGnlciW9dxAO0fGgTNGNZjeSLPrBkNvpYSDI7VX",
+              "received": false
+            },
+            {
+              "_id": "6945cf121c508c5d5ee4cefb",
+              "name": "Bike65773",
+              "amount": 634,
+              "price": 35565,
+              "manufacturer": "Apple",
+              "notes": "IgAqkLkTPSrfOQQaaf4HTiecZSQNCOytp1I0dllTN8VinZU0HHZ8qLdKS6k5MKQeOqffhZ7a0ffn4zwX4Yu0YLM54TSWHE1lL16DENMbcGKMP1Zn6IZLmi7w7i2tRNJ9nmpfO0rlBuCUzYWKjTOA4FFevKRSIYwQCszT6PBqY18zIfBcGO9h5XMQdjYyCzK4ugdoR8jm52jKTJ96ugnMVHPTFy6WnpIjFTOv0R0DObGrdKBfyOdijCfchO",
+              "received": false
+            }
+          ],
+          "total_price": 98418,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Lauderdale",
+              "street": "Marilyne Estate",
+              "house": 9,
+              "flat": 921
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-19T22:17:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6945cf0f1c508c5d5ee4cd3f",
+          "products": [
+            {
+              "_id": "6945cf111c508c5d5ee4cedb",
+              "name": "Chicken57481",
+              "amount": 894,
+              "price": 62853,
+              "manufacturer": "Microsoft",
+              "notes": "ojsZoWclHCrqnRPqLbivFhcdVdY8N8RLQwHrsqoKybqw5f69LM2uTphPSUeyHDagHaVjl5FOduikfKQpOSMoFFSHexHt09YB8WGzWdhZZI3F1o5oqjqDBBSM348MnJi3Vv3jeDyCvyDA4rZECJx1as6LyhfuoQ1IOgyb0oaPyNv05pynfF5EKGxwM7i6Tt9s43izEPbexgAUNdnnJnxSGnlciW9dxAO0fGgTNGNZjeSLPrBkNvpYSDI7VX",
+              "received": false
+            },
+            {
+              "_id": "6945cf121c508c5d5ee4cefb",
+              "name": "Bike65773",
+              "amount": 634,
+              "price": 35565,
+              "manufacturer": "Apple",
+              "notes": "IgAqkLkTPSrfOQQaaf4HTiecZSQNCOytp1I0dllTN8VinZU0HHZ8qLdKS6k5MKQeOqffhZ7a0ffn4zwX4Yu0YLM54TSWHE1lL16DENMbcGKMP1Zn6IZLmi7w7i2tRNJ9nmpfO0rlBuCUzYWKjTOA4FFevKRSIYwQCszT6PBqY18zIfBcGO9h5XMQdjYyCzK4ugdoR8jm52jKTJ96ugnMVHPTFy6WnpIjFTOv0R0DObGrdKBfyOdijCfchO",
+              "received": false
+            }
+          ],
+          "total_price": 98418,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:17:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

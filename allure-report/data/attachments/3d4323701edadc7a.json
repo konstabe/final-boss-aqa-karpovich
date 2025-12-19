@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:17:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-uZGAUZFkZW/bb6TSnfj20ecmvZA\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6945cee31c508c5d5ee4af84",
+        "email": "Raoul1@gmail.com",
+        "name": "Stacy MacGyver",
+        "country": "Germany",
+        "city": "Cristinastad",
+        "street": "Elvie Ridge",
+        "house": 10,
+        "flat": 459,
+        "phone": "+17246046641",
+        "createdOn": "2025-12-19T22:17:07.000Z",
+        "notes": "VjLosC0rR5JCgqL1g9HWbrBwdKuNUKlkGA0Ij06g2wn2Z1JtQYiIV6Mo2CtisZai91STfxf6ZSylXn0Ue65h3ZdGevkPNgkCtpFEij4tKkCLZ03jhJ3zRmW59p7smQYM4RPuQ3PsgRjES2bCf7AEICGdRiqR5nkCovG3KfYPblThClWzoURMF7W7bPLJANSfXAHs3ezFsb4eS1m9ycrioJ3vVE44tqiLEZecl3aIB5l1CnhVmbYdms8E45"
+      },
+      "products": [
+        {
+          "_id": "6945cee41c508c5d5ee4b027",
+          "name": "Pants86931",
+          "amount": 674,
+          "price": 2924,
+          "manufacturer": "Microsoft",
+          "notes": "sAtzaH4Kved9nstL3Zozbg5Ix5PFHUQG5euBL3iQet8dhTLxYLRpyY9DidSh0Vi9JoRt4kM93s0BPmgoDMwYMDmPsiDEz4rzhgwLWh1MuXhxXLC3izvK4fHPMrDJU6O4QeoAHDWSTXKPS3LUwey5yb3yEfnGCmeEdwmdxYfiD3kgeL14THmeYlCYwxOyADhWcUeBzT38RFzHUdkR7AbV3YzJEko5FCfJCqdUkvhvwXbTAV2jsc2BcmXt8D",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 2924,
+      "createdOn": "2025-12-19T22:17:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945cee31c508c5d5ee4af84",
+          "products": [
+            {
+              "_id": "6945cee41c508c5d5ee4b027",
+              "name": "Pants86931",
+              "amount": 674,
+              "price": 2924,
+              "manufacturer": "Microsoft",
+              "notes": "sAtzaH4Kved9nstL3Zozbg5Ix5PFHUQG5euBL3iQet8dhTLxYLRpyY9DidSh0Vi9JoRt4kM93s0BPmgoDMwYMDmPsiDEz4rzhgwLWh1MuXhxXLC3izvK4fHPMrDJU6O4QeoAHDWSTXKPS3LUwey5yb3yEfnGCmeEdwmdxYfiD3kgeL14THmeYlCYwxOyADhWcUeBzT38RFzHUdkR7AbV3YzJEko5FCfJCqdUkvhvwXbTAV2jsc2BcmXt8D",
+              "received": false
+            }
+          ],
+          "total_price": 2924,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:17:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6945cee41c508c5d5ee4b04d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

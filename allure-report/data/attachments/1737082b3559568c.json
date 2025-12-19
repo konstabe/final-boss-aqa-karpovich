@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:17:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1899",
+    "etag": "W/\"76b-I2FueUall/JO4cAqpfp7HvG+x/Q\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6945cee01c508c5d5ee4add3",
+        "email": "Gayle.Corkery-Bashirian@gmail.com",
+        "name": "Kristoffer Graham",
+        "country": "Great Britain",
+        "city": "Russelton",
+        "street": "Zora Avenue",
+        "house": 37,
+        "flat": 750,
+        "phone": "+15718773142",
+        "createdOn": "2025-12-19T22:17:04.000Z",
+        "notes": "uKnA51BueEC1PBUcelC2x3LELVHRn8iXZBXAsBIpHo1pYO3Xme2TZc7VIDfCD5jeMD0X0yHyoMDZQ4orqlGpIhG7zfE6s1gVvhWfddok3iPsnrX4ArnU7e0dFujljL31VkZ067TEiWqGcrSqyKXaLQCcw8rRdGpBv5djFLgtBP6UwerEgue5ItUGkhY735pQkpq4jjHYPKHDW8mbzg7Jmf4snS5OmU2nhnPggFlGc7NWl2whyQJVj1T4k4"
+      },
+      "products": [
+        {
+          "_id": "6945cee01c508c5d5ee4adfb",
+          "name": "Ball80457",
+          "amount": 282,
+          "price": 79163,
+          "manufacturer": "Amazon",
+          "notes": "SMqNR4QBSDsEfNgBjXm5h1GBtPE2yTILpU7yqWzYfucGBrDSGtpXQRSoux8z0B4Pmj7PfOGhMOSWYFa7gSfjVD8LkNnbsdRihnTSudgWf0Y0rqRcW9eU8L6qwWurZ0CeoDh2dqSp26oEdQTFLwE3C70Ag0MdbYpfdBm3y3vv0FUjRDvY1zaM4kBGQigoXTUW8SAIOBpRtq0jDeNK8fJNM3tM5mCZU4cxWDWRjPvcOPk3BRYoWX5q8IZoQE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 79163,
+      "createdOn": "2025-12-19T22:17:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945cee01c508c5d5ee4add3",
+          "products": [
+            {
+              "_id": "6945cee01c508c5d5ee4adfb",
+              "name": "Ball80457",
+              "amount": 282,
+              "price": 79163,
+              "manufacturer": "Amazon",
+              "notes": "SMqNR4QBSDsEfNgBjXm5h1GBtPE2yTILpU7yqWzYfucGBrDSGtpXQRSoux8z0B4Pmj7PfOGhMOSWYFa7gSfjVD8LkNnbsdRihnTSudgWf0Y0rqRcW9eU8L6qwWurZ0CeoDh2dqSp26oEdQTFLwE3C70Ag0MdbYpfdBm3y3vv0FUjRDvY1zaM4kBGQigoXTUW8SAIOBpRtq0jDeNK8fJNM3tM5mCZU4cxWDWRjPvcOPk3BRYoWX5q8IZoQE",
+              "received": false
+            }
+          ],
+          "total_price": 79163,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:17:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6945cee11c508c5d5ee4aea5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

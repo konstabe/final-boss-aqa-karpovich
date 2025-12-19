@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:16:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2653",
+    "etag": "W/\"a5d-NzCLninaScKuzjAeN+pqQ+Dxo5I\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6945ced51c508c5d5ee4a78a",
+        "email": "Devonte_Treutel44@hotmail.com",
+        "name": "Jeremy Raynor",
+        "country": "Belarus",
+        "city": "Lake Savannah",
+        "street": "Lake Avenue",
+        "house": 48,
+        "flat": 607,
+        "phone": "+13753721602",
+        "createdOn": "2025-12-19T22:16:53.000Z",
+        "notes": "sniD9T8gira5nv6Q7USaM5cNxSwkk0SsnNfLtJuhLubOLgH0dJ5qQNLvGkVPJfbkJ2ZG6vOhkyb5sjrL09oyo7jPOqTykYkT1V6mpuRG5kMPtNtJcKNWGxJwQ5IUlGtIVAqIrvbxvLrLJIXbTOTfS3WchpxUNLuPC37nRh3d4cx7Ji4ACnUWlEwx7wTWNQ71qbubMyNkEXwL67UD1Rf6ccqEYnD5VbHpxYPV9MFoWPZIhFP6CYQSdGjDzb"
+      },
+      "products": [
+        {
+          "_id": "6945ced51c508c5d5ee4a7a9",
+          "name": "Mouse41029",
+          "amount": 490,
+          "price": 13547,
+          "manufacturer": "Sony",
+          "notes": "quUE7sDwDfIENGJaF4BbHGLqNCxYu30TTjdlGNkdZC9IGtOkHUQgYWu0m6GdsJSNJo4FK9yPwyMiJOjSF8FBRDMzOoen3feS28mvUIH56QZ1dhNWz5295B170R3dGZzbI1Otnw1L6fzWUFIt5X8YXwuTIYny8EIOtBlrrMB4ff3zn08Qp0Lit41EzKEP3Ms7dk6wQz3mvIJ90XPJN75kaazZmHjiK6gjxPispCviwBRGUWcDbUYXWW7jLN",
+          "received": false
+        },
+        {
+          "_id": "6945ced61c508c5d5ee4a7cd",
+          "name": "Chips49495",
+          "amount": 348,
+          "price": 36259,
+          "manufacturer": "Apple",
+          "notes": "hmrOw4GdcT0JReJ7dRCIU1f5HFQFSOjjQSqfcjTcDRAmC2sDfzHmBofKLEGjI56IyWVJEOzKzIFAZLtkxuHuKIhJiQbaI9mY7t3GbMuofjt4oRbMFqWFA8E9O5DWIgoLAj0Lh2ddrwVxtocpIcK1kFgTeOM9EuueEGTGBU4l8ddkT1xq08IC9i7XegVlLCLLDnaV2mSI50qcc0KMxkkOMtSwt75MkQjSVR58jByJqFmdXM1PbyptlfFZtJ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 49806,
+      "createdOn": "2025-12-19T22:16:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945ced51c508c5d5ee4a78a",
+          "products": [
+            {
+              "_id": "6945ced51c508c5d5ee4a7a9",
+              "name": "Mouse41029",
+              "amount": 490,
+              "price": 13547,
+              "manufacturer": "Sony",
+              "notes": "quUE7sDwDfIENGJaF4BbHGLqNCxYu30TTjdlGNkdZC9IGtOkHUQgYWu0m6GdsJSNJo4FK9yPwyMiJOjSF8FBRDMzOoen3feS28mvUIH56QZ1dhNWz5295B170R3dGZzbI1Otnw1L6fzWUFIt5X8YXwuTIYny8EIOtBlrrMB4ff3zn08Qp0Lit41EzKEP3Ms7dk6wQz3mvIJ90XPJN75kaazZmHjiK6gjxPispCviwBRGUWcDbUYXWW7jLN",
+              "received": false
+            },
+            {
+              "_id": "6945ced61c508c5d5ee4a7cd",
+              "name": "Chips49495",
+              "amount": 348,
+              "price": 36259,
+              "manufacturer": "Apple",
+              "notes": "hmrOw4GdcT0JReJ7dRCIU1f5HFQFSOjjQSqfcjTcDRAmC2sDfzHmBofKLEGjI56IyWVJEOzKzIFAZLtkxuHuKIhJiQbaI9mY7t3GbMuofjt4oRbMFqWFA8E9O5DWIgoLAj0Lh2ddrwVxtocpIcK1kFgTeOM9EuueEGTGBU4l8ddkT1xq08IC9i7XegVlLCLLDnaV2mSI50qcc0KMxkkOMtSwt75MkQjSVR58jByJqFmdXM1PbyptlfFZtJ",
+              "received": false
+            }
+          ],
+          "total_price": 49806,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:16:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6945ced61c508c5d5ee4a811"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

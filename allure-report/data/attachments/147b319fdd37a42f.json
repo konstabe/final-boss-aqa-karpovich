@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:17:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1875",
+    "etag": "W/\"753-JU901ra0qMAgPsX1bMQq3wHgUpA\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6945cede1c508c5d5ee4ac9c",
+        "email": "Katrine10@gmail.com",
+        "name": "Jordy Hamill",
+        "country": "USA",
+        "city": "Metahaven",
+        "street": "Gutkowski Mill",
+        "house": 23,
+        "flat": 852,
+        "phone": "+14054688773",
+        "createdOn": "2025-12-19T22:17:02.000Z",
+        "notes": "A34nFGJ1HKYN70AYEEjiRiovKO44nF68Or8a6HEineDYGdcceZBTOIV6atdyHQDaPgDv1DaDH7JVsnC0uqYoV8LpWFD0kWgK6MKlce7iv0ifJRQEe1Y7ZHrgW7RC3G5q2jD3jgr5jBj0mKiCqzArrPsDqZYscwV0zQJziKklV3qTFVfvyrxVmzrlBwXVc6dLeieHb74piQysGfv7fV3R0BwgNACnNP8U9BIQowLT3GFaykCPp2vSxegBIg"
+      },
+      "products": [
+        {
+          "_id": "6945cedf1c508c5d5ee4ad9e",
+          "name": "Chair99708",
+          "amount": 223,
+          "price": 93212,
+          "manufacturer": "Amazon",
+          "notes": "seXM2YZzwGc8aI4hgjvrsZASMzwshbjb303cDcrmqcEULP7HSOBZ5oQUnSTV8AeQ5Aro7oDOT4aw52ZDHJDb4Md5iRBceS1m9ENcWoasIJZuqJSYYg3RLHHB1hTqLoLIxmqoadT18gfUxJTvg4ggoYRqVRg3V0tbkr3VpYGwqVE9gn1gaPQV0a9bmbrlzVgbB6n1g4D6lPdSBQVY7ZOzTVpf10PUqI1fd1GwDoDpYuWuiVrv30h31mLQoW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 93212,
+      "createdOn": "2025-12-19T22:17:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945cede1c508c5d5ee4ac9c",
+          "products": [
+            {
+              "_id": "6945cedf1c508c5d5ee4ad9e",
+              "name": "Chair99708",
+              "amount": 223,
+              "price": 93212,
+              "manufacturer": "Amazon",
+              "notes": "seXM2YZzwGc8aI4hgjvrsZASMzwshbjb303cDcrmqcEULP7HSOBZ5oQUnSTV8AeQ5Aro7oDOT4aw52ZDHJDb4Md5iRBceS1m9ENcWoasIJZuqJSYYg3RLHHB1hTqLoLIxmqoadT18gfUxJTvg4ggoYRqVRg3V0tbkr3VpYGwqVE9gn1gaPQV0a9bmbrlzVgbB6n1g4D6lPdSBQVY7ZOzTVpf10PUqI1fd1GwDoDpYuWuiVrv30h31mLQoW",
+              "received": false
+            }
+          ],
+          "total_price": 93212,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:17:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6945cedf1c508c5d5ee4adbc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

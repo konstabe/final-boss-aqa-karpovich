@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:17:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-2h5midERE0/ELaTwjE9gC4hxbSM\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6945cedb1c508c5d5ee4ab56",
+        "email": "Haven5@gmail.com",
+        "name": "Heloise Spencer",
+        "country": "Great Britain",
+        "city": "Marioshire",
+        "street": "Birdie Wall",
+        "house": 39,
+        "flat": 871,
+        "phone": "+19335871296",
+        "createdOn": "2025-12-19T22:16:59.000Z",
+        "notes": "cubluC3dIAIiti0oF6ahNUegTLhBwRRLc95vMPJs4oVRK90lq78AHogssnmwwGuo3dbvMT50vlxIwGUiYQuU4lXYo5tyaO3L4eRkBkh13OeUmzz1X6GwCFj2lj8ExMlc1dmOqeeCM5wTOfBmhuxdX6lLH0igyO7E7CVQVDWdY8J4CSgj0f4QWEgDCavQQF9l82FPTDSvAIBML7s5uPDmRzzrHwO04q2UXfJAED7twIwrGzqrzSupn4atSi"
+      },
+      "products": [
+        {
+          "_id": "6945cedc1c508c5d5ee4ab6d",
+          "name": "Pizza48626",
+          "amount": 39,
+          "price": 50701,
+          "manufacturer": "Apple",
+          "notes": "8pGsTJfq4YmPmFuVioluMi6yMZIV1eVPIk0gfXulr7MBKhP5eifge4sXbod6rnbKnAJlRLu5dlnwonJ5nNf4CfS6lngbuZUM7PwolnUXhuZh6LE3LsdyTQ3hkldgwxV2YHep0NSuAkEU7Q3ePEi2xYvukmXP3vGsnW8NPq3zJODMmf9mTqyQYHN3nFQ9l8h8tNCifpiwqJkt5O4e6DPZ82fLnkdCmBgWxbDzOs3YNYQHFCP6uYhGcJRrX3",
+          "received": false
+        },
+        {
+          "_id": "6945cedc1c508c5d5ee4ab84",
+          "name": "Table59582",
+          "amount": 731,
+          "price": 96613,
+          "manufacturer": "Amazon",
+          "notes": "GaPEWRNrXGdqleZOpcmgdtiFVwSSDY62iEqXpnqrATlipzoDgwdagir6kjkj5nhC8Z6ph5AUstN39qKlAIdm3xqLQJhQdATFZeSISRIJ3qWlIhwMEUlPnf3KGWMw1RlbwnaUIY90oldxe7fyvMG5WtHOcWWJCC7tLrCnsIfFA95MJi3JE1eoNVrXc34LYo4ip1q4CkhkLSCAXgkQrwh5kWSAVOoNwQWkLeLK1sOZ1GcDxKkKQn5Ea5mr6L",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 147314,
+      "createdOn": "2025-12-19T22:17:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945cedb1c508c5d5ee4ab56",
+          "products": [
+            {
+              "_id": "6945cedc1c508c5d5ee4ab6d",
+              "name": "Pizza48626",
+              "amount": 39,
+              "price": 50701,
+              "manufacturer": "Apple",
+              "notes": "8pGsTJfq4YmPmFuVioluMi6yMZIV1eVPIk0gfXulr7MBKhP5eifge4sXbod6rnbKnAJlRLu5dlnwonJ5nNf4CfS6lngbuZUM7PwolnUXhuZh6LE3LsdyTQ3hkldgwxV2YHep0NSuAkEU7Q3ePEi2xYvukmXP3vGsnW8NPq3zJODMmf9mTqyQYHN3nFQ9l8h8tNCifpiwqJkt5O4e6DPZ82fLnkdCmBgWxbDzOs3YNYQHFCP6uYhGcJRrX3",
+              "received": false
+            },
+            {
+              "_id": "6945cedc1c508c5d5ee4ab84",
+              "name": "Table59582",
+              "amount": 731,
+              "price": 96613,
+              "manufacturer": "Amazon",
+              "notes": "GaPEWRNrXGdqleZOpcmgdtiFVwSSDY62iEqXpnqrATlipzoDgwdagir6kjkj5nhC8Z6ph5AUstN39qKlAIdm3xqLQJhQdATFZeSISRIJ3qWlIhwMEUlPnf3KGWMw1RlbwnaUIY90oldxe7fyvMG5WtHOcWWJCC7tLrCnsIfFA95MJi3JE1eoNVrXc34LYo4ip1q4CkhkLSCAXgkQrwh5kWSAVOoNwQWkLeLK1sOZ1GcDxKkKQn5Ea5mr6L",
+              "received": false
+            }
+          ],
+          "total_price": 147314,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:17:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6945cedd1c508c5d5ee4ac10"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

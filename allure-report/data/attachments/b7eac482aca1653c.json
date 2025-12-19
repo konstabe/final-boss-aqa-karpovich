@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:16:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-qYR+ZQNjlCNoWJQFjAxor4ynM/M\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6945ceca1c508c5d5ee4a23e",
+        "email": "Claud71@yahoo.com",
+        "name": "Jeramy Bergstrom",
+        "country": "Canada",
+        "city": "Port Donnie",
+        "street": "St Andrews Close",
+        "house": 22,
+        "flat": 954,
+        "phone": "+16009195858",
+        "createdOn": "2025-12-19T22:16:42.000Z",
+        "notes": "7dWoKUDaYMzDFfsYHBF744oWx8VO7mzZQVQWXbLFFFqjPQCt8fhxElBz92Y3NCbgr8nOfXDQS8IBiEXM8eo4BiZkymoowblhKRxJcDdnvFpeH8XyZJEu5oxZ4dCSTmYNk8E6yw6wklzvuzBnrZFYFdKbN5yRqvijIpmlFJkO53ZoRNNxl5FsMLZXED5M3eGWrBsj1N6YhKFt0D5QNzVrEjrU0uRjS85kwFEYey26Bq4sy4d3hoTDO3diSd"
+      },
+      "products": [
+        {
+          "_id": "6945ceca1c508c5d5ee4a26c",
+          "name": "Fish88907",
+          "amount": 289,
+          "price": 34176,
+          "manufacturer": "Google",
+          "notes": "spyBS7i7T7xTSwhRk3rMXTqbuxgfPBL99Vd0rWOMkQ01p8UlNBM9QsCily39aBAGnNHieHnh4cpQjqegPYZcNNJS1w6PcTfaMPOt7lmYO9TJzVRulp0cs47AdslbMJibOxus2SfDs3941ELYtht8dGNEfvhiRa4evTQvqfnKHMTKrr25srxbn2e9Uwk9Q1sOQEYkkqPw2BaczikEjxI76sl1tJJZHvNx6ql27pYjwqW5QFoQKyak0nJq86",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 34176,
+      "createdOn": "2025-12-19T22:16:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945ceca1c508c5d5ee4a23e",
+          "products": [
+            {
+              "_id": "6945ceca1c508c5d5ee4a26c",
+              "name": "Fish88907",
+              "amount": 289,
+              "price": 34176,
+              "manufacturer": "Google",
+              "notes": "spyBS7i7T7xTSwhRk3rMXTqbuxgfPBL99Vd0rWOMkQ01p8UlNBM9QsCily39aBAGnNHieHnh4cpQjqegPYZcNNJS1w6PcTfaMPOt7lmYO9TJzVRulp0cs47AdslbMJibOxus2SfDs3941ELYtht8dGNEfvhiRa4evTQvqfnKHMTKrr25srxbn2e9Uwk9Q1sOQEYkkqPw2BaczikEjxI76sl1tJJZHvNx6ql27pYjwqW5QFoQKyak0nJq86",
+              "received": false
+            }
+          ],
+          "total_price": 34176,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:16:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6945ceca1c508c5d5ee4a29c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

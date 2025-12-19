@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:16:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1416",
+    "etag": "W/\"588-AcF7owBibHX/6rUlBOfQZ5R2Gew\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "6945ceca1c508c5d5ee4a278",
+        "status": "Draft",
+        "customer": "6945ceca1c508c5d5ee4a230",
+        "products": [
+          {
+            "_id": "6945ceca1c508c5d5ee4a25e",
+            "name": "Gloves17652",
+            "amount": 289,
+            "price": 59494,
+            "manufacturer": "Samsung",
+            "notes": "QurhMNmjDSQsVwa57vx7dYZNWM8svpInAetWbmGNh9n0475QLESQu2L7DGZHfGOIIPezm3ZQL4QHHgj4xpBSmV1y6x3DPeYX69EP0S0lUlX8cWgaMOueW5edZSH12EdXDV0P70m6G4E5I63wIjdxFPLWxIwfEIoeiUYLpqnA7XeE41q5JOUxQ8sUx9EGsZeRrm8fVe6cyu8Yuh2dV2ij7GWJnnn5EeJKLsugzoKrDWbc43PfuGwWuoSVdX",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 59494,
+        "createdOn": "2025-12-19T22:16:42.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "6945ceca1c508c5d5ee4a230",
+            "products": [
+              {
+                "_id": "6945ceca1c508c5d5ee4a25e",
+                "name": "Gloves17652",
+                "amount": 289,
+                "price": 59494,
+                "manufacturer": "Samsung",
+                "notes": "QurhMNmjDSQsVwa57vx7dYZNWM8svpInAetWbmGNh9n0475QLESQu2L7DGZHfGOIIPezm3ZQL4QHHgj4xpBSmV1y6x3DPeYX69EP0S0lUlX8cWgaMOueW5edZSH12EdXDV0P70m6G4E5I63wIjdxFPLWxIwfEIoeiUYLpqnA7XeE41q5JOUxQ8sUx9EGsZeRrm8fVe6cyu8Yuh2dV2ij7GWJnnn5EeJKLsugzoKrDWbc43PfuGwWuoSVdX",
+                "received": false
+              }
+            ],
+            "total_price": 59494,
+            "delivery": null,
+            "changedOn": "2025-12-19T22:16:42.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953315",
+              "username": "student2@gmail.com",
+              "firstName": "Wilfrid",
+              "lastName": "Daugherty",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

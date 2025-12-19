@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:17:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2941",
+    "etag": "W/\"b7d-pdFJRkNVKIvohPxMJ8qRBukoyWo\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6945cee01c508c5d5ee4ae06",
+      "status": "Draft",
+      "customer": {
+        "_id": "6945cedf1c508c5d5ee4adc3",
+        "email": "Alexane_Romaguera@gmail.com",
+        "name": "Jamil Hand",
+        "country": "USA",
+        "city": "Lake Juanaworth",
+        "street": "E 6th Street",
+        "house": 28,
+        "flat": 527,
+        "phone": "+18466076640",
+        "createdOn": "2025-12-19T22:17:03.000Z",
+        "notes": "cZuc3rtC3HTjDFguuXykRuCXKRMcORA1WWHthbCr0npq9bGTukEtjLUUuOwnZZuYKxXDycOUSvEydDcnqPcOV4RmwyKJNGeFOMept9eeZjkPXL7XNyRRO9c7PPlkXmyKm2XmYtvZOJFHnPKqhGshk0W3MqkZeX8xOssDLXpJcvdkw5g4favdjFCGtnfTI3xcHi1MhSLEpzgClmK72oIM3iejf8csNpcb0zD8WqCQuw3xqoEFhXzSXaS8WB"
+      },
+      "products": [
+        {
+          "_id": "6945cee01c508c5d5ee4addb",
+          "name": "Chips79041",
+          "amount": 499,
+          "price": 53859,
+          "manufacturer": "Apple",
+          "notes": "nDAFrF0HpLTg7SxCNm8ma37BjdsTjaZy5aFzbHbIBZwle872ugzS0b6Mp7uFogc8yImUz0GoaUS1iFz3fRdhZClM3M6QVUfJ5M090awQq8JrZ7RwiB2GbT8Qoul1eXDknGLzHi5Fdt4W3bRbqIzpFbacu2sM5ObaWJFi3a0NNvpBqxs3QzvcDGIl778h6uetNEpfJYIoGxBzXRyZpxGTKzyPbCHMPnbszRSVV2nou9gag0TpsJMQm0DaHr",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Findlay",
+          "street": "Darrin Club",
+          "house": 43,
+          "flat": 75
+        },
+        "finalDate": "2025-12-19T22:17:04.952Z",
+        "condition": "Delivery"
+      },
+      "total_price": 53859,
+      "createdOn": "2025-12-19T22:17:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945cedf1c508c5d5ee4adc3",
+          "products": [
+            {
+              "_id": "6945cee01c508c5d5ee4addb",
+              "name": "Chips79041",
+              "amount": 499,
+              "price": 53859,
+              "manufacturer": "Apple",
+              "notes": "nDAFrF0HpLTg7SxCNm8ma37BjdsTjaZy5aFzbHbIBZwle872ugzS0b6Mp7uFogc8yImUz0GoaUS1iFz3fRdhZClM3M6QVUfJ5M090awQq8JrZ7RwiB2GbT8Qoul1eXDknGLzHi5Fdt4W3bRbqIzpFbacu2sM5ObaWJFi3a0NNvpBqxs3QzvcDGIl778h6uetNEpfJYIoGxBzXRyZpxGTKzyPbCHMPnbszRSVV2nou9gag0TpsJMQm0DaHr",
+              "received": false
+            }
+          ],
+          "total_price": 53859,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Findlay",
+              "street": "Darrin Club",
+              "house": 43,
+              "flat": 75
+            },
+            "finalDate": "2025-12-19T22:17:04.952Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T22:17:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6945cedf1c508c5d5ee4adc3",
+          "products": [
+            {
+              "_id": "6945cee01c508c5d5ee4addb",
+              "name": "Chips79041",
+              "amount": 499,
+              "price": 53859,
+              "manufacturer": "Apple",
+              "notes": "nDAFrF0HpLTg7SxCNm8ma37BjdsTjaZy5aFzbHbIBZwle872ugzS0b6Mp7uFogc8yImUz0GoaUS1iFz3fRdhZClM3M6QVUfJ5M090awQq8JrZ7RwiB2GbT8Qoul1eXDknGLzHi5Fdt4W3bRbqIzpFbacu2sM5ObaWJFi3a0NNvpBqxs3QzvcDGIl778h6uetNEpfJYIoGxBzXRyZpxGTKzyPbCHMPnbszRSVV2nou9gag0TpsJMQm0DaHr",
+              "received": false
+            }
+          ],
+          "total_price": 53859,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:17:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:17:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3889",
+    "etag": "W/\"f31-5sL+6ztOpWEAbdvz0LSiP6ha5aQ\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6945cef01c508c5d5ee4b8c0",
+      "status": "In Process",
+      "customer": {
+        "_id": "6945ceec1c508c5d5ee4b6fb",
+        "email": "Norberto_Lind13@gmail.com",
+        "name": "Gerson Oberbrunner",
+        "country": "Russia",
+        "city": "Mitchellfort",
+        "street": "Rosalia Plains",
+        "house": 7,
+        "flat": 954,
+        "phone": "+15089139771",
+        "createdOn": "2025-12-19T22:17:16.000Z",
+        "notes": "GnHmaham2OATdjxqv6UZNnibGBOifJmkJGZMwhCdDdK0WkhawCcV3LIzfDExWYlwZNZr3kH8y9iNViRI2MyhibWsf4kBBdklvAzxNajwksB7wnIUMgYitihG6QNH80Rvnm5YK6jdI92BxvepYiWbyJTAtFIYBlI1Bka5YoKxp6ZSpeyX0ujSgvBN0B7Txb3oIXL8nGbTpNTgLJSe29wPWdIBktJhvNeHuV0GGkm7w8amp8a3KE8HWDTbJj"
+      },
+      "products": [
+        {
+          "_id": "6945ceee1c508c5d5ee4b7a3",
+          "name": "Chips81870",
+          "amount": 168,
+          "price": 49243,
+          "manufacturer": "Tesla",
+          "notes": "od5R8t1Skn4HUJ5t7oWOxPZpWTJ8IoQGUSUYTK87wCLu4F5ZmFFsW2Ud18cf15cDxwPhJaEFzdRjLRPvVu1o30oiPYR5Al1TTKwq3qISszPqmgrMf1ea1feexzqZwLQjoJtKq28XtgAIY7E7YeLIasMl49v4vsBBxyd0jehDtjQuq6UeJLFDSYO7MaMmAIELJIBWKq5FEknVARtbJt1iRGcLVnW4vNt3ZZKFbQk8njYKFJfoHdQu2E3YuP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Mitchellfort",
+          "street": "Rosalia Plains",
+          "house": 7,
+          "flat": 954
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 49243,
+      "createdOn": "2025-12-19T22:17:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6945ceec1c508c5d5ee4b6fb",
+          "products": [
+            {
+              "_id": "6945ceee1c508c5d5ee4b7a3",
+              "name": "Chips81870",
+              "amount": 168,
+              "price": 49243,
+              "manufacturer": "Tesla",
+              "notes": "od5R8t1Skn4HUJ5t7oWOxPZpWTJ8IoQGUSUYTK87wCLu4F5ZmFFsW2Ud18cf15cDxwPhJaEFzdRjLRPvVu1o30oiPYR5Al1TTKwq3qISszPqmgrMf1ea1feexzqZwLQjoJtKq28XtgAIY7E7YeLIasMl49v4vsBBxyd0jehDtjQuq6UeJLFDSYO7MaMmAIELJIBWKq5FEknVARtbJt1iRGcLVnW4vNt3ZZKFbQk8njYKFJfoHdQu2E3YuP",
+              "received": false
+            }
+          ],
+          "total_price": 49243,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Mitchellfort",
+              "street": "Rosalia Plains",
+              "house": 7,
+              "flat": 954
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-19T22:17:21.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6945ceec1c508c5d5ee4b6fb",
+          "products": [
+            {
+              "_id": "6945ceee1c508c5d5ee4b7a3",
+              "name": "Chips81870",
+              "amount": 168,
+              "price": 49243,
+              "manufacturer": "Tesla",
+              "notes": "od5R8t1Skn4HUJ5t7oWOxPZpWTJ8IoQGUSUYTK87wCLu4F5ZmFFsW2Ud18cf15cDxwPhJaEFzdRjLRPvVu1o30oiPYR5Al1TTKwq3qISszPqmgrMf1ea1feexzqZwLQjoJtKq28XtgAIY7E7YeLIasMl49v4vsBBxyd0jehDtjQuq6UeJLFDSYO7MaMmAIELJIBWKq5FEknVARtbJt1iRGcLVnW4vNt3ZZKFbQk8njYKFJfoHdQu2E3YuP",
+              "received": false
+            }
+          ],
+          "total_price": 49243,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Mitchellfort",
+              "street": "Rosalia Plains",
+              "house": 7,
+              "flat": 954
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-19T22:17:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6945ceec1c508c5d5ee4b6fb",
+          "products": [
+            {
+              "_id": "6945ceee1c508c5d5ee4b7a3",
+              "name": "Chips81870",
+              "amount": 168,
+              "price": 49243,
+              "manufacturer": "Tesla",
+              "notes": "od5R8t1Skn4HUJ5t7oWOxPZpWTJ8IoQGUSUYTK87wCLu4F5ZmFFsW2Ud18cf15cDxwPhJaEFzdRjLRPvVu1o30oiPYR5Al1TTKwq3qISszPqmgrMf1ea1feexzqZwLQjoJtKq28XtgAIY7E7YeLIasMl49v4vsBBxyd0jehDtjQuq6UeJLFDSYO7MaMmAIELJIBWKq5FEknVARtbJt1iRGcLVnW4vNt3ZZKFbQk8njYKFJfoHdQu2E3YuP",
+              "received": false
+            }
+          ],
+          "total_price": 49243,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:17:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:16:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2642",
+    "etag": "W/\"a52-NoeQ1G0aqy7JYEMyPR+yiYZob1w\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6945ced61c508c5d5ee4a82e",
+        "email": "Clementine75@gmail.com",
+        "name": "Mustafa Bode",
+        "country": "USA",
+        "city": "Weymouth Town",
+        "street": "E Union Street",
+        "house": 28,
+        "flat": 818,
+        "phone": "+19574497015",
+        "createdOn": "2025-12-19T22:16:54.000Z",
+        "notes": "EuO68nwu8lxb6Lwc067gJ8giyskQafMXrWjalkqU4cFFXFl9GyEspHnYvvSG38U9iAGFqKpWjSg1T7fU6WIOHxJ2IGWlhn0anEOQsigUGcBX9hCWURzr3Q2kYVFZiu5vXb0UIQI4oBU4IqzEfpaNmteVFnz554Mc7pkjEQL5sPm7LeGVQADxBIHPK58uI4OTlUNHBeCTjB3eLaaaXTnKyhLwNq2d3vdQqrfXM7MvBEaD7wNI2XnMD6XT71"
+      },
+      "products": [
+        {
+          "_id": "6945ced71c508c5d5ee4a85a",
+          "name": "Tuna39853",
+          "amount": 943,
+          "price": 9577,
+          "manufacturer": "Samsung",
+          "notes": "SNgfnJc3fMZ6TZAvjjva04RiXOyuJav0EgzU2BI22NJ8Lzr81DXGGh9rIeko0anPnalBTBfLXhBJM3EHsobsS8pAfzTa6fjxEF6UXKExzxLFd9buFE6jKkPebuOTSFjFKdlxEtdnAwr2wrE5WyJIUret7hAPUeSdmUVTyjmSSZXYfmiay3lGaryUmWbdrcn2onbvnYIKmSAzZq3dTGUn8E9tvDcFMKRcfpjHrYm6qV0iDnMZBEmCDi6KZm",
+          "received": false
+        },
+        {
+          "_id": "6945ced91c508c5d5ee4aa29",
+          "name": "Bike55257",
+          "amount": 65,
+          "price": 12790,
+          "manufacturer": "Tesla",
+          "notes": "C2RBb4jWX4nFc63zIdwEWDOw2Aj4ScXoJaaotrQlc7kZRdv87VYhGBmeAJqKBdZ3DBx5gs8fSNlLXoPWo8yTPoMqqfhS1JO0dQp5L8p8znlrm27EI8t8UESbSw1b8dKt12upI4zoBwi0Q3M6RcYANm4aaM3ze3ZcnUUWHRv99lAloJzILRwO108lpK7yPMeW9d8F82SHq5wQY9NCDEhlmxTG8NGHt08Ww13EuVUYzmF7M5GRarkExtNCBm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 22367,
+      "createdOn": "2025-12-19T22:16:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945ced61c508c5d5ee4a82e",
+          "products": [
+            {
+              "_id": "6945ced71c508c5d5ee4a85a",
+              "name": "Tuna39853",
+              "amount": 943,
+              "price": 9577,
+              "manufacturer": "Samsung",
+              "notes": "SNgfnJc3fMZ6TZAvjjva04RiXOyuJav0EgzU2BI22NJ8Lzr81DXGGh9rIeko0anPnalBTBfLXhBJM3EHsobsS8pAfzTa6fjxEF6UXKExzxLFd9buFE6jKkPebuOTSFjFKdlxEtdnAwr2wrE5WyJIUret7hAPUeSdmUVTyjmSSZXYfmiay3lGaryUmWbdrcn2onbvnYIKmSAzZq3dTGUn8E9tvDcFMKRcfpjHrYm6qV0iDnMZBEmCDi6KZm",
+              "received": false
+            },
+            {
+              "_id": "6945ced91c508c5d5ee4aa29",
+              "name": "Bike55257",
+              "amount": 65,
+              "price": 12790,
+              "manufacturer": "Tesla",
+              "notes": "C2RBb4jWX4nFc63zIdwEWDOw2Aj4ScXoJaaotrQlc7kZRdv87VYhGBmeAJqKBdZ3DBx5gs8fSNlLXoPWo8yTPoMqqfhS1JO0dQp5L8p8znlrm27EI8t8UESbSw1b8dKt12upI4zoBwi0Q3M6RcYANm4aaM3ze3ZcnUUWHRv99lAloJzILRwO108lpK7yPMeW9d8F82SHq5wQY9NCDEhlmxTG8NGHt08Ww13EuVUYzmF7M5GRarkExtNCBm",
+              "received": false
+            }
+          ],
+          "total_price": 22367,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:16:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6945ced91c508c5d5ee4aa4e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

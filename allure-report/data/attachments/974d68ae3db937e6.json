@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:17:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-E84n4brdDxxQmjH6VcY2E9k8EtA\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6945cee41c508c5d5ee4b049",
+        "email": "Jany.Nolan@hotmail.com",
+        "name": "Bette Fritsch",
+        "country": "Russia",
+        "city": "Theresaton",
+        "street": "Shanelle Shoals",
+        "house": 39,
+        "flat": 266,
+        "phone": "+12789064214",
+        "createdOn": "2025-12-19T22:17:08.000Z",
+        "notes": "7eH4el0zllc9mVxK5BmZrDLNN1BRUTuYvhpdjJ6Jhrb12fqht5FrtWqFv8Vphg45TUDiFwe88Yslw3JhuahDpUPbvN0e0kyy8YvlLcutoSMydas3G3tSfuQsG0prddI7uDxOduxfVFDro71skoKBYqm23Y71CJxaCsSYB22qRqeOU7qh31MuLpTDKr91gW5CVIQliqpvnTpUBa5NvL3vE9Reant8H5TtXBQi4aUphBKUqguyUFvOMkzffP"
+      },
+      "products": [
+        {
+          "_id": "6945cee51c508c5d5ee4b0e4",
+          "name": "Ball97917",
+          "amount": 258,
+          "price": 62783,
+          "manufacturer": "Samsung",
+          "notes": "6quJ7tv3o9QhtBxITQuLWMNnUvs9TicU23V2sX649cIsnsduyMNW9ymusO63NsoHOSNWW6w3kHSbTZnkFBb9SYF1lDJNHUs0yRhKyJiYRNF1XlgzaafA5lLWYMbwsBKNw3MYTULHvzJFlTnjRPGkVdzY30KiPKHCvU9ZLmpOheOtUI1oOpGZIsYxPUs9la6YM4MnqqGCutgjmTih5E9uTsRAaCaOHADHJ4p15LbFYrBn7lYoYUHreMPWBl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 62783,
+      "createdOn": "2025-12-19T22:17:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945cee41c508c5d5ee4b049",
+          "products": [
+            {
+              "_id": "6945cee51c508c5d5ee4b0e4",
+              "name": "Ball97917",
+              "amount": 258,
+              "price": 62783,
+              "manufacturer": "Samsung",
+              "notes": "6quJ7tv3o9QhtBxITQuLWMNnUvs9TicU23V2sX649cIsnsduyMNW9ymusO63NsoHOSNWW6w3kHSbTZnkFBb9SYF1lDJNHUs0yRhKyJiYRNF1XlgzaafA5lLWYMbwsBKNw3MYTULHvzJFlTnjRPGkVdzY30KiPKHCvU9ZLmpOheOtUI1oOpGZIsYxPUs9la6YM4MnqqGCutgjmTih5E9uTsRAaCaOHADHJ4p15LbFYrBn7lYoYUHreMPWBl",
+              "received": false
+            }
+          ],
+          "total_price": 62783,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:17:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6945cee51c508c5d5ee4b179"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

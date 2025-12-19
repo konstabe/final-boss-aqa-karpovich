@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:17:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3438",
+    "etag": "W/\"d6e-wdBlV3ClVebWXg5t2RAsYpSDGN8\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6945cf0f1c508c5d5ee4cd45",
+        "email": "Iliana_Wolf30@gmail.com",
+        "name": "Haskell Breitenberg",
+        "country": "Great Britain",
+        "city": "Lake Carolyn",
+        "street": "Wyman Ports",
+        "house": 10,
+        "flat": 857,
+        "phone": "+14779724902",
+        "createdOn": "2025-12-19T22:17:51.000Z",
+        "notes": "rV2huR7ZdcM7F7Knl8WboPjzL9wGwCI8ZJewOTLIOOpEYMHRHZyINoXGJu24YX7sFWjzXEsVA33mhWzNU0c4lx8QEDsZCCPoOye4lNbG1wxNWknpB0ujiIfNcIqk4cZnu5ncMAhNgEs8doXtnpACaZziI7WuQtXSAcMlZg0y8nKcQNzDhptEfDYH5njzJYu9JsI0khQA12CWZ5S5RMCwf32QPYkRFlRAbyBbDJT3dw7posmoInZp93VnFZ"
+      },
+      "products": [
+        {
+          "_id": "6945cf111c508c5d5ee4cee3",
+          "name": "Ball70591",
+          "amount": 676,
+          "price": 87820,
+          "manufacturer": "Xiaomi",
+          "notes": "GXH5supcxPWIKMhhJmzph45Zj3jXWelZg9B7Yfvxs8RBeceMZhMoN5QeFbSfCjLT7jS5LConVRTSM9FGP00lM3t11yfIoTKFLuxO9ENAt9LaP0JB4wLLB2Euoh4yzYTSJqxX1ydEEzA71RIVQ3XvKGVzbVL2vOeinnNYJIyueiB4kdnbsvgYZan366Ixhw6NtmAXFwy8kVXhTeFDISgxw2sGyYptO77CC1B3gux4NY5u1c4eijSVucUVDV",
+          "received": false
+        },
+        {
+          "_id": "6945cf121c508c5d5ee4cf06",
+          "name": "Chair12379",
+          "amount": 308,
+          "price": 55736,
+          "manufacturer": "Microsoft",
+          "notes": "Rq82ooT0qI2VeMCWu5HgMJy6Q7gJ8SXNmrlhnCeGhbJNLyvRwPwuTCGOsPi8tulwBpWqEqGSH1HWyU96DD6IGR9ZhsARcviclnDelAJUwKDpIbPR0zhyHNtSYHV1qpfONgYnLO2S32ccXDQYtvHGghYJ6gpajvAJ8KKMyHpvttdTLkgHyLet0I4eD6CzeU1v19m6xbM574q4Vk2h9gStQpVZHTeA1plxnKaZKhGnHWGnyjfb5l8ZGfVrcp",
+          "received": false
+        },
+        {
+          "_id": "6945cf131c508c5d5ee4cfa4",
+          "name": "Shoes18025",
+          "amount": 549,
+          "price": 62909,
+          "manufacturer": "Google",
+          "notes": "IojDtvu5WsUh4uoLCtAdPc7j4m8qC1CpH4J82CkFPIVCsqZH1t7xoDH0JMtLVgPYGP60FcwPZw4xmSLsEXYtF2Y2USSDDooEiinV9ZYPCVXfcJcvsVwYOnGyKWuHneszDOQn3nhPtF6NhcF7Iik6m4vsNF0FksuS7WJyD28PGMwj21sYwnOGt332StNFCVBTjEnnT3XK8SoU3VRWL2dMhZ5NiCUxFcGyjlHkj9TuNsafBmUDteNhDdQr2h",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 206465,
+      "createdOn": "2025-12-19T22:17:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945cf0f1c508c5d5ee4cd45",
+          "products": [
+            {
+              "_id": "6945cf111c508c5d5ee4cee3",
+              "name": "Ball70591",
+              "amount": 676,
+              "price": 87820,
+              "manufacturer": "Xiaomi",
+              "notes": "GXH5supcxPWIKMhhJmzph45Zj3jXWelZg9B7Yfvxs8RBeceMZhMoN5QeFbSfCjLT7jS5LConVRTSM9FGP00lM3t11yfIoTKFLuxO9ENAt9LaP0JB4wLLB2Euoh4yzYTSJqxX1ydEEzA71RIVQ3XvKGVzbVL2vOeinnNYJIyueiB4kdnbsvgYZan366Ixhw6NtmAXFwy8kVXhTeFDISgxw2sGyYptO77CC1B3gux4NY5u1c4eijSVucUVDV",
+              "received": false
+            },
+            {
+              "_id": "6945cf121c508c5d5ee4cf06",
+              "name": "Chair12379",
+              "amount": 308,
+              "price": 55736,
+              "manufacturer": "Microsoft",
+              "notes": "Rq82ooT0qI2VeMCWu5HgMJy6Q7gJ8SXNmrlhnCeGhbJNLyvRwPwuTCGOsPi8tulwBpWqEqGSH1HWyU96DD6IGR9ZhsARcviclnDelAJUwKDpIbPR0zhyHNtSYHV1qpfONgYnLO2S32ccXDQYtvHGghYJ6gpajvAJ8KKMyHpvttdTLkgHyLet0I4eD6CzeU1v19m6xbM574q4Vk2h9gStQpVZHTeA1plxnKaZKhGnHWGnyjfb5l8ZGfVrcp",
+              "received": false
+            },
+            {
+              "_id": "6945cf131c508c5d5ee4cfa4",
+              "name": "Shoes18025",
+              "amount": 549,
+              "price": 62909,
+              "manufacturer": "Google",
+              "notes": "IojDtvu5WsUh4uoLCtAdPc7j4m8qC1CpH4J82CkFPIVCsqZH1t7xoDH0JMtLVgPYGP60FcwPZw4xmSLsEXYtF2Y2USSDDooEiinV9ZYPCVXfcJcvsVwYOnGyKWuHneszDOQn3nhPtF6NhcF7Iik6m4vsNF0FksuS7WJyD28PGMwj21sYwnOGt332StNFCVBTjEnnT3XK8SoU3VRWL2dMhZ5NiCUxFcGyjlHkj9TuNsafBmUDteNhDdQr2h",
+              "received": false
+            }
+          ],
+          "total_price": 206465,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:17:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6945cf131c508c5d5ee4cfd4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

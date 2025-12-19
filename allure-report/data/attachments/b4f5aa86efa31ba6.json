@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:16:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2642",
+    "etag": "W/\"a52-6f4857iI9ldPpxVrSC3tK5p7cyc\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6945cecf1c508c5d5ee4a4a0",
+        "email": "Waldo36@gmail.com",
+        "name": "Joel Adams",
+        "country": "Great Britain",
+        "city": "Yasmineport",
+        "street": "Leland Plains",
+        "house": 43,
+        "flat": 223,
+        "phone": "+12452247054",
+        "createdOn": "2025-12-19T22:16:47.000Z",
+        "notes": "pQZshx7YqQiVFSoHHgOKYWHA2so4ztwjF7Azc31HjjliD8TzJfx0UMLfNPopJPG6eKBNXO7oxYaOCUQmGLrZs88LbKsiY4xtCPIk6fpT87HVkHK55524ZM7Mn5ggQfIXzumEC170ceMNfEDTJFRDjhnx8WOIGULELLvjo2yfUOYBac7vf3oECSWjO0jUS9KpWWyTE6Arl9TqWpii8ExRJGS48iDo6LNhRccF1oa6WSsqrvYDwLsc3ZIiGl"
+      },
+      "products": [
+        {
+          "_id": "6945cecf1c508c5d5ee4a4ba",
+          "name": "Fish4422",
+          "amount": 442,
+          "price": 24882,
+          "manufacturer": "Sony",
+          "notes": "R4p6nGdzG6Aow1i1StWQbvhRLzUh1eJSIv823SztIkW1uNCB8tcTGkUyxXrvIJmxoTBNlix30lod4VP3MfLs00px4x0zruKXCb2fZ3jUZA45ecrGJBis5eBAFgHYl9xYeOwBwgjSrmTk0fa1IXoBJBNcLGbdCG9YU1YjLc3EYWPJhawafIuiIh2wrPmdfYEhOixrwYJFaXzXKdtP6KySVRSQAnH9DCtbfV7TtzadLS8rG5MUVXDYYMxcx5",
+          "received": false
+        },
+        {
+          "_id": "6945cecf1c508c5d5ee4a4d8",
+          "name": "Shoes28727",
+          "amount": 61,
+          "price": 27274,
+          "manufacturer": "Samsung",
+          "notes": "JHVoBvoeDmK1bx7isCIGpedVuLjhlA6jaFQHOpNbp8cDb1SLTcuWgJ4nxWJrQwVbcYlynCpS0TUxP3TICMfO1oqxvVuGoib4maNNQ91R4it1VmplUkdThRJAgzw5KsUNUa3vWj8Q2GYOBU2v1BGKCJFRRCTaaBfH49tTKUy6jKXKxBgU27UCgV3GLmFqAml7feCaJ7w49lBz1HabXaZxsf3EkhcVfv1CJswvGfxwkiziCPQzqJCwCKy80a",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 52156,
+      "createdOn": "2025-12-19T22:16:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945cecf1c508c5d5ee4a4a0",
+          "products": [
+            {
+              "_id": "6945cecf1c508c5d5ee4a4ba",
+              "name": "Fish4422",
+              "amount": 442,
+              "price": 24882,
+              "manufacturer": "Sony",
+              "notes": "R4p6nGdzG6Aow1i1StWQbvhRLzUh1eJSIv823SztIkW1uNCB8tcTGkUyxXrvIJmxoTBNlix30lod4VP3MfLs00px4x0zruKXCb2fZ3jUZA45ecrGJBis5eBAFgHYl9xYeOwBwgjSrmTk0fa1IXoBJBNcLGbdCG9YU1YjLc3EYWPJhawafIuiIh2wrPmdfYEhOixrwYJFaXzXKdtP6KySVRSQAnH9DCtbfV7TtzadLS8rG5MUVXDYYMxcx5",
+              "received": false
+            },
+            {
+              "_id": "6945cecf1c508c5d5ee4a4d8",
+              "name": "Shoes28727",
+              "amount": 61,
+              "price": 27274,
+              "manufacturer": "Samsung",
+              "notes": "JHVoBvoeDmK1bx7isCIGpedVuLjhlA6jaFQHOpNbp8cDb1SLTcuWgJ4nxWJrQwVbcYlynCpS0TUxP3TICMfO1oqxvVuGoib4maNNQ91R4it1VmplUkdThRJAgzw5KsUNUa3vWj8Q2GYOBU2v1BGKCJFRRCTaaBfH49tTKUy6jKXKxBgU27UCgV3GLmFqAml7feCaJ7w49lBz1HabXaZxsf3EkhcVfv1CJswvGfxwkiziCPQzqJCwCKy80a",
+              "received": false
+            }
+          ],
+          "total_price": 52156,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:16:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6945ced01c508c5d5ee4a502"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
