@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 11:07:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2971",
+    "etag": "W/\"b9b-kMni9kaZ7i8TNkGYaNhMuS4Ko80\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694531fd1c508c5d5ee408e9",
+      "status": "Draft",
+      "customer": {
+        "_id": "694531fc1c508c5d5ee407fd",
+        "email": "Dulce.Considine-Franecki@yahoo.com",
+        "name": "Gaston Rowe",
+        "country": "Great Britain",
+        "city": "Erinside",
+        "street": "Emory Field",
+        "house": 15,
+        "flat": 5,
+        "phone": "+15875456062",
+        "createdOn": "2025-12-19T11:07:40.000Z",
+        "notes": "Mi1jofxF2hfEroNY65ciKxIvqSeiBJf2X0rBKmpypMujnmJcmVCm1evj4XNVZ7C0iV4V9UUSDL7zztv5Qb4VOL9s0ya1pTfVxIwnVKPL89UgS0SyF78Chp15RCRtI4reydyieEuPGl6nkhHBO1v3ek5ULtXyjm93PChAtp6RNw2Cbgsrenqe8n2AnM9MIIJrgVEegxJJ2Yc5LgKtYKHaxMxfEwROQdBZbPvQNV0KTRWXklZnk0BSdwS8Wi"
+      },
+      "products": [
+        {
+          "_id": "694531fc1c508c5d5ee40826",
+          "name": "Keyboard45674",
+          "amount": 368,
+          "price": 99595,
+          "manufacturer": "Amazon",
+          "notes": "a3hPpnvGQ2fHSXqUQ7tdOW1KVbL0FGYop1bDMNySKNYf6LHZOr1rAGVDW7eWxUqpz5kXBuyBZkum8ggsSB9tCfLiuXpvRATGtAzpJDZuhh8AqwtyqMk6GbCE55bel7XufyhqXlqRNMqvIVZSyNlQmAytGttRhWfwdrNliUsEdncUCt17HyFDMV9UBziqmRpQhNbeQ4VOMUf9UdOydW6vWHBwhkPpqWsuDO8m8sj9Fiex8HsRDjutc7REyb",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Erinside",
+          "street": "Emory Field",
+          "house": 15,
+          "flat": 5
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 99595,
+      "createdOn": "2025-12-19T11:07:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694531fc1c508c5d5ee407fd",
+          "products": [
+            {
+              "_id": "694531fc1c508c5d5ee40826",
+              "name": "Keyboard45674",
+              "amount": 368,
+              "price": 99595,
+              "manufacturer": "Amazon",
+              "notes": "a3hPpnvGQ2fHSXqUQ7tdOW1KVbL0FGYop1bDMNySKNYf6LHZOr1rAGVDW7eWxUqpz5kXBuyBZkum8ggsSB9tCfLiuXpvRATGtAzpJDZuhh8AqwtyqMk6GbCE55bel7XufyhqXlqRNMqvIVZSyNlQmAytGttRhWfwdrNliUsEdncUCt17HyFDMV9UBziqmRpQhNbeQ4VOMUf9UdOydW6vWHBwhkPpqWsuDO8m8sj9Fiex8HsRDjutc7REyb",
+              "received": false
+            }
+          ],
+          "total_price": 99595,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Erinside",
+              "street": "Emory Field",
+              "house": 15,
+              "flat": 5
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-19T11:07:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694531fc1c508c5d5ee407fd",
+          "products": [
+            {
+              "_id": "694531fc1c508c5d5ee40826",
+              "name": "Keyboard45674",
+              "amount": 368,
+              "price": 99595,
+              "manufacturer": "Amazon",
+              "notes": "a3hPpnvGQ2fHSXqUQ7tdOW1KVbL0FGYop1bDMNySKNYf6LHZOr1rAGVDW7eWxUqpz5kXBuyBZkum8ggsSB9tCfLiuXpvRATGtAzpJDZuhh8AqwtyqMk6GbCE55bel7XufyhqXlqRNMqvIVZSyNlQmAytGttRhWfwdrNliUsEdncUCt17HyFDMV9UBziqmRpQhNbeQ4VOMUf9UdOydW6vWHBwhkPpqWsuDO8m8sj9Fiex8HsRDjutc7REyb",
+              "received": false
+            }
+          ],
+          "total_price": 99595,
+          "delivery": null,
+          "changedOn": "2025-12-19T11:07:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 11:07:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3422",
+    "etag": "W/\"d5e-jYFXYdO2uDqEk/QNlVIn0YQserc\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694531fc1c508c5d5ee40822",
+        "email": "Bailee.Marvin-Bashirian94@yahoo.com",
+        "name": "Audie Waters",
+        "country": "France",
+        "city": "Lake Jazmyne",
+        "street": "Kuvalis Point",
+        "house": 12,
+        "flat": 368,
+        "phone": "+15975434111",
+        "createdOn": "2025-12-19T11:07:40.000Z",
+        "notes": "cdCXMeHNpDOYNrO7TyjrKlyUkVJw74MZ06SnmolEJ4ghjmH7ULKNknuTc9YggVG290flwHLcsTFVAN2dO6DSlP7AZ7SKsF0Rp9nQaU0H83zpFNCDp73P4UHZnCacADporTRhHoLtRwPdIN1L7SC9hjhgmEz13r6W8Ipy9gnz2hVM8CEn93ZhOFeRBHQw7zl42saIgJKSx9zClX0bXyzjPvNStAkIXfCT9uTVADRS2kso6CqhC8sBU7fmnM"
+      },
+      "products": [
+        {
+          "_id": "694531fd1c508c5d5ee40853",
+          "name": "Chips38518",
+          "amount": 489,
+          "price": 55367,
+          "manufacturer": "Apple",
+          "notes": "lmNa4GBsvU2lML7A7VlFexYGjGOwwzuvOFsGlOTfpSO0zqhd0omAf5bBScBbk8BXHaoZrzYblmvTxp72sgveuCdpzQYyvEwmMJyvyDPLmAcnFwm2Zc69Cc5JPVSryTpvWbrmMybfhJOULX41nZ3ejxL4lvoLl9H0rejMqkfkQ8o4fkIKyYHev1AmazJI95T5EFkTGmDXoBtFOVsGV3gb22ZXjtB6cQgJkNx56KHUwU1bW8TdEIg0SB8pyU",
+          "received": false
+        },
+        {
+          "_id": "694531fd1c508c5d5ee408fa",
+          "name": "Car62536",
+          "amount": 797,
+          "price": 37243,
+          "manufacturer": "Sony",
+          "notes": "BqqyWUQumTBDAUsiuG1G4dCLfzQpR9Tdcd4sqwLEpfPh1OdxTZadJgjWGlOqL9NB0fGx6imlrj79cIe7cepBvJgIpklpyCTsXbYMlrpMboreo7NzngQGsesP7xFjI755nEUkj9933FZOeu0xKvNZpkGdvQg9x6rKuuGjyU4DgEJOt9DQfACHgfFNUacX0KKM4tvDpywDa8II0StGyqo9XWNP0w7TAWfpWrE48tQSAaMOsiPkYrQMmaUoX9",
+          "received": false
+        },
+        {
+          "_id": "694531ff1c508c5d5ee4099b",
+          "name": "Chips2617",
+          "amount": 515,
+          "price": 80893,
+          "manufacturer": "Amazon",
+          "notes": "YS5onwxbTgW55ZTWNV3Mv3jA2eSZODQy78bHGgrXO7jWLKSq6TKlRokyV5JPo1B1MGyNI2XpVtLjQS5RUl95XI28ZuXINnoLk99X9eb9Xwhu0iv8MtVyExGlkhTwkLm7LsD3iB6oq4guhlWxyzQJQu17x1VfiPMHkLVOgx8bMJWJNKBHrtLFZwIQklJKMukkCZyAUx4CWG5bxAzwFS0reLVazytSVxMuipucGD331KhfKN7YnDMyUJUVB7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 173503,
+      "createdOn": "2025-12-19T11:07:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694531fc1c508c5d5ee40822",
+          "products": [
+            {
+              "_id": "694531fd1c508c5d5ee40853",
+              "name": "Chips38518",
+              "amount": 489,
+              "price": 55367,
+              "manufacturer": "Apple",
+              "notes": "lmNa4GBsvU2lML7A7VlFexYGjGOwwzuvOFsGlOTfpSO0zqhd0omAf5bBScBbk8BXHaoZrzYblmvTxp72sgveuCdpzQYyvEwmMJyvyDPLmAcnFwm2Zc69Cc5JPVSryTpvWbrmMybfhJOULX41nZ3ejxL4lvoLl9H0rejMqkfkQ8o4fkIKyYHev1AmazJI95T5EFkTGmDXoBtFOVsGV3gb22ZXjtB6cQgJkNx56KHUwU1bW8TdEIg0SB8pyU",
+              "received": false
+            },
+            {
+              "_id": "694531fd1c508c5d5ee408fa",
+              "name": "Car62536",
+              "amount": 797,
+              "price": 37243,
+              "manufacturer": "Sony",
+              "notes": "BqqyWUQumTBDAUsiuG1G4dCLfzQpR9Tdcd4sqwLEpfPh1OdxTZadJgjWGlOqL9NB0fGx6imlrj79cIe7cepBvJgIpklpyCTsXbYMlrpMboreo7NzngQGsesP7xFjI755nEUkj9933FZOeu0xKvNZpkGdvQg9x6rKuuGjyU4DgEJOt9DQfACHgfFNUacX0KKM4tvDpywDa8II0StGyqo9XWNP0w7TAWfpWrE48tQSAaMOsiPkYrQMmaUoX9",
+              "received": false
+            },
+            {
+              "_id": "694531ff1c508c5d5ee4099b",
+              "name": "Chips2617",
+              "amount": 515,
+              "price": 80893,
+              "manufacturer": "Amazon",
+              "notes": "YS5onwxbTgW55ZTWNV3Mv3jA2eSZODQy78bHGgrXO7jWLKSq6TKlRokyV5JPo1B1MGyNI2XpVtLjQS5RUl95XI28ZuXINnoLk99X9eb9Xwhu0iv8MtVyExGlkhTwkLm7LsD3iB6oq4guhlWxyzQJQu17x1VfiPMHkLVOgx8bMJWJNKBHrtLFZwIQklJKMukkCZyAUx4CWG5bxAzwFS0reLVazytSVxMuipucGD331KhfKN7YnDMyUJUVB7",
+              "received": false
+            }
+          ],
+          "total_price": 173503,
+          "delivery": null,
+          "changedOn": "2025-12-19T11:07:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694531ff1c508c5d5ee409e0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 11:07:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1900",
+    "etag": "W/\"76c-Yrx+pBZUBhPM/vDydldyu8vBlPw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694531fb1c508c5d5ee4075e",
+        "email": "Aileen.Wintheiser@yahoo.com",
+        "name": "Alene Schowalter",
+        "country": "Germany",
+        "city": "Sonyacester",
+        "street": "Washington Street",
+        "house": 15,
+        "flat": 447,
+        "phone": "+13206738039",
+        "createdOn": "2025-12-19T11:07:39.000Z",
+        "notes": "Tf6MhjkZNU63g4Omgz1hwbCf1CNzGMYLmYpxIdAQebk616P5jfRuz9REEfcxcbXMe5MyK0JSzl38kWkMbzCg9EESxfZnf5Csd8SR4S9eblYrGZXEcesBNn64ikwbx16bpuAhdaYNdVFiUh3HjAcbqRcFl6nicefmhXvsnjo81S5dl5at5eE7BdFIdiKiwhV8lQAnGwSwjnio85H8qHpdNwoxhuMFCF2FCCFUgxczGrsinJjYyvu9TLaKtD"
+      },
+      "products": [
+        {
+          "_id": "694531fb1c508c5d5ee40780",
+          "name": "Sausages66800",
+          "amount": 403,
+          "price": 28203,
+          "manufacturer": "Apple",
+          "notes": "Zna79UCgGd3WPQpfUthnNvS8R3iBzqRUHOVFLZOyQcuTMBOZv3GTRdqjmUIYo8iVoWc6DsLdfnkszxHF45NafKyYb7bYjSxAKNcx8GB2hYebZpG2UtohPovuf9jkptKDzlRKFIIjeriAnaZthcT0dOOb3YSNQSf1ZXjZppKkztm5H10gmUJidyEwBJu9aLwzEbRve3eFgX6zUuxFffrDCgLAaXluifgvQFWBVWQwEuH3zzpmmQVGhmUcSb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 28203,
+      "createdOn": "2025-12-19T11:07:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694531fb1c508c5d5ee4075e",
+          "products": [
+            {
+              "_id": "694531fb1c508c5d5ee40780",
+              "name": "Sausages66800",
+              "amount": 403,
+              "price": 28203,
+              "manufacturer": "Apple",
+              "notes": "Zna79UCgGd3WPQpfUthnNvS8R3iBzqRUHOVFLZOyQcuTMBOZv3GTRdqjmUIYo8iVoWc6DsLdfnkszxHF45NafKyYb7bYjSxAKNcx8GB2hYebZpG2UtohPovuf9jkptKDzlRKFIIjeriAnaZthcT0dOOb3YSNQSf1ZXjZppKkztm5H10gmUJidyEwBJu9aLwzEbRve3eFgX6zUuxFffrDCgLAaXluifgvQFWBVWQwEuH3zzpmmQVGhmUcSb",
+              "received": false
+            }
+          ],
+          "total_price": 28203,
+          "delivery": null,
+          "changedOn": "2025-12-19T11:07:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694531fb1c508c5d5ee407bc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
