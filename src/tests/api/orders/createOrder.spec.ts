@@ -10,11 +10,16 @@ test.describe("Create order", () => {
 	test.beforeAll(async ({ loginApiService }) => {
 		token = await loginApiService.loginAsAdmin();
 	});
+  
+  test.afterEach(async ({ ordersApiService }) => {
+		await ordersApiService.fullDelete(token);
+	});
 
 	test("create order successfully", { tag: TAGS.API }, async ({ ordersApiService }) => {
 		const order = await ordersApiService.createDraft(token, 1);
 		expect(order).toBeDefined();
-	});
+  });
+
 
 	test("create order with multiple products", { tag: TAGS.API }, async ({ ordersApiService }) => {
 		const order = await ordersApiService.createDraft(token, 3);
