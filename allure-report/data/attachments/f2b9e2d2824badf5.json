@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 09:58:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2950",
+    "etag": "W/\"b86-THvWNyqc/cXYBvkqHdj4p+EXkHQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694521a81c508c5d5ee3baaa",
+      "status": "Draft",
+      "customer": {
+        "_id": "694521a71c508c5d5ee3b9f4",
+        "email": "Danielle_Brown88@yahoo.com",
+        "name": "Casimer Doyle",
+        "country": "Belarus",
+        "city": "Bayerborough",
+        "street": "Sipes Club",
+        "house": 14,
+        "flat": 114,
+        "phone": "+18562265677",
+        "createdOn": "2025-12-19T09:57:59.000Z",
+        "notes": "eYFQhND1qegdW4xREc5Dozm1oh2uFMqedBPQ3kRjmkvgJRQWYymBRnR8C3ttr8GUJ4Aq4OOKQEB19abDCtvkcIvgUxlcXGYEp6YCy67X2ibUyVXvpjhjQBwXsFkw70IKqcCfY7bgN5jgZV9rJCPuf2HVnOseEwvVoMNduvCUTQXWWd2S2WLQGky9aeCh7uTF38Ozga5rXn8KDRvb7OHxjEUAtmq9O30l8jWZR8Rz0VZdQEciJG0Ueo6OL0"
+      },
+      "products": [
+        {
+          "_id": "694521a71c508c5d5ee3ba4c",
+          "name": "Shoes69319",
+          "amount": 109,
+          "price": 30363,
+          "manufacturer": "Apple",
+          "notes": "K4vNnT2hHYPTmnJlEBxs0vVfaxeTU0b6jd3yVQjYVBlRGNayltZUHpkeTsowogrFYb4URpUBVSbyEqZ03ImC9N0vn86fLBWWZihQJO2mIdg9AzFBo8sr4GsPLw9N9dT8MiSNxAR5yD1DnyETZb0Y1XJ4KVqNIoITU0lB3KGtJJva16MKcPiTFq2ALPsjAwooaSKpt93jRYTvBTDSdEgWNZnc5pK1BWv54qzZZlHlGaegZ6j0eagSofRrKW",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Bayerborough",
+          "street": "Sipes Club",
+          "house": 14,
+          "flat": 114
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 30363,
+      "createdOn": "2025-12-19T09:58:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694521a71c508c5d5ee3b9f4",
+          "products": [
+            {
+              "_id": "694521a71c508c5d5ee3ba4c",
+              "name": "Shoes69319",
+              "amount": 109,
+              "price": 30363,
+              "manufacturer": "Apple",
+              "notes": "K4vNnT2hHYPTmnJlEBxs0vVfaxeTU0b6jd3yVQjYVBlRGNayltZUHpkeTsowogrFYb4URpUBVSbyEqZ03ImC9N0vn86fLBWWZihQJO2mIdg9AzFBo8sr4GsPLw9N9dT8MiSNxAR5yD1DnyETZb0Y1XJ4KVqNIoITU0lB3KGtJJva16MKcPiTFq2ALPsjAwooaSKpt93jRYTvBTDSdEgWNZnc5pK1BWv54qzZZlHlGaegZ6j0eagSofRrKW",
+              "received": false
+            }
+          ],
+          "total_price": 30363,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Bayerborough",
+              "street": "Sipes Club",
+              "house": 14,
+              "flat": 114
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-19T09:58:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694521a71c508c5d5ee3b9f4",
+          "products": [
+            {
+              "_id": "694521a71c508c5d5ee3ba4c",
+              "name": "Shoes69319",
+              "amount": 109,
+              "price": 30363,
+              "manufacturer": "Apple",
+              "notes": "K4vNnT2hHYPTmnJlEBxs0vVfaxeTU0b6jd3yVQjYVBlRGNayltZUHpkeTsowogrFYb4URpUBVSbyEqZ03ImC9N0vn86fLBWWZihQJO2mIdg9AzFBo8sr4GsPLw9N9dT8MiSNxAR5yD1DnyETZb0Y1XJ4KVqNIoITU0lB3KGtJJva16MKcPiTFq2ALPsjAwooaSKpt93jRYTvBTDSdEgWNZnc5pK1BWv54qzZZlHlGaegZ6j0eagSofRrKW",
+              "received": false
+            }
+          ],
+          "total_price": 30363,
+          "delivery": null,
+          "changedOn": "2025-12-19T09:58:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

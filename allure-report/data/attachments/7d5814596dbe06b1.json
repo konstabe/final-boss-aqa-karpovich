@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 09:57:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3878",
+    "etag": "W/\"f26-mWcrlwelss/6e7fYLkVZNF8D3do\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694521a41c508c5d5ee3b8da",
+      "status": "In Process",
+      "customer": {
+        "_id": "694521a41c508c5d5ee3b86f",
+        "email": "Elwyn_Ondricka@yahoo.com",
+        "name": "Tremaine Hegmann",
+        "country": "Ukraine",
+        "city": "Euclid",
+        "street": "Lester Crossroad",
+        "house": 12,
+        "flat": 787,
+        "phone": "+15838787418",
+        "createdOn": "2025-12-19T09:57:56.000Z",
+        "notes": "UxhK9Q0Bfp7THdXlVRQsmjr2TX18dGwbyI2rH78wV0igmyUhdCTPaY5PMQmD8RnHVHSNsw43XOX7uyLx0dGpUDZZ5jbINbr5PIHX7UY6eSpjo5mQyzk3N45oFTSe2ToTu9Y80udrgj75cCbvcZYSCSAdrnxUJNvulf9ViKD2at1uSAZtBMW6X5z3TY2YRDLc17qdGvJpp5FqNV8eBKkggojXMHDwwroobISFb2ACafElK7QfspAWwzP4ji"
+      },
+      "products": [
+        {
+          "_id": "694521a41c508c5d5ee3b8b6",
+          "name": "Tuna71163",
+          "amount": 373,
+          "price": 62997,
+          "manufacturer": "Google",
+          "notes": "8KKOE3IwcLkuB8vymlRSl6Do9HOTYMvlYIui7tZr4QS0Aln0gDEogZWFHVpnt4Gh9GLXjGmJojaJbYHDpI9DXgul5dzKEMLdlIjBdoGOjm0d7NVHT9WVDyb24nmPKnSOKgc2Z1rG5cFCNY579inKLkXe1czKczPMphxIj4LGxqpVriFk8kpw4TAumT44zQepRNcrVjNjnyGLLP6k1WngJ6mCbnfah9c1cWoEvaLHLrmA85R93aOu9qZBQZ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Euclid",
+          "street": "Lester Crossroad",
+          "house": 12,
+          "flat": 787
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 62997,
+      "createdOn": "2025-12-19T09:57:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694521a41c508c5d5ee3b86f",
+          "products": [
+            {
+              "_id": "694521a41c508c5d5ee3b8b6",
+              "name": "Tuna71163",
+              "amount": 373,
+              "price": 62997,
+              "manufacturer": "Google",
+              "notes": "8KKOE3IwcLkuB8vymlRSl6Do9HOTYMvlYIui7tZr4QS0Aln0gDEogZWFHVpnt4Gh9GLXjGmJojaJbYHDpI9DXgul5dzKEMLdlIjBdoGOjm0d7NVHT9WVDyb24nmPKnSOKgc2Z1rG5cFCNY579inKLkXe1czKczPMphxIj4LGxqpVriFk8kpw4TAumT44zQepRNcrVjNjnyGLLP6k1WngJ6mCbnfah9c1cWoEvaLHLrmA85R93aOu9qZBQZ",
+              "received": false
+            }
+          ],
+          "total_price": 62997,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Euclid",
+              "street": "Lester Crossroad",
+              "house": 12,
+              "flat": 787
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-19T09:57:57.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694521a41c508c5d5ee3b86f",
+          "products": [
+            {
+              "_id": "694521a41c508c5d5ee3b8b6",
+              "name": "Tuna71163",
+              "amount": 373,
+              "price": 62997,
+              "manufacturer": "Google",
+              "notes": "8KKOE3IwcLkuB8vymlRSl6Do9HOTYMvlYIui7tZr4QS0Aln0gDEogZWFHVpnt4Gh9GLXjGmJojaJbYHDpI9DXgul5dzKEMLdlIjBdoGOjm0d7NVHT9WVDyb24nmPKnSOKgc2Z1rG5cFCNY579inKLkXe1czKczPMphxIj4LGxqpVriFk8kpw4TAumT44zQepRNcrVjNjnyGLLP6k1WngJ6mCbnfah9c1cWoEvaLHLrmA85R93aOu9qZBQZ",
+              "received": false
+            }
+          ],
+          "total_price": 62997,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Euclid",
+              "street": "Lester Crossroad",
+              "house": 12,
+              "flat": 787
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-19T09:57:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694521a41c508c5d5ee3b86f",
+          "products": [
+            {
+              "_id": "694521a41c508c5d5ee3b8b6",
+              "name": "Tuna71163",
+              "amount": 373,
+              "price": 62997,
+              "manufacturer": "Google",
+              "notes": "8KKOE3IwcLkuB8vymlRSl6Do9HOTYMvlYIui7tZr4QS0Aln0gDEogZWFHVpnt4Gh9GLXjGmJojaJbYHDpI9DXgul5dzKEMLdlIjBdoGOjm0d7NVHT9WVDyb24nmPKnSOKgc2Z1rG5cFCNY579inKLkXe1czKczPMphxIj4LGxqpVriFk8kpw4TAumT44zQepRNcrVjNjnyGLLP6k1WngJ6mCbnfah9c1cWoEvaLHLrmA85R93aOu9qZBQZ",
+              "received": false
+            }
+          ],
+          "total_price": 62997,
+          "delivery": null,
+          "changedOn": "2025-12-19T09:57:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
