@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2644",
+    "etag": "W/\"a54-SxSLC0biF/qmZP9T6bt/P1EKooc\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69471fe41c508c5d5ee5e1d9",
+        "email": "Nathen_Wolf12@hotmail.com",
+        "name": "Theresa Strosin",
+        "country": "Belarus",
+        "city": "Dublin",
+        "street": "Beier Throughway",
+        "house": 30,
+        "flat": 11,
+        "phone": "+15355309379",
+        "createdOn": "2025-12-20T22:15:00.000Z",
+        "notes": "3dgZTDBB6Kob4ARVILCWahXMkATta5dfV3vaZo7LaTbH5UibiveztJJEHLIjJS5vuoKNO2mXkQxErDeQoyriOHmKF5GJvwRFo3xmg0RCEdrSsVcNsX5tCpCl52NGsHX2h5Gk9QWboIPyRTdvtc7FW7QvvOCCZOokMQlWgRsn2aWumgUidpmLTagB6Tev0hqA9bhQljcIKn85VZXozkdQWPvQjtBBzA2j7zmOWTsoFRlwwvvn3OPoJ6Lt4q"
+      },
+      "products": [
+        {
+          "_id": "69471fe51c508c5d5ee5e223",
+          "name": "Mouse8297",
+          "amount": 759,
+          "price": 16086,
+          "manufacturer": "Sony",
+          "notes": "tyPzuzC2TGjQCs1iwsF9D7srd2J5O3lOMKmHRuBYgth80QqNzlrMb4lTtcPWaDCjtzGkVKbnXDQNplAUIe3MqdCQaXuIquo4Fez0oxFEHu7SMxOmyKZvXDcDhksQx0DrThsKZAXyaNVvHUmktybfQhpRzuB7KS7iCQLLBZyyfRelxEEqSabFirCJnCREmGwcNxIZ5hIOeeMhOxXF9R9C1wS2QXkdyDLsk4ouDrdLAuxhq28V4k3bwGA3O9",
+          "received": false
+        },
+        {
+          "_id": "69471fe51c508c5d5ee5e258",
+          "name": "Car60780",
+          "amount": 383,
+          "price": 99936,
+          "manufacturer": "Apple",
+          "notes": "U1C6fsg4e70Em6YpU2BbZtBijTtlaRHnqVHCcFCZog00Rzqzitb66wizfIzDh9LT9Td4PUszDEiRud55l3ScBnv2J7u72YTQZHCNEkecHO5VzX29hA6cSmxvddgl344ZIhjq6Nna3Hu3ppRux8EXyR6jNITYbqCBFbpP95dGlMHosG305iyKCPNpGHnmzOb0JiMs39ICRQt9Z2R0b03yP8Nzh6Fy1j0GyQSBfsZ0UATN3mZM8WBc89AslJ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 116022,
+      "createdOn": "2025-12-20T22:15:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471fe41c508c5d5ee5e1d9",
+          "products": [
+            {
+              "_id": "69471fe51c508c5d5ee5e223",
+              "name": "Mouse8297",
+              "amount": 759,
+              "price": 16086,
+              "manufacturer": "Sony",
+              "notes": "tyPzuzC2TGjQCs1iwsF9D7srd2J5O3lOMKmHRuBYgth80QqNzlrMb4lTtcPWaDCjtzGkVKbnXDQNplAUIe3MqdCQaXuIquo4Fez0oxFEHu7SMxOmyKZvXDcDhksQx0DrThsKZAXyaNVvHUmktybfQhpRzuB7KS7iCQLLBZyyfRelxEEqSabFirCJnCREmGwcNxIZ5hIOeeMhOxXF9R9C1wS2QXkdyDLsk4ouDrdLAuxhq28V4k3bwGA3O9",
+              "received": false
+            },
+            {
+              "_id": "69471fe51c508c5d5ee5e258",
+              "name": "Car60780",
+              "amount": 383,
+              "price": 99936,
+              "manufacturer": "Apple",
+              "notes": "U1C6fsg4e70Em6YpU2BbZtBijTtlaRHnqVHCcFCZog00Rzqzitb66wizfIzDh9LT9Td4PUszDEiRud55l3ScBnv2J7u72YTQZHCNEkecHO5VzX29hA6cSmxvddgl344ZIhjq6Nna3Hu3ppRux8EXyR6jNITYbqCBFbpP95dGlMHosG305iyKCPNpGHnmzOb0JiMs39ICRQt9Z2R0b03yP8Nzh6Fy1j0GyQSBfsZ0UATN3mZM8WBc89AslJ",
+              "received": false
+            }
+          ],
+          "total_price": 116022,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:15:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69471fe61c508c5d5ee5e29b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2947",
+    "etag": "W/\"b83-Qx9BYAQ4KbFb43CqElfuJt/4jrs\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69471ff91c508c5d5ee5ecac",
+      "status": "Draft",
+      "customer": {
+        "_id": "69471ff81c508c5d5ee5ebea",
+        "email": "Warren_Yost@gmail.com",
+        "name": "Celine Balistreri",
+        "country": "Ukraine",
+        "city": "Lake Gilbert",
+        "street": "Springfield Road",
+        "house": 39,
+        "flat": 254,
+        "phone": "+15077809184",
+        "createdOn": "2025-12-20T22:15:20.000Z",
+        "notes": "5aSEokLUFp1nwcb8mG0jALzgPmrunmIkUN6Ikz4pr3UgVB70dYbSogsBUG7S9r07Yb85Nv25RGgKsVeW0XrG3MFLhOlVKoUo5N7kk8IkxQ2g2weNZbD9X8XBeHWIcUNvZYUuPRwUKdZmV4eC6pTGNTd5h27fQzwkS8ndMFEuBIQ2EzcZ43JGzoFNLM73X8sSIUg4gfCzAPYwE9ryMC6n393I0TYIqK1iH089ys0K3IpEFShaF2bmrOSAaT"
+      },
+      "products": [
+        {
+          "_id": "69471ff81c508c5d5ee5ec06",
+          "name": "Ball89100",
+          "amount": 837,
+          "price": 86398,
+          "manufacturer": "Google",
+          "notes": "ACIoDSeJCGwPFGLNVFrc2ZeqWwAJ2mMIwemvfmx8WiMHGYP4BbNxnZbCx9QduptlyiW6IaNLLl1vq9mNgfxZLCBtKaEQempfBpiUTrxmksF8KmzzEPUeAIoPlwEEVZeVh4jJMermZQi4EQl8Hdi7hLRiXx6u466DRXrxhC6ZWECYmw7lMCC0HY5Tx0qbprvAiCOPSwnWoobO7gvx38JfTpUS5XWhlt8ri4hguDhfYqeokSPlYmFKa44A0N",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Lafayette",
+          "street": "Lauriane Vista",
+          "house": 5,
+          "flat": 892
+        },
+        "finalDate": "2025-12-20T22:15:21.424Z",
+        "condition": "Pickup"
+      },
+      "total_price": 86398,
+      "createdOn": "2025-12-20T22:15:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471ff81c508c5d5ee5ebea",
+          "products": [
+            {
+              "_id": "69471ff81c508c5d5ee5ec06",
+              "name": "Ball89100",
+              "amount": 837,
+              "price": 86398,
+              "manufacturer": "Google",
+              "notes": "ACIoDSeJCGwPFGLNVFrc2ZeqWwAJ2mMIwemvfmx8WiMHGYP4BbNxnZbCx9QduptlyiW6IaNLLl1vq9mNgfxZLCBtKaEQempfBpiUTrxmksF8KmzzEPUeAIoPlwEEVZeVh4jJMermZQi4EQl8Hdi7hLRiXx6u466DRXrxhC6ZWECYmw7lMCC0HY5Tx0qbprvAiCOPSwnWoobO7gvx38JfTpUS5XWhlt8ri4hguDhfYqeokSPlYmFKa44A0N",
+              "received": false
+            }
+          ],
+          "total_price": 86398,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Lafayette",
+              "street": "Lauriane Vista",
+              "house": 5,
+              "flat": 892
+            },
+            "finalDate": "2025-12-20T22:15:21.424Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-20T22:15:22.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69471ff81c508c5d5ee5ebea",
+          "products": [
+            {
+              "_id": "69471ff81c508c5d5ee5ec06",
+              "name": "Ball89100",
+              "amount": 837,
+              "price": 86398,
+              "manufacturer": "Google",
+              "notes": "ACIoDSeJCGwPFGLNVFrc2ZeqWwAJ2mMIwemvfmx8WiMHGYP4BbNxnZbCx9QduptlyiW6IaNLLl1vq9mNgfxZLCBtKaEQempfBpiUTrxmksF8KmzzEPUeAIoPlwEEVZeVh4jJMermZQi4EQl8Hdi7hLRiXx6u466DRXrxhC6ZWECYmw7lMCC0HY5Tx0qbprvAiCOPSwnWoobO7gvx38JfTpUS5XWhlt8ri4hguDhfYqeokSPlYmFKa44A0N",
+              "received": false
+            }
+          ],
+          "total_price": 86398,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:15:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

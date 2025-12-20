@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:16:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3420",
+    "etag": "W/\"d5c-OKcdKIb6p5S4d2plrGREON1R1vk\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694720351c508c5d5ee60fe5",
+        "email": "Jordy_Douglas@hotmail.com",
+        "name": "Edward Hamill",
+        "country": "Ukraine",
+        "city": "South Isadore",
+        "street": "Mill Road",
+        "house": 4,
+        "flat": 329,
+        "phone": "+17506715781",
+        "createdOn": "2025-12-20T22:16:21.000Z",
+        "notes": "A4Ee6KLn8QTKsIfGwGKbiEdudPlHlc0FAcIxqR7AKozLhKzZR52V4DxuqOvGnHT1jB41hrce1f26xfcNtrPqcx6dMq7vJh8WfKiZ1deuS9KKG5SZk2Ef9uFBDbw4uN432hOQGxIkNR9HoSxqk2xx7rwSvWrYmzEPzQ1y3zuchuuAGaxGUqlNDkSrwZp5XPt1sNFu6KgICshzYxalDfCqi2S9NxdPZNhGwQ9qyBjHi0MDYtcgXXlH8bNp4Q"
+      },
+      "products": [
+        {
+          "_id": "694720361c508c5d5ee6104f",
+          "name": "Cheese43684",
+          "amount": 869,
+          "price": 14736,
+          "manufacturer": "Xiaomi",
+          "notes": "i1kHq8wkmLqof9CJvURXpzwt9j0mPS2c7L4gaN0yE7TO95Pd9wf9Kzbsty7P8AeAbnlP7oe6N6FWoCdwAGxC6mq32apAOKwlHLbUnO6juIcCb6lVPnckxQvQVsUR8G8DeyLloBFgEbL2yaZMPSYIcI11m1eaINK1wpyRtsHhT4ccZnFbBEqGwrfRK683tSnujk58Cqot4VmjQ6y98HcJjJNsCr9Vo6leI7gvQh1k3oicvDt0XkJXRPNg1a",
+          "received": false
+        },
+        {
+          "_id": "694720361c508c5d5ee61074",
+          "name": "Pizza4247",
+          "amount": 118,
+          "price": 15794,
+          "manufacturer": "Amazon",
+          "notes": "aTQr4aBs7zHfgZVabIT8DBxSK4pO8o08wcOrcOg9nliwWkO6OJQUc7Gf57nykBkTkNN2xjvQsPgWfUOyx4isRlIIORuETkKyxHWncpKzHOLrt5OArDBpfDwWHQqGr1PwkykMiRhOsFRCzgyvuFp7bIyPnxefcfrwhjAXRH87YD9pjZ3StHq1KvTBZXKnPdvMjhGQP5Y1QqXrACxR5aTLVaIAAT22mUbmyYZXsRG4MH59isVTo2QUWcsPI7",
+          "received": false
+        },
+        {
+          "_id": "694720371c508c5d5ee610f0",
+          "name": "Mouse22112",
+          "amount": 882,
+          "price": 11085,
+          "manufacturer": "Google",
+          "notes": "2vvSC4ugi8JPLXi8WTQGHzk01PYUF18qSMgwhdTgMNhHzCRMaKqYeCm22dcZHXd9f9Uln9mIUaXuqBs41K5MZA1wdFk67OEp7bpKjdjTzcbek4Q76EmEFzoinJ2roikwFKS3HUtvn5F8hw4x0ebYWwnxSumZuhZxjBlChwe65tUu7DxsubrFasomKZtlqGThXQcHyb47bBKcBlCPGrjQGSjrxE6v6ZarygOVRNaTi6ZaFvbKty4IU9l2uL",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 41615,
+      "createdOn": "2025-12-20T22:16:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694720351c508c5d5ee60fe5",
+          "products": [
+            {
+              "_id": "694720361c508c5d5ee6104f",
+              "name": "Cheese43684",
+              "amount": 869,
+              "price": 14736,
+              "manufacturer": "Xiaomi",
+              "notes": "i1kHq8wkmLqof9CJvURXpzwt9j0mPS2c7L4gaN0yE7TO95Pd9wf9Kzbsty7P8AeAbnlP7oe6N6FWoCdwAGxC6mq32apAOKwlHLbUnO6juIcCb6lVPnckxQvQVsUR8G8DeyLloBFgEbL2yaZMPSYIcI11m1eaINK1wpyRtsHhT4ccZnFbBEqGwrfRK683tSnujk58Cqot4VmjQ6y98HcJjJNsCr9Vo6leI7gvQh1k3oicvDt0XkJXRPNg1a",
+              "received": false
+            },
+            {
+              "_id": "694720361c508c5d5ee61074",
+              "name": "Pizza4247",
+              "amount": 118,
+              "price": 15794,
+              "manufacturer": "Amazon",
+              "notes": "aTQr4aBs7zHfgZVabIT8DBxSK4pO8o08wcOrcOg9nliwWkO6OJQUc7Gf57nykBkTkNN2xjvQsPgWfUOyx4isRlIIORuETkKyxHWncpKzHOLrt5OArDBpfDwWHQqGr1PwkykMiRhOsFRCzgyvuFp7bIyPnxefcfrwhjAXRH87YD9pjZ3StHq1KvTBZXKnPdvMjhGQP5Y1QqXrACxR5aTLVaIAAT22mUbmyYZXsRG4MH59isVTo2QUWcsPI7",
+              "received": false
+            },
+            {
+              "_id": "694720371c508c5d5ee610f0",
+              "name": "Mouse22112",
+              "amount": 882,
+              "price": 11085,
+              "manufacturer": "Google",
+              "notes": "2vvSC4ugi8JPLXi8WTQGHzk01PYUF18qSMgwhdTgMNhHzCRMaKqYeCm22dcZHXd9f9Uln9mIUaXuqBs41K5MZA1wdFk67OEp7bpKjdjTzcbek4Q76EmEFzoinJ2roikwFKS3HUtvn5F8hw4x0ebYWwnxSumZuhZxjBlChwe65tUu7DxsubrFasomKZtlqGThXQcHyb47bBKcBlCPGrjQGSjrxE6v6ZarygOVRNaTi6ZaFvbKty4IU9l2uL",
+              "received": false
+            }
+          ],
+          "total_price": 41615,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:16:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694720381c508c5d5ee6119d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2656",
+    "etag": "W/\"a60-iH0VJ/x1fXLUTIUtjfodE0v2XY8\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69471fe31c508c5d5ee5e175",
+        "email": "Christiana82@hotmail.com",
+        "name": "Adela Wunsch",
+        "country": "Germany",
+        "city": "Assuntaview",
+        "street": "Vandervort Mission",
+        "house": 31,
+        "flat": 330,
+        "phone": "+19169523885",
+        "createdOn": "2025-12-20T22:14:59.000Z",
+        "notes": "1d671Nf6m4vB5DOay1hp2AvouTeWuMov8M9P3iMdIXQo25TyCj9dwJM7c1WdIvYwZM4K80W3uHBIIR4rMfEJzFGQkU0tebkDzMUlGpMJsqOo11X6lWp5j4BUkCSZzUcNucb6HIqJuTOKsNnfCnLjMbpfu116JkldP6WHNmi2ZLTfbqti0tIozjfFwMDu8QSkvYHNG9v7YLIVH9sMgYUXrwTOYK4nDtYQx5taWIslww2xHTzMuYThfVQDQG"
+      },
+      "products": [
+        {
+          "_id": "69471fe41c508c5d5ee5e1c0",
+          "name": "Pants25607",
+          "amount": 757,
+          "price": 1144,
+          "manufacturer": "Apple",
+          "notes": "Ic2z4mNOrqMrjazHrQHJgAgQJZ0BYB44181kiQZiuWV1MIj6N1GFszUaWAw3XtJQLlSm4NmGyIJJiu2ZJRPcKEktFw5WrAL3uKyXzElhFwSlOfI1N9xiY0RZzHSkrVnfnM7odSaloHTsk6Xk9B9upnsYu8AppztAcEmVFaTbLhsJ6nmo66trgwTCOriwDIGOEk1GYoOOAeElg6vmJJ5RfzcgCBr2gr5lBoj50nmj9GcRlDyfp5IaJw57Mp",
+          "received": false
+        },
+        {
+          "_id": "69471fe41c508c5d5ee5e1f5",
+          "name": "Chips23768",
+          "amount": 977,
+          "price": 90561,
+          "manufacturer": "Samsung",
+          "notes": "NBy3i2QnU4a7w5FUutZyOKOhw6zk9KtPOTWeYhaXNmfxcsvORGeXK9w0FxmR1Mlm5mzFAarVukFEz0BjI7dk9RZxXF77tPx7P2YKw7Rau0QQfWUdWf5HPaJwJJ9JUZIHW1uDPMmy3oTqe2U42uWHo8ovJ7H0L2FHTTAIW7HBIhxZLjFD46VMykC01IZlvZ6SuJpuuzQ0y0LKoJSlVVQ9HXSiPUGdZ0qW93OxHvCDfhSSFrQTuWWwGvDBiP",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 91705,
+      "createdOn": "2025-12-20T22:15:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471fe31c508c5d5ee5e175",
+          "products": [
+            {
+              "_id": "69471fe41c508c5d5ee5e1c0",
+              "name": "Pants25607",
+              "amount": 757,
+              "price": 1144,
+              "manufacturer": "Apple",
+              "notes": "Ic2z4mNOrqMrjazHrQHJgAgQJZ0BYB44181kiQZiuWV1MIj6N1GFszUaWAw3XtJQLlSm4NmGyIJJiu2ZJRPcKEktFw5WrAL3uKyXzElhFwSlOfI1N9xiY0RZzHSkrVnfnM7odSaloHTsk6Xk9B9upnsYu8AppztAcEmVFaTbLhsJ6nmo66trgwTCOriwDIGOEk1GYoOOAeElg6vmJJ5RfzcgCBr2gr5lBoj50nmj9GcRlDyfp5IaJw57Mp",
+              "received": false
+            },
+            {
+              "_id": "69471fe41c508c5d5ee5e1f5",
+              "name": "Chips23768",
+              "amount": 977,
+              "price": 90561,
+              "manufacturer": "Samsung",
+              "notes": "NBy3i2QnU4a7w5FUutZyOKOhw6zk9KtPOTWeYhaXNmfxcsvORGeXK9w0FxmR1Mlm5mzFAarVukFEz0BjI7dk9RZxXF77tPx7P2YKw7Rau0QQfWUdWf5HPaJwJJ9JUZIHW1uDPMmy3oTqe2U42uWHo8ovJ7H0L2FHTTAIW7HBIhxZLjFD46VMykC01IZlvZ6SuJpuuzQ0y0LKoJSlVVQ9HXSiPUGdZ0qW93OxHvCDfhSSFrQTuWWwGvDBiP",
+              "received": false
+            }
+          ],
+          "total_price": 91705,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:15:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69471fe51c508c5d5ee5e242"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

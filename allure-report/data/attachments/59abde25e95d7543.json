@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:16:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3413",
+    "etag": "W/\"d55-ndZ0nOQED9XnRXE9mhVutq2/u+I\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694720261c508c5d5ee606d9",
+        "email": "Vidal.Harber@gmail.com",
+        "name": "Lesley Padberg",
+        "country": "USA",
+        "city": "Grand Island",
+        "street": "Hettie Point",
+        "house": 36,
+        "flat": 287,
+        "phone": "+16902502404",
+        "createdOn": "2025-12-20T22:16:06.000Z",
+        "notes": "bvWzbNWrXYTeK9AGYZnGSfwWcQLlA035WAOuEDZDgBpgQ4nnw7FF8yJ2Cb213dNmdbIS64f31v9Ze2OJbZp9jaO3V4h69VzzQBKHXhVTdr4q1nGPlwKbx0WwgYbrG3nabMvyoK4ZCbnM5FVuGisARKNVPsEd4ujd2hXGa8c69pUiJ4RmbsRYSbuGFY7DGaZvHX8ow8rZfifc2I3Uz8pVag5lLIChmv9p6NxHxlDb2mQD8KdGJc3Enco5n2"
+      },
+      "products": [
+        {
+          "_id": "694720271c508c5d5ee6089c",
+          "name": "Chair8485",
+          "amount": 389,
+          "price": 67683,
+          "manufacturer": "Amazon",
+          "notes": "0lGXeMRREwpFG6qNVm32mNjh4YOa4c0DRkRVYlva5f3pVKoEchueFiTLiLwDkA0m3D3J8ZfArQI8HnzcjrBGZcOzaVb8JYX5vvPFBms3XeIs33U2xABU6ZcU2CL8JodNrPqfYUvOIxmcP7CugGDKPtCZWL2memWFvyu4PIg3FLI2aLUR72ZMetddunMOpNBJvkbgscvZX0VgFTdawYajhbpsSHmax1M2YKeDopjG0s3evo3kf3KuAXtd3d",
+          "received": false
+        },
+        {
+          "_id": "6947202a1c508c5d5ee60943",
+          "name": "Chair70684",
+          "amount": 831,
+          "price": 49585,
+          "manufacturer": "Tesla",
+          "notes": "LOmYJI2iRmEmivSvpnyTSignHU9rCDYiTuiFtPE8JF4EsWg1FdWVPQWkePsJ0VWEKznFlmZQSz3ufVHcruCBVF9338lK5A0FflBtxZqVaZYnXHXcnQyZ1D5hI7QUPAiIAeb699gPd9tZU3yLDeUIpB6g7yOr25Jdm3PL6QTAGq7pcxPKuBrA7UEzTbbqyPK4NcZJbLd1TPyElmYgOYFORsLgwTJPSzRMAQYuDkbO9BJldoGEkJPFwHxFUl",
+          "received": false
+        },
+        {
+          "_id": "6947202a1c508c5d5ee60960",
+          "name": "Chips66558",
+          "amount": 944,
+          "price": 53632,
+          "manufacturer": "Tesla",
+          "notes": "1ZWDpjl4aGrB7p39VSQ86V5z31sxwfaVgNdDzjB7hyWaynnFsdGH532J554F1sdX3G1eyEXpBrk8ztUP2ODzRUJRTDhmy01pYxVPIRyNNE0j65UEgoL8buZbDscMzD1qh90dgyyQ9GRkPhFffpo0jXHXBpyqM25lnPbnvnQbGdQhy3QAehX3IKhb10gsZw623v9UN8Q5Miyg4GEdPvmS0aly20mYwZyQkqAa3KTfw6GFRsyHIHJT7G54bI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 170900,
+      "createdOn": "2025-12-20T22:16:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694720261c508c5d5ee606d9",
+          "products": [
+            {
+              "_id": "694720271c508c5d5ee6089c",
+              "name": "Chair8485",
+              "amount": 389,
+              "price": 67683,
+              "manufacturer": "Amazon",
+              "notes": "0lGXeMRREwpFG6qNVm32mNjh4YOa4c0DRkRVYlva5f3pVKoEchueFiTLiLwDkA0m3D3J8ZfArQI8HnzcjrBGZcOzaVb8JYX5vvPFBms3XeIs33U2xABU6ZcU2CL8JodNrPqfYUvOIxmcP7CugGDKPtCZWL2memWFvyu4PIg3FLI2aLUR72ZMetddunMOpNBJvkbgscvZX0VgFTdawYajhbpsSHmax1M2YKeDopjG0s3evo3kf3KuAXtd3d",
+              "received": false
+            },
+            {
+              "_id": "6947202a1c508c5d5ee60943",
+              "name": "Chair70684",
+              "amount": 831,
+              "price": 49585,
+              "manufacturer": "Tesla",
+              "notes": "LOmYJI2iRmEmivSvpnyTSignHU9rCDYiTuiFtPE8JF4EsWg1FdWVPQWkePsJ0VWEKznFlmZQSz3ufVHcruCBVF9338lK5A0FflBtxZqVaZYnXHXcnQyZ1D5hI7QUPAiIAeb699gPd9tZU3yLDeUIpB6g7yOr25Jdm3PL6QTAGq7pcxPKuBrA7UEzTbbqyPK4NcZJbLd1TPyElmYgOYFORsLgwTJPSzRMAQYuDkbO9BJldoGEkJPFwHxFUl",
+              "received": false
+            },
+            {
+              "_id": "6947202a1c508c5d5ee60960",
+              "name": "Chips66558",
+              "amount": 944,
+              "price": 53632,
+              "manufacturer": "Tesla",
+              "notes": "1ZWDpjl4aGrB7p39VSQ86V5z31sxwfaVgNdDzjB7hyWaynnFsdGH532J554F1sdX3G1eyEXpBrk8ztUP2ODzRUJRTDhmy01pYxVPIRyNNE0j65UEgoL8buZbDscMzD1qh90dgyyQ9GRkPhFffpo0jXHXBpyqM25lnPbnvnQbGdQhy3QAehX3IKhb10gsZw623v9UN8Q5Miyg4GEdPvmS0aly20mYwZyQkqAa3KTfw6GFRsyHIHJT7G54bI",
+              "received": false
+            }
+          ],
+          "total_price": 170900,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:16:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6947202b1c508c5d5ee609aa"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

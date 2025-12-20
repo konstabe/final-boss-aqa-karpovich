@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:16:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3420",
+    "etag": "W/\"d5c-HF50DKVuEAD9/CmqTxLPMLcJXCI\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694720201c508c5d5ee602db",
+        "email": "Ola_Rogahn24@yahoo.com",
+        "name": "Keven Klein",
+        "country": "Germany",
+        "city": "Kathleenside",
+        "street": "Bergnaum Oval",
+        "house": 1,
+        "flat": 791,
+        "phone": "+18103136867",
+        "createdOn": "2025-12-20T22:16:00.000Z",
+        "notes": "Vv5dLetXlrq9hK6UpfScGHWf69UFcGIZDLfWDLhkBlyvmhTdXKZJWfBKIWP7YnItl1BHYNYgbvr9nI1CjY82RxOnDsNy1Lc47V5woF5W8iEIk1HZJFd2FyTJxb7uvBwDW9XmUfTgo1v80dLpR49jf6rvOg288mmhfJuC0UQStg7sS8JuzbuY3YIdVuUvyN8xzb3Qx23Up64uqnd8r8oLWVmIY3ZTHmRxvtxJhDhs5OOZ5mckpe2OOLosIE"
+      },
+      "products": [
+        {
+          "_id": "694720211c508c5d5ee6034a",
+          "name": "Soap7442",
+          "amount": 325,
+          "price": 22468,
+          "manufacturer": "Microsoft",
+          "notes": "nGMsV96O4Ulz0l5feJLQphLM61YTZzaUbgIGsDi60AvYn1OhuqQIZlteaD2t4TVW1g0CKtNzicikFf7QbhQe29oXBrbxqsWq2h1y4czRAH5bCUtv36A5zXfhou2UdfvzprhOpZO6F4XJKdb8wtyXcFMz7tF21hrXzK32eTT2QiHn6xyajhA7wouudBCOrZ2bIy9fmNUs8vW7Ew2q8porLQDAq3LfU9IESNceXs92LUe2W0bpW9JGiAc1k4",
+          "received": false
+        },
+        {
+          "_id": "694720241c508c5d5ee60549",
+          "name": "Fish80962",
+          "amount": 589,
+          "price": 81092,
+          "manufacturer": "Xiaomi",
+          "notes": "qPLQxCswdM3cmrffMwAf3cSYT3wsRxM9u5mYMhvOE2zefdlVK5dWbujGUa6t3XSt7nSVeoVBUwNqkWYq70v3th6XVpM3Umkk8aJWmT1xQHREcR5v4wZIe7wW7aH2s5IiMaQgrHloDr1tgPUQnEkUTUQrlDiMQq4ZVSyu2CdEHmBSVYQeL216ICBTgz5Rolc6LEjRttktx7RF45n0hkXbRE4c8DtGfwdOmdpzZBFwN2mHCTFBxLEWzLeAHw",
+          "received": false
+        },
+        {
+          "_id": "694720251c508c5d5ee60633",
+          "name": "Gloves17151",
+          "amount": 335,
+          "price": 6303,
+          "manufacturer": "Google",
+          "notes": "NzyetF4NX8jzMrywp3HQqGPRWZB4vrsceHFZBsbTBDh5ku9sA9H4hInVGWiBAXGnpcRzEjVAIGCJgKVGJOV7QHzSqbO7g7Lw8xmYc0k07dyqveyVdUPbtOC8zFQiuJXFUk9Cq1uiPx885HNjNpGsvenhAitVqJhuH5AwthaigLwAZFDYDoMzblTuWVoa3JkgynQTVwIIVyQOVLlLOLJA7WQx7MgMzrbrE469ipjn0m2vu3O5OUcyAsX1fV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 109863,
+      "createdOn": "2025-12-20T22:16:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694720201c508c5d5ee602db",
+          "products": [
+            {
+              "_id": "694720211c508c5d5ee6034a",
+              "name": "Soap7442",
+              "amount": 325,
+              "price": 22468,
+              "manufacturer": "Microsoft",
+              "notes": "nGMsV96O4Ulz0l5feJLQphLM61YTZzaUbgIGsDi60AvYn1OhuqQIZlteaD2t4TVW1g0CKtNzicikFf7QbhQe29oXBrbxqsWq2h1y4czRAH5bCUtv36A5zXfhou2UdfvzprhOpZO6F4XJKdb8wtyXcFMz7tF21hrXzK32eTT2QiHn6xyajhA7wouudBCOrZ2bIy9fmNUs8vW7Ew2q8porLQDAq3LfU9IESNceXs92LUe2W0bpW9JGiAc1k4",
+              "received": false
+            },
+            {
+              "_id": "694720241c508c5d5ee60549",
+              "name": "Fish80962",
+              "amount": 589,
+              "price": 81092,
+              "manufacturer": "Xiaomi",
+              "notes": "qPLQxCswdM3cmrffMwAf3cSYT3wsRxM9u5mYMhvOE2zefdlVK5dWbujGUa6t3XSt7nSVeoVBUwNqkWYq70v3th6XVpM3Umkk8aJWmT1xQHREcR5v4wZIe7wW7aH2s5IiMaQgrHloDr1tgPUQnEkUTUQrlDiMQq4ZVSyu2CdEHmBSVYQeL216ICBTgz5Rolc6LEjRttktx7RF45n0hkXbRE4c8DtGfwdOmdpzZBFwN2mHCTFBxLEWzLeAHw",
+              "received": false
+            },
+            {
+              "_id": "694720251c508c5d5ee60633",
+              "name": "Gloves17151",
+              "amount": 335,
+              "price": 6303,
+              "manufacturer": "Google",
+              "notes": "NzyetF4NX8jzMrywp3HQqGPRWZB4vrsceHFZBsbTBDh5ku9sA9H4hInVGWiBAXGnpcRzEjVAIGCJgKVGJOV7QHzSqbO7g7Lw8xmYc0k07dyqveyVdUPbtOC8zFQiuJXFUk9Cq1uiPx885HNjNpGsvenhAitVqJhuH5AwthaigLwAZFDYDoMzblTuWVoa3JkgynQTVwIIVyQOVLlLOLJA7WQx7MgMzrbrE469ipjn0m2vu3O5OUcyAsX1fV",
+              "received": false
+            }
+          ],
+          "total_price": 109863,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:16:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694720261c508c5d5ee606b9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

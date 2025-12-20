@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2937",
+    "etag": "W/\"b79-i1HVi030BFcnBbqz3hPyCW3gahY\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69471fed1c508c5d5ee5e652",
+      "status": "Draft",
+      "customer": {
+        "_id": "69471fea1c508c5d5ee5e4a5",
+        "email": "Alexane.Purdy23@hotmail.com",
+        "name": "Electa Dickinson",
+        "country": "France",
+        "city": "Titusville",
+        "street": "Liana Row",
+        "house": 50,
+        "flat": 846,
+        "phone": "+18768690267",
+        "createdOn": "2025-12-20T22:15:06.000Z",
+        "notes": "uDTfW9PU2UrENtkTToMLDMnrnApH4YAZuhprRyEoj48xsynEbDCL0i7RxewMWyDWDsiuKyKP6S6VjH1JKwcrhI0ahrdSHsgadbLka9PAaknCgScxG8Tr1vhvmBBrHSwN2V2nBPymyreY9TQmv3bJrkCiT6WxMDwMyl9tZFKszodZzPLnw8BvDakhGLSzYjYJX3GOLWnP9xRgsI75WcPMQrAmkLvCEHdZ4r1USm2PNmg18XwlbtY7aSOINu"
+      },
+      "products": [
+        {
+          "_id": "69471feb1c508c5d5ee5e514",
+          "name": "Soap47606",
+          "amount": 96,
+          "price": 98241,
+          "manufacturer": "Xiaomi",
+          "notes": "fHdrKKAwCyUMs0Vfed8YEVYb7YAtN5Yclmc7WLfjXOnc3lmj3GYl3COkPoAvZ505PqF7RDJrz8celofPX6OBW3SLyyWMxQkJxBwug2XfVOLZKZegGWqRafQFk45PQ7vipHFmr2fDNP98MAdX36WUG5GrqWcWe0105sAqz8RhlcPNpSY5lVBouk62RBrONLWOYSECyBRNEoA2DhEc2eycZYPu3nB1pwVqCc5Q0bMetxSu4Kbq7pjwpBqEhi",
+          "received": false
+        },
+        {
+          "_id": "69471fec1c508c5d5ee5e597",
+          "name": "Bacon42681",
+          "amount": 262,
+          "price": 16410,
+          "manufacturer": "Google",
+          "notes": "NcBDAP0nLWbmID2khfspjOVqATm2RwFxwxuct82yVnyJdKMdj4Q3HrbVPIHaDswxVz5jEgAEoM9yx5TQGmbhwHVEUdeJbaRAnedypW4ORbse6QBC85ppkrAz5yF4RTf9GeHXXTxSkLV8inUUKSSVXObzi0FLZRjjeUNN0r0rd0DGh6BK2eEEE0dWWZRqjrVXb68drdcUBrd2xF7qnEAimTXDb9Mzc0AXprc8TSK7oP9CjlnBRtamVYsCmK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 114651,
+      "createdOn": "2025-12-20T22:15:09.000Z",
+      "comments": [
+        {
+          "text": "sZkZFREWTBMiyqiAgNVzqYb5UOFbTNSd2jsYaCg1MQEBxfCr9Dj38uwLDUAJcERVaIltBeXXa2vfcfMzLYuRDqQj1QcgbPWsjH58BLrWOSPxlxjANPPt9htkfOHZHLTsfi09tVP1G81JWwh0kju4HAnq2q6Iv1UxM5bgPtZG56Yiu0QGZanxBXSbRVbqWTam6wDk7c2v <",
+          "createdOn": "2025-12-20T22:15:10.000Z",
+          "_id": "69471fee1c508c5d5ee5e6d6"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471fea1c508c5d5ee5e4a5",
+          "products": [
+            {
+              "_id": "69471feb1c508c5d5ee5e514",
+              "name": "Soap47606",
+              "amount": 96,
+              "price": 98241,
+              "manufacturer": "Xiaomi",
+              "notes": "fHdrKKAwCyUMs0Vfed8YEVYb7YAtN5Yclmc7WLfjXOnc3lmj3GYl3COkPoAvZ505PqF7RDJrz8celofPX6OBW3SLyyWMxQkJxBwug2XfVOLZKZegGWqRafQFk45PQ7vipHFmr2fDNP98MAdX36WUG5GrqWcWe0105sAqz8RhlcPNpSY5lVBouk62RBrONLWOYSECyBRNEoA2DhEc2eycZYPu3nB1pwVqCc5Q0bMetxSu4Kbq7pjwpBqEhi",
+              "received": false
+            },
+            {
+              "_id": "69471fec1c508c5d5ee5e597",
+              "name": "Bacon42681",
+              "amount": 262,
+              "price": 16410,
+              "manufacturer": "Google",
+              "notes": "NcBDAP0nLWbmID2khfspjOVqATm2RwFxwxuct82yVnyJdKMdj4Q3HrbVPIHaDswxVz5jEgAEoM9yx5TQGmbhwHVEUdeJbaRAnedypW4ORbse6QBC85ppkrAz5yF4RTf9GeHXXTxSkLV8inUUKSSVXObzi0FLZRjjeUNN0r0rd0DGh6BK2eEEE0dWWZRqjrVXb68drdcUBrd2xF7qnEAimTXDb9Mzc0AXprc8TSK7oP9CjlnBRtamVYsCmK",
+              "received": false
+            }
+          ],
+          "total_price": 114651,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:15:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

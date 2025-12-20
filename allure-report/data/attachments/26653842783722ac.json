@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:16:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5419",
+    "etag": "W/\"152b-ZANmt1ZnEwgfyWdWBUqENHWgZhY\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694720201c508c5d5ee602c9",
+      "status": "In Process",
+      "customer": {
+        "_id": "6947201b1c508c5d5ee60189",
+        "email": "Muriel.Rowe91@gmail.com",
+        "name": "Kaela Baumbach",
+        "country": "France",
+        "city": "Port Orlandofort",
+        "street": "Justus Rest",
+        "house": 15,
+        "flat": 339,
+        "phone": "+13082763212",
+        "createdOn": "2025-12-20T22:15:55.000Z",
+        "notes": "5X6Yz3pWUu4KblMMxf3w4aIQVeSL28evpsLDa3NbgfkawHYu7z2cwCybPiMyAkJbPmhnU9utKxO5EX0tcVbCPSFxNRDgJRA8g5mcbz9f6r1ngZGZ2qreog9Guwv5YXCBpTiPRIRgVMdH5eEqkGsM75l8G3bi21dUgkFQOUicGCZ1aBVo3XeeFI3dTbCW1k52RXMtgwvmospqWROy2aJYGhhZGA370LWYpN0N9iscdWctyQyKoMbMahFyWi"
+      },
+      "products": [
+        {
+          "_id": "6947201f1c508c5d5ee60275",
+          "name": "Pizza9939",
+          "amount": 246,
+          "price": 67597,
+          "manufacturer": "Tesla",
+          "notes": "HsBQZk2hItUlQLZlBAaDCTkICjRWaVxY88MhSna8H2LCdQFAclev02gScItGSw408lHkcqcrnQpzRM0P3xorb28QNWCqu0rt3HzsC002KHO2nMGZo0OfN8CDROHrAfuqmdXAd721OaXfHYVLiHL4NGuHKs2aIzjKCBx9IEidjnqGZd4U4Jg56R60hhGScgBGFnkEhrSHOLB9UiBRDBHicIPecB4QWUoxLEbGRv43Ug68FUPAIkDzT5EFGn",
+          "received": false
+        },
+        {
+          "_id": "694720201c508c5d5ee602ac",
+          "name": "Bike65765",
+          "amount": 162,
+          "price": 62338,
+          "manufacturer": "Apple",
+          "notes": "AWyKEtDU7c4LatezatnIzYdE7J4GNJRLDP9Mi5BsR8eZAfULQFixe2lmgDl5NlghcHdJNZMdKqzMae9aESrQmKhxqpgBenj0fPINCWF1Pop84UVlnINnu30hrAn7vv9KvFUv5dK2bT6bMoUgRuiC2TpXSBtgbZ0ikgt96n3XgIuAVsWmAhfcjfgZVNv2EwOE60KP9B5UafSIZbN6HxubZVnrJFdhEpR39ladzyclJ0KeV5bEP9FLqemw2W",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Port Orlandofort",
+          "street": "Justus Rest",
+          "house": 15,
+          "flat": 339
+        },
+        "finalDate": "2025-12-21T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 129935,
+      "createdOn": "2025-12-20T22:16:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6947201b1c508c5d5ee60189",
+          "products": [
+            {
+              "_id": "6947201f1c508c5d5ee60275",
+              "name": "Pizza9939",
+              "amount": 246,
+              "price": 67597,
+              "manufacturer": "Tesla",
+              "notes": "HsBQZk2hItUlQLZlBAaDCTkICjRWaVxY88MhSna8H2LCdQFAclev02gScItGSw408lHkcqcrnQpzRM0P3xorb28QNWCqu0rt3HzsC002KHO2nMGZo0OfN8CDROHrAfuqmdXAd721OaXfHYVLiHL4NGuHKs2aIzjKCBx9IEidjnqGZd4U4Jg56R60hhGScgBGFnkEhrSHOLB9UiBRDBHicIPecB4QWUoxLEbGRv43Ug68FUPAIkDzT5EFGn",
+              "received": false
+            },
+            {
+              "_id": "694720201c508c5d5ee602ac",
+              "name": "Bike65765",
+              "amount": 162,
+              "price": 62338,
+              "manufacturer": "Apple",
+              "notes": "AWyKEtDU7c4LatezatnIzYdE7J4GNJRLDP9Mi5BsR8eZAfULQFixe2lmgDl5NlghcHdJNZMdKqzMae9aESrQmKhxqpgBenj0fPINCWF1Pop84UVlnINnu30hrAn7vv9KvFUv5dK2bT6bMoUgRuiC2TpXSBtgbZ0ikgt96n3XgIuAVsWmAhfcjfgZVNv2EwOE60KP9B5UafSIZbN6HxubZVnrJFdhEpR39ladzyclJ0KeV5bEP9FLqemw2W",
+              "received": false
+            }
+          ],
+          "total_price": 129935,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Port Orlandofort",
+              "street": "Justus Rest",
+              "house": 15,
+              "flat": 339
+            },
+            "finalDate": "2025-12-21T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-20T22:16:06.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947201b1c508c5d5ee60189",
+          "products": [
+            {
+              "_id": "6947201f1c508c5d5ee60275",
+              "name": "Pizza9939",
+              "amount": 246,
+              "price": 67597,
+              "manufacturer": "Tesla",
+              "notes": "HsBQZk2hItUlQLZlBAaDCTkICjRWaVxY88MhSna8H2LCdQFAclev02gScItGSw408lHkcqcrnQpzRM0P3xorb28QNWCqu0rt3HzsC002KHO2nMGZo0OfN8CDROHrAfuqmdXAd721OaXfHYVLiHL4NGuHKs2aIzjKCBx9IEidjnqGZd4U4Jg56R60hhGScgBGFnkEhrSHOLB9UiBRDBHicIPecB4QWUoxLEbGRv43Ug68FUPAIkDzT5EFGn",
+              "received": false
+            },
+            {
+              "_id": "694720201c508c5d5ee602ac",
+              "name": "Bike65765",
+              "amount": 162,
+              "price": 62338,
+              "manufacturer": "Apple",
+              "notes": "AWyKEtDU7c4LatezatnIzYdE7J4GNJRLDP9Mi5BsR8eZAfULQFixe2lmgDl5NlghcHdJNZMdKqzMae9aESrQmKhxqpgBenj0fPINCWF1Pop84UVlnINnu30hrAn7vv9KvFUv5dK2bT6bMoUgRuiC2TpXSBtgbZ0ikgt96n3XgIuAVsWmAhfcjfgZVNv2EwOE60KP9B5UafSIZbN6HxubZVnrJFdhEpR39ladzyclJ0KeV5bEP9FLqemw2W",
+              "received": false
+            }
+          ],
+          "total_price": 129935,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Port Orlandofort",
+              "street": "Justus Rest",
+              "house": 15,
+              "flat": 339
+            },
+            "finalDate": "2025-12-21T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-20T22:16:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947201b1c508c5d5ee60189",
+          "products": [
+            {
+              "_id": "6947201f1c508c5d5ee60275",
+              "name": "Pizza9939",
+              "amount": 246,
+              "price": 67597,
+              "manufacturer": "Tesla",
+              "notes": "HsBQZk2hItUlQLZlBAaDCTkICjRWaVxY88MhSna8H2LCdQFAclev02gScItGSw408lHkcqcrnQpzRM0P3xorb28QNWCqu0rt3HzsC002KHO2nMGZo0OfN8CDROHrAfuqmdXAd721OaXfHYVLiHL4NGuHKs2aIzjKCBx9IEidjnqGZd4U4Jg56R60hhGScgBGFnkEhrSHOLB9UiBRDBHicIPecB4QWUoxLEbGRv43Ug68FUPAIkDzT5EFGn",
+              "received": false
+            },
+            {
+              "_id": "694720201c508c5d5ee602ac",
+              "name": "Bike65765",
+              "amount": 162,
+              "price": 62338,
+              "manufacturer": "Apple",
+              "notes": "AWyKEtDU7c4LatezatnIzYdE7J4GNJRLDP9Mi5BsR8eZAfULQFixe2lmgDl5NlghcHdJNZMdKqzMae9aESrQmKhxqpgBenj0fPINCWF1Pop84UVlnINnu30hrAn7vv9KvFUv5dK2bT6bMoUgRuiC2TpXSBtgbZ0ikgt96n3XgIuAVsWmAhfcjfgZVNv2EwOE60KP9B5UafSIZbN6HxubZVnrJFdhEpR39ladzyclJ0KeV5bEP9FLqemw2W",
+              "received": false
+            }
+          ],
+          "total_price": 129935,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:16:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

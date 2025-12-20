@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-jLUq1IdRhNAc/jDjf29Y5jaJQiw\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69471ff51c508c5d5ee5ea65",
+        "email": "Lincoln_Davis@hotmail.com",
+        "name": "Jerod Buckridge",
+        "country": "USA",
+        "city": "Fort Lilly",
+        "street": "Lewis Lodge",
+        "house": 33,
+        "flat": 124,
+        "phone": "+14965352422",
+        "createdOn": "2025-12-20T22:15:17.000Z",
+        "notes": "GUHDQuhzLuCl8vpb0QytS4QKprcSTEmOZVpM8h9oqBTD6DaPQaVXoxdHM8RghVzsKU4un3dx8M0Gy0nEXXsjnYMr7YjHDvNpeMLDvZIY0Kt1IMNDtG4FvGDSpzRv0S49pUoiTPtK7j6ceVqCMytb5OJC8PXcuBZY1OWLAVJ4AlBZ33ExFUHaipCFBuBK2bJox9aQ5mdGtPg7TrjKJUgPqklbuuIrfYLEZPyhAQbL7ISTBlNoNSSV820H9y"
+      },
+      "products": [
+        {
+          "_id": "69471ff61c508c5d5ee5eb2e",
+          "name": "Fish13232",
+          "amount": 414,
+          "price": 78647,
+          "manufacturer": "Apple",
+          "notes": "HN8YgImECYcpgN7hJTNHnvX5Hnq7MEmrPBPelA1lzwuj9YKksoQN0HHP0XxSJIAaVjgiiyDaLMvJbRqK0s6HE1H2dUgesBoAjBp7Oizz5bEzrlotiVUYiZabawBW8ljIkO9yzgVzG7JJQIf1NIB9EjSHILy2Cwvy3G2hHQP4GG1TqO7WFWVudYAkQfgOlfKK48nneFJGZhSwopTAI9r1bJYcK89YM3DENbPa7Dsdao3D1aIBpjD14H4i2U",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 78647,
+      "createdOn": "2025-12-20T22:15:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471ff51c508c5d5ee5ea65",
+          "products": [
+            {
+              "_id": "69471ff61c508c5d5ee5eb2e",
+              "name": "Fish13232",
+              "amount": 414,
+              "price": 78647,
+              "manufacturer": "Apple",
+              "notes": "HN8YgImECYcpgN7hJTNHnvX5Hnq7MEmrPBPelA1lzwuj9YKksoQN0HHP0XxSJIAaVjgiiyDaLMvJbRqK0s6HE1H2dUgesBoAjBp7Oizz5bEzrlotiVUYiZabawBW8ljIkO9yzgVzG7JJQIf1NIB9EjSHILy2Cwvy3G2hHQP4GG1TqO7WFWVudYAkQfgOlfKK48nneFJGZhSwopTAI9r1bJYcK89YM3DENbPa7Dsdao3D1aIBpjD14H4i2U",
+              "received": false
+            }
+          ],
+          "total_price": 78647,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:15:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69471ff71c508c5d5ee5ebc0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

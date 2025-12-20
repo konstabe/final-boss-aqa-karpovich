@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2933",
+    "etag": "W/\"b75-Dh8H/c7ZzQ6Bpyj84yZL9wmV6hM\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694720051c508c5d5ee5f3cb",
+      "status": "Draft",
+      "customer": {
+        "_id": "694720041c508c5d5ee5f335",
+        "email": "Josh.Macejkovic@hotmail.com",
+        "name": "Dion Berge",
+        "country": "Belarus",
+        "city": "Blancatown",
+        "street": "Clara Glen",
+        "house": 1,
+        "flat": 350,
+        "phone": "+15426571454",
+        "createdOn": "2025-12-20T22:15:32.000Z",
+        "notes": "BscYN7Q4jvLAzM0gqBPZhiwNrdwjy43cQXRdTFhEyAuH3eNoZUmscUW6WGlOByuEoQ8pY1kFEiMW2PKbxwZDy5Dq62nAKLt7ewg6yEvrw3WII0ie3GfLZcyTN8RDJOeh8kFl7q6N64TEk9EDK7czgeGdWFuUVT6huBVrGHOLVNkFmT4AeD7PqbJKyf7dA6kBEJpLZGYxG9LSElPm6c6iwm0A6s1Hlxc2GnlcJTxPrrg2jlfcIHAJF8EIhY"
+      },
+      "products": [
+        {
+          "_id": "694720051c508c5d5ee5f392",
+          "name": "Tuna81604",
+          "amount": 83,
+          "price": 51428,
+          "manufacturer": "Tesla",
+          "notes": "ZJ6BqYyHKUpwpZ5jWIiAvg7TuULjfwB5VXrdoPDbS5wELnXot98YjJXkdUC8L4NGhEysDttTaWBDi7yjdwljYR7PagMktebeWtGOYYW2gYQDfdgF86cgKqOQKzHQ2FfAzvFC6ltq75UfSPdOo2ZlgJqU4YxLFMcaxKxJjh89I70NwJQqsdVSTxU1GnSogjdnUFxnljjl7ILsoAj4xj7FKM1RlVAFDdAUQHSphrte6MdcxhVaD4p9JWA0sW",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Blancatown",
+          "street": "Clara Glen",
+          "house": 1,
+          "flat": 350
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 51428,
+      "createdOn": "2025-12-20T22:15:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694720041c508c5d5ee5f335",
+          "products": [
+            {
+              "_id": "694720051c508c5d5ee5f392",
+              "name": "Tuna81604",
+              "amount": 83,
+              "price": 51428,
+              "manufacturer": "Tesla",
+              "notes": "ZJ6BqYyHKUpwpZ5jWIiAvg7TuULjfwB5VXrdoPDbS5wELnXot98YjJXkdUC8L4NGhEysDttTaWBDi7yjdwljYR7PagMktebeWtGOYYW2gYQDfdgF86cgKqOQKzHQ2FfAzvFC6ltq75UfSPdOo2ZlgJqU4YxLFMcaxKxJjh89I70NwJQqsdVSTxU1GnSogjdnUFxnljjl7ILsoAj4xj7FKM1RlVAFDdAUQHSphrte6MdcxhVaD4p9JWA0sW",
+              "received": false
+            }
+          ],
+          "total_price": 51428,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Blancatown",
+              "street": "Clara Glen",
+              "house": 1,
+              "flat": 350
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-20T22:15:35.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694720041c508c5d5ee5f335",
+          "products": [
+            {
+              "_id": "694720051c508c5d5ee5f392",
+              "name": "Tuna81604",
+              "amount": 83,
+              "price": 51428,
+              "manufacturer": "Tesla",
+              "notes": "ZJ6BqYyHKUpwpZ5jWIiAvg7TuULjfwB5VXrdoPDbS5wELnXot98YjJXkdUC8L4NGhEysDttTaWBDi7yjdwljYR7PagMktebeWtGOYYW2gYQDfdgF86cgKqOQKzHQ2FfAzvFC6ltq75UfSPdOo2ZlgJqU4YxLFMcaxKxJjh89I70NwJQqsdVSTxU1GnSogjdnUFxnljjl7ILsoAj4xj7FKM1RlVAFDdAUQHSphrte6MdcxhVaD4p9JWA0sW",
+              "received": false
+            }
+          ],
+          "total_price": 51428,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:15:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

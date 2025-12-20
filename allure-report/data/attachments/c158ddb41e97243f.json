@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3422",
+    "etag": "W/\"d5e-Dnapx8pisFoTuuvnCnvBk3S+dDo\"",
+    "keep-alive": "timeout=5, max=52",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694720151c508c5d5ee5fc5f",
+        "email": "Dylan9@gmail.com",
+        "name": "Nya Jaskolski",
+        "country": "Great Britain",
+        "city": "South Darenland",
+        "street": "Wood Street",
+        "house": 21,
+        "flat": 905,
+        "phone": "+15398395360",
+        "createdOn": "2025-12-20T22:15:49.000Z",
+        "notes": "7AgYLsRAgNYbhHY1Z9TDI1APBszMktlmcQzd7Abp5qMOjdKdIEJsTVU7h655Ul7TM3TiK6WpQWw1I3xq5hoVL2TuqUbzIxBUU0CPQwULpDxXU2CPTZaegSLhCZsI5DVg5RA8v4rLPOlSmgJfmKP58ILo2WBE1j49ZcZfzToNgXF48fgSZrWOnVhgsmSdn9MEgpnHCb4QfV4fUHuDZ6vrBPODm4g17InehWLYsGc57Uu8yPToskfmyfrZa6"
+      },
+      "products": [
+        {
+          "_id": "694720161c508c5d5ee5fc91",
+          "name": "Chicken7053",
+          "amount": 748,
+          "price": 21521,
+          "manufacturer": "Xiaomi",
+          "notes": "uyDfkbKHENCk5BLrKB4VEHM7GQ7w7BINPcDk8PVnCKrxGdLLTauCSX7y6iOoFKtVTI4kQaIC3LPxW7n23XvHXDFGcnNo4iS5uNuwVug6DNjcaBJDV1qZmgrMhI9WMHuQf4PSa26cPQoRQnQd6mHz3NvJUE9zgUbWIJQYPgEatfkEzWabHHxSKXxi7pIbWGRegXqig6zVx5kftVGb1GE5zTlZa7R4p5tmqLesqcxFuJmtVTYcFPxDeaecrg",
+          "received": false
+        },
+        {
+          "_id": "694720161c508c5d5ee5fce8",
+          "name": "Pants5288",
+          "amount": 938,
+          "price": 40216,
+          "manufacturer": "Sony",
+          "notes": "6vGSoIcOpUXcUMIzmZP9IRmhGIJHJZ27Sm3uxrcbfL24tSWFR8Co68XJBwuPkWvFBYcdd2RbfyinLnH2t7E2bdIcRG0kayK4J304hlb4tJh6uKrpHa6G965bnrukI90dIy1lCKZJMtkPU80lTsRmberxO191LZG6yO0l0L6QXWgQXX5dwFKjtPPeYuIFXbsHwvGHwlUevmNp1OOKgy7UOFQ1rfw0d0r4xrz9FiQD2yzksuy8fdnWPuEYoM",
+          "received": false
+        },
+        {
+          "_id": "694720171c508c5d5ee5fd16",
+          "name": "Computer73740",
+          "amount": 869,
+          "price": 52368,
+          "manufacturer": "Sony",
+          "notes": "cEHX1V82Z39EZ5loFYK1b3URHHi59ZZckMzrucFHaTDV8HS3wFrSVFwHTGcPQiSg3NJDvn4wuXjyO1UMk6GloKpWQO6uXQufgKqV6K6L9ucAIv6d2vEe1Mc5QnwqN0aTAiyiod0mqNvqWImKnIDl4jdQhzD0eB1QsYgk0diG0XFCIOBUXcSTMqXQHv2rXOo9UEw7j3yuXSzwIii6aGwl9amDsn0QmMJPbF1Q7hGcYsbChnhvF96KvzEum2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 114105,
+      "createdOn": "2025-12-20T22:15:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694720151c508c5d5ee5fc5f",
+          "products": [
+            {
+              "_id": "694720161c508c5d5ee5fc91",
+              "name": "Chicken7053",
+              "amount": 748,
+              "price": 21521,
+              "manufacturer": "Xiaomi",
+              "notes": "uyDfkbKHENCk5BLrKB4VEHM7GQ7w7BINPcDk8PVnCKrxGdLLTauCSX7y6iOoFKtVTI4kQaIC3LPxW7n23XvHXDFGcnNo4iS5uNuwVug6DNjcaBJDV1qZmgrMhI9WMHuQf4PSa26cPQoRQnQd6mHz3NvJUE9zgUbWIJQYPgEatfkEzWabHHxSKXxi7pIbWGRegXqig6zVx5kftVGb1GE5zTlZa7R4p5tmqLesqcxFuJmtVTYcFPxDeaecrg",
+              "received": false
+            },
+            {
+              "_id": "694720161c508c5d5ee5fce8",
+              "name": "Pants5288",
+              "amount": 938,
+              "price": 40216,
+              "manufacturer": "Sony",
+              "notes": "6vGSoIcOpUXcUMIzmZP9IRmhGIJHJZ27Sm3uxrcbfL24tSWFR8Co68XJBwuPkWvFBYcdd2RbfyinLnH2t7E2bdIcRG0kayK4J304hlb4tJh6uKrpHa6G965bnrukI90dIy1lCKZJMtkPU80lTsRmberxO191LZG6yO0l0L6QXWgQXX5dwFKjtPPeYuIFXbsHwvGHwlUevmNp1OOKgy7UOFQ1rfw0d0r4xrz9FiQD2yzksuy8fdnWPuEYoM",
+              "received": false
+            },
+            {
+              "_id": "694720171c508c5d5ee5fd16",
+              "name": "Computer73740",
+              "amount": 869,
+              "price": 52368,
+              "manufacturer": "Sony",
+              "notes": "cEHX1V82Z39EZ5loFYK1b3URHHi59ZZckMzrucFHaTDV8HS3wFrSVFwHTGcPQiSg3NJDvn4wuXjyO1UMk6GloKpWQO6uXQufgKqV6K6L9ucAIv6d2vEe1Mc5QnwqN0aTAiyiod0mqNvqWImKnIDl4jdQhzD0eB1QsYgk0diG0XFCIOBUXcSTMqXQHv2rXOo9UEw7j3yuXSzwIii6aGwl9amDsn0QmMJPbF1Q7hGcYsbChnhvF96KvzEum2",
+              "received": false
+            }
+          ],
+          "total_price": 114105,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:15:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694720171c508c5d5ee5fd4a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

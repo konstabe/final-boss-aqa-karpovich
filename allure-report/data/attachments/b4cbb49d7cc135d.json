@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1898",
+    "etag": "W/\"76a-it2FY6edf60fVWqdirRcpVg9JPA\"",
+    "keep-alive": "timeout=5, max=49",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69471ff51c508c5d5ee5ead3",
+        "email": "Tamara.Cummings@yahoo.com",
+        "name": "Bradford Cummings",
+        "country": "Great Britain",
+        "city": "Lakeville",
+        "street": "Pine Grove",
+        "house": 20,
+        "flat": 618,
+        "phone": "+12759499793",
+        "createdOn": "2025-12-20T22:15:17.000Z",
+        "notes": "OLR7YJ49lwWkZedsys4LzaYWdvF6Is82I9Pn3T6nw03hG97crMeaUxiLL3o6HEvp4CBqs70J0KK3putrJoXBBKAQLVgA6KZB4fJ3h06BCQh2kXP7IZTb4YGzLioaaKIo463dfFLCChH7nmGoyCVh2U3lKLcsbAxkiUPZFvl7t3mwFso9VuLe9CxbnkFhy5Ii2DSblKgBtSumxlafuhrtn6pLzJjJCU6CIXU4D9gAQebEU4WWLLGnRrrHRu"
+      },
+      "products": [
+        {
+          "_id": "69471ff61c508c5d5ee5eb3d",
+          "name": "Shoes63865",
+          "amount": 516,
+          "price": 94586,
+          "manufacturer": "Microsoft",
+          "notes": "QHFLvaLM8tODb7kWbmvgcrSHoTtdc2610wAH3hmsf5OsvyDifEwPGX2QgiwIJpDMQifutPSnEGAiiYEyfyfM4iIwhW4BPeC6Q073zA5HuVn2lvUVvuLCP9Vp7KgKFKDPd8w6ecrymbLCrpSna6IGE2O6JhvftuuyFhVfPWatRSWbc1TpWlwSskoLSFt2zGyJTkrHAYD7HiZCpF7IOe9E8XTmby0zhHSwtPkolj4up5E5GD9FI1kERQlNW0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94586,
+      "createdOn": "2025-12-20T22:15:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471ff51c508c5d5ee5ead3",
+          "products": [
+            {
+              "_id": "69471ff61c508c5d5ee5eb3d",
+              "name": "Shoes63865",
+              "amount": 516,
+              "price": 94586,
+              "manufacturer": "Microsoft",
+              "notes": "QHFLvaLM8tODb7kWbmvgcrSHoTtdc2610wAH3hmsf5OsvyDifEwPGX2QgiwIJpDMQifutPSnEGAiiYEyfyfM4iIwhW4BPeC6Q073zA5HuVn2lvUVvuLCP9Vp7KgKFKDPd8w6ecrymbLCrpSna6IGE2O6JhvftuuyFhVfPWatRSWbc1TpWlwSskoLSFt2zGyJTkrHAYD7HiZCpF7IOe9E8XTmby0zhHSwtPkolj4up5E5GD9FI1kERQlNW0",
+              "received": false
+            }
+          ],
+          "total_price": 94586,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:15:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69471ff71c508c5d5ee5ebbb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

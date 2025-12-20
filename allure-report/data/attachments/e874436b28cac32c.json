@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2936",
+    "etag": "W/\"b78-s2vwTQwq8R5EPvABhT+1PH7ntYc\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69471fe61c508c5d5ee5e2d5",
+      "status": "Draft",
+      "customer": {
+        "_id": "69471fe51c508c5d5ee5e218",
+        "email": "Tia_Schoen-Kshlerin@yahoo.com",
+        "name": "Trevor Paucek",
+        "country": "Ukraine",
+        "city": "Redlands",
+        "street": "Meghan Harbor",
+        "house": 8,
+        "flat": 599,
+        "phone": "+16833254665",
+        "createdOn": "2025-12-20T22:15:01.000Z",
+        "notes": "CougdifNRtFsrI8Oc33IUeEXVsQgA2HQlvZhnt7k3iB2RHb5RWISom62kLm9Yud3dMqdh7glqoRKHGfKWZGZ5dCayp71f7TeZeHc25o748NjaMwU1nC21O3TWw7d9bOyG21LHWVGn446OL54qzFKXzJkJRVfCyWxdMry4aW8wmEW6RsLdo6t956jyv7Erwqjr2ZOpxfPf5hlqLHtduRmpiznpm9tIMmuCrN6c9c9EmrRbIznBsUUEo66fK"
+      },
+      "products": [
+        {
+          "_id": "69471fe51c508c5d5ee5e255",
+          "name": "Fish66107",
+          "amount": 200,
+          "price": 56768,
+          "manufacturer": "Samsung",
+          "notes": "dUIxePTp4d9ziUrsummU6zwQpL6ajAa9TCRYWkWdULmjVuuzDqAxLdKLruE9dH73VqanYmmlHVaMDn8egYi2Jh7Vdmh2Lwtpafmv2i19wlD0qVXpw5KbJbCRcJ3vCAZzKZjwUcqibiKNlDHUfyxX9I4sA1ZYxG2ACj1hdpGAObz8MaqrWmdiv0HJz7ZQoz3ZW5ollRxeXkkpstwmfFcO6siaPlyOJJfpM3KNdlKzbdkxu6AaO18YJnIBWn",
+          "received": false
+        },
+        {
+          "_id": "69471fe61c508c5d5ee5e28b",
+          "name": "Shoes43601",
+          "amount": 247,
+          "price": 4408,
+          "manufacturer": "Apple",
+          "notes": "VwAlbVOEFUgpkOXjggx2M6MQIQ4Wr1VSQBSOrMknyWGE3eber63gIZlRTmDoB7PSywGZ7IdAYiiL8pLH9gblSxLu8p5BsvzoHuGZ1TfWCPg77ovhMjEEls4V3JWGTN19MCOWO7JI5bWlzhzwzDC3c50gqJOmJT7fc7DEu8EC9jCZM57M1fAkdMZbNh4QWoFIGfnqbsnsBQHehYoehdJd2DrfqsYBgR0fgFJCxfpFEmwTdE1JgPDWlRnSco",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 61176,
+      "createdOn": "2025-12-20T22:15:02.000Z",
+      "comments": [
+        {
+          "text": "f2vtV32bAR0H3WED23lPsMNADGGm3m0BLaDUhEjPNoJ2hjato6w2z9WHFGyxiYhFhzeopwoNNQQ0uDSk9olinnjlTTDZlxextrqpyNW9a4nhM0ZJCEDeKwSNXUHsST2iTkMLikPGMPTxcKheII0Kk8nmmczpUBimF3Pml66SrdXFaAQ0MlSpN3ftTXWTNxAfPKchJSJE <",
+          "createdOn": "2025-12-20T22:15:03.000Z",
+          "_id": "69471fe71c508c5d5ee5e365"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471fe51c508c5d5ee5e218",
+          "products": [
+            {
+              "_id": "69471fe51c508c5d5ee5e255",
+              "name": "Fish66107",
+              "amount": 200,
+              "price": 56768,
+              "manufacturer": "Samsung",
+              "notes": "dUIxePTp4d9ziUrsummU6zwQpL6ajAa9TCRYWkWdULmjVuuzDqAxLdKLruE9dH73VqanYmmlHVaMDn8egYi2Jh7Vdmh2Lwtpafmv2i19wlD0qVXpw5KbJbCRcJ3vCAZzKZjwUcqibiKNlDHUfyxX9I4sA1ZYxG2ACj1hdpGAObz8MaqrWmdiv0HJz7ZQoz3ZW5ollRxeXkkpstwmfFcO6siaPlyOJJfpM3KNdlKzbdkxu6AaO18YJnIBWn",
+              "received": false
+            },
+            {
+              "_id": "69471fe61c508c5d5ee5e28b",
+              "name": "Shoes43601",
+              "amount": 247,
+              "price": 4408,
+              "manufacturer": "Apple",
+              "notes": "VwAlbVOEFUgpkOXjggx2M6MQIQ4Wr1VSQBSOrMknyWGE3eber63gIZlRTmDoB7PSywGZ7IdAYiiL8pLH9gblSxLu8p5BsvzoHuGZ1TfWCPg77ovhMjEEls4V3JWGTN19MCOWO7JI5bWlzhzwzDC3c50gqJOmJT7fc7DEu8EC9jCZM57M1fAkdMZbNh4QWoFIGfnqbsnsBQHehYoehdJd2DrfqsYBgR0fgFJCxfpFEmwTdE1JgPDWlRnSco",
+              "received": false
+            }
+          ],
+          "total_price": 61176,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:15:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

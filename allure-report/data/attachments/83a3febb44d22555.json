@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:16:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4144",
+    "etag": "W/\"1030-fJ4US71oH691LUsUOp1EV/4YGEI\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694720261c508c5d5ee60697",
+      "status": "Draft",
+      "customer": {
+        "_id": "694720221c508c5d5ee604a5",
+        "email": "Brianne.Lueilwitz@yahoo.com",
+        "name": "Liana Aufderhar",
+        "country": "Great Britain",
+        "city": "Langworthfort",
+        "street": "Rodrigo Tunnel",
+        "house": 14,
+        "flat": 946,
+        "phone": "+12397134854",
+        "createdOn": "2025-12-20T22:16:02.000Z",
+        "notes": "fMMF1NT7KLpupZ5AB2v0ktmwOrLZ5orC507SfxYy0yfidtDMhRtcdktW4YqJcGHQEUHlTl0wXVW359w7ZfaWDCFuyJliyNTNcc4g0QnPZ4RvPeaZpySXjoBlw6aDEWxwiNdu8x9T4gVZipna2J54MOvj6IJrAkfH4g4A8V1kVrc49CMUvvjh1KN8nlvVwNHfQWw8O6sZd5jp8qYINbQAs6mzheaCQWkjFnLIagxSKX8HtxNRHdbUhDESyt"
+      },
+      "products": [
+        {
+          "_id": "694720241c508c5d5ee6054e",
+          "name": "Keyboard16928",
+          "amount": 73,
+          "price": 86259,
+          "manufacturer": "Google",
+          "notes": "9QJw20iPI39pX78cMrunyvRTnIB1KtpwfG2dJCoJsQMdLlkCWrgHfDu4gm8TVotcQwhq7eXbcDmlYfuupfTPoMkFuOfUImnPuEbW3Mcdia4Yl5KIYnehr3bFxPBpkV3C2ij8BI6YIvVn9AFEqEZ9Vu8aj3LBQSozPqCOyRNwASOhj7RnCRd70BWY7ICpcvj1jOurAWYc8yamE4q1t6zqzMRutYl9B67jwAmvds1mweB8ySmWMaB5aS9Yaw",
+          "received": false
+        },
+        {
+          "_id": "694720251c508c5d5ee6062f",
+          "name": "Fish79396",
+          "amount": 44,
+          "price": 37059,
+          "manufacturer": "Amazon",
+          "notes": "YRaxj8IzzTCCbRLgzEMxG9VOIpS1YGBxyTkCczm8VnG8aPGz1qu2p0ea3r7JvZEapBJ4PikdOYJXlsYzCYXGoZD3bLmoPRw0PovblAtXA6MdN9A44W0vjzzYv94e928YtbhsJTQv65eUB88xGzO7GlvZrMGXSBwWDNFwgyY30crE1mbmFZncqL3iJgCX0tZ8A48RtTjuP64isTR3J7NqqDJhVfcbysel6IiSqR5oGeP6u6BqL8Yvz9ki1R",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Langworthfort",
+          "street": "Rodrigo Tunnel",
+          "house": 14,
+          "flat": 946
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 123318,
+      "createdOn": "2025-12-20T22:16:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694720221c508c5d5ee604a5",
+          "products": [
+            {
+              "_id": "694720241c508c5d5ee6054e",
+              "name": "Keyboard16928",
+              "amount": 73,
+              "price": 86259,
+              "manufacturer": "Google",
+              "notes": "9QJw20iPI39pX78cMrunyvRTnIB1KtpwfG2dJCoJsQMdLlkCWrgHfDu4gm8TVotcQwhq7eXbcDmlYfuupfTPoMkFuOfUImnPuEbW3Mcdia4Yl5KIYnehr3bFxPBpkV3C2ij8BI6YIvVn9AFEqEZ9Vu8aj3LBQSozPqCOyRNwASOhj7RnCRd70BWY7ICpcvj1jOurAWYc8yamE4q1t6zqzMRutYl9B67jwAmvds1mweB8ySmWMaB5aS9Yaw",
+              "received": false
+            },
+            {
+              "_id": "694720251c508c5d5ee6062f",
+              "name": "Fish79396",
+              "amount": 44,
+              "price": 37059,
+              "manufacturer": "Amazon",
+              "notes": "YRaxj8IzzTCCbRLgzEMxG9VOIpS1YGBxyTkCczm8VnG8aPGz1qu2p0ea3r7JvZEapBJ4PikdOYJXlsYzCYXGoZD3bLmoPRw0PovblAtXA6MdN9A44W0vjzzYv94e928YtbhsJTQv65eUB88xGzO7GlvZrMGXSBwWDNFwgyY30crE1mbmFZncqL3iJgCX0tZ8A48RtTjuP64isTR3J7NqqDJhVfcbysel6IiSqR5oGeP6u6BqL8Yvz9ki1R",
+              "received": false
+            }
+          ],
+          "total_price": 123318,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Langworthfort",
+              "street": "Rodrigo Tunnel",
+              "house": 14,
+              "flat": 946
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-20T22:16:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694720221c508c5d5ee604a5",
+          "products": [
+            {
+              "_id": "694720241c508c5d5ee6054e",
+              "name": "Keyboard16928",
+              "amount": 73,
+              "price": 86259,
+              "manufacturer": "Google",
+              "notes": "9QJw20iPI39pX78cMrunyvRTnIB1KtpwfG2dJCoJsQMdLlkCWrgHfDu4gm8TVotcQwhq7eXbcDmlYfuupfTPoMkFuOfUImnPuEbW3Mcdia4Yl5KIYnehr3bFxPBpkV3C2ij8BI6YIvVn9AFEqEZ9Vu8aj3LBQSozPqCOyRNwASOhj7RnCRd70BWY7ICpcvj1jOurAWYc8yamE4q1t6zqzMRutYl9B67jwAmvds1mweB8ySmWMaB5aS9Yaw",
+              "received": false
+            },
+            {
+              "_id": "694720251c508c5d5ee6062f",
+              "name": "Fish79396",
+              "amount": 44,
+              "price": 37059,
+              "manufacturer": "Amazon",
+              "notes": "YRaxj8IzzTCCbRLgzEMxG9VOIpS1YGBxyTkCczm8VnG8aPGz1qu2p0ea3r7JvZEapBJ4PikdOYJXlsYzCYXGoZD3bLmoPRw0PovblAtXA6MdN9A44W0vjzzYv94e928YtbhsJTQv65eUB88xGzO7GlvZrMGXSBwWDNFwgyY30crE1mbmFZncqL3iJgCX0tZ8A48RtTjuP64isTR3J7NqqDJhVfcbysel6IiSqR5oGeP6u6BqL8Yvz9ki1R",
+              "received": false
+            }
+          ],
+          "total_price": 123318,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:16:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

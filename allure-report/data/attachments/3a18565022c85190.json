@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:14:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2946",
+    "etag": "W/\"b82-OubNrWchnxLo95kti3zhJJGdcuk\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69471fdf1c508c5d5ee5df6c",
+      "status": "Draft",
+      "customer": {
+        "_id": "69471fde1c508c5d5ee5deea",
+        "email": "Novella1@hotmail.com",
+        "name": "Wallace Stokes",
+        "country": "Great Britain",
+        "city": "Denton",
+        "street": "Dameon Falls",
+        "house": 44,
+        "flat": 980,
+        "phone": "+15237063981",
+        "createdOn": "2025-12-20T22:14:54.000Z",
+        "notes": "g6C1JlUmfXRuM1pTj1dHKgVKEnuz5KgsiAtMoJoId1oMNe5OVW40YMX6VlelBkOJdD9nuEUdnTrCrdqBmTQctUtujfKweBtHH4dZTBtxwRrUUZEB2e5S4YtrLjyLlTxKTJawhrYREBCrLIyx9Q5DUUSMJiiWsx2HwTSShjUUueYvmNZ5pSGjkGv6R7p6VewH46tB6KR442zY9W9dAoHFgcCe1iv1uflFC8FeBD4ufvKFRuaiV2qyQiJtu1"
+      },
+      "products": [
+        {
+          "_id": "69471fde1c508c5d5ee5df1b",
+          "name": "Bike17143",
+          "amount": 650,
+          "price": 33370,
+          "manufacturer": "Tesla",
+          "notes": "sJa9eYewrIbuXMftsM8NGOhzdLfyGMWOMPJNgFWffW4LkSZ6wXiXWG1MqouIkWjqfYm8z0cgOjhUmWHJjgt1kuVv8wgokGsYBh25LjbKFFkXptYL62V0W10jkWy0To0Z2ZfIoTzgIhDNDeeUz7NKUFZDCgXBevMPMFZ8HzDzsFK79D29l0kKMaaPnuStRrM4Rw2f6yCO7qAVDPZyFgG3B1VF99y2NFT0D9JW1FGLoKuTeU7najyXMTVnJO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 33370,
+      "createdOn": "2025-12-20T22:14:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471fde1c508c5d5ee5deea",
+          "products": [
+            {
+              "_id": "69471fde1c508c5d5ee5df1b",
+              "name": "Bike17143",
+              "amount": 650,
+              "price": 33370,
+              "manufacturer": "Tesla",
+              "notes": "sJa9eYewrIbuXMftsM8NGOhzdLfyGMWOMPJNgFWffW4LkSZ6wXiXWG1MqouIkWjqfYm8z0cgOjhUmWHJjgt1kuVv8wgokGsYBh25LjbKFFkXptYL62V0W10jkWy0To0Z2ZfIoTzgIhDNDeeUz7NKUFZDCgXBevMPMFZ8HzDzsFK79D29l0kKMaaPnuStRrM4Rw2f6yCO7qAVDPZyFgG3B1VF99y2NFT0D9JW1FGLoKuTeU7najyXMTVnJO",
+              "received": false
+            }
+          ],
+          "total_price": 33370,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:14:56.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69471fde1c508c5d5ee5deea",
+          "products": [
+            {
+              "_id": "69471fde1c508c5d5ee5df1b",
+              "name": "Bike17143",
+              "amount": 650,
+              "price": 33370,
+              "manufacturer": "Tesla",
+              "notes": "sJa9eYewrIbuXMftsM8NGOhzdLfyGMWOMPJNgFWffW4LkSZ6wXiXWG1MqouIkWjqfYm8z0cgOjhUmWHJjgt1kuVv8wgokGsYBh25LjbKFFkXptYL62V0W10jkWy0To0Z2ZfIoTzgIhDNDeeUz7NKUFZDCgXBevMPMFZ8HzDzsFK79D29l0kKMaaPnuStRrM4Rw2f6yCO7qAVDPZyFgG3B1VF99y2NFT0D9JW1FGLoKuTeU7najyXMTVnJO",
+              "received": false
+            }
+          ],
+          "total_price": 33370,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:14:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

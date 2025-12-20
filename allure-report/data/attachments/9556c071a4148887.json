@@ -1,0 +1,187 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5250",
+    "etag": "W/\"1482-NG9/9lNbpvu+HhKBURIxw0uZhXM\"",
+    "keep-alive": "timeout=5, max=61",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694720191c508c5d5ee5fdf9",
+      "status": "Draft",
+      "customer": {
+        "_id": "694720171c508c5d5ee5fd0a",
+        "email": "Karianne75@yahoo.com",
+        "name": "Keenan Grant",
+        "country": "Russia",
+        "city": "Kutchfurt",
+        "street": "Baumbach Tunnel",
+        "house": 14,
+        "flat": 339,
+        "phone": "+14173445291",
+        "createdOn": "2025-12-20T22:15:51.000Z",
+        "notes": "tp9cOZBINAFrAphnIzTDcQL380qLToveCaNgXA6FZ2k142JurpBGFIuJAmQggIkwbMCObV0a9sMx6vJUJjivO8w2ygmon0gDJETFrq5oFEp01mvxk3QhAhjcS8QJSr4pIFVcsDwXiNV37SokT3QWKnRMCmKUmz3EjCOdORnyRqHmiecLzNkTTc7XYE98uZGno7ZL2gsPS5lce81QgmYGlQXKDmrDUQNwq9kMtKnGpedTr6z7rWLTwfrzso"
+      },
+      "products": [
+        {
+          "_id": "694720171c508c5d5ee5fd30",
+          "name": "Bacon57929",
+          "amount": 939,
+          "price": 31644,
+          "manufacturer": "Microsoft",
+          "notes": "EMU73x7GWZnpAuQDMySNTsRSuczB8FYxMpwXQO5SrRDfCheslRSI3GVIuUTQpkbYGybHXytGWp1IZpLAN91TBk3JZ59exENRzP9AW2OysmSc2P0YtdwSzPGhzLqjTWKSmXse1z1nfrKnOxjZJpXGEUobZ3q2uQy3DbMj4JWpnfRMbcb9IE9LHT7mZro7cys6DXF4FgU4WkZ1YCrvgGvTBvYT1AgU5ywUTw5LqUVyhZdTKc2n2k9N4vF1Tj",
+          "received": false
+        },
+        {
+          "_id": "694720181c508c5d5ee5fdaa",
+          "name": "Hat70037",
+          "amount": 387,
+          "price": 7927,
+          "manufacturer": "Apple",
+          "notes": "9qetUVnsf8gkrZsyMBroHBu6zBFdp7YjNlpegSTfcEiVbQ66DtiX6iRQqgM98xXqF6YqnkFIzFAbsWR4RVrqkFOdNlNGuYK5sqU3yqV1eUbIIMhDPOMQAPcXgKnITfj6JS8rsIPCP9UbK64pMAAhC6UC03CtQCtakErMYqi5yyESVxAVsQmajFi1PqchCqmlR9cPAujmYJ0iIIqKTMvAIoPg869ZeBExbrDMwKu1azBNcMLtBXRFylq9x6",
+          "received": false
+        },
+        {
+          "_id": "694720181c508c5d5ee5fdc8",
+          "name": "Shoes16089",
+          "amount": 114,
+          "price": 86270,
+          "manufacturer": "Tesla",
+          "notes": "PiyINvo570QK3dlpcZFQ6LaqN2D6NV2p0HhkYs6dbvc862diPl1EwPknjGwHhFVoeryzMdzoRREyZb1UEJebPPpEBVRoRUf8X8VP6Sbx1al5jLYd9bTfnoUfCuSKdTvxbkfwPnVCHpPrDl4yYjQnbIdcBgAgARPsrjLfCOfXukBNHaqmNupUa0NrU74wiSB9yCIqPcBbkqC1aZMuGnX5nud4WqtRMHeckL7UgDelhSgD4VmIwPs4lxeqrq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Kutchfurt",
+          "street": "Baumbach Tunnel",
+          "house": 14,
+          "flat": 339
+        },
+        "finalDate": "2025-12-27T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 125841,
+      "createdOn": "2025-12-20T22:15:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694720171c508c5d5ee5fd0a",
+          "products": [
+            {
+              "_id": "694720171c508c5d5ee5fd30",
+              "name": "Bacon57929",
+              "amount": 939,
+              "price": 31644,
+              "manufacturer": "Microsoft",
+              "notes": "EMU73x7GWZnpAuQDMySNTsRSuczB8FYxMpwXQO5SrRDfCheslRSI3GVIuUTQpkbYGybHXytGWp1IZpLAN91TBk3JZ59exENRzP9AW2OysmSc2P0YtdwSzPGhzLqjTWKSmXse1z1nfrKnOxjZJpXGEUobZ3q2uQy3DbMj4JWpnfRMbcb9IE9LHT7mZro7cys6DXF4FgU4WkZ1YCrvgGvTBvYT1AgU5ywUTw5LqUVyhZdTKc2n2k9N4vF1Tj",
+              "received": false
+            },
+            {
+              "_id": "694720181c508c5d5ee5fdaa",
+              "name": "Hat70037",
+              "amount": 387,
+              "price": 7927,
+              "manufacturer": "Apple",
+              "notes": "9qetUVnsf8gkrZsyMBroHBu6zBFdp7YjNlpegSTfcEiVbQ66DtiX6iRQqgM98xXqF6YqnkFIzFAbsWR4RVrqkFOdNlNGuYK5sqU3yqV1eUbIIMhDPOMQAPcXgKnITfj6JS8rsIPCP9UbK64pMAAhC6UC03CtQCtakErMYqi5yyESVxAVsQmajFi1PqchCqmlR9cPAujmYJ0iIIqKTMvAIoPg869ZeBExbrDMwKu1azBNcMLtBXRFylq9x6",
+              "received": false
+            },
+            {
+              "_id": "694720181c508c5d5ee5fdc8",
+              "name": "Shoes16089",
+              "amount": 114,
+              "price": 86270,
+              "manufacturer": "Tesla",
+              "notes": "PiyINvo570QK3dlpcZFQ6LaqN2D6NV2p0HhkYs6dbvc862diPl1EwPknjGwHhFVoeryzMdzoRREyZb1UEJebPPpEBVRoRUf8X8VP6Sbx1al5jLYd9bTfnoUfCuSKdTvxbkfwPnVCHpPrDl4yYjQnbIdcBgAgARPsrjLfCOfXukBNHaqmNupUa0NrU74wiSB9yCIqPcBbkqC1aZMuGnX5nud4WqtRMHeckL7UgDelhSgD4VmIwPs4lxeqrq",
+              "received": false
+            }
+          ],
+          "total_price": 125841,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Kutchfurt",
+              "street": "Baumbach Tunnel",
+              "house": 14,
+              "flat": 339
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-20T22:15:58.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694720171c508c5d5ee5fd0a",
+          "products": [
+            {
+              "_id": "694720171c508c5d5ee5fd30",
+              "name": "Bacon57929",
+              "amount": 939,
+              "price": 31644,
+              "manufacturer": "Microsoft",
+              "notes": "EMU73x7GWZnpAuQDMySNTsRSuczB8FYxMpwXQO5SrRDfCheslRSI3GVIuUTQpkbYGybHXytGWp1IZpLAN91TBk3JZ59exENRzP9AW2OysmSc2P0YtdwSzPGhzLqjTWKSmXse1z1nfrKnOxjZJpXGEUobZ3q2uQy3DbMj4JWpnfRMbcb9IE9LHT7mZro7cys6DXF4FgU4WkZ1YCrvgGvTBvYT1AgU5ywUTw5LqUVyhZdTKc2n2k9N4vF1Tj",
+              "received": false
+            },
+            {
+              "_id": "694720181c508c5d5ee5fdaa",
+              "name": "Hat70037",
+              "amount": 387,
+              "price": 7927,
+              "manufacturer": "Apple",
+              "notes": "9qetUVnsf8gkrZsyMBroHBu6zBFdp7YjNlpegSTfcEiVbQ66DtiX6iRQqgM98xXqF6YqnkFIzFAbsWR4RVrqkFOdNlNGuYK5sqU3yqV1eUbIIMhDPOMQAPcXgKnITfj6JS8rsIPCP9UbK64pMAAhC6UC03CtQCtakErMYqi5yyESVxAVsQmajFi1PqchCqmlR9cPAujmYJ0iIIqKTMvAIoPg869ZeBExbrDMwKu1azBNcMLtBXRFylq9x6",
+              "received": false
+            },
+            {
+              "_id": "694720181c508c5d5ee5fdc8",
+              "name": "Shoes16089",
+              "amount": 114,
+              "price": 86270,
+              "manufacturer": "Tesla",
+              "notes": "PiyINvo570QK3dlpcZFQ6LaqN2D6NV2p0HhkYs6dbvc862diPl1EwPknjGwHhFVoeryzMdzoRREyZb1UEJebPPpEBVRoRUf8X8VP6Sbx1al5jLYd9bTfnoUfCuSKdTvxbkfwPnVCHpPrDl4yYjQnbIdcBgAgARPsrjLfCOfXukBNHaqmNupUa0NrU74wiSB9yCIqPcBbkqC1aZMuGnX5nud4WqtRMHeckL7UgDelhSgD4VmIwPs4lxeqrq",
+              "received": false
+            }
+          ],
+          "total_price": 125841,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:15:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

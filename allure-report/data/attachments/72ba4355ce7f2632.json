@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1896",
+    "etag": "W/\"768-uJ4T4vHWZAQhwriC+ihRefCVqv0\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69471ff91c508c5d5ee5eccc",
+        "email": "Brandy_VonRueden28@yahoo.com",
+        "name": "Annetta Braun",
+        "country": "Canada",
+        "city": "North Arvidside",
+        "street": "Hand Plain",
+        "house": 42,
+        "flat": 171,
+        "phone": "+16705541366",
+        "createdOn": "2025-12-20T22:15:21.000Z",
+        "notes": "h8SQWNdIlYo12MZ8l5PnsbHqLbTRc4aQokmGK3qUxAHqjw2AdUCvWpsCTcEPrpABY8fa0CXZ8eQA7bvYZOZtftsOaQTiloxVnneXrEYsGtTIj8FaDr0mAnnHi8FT92jfTZljOWZuHbOCmGJoGJcTeLmYHChN8QAXhms0sGCV7xUL8rHsHKbqcxcMtC1n3JEZ69TnCr4Cth29RkA2ircsEGbkgtB4GLeuBaIdY9tElzKgzE2Q4Ye0vGwae7"
+      },
+      "products": [
+        {
+          "_id": "69471ffa1c508c5d5ee5ecfd",
+          "name": "Mouse72333",
+          "amount": 829,
+          "price": 70846,
+          "manufacturer": "Microsoft",
+          "notes": "EMlzpzSIePXWrGBRw2eCyQxpvXz4j8HSL90qjAKq1TJl4BsKQZkGXKv3dkFUL1Hox6hPNWQXKwf9TQIziV69RsU3OUtt6S243TwX8fncEmeFrf8EukCODH9OdEmLzApNDvMPq1WPW5Y0z9p3KX8EzNYMRxu5dslnZBWocGihzfqzApZx3BOOtyRNTngNJSeDcHYD72mxxr6B1ZFBe1VIbyPeeou8s9sBOuJO4zYf1gX25wJ0t1NlwcomwK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 70846,
+      "createdOn": "2025-12-20T22:15:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471ff91c508c5d5ee5eccc",
+          "products": [
+            {
+              "_id": "69471ffa1c508c5d5ee5ecfd",
+              "name": "Mouse72333",
+              "amount": 829,
+              "price": 70846,
+              "manufacturer": "Microsoft",
+              "notes": "EMlzpzSIePXWrGBRw2eCyQxpvXz4j8HSL90qjAKq1TJl4BsKQZkGXKv3dkFUL1Hox6hPNWQXKwf9TQIziV69RsU3OUtt6S243TwX8fncEmeFrf8EukCODH9OdEmLzApNDvMPq1WPW5Y0z9p3KX8EzNYMRxu5dslnZBWocGihzfqzApZx3BOOtyRNTngNJSeDcHYD72mxxr6B1ZFBe1VIbyPeeou8s9sBOuJO4zYf1gX25wJ0t1NlwcomwK",
+              "received": false
+            }
+          ],
+          "total_price": 70846,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:15:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69471ffa1c508c5d5ee5ed25"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

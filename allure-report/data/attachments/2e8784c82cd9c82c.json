@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-9mQ6eijpqijMTi48gxGW0IVju3Y\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69471ffa1c508c5d5ee5ed1d",
+        "email": "Marlin.Kovacek@hotmail.com",
+        "name": "Yvette Kessler",
+        "country": "France",
+        "city": "West Lorenzville",
+        "street": "Jerel Glen",
+        "house": 24,
+        "flat": 50,
+        "phone": "+13535530778",
+        "createdOn": "2025-12-20T22:15:22.000Z",
+        "notes": "UdQRj8bfcAxttVQs81jHVXC3qhrNwQ0mb7gXvgnc5eCUx8fFxID1SFLtnuu4swsV6syNU3xiGP1i8rECV8O6E3f6NPDn59C3SLKrtzL3tVAvsxEEk5tELViYsKm9GXjt2MKIsQPFYZkHFcXjL18pWdwtJbklLbiQyI97hUs3xgw4bQCjJX46By77muM1F87f6Qnk8tGcA5hTrtgHViQB0GoJHIqVqYuD9yfxWpdBpEGd0GVuKfxRmZD9N0"
+      },
+      "products": [
+        {
+          "_id": "69471ffa1c508c5d5ee5ed3f",
+          "name": "Shirt40704",
+          "amount": 883,
+          "price": 96229,
+          "manufacturer": "Amazon",
+          "notes": "Aldl6Y35rwY5zhvRs1QPLikvxTu8hbc0e65k3zMHeoQpeVPI6GOBkQbp5jq2NdiEq9tjdnhzJtXCFNhC87ZTSzExPLhgqLXRjvrMALiXq9rVXfZxtwlRnu1Ezrl9j2AHwMT9xKRWK5eQbRADwne65Z0OXf3QtMMorJc3b3qq0wJfElyBtE86ep2kFuD5LDcT69vy9gIwi4ZVguKztGnDZlOs6sq3tU0ddzU0lIxMucXlqoODN0WJyDG2tA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 96229,
+      "createdOn": "2025-12-20T22:15:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471ffa1c508c5d5ee5ed1d",
+          "products": [
+            {
+              "_id": "69471ffa1c508c5d5ee5ed3f",
+              "name": "Shirt40704",
+              "amount": 883,
+              "price": 96229,
+              "manufacturer": "Amazon",
+              "notes": "Aldl6Y35rwY5zhvRs1QPLikvxTu8hbc0e65k3zMHeoQpeVPI6GOBkQbp5jq2NdiEq9tjdnhzJtXCFNhC87ZTSzExPLhgqLXRjvrMALiXq9rVXfZxtwlRnu1Ezrl9j2AHwMT9xKRWK5eQbRADwne65Z0OXf3QtMMorJc3b3qq0wJfElyBtE86ep2kFuD5LDcT69vy9gIwi4ZVguKztGnDZlOs6sq3tU0ddzU0lIxMucXlqoODN0WJyDG2tA",
+              "received": false
+            }
+          ],
+          "total_price": 96229,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:15:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69471ffb1c508c5d5ee5edb6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

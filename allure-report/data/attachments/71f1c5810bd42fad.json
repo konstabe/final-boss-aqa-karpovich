@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1895",
+    "etag": "W/\"767-yNV8XUfcgiuMIBZVzgkOdjjKqb4\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694720071c508c5d5ee5f498",
+        "email": "Donnell_Koss24@hotmail.com",
+        "name": "Lavina Leuschke",
+        "country": "Russia",
+        "city": "East Lennie",
+        "street": "Predovic Shoals",
+        "house": 36,
+        "flat": 381,
+        "phone": "+15568574177",
+        "createdOn": "2025-12-20T22:15:35.000Z",
+        "notes": "J33YA73pBecDyUemtV4YT9yEfPRJ6INHMWaGrt8K70tV0MjZ2wCw0hStac96TFB6p56Pp1DKsbRgG7jV5q44ibQ6D4OJl68jPaFvqrSSPewKNw220UrRGSRgL1WOEtOsdSuCHUkVqJqil0HJf6TSCjJiDEOWfFzGm62HLWfGvW861bNxmS5W510JWeF4eDdWF7LmgMdMkN7O8mWTq8EmKbD8DjVW50d4qEIeI9TNVLWr0dHbj2AXhKJO6M"
+      },
+      "products": [
+        {
+          "_id": "694720081c508c5d5ee5f4ff",
+          "name": "Keyboard3308",
+          "amount": 289,
+          "price": 39613,
+          "manufacturer": "Google",
+          "notes": "GenEGITz7IchDBDFBsPaWBo8vjjqsJ43LvqdwRKzW7N7DPajds9rYSeV8RmRZvWRNaYXzNFEst4ScLcw7xxDgp3KrtEXghIKkwutglLaBP0yBRpzI9LbGTsBwHvVbpbdzSGXZ2GZLX8oYvrJ8Bp374eUCt18AwyB1BwqqsRCZNSwSgvPS76qY3IqsxTvLE8ucwa3PPC2lGdHbjvyZJkb3m18bJj0mbuG7FqG3LIRzLxqi7Zn4WB36fvKSA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 39613,
+      "createdOn": "2025-12-20T22:15:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694720071c508c5d5ee5f498",
+          "products": [
+            {
+              "_id": "694720081c508c5d5ee5f4ff",
+              "name": "Keyboard3308",
+              "amount": 289,
+              "price": 39613,
+              "manufacturer": "Google",
+              "notes": "GenEGITz7IchDBDFBsPaWBo8vjjqsJ43LvqdwRKzW7N7DPajds9rYSeV8RmRZvWRNaYXzNFEst4ScLcw7xxDgp3KrtEXghIKkwutglLaBP0yBRpzI9LbGTsBwHvVbpbdzSGXZ2GZLX8oYvrJ8Bp374eUCt18AwyB1BwqqsRCZNSwSgvPS76qY3IqsxTvLE8ucwa3PPC2lGdHbjvyZJkb3m18bJj0mbuG7FqG3LIRzLxqi7Zn4WB36fvKSA",
+              "received": false
+            }
+          ],
+          "total_price": 39613,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:15:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694720091c508c5d5ee5f56a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2644",
+    "etag": "W/\"a54-2JMQuqj5r2imhAEEZiOGmHiuyvQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69471ff51c508c5d5ee5ea55",
+        "email": "Mervin85@hotmail.com",
+        "name": "Matilda Shields",
+        "country": "Russia",
+        "city": "Fort Gregtown",
+        "street": "Oak Avenue",
+        "house": 48,
+        "flat": 283,
+        "phone": "+19375923852",
+        "createdOn": "2025-12-20T22:15:17.000Z",
+        "notes": "RyankQ2GmOnyMX5JSndLypWqymP93q5SH6Qm5fC2RWIY2EUfYQgUo4WJ333nyBnSvmnZ9cMuLSRaiPBwxEgy65EOFyVoa5QrpbVaMinCdX4T0RRgPbTWOMaAKLkBolk1DrrEKRgg0IBvwplzq05cMDBN7uYxAt6n7Lip5jwopN8ufnRNzARYfjHIMp09TTVIVr18yGyPJ5Ib8UxourzDxNPynDKbtW2nllxY3NA5lezZGph8URLrQIJ9bU"
+      },
+      "products": [
+        {
+          "_id": "69471ff61c508c5d5ee5eb2c",
+          "name": "Bacon84430",
+          "amount": 487,
+          "price": 52429,
+          "manufacturer": "Amazon",
+          "notes": "xXC27o0yVIlqaYe1mTuneNkTC8u7cfiVwZfKWzAqo3L8iHcKxnTGYinRk1pxzmhXlwQrsrtGS7s25bHAkfSJVEyTdEdqeEKeCrc8Bho4Ac8nSg0ZyJz71PI10Z7mcLogugW81m5av2Dg8aSmYCPfY2qocxyy8YxqgjHgKD34WwJhIDgv5yL164msz8YZISh5y1kVTZMgCkk1B76Fi9n4FRZk0gTcHxBkY8hIJxPAOgnu2TrRdkyJbkYXwP",
+          "received": false
+        },
+        {
+          "_id": "69471ff71c508c5d5ee5eb77",
+          "name": "Hat31935",
+          "amount": 748,
+          "price": 13861,
+          "manufacturer": "Tesla",
+          "notes": "KueGdSTuPLG2ghIUOXiJfXLZOH2r8C4oXIDkCtwUcyuO7It9mmnJBgFKWEYvBNn4LojAEhQ8ETV6yEvmBgb9LL3NL3PU7mitz33839Lo1CX9TvEqDI0UHrHKRawHOGcJbmrH9VJGdNRuaiH2f8jTfWJJgVSFJe5OvPetm7taFJVbPhT2HUGNfmdsJtccvEadkxxWgtHye5qJ330Nz2fY8cSueR4xwrfeB2eC1Ulhjhxz4d0JKhWMFVkzn6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 66290,
+      "createdOn": "2025-12-20T22:15:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471ff51c508c5d5ee5ea55",
+          "products": [
+            {
+              "_id": "69471ff61c508c5d5ee5eb2c",
+              "name": "Bacon84430",
+              "amount": 487,
+              "price": 52429,
+              "manufacturer": "Amazon",
+              "notes": "xXC27o0yVIlqaYe1mTuneNkTC8u7cfiVwZfKWzAqo3L8iHcKxnTGYinRk1pxzmhXlwQrsrtGS7s25bHAkfSJVEyTdEdqeEKeCrc8Bho4Ac8nSg0ZyJz71PI10Z7mcLogugW81m5av2Dg8aSmYCPfY2qocxyy8YxqgjHgKD34WwJhIDgv5yL164msz8YZISh5y1kVTZMgCkk1B76Fi9n4FRZk0gTcHxBkY8hIJxPAOgnu2TrRdkyJbkYXwP",
+              "received": false
+            },
+            {
+              "_id": "69471ff71c508c5d5ee5eb77",
+              "name": "Hat31935",
+              "amount": 748,
+              "price": 13861,
+              "manufacturer": "Tesla",
+              "notes": "KueGdSTuPLG2ghIUOXiJfXLZOH2r8C4oXIDkCtwUcyuO7It9mmnJBgFKWEYvBNn4LojAEhQ8ETV6yEvmBgb9LL3NL3PU7mitz33839Lo1CX9TvEqDI0UHrHKRawHOGcJbmrH9VJGdNRuaiH2f8jTfWJJgVSFJe5OvPetm7taFJVbPhT2HUGNfmdsJtccvEadkxxWgtHye5qJ330Nz2fY8cSueR4xwrfeB2eC1Ulhjhxz4d0JKhWMFVkzn6",
+              "received": false
+            }
+          ],
+          "total_price": 66290,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:15:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69471ff81c508c5d5ee5ebfe"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

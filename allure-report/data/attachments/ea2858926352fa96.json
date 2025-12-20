@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:14:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2655",
+    "etag": "W/\"a5f-vCb/0/IBq4bfaLonPGomFbbi+wo\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69471fdf1c508c5d5ee5df74",
+        "email": "Kirstin_Beier@gmail.com",
+        "name": "Reilly Rosenbaum",
+        "country": "Great Britain",
+        "city": "Port Jacinto",
+        "street": "Will Isle",
+        "house": 27,
+        "flat": 142,
+        "phone": "+17534005578",
+        "createdOn": "2025-12-20T22:14:55.000Z",
+        "notes": "J9DLmOz1ityFKPo4Kb3YQLAgLJNvfcUVyWehcex9uD5JBuoChXTauzsBtJmX8owRAaYBlqJZnfp7AkQVJC0R3UkKdpQI01lzMLJoIxzoUa4LA0pFkFWXL7XyZp7uxhbUPaCqBhQjaqBosgczDWcmByjevxScPnJz2wVmRXTBho1JqgqyVoSy3dWO4ugfwGOw18tLmI21IyZw8Fi18MLtczv7qFeGHVV0qDhGmzi2geCgUfv0PJybIFnpV0"
+      },
+      "products": [
+        {
+          "_id": "69471fe01c508c5d5ee5dfad",
+          "name": "Bike50514",
+          "amount": 231,
+          "price": 60692,
+          "manufacturer": "Google",
+          "notes": "sfzL1Mik8W2GBxEQMAzFSH9kqTHJtaatMlS5YkKMqb3tzSVce7BGVW9BKVT5C3MUyGCIcPy3BNACKskn037nOSSntjXzZzkqNIXAyyKEOz47mNvPoboctGJC6xqu7A7gltpCCgWmNLWKePxT08j7rnfiM6MYJKytyuBMFoPf1nUQBWu2tY8G0jtYIYFYGD38N50nWyagtTyux5ZTZYrylw9SYkEFA1nKXa19cAl7RAqErYZ4sydGYCpOXs",
+          "received": false
+        },
+        {
+          "_id": "69471fe01c508c5d5ee5dfe4",
+          "name": "Chips24298",
+          "amount": 122,
+          "price": 56675,
+          "manufacturer": "Sony",
+          "notes": "DyvHZKUelilpqggHNhqEWUX19AaqEYu43xVUrQBCXYCwucZsJtyfgf7zJ3pQqSOmVqeR1H9wREM9IJtMMLwurl18T2NnD6S1E8P2dol5B1hKckVw5KxoxYSwxObhsIennlNR7qR5l63EBnvyQzY58j8bE2P2Ea75Oz5HFoYZaJ9CKKe73vhe3Y8w7ESAA7kH8CovrbEA4bGb2OlSB3GElXThGE2t9bLvzb4JuroQlBI2mgKIZjl8gAF1m8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 117367,
+      "createdOn": "2025-12-20T22:14:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471fdf1c508c5d5ee5df74",
+          "products": [
+            {
+              "_id": "69471fe01c508c5d5ee5dfad",
+              "name": "Bike50514",
+              "amount": 231,
+              "price": 60692,
+              "manufacturer": "Google",
+              "notes": "sfzL1Mik8W2GBxEQMAzFSH9kqTHJtaatMlS5YkKMqb3tzSVce7BGVW9BKVT5C3MUyGCIcPy3BNACKskn037nOSSntjXzZzkqNIXAyyKEOz47mNvPoboctGJC6xqu7A7gltpCCgWmNLWKePxT08j7rnfiM6MYJKytyuBMFoPf1nUQBWu2tY8G0jtYIYFYGD38N50nWyagtTyux5ZTZYrylw9SYkEFA1nKXa19cAl7RAqErYZ4sydGYCpOXs",
+              "received": false
+            },
+            {
+              "_id": "69471fe01c508c5d5ee5dfe4",
+              "name": "Chips24298",
+              "amount": 122,
+              "price": 56675,
+              "manufacturer": "Sony",
+              "notes": "DyvHZKUelilpqggHNhqEWUX19AaqEYu43xVUrQBCXYCwucZsJtyfgf7zJ3pQqSOmVqeR1H9wREM9IJtMMLwurl18T2NnD6S1E8P2dol5B1hKckVw5KxoxYSwxObhsIennlNR7qR5l63EBnvyQzY58j8bE2P2Ea75Oz5HFoYZaJ9CKKe73vhe3Y8w7ESAA7kH8CovrbEA4bGb2OlSB3GElXThGE2t9bLvzb4JuroQlBI2mgKIZjl8gAF1m8",
+              "received": false
+            }
+          ],
+          "total_price": 117367,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:14:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69471fe21c508c5d5ee5e0bc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

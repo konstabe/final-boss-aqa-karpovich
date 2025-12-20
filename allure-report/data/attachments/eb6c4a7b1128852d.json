@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2643",
+    "etag": "W/\"a53-6jJOUDAQqi1Y7QACLvKZo+uSTNI\"",
+    "keep-alive": "timeout=5, max=21",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694720131c508c5d5ee5fb21",
+        "email": "Melba.Von@yahoo.com",
+        "name": "Briana Harvey",
+        "country": "Ukraine",
+        "city": "Westminster",
+        "street": "Western Road",
+        "house": 26,
+        "flat": 33,
+        "phone": "+13888493392",
+        "createdOn": "2025-12-20T22:15:47.000Z",
+        "notes": "C6cliWl2jqa4wN6ybR3B1SchO8GgJnPY2fWbrmL7yklgkCYou8fAohktePC1XkNL3fyOBU5nfkJhRyxnMwXAV136B3NMPuEL1RhxKJrc3k1BaQqjqRaJnV058Rv1QRezXdwJ2KWOwQy35sXtWkTpusWrituUIHRp1LsgCmAen0kxABIH5MdUUdeym20EtS7Xqu2N87Wub04JMChjOTFGhakBwnWvtWSoNZyTdQDF8UG2uD25kx3zP2wlpm"
+      },
+      "products": [
+        {
+          "_id": "694720141c508c5d5ee5fc26",
+          "name": "Gloves8424",
+          "amount": 182,
+          "price": 13229,
+          "manufacturer": "Sony",
+          "notes": "z5tzqz1KMTL6uZo6eiDKwSWpy07eN6QcJNeF85rX7MjGTY7zpNRc5Oj17IVOyUbgyXe6LUHmfppBd0pVNcXNAalJNjMexkkT56GoYuNziVntwCaeAn15jOpw3wHLImJA0GB5vvj21ttn3cSHP9evKMQasqWncmnd2VYy7BfPVby8tlTBEBNAPP5pw25xG8Ox2nidGgCKO7sUNz87pUwHdWgXrvi9a2fl2rI9l3mP13RNXwNf8P0feyxwp1",
+          "received": false
+        },
+        {
+          "_id": "694720151c508c5d5ee5fc4a",
+          "name": "Ball81379",
+          "amount": 246,
+          "price": 94338,
+          "manufacturer": "Xiaomi",
+          "notes": "Yub0exTvWPVZ86lDoLRIMPuhHvx8kxuV2dirKX0waJGknxYQqZBS2fYbM0WSA2ymQFMB7MWHGilbYJkDeCxhTqyjNxwS7NXBmGgK30XgwvxbYdC3JXRaygspt2E3pmqdMpXGKiOYzrziQwHfKhclg7ihSJV5FBs8yBq739BUouL3tYocrf4E3uV2WJE7x7gfuwmjaClglDHTCnXMd5nYzZVroYSDy3umWGaYabR2uaOMSggOc7S9YrXVyU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 107567,
+      "createdOn": "2025-12-20T22:15:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694720131c508c5d5ee5fb21",
+          "products": [
+            {
+              "_id": "694720141c508c5d5ee5fc26",
+              "name": "Gloves8424",
+              "amount": 182,
+              "price": 13229,
+              "manufacturer": "Sony",
+              "notes": "z5tzqz1KMTL6uZo6eiDKwSWpy07eN6QcJNeF85rX7MjGTY7zpNRc5Oj17IVOyUbgyXe6LUHmfppBd0pVNcXNAalJNjMexkkT56GoYuNziVntwCaeAn15jOpw3wHLImJA0GB5vvj21ttn3cSHP9evKMQasqWncmnd2VYy7BfPVby8tlTBEBNAPP5pw25xG8Ox2nidGgCKO7sUNz87pUwHdWgXrvi9a2fl2rI9l3mP13RNXwNf8P0feyxwp1",
+              "received": false
+            },
+            {
+              "_id": "694720151c508c5d5ee5fc4a",
+              "name": "Ball81379",
+              "amount": 246,
+              "price": 94338,
+              "manufacturer": "Xiaomi",
+              "notes": "Yub0exTvWPVZ86lDoLRIMPuhHvx8kxuV2dirKX0waJGknxYQqZBS2fYbM0WSA2ymQFMB7MWHGilbYJkDeCxhTqyjNxwS7NXBmGgK30XgwvxbYdC3JXRaygspt2E3pmqdMpXGKiOYzrziQwHfKhclg7ihSJV5FBs8yBq739BUouL3tYocrf4E3uV2WJE7x7gfuwmjaClglDHTCnXMd5nYzZVroYSDy3umWGaYabR2uaOMSggOc7S9YrXVyU",
+              "received": false
+            }
+          ],
+          "total_price": 107567,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:15:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694720151c508c5d5ee5fc7d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

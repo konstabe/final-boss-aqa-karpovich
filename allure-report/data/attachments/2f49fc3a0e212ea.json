@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:14:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-5k0F4ammdfK8amHRcJ5TArXMyZ0\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69471fdf1c508c5d5ee5df65",
+        "email": "Tyrell.Tromp@yahoo.com",
+        "name": "Thelma Hayes",
+        "country": "Russia",
+        "city": "Port Eusebio",
+        "street": "Louisa Burgs",
+        "house": 20,
+        "flat": 314,
+        "phone": "+18485200550",
+        "createdOn": "2025-12-20T22:14:55.000Z",
+        "notes": "FSVXxbUJ1cEzHapCgXxgqoR8W3M32UQTThOd1bpFtz1NVYXq5u7oQI4sFrslzNiippzbaGCN6iNWLlz4n8Y8Heq25XAXlOp8mlZ4RZ8bbQijzxd2bc79rR6rDUVBnGEwk2O7hSb3ERFaYFVcRJHY5bPclbCAnVWR3d332za2UhzHGG4Uv0Cheapf3cMkPiAUuYkzCVvntBD2qAZagsXIt4SKGh8eVwlzLi7jtYUzWlbC0Kow45bhFJKbhQ"
+      },
+      "products": [
+        {
+          "_id": "69471fe01c508c5d5ee5dfa3",
+          "name": "Keyboard19510",
+          "amount": 683,
+          "price": 22562,
+          "manufacturer": "Tesla",
+          "notes": "GQ1itsVj279lmBoD0C6KEbq7hOHMfUX7xfmsocjcZcAvwWyVJMAZ3JzVapkiZGRVmyvOeWUXANJdaXs45KAEzdig2CT1MxESM9Cb4Z7tdMcepWT7uN3kY7UdDQPqDTJSjZwaJbx7Kac4wijmWKMxe8X338LMeXMJU7BL3V6yBDgrLlLcrrHYPjmyzldSrEPIYAd1IhLjN0NRA5QBZTLKue260PUnOtQ60RcgfMk2yZ1vBMmTgetPZ2HO7G",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 22562,
+      "createdOn": "2025-12-20T22:14:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471fdf1c508c5d5ee5df65",
+          "products": [
+            {
+              "_id": "69471fe01c508c5d5ee5dfa3",
+              "name": "Keyboard19510",
+              "amount": 683,
+              "price": 22562,
+              "manufacturer": "Tesla",
+              "notes": "GQ1itsVj279lmBoD0C6KEbq7hOHMfUX7xfmsocjcZcAvwWyVJMAZ3JzVapkiZGRVmyvOeWUXANJdaXs45KAEzdig2CT1MxESM9Cb4Z7tdMcepWT7uN3kY7UdDQPqDTJSjZwaJbx7Kac4wijmWKMxe8X338LMeXMJU7BL3V6yBDgrLlLcrrHYPjmyzldSrEPIYAd1IhLjN0NRA5QBZTLKue260PUnOtQ60RcgfMk2yZ1vBMmTgetPZ2HO7G",
+              "received": false
+            }
+          ],
+          "total_price": 22562,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:14:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69471fe01c508c5d5ee5dfdf"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
