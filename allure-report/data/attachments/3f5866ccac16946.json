@@ -1,0 +1,303 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 20:33:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8652",
+    "etag": "W/\"21cc-rjg/dIUoAh3mtTAMMfbZGdfwBVY\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694708221c508c5d5ee5ca3f",
+      "status": "Received",
+      "customer": {
+        "_id": "694708211c508c5d5ee5c963",
+        "email": "Jamison.Altenwerth84@hotmail.com",
+        "name": "Jillian Fadel",
+        "country": "Canada",
+        "city": "Annabellville",
+        "street": "Corine Meadow",
+        "house": 49,
+        "flat": 953,
+        "phone": "+18453078429",
+        "createdOn": "2025-12-20T20:33:37.000Z",
+        "notes": "pTj985ZN7GNnN5cov8brFZbFIoe5MKCnsGSkGVDKZsTxrLebwu6F2powuyx4S48OAxJfaxtiChruxzuIKCAoA5o8jRwieM3BAPIkUguPHoApgsgthiSJsxupWP78ZzXhsC1xM1edghB02XrEzB1UzVBPrPr02WxzjJVAt6HBB5qxnQtdg7WmGB6vCdGFvLZkj4kMDV4MO6EF8ibpukyW6bSiouPDpmVgWr20vJgKKvvFCDW8A3UQAGK16i"
+      },
+      "products": [
+        {
+          "_id": "694708211c508c5d5ee5c98a",
+          "name": "Mouse61444",
+          "amount": 483,
+          "price": 9138,
+          "manufacturer": "Sony",
+          "notes": "nLmrXcCAT8uXDGnOFnFU2soFwL7rPguJecTWOAtYJVQEsyt5g3BmJ7CqAvVuDOFu305ciOkDjEXtGtqVoQ340L4rl9JD9hPJPBG0rGjmzqxNCL8LL1V2ag8R7BCMqZt1WrVxjUsQdpOQiP3rhIE6pBGEZ2Pmj7A2EVZ6SxSK5chwd2omHy9UDHm7m5nIQz0K3FDJ4qRj0nalkd3DMOFPTdyjPaoYnmMMxbgJUN5ALMJCoBtD0UR26Eq8f6",
+          "received": true
+        },
+        {
+          "_id": "694708211c508c5d5ee5c9af",
+          "name": "Chair35419",
+          "amount": 936,
+          "price": 43848,
+          "manufacturer": "Microsoft",
+          "notes": "vSgHaVeIufbFgxSWLi4Hzn1pJRLPD6xPbRPVf706pXZGoWnlM5Z1kxRAhJe8WjnC2i51MwaLpJBCO6VidElrzTwKmWBypGsguqZHi1XIyUwXJamejBJFTPsmoXGjaCexzfW6oJLSGbGJc3jISZp68g6gjLL1ZnfKZhHqYG7CgcaSbajvdPTnyQVs4Dkk8JWOzLhoJUK5eOrvtA7PSp2MPLGq4bp1Tk57w4kD8IxXLeDR5EXcJmC2D5b15Z",
+          "received": true
+        },
+        {
+          "_id": "694708221c508c5d5ee5ca14",
+          "name": "Chips80934",
+          "amount": 166,
+          "price": 75503,
+          "manufacturer": "Apple",
+          "notes": "LcvgD8lEYrZoLw501pzOXObmCSg4Iht9NSogz0seFC2HKuCwbkH5yU5QKStUIcX9psjwbevFYfU5208qlOWvXo2hCFnkSTW3EDkDPEzuWkjYMKBXhBhTG5r6XRR0wn4X0tXjVe2AEEKvkyBHRy8E4LyyqLrfm6M4f836VMR7i1GdxLief1fkGXmmHmdh6nKqIp8sxewSogzcJSPvav0qAmOefX1ohGjQIf4bAZ335pjbrwS2ruZmascmVv",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Annabellville",
+          "street": "Corine Meadow",
+          "house": 49,
+          "flat": 953
+        },
+        "finalDate": "2025-12-21T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 128489,
+      "createdOn": "2025-12-20T20:33:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694708211c508c5d5ee5c963",
+          "products": [
+            {
+              "_id": "694708211c508c5d5ee5c98a",
+              "name": "Mouse61444",
+              "amount": 483,
+              "price": 9138,
+              "manufacturer": "Sony",
+              "notes": "nLmrXcCAT8uXDGnOFnFU2soFwL7rPguJecTWOAtYJVQEsyt5g3BmJ7CqAvVuDOFu305ciOkDjEXtGtqVoQ340L4rl9JD9hPJPBG0rGjmzqxNCL8LL1V2ag8R7BCMqZt1WrVxjUsQdpOQiP3rhIE6pBGEZ2Pmj7A2EVZ6SxSK5chwd2omHy9UDHm7m5nIQz0K3FDJ4qRj0nalkd3DMOFPTdyjPaoYnmMMxbgJUN5ALMJCoBtD0UR26Eq8f6",
+              "received": true
+            },
+            {
+              "_id": "694708211c508c5d5ee5c9af",
+              "name": "Chair35419",
+              "amount": 936,
+              "price": 43848,
+              "manufacturer": "Microsoft",
+              "notes": "vSgHaVeIufbFgxSWLi4Hzn1pJRLPD6xPbRPVf706pXZGoWnlM5Z1kxRAhJe8WjnC2i51MwaLpJBCO6VidElrzTwKmWBypGsguqZHi1XIyUwXJamejBJFTPsmoXGjaCexzfW6oJLSGbGJc3jISZp68g6gjLL1ZnfKZhHqYG7CgcaSbajvdPTnyQVs4Dkk8JWOzLhoJUK5eOrvtA7PSp2MPLGq4bp1Tk57w4kD8IxXLeDR5EXcJmC2D5b15Z",
+              "received": true
+            },
+            {
+              "_id": "694708221c508c5d5ee5ca14",
+              "name": "Chips80934",
+              "amount": 166,
+              "price": 75503,
+              "manufacturer": "Apple",
+              "notes": "LcvgD8lEYrZoLw501pzOXObmCSg4Iht9NSogz0seFC2HKuCwbkH5yU5QKStUIcX9psjwbevFYfU5208qlOWvXo2hCFnkSTW3EDkDPEzuWkjYMKBXhBhTG5r6XRR0wn4X0tXjVe2AEEKvkyBHRy8E4LyyqLrfm6M4f836VMR7i1GdxLief1fkGXmmHmdh6nKqIp8sxewSogzcJSPvav0qAmOefX1ohGjQIf4bAZ335pjbrwS2ruZmascmVv",
+              "received": true
+            }
+          ],
+          "total_price": 128489,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Annabellville",
+              "street": "Corine Meadow",
+              "house": 49,
+              "flat": 953
+            },
+            "finalDate": "2025-12-21T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-20T20:33:40.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694708211c508c5d5ee5c963",
+          "products": [
+            {
+              "_id": "694708211c508c5d5ee5c98a",
+              "name": "Mouse61444",
+              "amount": 483,
+              "price": 9138,
+              "manufacturer": "Sony",
+              "notes": "nLmrXcCAT8uXDGnOFnFU2soFwL7rPguJecTWOAtYJVQEsyt5g3BmJ7CqAvVuDOFu305ciOkDjEXtGtqVoQ340L4rl9JD9hPJPBG0rGjmzqxNCL8LL1V2ag8R7BCMqZt1WrVxjUsQdpOQiP3rhIE6pBGEZ2Pmj7A2EVZ6SxSK5chwd2omHy9UDHm7m5nIQz0K3FDJ4qRj0nalkd3DMOFPTdyjPaoYnmMMxbgJUN5ALMJCoBtD0UR26Eq8f6",
+              "received": false
+            },
+            {
+              "_id": "694708211c508c5d5ee5c9af",
+              "name": "Chair35419",
+              "amount": 936,
+              "price": 43848,
+              "manufacturer": "Microsoft",
+              "notes": "vSgHaVeIufbFgxSWLi4Hzn1pJRLPD6xPbRPVf706pXZGoWnlM5Z1kxRAhJe8WjnC2i51MwaLpJBCO6VidElrzTwKmWBypGsguqZHi1XIyUwXJamejBJFTPsmoXGjaCexzfW6oJLSGbGJc3jISZp68g6gjLL1ZnfKZhHqYG7CgcaSbajvdPTnyQVs4Dkk8JWOzLhoJUK5eOrvtA7PSp2MPLGq4bp1Tk57w4kD8IxXLeDR5EXcJmC2D5b15Z",
+              "received": false
+            },
+            {
+              "_id": "694708221c508c5d5ee5ca14",
+              "name": "Chips80934",
+              "amount": 166,
+              "price": 75503,
+              "manufacturer": "Apple",
+              "notes": "LcvgD8lEYrZoLw501pzOXObmCSg4Iht9NSogz0seFC2HKuCwbkH5yU5QKStUIcX9psjwbevFYfU5208qlOWvXo2hCFnkSTW3EDkDPEzuWkjYMKBXhBhTG5r6XRR0wn4X0tXjVe2AEEKvkyBHRy8E4LyyqLrfm6M4f836VMR7i1GdxLief1fkGXmmHmdh6nKqIp8sxewSogzcJSPvav0qAmOefX1ohGjQIf4bAZ335pjbrwS2ruZmascmVv",
+              "received": false
+            }
+          ],
+          "total_price": 128489,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Annabellville",
+              "street": "Corine Meadow",
+              "house": 49,
+              "flat": 953
+            },
+            "finalDate": "2025-12-21T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-20T20:33:39.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694708211c508c5d5ee5c963",
+          "products": [
+            {
+              "_id": "694708211c508c5d5ee5c98a",
+              "name": "Mouse61444",
+              "amount": 483,
+              "price": 9138,
+              "manufacturer": "Sony",
+              "notes": "nLmrXcCAT8uXDGnOFnFU2soFwL7rPguJecTWOAtYJVQEsyt5g3BmJ7CqAvVuDOFu305ciOkDjEXtGtqVoQ340L4rl9JD9hPJPBG0rGjmzqxNCL8LL1V2ag8R7BCMqZt1WrVxjUsQdpOQiP3rhIE6pBGEZ2Pmj7A2EVZ6SxSK5chwd2omHy9UDHm7m5nIQz0K3FDJ4qRj0nalkd3DMOFPTdyjPaoYnmMMxbgJUN5ALMJCoBtD0UR26Eq8f6",
+              "received": false
+            },
+            {
+              "_id": "694708211c508c5d5ee5c9af",
+              "name": "Chair35419",
+              "amount": 936,
+              "price": 43848,
+              "manufacturer": "Microsoft",
+              "notes": "vSgHaVeIufbFgxSWLi4Hzn1pJRLPD6xPbRPVf706pXZGoWnlM5Z1kxRAhJe8WjnC2i51MwaLpJBCO6VidElrzTwKmWBypGsguqZHi1XIyUwXJamejBJFTPsmoXGjaCexzfW6oJLSGbGJc3jISZp68g6gjLL1ZnfKZhHqYG7CgcaSbajvdPTnyQVs4Dkk8JWOzLhoJUK5eOrvtA7PSp2MPLGq4bp1Tk57w4kD8IxXLeDR5EXcJmC2D5b15Z",
+              "received": false
+            },
+            {
+              "_id": "694708221c508c5d5ee5ca14",
+              "name": "Chips80934",
+              "amount": 166,
+              "price": 75503,
+              "manufacturer": "Apple",
+              "notes": "LcvgD8lEYrZoLw501pzOXObmCSg4Iht9NSogz0seFC2HKuCwbkH5yU5QKStUIcX9psjwbevFYfU5208qlOWvXo2hCFnkSTW3EDkDPEzuWkjYMKBXhBhTG5r6XRR0wn4X0tXjVe2AEEKvkyBHRy8E4LyyqLrfm6M4f836VMR7i1GdxLief1fkGXmmHmdh6nKqIp8sxewSogzcJSPvav0qAmOefX1ohGjQIf4bAZ335pjbrwS2ruZmascmVv",
+              "received": false
+            }
+          ],
+          "total_price": 128489,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Annabellville",
+              "street": "Corine Meadow",
+              "house": 49,
+              "flat": 953
+            },
+            "finalDate": "2025-12-21T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-20T20:33:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694708211c508c5d5ee5c963",
+          "products": [
+            {
+              "_id": "694708211c508c5d5ee5c98a",
+              "name": "Mouse61444",
+              "amount": 483,
+              "price": 9138,
+              "manufacturer": "Sony",
+              "notes": "nLmrXcCAT8uXDGnOFnFU2soFwL7rPguJecTWOAtYJVQEsyt5g3BmJ7CqAvVuDOFu305ciOkDjEXtGtqVoQ340L4rl9JD9hPJPBG0rGjmzqxNCL8LL1V2ag8R7BCMqZt1WrVxjUsQdpOQiP3rhIE6pBGEZ2Pmj7A2EVZ6SxSK5chwd2omHy9UDHm7m5nIQz0K3FDJ4qRj0nalkd3DMOFPTdyjPaoYnmMMxbgJUN5ALMJCoBtD0UR26Eq8f6",
+              "received": false
+            },
+            {
+              "_id": "694708211c508c5d5ee5c9af",
+              "name": "Chair35419",
+              "amount": 936,
+              "price": 43848,
+              "manufacturer": "Microsoft",
+              "notes": "vSgHaVeIufbFgxSWLi4Hzn1pJRLPD6xPbRPVf706pXZGoWnlM5Z1kxRAhJe8WjnC2i51MwaLpJBCO6VidElrzTwKmWBypGsguqZHi1XIyUwXJamejBJFTPsmoXGjaCexzfW6oJLSGbGJc3jISZp68g6gjLL1ZnfKZhHqYG7CgcaSbajvdPTnyQVs4Dkk8JWOzLhoJUK5eOrvtA7PSp2MPLGq4bp1Tk57w4kD8IxXLeDR5EXcJmC2D5b15Z",
+              "received": false
+            },
+            {
+              "_id": "694708221c508c5d5ee5ca14",
+              "name": "Chips80934",
+              "amount": 166,
+              "price": 75503,
+              "manufacturer": "Apple",
+              "notes": "LcvgD8lEYrZoLw501pzOXObmCSg4Iht9NSogz0seFC2HKuCwbkH5yU5QKStUIcX9psjwbevFYfU5208qlOWvXo2hCFnkSTW3EDkDPEzuWkjYMKBXhBhTG5r6XRR0wn4X0tXjVe2AEEKvkyBHRy8E4LyyqLrfm6M4f836VMR7i1GdxLief1fkGXmmHmdh6nKqIp8sxewSogzcJSPvav0qAmOefX1ohGjQIf4bAZ335pjbrwS2ruZmascmVv",
+              "received": false
+            }
+          ],
+          "total_price": 128489,
+          "delivery": null,
+          "changedOn": "2025-12-20T20:33:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

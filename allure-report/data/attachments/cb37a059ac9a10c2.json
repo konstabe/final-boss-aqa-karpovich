@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 20:33:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-KZjIkpUMZrikAadKbqDLotFCYA0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6947081f1c508c5d5ee5c8a8",
+        "email": "Kenya_Mills@yahoo.com",
+        "name": "Madelyn Langworth",
+        "country": "Canada",
+        "city": "Naderfort",
+        "street": "Cambridge Street",
+        "house": 18,
+        "flat": 654,
+        "phone": "+14207306362",
+        "createdOn": "2025-12-20T20:33:35.000Z",
+        "notes": "MaoOAewiKIB89OTrhqkIH4tqZFO5jZv4KyYWyqjMSUDJNAnQ5p0kccUlOQ6lLakZlwpnKmYd3142cBHv7y7pM63fZTnksWGpR8qndJuTRJsE7qYttF6rA9FVtwLIYjxtKYxg7zEyzYyVOIJIAhgWCew0rvB6zQJkOAMbb8rUn8fLyF0KsJycJhuL4GGGLxm0FmqO5kDve8RXQyd6RDVaSIN23EO8PvF7o627osyLyTzM0PpTx0xB0dQJ1l"
+      },
+      "products": [
+        {
+          "_id": "6947081f1c508c5d5ee5c8c2",
+          "name": "Computer26265",
+          "amount": 973,
+          "price": 6830,
+          "manufacturer": "Amazon",
+          "notes": "xuMWSLbbA9eDfUqGYeI2kPZWyKJ3RqXaV9yttq6TzICsaTgcPOEilwgP3iokZaJnlQSjeFyxLudTEhK4yWJwxdpsiOyPpbfYZTJHlIAXJhDILTQz8anKifzYmF1AyLeBQxBbd4FPW9w6mP5fd3sGKUQUxahZUp6EtaoekiPDh4oQRGEPbegcjQV8XE1H5Scishr1fH7ZolYWU28DnKYndlX4H5we1WFwH6uaY0DJRXmHGvV3AyzcQ1w2nv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 6830,
+      "createdOn": "2025-12-20T20:33:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6947081f1c508c5d5ee5c8a8",
+          "products": [
+            {
+              "_id": "6947081f1c508c5d5ee5c8c2",
+              "name": "Computer26265",
+              "amount": 973,
+              "price": 6830,
+              "manufacturer": "Amazon",
+              "notes": "xuMWSLbbA9eDfUqGYeI2kPZWyKJ3RqXaV9yttq6TzICsaTgcPOEilwgP3iokZaJnlQSjeFyxLudTEhK4yWJwxdpsiOyPpbfYZTJHlIAXJhDILTQz8anKifzYmF1AyLeBQxBbd4FPW9w6mP5fd3sGKUQUxahZUp6EtaoekiPDh4oQRGEPbegcjQV8XE1H5Scishr1fH7ZolYWU28DnKYndlX4H5we1WFwH6uaY0DJRXmHGvV3AyzcQ1w2nv",
+              "received": false
+            }
+          ],
+          "total_price": 6830,
+          "delivery": null,
+          "changedOn": "2025-12-20T20:33:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694708201c508c5d5ee5c8dd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
