@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 19:41:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1899",
+    "etag": "W/\"76b-9wF4+cO1WfcPXQXASxuupTPqAsM\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6946fbe81c508c5d5ee55812",
+        "email": "Ambrose.Kuphal22@hotmail.com",
+        "name": "Carleton Rempel",
+        "country": "Canada",
+        "city": "Fort Garettberg",
+        "street": "S 1st Street",
+        "house": 4,
+        "flat": 428,
+        "phone": "+13302483101",
+        "createdOn": "2025-12-20T19:41:28.000Z",
+        "notes": "Rx7odwTdh9Pok1Ty8s7DazDMjAKQ7Ea9FCFl5EG5awxwZh8LzHRDYkfWjrwdYRf60z4hwjwqPnykSZmNCbitYaANBWPbWHDcHigLOBlqyELHsgHXMvTcoDi6Z7hW7rlRLpQBOOWAY0qTetYT63YoLzUY2KiYCZPVGxGElwWCIfZUnP357Ri9suBraZNRKmsUmcBeXo7JPfdmgVIqPonrWd45b000kAWba6ROZoa0QETCuxfbuH8RuUFuoG"
+      },
+      "products": [
+        {
+          "_id": "6946fbe81c508c5d5ee55820",
+          "name": "Computer69307",
+          "amount": 316,
+          "price": 14000,
+          "manufacturer": "Google",
+          "notes": "bkqII5yFQbWoZbr4VAtk7PDPv7DQRehyJRLQlR2JLwYWGma1dWFbfG1ztwVIIFQg96uvYuaz3nn3uN65qM8qDwkjZjrUQorzOzRuaswFp2Dhse0MdTuogAbd9AjUFbhym5sHHgpSBq0M8fXLE5zcfrHXUm4uydOl5Ul5h1aIuBe4YiBtJ13nL2rVM9auc7taNw3ScASPgc53zie7rDV8vufxC5tAWzIhe9gqcnR30cMQQakwqr1mWFTqGq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 14000,
+      "createdOn": "2025-12-20T19:41:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6946fbe81c508c5d5ee55812",
+          "products": [
+            {
+              "_id": "6946fbe81c508c5d5ee55820",
+              "name": "Computer69307",
+              "amount": 316,
+              "price": 14000,
+              "manufacturer": "Google",
+              "notes": "bkqII5yFQbWoZbr4VAtk7PDPv7DQRehyJRLQlR2JLwYWGma1dWFbfG1ztwVIIFQg96uvYuaz3nn3uN65qM8qDwkjZjrUQorzOzRuaswFp2Dhse0MdTuogAbd9AjUFbhym5sHHgpSBq0M8fXLE5zcfrHXUm4uydOl5Ul5h1aIuBe4YiBtJ13nL2rVM9auc7taNw3ScASPgc53zie7rDV8vufxC5tAWzIhe9gqcnR30cMQQakwqr1mWFTqGq",
+              "received": false
+            }
+          ],
+          "total_price": 14000,
+          "delivery": null,
+          "changedOn": "2025-12-20T19:41:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6946fbe81c508c5d5ee55836"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

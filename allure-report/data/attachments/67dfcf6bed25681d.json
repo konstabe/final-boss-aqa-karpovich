@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 19:42:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1900",
+    "etag": "W/\"76c-28/royjx/VvdKgd3VU2b4AL/NTc\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6946fc081c508c5d5ee55baa",
+        "email": "Humberto.Witting@yahoo.com",
+        "name": "Reed Kautzer",
+        "country": "Russia",
+        "city": "Lavernashire",
+        "street": "Barton Turnpike",
+        "house": 3,
+        "flat": 641,
+        "phone": "+16167344230",
+        "createdOn": "2025-12-20T19:42:00.000Z",
+        "notes": "Fn1HdAKVMfks1mA2nS1FlacY31dtdYEMe8MAT0VETArEQ4lvubwxLsKslF1yultqZastK2Su0cI1NsuIxFdF79qMb2yhjd6BpoN9R2PEjrrD3Ybb6ckczpMQar3ceudqIz7YbxHUnDp0uHzUwWSoTBQkjkCQfnCFPds9FREUDj4zOlEtT7xzzVMjZ4PyYzus4r7e8cpltdlVCA67WJn9SObXd9Bf6hrrJJiIbk7JHIyxQoQJtIXDSOj7iJ"
+      },
+      "products": [
+        {
+          "_id": "6946fc091c508c5d5ee55baf",
+          "name": "Computer60739",
+          "amount": 306,
+          "price": 37738,
+          "manufacturer": "Microsoft",
+          "notes": "ERsE1NfcK1HthLjkwgC4UENaaMiaAKkBu0i89NthMwDcyVKyMpAfBBagPSogpmjfPwCBpWf3wACrRTEmv0zJFHo2IDSrBjWqdRt59SQp6PKkIfMyrAfiiRoT4UyTTkw2r4X9iM3BKmWEayU3rqhp6axXuBLpOK1K0m5mrxjSVnpV8zEKSfMRfqDOH8X7PZkpRcJF2269pRoitQ1omKyMZPW0yhCTv6CipScN1q1tkQNOJpk6x6LzC7AUwT",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 37738,
+      "createdOn": "2025-12-20T19:42:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6946fc081c508c5d5ee55baa",
+          "products": [
+            {
+              "_id": "6946fc091c508c5d5ee55baf",
+              "name": "Computer60739",
+              "amount": 306,
+              "price": 37738,
+              "manufacturer": "Microsoft",
+              "notes": "ERsE1NfcK1HthLjkwgC4UENaaMiaAKkBu0i89NthMwDcyVKyMpAfBBagPSogpmjfPwCBpWf3wACrRTEmv0zJFHo2IDSrBjWqdRt59SQp6PKkIfMyrAfiiRoT4UyTTkw2r4X9iM3BKmWEayU3rqhp6axXuBLpOK1K0m5mrxjSVnpV8zEKSfMRfqDOH8X7PZkpRcJF2269pRoitQ1omKyMZPW0yhCTv6CipScN1q1tkQNOJpk6x6LzC7AUwT",
+              "received": false
+            }
+          ],
+          "total_price": 37738,
+          "delivery": null,
+          "changedOn": "2025-12-20T19:42:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6946fc091c508c5d5ee55bb7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 19:41:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8644",
+    "etag": "W/\"21c4-l4QBVNLTeHBR5vc4htTn9OhMayw\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6946fbeb1c508c5d5ee5593a",
+      "status": "Received",
+      "customer": {
+        "_id": "6946fbea1c508c5d5ee558e0",
+        "email": "Neha.Moore@hotmail.com",
+        "name": "Lucious Ruecker",
+        "country": "Belarus",
+        "city": "Faheymouth",
+        "street": "Streich Common",
+        "house": 2,
+        "flat": 814,
+        "phone": "+18559677732",
+        "createdOn": "2025-12-20T19:41:30.000Z",
+        "notes": "jtgYiW8RfylFuiNQ4cEukm8Y39UWPZi780Fd0qnsaar3wpS3yvemxlVRVPGWJTCNiIa9uy3DajgeNXeK3WnfrSWX4ogfVu9XEOsJPEOhbwJ1PurRFc3qBLIxflQVsHNH0s3wzUfEGHBCm8SB8HBk3AcWOGt9UBCXOhj7NKnfXF5WbrFB5gD0zQNrlnHKEE0PwJeCZXToWwSEBCEsALPUJDLQgUqRJhPCgzMLQRdftl9xz8PMbHOoshxRxb"
+      },
+      "products": [
+        {
+          "_id": "6946fbea1c508c5d5ee558f7",
+          "name": "Bacon11527",
+          "amount": 80,
+          "price": 33497,
+          "manufacturer": "Microsoft",
+          "notes": "sCZ1edPi5RgVEs6mZAit7cNREuCHkqZCP24QWuUVlk1Mf6mw3g9ptxgGBLO1QWk9CUQ75DTGlOxpKuN9D8kFPQzTLlJthkOOBq2HUb2utyCwUo7V0Pit6hcVxjOWLYni6sifmoe8k1rbpBzJ5HXrkLgZ8L1pourDLQFhHbp9jr4NA3FDUw7c3QMG354uWeEgMN7X2jYnmunxtQAtn5VJwkSPX5GAiMWAwFKMtStcZr0Hx7ud0h6mrwkXYW",
+          "received": true
+        },
+        {
+          "_id": "6946fbea1c508c5d5ee55909",
+          "name": "Salad62194",
+          "amount": 294,
+          "price": 1636,
+          "manufacturer": "Amazon",
+          "notes": "rK2ElgoTURdaRcJQQldbggpIbbk9GnPfHoOnJbUsw3LXODxzNm9kRYk8rESdGR9dtIknVV8MQIFKk9orPUvPwJhtEAX0ZgoyCEwgjcTH6yKUMaVunDBRWU2P9JK0ywRiWeYWeOcvEzpVfClanT7b9uFwlj57YTz0MqPGax5MJDT5SuA2p9Pb2qirikhEc8jqrIucVUpOftJ6AcTZedPsmZcKIf5wUNM23MvujyDtbBEJ9JRam3929Sp0xs",
+          "received": true
+        },
+        {
+          "_id": "6946fbeb1c508c5d5ee5591f",
+          "name": "Chips96583",
+          "amount": 239,
+          "price": 59149,
+          "manufacturer": "Samsung",
+          "notes": "INlr97ixzsqeHYEmN5wFVF4sQaovbGx8d8HhdcS3SlzXFMrPXMp0yEFHC07lzQjWhOsVJNrRj69cN8FAKRsuQTbYXcJMXaP4IFZEuezCnCCqpehiKvO48NbhY4pf4KOdSlNVs4RPIp98ez0lHXBaAgjOGKpOGFvN1C5RqDJgOcQbVlGaMtrmdWwgDiLTxWguVv9o4EFEnc2phO6Y83yVrD6u8JTDOuvVKAHez53IVBezWfPFXPfcCSGLki",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Faheymouth",
+          "street": "Streich Common",
+          "house": 2,
+          "flat": 814
+        },
+        "finalDate": "2025-12-27T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 94282,
+      "createdOn": "2025-12-20T19:41:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6946fbea1c508c5d5ee558e0",
+          "products": [
+            {
+              "_id": "6946fbea1c508c5d5ee558f7",
+              "name": "Bacon11527",
+              "amount": 80,
+              "price": 33497,
+              "manufacturer": "Microsoft",
+              "notes": "sCZ1edPi5RgVEs6mZAit7cNREuCHkqZCP24QWuUVlk1Mf6mw3g9ptxgGBLO1QWk9CUQ75DTGlOxpKuN9D8kFPQzTLlJthkOOBq2HUb2utyCwUo7V0Pit6hcVxjOWLYni6sifmoe8k1rbpBzJ5HXrkLgZ8L1pourDLQFhHbp9jr4NA3FDUw7c3QMG354uWeEgMN7X2jYnmunxtQAtn5VJwkSPX5GAiMWAwFKMtStcZr0Hx7ud0h6mrwkXYW",
+              "received": true
+            },
+            {
+              "_id": "6946fbea1c508c5d5ee55909",
+              "name": "Salad62194",
+              "amount": 294,
+              "price": 1636,
+              "manufacturer": "Amazon",
+              "notes": "rK2ElgoTURdaRcJQQldbggpIbbk9GnPfHoOnJbUsw3LXODxzNm9kRYk8rESdGR9dtIknVV8MQIFKk9orPUvPwJhtEAX0ZgoyCEwgjcTH6yKUMaVunDBRWU2P9JK0ywRiWeYWeOcvEzpVfClanT7b9uFwlj57YTz0MqPGax5MJDT5SuA2p9Pb2qirikhEc8jqrIucVUpOftJ6AcTZedPsmZcKIf5wUNM23MvujyDtbBEJ9JRam3929Sp0xs",
+              "received": true
+            },
+            {
+              "_id": "6946fbeb1c508c5d5ee5591f",
+              "name": "Chips96583",
+              "amount": 239,
+              "price": 59149,
+              "manufacturer": "Samsung",
+              "notes": "INlr97ixzsqeHYEmN5wFVF4sQaovbGx8d8HhdcS3SlzXFMrPXMp0yEFHC07lzQjWhOsVJNrRj69cN8FAKRsuQTbYXcJMXaP4IFZEuezCnCCqpehiKvO48NbhY4pf4KOdSlNVs4RPIp98ez0lHXBaAgjOGKpOGFvN1C5RqDJgOcQbVlGaMtrmdWwgDiLTxWguVv9o4EFEnc2phO6Y83yVrD6u8JTDOuvVKAHez53IVBezWfPFXPfcCSGLki",
+              "received": true
+            }
+          ],
+          "total_price": 94282,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Faheymouth",
+              "street": "Streich Common",
+              "house": 2,
+              "flat": 814
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-20T19:41:32.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6946fbea1c508c5d5ee558e0",
+          "products": [
+            {
+              "_id": "6946fbea1c508c5d5ee558f7",
+              "name": "Bacon11527",
+              "amount": 80,
+              "price": 33497,
+              "manufacturer": "Microsoft",
+              "notes": "sCZ1edPi5RgVEs6mZAit7cNREuCHkqZCP24QWuUVlk1Mf6mw3g9ptxgGBLO1QWk9CUQ75DTGlOxpKuN9D8kFPQzTLlJthkOOBq2HUb2utyCwUo7V0Pit6hcVxjOWLYni6sifmoe8k1rbpBzJ5HXrkLgZ8L1pourDLQFhHbp9jr4NA3FDUw7c3QMG354uWeEgMN7X2jYnmunxtQAtn5VJwkSPX5GAiMWAwFKMtStcZr0Hx7ud0h6mrwkXYW",
+              "received": false
+            },
+            {
+              "_id": "6946fbea1c508c5d5ee55909",
+              "name": "Salad62194",
+              "amount": 294,
+              "price": 1636,
+              "manufacturer": "Amazon",
+              "notes": "rK2ElgoTURdaRcJQQldbggpIbbk9GnPfHoOnJbUsw3LXODxzNm9kRYk8rESdGR9dtIknVV8MQIFKk9orPUvPwJhtEAX0ZgoyCEwgjcTH6yKUMaVunDBRWU2P9JK0ywRiWeYWeOcvEzpVfClanT7b9uFwlj57YTz0MqPGax5MJDT5SuA2p9Pb2qirikhEc8jqrIucVUpOftJ6AcTZedPsmZcKIf5wUNM23MvujyDtbBEJ9JRam3929Sp0xs",
+              "received": false
+            },
+            {
+              "_id": "6946fbeb1c508c5d5ee5591f",
+              "name": "Chips96583",
+              "amount": 239,
+              "price": 59149,
+              "manufacturer": "Samsung",
+              "notes": "INlr97ixzsqeHYEmN5wFVF4sQaovbGx8d8HhdcS3SlzXFMrPXMp0yEFHC07lzQjWhOsVJNrRj69cN8FAKRsuQTbYXcJMXaP4IFZEuezCnCCqpehiKvO48NbhY4pf4KOdSlNVs4RPIp98ez0lHXBaAgjOGKpOGFvN1C5RqDJgOcQbVlGaMtrmdWwgDiLTxWguVv9o4EFEnc2phO6Y83yVrD6u8JTDOuvVKAHez53IVBezWfPFXPfcCSGLki",
+              "received": false
+            }
+          ],
+          "total_price": 94282,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Faheymouth",
+              "street": "Streich Common",
+              "house": 2,
+              "flat": 814
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-20T19:41:31.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6946fbea1c508c5d5ee558e0",
+          "products": [
+            {
+              "_id": "6946fbea1c508c5d5ee558f7",
+              "name": "Bacon11527",
+              "amount": 80,
+              "price": 33497,
+              "manufacturer": "Microsoft",
+              "notes": "sCZ1edPi5RgVEs6mZAit7cNREuCHkqZCP24QWuUVlk1Mf6mw3g9ptxgGBLO1QWk9CUQ75DTGlOxpKuN9D8kFPQzTLlJthkOOBq2HUb2utyCwUo7V0Pit6hcVxjOWLYni6sifmoe8k1rbpBzJ5HXrkLgZ8L1pourDLQFhHbp9jr4NA3FDUw7c3QMG354uWeEgMN7X2jYnmunxtQAtn5VJwkSPX5GAiMWAwFKMtStcZr0Hx7ud0h6mrwkXYW",
+              "received": false
+            },
+            {
+              "_id": "6946fbea1c508c5d5ee55909",
+              "name": "Salad62194",
+              "amount": 294,
+              "price": 1636,
+              "manufacturer": "Amazon",
+              "notes": "rK2ElgoTURdaRcJQQldbggpIbbk9GnPfHoOnJbUsw3LXODxzNm9kRYk8rESdGR9dtIknVV8MQIFKk9orPUvPwJhtEAX0ZgoyCEwgjcTH6yKUMaVunDBRWU2P9JK0ywRiWeYWeOcvEzpVfClanT7b9uFwlj57YTz0MqPGax5MJDT5SuA2p9Pb2qirikhEc8jqrIucVUpOftJ6AcTZedPsmZcKIf5wUNM23MvujyDtbBEJ9JRam3929Sp0xs",
+              "received": false
+            },
+            {
+              "_id": "6946fbeb1c508c5d5ee5591f",
+              "name": "Chips96583",
+              "amount": 239,
+              "price": 59149,
+              "manufacturer": "Samsung",
+              "notes": "INlr97ixzsqeHYEmN5wFVF4sQaovbGx8d8HhdcS3SlzXFMrPXMp0yEFHC07lzQjWhOsVJNrRj69cN8FAKRsuQTbYXcJMXaP4IFZEuezCnCCqpehiKvO48NbhY4pf4KOdSlNVs4RPIp98ez0lHXBaAgjOGKpOGFvN1C5RqDJgOcQbVlGaMtrmdWwgDiLTxWguVv9o4EFEnc2phO6Y83yVrD6u8JTDOuvVKAHez53IVBezWfPFXPfcCSGLki",
+              "received": false
+            }
+          ],
+          "total_price": 94282,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Faheymouth",
+              "street": "Streich Common",
+              "house": 2,
+              "flat": 814
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-20T19:41:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6946fbea1c508c5d5ee558e0",
+          "products": [
+            {
+              "_id": "6946fbea1c508c5d5ee558f7",
+              "name": "Bacon11527",
+              "amount": 80,
+              "price": 33497,
+              "manufacturer": "Microsoft",
+              "notes": "sCZ1edPi5RgVEs6mZAit7cNREuCHkqZCP24QWuUVlk1Mf6mw3g9ptxgGBLO1QWk9CUQ75DTGlOxpKuN9D8kFPQzTLlJthkOOBq2HUb2utyCwUo7V0Pit6hcVxjOWLYni6sifmoe8k1rbpBzJ5HXrkLgZ8L1pourDLQFhHbp9jr4NA3FDUw7c3QMG354uWeEgMN7X2jYnmunxtQAtn5VJwkSPX5GAiMWAwFKMtStcZr0Hx7ud0h6mrwkXYW",
+              "received": false
+            },
+            {
+              "_id": "6946fbea1c508c5d5ee55909",
+              "name": "Salad62194",
+              "amount": 294,
+              "price": 1636,
+              "manufacturer": "Amazon",
+              "notes": "rK2ElgoTURdaRcJQQldbggpIbbk9GnPfHoOnJbUsw3LXODxzNm9kRYk8rESdGR9dtIknVV8MQIFKk9orPUvPwJhtEAX0ZgoyCEwgjcTH6yKUMaVunDBRWU2P9JK0ywRiWeYWeOcvEzpVfClanT7b9uFwlj57YTz0MqPGax5MJDT5SuA2p9Pb2qirikhEc8jqrIucVUpOftJ6AcTZedPsmZcKIf5wUNM23MvujyDtbBEJ9JRam3929Sp0xs",
+              "received": false
+            },
+            {
+              "_id": "6946fbeb1c508c5d5ee5591f",
+              "name": "Chips96583",
+              "amount": 239,
+              "price": 59149,
+              "manufacturer": "Samsung",
+              "notes": "INlr97ixzsqeHYEmN5wFVF4sQaovbGx8d8HhdcS3SlzXFMrPXMp0yEFHC07lzQjWhOsVJNrRj69cN8FAKRsuQTbYXcJMXaP4IFZEuezCnCCqpehiKvO48NbhY4pf4KOdSlNVs4RPIp98ez0lHXBaAgjOGKpOGFvN1C5RqDJgOcQbVlGaMtrmdWwgDiLTxWguVv9o4EFEnc2phO6Y83yVrD6u8JTDOuvVKAHez53IVBezWfPFXPfcCSGLki",
+              "received": false
+            }
+          ],
+          "total_price": 94282,
+          "delivery": null,
+          "changedOn": "2025-12-20T19:41:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 19:41:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1898",
+    "etag": "W/\"76a-Vkxsuq88ls6+FSSXBdN1jMbEn/o\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6946fbec1c508c5d5ee559bb",
+        "email": "Cornelius.Stehr@gmail.com",
+        "name": "Tristian Stehr",
+        "country": "Ukraine",
+        "city": "Port Rodrickhaven",
+        "street": "Samantha Harbor",
+        "house": 33,
+        "flat": 488,
+        "phone": "+18456833574",
+        "createdOn": "2025-12-20T19:41:32.000Z",
+        "notes": "KZq1UuvcNJWLoEqpnaLGVHeMljqYnlcxKUohY0PWoYm4H5iu7dolJ3w8Wwwcw8pfMxtSatqy6l9J7ozPqaAEgbvYLQL6wsdlbGTJvkyKJXh7eZYVJyM8AaIOUs3O7EcZxz5dUvwaiu5hNFf5UdHc5RSsVl7x3V1s9iaFPrspabKU6ayiRcVDcQYVF4oyww4UPpi09UlbkXEwQDKnqZqJGhWhfAaHfIjzQLRlNcV1PMKxbWBjxLoIys7EG5"
+      },
+      "products": [
+        {
+          "_id": "6946fbec1c508c5d5ee559f4",
+          "name": "Chair30104",
+          "amount": 710,
+          "price": 26199,
+          "manufacturer": "Samsung",
+          "notes": "ybFq3hsbve8iuOrhG7shiJtuluuCpUxhhA5mPxeTM8GIEowtY2yeMmXwXHSaZ9fEyaIcGKROmY4igjtEAwnODBQwHQIvvpe238zLQjqKzLQLSGVNtFTBwZSTZEotVvdaMduWlXVmOtb12QNlWBpJliTnZrDWKw43U1UKDGyxsYMTIldk7xqveb9T3neJlQzX7EeBIUM9Xx4GjtXrVGX8pCZJGxMtfmDjTaCtVvFA136xx0CBQxtsIrnWLm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 26199,
+      "createdOn": "2025-12-20T19:41:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6946fbec1c508c5d5ee559bb",
+          "products": [
+            {
+              "_id": "6946fbec1c508c5d5ee559f4",
+              "name": "Chair30104",
+              "amount": 710,
+              "price": 26199,
+              "manufacturer": "Samsung",
+              "notes": "ybFq3hsbve8iuOrhG7shiJtuluuCpUxhhA5mPxeTM8GIEowtY2yeMmXwXHSaZ9fEyaIcGKROmY4igjtEAwnODBQwHQIvvpe238zLQjqKzLQLSGVNtFTBwZSTZEotVvdaMduWlXVmOtb12QNlWBpJliTnZrDWKw43U1UKDGyxsYMTIldk7xqveb9T3neJlQzX7EeBIUM9Xx4GjtXrVGX8pCZJGxMtfmDjTaCtVvFA136xx0CBQxtsIrnWLm",
+              "received": false
+            }
+          ],
+          "total_price": 26199,
+          "delivery": null,
+          "changedOn": "2025-12-20T19:41:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6946fbed1c508c5d5ee55a13"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
