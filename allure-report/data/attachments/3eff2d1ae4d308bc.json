@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 20:08:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3433",
+    "etag": "W/\"d69-ktbqMz0E7wNYhZyrwACeolhtXyY\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6947024b1c508c5d5ee57f84",
+        "email": "Ashlynn.Erdman-Schmeler24@yahoo.com",
+        "name": "Tania Nikolaus",
+        "country": "USA",
+        "city": "Salt Lake City",
+        "street": "Darrell Pine",
+        "house": 5,
+        "flat": 308,
+        "phone": "+17473833003",
+        "createdOn": "2025-12-20T20:08:43.000Z",
+        "notes": "dSZgHl13LZj9lImOT2xHE2y1iD5QQ3IfJer97bAxJOrjPthh5lRYoLZNXZJx9ciXXVaRqZIAkfvQ9HmoS7DrqmrBR6dFymQZgwEI4I3AWWGOqiZnzd4rl8QYvLdGV7aotVxeKyU8uYlr5HBdJqURsO0UCw7J91ER6a6zp9ExjQlqtWbTbVwMxBFd360WtlRESuV3cn9aK5JK9apnm6GvPvpN5myI5oZjAdLXcOEKkzexXFFcxfWlvNZRVo"
+      },
+      "products": [
+        {
+          "_id": "6947024b1c508c5d5ee57fe7",
+          "name": "Shoes5144",
+          "amount": 489,
+          "price": 59140,
+          "manufacturer": "Tesla",
+          "notes": "rHe8FItAzPkGgrvz2GE5rI7mimGxHz7TJWJgNL73lYvJUtMu3IfN9RttDZ3rGJQ1oo2psNTYxJvvP4F28rKfIQZiM5HCT4PMwNM6yICzordwmaz9IdfhkwMyIH02h1ECVh6TqRarappXk8Vc2Z0e33GIULTqW4kfptXgpdB26MdroFU2AujV5fT7uElgIttjUufdzPOuVwMJRsTAkttXqgaCaxW98WXivvoHmWOb2hTDYzc61CpxQdRyaW",
+          "received": false
+        },
+        {
+          "_id": "6947024c1c508c5d5ee58017",
+          "name": "Sausages36580",
+          "amount": 192,
+          "price": 46887,
+          "manufacturer": "Tesla",
+          "notes": "xNj1hW4bwM4MVFqisz6Hjmadb7DZ5ctd6cWvshmyHKce4r8JxQnIkIOy9KdZRCjlzYlPZ4CGzUt6EcxkVZ8bhJghRW1l5pUiNeRv1vjvuPPuz45AiqA8o9I3AX98Zk6qVPBlR4pghSKCKKMrojHU84ACEmUDg3PkG3SSQ9Lfxk7Uhc2h1WB0RmS5N1QHUp6XQWIb33wLPefR06RUOWQxvk2Aru1SZmv9r2HoaEAHfyc2fQyWFARQRKgOrV",
+          "received": false
+        },
+        {
+          "_id": "6947024d1c508c5d5ee5806e",
+          "name": "Shirt25146",
+          "amount": 801,
+          "price": 31434,
+          "manufacturer": "Amazon",
+          "notes": "s9JySmBDYH9ZhhjchhyqoYVSAoZfGsM8DwGXsyFPN5hLbK2UB9BHoRNEgUauoDMah1QSI1S1CPvyGPk6BXoQSrloIUR5wQXjPNZ6DqCw8GxDyk8uIEGWKcA50gBmeMLCmqHK4RqyQb1GxJd2bfnCkGlpFc1WWvQrdBC7d3OzDIYqANdxZmRZRJ7S9WSFkGAoPF6wM6zNTB2QsHpgvlvtcgodbkko7Uhaf1GHkkQbqBxu5mX2VfHosyJO5n",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 137461,
+      "createdOn": "2025-12-20T20:08:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6947024b1c508c5d5ee57f84",
+          "products": [
+            {
+              "_id": "6947024b1c508c5d5ee57fe7",
+              "name": "Shoes5144",
+              "amount": 489,
+              "price": 59140,
+              "manufacturer": "Tesla",
+              "notes": "rHe8FItAzPkGgrvz2GE5rI7mimGxHz7TJWJgNL73lYvJUtMu3IfN9RttDZ3rGJQ1oo2psNTYxJvvP4F28rKfIQZiM5HCT4PMwNM6yICzordwmaz9IdfhkwMyIH02h1ECVh6TqRarappXk8Vc2Z0e33GIULTqW4kfptXgpdB26MdroFU2AujV5fT7uElgIttjUufdzPOuVwMJRsTAkttXqgaCaxW98WXivvoHmWOb2hTDYzc61CpxQdRyaW",
+              "received": false
+            },
+            {
+              "_id": "6947024c1c508c5d5ee58017",
+              "name": "Sausages36580",
+              "amount": 192,
+              "price": 46887,
+              "manufacturer": "Tesla",
+              "notes": "xNj1hW4bwM4MVFqisz6Hjmadb7DZ5ctd6cWvshmyHKce4r8JxQnIkIOy9KdZRCjlzYlPZ4CGzUt6EcxkVZ8bhJghRW1l5pUiNeRv1vjvuPPuz45AiqA8o9I3AX98Zk6qVPBlR4pghSKCKKMrojHU84ACEmUDg3PkG3SSQ9Lfxk7Uhc2h1WB0RmS5N1QHUp6XQWIb33wLPefR06RUOWQxvk2Aru1SZmv9r2HoaEAHfyc2fQyWFARQRKgOrV",
+              "received": false
+            },
+            {
+              "_id": "6947024d1c508c5d5ee5806e",
+              "name": "Shirt25146",
+              "amount": 801,
+              "price": 31434,
+              "manufacturer": "Amazon",
+              "notes": "s9JySmBDYH9ZhhjchhyqoYVSAoZfGsM8DwGXsyFPN5hLbK2UB9BHoRNEgUauoDMah1QSI1S1CPvyGPk6BXoQSrloIUR5wQXjPNZ6DqCw8GxDyk8uIEGWKcA50gBmeMLCmqHK4RqyQb1GxJd2bfnCkGlpFc1WWvQrdBC7d3OzDIYqANdxZmRZRJ7S9WSFkGAoPF6wM6zNTB2QsHpgvlvtcgodbkko7Uhaf1GHkkQbqBxu5mX2VfHosyJO5n",
+              "received": false
+            }
+          ],
+          "total_price": 137461,
+          "delivery": null,
+          "changedOn": "2025-12-20T20:08:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6947024d1c508c5d5ee580c1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
