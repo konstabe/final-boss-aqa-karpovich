@@ -28,14 +28,7 @@ export const orderSchema = {
 			items: productForOrdersSchema,
 		},
 		delivery: {
-			oneOf: [
-				deliverySchema,
-				{
-					type: "object",
-					items: deliverySchema,
-				},
-				{ type: "null" },
-			],
+			oneOf: [deliverySchema, { type: "null" }],
 		},
 		total_price: {
 			type: "number",
@@ -57,13 +50,7 @@ export const orderSchema = {
 			items: historySchema,
 		},
 		assignedManager: {
-			oneOf: [
-				{
-					type: "array",
-					items: assignedManagerSchema,
-				},
-				{ type: "null" },
-			],
+			oneOf: [assignedManagerSchema, { type: "null" }],
 		},
 	},
 	required: [
@@ -94,13 +81,7 @@ export const orderSchemaWithCustomerData = {
 			items: productForOrdersSchema,
 		},
 		delivery: {
-			oneOf: [
-				{
-					type: "object",
-					items: deliverySchema,
-				},
-				{ type: "null" },
-			],
+			oneOf: [deliverySchema, { type: "null" }],
 		},
 		total_price: {
 			type: "number",
@@ -122,13 +103,7 @@ export const orderSchemaWithCustomerData = {
 			items: historySchema,
 		},
 		assignedManager: {
-			oneOf: [
-				{
-					type: "object",
-					items: assignedManagerSchema,
-				},
-				{ type: "null" },
-			],
+			oneOf: [assignedManagerSchema, { type: "null" }],
 		},
 	},
 	required: [

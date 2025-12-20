@@ -90,3 +90,20 @@ export interface IGetOrdersQuery {
 	sortField?: OrderSortField;
 	sortOrder?: SortOrder;
 }
+
+export type OrdersTableHeader =
+	| "Order Number"
+	| "Email"
+	| "Price"
+	| "Delivery"
+	| "Status"
+	| "Assigned Manager"
+	| "Created On";
+
+export interface IOrderInTable extends ICreatedOn, ID {
+	email: string;
+	price: number;
+	delivery: string;
+	status: OrderStatus;
+	assignedManager: string;
+}

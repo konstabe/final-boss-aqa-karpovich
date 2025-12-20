@@ -21,13 +21,7 @@ export const historySchema = {
 			type: "number",
 		},
 		delivery: {
-			oneOf: [
-				{
-					type: "object",
-					items: deliverySchema,
-				},
-				{ type: "null" },
-			],
+			oneOf: [deliverySchema, { type: "null" }],
 		},
 		changedOn: {
 			type: "string",
@@ -35,18 +29,9 @@ export const historySchema = {
 		action: {
 			type: "string",
 		},
-		performer: {
-			type: "object",
-			items: assignedManagerSchema,
-		},
+		performer: assignedManagerSchema,
 		assignedManager: {
-			oneOf: [
-				{
-					type: "object",
-					items: assignedManagerSchema,
-				},
-				{ type: "null" },
-			],
+			oneOf: [assignedManagerSchema, { type: "null" }],
 		},
 	},
 	required: [

@@ -3,14 +3,10 @@ import { generateDeliveryData } from "data/orders/generateDeliveryData";
 import { getOrdersSchema } from "data/schemas/orders/getOrder.schema";
 import { STATUS_CODES } from "data/statusCodes";
 import { expect, test } from "fixtures/api.fixture";
-import _ from "lodash";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 
 test.describe("[API] [Sales Portal] [Orders] [Update delivery details of an order]", () => {
 	let token = "";
-	let idCustomers: string[] = [];
-	let idProducts: string[] = [];
-	let idOrders: string[] = [];
 
 	test.beforeAll(async ({ loginApiService }) => {
 		token = await loginApiService.loginAsAdmin();
@@ -18,15 +14,11 @@ test.describe("[API] [Sales Portal] [Orders] [Update delivery details of an orde
 
 	test.afterEach(async ({ ordersApiService }) => {
 		await ordersApiService.fullDelete(token);
-		idCustomers = [];
-		idProducts = [];
-		idOrders = [];
 	});
 
 	test("Update delivery details of an order", async ({ ordersApi, ordersApiService }) => {
 		const createOrderForCustomer = await ordersApiService.createDraft(token, 1);
 		const id_order = createOrderForCustomer._id;
-		idOrders.push(id_order);
 
 		const delivaryData = generateDeliveryData();
 
@@ -46,7 +38,6 @@ test.describe("[API] [Sales Portal] [Orders] [Update delivery details of an orde
 	test("Update delivery details to non-existent order", async ({ ordersApi, ordersApiService }) => {
 		const createOrderForCustomer = await ordersApiService.createDraft(token, 1);
 		const id_order = createOrderForCustomer._id;
-		idOrders.push(id_order);
 
 		const delivaryData = generateDeliveryData();
 
@@ -61,7 +52,6 @@ test.describe("[API] [Sales Portal] [Orders] [Update delivery details of an orde
 	test("Update delivery details without invalid delivery date", async ({ ordersApi, ordersApiService }) => {
 		const createOrderForCustomer = await ordersApiService.createDraft(token, 1);
 		const id_order = createOrderForCustomer._id;
-		idOrders.push(id_order);
 
 		const deliveryData = {
 			finalDate: "",
@@ -86,7 +76,6 @@ test.describe("[API] [Sales Portal] [Orders] [Update delivery details of an orde
 	test("Update delivery details of an order without TOKEN", async ({ ordersApi, ordersApiService }) => {
 		const createOrderForCustomer = await ordersApiService.createDraft(token, 1);
 		const id_order = createOrderForCustomer._id;
-		idOrders.push(id_order);
 
 		const delivaryData = generateDeliveryData();
 
