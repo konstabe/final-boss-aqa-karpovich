@@ -6,6 +6,8 @@ import {
 import { OrdersListPage } from "pages/orders/ordersList.page";
 import { LoginPage } from "pages/login.page";
 import { HomePage } from "pages/home.page";
+import { LoginUIService } from "ui-services/login.ui-service";
+import { OrdersListUIService } from "ui-services/ordersList.ui-service";
 // import { AddNewCustomerPage } from "pages/customers/addNewCustomer.page";
 // import { CustomersListPage } from "pages/customers/customersList.page";
 // import { AddNewProductPage } from "pages/products/addNewProduct.page";
@@ -15,7 +17,6 @@ import { HomePage } from "pages/home.page";
 // import { AddNewProductUIService } from "service/addNewProduct.ui-service";
 // import { CustomersListUIService } from "service/customersList.ui-service";
 // import { HomeUIService } from "service/home.ui-service";
-// import { LoginUIService } from "service/login.ui-service";
 // import { ProductsListUIService } from "service/productsList.ui-service";
 
 export interface IPages {
@@ -33,7 +34,8 @@ export interface IPages {
 	// homeUIService: HomeUIService;
 	// productsListUIService: ProductsListUIService;
 	// addNewProductUIService: AddNewProductUIService;
-	// loginUIService: LoginUIService;
+	loginUIService: LoginUIService;
+	ordersListUIService: OrdersListUIService;
 	// customersListUIService: CustomersListUIService;
 	// addNewCustomerUIService: AddNewCustomertUIService;
 }
@@ -85,9 +87,9 @@ export const test = base.extend<IPages>({
 	// 	await use(new AddNewProductUIService(page));
 	// },
 
-	// loginUIService: async ({ page }, use) => {
-	// 	await use(new LoginUIService(page));
-	// },
+	loginUIService: async ({ page }, use) => {
+		await use(new LoginUIService(page));
+	},
 
 	// customersListUIService: async ({ page }, use) => {
 	// 	await use(new CustomersListUIService(page));
@@ -96,6 +98,10 @@ export const test = base.extend<IPages>({
 	// addNewCustomerUIService: async ({ page }, use) => {
 	// 	await use(new AddNewCustomertUIService(page));
 	// },
+
+	ordersListUIService: async ({ page }, use) => {
+		await use(new OrdersListUIService(page));
+	},
 });
 
 export { expect };
