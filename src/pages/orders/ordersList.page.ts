@@ -15,6 +15,7 @@ export class OrdersListPage extends SalesPortalPage {
 	readonly filterButton = this.page.locator("#filter");
 	readonly exportButton = this.page.locator("#export");
 
+	readonly table = this.page.locator("#table-orders");
 	readonly tableHeader = this.page.locator("thead th div[current]");
 	readonly tableHeaderName = (name: OrdersTableHeader) => this.tableHeader.filter({ hasText: name });
 

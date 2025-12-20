@@ -1,8 +1,11 @@
 import { expect, Locator } from "@playwright/test";
 import { SALES_PORTAL_URL } from "config/env";
 import { BasePage } from "./base/base.page";
+import { NavBar } from "./navbar";
 
 export abstract class SalesPortalPage extends BasePage {
+	readonly navBarMenu = new NavBar(this.page);
+
 	readonly spinner = this.page.locator(".spinner-border");
 	readonly toastMessage = this.page.locator(".toast-body");
 	readonly navBar = this.page.locator("#main-header");
