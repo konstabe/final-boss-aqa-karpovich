@@ -3,10 +3,10 @@ import { BaseModal } from "./base/base.modal";
 
 export class EditProductPage extends BaseModal {
   readonly editProductPageTitle = this.page.locator("h5");
-  readonly productField = this.page.locator('[id="edit-products-section"]');
+  readonly productField = this.page.locator("#edit-products-section");
   readonly saveButton = this.page.locator("#update-products-btn");
   readonly cancelButton = this.page.locator("#cancel-edit-products-modal-btn");
-  readonly addProductButton = this.page.locator('[id="add-product-btn"]');
+  readonly addProductButton = this.page.locator("add-product-btn");
   readonly closeModal = this.page.locator('[aria-label="Close"]');
   readonly totalPriceOrder = this.page.locator("#total-price-order-modal");
 
@@ -25,7 +25,7 @@ export class EditProductPage extends BaseModal {
     await this.cancelButton.click();
   }
 
-  @logStep("Click cancel button")
+  @logStep("Click on a product dropdown")
   async clickFirstProduct() {
     await this.product1.click();
   }

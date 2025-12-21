@@ -1,7 +1,7 @@
 import { logStep } from "utils/report/logStep.utils";
 import { BaseModal } from "./base/base.modal";
 
-export class CancelOrderPage extends BaseModal {
+export class CancelOrderModal extends BaseModal {
   readonly createOrderPageTitle = this.page.locator("h5");
   readonly body = this.page.locator('[class="modal-body modal-body-text"]');
   readonly yesCancelButton = this.page.locator("button[type='submit']");

@@ -1,7 +1,7 @@
 import { logStep } from "utils/report/logStep.utils";
 import { BaseModal } from "./base/base.modal";
 
-export class EditCustomerPage extends BaseModal {
+export class EditCustomerModal extends BaseModal {
   readonly editCustomerPageTitle = this.page.locator("h5");
   readonly customerField = this.page.locator('[id="inputCustomerOrder"]');
   readonly saveButton = this.page.locator("button[type='submit']");

@@ -1,7 +1,7 @@
 import { logStep } from "utils/report/logStep.utils";
 import { BaseModal } from "./base/base.modal";
 
-export class CreateOrderPage extends BaseModal {
+export class CreateOrderModal extends BaseModal {
   readonly createOrderPageTitle = this.page.locator("h5");
   readonly customerField = this.page.locator('[id="inputCustomerOrder"]');
   readonly productField = this.page.locator('[id="edit-products-section"]');
@@ -22,7 +22,7 @@ export class CreateOrderPage extends BaseModal {
   }
 
   @logStep("Click Create Order button")
-  async clickAddNewOrder() {
+  async clickCreate() {
     await this.createButton.click();
   }
 
