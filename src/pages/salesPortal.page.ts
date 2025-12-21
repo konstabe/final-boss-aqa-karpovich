@@ -9,6 +9,7 @@ export abstract class SalesPortalPage extends BasePage {
 	readonly spinner = this.page.locator(".spinner-border");
 	readonly toastMessage = this.page.locator(".toast-body");
 	readonly navBar = this.page.locator("#main-header");
+	readonly closeNatificationButton = this.page.locator(".toast-container button.btn-close");
 	abstract readonly uniqueElement: Locator;
 
 	async waitForOpened() {
@@ -22,5 +23,10 @@ export abstract class SalesPortalPage extends BasePage {
 
 	async open(route?: string) {
 		await this.page.goto(SALES_PORTAL_URL + route);
+	}
+
+	async clickCloseNatification() {
+		await this.closeNatificationButton.click();
+		await expect(this.toastMessage).not.toBeVisible();
 	}
 }

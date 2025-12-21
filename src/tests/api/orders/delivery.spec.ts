@@ -35,10 +35,7 @@ test.describe("[API] [Sales Portal] [Orders] [Update delivery details of an orde
 		expect(deliveryDetailsFromResponse).toMatchObject({ ...delivaryData });
 	});
 
-	test("Update delivery details to non-existent order", async ({ ordersApi, ordersApiService }) => {
-		const createOrderForCustomer = await ordersApiService.createDraft(token, 1);
-		const id_order = createOrderForCustomer._id;
-
+	test("Update delivery details to non-existent order", async ({ ordersApi }) => {
 		const delivaryData = generateDeliveryData();
 
 		const deliveryDetails = await ordersApi.updateDeliveryDetails("693d353f1c666c5d5ebe6bb0", delivaryData, token);

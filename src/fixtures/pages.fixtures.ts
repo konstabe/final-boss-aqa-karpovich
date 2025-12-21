@@ -8,6 +8,8 @@ import { LoginPage } from "pages/login.page";
 import { HomePage } from "pages/home.page";
 import { LoginUIService } from "ui-services/login.ui-service";
 import { OrdersListUIService } from "ui-services/ordersList.ui-service";
+import { CreateOrderModal } from "pages/orders/createOrder.modal";
+import { AddNewOrderUIService } from "ui-services/addNewOrder.ui-service";
 // import { AddNewCustomerPage } from "pages/customers/addNewCustomer.page";
 // import { CustomersListPage } from "pages/customers/customersList.page";
 // import { AddNewProductPage } from "pages/products/addNewProduct.page";
@@ -29,6 +31,7 @@ export interface IPages {
 	// addNewCustomerPage: AddNewCustomerPage;
 	// customersListPage: CustomersListPage;
 	ordersListPage: OrdersListPage;
+	addNewOrderPage: CreateOrderModal;
 
 	//ui-services
 	// homeUIService: HomeUIService;
@@ -38,6 +41,7 @@ export interface IPages {
 	ordersListUIService: OrdersListUIService;
 	// customersListUIService: CustomersListUIService;
 	// addNewCustomerUIService: AddNewCustomertUIService;
+	addNewOrderUIService: AddNewOrderUIService;
 }
 
 export const test = base.extend<IPages>({
@@ -74,6 +78,10 @@ export const test = base.extend<IPages>({
 		await use(new OrdersListPage(page));
 	},
 
+	addNewOrderPage: async ({ page }, use) => {
+		await use(new CreateOrderModal(page));
+	},
+
 	// //ui-services
 	// homeUIService: async ({ page }, use) => {
 	// 	await use(new HomeUIService(page));
@@ -89,6 +97,10 @@ export const test = base.extend<IPages>({
 
 	loginUIService: async ({ page }, use) => {
 		await use(new LoginUIService(page));
+	},
+
+	addNewOrderUIService: async ({ page }, use) => {
+		await use(new AddNewOrderUIService(page));
 	},
 
 	// customersListUIService: async ({ page }, use) => {
