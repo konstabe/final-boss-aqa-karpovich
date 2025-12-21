@@ -39,10 +39,24 @@ jobs:
               run: npm run test:api-smoke
               continue-on-error: true
 
+            # Checkout gh-pages
+            - name: Checkout gh-pages
+              uses: actions/checkout@v4
+              with:
+                  ref: gh-pages
+                  path: gh-pages
+
+            # Copy history
+            - name: Copy history
+              run: |
+                  mkdir -p allure-report/history
+                  cp -r gh-pages/history allure-report/history || true
+
             # Create Allure report
             - name: Create Allure report
               run: npm run allure-report
 
+            # Save Allure report
             - name: Save Allure report
               uses: actions/upload-artifact@v4
               with:
