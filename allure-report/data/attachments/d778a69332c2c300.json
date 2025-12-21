@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 21:39:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2647",
+    "etag": "W/\"a57-H81P+pB85BPx6omqAONXe+nhba8\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694869171c508c5d5eecb96d",
+        "email": "Berneice81@hotmail.com",
+        "name": "Linda Simonis",
+        "country": "France",
+        "city": "Zechariahland",
+        "street": "Alvah Glens",
+        "house": 37,
+        "flat": 513,
+        "phone": "+18539104095",
+        "createdOn": "2025-12-21T21:39:35.000Z",
+        "notes": "JMWwdxDMrKDElaKvijzknmbIlg5iBXxSgdAC7E2kORQbPK2gpd8AskwbnATrPi36eko4Q66twrxbSH0KH5KaIqz4z9agpQizBUXW3H218y1kE63vmvLkXR8CmYR1PSFHrSppSvd1vUWy0cAhVmWSJw6brCP0no3ynYQV4SwRmQDdlPlIA4wRZdctMdBAgD6Z6tKejXxrVldQbaSgnUiecPNwEuUZ7IHBRxes7xPfGYW0z2WQjRioGUiydc"
+      },
+      "products": [
+        {
+          "_id": "694869181c508c5d5eecb98d",
+          "name": "Pants79963",
+          "amount": 386,
+          "price": 31805,
+          "manufacturer": "Google",
+          "notes": "oeEHufi7qcAthcZeXEM2whRgEj0Y7pJXIuAOPKXlodWzaIiAW29pAWHsatF0kWGyqEIXwW0Y3G25QxcLvmRlvslr0ZmmIzs8RHVQiudxZs2vV0i9k3wFK57eJIKEiPmKwsiRFfE607MoKcsnkhWF8AJKv8j5nxMUiCUIMUyQD4njZli7RnZT4o0ziApkzMdPmlOueOuLun81QFmE3TsmCrY6uqGsdyydAuEZXYlWf7I7B6NURlxNfin0dO",
+          "received": false
+        },
+        {
+          "_id": "694869181c508c5d5eecb9c0",
+          "name": "Car26206",
+          "amount": 491,
+          "price": 64496,
+          "manufacturer": "Amazon",
+          "notes": "S0eN04lHMIvGodIGHxGoctQkQ09uD7eYkw2YJCqWB3PTeQlafTZYRlnNmC3x1ja9LPCoruPlDqoWdoPGul9j6K7YgsqTS7tHI8mpLNlFj8d16RYw4I3UTg0zK5AwUGBWDNPS2KiQ0siUxABE8xCY83NTSJsx4BFhICxyodVUzBpwNpADgJr9WsrhDGLb4UKgquLznkIKv9rTdYJ7zs2By9upYLf9Z6jen3DEDxzg3N42bNIe32YSDHdjYV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 96301,
+      "createdOn": "2025-12-21T21:39:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694869171c508c5d5eecb96d",
+          "products": [
+            {
+              "_id": "694869181c508c5d5eecb98d",
+              "name": "Pants79963",
+              "amount": 386,
+              "price": 31805,
+              "manufacturer": "Google",
+              "notes": "oeEHufi7qcAthcZeXEM2whRgEj0Y7pJXIuAOPKXlodWzaIiAW29pAWHsatF0kWGyqEIXwW0Y3G25QxcLvmRlvslr0ZmmIzs8RHVQiudxZs2vV0i9k3wFK57eJIKEiPmKwsiRFfE607MoKcsnkhWF8AJKv8j5nxMUiCUIMUyQD4njZli7RnZT4o0ziApkzMdPmlOueOuLun81QFmE3TsmCrY6uqGsdyydAuEZXYlWf7I7B6NURlxNfin0dO",
+              "received": false
+            },
+            {
+              "_id": "694869181c508c5d5eecb9c0",
+              "name": "Car26206",
+              "amount": 491,
+              "price": 64496,
+              "manufacturer": "Amazon",
+              "notes": "S0eN04lHMIvGodIGHxGoctQkQ09uD7eYkw2YJCqWB3PTeQlafTZYRlnNmC3x1ja9LPCoruPlDqoWdoPGul9j6K7YgsqTS7tHI8mpLNlFj8d16RYw4I3UTg0zK5AwUGBWDNPS2KiQ0siUxABE8xCY83NTSJsx4BFhICxyodVUzBpwNpADgJr9WsrhDGLb4UKgquLznkIKv9rTdYJ7zs2By9upYLf9Z6jen3DEDxzg3N42bNIe32YSDHdjYV",
+              "received": false
+            }
+          ],
+          "total_price": 96301,
+          "delivery": null,
+          "changedOn": "2025-12-21T21:39:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694869181c508c5d5eecb9d8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

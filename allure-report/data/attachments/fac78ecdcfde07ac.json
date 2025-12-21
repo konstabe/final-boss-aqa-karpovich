@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 21:39:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1896",
+    "etag": "W/\"768-szxu69UFcdakeDqZaTOl5znUTEQ\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6948691e1c508c5d5eecbdae",
+        "email": "Katrine_Boyle8@gmail.com",
+        "name": "Ofelia Beatty",
+        "country": "Russia",
+        "city": "Maximilianbury",
+        "street": "Melba Center",
+        "house": 6,
+        "flat": 991,
+        "phone": "+12643066714",
+        "createdOn": "2025-12-21T21:39:42.000Z",
+        "notes": "urlDHbhra0xHaEHQzyGteJlAwNySZQtgdZoR6eoY9Ze26JcgA270esmUJ9EnWi8T4m6xI1nJQ3yLp5Pc7H1f27UNgXTktOdbmaLnFUvzVi8dJzlCpUd67JvWXgs9TyJ7ACaG2VbuSVoJPecWKRgRHRtPby2kabs3B1fQjqerdljPTtJX3vPFfV6k5qrkHZxJp4OZl010B57rKjj5M7KpwXzpLwwdbLlhcCvnEOxA0s71E0reFeLUXVxMpJ"
+      },
+      "products": [
+        {
+          "_id": "6948691e1c508c5d5eecbde2",
+          "name": "Chicken30308",
+          "amount": 785,
+          "price": 76424,
+          "manufacturer": "Microsoft",
+          "notes": "1wfnBDOfHR2knPezzjiC40BnPhOJUxVphr5TrIwr2l9D2o4totEYHa8hZptvHgxKDthYmuaADCrwoR1Eu5h0Zxy3PvW8rlrmllHdXZfmbnqIMdOm91w6MqS79DpKPx5BEHMd34VQbAn7Ji2qCOd2GJzFeoUpNta1j0p7U1Lm4kUlRXhIap7TbekoMVXm7lcWuZLpzOwA1IaIJltlxZu0jlOSEG9yvL3cwtkHJSsDUNGZThGHUtIvSMxtz6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 76424,
+      "createdOn": "2025-12-21T21:39:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6948691e1c508c5d5eecbdae",
+          "products": [
+            {
+              "_id": "6948691e1c508c5d5eecbde2",
+              "name": "Chicken30308",
+              "amount": 785,
+              "price": 76424,
+              "manufacturer": "Microsoft",
+              "notes": "1wfnBDOfHR2knPezzjiC40BnPhOJUxVphr5TrIwr2l9D2o4totEYHa8hZptvHgxKDthYmuaADCrwoR1Eu5h0Zxy3PvW8rlrmllHdXZfmbnqIMdOm91w6MqS79DpKPx5BEHMd34VQbAn7Ji2qCOd2GJzFeoUpNta1j0p7U1Lm4kUlRXhIap7TbekoMVXm7lcWuZLpzOwA1IaIJltlxZu0jlOSEG9yvL3cwtkHJSsDUNGZThGHUtIvSMxtz6",
+              "received": false
+            }
+          ],
+          "total_price": 76424,
+          "delivery": null,
+          "changedOn": "2025-12-21T21:39:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6948691f1c508c5d5eecbe39"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

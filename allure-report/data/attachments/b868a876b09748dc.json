@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 21:39:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-ISPUFwAvoEGVf0s5OFtwSyb+tLs\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694869161c508c5d5eecb917",
+        "email": "Roxane_Stamm@gmail.com",
+        "name": "Afton Hoeger",
+        "country": "Great Britain",
+        "city": "Tuckahoe",
+        "street": "Friesen Drive",
+        "house": 11,
+        "flat": 897,
+        "phone": "+17614844391",
+        "createdOn": "2025-12-21T21:39:34.000Z",
+        "notes": "2ATOsv39gzTwC5cyCmnM44nMunr3UszMQQLa2WVS97MRNYrHjiFAyyViqwOxhXVsYTUIYbsziGOzwuwexlUlOU6Cx6aEV4H0Zn4VozIwt2cCh2GEUnJjhOWrOWQsaJGT5u5LWJqmroH2mZOdasqZJM1yPUMsBwkHnvlXDlGOPnfwSlHnNvbUaOfHAgHXsTH6Y7RWlg4zKsfcMFufzI0pxYTbbZEr8DI098Cg5gmutlWSDIfOKlNIEheVei"
+      },
+      "products": [
+        {
+          "_id": "694869171c508c5d5eecb92e",
+          "name": "Pants72773",
+          "amount": 977,
+          "price": 81512,
+          "manufacturer": "Apple",
+          "notes": "BAX3zSt0gwVoMhdqb4vmWDkbivSVZPX3SkpwzNHGZp5Bk9SfK2VQqkh4LBYNr1zp9uOV9uvGSefgaj4ddxrY9vs3fuWL4gM1kbkfAl0ynNcCnQmELeVOsobSGINRMEXBRoKtqdtvLBeK5Iedd9kQtfKr05Ptr6dAxxVPj9PP4hMtymHGeOxsIPoziGFTfU8KFyC4HPUp8vaPiaPL6kRsIOVhu1m49HNNRGpTkUkw1pZaCXkJgt2d71AeiV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 81512,
+      "createdOn": "2025-12-21T21:39:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694869161c508c5d5eecb917",
+          "products": [
+            {
+              "_id": "694869171c508c5d5eecb92e",
+              "name": "Pants72773",
+              "amount": 977,
+              "price": 81512,
+              "manufacturer": "Apple",
+              "notes": "BAX3zSt0gwVoMhdqb4vmWDkbivSVZPX3SkpwzNHGZp5Bk9SfK2VQqkh4LBYNr1zp9uOV9uvGSefgaj4ddxrY9vs3fuWL4gM1kbkfAl0ynNcCnQmELeVOsobSGINRMEXBRoKtqdtvLBeK5Iedd9kQtfKr05Ptr6dAxxVPj9PP4hMtymHGeOxsIPoziGFTfU8KFyC4HPUp8vaPiaPL6kRsIOVhu1m49HNNRGpTkUkw1pZaCXkJgt2d71AeiV",
+              "received": false
+            }
+          ],
+          "total_price": 81512,
+          "delivery": null,
+          "changedOn": "2025-12-21T21:39:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694869171c508c5d5eecb95a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
