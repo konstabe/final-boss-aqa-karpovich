@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 21:46:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-fOPHoE5omRUlKh231QFTSObkBfE\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69486a9f1c508c5d5eece062",
+        "email": "Tatyana.Dach-Dooley@gmail.com",
+        "name": "Mya Gutkowski",
+        "country": "Ukraine",
+        "city": "Kevincester",
+        "street": "Stamm Oval",
+        "house": 38,
+        "flat": 396,
+        "phone": "+16195959509",
+        "createdOn": "2025-12-21T21:46:07.000Z",
+        "notes": "JptuPz0VsirTmAjUGeuJ0wFLMv6zmMEX3qrSMvPYzGpZse8yJZNF9r2uofEDUM7x6HkYFdfWIr2UYHA3VtSvzB5r9nWQrAI0BnA4dSDs4Lh2F1G7bcAznbD4T1sFtlgsf5aW1lUlYuvAs2Y8NivuaEB8FzGMxZdT6ApqpIdxJtl9S2IwoCbbtEPL6nJ16BK7aZzGmvpwSOtjRFQYmFjcaVDsEjCVeB9RjrH7usvzAnhfcAZsAGTI9LAoGO"
+      },
+      "products": [
+        {
+          "_id": "69486a9f1c508c5d5eece083",
+          "name": "Fish95500",
+          "amount": 950,
+          "price": 7262,
+          "manufacturer": "Xiaomi",
+          "notes": "JpVJWRL4DZPHYBMpmMJsENyIjGvhRV5I725Owiprpb9ivz4umZfo9EyOCWT1MNNxdaGP0ScVvxDc8G5iEuTDbjakBxF8TKhi2OdUmf8z8SEnOC09VuajPxjhBGGn0Ee4TBDjhm26LallGHQIFIA1ZhpJKANZU0j5tlXA2MU3u46l2R448gXZpVHd12aPmVRfhV5VT8XqVjNRZc6uedwziUiyNRu5xWNkqmBZJCWROD0eNklNW35lCg0uIL",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7262,
+      "createdOn": "2025-12-21T21:46:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69486a9f1c508c5d5eece062",
+          "products": [
+            {
+              "_id": "69486a9f1c508c5d5eece083",
+              "name": "Fish95500",
+              "amount": 950,
+              "price": 7262,
+              "manufacturer": "Xiaomi",
+              "notes": "JpVJWRL4DZPHYBMpmMJsENyIjGvhRV5I725Owiprpb9ivz4umZfo9EyOCWT1MNNxdaGP0ScVvxDc8G5iEuTDbjakBxF8TKhi2OdUmf8z8SEnOC09VuajPxjhBGGn0Ee4TBDjhm26LallGHQIFIA1ZhpJKANZU0j5tlXA2MU3u46l2R448gXZpVHd12aPmVRfhV5VT8XqVjNRZc6uedwziUiyNRu5xWNkqmBZJCWROD0eNklNW35lCg0uIL",
+              "received": false
+            }
+          ],
+          "total_price": 7262,
+          "delivery": null,
+          "changedOn": "2025-12-21T21:46:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69486a9f1c508c5d5eece0b0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

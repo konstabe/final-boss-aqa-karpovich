@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 21:46:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-KwasS3RWa+BW2ClULdp3oSIE6ww\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69486aa01c508c5d5eece120",
+        "email": "Bernie_Luettgen@hotmail.com",
+        "name": "Raymundo Hirthe",
+        "country": "USA",
+        "city": "West Delilahchester",
+        "street": "Freeman Wells",
+        "house": 14,
+        "flat": 383,
+        "phone": "+18476067430",
+        "createdOn": "2025-12-21T21:46:08.000Z",
+        "notes": "CKfRb9Vc7JerhXqZRAQ0rYz8qxPCb5HLkn3KUlF8LdlOANeJQ5v4J6Y1GogQYvsPJAkxGWRFRJJmYdRt1G5lIHwY0UAhSDIeh44wwSZBHNJXp8cRn7tR6SlnLlyjL5QUE3PVxaCDE3Yv4sqlZxPPKMDtiq8K1tcfhzK4bxcAieoETnDhTxJDcmJ1jVEX4DwOGNFhJCgiMw5TSlFDnPJWfxk3x2GdReqet5Q9rVS9KKKM8VqpSUlVyaQaYk"
+      },
+      "products": [
+        {
+          "_id": "69486aa11c508c5d5eece139",
+          "name": "Hat45920",
+          "amount": 36,
+          "price": 60963,
+          "manufacturer": "Apple",
+          "notes": "UK1HXpAijYKhZKMdWcSr9f8KSx3KxCi5Jw1IPkUWorERdUTbPoDj2GkLyI65vaTzfyDnIY8SH28FYsfcNYBZuk61vUdeXu6UpopRphXJkNFTPD0bGueVvXSn2pSJfMJqLv98uHhZEc5tFjNyYmEMQhhoHsQInJLJ2GXGWpUXr8cNIDCeVeVqocT2CuT1lMGycQLlxDxvvn9xKldS6lTvDSgNKUXpv4C9Bswgl5m1IbbZHM06wXt3AO3PFw",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 60963,
+      "createdOn": "2025-12-21T21:46:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69486aa01c508c5d5eece120",
+          "products": [
+            {
+              "_id": "69486aa11c508c5d5eece139",
+              "name": "Hat45920",
+              "amount": 36,
+              "price": 60963,
+              "manufacturer": "Apple",
+              "notes": "UK1HXpAijYKhZKMdWcSr9f8KSx3KxCi5Jw1IPkUWorERdUTbPoDj2GkLyI65vaTzfyDnIY8SH28FYsfcNYBZuk61vUdeXu6UpopRphXJkNFTPD0bGueVvXSn2pSJfMJqLv98uHhZEc5tFjNyYmEMQhhoHsQInJLJ2GXGWpUXr8cNIDCeVeVqocT2CuT1lMGycQLlxDxvvn9xKldS6lTvDSgNKUXpv4C9Bswgl5m1IbbZHM06wXt3AO3PFw",
+              "received": false
+            }
+          ],
+          "total_price": 60963,
+          "delivery": null,
+          "changedOn": "2025-12-21T21:46:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69486aa31c508c5d5eece290"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

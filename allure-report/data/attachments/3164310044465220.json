@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 21:46:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2813",
+    "etag": "W/\"afd-O83K0NCt6LIK7vJhnOhQ7urumKM\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69486aa31c508c5d5eece2c3",
+      "status": "Draft",
+      "customer": {
+        "_id": "69486aa01c508c5d5eece10a",
+        "email": "Trystan8@yahoo.com",
+        "name": "Orpha Morar",
+        "country": "Ukraine",
+        "city": "New Herminaview",
+        "street": "W Main Street",
+        "house": 7,
+        "flat": 865,
+        "phone": "+14545122081",
+        "createdOn": "2025-12-21T21:46:08.000Z",
+        "notes": "iFDNGT9myMfTBZH7pMUn7gqPwQh9UCQckrCzv7QckNhG0cLy0jPzZ22cs3vX5gzin3wgyscVT6DSDs5bkJzfe2Hc7fxBGUVs70WJPoqcg30DOUBHA8n5O2TbGYiHam9tBYlRh3EIzIAQJ1W3bG4cLXhtfJGnr0ZUjSk9q2KiIDwbFArMp4TNCYcAcgjGgCZqIyaqo2jWSfcBBoIc5fnFVaRMH56Oh2358RCjqqia2VrNpXhZGOtAfI26mr"
+      },
+      "products": [
+        {
+          "_id": "69486aa11c508c5d5eece12e",
+          "name": "Cheese53782",
+          "amount": 129,
+          "price": 65253,
+          "manufacturer": "Tesla",
+          "notes": "eMfUeg4rLM0F8I35crhciFvl8bFRZc3fe639DraffV8TVfCw8AeUS544JlNkSUHgpqZJ8n2vDvXjdrds4PLxd1aYrpbqaFA8aatDk4xcyh5kFC75uJpz6TFSqBS0WWqmhDfD5n0rAuK2W8e561HS3iqVX8OaFRm0YahkXPhH67DAx9VCB4PkJ1xb0rI7kulXfRnGHj0CwcZ8M8iDOOo2u0Kr6FNUlOc0Owmm9Hkvciuq406k7rK4bNlxeS",
+          "received": false
+        },
+        {
+          "_id": "69486aa31c508c5d5eece284",
+          "name": "Keyboard29331",
+          "amount": 263,
+          "price": 39943,
+          "manufacturer": "Apple",
+          "notes": "nHGWMcQj2BF8vG77FGQeXTRUgDdxofthS9CqJmSQR8EgGPUAMEoq2jqqqXWiS0F7ZdlUolxgUko7VDHeuxJBRvrNWa650MZ27jv2jgqZnDrr58kNEE0VfzmPM6qdpR556MbHnUwgiAjyRVetGPK5BOftwzr4XrWtNBCTcGGhcUAb7SyrzThiynPaRYexCrFSPONyQoZClMZFDZMR3qbPa1zleK62UlCBpQqqouoMNVNywCwr0DxY4nFlDn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 105196,
+      "createdOn": "2025-12-21T21:46:11.000Z",
+      "comments": [
+        {
+          "text": "Cz3qiWuDI5YXvoMjG4kMvEUt3azkgAMHm3kHZhH1c6JWqLZpOIbLQ6HdcnzV27Vli7k5qIrXhe6",
+          "createdOn": "2025-12-21T21:46:12.000Z",
+          "_id": "69486aa51c508c5d5eece424"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69486aa01c508c5d5eece10a",
+          "products": [
+            {
+              "_id": "69486aa11c508c5d5eece12e",
+              "name": "Cheese53782",
+              "amount": 129,
+              "price": 65253,
+              "manufacturer": "Tesla",
+              "notes": "eMfUeg4rLM0F8I35crhciFvl8bFRZc3fe639DraffV8TVfCw8AeUS544JlNkSUHgpqZJ8n2vDvXjdrds4PLxd1aYrpbqaFA8aatDk4xcyh5kFC75uJpz6TFSqBS0WWqmhDfD5n0rAuK2W8e561HS3iqVX8OaFRm0YahkXPhH67DAx9VCB4PkJ1xb0rI7kulXfRnGHj0CwcZ8M8iDOOo2u0Kr6FNUlOc0Owmm9Hkvciuq406k7rK4bNlxeS",
+              "received": false
+            },
+            {
+              "_id": "69486aa31c508c5d5eece284",
+              "name": "Keyboard29331",
+              "amount": 263,
+              "price": 39943,
+              "manufacturer": "Apple",
+              "notes": "nHGWMcQj2BF8vG77FGQeXTRUgDdxofthS9CqJmSQR8EgGPUAMEoq2jqqqXWiS0F7ZdlUolxgUko7VDHeuxJBRvrNWa650MZ27jv2jgqZnDrr58kNEE0VfzmPM6qdpR556MbHnUwgiAjyRVetGPK5BOftwzr4XrWtNBCTcGGhcUAb7SyrzThiynPaRYexCrFSPONyQoZClMZFDZMR3qbPa1zleK62UlCBpQqqouoMNVNywCwr0DxY4nFlDn",
+              "received": false
+            }
+          ],
+          "total_price": 105196,
+          "delivery": null,
+          "changedOn": "2025-12-21T21:46:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 21:46:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6985",
+    "etag": "W/\"1b49-k0ZkXKfulz+h21pUqEkSS84LBxE\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69486aa71c508c5d5eece4b8",
+      "status": "In Process",
+      "customer": {
+        "_id": "69486aa41c508c5d5eece2ee",
+        "email": "Joannie.Batz94@gmail.com",
+        "name": "Gaston Jast",
+        "country": "Great Britain",
+        "city": "Escondido",
+        "street": "Rohan Field",
+        "house": 22,
+        "flat": 324,
+        "phone": "+13236723095",
+        "createdOn": "2025-12-21T21:46:12.000Z",
+        "notes": "keLEyB9aFWKQDZgLn9fRm3BNANi7LJmOB8hDgihLjPpzyd9lYlhmhNWTpOewmACVmC8sYmwleavu1XWB96udMThVgpTGBKMGbeyIOSlCM4jDPziElFWVVe59qhMIi3oCWaTZD5AFxYLQioSgCGMSRKPX1ObJKsHwRTeW8RVAxiRjoiUMTTJ6suFHU16o6GYcf29ljzCELjSdEtJYJ5VfP7SuBSQdfzCzv6qF381slag4l7eM3pcroG0oER"
+      },
+      "products": [
+        {
+          "_id": "69486aa51c508c5d5eece431",
+          "name": "Computer93547",
+          "amount": 985,
+          "price": 54676,
+          "manufacturer": "Google",
+          "notes": "orsSkI435gFIdFz06YSjFzM0Vzz0uJKYul2VvDyg2Egn3Bahbz1K1UNlaYhj9VsslW63KoP7XMClWIAI45GhEiZ5RRpVG0DuJCo2inbP7eglDwynJxumxYY8mwzxShDh1dY6SLueZzHs2eGu4Pw75WHGpFnL874t9YqqUDSZqlCcGGlHnvnWDZyYHjzmlBIfUD9GWFjBK6LkPVol9vsf30tW98LngKSEGvYDqib5J2n3Qjmuo1q97Gzrmf",
+          "received": false
+        },
+        {
+          "_id": "69486aa61c508c5d5eece448",
+          "name": "Shirt87827",
+          "amount": 528,
+          "price": 93090,
+          "manufacturer": "Microsoft",
+          "notes": "u7UkzE4nKnOemkAu9h8nEZAp1r00NwlNEjoQKvt82h2x59wlocnNXTUlT4gtL5yfIP0CIwRl6zWM6MoNq6gNK8BnQlsgzHGXhXrI9CeiUDmjePGovD1u1cn28K6uDBL6FxLUYBnCOg1yUUedMPnruGT3ON0lVLjB3IeyQLZTsuW2OWVpejDgPDKCykzwcGFbZqsXXp8LnmjRgNnnT8VktB76spXVtIa0arwSjHTOfJOkde8IAhVVM0TexR",
+          "received": false
+        },
+        {
+          "_id": "69486aa61c508c5d5eece490",
+          "name": "Shoes40501",
+          "amount": 673,
+          "price": 94156,
+          "manufacturer": "Sony",
+          "notes": "I6TZiSy0VyCmjfEgfneFmsOPaNJwdHRmlykJbKtL6HrwlvKdj9SGlX4AxElCcT72reCB8yUFQJsOz0ayn9z4G9ufSKIjHjMduLGkO8APlK9KS17GWicm5IqDqp17fwO1sdeyB9Dv4XfWFBDj5mBKLu98ai3nvNObtc2Oc2XE89ZDygM7tx8DEtXAobNrtQ7mAK2qmt4wTBnPAbmDASdM9A0eYz3audkbJXUYYbC6uBznRQVuf3Ntarl41k",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Escondido",
+          "street": "Rohan Field",
+          "house": 22,
+          "flat": 324
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 241922,
+      "createdOn": "2025-12-21T21:46:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69486aa41c508c5d5eece2ee",
+          "products": [
+            {
+              "_id": "69486aa51c508c5d5eece431",
+              "name": "Computer93547",
+              "amount": 985,
+              "price": 54676,
+              "manufacturer": "Google",
+              "notes": "orsSkI435gFIdFz06YSjFzM0Vzz0uJKYul2VvDyg2Egn3Bahbz1K1UNlaYhj9VsslW63KoP7XMClWIAI45GhEiZ5RRpVG0DuJCo2inbP7eglDwynJxumxYY8mwzxShDh1dY6SLueZzHs2eGu4Pw75WHGpFnL874t9YqqUDSZqlCcGGlHnvnWDZyYHjzmlBIfUD9GWFjBK6LkPVol9vsf30tW98LngKSEGvYDqib5J2n3Qjmuo1q97Gzrmf",
+              "received": false
+            },
+            {
+              "_id": "69486aa61c508c5d5eece448",
+              "name": "Shirt87827",
+              "amount": 528,
+              "price": 93090,
+              "manufacturer": "Microsoft",
+              "notes": "u7UkzE4nKnOemkAu9h8nEZAp1r00NwlNEjoQKvt82h2x59wlocnNXTUlT4gtL5yfIP0CIwRl6zWM6MoNq6gNK8BnQlsgzHGXhXrI9CeiUDmjePGovD1u1cn28K6uDBL6FxLUYBnCOg1yUUedMPnruGT3ON0lVLjB3IeyQLZTsuW2OWVpejDgPDKCykzwcGFbZqsXXp8LnmjRgNnnT8VktB76spXVtIa0arwSjHTOfJOkde8IAhVVM0TexR",
+              "received": false
+            },
+            {
+              "_id": "69486aa61c508c5d5eece490",
+              "name": "Shoes40501",
+              "amount": 673,
+              "price": 94156,
+              "manufacturer": "Sony",
+              "notes": "I6TZiSy0VyCmjfEgfneFmsOPaNJwdHRmlykJbKtL6HrwlvKdj9SGlX4AxElCcT72reCB8yUFQJsOz0ayn9z4G9ufSKIjHjMduLGkO8APlK9KS17GWicm5IqDqp17fwO1sdeyB9Dv4XfWFBDj5mBKLu98ai3nvNObtc2Oc2XE89ZDygM7tx8DEtXAobNrtQ7mAK2qmt4wTBnPAbmDASdM9A0eYz3audkbJXUYYbC6uBznRQVuf3Ntarl41k",
+              "received": false
+            }
+          ],
+          "total_price": 241922,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Escondido",
+              "street": "Rohan Field",
+              "house": 22,
+              "flat": 324
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T21:46:25.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69486aa41c508c5d5eece2ee",
+          "products": [
+            {
+              "_id": "69486aa51c508c5d5eece431",
+              "name": "Computer93547",
+              "amount": 985,
+              "price": 54676,
+              "manufacturer": "Google",
+              "notes": "orsSkI435gFIdFz06YSjFzM0Vzz0uJKYul2VvDyg2Egn3Bahbz1K1UNlaYhj9VsslW63KoP7XMClWIAI45GhEiZ5RRpVG0DuJCo2inbP7eglDwynJxumxYY8mwzxShDh1dY6SLueZzHs2eGu4Pw75WHGpFnL874t9YqqUDSZqlCcGGlHnvnWDZyYHjzmlBIfUD9GWFjBK6LkPVol9vsf30tW98LngKSEGvYDqib5J2n3Qjmuo1q97Gzrmf",
+              "received": false
+            },
+            {
+              "_id": "69486aa61c508c5d5eece448",
+              "name": "Shirt87827",
+              "amount": 528,
+              "price": 93090,
+              "manufacturer": "Microsoft",
+              "notes": "u7UkzE4nKnOemkAu9h8nEZAp1r00NwlNEjoQKvt82h2x59wlocnNXTUlT4gtL5yfIP0CIwRl6zWM6MoNq6gNK8BnQlsgzHGXhXrI9CeiUDmjePGovD1u1cn28K6uDBL6FxLUYBnCOg1yUUedMPnruGT3ON0lVLjB3IeyQLZTsuW2OWVpejDgPDKCykzwcGFbZqsXXp8LnmjRgNnnT8VktB76spXVtIa0arwSjHTOfJOkde8IAhVVM0TexR",
+              "received": false
+            },
+            {
+              "_id": "69486aa61c508c5d5eece490",
+              "name": "Shoes40501",
+              "amount": 673,
+              "price": 94156,
+              "manufacturer": "Sony",
+              "notes": "I6TZiSy0VyCmjfEgfneFmsOPaNJwdHRmlykJbKtL6HrwlvKdj9SGlX4AxElCcT72reCB8yUFQJsOz0ayn9z4G9ufSKIjHjMduLGkO8APlK9KS17GWicm5IqDqp17fwO1sdeyB9Dv4XfWFBDj5mBKLu98ai3nvNObtc2Oc2XE89ZDygM7tx8DEtXAobNrtQ7mAK2qmt4wTBnPAbmDASdM9A0eYz3audkbJXUYYbC6uBznRQVuf3Ntarl41k",
+              "received": false
+            }
+          ],
+          "total_price": 241922,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Escondido",
+              "street": "Rohan Field",
+              "house": 22,
+              "flat": 324
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T21:46:22.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69486aa41c508c5d5eece2ee",
+          "products": [
+            {
+              "_id": "69486aa51c508c5d5eece431",
+              "name": "Computer93547",
+              "amount": 985,
+              "price": 54676,
+              "manufacturer": "Google",
+              "notes": "orsSkI435gFIdFz06YSjFzM0Vzz0uJKYul2VvDyg2Egn3Bahbz1K1UNlaYhj9VsslW63KoP7XMClWIAI45GhEiZ5RRpVG0DuJCo2inbP7eglDwynJxumxYY8mwzxShDh1dY6SLueZzHs2eGu4Pw75WHGpFnL874t9YqqUDSZqlCcGGlHnvnWDZyYHjzmlBIfUD9GWFjBK6LkPVol9vsf30tW98LngKSEGvYDqib5J2n3Qjmuo1q97Gzrmf",
+              "received": false
+            },
+            {
+              "_id": "69486aa61c508c5d5eece448",
+              "name": "Shirt87827",
+              "amount": 528,
+              "price": 93090,
+              "manufacturer": "Microsoft",
+              "notes": "u7UkzE4nKnOemkAu9h8nEZAp1r00NwlNEjoQKvt82h2x59wlocnNXTUlT4gtL5yfIP0CIwRl6zWM6MoNq6gNK8BnQlsgzHGXhXrI9CeiUDmjePGovD1u1cn28K6uDBL6FxLUYBnCOg1yUUedMPnruGT3ON0lVLjB3IeyQLZTsuW2OWVpejDgPDKCykzwcGFbZqsXXp8LnmjRgNnnT8VktB76spXVtIa0arwSjHTOfJOkde8IAhVVM0TexR",
+              "received": false
+            },
+            {
+              "_id": "69486aa61c508c5d5eece490",
+              "name": "Shoes40501",
+              "amount": 673,
+              "price": 94156,
+              "manufacturer": "Sony",
+              "notes": "I6TZiSy0VyCmjfEgfneFmsOPaNJwdHRmlykJbKtL6HrwlvKdj9SGlX4AxElCcT72reCB8yUFQJsOz0ayn9z4G9ufSKIjHjMduLGkO8APlK9KS17GWicm5IqDqp17fwO1sdeyB9Dv4XfWFBDj5mBKLu98ai3nvNObtc2Oc2XE89ZDygM7tx8DEtXAobNrtQ7mAK2qmt4wTBnPAbmDASdM9A0eYz3audkbJXUYYbC6uBznRQVuf3Ntarl41k",
+              "received": false
+            }
+          ],
+          "total_price": 241922,
+          "delivery": null,
+          "changedOn": "2025-12-21T21:46:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
