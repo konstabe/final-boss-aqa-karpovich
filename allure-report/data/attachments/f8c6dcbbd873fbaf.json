@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 12:43:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3895",
+    "etag": "W/\"f37-Tx+THYhmVHXUq6Rc7Ky+HzK+hFc\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6947eb721c508c5d5ee86690",
+      "status": "In Process",
+      "customer": {
+        "_id": "6947eb711c508c5d5ee8657e",
+        "email": "Lydia3@yahoo.com",
+        "name": "Lola Rice",
+        "country": "Canada",
+        "city": "West Karsonchester",
+        "street": "Purdy Crescent",
+        "house": 35,
+        "flat": 640,
+        "phone": "+18607754113",
+        "createdOn": "2025-12-21T12:43:29.000Z",
+        "notes": "J7FD1G3TGUJF1mbKEMWK89rSozFTerIBNQfKheXHZmieDhcP3wpvWOrFCkbgkerisah2B6ScBU623SqO2NJH4XArbOVad9n34zXDpOl1D7tQCYkULKatY23n86Dasf3ClmqFp9nAVgIu3ohLbqakKzmNGlPIIxpLXLXmBJBLGGgOtvYOg5y6NVxUp0HTRhRCOpxsMKD4U45vBmYTudBPJ2CvVNabes11QOBkjHRDMHA1jsXuZrlpYgoUSA"
+      },
+      "products": [
+        {
+          "_id": "6947eb711c508c5d5ee8665c",
+          "name": "Shirt31836",
+          "amount": 411,
+          "price": 7144,
+          "manufacturer": "Amazon",
+          "notes": "Ug4kPs1lusddT8yYNbQPrhG0zmKZx4pkhbc5SgcTSKM4mdyfXq9284K4yLmSPVjD4gfA3luoif3QwvHUNxA0OVwv4ls704M4mGcSt3rI630D8ROEodYQCLecOxZQeqKaaf4SmbUgchT2090H5Zcw0m2oTMgONIwGNh3Q6MnU7OFi92L1k3zzelgTPxyszBjKUEKlUsdYskRSZSgJ7tJEiXY6Aea7UVjCyKvAHpZbIMdRbp48HvMCwbakah",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "West Karsonchester",
+          "street": "Purdy Crescent",
+          "house": 35,
+          "flat": 640
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 7144,
+      "createdOn": "2025-12-21T12:43:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6947eb711c508c5d5ee8657e",
+          "products": [
+            {
+              "_id": "6947eb711c508c5d5ee8665c",
+              "name": "Shirt31836",
+              "amount": 411,
+              "price": 7144,
+              "manufacturer": "Amazon",
+              "notes": "Ug4kPs1lusddT8yYNbQPrhG0zmKZx4pkhbc5SgcTSKM4mdyfXq9284K4yLmSPVjD4gfA3luoif3QwvHUNxA0OVwv4ls704M4mGcSt3rI630D8ROEodYQCLecOxZQeqKaaf4SmbUgchT2090H5Zcw0m2oTMgONIwGNh3Q6MnU7OFi92L1k3zzelgTPxyszBjKUEKlUsdYskRSZSgJ7tJEiXY6Aea7UVjCyKvAHpZbIMdRbp48HvMCwbakah",
+              "received": false
+            }
+          ],
+          "total_price": 7144,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "West Karsonchester",
+              "street": "Purdy Crescent",
+              "house": 35,
+              "flat": 640
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T12:43:35.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947eb711c508c5d5ee8657e",
+          "products": [
+            {
+              "_id": "6947eb711c508c5d5ee8665c",
+              "name": "Shirt31836",
+              "amount": 411,
+              "price": 7144,
+              "manufacturer": "Amazon",
+              "notes": "Ug4kPs1lusddT8yYNbQPrhG0zmKZx4pkhbc5SgcTSKM4mdyfXq9284K4yLmSPVjD4gfA3luoif3QwvHUNxA0OVwv4ls704M4mGcSt3rI630D8ROEodYQCLecOxZQeqKaaf4SmbUgchT2090H5Zcw0m2oTMgONIwGNh3Q6MnU7OFi92L1k3zzelgTPxyszBjKUEKlUsdYskRSZSgJ7tJEiXY6Aea7UVjCyKvAHpZbIMdRbp48HvMCwbakah",
+              "received": false
+            }
+          ],
+          "total_price": 7144,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "West Karsonchester",
+              "street": "Purdy Crescent",
+              "house": 35,
+              "flat": 640
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T12:43:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947eb711c508c5d5ee8657e",
+          "products": [
+            {
+              "_id": "6947eb711c508c5d5ee8665c",
+              "name": "Shirt31836",
+              "amount": 411,
+              "price": 7144,
+              "manufacturer": "Amazon",
+              "notes": "Ug4kPs1lusddT8yYNbQPrhG0zmKZx4pkhbc5SgcTSKM4mdyfXq9284K4yLmSPVjD4gfA3luoif3QwvHUNxA0OVwv4ls704M4mGcSt3rI630D8ROEodYQCLecOxZQeqKaaf4SmbUgchT2090H5Zcw0m2oTMgONIwGNh3Q6MnU7OFi92L1k3zzelgTPxyszBjKUEKlUsdYskRSZSgJ7tJEiXY6Aea7UVjCyKvAHpZbIMdRbp48HvMCwbakah",
+              "received": false
+            }
+          ],
+          "total_price": 7144,
+          "delivery": null,
+          "changedOn": "2025-12-21T12:43:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

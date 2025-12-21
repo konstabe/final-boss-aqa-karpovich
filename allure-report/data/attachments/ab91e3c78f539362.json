@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 12:43:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1893",
+    "etag": "W/\"765-Y7bsIsMYRY+EVq3a3PsDBZYDdiM\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6947eb711c508c5d5ee86576",
+        "email": "Marie.Bailey86@hotmail.com",
+        "name": "Chloe Kessler",
+        "country": "Belarus",
+        "city": "Fort Michaelside",
+        "street": "Monroe Street",
+        "house": 23,
+        "flat": 103,
+        "phone": "+19023093809",
+        "createdOn": "2025-12-21T12:43:29.000Z",
+        "notes": "xDWfeYMhWg4B7uMtUT4RxbFiNKZhE9LZs4ZYbx3X8BErGBV20Q5ULRjMQpiPwq7fKzhJCM6xC1kXSDooc31F7LVk41W7EpM5Or86beoewjjRhvR7abrCwVmy9MCD0d9zSvS6wOuvcmAKmJHq6Hup3qwoaxrwGOXs8hNC0UMIyi5m4hgjDqC10eYgFP7ln3mcCQeFrLRDxJcjdVvumpYysm9ihbkCSNtDlRHNtlGPFkycuRqc9zNpAWZ1TG"
+      },
+      "products": [
+        {
+          "_id": "6947eb711c508c5d5ee86594",
+          "name": "Shirt8428",
+          "amount": 187,
+          "price": 23917,
+          "manufacturer": "Samsung",
+          "notes": "Q5499ocYqD8iyUIGqHKbQvyN4YVNTpoUy5w2X4BDDfbOeMdMwkcqkRhdGOdGfcEe5c3INeSJq8pSCkHXtmOOWR017RpAiv6vXRYhOJcMDiSH8cOnrDRdNwHVHG1VFWd87aasYsHTAmTuvSRAJajOGIJTK9GlmkQANyFneHXL8jlUQmbJK67ZElRiLrVuGfaPWHWDMVQCaXFduyydBLwPv6xvYYy9Tw1e1SPUtzkyKTHqAN81z0JLFG0Ait",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 23917,
+      "createdOn": "2025-12-21T12:43:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6947eb711c508c5d5ee86576",
+          "products": [
+            {
+              "_id": "6947eb711c508c5d5ee86594",
+              "name": "Shirt8428",
+              "amount": 187,
+              "price": 23917,
+              "manufacturer": "Samsung",
+              "notes": "Q5499ocYqD8iyUIGqHKbQvyN4YVNTpoUy5w2X4BDDfbOeMdMwkcqkRhdGOdGfcEe5c3INeSJq8pSCkHXtmOOWR017RpAiv6vXRYhOJcMDiSH8cOnrDRdNwHVHG1VFWd87aasYsHTAmTuvSRAJajOGIJTK9GlmkQANyFneHXL8jlUQmbJK67ZElRiLrVuGfaPWHWDMVQCaXFduyydBLwPv6xvYYy9Tw1e1SPUtzkyKTHqAN81z0JLFG0Ait",
+              "received": false
+            }
+          ],
+          "total_price": 23917,
+          "delivery": null,
+          "changedOn": "2025-12-21T12:43:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6947eb721c508c5d5ee8666e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
