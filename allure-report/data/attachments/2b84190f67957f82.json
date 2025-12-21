@@ -1,0 +1,245 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:19:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6955",
+    "etag": "W/\"1b2b-c75AIkPoh8v+jDBRw8iZ9Y5ME1Y\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69483a2f1c508c5d5ee9cc64",
+      "status": "In Process",
+      "customer": {
+        "_id": "69483a2a1c508c5d5ee9c962",
+        "email": "Malvina.Muller17@gmail.com",
+        "name": "Taurean Koelpin",
+        "country": "Ukraine",
+        "city": "South Lacyhaven",
+        "street": "Highfield Close",
+        "house": 7,
+        "flat": 874,
+        "phone": "+15363295052",
+        "createdOn": "2025-12-21T18:19:22.000Z",
+        "notes": "Rxt8wk6H7682N7GPUWwX7Pka3hftQN4yH2XWw6ixtSSZobrgz4QxdsaOqQFNmRLkU5RTJKHLZpgh3P0c5cIz7uCL4sFyGfrNmeRV1c4xfdHerDSFfSKjtvghB2u9qIBL0krDKxHsHOYp9Ovr0706xXHgpsmju46bU2y8D1F5Eu824Lar6NMkQYPjkvw1WD9fCRSUhVEIRuuxknk7pRhEeE1ArVVR2kAEsyrzAy6xhQSnM5AiamLZR2p2V7"
+      },
+      "products": [
+        {
+          "_id": "69483a2b1c508c5d5ee9c996",
+          "name": "Bike45526",
+          "amount": 520,
+          "price": 24485,
+          "manufacturer": "Tesla",
+          "notes": "aayXboDZFIxBOaVgGcbXPVWEPxV5JENAfgQLIhx03ki9Wb2A4K37oTRnXRWyhSd5HdZr6WOpFaT5Sm9JUDpOJmMV4FVzEuKnF41QCPw5kQzak2xZQS6RDKTRiSVw9IlDqrqtGdvEMJzYtnsFcHTcT4EhEovPH7tbsK52ugE2QUVQc1kL6qiyDm4fY1qrPqqtiHaF2ZO7IZ6eiu4NYyEu55HGRAkSE4XtBIalbRwjFzGUUEH7beu4iTNt69",
+          "received": false
+        },
+        {
+          "_id": "69483a2b1c508c5d5ee9c9bf",
+          "name": "Car97795",
+          "amount": 656,
+          "price": 27652,
+          "manufacturer": "Apple",
+          "notes": "ifk45ud49HuBkLMkprNOwKg1Qv0r80ZnxqtRHQXBk8ucx0uGDGkPh3BYIKtZcKAHmDlWIfKZUoxxdF71V1BRfnpgOogVqDqT2j7LmkUmwzboo1AK5Biv1jKSDqDJO65qbuoJTlx1hS6QMzHwKnS7tIEc2CxtyWECkBriNJmgaEuX14XDVcR6FtCSmIi9IGP9pZ4MQwCoNnkrchjtKmnnPTq58OnQyGN0D9aqI4tVQl7AFAaaxX8icZjGRV",
+          "received": false
+        },
+        {
+          "_id": "69483a2b1c508c5d5ee9c9e9",
+          "name": "Soap17139",
+          "amount": 618,
+          "price": 53047,
+          "manufacturer": "Sony",
+          "notes": "t3f7rUqV172vfosA71zTWyzfMjIOrQvyDw9PkJzusf24cwfeYrI4IqM7teIlDDN5Xf2WQXDWBgpH4fY8W7uXxcKXtp0nUPzhaw5MkdXqujhNLemJft3wJcDhTpVW82Loxe5XZYkArkPV5r7tr32X0yr4yWQUssTbENHW5VuF8eRLaMbM5WVgqRkG3LSPEOxfmI6T3LelA40W2DgwFsDhYsWB5HWaN3yqoEijJnlHZZkFLv6jlXwSMJuL3P",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "South Lacyhaven",
+          "street": "Highfield Close",
+          "house": 7,
+          "flat": 874
+        },
+        "finalDate": "2025-12-22T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 105184,
+      "createdOn": "2025-12-21T18:19:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69483a2a1c508c5d5ee9c962",
+          "products": [
+            {
+              "_id": "69483a2b1c508c5d5ee9c996",
+              "name": "Bike45526",
+              "amount": 520,
+              "price": 24485,
+              "manufacturer": "Tesla",
+              "notes": "aayXboDZFIxBOaVgGcbXPVWEPxV5JENAfgQLIhx03ki9Wb2A4K37oTRnXRWyhSd5HdZr6WOpFaT5Sm9JUDpOJmMV4FVzEuKnF41QCPw5kQzak2xZQS6RDKTRiSVw9IlDqrqtGdvEMJzYtnsFcHTcT4EhEovPH7tbsK52ugE2QUVQc1kL6qiyDm4fY1qrPqqtiHaF2ZO7IZ6eiu4NYyEu55HGRAkSE4XtBIalbRwjFzGUUEH7beu4iTNt69",
+              "received": false
+            },
+            {
+              "_id": "69483a2b1c508c5d5ee9c9bf",
+              "name": "Car97795",
+              "amount": 656,
+              "price": 27652,
+              "manufacturer": "Apple",
+              "notes": "ifk45ud49HuBkLMkprNOwKg1Qv0r80ZnxqtRHQXBk8ucx0uGDGkPh3BYIKtZcKAHmDlWIfKZUoxxdF71V1BRfnpgOogVqDqT2j7LmkUmwzboo1AK5Biv1jKSDqDJO65qbuoJTlx1hS6QMzHwKnS7tIEc2CxtyWECkBriNJmgaEuX14XDVcR6FtCSmIi9IGP9pZ4MQwCoNnkrchjtKmnnPTq58OnQyGN0D9aqI4tVQl7AFAaaxX8icZjGRV",
+              "received": false
+            },
+            {
+              "_id": "69483a2b1c508c5d5ee9c9e9",
+              "name": "Soap17139",
+              "amount": 618,
+              "price": 53047,
+              "manufacturer": "Sony",
+              "notes": "t3f7rUqV172vfosA71zTWyzfMjIOrQvyDw9PkJzusf24cwfeYrI4IqM7teIlDDN5Xf2WQXDWBgpH4fY8W7uXxcKXtp0nUPzhaw5MkdXqujhNLemJft3wJcDhTpVW82Loxe5XZYkArkPV5r7tr32X0yr4yWQUssTbENHW5VuF8eRLaMbM5WVgqRkG3LSPEOxfmI6T3LelA40W2DgwFsDhYsWB5HWaN3yqoEijJnlHZZkFLv6jlXwSMJuL3P",
+              "received": false
+            }
+          ],
+          "total_price": 105184,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "South Lacyhaven",
+              "street": "Highfield Close",
+              "house": 7,
+              "flat": 874
+            },
+            "finalDate": "2025-12-22T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T18:19:30.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69483a2a1c508c5d5ee9c962",
+          "products": [
+            {
+              "_id": "69483a2b1c508c5d5ee9c996",
+              "name": "Bike45526",
+              "amount": 520,
+              "price": 24485,
+              "manufacturer": "Tesla",
+              "notes": "aayXboDZFIxBOaVgGcbXPVWEPxV5JENAfgQLIhx03ki9Wb2A4K37oTRnXRWyhSd5HdZr6WOpFaT5Sm9JUDpOJmMV4FVzEuKnF41QCPw5kQzak2xZQS6RDKTRiSVw9IlDqrqtGdvEMJzYtnsFcHTcT4EhEovPH7tbsK52ugE2QUVQc1kL6qiyDm4fY1qrPqqtiHaF2ZO7IZ6eiu4NYyEu55HGRAkSE4XtBIalbRwjFzGUUEH7beu4iTNt69",
+              "received": false
+            },
+            {
+              "_id": "69483a2b1c508c5d5ee9c9bf",
+              "name": "Car97795",
+              "amount": 656,
+              "price": 27652,
+              "manufacturer": "Apple",
+              "notes": "ifk45ud49HuBkLMkprNOwKg1Qv0r80ZnxqtRHQXBk8ucx0uGDGkPh3BYIKtZcKAHmDlWIfKZUoxxdF71V1BRfnpgOogVqDqT2j7LmkUmwzboo1AK5Biv1jKSDqDJO65qbuoJTlx1hS6QMzHwKnS7tIEc2CxtyWECkBriNJmgaEuX14XDVcR6FtCSmIi9IGP9pZ4MQwCoNnkrchjtKmnnPTq58OnQyGN0D9aqI4tVQl7AFAaaxX8icZjGRV",
+              "received": false
+            },
+            {
+              "_id": "69483a2b1c508c5d5ee9c9e9",
+              "name": "Soap17139",
+              "amount": 618,
+              "price": 53047,
+              "manufacturer": "Sony",
+              "notes": "t3f7rUqV172vfosA71zTWyzfMjIOrQvyDw9PkJzusf24cwfeYrI4IqM7teIlDDN5Xf2WQXDWBgpH4fY8W7uXxcKXtp0nUPzhaw5MkdXqujhNLemJft3wJcDhTpVW82Loxe5XZYkArkPV5r7tr32X0yr4yWQUssTbENHW5VuF8eRLaMbM5WVgqRkG3LSPEOxfmI6T3LelA40W2DgwFsDhYsWB5HWaN3yqoEijJnlHZZkFLv6jlXwSMJuL3P",
+              "received": false
+            }
+          ],
+          "total_price": 105184,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "South Lacyhaven",
+              "street": "Highfield Close",
+              "house": 7,
+              "flat": 874
+            },
+            "finalDate": "2025-12-22T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T18:19:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69483a2a1c508c5d5ee9c962",
+          "products": [
+            {
+              "_id": "69483a2b1c508c5d5ee9c996",
+              "name": "Bike45526",
+              "amount": 520,
+              "price": 24485,
+              "manufacturer": "Tesla",
+              "notes": "aayXboDZFIxBOaVgGcbXPVWEPxV5JENAfgQLIhx03ki9Wb2A4K37oTRnXRWyhSd5HdZr6WOpFaT5Sm9JUDpOJmMV4FVzEuKnF41QCPw5kQzak2xZQS6RDKTRiSVw9IlDqrqtGdvEMJzYtnsFcHTcT4EhEovPH7tbsK52ugE2QUVQc1kL6qiyDm4fY1qrPqqtiHaF2ZO7IZ6eiu4NYyEu55HGRAkSE4XtBIalbRwjFzGUUEH7beu4iTNt69",
+              "received": false
+            },
+            {
+              "_id": "69483a2b1c508c5d5ee9c9bf",
+              "name": "Car97795",
+              "amount": 656,
+              "price": 27652,
+              "manufacturer": "Apple",
+              "notes": "ifk45ud49HuBkLMkprNOwKg1Qv0r80ZnxqtRHQXBk8ucx0uGDGkPh3BYIKtZcKAHmDlWIfKZUoxxdF71V1BRfnpgOogVqDqT2j7LmkUmwzboo1AK5Biv1jKSDqDJO65qbuoJTlx1hS6QMzHwKnS7tIEc2CxtyWECkBriNJmgaEuX14XDVcR6FtCSmIi9IGP9pZ4MQwCoNnkrchjtKmnnPTq58OnQyGN0D9aqI4tVQl7AFAaaxX8icZjGRV",
+              "received": false
+            },
+            {
+              "_id": "69483a2b1c508c5d5ee9c9e9",
+              "name": "Soap17139",
+              "amount": 618,
+              "price": 53047,
+              "manufacturer": "Sony",
+              "notes": "t3f7rUqV172vfosA71zTWyzfMjIOrQvyDw9PkJzusf24cwfeYrI4IqM7teIlDDN5Xf2WQXDWBgpH4fY8W7uXxcKXtp0nUPzhaw5MkdXqujhNLemJft3wJcDhTpVW82Loxe5XZYkArkPV5r7tr32X0yr4yWQUssTbENHW5VuF8eRLaMbM5WVgqRkG3LSPEOxfmI6T3LelA40W2DgwFsDhYsWB5HWaN3yqoEijJnlHZZkFLv6jlXwSMJuL3P",
+              "received": false
+            }
+          ],
+          "total_price": 105184,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:19:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

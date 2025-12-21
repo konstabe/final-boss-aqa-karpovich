@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:19:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-tFbroACSJFXuLo/3DptU8tIQT14\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69483a2a1c508c5d5ee9c954",
+        "email": "Houston_Ebert@gmail.com",
+        "name": "Larry Rogahn",
+        "country": "Belarus",
+        "city": "Pflugerville",
+        "street": "Amalia Pine",
+        "house": 42,
+        "flat": 740,
+        "phone": "+14482127995",
+        "createdOn": "2025-12-21T18:19:22.000Z",
+        "notes": "YMub9T7qtWZMaYTMpuGzggSIIAHiddxedYclruebJbs1egciws3Lq11lUv8N0ekxacWrM10ocojG3HeWiIgOjmin8274CIlWqXz5qht5QJYG2uvS6nsb19byVw7M6CxgWrvHcZVe7s976HHwY7qkFXPxPXStrVYtmD0EYuJ3GQAc0t2xqCYX2bbMqnWAZMJ2VkfmsvLAiuJntOcgvH9HFv216AN9cxRHbBfPHqi8eGADMFldgAVMO717Fl"
+      },
+      "products": [
+        {
+          "_id": "69483a2a1c508c5d5ee9c975",
+          "name": "Keyboard56771",
+          "amount": 419,
+          "price": 4079,
+          "manufacturer": "Samsung",
+          "notes": "3yDKoYwaXUWp652yg99zymRiDGTxZ68Q2qP9peGLx9yCD5lQrfKTdLmZUIGxe3OqNaMOHyKJ3VMZvXEIoqsESM5ND4P2yl14279adEFjJcn98Ly2csXGGfC0OIhRJOyn50OP4teUksUijUoaDKVGWL7CKT97fStqthliVK6MYoPGBi2XDM77IcMEGtlkC1D2dG63HQ6Lk70CIy6cWNshQX9UrUDbJEtYdDDMpOBl2r2Rc3fn6qruGS0nPL",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 4079,
+      "createdOn": "2025-12-21T18:19:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69483a2a1c508c5d5ee9c954",
+          "products": [
+            {
+              "_id": "69483a2a1c508c5d5ee9c975",
+              "name": "Keyboard56771",
+              "amount": 419,
+              "price": 4079,
+              "manufacturer": "Samsung",
+              "notes": "3yDKoYwaXUWp652yg99zymRiDGTxZ68Q2qP9peGLx9yCD5lQrfKTdLmZUIGxe3OqNaMOHyKJ3VMZvXEIoqsESM5ND4P2yl14279adEFjJcn98Ly2csXGGfC0OIhRJOyn50OP4teUksUijUoaDKVGWL7CKT97fStqthliVK6MYoPGBi2XDM77IcMEGtlkC1D2dG63HQ6Lk70CIy6cWNshQX9UrUDbJEtYdDDMpOBl2r2Rc3fn6qruGS0nPL",
+              "received": false
+            }
+          ],
+          "total_price": 4079,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:19:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69483a2b1c508c5d5ee9c9a1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
