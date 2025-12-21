@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 17:59:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-/KWl2Cx5Jm6n6eFWRgNBkeZDOrY\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6948356e1c508c5d5ee96970",
+        "email": "Lamont35@gmail.com",
+        "name": "Cathryn Osinski",
+        "country": "Belarus",
+        "city": "Juniushaven",
+        "street": "Kohler Trafficway",
+        "house": 10,
+        "flat": 933,
+        "phone": "+15739740351",
+        "createdOn": "2025-12-21T17:59:10.000Z",
+        "notes": "WisvEKB1GL08PBcarkJYWDMWoMuTD8sFR9veD2KNk7gHba7mmJqMMizPI9Df08FurA47YJHONZTtJW5eHcXZmeQeasVWBiMB1d96lZAcx6sqh0OMSiDPi7L6JLqNgd0DqfOjdo8akmVFXIfdpMEVP98lfurrgSEpN6FcrJbGome5MaNlz8GtRsKnTPmt6svIpFq3Beeba8wAYaNGcLsrlCfvBeV9Y277ZIFb6RPn5O70UcNufohU2CX0Cl"
+      },
+      "products": [
+        {
+          "_id": "6948356e1c508c5d5ee96979",
+          "name": "Computer31044",
+          "amount": 641,
+          "price": 83099,
+          "manufacturer": "Tesla",
+          "notes": "VHfFdFF5xZrK5y7jPpf4rnxEDBirkjwuynAudLmDgb6QCYJNax02ZFjV92H8ZmEYQ8ENnY41nkvoYsRoy8PrWPNWr6aefmjrl5zNs5fBpEPJE8UeqNc5gw3bLqrn1LWfprJXtiHimWXFeNalVBCMVjzoO4IpxGnHIvEWqbyxNYwDXPeZlKbwlhvDkJ9NKZN8QOknjc4VSa0HDDMOzcLiRhMCw8EvGSZAk3Dfk3K60V8KL6jrdsJYyFhkVh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 83099,
+      "createdOn": "2025-12-21T17:59:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6948356e1c508c5d5ee96970",
+          "products": [
+            {
+              "_id": "6948356e1c508c5d5ee96979",
+              "name": "Computer31044",
+              "amount": 641,
+              "price": 83099,
+              "manufacturer": "Tesla",
+              "notes": "VHfFdFF5xZrK5y7jPpf4rnxEDBirkjwuynAudLmDgb6QCYJNax02ZFjV92H8ZmEYQ8ENnY41nkvoYsRoy8PrWPNWr6aefmjrl5zNs5fBpEPJE8UeqNc5gw3bLqrn1LWfprJXtiHimWXFeNalVBCMVjzoO4IpxGnHIvEWqbyxNYwDXPeZlKbwlhvDkJ9NKZN8QOknjc4VSa0HDDMOzcLiRhMCw8EvGSZAk3Dfk3K60V8KL6jrdsJYyFhkVh",
+              "received": false
+            }
+          ],
+          "total_price": 83099,
+          "delivery": null,
+          "changedOn": "2025-12-21T17:59:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6948356e1c508c5d5ee96986"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

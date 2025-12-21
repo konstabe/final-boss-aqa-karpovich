@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 17:58:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4847",
+    "etag": "W/\"12ef-R9pG4i0+wTzsbxhT/+k0jotCMa0\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6948354a1c508c5d5ee95122",
+      "status": "Received",
+      "customer": {
+        "_id": "694835491c508c5d5ee94ff8",
+        "email": "Damion.Barton@hotmail.com",
+        "name": "Hailey Howe",
+        "country": "Great Britain",
+        "city": "Fort Lauderdale",
+        "street": "Meadow View",
+        "house": 36,
+        "flat": 646,
+        "phone": "+18685363256",
+        "createdOn": "2025-12-21T17:58:33.000Z",
+        "notes": "WfznJQuukjUgKlddokDqSiBbCx31aMwJhzgA71fM9iazFxflLsj48tWliZcw9iTL3r9w5SoulTguC34CDtllXbaxoad31ePiF9tvj0NKME4UW0FhV2Z1ge6uJZ4p7aglA1jk05XeUsoOoxln1mPS2xE5R2toQB08LcI4bGmDAYys7lHeU429fzbooY0aTtX3iApCUa7rWOeFicAspjmYXrKnDNdEXNMyafdW9vSkqs8CtIX6oM9MyTKv8d"
+      },
+      "products": [
+        {
+          "_id": "6948354a1c508c5d5ee95036",
+          "name": "Car43741",
+          "amount": 286,
+          "price": 30593,
+          "manufacturer": "Microsoft",
+          "notes": "VAng7ruBuAME9A0AYytKZxJXDJNkx1C89jrHAeDZaKCcBmgE6rslV5OZKDguPmrk1USHo2IMUK6J2SOUd2FHHCvjVNBFFGeDAljbLv8HRgBfGSlEN0zgQvbIbqHSiK6M0Ae8EyvMGyt5kndYmAKxUyo6DwK06rYAKL99k8bN01N5fdrOkBEEJFIATJMZ57X9trUH4YFmz9QpglosTMhaZ6krkbH93dgTDvyhWVxsrWwVwDuiGqAgerWIZn",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Fort Lauderdale",
+          "street": "Meadow View",
+          "house": 36,
+          "flat": 646
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 30593,
+      "createdOn": "2025-12-21T17:58:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694835491c508c5d5ee94ff8",
+          "products": [
+            {
+              "_id": "6948354a1c508c5d5ee95036",
+              "name": "Car43741",
+              "amount": 286,
+              "price": 30593,
+              "manufacturer": "Microsoft",
+              "notes": "VAng7ruBuAME9A0AYytKZxJXDJNkx1C89jrHAeDZaKCcBmgE6rslV5OZKDguPmrk1USHo2IMUK6J2SOUd2FHHCvjVNBFFGeDAljbLv8HRgBfGSlEN0zgQvbIbqHSiK6M0Ae8EyvMGyt5kndYmAKxUyo6DwK06rYAKL99k8bN01N5fdrOkBEEJFIATJMZ57X9trUH4YFmz9QpglosTMhaZ6krkbH93dgTDvyhWVxsrWwVwDuiGqAgerWIZn",
+              "received": true
+            }
+          ],
+          "total_price": 30593,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Lauderdale",
+              "street": "Meadow View",
+              "house": 36,
+              "flat": 646
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T17:58:41.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694835491c508c5d5ee94ff8",
+          "products": [
+            {
+              "_id": "6948354a1c508c5d5ee95036",
+              "name": "Car43741",
+              "amount": 286,
+              "price": 30593,
+              "manufacturer": "Microsoft",
+              "notes": "VAng7ruBuAME9A0AYytKZxJXDJNkx1C89jrHAeDZaKCcBmgE6rslV5OZKDguPmrk1USHo2IMUK6J2SOUd2FHHCvjVNBFFGeDAljbLv8HRgBfGSlEN0zgQvbIbqHSiK6M0Ae8EyvMGyt5kndYmAKxUyo6DwK06rYAKL99k8bN01N5fdrOkBEEJFIATJMZ57X9trUH4YFmz9QpglosTMhaZ6krkbH93dgTDvyhWVxsrWwVwDuiGqAgerWIZn",
+              "received": false
+            }
+          ],
+          "total_price": 30593,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Lauderdale",
+              "street": "Meadow View",
+              "house": 36,
+              "flat": 646
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T17:58:39.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694835491c508c5d5ee94ff8",
+          "products": [
+            {
+              "_id": "6948354a1c508c5d5ee95036",
+              "name": "Car43741",
+              "amount": 286,
+              "price": 30593,
+              "manufacturer": "Microsoft",
+              "notes": "VAng7ruBuAME9A0AYytKZxJXDJNkx1C89jrHAeDZaKCcBmgE6rslV5OZKDguPmrk1USHo2IMUK6J2SOUd2FHHCvjVNBFFGeDAljbLv8HRgBfGSlEN0zgQvbIbqHSiK6M0Ae8EyvMGyt5kndYmAKxUyo6DwK06rYAKL99k8bN01N5fdrOkBEEJFIATJMZ57X9trUH4YFmz9QpglosTMhaZ6krkbH93dgTDvyhWVxsrWwVwDuiGqAgerWIZn",
+              "received": false
+            }
+          ],
+          "total_price": 30593,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Lauderdale",
+              "street": "Meadow View",
+              "house": 36,
+              "flat": 646
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T17:58:36.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694835491c508c5d5ee94ff8",
+          "products": [
+            {
+              "_id": "6948354a1c508c5d5ee95036",
+              "name": "Car43741",
+              "amount": 286,
+              "price": 30593,
+              "manufacturer": "Microsoft",
+              "notes": "VAng7ruBuAME9A0AYytKZxJXDJNkx1C89jrHAeDZaKCcBmgE6rslV5OZKDguPmrk1USHo2IMUK6J2SOUd2FHHCvjVNBFFGeDAljbLv8HRgBfGSlEN0zgQvbIbqHSiK6M0Ae8EyvMGyt5kndYmAKxUyo6DwK06rYAKL99k8bN01N5fdrOkBEEJFIATJMZ57X9trUH4YFmz9QpglosTMhaZ6krkbH93dgTDvyhWVxsrWwVwDuiGqAgerWIZn",
+              "received": false
+            }
+          ],
+          "total_price": 30593,
+          "delivery": null,
+          "changedOn": "2025-12-21T17:58:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
