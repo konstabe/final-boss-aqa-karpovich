@@ -3,7 +3,7 @@ import { ConfirmationModal } from "./confirmation.modal";
 import { ConditionDelivery } from "../data/types/order.types";
 import { COUNTRIES } from "../data/customers/countries";
 
-export class scheduleDeliveryModal extends ConfirmationModal {
+export class ScheduleDeliveryModal extends ConfirmationModal {
 	readonly uniqueElement = this.page.locator("#delivery-container");
 
 	readonly title = this.uniqueElement.locator("h2");
