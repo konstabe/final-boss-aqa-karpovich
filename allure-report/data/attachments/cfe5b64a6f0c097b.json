@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 21:28:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4793",
+    "etag": "W/\"12b9-08VyFAkIFRUZPbvlQmKb7QYhaBs\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6948666a1c508c5d5eec8ad4",
+      "status": "Received",
+      "customer": {
+        "_id": "694866691c508c5d5eec8a85",
+        "email": "Norberto_Reinger@hotmail.com",
+        "name": "Zora Rath",
+        "country": "Belarus",
+        "city": "The Villages",
+        "street": "S Mill Street",
+        "house": 1,
+        "flat": 271,
+        "phone": "+19565439145",
+        "createdOn": "2025-12-21T21:28:09.000Z",
+        "notes": "9TgCunMe4stmghRLKC0XyfqgPtmyBQxpdL7Kca7ItbuuI2bJbhvyuiN2TPmP02sR0PyAteBJHFml4cyjRuGLhTjXjxf0A4qDqwZ6G1UzJQ5UxYqMxNaBtWoIINNM1lQ2nsA3hidhXnA0vTxguQnwqIgBUcbjeWPvnKo8jkE2FQMj1TkKnwTUPvhAKVwI9rfHnXjF6x8sgnAy95t7PYzZuylr1EwCtZHBHKBzGW7Qw73thzpYSHBD5flNQR"
+      },
+      "products": [
+        {
+          "_id": "6948666a1c508c5d5eec8ab2",
+          "name": "Chair80514",
+          "amount": 151,
+          "price": 4098,
+          "manufacturer": "Xiaomi",
+          "notes": "eTKKmTP9S8HtYpWJZtnZ1sGVqwYqaICDalPNlb10Unceoh0GUIXBjj2gjiU9Ysh605zi5upZGO3z6ocVmfpzbDNDykp25iHFLbswQLtiHFw4D5gnmgBbVkk7RA5nD8UXcaaJD2NDQqWudALvC0htN5gph3IbtTBNpfadREIu8JJuUbf2TtDWOXm3ReK3VyVert23zfeIGVNDYvRxxmUR9d61HoKHb3yunyF6U8l3CTOQ8uVh1yMELBjVd0",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "The Villages",
+          "street": "S Mill Street",
+          "house": 1,
+          "flat": 271
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 4098,
+      "createdOn": "2025-12-21T21:28:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694866691c508c5d5eec8a85",
+          "products": [
+            {
+              "_id": "6948666a1c508c5d5eec8ab2",
+              "name": "Chair80514",
+              "amount": 151,
+              "price": 4098,
+              "manufacturer": "Xiaomi",
+              "notes": "eTKKmTP9S8HtYpWJZtnZ1sGVqwYqaICDalPNlb10Unceoh0GUIXBjj2gjiU9Ysh605zi5upZGO3z6ocVmfpzbDNDykp25iHFLbswQLtiHFw4D5gnmgBbVkk7RA5nD8UXcaaJD2NDQqWudALvC0htN5gph3IbtTBNpfadREIu8JJuUbf2TtDWOXm3ReK3VyVert23zfeIGVNDYvRxxmUR9d61HoKHb3yunyF6U8l3CTOQ8uVh1yMELBjVd0",
+              "received": true
+            }
+          ],
+          "total_price": 4098,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "The Villages",
+              "street": "S Mill Street",
+              "house": 1,
+              "flat": 271
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T21:28:14.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694866691c508c5d5eec8a85",
+          "products": [
+            {
+              "_id": "6948666a1c508c5d5eec8ab2",
+              "name": "Chair80514",
+              "amount": 151,
+              "price": 4098,
+              "manufacturer": "Xiaomi",
+              "notes": "eTKKmTP9S8HtYpWJZtnZ1sGVqwYqaICDalPNlb10Unceoh0GUIXBjj2gjiU9Ysh605zi5upZGO3z6ocVmfpzbDNDykp25iHFLbswQLtiHFw4D5gnmgBbVkk7RA5nD8UXcaaJD2NDQqWudALvC0htN5gph3IbtTBNpfadREIu8JJuUbf2TtDWOXm3ReK3VyVert23zfeIGVNDYvRxxmUR9d61HoKHb3yunyF6U8l3CTOQ8uVh1yMELBjVd0",
+              "received": false
+            }
+          ],
+          "total_price": 4098,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "The Villages",
+              "street": "S Mill Street",
+              "house": 1,
+              "flat": 271
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T21:28:14.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694866691c508c5d5eec8a85",
+          "products": [
+            {
+              "_id": "6948666a1c508c5d5eec8ab2",
+              "name": "Chair80514",
+              "amount": 151,
+              "price": 4098,
+              "manufacturer": "Xiaomi",
+              "notes": "eTKKmTP9S8HtYpWJZtnZ1sGVqwYqaICDalPNlb10Unceoh0GUIXBjj2gjiU9Ysh605zi5upZGO3z6ocVmfpzbDNDykp25iHFLbswQLtiHFw4D5gnmgBbVkk7RA5nD8UXcaaJD2NDQqWudALvC0htN5gph3IbtTBNpfadREIu8JJuUbf2TtDWOXm3ReK3VyVert23zfeIGVNDYvRxxmUR9d61HoKHb3yunyF6U8l3CTOQ8uVh1yMELBjVd0",
+              "received": false
+            }
+          ],
+          "total_price": 4098,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "The Villages",
+              "street": "S Mill Street",
+              "house": 1,
+              "flat": 271
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T21:28:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694866691c508c5d5eec8a85",
+          "products": [
+            {
+              "_id": "6948666a1c508c5d5eec8ab2",
+              "name": "Chair80514",
+              "amount": 151,
+              "price": 4098,
+              "manufacturer": "Xiaomi",
+              "notes": "eTKKmTP9S8HtYpWJZtnZ1sGVqwYqaICDalPNlb10Unceoh0GUIXBjj2gjiU9Ysh605zi5upZGO3z6ocVmfpzbDNDykp25iHFLbswQLtiHFw4D5gnmgBbVkk7RA5nD8UXcaaJD2NDQqWudALvC0htN5gph3IbtTBNpfadREIu8JJuUbf2TtDWOXm3ReK3VyVert23zfeIGVNDYvRxxmUR9d61HoKHb3yunyF6U8l3CTOQ8uVh1yMELBjVd0",
+              "received": false
+            }
+          ],
+          "total_price": 4098,
+          "delivery": null,
+          "changedOn": "2025-12-21T21:28:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

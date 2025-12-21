@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 21:28:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2640",
+    "etag": "W/\"a50-pqFOUZ6cxHQCOVdTwYPjuFfvF9I\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694866671c508c5d5eec88eb",
+        "email": "Zoie_Dare@yahoo.com",
+        "name": "Claire Daugherty",
+        "country": "Canada",
+        "city": "Port Kiannaworth",
+        "street": "Jerde Roads",
+        "house": 19,
+        "flat": 9,
+        "phone": "+15823436065",
+        "createdOn": "2025-12-21T21:28:07.000Z",
+        "notes": "dL4ZXEUSnIiK1WB33ORnzqU1yXG88BAMYktADEexADSdDsA2O2sms55RqbrGkR4frknHMCKvMusyvA4QgDBPF5L69GSiNl6ku2mrSSZPpzJlipPzKfulXOnhvInHiwOvoRcaKYSyqEOV357EpDdknSr4lCq7T6rRhvFVK7uWP1F2HDRewihoIR8XNiqFBAtvZkEANn3qMhU5CeSE4GyLPHLYu7eDZ9xyYQ6zg3cKdGoxijY9Zc4k5sJ9Bj"
+      },
+      "products": [
+        {
+          "_id": "694866681c508c5d5eec8a22",
+          "name": "Tuna57666",
+          "amount": 460,
+          "price": 8246,
+          "manufacturer": "Apple",
+          "notes": "2X4ybXIGORJxNvYh8AzsbeAFeaEgT4812qcdEPpWmPKggMQsIovtktlglu51lXOC0eSrKNIvxIZXxwid7nvnzjqnUnff17gPZePfGO2oxEpHOuewJLHTYBBMihhsTIFwaPWim8NHKiM67ceuBAZL2zaafOu3GLSXctxqFxvELeVNscI66xSI1JyBMPVRajhxAs9nuxfrdrU7VmgHPJhPepLzzgYTPhlGYivvdlx6ugW8lMCnJlIZrlFefR",
+          "received": false
+        },
+        {
+          "_id": "694866691c508c5d5eec8a4a",
+          "name": "Shoes82946",
+          "amount": 861,
+          "price": 641,
+          "manufacturer": "Xiaomi",
+          "notes": "tAHvPCSvaUNMZs2BSzbiUV074pt2LbircFaRP6ECsjiz15bwxCGcCVOkCgAgFZIXPwFvglts6xTH1VxAuel1Q50ErhLgKv8ntJh11B4EgM1cdl47N20Ty9BrznJS6VAaEO1ckzkQnLrQ46QkA09gxEakvKBMGgiHcgGISCZ52oXHYX5UsgPlGP0VOJCOAryNJK6BMSQUNQ9eUTEDJNlR2Fpwy0m5ZlXHIWzlffernzpcgXac8OHrjkEsXo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 8887,
+      "createdOn": "2025-12-21T21:28:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694866671c508c5d5eec88eb",
+          "products": [
+            {
+              "_id": "694866681c508c5d5eec8a22",
+              "name": "Tuna57666",
+              "amount": 460,
+              "price": 8246,
+              "manufacturer": "Apple",
+              "notes": "2X4ybXIGORJxNvYh8AzsbeAFeaEgT4812qcdEPpWmPKggMQsIovtktlglu51lXOC0eSrKNIvxIZXxwid7nvnzjqnUnff17gPZePfGO2oxEpHOuewJLHTYBBMihhsTIFwaPWim8NHKiM67ceuBAZL2zaafOu3GLSXctxqFxvELeVNscI66xSI1JyBMPVRajhxAs9nuxfrdrU7VmgHPJhPepLzzgYTPhlGYivvdlx6ugW8lMCnJlIZrlFefR",
+              "received": false
+            },
+            {
+              "_id": "694866691c508c5d5eec8a4a",
+              "name": "Shoes82946",
+              "amount": 861,
+              "price": 641,
+              "manufacturer": "Xiaomi",
+              "notes": "tAHvPCSvaUNMZs2BSzbiUV074pt2LbircFaRP6ECsjiz15bwxCGcCVOkCgAgFZIXPwFvglts6xTH1VxAuel1Q50ErhLgKv8ntJh11B4EgM1cdl47N20Ty9BrznJS6VAaEO1ckzkQnLrQ46QkA09gxEakvKBMGgiHcgGISCZ52oXHYX5UsgPlGP0VOJCOAryNJK6BMSQUNQ9eUTEDJNlR2Fpwy0m5ZlXHIWzlffernzpcgXac8OHrjkEsXo",
+              "received": false
+            }
+          ],
+          "total_price": 8887,
+          "delivery": null,
+          "changedOn": "2025-12-21T21:28:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694866691c508c5d5eec8a8a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

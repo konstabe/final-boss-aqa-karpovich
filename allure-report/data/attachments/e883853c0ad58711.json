@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 21:28:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-9KrMIR4SLQpMthF9CRoVSmYtzN4\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694866661c508c5d5eec88d1",
+        "email": "Linnea23@yahoo.com",
+        "name": "Bobbie Schmitt",
+        "country": "Great Britain",
+        "city": "Macejkovicberg",
+        "street": "Streich Cliffs",
+        "house": 22,
+        "flat": 829,
+        "phone": "+15758441782",
+        "createdOn": "2025-12-21T21:28:06.000Z",
+        "notes": "V7XR7YRY8lufifByzxvivn2E39s9Y0IEzQV34t15AEZZMkVpYIoTPbgvKWPJhf012ErSthZGo8PaqEQjBXK8XLDritGvK7luzMAyuNn7UbyJlaUEVfpFyNDg6YE4rps6U7nf674dmJZIzYK7DgLpxFxJXIYgVTVf8N6dFgsfPo5EkJPJr8HL1h4WDIPoNZWY0vNyBzsFmaxGuteeTguVP7ggYmJEhCeZ69rqJxeInzwmfdxAYVflzNcbp0"
+      },
+      "products": [
+        {
+          "_id": "694866671c508c5d5eec88f3",
+          "name": "Table8567",
+          "amount": 743,
+          "price": 72929,
+          "manufacturer": "Amazon",
+          "notes": "i2XWjUrwBY9SesPAvjiCbeRYmsvWzismYzbU79xO44m9u2LB9ORRS6UmuRcZr4oVe03LjSV5jAJXPnl99lGzFr4OKdpZVUVkVjAvB3AhW9PjCywyRxRobWN5iFtxiLQHlHjQQFgNHuftf9uUyibAihDrePwMIPktDjLZ28Xk1D7maDDuTMfdM4yoC2X8pzlkPwCuKhITAEz1lP57kETHx6gdRZ1rn8KCXMHxdVwXO7g0QBdCtFj5tiV9AG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 72929,
+      "createdOn": "2025-12-21T21:28:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694866661c508c5d5eec88d1",
+          "products": [
+            {
+              "_id": "694866671c508c5d5eec88f3",
+              "name": "Table8567",
+              "amount": 743,
+              "price": 72929,
+              "manufacturer": "Amazon",
+              "notes": "i2XWjUrwBY9SesPAvjiCbeRYmsvWzismYzbU79xO44m9u2LB9ORRS6UmuRcZr4oVe03LjSV5jAJXPnl99lGzFr4OKdpZVUVkVjAvB3AhW9PjCywyRxRobWN5iFtxiLQHlHjQQFgNHuftf9uUyibAihDrePwMIPktDjLZ28Xk1D7maDDuTMfdM4yoC2X8pzlkPwCuKhITAEz1lP57kETHx6gdRZ1rn8KCXMHxdVwXO7g0QBdCtFj5tiV9AG",
+              "received": false
+            }
+          ],
+          "total_price": 72929,
+          "delivery": null,
+          "changedOn": "2025-12-21T21:28:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694866681c508c5d5eec8a3f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
