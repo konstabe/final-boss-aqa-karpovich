@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 21:18:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3890",
+    "etag": "W/\"f32-2gZjPnssFijppZY6UJXuwFqi+bE\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6948640f1c508c5d5eec5c75",
+      "status": "In Process",
+      "customer": {
+        "_id": "6948640e1c508c5d5eec5c34",
+        "email": "Ardella.Walker-Legros50@hotmail.com",
+        "name": "Astrid Hessel",
+        "country": "France",
+        "city": "Jonathanberg",
+        "street": "Grady Curve",
+        "house": 3,
+        "flat": 889,
+        "phone": "+17625436707",
+        "createdOn": "2025-12-21T21:18:06.000Z",
+        "notes": "6rH5CGuRHi51wrDOLXPMMJPZRawrWQYC5mONN59EKSh3X84I5urQkT0aXAAkQPJJHjVDUQ8IsbSlldr9WO6pL5mbTOVqnBjboK2YW5kmYy6A8xBMjhNfGUwhrnHLm0zr2RPoG5qzMYOBvcGupZDxRciMpdj4fB4pbHR4HinL2WErq86igmCQ9qRa900F9NFUSRZpk62LVUPFnZA8DXbF6iANl2Jkoky4C6hEdbOMMupLBeXo4bbJfpdvri"
+      },
+      "products": [
+        {
+          "_id": "6948640f1c508c5d5eec5c4d",
+          "name": "Towels22366",
+          "amount": 427,
+          "price": 45245,
+          "manufacturer": "Xiaomi",
+          "notes": "st8VnvfA2rVSFzIaOkeeWJxg4WF2iEOqcOKU1Zi5ZqUMPlMMQ2V4Omg5e65gfNNh7QDaMygPPKSaaLn1jPRLnZ5tNXBdGdiwDiPRmjIxeyqGWZ7jmfmDVtS5QE28e8O1dVcltyiZTBBl9xTjjgkxS7v61FgsmsKgc7QjYsuqyDmKyGfIVT8YCQmxWzEDPSyGYwQSHlXNXXCei4zd2C0dUNHzCFbVo7H0Jb4JE48xJdySy2IFLTk23lxjcQ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Jonathanberg",
+          "street": "Grady Curve",
+          "house": 3,
+          "flat": 889
+        },
+        "finalDate": "2025-12-27T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 45245,
+      "createdOn": "2025-12-21T21:18:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6948640e1c508c5d5eec5c34",
+          "products": [
+            {
+              "_id": "6948640f1c508c5d5eec5c4d",
+              "name": "Towels22366",
+              "amount": 427,
+              "price": 45245,
+              "manufacturer": "Xiaomi",
+              "notes": "st8VnvfA2rVSFzIaOkeeWJxg4WF2iEOqcOKU1Zi5ZqUMPlMMQ2V4Omg5e65gfNNh7QDaMygPPKSaaLn1jPRLnZ5tNXBdGdiwDiPRmjIxeyqGWZ7jmfmDVtS5QE28e8O1dVcltyiZTBBl9xTjjgkxS7v61FgsmsKgc7QjYsuqyDmKyGfIVT8YCQmxWzEDPSyGYwQSHlXNXXCei4zd2C0dUNHzCFbVo7H0Jb4JE48xJdySy2IFLTk23lxjcQ",
+              "received": false
+            }
+          ],
+          "total_price": 45245,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Jonathanberg",
+              "street": "Grady Curve",
+              "house": 3,
+              "flat": 889
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T21:18:12.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6948640e1c508c5d5eec5c34",
+          "products": [
+            {
+              "_id": "6948640f1c508c5d5eec5c4d",
+              "name": "Towels22366",
+              "amount": 427,
+              "price": 45245,
+              "manufacturer": "Xiaomi",
+              "notes": "st8VnvfA2rVSFzIaOkeeWJxg4WF2iEOqcOKU1Zi5ZqUMPlMMQ2V4Omg5e65gfNNh7QDaMygPPKSaaLn1jPRLnZ5tNXBdGdiwDiPRmjIxeyqGWZ7jmfmDVtS5QE28e8O1dVcltyiZTBBl9xTjjgkxS7v61FgsmsKgc7QjYsuqyDmKyGfIVT8YCQmxWzEDPSyGYwQSHlXNXXCei4zd2C0dUNHzCFbVo7H0Jb4JE48xJdySy2IFLTk23lxjcQ",
+              "received": false
+            }
+          ],
+          "total_price": 45245,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Jonathanberg",
+              "street": "Grady Curve",
+              "house": 3,
+              "flat": 889
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T21:18:07.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6948640e1c508c5d5eec5c34",
+          "products": [
+            {
+              "_id": "6948640f1c508c5d5eec5c4d",
+              "name": "Towels22366",
+              "amount": 427,
+              "price": 45245,
+              "manufacturer": "Xiaomi",
+              "notes": "st8VnvfA2rVSFzIaOkeeWJxg4WF2iEOqcOKU1Zi5ZqUMPlMMQ2V4Omg5e65gfNNh7QDaMygPPKSaaLn1jPRLnZ5tNXBdGdiwDiPRmjIxeyqGWZ7jmfmDVtS5QE28e8O1dVcltyiZTBBl9xTjjgkxS7v61FgsmsKgc7QjYsuqyDmKyGfIVT8YCQmxWzEDPSyGYwQSHlXNXXCei4zd2C0dUNHzCFbVo7H0Jb4JE48xJdySy2IFLTk23lxjcQ",
+              "received": false
+            }
+          ],
+          "total_price": 45245,
+          "delivery": null,
+          "changedOn": "2025-12-21T21:18:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

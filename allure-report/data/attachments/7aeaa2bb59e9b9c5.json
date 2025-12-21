@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 21:18:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-TEG8t0HmueICFAEqzexzR5nlYes\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694864091c508c5d5eec5930",
+        "email": "Webster.Cremin@yahoo.com",
+        "name": "Rasheed Kuphal",
+        "country": "Russia",
+        "city": "North Chaya",
+        "street": "Kaylin Ranch",
+        "house": 50,
+        "flat": 651,
+        "phone": "+18743027862",
+        "createdOn": "2025-12-21T21:18:01.000Z",
+        "notes": "WwlEugHsudqeFlZI5qVdtS720m67GHJteeYhlrQBTGsIjbELMbSiiEhh4myTDkSKQxF2kDOkV4dfzT4JytMOyz138uOVrupCr6kwVVq1WE112JuamjlRhyhTnjx948gJTaW4KiUHMm07nBgA80J7S23jEhPUmVfRO2HPZr0jvF3igRCK9m0F4vBZtbuUFDJpeHfds6r2CSnFHwjhOT6CGYIYC8mUWYSikLrlDgUG66B0SWINdC9y9OyOHp"
+      },
+      "products": [
+        {
+          "_id": "694864091c508c5d5eec593f",
+          "name": "Soap80945",
+          "amount": 150,
+          "price": 66561,
+          "manufacturer": "Google",
+          "notes": "qwPGzIbzLfKXH0JRKru5ICjMncf9O1aUMoFR4rbWwgKfQbNEC942MKJN0ZxkFEnnshaOoRcoXpIXdWaWUC9yTWurfsA5buemz5fI6Zd4lq3AjPXIkEC2Fvunjh3ljxiIrJyXZCnro6ZxQ53VgdANWuJ2HCYMAXDMG8Yuttt2twODkZePLmgZTRLFUZLQMSBlrx1YZBsLKI5ELBHxZPozCxHVWm1W3WkZP8kE72j5YuF5XoIeM5ruazcymA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 66561,
+      "createdOn": "2025-12-21T21:18:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694864091c508c5d5eec5930",
+          "products": [
+            {
+              "_id": "694864091c508c5d5eec593f",
+              "name": "Soap80945",
+              "amount": 150,
+              "price": 66561,
+              "manufacturer": "Google",
+              "notes": "qwPGzIbzLfKXH0JRKru5ICjMncf9O1aUMoFR4rbWwgKfQbNEC942MKJN0ZxkFEnnshaOoRcoXpIXdWaWUC9yTWurfsA5buemz5fI6Zd4lq3AjPXIkEC2Fvunjh3ljxiIrJyXZCnro6ZxQ53VgdANWuJ2HCYMAXDMG8Yuttt2twODkZePLmgZTRLFUZLQMSBlrx1YZBsLKI5ELBHxZPozCxHVWm1W3WkZP8kE72j5YuF5XoIeM5ruazcymA",
+              "received": false
+            }
+          ],
+          "total_price": 66561,
+          "delivery": null,
+          "changedOn": "2025-12-21T21:18:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6948640a1c508c5d5eec594f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
