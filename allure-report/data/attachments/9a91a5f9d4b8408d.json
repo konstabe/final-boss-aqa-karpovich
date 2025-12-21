@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 07:31:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2954",
+    "etag": "W/\"b8a-r3eiRq+Hfuz8iJGiiitZoOhyNqo\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6947a2681c508c5d5ee72989",
+      "status": "Draft",
+      "customer": {
+        "_id": "6947a2671c508c5d5ee7294f",
+        "email": "Axel_Lehner-Mueller@gmail.com",
+        "name": "Armando Cronin",
+        "country": "Russia",
+        "city": "Kamrenview",
+        "street": "W 14th Street",
+        "house": 17,
+        "flat": 520,
+        "phone": "+15952341809",
+        "createdOn": "2025-12-21T07:31:51.000Z",
+        "notes": "HCPKMI1pJHdr2OW40rBmVk2wt38M4FcCzwRwjbwObyJuEvV1fCwktddMFcKX0s1ZBZigSfiNoY1xAKTdq98nWNWI5R99iDKOl4zeyKQMnquZqD7qxzdeYfCkoV4nxu10fO47Tp4USYgYF6iNqebIP6rWBoKQUONMeQxwVzeYCl8z8mlQ78GeCXCDONhUtuz66UM8SSDhWsW5zjBmLqZomJRNz2B3I44y2Y0cYy6dk1hTM4A8NRqMEjfYJk"
+      },
+      "products": [
+        {
+          "_id": "6947a2681c508c5d5ee72968",
+          "name": "Pants25811",
+          "amount": 447,
+          "price": 43043,
+          "manufacturer": "Tesla",
+          "notes": "aMM9YtKssFKqhmr8xX1VZdFzrjSKXvnOoTywCP3seVYgVj2GF9gbySwPKiChtPCtPHiMtG26mbykG6HCBkWK1NVQd4A7BEFCOGyvYIVuGgoDZwvTuPbhPU4CdJ1PlUxxIpj5pFRFohRntygdENr2zAuzyeWRt3y3tYROlZmJVhk6gTm0z818dRLjsxSn0uiexHamFuAXZIRLeXRrs53r5W4d6EhFD8lA9nEEvepJ5eDOvYKQvpMJIoMbAO",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Kamrenview",
+          "street": "W 14th Street",
+          "house": 17,
+          "flat": 520
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 43043,
+      "createdOn": "2025-12-21T07:31:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6947a2671c508c5d5ee7294f",
+          "products": [
+            {
+              "_id": "6947a2681c508c5d5ee72968",
+              "name": "Pants25811",
+              "amount": 447,
+              "price": 43043,
+              "manufacturer": "Tesla",
+              "notes": "aMM9YtKssFKqhmr8xX1VZdFzrjSKXvnOoTywCP3seVYgVj2GF9gbySwPKiChtPCtPHiMtG26mbykG6HCBkWK1NVQd4A7BEFCOGyvYIVuGgoDZwvTuPbhPU4CdJ1PlUxxIpj5pFRFohRntygdENr2zAuzyeWRt3y3tYROlZmJVhk6gTm0z818dRLjsxSn0uiexHamFuAXZIRLeXRrs53r5W4d6EhFD8lA9nEEvepJ5eDOvYKQvpMJIoMbAO",
+              "received": false
+            }
+          ],
+          "total_price": 43043,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Kamrenview",
+              "street": "W 14th Street",
+              "house": 17,
+              "flat": 520
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T07:31:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947a2671c508c5d5ee7294f",
+          "products": [
+            {
+              "_id": "6947a2681c508c5d5ee72968",
+              "name": "Pants25811",
+              "amount": 447,
+              "price": 43043,
+              "manufacturer": "Tesla",
+              "notes": "aMM9YtKssFKqhmr8xX1VZdFzrjSKXvnOoTywCP3seVYgVj2GF9gbySwPKiChtPCtPHiMtG26mbykG6HCBkWK1NVQd4A7BEFCOGyvYIVuGgoDZwvTuPbhPU4CdJ1PlUxxIpj5pFRFohRntygdENr2zAuzyeWRt3y3tYROlZmJVhk6gTm0z818dRLjsxSn0uiexHamFuAXZIRLeXRrs53r5W4d6EhFD8lA9nEEvepJ5eDOvYKQvpMJIoMbAO",
+              "received": false
+            }
+          ],
+          "total_price": 43043,
+          "delivery": null,
+          "changedOn": "2025-12-21T07:31:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

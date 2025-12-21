@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 07:31:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-s/es92Za82+GXreK5SbX5XDR++k\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6947a2671c508c5d5ee7290b",
+        "email": "Libbie_Bergnaum12@hotmail.com",
+        "name": "Kayleigh Mohr",
+        "country": "Germany",
+        "city": "New Madelyn",
+        "street": "Hillside Avenue",
+        "house": 7,
+        "flat": 260,
+        "phone": "+18305189619",
+        "createdOn": "2025-12-21T07:31:51.000Z",
+        "notes": "rHzQM6aRmECfNfYHsJOwKMMW3Ru8204lqHIZ2Z5az1tC0a4rZeLdEWrQRh4m750bhlsqiqkoFsg5gvdRu4HiqrnJxepehmsZHqfRyV83u8wHLN0gCLoEGBbSirADLpHON83YpIfaQY7Wec0CY7KTF80F4Ij9GtUa0hWn86B6fg5C9BBnHYm8GxeCb0m2PmVhAPApYNAwlaTxwafMjn13z2DOd6FsLSQJDpAOFNIvcs1BUalhwsIIHolGH5"
+      },
+      "products": [
+        {
+          "_id": "6947a2671c508c5d5ee7292e",
+          "name": "Shirt46508",
+          "amount": 604,
+          "price": 86721,
+          "manufacturer": "Google",
+          "notes": "1BfHGqatC3LGpoya44Il8NMa0xjWnxXquQTztmCDVnbIPR9Fui2RwfuJwy4iS18Dh6vjS40QPb1AHELuO8AuBM0StmrMFkX8olBwXFQKRoZ37ftqI2Oos2uLWSeueaj2xHIzZESsdizX3D1AasW5dYJipf7A2Puu87dnmEEMeECSQhOQ9EsTdrnH0hgEsku3Ge9N7IH5MoiwGDVtcV58kmg9Gs18pa5VdzUXJo4HxuaUgKEZ9MuF9EEVwt",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 86721,
+      "createdOn": "2025-12-21T07:31:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6947a2671c508c5d5ee7290b",
+          "products": [
+            {
+              "_id": "6947a2671c508c5d5ee7292e",
+              "name": "Shirt46508",
+              "amount": 604,
+              "price": 86721,
+              "manufacturer": "Google",
+              "notes": "1BfHGqatC3LGpoya44Il8NMa0xjWnxXquQTztmCDVnbIPR9Fui2RwfuJwy4iS18Dh6vjS40QPb1AHELuO8AuBM0StmrMFkX8olBwXFQKRoZ37ftqI2Oos2uLWSeueaj2xHIzZESsdizX3D1AasW5dYJipf7A2Puu87dnmEEMeECSQhOQ9EsTdrnH0hgEsku3Ge9N7IH5MoiwGDVtcV58kmg9Gs18pa5VdzUXJo4HxuaUgKEZ9MuF9EEVwt",
+              "received": false
+            }
+          ],
+          "total_price": 86721,
+          "delivery": null,
+          "changedOn": "2025-12-21T07:31:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6947a2681c508c5d5ee72974"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
