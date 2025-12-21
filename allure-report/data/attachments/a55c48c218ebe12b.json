@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:18:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5430",
+    "etag": "W/\"1536-wgykmOQTFmFazD+uPukEdWwwnmA\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694872251c508c5d5eef043c",
+      "status": "In Process",
+      "customer": {
+        "_id": "694872241c508c5d5eef03ae",
+        "email": "Rebeka.Schmidt-Nitzsche13@yahoo.com",
+        "name": "Elyssa Sawayn",
+        "country": "Belarus",
+        "city": "Fort Shemar",
+        "street": "E Walnut Street",
+        "house": 12,
+        "flat": 748,
+        "phone": "+12706413089",
+        "createdOn": "2025-12-21T22:18:12.000Z",
+        "notes": "8DYkwWM7shXtOwyEFl3dfJQP9RYljFzNynPrzgu0FnZOgE9EdvOuGYY16X6akbbGwV0ivv3ChRFgT4u2bxmYB8tNYzserEcxGV0I0MibTkXt18Hsi4pxe9WrYug3zfT7qBI8KeLgy0KNRqRA3Y9Y0Mwsi8xEPpBbGdpelOrn3OtBl86MPspcoMyVl28PV5yBPI4ceScwy272pPgjKp7xJ52DKFA8YjPwsOWdZr2y6oNxWTWeDRsX8BLN9V"
+      },
+      "products": [
+        {
+          "_id": "694872241c508c5d5eef03c9",
+          "name": "Towels89385",
+          "amount": 436,
+          "price": 56567,
+          "manufacturer": "Apple",
+          "notes": "hKET8Zdks8FEOhqrDCK7KVVwYipl49h7SKjdrXXcZ7MjmqtGS3kByehtxe0fmmIuuuWiFW6JO9krklLG0l8QxVy8TFL4rGfAkVfPV7CZuLMVVqkQ9sIgW5LPItxdUnYxJnqGSU3QVCShF13AaabSc98KXFcMJENH9lFVem3uTb9KoIa0husYMfOZJwmeqL1TsEK3NTreWW6SoKPjCfzlfcHrvuKFoFjrQDCWaBASp2TW8Hsc2OHkDkOvai",
+          "received": false
+        },
+        {
+          "_id": "694872251c508c5d5eef0410",
+          "name": "Bike45259",
+          "amount": 233,
+          "price": 8692,
+          "manufacturer": "Apple",
+          "notes": "FaMhHw0xxBQ7SGpsDCm4Zfs9oqBbaRQcS06QANHQ395Kusif1Odb0YufFib00hpiqyDu6d8lyQJN1e9Wh9jt16qYQRrS68b0DxOSvuH6Vrbzssj58cB9W5pFXAhEc5mdw1lI496RsKyG6aT3hKAfWerTQv7vhzpFme6WLsIVCRp3ix37rxFWgiZH3r8lbZGdcgc4UJiKd9RLC5hAynUy98fGAEToUIS2NqN4MOvN2qMcIAVDwyNevsqlhr",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Fort Shemar",
+          "street": "E Walnut Street",
+          "house": 12,
+          "flat": 748
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 65259,
+      "createdOn": "2025-12-21T22:18:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694872241c508c5d5eef03ae",
+          "products": [
+            {
+              "_id": "694872241c508c5d5eef03c9",
+              "name": "Towels89385",
+              "amount": 436,
+              "price": 56567,
+              "manufacturer": "Apple",
+              "notes": "hKET8Zdks8FEOhqrDCK7KVVwYipl49h7SKjdrXXcZ7MjmqtGS3kByehtxe0fmmIuuuWiFW6JO9krklLG0l8QxVy8TFL4rGfAkVfPV7CZuLMVVqkQ9sIgW5LPItxdUnYxJnqGSU3QVCShF13AaabSc98KXFcMJENH9lFVem3uTb9KoIa0husYMfOZJwmeqL1TsEK3NTreWW6SoKPjCfzlfcHrvuKFoFjrQDCWaBASp2TW8Hsc2OHkDkOvai",
+              "received": false
+            },
+            {
+              "_id": "694872251c508c5d5eef0410",
+              "name": "Bike45259",
+              "amount": 233,
+              "price": 8692,
+              "manufacturer": "Apple",
+              "notes": "FaMhHw0xxBQ7SGpsDCm4Zfs9oqBbaRQcS06QANHQ395Kusif1Odb0YufFib00hpiqyDu6d8lyQJN1e9Wh9jt16qYQRrS68b0DxOSvuH6Vrbzssj58cB9W5pFXAhEc5mdw1lI496RsKyG6aT3hKAfWerTQv7vhzpFme6WLsIVCRp3ix37rxFWgiZH3r8lbZGdcgc4UJiKd9RLC5hAynUy98fGAEToUIS2NqN4MOvN2qMcIAVDwyNevsqlhr",
+              "received": false
+            }
+          ],
+          "total_price": 65259,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Fort Shemar",
+              "street": "E Walnut Street",
+              "house": 12,
+              "flat": 748
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T22:18:16.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694872241c508c5d5eef03ae",
+          "products": [
+            {
+              "_id": "694872241c508c5d5eef03c9",
+              "name": "Towels89385",
+              "amount": 436,
+              "price": 56567,
+              "manufacturer": "Apple",
+              "notes": "hKET8Zdks8FEOhqrDCK7KVVwYipl49h7SKjdrXXcZ7MjmqtGS3kByehtxe0fmmIuuuWiFW6JO9krklLG0l8QxVy8TFL4rGfAkVfPV7CZuLMVVqkQ9sIgW5LPItxdUnYxJnqGSU3QVCShF13AaabSc98KXFcMJENH9lFVem3uTb9KoIa0husYMfOZJwmeqL1TsEK3NTreWW6SoKPjCfzlfcHrvuKFoFjrQDCWaBASp2TW8Hsc2OHkDkOvai",
+              "received": false
+            },
+            {
+              "_id": "694872251c508c5d5eef0410",
+              "name": "Bike45259",
+              "amount": 233,
+              "price": 8692,
+              "manufacturer": "Apple",
+              "notes": "FaMhHw0xxBQ7SGpsDCm4Zfs9oqBbaRQcS06QANHQ395Kusif1Odb0YufFib00hpiqyDu6d8lyQJN1e9Wh9jt16qYQRrS68b0DxOSvuH6Vrbzssj58cB9W5pFXAhEc5mdw1lI496RsKyG6aT3hKAfWerTQv7vhzpFme6WLsIVCRp3ix37rxFWgiZH3r8lbZGdcgc4UJiKd9RLC5hAynUy98fGAEToUIS2NqN4MOvN2qMcIAVDwyNevsqlhr",
+              "received": false
+            }
+          ],
+          "total_price": 65259,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Fort Shemar",
+              "street": "E Walnut Street",
+              "house": 12,
+              "flat": 748
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T22:18:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694872241c508c5d5eef03ae",
+          "products": [
+            {
+              "_id": "694872241c508c5d5eef03c9",
+              "name": "Towels89385",
+              "amount": 436,
+              "price": 56567,
+              "manufacturer": "Apple",
+              "notes": "hKET8Zdks8FEOhqrDCK7KVVwYipl49h7SKjdrXXcZ7MjmqtGS3kByehtxe0fmmIuuuWiFW6JO9krklLG0l8QxVy8TFL4rGfAkVfPV7CZuLMVVqkQ9sIgW5LPItxdUnYxJnqGSU3QVCShF13AaabSc98KXFcMJENH9lFVem3uTb9KoIa0husYMfOZJwmeqL1TsEK3NTreWW6SoKPjCfzlfcHrvuKFoFjrQDCWaBASp2TW8Hsc2OHkDkOvai",
+              "received": false
+            },
+            {
+              "_id": "694872251c508c5d5eef0410",
+              "name": "Bike45259",
+              "amount": 233,
+              "price": 8692,
+              "manufacturer": "Apple",
+              "notes": "FaMhHw0xxBQ7SGpsDCm4Zfs9oqBbaRQcS06QANHQ395Kusif1Odb0YufFib00hpiqyDu6d8lyQJN1e9Wh9jt16qYQRrS68b0DxOSvuH6Vrbzssj58cB9W5pFXAhEc5mdw1lI496RsKyG6aT3hKAfWerTQv7vhzpFme6WLsIVCRp3ix37rxFWgiZH3r8lbZGdcgc4UJiKd9RLC5hAynUy98fGAEToUIS2NqN4MOvN2qMcIAVDwyNevsqlhr",
+              "received": false
+            }
+          ],
+          "total_price": 65259,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:18:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

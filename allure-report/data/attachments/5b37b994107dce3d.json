@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:17:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2948",
+    "etag": "W/\"b84-RGwLFXwEXqRkkUexIPq/ooamkFI\"",
+    "keep-alive": "timeout=5, max=62",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694871e41c508c5d5eeed68a",
+      "status": "Draft",
+      "customer": {
+        "_id": "694871e31c508c5d5eeed4de",
+        "email": "Annalise.Kohler30@hotmail.com",
+        "name": "Carlo Rice",
+        "country": "Russia",
+        "city": "Leoniebury",
+        "street": "Heller Ford",
+        "house": 43,
+        "flat": 136,
+        "phone": "+17094786596",
+        "createdOn": "2025-12-21T22:17:07.000Z",
+        "notes": "GV1q0O9C4NSiGkZ4WBNFyhx3gzXymJQRyMy2C5OXxjQNwwPt5JrFs7rX0ALk0Iu5B8QlTsV5Azql4XwlQBSqZBBZ7KhVprZ8ChCwTbEHQ7200BJ6Ox9CVryDq09X7YFr4RDaUBGqjbwMlyHNlnHpBQkFp2RmNfxYGBFtDVAnpmCHYxqf3SHv126oMTKX4WE10IQIbRhcmpq8SG7HKmQUnfQCvOsD2qCekeV0VHbjiVyeg0kGn8okerOBlB"
+      },
+      "products": [
+        {
+          "_id": "694871e31c508c5d5eeed506",
+          "name": "Gloves19656",
+          "amount": 883,
+          "price": 23659,
+          "manufacturer": "Amazon",
+          "notes": "qF4WKD3KMhaWyIISFJVhRaTiksL0u3xjIqmi3skoDbqbmfTcSiHHhZiifoOsxVZyUbK0n5iKhn4jYKvpZJZaPiqXxj6zaXcGrMcA1kQReEdRzvJ6LfUXqTbA2CVnVphEPKYaxVVOXRboKujdjn7kffnew35CG6AF25YDCaIdXtcHdINLrLF6IVT3LXEO7GeIj0FQBMVKgJLhb5lr1Jjr2DSpJ6SC0p669vTZp4M1MmuIQ3WJx8kiF2XQZM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Kevonside",
+          "street": "Cleora Fall",
+          "house": 7,
+          "flat": 344
+        },
+        "finalDate": "2025-12-21T22:17:10.105Z",
+        "condition": "Pickup"
+      },
+      "total_price": 23659,
+      "createdOn": "2025-12-21T22:17:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694871e31c508c5d5eeed4de",
+          "products": [
+            {
+              "_id": "694871e31c508c5d5eeed506",
+              "name": "Gloves19656",
+              "amount": 883,
+              "price": 23659,
+              "manufacturer": "Amazon",
+              "notes": "qF4WKD3KMhaWyIISFJVhRaTiksL0u3xjIqmi3skoDbqbmfTcSiHHhZiifoOsxVZyUbK0n5iKhn4jYKvpZJZaPiqXxj6zaXcGrMcA1kQReEdRzvJ6LfUXqTbA2CVnVphEPKYaxVVOXRboKujdjn7kffnew35CG6AF25YDCaIdXtcHdINLrLF6IVT3LXEO7GeIj0FQBMVKgJLhb5lr1Jjr2DSpJ6SC0p669vTZp4M1MmuIQ3WJx8kiF2XQZM",
+              "received": false
+            }
+          ],
+          "total_price": 23659,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Kevonside",
+              "street": "Cleora Fall",
+              "house": 7,
+              "flat": 344
+            },
+            "finalDate": "2025-12-21T22:17:10.105Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T22:17:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694871e31c508c5d5eeed4de",
+          "products": [
+            {
+              "_id": "694871e31c508c5d5eeed506",
+              "name": "Gloves19656",
+              "amount": 883,
+              "price": 23659,
+              "manufacturer": "Amazon",
+              "notes": "qF4WKD3KMhaWyIISFJVhRaTiksL0u3xjIqmi3skoDbqbmfTcSiHHhZiifoOsxVZyUbK0n5iKhn4jYKvpZJZaPiqXxj6zaXcGrMcA1kQReEdRzvJ6LfUXqTbA2CVnVphEPKYaxVVOXRboKujdjn7kffnew35CG6AF25YDCaIdXtcHdINLrLF6IVT3LXEO7GeIj0FQBMVKgJLhb5lr1Jjr2DSpJ6SC0p669vTZp4M1MmuIQ3WJx8kiF2XQZM",
+              "received": false
+            }
+          ],
+          "total_price": 23659,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:17:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

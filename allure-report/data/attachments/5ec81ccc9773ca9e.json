@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:17:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-PqmjbhnP2W+eIt8dFWv18tfrzYg\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6948720e1c508c5d5eeef4da",
+        "email": "Rylee.Wunsch@hotmail.com",
+        "name": "Thea Moen",
+        "country": "Great Britain",
+        "city": "East Auroreport",
+        "street": "N 6th Street",
+        "house": 27,
+        "flat": 253,
+        "phone": "+12516457050",
+        "createdOn": "2025-12-21T22:17:50.000Z",
+        "notes": "JJoQTo4AykdWrqN8ucPahduvzHXJ8dUvIxRXqvGLrCWh82fvThpFrXY2LNnQ0mfRo7rlWsSNJ5PChYYnmMlVIU7A0Tk3aFyGZPokpv4KvPFTgJWyaoBckLxHrKBNgYWaXe6TVoZB2ZlQMR1dOV9A2lFXOVS7y6dyXaqpXIEaBfPYZaPrWkhgkakzfz9nGYsLcjqOI2s7PAXpGtFRB86iock20n4VcX17vv8jzyMg1L1ocGAvyyrzIF04S0"
+      },
+      "products": [
+        {
+          "_id": "6948720f1c508c5d5eeef516",
+          "name": "Shirt55146",
+          "amount": 135,
+          "price": 26263,
+          "manufacturer": "Tesla",
+          "notes": "P5CnhZF5RQ785vgZ2ZwsxnQSMoN27j48MMGlXQa8O24C3Y2SUW9OWqJKH3BAlgkQPIe5KDu1i4Xrm2lmxU2A97RkX1yTXIsRICBAG15t4YN4zoKmqaLYzcUcXeZF61iABnsWQY5iDNOPBTJl5wE1JbW5tGBJ1pCz9Ls63hRP82X1m01DwMDCRGtVikiIxnPSMw8Tq0iwtouM7pgszThPYhmpC78NHfDDFbr1KYncn4sXlX7WRB4IqCqkEd",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 26263,
+      "createdOn": "2025-12-21T22:17:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6948720e1c508c5d5eeef4da",
+          "products": [
+            {
+              "_id": "6948720f1c508c5d5eeef516",
+              "name": "Shirt55146",
+              "amount": 135,
+              "price": 26263,
+              "manufacturer": "Tesla",
+              "notes": "P5CnhZF5RQ785vgZ2ZwsxnQSMoN27j48MMGlXQa8O24C3Y2SUW9OWqJKH3BAlgkQPIe5KDu1i4Xrm2lmxU2A97RkX1yTXIsRICBAG15t4YN4zoKmqaLYzcUcXeZF61iABnsWQY5iDNOPBTJl5wE1JbW5tGBJ1pCz9Ls63hRP82X1m01DwMDCRGtVikiIxnPSMw8Tq0iwtouM7pgszThPYhmpC78NHfDDFbr1KYncn4sXlX7WRB4IqCqkEd",
+              "received": false
+            }
+          ],
+          "total_price": 26263,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:17:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6948720f1c508c5d5eeef567"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

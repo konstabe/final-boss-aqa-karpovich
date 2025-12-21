@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:17:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3434",
+    "etag": "W/\"d6a-UpOHSkQB7CTQKPLxmPb8FBiL7DE\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694871d91c508c5d5eeecd93",
+        "email": "Yazmin_Anderson39@hotmail.com",
+        "name": "Eunice Rutherford",
+        "country": "Ukraine",
+        "city": "North Fernando",
+        "street": "Braun Road",
+        "house": 4,
+        "flat": 811,
+        "phone": "+14917973463",
+        "createdOn": "2025-12-21T22:16:57.000Z",
+        "notes": "0RPpqKlqNpR3ZtlTPgU5qEP1CyviP7U9tlG8mHvtACydrhLhk4QMpeh2cj5aysXuXaEd5DrfLptMyRBPlG0cvDFpLL5nPJQt5fTmPNiH9UHLrXISHo49YZjq7r2KwcUDMcKyvBkx36Nt9zPJRs0Nh8Mf34LdxAXudC3ImmWEq7ldPvwhDHyoOFJknpW2f76fI8LeHqUfpwdvJTo4bmyLzKj8hzlw8l0wICf6QXgvwheF85LrXc8ld2rjEx"
+      },
+      "products": [
+        {
+          "_id": "694871dd1c508c5d5eeed05a",
+          "name": "Bike96183",
+          "amount": 592,
+          "price": 765,
+          "manufacturer": "Xiaomi",
+          "notes": "nIN3d2Ocno3F56qkl12r1dJPflh5BWX36ijS9tf04bkU2FG6ZNXuL0PYJryyFby9UjRssBmGHZOdnGcLj55gsurYvHDclC0OUz1fhdbNGRH27WQnjclzF5vDmGT18deXIbIZzqMKZbx3uL5N5djGIJnZhZJ1xG6mRa0qXN6ectKVtudYIt7FhPW5XRHTbCojtxmv2y1GvJHRil9k08abTJ0g9YgtIQLoijKSJjU0a13fBMMoHJShpTVfCu",
+          "received": false
+        },
+        {
+          "_id": "694871df1c508c5d5eeed1d5",
+          "name": "Sausages70184",
+          "amount": 269,
+          "price": 24168,
+          "manufacturer": "Samsung",
+          "notes": "q4hAKtyEmjcmMrsPxZbQMot7dHjLf5q9UZGTGulLqfprlp1zwbcffCaeAen1xkDsvuHKGDt7UgVRj9KRLtEqGNGQvAxnGurdksuVi4CdL2WufK4G2uZzE3gYuvDIJ6tjfNQ6xhvp2rhM8iB3Z3Nb4zHvcjOxYk83HSwtMy3WvTnoCQbwAgbcB9gngjnxaHEmDXEvo4Z8wCUI8AjEQbVHbZJpTBQBKLT6vsXhvEVTAzY77LE28dnQ9qxUgh",
+          "received": false
+        },
+        {
+          "_id": "694871e11c508c5d5eeed364",
+          "name": "Towels11147",
+          "amount": 386,
+          "price": 71117,
+          "manufacturer": "Xiaomi",
+          "notes": "L91vGn5GvV0aMPFWMmZZUWzPViakvgEwFZUGdXPMt6cj0wn17a3jkMp7w8cSUq8CWy5LTxggJdgePVNLh10R8nm8cwZxBKZk9Lzr7fOtjTUUh2lRb3iR3KIRyU5AX1AdZNWWBOjx8ilVFBLyV1hIRhcvw3qNU9u6leE7CrjQiZAPakCKXgN4b6WSHkWW7OsLpyue2I8xdEMi1oXimD0onNoVbs7BRsLg970zh1XqvF4XpaDQA0aVQtlX0t",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 96050,
+      "createdOn": "2025-12-21T22:17:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694871d91c508c5d5eeecd93",
+          "products": [
+            {
+              "_id": "694871dd1c508c5d5eeed05a",
+              "name": "Bike96183",
+              "amount": 592,
+              "price": 765,
+              "manufacturer": "Xiaomi",
+              "notes": "nIN3d2Ocno3F56qkl12r1dJPflh5BWX36ijS9tf04bkU2FG6ZNXuL0PYJryyFby9UjRssBmGHZOdnGcLj55gsurYvHDclC0OUz1fhdbNGRH27WQnjclzF5vDmGT18deXIbIZzqMKZbx3uL5N5djGIJnZhZJ1xG6mRa0qXN6ectKVtudYIt7FhPW5XRHTbCojtxmv2y1GvJHRil9k08abTJ0g9YgtIQLoijKSJjU0a13fBMMoHJShpTVfCu",
+              "received": false
+            },
+            {
+              "_id": "694871df1c508c5d5eeed1d5",
+              "name": "Sausages70184",
+              "amount": 269,
+              "price": 24168,
+              "manufacturer": "Samsung",
+              "notes": "q4hAKtyEmjcmMrsPxZbQMot7dHjLf5q9UZGTGulLqfprlp1zwbcffCaeAen1xkDsvuHKGDt7UgVRj9KRLtEqGNGQvAxnGurdksuVi4CdL2WufK4G2uZzE3gYuvDIJ6tjfNQ6xhvp2rhM8iB3Z3Nb4zHvcjOxYk83HSwtMy3WvTnoCQbwAgbcB9gngjnxaHEmDXEvo4Z8wCUI8AjEQbVHbZJpTBQBKLT6vsXhvEVTAzY77LE28dnQ9qxUgh",
+              "received": false
+            },
+            {
+              "_id": "694871e11c508c5d5eeed364",
+              "name": "Towels11147",
+              "amount": 386,
+              "price": 71117,
+              "manufacturer": "Xiaomi",
+              "notes": "L91vGn5GvV0aMPFWMmZZUWzPViakvgEwFZUGdXPMt6cj0wn17a3jkMp7w8cSUq8CWy5LTxggJdgePVNLh10R8nm8cwZxBKZk9Lzr7fOtjTUUh2lRb3iR3KIRyU5AX1AdZNWWBOjx8ilVFBLyV1hIRhcvw3qNU9u6leE7CrjQiZAPakCKXgN4b6WSHkWW7OsLpyue2I8xdEMi1oXimD0onNoVbs7BRsLg970zh1XqvF4XpaDQA0aVQtlX0t",
+              "received": false
+            }
+          ],
+          "total_price": 96050,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:17:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694871e31c508c5d5eeed4ee"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

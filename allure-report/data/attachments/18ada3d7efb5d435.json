@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:16:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-h2pbDj1sg8g75t9xN5HjpWa87a4\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694871c61c508c5d5eeebf09",
+        "email": "Noemi.West79@yahoo.com",
+        "name": "Brady Mraz",
+        "country": "Great Britain",
+        "city": "El Paso",
+        "street": "Barrows Heights",
+        "house": 45,
+        "flat": 699,
+        "phone": "+14046875965",
+        "createdOn": "2025-12-21T22:16:38.000Z",
+        "notes": "oarxrZ4mPhqfSYqbkIkWF34KAwWyeUroRgi1DSrgWs6DZ6vmur5NdHpWxola9xGJ36Aad0VciijH0fXZ3LJqq31xziwe2dYmSkEWaIvyojq7immdu2Di0NJxvxL8f71tJeruylttgeMUTPMzxkvps7zm9ebx4GjAIJ8qPGUq07HAWObAl3nYoO2BLH262tttqnuuXnppdMi64ab89CPguLOIhbXkzqXRkAsJHMq2Yn6oNO1qHNwnBPfjJS"
+      },
+      "products": [
+        {
+          "_id": "694871cb1c508c5d5eeec32a",
+          "name": "Ball86486",
+          "amount": 204,
+          "price": 35829,
+          "manufacturer": "Microsoft",
+          "notes": "xeyBr5AZrP14sFPcupXI68oYlVFYKjCr09qIY4xmW1KrLZFHYxTeINR5Y007RdU3JJ124cPZGwxS1CJve4k6804SPpxowUldiD4bD3ChNCzlhPrQge8sRlUb1txoV6GiOVIVKN7lWEJnYJSZKZPoCritJ95ppln7h2QVHppDPHiv32JdrUkS5audti6aR6Etacj1GhGDTUNWeMu1BBWtuhiRGLwWtCEd3RIT4LZtaFosNGObbUedZI4qm8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35829,
+      "createdOn": "2025-12-21T22:16:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694871c61c508c5d5eeebf09",
+          "products": [
+            {
+              "_id": "694871cb1c508c5d5eeec32a",
+              "name": "Ball86486",
+              "amount": 204,
+              "price": 35829,
+              "manufacturer": "Microsoft",
+              "notes": "xeyBr5AZrP14sFPcupXI68oYlVFYKjCr09qIY4xmW1KrLZFHYxTeINR5Y007RdU3JJ124cPZGwxS1CJve4k6804SPpxowUldiD4bD3ChNCzlhPrQge8sRlUb1txoV6GiOVIVKN7lWEJnYJSZKZPoCritJ95ppln7h2QVHppDPHiv32JdrUkS5audti6aR6Etacj1GhGDTUNWeMu1BBWtuhiRGLwWtCEd3RIT4LZtaFosNGObbUedZI4qm8",
+              "received": false
+            }
+          ],
+          "total_price": 35829,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:16:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694871cf1c508c5d5eeec76b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

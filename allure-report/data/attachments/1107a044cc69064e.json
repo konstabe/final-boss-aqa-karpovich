@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:19:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2959",
+    "etag": "W/\"b8f-LiFhLsmaNCixnmlEEaWOjcBP3Gs\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6948727d1c508c5d5eef46f6",
+      "status": "Draft",
+      "customer": {
+        "_id": "6948726c1c508c5d5eef3a2b",
+        "email": "Dorthy_Roberts39@yahoo.com",
+        "name": "Shirley Gislason",
+        "country": "Germany",
+        "city": "East Melvin",
+        "street": "W 1st Street",
+        "house": 6,
+        "flat": 987,
+        "phone": "+15009045510",
+        "createdOn": "2025-12-21T22:19:24.000Z",
+        "notes": "1XlyboNPzQGl84x4U8xWcpGbibDVcOUYhXmosdI8MJR88C6Xy0o7IEPZaWT3in7Ahi1WBJBSKuV5Ro9F37XI0yAwiRVLBFTBf8dgYaiQtWP2F4Y8RsTIsazKWMuMKkGwpwMtk2g8cMVbqIzt30mAC8HmGVG2rRFKUz6TZ2Mjvh2HykeRQs6s1xYSBHPyTRXEzFa0uTMVbBpriXmwfZgkP8yokmh00b7QDR54iKld5M9qW8TaPth4qcYw0M"
+      },
+      "products": [
+        {
+          "_id": "694872701c508c5d5eef3d24",
+          "name": "Gloves75715",
+          "amount": 145,
+          "price": 93032,
+          "manufacturer": "Amazon",
+          "notes": "F9V8naVeWa3y20R2fMyLkXN837WVnavwpWFWDdEx5SD7hqo3zw5tQTtEetbXMPWxHBUbyHTfQGnNFwW5ZGSdytppmem01KlQQ9HmqTzJeGOXc58kj9a7voByTGZC0AotDjdThIfEeTjHbvl5MQ6CpHvr9pIMvMOgyoZTrzYUyj3FOFVQcbRHmyKaMw1UGNUIGaZmXVKVsvitrRD5ABel1UGEmOxyNnDzg7QF7yHE46eJigyJj3HIu56Ltf",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "East Melvin",
+          "street": "W 1st Street",
+          "house": 6,
+          "flat": 987
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 93032,
+      "createdOn": "2025-12-21T22:19:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6948726c1c508c5d5eef3a2b",
+          "products": [
+            {
+              "_id": "694872701c508c5d5eef3d24",
+              "name": "Gloves75715",
+              "amount": 145,
+              "price": 93032,
+              "manufacturer": "Amazon",
+              "notes": "F9V8naVeWa3y20R2fMyLkXN837WVnavwpWFWDdEx5SD7hqo3zw5tQTtEetbXMPWxHBUbyHTfQGnNFwW5ZGSdytppmem01KlQQ9HmqTzJeGOXc58kj9a7voByTGZC0AotDjdThIfEeTjHbvl5MQ6CpHvr9pIMvMOgyoZTrzYUyj3FOFVQcbRHmyKaMw1UGNUIGaZmXVKVsvitrRD5ABel1UGEmOxyNnDzg7QF7yHE46eJigyJj3HIu56Ltf",
+              "received": false
+            }
+          ],
+          "total_price": 93032,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "East Melvin",
+              "street": "W 1st Street",
+              "house": 6,
+              "flat": 987
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T22:19:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6948726c1c508c5d5eef3a2b",
+          "products": [
+            {
+              "_id": "694872701c508c5d5eef3d24",
+              "name": "Gloves75715",
+              "amount": 145,
+              "price": 93032,
+              "manufacturer": "Amazon",
+              "notes": "F9V8naVeWa3y20R2fMyLkXN837WVnavwpWFWDdEx5SD7hqo3zw5tQTtEetbXMPWxHBUbyHTfQGnNFwW5ZGSdytppmem01KlQQ9HmqTzJeGOXc58kj9a7voByTGZC0AotDjdThIfEeTjHbvl5MQ6CpHvr9pIMvMOgyoZTrzYUyj3FOFVQcbRHmyKaMw1UGNUIGaZmXVKVsvitrRD5ABel1UGEmOxyNnDzg7QF7yHE46eJigyJj3HIu56Ltf",
+              "received": false
+            }
+          ],
+          "total_price": 93032,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:19:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

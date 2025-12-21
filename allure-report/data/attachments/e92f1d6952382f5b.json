@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:17:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-2fzZu0tB9i4KhHC+34DfFGezPE8\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694871f21c508c5d5eeedf65",
+        "email": "Boyd_Zieme58@hotmail.com",
+        "name": "Haskell Schuster",
+        "country": "USA",
+        "city": "Fort Josefinatown",
+        "street": "Dale Street",
+        "house": 39,
+        "flat": 992,
+        "phone": "+19548975281",
+        "createdOn": "2025-12-21T22:17:22.000Z",
+        "notes": "OBFWsg2KedVJyxCxE54IqSL4Cgh29H1kg0aegPbxl0ij4B3opwUIBDjVexP7xe1Y1gXr2o5dU3i0eNKFduteJiS2rMN7wECKe1Mam8yCiT5TOiLPbc3JjCTyCGEWcLwMhVqkUntkVpKr9V1kw03WxH4wUQ42bw4w2QNRifNOyYP8jv2Lnrmz4MvDufdIGGeVcjxxBN7fbf1icfblDvobHILKsXUJEqtCJ0X87SkgmoWzabufI2HZylDn8L"
+      },
+      "products": [
+        {
+          "_id": "694871f41c508c5d5eeee0eb",
+          "name": "Bike7317",
+          "amount": 834,
+          "price": 80884,
+          "manufacturer": "Microsoft",
+          "notes": "u1tBflDQPaW6vRqKVge1nApeKML145XgGWUp1Jl0hZ3UfJL2FMTxGgrTqzZj1SKWZeqCQJzIqSunXwgTuUtyONgiPILxyinDa8K419ww7Q51FvUB3KmArT0sYt0fDbOKBfz3De6xnUfWHl3WtBvRLSI0oJlTtDOGpcLHRj8xMuFmyYRvjrRAnb2QUeLma7fHjfVw4nxET3Ei58jB3GLEfYVWXQhQUsUVHkofcBkwIrciIXmY0MaqZiQc9h",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 80884,
+      "createdOn": "2025-12-21T22:17:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694871f21c508c5d5eeedf65",
+          "products": [
+            {
+              "_id": "694871f41c508c5d5eeee0eb",
+              "name": "Bike7317",
+              "amount": 834,
+              "price": 80884,
+              "manufacturer": "Microsoft",
+              "notes": "u1tBflDQPaW6vRqKVge1nApeKML145XgGWUp1Jl0hZ3UfJL2FMTxGgrTqzZj1SKWZeqCQJzIqSunXwgTuUtyONgiPILxyinDa8K419ww7Q51FvUB3KmArT0sYt0fDbOKBfz3De6xnUfWHl3WtBvRLSI0oJlTtDOGpcLHRj8xMuFmyYRvjrRAnb2QUeLma7fHjfVw4nxET3Ei58jB3GLEfYVWXQhQUsUVHkofcBkwIrciIXmY0MaqZiQc9h",
+              "received": false
+            }
+          ],
+          "total_price": 80884,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:17:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694871f61c508c5d5eeee3c8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

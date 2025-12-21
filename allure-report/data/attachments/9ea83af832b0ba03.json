@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:20:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3419",
+    "etag": "W/\"d5b-c9EmxFMUuM9khEjbyjgW4xMzm00\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694872991c508c5d5eef5cbd",
+        "email": "Bennett91@yahoo.com",
+        "name": "Lester Kozey",
+        "country": "USA",
+        "city": "Deshauntown",
+        "street": "Airport Road",
+        "house": 41,
+        "flat": 522,
+        "phone": "+15537431614",
+        "createdOn": "2025-12-21T22:20:09.000Z",
+        "notes": "MbMyeYQ3CfYHiv5gTyWKXbLOf0FSW6a0s6euFeqjBNVftK6gfSQFkjFKkTJK0Z8NYllhMjm52sqPJ6SGirsc8rBmlQF98v2E2EMuzKb7KK3ESS6jrB1HgUSzd4l7dKa3pQNEdiGQ0PnL5f7DbABrhD9lsuVBvQU8S24F1UJtJ7kTpuMg9v0PtLrCXZH9W3wqr8CLzIpUjgiFM7hSMGZcYegYaQcqcvf3jFMzBM6lte0V710W6Z6m1Lc9jd"
+      },
+      "products": [
+        {
+          "_id": "694872991c508c5d5eef5cd3",
+          "name": "Keyboard48667",
+          "amount": 408,
+          "price": 2814,
+          "manufacturer": "Samsung",
+          "notes": "gI85vrIz0wQBky7tzPgWeAGLpmq3uYyPL6GGFaqI3652gbGUGVLPzAHd13k2xKEz8AFr480dAj5KYKZTGCRm6gXFuRgW3AQLYYu7MUwDSIrSiK10SUroOCxTbI99TyoktPCRU6jV4x1qUkOPPMOXdLF2hb9qILSVdPxOd7f2Hoqm5BgjATXdt4fSPiAU7uBHrxRmvV2Bx7Ohjs8OFDuDQikdrdY9fCgRVHSrPiuDYUaj8qHnQArGIeV0fz",
+          "received": false
+        },
+        {
+          "_id": "6948729a1c508c5d5eef5cfc",
+          "name": "Keyboard81235",
+          "amount": 112,
+          "price": 25180,
+          "manufacturer": "Tesla",
+          "notes": "n8qSrdOz48c7Ge1PTY5FiXgY375mmxypM8y7mCsXIC3JjAj9l9pona3yP5dRV1ZT6svBcnyIerz0lH4pjK2zQdx0A7UZiDCg3Cnn5MTIqZXsyb1RSiCDJHrCOWNuQhRlwH3qigPQZ3XXE3sJue5hF19a6veAu9iMjtaPRWZH0Nmmq9yflaGqaVjTdlp2LxH4IzErX9o8e51Z3r0TqDLvHISbncf7n8za4xmbSlLBQpREzPmZH3dxIEEapa",
+          "received": false
+        },
+        {
+          "_id": "6948729a1c508c5d5eef5d1a",
+          "name": "Pants35987",
+          "amount": 946,
+          "price": 71796,
+          "manufacturer": "Apple",
+          "notes": "m4K0DJaQTmE3OMOOqQDcWvz0WFD8BYzMahiTaNHKDNdTJ39hVpJkBZRNTdET1DtP93lmEntGrq5rc3Nvwn52v24ryTBMkwFRHIFx1UCuObgl3IpNVLCezFAy41Lx3Cq31Ei6xMVDnIv9Wqsf2YQVvlRVdxdEKkIlqQkuBIj9pvZe8NiYN67qWJxqYXELFJd4RUuqV1eh1AfCckWxcqYZSbuAm3MpK5SyKMyffZFuPhV85rApHxBMACUJ5W",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 99790,
+      "createdOn": "2025-12-21T22:20:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694872991c508c5d5eef5cbd",
+          "products": [
+            {
+              "_id": "694872991c508c5d5eef5cd3",
+              "name": "Keyboard48667",
+              "amount": 408,
+              "price": 2814,
+              "manufacturer": "Samsung",
+              "notes": "gI85vrIz0wQBky7tzPgWeAGLpmq3uYyPL6GGFaqI3652gbGUGVLPzAHd13k2xKEz8AFr480dAj5KYKZTGCRm6gXFuRgW3AQLYYu7MUwDSIrSiK10SUroOCxTbI99TyoktPCRU6jV4x1qUkOPPMOXdLF2hb9qILSVdPxOd7f2Hoqm5BgjATXdt4fSPiAU7uBHrxRmvV2Bx7Ohjs8OFDuDQikdrdY9fCgRVHSrPiuDYUaj8qHnQArGIeV0fz",
+              "received": false
+            },
+            {
+              "_id": "6948729a1c508c5d5eef5cfc",
+              "name": "Keyboard81235",
+              "amount": 112,
+              "price": 25180,
+              "manufacturer": "Tesla",
+              "notes": "n8qSrdOz48c7Ge1PTY5FiXgY375mmxypM8y7mCsXIC3JjAj9l9pona3yP5dRV1ZT6svBcnyIerz0lH4pjK2zQdx0A7UZiDCg3Cnn5MTIqZXsyb1RSiCDJHrCOWNuQhRlwH3qigPQZ3XXE3sJue5hF19a6veAu9iMjtaPRWZH0Nmmq9yflaGqaVjTdlp2LxH4IzErX9o8e51Z3r0TqDLvHISbncf7n8za4xmbSlLBQpREzPmZH3dxIEEapa",
+              "received": false
+            },
+            {
+              "_id": "6948729a1c508c5d5eef5d1a",
+              "name": "Pants35987",
+              "amount": 946,
+              "price": 71796,
+              "manufacturer": "Apple",
+              "notes": "m4K0DJaQTmE3OMOOqQDcWvz0WFD8BYzMahiTaNHKDNdTJ39hVpJkBZRNTdET1DtP93lmEntGrq5rc3Nvwn52v24ryTBMkwFRHIFx1UCuObgl3IpNVLCezFAy41Lx3Cq31Ei6xMVDnIv9Wqsf2YQVvlRVdxdEKkIlqQkuBIj9pvZe8NiYN67qWJxqYXELFJd4RUuqV1eh1AfCckWxcqYZSbuAm3MpK5SyKMyffZFuPhV85rApHxBMACUJ5W",
+              "received": false
+            }
+          ],
+          "total_price": 99790,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:20:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6948729b1c508c5d5eef5d77"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

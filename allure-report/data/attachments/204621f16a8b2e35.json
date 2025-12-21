@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:16:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2674",
+    "etag": "W/\"a72-ZD38uClQmBFxaDaXIGLiVOXoOJg\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694871aa1c508c5d5eeeac28",
+        "email": "Geovany_Hansen@yahoo.com",
+        "name": "Rafael Witting",
+        "country": "Canada",
+        "city": "Lake Nicolettehaven",
+        "street": "Larson Parkways",
+        "house": 39,
+        "flat": 850,
+        "phone": "+18652835891",
+        "createdOn": "2025-12-21T22:16:10.000Z",
+        "notes": "3EiyQAxgtK4cOQDbqjBNh8TxwMJULW9pidtbKLtDN8yOaOmnwDOmy1qjblw2BBmu1XNKcAtFl9mNVaghz4p4aclMTScZcrBzfrZnc0l92W7VICTwp6zs3FU4eeZZSAmvFYwyKK7tj6c8zvrHXnpHw0QtZ20UAuz3spX1FIFOkA9Pve4BhUEqZfivK691JH7VsLuVze0YVXzjUz1GEvYyAgO6Wz32IjT5rdwEXXzSTvR5ZcksSB1MXPJQV2"
+      },
+      "products": [
+        {
+          "_id": "694871ab1c508c5d5eeeac75",
+          "name": "Keyboard67957",
+          "amount": 63,
+          "price": 45428,
+          "manufacturer": "Tesla",
+          "notes": "ZqV9WT86DM4H72wFaUZ0Mgm48B6G4sLcloxf9pKqtlB84zYNZj0udk3DUVZBKjw8NW9uNnqKrzhS1TFl4XVMEdL98zphFpE3oY00qWgYE5yIohRJVkJSoFZDJR9l3C3BTGVBf8tnwerFdzQoAQNznnBuIwwGqfG8PsSbfXxoi5L58xO0EnaDXJmYHTmq461PSLVaG6geCfMcJMtaGo7TsYOlsDNUVcaToubyslgBzlIRwa9Im9PcwJMoZs",
+          "received": false
+        },
+        {
+          "_id": "694871ab1c508c5d5eeeaca0",
+          "name": "Keyboard43409",
+          "amount": 419,
+          "price": 79966,
+          "manufacturer": "Xiaomi",
+          "notes": "Wy386a5r5oMnb129L3w9NeE0pihGWiKP5Cm42TszHN9NqxZuxywPjwRVf9P7Et7wzQwmAer5IEMjo125jHkVvk1TUsr0xpirP45nlK8aST0niMFXoKAOSB20JNoalHhOoXLPZ7zdDAfyfc3GPgkBD5BjCdjehnrAgiRpe0MxmgPeIWItva0RNK2Dz9av1Pr2b3OWCbIVoFs0c4mP3fK1w7zhyjKZbZLFqToufR3wgJ4chZZMIRT4d2W47R",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 125394,
+      "createdOn": "2025-12-21T22:16:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694871aa1c508c5d5eeeac28",
+          "products": [
+            {
+              "_id": "694871ab1c508c5d5eeeac75",
+              "name": "Keyboard67957",
+              "amount": 63,
+              "price": 45428,
+              "manufacturer": "Tesla",
+              "notes": "ZqV9WT86DM4H72wFaUZ0Mgm48B6G4sLcloxf9pKqtlB84zYNZj0udk3DUVZBKjw8NW9uNnqKrzhS1TFl4XVMEdL98zphFpE3oY00qWgYE5yIohRJVkJSoFZDJR9l3C3BTGVBf8tnwerFdzQoAQNznnBuIwwGqfG8PsSbfXxoi5L58xO0EnaDXJmYHTmq461PSLVaG6geCfMcJMtaGo7TsYOlsDNUVcaToubyslgBzlIRwa9Im9PcwJMoZs",
+              "received": false
+            },
+            {
+              "_id": "694871ab1c508c5d5eeeaca0",
+              "name": "Keyboard43409",
+              "amount": 419,
+              "price": 79966,
+              "manufacturer": "Xiaomi",
+              "notes": "Wy386a5r5oMnb129L3w9NeE0pihGWiKP5Cm42TszHN9NqxZuxywPjwRVf9P7Et7wzQwmAer5IEMjo125jHkVvk1TUsr0xpirP45nlK8aST0niMFXoKAOSB20JNoalHhOoXLPZ7zdDAfyfc3GPgkBD5BjCdjehnrAgiRpe0MxmgPeIWItva0RNK2Dz9av1Pr2b3OWCbIVoFs0c4mP3fK1w7zhyjKZbZLFqToufR3wgJ4chZZMIRT4d2W47R",
+              "received": false
+            }
+          ],
+          "total_price": 125394,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:16:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694871ac1c508c5d5eeeae49"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

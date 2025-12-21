@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:17:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-sfhkbS6DdzzHcKkz7sI1WOJ9r1Q\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694871dd1c508c5d5eeed05e",
+        "email": "Karolann.Kuvalis@yahoo.com",
+        "name": "Susan Ullrich",
+        "country": "Canada",
+        "city": "Robertsburgh",
+        "street": "Barton Road",
+        "house": 27,
+        "flat": 355,
+        "phone": "+14278571217",
+        "createdOn": "2025-12-21T22:17:01.000Z",
+        "notes": "qM62gPMqcZgX6HYK992hEIsnlmMbetOYfBcdTQ25LxXWE80tGqseXUWW5Af1awqqtBtG0MVTmf5XkIuNQ1Y1Mg3R1EPRIyGCxyODCsv8k1NLrjUq5UNzBMth8PGyqAR1ILkCf9OuFHkBbfkdhiPqNoPvmvY4iS285RsPPSiQP7ckdSBb3xidGIf2tXAj8UKK9OAjdb26YSO7PdOE5vsWLbKMIo65uvTbdRpyu2wPJ7atv1T6YlE5Fe7ZN7"
+      },
+      "products": [
+        {
+          "_id": "694871df1c508c5d5eeed1d7",
+          "name": "Salad1691",
+          "amount": 211,
+          "price": 45525,
+          "manufacturer": "Apple",
+          "notes": "bX5lvJYZ3GAwquunZJiEId5AHbCTzCLug6UqbIaMB6E69juzHaIYlM0NFmur4NSPfXbhE9xRx9fPq74nJGFAJ86kRRWXBNI4m26xrzGVbpya1SoGxvVgENRaPf9irYr4xzxH4ThgXnWJi16WlNSY9GkgZNHLZWmQsFuk6VxAqLUj9pYypzW1PSN5N62tChneKLcpalNLdktEMzai3L7sKm5kOpfuBvy2SXwPJQxfOzTLh392athOmdXYKU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 45525,
+      "createdOn": "2025-12-21T22:17:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694871dd1c508c5d5eeed05e",
+          "products": [
+            {
+              "_id": "694871df1c508c5d5eeed1d7",
+              "name": "Salad1691",
+              "amount": 211,
+              "price": 45525,
+              "manufacturer": "Apple",
+              "notes": "bX5lvJYZ3GAwquunZJiEId5AHbCTzCLug6UqbIaMB6E69juzHaIYlM0NFmur4NSPfXbhE9xRx9fPq74nJGFAJ86kRRWXBNI4m26xrzGVbpya1SoGxvVgENRaPf9irYr4xzxH4ThgXnWJi16WlNSY9GkgZNHLZWmQsFuk6VxAqLUj9pYypzW1PSN5N62tChneKLcpalNLdktEMzai3L7sKm5kOpfuBvy2SXwPJQxfOzTLh392athOmdXYKU",
+              "received": false
+            }
+          ],
+          "total_price": 45525,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:17:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694871e11c508c5d5eeed36d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

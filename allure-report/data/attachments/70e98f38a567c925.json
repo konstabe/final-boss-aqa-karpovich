@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:18:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3439",
+    "etag": "W/\"d6f-+F2k3i9jRXmgpQ3JG017FYkHquE\"",
+    "keep-alive": "timeout=5, max=48",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694872231c508c5d5eef0353",
+        "email": "Cleve.White-Gutkowski83@hotmail.com",
+        "name": "Robbie Boyle",
+        "country": "Belarus",
+        "city": "East Lenoreburgh",
+        "street": "Grove Road",
+        "house": 2,
+        "flat": 741,
+        "phone": "+14402659524",
+        "createdOn": "2025-12-21T22:18:11.000Z",
+        "notes": "loGrPuNF4i6zr1oKO1MgOtVEYmbyuEKwaObE4Ek3LvC6jWu2YiWO147IQi5k3lU0ijyVKZiM7ijS6aCVQar6plUbrFuFmI7YFBSbj8GVVntukqGhCehGvCI6qoQhFA2Il125XBujWnzVkcn87a6RoEMRvUcni3cc47V447oq0FP8MjBTEa1i6m7BYe8MogbdsYL2IXgPwf2c2XnBaFKOyzsIyapgezHVaAabIplBtGRbh6QdBuMxr3RqUu"
+      },
+      "products": [
+        {
+          "_id": "694872231c508c5d5eef037d",
+          "name": "Sausages6828",
+          "amount": 944,
+          "price": 49902,
+          "manufacturer": "Samsung",
+          "notes": "1oupFNYC4Py5NuCgNBYXpzGaMBstVM9Sk26hsoBugYqQ8dgPV0GWwdHINEWrEJW9AOh60Jz6owLDp6e7UkR5HrwPGiHP5lTgbqJ4aDln750NGwFg9cj2UfwFuTjmH7nwC53c55RIpgd4E3T4ktFtnxAL0Qa4XHsZrgBDvppycLiD1Iumcbx58t3G5EIdtMKmdTMQ0JyRyt51MnbGkq4NUJJDDQ64NrF2yBGvA88KQlNqid6Cw32mmP7Ddy",
+          "received": false
+        },
+        {
+          "_id": "694872231c508c5d5eef0397",
+          "name": "Sausages14840",
+          "amount": 132,
+          "price": 49525,
+          "manufacturer": "Sony",
+          "notes": "LhZGLP0RPQ7RpIeyg2JuUm4pudXiLlaXyXmSjcZb42a47JTu5oa0HAkozSBJFlkmj9neZSYiIZOAEpUrtYoOikR0HDZNa8aqVvDzfwjjB7UTL5MhhgD2y7FzLsPyj4IqQORvzDZi3oq7fhRq8X5eQ5yF7ZETCYdlkurXjCa0UreYyeAJNX2xWI51UHvn0FUl4NHL4iYn9mjyyV7s55Um6UMvl071CQzDEAduzhNW2iCQs2BUOrbxgYTcXL",
+          "received": false
+        },
+        {
+          "_id": "694872241c508c5d5eef03b7",
+          "name": "Hat53161",
+          "amount": 73,
+          "price": 64086,
+          "manufacturer": "Samsung",
+          "notes": "jytZSGMmIjxDfhYTh9YvzT1d1hBciggosOS2mj9uFYXwDIpmBOfNW2RVQe4KTN22hQcUjemwqcM8fHPT9xsb4v9AfNi0KebO3l8cyQGVmH3ZrNLJuL1SaxqOqz1ozKLuLUkSq3bavPYAWtOrvqvr75kpnaqKrxsywCEUboyZAMKZry3dMj9hDhDquskczZlF2c97DnVkWIosGZ34d2H7jJe7ieyvuxUlFpNCycee3GTyvoKGcfEILO50hp",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 163513,
+      "createdOn": "2025-12-21T22:18:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694872231c508c5d5eef0353",
+          "products": [
+            {
+              "_id": "694872231c508c5d5eef037d",
+              "name": "Sausages6828",
+              "amount": 944,
+              "price": 49902,
+              "manufacturer": "Samsung",
+              "notes": "1oupFNYC4Py5NuCgNBYXpzGaMBstVM9Sk26hsoBugYqQ8dgPV0GWwdHINEWrEJW9AOh60Jz6owLDp6e7UkR5HrwPGiHP5lTgbqJ4aDln750NGwFg9cj2UfwFuTjmH7nwC53c55RIpgd4E3T4ktFtnxAL0Qa4XHsZrgBDvppycLiD1Iumcbx58t3G5EIdtMKmdTMQ0JyRyt51MnbGkq4NUJJDDQ64NrF2yBGvA88KQlNqid6Cw32mmP7Ddy",
+              "received": false
+            },
+            {
+              "_id": "694872231c508c5d5eef0397",
+              "name": "Sausages14840",
+              "amount": 132,
+              "price": 49525,
+              "manufacturer": "Sony",
+              "notes": "LhZGLP0RPQ7RpIeyg2JuUm4pudXiLlaXyXmSjcZb42a47JTu5oa0HAkozSBJFlkmj9neZSYiIZOAEpUrtYoOikR0HDZNa8aqVvDzfwjjB7UTL5MhhgD2y7FzLsPyj4IqQORvzDZi3oq7fhRq8X5eQ5yF7ZETCYdlkurXjCa0UreYyeAJNX2xWI51UHvn0FUl4NHL4iYn9mjyyV7s55Um6UMvl071CQzDEAduzhNW2iCQs2BUOrbxgYTcXL",
+              "received": false
+            },
+            {
+              "_id": "694872241c508c5d5eef03b7",
+              "name": "Hat53161",
+              "amount": 73,
+              "price": 64086,
+              "manufacturer": "Samsung",
+              "notes": "jytZSGMmIjxDfhYTh9YvzT1d1hBciggosOS2mj9uFYXwDIpmBOfNW2RVQe4KTN22hQcUjemwqcM8fHPT9xsb4v9AfNi0KebO3l8cyQGVmH3ZrNLJuL1SaxqOqz1ozKLuLUkSq3bavPYAWtOrvqvr75kpnaqKrxsywCEUboyZAMKZry3dMj9hDhDquskczZlF2c97DnVkWIosGZ34d2H7jJe7ieyvuxUlFpNCycee3GTyvoKGcfEILO50hp",
+              "received": false
+            }
+          ],
+          "total_price": 163513,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:18:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694872241c508c5d5eef03e5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

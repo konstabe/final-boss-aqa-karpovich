@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:20:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3887",
+    "etag": "W/\"f2f-U1539g8yBqHQ5NT5yqvj6H3NIjQ\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6948729a1c508c5d5eef5d26",
+      "status": "In Process",
+      "customer": {
+        "_id": "694872991c508c5d5eef5cc9",
+        "email": "Malcolm.Harber68@hotmail.com",
+        "name": "Flavio Renner",
+        "country": "Germany",
+        "city": "Wisokyfort",
+        "street": "Lamont Glens",
+        "house": 46,
+        "flat": 149,
+        "phone": "+17302612396",
+        "createdOn": "2025-12-21T22:20:09.000Z",
+        "notes": "5adXpjGc6XEbLOF0eGlOZhyBVFFRpu8QUEoyhot02gnLjaPJdzozS5vM1XXX1jeVunYSkPVnEUTEINJd1IFTS6IZBuhAi81FYbWaecKGzaMNyIlAdolTyAwSyoCMy0bZptSovGkHeHSYRcE83OY9qraxSiLpxbEypeOs1cfZE2yfaWPPTBxTrRauVUVLRMvWT4TRFaRDcRPHEP5ThBMMa1wBQSQNSSp2kuF1FKTGes9R3x0H2Nl1PMuNMb"
+      },
+      "products": [
+        {
+          "_id": "6948729a1c508c5d5eef5cfe",
+          "name": "Hat81455",
+          "amount": 167,
+          "price": 50678,
+          "manufacturer": "Microsoft",
+          "notes": "ld4OTQFMlx0weatmmRLpALBvcPpIO6Q5fg9LHB1Hfr5Kgjq6BnowwCQM8wAfzoecSyaO0ks8vd6am66BjSZs4bWyu7zUqKJbSYFSU6RkGg46qc32TRECPkVLN8BQg18iLLk6307gi0L3uY3WoDeuFsbHS1RDJwsOtknE5NrshVM4OtUKuCYmavpajQashBNZ8cWloVDDiJA6r7uUKEVpsFYfWnvlwPo54IfjczNADlrWJixJqJFSHRk91z",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Wisokyfort",
+          "street": "Lamont Glens",
+          "house": 46,
+          "flat": 149
+        },
+        "finalDate": "2025-12-27T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 50678,
+      "createdOn": "2025-12-21T22:20:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694872991c508c5d5eef5cc9",
+          "products": [
+            {
+              "_id": "6948729a1c508c5d5eef5cfe",
+              "name": "Hat81455",
+              "amount": 167,
+              "price": 50678,
+              "manufacturer": "Microsoft",
+              "notes": "ld4OTQFMlx0weatmmRLpALBvcPpIO6Q5fg9LHB1Hfr5Kgjq6BnowwCQM8wAfzoecSyaO0ks8vd6am66BjSZs4bWyu7zUqKJbSYFSU6RkGg46qc32TRECPkVLN8BQg18iLLk6307gi0L3uY3WoDeuFsbHS1RDJwsOtknE5NrshVM4OtUKuCYmavpajQashBNZ8cWloVDDiJA6r7uUKEVpsFYfWnvlwPo54IfjczNADlrWJixJqJFSHRk91z",
+              "received": false
+            }
+          ],
+          "total_price": 50678,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Wisokyfort",
+              "street": "Lamont Glens",
+              "house": 46,
+              "flat": 149
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T22:20:29.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694872991c508c5d5eef5cc9",
+          "products": [
+            {
+              "_id": "6948729a1c508c5d5eef5cfe",
+              "name": "Hat81455",
+              "amount": 167,
+              "price": 50678,
+              "manufacturer": "Microsoft",
+              "notes": "ld4OTQFMlx0weatmmRLpALBvcPpIO6Q5fg9LHB1Hfr5Kgjq6BnowwCQM8wAfzoecSyaO0ks8vd6am66BjSZs4bWyu7zUqKJbSYFSU6RkGg46qc32TRECPkVLN8BQg18iLLk6307gi0L3uY3WoDeuFsbHS1RDJwsOtknE5NrshVM4OtUKuCYmavpajQashBNZ8cWloVDDiJA6r7uUKEVpsFYfWnvlwPo54IfjczNADlrWJixJqJFSHRk91z",
+              "received": false
+            }
+          ],
+          "total_price": 50678,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Wisokyfort",
+              "street": "Lamont Glens",
+              "house": 46,
+              "flat": 149
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T22:20:11.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694872991c508c5d5eef5cc9",
+          "products": [
+            {
+              "_id": "6948729a1c508c5d5eef5cfe",
+              "name": "Hat81455",
+              "amount": 167,
+              "price": 50678,
+              "manufacturer": "Microsoft",
+              "notes": "ld4OTQFMlx0weatmmRLpALBvcPpIO6Q5fg9LHB1Hfr5Kgjq6BnowwCQM8wAfzoecSyaO0ks8vd6am66BjSZs4bWyu7zUqKJbSYFSU6RkGg46qc32TRECPkVLN8BQg18iLLk6307gi0L3uY3WoDeuFsbHS1RDJwsOtknE5NrshVM4OtUKuCYmavpajQashBNZ8cWloVDDiJA6r7uUKEVpsFYfWnvlwPo54IfjczNADlrWJixJqJFSHRk91z",
+              "received": false
+            }
+          ],
+          "total_price": 50678,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:20:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

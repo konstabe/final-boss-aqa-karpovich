@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:19:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3410",
+    "etag": "W/\"d52-xkfxEkGcHGuq55e3F3vQxPhi77g\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6948725e1c508c5d5eef3094",
+        "email": "Abner79@hotmail.com",
+        "name": "Marjorie Kassulke",
+        "country": "Canada",
+        "city": "Leannonview",
+        "street": "Wilfredo Lights",
+        "house": 41,
+        "flat": 106,
+        "phone": "+17358830322",
+        "createdOn": "2025-12-21T22:19:10.000Z",
+        "notes": "fV4IwNVFfqs9IW279PJh4REMJ4rC7fE6uSAjdAQPrmRl8jfacBfCj5SDPUpbNZMxQSHvwZRQkG81jOLwrLjyxcu85jPoL25FTGO4mAR0TJQsI844gbeOXdSQvEBpJlYg5qowfpWpop72cUA2J2eWgwEQ5uGhTGCB6T1Z9yL8mCf8GoxqmhNsRfwz6eX9zHcSoGMxEckT2Cgs9shYMX5efm7J5MSNfNmmikFtGM2v8Tk88XeMRRKS8INEsm"
+      },
+      "products": [
+        {
+          "_id": "6948725f1c508c5d5eef30ce",
+          "name": "Soap38827",
+          "amount": 986,
+          "price": 54998,
+          "manufacturer": "Sony",
+          "notes": "mahET4JmsyKRqV5mjANoCAXkTjBNP7S1wOYqugX40wREBwyo4txwsA3wEzufUiP9K5kqOhvJdVllPCGOilQV5X4syYFA1XeisqEMzjAZRvfPe0L33jPtauODXFxDC2ZpDF5BgB0dE7nb3q4KQkOYYeOunvc4LSEghI4vQFtPXeKWDouClnE6TzuX0IuyHYNF173f5qpbhNdcxjl8CF9yHiKHBt782Pwt0XecF533X9uh8mMlMfyYlMdOpq",
+          "received": false
+        },
+        {
+          "_id": "6948725f1c508c5d5eef30ef",
+          "name": "Hat57440",
+          "amount": 750,
+          "price": 71202,
+          "manufacturer": "Xiaomi",
+          "notes": "wcV6RIs7GZYXJIfYdPrfOLjVWzwwwi7cs7akvyv0exRdDZwwWirkEiyakXFMmToAhWVohOwzQPAXCINYEdo46d9ED6kf8eJWX0Pwe2qIg0iepFPHtcOm019AfyZlElCJp7AYY16RxGhUpvFPyZeR9GExigcY6V2Z1zh0ztrLSa9YzRtErCi6Lv37aGVzgZFDqN1rPn8OvRYoMYU8DENcrjwe9i4pyAtFKukvGWebSNcpTEWqtmzbUV2EXE",
+          "received": false
+        },
+        {
+          "_id": "6948725f1c508c5d5eef3118",
+          "name": "Soap35401",
+          "amount": 38,
+          "price": 28180,
+          "manufacturer": "Xiaomi",
+          "notes": "qszV9DuAvzcj0LrI1ep7eXFpjYZMgPdTaxLlHb2Lr4TTr5V3W8Saquw5bQKPXCpiC487ffEa1Pt4OBV9vuudZyimlDyBYcjdH90QePLMRvalmV5uM1hR2cYPPZRrreKeKfjoqbs3UpZ0g3hdGFs4Py8jAC60xJVaOmlSyiF8De3g8OF24FB64MZ18YlvSEb965Ei4Gyyu7PhZb85WtpivoNK0dreSGCTo1Dduxcg8E7Mgadzj2suJnIdtj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 154380,
+      "createdOn": "2025-12-21T22:19:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6948725e1c508c5d5eef3094",
+          "products": [
+            {
+              "_id": "6948725f1c508c5d5eef30ce",
+              "name": "Soap38827",
+              "amount": 986,
+              "price": 54998,
+              "manufacturer": "Sony",
+              "notes": "mahET4JmsyKRqV5mjANoCAXkTjBNP7S1wOYqugX40wREBwyo4txwsA3wEzufUiP9K5kqOhvJdVllPCGOilQV5X4syYFA1XeisqEMzjAZRvfPe0L33jPtauODXFxDC2ZpDF5BgB0dE7nb3q4KQkOYYeOunvc4LSEghI4vQFtPXeKWDouClnE6TzuX0IuyHYNF173f5qpbhNdcxjl8CF9yHiKHBt782Pwt0XecF533X9uh8mMlMfyYlMdOpq",
+              "received": false
+            },
+            {
+              "_id": "6948725f1c508c5d5eef30ef",
+              "name": "Hat57440",
+              "amount": 750,
+              "price": 71202,
+              "manufacturer": "Xiaomi",
+              "notes": "wcV6RIs7GZYXJIfYdPrfOLjVWzwwwi7cs7akvyv0exRdDZwwWirkEiyakXFMmToAhWVohOwzQPAXCINYEdo46d9ED6kf8eJWX0Pwe2qIg0iepFPHtcOm019AfyZlElCJp7AYY16RxGhUpvFPyZeR9GExigcY6V2Z1zh0ztrLSa9YzRtErCi6Lv37aGVzgZFDqN1rPn8OvRYoMYU8DENcrjwe9i4pyAtFKukvGWebSNcpTEWqtmzbUV2EXE",
+              "received": false
+            },
+            {
+              "_id": "6948725f1c508c5d5eef3118",
+              "name": "Soap35401",
+              "amount": 38,
+              "price": 28180,
+              "manufacturer": "Xiaomi",
+              "notes": "qszV9DuAvzcj0LrI1ep7eXFpjYZMgPdTaxLlHb2Lr4TTr5V3W8Saquw5bQKPXCpiC487ffEa1Pt4OBV9vuudZyimlDyBYcjdH90QePLMRvalmV5uM1hR2cYPPZRrreKeKfjoqbs3UpZ0g3hdGFs4Py8jAC60xJVaOmlSyiF8De3g8OF24FB64MZ18YlvSEb965Ei4Gyyu7PhZb85WtpivoNK0dreSGCTo1Dduxcg8E7Mgadzj2suJnIdtj",
+              "received": false
+            }
+          ],
+          "total_price": 154380,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:19:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694872601c508c5d5eef3146"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

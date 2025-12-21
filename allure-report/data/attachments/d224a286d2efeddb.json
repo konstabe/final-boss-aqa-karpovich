@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:17:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-uyki6WRceYvofdt41HL9831aJUU\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694871f21c508c5d5eeedf4b",
+        "email": "Lloyd.Carroll4@gmail.com",
+        "name": "Eldred Dach",
+        "country": "Ukraine",
+        "city": "Los Angeles",
+        "street": "Bauch Crossing",
+        "house": 35,
+        "flat": 908,
+        "phone": "+14399487599",
+        "createdOn": "2025-12-21T22:17:22.000Z",
+        "notes": "cXbLJn4vR7iYDlhjkapYb6iAulBhcFqQG6ZiKhJpfkqX2U2YJiBrxOAa5RE7bQXiVwr4f2GIa04j15AWic869ys0i4Xtq5IGORzlv0k9cREDS8s9CPkkHsNX58Zib9kSeZsagNcFcIu9Qlj4dbfGnu8E7kCfDfzrGadLhG7PHyBsWmM0Z9hBHqHR7K3OWZ1gmFyLv2Ts5j1abxhxgedftxX7vfa0DteIOMLfcjV0ZoX4rIUQYKSCOFJ4pg"
+      },
+      "products": [
+        {
+          "_id": "694871f21c508c5d5eeedf78",
+          "name": "Chips68230",
+          "amount": 167,
+          "price": 70993,
+          "manufacturer": "Microsoft",
+          "notes": "3LNUpOOcBOmwvIqRI87ly0tiIJgCkCa5y5RmsuTk471rFGGbxTOiTbbYmxpjEQUT0lWYM2eAjjCu71yE0HKq2ZI4dbhkvDyX8lU92QDIfhN0V6efjXrErA5zeEtDaYTxrgL0pmuDxMoVnlZmH1HpNunmyEnPr2sLBIYh7SqjINcA8o4F34M5IAzO1WIpG69WDhmKAokPFcCOYGG9iTiBogqxtQgs4ZJDq1uMWK04wDRHjvclV8poPL36Dq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 70993,
+      "createdOn": "2025-12-21T22:17:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694871f21c508c5d5eeedf4b",
+          "products": [
+            {
+              "_id": "694871f21c508c5d5eeedf78",
+              "name": "Chips68230",
+              "amount": 167,
+              "price": 70993,
+              "manufacturer": "Microsoft",
+              "notes": "3LNUpOOcBOmwvIqRI87ly0tiIJgCkCa5y5RmsuTk471rFGGbxTOiTbbYmxpjEQUT0lWYM2eAjjCu71yE0HKq2ZI4dbhkvDyX8lU92QDIfhN0V6efjXrErA5zeEtDaYTxrgL0pmuDxMoVnlZmH1HpNunmyEnPr2sLBIYh7SqjINcA8o4F34M5IAzO1WIpG69WDhmKAokPFcCOYGG9iTiBogqxtQgs4ZJDq1uMWK04wDRHjvclV8poPL36Dq",
+              "received": false
+            }
+          ],
+          "total_price": 70993,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:17:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694871f61c508c5d5eeee250"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

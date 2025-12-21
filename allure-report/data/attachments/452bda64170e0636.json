@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:17:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2813",
+    "etag": "W/\"afd-PtIU3bji/+vT+mj1W5GRnP7qnI4\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694871e31c508c5d5eeed504",
+      "status": "Draft",
+      "customer": {
+        "_id": "694871df1c508c5d5eeed1d9",
+        "email": "Madaline.Thiel@hotmail.com",
+        "name": "Montana Franecki",
+        "country": "France",
+        "city": "Kristamouth",
+        "street": "River Street",
+        "house": 31,
+        "flat": 678,
+        "phone": "+17154382702",
+        "createdOn": "2025-12-21T22:17:03.000Z",
+        "notes": "dX2yZeuDyUkuy6bQO0LmPJd3BWrhS4tFBd43hZeD0HlXX1W5qdmIkClT68SsWZx2zpf4firRFsvWNJyeulzxaqeJDCAiamhr5xNzTv6ZLmL9B0ZQ9y8IdUcdcD7lHX0R8UJvPSlzaINRMeMt0jRh5BIgghIj1hnQlOvwgWqPzKmWmX4YN5Z6yH5aVDGC4kb9ZKv0jiiYX1wQjGQTG2s0E076X8LWwPbZBXLPcBf8rDYR7VrMvzThfvno8q"
+      },
+      "products": [
+        {
+          "_id": "694871e11c508c5d5eeed366",
+          "name": "Car71712",
+          "amount": 598,
+          "price": 3219,
+          "manufacturer": "Samsung",
+          "notes": "LvTFt9us7e0cqbGjWdPPT12se4UZaTH8S8lc1CtIUYtUSxZClNYnfWyufmBRWNkgeZWo6Pkm0JtYa5tnD5x4ZtDQSQCLHW57GlPBxQABkLQnhryh1vfuhtIhJ6YUvp4xKnVSNeLWP0kPNLpN40eZOZwFEq0rx7xvLcyMuQAxM37HzzfEQohW89wSmpOXmKYSSDuErndkHL46NXxkNoEO2YnqebUjOO5kE9KMxcbUTSOtruWyAF17Sp4t1O",
+          "received": false
+        },
+        {
+          "_id": "694871e31c508c5d5eeed4dc",
+          "name": "Bike2853",
+          "amount": 279,
+          "price": 69316,
+          "manufacturer": "Microsoft",
+          "notes": "PL1yl2kFQvvfqc5CpODLXXzoZcxqSvC38dlM7hjWcuetZ7R3jKRprMO5Pb7MsUa8Ewn7BR1sikd03uIYbztrXwdfnE1YWppvdYIBv0ILmZShIP0y5xONb3h94sZAJNIcfSnEm7S7Yzfd1IzPkj5ntzhrX7dkAa3m0GOQERDdgQuVk8KBUsWzM1YsXblhxaGJo3EXZpJiVLlGkN1z7pIbfZRjPgyE8zJIPyPVjqCdtvcaCpvQh7RtzzWRWE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 72535,
+      "createdOn": "2025-12-21T22:17:07.000Z",
+      "comments": [
+        {
+          "text": "xJPzTPW7NhkHKcJhm8GkhTjz4uhEerUzO26kQbxqn49YSybsXM65t6WQzhXwvMVGbs7yGdqMxPA",
+          "createdOn": "2025-12-21T22:17:08.000Z",
+          "_id": "694871e61c508c5d5eeed692"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694871df1c508c5d5eeed1d9",
+          "products": [
+            {
+              "_id": "694871e11c508c5d5eeed366",
+              "name": "Car71712",
+              "amount": 598,
+              "price": 3219,
+              "manufacturer": "Samsung",
+              "notes": "LvTFt9us7e0cqbGjWdPPT12se4UZaTH8S8lc1CtIUYtUSxZClNYnfWyufmBRWNkgeZWo6Pkm0JtYa5tnD5x4ZtDQSQCLHW57GlPBxQABkLQnhryh1vfuhtIhJ6YUvp4xKnVSNeLWP0kPNLpN40eZOZwFEq0rx7xvLcyMuQAxM37HzzfEQohW89wSmpOXmKYSSDuErndkHL46NXxkNoEO2YnqebUjOO5kE9KMxcbUTSOtruWyAF17Sp4t1O",
+              "received": false
+            },
+            {
+              "_id": "694871e31c508c5d5eeed4dc",
+              "name": "Bike2853",
+              "amount": 279,
+              "price": 69316,
+              "manufacturer": "Microsoft",
+              "notes": "PL1yl2kFQvvfqc5CpODLXXzoZcxqSvC38dlM7hjWcuetZ7R3jKRprMO5Pb7MsUa8Ewn7BR1sikd03uIYbztrXwdfnE1YWppvdYIBv0ILmZShIP0y5xONb3h94sZAJNIcfSnEm7S7Yzfd1IzPkj5ntzhrX7dkAa3m0GOQERDdgQuVk8KBUsWzM1YsXblhxaGJo3EXZpJiVLlGkN1z7pIbfZRjPgyE8zJIPyPVjqCdtvcaCpvQh7RtzzWRWE",
+              "received": false
+            }
+          ],
+          "total_price": 72535,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:17:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

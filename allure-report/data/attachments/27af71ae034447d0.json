@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:16:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2957",
+    "etag": "W/\"b8d-L6H4FxT/v9stnOFHO+ev3AXJ4Ts\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694871c01c508c5d5eeebab2",
+      "status": "Draft",
+      "customer": {
+        "_id": "694871b41c508c5d5eeeb20a",
+        "email": "Lilla.Runolfsson5@hotmail.com",
+        "name": "Manuel McClure",
+        "country": "Great Britain",
+        "city": "Venamouth",
+        "street": "Nikolaus Common",
+        "house": 43,
+        "flat": 297,
+        "phone": "+18306207534",
+        "createdOn": "2025-12-21T22:16:20.000Z",
+        "notes": "RzgZzaULklJOd0n3Vgry08oAbMO8z5OTvfrIqGWHAjFGNL1AvbgBeswgIeWrGhv4kbGavQwk9N20zMNDNWV7b7pVUmThers78dCPuRF3vWDs2iZioIGND2GzW0BlxSyiqvLVCLfpr0MxZt97oDRYiI5E6Hkh9oEVyYMmhVdp3lUZLlkX9859IlUjX5Qk46jOjCENoi5P18c5NTt1M6jxcsEvqB8nhJTwdx2hfWkmPrUTXVw0hbRMoOjYuW"
+      },
+      "products": [
+        {
+          "_id": "694871b41c508c5d5eeeb24c",
+          "name": "Pants6078",
+          "amount": 392,
+          "price": 87379,
+          "manufacturer": "Xiaomi",
+          "notes": "OdYeiYfXev830Xe4U2h2r58pbPQBX4pKKnlHvMy5yYNYDPpKlkOGRgkD4q4EVV7WfO9MwMgWNfJvIHAJ3nouOPWgfolw0qlRqtoGn8cKjkXCpVMiZBaps6zRuZTdMDxJMXkjKS9MAL4YAa1hzWPBeIgGv6AtKolVFPBAySQ6EyGOc4cCZzHxiAmDm2LhVepks4EmfAVUf1QWTYp9qO074yOFzh3hbFvOFmpDjIme8tL9ARc580QXqVwzex",
+          "received": false
+        },
+        {
+          "_id": "694871b71c508c5d5eeeb3cd",
+          "name": "Pants5093",
+          "amount": 191,
+          "price": 32341,
+          "manufacturer": "Google",
+          "notes": "WyYCr5jme3vFQtd1ku3J2xRmQrtCogQZRmGPZMRg9cY2Ktwzj3EtbTlgTDRktr1nKtjJ5imZFVmzJIkfB71M0QCLb44Tqg56vOw1TEvg9ese3qSmAI8ldo50bmf2jF6TS8g5DmfBlHSVY3aebjiyIPO5TGrZxAyz8QUAsv6SRYUxB2sr4CFiEMfa2jvewICp12CsdmiiHkiKRXBvg2ObgOLEPirB6l4rW1V771JMDJ6Wh5wXmCnmrm4dZJ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 119720,
+      "createdOn": "2025-12-21T22:16:32.000Z",
+      "comments": [
+        {
+          "text": "<script>kYjxFaOuZNetXlcbBvrh6HMklCma6lYoykiOvZsTTJhJ6eCKtHWmWtE56MJdjfYAcpWL0Bba6O9LlfyPjZKwYHOfewnnmAfxVox0ZSpmGNBngNlv1rwPpc34jvBEPXSljCLPoR3bWGiY8VefiH6aPKmDuS342RgUVd5A5KyvWvX15mIkxlSzHYIW1neNnpzCtlkyZ9cJ >",
+          "createdOn": "2025-12-21T22:16:34.000Z",
+          "_id": "694871c61c508c5d5eeebefc"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694871b41c508c5d5eeeb20a",
+          "products": [
+            {
+              "_id": "694871b41c508c5d5eeeb24c",
+              "name": "Pants6078",
+              "amount": 392,
+              "price": 87379,
+              "manufacturer": "Xiaomi",
+              "notes": "OdYeiYfXev830Xe4U2h2r58pbPQBX4pKKnlHvMy5yYNYDPpKlkOGRgkD4q4EVV7WfO9MwMgWNfJvIHAJ3nouOPWgfolw0qlRqtoGn8cKjkXCpVMiZBaps6zRuZTdMDxJMXkjKS9MAL4YAa1hzWPBeIgGv6AtKolVFPBAySQ6EyGOc4cCZzHxiAmDm2LhVepks4EmfAVUf1QWTYp9qO074yOFzh3hbFvOFmpDjIme8tL9ARc580QXqVwzex",
+              "received": false
+            },
+            {
+              "_id": "694871b71c508c5d5eeeb3cd",
+              "name": "Pants5093",
+              "amount": 191,
+              "price": 32341,
+              "manufacturer": "Google",
+              "notes": "WyYCr5jme3vFQtd1ku3J2xRmQrtCogQZRmGPZMRg9cY2Ktwzj3EtbTlgTDRktr1nKtjJ5imZFVmzJIkfB71M0QCLb44Tqg56vOw1TEvg9ese3qSmAI8ldo50bmf2jF6TS8g5DmfBlHSVY3aebjiyIPO5TGrZxAyz8QUAsv6SRYUxB2sr4CFiEMfa2jvewICp12CsdmiiHkiKRXBvg2ObgOLEPirB6l4rW1V771JMDJ6Wh5wXmCnmrm4dZJ",
+              "received": false
+            }
+          ],
+          "total_price": 119720,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:16:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

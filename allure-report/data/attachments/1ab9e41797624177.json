@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:17:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3427",
+    "etag": "W/\"d63-4w3aw+PilSAIQ7wRXo6yO+BktQQ\"",
+    "keep-alive": "timeout=5, max=49",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6948720d1c508c5d5eeef478",
+        "email": "Titus.Wuckert91@yahoo.com",
+        "name": "Chadrick Stokes",
+        "country": "Russia",
+        "city": "South Kaley",
+        "street": "Moen Valleys",
+        "house": 36,
+        "flat": 744,
+        "phone": "+14903685405",
+        "createdOn": "2025-12-21T22:17:49.000Z",
+        "notes": "CIgtzYCLETE0GoPEHRApjs5irqbgTexbHgCrNalnG2IgNlx3wq3WflRcsji4xsOMeYwhTFUIv3Yi1WwHwpiBqPZ9ezUhYz88Oett1H2q04jrLOhzu9jydi3IXdNbTHFduDNVpJjgzuYrGU0oQkJ8J02ameviSunaxKGC8mb1Iv3reKHeGpzp3uXmsRvxkhATJvQrrgfwVLP3plKis49D5vSFWVPDnvIAfJim4SfFpd1PxuJue2iBvL3VmH"
+      },
+      "products": [
+        {
+          "_id": "6948720d1c508c5d5eeef491",
+          "name": "Chair94589",
+          "amount": 890,
+          "price": 70717,
+          "manufacturer": "Xiaomi",
+          "notes": "JVbkhZhBA8npyMktetpMhMdR7i6FXqx4IZfwC42fYNBTz3bebT3J3iZku1DxlAGGET2RLZRFCe5dUFPPY4LABBCsyUp9CkedFbXITmnQNVB1c3xNMIs88WGzOS69FChQxGeeUkgqdusAKkESd0LFK3MeK5Urk0vIg2WvRGMDUboYQgLm1Q2gmIUt7NNtoSw5LdIqwPpwBSy2jSkP1TqOL9tNLuqKhfDt01Zix8qTGVViXKntV9xXfGFw5J",
+          "received": false
+        },
+        {
+          "_id": "6948720e1c508c5d5eeef4ba",
+          "name": "Towels76962",
+          "amount": 396,
+          "price": 13489,
+          "manufacturer": "Samsung",
+          "notes": "AgCIZ3MIx2bAZIvexxegYh1yKslUU8UZiESUXHQd5KSv6KfnlD0RaCGFDVsdpQISpgPdQvFw84FVyHEOdYuhCKX4jFtZOFuE5ceM1pAwSgiHGS04ckLY4gkXod30ZWlACqd8n0ezDbrBoQfA5D5Fu1mv4bJV1qYN9ZwFSfDODB5msWsCOCKBISwlKesmpvyD4V115kv1K5s11IC9JFa0m17Nyh3RdXaEaVPBd74uYCUuuoU19nJhsNrrTR",
+          "received": false
+        },
+        {
+          "_id": "6948720e1c508c5d5eeef4e7",
+          "name": "Bike37259",
+          "amount": 400,
+          "price": 87361,
+          "manufacturer": "Amazon",
+          "notes": "98wjzgcspqnVKSzhGr9paU1tRZSdLmLyG90ArpfkYxB8F3rWpkQO8MtEdfn4qJvMkd3eEXGimZyp7frJJ8hJ1MbwQ0rV7GoAxgPJilWmrX6lrJ5lt1MppErZye37wiijRygmhmErYqCKXaTVCksO1RK0mIgFaIPy3sUKZ7qmzyVF5wFyqiBMa3ifk033mbEiev35rGSAhuf2T93ZiEJaKxcuV3K0qGSwP9W6MimDoG4oCXC4v6P8NlBOG9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 171567,
+      "createdOn": "2025-12-21T22:17:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6948720d1c508c5d5eeef478",
+          "products": [
+            {
+              "_id": "6948720d1c508c5d5eeef491",
+              "name": "Chair94589",
+              "amount": 890,
+              "price": 70717,
+              "manufacturer": "Xiaomi",
+              "notes": "JVbkhZhBA8npyMktetpMhMdR7i6FXqx4IZfwC42fYNBTz3bebT3J3iZku1DxlAGGET2RLZRFCe5dUFPPY4LABBCsyUp9CkedFbXITmnQNVB1c3xNMIs88WGzOS69FChQxGeeUkgqdusAKkESd0LFK3MeK5Urk0vIg2WvRGMDUboYQgLm1Q2gmIUt7NNtoSw5LdIqwPpwBSy2jSkP1TqOL9tNLuqKhfDt01Zix8qTGVViXKntV9xXfGFw5J",
+              "received": false
+            },
+            {
+              "_id": "6948720e1c508c5d5eeef4ba",
+              "name": "Towels76962",
+              "amount": 396,
+              "price": 13489,
+              "manufacturer": "Samsung",
+              "notes": "AgCIZ3MIx2bAZIvexxegYh1yKslUU8UZiESUXHQd5KSv6KfnlD0RaCGFDVsdpQISpgPdQvFw84FVyHEOdYuhCKX4jFtZOFuE5ceM1pAwSgiHGS04ckLY4gkXod30ZWlACqd8n0ezDbrBoQfA5D5Fu1mv4bJV1qYN9ZwFSfDODB5msWsCOCKBISwlKesmpvyD4V115kv1K5s11IC9JFa0m17Nyh3RdXaEaVPBd74uYCUuuoU19nJhsNrrTR",
+              "received": false
+            },
+            {
+              "_id": "6948720e1c508c5d5eeef4e7",
+              "name": "Bike37259",
+              "amount": 400,
+              "price": 87361,
+              "manufacturer": "Amazon",
+              "notes": "98wjzgcspqnVKSzhGr9paU1tRZSdLmLyG90ArpfkYxB8F3rWpkQO8MtEdfn4qJvMkd3eEXGimZyp7frJJ8hJ1MbwQ0rV7GoAxgPJilWmrX6lrJ5lt1MppErZye37wiijRygmhmErYqCKXaTVCksO1RK0mIgFaIPy3sUKZ7qmzyVF5wFyqiBMa3ifk033mbEiev35rGSAhuf2T93ZiEJaKxcuV3K0qGSwP9W6MimDoG4oCXC4v6P8NlBOG9",
+              "received": false
+            }
+          ],
+          "total_price": 171567,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:17:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6948720f1c508c5d5eeef52a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

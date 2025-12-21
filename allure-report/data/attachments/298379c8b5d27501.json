@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:17:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2817",
+    "etag": "W/\"b01-xVEGxMWRBEmOox9o2aV0MNuskVg\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694871df1c508c5d5eeed1e7",
+      "status": "Draft",
+      "customer": {
+        "_id": "694871d71c508c5d5eeecc0e",
+        "email": "Alexys.Rippin@gmail.com",
+        "name": "Telly Howe",
+        "country": "Belarus",
+        "city": "Santa Maria",
+        "street": "Rodriguez Tunnel",
+        "house": 50,
+        "flat": 543,
+        "phone": "+16435417695",
+        "createdOn": "2025-12-21T22:16:55.000Z",
+        "notes": "A8fVpRdwgje9xltkbBJrwcuX57yDSzF1VytbffuxDbhUjk6diCpb0WSyDyeyhZJsXxvEhlvafqSooHzELQJTgziWw2jKdbLFb8WGspj8nqXkPMrAVK5mF9pVob6WSc3c995vj2aUe3kXSfrupeE4LlGA4dODejRUroIsS6tudFhRu70LZIY8hMMK0mczSUS5OzmloKXaBK4v0vzi15v9hSmA7HP9R9agPRfhfKMewsJzfOqQedsLA1Lu2t"
+      },
+      "products": [
+        {
+          "_id": "694871d91c508c5d5eeecd8f",
+          "name": "Shoes47748",
+          "amount": 246,
+          "price": 22411,
+          "manufacturer": "Amazon",
+          "notes": "vFEYkDHB8JLtOCgTqgaxCSq2CMvNG0QrU8a9VBH4puRymuJedx6waud4j0jmXz4xT9g9jOpSUHxAcdchyj30fHJdRBNQHHoAAiXDN0C3UPIkTOl4uLe8ksPkeuTcd6xmugr3LTdhSCgo5DM6mh3JWqJAjoscitfJOnGrFGq1YcJdbEAvWNVqB7jmkDEwWZTnjZWKTNz616i5zaKARJzsA9IBzQbkyKIsiQrCJCIyiICL0Tw9vit3mn89Sx",
+          "received": false
+        },
+        {
+          "_id": "694871dd1c508c5d5eeed05c",
+          "name": "Computer98682",
+          "amount": 308,
+          "price": 62590,
+          "manufacturer": "Google",
+          "notes": "XB1v0WQmjSzcxsFho1jwFQJdNqfi8tZY5ATtl0IaZYd8pfxQKBrEWkR59PfI3dv3vbzPltbtRADos7V1sMVg5MsrLGTvpg7hunE1Fv9BzihGQfzDbg8OCq2mwYAsSlXayz0gUzBLfZWeLsYKjB2WEaK58RI2WBc2i67l28soPo6hqUSbv1OKMWbW3veJrDfQMAEDW0vgNc0Vw3KUNyqNnr6qjCxZuDyheGZbLfYEImGXhtRuoRqZzrBdHO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 85001,
+      "createdOn": "2025-12-21T22:17:03.000Z",
+      "comments": [
+        {
+          "text": "gB09Knhohoa7nrgXCByQFvUlAyodoDxNYfNoeV1ztdSAp49B1j74Z58QgFumEiDal0mLgpSSAsK",
+          "createdOn": "2025-12-21T22:17:05.000Z",
+          "_id": "694871e31c508c5d5eeed4da"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694871d71c508c5d5eeecc0e",
+          "products": [
+            {
+              "_id": "694871d91c508c5d5eeecd8f",
+              "name": "Shoes47748",
+              "amount": 246,
+              "price": 22411,
+              "manufacturer": "Amazon",
+              "notes": "vFEYkDHB8JLtOCgTqgaxCSq2CMvNG0QrU8a9VBH4puRymuJedx6waud4j0jmXz4xT9g9jOpSUHxAcdchyj30fHJdRBNQHHoAAiXDN0C3UPIkTOl4uLe8ksPkeuTcd6xmugr3LTdhSCgo5DM6mh3JWqJAjoscitfJOnGrFGq1YcJdbEAvWNVqB7jmkDEwWZTnjZWKTNz616i5zaKARJzsA9IBzQbkyKIsiQrCJCIyiICL0Tw9vit3mn89Sx",
+              "received": false
+            },
+            {
+              "_id": "694871dd1c508c5d5eeed05c",
+              "name": "Computer98682",
+              "amount": 308,
+              "price": 62590,
+              "manufacturer": "Google",
+              "notes": "XB1v0WQmjSzcxsFho1jwFQJdNqfi8tZY5ATtl0IaZYd8pfxQKBrEWkR59PfI3dv3vbzPltbtRADos7V1sMVg5MsrLGTvpg7hunE1Fv9BzihGQfzDbg8OCq2mwYAsSlXayz0gUzBLfZWeLsYKjB2WEaK58RI2WBc2i67l28soPo6hqUSbv1OKMWbW3veJrDfQMAEDW0vgNc0Vw3KUNyqNnr6qjCxZuDyheGZbLfYEImGXhtRuoRqZzrBdHO",
+              "received": false
+            }
+          ],
+          "total_price": 85001,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:17:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

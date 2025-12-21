@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:17:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2953",
+    "etag": "W/\"b89-yy2jpkdXoRpQYk+z69DY3Uxk5vM\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694871d51c508c5d5eeecbf3",
+      "status": "Draft",
+      "customer": {
+        "_id": "694871d11c508c5d5eeec782",
+        "email": "Reanna61@gmail.com",
+        "name": "Virginie Bergnaum",
+        "country": "Great Britain",
+        "city": "Fort Brenda",
+        "street": "Keshawn Shoals",
+        "house": 6,
+        "flat": 715,
+        "phone": "+14625559008",
+        "createdOn": "2025-12-21T22:16:49.000Z",
+        "notes": "GjWy60wAqwO76mEy33qV0iifryAw8DflrTVMvYFbk3EnMkPOHYUwU3hvYYrEs11HH7MSrbZ0JvRn4lwRVLZQoUCpa2rmh7ZlwqjaaBpzp6Lrq9F8xJPerjw9hFLlP24yu7c5bKTmygV77PW5Rm0qDf6O9JRB8ANugRVnWKg0vVIeIvaazTzGOe3wrh2nhwpBgmiWPfQwylNaeZ07xm6w778HrapRpiwLqqn4zqpDszPuuHDHZeBO0Qe8aR"
+      },
+      "products": [
+        {
+          "_id": "694871d11c508c5d5eeec7b1",
+          "name": "Ball40829",
+          "amount": 898,
+          "price": 91261,
+          "manufacturer": "Tesla",
+          "notes": "PstDRchtsx8BuJR6J74eNiMZqrPNHIuszr4qrFJA2oGu4eOIbgG0dZx9UmPyawvrTMPa6iUJwo3aQpqw7ZjPSwX8Qp1ZfsiKHSUbdLDLrCk1TyXh3gQ6HnlBNfeRmURlSf5uzaBbvzs2RAOBUdfugvnOhg0xXWVNcFhNknDQx0KxR1sNdr9W37hlcq7Mmnm9vjIoEqqqWbGS4pvdga8XO3hi0ZrXvIsoG4ucSOKyZFzWPTNN2z6ulaKyni",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 91261,
+      "createdOn": "2025-12-21T22:16:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694871d11c508c5d5eeec782",
+          "products": [
+            {
+              "_id": "694871d11c508c5d5eeec7b1",
+              "name": "Ball40829",
+              "amount": 898,
+              "price": 91261,
+              "manufacturer": "Tesla",
+              "notes": "PstDRchtsx8BuJR6J74eNiMZqrPNHIuszr4qrFJA2oGu4eOIbgG0dZx9UmPyawvrTMPa6iUJwo3aQpqw7ZjPSwX8Qp1ZfsiKHSUbdLDLrCk1TyXh3gQ6HnlBNfeRmURlSf5uzaBbvzs2RAOBUdfugvnOhg0xXWVNcFhNknDQx0KxR1sNdr9W37hlcq7Mmnm9vjIoEqqqWbGS4pvdga8XO3hi0ZrXvIsoG4ucSOKyZFzWPTNN2z6ulaKyni",
+              "received": false
+            }
+          ],
+          "total_price": 91261,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:17:01.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "694871d11c508c5d5eeec782",
+          "products": [
+            {
+              "_id": "694871d11c508c5d5eeec7b1",
+              "name": "Ball40829",
+              "amount": 898,
+              "price": 91261,
+              "manufacturer": "Tesla",
+              "notes": "PstDRchtsx8BuJR6J74eNiMZqrPNHIuszr4qrFJA2oGu4eOIbgG0dZx9UmPyawvrTMPa6iUJwo3aQpqw7ZjPSwX8Qp1ZfsiKHSUbdLDLrCk1TyXh3gQ6HnlBNfeRmURlSf5uzaBbvzs2RAOBUdfugvnOhg0xXWVNcFhNknDQx0KxR1sNdr9W37hlcq7Mmnm9vjIoEqqqWbGS4pvdga8XO3hi0ZrXvIsoG4ucSOKyZFzWPTNN2z6ulaKyni",
+              "received": false
+            }
+          ],
+          "total_price": 91261,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:16:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

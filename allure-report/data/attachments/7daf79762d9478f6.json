@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:17:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-2PToMlgNa3z5A94TRrDqn+F+amc\"",
+    "keep-alive": "timeout=5, max=67",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694871f21c508c5d5eeedf6e",
+        "email": "Herbert.Gleason@gmail.com",
+        "name": "Carmela Huel",
+        "country": "USA",
+        "city": "Duncanborough",
+        "street": "Jesus Lakes",
+        "house": 2,
+        "flat": 944,
+        "phone": "+18695214193",
+        "createdOn": "2025-12-21T22:17:22.000Z",
+        "notes": "0m5IqgyjV76QDfIvQZrLcv9a7Xj1XgQoksrFu9VAHPEsaflwuKBeluyRu7gpH3rv2q0ku7Q0yvAmKI2RyWvEPyT7Cp005DoeYFEScaz9etlwOJckUbJtkuu1EYCLN0SqHz4PLK3udMnHvw2aNlIxaEZ2YHezXM8EITAoiWyo32DCRUicRf8bAVZvhQbEwCCVvNP2Jkh42FOPqFRfyoSI67W8eG6Yx8W56ctPpHmKvgaCfQvtwPhY1vseuZ"
+      },
+      "products": [
+        {
+          "_id": "694871f41c508c5d5eeee0e9",
+          "name": "Towels75430",
+          "amount": 518,
+          "price": 96625,
+          "manufacturer": "Microsoft",
+          "notes": "ND6l9uHoVDGoLiFUMaecchxKlbJaZb1055Te5blLYEeW3bVP3aUxwz6HmrAGCMzf3etowpCXmeHsm2CikZHLrZqm2pt7WaX2XF3tQxI5ZGvXpBd1a2DjpdpScepNy5ArdmT9p84tx3sqDBT0XBIcXsBvf1xazq1aIDxX9PKNF7pAHSSv5q23c0CM5bfVQ84jbA0nYpU0VPMRLTzCZWC57Fknkb7yfoMwY8GX8gV8PHKqVZrfGfUsNjIL3Z",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 96625,
+      "createdOn": "2025-12-21T22:17:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694871f21c508c5d5eeedf6e",
+          "products": [
+            {
+              "_id": "694871f41c508c5d5eeee0e9",
+              "name": "Towels75430",
+              "amount": 518,
+              "price": 96625,
+              "manufacturer": "Microsoft",
+              "notes": "ND6l9uHoVDGoLiFUMaecchxKlbJaZb1055Te5blLYEeW3bVP3aUxwz6HmrAGCMzf3etowpCXmeHsm2CikZHLrZqm2pt7WaX2XF3tQxI5ZGvXpBd1a2DjpdpScepNy5ArdmT9p84tx3sqDBT0XBIcXsBvf1xazq1aIDxX9PKNF7pAHSSv5q23c0CM5bfVQ84jbA0nYpU0VPMRLTzCZWC57Fknkb7yfoMwY8GX8gV8PHKqVZrfGfUsNjIL3Z",
+              "received": false
+            }
+          ],
+          "total_price": 96625,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:17:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694871f61c508c5d5eeee3c4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

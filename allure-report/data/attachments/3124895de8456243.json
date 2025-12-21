@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:17:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-HG97V3uVb0KtRZchzxTt9mcpVqI\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694871f01c508c5d5eeedf47",
+        "email": "Cedrick54@hotmail.com",
+        "name": "Hertha Welch",
+        "country": "France",
+        "city": "South Wilbertville",
+        "street": "Hermiston Mountains",
+        "house": 8,
+        "flat": 705,
+        "phone": "+13659441039",
+        "createdOn": "2025-12-21T22:17:20.000Z",
+        "notes": "P490k5OSdYI9bLrndnBP7EbCgNr5yCUV7kWwt31KGcIK4KxOI9xXtDbIzLOcuRSVjuJ2m3Bt6xryoYKZvKoISiw9kHZOXMyup07OknbSMQnaNoHf9XIkDMnrSvfZjeAFHzH2HQbHn6zJxWgKwb10ey1cvqnvQjRo4gLWDF0aNRmcd9LgC2b94yuY36A9uJf4tuxpSJv7a6W9gyc5iCUMMssEhgBenHd5zsM4ji3Y4V1EHbwWuuHwNj7Yet"
+      },
+      "products": [
+        {
+          "_id": "694871f21c508c5d5eeedf6a",
+          "name": "Ball12316",
+          "amount": 442,
+          "price": 95991,
+          "manufacturer": "Tesla",
+          "notes": "kunYgTJM1BaPQcUvhQ4Sdme37sJ7FiVj94kboLOvqLOF2FnC5YoKWs44seEnsF1RpusBg3YSGng1JECZL08sFUIcDEo9pRpOIjXJ1Kqz5dLmIo3aHBB8f1276QFCLpwCEGlOQXj4JJ9JxG7uw6omA8NURoIz1sPOoGasaPoUCy2mBNsU6zXfUZYAZJOUkCSVocGWvSaqMn6lLjkfywju14oTUoAyZbjgdmlqKX7KcztBMSeOuzOMHRmVdb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 95991,
+      "createdOn": "2025-12-21T22:17:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694871f01c508c5d5eeedf47",
+          "products": [
+            {
+              "_id": "694871f21c508c5d5eeedf6a",
+              "name": "Ball12316",
+              "amount": 442,
+              "price": 95991,
+              "manufacturer": "Tesla",
+              "notes": "kunYgTJM1BaPQcUvhQ4Sdme37sJ7FiVj94kboLOvqLOF2FnC5YoKWs44seEnsF1RpusBg3YSGng1JECZL08sFUIcDEo9pRpOIjXJ1Kqz5dLmIo3aHBB8f1276QFCLpwCEGlOQXj4JJ9JxG7uw6omA8NURoIz1sPOoGasaPoUCy2mBNsU6zXfUZYAZJOUkCSVocGWvSaqMn6lLjkfywju14oTUoAyZbjgdmlqKX7KcztBMSeOuzOMHRmVdb",
+              "received": false
+            }
+          ],
+          "total_price": 95991,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:17:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694871f61c508c5d5eeee252"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

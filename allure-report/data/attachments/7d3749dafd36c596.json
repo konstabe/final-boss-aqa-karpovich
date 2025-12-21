@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:16:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2648",
+    "etag": "W/\"a58-90K1K2ZehMmumaVPbbm+tJ1dpI8\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694871ab1c508c5d5eeeac7e",
+        "email": "Ethel1@yahoo.com",
+        "name": "Katlyn Bahringer",
+        "country": "USA",
+        "city": "Santa Clarita",
+        "street": "River Street",
+        "house": 40,
+        "flat": 137,
+        "phone": "+12923632600",
+        "createdOn": "2025-12-21T22:16:11.000Z",
+        "notes": "V5EnTYiCBg1J8wG3nBeYySfqvkIo89kYWplV7XdISf5MXhqE8jIr4Mqg9WujoAN6To7amRviiSTYyavd7tF3ZwO2GgBkz4GL80FitYPOE4OBe6cUak3HEOk0zWBIxVy72EDvyOOjAWY37uiBu1stLyNzfnAVzATVXNFnzVLXNhcrSfZIHr4PxZltO4XupB3oqjF7uIK4Km6fdFXK3DZJO9FgUMWxqMTsCEqcvYOafZympoCgugnUfqGQmU"
+      },
+      "products": [
+        {
+          "_id": "694871ab1c508c5d5eeeaca8",
+          "name": "Shoes63983",
+          "amount": 138,
+          "price": 26342,
+          "manufacturer": "Microsoft",
+          "notes": "JlRibeebibbM8QTt0tAoNak57ktQrJWdUj0EHi6VKbmX4qLwf5vqdPEYL5E4mWkHCeYT8q7p8269RpXppol06rDrRVrgpnB8aPQ8EcINzT9lNg156G8EwyQ7dyihtAOBQNCDao3RqbtONzyR3QPS1YnqWdMBq24GLUdz0OVmVzF5pYrWTnNL5wxaR8hkqKHEngcRDQjitqxTcdEBdWTvVsE8MMP8KedrsBXFQXeRsWLWG97B3hipOI4L3Y",
+          "received": false
+        },
+        {
+          "_id": "694871ac1c508c5d5eeeacf0",
+          "name": "Bacon86930",
+          "amount": 264,
+          "price": 9095,
+          "manufacturer": "Tesla",
+          "notes": "DNnxAOsDdzVf4XrMEv9jcfb6N9YSZIs0gWjefBjkeUvb7RUMy7xPJe6o5mmM6gOS92LOnR56KPgiwN1gajfehVU6CKScXFtRmfeQTwwhEaJyFq6CWJhtOzMpB1m13dzBGt7ptF03KAECubW1tfH6MVVjSXCMqjXYCbrrloKrfQd74Apv4LS6IWXVd1veTRVhQ6tYvQNaoIw4DKs43215hZdzS3iPrvo1Y22nPXhZCjUMKjEGEVqsrRbw0p",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35437,
+      "createdOn": "2025-12-21T22:16:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694871ab1c508c5d5eeeac7e",
+          "products": [
+            {
+              "_id": "694871ab1c508c5d5eeeaca8",
+              "name": "Shoes63983",
+              "amount": 138,
+              "price": 26342,
+              "manufacturer": "Microsoft",
+              "notes": "JlRibeebibbM8QTt0tAoNak57ktQrJWdUj0EHi6VKbmX4qLwf5vqdPEYL5E4mWkHCeYT8q7p8269RpXppol06rDrRVrgpnB8aPQ8EcINzT9lNg156G8EwyQ7dyihtAOBQNCDao3RqbtONzyR3QPS1YnqWdMBq24GLUdz0OVmVzF5pYrWTnNL5wxaR8hkqKHEngcRDQjitqxTcdEBdWTvVsE8MMP8KedrsBXFQXeRsWLWG97B3hipOI4L3Y",
+              "received": false
+            },
+            {
+              "_id": "694871ac1c508c5d5eeeacf0",
+              "name": "Bacon86930",
+              "amount": 264,
+              "price": 9095,
+              "manufacturer": "Tesla",
+              "notes": "DNnxAOsDdzVf4XrMEv9jcfb6N9YSZIs0gWjefBjkeUvb7RUMy7xPJe6o5mmM6gOS92LOnR56KPgiwN1gajfehVU6CKScXFtRmfeQTwwhEaJyFq6CWJhtOzMpB1m13dzBGt7ptF03KAECubW1tfH6MVVjSXCMqjXYCbrrloKrfQd74Apv4LS6IWXVd1veTRVhQ6tYvQNaoIw4DKs43215hZdzS3iPrvo1Y22nPXhZCjUMKjEGEVqsrRbw0p",
+              "received": false
+            }
+          ],
+          "total_price": 35437,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:16:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694871ae1c508c5d5eeeae76"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

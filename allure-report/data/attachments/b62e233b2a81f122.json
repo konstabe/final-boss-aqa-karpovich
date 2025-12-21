@@ -1,0 +1,152 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:17:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3549",
+    "etag": "W/\"ddd-0/NssIt/jq65M0+1nhbpWfMzvf0\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6948720f1c508c5d5eeef564",
+      "status": "Draft",
+      "customer": {
+        "_id": "6948720e1c508c5d5eeef4e4",
+        "email": "Maye87@yahoo.com",
+        "name": "Violet Ratke",
+        "country": "Belarus",
+        "city": "New Kenny",
+        "street": "Emard Gardens",
+        "house": 19,
+        "flat": 793,
+        "phone": "+13123162800",
+        "createdOn": "2025-12-21T22:17:50.000Z",
+        "notes": "7dHYcKRoGmjMSWh2lXPO86FL2UboBMCWD3UQqWRUTyssRlKkIkJfSxIA5yQXpMbPGB6MsCXBmH2v8VRgGf56wxAI9mYYkfKYbq0ST9O1mJRl0O6uK9e4JBFrVLU46BKs4l0UmdTYtB90scNVOsUFvhGyHn59geoqEA2GBdn19uB9LCk89h6MS6gZTIwqxJXhy6sbcpT6duOCZrmvriW6KQBaf8atcFH7OuzL9q1egmX2IJu67z7jErdXz5"
+      },
+      "products": [
+        {
+          "_id": "6948720f1c508c5d5eeef519",
+          "name": "Shirt71053",
+          "amount": 240,
+          "price": 9978,
+          "manufacturer": "Microsoft",
+          "notes": "lh8ym6a97tCWUczs46qwFi55j5hK1SUWp8nQsxI9BVSPd2m5zSoUGhtRoh8XlXsaGjoae6Z1BusBrsshw8b1qhvMBDK5DVoP0ovoYJFJeJhZQPKRRsMqCCQQsKBpFxEo2L6BxLOlzji1hW5IBX455SPEZMWFMIr0TA3G7Y0xgNKX3hCGD9HkBPK6EJOyZ9xdApVklJowXbVJrKRM3IfJmW0H5mnwR6ZbGrovJdsSHk5A8OUcw9gXNng0Pc",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 9978,
+      "createdOn": "2025-12-21T22:17:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6948720e1c508c5d5eeef4e4",
+          "products": [
+            {
+              "_id": "6948720f1c508c5d5eeef519",
+              "name": "Shirt71053",
+              "amount": 240,
+              "price": 9978,
+              "manufacturer": "Microsoft",
+              "notes": "lh8ym6a97tCWUczs46qwFi55j5hK1SUWp8nQsxI9BVSPd2m5zSoUGhtRoh8XlXsaGjoae6Z1BusBrsshw8b1qhvMBDK5DVoP0ovoYJFJeJhZQPKRRsMqCCQQsKBpFxEo2L6BxLOlzji1hW5IBX455SPEZMWFMIr0TA3G7Y0xgNKX3hCGD9HkBPK6EJOyZ9xdApVklJowXbVJrKRM3IfJmW0H5mnwR6ZbGrovJdsSHk5A8OUcw9gXNng0Pc",
+              "received": false
+            }
+          ],
+          "total_price": 9978,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:17:53.000Z",
+          "action": "Manager Unassigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6948720e1c508c5d5eeef4e4",
+          "products": [
+            {
+              "_id": "6948720f1c508c5d5eeef519",
+              "name": "Shirt71053",
+              "amount": 240,
+              "price": 9978,
+              "manufacturer": "Microsoft",
+              "notes": "lh8ym6a97tCWUczs46qwFi55j5hK1SUWp8nQsxI9BVSPd2m5zSoUGhtRoh8XlXsaGjoae6Z1BusBrsshw8b1qhvMBDK5DVoP0ovoYJFJeJhZQPKRRsMqCCQQsKBpFxEo2L6BxLOlzji1hW5IBX455SPEZMWFMIr0TA3G7Y0xgNKX3hCGD9HkBPK6EJOyZ9xdApVklJowXbVJrKRM3IfJmW0H5mnwR6ZbGrovJdsSHk5A8OUcw9gXNng0Pc",
+              "received": false
+            }
+          ],
+          "total_price": 9978,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:17:52.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6948720e1c508c5d5eeef4e4",
+          "products": [
+            {
+              "_id": "6948720f1c508c5d5eeef519",
+              "name": "Shirt71053",
+              "amount": 240,
+              "price": 9978,
+              "manufacturer": "Microsoft",
+              "notes": "lh8ym6a97tCWUczs46qwFi55j5hK1SUWp8nQsxI9BVSPd2m5zSoUGhtRoh8XlXsaGjoae6Z1BusBrsshw8b1qhvMBDK5DVoP0ovoYJFJeJhZQPKRRsMqCCQQsKBpFxEo2L6BxLOlzji1hW5IBX455SPEZMWFMIr0TA3G7Y0xgNKX3hCGD9HkBPK6EJOyZ9xdApVklJowXbVJrKRM3IfJmW0H5mnwR6ZbGrovJdsSHk5A8OUcw9gXNng0Pc",
+              "received": false
+            }
+          ],
+          "total_price": 9978,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:17:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
