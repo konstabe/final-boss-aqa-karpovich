@@ -1,7 +1,7 @@
 import { logStep } from "utils/report/logStep.utils";
 import { ConfirmationModal } from "./confirmation.modal";
 
-export class assignedManagerModal extends ConfirmationModal {
+export class AssignedManagerModal extends ConfirmationModal {
 	readonly uniqueElement = this.page.locator(".modal-content"); // in case it's css class
 
 	readonly title = this.uniqueElement.locator("h5");
