@@ -42,22 +42,22 @@ export class ScheduleDeliveryModal extends ConfirmationModal {
 	}
 
 	@logStep("Click city field")
-	async clickCity() {
-		await this.city.click();
+	async clickCity(value: string) {
+		await this.city.fill(value);
 	}
 
 	@logStep("Click street field")
-	async clickStreet() {
-		await this.street.click();
+	async clickStreet(value: string) {
+		await this.street.fill(value);
 	}
 
 	@logStep("Click house field")
-	async clickHouse() {
-		await this.house.click();
+	async clickHouse(value: string) {
+		await this.house.fill(value);
 	}
 
 	@logStep("Click flat field")
-	async clickFlat() {
-		await this.flat.click();
+	async clickFlat(value: string) {
+		await this.flat.fill(value);
 	}
 }
