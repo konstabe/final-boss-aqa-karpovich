@@ -1,0 +1,303 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 15:25:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8578",
+    "etag": "W/\"2182-eHkwAT8SdLkGwJ5lT1BDqQB654o\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694811581c508c5d5ee8a37a",
+      "status": "Received",
+      "customer": {
+        "_id": "694811541c508c5d5ee8a0bc",
+        "email": "Morris36@gmail.com",
+        "name": "Jaleel Hudson",
+        "country": "France",
+        "city": "Fort Kian",
+        "street": "Bath Street",
+        "house": 7,
+        "flat": 868,
+        "phone": "+14797177742",
+        "createdOn": "2025-12-21T15:25:08.000Z",
+        "notes": "3yT7NtZqLoNfDr9JjxMBcr4zZxIYllXs14UjPNckcZT3XzE7owO2pDJFxUosUuu30bYsjFbRzHLRlXZXhh0MzVui2ummpsoKO1ggOhDPi3BVJM9RC7ZS5uV3v2l4wbTimf1ObOGqAOnzEJPC6Txl8cnl7J8EWxnalIyEGOYhmNfxFaB99LcLhMoMxKTbWVOZHr9AW5YBkYDk9e5phcXqXlZ2liymqgpax6ru1p1x25wJyOopLQmt2hTpuS"
+      },
+      "products": [
+        {
+          "_id": "694811551c508c5d5ee8a0e3",
+          "name": "Hat59685",
+          "amount": 253,
+          "price": 97888,
+          "manufacturer": "Google",
+          "notes": "xXMUqfN8RYH0LbeDElkqQeXgY4ifaWwagd5qV8Nz9vQVgdE1GIvqgszspLsvm53mGVZjzezJJYMcVX6fQadJRKifmBEnW7GlP2DmzEhFU9CLUGpDdoxKGbDxjvlrPgSWy7GSlmj47VT9YQo6yqiCM5BXMjwmyaQP5N1kab0nU1UtUJ01CD1WWVDZckrAdLiJFUVy8UIjDQbXLm4ygfrx7iJAszpoUOYVh22p55QH7lAEwzMIGCggFSvtay",
+          "received": true
+        },
+        {
+          "_id": "694811551c508c5d5ee8a109",
+          "name": "Shirt12287",
+          "amount": 825,
+          "price": 65828,
+          "manufacturer": "Tesla",
+          "notes": "XxRMHJhKTYOOH7TBDdQdbxOIVypxd6uhOn869qiFuR455d7ugvXBprj8aizkZEczzJtwoOXf57rP6H3lbN8KPFqAHB4QmB0Qzu0imjZJTsXjaYMiFwxchl3KD7MNuxUoAiZb7TyLhrgrekfyXpfGqHsDcTHk490Gte6DemzS3BeeukEgrllftOTBGaJN36GZg3pGcTAZAHhkAvvQ8oHtTp2fWuOhVgYY8Sjq631XDyHapPrb70RNvbXu1T",
+          "received": true
+        },
+        {
+          "_id": "694811551c508c5d5ee8a1de",
+          "name": "Bike19903",
+          "amount": 78,
+          "price": 58305,
+          "manufacturer": "Tesla",
+          "notes": "6UgKVJfHmQwmBYS1FFOFRsplXnPvpuG6fpYy7mpr12A71lVDZ2aHI3ZoX0PG44kNUFS7FrGtL2o0cK4472gxzlSShu5NUMhwxToYKVFZpP5pb6eiqRGMPamTxHLD4GHJdYYaFtrAbRAZoRJRzcg1F6SNvvIvZtFSppVrLZzn9khkyHnAkgVQLYi5LMrW0PzPIo7kO7vixvz7dIfPdsKnJwfFjRJDeqwbs33SC8okSK7qjDWdLHLutbUEqG",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Fort Kian",
+          "street": "Bath Street",
+          "house": 7,
+          "flat": 868
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 222021,
+      "createdOn": "2025-12-21T15:25:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694811541c508c5d5ee8a0bc",
+          "products": [
+            {
+              "_id": "694811551c508c5d5ee8a0e3",
+              "name": "Hat59685",
+              "amount": 253,
+              "price": 97888,
+              "manufacturer": "Google",
+              "notes": "xXMUqfN8RYH0LbeDElkqQeXgY4ifaWwagd5qV8Nz9vQVgdE1GIvqgszspLsvm53mGVZjzezJJYMcVX6fQadJRKifmBEnW7GlP2DmzEhFU9CLUGpDdoxKGbDxjvlrPgSWy7GSlmj47VT9YQo6yqiCM5BXMjwmyaQP5N1kab0nU1UtUJ01CD1WWVDZckrAdLiJFUVy8UIjDQbXLm4ygfrx7iJAszpoUOYVh22p55QH7lAEwzMIGCggFSvtay",
+              "received": true
+            },
+            {
+              "_id": "694811551c508c5d5ee8a109",
+              "name": "Shirt12287",
+              "amount": 825,
+              "price": 65828,
+              "manufacturer": "Tesla",
+              "notes": "XxRMHJhKTYOOH7TBDdQdbxOIVypxd6uhOn869qiFuR455d7ugvXBprj8aizkZEczzJtwoOXf57rP6H3lbN8KPFqAHB4QmB0Qzu0imjZJTsXjaYMiFwxchl3KD7MNuxUoAiZb7TyLhrgrekfyXpfGqHsDcTHk490Gte6DemzS3BeeukEgrllftOTBGaJN36GZg3pGcTAZAHhkAvvQ8oHtTp2fWuOhVgYY8Sjq631XDyHapPrb70RNvbXu1T",
+              "received": true
+            },
+            {
+              "_id": "694811551c508c5d5ee8a1de",
+              "name": "Bike19903",
+              "amount": 78,
+              "price": 58305,
+              "manufacturer": "Tesla",
+              "notes": "6UgKVJfHmQwmBYS1FFOFRsplXnPvpuG6fpYy7mpr12A71lVDZ2aHI3ZoX0PG44kNUFS7FrGtL2o0cK4472gxzlSShu5NUMhwxToYKVFZpP5pb6eiqRGMPamTxHLD4GHJdYYaFtrAbRAZoRJRzcg1F6SNvvIvZtFSppVrLZzn9khkyHnAkgVQLYi5LMrW0PzPIo7kO7vixvz7dIfPdsKnJwfFjRJDeqwbs33SC8okSK7qjDWdLHLutbUEqG",
+              "received": true
+            }
+          ],
+          "total_price": 222021,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Kian",
+              "street": "Bath Street",
+              "house": 7,
+              "flat": 868
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T15:25:18.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694811541c508c5d5ee8a0bc",
+          "products": [
+            {
+              "_id": "694811551c508c5d5ee8a0e3",
+              "name": "Hat59685",
+              "amount": 253,
+              "price": 97888,
+              "manufacturer": "Google",
+              "notes": "xXMUqfN8RYH0LbeDElkqQeXgY4ifaWwagd5qV8Nz9vQVgdE1GIvqgszspLsvm53mGVZjzezJJYMcVX6fQadJRKifmBEnW7GlP2DmzEhFU9CLUGpDdoxKGbDxjvlrPgSWy7GSlmj47VT9YQo6yqiCM5BXMjwmyaQP5N1kab0nU1UtUJ01CD1WWVDZckrAdLiJFUVy8UIjDQbXLm4ygfrx7iJAszpoUOYVh22p55QH7lAEwzMIGCggFSvtay",
+              "received": false
+            },
+            {
+              "_id": "694811551c508c5d5ee8a109",
+              "name": "Shirt12287",
+              "amount": 825,
+              "price": 65828,
+              "manufacturer": "Tesla",
+              "notes": "XxRMHJhKTYOOH7TBDdQdbxOIVypxd6uhOn869qiFuR455d7ugvXBprj8aizkZEczzJtwoOXf57rP6H3lbN8KPFqAHB4QmB0Qzu0imjZJTsXjaYMiFwxchl3KD7MNuxUoAiZb7TyLhrgrekfyXpfGqHsDcTHk490Gte6DemzS3BeeukEgrllftOTBGaJN36GZg3pGcTAZAHhkAvvQ8oHtTp2fWuOhVgYY8Sjq631XDyHapPrb70RNvbXu1T",
+              "received": false
+            },
+            {
+              "_id": "694811551c508c5d5ee8a1de",
+              "name": "Bike19903",
+              "amount": 78,
+              "price": 58305,
+              "manufacturer": "Tesla",
+              "notes": "6UgKVJfHmQwmBYS1FFOFRsplXnPvpuG6fpYy7mpr12A71lVDZ2aHI3ZoX0PG44kNUFS7FrGtL2o0cK4472gxzlSShu5NUMhwxToYKVFZpP5pb6eiqRGMPamTxHLD4GHJdYYaFtrAbRAZoRJRzcg1F6SNvvIvZtFSppVrLZzn9khkyHnAkgVQLYi5LMrW0PzPIo7kO7vixvz7dIfPdsKnJwfFjRJDeqwbs33SC8okSK7qjDWdLHLutbUEqG",
+              "received": false
+            }
+          ],
+          "total_price": 222021,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Kian",
+              "street": "Bath Street",
+              "house": 7,
+              "flat": 868
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T15:25:17.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694811541c508c5d5ee8a0bc",
+          "products": [
+            {
+              "_id": "694811551c508c5d5ee8a0e3",
+              "name": "Hat59685",
+              "amount": 253,
+              "price": 97888,
+              "manufacturer": "Google",
+              "notes": "xXMUqfN8RYH0LbeDElkqQeXgY4ifaWwagd5qV8Nz9vQVgdE1GIvqgszspLsvm53mGVZjzezJJYMcVX6fQadJRKifmBEnW7GlP2DmzEhFU9CLUGpDdoxKGbDxjvlrPgSWy7GSlmj47VT9YQo6yqiCM5BXMjwmyaQP5N1kab0nU1UtUJ01CD1WWVDZckrAdLiJFUVy8UIjDQbXLm4ygfrx7iJAszpoUOYVh22p55QH7lAEwzMIGCggFSvtay",
+              "received": false
+            },
+            {
+              "_id": "694811551c508c5d5ee8a109",
+              "name": "Shirt12287",
+              "amount": 825,
+              "price": 65828,
+              "manufacturer": "Tesla",
+              "notes": "XxRMHJhKTYOOH7TBDdQdbxOIVypxd6uhOn869qiFuR455d7ugvXBprj8aizkZEczzJtwoOXf57rP6H3lbN8KPFqAHB4QmB0Qzu0imjZJTsXjaYMiFwxchl3KD7MNuxUoAiZb7TyLhrgrekfyXpfGqHsDcTHk490Gte6DemzS3BeeukEgrllftOTBGaJN36GZg3pGcTAZAHhkAvvQ8oHtTp2fWuOhVgYY8Sjq631XDyHapPrb70RNvbXu1T",
+              "received": false
+            },
+            {
+              "_id": "694811551c508c5d5ee8a1de",
+              "name": "Bike19903",
+              "amount": 78,
+              "price": 58305,
+              "manufacturer": "Tesla",
+              "notes": "6UgKVJfHmQwmBYS1FFOFRsplXnPvpuG6fpYy7mpr12A71lVDZ2aHI3ZoX0PG44kNUFS7FrGtL2o0cK4472gxzlSShu5NUMhwxToYKVFZpP5pb6eiqRGMPamTxHLD4GHJdYYaFtrAbRAZoRJRzcg1F6SNvvIvZtFSppVrLZzn9khkyHnAkgVQLYi5LMrW0PzPIo7kO7vixvz7dIfPdsKnJwfFjRJDeqwbs33SC8okSK7qjDWdLHLutbUEqG",
+              "received": false
+            }
+          ],
+          "total_price": 222021,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Kian",
+              "street": "Bath Street",
+              "house": 7,
+              "flat": 868
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T15:25:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694811541c508c5d5ee8a0bc",
+          "products": [
+            {
+              "_id": "694811551c508c5d5ee8a0e3",
+              "name": "Hat59685",
+              "amount": 253,
+              "price": 97888,
+              "manufacturer": "Google",
+              "notes": "xXMUqfN8RYH0LbeDElkqQeXgY4ifaWwagd5qV8Nz9vQVgdE1GIvqgszspLsvm53mGVZjzezJJYMcVX6fQadJRKifmBEnW7GlP2DmzEhFU9CLUGpDdoxKGbDxjvlrPgSWy7GSlmj47VT9YQo6yqiCM5BXMjwmyaQP5N1kab0nU1UtUJ01CD1WWVDZckrAdLiJFUVy8UIjDQbXLm4ygfrx7iJAszpoUOYVh22p55QH7lAEwzMIGCggFSvtay",
+              "received": false
+            },
+            {
+              "_id": "694811551c508c5d5ee8a109",
+              "name": "Shirt12287",
+              "amount": 825,
+              "price": 65828,
+              "manufacturer": "Tesla",
+              "notes": "XxRMHJhKTYOOH7TBDdQdbxOIVypxd6uhOn869qiFuR455d7ugvXBprj8aizkZEczzJtwoOXf57rP6H3lbN8KPFqAHB4QmB0Qzu0imjZJTsXjaYMiFwxchl3KD7MNuxUoAiZb7TyLhrgrekfyXpfGqHsDcTHk490Gte6DemzS3BeeukEgrllftOTBGaJN36GZg3pGcTAZAHhkAvvQ8oHtTp2fWuOhVgYY8Sjq631XDyHapPrb70RNvbXu1T",
+              "received": false
+            },
+            {
+              "_id": "694811551c508c5d5ee8a1de",
+              "name": "Bike19903",
+              "amount": 78,
+              "price": 58305,
+              "manufacturer": "Tesla",
+              "notes": "6UgKVJfHmQwmBYS1FFOFRsplXnPvpuG6fpYy7mpr12A71lVDZ2aHI3ZoX0PG44kNUFS7FrGtL2o0cK4472gxzlSShu5NUMhwxToYKVFZpP5pb6eiqRGMPamTxHLD4GHJdYYaFtrAbRAZoRJRzcg1F6SNvvIvZtFSppVrLZzn9khkyHnAkgVQLYi5LMrW0PzPIo7kO7vixvz7dIfPdsKnJwfFjRJDeqwbs33SC8okSK7qjDWdLHLutbUEqG",
+              "received": false
+            }
+          ],
+          "total_price": 222021,
+          "delivery": null,
+          "changedOn": "2025-12-21T15:25:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

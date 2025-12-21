@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 15:25:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-4nTia245pM/Zi2+VJTZgNPoRqkY\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694811541c508c5d5ee8a053",
+        "email": "Amya.Kris@hotmail.com",
+        "name": "Ubaldo Turner",
+        "country": "Russia",
+        "city": "North Madelynville",
+        "street": "Goldner Causeway",
+        "house": 1,
+        "flat": 395,
+        "phone": "+18784219589",
+        "createdOn": "2025-12-21T15:25:08.000Z",
+        "notes": "OSfGYCP60sSsjbm6reT92GbajmSqvzJKcEEvyCeJPPetUyCGSDoW4K3E95Fi4rujMf1pcrxTmapBjesIeXgHQWFfIuumwpcpXKd3eCTbL38U7MegzJeC5bdIH9p4h9hxQwpVsXsAlLo8ltpZkwK4lHTDFuP5UjBZuSHnWMHLMXMT4quZvF4dN3lEyHwFWnhImUGbTIUSLxCrFCObfUR0R0z5llz5b0CSfrHq8E4yDe2XglhHBO3G38pelD"
+      },
+      "products": [
+        {
+          "_id": "694811541c508c5d5ee8a072",
+          "name": "Chair57260",
+          "amount": 247,
+          "price": 25566,
+          "manufacturer": "Xiaomi",
+          "notes": "UDZ51xrTAWALhUHzFw0XkZj671NRdGD3w3TxjWz4zbJaOa4Uf1Pl3YR0B8zcijBt8yoQ2cJfHrqn2Xy36KOLgz4MPtJlap1zibn5DxDMD175GMHzvhQ1N37uDlgybErWHsaguB3565MW6r19Yoaw1dPvkk4qTStw26AfCFdNMP08vb1kAoDyJUUupIj3PyNSDtQMN90B305FqG89gIhmuMIBNnCCLcpUDpRnFM8dJbLRJJlrrcDqsFxUDv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 25566,
+      "createdOn": "2025-12-21T15:25:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694811541c508c5d5ee8a053",
+          "products": [
+            {
+              "_id": "694811541c508c5d5ee8a072",
+              "name": "Chair57260",
+              "amount": 247,
+              "price": 25566,
+              "manufacturer": "Xiaomi",
+              "notes": "UDZ51xrTAWALhUHzFw0XkZj671NRdGD3w3TxjWz4zbJaOa4Uf1Pl3YR0B8zcijBt8yoQ2cJfHrqn2Xy36KOLgz4MPtJlap1zibn5DxDMD175GMHzvhQ1N37uDlgybErWHsaguB3565MW6r19Yoaw1dPvkk4qTStw26AfCFdNMP08vb1kAoDyJUUupIj3PyNSDtQMN90B305FqG89gIhmuMIBNnCCLcpUDpRnFM8dJbLRJJlrrcDqsFxUDv",
+              "received": false
+            }
+          ],
+          "total_price": 25566,
+          "delivery": null,
+          "changedOn": "2025-12-21T15:25:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694811541c508c5d5ee8a0a1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

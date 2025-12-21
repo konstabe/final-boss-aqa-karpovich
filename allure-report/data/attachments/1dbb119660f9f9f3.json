@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 15:25:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-IcsfVOItUSyHCWFWDFuspl2ce5M\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694811541c508c5d5ee8a09b",
+        "email": "Giuseppe10@hotmail.com",
+        "name": "Elta Mayert",
+        "country": "Russia",
+        "city": "Weissnatport",
+        "street": "Eloy Junction",
+        "house": 33,
+        "flat": 677,
+        "phone": "+16092140619",
+        "createdOn": "2025-12-21T15:25:08.000Z",
+        "notes": "X7lDCQdMknivPrRy9os0e56eViOcSGdkXiUAZOFm5WIdeBP3DFecq4V28O5lXMlimzye5KjwbR9SoL3bqVEkJqEp0EQGcGSp9wLhfGHywtOi1vtkM2TpFlRto8rAZ0vyLMDQa5zigqls28WRx6VXMPk8y7h0BKZJ4S5XN6VS4h5lhHcPU1hVJZHCaUcsHCzOy1cRN1GOTekWfXBIj8oeeZ0hA0y6DIJMtmjXLCf2lPz60iVZMfjsNKudyQ"
+      },
+      "products": [
+        {
+          "_id": "694811541c508c5d5ee8a0c3",
+          "name": "Ball49026",
+          "amount": 669,
+          "price": 72201,
+          "manufacturer": "Google",
+          "notes": "2ZRE0QDrjJYGT5lmHTfskaTU4u6Y1sGLZC7elYkeL6z4dl62D29DbuYj3G4qT6kzXTCcFXLC2xgA4wnafv0su67IUo1KxnKcN3pjnpAXLGUX2gvHWuZTAAmob5dN0LpTDDeVYTU3cY9eqvFISe0NbkVHDYmlj4E2ZqSOpY6qORfC7FdRgi6TDd2OwLKAKK6Qow4aBSCnF6ovQi4dz9MpPD8Juzo7dFtFLdqksymNBrPEMJf7R2svl9VnLC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 72201,
+      "createdOn": "2025-12-21T15:25:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694811541c508c5d5ee8a09b",
+          "products": [
+            {
+              "_id": "694811541c508c5d5ee8a0c3",
+              "name": "Ball49026",
+              "amount": 669,
+              "price": 72201,
+              "manufacturer": "Google",
+              "notes": "2ZRE0QDrjJYGT5lmHTfskaTU4u6Y1sGLZC7elYkeL6z4dl62D29DbuYj3G4qT6kzXTCcFXLC2xgA4wnafv0su67IUo1KxnKcN3pjnpAXLGUX2gvHWuZTAAmob5dN0LpTDDeVYTU3cY9eqvFISe0NbkVHDYmlj4E2ZqSOpY6qORfC7FdRgi6TDd2OwLKAKK6Qow4aBSCnF6ovQi4dz9MpPD8Juzo7dFtFLdqksymNBrPEMJf7R2svl9VnLC",
+              "received": false
+            }
+          ],
+          "total_price": 72201,
+          "delivery": null,
+          "changedOn": "2025-12-21T15:25:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694811551c508c5d5ee8a0f4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
