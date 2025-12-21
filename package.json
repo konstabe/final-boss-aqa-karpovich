@@ -15,7 +15,7 @@
     "prepare": "husky",
     "allure:generate": "allure generate allure-results --clean",
     "allure:open": "allure open",
-    "allure-report": "allure generate allure-results -o allure-report",
+    "allure-report": "allure generate allure-results -o allure-report --clean",
     "allure": "npm run allure:generate && npm run allure:open"
   },
   "lint-staged": {
