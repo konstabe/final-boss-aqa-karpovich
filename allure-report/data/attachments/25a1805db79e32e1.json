@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 17:51:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-7kME19B8flkZU2u1E9dy3CWt/D4\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694833ba1c508c5d5ee8ecbe",
+        "email": "Vicky_Barton@yahoo.com",
+        "name": "Brook Zulauf",
+        "country": "Germany",
+        "city": "Fontana",
+        "street": "Destiney Trafficway",
+        "house": 28,
+        "flat": 567,
+        "phone": "+18019647538",
+        "createdOn": "2025-12-21T17:51:54.000Z",
+        "notes": "Om03S9SIyg6B2iKVextuMgRljFnNTeqm56VHi0NHoTSEgIKRvKPfFU5g1Z628CHoYiNgbPAdrWjqln5fN1SYdjI8bfZglhFRK1GsymJAxumEwu1eRybM1regm65rOFhz6yLNcwbyGinpKL7yWcBCI0Oo44ES1QekHWDDcT4Hwhj7mVlnQ0HqWv4R1JTgnut0Zi2Gn9USL3yPcSrhzS6IEx2bwQHYt6KW8EXVu90WIW8l7IA48gUqKEB2Nb"
+      },
+      "products": [
+        {
+          "_id": "694833ba1c508c5d5ee8ece0",
+          "name": "Shoes36169",
+          "amount": 610,
+          "price": 79130,
+          "manufacturer": "Google",
+          "notes": "9WTtZnTi5aX9QdKBg3HptQottarkWTYAj4PmRORrdxi0VrD55iFKjESFFU9Ase77vIlWTlyAR9nXZ0OepFeLGGlQbzBNlEUAdhwkFAtQQQX2iVeorXZAOdHA6Cd0JyNyHu7lkxHQTcVnEaxXMwNYHnjtIbv9yzyuhDRDaqesl3lR3EZYog67To4r38vpsoXDMnFhTsQN9Ncf6uI3p6F7lcUwVs7s65ONuxdYgevMw6tAagFzHUT51vOdC0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 79130,
+      "createdOn": "2025-12-21T17:51:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694833ba1c508c5d5ee8ecbe",
+          "products": [
+            {
+              "_id": "694833ba1c508c5d5ee8ece0",
+              "name": "Shoes36169",
+              "amount": 610,
+              "price": 79130,
+              "manufacturer": "Google",
+              "notes": "9WTtZnTi5aX9QdKBg3HptQottarkWTYAj4PmRORrdxi0VrD55iFKjESFFU9Ase77vIlWTlyAR9nXZ0OepFeLGGlQbzBNlEUAdhwkFAtQQQX2iVeorXZAOdHA6Cd0JyNyHu7lkxHQTcVnEaxXMwNYHnjtIbv9yzyuhDRDaqesl3lR3EZYog67To4r38vpsoXDMnFhTsQN9Ncf6uI3p6F7lcUwVs7s65ONuxdYgevMw6tAagFzHUT51vOdC0",
+              "received": false
+            }
+          ],
+          "total_price": 79130,
+          "delivery": null,
+          "changedOn": "2025-12-21T17:51:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694833ba1c508c5d5ee8ed01"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

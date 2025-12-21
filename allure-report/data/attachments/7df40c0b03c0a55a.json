@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 17:52:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2972",
+    "etag": "W/\"b9c-aLTRFW5nN/3Ky5W6SIF/5a9GYWs\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694833c01c508c5d5ee8f18a",
+      "status": "Draft",
+      "customer": {
+        "_id": "694833be1c508c5d5ee8ef35",
+        "email": "Adele52@yahoo.com",
+        "name": "Otilia Gusikowski",
+        "country": "Canada",
+        "city": "West Sandyland",
+        "street": "S Park Street",
+        "house": 49,
+        "flat": 487,
+        "phone": "+13657335077",
+        "createdOn": "2025-12-21T17:51:58.000Z",
+        "notes": "hs5gCqg3eDOjwy0TbTGQ4SLipICA30By5Rp0dhueKrHwIYm0sUGgswof3L1us73Iz7vxDqJiaQQ6mSzq9Ka3cK0On0PmobE6POEuf5aNS4TjM4mAdApOMwzK4yZEMg8lKTAwpljlLuGhWSZqrGSavcplMlrMjpxM37r6tCNA6t2KQgd0IyAdJpI1mPl3BMqllpm4wwi3ahpZvbEjNBxmWlrjusydBkLsYy8N2gcb6ZkWDZFKsYsjGUSoXp"
+      },
+      "products": [
+        {
+          "_id": "694833bf1c508c5d5ee8f005",
+          "name": "Keyboard51525",
+          "amount": 543,
+          "price": 10801,
+          "manufacturer": "Samsung",
+          "notes": "RbqfelP4CCxy36dU1TqtXJL7IJIDAWch2jLIH8jB4ALFErkRXWUMs7rKEtxuZwgLe5VHket30KPpNyndG8yJL1mUXcDcyxz4j48g3KHtkWDfZjufI7ZOD2t2u5Rlt4qln6uh7qVeuMvDCY7QdHtT13IRCuX4Zk5YZbXFCHS50IcKTqwPSAx8zZEiHdA3ANdcqdX5qrfvAJuuoxUKDjt3gW1f6WXkumbTHkf4gd1sIynKzLCnFPgBZDdaMf",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "West Sandyland",
+          "street": "S Park Street",
+          "house": 49,
+          "flat": 487
+        },
+        "finalDate": "2025-12-22T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 10801,
+      "createdOn": "2025-12-21T17:52:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694833be1c508c5d5ee8ef35",
+          "products": [
+            {
+              "_id": "694833bf1c508c5d5ee8f005",
+              "name": "Keyboard51525",
+              "amount": 543,
+              "price": 10801,
+              "manufacturer": "Samsung",
+              "notes": "RbqfelP4CCxy36dU1TqtXJL7IJIDAWch2jLIH8jB4ALFErkRXWUMs7rKEtxuZwgLe5VHket30KPpNyndG8yJL1mUXcDcyxz4j48g3KHtkWDfZjufI7ZOD2t2u5Rlt4qln6uh7qVeuMvDCY7QdHtT13IRCuX4Zk5YZbXFCHS50IcKTqwPSAx8zZEiHdA3ANdcqdX5qrfvAJuuoxUKDjt3gW1f6WXkumbTHkf4gd1sIynKzLCnFPgBZDdaMf",
+              "received": false
+            }
+          ],
+          "total_price": 10801,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "West Sandyland",
+              "street": "S Park Street",
+              "house": 49,
+              "flat": 487
+            },
+            "finalDate": "2025-12-22T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T17:52:02.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694833be1c508c5d5ee8ef35",
+          "products": [
+            {
+              "_id": "694833bf1c508c5d5ee8f005",
+              "name": "Keyboard51525",
+              "amount": 543,
+              "price": 10801,
+              "manufacturer": "Samsung",
+              "notes": "RbqfelP4CCxy36dU1TqtXJL7IJIDAWch2jLIH8jB4ALFErkRXWUMs7rKEtxuZwgLe5VHket30KPpNyndG8yJL1mUXcDcyxz4j48g3KHtkWDfZjufI7ZOD2t2u5Rlt4qln6uh7qVeuMvDCY7QdHtT13IRCuX4Zk5YZbXFCHS50IcKTqwPSAx8zZEiHdA3ANdcqdX5qrfvAJuuoxUKDjt3gW1f6WXkumbTHkf4gd1sIynKzLCnFPgBZDdaMf",
+              "received": false
+            }
+          ],
+          "total_price": 10801,
+          "delivery": null,
+          "changedOn": "2025-12-21T17:52:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
