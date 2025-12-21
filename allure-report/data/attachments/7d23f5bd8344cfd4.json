@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:05:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2814",
+    "etag": "W/\"afe-fEFrMI6KE1dVqAnNjCj/+CeBeMY\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69486f2a1c508c5d5eee5be5",
+      "status": "Draft",
+      "customer": {
+        "_id": "69486f291c508c5d5eee5b57",
+        "email": "Javonte_Howe42@gmail.com",
+        "name": "Vincenzo Hettinger",
+        "country": "USA",
+        "city": "Ullrichworth",
+        "street": "Hills Manor",
+        "house": 19,
+        "flat": 303,
+        "phone": "+19622664615",
+        "createdOn": "2025-12-21T22:05:29.000Z",
+        "notes": "0xTGZkKl2Emvea2cJzPrFWWe1otbHZWfjfJZ0ixZtrrBqTRrsiQNqKzt830ecZfK7CSq2yNVSi2OTKrm1H2fvZzOhYy77Z8WgyK2dSiqSHwplJKAJbMQ9TNyOhEGPcZuWn9kIBWzfzeVKRRGcEnan2IPggGF3kTDYienxmU0wJ6Q0tzhyfCO4uTrTnxo3lW0ih8yc8O14ABooX1FgPCi2PkitRCg7jlv6HCJEsWZEu73X7u72jQ2KBttbB"
+      },
+      "products": [
+        {
+          "_id": "69486f291c508c5d5eee5b7c",
+          "name": "Chips99044",
+          "amount": 518,
+          "price": 9710,
+          "manufacturer": "Microsoft",
+          "notes": "SehAkuRhp3xLGOaKoiZgfPXfzmog4K8ygjVT5KzJKudRGn0InQQEiTDEw0CcBqbmNbLHUwa2ONluKqFKoj1IqjYxh2zh2GFrIkwH3hk0JQGIYagGV5gEFDH98hfVKGqwgwfpUwhkb9WX6F3eSFARARUFM4strbHMHQ4n0wge5V15dVdJtgXzAkTae8nXEa1JkobBbRdbhsvF4cGckewO2qGCIEbgj7GK0Hwct78yb4FdF8ql9m2gzw4sgt",
+          "received": false
+        },
+        {
+          "_id": "69486f291c508c5d5eee5bba",
+          "name": "Bike81904",
+          "amount": 220,
+          "price": 4492,
+          "manufacturer": "Samsung",
+          "notes": "mGZCJ8iPgCLbHGIcAyJVlWP2eBYhBNpIfYrLFJR0FEKyJkyROS6fcQ61vUFV5BKmUFogeiycT0DCrLcqzG1CWpr2VHieLtTmw4qrttNvY3TDCDm3HCo25nsVUg5Qgn5ps6eSfre4nC4LPonEVMtbT5zveVEV6JVMpTq8S9QXOG6vAIyGMK2EBGnYA2X0kJrts0x5rMGzc9JppSFpsj3uoLIi3Sx5PvfQowkbJYuaCPgj2wls72Go44Bm1e",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 14202,
+      "createdOn": "2025-12-21T22:05:30.000Z",
+      "comments": [
+        {
+          "text": "fSXYGCTgtoaPv8TI1gT0g8a5wpsURzIoo3yWqpP50lFTOhV45BIhblZh7vm6rovMHTBaroQkfrq",
+          "createdOn": "2025-12-21T22:05:31.000Z",
+          "_id": "69486f2c1c508c5d5eee5d76"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69486f291c508c5d5eee5b57",
+          "products": [
+            {
+              "_id": "69486f291c508c5d5eee5b7c",
+              "name": "Chips99044",
+              "amount": 518,
+              "price": 9710,
+              "manufacturer": "Microsoft",
+              "notes": "SehAkuRhp3xLGOaKoiZgfPXfzmog4K8ygjVT5KzJKudRGn0InQQEiTDEw0CcBqbmNbLHUwa2ONluKqFKoj1IqjYxh2zh2GFrIkwH3hk0JQGIYagGV5gEFDH98hfVKGqwgwfpUwhkb9WX6F3eSFARARUFM4strbHMHQ4n0wge5V15dVdJtgXzAkTae8nXEa1JkobBbRdbhsvF4cGckewO2qGCIEbgj7GK0Hwct78yb4FdF8ql9m2gzw4sgt",
+              "received": false
+            },
+            {
+              "_id": "69486f291c508c5d5eee5bba",
+              "name": "Bike81904",
+              "amount": 220,
+              "price": 4492,
+              "manufacturer": "Samsung",
+              "notes": "mGZCJ8iPgCLbHGIcAyJVlWP2eBYhBNpIfYrLFJR0FEKyJkyROS6fcQ61vUFV5BKmUFogeiycT0DCrLcqzG1CWpr2VHieLtTmw4qrttNvY3TDCDm3HCo25nsVUg5Qgn5ps6eSfre4nC4LPonEVMtbT5zveVEV6JVMpTq8S9QXOG6vAIyGMK2EBGnYA2X0kJrts0x5rMGzc9JppSFpsj3uoLIi3Sx5PvfQowkbJYuaCPgj2wls72Go44Bm1e",
+              "received": false
+            }
+          ],
+          "total_price": 14202,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:05:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

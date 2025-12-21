@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:05:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2819",
+    "etag": "W/\"b03-kcC99oYso2gyoT6m8z8P2j4qClw\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69486f2a1c508c5d5eee5c01",
+      "status": "Draft",
+      "customer": {
+        "_id": "69486f291c508c5d5eee5b78",
+        "email": "Natalia.Nikolaus@yahoo.com",
+        "name": "Jeanette Beier",
+        "country": "USA",
+        "city": "Lake Astrid",
+        "street": "Wood Street",
+        "house": 29,
+        "flat": 107,
+        "phone": "+12335878773",
+        "createdOn": "2025-12-21T22:05:29.000Z",
+        "notes": "r5RA2y1KE6tZZvUWj00LMSuw6sgszVViCSuLN2fs4P3eEcZForbZLYi5BGvCmECLrpnX6howjgxsOhJjBObI8pcwW3Vb6SjTjBJ7lYoeFcExHNisczcDJ2s5ZblxACEguo1mqsvLwLHvuJ40uJsdBbhEZ7XnCVuzemij9vPEdf7cUzsQML6SGQdGivdISVipyVIioKt0XtoTGrH15zFdaEf3kSxTv0XjzwRzEhQnBWza9uz100oZ8pZkzF"
+      },
+      "products": [
+        {
+          "_id": "69486f291c508c5d5eee5ba4",
+          "name": "Shirt48859",
+          "amount": 187,
+          "price": 9028,
+          "manufacturer": "Microsoft",
+          "notes": "a35hkWadckUNSwgmKputq7fnBwdDORYekLxBJDfdQHIIA4yVXV9DygGvvzhfgy0zs9Jkvz7OgBlVxfYVRO7OrE83RgH9aj7yuxi8Xnuj0xPE68omgm4nyBfdQhwiWrGFyOkaBPVi2IfK3eHxcKSxjEqkBfsCYOCKLBO29VuNvBhDnvyoXBp2IrlFizXpZaFAzoDhznam92X9olbJSQmzna9hHa5MEVd7ikkzdNlh3vNceyNhIr9wx7WxDR",
+          "received": false
+        },
+        {
+          "_id": "69486f2a1c508c5d5eee5bc5",
+          "name": "Sausages94965",
+          "amount": 10,
+          "price": 20590,
+          "manufacturer": "Samsung",
+          "notes": "3am9oznJ6O8e0IAqndqNRUc755GqiOmwEPC4MNopiaplfLlvWFTM0DW73L3EZa5afreswbfcZkQ3IodsIniUbIIhvUqmKQyDS58AzyiOgX0bCZXCW1QDKA3tFCp7BVvo07pxJXEqnRa1ltYsmiVe4xUg25MSytmfppsr5962lpjLHecos89Ejrpi6Rx15OO6BbUnGMiZ2xLyeUrg6IItVrbdsjF5gfwt2XcdnyRsFPPoDLRkdRPK7wdoSv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 29618,
+      "createdOn": "2025-12-21T22:05:30.000Z",
+      "comments": [
+        {
+          "text": "FS4hFnw3g7yam30dzUapBwy5xWcxDBHXCUzucKpE61iikWPv3jyaCYxviJvkTJG3kLRT0bK6zCd",
+          "createdOn": "2025-12-21T22:05:32.000Z",
+          "_id": "69486f2c1c508c5d5eee5d82"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69486f291c508c5d5eee5b78",
+          "products": [
+            {
+              "_id": "69486f291c508c5d5eee5ba4",
+              "name": "Shirt48859",
+              "amount": 187,
+              "price": 9028,
+              "manufacturer": "Microsoft",
+              "notes": "a35hkWadckUNSwgmKputq7fnBwdDORYekLxBJDfdQHIIA4yVXV9DygGvvzhfgy0zs9Jkvz7OgBlVxfYVRO7OrE83RgH9aj7yuxi8Xnuj0xPE68omgm4nyBfdQhwiWrGFyOkaBPVi2IfK3eHxcKSxjEqkBfsCYOCKLBO29VuNvBhDnvyoXBp2IrlFizXpZaFAzoDhznam92X9olbJSQmzna9hHa5MEVd7ikkzdNlh3vNceyNhIr9wx7WxDR",
+              "received": false
+            },
+            {
+              "_id": "69486f2a1c508c5d5eee5bc5",
+              "name": "Sausages94965",
+              "amount": 10,
+              "price": 20590,
+              "manufacturer": "Samsung",
+              "notes": "3am9oznJ6O8e0IAqndqNRUc755GqiOmwEPC4MNopiaplfLlvWFTM0DW73L3EZa5afreswbfcZkQ3IodsIniUbIIhvUqmKQyDS58AzyiOgX0bCZXCW1QDKA3tFCp7BVvo07pxJXEqnRa1ltYsmiVe4xUg25MSytmfppsr5962lpjLHecos89Ejrpi6Rx15OO6BbUnGMiZ2xLyeUrg6IItVrbdsjF5gfwt2XcdnyRsFPPoDLRkdRPK7wdoSv",
+              "received": false
+            }
+          ],
+          "total_price": 29618,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:05:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

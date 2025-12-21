@@ -1,0 +1,187 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:05:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5239",
+    "etag": "W/\"1477-mIL9EbEm9KQFuf2fWcgGGOCIZEs\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69486f351c508c5d5eee6377",
+      "status": "Draft",
+      "customer": {
+        "_id": "69486f2f1c508c5d5eee5f2f",
+        "email": "Ally43@hotmail.com",
+        "name": "Lawrence Gutkowski",
+        "country": "USA",
+        "city": "Frisco",
+        "street": "W Walnut Street",
+        "house": 16,
+        "flat": 657,
+        "phone": "+12225351663",
+        "createdOn": "2025-12-21T22:05:35.000Z",
+        "notes": "xVdsnayGx1kl1tuXgeqv6FoCTAllwRrZ29p6I0QWGG8kvCgp2ZkxnR4ondikVRUbVrgRRtGht9YcHPCpgVdxaeKhrsk01zT8aVT1MmZ5g2S1t2wOMHhXRt2YwwctVQ96i3Fy33DQm052GDs463wyita4gx0L3SeE7cFCDlShCtmjoJI5Z5flRbWCpQ6Bde0YiG5nAsoh6mLLlM8tvV4FwLhmdJlOUPYFNdkLdaUGvJsslcGKYFQmVabmVX"
+      },
+      "products": [
+        {
+          "_id": "69486f301c508c5d5eee5f59",
+          "name": "Fish31461",
+          "amount": 385,
+          "price": 96118,
+          "manufacturer": "Apple",
+          "notes": "6zqZstOYvYp52zp5DXRiaU85TbjRQ9sqLC85RSkhdyUhwomZgc3PELqmgNW7akaKEosAUJXesxZCAMj6i4YKnaYRm2oMRO2i2KLGI2yvXzbmzigkmvRKe2clwcZZBZJmXtl2bGgksMzQIsbKLfAAoKT1SH3GR7V9Xc5ADuqNklsCNllFj6YLWa6fEtbJhcTAy7eVNRo7z0TKrz7c0AzhBUhf4PGjqBLXKVWAf72eOvcLNzGjrrlbPmQ5H4",
+          "received": false
+        },
+        {
+          "_id": "69486f301c508c5d5eee5f6d",
+          "name": "Chicken16853",
+          "amount": 679,
+          "price": 31062,
+          "manufacturer": "Apple",
+          "notes": "tsz50HiedNqyD18ZW8l7OQtO0DoC58sOoBZFlHdF5beI2ybe41M2zDe75ZibeSFDJyuNh0jPypFeik8rrUS51Fc0RS5Y4U4agZMH2SVeeU5XeqC31qFGgYTsSxXuGXZjGWiCOCONouGqxZOzX6QoHQTZ5iLx8gBNIRmmjfUelL77Xf1sAcvD4QpRpcNEWgyO3FIMhAgFKVEVupbVZWoBKtXzjqov521TEZEHkPpK7lFOfBT63f2f0bdjap",
+          "received": false
+        },
+        {
+          "_id": "69486f331c508c5d5eee6216",
+          "name": "Gloves75485",
+          "amount": 573,
+          "price": 77404,
+          "manufacturer": "Apple",
+          "notes": "zPvPsKd2BROy3PnkCcQDK7mOS4mvYT3OALNk4B32Ubwoyf2DTp6MUYbzismpP27enbu12J521aP3oEoGVG4FiAbM8th0IrRJmQEpghz4xyfaorbEJegui54C2JlxnQ2tuwRJlDj3tyrUj0tXQg5S7BKaJIbp5rF0Btcb3LDNApzGtmYVNqzg1vH48bBYKgPRHU77OmoYGSuy6etQNRnk6S6xK6MwGQk9pu7b6l4M987rmes0ppCqdGvYZb",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Frisco",
+          "street": "W Walnut Street",
+          "house": 16,
+          "flat": 657
+        },
+        "finalDate": "2025-12-22T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 204584,
+      "createdOn": "2025-12-21T22:05:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69486f2f1c508c5d5eee5f2f",
+          "products": [
+            {
+              "_id": "69486f301c508c5d5eee5f59",
+              "name": "Fish31461",
+              "amount": 385,
+              "price": 96118,
+              "manufacturer": "Apple",
+              "notes": "6zqZstOYvYp52zp5DXRiaU85TbjRQ9sqLC85RSkhdyUhwomZgc3PELqmgNW7akaKEosAUJXesxZCAMj6i4YKnaYRm2oMRO2i2KLGI2yvXzbmzigkmvRKe2clwcZZBZJmXtl2bGgksMzQIsbKLfAAoKT1SH3GR7V9Xc5ADuqNklsCNllFj6YLWa6fEtbJhcTAy7eVNRo7z0TKrz7c0AzhBUhf4PGjqBLXKVWAf72eOvcLNzGjrrlbPmQ5H4",
+              "received": false
+            },
+            {
+              "_id": "69486f301c508c5d5eee5f6d",
+              "name": "Chicken16853",
+              "amount": 679,
+              "price": 31062,
+              "manufacturer": "Apple",
+              "notes": "tsz50HiedNqyD18ZW8l7OQtO0DoC58sOoBZFlHdF5beI2ybe41M2zDe75ZibeSFDJyuNh0jPypFeik8rrUS51Fc0RS5Y4U4agZMH2SVeeU5XeqC31qFGgYTsSxXuGXZjGWiCOCONouGqxZOzX6QoHQTZ5iLx8gBNIRmmjfUelL77Xf1sAcvD4QpRpcNEWgyO3FIMhAgFKVEVupbVZWoBKtXzjqov521TEZEHkPpK7lFOfBT63f2f0bdjap",
+              "received": false
+            },
+            {
+              "_id": "69486f331c508c5d5eee6216",
+              "name": "Gloves75485",
+              "amount": 573,
+              "price": 77404,
+              "manufacturer": "Apple",
+              "notes": "zPvPsKd2BROy3PnkCcQDK7mOS4mvYT3OALNk4B32Ubwoyf2DTp6MUYbzismpP27enbu12J521aP3oEoGVG4FiAbM8th0IrRJmQEpghz4xyfaorbEJegui54C2JlxnQ2tuwRJlDj3tyrUj0tXQg5S7BKaJIbp5rF0Btcb3LDNApzGtmYVNqzg1vH48bBYKgPRHU77OmoYGSuy6etQNRnk6S6xK6MwGQk9pu7b6l4M987rmes0ppCqdGvYZb",
+              "received": false
+            }
+          ],
+          "total_price": 204584,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Frisco",
+              "street": "W Walnut Street",
+              "house": 16,
+              "flat": 657
+            },
+            "finalDate": "2025-12-22T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T22:05:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69486f2f1c508c5d5eee5f2f",
+          "products": [
+            {
+              "_id": "69486f301c508c5d5eee5f59",
+              "name": "Fish31461",
+              "amount": 385,
+              "price": 96118,
+              "manufacturer": "Apple",
+              "notes": "6zqZstOYvYp52zp5DXRiaU85TbjRQ9sqLC85RSkhdyUhwomZgc3PELqmgNW7akaKEosAUJXesxZCAMj6i4YKnaYRm2oMRO2i2KLGI2yvXzbmzigkmvRKe2clwcZZBZJmXtl2bGgksMzQIsbKLfAAoKT1SH3GR7V9Xc5ADuqNklsCNllFj6YLWa6fEtbJhcTAy7eVNRo7z0TKrz7c0AzhBUhf4PGjqBLXKVWAf72eOvcLNzGjrrlbPmQ5H4",
+              "received": false
+            },
+            {
+              "_id": "69486f301c508c5d5eee5f6d",
+              "name": "Chicken16853",
+              "amount": 679,
+              "price": 31062,
+              "manufacturer": "Apple",
+              "notes": "tsz50HiedNqyD18ZW8l7OQtO0DoC58sOoBZFlHdF5beI2ybe41M2zDe75ZibeSFDJyuNh0jPypFeik8rrUS51Fc0RS5Y4U4agZMH2SVeeU5XeqC31qFGgYTsSxXuGXZjGWiCOCONouGqxZOzX6QoHQTZ5iLx8gBNIRmmjfUelL77Xf1sAcvD4QpRpcNEWgyO3FIMhAgFKVEVupbVZWoBKtXzjqov521TEZEHkPpK7lFOfBT63f2f0bdjap",
+              "received": false
+            },
+            {
+              "_id": "69486f331c508c5d5eee6216",
+              "name": "Gloves75485",
+              "amount": 573,
+              "price": 77404,
+              "manufacturer": "Apple",
+              "notes": "zPvPsKd2BROy3PnkCcQDK7mOS4mvYT3OALNk4B32Ubwoyf2DTp6MUYbzismpP27enbu12J521aP3oEoGVG4FiAbM8th0IrRJmQEpghz4xyfaorbEJegui54C2JlxnQ2tuwRJlDj3tyrUj0tXQg5S7BKaJIbp5rF0Btcb3LDNApzGtmYVNqzg1vH48bBYKgPRHU77OmoYGSuy6etQNRnk6S6xK6MwGQk9pu7b6l4M987rmes0ppCqdGvYZb",
+              "received": false
+            }
+          ],
+          "total_price": 204584,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:05:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

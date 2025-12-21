@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:05:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4819",
+    "etag": "W/\"12d3-NmG0UE18nphzSq2WpvP6+MWUqtk\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69486f2d1c508c5d5eee5d9c",
+      "status": "Received",
+      "customer": {
+        "_id": "69486f2a1c508c5d5eee5bfe",
+        "email": "Ben.Cummerata88@gmail.com",
+        "name": "Raymundo Haag",
+        "country": "Russia",
+        "city": "Cruickshankshire",
+        "street": "Meadow Close",
+        "house": 19,
+        "flat": 977,
+        "phone": "+13837694266",
+        "createdOn": "2025-12-21T22:05:30.000Z",
+        "notes": "kHQBG0cZ8SjKkPGCuSMtSZBO31ZdKWkfIbnB4h68O3OLQ58LvW5EDa1u8A1u6COAFHkCEc9tM7nfWj1tn0n9xGhfWGyDQ5hDTEGpMhAXyFwokR9WDeXLLE4Fqsl4mjcYDFlz4ZXXOX63cCW1tH11Q1zbyLNwTe45XqcTcb8iq1YwIkowsovoIYy0Bw7T9b1NnXqdQW16zRmgmEPV7oWzjT9MXLGUidcR9cTPERJEPAkdtnLOXTQKI2eKzf"
+      },
+      "products": [
+        {
+          "_id": "69486f2c1c508c5d5eee5d6f",
+          "name": "Pizza20672",
+          "amount": 701,
+          "price": 33151,
+          "manufacturer": "Xiaomi",
+          "notes": "SuN1BHT3JPbPNbf18bBJTpwf6VGz910cx54alWVWA2FjTLVfsLsDE64WC2CMC91GNu726iNgxhw2AQ70RY7SgizKG0EdBIxRk5PH7YInTxIXxT7SaOZmwK4sTUkAIvt0R7IvppINbCaFBaWeg2jP1bocZub4pyl7XnPBcHn6YGf6jZIdbk3s73EyvvtDakIFq226zT7JM6nmQcKqNKF4LHOJzPpP8orJEr6N4bLEKofK9SFWqOeGvl4a4t",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Cruickshankshire",
+          "street": "Meadow Close",
+          "house": 19,
+          "flat": 977
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 33151,
+      "createdOn": "2025-12-21T22:05:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69486f2a1c508c5d5eee5bfe",
+          "products": [
+            {
+              "_id": "69486f2c1c508c5d5eee5d6f",
+              "name": "Pizza20672",
+              "amount": 701,
+              "price": 33151,
+              "manufacturer": "Xiaomi",
+              "notes": "SuN1BHT3JPbPNbf18bBJTpwf6VGz910cx54alWVWA2FjTLVfsLsDE64WC2CMC91GNu726iNgxhw2AQ70RY7SgizKG0EdBIxRk5PH7YInTxIXxT7SaOZmwK4sTUkAIvt0R7IvppINbCaFBaWeg2jP1bocZub4pyl7XnPBcHn6YGf6jZIdbk3s73EyvvtDakIFq226zT7JM6nmQcKqNKF4LHOJzPpP8orJEr6N4bLEKofK9SFWqOeGvl4a4t",
+              "received": true
+            }
+          ],
+          "total_price": 33151,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Cruickshankshire",
+              "street": "Meadow Close",
+              "house": 19,
+              "flat": 977
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T22:05:36.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69486f2a1c508c5d5eee5bfe",
+          "products": [
+            {
+              "_id": "69486f2c1c508c5d5eee5d6f",
+              "name": "Pizza20672",
+              "amount": 701,
+              "price": 33151,
+              "manufacturer": "Xiaomi",
+              "notes": "SuN1BHT3JPbPNbf18bBJTpwf6VGz910cx54alWVWA2FjTLVfsLsDE64WC2CMC91GNu726iNgxhw2AQ70RY7SgizKG0EdBIxRk5PH7YInTxIXxT7SaOZmwK4sTUkAIvt0R7IvppINbCaFBaWeg2jP1bocZub4pyl7XnPBcHn6YGf6jZIdbk3s73EyvvtDakIFq226zT7JM6nmQcKqNKF4LHOJzPpP8orJEr6N4bLEKofK9SFWqOeGvl4a4t",
+              "received": false
+            }
+          ],
+          "total_price": 33151,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Cruickshankshire",
+              "street": "Meadow Close",
+              "house": 19,
+              "flat": 977
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T22:05:35.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69486f2a1c508c5d5eee5bfe",
+          "products": [
+            {
+              "_id": "69486f2c1c508c5d5eee5d6f",
+              "name": "Pizza20672",
+              "amount": 701,
+              "price": 33151,
+              "manufacturer": "Xiaomi",
+              "notes": "SuN1BHT3JPbPNbf18bBJTpwf6VGz910cx54alWVWA2FjTLVfsLsDE64WC2CMC91GNu726iNgxhw2AQ70RY7SgizKG0EdBIxRk5PH7YInTxIXxT7SaOZmwK4sTUkAIvt0R7IvppINbCaFBaWeg2jP1bocZub4pyl7XnPBcHn6YGf6jZIdbk3s73EyvvtDakIFq226zT7JM6nmQcKqNKF4LHOJzPpP8orJEr6N4bLEKofK9SFWqOeGvl4a4t",
+              "received": false
+            }
+          ],
+          "total_price": 33151,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Cruickshankshire",
+              "street": "Meadow Close",
+              "house": 19,
+              "flat": 977
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-21T22:05:35.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69486f2a1c508c5d5eee5bfe",
+          "products": [
+            {
+              "_id": "69486f2c1c508c5d5eee5d6f",
+              "name": "Pizza20672",
+              "amount": 701,
+              "price": 33151,
+              "manufacturer": "Xiaomi",
+              "notes": "SuN1BHT3JPbPNbf18bBJTpwf6VGz910cx54alWVWA2FjTLVfsLsDE64WC2CMC91GNu726iNgxhw2AQ70RY7SgizKG0EdBIxRk5PH7YInTxIXxT7SaOZmwK4sTUkAIvt0R7IvppINbCaFBaWeg2jP1bocZub4pyl7XnPBcHn6YGf6jZIdbk3s73EyvvtDakIFq226zT7JM6nmQcKqNKF4LHOJzPpP8orJEr6N4bLEKofK9SFWqOeGvl4a4t",
+              "received": false
+            }
+          ],
+          "total_price": 33151,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:05:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
