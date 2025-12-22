@@ -1,3 +1,4 @@
+import { DOMAIN } from "config/env";
 import { TAGS } from "data/tags";
 import { test } from "fixtures";
 import path from "path";
@@ -15,7 +16,7 @@ test(
 			{
 				name: "Authorization",
 				value: token,
-				domain: "localhost",
+				domain: DOMAIN,
 				path: "/",
 				expires: -1,
 				httpOnly: false,
