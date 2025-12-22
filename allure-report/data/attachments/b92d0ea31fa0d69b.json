@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 17:10:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2654",
+    "etag": "W/\"a5e-po9LjI1w70IYTfNIy1C8NK5LPLw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69497b681c508c5d5ef409aa",
+        "email": "Darwin.Osinski@gmail.com",
+        "name": "Ulices Gerhold",
+        "country": "Great Britain",
+        "city": "Fort Jordane",
+        "street": "Hackett Rue",
+        "house": 30,
+        "flat": 363,
+        "phone": "+17727093311",
+        "createdOn": "2025-12-22T17:10:00.000Z",
+        "notes": "Zurnn2H7HHdDLJmueea49igBZ0lXOBlSKmpU01oHxUgZtpX9cUOYwl3zgkPoBbgTCm6amT3IcLWsmkza9Dl0zgm440gWgemhEhLbmucPEfe8jiPLVaM6oAAN91p7i2GVKOrBDJj2eKFQRBsQjZfRsFR9CjPj5GtkVPtY4I2LZbx37pYO0YpmTtBhfLvfk93cscEoVMIfF4xKh553uOkYlYnCAljxwlDeQhDWINPBRBQx2jNME9JEjX10S3"
+      },
+      "products": [
+        {
+          "_id": "69497b681c508c5d5ef409cf",
+          "name": "Salad95253",
+          "amount": 400,
+          "price": 90560,
+          "manufacturer": "Sony",
+          "notes": "Oi7CPPstHS59pk1eOLKNMdbYLuWJ96PxEBVoyjCyvYYqDM62hBVy1eqWcEqCtcQaZzihs0N1qHi5ai59WGFtOYPSHe9PjGAQppujijj0zTKgnA7M3vxysEiNvmPXxYl7UczmhdX7wmKLhszJQdliQxSMB0hy1okQAJNawxfjjVm9xsWg5DwCVTbMiC5ZXlYot6USWg9uJV9IAHTYa17eKiP5bwh5opVsmwvFKGmExsKtaFJrAYDTLqi59e",
+          "received": false
+        },
+        {
+          "_id": "69497b681c508c5d5ef409f7",
+          "name": "Soap10542",
+          "amount": 42,
+          "price": 59179,
+          "manufacturer": "Google",
+          "notes": "nHVE0V13BMYZ0lHg8fakqeC30fAoqvcByikXqgPKPa91EVYchqGTvSFb3KKWs2QF3Bb2Zgsw08Lo0I4ClP6edqJBq6vw5dAJsCkqG7odWGNo3wfebC8jfGlYJzLt6HPXAWmU2DeEkFCZcEhK98DMU9JHyA4gxWiNMJ7vLceIrObriVGCbMgSrInVXp4vyUKpgdN3WTQgQ7DmSNnphA4TFJiaW6yVphqt2c831AT8gUP0ZoGfnBAx1b94Uh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 149739,
+      "createdOn": "2025-12-22T17:10:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69497b681c508c5d5ef409aa",
+          "products": [
+            {
+              "_id": "69497b681c508c5d5ef409cf",
+              "name": "Salad95253",
+              "amount": 400,
+              "price": 90560,
+              "manufacturer": "Sony",
+              "notes": "Oi7CPPstHS59pk1eOLKNMdbYLuWJ96PxEBVoyjCyvYYqDM62hBVy1eqWcEqCtcQaZzihs0N1qHi5ai59WGFtOYPSHe9PjGAQppujijj0zTKgnA7M3vxysEiNvmPXxYl7UczmhdX7wmKLhszJQdliQxSMB0hy1okQAJNawxfjjVm9xsWg5DwCVTbMiC5ZXlYot6USWg9uJV9IAHTYa17eKiP5bwh5opVsmwvFKGmExsKtaFJrAYDTLqi59e",
+              "received": false
+            },
+            {
+              "_id": "69497b681c508c5d5ef409f7",
+              "name": "Soap10542",
+              "amount": 42,
+              "price": 59179,
+              "manufacturer": "Google",
+              "notes": "nHVE0V13BMYZ0lHg8fakqeC30fAoqvcByikXqgPKPa91EVYchqGTvSFb3KKWs2QF3Bb2Zgsw08Lo0I4ClP6edqJBq6vw5dAJsCkqG7odWGNo3wfebC8jfGlYJzLt6HPXAWmU2DeEkFCZcEhK98DMU9JHyA4gxWiNMJ7vLceIrObriVGCbMgSrInVXp4vyUKpgdN3WTQgQ7DmSNnphA4TFJiaW6yVphqt2c831AT8gUP0ZoGfnBAx1b94Uh",
+              "received": false
+            }
+          ],
+          "total_price": 149739,
+          "delivery": null,
+          "changedOn": "2025-12-22T17:10:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69497b691c508c5d5ef40a18"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 17:10:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2936",
+    "etag": "W/\"b78-OfVnhEtOhcAs/iy6Z5TrP2F6srk\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69497b691c508c5d5ef40a29",
+      "status": "Draft",
+      "customer": {
+        "_id": "69497b681c508c5d5ef409b3",
+        "email": "Pascale.Rippin64@gmail.com",
+        "name": "Estel Johns",
+        "country": "Belarus",
+        "city": "Jewelhaven",
+        "street": "The Paddock",
+        "house": 19,
+        "flat": 885,
+        "phone": "+18036980146",
+        "createdOn": "2025-12-22T17:10:00.000Z",
+        "notes": "vUjA1K4zZ6kXQLtVB6nTfXssNjnxRMKLL3XWkORYXvzv40zIg0o9QgnxQGV84vBl9st9Tc007ejBMze1ZVmyLNU19tXK5aQwHqs6nhtwKJIErSLllqLsI7FbTcJMFh0IuijLPIBq8jTAgz6xSUnWhbwPKwQX2mDGA08eLDKGjGNmdGhU1uPolMt21TA0ttHzl4Em7JMXWLorizcgWp9LBIGPD98RpvtT2rqlgKuNTvVlNa2yjUiagl0Nsd"
+      },
+      "products": [
+        {
+          "_id": "69497b681c508c5d5ef409d5",
+          "name": "Cheese68268",
+          "amount": 380,
+          "price": 42505,
+          "manufacturer": "Amazon",
+          "notes": "DU2attfsQDc4SbHc36VOH7MVQ13zmzFAey1kW5xjwz2AGPeETM1S6fzksRZhFaKxOmDIy83cBf21jvKjrnhfFs6suABVmVUGqYt6ssl5TuoepOosaNhxwRL1ZE0g6P3sCZ1FvErcGDHZF0yzn2vVYWkxwEKALKvJnuIuLU6EVolVjHXOfGJfczcsGwNGQYO0RFxCdkQCxt3dpISiYni5bFCxiWjZfScTvJEHMm0Pyh2OkOyWvS3xa52D1H",
+          "received": false
+        },
+        {
+          "_id": "69497b681c508c5d5ef409fe",
+          "name": "Bacon6712",
+          "amount": 547,
+          "price": 57352,
+          "manufacturer": "Google",
+          "notes": "Uk5jTdmoRPuHmNpgBUulx2MANtFxpormZOrQp3r9BlYm6Xec9mpQ3NCDV2u4758bdGl8pO1exj3BfbDtzdMZfevxfSPpUIr6ed4KvpxQXiCwIxos3DcS7qxRa23s0oVNzFtm92RWw8Vp6QAFjbvfvtv588PaPiG1K1NidyLOCaJjIv1hH9ogyYu2r9CO6FbPzxTrWymXLQ5cIrtbL6GGewlf7LrdKJbRUjZsiPUkb8W2zPivAdA4R31XQ1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 99857,
+      "createdOn": "2025-12-22T17:10:01.000Z",
+      "comments": [
+        {
+          "text": "F4gs1y22prLLc6fWGJCyOaN2KQ986IqNTKPbfuo34ui5Z0M3dRIHcT2PAorWOkNE6srG8AVDPxumJtFiXUhFESlVkFYC1Ok5F4gyof4qFksuZFB5HsautdPWib0JsQYlge7YNhOQGZNZizBvnir5zxUI8Jtf67uQe1ApVljFBaoMOqV20de7tRmBvasCq0cMbM5c2oyH <",
+          "createdOn": "2025-12-22T17:10:01.000Z",
+          "_id": "69497b691c508c5d5ef40a59"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69497b681c508c5d5ef409b3",
+          "products": [
+            {
+              "_id": "69497b681c508c5d5ef409d5",
+              "name": "Cheese68268",
+              "amount": 380,
+              "price": 42505,
+              "manufacturer": "Amazon",
+              "notes": "DU2attfsQDc4SbHc36VOH7MVQ13zmzFAey1kW5xjwz2AGPeETM1S6fzksRZhFaKxOmDIy83cBf21jvKjrnhfFs6suABVmVUGqYt6ssl5TuoepOosaNhxwRL1ZE0g6P3sCZ1FvErcGDHZF0yzn2vVYWkxwEKALKvJnuIuLU6EVolVjHXOfGJfczcsGwNGQYO0RFxCdkQCxt3dpISiYni5bFCxiWjZfScTvJEHMm0Pyh2OkOyWvS3xa52D1H",
+              "received": false
+            },
+            {
+              "_id": "69497b681c508c5d5ef409fe",
+              "name": "Bacon6712",
+              "amount": 547,
+              "price": 57352,
+              "manufacturer": "Google",
+              "notes": "Uk5jTdmoRPuHmNpgBUulx2MANtFxpormZOrQp3r9BlYm6Xec9mpQ3NCDV2u4758bdGl8pO1exj3BfbDtzdMZfevxfSPpUIr6ed4KvpxQXiCwIxos3DcS7qxRa23s0oVNzFtm92RWw8Vp6QAFjbvfvtv588PaPiG1K1NidyLOCaJjIv1hH9ogyYu2r9CO6FbPzxTrWymXLQ5cIrtbL6GGewlf7LrdKJbRUjZsiPUkb8W2zPivAdA4R31XQ1",
+              "received": false
+            }
+          ],
+          "total_price": 99857,
+          "delivery": null,
+          "changedOn": "2025-12-22T17:10:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

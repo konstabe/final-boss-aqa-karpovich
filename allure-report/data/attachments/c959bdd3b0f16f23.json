@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 17:10:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-Nnv/+9QHhdRjWIcjRq+X8altgkQ\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69497b6b1c508c5d5ef40b0c",
+        "email": "Zelma.Schultz18@gmail.com",
+        "name": "Vernice Lueilwitz",
+        "country": "Germany",
+        "city": "Adolfoshire",
+        "street": "Skiles Burgs",
+        "house": 26,
+        "flat": 56,
+        "phone": "+16186043409",
+        "createdOn": "2025-12-22T17:10:03.000Z",
+        "notes": "74extmkWbYyFw6GI9XHOiW5BMKLrecOsGoWizj5aE9VUlExyOAs8Y29WuQoPX8jomzRhyNAmLt4wvj5oVg9BkcjvdFpVOWYDIsPFHy0qdITDnnbgvPU3soyhwLBSVh1qyCdIHpD8YoCNnFZwntlMAwcS5IiyBvtmen5Mn4VNGZUTxpo9Ihxbi7hpCgU7ZNfSl6uSrIYZUWx2OyxC8H8nSZdOjCc0pMEzCKbXbcpjngIjoJ5zBmGawAsOn8"
+      },
+      "products": [
+        {
+          "_id": "69497b6b1c508c5d5ef40b22",
+          "name": "Shirt48232",
+          "amount": 915,
+          "price": 11933,
+          "manufacturer": "Tesla",
+          "notes": "aTJ5dzocMwP7o8s9LtvsEclhsltShXRQUV15owPL5n0UCzxeudVkGuklXTBpce1AQ8fhnTCLbmtUAiw7V50xOSO9Ap76nFFECt2kyAzxULGHCdj0wxMBLUs0E9vCUA8V3481BikxfqHWFSgXKTcqw1nsgvX0L3sMO0mF92W7t3aQzmRbh0GvuUwQGQdNePRqsuhyEO9pKbxFSb2ppVOv6kO0MvGBn1wY7NF2V715XqsBbHY1yXOL2IyWPN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 11933,
+      "createdOn": "2025-12-22T17:10:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69497b6b1c508c5d5ef40b0c",
+          "products": [
+            {
+              "_id": "69497b6b1c508c5d5ef40b22",
+              "name": "Shirt48232",
+              "amount": 915,
+              "price": 11933,
+              "manufacturer": "Tesla",
+              "notes": "aTJ5dzocMwP7o8s9LtvsEclhsltShXRQUV15owPL5n0UCzxeudVkGuklXTBpce1AQ8fhnTCLbmtUAiw7V50xOSO9Ap76nFFECt2kyAzxULGHCdj0wxMBLUs0E9vCUA8V3481BikxfqHWFSgXKTcqw1nsgvX0L3sMO0mF92W7t3aQzmRbh0GvuUwQGQdNePRqsuhyEO9pKbxFSb2ppVOv6kO0MvGBn1wY7NF2V715XqsBbHY1yXOL2IyWPN",
+              "received": false
+            }
+          ],
+          "total_price": 11933,
+          "delivery": null,
+          "changedOn": "2025-12-22T17:10:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69497b6b1c508c5d5ef40b56"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

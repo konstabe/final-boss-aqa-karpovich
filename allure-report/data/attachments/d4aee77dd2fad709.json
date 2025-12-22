@@ -1,0 +1,245 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 17:10:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6978",
+    "etag": "W/\"1b42-61KhdR1jhpZxN6PK3DIAPIAvtEY\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69497b711c508c5d5ef40e04",
+      "status": "In Process",
+      "customer": {
+        "_id": "69497b6f1c508c5d5ef40d2f",
+        "email": "Christopher.Johns@gmail.com",
+        "name": "Genevieve Mueller",
+        "country": "Belarus",
+        "city": "Port Alfonso",
+        "street": "Wood Street",
+        "house": 49,
+        "flat": 261,
+        "phone": "+18326768539",
+        "createdOn": "2025-12-22T17:10:07.000Z",
+        "notes": "xiZHqrnC0pyeJJi7EJyL6WnU5Q59iobjd4KrnIaWGEqLo4QKu2MpxocHLhmBBNjO57gmrkDf5JBSfPQ86yee59enWqtmBK4kwH0HbLaY5NmDPUrlOyPCQTeNrdpesdg77e2P6ESdJmGAFIVNRxwPKcAaMbJR6CKxlX7seMvWaedxjUL4GUhZS4MhHrI4l9GKkl8U2l5gf5BaTjLIK4cZMwf887zdm3Gjr31TQUa8nJVetunHrxjbVkVh8W"
+      },
+      "products": [
+        {
+          "_id": "69497b701c508c5d5ef40d62",
+          "name": "Car421",
+          "amount": 85,
+          "price": 49143,
+          "manufacturer": "Microsoft",
+          "notes": "kfMhOoXInL8AtnSxGrM3e0AYZMGvQ3otHkgT5k9ZfPg29wbxgTBHUcNsXPUnYFDBDe60qf3PvATHvg80Iot12TG5u6Hfa5YfSWfXHuAHZYTAhyOxj0fVZJpJwYcuwo5CIO7Dm7OHZuRRIPtN2QjeHK3H6XjL8fCT7w4M2q0Vrvsx91WpnUzR0NLaJgnMwg9Kj9HgDCwwRjAt2ehyKZsz4YU8E3BxtorZqINTKW9XN5SkLrstAGNk0b8VmM",
+          "received": false
+        },
+        {
+          "_id": "69497b701c508c5d5ef40d85",
+          "name": "Computer26385",
+          "amount": 286,
+          "price": 98949,
+          "manufacturer": "Xiaomi",
+          "notes": "TYmcVJcPN7ramwj9Dx57sQ7m99UAqcmB0KSCQmiBIHbDISq8dMnKisrlokcd3F4P0kDoQw1jvGFhMLiVJQbiwjPHsPfWo5chVuARFlWPcKlrSK1wBM9txg33LCkv1wTFrzLZesCJudnSZfizPGs74dsxjyQi71pPKN1BkWKYdFAdtCK4OlqwX2EdwxP6COea328yEasg0AoktOQEjflgnltzQveymANaHhoNX6pmhr5ylz5g5JT7mFjkcG",
+          "received": false
+        },
+        {
+          "_id": "69497b711c508c5d5ef40de5",
+          "name": "Mouse8559",
+          "amount": 269,
+          "price": 32990,
+          "manufacturer": "Microsoft",
+          "notes": "dVJU7beK8fGQ1EWRSNvugHD8G1TpheJbzyeKE5V12FE81zDostiPJT9n2ok7D0elNJnJpARgMB7M1622IeBaR1rRfzO2DhH2dnXPd7AqcZUZdZDoABueQ16ol5wplyzYwD99JXTdhVYQeNo39zw2EHkt1mvnMWI0Fd8M7uhuGhAIOOb4tR9DHtnLMV71B8vJC2ZGk8wh5qWq6j6ojhv9TtoUQA0gedModhlj8RJtTc0bpNwhMJnSimCDKD",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Port Alfonso",
+          "street": "Wood Street",
+          "house": 49,
+          "flat": 261
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 181082,
+      "createdOn": "2025-12-22T17:10:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69497b6f1c508c5d5ef40d2f",
+          "products": [
+            {
+              "_id": "69497b701c508c5d5ef40d62",
+              "name": "Car421",
+              "amount": 85,
+              "price": 49143,
+              "manufacturer": "Microsoft",
+              "notes": "kfMhOoXInL8AtnSxGrM3e0AYZMGvQ3otHkgT5k9ZfPg29wbxgTBHUcNsXPUnYFDBDe60qf3PvATHvg80Iot12TG5u6Hfa5YfSWfXHuAHZYTAhyOxj0fVZJpJwYcuwo5CIO7Dm7OHZuRRIPtN2QjeHK3H6XjL8fCT7w4M2q0Vrvsx91WpnUzR0NLaJgnMwg9Kj9HgDCwwRjAt2ehyKZsz4YU8E3BxtorZqINTKW9XN5SkLrstAGNk0b8VmM",
+              "received": false
+            },
+            {
+              "_id": "69497b701c508c5d5ef40d85",
+              "name": "Computer26385",
+              "amount": 286,
+              "price": 98949,
+              "manufacturer": "Xiaomi",
+              "notes": "TYmcVJcPN7ramwj9Dx57sQ7m99UAqcmB0KSCQmiBIHbDISq8dMnKisrlokcd3F4P0kDoQw1jvGFhMLiVJQbiwjPHsPfWo5chVuARFlWPcKlrSK1wBM9txg33LCkv1wTFrzLZesCJudnSZfizPGs74dsxjyQi71pPKN1BkWKYdFAdtCK4OlqwX2EdwxP6COea328yEasg0AoktOQEjflgnltzQveymANaHhoNX6pmhr5ylz5g5JT7mFjkcG",
+              "received": false
+            },
+            {
+              "_id": "69497b711c508c5d5ef40de5",
+              "name": "Mouse8559",
+              "amount": 269,
+              "price": 32990,
+              "manufacturer": "Microsoft",
+              "notes": "dVJU7beK8fGQ1EWRSNvugHD8G1TpheJbzyeKE5V12FE81zDostiPJT9n2ok7D0elNJnJpARgMB7M1622IeBaR1rRfzO2DhH2dnXPd7AqcZUZdZDoABueQ16ol5wplyzYwD99JXTdhVYQeNo39zw2EHkt1mvnMWI0Fd8M7uhuGhAIOOb4tR9DHtnLMV71B8vJC2ZGk8wh5qWq6j6ojhv9TtoUQA0gedModhlj8RJtTc0bpNwhMJnSimCDKD",
+              "received": false
+            }
+          ],
+          "total_price": 181082,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Port Alfonso",
+              "street": "Wood Street",
+              "house": 49,
+              "flat": 261
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-22T17:10:10.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69497b6f1c508c5d5ef40d2f",
+          "products": [
+            {
+              "_id": "69497b701c508c5d5ef40d62",
+              "name": "Car421",
+              "amount": 85,
+              "price": 49143,
+              "manufacturer": "Microsoft",
+              "notes": "kfMhOoXInL8AtnSxGrM3e0AYZMGvQ3otHkgT5k9ZfPg29wbxgTBHUcNsXPUnYFDBDe60qf3PvATHvg80Iot12TG5u6Hfa5YfSWfXHuAHZYTAhyOxj0fVZJpJwYcuwo5CIO7Dm7OHZuRRIPtN2QjeHK3H6XjL8fCT7w4M2q0Vrvsx91WpnUzR0NLaJgnMwg9Kj9HgDCwwRjAt2ehyKZsz4YU8E3BxtorZqINTKW9XN5SkLrstAGNk0b8VmM",
+              "received": false
+            },
+            {
+              "_id": "69497b701c508c5d5ef40d85",
+              "name": "Computer26385",
+              "amount": 286,
+              "price": 98949,
+              "manufacturer": "Xiaomi",
+              "notes": "TYmcVJcPN7ramwj9Dx57sQ7m99UAqcmB0KSCQmiBIHbDISq8dMnKisrlokcd3F4P0kDoQw1jvGFhMLiVJQbiwjPHsPfWo5chVuARFlWPcKlrSK1wBM9txg33LCkv1wTFrzLZesCJudnSZfizPGs74dsxjyQi71pPKN1BkWKYdFAdtCK4OlqwX2EdwxP6COea328yEasg0AoktOQEjflgnltzQveymANaHhoNX6pmhr5ylz5g5JT7mFjkcG",
+              "received": false
+            },
+            {
+              "_id": "69497b711c508c5d5ef40de5",
+              "name": "Mouse8559",
+              "amount": 269,
+              "price": 32990,
+              "manufacturer": "Microsoft",
+              "notes": "dVJU7beK8fGQ1EWRSNvugHD8G1TpheJbzyeKE5V12FE81zDostiPJT9n2ok7D0elNJnJpARgMB7M1622IeBaR1rRfzO2DhH2dnXPd7AqcZUZdZDoABueQ16ol5wplyzYwD99JXTdhVYQeNo39zw2EHkt1mvnMWI0Fd8M7uhuGhAIOOb4tR9DHtnLMV71B8vJC2ZGk8wh5qWq6j6ojhv9TtoUQA0gedModhlj8RJtTc0bpNwhMJnSimCDKD",
+              "received": false
+            }
+          ],
+          "total_price": 181082,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Port Alfonso",
+              "street": "Wood Street",
+              "house": 49,
+              "flat": 261
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-22T17:10:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69497b6f1c508c5d5ef40d2f",
+          "products": [
+            {
+              "_id": "69497b701c508c5d5ef40d62",
+              "name": "Car421",
+              "amount": 85,
+              "price": 49143,
+              "manufacturer": "Microsoft",
+              "notes": "kfMhOoXInL8AtnSxGrM3e0AYZMGvQ3otHkgT5k9ZfPg29wbxgTBHUcNsXPUnYFDBDe60qf3PvATHvg80Iot12TG5u6Hfa5YfSWfXHuAHZYTAhyOxj0fVZJpJwYcuwo5CIO7Dm7OHZuRRIPtN2QjeHK3H6XjL8fCT7w4M2q0Vrvsx91WpnUzR0NLaJgnMwg9Kj9HgDCwwRjAt2ehyKZsz4YU8E3BxtorZqINTKW9XN5SkLrstAGNk0b8VmM",
+              "received": false
+            },
+            {
+              "_id": "69497b701c508c5d5ef40d85",
+              "name": "Computer26385",
+              "amount": 286,
+              "price": 98949,
+              "manufacturer": "Xiaomi",
+              "notes": "TYmcVJcPN7ramwj9Dx57sQ7m99UAqcmB0KSCQmiBIHbDISq8dMnKisrlokcd3F4P0kDoQw1jvGFhMLiVJQbiwjPHsPfWo5chVuARFlWPcKlrSK1wBM9txg33LCkv1wTFrzLZesCJudnSZfizPGs74dsxjyQi71pPKN1BkWKYdFAdtCK4OlqwX2EdwxP6COea328yEasg0AoktOQEjflgnltzQveymANaHhoNX6pmhr5ylz5g5JT7mFjkcG",
+              "received": false
+            },
+            {
+              "_id": "69497b711c508c5d5ef40de5",
+              "name": "Mouse8559",
+              "amount": 269,
+              "price": 32990,
+              "manufacturer": "Microsoft",
+              "notes": "dVJU7beK8fGQ1EWRSNvugHD8G1TpheJbzyeKE5V12FE81zDostiPJT9n2ok7D0elNJnJpARgMB7M1622IeBaR1rRfzO2DhH2dnXPd7AqcZUZdZDoABueQ16ol5wplyzYwD99JXTdhVYQeNo39zw2EHkt1mvnMWI0Fd8M7uhuGhAIOOb4tR9DHtnLMV71B8vJC2ZGk8wh5qWq6j6ojhv9TtoUQA0gedModhlj8RJtTc0bpNwhMJnSimCDKD",
+              "received": false
+            }
+          ],
+          "total_price": 181082,
+          "delivery": null,
+          "changedOn": "2025-12-22T17:10:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

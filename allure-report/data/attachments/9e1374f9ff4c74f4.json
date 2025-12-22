@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 17:10:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-sZ4b9/rqXx/6vRI9/TCGaBIJzXM\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69497b6e1c508c5d5ef40cad",
+        "email": "Heidi52@gmail.com",
+        "name": "Brielle Morissette",
+        "country": "France",
+        "city": "West Hartford",
+        "street": "Lebsack Junction",
+        "house": 2,
+        "flat": 964,
+        "phone": "+14202829697",
+        "createdOn": "2025-12-22T17:10:06.000Z",
+        "notes": "0Pa4mKv6mrOLaB2qvbnVRk4JB89o3K66DwQRHXWpQLvfg0ycu09en46vzCh9pNcwUuMS5jRXzKVBgFF3qiCvlITBL2AZatn9jWrDfQZKIlYrmuyl6e8g01PIw6w36qs5tsUweaa5c3m1kO4OYeum0Gaw7wpcEM6CLAXZKnAhjXYAhmSyarv0RWzdR5Bz6wY8zgMriz26Pt0P1YXg7pTni3wK5Z1VA9hrUG1jKSherWnPrn5cBHjAKJLqlg"
+      },
+      "products": [
+        {
+          "_id": "69497b6e1c508c5d5ef40cd4",
+          "name": "Pizza1718",
+          "amount": 264,
+          "price": 52960,
+          "manufacturer": "Microsoft",
+          "notes": "AVRBWwyAfmmIIEgfv467zE6DfrcR1nhnPa69n25Cihn6bmE9ZvN3vYUrWHbuKBaxNkmCterr8ET67l6hiUQWm5Xdb7cKtetE3LL8zdr8p6crxoTZKppkPc839hYKFU5wepyUqaI0mp6zPVJ40amUaunELNHp93Zssgb8jMNUWGey3zy3WhhzUiwE5bXEqpsMBhm3JRbpXxDD53YX95lNTxrMxrBWS9hUxc812McTcmWpPP0HFjl9XHBJgu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 52960,
+      "createdOn": "2025-12-22T17:10:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69497b6e1c508c5d5ef40cad",
+          "products": [
+            {
+              "_id": "69497b6e1c508c5d5ef40cd4",
+              "name": "Pizza1718",
+              "amount": 264,
+              "price": 52960,
+              "manufacturer": "Microsoft",
+              "notes": "AVRBWwyAfmmIIEgfv467zE6DfrcR1nhnPa69n25Cihn6bmE9ZvN3vYUrWHbuKBaxNkmCterr8ET67l6hiUQWm5Xdb7cKtetE3LL8zdr8p6crxoTZKppkPc839hYKFU5wepyUqaI0mp6zPVJ40amUaunELNHp93Zssgb8jMNUWGey3zy3WhhzUiwE5bXEqpsMBhm3JRbpXxDD53YX95lNTxrMxrBWS9hUxc812McTcmWpPP0HFjl9XHBJgu",
+              "received": false
+            }
+          ],
+          "total_price": 52960,
+          "delivery": null,
+          "changedOn": "2025-12-22T17:10:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69497b6f1c508c5d5ef40cfe"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

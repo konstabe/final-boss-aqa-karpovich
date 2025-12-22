@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 17:10:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2636",
+    "etag": "W/\"a4c-RVexdymLmjlymzbZMTUXFhrjijw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69497b6b1c508c5d5ef40b35",
+        "email": "Lindsey37@yahoo.com",
+        "name": "Mozelle Yundt",
+        "country": "USA",
+        "city": "Niagara Falls",
+        "street": "Garth Camp",
+        "house": 42,
+        "flat": 960,
+        "phone": "+18644546888",
+        "createdOn": "2025-12-22T17:10:03.000Z",
+        "notes": "cMBVqE0uHKIoOB2cA59XFOQsKFKYAwoGhZuM7APygZN5BxaUxJyhzq9k7Ytqw0GYhEUMNSe40dwhVS6a8xSB0XVelPZYoNU3OcmCC1tvANb5q6KMpRy0E2YSJyBsaewp1PsDHtO9N9BYo0pCeT97Mdq4tCZ5rYAIINPuy1LwJyxhP5mbYHAGXQ2g2ULD0mlzdYkq4S6S2yaldegqC6gtevw4fQ2tTETDJkK1w5g3VR6qEWdqDjyWVmoI8L"
+      },
+      "products": [
+        {
+          "_id": "69497b6c1c508c5d5ef40b7e",
+          "name": "Chair40154",
+          "amount": 308,
+          "price": 9916,
+          "manufacturer": "Xiaomi",
+          "notes": "L5WhL0hcwRuHkQZEgnIcSWnG9YbJCcJxEnRmPHZ0m9OrWr0SDhO2KJxkevMbgFpEqJntCPayU3Loo806vaxNOrPwaOOdpZCYtg0ZHizcWU1QP7rvqFSIU5RPEgLCnTPEI0FGeSRWk5Y56do1uDHnfTk21uxddDcLx3Y49BA89ECVN3aFPGlsgbbxKaxWCIFG8gofL8nrISJkVytjgG4I1DVVuzUZ9f0INXsy4NGjNBXrd495kq8oZFfJzb",
+          "received": false
+        },
+        {
+          "_id": "69497b6c1c508c5d5ef40ba3",
+          "name": "Car41183",
+          "amount": 661,
+          "price": 41380,
+          "manufacturer": "Apple",
+          "notes": "yQaZkk87ogyEqIoSOhwS4kxeaQHDrAyRESZ0VC3CJmE8vsbxX64RwyfBFzLTBvgsKeMZ3bwpajdp56VJC0HPbJQnSgpLj4Q5HhkNGevSacPTJQOWUteL7K1WWB9CHQeeAWkcEVY77I979mLh6LKISkPnzuMMXuyLcnrCZHPJfT5yp9w54WsAjTe7ne4FZWJpARKXamIkKiXp8aWpJJqT2JhNs90xaVjFBpXoH9uvDq5iTPHZlu80BHNLej",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 51296,
+      "createdOn": "2025-12-22T17:10:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69497b6b1c508c5d5ef40b35",
+          "products": [
+            {
+              "_id": "69497b6c1c508c5d5ef40b7e",
+              "name": "Chair40154",
+              "amount": 308,
+              "price": 9916,
+              "manufacturer": "Xiaomi",
+              "notes": "L5WhL0hcwRuHkQZEgnIcSWnG9YbJCcJxEnRmPHZ0m9OrWr0SDhO2KJxkevMbgFpEqJntCPayU3Loo806vaxNOrPwaOOdpZCYtg0ZHizcWU1QP7rvqFSIU5RPEgLCnTPEI0FGeSRWk5Y56do1uDHnfTk21uxddDcLx3Y49BA89ECVN3aFPGlsgbbxKaxWCIFG8gofL8nrISJkVytjgG4I1DVVuzUZ9f0INXsy4NGjNBXrd495kq8oZFfJzb",
+              "received": false
+            },
+            {
+              "_id": "69497b6c1c508c5d5ef40ba3",
+              "name": "Car41183",
+              "amount": 661,
+              "price": 41380,
+              "manufacturer": "Apple",
+              "notes": "yQaZkk87ogyEqIoSOhwS4kxeaQHDrAyRESZ0VC3CJmE8vsbxX64RwyfBFzLTBvgsKeMZ3bwpajdp56VJC0HPbJQnSgpLj4Q5HhkNGevSacPTJQOWUteL7K1WWB9CHQeeAWkcEVY77I979mLh6LKISkPnzuMMXuyLcnrCZHPJfT5yp9w54WsAjTe7ne4FZWJpARKXamIkKiXp8aWpJJqT2JhNs90xaVjFBpXoH9uvDq5iTPHZlu80BHNLej",
+              "received": false
+            }
+          ],
+          "total_price": 51296,
+          "delivery": null,
+          "changedOn": "2025-12-22T17:10:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69497b6d1c508c5d5ef40c02"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 17:10:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2647",
+    "etag": "W/\"a57-5Pw/nsXZHDJtFDN2zOZkQxlwSYI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69497b681c508c5d5ef40998",
+        "email": "Issac_Ullrich85@hotmail.com",
+        "name": "Dawson Bradtke",
+        "country": "Germany",
+        "city": "Champaign",
+        "street": "Pinfold Lane",
+        "house": 47,
+        "flat": 586,
+        "phone": "+18073005777",
+        "createdOn": "2025-12-22T17:10:00.000Z",
+        "notes": "XyimVnKPKJ726V1ygh3aX42Vk3D8K4Ao4AF58BnjAaUWMp2RlrHWbNYrURL6OeO6Abjrv8rDNzkMKzomw8ac9pkUSLoL7kr8ETktATbRqXDpkDutPqW4f08S1Y4DqQxl5dgNWxwd0FM2EfJzZRAcu5BUQQv4etiSimZFLXne4LeOLVTpXZk2qLvEstwaX46dI5BBRz28hu2KaC1UL9DLPWe7mWa4VeMb4EDQt7DHZPy32JeyqHt1CPaCpO"
+      },
+      "products": [
+        {
+          "_id": "69497b681c508c5d5ef409a8",
+          "name": "Soap49262",
+          "amount": 892,
+          "price": 89675,
+          "manufacturer": "Sony",
+          "notes": "zojsbc6fSQNj3sCJt7IhATqsqZWAZqWys7rL1eHcaqEqJNwxD5Ashzb3kS06Oh4qWPAGotuKN05L8Xlxh6srpTv88UsEkMZze3aygo664A3iOgkMM6ykVD3DRZ7sHp5cXq7STLySn99AD0W7S7fJA5gOj9MmbYeu1KMi18n9hnwOhh7EchL3ctKkecHUi4uStf9LCI27mhhb7DUXF9QrdFUCvpSwUI9ixpXFTo6HylXiRstAG68PpCnMKh",
+          "received": false
+        },
+        {
+          "_id": "69497b681c508c5d5ef409c6",
+          "name": "Gloves59268",
+          "amount": 412,
+          "price": 9072,
+          "manufacturer": "Apple",
+          "notes": "HLnLVH4i2OfVOkO3ZVj48frBuBMUm5JfHmcJgCeFMLN0SEw6UmTWEKteBH1Bf1SWScdJdnPJcJckapkP3ZAKd15upkqy3uhI2odV6iw3ip4C821n0Lxo5OArZ1IWFpbR4ExMLLqemNTs4ZCqPVMMtFtJZcc2osP0kHsE8QbmhvMHLTo2qT1IJJP7ew0UFZutzStkd5OmDtVhY3iMUXEZtRRWDYQ1WdcdqUXDCSlf7kbuSJzQ3sJmb5XiN0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98747,
+      "createdOn": "2025-12-22T17:10:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69497b681c508c5d5ef40998",
+          "products": [
+            {
+              "_id": "69497b681c508c5d5ef409a8",
+              "name": "Soap49262",
+              "amount": 892,
+              "price": 89675,
+              "manufacturer": "Sony",
+              "notes": "zojsbc6fSQNj3sCJt7IhATqsqZWAZqWys7rL1eHcaqEqJNwxD5Ashzb3kS06Oh4qWPAGotuKN05L8Xlxh6srpTv88UsEkMZze3aygo664A3iOgkMM6ykVD3DRZ7sHp5cXq7STLySn99AD0W7S7fJA5gOj9MmbYeu1KMi18n9hnwOhh7EchL3ctKkecHUi4uStf9LCI27mhhb7DUXF9QrdFUCvpSwUI9ixpXFTo6HylXiRstAG68PpCnMKh",
+              "received": false
+            },
+            {
+              "_id": "69497b681c508c5d5ef409c6",
+              "name": "Gloves59268",
+              "amount": 412,
+              "price": 9072,
+              "manufacturer": "Apple",
+              "notes": "HLnLVH4i2OfVOkO3ZVj48frBuBMUm5JfHmcJgCeFMLN0SEw6UmTWEKteBH1Bf1SWScdJdnPJcJckapkP3ZAKd15upkqy3uhI2odV6iw3ip4C821n0Lxo5OArZ1IWFpbR4ExMLLqemNTs4ZCqPVMMtFtJZcc2osP0kHsE8QbmhvMHLTo2qT1IJJP7ew0UFZutzStkd5OmDtVhY3iMUXEZtRRWDYQ1WdcdqUXDCSlf7kbuSJzQ3sJmb5XiN0",
+              "received": false
+            }
+          ],
+          "total_price": 98747,
+          "delivery": null,
+          "changedOn": "2025-12-22T17:10:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69497b681c508c5d5ef409ee"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

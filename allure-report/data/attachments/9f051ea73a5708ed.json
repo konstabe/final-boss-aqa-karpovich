@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 17:10:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2644",
+    "etag": "W/\"a54-IRkIpvwVDVtaF7ZQ65bKeRJ0yHY\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69497b6a1c508c5d5ef40aad",
+        "email": "Karine28@hotmail.com",
+        "name": "Ulises Lockman",
+        "country": "Ukraine",
+        "city": "Blockside",
+        "street": "Chapel Close",
+        "house": 12,
+        "flat": 427,
+        "phone": "+17387097290",
+        "createdOn": "2025-12-22T17:10:02.000Z",
+        "notes": "E1k7uCei0fl2ZFQBO3oInN112O8qc8bgCzfli0LqKFWYoRiAKHJkNwoeQvCU77Z2ZU9FyXF8Tyd8rrmvmcKiO5b6fr8ZeAMWMbqH9w0owDkcA2Ao1C9yaD9pdBNCKrznyPThvUieYm8DgNfWnXRZosEG26pYor8DT4Cg780Hiy6cMHKVpGPVBlt67dgV92igZuFHtMZvR1TIkIaC13p5re7uwPU6JNXeGKwKjeyx10DFHKHJZo53tzXagu"
+      },
+      "products": [
+        {
+          "_id": "69497b6a1c508c5d5ef40adc",
+          "name": "Shoes93340",
+          "amount": 197,
+          "price": 25387,
+          "manufacturer": "Tesla",
+          "notes": "DhrbCXwGgBfF8MF7o8xtjEnnQc93xAbd3NaZaljP23NmeyhrViRIfPnP3VKOGNwL31uGmP319Gutn9lMoRE52JKkF5GgUeg6cn6nxq7os31OwbDZFbDS76RD0I3x8XaDRHkZqzC3u2SOcVpfFDUcGyuvcml7WbSp2ZOsHBw2GnC70BsUsCBQIJc7QhN29opj9xd7bqS8K69VmfpdrFBOBIutkzk6vlf12U7yhkVfYQ623nQh4CRsPg8Idg",
+          "received": false
+        },
+        {
+          "_id": "69497b6b1c508c5d5ef40b05",
+          "name": "Hat37027",
+          "amount": 559,
+          "price": 59412,
+          "manufacturer": "Samsung",
+          "notes": "WFBhL7Xo9vduwZ2HnJJy4PkHHTqbnKmo5Do8qLQ5hghlCfjW9q6th0Tjn0ei6MPM4hXV8E1Dn6jRkxj9cxTurpA6gLsfaxQ0548ieC2V5gdEeGe9YkmzVm4adwyzUb3iTNS0LKzcdMiICgKCbP9DIxKXevPaSOldAKY5d5dDgni8bufqNnGaNJyedvmLH6U2Dlg8lpZmRytH8oKXqSEMCO2XoSsstbtsdk7rAbQ0pcDvQvk80QGPBBv7hO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 84799,
+      "createdOn": "2025-12-22T17:10:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69497b6a1c508c5d5ef40aad",
+          "products": [
+            {
+              "_id": "69497b6a1c508c5d5ef40adc",
+              "name": "Shoes93340",
+              "amount": 197,
+              "price": 25387,
+              "manufacturer": "Tesla",
+              "notes": "DhrbCXwGgBfF8MF7o8xtjEnnQc93xAbd3NaZaljP23NmeyhrViRIfPnP3VKOGNwL31uGmP319Gutn9lMoRE52JKkF5GgUeg6cn6nxq7os31OwbDZFbDS76RD0I3x8XaDRHkZqzC3u2SOcVpfFDUcGyuvcml7WbSp2ZOsHBw2GnC70BsUsCBQIJc7QhN29opj9xd7bqS8K69VmfpdrFBOBIutkzk6vlf12U7yhkVfYQ623nQh4CRsPg8Idg",
+              "received": false
+            },
+            {
+              "_id": "69497b6b1c508c5d5ef40b05",
+              "name": "Hat37027",
+              "amount": 559,
+              "price": 59412,
+              "manufacturer": "Samsung",
+              "notes": "WFBhL7Xo9vduwZ2HnJJy4PkHHTqbnKmo5Do8qLQ5hghlCfjW9q6th0Tjn0ei6MPM4hXV8E1Dn6jRkxj9cxTurpA6gLsfaxQ0548ieC2V5gdEeGe9YkmzVm4adwyzUb3iTNS0LKzcdMiICgKCbP9DIxKXevPaSOldAKY5d5dDgni8bufqNnGaNJyedvmLH6U2Dlg8lpZmRytH8oKXqSEMCO2XoSsstbtsdk7rAbQ0pcDvQvk80QGPBBv7hO",
+              "received": false
+            }
+          ],
+          "total_price": 84799,
+          "delivery": null,
+          "changedOn": "2025-12-22T17:10:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69497b6b1c508c5d5ef40b24"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
