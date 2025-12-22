@@ -2,6 +2,7 @@ import { ERROR_MESSAGES } from "data/notifications";
 import { generateProductData } from "data/products/generateProductData";
 import { orderByIdSchema } from "data/schemas/orders/getOrderById.schema";
 import { STATUS_CODES } from "data/statusCodes";
+import { TAGS } from "data/tags";
 import { IOrder } from "data/types/order.types";
 import { test } from "fixtures/api.fixture";
 import { validateResponse } from "utils/validation/validateResponse.utils";
@@ -38,26 +39,34 @@ test.describe("[API] [Sales Portal] [Orders] [Get Oreder By Id]", () => {
 		await ordersApiService.fullDelete(token);
 	});
 
-	test("Get order by valid id", async ({ ordersApi }) => {
-		const order = await ordersApi.getById(id_order, token);
-		validateResponse(order, {
-			status: STATUS_CODES.OK,
-			schema: orderByIdSchema,
-			IsSuccess: true,
-			ErrorMessage: null,
-		});
-	});
+	test(
+		"Get order by valid id",
+		{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER, TAGS.SMOKE] },
+		async ({ ordersApi }) => {
+			const order = await ordersApi.getById(id_order, token);
+			validateResponse(order, {
+				status: STATUS_CODES.OK,
+				schema: orderByIdSchema,
+				IsSuccess: true,
+				ErrorMessage: null,
+			});
+		},
+	);
 
-	test("Get order by valid without auth token", async ({ ordersApi }) => {
-		const order = await ordersApi.getById(id_order, "");
-		validateResponse(order, {
-			status: STATUS_CODES.UNAUTHORIZED,
-			IsSuccess: false,
-			ErrorMessage: ERROR_MESSAGES.UNAUTHORIZED,
-		});
-	});
+	test(
+		"Get order by valid without auth token",
+		{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] },
+		async ({ ordersApi }) => {
+			const order = await ordersApi.getById(id_order, "");
+			validateResponse(order, {
+				status: STATUS_CODES.UNAUTHORIZED,
+				IsSuccess: false,
+				ErrorMessage: ERROR_MESSAGES.UNAUTHORIZED,
+			});
+		},
+	);
 
-	test("Get order by invalid id", async ({ ordersApi }) => {
+	test("Get order by invalid id", { tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] }, async ({ ordersApi }) => {
 		const _id = "6894b2471c508c5d5e93e111";
 		const order = await ordersApi.getById(_id, token);
 		validateResponse(order, {
