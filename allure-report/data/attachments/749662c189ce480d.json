@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:16:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2830",
+    "etag": "W/\"b0e-CftyEmBNQb6Td3aTohgeK+YMj8U\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949c3521c508c5d5ef499fd",
+      "status": "Draft",
+      "customer": {
+        "_id": "6949c3511c508c5d5ef49952",
+        "email": "Kimberly.Murazik@hotmail.com",
+        "name": "Guadalupe DuBuque",
+        "country": "Great Britain",
+        "city": "New Amya",
+        "street": "Mitchell Ville",
+        "house": 17,
+        "flat": 191,
+        "phone": "+12228257947",
+        "createdOn": "2025-12-22T22:16:49.000Z",
+        "notes": "FrNgw84FVNvsWIKXuQivTDc1Zr4snuo6wjIr5uWYqPjdPcBIHWF4BiLnLFso12OZj8BGyR7l6OemzKBQkEzOLdjSIMMLcb9cMRvVGugUkAEe7PmGNvyO1k0r8lCztcDDcxhtPrF6CzfHLbdm4b6EQlZ3sOHKtIqLF6EaUgxIlrFpeawDRSg8Vik3Gmgh90Ldnwy91gDI93RmVfz6NeCYSvJ5UDsKci3xSewUbFJv2Bbe87aLHc2m8cZk8c"
+      },
+      "products": [
+        {
+          "_id": "6949c3511c508c5d5ef49983",
+          "name": "Towels26252",
+          "amount": 582,
+          "price": 29620,
+          "manufacturer": "Apple",
+          "notes": "LebQmKUR7GfN7CRz9rDsD7bXJQDVbJZhwGgLMiuWYhWxuq5JRhZDfd5yhVj4nAVLbkXm82XhPzTzfUfe21Rl5aJw49QPGo6ikqcBZHloVyKP22PIiwyCryKXJBw4PfndaEeg5XcjIQAixH2aSkLQ0xdxHQ9NXe2i4TuaSNzqYTsSBzZb0n82reGzeIYdKanOI8RMbnafsvwc2edZksGpoRXfMME7HbUu9dFiBQ1QjDnM0ftitRB7KbBQGZ",
+          "received": false
+        },
+        {
+          "_id": "6949c3521c508c5d5ef4999d",
+          "name": "Sausages84108",
+          "amount": 150,
+          "price": 44865,
+          "manufacturer": "Amazon",
+          "notes": "AVRBPjnwrqbH5AgGrEWVkEcJ04wo45mUl1Sah3VkU3Wp20dnYdQdFGWQFYJ58iCSB2vqq5wvWnnEkmROtOmDzaSheuhuR4lQx9vPnue6y4RN4Q1hPT3fZFLWp276Vi9zOsKUHNbwoUqhgzVTjDQn5Ot36sxIBlc4TLpL9p2bj0iiBEOpYlEExxRRAjPGNhjkGbnn6zmX2J06Ik5l2qksscIkgAjTogKhWDVNklu4PXKa98XhnMTazSy8jw",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 74485,
+      "createdOn": "2025-12-22T22:16:50.000Z",
+      "comments": [
+        {
+          "text": "sx4J0mau03yqZiq5KElJUQfj3euHh3b5RaIcZaNLYnYCQUeOMhEUxSC2TZStEQoYlUFA85laPqy",
+          "createdOn": "2025-12-22T22:16:51.000Z",
+          "_id": "6949c3531c508c5d5ef49a28"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949c3511c508c5d5ef49952",
+          "products": [
+            {
+              "_id": "6949c3511c508c5d5ef49983",
+              "name": "Towels26252",
+              "amount": 582,
+              "price": 29620,
+              "manufacturer": "Apple",
+              "notes": "LebQmKUR7GfN7CRz9rDsD7bXJQDVbJZhwGgLMiuWYhWxuq5JRhZDfd5yhVj4nAVLbkXm82XhPzTzfUfe21Rl5aJw49QPGo6ikqcBZHloVyKP22PIiwyCryKXJBw4PfndaEeg5XcjIQAixH2aSkLQ0xdxHQ9NXe2i4TuaSNzqYTsSBzZb0n82reGzeIYdKanOI8RMbnafsvwc2edZksGpoRXfMME7HbUu9dFiBQ1QjDnM0ftitRB7KbBQGZ",
+              "received": false
+            },
+            {
+              "_id": "6949c3521c508c5d5ef4999d",
+              "name": "Sausages84108",
+              "amount": 150,
+              "price": 44865,
+              "manufacturer": "Amazon",
+              "notes": "AVRBPjnwrqbH5AgGrEWVkEcJ04wo45mUl1Sah3VkU3Wp20dnYdQdFGWQFYJ58iCSB2vqq5wvWnnEkmROtOmDzaSheuhuR4lQx9vPnue6y4RN4Q1hPT3fZFLWp276Vi9zOsKUHNbwoUqhgzVTjDQn5Ot36sxIBlc4TLpL9p2bj0iiBEOpYlEExxRRAjPGNhjkGbnn6zmX2J06Ik5l2qksscIkgAjTogKhWDVNklu4PXKa98XhnMTazSy8jw",
+              "received": false
+            }
+          ],
+          "total_price": 74485,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:16:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

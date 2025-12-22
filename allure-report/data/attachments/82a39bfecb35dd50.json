@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:16:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-nWFw4/MX8uGIrYe7H9d3KGpH0fo\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6949c3591c508c5d5ef49d59",
+        "email": "Tiara.Bednar@gmail.com",
+        "name": "Odessa Littel",
+        "country": "USA",
+        "city": "Fort Camrenborough",
+        "street": "Morissette Run",
+        "house": 6,
+        "flat": 760,
+        "phone": "+19093813693",
+        "createdOn": "2025-12-22T22:16:57.000Z",
+        "notes": "d91PLs7qzaJe1SusH2YaWE0aXThYPIVDCqOtyUdngpuJi2Q66C1e5i3uWsrqcgOV7E9GkyKe4Y2TYvjDeEvXYiZfAWN04HaflB0ojMgHaVTcUjsjks8zvN0A0HvvO1OMkTKW36ylFDgLrmrTAS8wKPa9NNhSebBXyTcoruO5iMOvUh8dW4h1uygR5WPZ0kh62vzNsJZszmGghNAUlU1KC951thpFk9kSS5XeBWXTXalIyMKjn8SlJXjT6I"
+      },
+      "products": [
+        {
+          "_id": "6949c3591c508c5d5ef49d79",
+          "name": "Mouse39177",
+          "amount": 481,
+          "price": 88188,
+          "manufacturer": "Google",
+          "notes": "Fxc12rCK5XjYeXKr1UdGvUBZ3SSmDAhiITdBBdiXn8c3yqx0UlTZUcSJKgL4BoKoyYZYWJlFUB8X0gZe4gJBo3bG6TxP4IVErHO7reQDRWJ68ya455BwhoWeCNWpkCXvK9DfPXh6bais4zNuOrt6mCFQUDt65I0Br4p0eE5ylShwhTNMtURPfCicViHhKm2xZz4sKwWQDolYJ23O5ULsm6nKpuz7Hps4LaBPQq6UFRcA2XXC3wZiFrErOe",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 88188,
+      "createdOn": "2025-12-22T22:16:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949c3591c508c5d5ef49d59",
+          "products": [
+            {
+              "_id": "6949c3591c508c5d5ef49d79",
+              "name": "Mouse39177",
+              "amount": 481,
+              "price": 88188,
+              "manufacturer": "Google",
+              "notes": "Fxc12rCK5XjYeXKr1UdGvUBZ3SSmDAhiITdBBdiXn8c3yqx0UlTZUcSJKgL4BoKoyYZYWJlFUB8X0gZe4gJBo3bG6TxP4IVErHO7reQDRWJ68ya455BwhoWeCNWpkCXvK9DfPXh6bais4zNuOrt6mCFQUDt65I0Br4p0eE5ylShwhTNMtURPfCicViHhKm2xZz4sKwWQDolYJ23O5ULsm6nKpuz7Hps4LaBPQq6UFRcA2XXC3wZiFrErOe",
+              "received": false
+            }
+          ],
+          "total_price": 88188,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:16:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6949c35a1c508c5d5ef49db9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

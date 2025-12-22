@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:16:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2949",
+    "etag": "W/\"b85-3gdJPzsPWiKaRZgPU0tpPsjr4sc\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949c34d1c508c5d5ef497a0",
+      "status": "Draft",
+      "customer": {
+        "_id": "6949c34c1c508c5d5ef4971c",
+        "email": "Reinhold52@hotmail.com",
+        "name": "Rodrick Kessler",
+        "country": "Great Britain",
+        "city": "Gibsonstad",
+        "street": "Bryce Lake",
+        "house": 47,
+        "flat": 526,
+        "phone": "+17964510854",
+        "createdOn": "2025-12-22T22:16:44.000Z",
+        "notes": "TWNTCk54yFcCFgy58D2hn5n6ut5ODjEtd5F4kXbYHgU9F1KoEstmcx86Kfv7U1GwBflej8MsIGJd7TJ7yqEeUVzceJe6NvdJjuVff34T60JLptQbrlujg14l0Q5eUHLTjj7svSDxFCdEprR1weFLoe25XY485JVhPODpgBQTrHcdK2zhdrrd1FFd5MIbmsWwsHcGSB9Ufd2gUMRUtr0dvyLaoobo0x7yEEove605AMXDpuv3nNs5POxqXW"
+      },
+      "products": [
+        {
+          "_id": "6949c34d1c508c5d5ef4975c",
+          "name": "Pizza92913",
+          "amount": 836,
+          "price": 20077,
+          "manufacturer": "Amazon",
+          "notes": "RaEjG35BLaPN4yPNBRHfYa8OQvbWMtaLnLdgEP2LUFQci0VGJJIbyQTTsvRmGYcElHoF0do6PBsyUSN0ptlgcu0hpasc5AUUJcAWFrO9a0uLZQZwk3BplCuI7fhsc54q3PqBQ0jGF9nJ4zjBCGC9qm6uMO5CLsZlr0r8e0FSO3LTHFFGRRf4m1kk9zHHA3OzGiXRrwGbkZ7J1nuvPT0vQT1asDH8XOMMsyJ0REeX8iKdngCNOw9Vz5Jn5T",
+          "received": false
+        },
+        {
+          "_id": "6949c34d1c508c5d5ef4977a",
+          "name": "Chips38352",
+          "amount": 688,
+          "price": 93141,
+          "manufacturer": "Tesla",
+          "notes": "jr21dH9GWphV6FYt18bKU7pjSwP353pxwuyOEpKL1nbT7beiVmhgHTbeUSbW8d7oP6jmjhQY1PGHa0eAuRhobeyIdc2mm4uO2MdvUUutd1BOkhwCQWKerjs9QAy73m2QCoDXCG3WZNU6pm1nMMVLr6eJZc2T246LhhtXQQ1i1tpv8jJ2QgppESrYaPhKtaptDUeb9eemtvr9CNsX57dtbmzuVn0E8FjBLEG31vGQl4Ry9TRnAX7hWt4kN2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 113218,
+      "createdOn": "2025-12-22T22:16:45.000Z",
+      "comments": [
+        {
+          "text": "<script>pVfAuTzSpKtcMtk0Om1Pvld1vM507lG2w5FNxdylBYx6ObQvzFrQhSz46PnJfec33QmpoplbPrrtSeste4JRycs943sRsXQOka4xylbJzvoBNyLS3pfLz8FHnubUYJQvXUz1qMfu6mBnRbQ17aHOoJSE7o55CLRvz5KTonkbxBDqcLY4kOSYvhRPdEGXa7N1sKB0kpBL >",
+          "createdOn": "2025-12-22T22:16:46.000Z",
+          "_id": "6949c34e1c508c5d5ef497d3"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949c34c1c508c5d5ef4971c",
+          "products": [
+            {
+              "_id": "6949c34d1c508c5d5ef4975c",
+              "name": "Pizza92913",
+              "amount": 836,
+              "price": 20077,
+              "manufacturer": "Amazon",
+              "notes": "RaEjG35BLaPN4yPNBRHfYa8OQvbWMtaLnLdgEP2LUFQci0VGJJIbyQTTsvRmGYcElHoF0do6PBsyUSN0ptlgcu0hpasc5AUUJcAWFrO9a0uLZQZwk3BplCuI7fhsc54q3PqBQ0jGF9nJ4zjBCGC9qm6uMO5CLsZlr0r8e0FSO3LTHFFGRRf4m1kk9zHHA3OzGiXRrwGbkZ7J1nuvPT0vQT1asDH8XOMMsyJ0REeX8iKdngCNOw9Vz5Jn5T",
+              "received": false
+            },
+            {
+              "_id": "6949c34d1c508c5d5ef4977a",
+              "name": "Chips38352",
+              "amount": 688,
+              "price": 93141,
+              "manufacturer": "Tesla",
+              "notes": "jr21dH9GWphV6FYt18bKU7pjSwP353pxwuyOEpKL1nbT7beiVmhgHTbeUSbW8d7oP6jmjhQY1PGHa0eAuRhobeyIdc2mm4uO2MdvUUutd1BOkhwCQWKerjs9QAy73m2QCoDXCG3WZNU6pm1nMMVLr6eJZc2T246LhhtXQQ1i1tpv8jJ2QgppESrYaPhKtaptDUeb9eemtvr9CNsX57dtbmzuVn0E8FjBLEG31vGQl4Ry9TRnAX7hWt4kN2",
+              "received": false
+            }
+          ],
+          "total_price": 113218,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:16:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:17:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5419",
+    "etag": "W/\"152b-qcm4IYt3qWSzdzgb1pEZziKb2P8\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949c3731c508c5d5ef4aade",
+      "status": "In Process",
+      "customer": {
+        "_id": "6949c3721c508c5d5ef4aa1d",
+        "email": "Charlie68@gmail.com",
+        "name": "Vernie Osinski",
+        "country": "Belarus",
+        "city": "Marvinfurt",
+        "street": "Julius Stream",
+        "house": 45,
+        "flat": 816,
+        "phone": "+16643643015",
+        "createdOn": "2025-12-22T22:17:22.000Z",
+        "notes": "ZbPG1bwiNptUMWpVD20JWRt935LqZmkGLAHgc7JTj3hBxSx75eh6A24YGHnzHw2kqx8SZyKlBBWnJ523GHw6JGmYSsSa8XSaNoX4L6ewEb0zMJgG34RzzDMb30Ile3ijTePIeslY7DgS2PdipBS0zTo8cxOdAzPmCPPcXsqVDVhWsVKoR1NvJUQf6C4d3ytC3NmEDcXZLsDzXgIlvimSp4EaXipOs5dHPFxS6pbBY1wx29Ci15K4RNtpoG"
+      },
+      "products": [
+        {
+          "_id": "6949c3721c508c5d5ef4aa50",
+          "name": "Car64108",
+          "amount": 483,
+          "price": 41987,
+          "manufacturer": "Microsoft",
+          "notes": "JjGk9wTWtpvMY4J2VZhbILHqazSErkm5ZAPXicyOohoISTTbUgtfD242UfoVR0tvTZObwz1sjN69XJi08j59gmZlpQnbaqPvkeZRhh1yDDfp3mhJQhEOQdgOXEbA7tG77tLmnDNqVipOQaTM3uDbsH7VhqEKzc9qkGi27whhVYb1yA8RKgqc278b8bpArlq2hWzxgoZ3gsG90yw5XyzCF599ynVdXIHiw4PQLsQ3B077uAQa6PVVqX0eUa",
+          "received": false
+        },
+        {
+          "_id": "6949c3731c508c5d5ef4aa86",
+          "name": "Bike54434",
+          "amount": 146,
+          "price": 70783,
+          "manufacturer": "Google",
+          "notes": "gNg0jm3wH1Mb3phdEX7hYZrSAWMfm1qXR6RQKSaVfzzU91BdTeFOIvp6Wckw4DCFqLxbAPwgmlKiB8da5CyVCJQYDzkk88JGlIL3RKwtccpmIAok0PzrqjUlcHweDUPpUMVK0MijiD3dMQZSFGrCQYKk3VtyxcPtTt4flqWQFdIdeQlNYuc5TiNLgT5aQ314V2p2EuQPZMpjyVwWnZ8IeQcr9B2njxv46ANvZ1TaygPpUpyzLaxOwh8RK0",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Marvinfurt",
+          "street": "Julius Stream",
+          "house": 45,
+          "flat": 816
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 112770,
+      "createdOn": "2025-12-22T22:17:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6949c3721c508c5d5ef4aa1d",
+          "products": [
+            {
+              "_id": "6949c3721c508c5d5ef4aa50",
+              "name": "Car64108",
+              "amount": 483,
+              "price": 41987,
+              "manufacturer": "Microsoft",
+              "notes": "JjGk9wTWtpvMY4J2VZhbILHqazSErkm5ZAPXicyOohoISTTbUgtfD242UfoVR0tvTZObwz1sjN69XJi08j59gmZlpQnbaqPvkeZRhh1yDDfp3mhJQhEOQdgOXEbA7tG77tLmnDNqVipOQaTM3uDbsH7VhqEKzc9qkGi27whhVYb1yA8RKgqc278b8bpArlq2hWzxgoZ3gsG90yw5XyzCF599ynVdXIHiw4PQLsQ3B077uAQa6PVVqX0eUa",
+              "received": false
+            },
+            {
+              "_id": "6949c3731c508c5d5ef4aa86",
+              "name": "Bike54434",
+              "amount": 146,
+              "price": 70783,
+              "manufacturer": "Google",
+              "notes": "gNg0jm3wH1Mb3phdEX7hYZrSAWMfm1qXR6RQKSaVfzzU91BdTeFOIvp6Wckw4DCFqLxbAPwgmlKiB8da5CyVCJQYDzkk88JGlIL3RKwtccpmIAok0PzrqjUlcHweDUPpUMVK0MijiD3dMQZSFGrCQYKk3VtyxcPtTt4flqWQFdIdeQlNYuc5TiNLgT5aQ314V2p2EuQPZMpjyVwWnZ8IeQcr9B2njxv46ANvZ1TaygPpUpyzLaxOwh8RK0",
+              "received": false
+            }
+          ],
+          "total_price": 112770,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Marvinfurt",
+              "street": "Julius Stream",
+              "house": 45,
+              "flat": 816
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-22T22:17:27.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949c3721c508c5d5ef4aa1d",
+          "products": [
+            {
+              "_id": "6949c3721c508c5d5ef4aa50",
+              "name": "Car64108",
+              "amount": 483,
+              "price": 41987,
+              "manufacturer": "Microsoft",
+              "notes": "JjGk9wTWtpvMY4J2VZhbILHqazSErkm5ZAPXicyOohoISTTbUgtfD242UfoVR0tvTZObwz1sjN69XJi08j59gmZlpQnbaqPvkeZRhh1yDDfp3mhJQhEOQdgOXEbA7tG77tLmnDNqVipOQaTM3uDbsH7VhqEKzc9qkGi27whhVYb1yA8RKgqc278b8bpArlq2hWzxgoZ3gsG90yw5XyzCF599ynVdXIHiw4PQLsQ3B077uAQa6PVVqX0eUa",
+              "received": false
+            },
+            {
+              "_id": "6949c3731c508c5d5ef4aa86",
+              "name": "Bike54434",
+              "amount": 146,
+              "price": 70783,
+              "manufacturer": "Google",
+              "notes": "gNg0jm3wH1Mb3phdEX7hYZrSAWMfm1qXR6RQKSaVfzzU91BdTeFOIvp6Wckw4DCFqLxbAPwgmlKiB8da5CyVCJQYDzkk88JGlIL3RKwtccpmIAok0PzrqjUlcHweDUPpUMVK0MijiD3dMQZSFGrCQYKk3VtyxcPtTt4flqWQFdIdeQlNYuc5TiNLgT5aQ314V2p2EuQPZMpjyVwWnZ8IeQcr9B2njxv46ANvZ1TaygPpUpyzLaxOwh8RK0",
+              "received": false
+            }
+          ],
+          "total_price": 112770,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Marvinfurt",
+              "street": "Julius Stream",
+              "house": 45,
+              "flat": 816
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-22T22:17:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949c3721c508c5d5ef4aa1d",
+          "products": [
+            {
+              "_id": "6949c3721c508c5d5ef4aa50",
+              "name": "Car64108",
+              "amount": 483,
+              "price": 41987,
+              "manufacturer": "Microsoft",
+              "notes": "JjGk9wTWtpvMY4J2VZhbILHqazSErkm5ZAPXicyOohoISTTbUgtfD242UfoVR0tvTZObwz1sjN69XJi08j59gmZlpQnbaqPvkeZRhh1yDDfp3mhJQhEOQdgOXEbA7tG77tLmnDNqVipOQaTM3uDbsH7VhqEKzc9qkGi27whhVYb1yA8RKgqc278b8bpArlq2hWzxgoZ3gsG90yw5XyzCF599ynVdXIHiw4PQLsQ3B077uAQa6PVVqX0eUa",
+              "received": false
+            },
+            {
+              "_id": "6949c3731c508c5d5ef4aa86",
+              "name": "Bike54434",
+              "amount": 146,
+              "price": 70783,
+              "manufacturer": "Google",
+              "notes": "gNg0jm3wH1Mb3phdEX7hYZrSAWMfm1qXR6RQKSaVfzzU91BdTeFOIvp6Wckw4DCFqLxbAPwgmlKiB8da5CyVCJQYDzkk88JGlIL3RKwtccpmIAok0PzrqjUlcHweDUPpUMVK0MijiD3dMQZSFGrCQYKk3VtyxcPtTt4flqWQFdIdeQlNYuc5TiNLgT5aQ314V2p2EuQPZMpjyVwWnZ8IeQcr9B2njxv46ANvZ1TaygPpUpyzLaxOwh8RK0",
+              "received": false
+            }
+          ],
+          "total_price": 112770,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:17:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

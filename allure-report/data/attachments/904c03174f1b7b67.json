@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:16:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-PvEhrZ4ho/zxrxyr/K0B5uJON2w\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6949c3541c508c5d5ef49abf",
+        "email": "Weston_King@hotmail.com",
+        "name": "Houston Stoltenberg",
+        "country": "Ukraine",
+        "city": "Mannland",
+        "street": "Jakayla Hills",
+        "house": 31,
+        "flat": 278,
+        "phone": "+12397854388",
+        "createdOn": "2025-12-22T22:16:52.000Z",
+        "notes": "B26YmaBQQ4YUZyN2igAGi4wA4AfHUkmHZ0mN83Nzhob3QVJpdxIIY909RFngvZKaxor5259dYIY4l3NuR3WYWqI0eX1hxGRXXlSMC32sbELEF9VGQoK9XWGcGlH0BkHMfX2R8ri6aIJbdLctTiNzaYAFKWMy1DKNh3IBv6kLe76y1Q8TqsPKn1ZGyTNPwro6tCfK9YcQJZhnQA7nqTOoLukoO4Q2ip3YWm2QqqFCtKwhwnuNr8l8litN6c"
+      },
+      "products": [
+        {
+          "_id": "6949c3551c508c5d5ef49b01",
+          "name": "Cheese52632",
+          "amount": 881,
+          "price": 83490,
+          "manufacturer": "Tesla",
+          "notes": "TM3rIMD58Q4c0OTOlgwrMttEWVlKXUx2KWRjyViUtqfQ4dMJSjlvwBRbax33i9VSIwTaX6LAPzkKytsUBEWYKQXb28Ws9EZOmkzCnImTwFstcuibDJhbec0xb93dnsAdSjkqo2ZulOyAGvZCW1EEuSRqftczuMNeCpNaQiOuMagixdSoxA7hHGozRh1uvUKsjnlYiKyxuua9puAtesfENKE8XzEFjdL5imUFp2k7XSTjGqWEBiACUUeQGG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 83490,
+      "createdOn": "2025-12-22T22:16:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949c3541c508c5d5ef49abf",
+          "products": [
+            {
+              "_id": "6949c3551c508c5d5ef49b01",
+              "name": "Cheese52632",
+              "amount": 881,
+              "price": 83490,
+              "manufacturer": "Tesla",
+              "notes": "TM3rIMD58Q4c0OTOlgwrMttEWVlKXUx2KWRjyViUtqfQ4dMJSjlvwBRbax33i9VSIwTaX6LAPzkKytsUBEWYKQXb28Ws9EZOmkzCnImTwFstcuibDJhbec0xb93dnsAdSjkqo2ZulOyAGvZCW1EEuSRqftczuMNeCpNaQiOuMagixdSoxA7hHGozRh1uvUKsjnlYiKyxuua9puAtesfENKE8XzEFjdL5imUFp2k7XSTjGqWEBiACUUeQGG",
+              "received": false
+            }
+          ],
+          "total_price": 83490,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:16:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6949c3551c508c5d5ef49b3a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

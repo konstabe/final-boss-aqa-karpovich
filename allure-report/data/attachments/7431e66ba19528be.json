@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:17:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3953",
+    "etag": "W/\"f71-D4Y5rLnHv3bTWwrkGu8lQuaNHc8\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949c35c1c508c5d5ef49e8d",
+      "status": "In Process",
+      "customer": {
+        "_id": "6949c35b1c508c5d5ef49e07",
+        "email": "Frederique_Harvey@hotmail.com",
+        "name": "Imani Auer",
+        "country": "Great Britain",
+        "city": "Port Carlottaworth",
+        "street": "Cummings Branch",
+        "house": 15,
+        "flat": 868,
+        "phone": "+17096150985",
+        "createdOn": "2025-12-22T22:16:59.000Z",
+        "notes": "nya9MBJ6cX3jhMVn1Vhwmx16z1qF69ioaMqx4RXKdNa8QU8nkh9pWHrdoNbNJvS1B2JvQX325LdQurptbfP5wWuflFlI0gnJE3aNaLnVUNliGVBrv1J2T1fI6uLpejveSILvSuuLORf9ISTqs856GMns2sHgGDzvSqaOxFTxkp30Yl89RMzFgc5IGjMoJcDQu7UfmPF9qkJL3OkckfzVAeKicU5lzr8x7lxdW7vpwFuiI4of4uNvicXLdF"
+      },
+      "products": [
+        {
+          "_id": "6949c35b1c508c5d5ef49e41",
+          "name": "Table81822",
+          "amount": 126,
+          "price": 26318,
+          "manufacturer": "Samsung",
+          "notes": "Z8MFtsl8wAJwkIeQ0ZeKeTIT202Fn6aw6sj8SQRJyhtaJVc7Q8TFtX0HJjaTLN4QH0zCDDwCOcILTPtIc4Cx3SlhQFFY3gkdZPj7lY7wOi8dTQZ2PbadCbdbUNV3F7awabcofuXfvAX6LjI3qdtTRXPvlpaC1mbGh6xywVNFjiXCaXWuUvm7fDMzB4AMdhTZfTGwvyfPIcSu8E3yXRtf0hTzvZ9IGiBVrXnHsR4yj592xDMqIZ9Jz0RbaQ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Port Carlottaworth",
+          "street": "Cummings Branch",
+          "house": 15,
+          "flat": 868
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 26318,
+      "createdOn": "2025-12-22T22:17:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6949c35b1c508c5d5ef49e07",
+          "products": [
+            {
+              "_id": "6949c35b1c508c5d5ef49e41",
+              "name": "Table81822",
+              "amount": 126,
+              "price": 26318,
+              "manufacturer": "Samsung",
+              "notes": "Z8MFtsl8wAJwkIeQ0ZeKeTIT202Fn6aw6sj8SQRJyhtaJVc7Q8TFtX0HJjaTLN4QH0zCDDwCOcILTPtIc4Cx3SlhQFFY3gkdZPj7lY7wOi8dTQZ2PbadCbdbUNV3F7awabcofuXfvAX6LjI3qdtTRXPvlpaC1mbGh6xywVNFjiXCaXWuUvm7fDMzB4AMdhTZfTGwvyfPIcSu8E3yXRtf0hTzvZ9IGiBVrXnHsR4yj592xDMqIZ9Jz0RbaQ",
+              "received": false
+            }
+          ],
+          "total_price": 26318,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Carlottaworth",
+              "street": "Cummings Branch",
+              "house": 15,
+              "flat": 868
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-22T22:17:02.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949c35b1c508c5d5ef49e07",
+          "products": [
+            {
+              "_id": "6949c35b1c508c5d5ef49e41",
+              "name": "Table81822",
+              "amount": 126,
+              "price": 26318,
+              "manufacturer": "Samsung",
+              "notes": "Z8MFtsl8wAJwkIeQ0ZeKeTIT202Fn6aw6sj8SQRJyhtaJVc7Q8TFtX0HJjaTLN4QH0zCDDwCOcILTPtIc4Cx3SlhQFFY3gkdZPj7lY7wOi8dTQZ2PbadCbdbUNV3F7awabcofuXfvAX6LjI3qdtTRXPvlpaC1mbGh6xywVNFjiXCaXWuUvm7fDMzB4AMdhTZfTGwvyfPIcSu8E3yXRtf0hTzvZ9IGiBVrXnHsR4yj592xDMqIZ9Jz0RbaQ",
+              "received": false
+            }
+          ],
+          "total_price": 26318,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Carlottaworth",
+              "street": "Cummings Branch",
+              "house": 15,
+              "flat": 868
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-22T22:17:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949c35b1c508c5d5ef49e07",
+          "products": [
+            {
+              "_id": "6949c35b1c508c5d5ef49e41",
+              "name": "Table81822",
+              "amount": 126,
+              "price": 26318,
+              "manufacturer": "Samsung",
+              "notes": "Z8MFtsl8wAJwkIeQ0ZeKeTIT202Fn6aw6sj8SQRJyhtaJVc7Q8TFtX0HJjaTLN4QH0zCDDwCOcILTPtIc4Cx3SlhQFFY3gkdZPj7lY7wOi8dTQZ2PbadCbdbUNV3F7awabcofuXfvAX6LjI3qdtTRXPvlpaC1mbGh6xywVNFjiXCaXWuUvm7fDMzB4AMdhTZfTGwvyfPIcSu8E3yXRtf0hTzvZ9IGiBVrXnHsR4yj592xDMqIZ9Jz0RbaQ",
+              "received": false
+            }
+          ],
+          "total_price": 26318,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:17:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

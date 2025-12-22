@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:16:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2810",
+    "etag": "W/\"afa-BfoM+khNnM5m8GEKVmWuAn761l0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949c3511c508c5d5ef49948",
+      "status": "Draft",
+      "customer": {
+        "_id": "6949c3501c508c5d5ef498e9",
+        "email": "Cleo_Quitzon93@yahoo.com",
+        "name": "Rene Ferry",
+        "country": "Germany",
+        "city": "New Bertha",
+        "street": "Runolfsdottir Manor",
+        "house": 43,
+        "flat": 634,
+        "phone": "+12996179351",
+        "createdOn": "2025-12-22T22:16:48.000Z",
+        "notes": "Fqtpga672EhdgF4sUuXUv7mp9OkVAQz0mutsh5POcgAd3d5p5t5RB1GYt60BxeftpUCyfeYGf1jai8hSw4PKOGr0QxtWRmLAAsZyVwop4f2P1Jtb0ziqF6dWqkzyjRJ7k0wdVqM8LdhLOTIx8IRPkXmjqAkTLByvkyFUEUuoHD4IpYkfV0qj1tUm6BiDk9IpBWSSI2AcooLuaPUGk181URScRmXKUaY5lba1YQOiWMQm1khTT7pl6VrBbd"
+      },
+      "products": [
+        {
+          "_id": "6949c3501c508c5d5ef49908",
+          "name": "Gloves29533",
+          "amount": 905,
+          "price": 98128,
+          "manufacturer": "Sony",
+          "notes": "6H5I7WZr4731iqpCftzhaXdnqJHkGNkAjMh0DMpovxCX749pYkLcDurO8uYijw3IKrSRhqHEkrA4PiwKKAsteifemwePBqELXu5GqhAFlnfvrdaioAXnbe7J1pNXDH8CPCpKvebHY9qdFUy0zJRMGBpVdNeiVztBUdXHyMY08w3ofHCFMbevRyr4KZ7eC59owrWLIfMtVXHao8Qcm9OpnyWmiVE0gCmrVxwTNG9RzunwhbKfHsVE3a70DL",
+          "received": false
+        },
+        {
+          "_id": "6949c3511c508c5d5ef49927",
+          "name": "Table67283",
+          "amount": 346,
+          "price": 11316,
+          "manufacturer": "Sony",
+          "notes": "g96MuNTYazMaYUzrSUjHuwRhWCBxXU5nhOVOIQ8Ih3W61xeOL4SrF8ZeOcaVt4iTD0WeCiWTZOVvEcCciV3piHYjHBzcHmD9iqbnnv148CGHCshoKCtFkN0dHYUUvsORBNbwbE8kWmVKcbb8xTxUTDePH1l3BTnsWNHu8N3GR2KIgksNU6R4Mz8fb9YLPpMZJhpMUxNc8pMrtP0eEGreelHCTJ9buhFGJHr3HKRCOyFY5F1LG4oN9fn6fd",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 109444,
+      "createdOn": "2025-12-22T22:16:49.000Z",
+      "comments": [
+        {
+          "text": "XQbUF3Jiw31lqAOlPYCxvkNWRl7IkcIeyQ0cVe67ozieabDu22U5d552yyKmCth0dy8Ajed2wUs",
+          "createdOn": "2025-12-22T22:16:49.000Z",
+          "_id": "6949c3511c508c5d5ef49977"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949c3501c508c5d5ef498e9",
+          "products": [
+            {
+              "_id": "6949c3501c508c5d5ef49908",
+              "name": "Gloves29533",
+              "amount": 905,
+              "price": 98128,
+              "manufacturer": "Sony",
+              "notes": "6H5I7WZr4731iqpCftzhaXdnqJHkGNkAjMh0DMpovxCX749pYkLcDurO8uYijw3IKrSRhqHEkrA4PiwKKAsteifemwePBqELXu5GqhAFlnfvrdaioAXnbe7J1pNXDH8CPCpKvebHY9qdFUy0zJRMGBpVdNeiVztBUdXHyMY08w3ofHCFMbevRyr4KZ7eC59owrWLIfMtVXHao8Qcm9OpnyWmiVE0gCmrVxwTNG9RzunwhbKfHsVE3a70DL",
+              "received": false
+            },
+            {
+              "_id": "6949c3511c508c5d5ef49927",
+              "name": "Table67283",
+              "amount": 346,
+              "price": 11316,
+              "manufacturer": "Sony",
+              "notes": "g96MuNTYazMaYUzrSUjHuwRhWCBxXU5nhOVOIQ8Ih3W61xeOL4SrF8ZeOcaVt4iTD0WeCiWTZOVvEcCciV3piHYjHBzcHmD9iqbnnv148CGHCshoKCtFkN0dHYUUvsORBNbwbE8kWmVKcbb8xTxUTDePH1l3BTnsWNHu8N3GR2KIgksNU6R4Mz8fb9YLPpMZJhpMUxNc8pMrtP0eEGreelHCTJ9buhFGJHr3HKRCOyFY5F1LG4oN9fn6fd",
+              "received": false
+            }
+          ],
+          "total_price": 109444,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:16:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

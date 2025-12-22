@@ -1,0 +1,187 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:17:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5290",
+    "etag": "W/\"14aa-96ffA4cn3u7g2jg700qX2uUO4To\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949c35b1c508c5d5ef49e0c",
+      "status": "Draft",
+      "customer": {
+        "_id": "6949c3591c508c5d5ef49d13",
+        "email": "Leola9@gmail.com",
+        "name": "Fritz Medhurst",
+        "country": "Great Britain",
+        "city": "East Carissaborough",
+        "street": "Pouros Haven",
+        "house": 36,
+        "flat": 969,
+        "phone": "+18704497163",
+        "createdOn": "2025-12-22T22:16:57.000Z",
+        "notes": "lWb6EBgPv8aY8tNTzhkXRd5eH1XMvoOwL9TKOQefDjN611qwRqy0yalxnX2Uw3SaWRUNbstzLycDY8vbvXdlAXTufSSN9XehjX7s5tvHUs6k4m419zpFR7xBcHWVgg3yS84BYPILzMgPiuKp0U5gbQqKW5ZwljHFLvunyFN4bleal9q9l0Z65q9B48uYnMOnc2JE0EXuYLBT8wuiReRjkVRQ61CfQ95xg1G15jExbee11rZNDY5n4GpYEa"
+      },
+      "products": [
+        {
+          "_id": "6949c3591c508c5d5ef49d61",
+          "name": "Tuna72683",
+          "amount": 134,
+          "price": 38601,
+          "manufacturer": "Apple",
+          "notes": "kTl0ZQ9jb5YxFLeXM7Q5uLzbV7V7CwWCyqHMoRIHakRcbb5h3oVxA58E71RaGiH8ZRplyEXUehqJAxua3qXAbJlCzJKlPKvtwJnpDl1Sj6JgoAJ77hMWt2TY8EfwRB8eFcA6IsCpErwVV3WobEn8Q15doPkpb7NUTtViQM0hqw8fibkuKfjaE39CgClKFD6s2b80Y3bioN1xGnhcOqpcqYdkiYL9f0IbPkRMyob0ALQFNvjotqxQV8UJE2",
+          "received": false
+        },
+        {
+          "_id": "6949c3591c508c5d5ef49d7f",
+          "name": "Gloves67753",
+          "amount": 980,
+          "price": 30837,
+          "manufacturer": "Sony",
+          "notes": "ntWASz2ov2uhKvU8CHY9BBgWnYMxxVGaJWNl9R52Q0HLWwGWz28zqeXBHRvxgeEhQ8NFOFUDXui6gPOnRphHsqPagCDseHGjRBFBnIqfstmKqFzcatea97kdsuWuYh2SXl8jotlEqWPhW6dAxhdLDcYBudEKGkhEwa7xcoxkvGLdwAltuKsaBIOrFxIBwAFBve6IQH8hUxovBErdRuaG2hLkdUdLf5XiaSv46e4DamEyv7nti2BapL77xQ",
+          "received": false
+        },
+        {
+          "_id": "6949c35a1c508c5d5ef49dc6",
+          "name": "Towels12660",
+          "amount": 290,
+          "price": 72530,
+          "manufacturer": "Amazon",
+          "notes": "1TFcJbL326tISz34Jrr70ZXi0xpDkA3GevNVDqt2c6kopFixfJkAC1p00MoxMXzKo5DM9m3Q9W9iEPakiFArKAcEaSe3C8K4A5rgncK5rjZ71Dkawh99F2HgkvwteFI56YWyXoUXZoFZ1BNtkHjQwvN4bOZbexzQ1BHNX2aotl69MeDQ4ujXfegz7aiDxhOgewGcPomxkexwKYjv7ND6YVv7ypxITjfKJv2kauVJqRcKiEb1WOzWuP7Yvn",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "East Carissaborough",
+          "street": "Pouros Haven",
+          "house": 36,
+          "flat": 969
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 141968,
+      "createdOn": "2025-12-22T22:16:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949c3591c508c5d5ef49d13",
+          "products": [
+            {
+              "_id": "6949c3591c508c5d5ef49d61",
+              "name": "Tuna72683",
+              "amount": 134,
+              "price": 38601,
+              "manufacturer": "Apple",
+              "notes": "kTl0ZQ9jb5YxFLeXM7Q5uLzbV7V7CwWCyqHMoRIHakRcbb5h3oVxA58E71RaGiH8ZRplyEXUehqJAxua3qXAbJlCzJKlPKvtwJnpDl1Sj6JgoAJ77hMWt2TY8EfwRB8eFcA6IsCpErwVV3WobEn8Q15doPkpb7NUTtViQM0hqw8fibkuKfjaE39CgClKFD6s2b80Y3bioN1xGnhcOqpcqYdkiYL9f0IbPkRMyob0ALQFNvjotqxQV8UJE2",
+              "received": false
+            },
+            {
+              "_id": "6949c3591c508c5d5ef49d7f",
+              "name": "Gloves67753",
+              "amount": 980,
+              "price": 30837,
+              "manufacturer": "Sony",
+              "notes": "ntWASz2ov2uhKvU8CHY9BBgWnYMxxVGaJWNl9R52Q0HLWwGWz28zqeXBHRvxgeEhQ8NFOFUDXui6gPOnRphHsqPagCDseHGjRBFBnIqfstmKqFzcatea97kdsuWuYh2SXl8jotlEqWPhW6dAxhdLDcYBudEKGkhEwa7xcoxkvGLdwAltuKsaBIOrFxIBwAFBve6IQH8hUxovBErdRuaG2hLkdUdLf5XiaSv46e4DamEyv7nti2BapL77xQ",
+              "received": false
+            },
+            {
+              "_id": "6949c35a1c508c5d5ef49dc6",
+              "name": "Towels12660",
+              "amount": 290,
+              "price": 72530,
+              "manufacturer": "Amazon",
+              "notes": "1TFcJbL326tISz34Jrr70ZXi0xpDkA3GevNVDqt2c6kopFixfJkAC1p00MoxMXzKo5DM9m3Q9W9iEPakiFArKAcEaSe3C8K4A5rgncK5rjZ71Dkawh99F2HgkvwteFI56YWyXoUXZoFZ1BNtkHjQwvN4bOZbexzQ1BHNX2aotl69MeDQ4ujXfegz7aiDxhOgewGcPomxkexwKYjv7ND6YVv7ypxITjfKJv2kauVJqRcKiEb1WOzWuP7Yvn",
+              "received": false
+            }
+          ],
+          "total_price": 141968,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "East Carissaborough",
+              "street": "Pouros Haven",
+              "house": 36,
+              "flat": 969
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-22T22:17:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949c3591c508c5d5ef49d13",
+          "products": [
+            {
+              "_id": "6949c3591c508c5d5ef49d61",
+              "name": "Tuna72683",
+              "amount": 134,
+              "price": 38601,
+              "manufacturer": "Apple",
+              "notes": "kTl0ZQ9jb5YxFLeXM7Q5uLzbV7V7CwWCyqHMoRIHakRcbb5h3oVxA58E71RaGiH8ZRplyEXUehqJAxua3qXAbJlCzJKlPKvtwJnpDl1Sj6JgoAJ77hMWt2TY8EfwRB8eFcA6IsCpErwVV3WobEn8Q15doPkpb7NUTtViQM0hqw8fibkuKfjaE39CgClKFD6s2b80Y3bioN1xGnhcOqpcqYdkiYL9f0IbPkRMyob0ALQFNvjotqxQV8UJE2",
+              "received": false
+            },
+            {
+              "_id": "6949c3591c508c5d5ef49d7f",
+              "name": "Gloves67753",
+              "amount": 980,
+              "price": 30837,
+              "manufacturer": "Sony",
+              "notes": "ntWASz2ov2uhKvU8CHY9BBgWnYMxxVGaJWNl9R52Q0HLWwGWz28zqeXBHRvxgeEhQ8NFOFUDXui6gPOnRphHsqPagCDseHGjRBFBnIqfstmKqFzcatea97kdsuWuYh2SXl8jotlEqWPhW6dAxhdLDcYBudEKGkhEwa7xcoxkvGLdwAltuKsaBIOrFxIBwAFBve6IQH8hUxovBErdRuaG2hLkdUdLf5XiaSv46e4DamEyv7nti2BapL77xQ",
+              "received": false
+            },
+            {
+              "_id": "6949c35a1c508c5d5ef49dc6",
+              "name": "Towels12660",
+              "amount": 290,
+              "price": 72530,
+              "manufacturer": "Amazon",
+              "notes": "1TFcJbL326tISz34Jrr70ZXi0xpDkA3GevNVDqt2c6kopFixfJkAC1p00MoxMXzKo5DM9m3Q9W9iEPakiFArKAcEaSe3C8K4A5rgncK5rjZ71Dkawh99F2HgkvwteFI56YWyXoUXZoFZ1BNtkHjQwvN4bOZbexzQ1BHNX2aotl69MeDQ4ujXfegz7aiDxhOgewGcPomxkexwKYjv7ND6YVv7ypxITjfKJv2kauVJqRcKiEb1WOzWuP7Yvn",
+              "received": false
+            }
+          ],
+          "total_price": 141968,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:16:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:16:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2655",
+    "etag": "W/\"a5f-VBwslhdfzOai//xw1K0G2uWidPo\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6949c3461c508c5d5ef49480",
+        "email": "Emmanuel_Konopelski60@gmail.com",
+        "name": "Valerie Boehm",
+        "country": "USA",
+        "city": "Valdosta",
+        "street": "Manor Road",
+        "house": 37,
+        "flat": 886,
+        "phone": "+19263909106",
+        "createdOn": "2025-12-22T22:16:38.000Z",
+        "notes": "NeFI2aootnIkTC6myb7eEXCocdjAFvRltkgrCajddmgDawdyBps7J3GMmCQeLWaTNyoB0VWEZiUymOS3vkdWU405QUipCbLYD2te2ubmmwKzecAqfhs6V7KwM9qBOhdD7zaZBy5R2G9V84jG539JrXveaEABmT2tdpVu6CRnxzIFHFcD0UjK8TEgWCmil2nFf9qv4DU9C1wTBnsXuf2fN0JQGUh2yDaVvT1vhgmhcvuGAFPXtdPMgkyQB4"
+      },
+      "products": [
+        {
+          "_id": "6949c3471c508c5d5ef494aa",
+          "name": "Table42483",
+          "amount": 974,
+          "price": 53161,
+          "manufacturer": "Google",
+          "notes": "yXOkvFTfQ2pZcoy6Ccw3J3tcmpj3w97YbvdRNDYojA9pvso0nLRAyHJ7exzf4KR9npvY4hxwYYlNiZEXpOhQUpyNMuhebHy83wjKXUp5oWlVbt6KldXb3PP9rrY7nVrUhVntdqIIkwifuVuU4mVWobNGD9reCONGvpWQzRTqpropbNu0D1C6wful9pTPjEn4GOaX4ZEUCexJkk2T2X6igaqBSQkR1k4byBVE45RBcW48a1ikQamuW2emaY",
+          "received": false
+        },
+        {
+          "_id": "6949c3471c508c5d5ef494ce",
+          "name": "Bike12985",
+          "amount": 427,
+          "price": 39947,
+          "manufacturer": "Microsoft",
+          "notes": "8SlM6kXOE561mkIVIaiuDSOlPceTmo2WdvfJjbMX94zwOp0MK4l7VTNDI0BX0C5hjMpobIKjnk1IPdMafQaoXW7zqUO2H30U9mUEY1lr0wULJbWlKSe4zizlmGdDUuLlUxBbLxqavt7FcFP34CXnXEZTgTsis0BCjgpPmFuBjv5u6rUqPD12cg4B79MqVcfwf3UlWMoizFNg8agur6vqlOY4SzSx7awHkvZV8AgEccUxQp1GevZlUCVd12",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 93108,
+      "createdOn": "2025-12-22T22:16:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949c3461c508c5d5ef49480",
+          "products": [
+            {
+              "_id": "6949c3471c508c5d5ef494aa",
+              "name": "Table42483",
+              "amount": 974,
+              "price": 53161,
+              "manufacturer": "Google",
+              "notes": "yXOkvFTfQ2pZcoy6Ccw3J3tcmpj3w97YbvdRNDYojA9pvso0nLRAyHJ7exzf4KR9npvY4hxwYYlNiZEXpOhQUpyNMuhebHy83wjKXUp5oWlVbt6KldXb3PP9rrY7nVrUhVntdqIIkwifuVuU4mVWobNGD9reCONGvpWQzRTqpropbNu0D1C6wful9pTPjEn4GOaX4ZEUCexJkk2T2X6igaqBSQkR1k4byBVE45RBcW48a1ikQamuW2emaY",
+              "received": false
+            },
+            {
+              "_id": "6949c3471c508c5d5ef494ce",
+              "name": "Bike12985",
+              "amount": 427,
+              "price": 39947,
+              "manufacturer": "Microsoft",
+              "notes": "8SlM6kXOE561mkIVIaiuDSOlPceTmo2WdvfJjbMX94zwOp0MK4l7VTNDI0BX0C5hjMpobIKjnk1IPdMafQaoXW7zqUO2H30U9mUEY1lr0wULJbWlKSe4zizlmGdDUuLlUxBbLxqavt7FcFP34CXnXEZTgTsis0BCjgpPmFuBjv5u6rUqPD12cg4B79MqVcfwf3UlWMoizFNg8agur6vqlOY4SzSx7awHkvZV8AgEccUxQp1GevZlUCVd12",
+              "received": false
+            }
+          ],
+          "total_price": 93108,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:16:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6949c3481c508c5d5ef4950d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:16:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-mImEeWR9AKUGVfehHd1OiJArFYI\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6949c34c1c508c5d5ef4971e",
+        "email": "Candelario_Pollich@gmail.com",
+        "name": "Izaiah Gutmann",
+        "country": "France",
+        "city": "Carrollton",
+        "street": "Patricia Forks",
+        "house": 41,
+        "flat": 387,
+        "phone": "+14242512709",
+        "createdOn": "2025-12-22T22:16:44.000Z",
+        "notes": "2w2edHc10HdHyn3Rh67yityqjxosb7TQFgNyBSWmJiJoXunJxAbYTo0HCKOBvNEUXqs00IvFNZ1KOInwrcOczA6tuyJ0nbD6JyFuYgmmehEC2yDZIRLzcs05BuBBQZ9AguNWv7DsG3BgElqxq8BkksB1TGrmXmkiW1sPpXZQtbQhd85llJOE347gDlZvrhHrYI60KDk7V99Q22YeQLQes6kA4YdfGw6ReNqFI3keTbTSXnbm1FhmHk51wX"
+      },
+      "products": [
+        {
+          "_id": "6949c34c1c508c5d5ef49736",
+          "name": "Ball4423",
+          "amount": 655,
+          "price": 74833,
+          "manufacturer": "Microsoft",
+          "notes": "OwJfJ7i8L644ta8Ps1QiG5vplpn4RPRRWFLJeAJB5IAOYw0Ei83ujkJEOyHZCWKFIzhtbkb2vEOeO1Ufty4LhipXb6HDvBepFceaFG5WrcpEHBnTj3hIOZiOGAmepbbDpEtB4yZuuWCHOJA82lW4koPFSUAHfNeunAX3El9MTNM8o1F7HL8xEZ8T6bVJjxW2pxHZsw2SVvmxLDYfxF4ANSoIhYAKy3GY5v17JbhwoSdy27gYL9oQoZ27cB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 74833,
+      "createdOn": "2025-12-22T22:16:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949c34c1c508c5d5ef4971e",
+          "products": [
+            {
+              "_id": "6949c34c1c508c5d5ef49736",
+              "name": "Ball4423",
+              "amount": 655,
+              "price": 74833,
+              "manufacturer": "Microsoft",
+              "notes": "OwJfJ7i8L644ta8Ps1QiG5vplpn4RPRRWFLJeAJB5IAOYw0Ei83ujkJEOyHZCWKFIzhtbkb2vEOeO1Ufty4LhipXb6HDvBepFceaFG5WrcpEHBnTj3hIOZiOGAmepbbDpEtB4yZuuWCHOJA82lW4koPFSUAHfNeunAX3El9MTNM8o1F7HL8xEZ8T6bVJjxW2pxHZsw2SVvmxLDYfxF4ANSoIhYAKy3GY5v17JbhwoSdy27gYL9oQoZ27cB",
+              "received": false
+            }
+          ],
+          "total_price": 74833,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:16:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6949c34d1c508c5d5ef4976b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

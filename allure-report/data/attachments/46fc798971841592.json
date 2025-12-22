@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:17:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3431",
+    "etag": "W/\"d67-/ZYfzeM3vBy43f9GNGM9C8ZA674\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6949c3611c508c5d5ef4a0ea",
+        "email": "Karine36@yahoo.com",
+        "name": "Chelsie Hane",
+        "country": "Ukraine",
+        "city": "Jordanecester",
+        "street": "Natalie Ridge",
+        "house": 26,
+        "flat": 453,
+        "phone": "+14919565063",
+        "createdOn": "2025-12-22T22:17:05.000Z",
+        "notes": "ZxaKJ2r3gU6rmZ7On9ZHNW7EQmOU3f1cIeOIiXgRH2HCdiG4dvXlSaAm1SItBXwXYVerQsWLPXGP07UJXQQHecKFnmJRKIXxg2v21BJ5XGkKBIWlLUoSfNxTF0CdM6TGRmUWJ0kwnTIGyK8HZS5aPPSqCTKAphDlxn3KAh9vczRSpElW65tjqKM6t2VkHhm0Ysyxa9tGlEI7TQiAGmTLmvdQqKsGCIbOjmyXWggADRNOovVuCssM7heV7o"
+      },
+      "products": [
+        {
+          "_id": "6949c3611c508c5d5ef4a117",
+          "name": "Keyboard82332",
+          "amount": 971,
+          "price": 43800,
+          "manufacturer": "Google",
+          "notes": "4airNVUhW2aR8Fm20oUEQgPydR60HiiJ4EVkBdjP3gZjjb3ScQwdQUhFRmNI2GWKbNRkBWuty0aMIde884if1wiL0Va2M0N7vWD88LxHb8WlqEHSCTves03cBsXTk7fUqfJliS6eMo8gazv0MGPonV1mnHx7IN8bnb6LFPvmQwYFNR5Eok1UUyxo3En502L0zM3lZ2BiAnTkP967PCQBgEkrQvnRgt2GdKuiaq668jJ9BEWlRFsaqcHP1j",
+          "received": false
+        },
+        {
+          "_id": "6949c3611c508c5d5ef4a13d",
+          "name": "Gloves89870",
+          "amount": 856,
+          "price": 99380,
+          "manufacturer": "Microsoft",
+          "notes": "SuxphuNjheSoLKv1uUn04hFiggHyNH7s8Qzo2iU7LXuv9YwQTIHYdYBNRGMI06icz5OpCJ732AcRrUjsH6OxEXJwEizaPw87DUSpzADrwaTCOdyzN43vBsxnVgWbkbmi9lZ9iGdVQ3MefO3MstqdpDBWIBpTg8ObQE2rE9Cq0sPd2bpaSwMBHUu8SFVndbLeYlvBl2MmTRtTmg18Uim05Oq4S2ti3sdzilpYmfXloNA7yM7oh0aP5Q3NPo",
+          "received": false
+        },
+        {
+          "_id": "6949c3621c508c5d5ef4a164",
+          "name": "Cheese38187",
+          "amount": 153,
+          "price": 51197,
+          "manufacturer": "Sony",
+          "notes": "hMVxzno4EOuu7N2SqCG0tlwn1zfPMckqvIB1IKgURjxXmXFGCQsQPh1sJaI69CSLQ5FNhkDugX4ESgnMNIvRCFKm6UwjBUjTvvCo7CQlg43L0lA4Z29RpC5KMXSIrnP7N2y4QfddjZ0qCJCyjHACbW1ozPOYNlyEICfzNxoxh51bSRE0ZZ8v2rkQlZ9ty3bRbpoGZLAwfBULd6zBZLIavadlXYntOIvyuVsklSkGu8OSWugKVfpH6mifX1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 194377,
+      "createdOn": "2025-12-22T22:17:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949c3611c508c5d5ef4a0ea",
+          "products": [
+            {
+              "_id": "6949c3611c508c5d5ef4a117",
+              "name": "Keyboard82332",
+              "amount": 971,
+              "price": 43800,
+              "manufacturer": "Google",
+              "notes": "4airNVUhW2aR8Fm20oUEQgPydR60HiiJ4EVkBdjP3gZjjb3ScQwdQUhFRmNI2GWKbNRkBWuty0aMIde884if1wiL0Va2M0N7vWD88LxHb8WlqEHSCTves03cBsXTk7fUqfJliS6eMo8gazv0MGPonV1mnHx7IN8bnb6LFPvmQwYFNR5Eok1UUyxo3En502L0zM3lZ2BiAnTkP967PCQBgEkrQvnRgt2GdKuiaq668jJ9BEWlRFsaqcHP1j",
+              "received": false
+            },
+            {
+              "_id": "6949c3611c508c5d5ef4a13d",
+              "name": "Gloves89870",
+              "amount": 856,
+              "price": 99380,
+              "manufacturer": "Microsoft",
+              "notes": "SuxphuNjheSoLKv1uUn04hFiggHyNH7s8Qzo2iU7LXuv9YwQTIHYdYBNRGMI06icz5OpCJ732AcRrUjsH6OxEXJwEizaPw87DUSpzADrwaTCOdyzN43vBsxnVgWbkbmi9lZ9iGdVQ3MefO3MstqdpDBWIBpTg8ObQE2rE9Cq0sPd2bpaSwMBHUu8SFVndbLeYlvBl2MmTRtTmg18Uim05Oq4S2ti3sdzilpYmfXloNA7yM7oh0aP5Q3NPo",
+              "received": false
+            },
+            {
+              "_id": "6949c3621c508c5d5ef4a164",
+              "name": "Cheese38187",
+              "amount": 153,
+              "price": 51197,
+              "manufacturer": "Sony",
+              "notes": "hMVxzno4EOuu7N2SqCG0tlwn1zfPMckqvIB1IKgURjxXmXFGCQsQPh1sJaI69CSLQ5FNhkDugX4ESgnMNIvRCFKm6UwjBUjTvvCo7CQlg43L0lA4Z29RpC5KMXSIrnP7N2y4QfddjZ0qCJCyjHACbW1ozPOYNlyEICfzNxoxh51bSRE0ZZ8v2rkQlZ9ty3bRbpoGZLAwfBULd6zBZLIavadlXYntOIvyuVsklSkGu8OSWugKVfpH6mifX1",
+              "received": false
+            }
+          ],
+          "total_price": 194377,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:17:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6949c3621c508c5d5ef4a19d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:16:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2937",
+    "etag": "W/\"b79-PZeruNqmkgNYcyxVf706QXr+n6s\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949c34f1c508c5d5ef49840",
+      "status": "Draft",
+      "customer": {
+        "_id": "6949c34d1c508c5d5ef4978c",
+        "email": "Franz_Hammes@hotmail.com",
+        "name": "Brandon Larkin",
+        "country": "Ukraine",
+        "city": "Jakubowskifurt",
+        "street": "South Road",
+        "house": 42,
+        "flat": 36,
+        "phone": "+17257387195",
+        "createdOn": "2025-12-22T22:16:45.000Z",
+        "notes": "JuA9jHeLnkFpVXZFyN4ucTI3lKNr2VUrhn35n54hUczE8XqsOnGVNuCfCCypT0gSnkx6uI8zY3oqAFyFwvn1OEp2JHtyBEoB5xTvvAcjR4xwhQP4aN3ekBazwfv2Oi7GQ4KuGHDolH8RuDkQZ4NFWmX8G1SQghNP2P0njITEFOh8W43Oy9m0mhmuQWHiz6Qi39BiAZgE0fzYA03q5VltnBBTV9qNBvVYoteA9d8j3izJyn2AGQEjBUFd0k"
+      },
+      "products": [
+        {
+          "_id": "6949c34e1c508c5d5ef497c4",
+          "name": "Hat8411",
+          "amount": 851,
+          "price": 95789,
+          "manufacturer": "Xiaomi",
+          "notes": "RvMSMe3p3Cgx2vRHRCHz9QA31Wauqm8SK0R9XeqqXigztz3MiBzzfQe8ElXfdOJ0c8I5zlvxHPZtuLIH4mEswuDvmvLo9OweCuY24hb9wM6NTM9Eh9kid7lPVh7s7DJAm09Gn6vZ6m2Tbcc9Oj2GNUslpGybG39U7PW2AjO6ab0QBQ6svvfRtrpUhNXkfSEBtbWsSNN3Fj3c6DolPrGANs6AGafhFeS7p6fc77GIGc6u6OAD8qmksS4Eor",
+          "received": false
+        },
+        {
+          "_id": "6949c34e1c508c5d5ef49801",
+          "name": "Pizza88497",
+          "amount": 908,
+          "price": 3552,
+          "manufacturer": "Microsoft",
+          "notes": "X7zj9ii7HAN0czDT70E2XtiPqgEU8AxsYJX5X0sVe1mdDhTmAXMmiz4E2WMnOxroT8LsQRcB7P2qfS0Y05oTd9nvAlaOkifshQ0FDjKKAgiCMSC3swzt6rgKub4ZZh0mBl6wvHV9bBGCvbt43xWq2zZJ8qb0zcdSwRpgxjcf7nuhEznqcFhJdKS9wmLwUUCtyjKu2yCaB6OZtXqqOjWlirb4l8SuJAjosMefXv10Qcz5diqKlR7jClYmlt",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 99341,
+      "createdOn": "2025-12-22T22:16:47.000Z",
+      "comments": [
+        {
+          "text": "8qBegSXkbdtWmNOhB0hgfgjm9qZrN6mR3MfYJm4qjwViNVAOSu4O1jrTTnG19CGYQncg4195JfvgrAfK3UybZMYbCI8YAyBtM6bDpaD66C2xcGgFFaSvCQZswI6Lo9LWFlfwPjv3x3NrKYPKoWre1GG1SUd62XkqcrEaP4Rj0jWHpnccyAxIF4LsLeymBpNYWs6P0J5O <",
+          "createdOn": "2025-12-22T22:16:47.000Z",
+          "_id": "6949c34f1c508c5d5ef4988b"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949c34d1c508c5d5ef4978c",
+          "products": [
+            {
+              "_id": "6949c34e1c508c5d5ef497c4",
+              "name": "Hat8411",
+              "amount": 851,
+              "price": 95789,
+              "manufacturer": "Xiaomi",
+              "notes": "RvMSMe3p3Cgx2vRHRCHz9QA31Wauqm8SK0R9XeqqXigztz3MiBzzfQe8ElXfdOJ0c8I5zlvxHPZtuLIH4mEswuDvmvLo9OweCuY24hb9wM6NTM9Eh9kid7lPVh7s7DJAm09Gn6vZ6m2Tbcc9Oj2GNUslpGybG39U7PW2AjO6ab0QBQ6svvfRtrpUhNXkfSEBtbWsSNN3Fj3c6DolPrGANs6AGafhFeS7p6fc77GIGc6u6OAD8qmksS4Eor",
+              "received": false
+            },
+            {
+              "_id": "6949c34e1c508c5d5ef49801",
+              "name": "Pizza88497",
+              "amount": 908,
+              "price": 3552,
+              "manufacturer": "Microsoft",
+              "notes": "X7zj9ii7HAN0czDT70E2XtiPqgEU8AxsYJX5X0sVe1mdDhTmAXMmiz4E2WMnOxroT8LsQRcB7P2qfS0Y05oTd9nvAlaOkifshQ0FDjKKAgiCMSC3swzt6rgKub4ZZh0mBl6wvHV9bBGCvbt43xWq2zZJ8qb0zcdSwRpgxjcf7nuhEznqcFhJdKS9wmLwUUCtyjKu2yCaB6OZtXqqOjWlirb4l8SuJAjosMefXv10Qcz5diqKlR7jClYmlt",
+              "received": false
+            }
+          ],
+          "total_price": 99341,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:16:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

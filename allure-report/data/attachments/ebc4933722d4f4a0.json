@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:16:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-qBcOjUcJV/euxeZokKaQjFJ6kBw\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6949c3541c508c5d5ef49a94",
+        "email": "Presley_Cremin46@yahoo.com",
+        "name": "Hipolito Stracke",
+        "country": "Russia",
+        "city": "Krisstead",
+        "street": "Steuber Islands",
+        "house": 18,
+        "flat": 118,
+        "phone": "+16857198064",
+        "createdOn": "2025-12-22T22:16:52.000Z",
+        "notes": "5b396byYK3eSVCdkfwAcmrXo2pwBKDko3TBp2hrKgYNz4UyA9ScOpPXHu5SgF4N3muZGI0g83Lq9GPQofJ53imKXuc6KAHJdM0kGfavebujo7mogpcvEFvTP51znXFzaKRD22mQwig8sHnvpgd3roWhw6mMfkJzHVDHTrt83fWXEysxWiXzOOflAnEXj2hMXnzYBIGbgaE1oyJMeNSHkhnePfYeiDWANQ48osLXMmkU3AUREPteZhFHkBB"
+      },
+      "products": [
+        {
+          "_id": "6949c3541c508c5d5ef49abb",
+          "name": "Chips97862",
+          "amount": 529,
+          "price": 24421,
+          "manufacturer": "Apple",
+          "notes": "czqWBqC5yqWNo08rr5YzazQHYHGGjzMarWn9wNvcbwbkt5UBjXaenPZP1iJu4qw9gtfeisyvivAMvorvlgoum5mLqAVrieObSP5HxWohzzWH4CsCiKj5DQd8S6oKg1eS0rbftF9KU95gZ4otpMyt0SPnZw1aBsDLRp9QHW5opLZZzLgl9NEm7ifgEx7fIy00Xe1lfC1QR2pxPoy3bEdTVwXrL6coiW6o2RZTAcRKMkM0ztvuPzkZ7eLYO2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 24421,
+      "createdOn": "2025-12-22T22:16:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949c3541c508c5d5ef49a94",
+          "products": [
+            {
+              "_id": "6949c3541c508c5d5ef49abb",
+              "name": "Chips97862",
+              "amount": 529,
+              "price": 24421,
+              "manufacturer": "Apple",
+              "notes": "czqWBqC5yqWNo08rr5YzazQHYHGGjzMarWn9wNvcbwbkt5UBjXaenPZP1iJu4qw9gtfeisyvivAMvorvlgoum5mLqAVrieObSP5HxWohzzWH4CsCiKj5DQd8S6oKg1eS0rbftF9KU95gZ4otpMyt0SPnZw1aBsDLRp9QHW5opLZZzLgl9NEm7ifgEx7fIy00Xe1lfC1QR2pxPoy3bEdTVwXrL6coiW6o2RZTAcRKMkM0ztvuPzkZ7eLYO2",
+              "received": false
+            }
+          ],
+          "total_price": 24421,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:16:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6949c3551c508c5d5ef49b2e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

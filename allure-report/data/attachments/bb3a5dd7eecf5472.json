@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:17:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2919",
+    "etag": "W/\"b67-PRsSIzIXXw+RfBgwo0F6nHj7R0M\"",
+    "keep-alive": "timeout=5, max=60",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949c35b1c508c5d5ef49e4b",
+      "status": "Draft",
+      "customer": {
+        "_id": "6949c35a1c508c5d5ef49de4",
+        "email": "Elliot_Marks@gmail.com",
+        "name": "Tom Bednar",
+        "country": "USA",
+        "city": "Murphyfurt",
+        "street": "The Avenue",
+        "house": 43,
+        "flat": 95,
+        "phone": "+18638685571",
+        "createdOn": "2025-12-22T22:16:58.000Z",
+        "notes": "t8zVEwUxA3HDEqJSs6bJlItY1bgTHeygTgvhaK5mVUO3uSDa1I8OzNAlCOywj5tpwU7jRnsj58WsYsv4Y6zmtcCrYNBmSNHnDLnyHasd8LOUp9ZEcLWckIhGrjUJjAobytkGW3wkvG1xjPLzWyYJk0uhfIrYbOuZHfz0rJ61NqGiCTXLaueV931GKmE5ICqLWKZVWnyyLStZk1h9uyafl5jlXXIU0YlBf8zzwHiW2uJY6k4mvtSopxArbg"
+      },
+      "products": [
+        {
+          "_id": "6949c35b1c508c5d5ef49e14",
+          "name": "Fish79736",
+          "amount": 697,
+          "price": 14733,
+          "manufacturer": "Tesla",
+          "notes": "a9seps7H1TWWeLqMJgkeDCGLIq9Viim1TLSKbA8VO15Ts1oW0pbQI5CA7gw8g0Ohl4fQYi9HOchrQVjVdBEWFveveJW112eQdSXRvSCNknuiANuER2MhKaUrFJ4xRE5S4MxLvzTpxHsD9t1OJHGzV0HVcnisGTiJ3X3lctg4gpngGIpBP9LMueI1EFm4r4Ip81crCAADgQUbSNyttlzEyk3VHWYwa98PfViiuFCWnh2DS9fVwdE6296kH2",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Murphyfurt",
+          "street": "The Avenue",
+          "house": 43,
+          "flat": 95
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 14733,
+      "createdOn": "2025-12-22T22:16:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949c35a1c508c5d5ef49de4",
+          "products": [
+            {
+              "_id": "6949c35b1c508c5d5ef49e14",
+              "name": "Fish79736",
+              "amount": 697,
+              "price": 14733,
+              "manufacturer": "Tesla",
+              "notes": "a9seps7H1TWWeLqMJgkeDCGLIq9Viim1TLSKbA8VO15Ts1oW0pbQI5CA7gw8g0Ohl4fQYi9HOchrQVjVdBEWFveveJW112eQdSXRvSCNknuiANuER2MhKaUrFJ4xRE5S4MxLvzTpxHsD9t1OJHGzV0HVcnisGTiJ3X3lctg4gpngGIpBP9LMueI1EFm4r4Ip81crCAADgQUbSNyttlzEyk3VHWYwa98PfViiuFCWnh2DS9fVwdE6296kH2",
+              "received": false
+            }
+          ],
+          "total_price": 14733,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Murphyfurt",
+              "street": "The Avenue",
+              "house": 43,
+              "flat": 95
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-22T22:17:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949c35a1c508c5d5ef49de4",
+          "products": [
+            {
+              "_id": "6949c35b1c508c5d5ef49e14",
+              "name": "Fish79736",
+              "amount": 697,
+              "price": 14733,
+              "manufacturer": "Tesla",
+              "notes": "a9seps7H1TWWeLqMJgkeDCGLIq9Viim1TLSKbA8VO15Ts1oW0pbQI5CA7gw8g0Ohl4fQYi9HOchrQVjVdBEWFveveJW112eQdSXRvSCNknuiANuER2MhKaUrFJ4xRE5S4MxLvzTpxHsD9t1OJHGzV0HVcnisGTiJ3X3lctg4gpngGIpBP9LMueI1EFm4r4Ip81crCAADgQUbSNyttlzEyk3VHWYwa98PfViiuFCWnh2DS9fVwdE6296kH2",
+              "received": false
+            }
+          ],
+          "total_price": 14733,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:16:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

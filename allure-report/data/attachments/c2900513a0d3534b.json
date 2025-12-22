@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:16:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2956",
+    "etag": "W/\"b8c-GxFa1uwlcp5lJJYpmd6P8l11AKA\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949c34d1c508c5d5ef49794",
+      "status": "Draft",
+      "customer": {
+        "_id": "6949c34c1c508c5d5ef4972e",
+        "email": "Vada3@yahoo.com",
+        "name": "Sheridan Ernser",
+        "country": "Ukraine",
+        "city": "Port Aidanview",
+        "street": "Hauck Mission",
+        "house": 26,
+        "flat": 867,
+        "phone": "+15216185709",
+        "createdOn": "2025-12-22T22:16:44.000Z",
+        "notes": "xHO70JtkzK8wnYj5VKWUhn6dglMC8sZfXVby4dFNCgwMC37mWeuUlErqHwxiXDkWcVldZSOHf13UHU0Ivw6mCFYTMGa6ny9hnZ79i3DVMWZmfX7dQ8kR1l0WtMs069Fe5ZhFBkViPTtKMWIXzofY7m2TTOUMit4p1QLlUXworHZDeIOaSwXwsdsBisBJBOo5PYBiUJYdBw0EU9lGdIHfwTKcxieFyggwOyheO5Uu2AFcR6zjBDFjcQcIEB"
+      },
+      "products": [
+        {
+          "_id": "6949c34d1c508c5d5ef49767",
+          "name": "Gloves51152",
+          "amount": 710,
+          "price": 41672,
+          "manufacturer": "Google",
+          "notes": "l0OrK3bqEuPQHeem3LKZSy2bchehQewteeGMHmQFMJk3TzAfj1tBMDDN6jev9L7jfxUHHg12CVnFmCsXBIVi0CGyv4alUrwey3erRBAhCxzIjn482cQvTF2Y6cIUZspKej3F7tqDVD2LJW45O3lX4Q8ud3kCCcMiVHjoOCSGQ577twF6RUCACcNn65feHiBuK0lCEcbHBb1kUtDfKGhgaFKhynyNFVj9CLRg9NQWyoh5LNBMHdeFv9HkQa",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 41672,
+      "createdOn": "2025-12-22T22:16:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949c34c1c508c5d5ef4972e",
+          "products": [
+            {
+              "_id": "6949c34d1c508c5d5ef49767",
+              "name": "Gloves51152",
+              "amount": 710,
+              "price": 41672,
+              "manufacturer": "Google",
+              "notes": "l0OrK3bqEuPQHeem3LKZSy2bchehQewteeGMHmQFMJk3TzAfj1tBMDDN6jev9L7jfxUHHg12CVnFmCsXBIVi0CGyv4alUrwey3erRBAhCxzIjn482cQvTF2Y6cIUZspKej3F7tqDVD2LJW45O3lX4Q8ud3kCCcMiVHjoOCSGQ577twF6RUCACcNn65feHiBuK0lCEcbHBb1kUtDfKGhgaFKhynyNFVj9CLRg9NQWyoh5LNBMHdeFv9HkQa",
+              "received": false
+            }
+          ],
+          "total_price": 41672,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:16:46.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6949c34c1c508c5d5ef4972e",
+          "products": [
+            {
+              "_id": "6949c34d1c508c5d5ef49767",
+              "name": "Gloves51152",
+              "amount": 710,
+              "price": 41672,
+              "manufacturer": "Google",
+              "notes": "l0OrK3bqEuPQHeem3LKZSy2bchehQewteeGMHmQFMJk3TzAfj1tBMDDN6jev9L7jfxUHHg12CVnFmCsXBIVi0CGyv4alUrwey3erRBAhCxzIjn482cQvTF2Y6cIUZspKej3F7tqDVD2LJW45O3lX4Q8ud3kCCcMiVHjoOCSGQ577twF6RUCACcNn65feHiBuK0lCEcbHBb1kUtDfKGhgaFKhynyNFVj9CLRg9NQWyoh5LNBMHdeFv9HkQa",
+              "received": false
+            }
+          ],
+          "total_price": 41672,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:16:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
