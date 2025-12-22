@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 20:16:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2948",
+    "etag": "W/\"b84-16GCXkygztNwU3fmgXx2f1FXOgk\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949a7191c508c5d5ef4347d",
+      "status": "Draft",
+      "customer": {
+        "_id": "6949a7191c508c5d5ef43429",
+        "email": "Stevie70@hotmail.com",
+        "name": "Arnoldo Erdman",
+        "country": "USA",
+        "city": "Flower Mound",
+        "street": "Beier Estates",
+        "house": 33,
+        "flat": 892,
+        "phone": "+15814965051",
+        "createdOn": "2025-12-22T20:16:25.000Z",
+        "notes": "mTsX5vndGoQtBcuFICPbhikPqCAeMHJY4Cjz8WXhNOFkT8f428Uv0EdqEEKFHVanoOe0cAXMDze8CdMPvTEHa3eRDDAv3aRjyuztojuTmBklGUYRZtUMFaQgylp39HbE1B0cIWyoV9LSuxA8foBOn9c9o5DxIYN3fYNhOAsXIjgnMIiADcPk7QgP6IfHHm75b5T8psTMqWpnheTmZ0Ttgc0p6ZlkmjULUx4flclqoTg38xk0bpPXrYyzw2"
+      },
+      "products": [
+        {
+          "_id": "6949a7191c508c5d5ef4344e",
+          "name": "Table57223",
+          "amount": 544,
+          "price": 64089,
+          "manufacturer": "Samsung",
+          "notes": "koi22kngbKoAk3YgDST4vUXO9CpqNeIqtXqyJ24MwAc5yJbaSL92BF9iV5thxl2dVzXAn9hDtM5kky02cb50Ez9ml04AJXt29kRbkVQPVEgmi8xyNvh7n1qArLl06Edchu7b6zpwQ0KlizsuxxaTvx6yXSUSvkfE5usab83LpurOSf6f7n3POMt5v81fzsh0O5mu3n2I55JMLxVOVENho4I5fKQYUwaeHbOC2XDklX0XIcHpP1cbiYu7nw",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Flower Mound",
+          "street": "Beier Estates",
+          "house": 33,
+          "flat": 892
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 64089,
+      "createdOn": "2025-12-22T20:16:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949a7191c508c5d5ef43429",
+          "products": [
+            {
+              "_id": "6949a7191c508c5d5ef4344e",
+              "name": "Table57223",
+              "amount": 544,
+              "price": 64089,
+              "manufacturer": "Samsung",
+              "notes": "koi22kngbKoAk3YgDST4vUXO9CpqNeIqtXqyJ24MwAc5yJbaSL92BF9iV5thxl2dVzXAn9hDtM5kky02cb50Ez9ml04AJXt29kRbkVQPVEgmi8xyNvh7n1qArLl06Edchu7b6zpwQ0KlizsuxxaTvx6yXSUSvkfE5usab83LpurOSf6f7n3POMt5v81fzsh0O5mu3n2I55JMLxVOVENho4I5fKQYUwaeHbOC2XDklX0XIcHpP1cbiYu7nw",
+              "received": false
+            }
+          ],
+          "total_price": 64089,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Flower Mound",
+              "street": "Beier Estates",
+              "house": 33,
+              "flat": 892
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-22T20:16:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949a7191c508c5d5ef43429",
+          "products": [
+            {
+              "_id": "6949a7191c508c5d5ef4344e",
+              "name": "Table57223",
+              "amount": 544,
+              "price": 64089,
+              "manufacturer": "Samsung",
+              "notes": "koi22kngbKoAk3YgDST4vUXO9CpqNeIqtXqyJ24MwAc5yJbaSL92BF9iV5thxl2dVzXAn9hDtM5kky02cb50Ez9ml04AJXt29kRbkVQPVEgmi8xyNvh7n1qArLl06Edchu7b6zpwQ0KlizsuxxaTvx6yXSUSvkfE5usab83LpurOSf6f7n3POMt5v81fzsh0O5mu3n2I55JMLxVOVENho4I5fKQYUwaeHbOC2XDklX0XIcHpP1cbiYu7nw",
+              "received": false
+            }
+          ],
+          "total_price": 64089,
+          "delivery": null,
+          "changedOn": "2025-12-22T20:16:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

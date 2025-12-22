@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 20:16:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2813",
+    "etag": "W/\"afd-Nbf/z3DZ8G22oXCnZwApaDNifj0\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949a7171c508c5d5ef433b9",
+      "status": "Draft",
+      "customer": {
+        "_id": "6949a7171c508c5d5ef4333a",
+        "email": "Heber.Weber@gmail.com",
+        "name": "Caleb Torp",
+        "country": "Germany",
+        "city": "New Einocester",
+        "street": "Creola Wall",
+        "house": 19,
+        "flat": 511,
+        "phone": "+18154018467",
+        "createdOn": "2025-12-22T20:16:23.000Z",
+        "notes": "H8RrZK6ccWGqz9q4Yk1pKlaKl8vwZenFHukhgG2BQyUIvTg16DedghXU673opB8tjtWPO8sII63qZmGPjBz9ieBHTkdlZrBMsPIIFX6PpOsbtgTXubrJ1YLXvxqMks6CtCkC8m4hMEokrYc0y60Hyxf5MBsPHdG0FvOj5oIvg7HaVfFvHqU8nIvDKm2Oy2bxm1bAz12xMgcJabBwnizUwCbyfnAYcLDs2FNCpyhfWg0VwcdXnAtAK6rAFp"
+      },
+      "products": [
+        {
+          "_id": "6949a7171c508c5d5ef43363",
+          "name": "Bike96463",
+          "amount": 94,
+          "price": 7570,
+          "manufacturer": "Microsoft",
+          "notes": "w10H2LcIKrjQwtJDTxEK1KoTLOrSAgMIQuHJ2tDuWnXs08vQstWwmuDZ6NheYGOPvpH537RAYMQ1QwTsMhWAIZqRE5l1YKWTTVnOKn6mCN31HuufJEfu7dX3lSZBMqrHOZ8fEenpYut0QoHKrrILrOrBf29GQTJFzWxzbVTrjxC5wXGyNMgVuj64XURHpOdBVx1TJemS6vQfbZpx1jsNo0xp3BbgJ6dpwmu9EQJFVJBIwLUGfn9JeKkQrl",
+          "received": false
+        },
+        {
+          "_id": "6949a7171c508c5d5ef4338c",
+          "name": "Towels10206",
+          "amount": 37,
+          "price": 21293,
+          "manufacturer": "Microsoft",
+          "notes": "10WburWLbrrR8xjLzgYc3YERr3a7u5ZsGyr0dC9mFIoxcsKU3klfZPCe6QnArZFs8Qqu0jlPt30Px9kK4bZe4PZQnQNXIvQMiGPiPHPtCAVI3OFqRwma9W9js9aQXAChZZv97fmh08FP6mE2dEsDFrgiPXvdfqDPwpunIRVJ49FTHJ66lMWald10ucnhP5zeQgIJK9AY30oYr6JpcKRGhdPnTlngZ0OXCOKau7thduxCpG4JggjDudpBvf",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 28863,
+      "createdOn": "2025-12-22T20:16:23.000Z",
+      "comments": [
+        {
+          "text": "TYWifjoJKjcORcjLm9NZAtxZw8u2kF029j2wXUxlAkRlEUXiOt4kagN1S6j167EPomoxnzybwJp",
+          "createdOn": "2025-12-22T20:16:24.000Z",
+          "_id": "6949a7181c508c5d5ef433e6"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949a7171c508c5d5ef4333a",
+          "products": [
+            {
+              "_id": "6949a7171c508c5d5ef43363",
+              "name": "Bike96463",
+              "amount": 94,
+              "price": 7570,
+              "manufacturer": "Microsoft",
+              "notes": "w10H2LcIKrjQwtJDTxEK1KoTLOrSAgMIQuHJ2tDuWnXs08vQstWwmuDZ6NheYGOPvpH537RAYMQ1QwTsMhWAIZqRE5l1YKWTTVnOKn6mCN31HuufJEfu7dX3lSZBMqrHOZ8fEenpYut0QoHKrrILrOrBf29GQTJFzWxzbVTrjxC5wXGyNMgVuj64XURHpOdBVx1TJemS6vQfbZpx1jsNo0xp3BbgJ6dpwmu9EQJFVJBIwLUGfn9JeKkQrl",
+              "received": false
+            },
+            {
+              "_id": "6949a7171c508c5d5ef4338c",
+              "name": "Towels10206",
+              "amount": 37,
+              "price": 21293,
+              "manufacturer": "Microsoft",
+              "notes": "10WburWLbrrR8xjLzgYc3YERr3a7u5ZsGyr0dC9mFIoxcsKU3klfZPCe6QnArZFs8Qqu0jlPt30Px9kK4bZe4PZQnQNXIvQMiGPiPHPtCAVI3OFqRwma9W9js9aQXAChZZv97fmh08FP6mE2dEsDFrgiPXvdfqDPwpunIRVJ49FTHJ66lMWald10ucnhP5zeQgIJK9AY30oYr6JpcKRGhdPnTlngZ0OXCOKau7thduxCpG4JggjDudpBvf",
+              "received": false
+            }
+          ],
+          "total_price": 28863,
+          "delivery": null,
+          "changedOn": "2025-12-22T20:16:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

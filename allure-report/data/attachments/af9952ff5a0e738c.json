@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 20:16:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1900",
+    "etag": "W/\"76c-Bw4iqdgJJOBLi0a42eQZbP9ifts\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6949a7191c508c5d5ef43474",
+        "email": "Reyes.Gibson@gmail.com",
+        "name": "Liliana Cruickshank",
+        "country": "Belarus",
+        "city": "Port Vincenzofurt",
+        "street": "W 10th Street",
+        "house": 42,
+        "flat": 462,
+        "phone": "+19996723271",
+        "createdOn": "2025-12-22T20:16:25.000Z",
+        "notes": "OY3olKn6lKxBk9Dve0lZ8IRAUilyG9qytm4F0kbeLyVv6p2iukFpcB4MjHqoB4ndf8jKAaeSUMOASyHMn8um0juulOLN2FE5bAqgSeYLYhrVDWSNa3TqMQSQAYv06M9vTkLyualghGmbwVeE7u2hQY04KrfWLOvBsSVAfLwpDLHVXhCFifPloxQrFW9KjyUihPVcrfjKMd8qu5O1CAdtdz4eI1C57ZSk0oRuwMCnVaxIIAvEAsFu2kAil9"
+      },
+      "products": [
+        {
+          "_id": "6949a71a1c508c5d5ef4349f",
+          "name": "Towels84607",
+          "amount": 871,
+          "price": 81239,
+          "manufacturer": "Samsung",
+          "notes": "fENtw5FjpNNmukTqJyRhdny6nRGW4VW8BPr1IhJnzTed6qSX4Pap9t0GMeV1OmIuubcPoHCur9YyDTnU1IzlSzYMjZhaKhviuFAG9aFJht3WDCqS0LkYywogOI06R6rj3amzVJrQbJmIp9r9Uw3VyZFv2AbNc2NlgqubheJr5tyGzcOhVLb4FQd72B4sAV4ZwEpPqClVbkkWTc1eMbM0MsXntyoMw1IxJ96KxlED6T9jTgWFy91ZUkIVex",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 81239,
+      "createdOn": "2025-12-22T20:16:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949a7191c508c5d5ef43474",
+          "products": [
+            {
+              "_id": "6949a71a1c508c5d5ef4349f",
+              "name": "Towels84607",
+              "amount": 871,
+              "price": 81239,
+              "manufacturer": "Samsung",
+              "notes": "fENtw5FjpNNmukTqJyRhdny6nRGW4VW8BPr1IhJnzTed6qSX4Pap9t0GMeV1OmIuubcPoHCur9YyDTnU1IzlSzYMjZhaKhviuFAG9aFJht3WDCqS0LkYywogOI06R6rj3amzVJrQbJmIp9r9Uw3VyZFv2AbNc2NlgqubheJr5tyGzcOhVLb4FQd72B4sAV4ZwEpPqClVbkkWTc1eMbM0MsXntyoMw1IxJ96KxlED6T9jTgWFy91ZUkIVex",
+              "received": false
+            }
+          ],
+          "total_price": 81239,
+          "delivery": null,
+          "changedOn": "2025-12-22T20:16:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6949a71a1c508c5d5ef434f2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

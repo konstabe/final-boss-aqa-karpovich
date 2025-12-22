@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 20:16:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-DnnPnkh0Fsn8PE99CGdO7ELSiTA\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6949a7361c508c5d5ef43778",
+        "email": "Sigurd_Paucek@yahoo.com",
+        "name": "Nikolas Bashirian",
+        "country": "France",
+        "city": "Port Evieside",
+        "street": "Farm Close",
+        "house": 19,
+        "flat": 106,
+        "phone": "+19569341531",
+        "createdOn": "2025-12-22T20:16:54.000Z",
+        "notes": "sQjaDnTzXZ3jEMgvMeBAXzGXErOIAgA9s7hn5FzRi8MAG06ESETWTrSue001pKMseXsyAnPORR2OknQnroEtgSl7WhiSzPfDYpDXHseVt9kCaJG1crJKJtzDEZwxve4HsPYFx5dFnKQtOhnZV8k1VurhrQqnuwOjYVtKtGyBMeKn5xmVHg8RnUR6b8o39fFBRnEfnR9q2sTrgVC3IeAkD7h2R3eCmVzAwfCHgM71r0a26GkUEfjNW0oP48"
+      },
+      "products": [
+        {
+          "_id": "6949a7361c508c5d5ef4377d",
+          "name": "Gloves81788",
+          "amount": 943,
+          "price": 21827,
+          "manufacturer": "Google",
+          "notes": "XzK5zhr8oMaLXhYDz06NCGxrRl6Ws4pG76vrQo18MUf8D1pYKCS5mjSW6oIV21bhs9pcu7yHwTjd5hWMWlHVATkcsM4rd23aXwhDgb4M8EGm4MoC8gJ83qtNMuGkDgwhOJLN2Xdda5Sb2stsFK4cWdPKFmf3yoBlpFzDtBTJQ1pyrP9efASXTc2cSrGkjFxrDTGo9EjOazx5cd0va6OFXhYHFchmrfMJhhj0kYShWLfou7HMDA8XHBHj1f",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 21827,
+      "createdOn": "2025-12-22T20:16:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949a7361c508c5d5ef43778",
+          "products": [
+            {
+              "_id": "6949a7361c508c5d5ef4377d",
+              "name": "Gloves81788",
+              "amount": 943,
+              "price": 21827,
+              "manufacturer": "Google",
+              "notes": "XzK5zhr8oMaLXhYDz06NCGxrRl6Ws4pG76vrQo18MUf8D1pYKCS5mjSW6oIV21bhs9pcu7yHwTjd5hWMWlHVATkcsM4rd23aXwhDgb4M8EGm4MoC8gJ83qtNMuGkDgwhOJLN2Xdda5Sb2stsFK4cWdPKFmf3yoBlpFzDtBTJQ1pyrP9efASXTc2cSrGkjFxrDTGo9EjOazx5cd0va6OFXhYHFchmrfMJhhj0kYShWLfou7HMDA8XHBHj1f",
+              "received": false
+            }
+          ],
+          "total_price": 21827,
+          "delivery": null,
+          "changedOn": "2025-12-22T20:16:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6949a7371c508c5d5ef43785"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
