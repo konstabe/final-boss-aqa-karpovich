@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 12:06:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2937",
+    "etag": "W/\"b79-zZ2uQWJswkn4XmH61CyOXzMMMkE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949345d1c508c5d5ef3d49e",
+      "status": "Draft",
+      "customer": {
+        "_id": "6949345c1c508c5d5ef3d3d7",
+        "email": "Leslie98@yahoo.com",
+        "name": "Evangeline Armstrong",
+        "country": "Germany",
+        "city": "Kansas City",
+        "street": "Zieme Row",
+        "house": 1,
+        "flat": 898,
+        "phone": "+15512765267",
+        "createdOn": "2025-12-22T12:06:52.000Z",
+        "notes": "96QO6CyMdse1O69VDC1MCiVCItzO19gAvUEjql9uro6xUrESSbepPDUQRlxmyiOEVK0LiuP8qcsBVApSNPd7x3ERElsQfBqesaXCdY4vrNfk5tkAZ7LIBf2UmVmdQRkfieGne6INusBnJHZP0AVqpTwCZaH8dgMZznrvoGFMIGP2Q7tUKnJ1ZZpFqqFjtlmb6AATRWfb3ilFjMRmPUkim2ToMvK5paWGPMjdzIMRFyrC8fv4QzI8xhfMI4"
+      },
+      "products": [
+        {
+          "_id": "6949345c1c508c5d5ef3d412",
+          "name": "Car73032",
+          "amount": 467,
+          "price": 42937,
+          "manufacturer": "Google",
+          "notes": "lkq6FdlWIuAx7hWNY4Fo7byJgvgXDe7otTnnWf05DFxJKQzf2uizXsB7WYXYtH2h1Xd7YHywX1uiUEzxXmpb3S64EhnfumCIq2Y5v2pMe6LvNsDJmVtfzEdDYdqxyQlKqo83cr8cSbRBnf8HiRj8K7705Msph5xSN2HiCqenEjpcXbOiJnDv4igybSi0DjthVHEMLRjnScpB11fxCwLySUJeUZbAS1Py8ThvstKtb98kqWLvGHV5sOMphD",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Kansas City",
+          "street": "Zieme Row",
+          "house": 1,
+          "flat": 898
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 42937,
+      "createdOn": "2025-12-22T12:06:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949345c1c508c5d5ef3d3d7",
+          "products": [
+            {
+              "_id": "6949345c1c508c5d5ef3d412",
+              "name": "Car73032",
+              "amount": 467,
+              "price": 42937,
+              "manufacturer": "Google",
+              "notes": "lkq6FdlWIuAx7hWNY4Fo7byJgvgXDe7otTnnWf05DFxJKQzf2uizXsB7WYXYtH2h1Xd7YHywX1uiUEzxXmpb3S64EhnfumCIq2Y5v2pMe6LvNsDJmVtfzEdDYdqxyQlKqo83cr8cSbRBnf8HiRj8K7705Msph5xSN2HiCqenEjpcXbOiJnDv4igybSi0DjthVHEMLRjnScpB11fxCwLySUJeUZbAS1Py8ThvstKtb98kqWLvGHV5sOMphD",
+              "received": false
+            }
+          ],
+          "total_price": 42937,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Kansas City",
+              "street": "Zieme Row",
+              "house": 1,
+              "flat": 898
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-22T12:06:54.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949345c1c508c5d5ef3d3d7",
+          "products": [
+            {
+              "_id": "6949345c1c508c5d5ef3d412",
+              "name": "Car73032",
+              "amount": 467,
+              "price": 42937,
+              "manufacturer": "Google",
+              "notes": "lkq6FdlWIuAx7hWNY4Fo7byJgvgXDe7otTnnWf05DFxJKQzf2uizXsB7WYXYtH2h1Xd7YHywX1uiUEzxXmpb3S64EhnfumCIq2Y5v2pMe6LvNsDJmVtfzEdDYdqxyQlKqo83cr8cSbRBnf8HiRj8K7705Msph5xSN2HiCqenEjpcXbOiJnDv4igybSi0DjthVHEMLRjnScpB11fxCwLySUJeUZbAS1Py8ThvstKtb98kqWLvGHV5sOMphD",
+              "received": false
+            }
+          ],
+          "total_price": 42937,
+          "delivery": null,
+          "changedOn": "2025-12-22T12:06:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

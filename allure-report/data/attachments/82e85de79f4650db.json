@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 12:06:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3418",
+    "etag": "W/\"d5a-er4WInTvQafhEgrEkGS2W6/m/1k\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694934591c508c5d5ef3d23e",
+        "email": "Pearl78@yahoo.com",
+        "name": "Sarina Franecki",
+        "country": "France",
+        "city": "Cassidyberg",
+        "street": "The Coppice",
+        "house": 24,
+        "flat": 438,
+        "phone": "+19104559100",
+        "createdOn": "2025-12-22T12:06:49.000Z",
+        "notes": "JfbcDZZfwpqognpP9zqG30Ns8yXJq4HecoPFemIPsYVd4MwkWlkHx1Y1M9MWMsu3zdPnvnxoeFMhizc4G5UkA3f9PmYFRmXi8m02bLsZXek34E8h2fySkU3CRJj4Zi8UxXUkgPD9TFVckUFbDN0enSikXQ3AKGkWtfJze9S3t2AJ5ADAhzuVan8xI5FgtVV3qtCNhv9PoRKlgId4vUsmqINC4hkCOgBZnJSQdP9C4eu2sP5pttMezScGpy"
+      },
+      "products": [
+        {
+          "_id": "694934591c508c5d5ef3d264",
+          "name": "Pizza54009",
+          "amount": 541,
+          "price": 8909,
+          "manufacturer": "Google",
+          "notes": "FCS5CfOfEVPAWjRXTNQz81PudkBLWxqpqbacLymRhUvSYPgdTkgi9GtLxQEKqG9bCVLrytwxlPQruDdTaksOiSMXi9jS2LrVGkqpB9I7jQpxoYJSbqqwCUTelMkZu92B0X4cUXgB9YOMAS2sMElgxWA25z0XlYKSg9nOhPjzQ71TauYh79XrpltlzjIl8Ud78Nrg3iYFQ9R1f3BNkHxAMGjKOXqLPwVkmsQeIkNVX7wp1iXeeOKDciUD8D",
+          "received": false
+        },
+        {
+          "_id": "694934591c508c5d5ef3d28f",
+          "name": "Pants46364",
+          "amount": 788,
+          "price": 54644,
+          "manufacturer": "Microsoft",
+          "notes": "fygec58tY0jI2P99paDmgYhzs5DMsovkBsr3dTmpHzULVHxI8eT0iBwMoe4NzmKGk570e2tULtbx3QZimNXyeksEsAzJOLezEbVN2EXIZWhp5kETvKRCULBk4Rw3IPRTQ3nywj5bnQmMSVRLlXDf50b8M4e4urcxVMEXpuZ7REbcdkyuxVWIwIjbe2Mga9pvAlOfjYA2xMl0e1TidGDnc2dCkkGZggp8MP9WgLVjjIVhqA4f0rqHPYOeSV",
+          "received": false
+        },
+        {
+          "_id": "694934591c508c5d5ef3d2b2",
+          "name": "Car40964",
+          "amount": 825,
+          "price": 49758,
+          "manufacturer": "Samsung",
+          "notes": "1TMVkvlv7NdMr5w16zNGJxaTX66r77dn5wwZxOZNXknFeffOgdOYzzNpb0v5StZHXlJuEh6uXwp7tWuIUMHYyLlfUZUq4WJQB7Uo7ERiTitFr6fdC7ohs4yw3tsGqFEAstJGKOWO4baVBuj7djfRllXefVjIxabQSlyunx2spizbrQMymRxlvGK2qzQYHA2JYQQ84IQ6aEAf1Pm1Ic4p0J9v1wKDhLiMcvztFbq0PuE6PvSn7kKGD5D8EF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 113311,
+      "createdOn": "2025-12-22T12:06:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694934591c508c5d5ef3d23e",
+          "products": [
+            {
+              "_id": "694934591c508c5d5ef3d264",
+              "name": "Pizza54009",
+              "amount": 541,
+              "price": 8909,
+              "manufacturer": "Google",
+              "notes": "FCS5CfOfEVPAWjRXTNQz81PudkBLWxqpqbacLymRhUvSYPgdTkgi9GtLxQEKqG9bCVLrytwxlPQruDdTaksOiSMXi9jS2LrVGkqpB9I7jQpxoYJSbqqwCUTelMkZu92B0X4cUXgB9YOMAS2sMElgxWA25z0XlYKSg9nOhPjzQ71TauYh79XrpltlzjIl8Ud78Nrg3iYFQ9R1f3BNkHxAMGjKOXqLPwVkmsQeIkNVX7wp1iXeeOKDciUD8D",
+              "received": false
+            },
+            {
+              "_id": "694934591c508c5d5ef3d28f",
+              "name": "Pants46364",
+              "amount": 788,
+              "price": 54644,
+              "manufacturer": "Microsoft",
+              "notes": "fygec58tY0jI2P99paDmgYhzs5DMsovkBsr3dTmpHzULVHxI8eT0iBwMoe4NzmKGk570e2tULtbx3QZimNXyeksEsAzJOLezEbVN2EXIZWhp5kETvKRCULBk4Rw3IPRTQ3nywj5bnQmMSVRLlXDf50b8M4e4urcxVMEXpuZ7REbcdkyuxVWIwIjbe2Mga9pvAlOfjYA2xMl0e1TidGDnc2dCkkGZggp8MP9WgLVjjIVhqA4f0rqHPYOeSV",
+              "received": false
+            },
+            {
+              "_id": "694934591c508c5d5ef3d2b2",
+              "name": "Car40964",
+              "amount": 825,
+              "price": 49758,
+              "manufacturer": "Samsung",
+              "notes": "1TMVkvlv7NdMr5w16zNGJxaTX66r77dn5wwZxOZNXknFeffOgdOYzzNpb0v5StZHXlJuEh6uXwp7tWuIUMHYyLlfUZUq4WJQB7Uo7ERiTitFr6fdC7ohs4yw3tsGqFEAstJGKOWO4baVBuj7djfRllXefVjIxabQSlyunx2spizbrQMymRxlvGK2qzQYHA2JYQQ84IQ6aEAf1Pm1Ic4p0J9v1wKDhLiMcvztFbq0PuE6PvSn7kKGD5D8EF",
+              "received": false
+            }
+          ],
+          "total_price": 113311,
+          "delivery": null,
+          "changedOn": "2025-12-22T12:06:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6949345a1c508c5d5ef3d343"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

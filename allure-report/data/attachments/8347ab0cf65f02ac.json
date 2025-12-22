@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 12:06:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-cp9iGOK92wVvfPFjYCGFFSbIlWE\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694934581c508c5d5ef3d1c4",
+        "email": "Ike_Rath@hotmail.com",
+        "name": "Hank Kiehn",
+        "country": "Canada",
+        "city": "Port Evansfield",
+        "street": "Maple Road",
+        "house": 47,
+        "flat": 898,
+        "phone": "+18825565690",
+        "createdOn": "2025-12-22T12:06:48.000Z",
+        "notes": "9xsVUV5FfSdZIAidYvfrx23slqSRzg352sIhQ2OhKX86chSIuTrj0cweJBt0HvgThKM2KOhGwJDCqtO7fbYffcw2cLO6AabW6xNo97ve2Qh5UpnAdvUucA4JLccDnFLTJxHgHYtLxtJZtUR63ctdwCsMCHnkf8zt07aJyssDJYQInrys1Y2huSuKtknV6dK2BQ59tP2c3oSVxPagUnSmRQJyiG7Y7lxaIIZNfnTyNXotbmeGRWGMG0aTCO"
+      },
+      "products": [
+        {
+          "_id": "694934581c508c5d5ef3d1e8",
+          "name": "Sausages43184",
+          "amount": 940,
+          "price": 94032,
+          "manufacturer": "Microsoft",
+          "notes": "l3qA18nwMGLJ4IRv6rb78knxsI5d5QD9YA4QhoQll3vbNHENrHGHB0jkPM7qJnVKdxeDWzcWIiolcKM1TBQJtM27Gz8knCAeuNai0ayHM7lsOTBYn1lGJFnIvbHDSFwL5Gaw2kl8hsDY0I7LhgCXD4U1lbtIx0wmpc81R3mi2grExHvtLs4IYtAn7cPfPOHN84KBOhcwuoQ2MGIsOOpgY4m7DjzQEggBl2LvPysTRpwcfFSzeHwSY6hYmv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94032,
+      "createdOn": "2025-12-22T12:06:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694934581c508c5d5ef3d1c4",
+          "products": [
+            {
+              "_id": "694934581c508c5d5ef3d1e8",
+              "name": "Sausages43184",
+              "amount": 940,
+              "price": 94032,
+              "manufacturer": "Microsoft",
+              "notes": "l3qA18nwMGLJ4IRv6rb78knxsI5d5QD9YA4QhoQll3vbNHENrHGHB0jkPM7qJnVKdxeDWzcWIiolcKM1TBQJtM27Gz8knCAeuNai0ayHM7lsOTBYn1lGJFnIvbHDSFwL5Gaw2kl8hsDY0I7LhgCXD4U1lbtIx0wmpc81R3mi2grExHvtLs4IYtAn7cPfPOHN84KBOhcwuoQ2MGIsOOpgY4m7DjzQEggBl2LvPysTRpwcfFSzeHwSY6hYmv",
+              "received": false
+            }
+          ],
+          "total_price": 94032,
+          "delivery": null,
+          "changedOn": "2025-12-22T12:06:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694934581c508c5d5ef3d21c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
