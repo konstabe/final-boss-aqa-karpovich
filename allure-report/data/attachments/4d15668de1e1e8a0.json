@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 20:38:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3905",
+    "etag": "W/\"f41-kh2CjJ09SGQ4X4PiHIbxIQbBZoo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949ac441c508c5d5ef43bd1",
+      "status": "In Process",
+      "customer": {
+        "_id": "6949ac431c508c5d5ef43b6f",
+        "email": "Nadia13@yahoo.com",
+        "name": "Abagail Bednar",
+        "country": "Belarus",
+        "city": "Fort Tressahaven",
+        "street": "Grant Hill",
+        "house": 10,
+        "flat": 172,
+        "phone": "+12048709746",
+        "createdOn": "2025-12-22T20:38:27.000Z",
+        "notes": "QU7eT5Cpr9N2Vm1tEbR0LbSq0bxZeUYLDy7ochQcnAtSqOxgQfTeOQv0Zizt5Fjd0ov80uq8cJ8paktyHABwV33sFB3xILkTSLVxFkjfQnJqjHSrzUtE6x6CikBjHRREKtOmWKVv7Tx3no0JVcbPh9UIZ6tN6yuPIZBbSp0Q1g7zJxySCgx8fjXGZTcIeBmFm6W1kuddHLPAUJXaUOcSB6ATktg5Oka9v42GUonQ08BzGDlrDNsaNXmdIk"
+      },
+      "products": [
+        {
+          "_id": "6949ac431c508c5d5ef43b97",
+          "name": "Towels97509",
+          "amount": 936,
+          "price": 71709,
+          "manufacturer": "Microsoft",
+          "notes": "Sd5dTyyNIFowwgjithLcUO0T1pS8oExpfMRH4nEpxjh6kkKOIhKX7KKaPZxMRSHGexUHB8fIusCdWAfvRMB1RTHQ9tiZ0kzCKq06MwGUFcjbQN1xkG85JBnctVAl3p0ikGjwX1nR54zI4gD3u7ux1PiAvsZu7vdTIYlKluMwTJTedL7sHjshLMmw0avF3f4oTtVjWIqd7rjC66mU8qp9oi3lzB0LgciDlcACF38kfvdeouPGpYEGbsEvXN",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Fort Tressahaven",
+          "street": "Grant Hill",
+          "house": 10,
+          "flat": 172
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 71709,
+      "createdOn": "2025-12-22T20:38:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6949ac431c508c5d5ef43b6f",
+          "products": [
+            {
+              "_id": "6949ac431c508c5d5ef43b97",
+              "name": "Towels97509",
+              "amount": 936,
+              "price": 71709,
+              "manufacturer": "Microsoft",
+              "notes": "Sd5dTyyNIFowwgjithLcUO0T1pS8oExpfMRH4nEpxjh6kkKOIhKX7KKaPZxMRSHGexUHB8fIusCdWAfvRMB1RTHQ9tiZ0kzCKq06MwGUFcjbQN1xkG85JBnctVAl3p0ikGjwX1nR54zI4gD3u7ux1PiAvsZu7vdTIYlKluMwTJTedL7sHjshLMmw0avF3f4oTtVjWIqd7rjC66mU8qp9oi3lzB0LgciDlcACF38kfvdeouPGpYEGbsEvXN",
+              "received": false
+            }
+          ],
+          "total_price": 71709,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Fort Tressahaven",
+              "street": "Grant Hill",
+              "house": 10,
+              "flat": 172
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-22T20:38:29.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949ac431c508c5d5ef43b6f",
+          "products": [
+            {
+              "_id": "6949ac431c508c5d5ef43b97",
+              "name": "Towels97509",
+              "amount": 936,
+              "price": 71709,
+              "manufacturer": "Microsoft",
+              "notes": "Sd5dTyyNIFowwgjithLcUO0T1pS8oExpfMRH4nEpxjh6kkKOIhKX7KKaPZxMRSHGexUHB8fIusCdWAfvRMB1RTHQ9tiZ0kzCKq06MwGUFcjbQN1xkG85JBnctVAl3p0ikGjwX1nR54zI4gD3u7ux1PiAvsZu7vdTIYlKluMwTJTedL7sHjshLMmw0avF3f4oTtVjWIqd7rjC66mU8qp9oi3lzB0LgciDlcACF38kfvdeouPGpYEGbsEvXN",
+              "received": false
+            }
+          ],
+          "total_price": 71709,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Fort Tressahaven",
+              "street": "Grant Hill",
+              "house": 10,
+              "flat": 172
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-22T20:38:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949ac431c508c5d5ef43b6f",
+          "products": [
+            {
+              "_id": "6949ac431c508c5d5ef43b97",
+              "name": "Towels97509",
+              "amount": 936,
+              "price": 71709,
+              "manufacturer": "Microsoft",
+              "notes": "Sd5dTyyNIFowwgjithLcUO0T1pS8oExpfMRH4nEpxjh6kkKOIhKX7KKaPZxMRSHGexUHB8fIusCdWAfvRMB1RTHQ9tiZ0kzCKq06MwGUFcjbQN1xkG85JBnctVAl3p0ikGjwX1nR54zI4gD3u7ux1PiAvsZu7vdTIYlKluMwTJTedL7sHjshLMmw0avF3f4oTtVjWIqd7rjC66mU8qp9oi3lzB0LgciDlcACF38kfvdeouPGpYEGbsEvXN",
+              "received": false
+            }
+          ],
+          "total_price": 71709,
+          "delivery": null,
+          "changedOn": "2025-12-22T20:38:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

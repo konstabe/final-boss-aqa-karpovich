@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 20:38:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-k+tt6D/EKEUi8DBye+PauQs/z8Q\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6949ac5e1c508c5d5ef43e36",
+        "email": "Geovany17@yahoo.com",
+        "name": "Dusty Kreiger",
+        "country": "Great Britain",
+        "city": "Kentwood",
+        "street": "Sandy Stravenue",
+        "house": 44,
+        "flat": 354,
+        "phone": "+14234158251",
+        "createdOn": "2025-12-22T20:38:54.000Z",
+        "notes": "JwtH3XoVp54vYibIOjTVK8UqK8Q9bcOQ3vMqkmZqmtqR5igUE4409MCQPJdY7TVMhuY6MHOQTaiRQvhTSmrbIPnZ4GgsiyjDhtbqUDvObF2VlWgNdNVVOlWMYM3RFh0PTYV4k02rbEqHGYE2OrmWeUGflIlZhFChFpkcvPJG0ZlyLHkAyCffPKGheFPc62BMlZZ7od5rmMxSj2c0jilflOLrXi0Po5tNC6TzS9qEMHjLXDCtXXuY3yMzfm"
+      },
+      "products": [
+        {
+          "_id": "6949ac5e1c508c5d5ef43e3b",
+          "name": "Salad63446",
+          "amount": 157,
+          "price": 74493,
+          "manufacturer": "Microsoft",
+          "notes": "XS2apUcDOgj0FCWl7uprl1xGoYL5VUC4Lz6PXEyKEyjBVuFlhOfpPOmaXiwpSIrGl4j8jLMRc0Z3uW77mxUmXG1YWxMQPFVPA3KY8urBp9GLvdGhKzvpZ7pSpcmuRZt6tTBR0R1fbibwWyNmj5yrRB6px1hlIm03tt6b75du4zgtkhL47sWVME1iyIJcRhUZ5bFZmIjxp0dB5sHeqTLQNkAQxvNKDIjG3afhHFdxVL51DpD3QVGrXA7yAX",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 74493,
+      "createdOn": "2025-12-22T20:38:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949ac5e1c508c5d5ef43e36",
+          "products": [
+            {
+              "_id": "6949ac5e1c508c5d5ef43e3b",
+              "name": "Salad63446",
+              "amount": 157,
+              "price": 74493,
+              "manufacturer": "Microsoft",
+              "notes": "XS2apUcDOgj0FCWl7uprl1xGoYL5VUC4Lz6PXEyKEyjBVuFlhOfpPOmaXiwpSIrGl4j8jLMRc0Z3uW77mxUmXG1YWxMQPFVPA3KY8urBp9GLvdGhKzvpZ7pSpcmuRZt6tTBR0R1fbibwWyNmj5yrRB6px1hlIm03tt6b75du4zgtkhL47sWVME1iyIJcRhUZ5bFZmIjxp0dB5sHeqTLQNkAQxvNKDIjG3afhHFdxVL51DpD3QVGrXA7yAX",
+              "received": false
+            }
+          ],
+          "total_price": 74493,
+          "delivery": null,
+          "changedOn": "2025-12-22T20:38:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6949ac5e1c508c5d5ef43e43"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

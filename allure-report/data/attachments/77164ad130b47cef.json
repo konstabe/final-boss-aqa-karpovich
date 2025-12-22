@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 20:38:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-OzJI75O0yZsA0c5iMW5TSl5JygQ\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6949ac421c508c5d5ef43afd",
+        "email": "Rozella.Lemke51@gmail.com",
+        "name": "Madalyn Goyette",
+        "country": "Great Britain",
+        "city": "Zionside",
+        "street": "Barrows Viaduct",
+        "house": 13,
+        "flat": 825,
+        "phone": "+16605045450",
+        "createdOn": "2025-12-22T20:38:26.000Z",
+        "notes": "BwTODYIYiEG9Af2bkyQTfXQf9HbkE2H94jmC7K8bV7xt8aGPQIoyxW7Jjktvf579vS3ji3G6k2ygiIPmedvOS354b77c8tfSq6raSHlSE7dONVXIWXN8mqVVa5hHyYzceM1TAk0UJlNyy7oGQkeb3m9lVlKux7n0VX4M7BPxw7GXF5AvfMhNElXQfoXoXxAYroQs6pGaDywJKkTlnQgeuT1jKnA9wlYVdUC0oXk2CVF6aoiUuame1IX5s4"
+      },
+      "products": [
+        {
+          "_id": "6949ac421c508c5d5ef43b2f",
+          "name": "Chips84637",
+          "amount": 643,
+          "price": 23126,
+          "manufacturer": "Apple",
+          "notes": "tnj6uz9XZBHgXP0UrzfS6hfUJkHeKrRKnSn7bcGk7yLW1dALSpL5Yg66zi6Z4Yo1MXnqxjj65jpoTv2sdhZbvg0IoAUhzkL6ANtkUuACuo7QvM2HhlxCZwtvojbqoGXnGXST9Ka5Akh0j0iU1XYprLOiW5W1cECqVQByJUDiPbNVI3QuR5tKQlz78Yks0OlWmd3lTXwlgWzAlpL0dpHEJgAYS4kmJ7TNKd5uILG30OEov6x53ksldiLeeU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 23126,
+      "createdOn": "2025-12-22T20:38:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949ac421c508c5d5ef43afd",
+          "products": [
+            {
+              "_id": "6949ac421c508c5d5ef43b2f",
+              "name": "Chips84637",
+              "amount": 643,
+              "price": 23126,
+              "manufacturer": "Apple",
+              "notes": "tnj6uz9XZBHgXP0UrzfS6hfUJkHeKrRKnSn7bcGk7yLW1dALSpL5Yg66zi6Z4Yo1MXnqxjj65jpoTv2sdhZbvg0IoAUhzkL6ANtkUuACuo7QvM2HhlxCZwtvojbqoGXnGXST9Ka5Akh0j0iU1XYprLOiW5W1cECqVQByJUDiPbNVI3QuR5tKQlz78Yks0OlWmd3lTXwlgWzAlpL0dpHEJgAYS4kmJ7TNKd5uILG30OEov6x53ksldiLeeU",
+              "received": false
+            }
+          ],
+          "total_price": 23126,
+          "delivery": null,
+          "changedOn": "2025-12-22T20:38:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6949ac431c508c5d5ef43b6b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

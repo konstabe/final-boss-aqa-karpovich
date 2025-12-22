@@ -1,0 +1,303 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 20:38:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8617",
+    "etag": "W/\"21a9-nFQBRXZU+HHJuhgFIc8+dCGza/4\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949ac411c508c5d5ef43ad8",
+      "status": "Received",
+      "customer": {
+        "_id": "6949ac401c508c5d5ef43a4c",
+        "email": "Jerod.Hammes@gmail.com",
+        "name": "Keyon Schuppe",
+        "country": "Russia",
+        "city": "Tressahaven",
+        "street": "Kunze Way",
+        "house": 36,
+        "flat": 460,
+        "phone": "+16055793031",
+        "createdOn": "2025-12-22T20:38:24.000Z",
+        "notes": "VJuGN44prIfgqbISyJ8kcsWDlWFU5QmNZwVgdZ4aQ5VoSE8LmZqsJAvLDnxkgl2BdQOc2nPS3BUKy1xB0ukk9MODscoI8T5OBXU7BqKWu6g8IFtuejyrbRCOT1mLhmVJ8kY7fko0avQMRLzEDl8sFUt72nz8YtZxeYy26iM3GZKPeca9Z8wC3Az8DgZJZatGvzB1N1owfLRUTbWleXHLTrWCqG9CjiBzQebgy1MpqCDd0Cnp7yyTNw0ZGY"
+      },
+      "products": [
+        {
+          "_id": "6949ac411c508c5d5ef43a6a",
+          "name": "Shoes21075",
+          "amount": 127,
+          "price": 97891,
+          "manufacturer": "Sony",
+          "notes": "pnDGZMaKlXaxODwC4rheArTL171AVC0on5AMKHCIIeA9G0uN7Mky751FjhfyFTfxmVrqUujOCzrP8OLC4Jec4ykEObsTPvFMQAkjmedgMny92kuQeztjqsHV8JDw36LD7Hf55PCyED9aKcKdQuUEMAfoX1dFkSb1k7j8uPCwS90VgYXl6Bxf9DGIlqrvsDsiLZX4wNN2lHSTT0rmczy2kxELUpd9LUYc30T5hlaZdcLsdSzNgMFjuv4aii",
+          "received": true
+        },
+        {
+          "_id": "6949ac411c508c5d5ef43a80",
+          "name": "Shirt63698",
+          "amount": 394,
+          "price": 62377,
+          "manufacturer": "Xiaomi",
+          "notes": "wZs2Dmx0LaBWO0CbagUNF99H8RJOw1NdjYRqBi3CLMskusi4JlOQAYcnef7vgV948XCAwrdZ3V2u4ItMoUV4Xkywxql9WecNSoNhXBLASJfxr5yLAOhA2vHsdWrPGu0czGsQtOFa9TpAyDlEnjF2oeX6D7FV9SJIawsnZNeDK2K1rcGwI8SvpLAVUCrcNpfFcorjYFuou7dAZOsL6IYOSLS2RBC14onAb5PmJWx5ZtUAJBoULkea3ZU62H",
+          "received": true
+        },
+        {
+          "_id": "6949ac411c508c5d5ef43a9b",
+          "name": "Chicken33126",
+          "amount": 757,
+          "price": 11599,
+          "manufacturer": "Amazon",
+          "notes": "Pyu4AC2BBSr7BqQUfhkDJhC8feE7D726uDDboP67vUD3FDOStGDWA9CF8q9LyL3x5mtjr24mM80MmccP85Jln4EnpU1JkvDGkOfwtadhvVmTq3EzrToWFcV6ivnh1FAohVPMU17geOkfM6UA50UNfSckdwPKFGpGXGHWjIsRF08w7q3ZL45QO5movOVaAeETyi2vOLawZg7P1QewJMyZLxFZcyBvWCwizdFvy2U0Z6qrsHROzol1FYUtYg",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Tressahaven",
+          "street": "Kunze Way",
+          "house": 36,
+          "flat": 460
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 171867,
+      "createdOn": "2025-12-22T20:38:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6949ac401c508c5d5ef43a4c",
+          "products": [
+            {
+              "_id": "6949ac411c508c5d5ef43a6a",
+              "name": "Shoes21075",
+              "amount": 127,
+              "price": 97891,
+              "manufacturer": "Sony",
+              "notes": "pnDGZMaKlXaxODwC4rheArTL171AVC0on5AMKHCIIeA9G0uN7Mky751FjhfyFTfxmVrqUujOCzrP8OLC4Jec4ykEObsTPvFMQAkjmedgMny92kuQeztjqsHV8JDw36LD7Hf55PCyED9aKcKdQuUEMAfoX1dFkSb1k7j8uPCwS90VgYXl6Bxf9DGIlqrvsDsiLZX4wNN2lHSTT0rmczy2kxELUpd9LUYc30T5hlaZdcLsdSzNgMFjuv4aii",
+              "received": true
+            },
+            {
+              "_id": "6949ac411c508c5d5ef43a80",
+              "name": "Shirt63698",
+              "amount": 394,
+              "price": 62377,
+              "manufacturer": "Xiaomi",
+              "notes": "wZs2Dmx0LaBWO0CbagUNF99H8RJOw1NdjYRqBi3CLMskusi4JlOQAYcnef7vgV948XCAwrdZ3V2u4ItMoUV4Xkywxql9WecNSoNhXBLASJfxr5yLAOhA2vHsdWrPGu0czGsQtOFa9TpAyDlEnjF2oeX6D7FV9SJIawsnZNeDK2K1rcGwI8SvpLAVUCrcNpfFcorjYFuou7dAZOsL6IYOSLS2RBC14onAb5PmJWx5ZtUAJBoULkea3ZU62H",
+              "received": true
+            },
+            {
+              "_id": "6949ac411c508c5d5ef43a9b",
+              "name": "Chicken33126",
+              "amount": 757,
+              "price": 11599,
+              "manufacturer": "Amazon",
+              "notes": "Pyu4AC2BBSr7BqQUfhkDJhC8feE7D726uDDboP67vUD3FDOStGDWA9CF8q9LyL3x5mtjr24mM80MmccP85Jln4EnpU1JkvDGkOfwtadhvVmTq3EzrToWFcV6ivnh1FAohVPMU17geOkfM6UA50UNfSckdwPKFGpGXGHWjIsRF08w7q3ZL45QO5movOVaAeETyi2vOLawZg7P1QewJMyZLxFZcyBvWCwizdFvy2U0Z6qrsHROzol1FYUtYg",
+              "received": true
+            }
+          ],
+          "total_price": 171867,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Tressahaven",
+              "street": "Kunze Way",
+              "house": 36,
+              "flat": 460
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-22T20:38:27.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6949ac401c508c5d5ef43a4c",
+          "products": [
+            {
+              "_id": "6949ac411c508c5d5ef43a6a",
+              "name": "Shoes21075",
+              "amount": 127,
+              "price": 97891,
+              "manufacturer": "Sony",
+              "notes": "pnDGZMaKlXaxODwC4rheArTL171AVC0on5AMKHCIIeA9G0uN7Mky751FjhfyFTfxmVrqUujOCzrP8OLC4Jec4ykEObsTPvFMQAkjmedgMny92kuQeztjqsHV8JDw36LD7Hf55PCyED9aKcKdQuUEMAfoX1dFkSb1k7j8uPCwS90VgYXl6Bxf9DGIlqrvsDsiLZX4wNN2lHSTT0rmczy2kxELUpd9LUYc30T5hlaZdcLsdSzNgMFjuv4aii",
+              "received": false
+            },
+            {
+              "_id": "6949ac411c508c5d5ef43a80",
+              "name": "Shirt63698",
+              "amount": 394,
+              "price": 62377,
+              "manufacturer": "Xiaomi",
+              "notes": "wZs2Dmx0LaBWO0CbagUNF99H8RJOw1NdjYRqBi3CLMskusi4JlOQAYcnef7vgV948XCAwrdZ3V2u4ItMoUV4Xkywxql9WecNSoNhXBLASJfxr5yLAOhA2vHsdWrPGu0czGsQtOFa9TpAyDlEnjF2oeX6D7FV9SJIawsnZNeDK2K1rcGwI8SvpLAVUCrcNpfFcorjYFuou7dAZOsL6IYOSLS2RBC14onAb5PmJWx5ZtUAJBoULkea3ZU62H",
+              "received": false
+            },
+            {
+              "_id": "6949ac411c508c5d5ef43a9b",
+              "name": "Chicken33126",
+              "amount": 757,
+              "price": 11599,
+              "manufacturer": "Amazon",
+              "notes": "Pyu4AC2BBSr7BqQUfhkDJhC8feE7D726uDDboP67vUD3FDOStGDWA9CF8q9LyL3x5mtjr24mM80MmccP85Jln4EnpU1JkvDGkOfwtadhvVmTq3EzrToWFcV6ivnh1FAohVPMU17geOkfM6UA50UNfSckdwPKFGpGXGHWjIsRF08w7q3ZL45QO5movOVaAeETyi2vOLawZg7P1QewJMyZLxFZcyBvWCwizdFvy2U0Z6qrsHROzol1FYUtYg",
+              "received": false
+            }
+          ],
+          "total_price": 171867,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Tressahaven",
+              "street": "Kunze Way",
+              "house": 36,
+              "flat": 460
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-22T20:38:26.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949ac401c508c5d5ef43a4c",
+          "products": [
+            {
+              "_id": "6949ac411c508c5d5ef43a6a",
+              "name": "Shoes21075",
+              "amount": 127,
+              "price": 97891,
+              "manufacturer": "Sony",
+              "notes": "pnDGZMaKlXaxODwC4rheArTL171AVC0on5AMKHCIIeA9G0uN7Mky751FjhfyFTfxmVrqUujOCzrP8OLC4Jec4ykEObsTPvFMQAkjmedgMny92kuQeztjqsHV8JDw36LD7Hf55PCyED9aKcKdQuUEMAfoX1dFkSb1k7j8uPCwS90VgYXl6Bxf9DGIlqrvsDsiLZX4wNN2lHSTT0rmczy2kxELUpd9LUYc30T5hlaZdcLsdSzNgMFjuv4aii",
+              "received": false
+            },
+            {
+              "_id": "6949ac411c508c5d5ef43a80",
+              "name": "Shirt63698",
+              "amount": 394,
+              "price": 62377,
+              "manufacturer": "Xiaomi",
+              "notes": "wZs2Dmx0LaBWO0CbagUNF99H8RJOw1NdjYRqBi3CLMskusi4JlOQAYcnef7vgV948XCAwrdZ3V2u4ItMoUV4Xkywxql9WecNSoNhXBLASJfxr5yLAOhA2vHsdWrPGu0czGsQtOFa9TpAyDlEnjF2oeX6D7FV9SJIawsnZNeDK2K1rcGwI8SvpLAVUCrcNpfFcorjYFuou7dAZOsL6IYOSLS2RBC14onAb5PmJWx5ZtUAJBoULkea3ZU62H",
+              "received": false
+            },
+            {
+              "_id": "6949ac411c508c5d5ef43a9b",
+              "name": "Chicken33126",
+              "amount": 757,
+              "price": 11599,
+              "manufacturer": "Amazon",
+              "notes": "Pyu4AC2BBSr7BqQUfhkDJhC8feE7D726uDDboP67vUD3FDOStGDWA9CF8q9LyL3x5mtjr24mM80MmccP85Jln4EnpU1JkvDGkOfwtadhvVmTq3EzrToWFcV6ivnh1FAohVPMU17geOkfM6UA50UNfSckdwPKFGpGXGHWjIsRF08w7q3ZL45QO5movOVaAeETyi2vOLawZg7P1QewJMyZLxFZcyBvWCwizdFvy2U0Z6qrsHROzol1FYUtYg",
+              "received": false
+            }
+          ],
+          "total_price": 171867,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Tressahaven",
+              "street": "Kunze Way",
+              "house": 36,
+              "flat": 460
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-22T20:38:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949ac401c508c5d5ef43a4c",
+          "products": [
+            {
+              "_id": "6949ac411c508c5d5ef43a6a",
+              "name": "Shoes21075",
+              "amount": 127,
+              "price": 97891,
+              "manufacturer": "Sony",
+              "notes": "pnDGZMaKlXaxODwC4rheArTL171AVC0on5AMKHCIIeA9G0uN7Mky751FjhfyFTfxmVrqUujOCzrP8OLC4Jec4ykEObsTPvFMQAkjmedgMny92kuQeztjqsHV8JDw36LD7Hf55PCyED9aKcKdQuUEMAfoX1dFkSb1k7j8uPCwS90VgYXl6Bxf9DGIlqrvsDsiLZX4wNN2lHSTT0rmczy2kxELUpd9LUYc30T5hlaZdcLsdSzNgMFjuv4aii",
+              "received": false
+            },
+            {
+              "_id": "6949ac411c508c5d5ef43a80",
+              "name": "Shirt63698",
+              "amount": 394,
+              "price": 62377,
+              "manufacturer": "Xiaomi",
+              "notes": "wZs2Dmx0LaBWO0CbagUNF99H8RJOw1NdjYRqBi3CLMskusi4JlOQAYcnef7vgV948XCAwrdZ3V2u4ItMoUV4Xkywxql9WecNSoNhXBLASJfxr5yLAOhA2vHsdWrPGu0czGsQtOFa9TpAyDlEnjF2oeX6D7FV9SJIawsnZNeDK2K1rcGwI8SvpLAVUCrcNpfFcorjYFuou7dAZOsL6IYOSLS2RBC14onAb5PmJWx5ZtUAJBoULkea3ZU62H",
+              "received": false
+            },
+            {
+              "_id": "6949ac411c508c5d5ef43a9b",
+              "name": "Chicken33126",
+              "amount": 757,
+              "price": 11599,
+              "manufacturer": "Amazon",
+              "notes": "Pyu4AC2BBSr7BqQUfhkDJhC8feE7D726uDDboP67vUD3FDOStGDWA9CF8q9LyL3x5mtjr24mM80MmccP85Jln4EnpU1JkvDGkOfwtadhvVmTq3EzrToWFcV6ivnh1FAohVPMU17geOkfM6UA50UNfSckdwPKFGpGXGHWjIsRF08w7q3ZL45QO5movOVaAeETyi2vOLawZg7P1QewJMyZLxFZcyBvWCwizdFvy2U0Z6qrsHROzol1FYUtYg",
+              "received": false
+            }
+          ],
+          "total_price": 171867,
+          "delivery": null,
+          "changedOn": "2025-12-22T20:38:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
