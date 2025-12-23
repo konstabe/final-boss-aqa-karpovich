@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 11:53:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-sjA5+nbc+8z1oKy0LnMbh3J2yZw\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694a82d11c508c5d5ef4d22b",
+        "email": "Blaise_Corwin@yahoo.com",
+        "name": "Freda Macejkovic",
+        "country": "Germany",
+        "city": "Boulder",
+        "street": "Bartell Divide",
+        "house": 24,
+        "flat": 215,
+        "phone": "+13238720634",
+        "createdOn": "2025-12-23T11:53:53.000Z",
+        "notes": "D08ToupEKrpWeKiFbwuSAP6B7J41zqFuNkSf7ARiPQDML9NOnBzbQaPSAZHLY6JOSQr9HTdqaIVefxJ3p3etGAddPJYrELRSNZvgKNtFf7qPBSMZx3dzHiV0x9yOxeiLK34IhZnZQguh98oLOL0z7LpA3iTC8OvAOrZco0pDIqTdh9otVqjLDQUu7c5JfH7UyoraV6XRQ4THR5lfNAZGkXhz3yPJtAdPdlhGvR51Y4gQDZyOs623tnImnR"
+      },
+      "products": [
+        {
+          "_id": "694a82d21c508c5d5ef4d28b",
+          "name": "Pants96061",
+          "amount": 802,
+          "price": 31448,
+          "manufacturer": "Amazon",
+          "notes": "2q4GZf8muRzmGBADCRNeoz0CjZ8ePHXwO7BCtmWNSVZiq2zB965oVln8MO9Ez1115DwF9aOyobiEx1cWC7Z0b2yVyDGexQlK4WvRHVgXXARaVsv0PK7M0Bz2NWAV8IBtPLz2tarhJ66J6vD4xzZdAZjQ9KnaM02OckJ8QKtMCEeGvfwKU0vQ2b0vlvUPYhmurn7bvzEnmTI9t0138hlHTGDpprKDaUpsoebNMDgoGxueolm6fRa18miDv3",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 31448,
+      "createdOn": "2025-12-23T11:53:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694a82d11c508c5d5ef4d22b",
+          "products": [
+            {
+              "_id": "694a82d21c508c5d5ef4d28b",
+              "name": "Pants96061",
+              "amount": 802,
+              "price": 31448,
+              "manufacturer": "Amazon",
+              "notes": "2q4GZf8muRzmGBADCRNeoz0CjZ8ePHXwO7BCtmWNSVZiq2zB965oVln8MO9Ez1115DwF9aOyobiEx1cWC7Z0b2yVyDGexQlK4WvRHVgXXARaVsv0PK7M0Bz2NWAV8IBtPLz2tarhJ66J6vD4xzZdAZjQ9KnaM02OckJ8QKtMCEeGvfwKU0vQ2b0vlvUPYhmurn7bvzEnmTI9t0138hlHTGDpprKDaUpsoebNMDgoGxueolm6fRa18miDv3",
+              "received": false
+            }
+          ],
+          "total_price": 31448,
+          "delivery": null,
+          "changedOn": "2025-12-23T11:53:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694a82d21c508c5d5ef4d2b4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 11:53:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1871",
+    "etag": "W/\"74f-6539Teif8IqJDVMpQrJj9mMhyrY\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694a82d01c508c5d5ef4d189",
+        "email": "Halie65@gmail.com",
+        "name": "Dagmar Schmitt",
+        "country": "Russia",
+        "city": "Kihnside",
+        "street": "Willow Close",
+        "house": 11,
+        "flat": 947,
+        "phone": "+13742349857",
+        "createdOn": "2025-12-23T11:53:52.000Z",
+        "notes": "HT8LKiM0Aw64Tr66AMsvgo0hGpXSgjx7k6ICW6jzCNGfC4Ud7rEPa8zHdNT6dsWdF5dWdpVg7eqEoxrwuuQTi5T0AFS5aCM7aHv6JfNe6u4uJfCXpfSiFKjzgr4UMUe81lR9tbVW5uOExWSTFIFYYx96hexDki6T9KEEHb1948buWuhJ7HsGOq9fplYo0Q5faC9xsiEeBnrhcJQLyqyiCKPIUkolQyrtvVSlC26j8GuOHWbEtH33OxyfEp"
+      },
+      "products": [
+        {
+          "_id": "694a82d01c508c5d5ef4d1b4",
+          "name": "Car72403",
+          "amount": 703,
+          "price": 97000,
+          "manufacturer": "Google",
+          "notes": "I2TjGwa2iiJ32XeydyS2lFTPtTOzD8AVJLjplr9jH9uFkH1qfE6IqM13VwBAUZc4obQaeZqbxzWv99JEaDvxinwQbasQwTAzZ6Tjww24OxipOeUolXHu5vMZ5vqeL0wBeq9Ze1Soej6yEr9x4vuKWsc1Ei57cU4WWczlC3pT8eCxPydaxxa28rRX1mbyaI63oeTSegg4pDGX54yv90VMXG0gDZ402dJeFiwYkfrqcGA3uQY0g6vn7Aumz0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 97000,
+      "createdOn": "2025-12-23T11:53:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694a82d01c508c5d5ef4d189",
+          "products": [
+            {
+              "_id": "694a82d01c508c5d5ef4d1b4",
+              "name": "Car72403",
+              "amount": 703,
+              "price": 97000,
+              "manufacturer": "Google",
+              "notes": "I2TjGwa2iiJ32XeydyS2lFTPtTOzD8AVJLjplr9jH9uFkH1qfE6IqM13VwBAUZc4obQaeZqbxzWv99JEaDvxinwQbasQwTAzZ6Tjww24OxipOeUolXHu5vMZ5vqeL0wBeq9Ze1Soej6yEr9x4vuKWsc1Ei57cU4WWczlC3pT8eCxPydaxxa28rRX1mbyaI63oeTSegg4pDGX54yv90VMXG0gDZ402dJeFiwYkfrqcGA3uQY0g6vn7Aumz0",
+              "received": false
+            }
+          ],
+          "total_price": 97000,
+          "delivery": null,
+          "changedOn": "2025-12-23T11:53:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694a82d01c508c5d5ef4d1d7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

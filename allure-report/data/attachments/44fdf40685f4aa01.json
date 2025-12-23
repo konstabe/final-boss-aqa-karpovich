@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 11:53:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1901",
+    "etag": "W/\"76d-2i/4ppMXckr7wtPb3Hua5VLJz0A\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694a82ce1c508c5d5ef4d09c",
+        "email": "Wilburn.Leannon58@yahoo.com",
+        "name": "Dillan Hickle",
+        "country": "Great Britain",
+        "city": "Gleasonchester",
+        "street": "Soledad Garden",
+        "house": 38,
+        "flat": 969,
+        "phone": "+12408367838",
+        "createdOn": "2025-12-23T11:53:50.000Z",
+        "notes": "5c07dMhL6sB4iPrMt0u2eZNZvTlcMRqEbAXS3WzTpgrW0vfPClVGMc6eUroFq1jw4IFhTqBxr8Ow4ostxdreAnIsNOEqZT5FaR7Rf9SefhHxHgqfgyvjflgwA0PbD0kP9UxUlhIPuo9NSIhHp5x7NRTqzCHXN6Xx6Wtkh2Rb0LTOLJ4d8FcSizRz5VCOx6JO8IO1YkNUtzdmD5j2GbaKHVk5IFtWkxtL9LQ0WUIN7e4qAB6SzSmN1FFKP9"
+      },
+      "products": [
+        {
+          "_id": "694a82ce1c508c5d5ef4d0b9",
+          "name": "Chicken7380",
+          "amount": 124,
+          "price": 63964,
+          "manufacturer": "Google",
+          "notes": "HGJIWGoIXdvnUKdvdR8AqZxEly8GWd19Li4u4TXDcbg2pJeoyqJmRmK5YAjN6QoEsYn6yIsqeRTsPr4BYahlAuebCI6kXjbiBTnqMO2f4LWktOHU9ZXnbcmjzNkSkXEJWALan5Hzmbn8eMlDYJwjtcQgHnmQu6bThGO56OOn5tuddD2GzKDpMqW544lWfg59OvCflNDL1jD0PmFrjqdCZtyMJoB17d8YohO92uWNrggwdxVdBrSVzshp72",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 63964,
+      "createdOn": "2025-12-23T11:53:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694a82ce1c508c5d5ef4d09c",
+          "products": [
+            {
+              "_id": "694a82ce1c508c5d5ef4d0b9",
+              "name": "Chicken7380",
+              "amount": 124,
+              "price": 63964,
+              "manufacturer": "Google",
+              "notes": "HGJIWGoIXdvnUKdvdR8AqZxEly8GWd19Li4u4TXDcbg2pJeoyqJmRmK5YAjN6QoEsYn6yIsqeRTsPr4BYahlAuebCI6kXjbiBTnqMO2f4LWktOHU9ZXnbcmjzNkSkXEJWALan5Hzmbn8eMlDYJwjtcQgHnmQu6bThGO56OOn5tuddD2GzKDpMqW544lWfg59OvCflNDL1jD0PmFrjqdCZtyMJoB17d8YohO92uWNrggwdxVdBrSVzshp72",
+              "received": false
+            }
+          ],
+          "total_price": 63964,
+          "delivery": null,
+          "changedOn": "2025-12-23T11:53:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694a82ce1c508c5d5ef4d0da"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
