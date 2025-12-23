@@ -9,7 +9,7 @@ test.describe("[UI] [Orders]", () => {
 	test.describe("[Navigation to Orders List Page]", () => {
 		test(
 			"Should open Orders List page via direct URL",
-			{ tag: [TAGS.UI, TAGS.REGRESSION] },
+			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersListPage }) => {
 				await ordersListPage.open("orders");
 				await ordersListPage.waitForOpened();
@@ -21,7 +21,7 @@ test.describe("[UI] [Orders]", () => {
 
 		test(
 			"Should open Orders List page from Home page via 'View Orders' button",
-			{ tag: [TAGS.UI, TAGS.REGRESSION] },
+			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ homePage, ordersListPage }) => {
 				await homePage.clickOnViewModule("Orders");
 				await ordersListPage.waitForOpened();
@@ -33,7 +33,7 @@ test.describe("[UI] [Orders]", () => {
 
 		test(
 			"Should open Orders List page via Navigation Menu",
-			{ tag: [TAGS.UI, TAGS.REGRESSION] },
+			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersListPage }) => {
 				await ordersListPage.navBarMenu.clickModule("Orders");
 				await ordersListPage.waitForOpened();
@@ -47,7 +47,7 @@ test.describe("[UI] [Orders]", () => {
 	test.describe("[Check UI components on Orders List Page]", () => {
 		test(
 			"Should display all main UI components on Orders List page",
-			{ tag: [TAGS.UI, TAGS.REGRESSION] },
+			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersListPage, ordersListUIService }) => {
 				await ordersListUIService.open();
 

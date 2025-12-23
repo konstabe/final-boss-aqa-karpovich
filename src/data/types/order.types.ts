@@ -3,6 +3,7 @@ import { ICustomer, ICustomerFromResponse } from "./customer.types";
 import { IProductForOrder, IProductFromResponse } from "./product.types";
 import { ORDER_HISTORY_ACTIONS } from "data/orderHistoryActions";
 import { ROLE } from "data/roles";
+import { ORDER_STATUS } from "data/orders/orderStatus";
 
 export interface IOrder {
 	customer: string;
@@ -106,4 +107,33 @@ export interface IOrderInTable extends ICreatedOn, ID {
 	delivery: string;
 	status: OrderStatus;
 	assignedManager: string;
+}
+
+export interface IOrderMock {
+	_id: string;
+	status: ORDER_STATUS;
+	customer: {
+		email: string;
+	};
+	delivery: {
+		finalDate: string;
+	} | null;
+	total_price: number;
+	createdOn: string;
+	assignedManager: {
+		firstName: string;
+		lastName: string;
+	} | null;
+}
+export interface IOrdersMock extends IResponseFields {
+	Orders: IOrderMock[];
+	total: number;
+	page: number;
+	limit: number;
+	search: string;
+	status: [];
+	sorting: {
+		sortField: OrderSortField;
+		sortOrder: SortOrder;
+	};
 }
