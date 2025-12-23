@@ -1,4 +1,5 @@
-import { CONFIRMATION_TEXT, CONFIRMATION_TITLE } from "data/orders/confirmationModalText";
+import { CONFIRMATION_MODAL_TEXT } from "data/orders/confirmationModalText";
+import { generateOrderMock, generateOrdersListUIMock } from "data/orders/generateOrdersListResponse";
 import { ORDER_STATUS } from "data/orders/orderStatus";
 import { TAGS } from "data/tags";
 import { expect, test } from "fixtures";
@@ -78,19 +79,24 @@ test.describe("[UI] [Orders]", () => {
 		test(
 			"Check UI components on Reopen Order Modal",
 			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
-			async ({ ordersListPage, ordersListUIService, ordersApiService }) => {
-				const canceledOrder = await ordersApiService.cancelOrderInProgress(token, 1);
+			async ({ ordersListPage, ordersListUIService, mock }) => {
+				const order = generateOrderMock({ status: ORDER_STATUS.CANCELED });
+				const mockData = generateOrdersListUIMock([order]);
+				await mock.ordersListPage(mockData);
+
 				await ordersListUIService.open();
-				await ordersListPage.clickReopenByOrderId(canceledOrder._id);
+				await ordersListPage.clickReopenByOrderId(order._id);
 				await ordersListPage.reopenModal.waitForOpened();
 
-				expect(ordersListPage.reopenModal.title).toHaveText(CONFIRMATION_TITLE.REOPEN_MODAL);
-				expect(ordersListPage.reopenModal.confirmationMessage).toHaveText(CONFIRMATION_TEXT.REOPEN_MODAL);
+				expect(ordersListPage.reopenModal.title).toHaveText(CONFIRMATION_MODAL_TEXT.reopen.title);
+				expect(ordersListPage.reopenModal.confirmationMessage).toHaveText(CONFIRMATION_MODAL_TEXT.reopen.body);
 				expect(ordersListPage.reopenModal.closeButton).toBeEnabled();
 				expect(ordersListPage.reopenModal.reopenButton).toBeEnabled();
-				expect(ordersListPage.reopenModal.reopenButton).toHaveText("Yes, Reopen");
+				expect(ordersListPage.reopenModal.reopenButton).toHaveText(
+					CONFIRMATION_MODAL_TEXT.reopen.confirmButton,
+				);
 				expect(ordersListPage.reopenModal.cancelButton).toBeEnabled();
-				expect(ordersListPage.reopenModal.cancelButton).toHaveText("Cancel");
+				expect(ordersListPage.reopenModal.cancelButton).toHaveText(CONFIRMATION_MODAL_TEXT.cancelButton);
 			},
 		);
 
@@ -103,8 +109,7 @@ test.describe("[UI] [Orders]", () => {
 				await ordersListPage.clickReopenByOrderId(canceledOrder._id);
 				await ordersListPage.reopenModal.waitForOpened();
 
-				await ordersListPage.reopenModal.clickClose();
-				await ordersListPage.reopenModal.waitForClosed();
+				await ordersListUIService.closeModal("reopenModal");
 
 				const orderInTable = await ordersListPage.getOrderData(canceledOrder._id);
 				expect(orderInTable.status).toBe(ORDER_STATUS.CANCELED);
@@ -121,8 +126,7 @@ test.describe("[UI] [Orders]", () => {
 				await ordersListPage.clickReopenByOrderId(canceledOrder._id);
 				await ordersListPage.reopenModal.waitForOpened();
 
-				await ordersListPage.reopenModal.clickCancel();
-				await ordersListPage.reopenModal.waitForClosed();
+				await ordersListUIService.cancelModal("reopenModal");
 
 				const orderInTable = await ordersListPage.getOrderData(canceledOrder._id);
 				expect(orderInTable.status).toBe(ORDER_STATUS.CANCELED);
