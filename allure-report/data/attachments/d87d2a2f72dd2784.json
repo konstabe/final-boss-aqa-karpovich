@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 17:59:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-v0oVpNWJBPnlIfzcQy8dy7INTCI\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694ad88e1c508c5d5ef5c851",
+        "email": "Sibyl9@gmail.com",
+        "name": "Bridgette Romaguera",
+        "country": "Great Britain",
+        "city": "Port Vergie",
+        "street": "Clarissa Avenue",
+        "house": 29,
+        "flat": 569,
+        "phone": "+18843777544",
+        "createdOn": "2025-12-23T17:59:42.000Z",
+        "notes": "pqzsyOCF9tjSNfYUs63uC08qobtp0EIyJv9d9GQllUBm1El8SPWG26ncQpZC6LQYeogxCJjEUTHqBtOFLSoC9RFLSK1PztrAmIbbEer9XRSfxzc8IORSzTL9D7KsRbat7f4Ms7acamM47eCVms6sPMFp1soZ6t85EWjXqzH5ScVXN0dpRFby5IRdCuBhyBI84eAM8gI7C0l00XIAdiqiwnF3eXoxfyxrgwF57ENGnpaG0nOS7zaTLkSY6M"
+      },
+      "products": [
+        {
+          "_id": "694ad88f1c508c5d5ef5c87c",
+          "name": "Soap86654",
+          "amount": 854,
+          "price": 67341,
+          "manufacturer": "Google",
+          "notes": "jDno30EJ3xhzvS6ahQVpXovZHk3jnK4rKZ2G9MfRJGCV9f3wMdFQVBoluEEvuFbKFOFS7TvHSPsxccaxRkpyoiW5SO11PoCiOO96xhOzaBRbzgzTyY71fPsm2Q5d0KApVsQjzmqfhS1IxIMvg075dR4ZGHTABSxnEdD2csThaEps2K7gqWw08O9fnPTSM30iiRZd4QO2f03kQlOTGUzR6XO2hF5W43iKYyP9KCccSP30tUn5Nj2gYG2hqO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 67341,
+      "createdOn": "2025-12-23T17:59:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ad88e1c508c5d5ef5c851",
+          "products": [
+            {
+              "_id": "694ad88f1c508c5d5ef5c87c",
+              "name": "Soap86654",
+              "amount": 854,
+              "price": 67341,
+              "manufacturer": "Google",
+              "notes": "jDno30EJ3xhzvS6ahQVpXovZHk3jnK4rKZ2G9MfRJGCV9f3wMdFQVBoluEEvuFbKFOFS7TvHSPsxccaxRkpyoiW5SO11PoCiOO96xhOzaBRbzgzTyY71fPsm2Q5d0KApVsQjzmqfhS1IxIMvg075dR4ZGHTABSxnEdD2csThaEps2K7gqWw08O9fnPTSM30iiRZd4QO2f03kQlOTGUzR6XO2hF5W43iKYyP9KCccSP30tUn5Nj2gYG2hqO",
+              "received": false
+            }
+          ],
+          "total_price": 67341,
+          "delivery": null,
+          "changedOn": "2025-12-23T17:59:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694ad88f1c508c5d5ef5c8a7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

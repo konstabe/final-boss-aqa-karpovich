@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 17:59:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2811",
+    "etag": "W/\"afb-e2dSJum8J3bPg0pZVG3P/NWenY4\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ad88c1c508c5d5ef5c770",
+      "status": "Draft",
+      "customer": {
+        "_id": "694ad88b1c508c5d5ef5c6da",
+        "email": "Adonis_Osinski@yahoo.com",
+        "name": "Marcellus Upton",
+        "country": "Belarus",
+        "city": "Kannapolis",
+        "street": "Lesch Viaduct",
+        "house": 11,
+        "flat": 567,
+        "phone": "+15694172948",
+        "createdOn": "2025-12-23T17:59:39.000Z",
+        "notes": "PxVQiopIcCGwIHucy5IOTCzr22id3lgvOzabyqdNoRi9jvVXPM50PDiOHtbd7ov12DDKHq2mcim4wain6pKMgp7mwr8Xqj4fZJXPr5JwkLpaakszcd7UQleeCsdx3bSPyDaYbug6sOjd8OxTtPnpqRsgr9bFqXb7tZmlo3fi0HGcgj9Rcncr0v2MWDNgEGovdCEoROPDXUujCcslvNU8KeywW2U2NqGsBqMHgGz14gPchuQ0P3lqT7tPeo"
+      },
+      "products": [
+        {
+          "_id": "694ad88b1c508c5d5ef5c707",
+          "name": "Car65004",
+          "amount": 620,
+          "price": 95661,
+          "manufacturer": "Microsoft",
+          "notes": "j5WwAXqylzycHx3wVHpAYnVFoMnk72Z818oo7XLDFjvFy5tOCAwcNMTGveN5nXX1fKWCezbJDsaoSBvb5ebKbKpehZ0QgbLdXQPQbylB9n3yeaw4atlybh52zTw0oiMlloNOmUb3cRZYRNOQXKLfvJO7Gvqo1tVGXLdsB3L4suO6EGVU0cYOcp8iQfHugcFRPAyYHv1PMV87IZx5TXQqpKfKIrTTunEdd9ZQ6XCOeKdoQNzVrmKwe3BTTm",
+          "received": false
+        },
+        {
+          "_id": "694ad88c1c508c5d5ef5c72b",
+          "name": "Ball94152",
+          "amount": 403,
+          "price": 31984,
+          "manufacturer": "Sony",
+          "notes": "GmcDt7KioARWlyQm1O4C7K8OHRco5Km27CZenURHH4rFeJalj0j6APFAIqB0ASpbj93tdqnL56XEtl5Dc1sDJkm2cNu28l3Hm706VEACevgRGswUCfvHUdrarc1OeQgB2sBcwYXz7h02KmsUa61CLHzI20GkFGYln2HnPYOp89ivjfL0c4WmhZX91xsTfRbBuy0kkaGJWhrxYhUHnGVPUXEROwcCgUHoMqNatGp008qy4xbSpwELV1Hheg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 127645,
+      "createdOn": "2025-12-23T17:59:40.000Z",
+      "comments": [
+        {
+          "text": "iNTlNDWF43xeNPZHXdWSuKbqoxDupXsYul8SXAXSpVtwVysN8vrQwWmT07xOK72dYMt30VuMD0o",
+          "createdOn": "2025-12-23T17:59:42.000Z",
+          "_id": "694ad88e1c508c5d5ef5c821"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ad88b1c508c5d5ef5c6da",
+          "products": [
+            {
+              "_id": "694ad88b1c508c5d5ef5c707",
+              "name": "Car65004",
+              "amount": 620,
+              "price": 95661,
+              "manufacturer": "Microsoft",
+              "notes": "j5WwAXqylzycHx3wVHpAYnVFoMnk72Z818oo7XLDFjvFy5tOCAwcNMTGveN5nXX1fKWCezbJDsaoSBvb5ebKbKpehZ0QgbLdXQPQbylB9n3yeaw4atlybh52zTw0oiMlloNOmUb3cRZYRNOQXKLfvJO7Gvqo1tVGXLdsB3L4suO6EGVU0cYOcp8iQfHugcFRPAyYHv1PMV87IZx5TXQqpKfKIrTTunEdd9ZQ6XCOeKdoQNzVrmKwe3BTTm",
+              "received": false
+            },
+            {
+              "_id": "694ad88c1c508c5d5ef5c72b",
+              "name": "Ball94152",
+              "amount": 403,
+              "price": 31984,
+              "manufacturer": "Sony",
+              "notes": "GmcDt7KioARWlyQm1O4C7K8OHRco5Km27CZenURHH4rFeJalj0j6APFAIqB0ASpbj93tdqnL56XEtl5Dc1sDJkm2cNu28l3Hm706VEACevgRGswUCfvHUdrarc1OeQgB2sBcwYXz7h02KmsUa61CLHzI20GkFGYln2HnPYOp89ivjfL0c4WmhZX91xsTfRbBuy0kkaGJWhrxYhUHnGVPUXEROwcCgUHoMqNatGp008qy4xbSpwELV1Hheg",
+              "received": false
+            }
+          ],
+          "total_price": 127645,
+          "delivery": null,
+          "changedOn": "2025-12-23T17:59:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

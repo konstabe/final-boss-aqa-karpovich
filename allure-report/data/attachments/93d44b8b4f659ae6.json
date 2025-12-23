@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 17:59:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2942",
+    "etag": "W/\"b7e-TWNHTX+wurGCRBaxfv076ROBGLo\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ad88c1c508c5d5ef5c71c",
+      "status": "Draft",
+      "customer": {
+        "_id": "694ad88b1c508c5d5ef5c6b4",
+        "email": "Chance24@yahoo.com",
+        "name": "Stevie Smith",
+        "country": "Russia",
+        "city": "Pfefferhaven",
+        "street": "Park Crescent",
+        "house": 29,
+        "flat": 133,
+        "phone": "+15735536186",
+        "createdOn": "2025-12-23T17:59:39.000Z",
+        "notes": "oUt3plOyftirFZDg6akKRmGIecaHc4fXRL8dhV8SdwRh1T2jZ5E7P90srq6FnLKWAZ6rfgefQIStwbGwiDNhuOCzg71Ulka4nS7LOAsEQBlRiHpe60Lg3AqFMH2pwn2Uj2pD5qKTFgM9o64KL9lih1BCTXzf4O449p0EDERbDBhO7VDRMoxdBmSYFIAX06W87nxoQjJkEv9vBqqPXZi9VEMfkUhoPDbF1V4nEeKNW8r3TzJLhwJu2LTRo9"
+      },
+      "products": [
+        {
+          "_id": "694ad88b1c508c5d5ef5c6d8",
+          "name": "Gloves47784",
+          "amount": 69,
+          "price": 7038,
+          "manufacturer": "Amazon",
+          "notes": "DcrJuEqumFT4EDN5x0ku8PWbKRkDYmtVKgcNMqIJlu7JdY5RH9zPTDagWweKcnHp3vT5jCQWnsbZviCVryXCo8FgAzF1tbWzIjhWk8VFakXu5drwV3IhwNiZcnI006wQzLraEtfDnS0Z6zqjfqQvJ3soZhAyXydzKM0deyLmy916UGcjzj4Bg602DUd3SW42JPK6EOITLmvCGkOrYbGaOORRgs2vmhzxkNRdshWQJdZK47KgR4XtxwV6zr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7038,
+      "createdOn": "2025-12-23T17:59:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ad88b1c508c5d5ef5c6b4",
+          "products": [
+            {
+              "_id": "694ad88b1c508c5d5ef5c6d8",
+              "name": "Gloves47784",
+              "amount": 69,
+              "price": 7038,
+              "manufacturer": "Amazon",
+              "notes": "DcrJuEqumFT4EDN5x0ku8PWbKRkDYmtVKgcNMqIJlu7JdY5RH9zPTDagWweKcnHp3vT5jCQWnsbZviCVryXCo8FgAzF1tbWzIjhWk8VFakXu5drwV3IhwNiZcnI006wQzLraEtfDnS0Z6zqjfqQvJ3soZhAyXydzKM0deyLmy916UGcjzj4Bg602DUd3SW42JPK6EOITLmvCGkOrYbGaOORRgs2vmhzxkNRdshWQJdZK47KgR4XtxwV6zr",
+              "received": false
+            }
+          ],
+          "total_price": 7038,
+          "delivery": null,
+          "changedOn": "2025-12-23T17:59:40.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "694ad88b1c508c5d5ef5c6b4",
+          "products": [
+            {
+              "_id": "694ad88b1c508c5d5ef5c6d8",
+              "name": "Gloves47784",
+              "amount": 69,
+              "price": 7038,
+              "manufacturer": "Amazon",
+              "notes": "DcrJuEqumFT4EDN5x0ku8PWbKRkDYmtVKgcNMqIJlu7JdY5RH9zPTDagWweKcnHp3vT5jCQWnsbZviCVryXCo8FgAzF1tbWzIjhWk8VFakXu5drwV3IhwNiZcnI006wQzLraEtfDnS0Z6zqjfqQvJ3soZhAyXydzKM0deyLmy916UGcjzj4Bg602DUd3SW42JPK6EOITLmvCGkOrYbGaOORRgs2vmhzxkNRdshWQJdZK47KgR4XtxwV6zr",
+              "received": false
+            }
+          ],
+          "total_price": 7038,
+          "delivery": null,
+          "changedOn": "2025-12-23T17:59:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
