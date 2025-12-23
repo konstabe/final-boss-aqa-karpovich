@@ -21,7 +21,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 	test.describe("[Update Order Status Positive]", () => {
 		test(
 			"Update status: Draft to In Process with scheduled delivery",
-			{ tag: [TAGS.API, TAGS.REGRESSION] },
+			{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersApiService, ordersApi }) => {
 				const draftWithDelivery = await ordersApiService.createDraftWithDelivery(token, 3);
 
@@ -44,7 +44,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 
 		test(
 			"Update status: Draft to Canceled",
-			{ tag: [TAGS.API, TAGS.REGRESSION] },
+			{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersApiService, ordersApi }) => {
 				const draft = await ordersApiService.createDraft(token, 4);
 
@@ -62,7 +62,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 
 		test(
 			"Update status: In Process to Canceled",
-			{ tag: [TAGS.API, TAGS.REGRESSION] },
+			{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersApiService, ordersApi }) => {
 				const orderInProcess = await ordersApiService.processOrder(token, 2);
 
@@ -85,7 +85,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 
 		test(
 			"Update status: Canceled to Draft (reopen)",
-			{ tag: [TAGS.API, TAGS.REGRESSION] },
+			{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersApiService, ordersApi }) => {
 				const canceledOrderInProcess = await ordersApiService.cancelOrderInProgress(token, 1);
 
@@ -111,7 +111,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 	test.describe("[Update Order Status Negative]", () => {
 		test(
 			"Update status: Draft to In Process without scheduled delivery",
-			{ tag: [TAGS.API, TAGS.REGRESSION] },
+			{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersApiService, ordersApi }) => {
 				const draft = await ordersApiService.createDraft(token, 3);
 
@@ -126,7 +126,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 
 		test(
 			"Update status: In Process to Partially Received",
-			{ tag: [TAGS.API, TAGS.REGRESSION] },
+			{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersApiService, ordersApi }) => {
 				const orderInProcess = await ordersApiService.processOrder(token, 2);
 
@@ -145,7 +145,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 
 		test(
 			"Update status: In Process to Received",
-			{ tag: [TAGS.API, TAGS.REGRESSION] },
+			{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersApiService, ordersApi }) => {
 				const orderInProcess = await ordersApiService.processOrder(token, 2);
 
@@ -164,7 +164,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 
 		test(
 			"Update status: Partially Received to Received",
-			{ tag: [TAGS.API, TAGS.REGRESSION] },
+			{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersApiService, ordersApi }) => {
 				const orderInProcess = await ordersApiService.processOrder(token, 5);
 				const partiallyReceivedOrder = await ordersApiService.partiallyReceived(token, orderInProcess, 4);
@@ -184,7 +184,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 
 		test(
 			"Update status: Draft to In Process with scheduled delivery without authorization token",
-			{ tag: [TAGS.API, TAGS.REGRESSION] },
+			{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersApiService, ordersApi }) => {
 				const draft = await ordersApiService.createDraft(token, 3);
 
@@ -199,7 +199,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 
 		test(
 			"Update status: Draft to In Process with scheduled delivery with invalid token",
-			{ tag: [TAGS.API, TAGS.REGRESSION] },
+			{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersApiService, ordersApi }) => {
 				const draft = await ordersApiService.createDraft(token, 3);
 
@@ -218,7 +218,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 
 		test(
 			"Update status: Draft to In Process with scheduled delivery with empty request body",
-			{ tag: [TAGS.API, TAGS.REGRESSION] },
+			{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersApiService, ordersApi }) => {
 				const draft = await ordersApiService.createDraft(token, 3);
 
@@ -233,7 +233,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 
 		test(
 			"Update status with same current status (Draft to Draft is not allowed)",
-			{ tag: [TAGS.API, TAGS.REGRESSION] },
+			{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersApiService, ordersApi }) => {
 				const draft = await ordersApiService.createDraft(token, 3);
 
