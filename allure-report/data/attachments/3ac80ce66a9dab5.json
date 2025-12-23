@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 12:02:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3418",
+    "etag": "W/\"d5a-pY+zrY4f/PZ23ThsydDETmlSwr4\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694a84b21c508c5d5ef4e81d",
+        "email": "Arvid_Hermiston@gmail.com",
+        "name": "Ali Hackett",
+        "country": "Canada",
+        "city": "New Cheyanne",
+        "street": "Laura Radial",
+        "house": 5,
+        "flat": 66,
+        "phone": "+15042454244",
+        "createdOn": "2025-12-23T12:01:54.000Z",
+        "notes": "gkMQVDe3mRneYmJ8Y6C2q9QYVQMpwyURV8jXshnu4ucHlzHZtDhq7yoAoNEwnbWOcHfsHwEoKEnLoVpfKuGkksDOq7MouasFNthoOXYPv57QUpyTgbYSHvuJwhByfRPYuLFYKMkSq6VLj6e8HaLW8pCMzNpkFQPtlP73MgBRulrLjMWquOJLbDoejQRIz1eAbQy2SeESVLLHCpkoEHP1Z7VbtNJD8cDCDwtqGn65kxDtIF3fSttgxj4dCv"
+      },
+      "products": [
+        {
+          "_id": "694a84b31c508c5d5ef4e8c4",
+          "name": "Cheese65603",
+          "amount": 262,
+          "price": 84354,
+          "manufacturer": "Tesla",
+          "notes": "s5bKAgxqqxyXrgDzOlyYpJQTy3FOT1e6Vi7E7JnUvnuuvf0pyeduTCz5TdFkZmhkBgL39nOGGBNLHR6dYhOOFIYAEXrpb8omFgBBYUoY8uGEsEDm6ab4dXUe3nkiJkxWos5n3QldPuw7oKAHLX06KfLP0Fxfbe1ELNCItm5Vo3QSWqsJteTgVUtmQL8eaOMyUyvZUqFoNYkqWcBn4L5ZLGtBSAoodEbPyA8po5bz7BU4pvwGk6MoYJCVNe",
+          "received": false
+        },
+        {
+          "_id": "694a84b41c508c5d5ef4e965",
+          "name": "Table74665",
+          "amount": 809,
+          "price": 1566,
+          "manufacturer": "Tesla",
+          "notes": "TbZX4Aejzk2LzicyOMSaKJoSGeCEcmDPeBWujibwgx6ffe8SSxamTAgTI0jWgzlLJ18jbWMD10hcyZivHvzwWgoiyDoECSqvNNYSJJo14EjPTbRtlyjwHStn1eRZYfNHFUUPhMtM0cAsPeJZeWwcS9NY2A01mpte5I5dGCZU6fbWk1noHOCbWsNNeuUKsUuTNXDzwwXnJlRanMPjM3nyF4kOYbU7B5G2d6A2JGgyHRfKrTf9dMXyh9n3so",
+          "received": false
+        },
+        {
+          "_id": "694a84b51c508c5d5ef4ea34",
+          "name": "Keyboard27368",
+          "amount": 705,
+          "price": 6972,
+          "manufacturer": "Amazon",
+          "notes": "RofVu6l5Rxxmsa9kyDEY81rgk0GRz6GRMm9favlm9hoU4oI2NcfdGi4VbZN2L2nnpjPQZs1WNThdFpucb2waBvTrMk997qk71W6EtHupGaxxhKjGOWhpBR8Z1WW3obWxljyMSQJCAzMDomDxUelxAyBiyHS7mhGu9GL4XHEiZqJQqUAgf6umz8EEGH8GjrbYb1PEzlPbPrsN9XmV8idEI8k21WUehESijFW1xluCl33Ud8Zqn7sEdYFrp9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 92892,
+      "createdOn": "2025-12-23T12:02:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694a84b21c508c5d5ef4e81d",
+          "products": [
+            {
+              "_id": "694a84b31c508c5d5ef4e8c4",
+              "name": "Cheese65603",
+              "amount": 262,
+              "price": 84354,
+              "manufacturer": "Tesla",
+              "notes": "s5bKAgxqqxyXrgDzOlyYpJQTy3FOT1e6Vi7E7JnUvnuuvf0pyeduTCz5TdFkZmhkBgL39nOGGBNLHR6dYhOOFIYAEXrpb8omFgBBYUoY8uGEsEDm6ab4dXUe3nkiJkxWos5n3QldPuw7oKAHLX06KfLP0Fxfbe1ELNCItm5Vo3QSWqsJteTgVUtmQL8eaOMyUyvZUqFoNYkqWcBn4L5ZLGtBSAoodEbPyA8po5bz7BU4pvwGk6MoYJCVNe",
+              "received": false
+            },
+            {
+              "_id": "694a84b41c508c5d5ef4e965",
+              "name": "Table74665",
+              "amount": 809,
+              "price": 1566,
+              "manufacturer": "Tesla",
+              "notes": "TbZX4Aejzk2LzicyOMSaKJoSGeCEcmDPeBWujibwgx6ffe8SSxamTAgTI0jWgzlLJ18jbWMD10hcyZivHvzwWgoiyDoECSqvNNYSJJo14EjPTbRtlyjwHStn1eRZYfNHFUUPhMtM0cAsPeJZeWwcS9NY2A01mpte5I5dGCZU6fbWk1noHOCbWsNNeuUKsUuTNXDzwwXnJlRanMPjM3nyF4kOYbU7B5G2d6A2JGgyHRfKrTf9dMXyh9n3so",
+              "received": false
+            },
+            {
+              "_id": "694a84b51c508c5d5ef4ea34",
+              "name": "Keyboard27368",
+              "amount": 705,
+              "price": 6972,
+              "manufacturer": "Amazon",
+              "notes": "RofVu6l5Rxxmsa9kyDEY81rgk0GRz6GRMm9favlm9hoU4oI2NcfdGi4VbZN2L2nnpjPQZs1WNThdFpucb2waBvTrMk997qk71W6EtHupGaxxhKjGOWhpBR8Z1WW3obWxljyMSQJCAzMDomDxUelxAyBiyHS7mhGu9GL4XHEiZqJQqUAgf6umz8EEGH8GjrbYb1PEzlPbPrsN9XmV8idEI8k21WUehESijFW1xluCl33Ud8Zqn7sEdYFrp9",
+              "received": false
+            }
+          ],
+          "total_price": 92892,
+          "delivery": null,
+          "changedOn": "2025-12-23T12:02:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694a84b91c508c5d5ef4ec7d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

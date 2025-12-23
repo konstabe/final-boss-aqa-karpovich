@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 12:02:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4772",
+    "etag": "W/\"12a4-jho+8Zp+iKLKlvPnn+oFSTh+f4Q\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694a84ba1c508c5d5ef4ed42",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694a84b91c508c5d5ef4ec73",
+        "email": "Brock53@gmail.com",
+        "name": "Santos Bradtke",
+        "country": "Germany",
+        "city": "New Halie",
+        "street": "W 10th Street",
+        "house": 16,
+        "flat": 635,
+        "phone": "+17377034127",
+        "createdOn": "2025-12-23T12:02:01.000Z",
+        "notes": "GrDRDEWR28471jfs1KyXqFIM9FwGFqASFnc2FSrZfq4hAn6LjPUCCDNVHeSpyWqfIKpcGW9Qm8mnlqjeKwKHIyJVO8hxWXvq0bpjfGNXVBJ2avborG4MFIq5OizCCKp1CGsaYcsU9libyhSEzQAM7cnDNWMbbZWnylxrBpM9ffso4Q68fotfDJEKAziIhiYNo3kwxqaw02u3d7QnGww20H5EA7ckWQMsSUm95Uw6WmHvL235VVe0jt9RW1"
+      },
+      "products": [
+        {
+          "_id": "694a84b91c508c5d5ef4ec92",
+          "name": "Hat54938",
+          "amount": 173,
+          "price": 77949,
+          "manufacturer": "Xiaomi",
+          "notes": "bprP5Fbg6okm3rFCgwHsFgwytUb6j3QBD06x7vXgJMj6o69l9vc0xfr9mNE03UVpywpV3b1l3Zboug2LR5Ss66YF0uEEdplOFjFUmWj02nZU08rjXfDOJWoRlXhq5xrzHElpt1QSC3n72Bez2g1J8yWQXbLtA2KQGKosHKGdltOsntBIHzna3bnLwu6izeayxtxKi5QxGZj8VpG2bG5x5ar6vozLwDOXGfjJF5hB4ClAYti8Ep5yq2DYDE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "New Halie",
+          "street": "W 10th Street",
+          "house": 16,
+          "flat": 635
+        },
+        "finalDate": "2025-12-27T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 77949,
+      "createdOn": "2025-12-23T12:02:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694a84b91c508c5d5ef4ec73",
+          "products": [
+            {
+              "_id": "694a84b91c508c5d5ef4ec92",
+              "name": "Hat54938",
+              "amount": 173,
+              "price": 77949,
+              "manufacturer": "Xiaomi",
+              "notes": "bprP5Fbg6okm3rFCgwHsFgwytUb6j3QBD06x7vXgJMj6o69l9vc0xfr9mNE03UVpywpV3b1l3Zboug2LR5Ss66YF0uEEdplOFjFUmWj02nZU08rjXfDOJWoRlXhq5xrzHElpt1QSC3n72Bez2g1J8yWQXbLtA2KQGKosHKGdltOsntBIHzna3bnLwu6izeayxtxKi5QxGZj8VpG2bG5x5ar6vozLwDOXGfjJF5hB4ClAYti8Ep5yq2DYDE",
+              "received": false
+            }
+          ],
+          "total_price": 77949,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "New Halie",
+              "street": "W 10th Street",
+              "house": 16,
+              "flat": 635
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-23T12:02:07.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694a84b91c508c5d5ef4ec73",
+          "products": [
+            {
+              "_id": "694a84b91c508c5d5ef4ec92",
+              "name": "Hat54938",
+              "amount": 173,
+              "price": 77949,
+              "manufacturer": "Xiaomi",
+              "notes": "bprP5Fbg6okm3rFCgwHsFgwytUb6j3QBD06x7vXgJMj6o69l9vc0xfr9mNE03UVpywpV3b1l3Zboug2LR5Ss66YF0uEEdplOFjFUmWj02nZU08rjXfDOJWoRlXhq5xrzHElpt1QSC3n72Bez2g1J8yWQXbLtA2KQGKosHKGdltOsntBIHzna3bnLwu6izeayxtxKi5QxGZj8VpG2bG5x5ar6vozLwDOXGfjJF5hB4ClAYti8Ep5yq2DYDE",
+              "received": false
+            }
+          ],
+          "total_price": 77949,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "New Halie",
+              "street": "W 10th Street",
+              "house": 16,
+              "flat": 635
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-23T12:02:06.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694a84b91c508c5d5ef4ec73",
+          "products": [
+            {
+              "_id": "694a84b91c508c5d5ef4ec92",
+              "name": "Hat54938",
+              "amount": 173,
+              "price": 77949,
+              "manufacturer": "Xiaomi",
+              "notes": "bprP5Fbg6okm3rFCgwHsFgwytUb6j3QBD06x7vXgJMj6o69l9vc0xfr9mNE03UVpywpV3b1l3Zboug2LR5Ss66YF0uEEdplOFjFUmWj02nZU08rjXfDOJWoRlXhq5xrzHElpt1QSC3n72Bez2g1J8yWQXbLtA2KQGKosHKGdltOsntBIHzna3bnLwu6izeayxtxKi5QxGZj8VpG2bG5x5ar6vozLwDOXGfjJF5hB4ClAYti8Ep5yq2DYDE",
+              "received": false
+            }
+          ],
+          "total_price": 77949,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "New Halie",
+              "street": "W 10th Street",
+              "house": 16,
+              "flat": 635
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-23T12:02:04.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694a84b91c508c5d5ef4ec73",
+          "products": [
+            {
+              "_id": "694a84b91c508c5d5ef4ec92",
+              "name": "Hat54938",
+              "amount": 173,
+              "price": 77949,
+              "manufacturer": "Xiaomi",
+              "notes": "bprP5Fbg6okm3rFCgwHsFgwytUb6j3QBD06x7vXgJMj6o69l9vc0xfr9mNE03UVpywpV3b1l3Zboug2LR5Ss66YF0uEEdplOFjFUmWj02nZU08rjXfDOJWoRlXhq5xrzHElpt1QSC3n72Bez2g1J8yWQXbLtA2KQGKosHKGdltOsntBIHzna3bnLwu6izeayxtxKi5QxGZj8VpG2bG5x5ar6vozLwDOXGfjJF5hB4ClAYti8Ep5yq2DYDE",
+              "received": false
+            }
+          ],
+          "total_price": 77949,
+          "delivery": null,
+          "changedOn": "2025-12-23T12:02:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

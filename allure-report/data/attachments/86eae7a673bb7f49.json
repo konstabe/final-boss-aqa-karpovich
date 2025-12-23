@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 12:01:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2950",
+    "etag": "W/\"b86-jRpadRPoZoIXWWQhVpXVJaPjmcU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694a849d1c508c5d5ef4dca3",
+      "status": "Draft",
+      "customer": {
+        "_id": "694a849b1c508c5d5ef4dba0",
+        "email": "Desmond_Marks@yahoo.com",
+        "name": "Richard Stokes",
+        "country": "Great Britain",
+        "city": "Stephaniafort",
+        "street": "Alaina Mills",
+        "house": 17,
+        "flat": 287,
+        "phone": "+12463771492",
+        "createdOn": "2025-12-23T12:01:31.000Z",
+        "notes": "Mmyxgai2qX1aGtgmfREkLGOZEqDW3sZNtmVcBojefSUHVnl6zbeDAngkspd07WjZsGFLNJJTjE73jxqnu01S0I3GLfQDdeJFyslG5PqMbgIbwCyBOT0Omp5A67jC29aQmZVAhJ9KUOVY0aRDa4LKzXalZDg0kjTmIiKF8GxZaciwYOD0LKnmQJ6tvGJiNNmylnltQ3MYKmVlzmJ9LHDyuxRycONxJEnHZNun6R85JCSUPLv2EybPfdxurA"
+      },
+      "products": [
+        {
+          "_id": "694a849c1c508c5d5ef4dc1c",
+          "name": "Chair80547",
+          "amount": 347,
+          "price": 68354,
+          "manufacturer": "Tesla",
+          "notes": "fAnW6Qq60JVEbhl24V8K8vqwqgLZT3ALrCCOc1oi9BnQQjspsiFafIO56civGPpdSBxCPukja8vuWDyXJm8Mbtg3RxJd4QJKJnQdvXUFku0IhRE8gE80pvVH47gWozOOOiAD76PptSdVouH8e3eXWfBuk1qtx9uC6bDgDKNzA4AUX5fWk57ecIZLiFAs5hC1HUFX1eHgcU5hfO7R3H6ordhEglVI6fa4kNIzg7BcUwjVIp32fRd9jW5rcx",
+          "received": false
+        },
+        {
+          "_id": "694a849d1c508c5d5ef4dc78",
+          "name": "Chair78315",
+          "amount": 99,
+          "price": 39735,
+          "manufacturer": "Microsoft",
+          "notes": "kIhV9mDVQjjb7jxVwMJeGn96FLTf4KkGzxOwikqoW8sxDFQx3xBrw78uxy7sf9jsnieFKW7bLozva0u3e0IzQH0gkLkgRuiSfS3txhTcAr3YnwppCS2j1XjQiLH7tM7hG3BbSLwyiPPv0rqOIFGBtnEwkib7oZSGIPFo1jzuBSELpOFRRsXXsUczKg7Y80A5kTN0TofrqBhQ7eUDeQlrzUOFV1YgpqYhMPwpYJ8iv40XS5AK9CxrGmCEpl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 108089,
+      "createdOn": "2025-12-23T12:01:33.000Z",
+      "comments": [
+        {
+          "text": "7z9JxgCiiSyzKZ0qgwFouERacwU14kn3vm1dWwflh0PQl2P3FAyb4JWnE21xJxtYvuwp8ecDspgZgW62MYtAsayAIOcpRZESJPoSZjYGcABF3RxOb5mobHNmR8jvL1Ih4unY8T3774eTNyxsMcapIRo3tUroj48pD5Gb63Y4g8eYLn4tVIpZ5IZx200cMB50yf6Qz0Vg <",
+          "createdOn": "2025-12-23T12:01:34.000Z",
+          "_id": "694a849e1c508c5d5ef4dced"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694a849b1c508c5d5ef4dba0",
+          "products": [
+            {
+              "_id": "694a849c1c508c5d5ef4dc1c",
+              "name": "Chair80547",
+              "amount": 347,
+              "price": 68354,
+              "manufacturer": "Tesla",
+              "notes": "fAnW6Qq60JVEbhl24V8K8vqwqgLZT3ALrCCOc1oi9BnQQjspsiFafIO56civGPpdSBxCPukja8vuWDyXJm8Mbtg3RxJd4QJKJnQdvXUFku0IhRE8gE80pvVH47gWozOOOiAD76PptSdVouH8e3eXWfBuk1qtx9uC6bDgDKNzA4AUX5fWk57ecIZLiFAs5hC1HUFX1eHgcU5hfO7R3H6ordhEglVI6fa4kNIzg7BcUwjVIp32fRd9jW5rcx",
+              "received": false
+            },
+            {
+              "_id": "694a849d1c508c5d5ef4dc78",
+              "name": "Chair78315",
+              "amount": 99,
+              "price": 39735,
+              "manufacturer": "Microsoft",
+              "notes": "kIhV9mDVQjjb7jxVwMJeGn96FLTf4KkGzxOwikqoW8sxDFQx3xBrw78uxy7sf9jsnieFKW7bLozva0u3e0IzQH0gkLkgRuiSfS3txhTcAr3YnwppCS2j1XjQiLH7tM7hG3BbSLwyiPPv0rqOIFGBtnEwkib7oZSGIPFo1jzuBSELpOFRRsXXsUczKg7Y80A5kTN0TofrqBhQ7eUDeQlrzUOFV1YgpqYhMPwpYJ8iv40XS5AK9CxrGmCEpl",
+              "received": false
+            }
+          ],
+          "total_price": 108089,
+          "delivery": null,
+          "changedOn": "2025-12-23T12:01:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

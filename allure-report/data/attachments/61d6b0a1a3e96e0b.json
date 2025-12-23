@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 12:01:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1898",
+    "etag": "W/\"76a-Z/XVtI7cba1M6mxt6kfkWYHn9J0\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694a849a1c508c5d5ef4db20",
+        "email": "Raven.Konopelski94@yahoo.com",
+        "name": "Ignacio Maggio",
+        "country": "Germany",
+        "city": "Monterey Park",
+        "street": "Emmerich Fords",
+        "house": 28,
+        "flat": 617,
+        "phone": "+15113506171",
+        "createdOn": "2025-12-23T12:01:30.000Z",
+        "notes": "ziLKT0vSUTMAAZQW7Ib2B4HyZDtgHsV0hsTKrqYiOA57c2i0JHDwW1d0l6hSN9NAYg2zVJ0hyBSLO99Blz2B4CRtjCBIWTL8MtR2itNkkPKvu5jPmPdPCOZYcsP6M6cPbktAT3VawuF08v0AuR4uSxdFzvHZmqFc38wlNzuOWWMByUFZYJMcrDy2WYLBM6aWLalm1EuZzooV8i3Yia7TIBVzVEoRhICoZRGRzhp3kqQrU4osXgUb7JvqRc"
+      },
+      "products": [
+        {
+          "_id": "694a849a1c508c5d5ef4db4a",
+          "name": "Fish80976",
+          "amount": 713,
+          "price": 68194,
+          "manufacturer": "Microsoft",
+          "notes": "pnR0s1h92AvajvMAUrsEExzzDhmXtipsfIWwVn38p4Nw7wr3pFwhmOItAxD7SIHNBMV6GdPwV2yYA58KhjXgHoP9XKxFTu3QbxIWDlQHOfvlEJmd7e7jCyCgy81LmZfE1AmZNHFRbsm8sgU40eGPrrJ2Eso6d6tVqDsc3nT32JF0AN3VtWzUPyZ78Vlb3SdAnobCT7XKw7dv1bMNc6fMraTOar5KpBpkDKbJVbkZjF2nnveBInu6VoiWbt",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68194,
+      "createdOn": "2025-12-23T12:01:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694a849a1c508c5d5ef4db20",
+          "products": [
+            {
+              "_id": "694a849a1c508c5d5ef4db4a",
+              "name": "Fish80976",
+              "amount": 713,
+              "price": 68194,
+              "manufacturer": "Microsoft",
+              "notes": "pnR0s1h92AvajvMAUrsEExzzDhmXtipsfIWwVn38p4Nw7wr3pFwhmOItAxD7SIHNBMV6GdPwV2yYA58KhjXgHoP9XKxFTu3QbxIWDlQHOfvlEJmd7e7jCyCgy81LmZfE1AmZNHFRbsm8sgU40eGPrrJ2Eso6d6tVqDsc3nT32JF0AN3VtWzUPyZ78Vlb3SdAnobCT7XKw7dv1bMNc6fMraTOar5KpBpkDKbJVbkZjF2nnveBInu6VoiWbt",
+              "received": false
+            }
+          ],
+          "total_price": 68194,
+          "delivery": null,
+          "changedOn": "2025-12-23T12:01:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694a849b1c508c5d5ef4db82"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

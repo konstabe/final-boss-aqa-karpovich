@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 12:01:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2673",
+    "etag": "W/\"a71-q4wAOAORZF3JJVaMxSN579+pUTo\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694a849a1c508c5d5ef4db07",
+        "email": "Lavada.Kovacek@yahoo.com",
+        "name": "Tobin Romaguera",
+        "country": "Russia",
+        "city": "South Kaydenville",
+        "street": "Washington Road",
+        "house": 33,
+        "flat": 700,
+        "phone": "+12365211576",
+        "createdOn": "2025-12-23T12:01:30.000Z",
+        "notes": "NfCpnMSZy7OOtQ8zbHXmDXOx2qyOq8TDGugmxtht6TOczv3dZWrbGPmeAGdGoxNJdPwSX7pagpUwTahkZLAlsnWqt95WIuCe1sLgixYyYFCKazU71OVoTFjXS9zaTaNZeZztBWQsb3jXXCAjUrEBu14Io0MklgoMyLRh9BSxmre3osOeNvndaEaJlFYjJOwbz5EAfq7aA7IjmZTUB4BMJawjQq32kMrPbaKxcHY4rabqsb3B55iDnK7WsS"
+      },
+      "products": [
+        {
+          "_id": "694a849a1c508c5d5ef4db33",
+          "name": "Computer70639",
+          "amount": 147,
+          "price": 3319,
+          "manufacturer": "Xiaomi",
+          "notes": "MZ4Zf023oBCwaEZfGf1OPP1UFo6htrrTBTDQTwsJcCWJ0E8lUDPOG3d6S974bApgwxw8B3XwSNquRQCFB7TT6vRGg7NquWX3rKEyFa5nk5J0qi8IPAc7VJHHmiKoScolgqoXcS9uwS6nAaKEycb9N5V9O6ZjASvJLiZF039fCrowHaYnHcE4u6nXcmmIC2aWUy2d4D1lBuchX7KGE2SbS45RnILvMGXYzMXkR9o5SoTnCeZ2ZgcYZDaygj",
+          "received": false
+        },
+        {
+          "_id": "694a849b1c508c5d5ef4db6e",
+          "name": "Keyboard38124",
+          "amount": 546,
+          "price": 40719,
+          "manufacturer": "Xiaomi",
+          "notes": "UjYXCgVIj7N4L8NmicPC5ZGkK11djtzoHn2tT8Eq3BtyzVJUDSyzcjO1QIwJWwzlYQDzO6hBBM2suQ8bMjBtFDS1umPgwm3pvhG9Z9WOsWC5GKCpACp8wkvJ475qb7si6aALXZRA6hM46JIjYRe8L6d8PxFak6ototZgrJQu9lQeSwQirdkKGdnl4wwm3ipCSLNH7F6MluLjppMADJuIe3cpLqj3KUXkOPaRT8mq9qhmQZ1d6BNJbTNKUH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 44038,
+      "createdOn": "2025-12-23T12:01:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694a849a1c508c5d5ef4db07",
+          "products": [
+            {
+              "_id": "694a849a1c508c5d5ef4db33",
+              "name": "Computer70639",
+              "amount": 147,
+              "price": 3319,
+              "manufacturer": "Xiaomi",
+              "notes": "MZ4Zf023oBCwaEZfGf1OPP1UFo6htrrTBTDQTwsJcCWJ0E8lUDPOG3d6S974bApgwxw8B3XwSNquRQCFB7TT6vRGg7NquWX3rKEyFa5nk5J0qi8IPAc7VJHHmiKoScolgqoXcS9uwS6nAaKEycb9N5V9O6ZjASvJLiZF039fCrowHaYnHcE4u6nXcmmIC2aWUy2d4D1lBuchX7KGE2SbS45RnILvMGXYzMXkR9o5SoTnCeZ2ZgcYZDaygj",
+              "received": false
+            },
+            {
+              "_id": "694a849b1c508c5d5ef4db6e",
+              "name": "Keyboard38124",
+              "amount": 546,
+              "price": 40719,
+              "manufacturer": "Xiaomi",
+              "notes": "UjYXCgVIj7N4L8NmicPC5ZGkK11djtzoHn2tT8Eq3BtyzVJUDSyzcjO1QIwJWwzlYQDzO6hBBM2suQ8bMjBtFDS1umPgwm3pvhG9Z9WOsWC5GKCpACp8wkvJ475qb7si6aALXZRA6hM46JIjYRe8L6d8PxFak6ototZgrJQu9lQeSwQirdkKGdnl4wwm3ipCSLNH7F6MluLjppMADJuIe3cpLqj3KUXkOPaRT8mq9qhmQZ1d6BNJbTNKUH",
+              "received": false
+            }
+          ],
+          "total_price": 44038,
+          "delivery": null,
+          "changedOn": "2025-12-23T12:01:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694a849b1c508c5d5ef4db9d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

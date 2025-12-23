@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 12:01:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3435",
+    "etag": "W/\"d6b-a+dEGLnbu4Hsr1Dnn2pV1WpRtJQ\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694a84a51c508c5d5ef4e077",
+        "email": "Ashleigh_Jacobson0@hotmail.com",
+        "name": "Willie Schmitt",
+        "country": "Ukraine",
+        "city": "Nikofort",
+        "street": "The Crescent",
+        "house": 43,
+        "flat": 355,
+        "phone": "+17324637429",
+        "createdOn": "2025-12-23T12:01:41.000Z",
+        "notes": "kgtOUnO2EHvqBeYniUwR27W8mFx3H2XlveHpMeocsAzKclvz4DYq8bqKJhYHVvFlnO9B1h9Blk2th8r5aU8H5qfUdpQeFeJD5LjmQZ3ApqBuMJM7xfjdGHJXMyOX9fDS3wTHr7QDAa6IlvtIndHAPaKzeC8BxFpKTyX5XEFo1gvbh1ZDg7qstZwDpC5JteRmnJ8QRKUdrumrDvtfll7gKXM0mRG87mcC3Ovm2gGfMPqqI4qrApaRSM6j3H"
+      },
+      "products": [
+        {
+          "_id": "694a84a51c508c5d5ef4e0ad",
+          "name": "Chicken63322",
+          "amount": 215,
+          "price": 43954,
+          "manufacturer": "Microsoft",
+          "notes": "4aypycOI71Eu2dM3kqiLpdxS9AvrE5dFkOeT1wTTV5e8j65gpEqCrpPpVQcef90QPQNzIEjXu9O2zRU6KAO9NJ5n4Xl7huklPcBIhB1Z0hrE6B1mHukhIl8jA0noCR7J3AzlBPP8Sk9Bn8btGBc4PGglQjZQ3uotsVz9SS4QsDGjEV6Tl4hOFQ0iRfwgLLtLwkTcKytq8A4eDaCmKPa1RhMf0dcP1o0RPzIEG8BsM7hm6kmnVTAyZlmtQM",
+          "received": false
+        },
+        {
+          "_id": "694a84a61c508c5d5ef4e107",
+          "name": "Table75737",
+          "amount": 722,
+          "price": 55625,
+          "manufacturer": "Apple",
+          "notes": "pto8Gm7KBOU2gggxMGxNwbuK8SutENK8yG6ecrxRZiY7M09oea8UZm9eLbCbhevnrfAkIusFr5jFeYNHYkEfF39COvLql752DLkSCW2Hw8g8yCxkHEhn3dQogOA3DBS5NTmG44Ncwccv6WOShFSEMwoiKAxFiL7LAsMK9amowBQP0GG8capCjsxgpWjJo13dQzTnvB7LyFsi81ShUKNM4oKMFJvTgsVyfQPcLGH5o8vEtxnJCwiEhkXK11",
+          "received": false
+        },
+        {
+          "_id": "694a84a61c508c5d5ef4e118",
+          "name": "Pants98460",
+          "amount": 235,
+          "price": 15334,
+          "manufacturer": "Google",
+          "notes": "BHe17NrG96U5SPJ5rZJ2UxwTgXiYiq57cYnkUjgpUR2L8TrTRk5FSwHJj7v5MQi5YcbzUDCfSqVrKh6yCJDTOH65ZBlAinuR97f4794bpyvAopkPdJvCmhZ1JnjxO2WYRC2G70F7TYwNvbwFFJUXlqScrFoEkK3v0TfRsOsNfinr5dl8pUELGKfxz0nhGRb01NpwL8ayKbrZFaGvF7PrGZxetu9lXy49e7zmpCOozvkbVYobDdfrn1kqMa",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 114913,
+      "createdOn": "2025-12-23T12:01:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694a84a51c508c5d5ef4e077",
+          "products": [
+            {
+              "_id": "694a84a51c508c5d5ef4e0ad",
+              "name": "Chicken63322",
+              "amount": 215,
+              "price": 43954,
+              "manufacturer": "Microsoft",
+              "notes": "4aypycOI71Eu2dM3kqiLpdxS9AvrE5dFkOeT1wTTV5e8j65gpEqCrpPpVQcef90QPQNzIEjXu9O2zRU6KAO9NJ5n4Xl7huklPcBIhB1Z0hrE6B1mHukhIl8jA0noCR7J3AzlBPP8Sk9Bn8btGBc4PGglQjZQ3uotsVz9SS4QsDGjEV6Tl4hOFQ0iRfwgLLtLwkTcKytq8A4eDaCmKPa1RhMf0dcP1o0RPzIEG8BsM7hm6kmnVTAyZlmtQM",
+              "received": false
+            },
+            {
+              "_id": "694a84a61c508c5d5ef4e107",
+              "name": "Table75737",
+              "amount": 722,
+              "price": 55625,
+              "manufacturer": "Apple",
+              "notes": "pto8Gm7KBOU2gggxMGxNwbuK8SutENK8yG6ecrxRZiY7M09oea8UZm9eLbCbhevnrfAkIusFr5jFeYNHYkEfF39COvLql752DLkSCW2Hw8g8yCxkHEhn3dQogOA3DBS5NTmG44Ncwccv6WOShFSEMwoiKAxFiL7LAsMK9amowBQP0GG8capCjsxgpWjJo13dQzTnvB7LyFsi81ShUKNM4oKMFJvTgsVyfQPcLGH5o8vEtxnJCwiEhkXK11",
+              "received": false
+            },
+            {
+              "_id": "694a84a61c508c5d5ef4e118",
+              "name": "Pants98460",
+              "amount": 235,
+              "price": 15334,
+              "manufacturer": "Google",
+              "notes": "BHe17NrG96U5SPJ5rZJ2UxwTgXiYiq57cYnkUjgpUR2L8TrTRk5FSwHJj7v5MQi5YcbzUDCfSqVrKh6yCJDTOH65ZBlAinuR97f4794bpyvAopkPdJvCmhZ1JnjxO2WYRC2G70F7TYwNvbwFFJUXlqScrFoEkK3v0TfRsOsNfinr5dl8pUELGKfxz0nhGRb01NpwL8ayKbrZFaGvF7PrGZxetu9lXy49e7zmpCOozvkbVYobDdfrn1kqMa",
+              "received": false
+            }
+          ],
+          "total_price": 114913,
+          "delivery": null,
+          "changedOn": "2025-12-23T12:01:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694a84a61c508c5d5ef4e13b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

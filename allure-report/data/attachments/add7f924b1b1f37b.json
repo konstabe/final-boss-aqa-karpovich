@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 12:02:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3426",
+    "etag": "W/\"d62-lSa03LB+ECDMyAvUtM2E8pEc8/E\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694a84b21c508c5d5ef4e81f",
+        "email": "Kaelyn92@hotmail.com",
+        "name": "Lawrence Robel",
+        "country": "Germany",
+        "city": "South Hill",
+        "street": "Isom Forges",
+        "house": 17,
+        "flat": 796,
+        "phone": "+19776950292",
+        "createdOn": "2025-12-23T12:01:54.000Z",
+        "notes": "K3Yhfs8CN3surasbANLXmWwkL1e76nF5IGTt6LFI6mM3XXYSZmXfCgUvNKEYs3FyaaGQwjrs7cmh36Eq2bV9tdzgjBTkCEHfgtCqSkIZUgCUfEVWWNAuFCyGmviwsmzl7ge6vKvNXVOEOCXjHNWjXJOXURjSZTSKTGImpxqxhSoQyYhuJ0Ou5WRFawvU011Xc68bJrZ1cUMAaQBHQCy2k75gStNPgpSmd4BhwBHBMuz8oNK41WperX2dNZ"
+      },
+      "products": [
+        {
+          "_id": "694a84b31c508c5d5ef4e8bf",
+          "name": "Pants21081",
+          "amount": 931,
+          "price": 40253,
+          "manufacturer": "Google",
+          "notes": "07C0eautML2XRz8OVXpNvGNUAGAAXPFTPKQYT3xZuhYwOtYkEUxpg1pFM4XOrh642wxMUC4t6Np023YJm0AA5k36EiIuP3tDM3loLZ3rYqui5B11whb52cCxwVaLAN8FpylSalvQL1Gkn1LRwC0SkDOwgdaUlfdbLzbDr6Nxfr9ehd34yVgJwW7hHKzHcwCgIreIQtkiJNEmtrdGgE5CvHCknRKKJSqdnPUJs2U9axCF1zURGKAkot2nER",
+          "received": false
+        },
+        {
+          "_id": "694a84b41c508c5d5ef4e9e3",
+          "name": "Gloves53122",
+          "amount": 188,
+          "price": 21362,
+          "manufacturer": "Amazon",
+          "notes": "l5Cf8uZD9P4uz3XV2W2juxHIzgCRkM73FlFLdewHw8w6C672sN1qjGnhg1Za6jpCyU5iLTE6birsiindncpwImcxqwnEDnV39cJ3p5FDTz7mSJkyck4PE1sBuD18RGOI6dqBW2eECEYGRDlw1m6ZHFyz59HLg8U4LbMZnpr8SIxvvRaEvRpeqKKsqZxK6clq93xUHJIvhhYt257y163d05bHyzVP8jdOhpNkZ3EgfN5yVx6AQ9IVOJeFe8",
+          "received": false
+        },
+        {
+          "_id": "694a84b51c508c5d5ef4ea45",
+          "name": "Sausages39778",
+          "amount": 240,
+          "price": 10121,
+          "manufacturer": "Samsung",
+          "notes": "yiTDqrwku6dFu88yKbRy3ge40ft7aRPJP19SftivsROaPSwiwLUoFrQWsAYw2reSDmIrRJ1DAZXS5183j6uVJoD9PlLNtWuo9KgUZSYj1ZjQDAd5iHTaU2qJ5fpfZEVntXEMmrVjwhkBlo8X77gv8UJZW5H2g3waWzjJXKBOFLBpUg8qR9u6pQZvTgPOJdPJfaq2hE4uWTfeuu8RDFeossxXvh7kPo3WQpO1b36m0bDZwcYWiAOcA00fSB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 71736,
+      "createdOn": "2025-12-23T12:02:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694a84b21c508c5d5ef4e81f",
+          "products": [
+            {
+              "_id": "694a84b31c508c5d5ef4e8bf",
+              "name": "Pants21081",
+              "amount": 931,
+              "price": 40253,
+              "manufacturer": "Google",
+              "notes": "07C0eautML2XRz8OVXpNvGNUAGAAXPFTPKQYT3xZuhYwOtYkEUxpg1pFM4XOrh642wxMUC4t6Np023YJm0AA5k36EiIuP3tDM3loLZ3rYqui5B11whb52cCxwVaLAN8FpylSalvQL1Gkn1LRwC0SkDOwgdaUlfdbLzbDr6Nxfr9ehd34yVgJwW7hHKzHcwCgIreIQtkiJNEmtrdGgE5CvHCknRKKJSqdnPUJs2U9axCF1zURGKAkot2nER",
+              "received": false
+            },
+            {
+              "_id": "694a84b41c508c5d5ef4e9e3",
+              "name": "Gloves53122",
+              "amount": 188,
+              "price": 21362,
+              "manufacturer": "Amazon",
+              "notes": "l5Cf8uZD9P4uz3XV2W2juxHIzgCRkM73FlFLdewHw8w6C672sN1qjGnhg1Za6jpCyU5iLTE6birsiindncpwImcxqwnEDnV39cJ3p5FDTz7mSJkyck4PE1sBuD18RGOI6dqBW2eECEYGRDlw1m6ZHFyz59HLg8U4LbMZnpr8SIxvvRaEvRpeqKKsqZxK6clq93xUHJIvhhYt257y163d05bHyzVP8jdOhpNkZ3EgfN5yVx6AQ9IVOJeFe8",
+              "received": false
+            },
+            {
+              "_id": "694a84b51c508c5d5ef4ea45",
+              "name": "Sausages39778",
+              "amount": 240,
+              "price": 10121,
+              "manufacturer": "Samsung",
+              "notes": "yiTDqrwku6dFu88yKbRy3ge40ft7aRPJP19SftivsROaPSwiwLUoFrQWsAYw2reSDmIrRJ1DAZXS5183j6uVJoD9PlLNtWuo9KgUZSYj1ZjQDAd5iHTaU2qJ5fpfZEVntXEMmrVjwhkBlo8X77gv8UJZW5H2g3waWzjJXKBOFLBpUg8qR9u6pQZvTgPOJdPJfaq2hE4uWTfeuu8RDFeossxXvh7kPo3WQpO1b36m0bDZwcYWiAOcA00fSB",
+              "received": false
+            }
+          ],
+          "total_price": 71736,
+          "delivery": null,
+          "changedOn": "2025-12-23T12:02:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694a84b91c508c5d5ef4ec83"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

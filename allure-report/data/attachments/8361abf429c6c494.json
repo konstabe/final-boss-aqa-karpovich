@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 12:01:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2663",
+    "etag": "W/\"a67-4yBvyB4ngjABgNS+LPcmbCX/xGU\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694a849b1c508c5d5ef4dba3",
+        "email": "Reese_Senger-Moore95@gmail.com",
+        "name": "Bertram Hudson",
+        "country": "Canada",
+        "city": "Esperanzaview",
+        "street": "Lesly Trafficway",
+        "house": 10,
+        "flat": 735,
+        "phone": "+15479823502",
+        "createdOn": "2025-12-23T12:01:31.000Z",
+        "notes": "12zmAvBOusYKyb7m1af0RfR2dNP0lvfC8FfpNVje7DDmExeKWQfW9s5qrrhH65u4uB7YhIdHLZhzviOyLQJ7I9hjBpGU9eSYC1aqSOOpcMZXIFq9pOkWY0qe04KGZQUsYS69XkoXtYWl259sXKp8H3fWvK7jeYcEewaVUbia8HiECN8nBxgA6IbqCytUgU0y32CmMTMw5kOzFiimQ3BLhhmAHQvPudA2IAQHRedlcBL6ZoLRuGodnvuFXi"
+      },
+      "products": [
+        {
+          "_id": "694a849c1c508c5d5ef4dc16",
+          "name": "Car14207",
+          "amount": 563,
+          "price": 74205,
+          "manufacturer": "Google",
+          "notes": "uCgcJC2Q92YASkv6H6F9GuFiGX1ryZSkSZKjb5V1THGRgjWyiUdDRzkrzi4JjMZL6E1Bww7QD1FKAM8L4W4GqdSrTbbTLdalm6voZW7pQp24xwXeOrMHt7Sp86skql8QwG5z9FCyGYHEE4UNnLiJI5FWYKG0nRw7DMfcYklhxBIBpGS2Plw8TEKtsTCzLHZT8QVLcIDGsuAk3h3jMRtabZ6ngNGWng2781JxkzAj5XbOY6HVUyLkZ6c8ee",
+          "received": false
+        },
+        {
+          "_id": "694a849d1c508c5d5ef4dc76",
+          "name": "Shoes58360",
+          "amount": 809,
+          "price": 54456,
+          "manufacturer": "Google",
+          "notes": "SwOaq9Pya3GMcdFEovVEY3cZJ3yXibg8XIR6T1n2lKGftdHAgtSSgVIYgbxhW48yaIykjvVdcScC6vDKHn7dbMYWJmKi290Ti9drVCKWAjzxDowX0xhAdhyTnpuihTXp7NbZf6gwYp2z3Kc3PzXRnoFnveBwKyZCjQtWxBbhpqoPJ7FMxykat3jYKWvddlqBQcZ69hiMPo15pSUgujFcKyFzgOQ1nEvOXEFffKopYLP14vWM9iOZbYjnaE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 128661,
+      "createdOn": "2025-12-23T12:01:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694a849b1c508c5d5ef4dba3",
+          "products": [
+            {
+              "_id": "694a849c1c508c5d5ef4dc16",
+              "name": "Car14207",
+              "amount": 563,
+              "price": 74205,
+              "manufacturer": "Google",
+              "notes": "uCgcJC2Q92YASkv6H6F9GuFiGX1ryZSkSZKjb5V1THGRgjWyiUdDRzkrzi4JjMZL6E1Bww7QD1FKAM8L4W4GqdSrTbbTLdalm6voZW7pQp24xwXeOrMHt7Sp86skql8QwG5z9FCyGYHEE4UNnLiJI5FWYKG0nRw7DMfcYklhxBIBpGS2Plw8TEKtsTCzLHZT8QVLcIDGsuAk3h3jMRtabZ6ngNGWng2781JxkzAj5XbOY6HVUyLkZ6c8ee",
+              "received": false
+            },
+            {
+              "_id": "694a849d1c508c5d5ef4dc76",
+              "name": "Shoes58360",
+              "amount": 809,
+              "price": 54456,
+              "manufacturer": "Google",
+              "notes": "SwOaq9Pya3GMcdFEovVEY3cZJ3yXibg8XIR6T1n2lKGftdHAgtSSgVIYgbxhW48yaIykjvVdcScC6vDKHn7dbMYWJmKi290Ti9drVCKWAjzxDowX0xhAdhyTnpuihTXp7NbZf6gwYp2z3Kc3PzXRnoFnveBwKyZCjQtWxBbhpqoPJ7FMxykat3jYKWvddlqBQcZ69hiMPo15pSUgujFcKyFzgOQ1nEvOXEFffKopYLP14vWM9iOZbYjnaE",
+              "received": false
+            }
+          ],
+          "total_price": 128661,
+          "delivery": null,
+          "changedOn": "2025-12-23T12:01:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694a849d1c508c5d5ef4dc98"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

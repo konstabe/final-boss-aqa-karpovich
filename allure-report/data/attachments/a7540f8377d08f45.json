@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 12:01:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2803",
+    "etag": "W/\"af3-mO2y6KfuKv6ko24AlnMZLc1vE2A\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694a849a1c508c5d5ef4db41",
+      "status": "Draft",
+      "customer": {
+        "_id": "694a84991c508c5d5ef4daa3",
+        "email": "Geoffrey.Conn@yahoo.com",
+        "name": "Kolby Crona",
+        "country": "Ukraine",
+        "city": "Norman",
+        "street": "Keely Ways",
+        "house": 22,
+        "flat": 581,
+        "phone": "+12252998546",
+        "createdOn": "2025-12-23T12:01:29.000Z",
+        "notes": "P2xBpfp9pFkFS3ZSKKRFGN4sAL2oKRyUbXTbLAms1OQwjUzut3lNg2xQocUAsdCBLy7mEu37o9g8Q87YFvfxJQMXnQOaVasmE7rQrqAeT03ghkRBsSHl69MUTlGlU1AMzOadDs8G9wvkDbeKmPAoBaEFVP0x5AnVdbCdylGb91kVEuI76HkY9fajVFflN7BHJGFP9sB9NygBdFdeQgCC7E6LsNQSDzO0Ln3IERR3ejhrQGrHQrDaqURheq"
+      },
+      "products": [
+        {
+          "_id": "694a849a1c508c5d5ef4daf0",
+          "name": "Soap14875",
+          "amount": 105,
+          "price": 32654,
+          "manufacturer": "Samsung",
+          "notes": "vJPcwjbydo2dFxwZlidrYARp3DnR3eUTi4JyUZMtFWZv1UACioOceSPH74tk0xrd52AUD2f9YwIHJLpt3vfMg5K0yrz5Xj8lLo8hlguuauMDHhEWavmPHQNpx5ErOl60hh4o7ieKGRpfxWEZPDR0rhg3KxSMrfzE40WDNoXEgDMwEA17Uc1f7kqe38wLo1v5QleBSVGEBubfFglbNt2mA3xElkLLIrXuElDXG1fDDWYQ94DPy64ycmY6Iw",
+          "received": false
+        },
+        {
+          "_id": "694a849a1c508c5d5ef4db0f",
+          "name": "Pizza12963",
+          "amount": 382,
+          "price": 90798,
+          "manufacturer": "Amazon",
+          "notes": "KCyVo1qi4gVfMXScgwfYONk6zcldpGL5iTf6fWVckWwU6ndPKZvsWxOPvpFsbYiOEyGVkpSatyfFPhBUr7ztVthU7qSAw4xcvvSyzIrWr2P9gmgiHRGmGPAplnB8hfv9yYrakaF8ekfcrZJvZYh55LDNWNnDHRWVhiRdAoQfRfn3oJSYMGIdwkVFRDfP0P67Ftl0NeBLlvyPPq3MooLx967hSvq94DFB7RqFrcs1f4ibxZXVdTmjfe4jwn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 123452,
+      "createdOn": "2025-12-23T12:01:30.000Z",
+      "comments": [
+        {
+          "text": "lOsGrIz4IpC2bzAg5Y8zUzBchBobrD9BzCyVlQJBOJt2EsTmeAAlvSdIqlsoyNO7JK74V9gZcAo",
+          "createdOn": "2025-12-23T12:01:31.000Z",
+          "_id": "694a849b1c508c5d5ef4db84"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694a84991c508c5d5ef4daa3",
+          "products": [
+            {
+              "_id": "694a849a1c508c5d5ef4daf0",
+              "name": "Soap14875",
+              "amount": 105,
+              "price": 32654,
+              "manufacturer": "Samsung",
+              "notes": "vJPcwjbydo2dFxwZlidrYARp3DnR3eUTi4JyUZMtFWZv1UACioOceSPH74tk0xrd52AUD2f9YwIHJLpt3vfMg5K0yrz5Xj8lLo8hlguuauMDHhEWavmPHQNpx5ErOl60hh4o7ieKGRpfxWEZPDR0rhg3KxSMrfzE40WDNoXEgDMwEA17Uc1f7kqe38wLo1v5QleBSVGEBubfFglbNt2mA3xElkLLIrXuElDXG1fDDWYQ94DPy64ycmY6Iw",
+              "received": false
+            },
+            {
+              "_id": "694a849a1c508c5d5ef4db0f",
+              "name": "Pizza12963",
+              "amount": 382,
+              "price": 90798,
+              "manufacturer": "Amazon",
+              "notes": "KCyVo1qi4gVfMXScgwfYONk6zcldpGL5iTf6fWVckWwU6ndPKZvsWxOPvpFsbYiOEyGVkpSatyfFPhBUr7ztVthU7qSAw4xcvvSyzIrWr2P9gmgiHRGmGPAplnB8hfv9yYrakaF8ekfcrZJvZYh55LDNWNnDHRWVhiRdAoQfRfn3oJSYMGIdwkVFRDfP0P67Ftl0NeBLlvyPPq3MooLx967hSvq94DFB7RqFrcs1f4ibxZXVdTmjfe4jwn",
+              "received": false
+            }
+          ],
+          "total_price": 123452,
+          "delivery": null,
+          "changedOn": "2025-12-23T12:01:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

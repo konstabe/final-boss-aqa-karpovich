@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 12:01:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4093",
+    "etag": "W/\"ffd-3jCnkHT+vH4uBoETCWFjOiGrxhA\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694a84b11c508c5d5ef4e7c4",
+      "status": "Draft",
+      "customer": {
+        "_id": "694a84b01c508c5d5ef4e74a",
+        "email": "Elda_Reinger@yahoo.com",
+        "name": "Bruce Hilll",
+        "country": "Germany",
+        "city": "Fort Carlo",
+        "street": "E Bridge Street",
+        "house": 26,
+        "flat": 72,
+        "phone": "+19968395975",
+        "createdOn": "2025-12-23T12:01:52.000Z",
+        "notes": "wiqFLIZsJYIZps8mVxlIflpJggYXCGWovOJa1VecKjEoB4Tixbr5wdkWfjJ4nVKndnN9WOEqCGwejy4MmwNp7GxVw0U6tdFxPAsDFHZLKfCAzjScEMahjeqVHUeEl4rjJJzeuHSjo16PlrCPOUHybj5DB1qtSWUBkwnuUm1ShGa8jyrFHdp6CJ1v0c7YW1j299wh0unBbXVqSKoYraG0l42OQIkqPpYQtLNgKEpW3wB8RUHkhOmMt4keMW"
+      },
+      "products": [
+        {
+          "_id": "694a84b01c508c5d5ef4e77f",
+          "name": "Tuna68241",
+          "amount": 789,
+          "price": 9703,
+          "manufacturer": "Google",
+          "notes": "4lncgoRLRmDV1mtQ5pMPBSw1nMKFfgP5xj3d7BHbVjmMALni4aU5xKwf6qwtx7svudKC1h2m4yeifatRPVvYaVjVChN2yiq5CBl4WrkUBHpjrb6EaiZ1nRNVEvpN7K19lsvvg8AMipF2bvRaFSMsGmzmHqV0llHTAZTEeEdjCCyoeCHIzbPZl5Etx84YH0a0JwmgYXkS1MITrNBrnGv3bGb57LBoCq5iXbEXJGfcHnNQbbyQ7r4Z9tonKQ",
+          "received": false
+        },
+        {
+          "_id": "694a84b11c508c5d5ef4e79c",
+          "name": "Soap27846",
+          "amount": 82,
+          "price": 44688,
+          "manufacturer": "Xiaomi",
+          "notes": "Hca4AjIMjo7ptA7ZEZqVuCmdYsocts30iMvVIePFJyYKBTwIFVZSMLGhKTOgvCOqaT4qrgPf6hALB525XHze6fb9CJLst8n65CBfWivjpkyMN68jbYgaDBPr4eTWVimaUAN5rWP57HW4QljM7eiPh1jcdMxxHIXFt9e7co8DrzMcmulPgGMh5iN1BmrPrx9bb3pCdqlGddc8HjiJj0u20ztsZaEdh2AwoJWHa8P2c2fTursmc9QSPaKsgP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Fort Carlo",
+          "street": "E Bridge Street",
+          "house": 26,
+          "flat": 72
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 54391,
+      "createdOn": "2025-12-23T12:01:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694a84b01c508c5d5ef4e74a",
+          "products": [
+            {
+              "_id": "694a84b01c508c5d5ef4e77f",
+              "name": "Tuna68241",
+              "amount": 789,
+              "price": 9703,
+              "manufacturer": "Google",
+              "notes": "4lncgoRLRmDV1mtQ5pMPBSw1nMKFfgP5xj3d7BHbVjmMALni4aU5xKwf6qwtx7svudKC1h2m4yeifatRPVvYaVjVChN2yiq5CBl4WrkUBHpjrb6EaiZ1nRNVEvpN7K19lsvvg8AMipF2bvRaFSMsGmzmHqV0llHTAZTEeEdjCCyoeCHIzbPZl5Etx84YH0a0JwmgYXkS1MITrNBrnGv3bGb57LBoCq5iXbEXJGfcHnNQbbyQ7r4Z9tonKQ",
+              "received": false
+            },
+            {
+              "_id": "694a84b11c508c5d5ef4e79c",
+              "name": "Soap27846",
+              "amount": 82,
+              "price": 44688,
+              "manufacturer": "Xiaomi",
+              "notes": "Hca4AjIMjo7ptA7ZEZqVuCmdYsocts30iMvVIePFJyYKBTwIFVZSMLGhKTOgvCOqaT4qrgPf6hALB525XHze6fb9CJLst8n65CBfWivjpkyMN68jbYgaDBPr4eTWVimaUAN5rWP57HW4QljM7eiPh1jcdMxxHIXFt9e7co8DrzMcmulPgGMh5iN1BmrPrx9bb3pCdqlGddc8HjiJj0u20ztsZaEdh2AwoJWHa8P2c2fTursmc9QSPaKsgP",
+              "received": false
+            }
+          ],
+          "total_price": 54391,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Fort Carlo",
+              "street": "E Bridge Street",
+              "house": 26,
+              "flat": 72
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-23T12:01:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694a84b01c508c5d5ef4e74a",
+          "products": [
+            {
+              "_id": "694a84b01c508c5d5ef4e77f",
+              "name": "Tuna68241",
+              "amount": 789,
+              "price": 9703,
+              "manufacturer": "Google",
+              "notes": "4lncgoRLRmDV1mtQ5pMPBSw1nMKFfgP5xj3d7BHbVjmMALni4aU5xKwf6qwtx7svudKC1h2m4yeifatRPVvYaVjVChN2yiq5CBl4WrkUBHpjrb6EaiZ1nRNVEvpN7K19lsvvg8AMipF2bvRaFSMsGmzmHqV0llHTAZTEeEdjCCyoeCHIzbPZl5Etx84YH0a0JwmgYXkS1MITrNBrnGv3bGb57LBoCq5iXbEXJGfcHnNQbbyQ7r4Z9tonKQ",
+              "received": false
+            },
+            {
+              "_id": "694a84b11c508c5d5ef4e79c",
+              "name": "Soap27846",
+              "amount": 82,
+              "price": 44688,
+              "manufacturer": "Xiaomi",
+              "notes": "Hca4AjIMjo7ptA7ZEZqVuCmdYsocts30iMvVIePFJyYKBTwIFVZSMLGhKTOgvCOqaT4qrgPf6hALB525XHze6fb9CJLst8n65CBfWivjpkyMN68jbYgaDBPr4eTWVimaUAN5rWP57HW4QljM7eiPh1jcdMxxHIXFt9e7co8DrzMcmulPgGMh5iN1BmrPrx9bb3pCdqlGddc8HjiJj0u20ztsZaEdh2AwoJWHa8P2c2fTursmc9QSPaKsgP",
+              "received": false
+            }
+          ],
+          "total_price": 54391,
+          "delivery": null,
+          "changedOn": "2025-12-23T12:01:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
