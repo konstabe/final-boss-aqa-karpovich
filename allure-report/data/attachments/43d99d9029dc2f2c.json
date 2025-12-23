@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:16:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2944",
+    "etag": "W/\"b80-rXgKmVi+5gtRcrMQU3y7aSYPZ7g\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b14c11c508c5d5efa5617",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b14c11c508c5d5efa55b6",
+        "email": "Syble97@hotmail.com",
+        "name": "Triston Bosco",
+        "country": "Ukraine",
+        "city": "East Romatown",
+        "street": "Mraz Key",
+        "house": 15,
+        "flat": 473,
+        "phone": "+19097016430",
+        "createdOn": "2025-12-23T22:16:33.000Z",
+        "notes": "EYLcR81Tx8W6Iq5Py3jkKZeZkchrMwebr0eIFSbMxoyAcnTjndKLYLHmIZQE7EWmQIklrS3kcVdLOR9kXo7JnqvZL2ocxwkNpVHMruiFFKaQIU2ZzZD0ZVhe0eXQhs8irQQDETkklRG6mTxbp8IVTywmTRsqOsqJXOj0sNr2SJ9fGLtVFHqnS1WA7GYi9QWTUK0pcNrkiiwFBJ7sUOJp4SuWpCVaObfUTQpvQlKsW0xE0DV3OH8RjxXDSF"
+      },
+      "products": [
+        {
+          "_id": "694b14c11c508c5d5efa55d9",
+          "name": "Salad47197",
+          "amount": 329,
+          "price": 29695,
+          "manufacturer": "Tesla",
+          "notes": "udpqP9jOqkahbjFpt1BOApNZoSmkRP5KnCR7R0o9ExZHQSq19Oe8EsFvpsgr7WO4tFgCvOK1vkIRsPoAm5NMSg7XXLoUYN2c4P1AAiGzAE4qVLjTQLxWqGSZ9ZyPfoqjeYBzShcSofbxUK6ArelJGWtRaQRwIYhLWvkAcMaUF16tEjRPo32P4RsKkUlivJ16btxGEMxl9l3HmEGgjzkioww0r2Zv1HilAD12dcoDzuDEAVqGvf3pjoTChQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 29695,
+      "createdOn": "2025-12-23T22:16:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b14c11c508c5d5efa55b6",
+          "products": [
+            {
+              "_id": "694b14c11c508c5d5efa55d9",
+              "name": "Salad47197",
+              "amount": 329,
+              "price": 29695,
+              "manufacturer": "Tesla",
+              "notes": "udpqP9jOqkahbjFpt1BOApNZoSmkRP5KnCR7R0o9ExZHQSq19Oe8EsFvpsgr7WO4tFgCvOK1vkIRsPoAm5NMSg7XXLoUYN2c4P1AAiGzAE4qVLjTQLxWqGSZ9ZyPfoqjeYBzShcSofbxUK6ArelJGWtRaQRwIYhLWvkAcMaUF16tEjRPo32P4RsKkUlivJ16btxGEMxl9l3HmEGgjzkioww0r2Zv1HilAD12dcoDzuDEAVqGvf3pjoTChQ",
+              "received": false
+            }
+          ],
+          "total_price": 29695,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:16:34.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "694b14c11c508c5d5efa55b6",
+          "products": [
+            {
+              "_id": "694b14c11c508c5d5efa55d9",
+              "name": "Salad47197",
+              "amount": 329,
+              "price": 29695,
+              "manufacturer": "Tesla",
+              "notes": "udpqP9jOqkahbjFpt1BOApNZoSmkRP5KnCR7R0o9ExZHQSq19Oe8EsFvpsgr7WO4tFgCvOK1vkIRsPoAm5NMSg7XXLoUYN2c4P1AAiGzAE4qVLjTQLxWqGSZ9ZyPfoqjeYBzShcSofbxUK6ArelJGWtRaQRwIYhLWvkAcMaUF16tEjRPo32P4RsKkUlivJ16btxGEMxl9l3HmEGgjzkioww0r2Zv1HilAD12dcoDzuDEAVqGvf3pjoTChQ",
+              "received": false
+            }
+          ],
+          "total_price": 29695,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:16:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

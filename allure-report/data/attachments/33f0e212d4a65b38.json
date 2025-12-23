@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:18:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3416",
+    "etag": "W/\"d58-Wurba+2k1P9zE3hfN6thG2yG2tw\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b15211c508c5d5efa9d39",
+        "email": "Aaliyah13@yahoo.com",
+        "name": "Mario Skiles",
+        "country": "Canada",
+        "city": "Cape Coral",
+        "street": "Emmanuel Meadow",
+        "house": 27,
+        "flat": 476,
+        "phone": "+13218769468",
+        "createdOn": "2025-12-23T22:18:09.000Z",
+        "notes": "KwXy9Um3uNV1LFCl8NcdF23DaNEupCcowCo4GUkrHN4Xr1uD6s7anxP7AcCsct5zU0I5VtZ5WT9sW7rnTcA6PouRAKRUndFUqj9OQZPIlGRV54bwjHrFJ1TntPtyUoHu8ICwSqcGzuna1BrIzN0rtlyGn8pek2csmLYMyvkzbl4SchIenv747oUhUPeXdx1wIODlUUpnsKwUpIsx0ifyOpOOyxX6KUXqyGI26xcFsscirx5hevVQva3Yxs"
+      },
+      "products": [
+        {
+          "_id": "694b15211c508c5d5efa9d7b",
+          "name": "Table94281",
+          "amount": 790,
+          "price": 93315,
+          "manufacturer": "Microsoft",
+          "notes": "AW90iAkeSnHXNiCBhDIEtQh8hIfXeCOPhuyE2cdi9xWQAbmO0bEX2ZfThrpsX6279druIv3N3m6w9H7cxLBbIHL3cABBfbxCZvHrIdWfvs0gAaeBzMol6zYoxDl2biyQ7H4ZIaUBx4BbS3HY3CWsDY1ZeuPr4GBASCbwD8via9yP8fg0aN6cldsWhr7YtLLLLR8d50E5fzIY7ZCRF73LAdMb5JTHFn4y9r6pCh93ywMI90LTJR0ctYknVC",
+          "received": false
+        },
+        {
+          "_id": "694b15221c508c5d5efa9dc2",
+          "name": "Hat12316",
+          "amount": 274,
+          "price": 18994,
+          "manufacturer": "Sony",
+          "notes": "Pq6eeeC8u8WdvvqzKSRRT0f7oRUZpexVdvzHI9ealubDCxPsJm538lSTvMSbx46ZhBz6KphPnQxoACzJTaMApCrj0bqIYY0JHoZKENJ0F5LZyfVALGfjklSMaL8otdxeKw3396OAHSbZnz4bKNULX8w0bqqAqDp0oCWe6Ki6abHMECIdgQlG75GOUWb1TjxtnXQmnpz9jTBjCkGzRSj8lx3N5nDGKPOI3eZsCgGqtln21imWmPdyQorj7K",
+          "received": false
+        },
+        {
+          "_id": "694b15241c508c5d5efa9ef7",
+          "name": "Salad49642",
+          "amount": 271,
+          "price": 26726,
+          "manufacturer": "Xiaomi",
+          "notes": "CiaeqMd1CYgy7cmfyoEEqq9HnBf3aNitWpEBibBYkh1Y3rJA3GIkAZve7H9G6406Q0lb7P0dQe7jzPUcaPUj3wAOUffVNH0v6fKq39dU1vPdh8wtDLIviM0aOqbyVDRDP4SIv5Vu1nJ6NxHNWO8xZZcAz3sqm9H8SxbmZK5CwSPRW105PKWLbQGJMdl9Z50iBQUvK70arh38d9b0eAQ2yn4Vu2MlCJU8IaNmsp8m11SaVkFAu2qKG8yHxJ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 139035,
+      "createdOn": "2025-12-23T22:18:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b15211c508c5d5efa9d39",
+          "products": [
+            {
+              "_id": "694b15211c508c5d5efa9d7b",
+              "name": "Table94281",
+              "amount": 790,
+              "price": 93315,
+              "manufacturer": "Microsoft",
+              "notes": "AW90iAkeSnHXNiCBhDIEtQh8hIfXeCOPhuyE2cdi9xWQAbmO0bEX2ZfThrpsX6279druIv3N3m6w9H7cxLBbIHL3cABBfbxCZvHrIdWfvs0gAaeBzMol6zYoxDl2biyQ7H4ZIaUBx4BbS3HY3CWsDY1ZeuPr4GBASCbwD8via9yP8fg0aN6cldsWhr7YtLLLLR8d50E5fzIY7ZCRF73LAdMb5JTHFn4y9r6pCh93ywMI90LTJR0ctYknVC",
+              "received": false
+            },
+            {
+              "_id": "694b15221c508c5d5efa9dc2",
+              "name": "Hat12316",
+              "amount": 274,
+              "price": 18994,
+              "manufacturer": "Sony",
+              "notes": "Pq6eeeC8u8WdvvqzKSRRT0f7oRUZpexVdvzHI9ealubDCxPsJm538lSTvMSbx46ZhBz6KphPnQxoACzJTaMApCrj0bqIYY0JHoZKENJ0F5LZyfVALGfjklSMaL8otdxeKw3396OAHSbZnz4bKNULX8w0bqqAqDp0oCWe6Ki6abHMECIdgQlG75GOUWb1TjxtnXQmnpz9jTBjCkGzRSj8lx3N5nDGKPOI3eZsCgGqtln21imWmPdyQorj7K",
+              "received": false
+            },
+            {
+              "_id": "694b15241c508c5d5efa9ef7",
+              "name": "Salad49642",
+              "amount": 271,
+              "price": 26726,
+              "manufacturer": "Xiaomi",
+              "notes": "CiaeqMd1CYgy7cmfyoEEqq9HnBf3aNitWpEBibBYkh1Y3rJA3GIkAZve7H9G6406Q0lb7P0dQe7jzPUcaPUj3wAOUffVNH0v6fKq39dU1vPdh8wtDLIviM0aOqbyVDRDP4SIv5Vu1nJ6NxHNWO8xZZcAz3sqm9H8SxbmZK5CwSPRW105PKWLbQGJMdl9Z50iBQUvK70arh38d9b0eAQ2yn4Vu2MlCJU8IaNmsp8m11SaVkFAu2qKG8yHxJ",
+              "received": false
+            }
+          ],
+          "total_price": 139035,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:18:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b15271c508c5d5efaa121"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

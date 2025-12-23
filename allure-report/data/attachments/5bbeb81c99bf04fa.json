@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:16:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2655",
+    "etag": "W/\"a5f-pl9f/Mpa2JajcdtjQytydBdSLUU\"",
+    "keep-alive": "timeout=5, max=48",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b14c61c508c5d5efa5a18",
+        "email": "Peggie57@hotmail.com",
+        "name": "Devan Hermann",
+        "country": "Canada",
+        "city": "West Austynfield",
+        "street": "Bell Lane",
+        "house": 9,
+        "flat": 630,
+        "phone": "+14085273035",
+        "createdOn": "2025-12-23T22:16:38.000Z",
+        "notes": "GGkNrviCDEoUDEauUPYOwB9BcGTJeYh7X5iEdIbFXgEsJ7IbJc6NmfFiBldIOFGTXlHwGsXyrczH7dxWaYmOAnFtpPfEfu57mZRI2QFtocpKqURXO1UuJt2tq0JNZ9TRkmA7pIhJsflYFtmgVZifcbLWJOB7UQhbuZDAUSl45OV3LhtLrCyEKLLaPXGxUDxyGgxMbeX5NtJSbOOU8SaB2yWmfhn5y4kPSsduPdENJVDWVPfq5nO9JUdAcq"
+      },
+      "products": [
+        {
+          "_id": "694b14c61c508c5d5efa5a47",
+          "name": "Sausages497",
+          "amount": 816,
+          "price": 44985,
+          "manufacturer": "Tesla",
+          "notes": "mDYN8QPiiIQ328SyXiaHmekar0qZSvAXxAWOMZi08ke2vmq1OebT5RNZofslHfHLzF52snlFk9boPfL1i53xP8D3CpARfQadBvrxBnZ7doYRTP5Cs0OY7B4xstMwZ5G5vTHL8AXztka9XvU9xIerhldaDF7IjRt0j9M9CdagQaWYSfgsyrWN4veR5wvUm6hicpdCl3CKVmmj6zqNioEoFjGijTAylqwCVjF5biQ6qQzIEt35F0SJOtrgQk",
+          "received": false
+        },
+        {
+          "_id": "694b14c71c508c5d5efa5a71",
+          "name": "Sausages46926",
+          "amount": 439,
+          "price": 84933,
+          "manufacturer": "Apple",
+          "notes": "cdPDB8hG2MrD9QoMJ76xKLTMtUjRdZECQ9cWUelSKcXURGqmTF3IWmE0jICBsrUzzdgIpQMabm0spTGgzkyiDFpGatafHgRGhBcNB9cv9qK0f7w6okiFoDkxlPmT2wj8zWfVqKqhnhCgcrmBbRAG6PRrGMRuxGB1ipVNEGfdeFXmOM6NFBOzNeyeB1DQekyBVsP6KaRCqktFWJEbktYnRrfBReisXjMN9CoPwGjppBp8dwHY3mb8rhCcH9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 129918,
+      "createdOn": "2025-12-23T22:16:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b14c61c508c5d5efa5a18",
+          "products": [
+            {
+              "_id": "694b14c61c508c5d5efa5a47",
+              "name": "Sausages497",
+              "amount": 816,
+              "price": 44985,
+              "manufacturer": "Tesla",
+              "notes": "mDYN8QPiiIQ328SyXiaHmekar0qZSvAXxAWOMZi08ke2vmq1OebT5RNZofslHfHLzF52snlFk9boPfL1i53xP8D3CpARfQadBvrxBnZ7doYRTP5Cs0OY7B4xstMwZ5G5vTHL8AXztka9XvU9xIerhldaDF7IjRt0j9M9CdagQaWYSfgsyrWN4veR5wvUm6hicpdCl3CKVmmj6zqNioEoFjGijTAylqwCVjF5biQ6qQzIEt35F0SJOtrgQk",
+              "received": false
+            },
+            {
+              "_id": "694b14c71c508c5d5efa5a71",
+              "name": "Sausages46926",
+              "amount": 439,
+              "price": 84933,
+              "manufacturer": "Apple",
+              "notes": "cdPDB8hG2MrD9QoMJ76xKLTMtUjRdZECQ9cWUelSKcXURGqmTF3IWmE0jICBsrUzzdgIpQMabm0spTGgzkyiDFpGatafHgRGhBcNB9cv9qK0f7w6okiFoDkxlPmT2wj8zWfVqKqhnhCgcrmBbRAG6PRrGMRuxGB1ipVNEGfdeFXmOM6NFBOzNeyeB1DQekyBVsP6KaRCqktFWJEbktYnRrfBReisXjMN9CoPwGjppBp8dwHY3mb8rhCcH9",
+              "received": false
+            }
+          ],
+          "total_price": 129918,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:16:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b14c71c508c5d5efa5a99"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

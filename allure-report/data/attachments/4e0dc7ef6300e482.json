@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:16:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-7yB1MAvzlsv9Uu56U/0hY7pgFSI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b14c71c508c5d5efa5a68",
+        "email": "Jarret.Kuvalis@hotmail.com",
+        "name": "Rylee Langworth",
+        "country": "Russia",
+        "city": "El Dorado Hills",
+        "street": "Spencer Pike",
+        "house": 25,
+        "flat": 807,
+        "phone": "+12207381368",
+        "createdOn": "2025-12-23T22:16:39.000Z",
+        "notes": "eA1wzI1JqPv7sTC0RwLHZW6PU0HcbaYfnFyWNg1MiQcvKauOSw5ZIHcKqZ2HAMXvRfsN8w8kD69pQZsWkSnPSKGV7gt9vbQUcuO4Injc9SLR1aK72JwfytH2ecCIQQiAvGT3gilxPfoMoze5AQayaO7Ic9hQKLPzkzjZIDr0uL7HTmBFC7Vo9Q9nSfoiH2ZahL48wd4G93u1TB7ajK6n7hFjRzNnV8z3xd3yWog8QT4qK6eAQ5wix2mDGR"
+      },
+      "products": [
+        {
+          "_id": "694b14c71c508c5d5efa5a7a",
+          "name": "Car8541",
+          "amount": 115,
+          "price": 55078,
+          "manufacturer": "Samsung",
+          "notes": "ol7V4nH2JxvfETHyO7of7TsfzYoVpuiv401YIBq1Uzdp7HrDEjUI2TaZJJd9Ph9WrpXPvwp6q7cTlzEg1iLEufLAbicPT9TDO0l73T4Q6TNOro560N02yYtUc8yyZ11cppYEl10gxXHs5y82x44ClIo3GxYfMptzPR0tuxZybupPewVAvlmB1UybQ1WqAIWebX4zaaeHv1M4DH0RKGywUjjRzlLCZnAdMKKQUEWbA2K0tk9RCuojVIeKjy",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55078,
+      "createdOn": "2025-12-23T22:16:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b14c71c508c5d5efa5a68",
+          "products": [
+            {
+              "_id": "694b14c71c508c5d5efa5a7a",
+              "name": "Car8541",
+              "amount": 115,
+              "price": 55078,
+              "manufacturer": "Samsung",
+              "notes": "ol7V4nH2JxvfETHyO7of7TsfzYoVpuiv401YIBq1Uzdp7HrDEjUI2TaZJJd9Ph9WrpXPvwp6q7cTlzEg1iLEufLAbicPT9TDO0l73T4Q6TNOro560N02yYtUc8yyZ11cppYEl10gxXHs5y82x44ClIo3GxYfMptzPR0tuxZybupPewVAvlmB1UybQ1WqAIWebX4zaaeHv1M4DH0RKGywUjjRzlLCZnAdMKKQUEWbA2K0tk9RCuojVIeKjy",
+              "received": false
+            }
+          ],
+          "total_price": 55078,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:16:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b14c71c508c5d5efa5aa7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

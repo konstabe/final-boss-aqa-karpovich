@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:16:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2670",
+    "etag": "W/\"a6e-KhOCHxwHdZuD3q4vUsMBaF4wG+E\"",
+    "keep-alive": "timeout=5, max=54",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b14c21c508c5d5efa56c4",
+        "email": "Jackeline_Franecki53@yahoo.com",
+        "name": "Torey Crona",
+        "country": "Germany",
+        "city": "Huelcester",
+        "street": "Robbie Parkway",
+        "house": 11,
+        "flat": 903,
+        "phone": "+16658481145",
+        "createdOn": "2025-12-23T22:16:34.000Z",
+        "notes": "NxTRRPe9E8qUvFK0GphhpgT3hqZFXMC2Pp4BXpdubE6sRyc0C7N9I0yhTAQUdwEY8qqP3INANR27RVmgK0llu0IuqHvQe7opZ7RytjaAVZbAVHrcJxdW26tSJG9VBX8en0tdmkTCqWozZ6NTLL28S5kZTQi2S1Cq5m03ApUOFQIoyECwBptgE0mJzOwIQxjx6MDJrtSB8nQLshLwZRAbLkkQxdm0hA66WDIhehjCvuHBLuWxPIquhIK89j"
+      },
+      "products": [
+        {
+          "_id": "694b14c31c508c5d5efa5728",
+          "name": "Chicken69284",
+          "amount": 358,
+          "price": 11928,
+          "manufacturer": "Samsung",
+          "notes": "47pi55bu6Z5FvkFF2xjijHNxc1KLv2L29HTd9Rn0iRSERuCxV5XpgxDpQarpuzQJuPNWJUr5MbRLIFRwIIZQW7lgpxGAyeWdOnbDwe0eMLGIc6eluuqwzXdcSoHiDqXN7KUgNsB3RHVSHSTFAED0bgq5jjpqc0DQlBlodwnjiYL74NvNxhSWIZBiQzSQuxnhLBpAPzFYeu0pX16HODJmftKBR0roa1u50W0ECIvIAIudqUrDsnsEsK8vCF",
+          "received": false
+        },
+        {
+          "_id": "694b14c41c508c5d5efa5828",
+          "name": "Computer97664",
+          "amount": 532,
+          "price": 43557,
+          "manufacturer": "Amazon",
+          "notes": "Me1kKnikRZuvZVJmabFppcrWwUSsDPPEZ1SNlvSdGGg0VZuoApKtMmDPiiKUGWnJtNFImioeLZiEMkBypSPDGwcgqpPowXKDLXS2uRislzwn2f6WRJwKpdG4rApjVy2OFnik2XEAkZunVlczQK1ySLIlg1OCIEjsmJmFmdTPAv8QGF7e1Z4xkoGKbo6lfB6XN0AAq3VAEUWnjcEScaR906hIXt3hXB8w8KabQsoKdW5spLcBQ05mgiOyGV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55485,
+      "createdOn": "2025-12-23T22:16:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b14c21c508c5d5efa56c4",
+          "products": [
+            {
+              "_id": "694b14c31c508c5d5efa5728",
+              "name": "Chicken69284",
+              "amount": 358,
+              "price": 11928,
+              "manufacturer": "Samsung",
+              "notes": "47pi55bu6Z5FvkFF2xjijHNxc1KLv2L29HTd9Rn0iRSERuCxV5XpgxDpQarpuzQJuPNWJUr5MbRLIFRwIIZQW7lgpxGAyeWdOnbDwe0eMLGIc6eluuqwzXdcSoHiDqXN7KUgNsB3RHVSHSTFAED0bgq5jjpqc0DQlBlodwnjiYL74NvNxhSWIZBiQzSQuxnhLBpAPzFYeu0pX16HODJmftKBR0roa1u50W0ECIvIAIudqUrDsnsEsK8vCF",
+              "received": false
+            },
+            {
+              "_id": "694b14c41c508c5d5efa5828",
+              "name": "Computer97664",
+              "amount": 532,
+              "price": 43557,
+              "manufacturer": "Amazon",
+              "notes": "Me1kKnikRZuvZVJmabFppcrWwUSsDPPEZ1SNlvSdGGg0VZuoApKtMmDPiiKUGWnJtNFImioeLZiEMkBypSPDGwcgqpPowXKDLXS2uRislzwn2f6WRJwKpdG4rApjVy2OFnik2XEAkZunVlczQK1ySLIlg1OCIEjsmJmFmdTPAv8QGF7e1Z4xkoGKbo6lfB6XN0AAq3VAEUWnjcEScaR906hIXt3hXB8w8KabQsoKdW5spLcBQ05mgiOyGV",
+              "received": false
+            }
+          ],
+          "total_price": 55485,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:16:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b14c51c508c5d5efa58e9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:18:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6727",
+    "etag": "W/\"1a47-M1/J092HtDcLfbln4MWRxe/6cW0\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b15211c508c5d5efa9d49",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694b15161c508c5d5efa9523",
+        "email": "Penelope11@gmail.com",
+        "name": "Dominic Mitchell",
+        "country": "Canada",
+        "city": "Rebecastead",
+        "street": "Adams Street",
+        "house": 17,
+        "flat": 950,
+        "phone": "+13609996347",
+        "createdOn": "2025-12-23T22:17:58.000Z",
+        "notes": "HNmB6LvlM3u2qwoOBYOSbZWyIJjyh9tEaNI1mA4cwxLda5QwusmaMxE6TAWfzIqLTXBsTusEEpXMuCapic6NuQI0XPmLWwANOYPaXuKnk8oclS3rMWoOKWg9VMrf87KOtil2kxjNccJRvWOHv860tgzyWgMKF3MLbDNAk5Sn7XIOnqEDyB0Lu7q4tLSvjioyXv3WXFrCR9AGpKC5fP0xJJL3LnnKtWVBBxpWvcSrmYnfrs0HA5p9CeaeFD"
+      },
+      "products": [
+        {
+          "_id": "694b15171c508c5d5efa9573",
+          "name": "Mouse34949",
+          "amount": 588,
+          "price": 25283,
+          "manufacturer": "Samsung",
+          "notes": "038OnzNobj5Dnzlkd9cN0pYi3oXezp7XaevYBHlDVLMJQoeyuANosEzICadzovXwnwfsTIose6HLcYWObjCCZzhQ5PeJJgKUr4UmO9Y5qJ0XdwICnpTQnigtR5SNvdX1koHbmPa7NUbJNd3BMkRsA1mQqs1MrmQAnXcGvgQAH6hpHqFEeBmirfZYSOYCvBDF10CLGLPiotbL63K9aPvL7Am0bPVFgHetRPQgDu2h4HhK5imYMSOcn6fDGZ",
+          "received": false
+        },
+        {
+          "_id": "694b15201c508c5d5efa9cde",
+          "name": "Computer25299",
+          "amount": 481,
+          "price": 36809,
+          "manufacturer": "Xiaomi",
+          "notes": "bus9oPtCbFKh5wXkzDVtREXl6FZYMA6mkxfRSBbIfvWFCLurPVIIXMWb94EjrE0Q1nAYr9QGz3DCkKc2eu1BuIanx9j1sQStNa3U9aIid4BGaGYgj9WpbLStzkO8cYIYslcbuLkipNJTsxX1KRs1P8stpizKgG4dax8xY7vvxnooacYNRpIMkbVwtzixd0zSmwh2ezjBdJmUH1FRG5mL6Rt1PBnnrzOXX8dSUBnHyCsSJEEf4j7yCS0Mpr",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Rebecastead",
+          "street": "Adams Street",
+          "house": 17,
+          "flat": 950
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 62092,
+      "createdOn": "2025-12-23T22:18:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694b15161c508c5d5efa9523",
+          "products": [
+            {
+              "_id": "694b15171c508c5d5efa9573",
+              "name": "Mouse34949",
+              "amount": 588,
+              "price": 25283,
+              "manufacturer": "Samsung",
+              "notes": "038OnzNobj5Dnzlkd9cN0pYi3oXezp7XaevYBHlDVLMJQoeyuANosEzICadzovXwnwfsTIose6HLcYWObjCCZzhQ5PeJJgKUr4UmO9Y5qJ0XdwICnpTQnigtR5SNvdX1koHbmPa7NUbJNd3BMkRsA1mQqs1MrmQAnXcGvgQAH6hpHqFEeBmirfZYSOYCvBDF10CLGLPiotbL63K9aPvL7Am0bPVFgHetRPQgDu2h4HhK5imYMSOcn6fDGZ",
+              "received": false
+            },
+            {
+              "_id": "694b15201c508c5d5efa9cde",
+              "name": "Computer25299",
+              "amount": 481,
+              "price": 36809,
+              "manufacturer": "Xiaomi",
+              "notes": "bus9oPtCbFKh5wXkzDVtREXl6FZYMA6mkxfRSBbIfvWFCLurPVIIXMWb94EjrE0Q1nAYr9QGz3DCkKc2eu1BuIanx9j1sQStNa3U9aIid4BGaGYgj9WpbLStzkO8cYIYslcbuLkipNJTsxX1KRs1P8stpizKgG4dax8xY7vvxnooacYNRpIMkbVwtzixd0zSmwh2ezjBdJmUH1FRG5mL6Rt1PBnnrzOXX8dSUBnHyCsSJEEf4j7yCS0Mpr",
+              "received": false
+            }
+          ],
+          "total_price": 62092,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Rebecastead",
+              "street": "Adams Street",
+              "house": 17,
+              "flat": 950
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-23T22:18:15.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694b15161c508c5d5efa9523",
+          "products": [
+            {
+              "_id": "694b15171c508c5d5efa9573",
+              "name": "Mouse34949",
+              "amount": 588,
+              "price": 25283,
+              "manufacturer": "Samsung",
+              "notes": "038OnzNobj5Dnzlkd9cN0pYi3oXezp7XaevYBHlDVLMJQoeyuANosEzICadzovXwnwfsTIose6HLcYWObjCCZzhQ5PeJJgKUr4UmO9Y5qJ0XdwICnpTQnigtR5SNvdX1koHbmPa7NUbJNd3BMkRsA1mQqs1MrmQAnXcGvgQAH6hpHqFEeBmirfZYSOYCvBDF10CLGLPiotbL63K9aPvL7Am0bPVFgHetRPQgDu2h4HhK5imYMSOcn6fDGZ",
+              "received": false
+            },
+            {
+              "_id": "694b15201c508c5d5efa9cde",
+              "name": "Computer25299",
+              "amount": 481,
+              "price": 36809,
+              "manufacturer": "Xiaomi",
+              "notes": "bus9oPtCbFKh5wXkzDVtREXl6FZYMA6mkxfRSBbIfvWFCLurPVIIXMWb94EjrE0Q1nAYr9QGz3DCkKc2eu1BuIanx9j1sQStNa3U9aIid4BGaGYgj9WpbLStzkO8cYIYslcbuLkipNJTsxX1KRs1P8stpizKgG4dax8xY7vvxnooacYNRpIMkbVwtzixd0zSmwh2ezjBdJmUH1FRG5mL6Rt1PBnnrzOXX8dSUBnHyCsSJEEf4j7yCS0Mpr",
+              "received": false
+            }
+          ],
+          "total_price": 62092,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Rebecastead",
+              "street": "Adams Street",
+              "house": 17,
+              "flat": 950
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-23T22:18:15.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b15161c508c5d5efa9523",
+          "products": [
+            {
+              "_id": "694b15171c508c5d5efa9573",
+              "name": "Mouse34949",
+              "amount": 588,
+              "price": 25283,
+              "manufacturer": "Samsung",
+              "notes": "038OnzNobj5Dnzlkd9cN0pYi3oXezp7XaevYBHlDVLMJQoeyuANosEzICadzovXwnwfsTIose6HLcYWObjCCZzhQ5PeJJgKUr4UmO9Y5qJ0XdwICnpTQnigtR5SNvdX1koHbmPa7NUbJNd3BMkRsA1mQqs1MrmQAnXcGvgQAH6hpHqFEeBmirfZYSOYCvBDF10CLGLPiotbL63K9aPvL7Am0bPVFgHetRPQgDu2h4HhK5imYMSOcn6fDGZ",
+              "received": false
+            },
+            {
+              "_id": "694b15201c508c5d5efa9cde",
+              "name": "Computer25299",
+              "amount": 481,
+              "price": 36809,
+              "manufacturer": "Xiaomi",
+              "notes": "bus9oPtCbFKh5wXkzDVtREXl6FZYMA6mkxfRSBbIfvWFCLurPVIIXMWb94EjrE0Q1nAYr9QGz3DCkKc2eu1BuIanx9j1sQStNa3U9aIid4BGaGYgj9WpbLStzkO8cYIYslcbuLkipNJTsxX1KRs1P8stpizKgG4dax8xY7vvxnooacYNRpIMkbVwtzixd0zSmwh2ezjBdJmUH1FRG5mL6Rt1PBnnrzOXX8dSUBnHyCsSJEEf4j7yCS0Mpr",
+              "received": false
+            }
+          ],
+          "total_price": 62092,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Rebecastead",
+              "street": "Adams Street",
+              "house": 17,
+              "flat": 950
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-23T22:18:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b15161c508c5d5efa9523",
+          "products": [
+            {
+              "_id": "694b15171c508c5d5efa9573",
+              "name": "Mouse34949",
+              "amount": 588,
+              "price": 25283,
+              "manufacturer": "Samsung",
+              "notes": "038OnzNobj5Dnzlkd9cN0pYi3oXezp7XaevYBHlDVLMJQoeyuANosEzICadzovXwnwfsTIose6HLcYWObjCCZzhQ5PeJJgKUr4UmO9Y5qJ0XdwICnpTQnigtR5SNvdX1koHbmPa7NUbJNd3BMkRsA1mQqs1MrmQAnXcGvgQAH6hpHqFEeBmirfZYSOYCvBDF10CLGLPiotbL63K9aPvL7Am0bPVFgHetRPQgDu2h4HhK5imYMSOcn6fDGZ",
+              "received": false
+            },
+            {
+              "_id": "694b15201c508c5d5efa9cde",
+              "name": "Computer25299",
+              "amount": 481,
+              "price": 36809,
+              "manufacturer": "Xiaomi",
+              "notes": "bus9oPtCbFKh5wXkzDVtREXl6FZYMA6mkxfRSBbIfvWFCLurPVIIXMWb94EjrE0Q1nAYr9QGz3DCkKc2eu1BuIanx9j1sQStNa3U9aIid4BGaGYgj9WpbLStzkO8cYIYslcbuLkipNJTsxX1KRs1P8stpizKgG4dax8xY7vvxnooacYNRpIMkbVwtzixd0zSmwh2ezjBdJmUH1FRG5mL6Rt1PBnnrzOXX8dSUBnHyCsSJEEf4j7yCS0Mpr",
+              "received": false
+            }
+          ],
+          "total_price": 62092,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:18:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

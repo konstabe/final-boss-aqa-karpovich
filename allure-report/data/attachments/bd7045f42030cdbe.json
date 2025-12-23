@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:17:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2971",
+    "etag": "W/\"b9b-2n8K2aoOM1eUwXFnS6AKkY4jnOM\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b14f61c508c5d5efa7edd",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b14f51c508c5d5efa7e5d",
+        "email": "Abigail_Romaguera@gmail.com",
+        "name": "Regan Ledner",
+        "country": "Great Britain",
+        "city": "Dothan",
+        "street": "Morar Crest",
+        "house": 47,
+        "flat": 80,
+        "phone": "+19682092053",
+        "createdOn": "2025-12-23T22:17:25.000Z",
+        "notes": "7NcnwLCQEcf4pBuLz7GycJB1B4F1EAaAN6323Y96eAAz6UjobOLlSaWoRSqdv2xqs3iV44HZs8eBRNpe9I3OHvbMzKutGc4ZP88XQ5fJhx5bl0c15fAeY3ni8Hzfp1Qijpxnoi57bnHVPmVOvL7KXpAmwjiFSDlRiEzORBiGFY1O7a5NJLERVtrtJXGrHQ7gjCeNweRqWjP7IEC0AahYeRAq644CjWGNyqj87yXeaNHPLlL4aiZp3RGiCG"
+      },
+      "products": [
+        {
+          "_id": "694b14f61c508c5d5efa7e8d",
+          "name": "Computer16092",
+          "amount": 583,
+          "price": 44893,
+          "manufacturer": "Microsoft",
+          "notes": "kJnhp1FkkAKXI4yWFv9HySbMnVYaTJN79kTYUN0VeV3uSZY1zVO8ivoUZ7DP4DnqervtT8bQBHzJOjpsVQYJYUv63lmkf3YTXl0G7ymg93VGj0V6OSNVGfK5twPMohDLKGpaUs3dthSVvOW9sBLWv3UfLgyoxvXblHd7xFQ2moT1vqoXxHwhUhk2MCcD8aqX4iXIjCLA8pFSZXz3XKJrMVh8XNjzUpBsnvkMcNUIdiXCSHp3vtXeStEjAX",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Dothan",
+          "street": "Morar Crest",
+          "house": 47,
+          "flat": 80
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 44893,
+      "createdOn": "2025-12-23T22:17:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b14f51c508c5d5efa7e5d",
+          "products": [
+            {
+              "_id": "694b14f61c508c5d5efa7e8d",
+              "name": "Computer16092",
+              "amount": 583,
+              "price": 44893,
+              "manufacturer": "Microsoft",
+              "notes": "kJnhp1FkkAKXI4yWFv9HySbMnVYaTJN79kTYUN0VeV3uSZY1zVO8ivoUZ7DP4DnqervtT8bQBHzJOjpsVQYJYUv63lmkf3YTXl0G7ymg93VGj0V6OSNVGfK5twPMohDLKGpaUs3dthSVvOW9sBLWv3UfLgyoxvXblHd7xFQ2moT1vqoXxHwhUhk2MCcD8aqX4iXIjCLA8pFSZXz3XKJrMVh8XNjzUpBsnvkMcNUIdiXCSHp3vtXeStEjAX",
+              "received": false
+            }
+          ],
+          "total_price": 44893,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Dothan",
+              "street": "Morar Crest",
+              "house": 47,
+              "flat": 80
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-23T22:17:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b14f51c508c5d5efa7e5d",
+          "products": [
+            {
+              "_id": "694b14f61c508c5d5efa7e8d",
+              "name": "Computer16092",
+              "amount": 583,
+              "price": 44893,
+              "manufacturer": "Microsoft",
+              "notes": "kJnhp1FkkAKXI4yWFv9HySbMnVYaTJN79kTYUN0VeV3uSZY1zVO8ivoUZ7DP4DnqervtT8bQBHzJOjpsVQYJYUv63lmkf3YTXl0G7ymg93VGj0V6OSNVGfK5twPMohDLKGpaUs3dthSVvOW9sBLWv3UfLgyoxvXblHd7xFQ2moT1vqoXxHwhUhk2MCcD8aqX4iXIjCLA8pFSZXz3XKJrMVh8XNjzUpBsnvkMcNUIdiXCSHp3vtXeStEjAX",
+              "received": false
+            }
+          ],
+          "total_price": 44893,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:17:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

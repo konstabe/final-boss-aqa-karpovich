@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:16:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2660",
+    "etag": "W/\"a64-iSmZKGlhvZqSbYXjbD2Yx9NbxE4\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b14d31c508c5d5efa63b5",
+        "email": "Lupe.Schoen46@hotmail.com",
+        "name": "Dina Hirthe",
+        "country": "Ukraine",
+        "city": "Gulgowskiport",
+        "street": "Considine Rapid",
+        "house": 9,
+        "flat": 180,
+        "phone": "+12612479720",
+        "createdOn": "2025-12-23T22:16:51.000Z",
+        "notes": "k9pK9Vf100YuW1TGNieyPzF2CZQD4fEEuoCU7eg85uYRs7Ex4YV6qXPcko1sNPN8b8Y3zPLF0oLLuUwCmexPa1mSWEpFk8bJVlY18odUuoPZGYFvuQlIQKPtkwRpUJApICD96JvHwJ9pw1LEFkRLA7mXCTNkrKhhbau5Fyzuui8wtyg76iwSduksGfdbycYRvCZQLLfTS1S6pTefEtrdMCQFLLw8UUVqPVmKQzkindrtyRmiHQBeAJwN46"
+      },
+      "products": [
+        {
+          "_id": "694b14d31c508c5d5efa63d8",
+          "name": "Chips90891",
+          "amount": 700,
+          "price": 45835,
+          "manufacturer": "Tesla",
+          "notes": "YFqpiqSK0QIQKNCisqpdOws36mmR8ALyOR5hDDNmmR40fhV6ZHjoTD0G828eckBb6tvkIb8DVDJTugLdrFwBbkNKTVFzlKzKKREiMRtbp0WLrbbmN7OTyVlb5zT04OCxl37vaKcvypJiIif3PlrUsAI1pWFSUDksAF7VNZJTnLEJOuc98Qytyjgr8kBeU8qknWt5t18n4eGajaCy45ilZSxyqFKxr8b5CmbQsJT9Osaiex5v6WeC7Kkdgo",
+          "received": false
+        },
+        {
+          "_id": "694b14d51c508c5d5efa64d7",
+          "name": "Keyboard52312",
+          "amount": 88,
+          "price": 82827,
+          "manufacturer": "Xiaomi",
+          "notes": "0YwEvkJKHhVQDZyA1DpdJ35ttOoFoiUJzqpw7APfFe10vhkee8O0cDeemmIk1t0DvRpXATm7pM37NUXZYbAmMgXtbQO404NsLxvsRPAt0DbzuE6tqJST7CRBLm9LIi17MAobvjSNpE8WtdREqGccyJPhmysVdl138zIBYtrF9QuQUicJuR4XXAApTHX9YLkMYdsDlLiBvmgBmYlidJrHJDARRpCKWO5ng73N52Ro63u7xLkFg0MYVd4y9t",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 128662,
+      "createdOn": "2025-12-23T22:16:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b14d31c508c5d5efa63b5",
+          "products": [
+            {
+              "_id": "694b14d31c508c5d5efa63d8",
+              "name": "Chips90891",
+              "amount": 700,
+              "price": 45835,
+              "manufacturer": "Tesla",
+              "notes": "YFqpiqSK0QIQKNCisqpdOws36mmR8ALyOR5hDDNmmR40fhV6ZHjoTD0G828eckBb6tvkIb8DVDJTugLdrFwBbkNKTVFzlKzKKREiMRtbp0WLrbbmN7OTyVlb5zT04OCxl37vaKcvypJiIif3PlrUsAI1pWFSUDksAF7VNZJTnLEJOuc98Qytyjgr8kBeU8qknWt5t18n4eGajaCy45ilZSxyqFKxr8b5CmbQsJT9Osaiex5v6WeC7Kkdgo",
+              "received": false
+            },
+            {
+              "_id": "694b14d51c508c5d5efa64d7",
+              "name": "Keyboard52312",
+              "amount": 88,
+              "price": 82827,
+              "manufacturer": "Xiaomi",
+              "notes": "0YwEvkJKHhVQDZyA1DpdJ35ttOoFoiUJzqpw7APfFe10vhkee8O0cDeemmIk1t0DvRpXATm7pM37NUXZYbAmMgXtbQO404NsLxvsRPAt0DbzuE6tqJST7CRBLm9LIi17MAobvjSNpE8WtdREqGccyJPhmysVdl138zIBYtrF9QuQUicJuR4XXAApTHX9YLkMYdsDlLiBvmgBmYlidJrHJDARRpCKWO5ng73N52Ro63u7xLkFg0MYVd4y9t",
+              "received": false
+            }
+          ],
+          "total_price": 128662,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:16:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b14d81c508c5d5efa6795"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

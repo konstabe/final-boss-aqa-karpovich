@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:16:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2660",
+    "etag": "W/\"a64-+AFddYoYenifmIU9oiTGM//4YsU\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b14d31c508c5d5efa63d1",
+        "email": "Jaylin_Hauck73@yahoo.com",
+        "name": "Lew Langworth",
+        "country": "Ukraine",
+        "city": "Shyanneview",
+        "street": "Parisian Bypass",
+        "house": 43,
+        "flat": 363,
+        "phone": "+13686055400",
+        "createdOn": "2025-12-23T22:16:51.000Z",
+        "notes": "lsoMLLNtBOtDqia9lTUBrTucjddgjnXsYSW5DYeP7H8Av4HCV4PlhZbJsjMDQeL5hVWs976BmpNg7aKB7UuYLsZntxGg8ZjGW02DwStr3wGlFdLW4yTv0e5M7mT01gNFWs2AIg3KHRngClClcuxynHc2jDuCLWKZNQ4hXPmkjyGpL9oPGnGJZZdjvMfJNQhjUKo6XMWdkP2eYjgLPRRMaCYVoDL16VbRho7AddcMS3fRKg2pYtVvFHFXP6"
+      },
+      "products": [
+        {
+          "_id": "694b14d51c508c5d5efa64d9",
+          "name": "Keyboard45056",
+          "amount": 434,
+          "price": 37674,
+          "manufacturer": "Tesla",
+          "notes": "MqdljNpo5h5QqYlCfGwf01u4AHxMrgNSfVjqAzxMWLVCedjcG6cJVwNySa7mJkK2bVCvesCPgSzd22nSzFl3mmcnSEHzHVOJIsaNswiyzoSd2b5o9mBdH69XArtuhcH378GFDggxylOISnIeyZVAspZjcmuAtIelsJRngpm2rUg9cYCO166CPZMpZOqzBxIX2p4Q2BAJ8ZDuid8zVb4JyarcYKI0ym7AKOQNeVMQFPyuDMld84A52EsO9k",
+          "received": false
+        },
+        {
+          "_id": "694b14d81c508c5d5efa678e",
+          "name": "Ball21772",
+          "amount": 206,
+          "price": 80039,
+          "manufacturer": "Google",
+          "notes": "UUYgGY8uJ0w0nK9LdhAkqW20ZEe6rEBqA2dfF51Nja6dt51VxuDNqvBtwCYrzH4nLpum3vkgdppxc2wN1YdG0XFXxpLdrwTtAYC21PeHyQVkSKwYEG4Ffx81BM3Ktmf3PQ663ZSRggBRiTfhx8wi359aQ0uX1VAbE8fMS2TerRZvZn0LQ3NzrOfb33pAGkPgShCmItbTYgfJUtSTO7G1a0ZDmlFjXWeu54jEzNXzLSVvqDiFSW7bJ6qA4x",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 117713,
+      "createdOn": "2025-12-23T22:16:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b14d31c508c5d5efa63d1",
+          "products": [
+            {
+              "_id": "694b14d51c508c5d5efa64d9",
+              "name": "Keyboard45056",
+              "amount": 434,
+              "price": 37674,
+              "manufacturer": "Tesla",
+              "notes": "MqdljNpo5h5QqYlCfGwf01u4AHxMrgNSfVjqAzxMWLVCedjcG6cJVwNySa7mJkK2bVCvesCPgSzd22nSzFl3mmcnSEHzHVOJIsaNswiyzoSd2b5o9mBdH69XArtuhcH378GFDggxylOISnIeyZVAspZjcmuAtIelsJRngpm2rUg9cYCO166CPZMpZOqzBxIX2p4Q2BAJ8ZDuid8zVb4JyarcYKI0ym7AKOQNeVMQFPyuDMld84A52EsO9k",
+              "received": false
+            },
+            {
+              "_id": "694b14d81c508c5d5efa678e",
+              "name": "Ball21772",
+              "amount": 206,
+              "price": 80039,
+              "manufacturer": "Google",
+              "notes": "UUYgGY8uJ0w0nK9LdhAkqW20ZEe6rEBqA2dfF51Nja6dt51VxuDNqvBtwCYrzH4nLpum3vkgdppxc2wN1YdG0XFXxpLdrwTtAYC21PeHyQVkSKwYEG4Ffx81BM3Ktmf3PQ663ZSRggBRiTfhx8wi359aQ0uX1VAbE8fMS2TerRZvZn0LQ3NzrOfb33pAGkPgShCmItbTYgfJUtSTO7G1a0ZDmlFjXWeu54jEzNXzLSVvqDiFSW7bJ6qA4x",
+              "received": false
+            }
+          ],
+          "total_price": 117713,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:16:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b14d91c508c5d5efa6802"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

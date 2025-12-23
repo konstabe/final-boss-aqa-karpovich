@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:17:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1911",
+    "etag": "W/\"777-WymXdw+82+GdQxcq0j/UoOHIWtA\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b14ff1c508c5d5efa84b6",
+        "email": "Giles_Breitenberg-Franecki@yahoo.com",
+        "name": "Claudie Simonis",
+        "country": "Great Britain",
+        "city": "Schillerfield",
+        "street": "Jefferson Avenue",
+        "house": 17,
+        "flat": 917,
+        "phone": "+16314628737",
+        "createdOn": "2025-12-23T22:17:35.000Z",
+        "notes": "K08gFzAncAQgQORcBOuQsKsFLuXcPZEyCri2gavnJGeLEgpgA3yk3KobJA70oUbDENp78Yjdqs3UeCu6tGDKBtN0Vi841rdOLS6R5XSOlWK1Gfm1D9aeRRB0fCwpeBcYHkD8YwmfP1CKOwW6xt8kD5syv4RcdfzOXsA4LV45mL0XXRuf9kuJd8Ba009bKK88lYHhs5wEpJZQqFFkpkdpOEXIvW4gHdmvSihwDP4gTAzQMlXxLrqzwhmzzf"
+      },
+      "products": [
+        {
+          "_id": "694b15031c508c5d5efa878a",
+          "name": "Pants99514",
+          "amount": 223,
+          "price": 65649,
+          "manufacturer": "Xiaomi",
+          "notes": "VYYdpNoHTl0jIq5qtGGx0bl9dwskBBFPZCLrPwgai1KHoAfAhqnkqP44MJiJekGt1NqWX0V3fiiRYCBh8ERfLW9EMbCot9FEgMcpNjOPdrkQffkovkWLHjkqwq59XMIgIWHntZzsAYyD4Z5FbfY4ss4NPp3JjMAtPy5YgWFrdbYBu7TYAdU8STh18hGwZcHm5QSnHNJVu350YpwDsEarNXW7bV1XgYsvjN7HwSA7B9Nc9SnRT2xeZHxu9S",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 65649,
+      "createdOn": "2025-12-23T22:17:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b14ff1c508c5d5efa84b6",
+          "products": [
+            {
+              "_id": "694b15031c508c5d5efa878a",
+              "name": "Pants99514",
+              "amount": 223,
+              "price": 65649,
+              "manufacturer": "Xiaomi",
+              "notes": "VYYdpNoHTl0jIq5qtGGx0bl9dwskBBFPZCLrPwgai1KHoAfAhqnkqP44MJiJekGt1NqWX0V3fiiRYCBh8ERfLW9EMbCot9FEgMcpNjOPdrkQffkovkWLHjkqwq59XMIgIWHntZzsAYyD4Z5FbfY4ss4NPp3JjMAtPy5YgWFrdbYBu7TYAdU8STh18hGwZcHm5QSnHNJVu350YpwDsEarNXW7bV1XgYsvjN7HwSA7B9Nc9SnRT2xeZHxu9S",
+              "received": false
+            }
+          ],
+          "total_price": 65649,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:17:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b15041c508c5d5efa8975"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

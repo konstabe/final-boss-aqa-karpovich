@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:17:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2938",
+    "etag": "W/\"b7a-ZPgt3k6W0ehXLhbIBl6riQtoGsA\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b14f51c508c5d5efa7e6f",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b14f41c508c5d5efa7dec",
+        "email": "Megane72@gmail.com",
+        "name": "Frankie Schmidt",
+        "country": "USA",
+        "city": "Passaic",
+        "street": "Keshawn Groves",
+        "house": 25,
+        "flat": 757,
+        "phone": "+12648434990",
+        "createdOn": "2025-12-23T22:17:24.000Z",
+        "notes": "EX0yN1p9XVIe0r4Iiz4urEYfuFn5YDbUYbXAjoWMsjiB8EJtJanbnD0cniZpO3UZsgOLhnzh5gClPbNqFWdIJnhdYnZafVNuWBCfCJNjBwYBM8Cw0kdk9LK7kRJq0fcE472ZlXSmIJfxVhAFTyOYnkXDYonpF6Sx7ozkwGvUyYHaGlESl5a2EDlpOuvtdEhyr5idcRuCLZLbDz80qySC49mlwfdHd6BgRXOLyQIYpj3OhzMwF0IbfcjtBI"
+      },
+      "products": [
+        {
+          "_id": "694b14f51c508c5d5efa7e2a",
+          "name": "Fish83121",
+          "amount": 402,
+          "price": 96017,
+          "manufacturer": "Microsoft",
+          "notes": "gxJiKfi43ATvPZSGwpDWoXRmPnZXwdjoziaA0MteolP7Xfm34cMc8fhwC0wMRP86D0OutxNGKPkMFIddumknrycE3cqcNkHnnIb88QNGgcu0fdyLSiNlZZOuC3ePirBUU9qUioVNodVZoyMmOju6TMJHROd3oELNW1kzqz48ySZfjutu16oprqf2xqnum7Q2c1b3Znm32kv1SRGCvLQPTq3xJ00stktqDsr6XTZMzUYUEzXTUj5YA5nhke",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Passaic",
+          "street": "Keshawn Groves",
+          "house": 25,
+          "flat": 757
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 96017,
+      "createdOn": "2025-12-23T22:17:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b14f41c508c5d5efa7dec",
+          "products": [
+            {
+              "_id": "694b14f51c508c5d5efa7e2a",
+              "name": "Fish83121",
+              "amount": 402,
+              "price": 96017,
+              "manufacturer": "Microsoft",
+              "notes": "gxJiKfi43ATvPZSGwpDWoXRmPnZXwdjoziaA0MteolP7Xfm34cMc8fhwC0wMRP86D0OutxNGKPkMFIddumknrycE3cqcNkHnnIb88QNGgcu0fdyLSiNlZZOuC3ePirBUU9qUioVNodVZoyMmOju6TMJHROd3oELNW1kzqz48ySZfjutu16oprqf2xqnum7Q2c1b3Znm32kv1SRGCvLQPTq3xJ00stktqDsr6XTZMzUYUEzXTUj5YA5nhke",
+              "received": false
+            }
+          ],
+          "total_price": 96017,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Passaic",
+              "street": "Keshawn Groves",
+              "house": 25,
+              "flat": 757
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-23T22:17:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b14f41c508c5d5efa7dec",
+          "products": [
+            {
+              "_id": "694b14f51c508c5d5efa7e2a",
+              "name": "Fish83121",
+              "amount": 402,
+              "price": 96017,
+              "manufacturer": "Microsoft",
+              "notes": "gxJiKfi43ATvPZSGwpDWoXRmPnZXwdjoziaA0MteolP7Xfm34cMc8fhwC0wMRP86D0OutxNGKPkMFIddumknrycE3cqcNkHnnIb88QNGgcu0fdyLSiNlZZOuC3ePirBUU9qUioVNodVZoyMmOju6TMJHROd3oELNW1kzqz48ySZfjutu16oprqf2xqnum7Q2c1b3Znm32kv1SRGCvLQPTq3xJ00stktqDsr6XTZMzUYUEzXTUj5YA5nhke",
+              "received": false
+            }
+          ],
+          "total_price": 96017,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:17:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

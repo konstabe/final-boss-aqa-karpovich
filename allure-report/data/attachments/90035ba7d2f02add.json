@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:17:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4774",
+    "etag": "W/\"12a6-MRz7U4ZptjUoMVEHSSsV4wvvnZA\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b14f51c508c5d5efa7e30",
+      "status": "Received",
+      "customer": {
+        "_id": "694b14f31c508c5d5efa7cf6",
+        "email": "Evert.Stroman12@hotmail.com",
+        "name": "Afton Weber",
+        "country": "USA",
+        "city": "Port Alia",
+        "street": "E Broadway Street",
+        "house": 5,
+        "flat": 897,
+        "phone": "+16159372808",
+        "createdOn": "2025-12-23T22:17:23.000Z",
+        "notes": "JK6bqhSNs0D2dEf5yZIM7xqjD9zyWS3PmSwpFFzZ2vGleVCbbS3FA4eRDBR2SWYPwxLMxvJiUgCgkNVtMjSP8xdXJ354vdB4Ff0nNbUHZ5UxLpEzJnmQSm3EVjSF4m9c9lFDhAwKJMeBSp5ruZE6VFZnyKTk3KSSs7oBvLTf30SIQLe8Pi9YvMCfUHhFgBR3QNRVuGPE1onCVciKguTsqGk5CeNmfR5rC5n9Ogw3nQN3evTXDr3Qda2Rou"
+      },
+      "products": [
+        {
+          "_id": "694b14f41c508c5d5efa7dfb",
+          "name": "Mouse8625",
+          "amount": 639,
+          "price": 88024,
+          "manufacturer": "Sony",
+          "notes": "AKsoMCnO5RSltoTjuv3tpSYDl0sqmoQxsBBq7eS8ROYmO29yUAh5YzgWVY81uayn1k0TJ06sAAuIY3loYRwdHfkq6uW4tggGyiaUptclG2SZYF87Zs2WIHQKlabONZEZath5FnUSafQ0lgfjVop09ohMeT8fwcGJmEbBNu7wDMZjgHJSjwmq1HExoN5CJTfwrHr6yvYiKOIAetyAhdc6fwownnX4sv9I0ijkAcYON8zKEHsFPAJGItzkpW",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Port Alia",
+          "street": "E Broadway Street",
+          "house": 5,
+          "flat": 897
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 88024,
+      "createdOn": "2025-12-23T22:17:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694b14f31c508c5d5efa7cf6",
+          "products": [
+            {
+              "_id": "694b14f41c508c5d5efa7dfb",
+              "name": "Mouse8625",
+              "amount": 639,
+              "price": 88024,
+              "manufacturer": "Sony",
+              "notes": "AKsoMCnO5RSltoTjuv3tpSYDl0sqmoQxsBBq7eS8ROYmO29yUAh5YzgWVY81uayn1k0TJ06sAAuIY3loYRwdHfkq6uW4tggGyiaUptclG2SZYF87Zs2WIHQKlabONZEZath5FnUSafQ0lgfjVop09ohMeT8fwcGJmEbBNu7wDMZjgHJSjwmq1HExoN5CJTfwrHr6yvYiKOIAetyAhdc6fwownnX4sv9I0ijkAcYON8zKEHsFPAJGItzkpW",
+              "received": true
+            }
+          ],
+          "total_price": 88024,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Port Alia",
+              "street": "E Broadway Street",
+              "house": 5,
+              "flat": 897
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-23T22:17:28.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694b14f31c508c5d5efa7cf6",
+          "products": [
+            {
+              "_id": "694b14f41c508c5d5efa7dfb",
+              "name": "Mouse8625",
+              "amount": 639,
+              "price": 88024,
+              "manufacturer": "Sony",
+              "notes": "AKsoMCnO5RSltoTjuv3tpSYDl0sqmoQxsBBq7eS8ROYmO29yUAh5YzgWVY81uayn1k0TJ06sAAuIY3loYRwdHfkq6uW4tggGyiaUptclG2SZYF87Zs2WIHQKlabONZEZath5FnUSafQ0lgfjVop09ohMeT8fwcGJmEbBNu7wDMZjgHJSjwmq1HExoN5CJTfwrHr6yvYiKOIAetyAhdc6fwownnX4sv9I0ijkAcYON8zKEHsFPAJGItzkpW",
+              "received": false
+            }
+          ],
+          "total_price": 88024,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Port Alia",
+              "street": "E Broadway Street",
+              "house": 5,
+              "flat": 897
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-23T22:17:27.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b14f31c508c5d5efa7cf6",
+          "products": [
+            {
+              "_id": "694b14f41c508c5d5efa7dfb",
+              "name": "Mouse8625",
+              "amount": 639,
+              "price": 88024,
+              "manufacturer": "Sony",
+              "notes": "AKsoMCnO5RSltoTjuv3tpSYDl0sqmoQxsBBq7eS8ROYmO29yUAh5YzgWVY81uayn1k0TJ06sAAuIY3loYRwdHfkq6uW4tggGyiaUptclG2SZYF87Zs2WIHQKlabONZEZath5FnUSafQ0lgfjVop09ohMeT8fwcGJmEbBNu7wDMZjgHJSjwmq1HExoN5CJTfwrHr6yvYiKOIAetyAhdc6fwownnX4sv9I0ijkAcYON8zKEHsFPAJGItzkpW",
+              "received": false
+            }
+          ],
+          "total_price": 88024,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Port Alia",
+              "street": "E Broadway Street",
+              "house": 5,
+              "flat": 897
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-23T22:17:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b14f31c508c5d5efa7cf6",
+          "products": [
+            {
+              "_id": "694b14f41c508c5d5efa7dfb",
+              "name": "Mouse8625",
+              "amount": 639,
+              "price": 88024,
+              "manufacturer": "Sony",
+              "notes": "AKsoMCnO5RSltoTjuv3tpSYDl0sqmoQxsBBq7eS8ROYmO29yUAh5YzgWVY81uayn1k0TJ06sAAuIY3loYRwdHfkq6uW4tggGyiaUptclG2SZYF87Zs2WIHQKlabONZEZath5FnUSafQ0lgfjVop09ohMeT8fwcGJmEbBNu7wDMZjgHJSjwmq1HExoN5CJTfwrHr6yvYiKOIAetyAhdc6fwownnX4sv9I0ijkAcYON8zKEHsFPAJGItzkpW",
+              "received": false
+            }
+          ],
+          "total_price": 88024,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:17:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

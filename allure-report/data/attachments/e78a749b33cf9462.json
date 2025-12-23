@@ -1,0 +1,137 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:18:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4200",
+    "etag": "W/\"1068-gdqkLCMLrpzBPEcqUxVilTKpD3c\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b154a1c508c5d5efabd02",
+        "email": "Luz.Moore@yahoo.com",
+        "name": "Joannie Mitchell",
+        "country": "Great Britain",
+        "city": "Vista",
+        "street": "Michelle Throughway",
+        "house": 13,
+        "flat": 374,
+        "phone": "+17057737790",
+        "createdOn": "2025-12-23T22:18:50.000Z",
+        "notes": "RzR1c8GfOJ1Nq7pGFQxXAnFnwm9GOPZNasT3rab24PQMRe63rGoFpMIlRZmMkxRRaU7BVAR3hYfQF1icrKqExiomrFdu22224edYrUWwA0qg5JIcFdudaE60SRmJCppIvMMOMgWaLLD04WQxpJYTyjbL14qn7n0k7Xi59mwcNSyTiGnQfNJjjNc1hI42ZfmMOGakU0G7aHSfmugeJpb1Y0hlXOaCxx1gCvc0DNHJpMxfRTcoCpX99KbM83"
+      },
+      "products": [
+        {
+          "_id": "694b154b1c508c5d5efabd2e",
+          "name": "Chicken71016",
+          "amount": 555,
+          "price": 30200,
+          "manufacturer": "Microsoft",
+          "notes": "SbVl5FdU98nH2nP6b5yXfSKINDAJOsfSdvoWH1ba6xtF9mKtVH45S8Agz2YlsTnk3DKtbOgfWIuuBPUJ3gOlt6aQkIlIEfwfu8p98XVfzBeGn740odncuPqEbTNSfTcgr3aqV1n57fz1Dqf3LPDezu8SGuITkAEwiDaY1GjEdTj89sGu5bZw2WNCW544LC0wbhZTD7O5JZYFKAXYHMgaVvDWLupW1SADRauvsRoqRzRnAKR52aC9LD10es",
+          "received": false
+        },
+        {
+          "_id": "694b154b1c508c5d5efabd54",
+          "name": "Salad18544",
+          "amount": 224,
+          "price": 81563,
+          "manufacturer": "Samsung",
+          "notes": "XtTOAzhyRf5pK4lcmJrRPtnAUmcmANSMloT2hY2MyhicCwlhaUrxyoTuYNJjGzPOKl8JuqX9cWv8N0nbDdFIkByalohLYNqMezeEWMFQSD6jWbykyi47OuhVbWcjmiinOSDlwXE60zf2Se95bNkafnHDa3aLBLx2dJ5VkbEXtovaplL59F0hys3vh4iMhMe9rIXUC5HoMiGUQ05c1WC9rCDWe3xGpfnGqKv0bQ9CFPHeDREPfHBPPGJZ9Q",
+          "received": false
+        },
+        {
+          "_id": "694b154c1c508c5d5efabd96",
+          "name": "Tuna74137",
+          "amount": 88,
+          "price": 25629,
+          "manufacturer": "Amazon",
+          "notes": "TADuySuhQX06L2UDiFeEZqG1BlpI9xlmkXKVyhVHCWL2Ri7HFJKqOLi3UL9Gh6xvQwhbwTQvj0k9MRmC5wLbgV0OjroI2MkkKcFMGitq18wk1MibsNzyP5uH1OZUJB1Mwz7ocPFuo5tELS2KUJdhFX8UkL4kdacnFQkBtwZQIDBnCPgvYuNngFyml26sOJgJj6rxBrSsy69kLBjGzsklEYmpiacpCy34WcwpbPyxP7TP4sDOhN8Mgufchg",
+          "received": false
+        },
+        {
+          "_id": "694b154c1c508c5d5efabdc1",
+          "name": "Soap86960",
+          "amount": 947,
+          "price": 33220,
+          "manufacturer": "Apple",
+          "notes": "Vlwpm2ghYv2Erd5CDsYCekG4sDrV3n2kJsA6QfGbCt6j99uud86CVwIzFUDNTl9I4GhjUg9aN7gajAfoirolQc1qUaz2ZK0A1G0rDwcANlk5jFsdqDVhylJEBSUrlgpRLNQwsMuFDKWERwdldYHyAd9ppirQ9elOuzXAUljaFhJUseBC2GmeJRoQKaSGp7IksjVONh2xWTfhvRa3n6duASbCQzWkgxSTZC2VgvQZYksnXBLwzgFOmzp0gW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 170612,
+      "createdOn": "2025-12-23T22:18:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b154a1c508c5d5efabd02",
+          "products": [
+            {
+              "_id": "694b154b1c508c5d5efabd2e",
+              "name": "Chicken71016",
+              "amount": 555,
+              "price": 30200,
+              "manufacturer": "Microsoft",
+              "notes": "SbVl5FdU98nH2nP6b5yXfSKINDAJOsfSdvoWH1ba6xtF9mKtVH45S8Agz2YlsTnk3DKtbOgfWIuuBPUJ3gOlt6aQkIlIEfwfu8p98XVfzBeGn740odncuPqEbTNSfTcgr3aqV1n57fz1Dqf3LPDezu8SGuITkAEwiDaY1GjEdTj89sGu5bZw2WNCW544LC0wbhZTD7O5JZYFKAXYHMgaVvDWLupW1SADRauvsRoqRzRnAKR52aC9LD10es",
+              "received": false
+            },
+            {
+              "_id": "694b154b1c508c5d5efabd54",
+              "name": "Salad18544",
+              "amount": 224,
+              "price": 81563,
+              "manufacturer": "Samsung",
+              "notes": "XtTOAzhyRf5pK4lcmJrRPtnAUmcmANSMloT2hY2MyhicCwlhaUrxyoTuYNJjGzPOKl8JuqX9cWv8N0nbDdFIkByalohLYNqMezeEWMFQSD6jWbykyi47OuhVbWcjmiinOSDlwXE60zf2Se95bNkafnHDa3aLBLx2dJ5VkbEXtovaplL59F0hys3vh4iMhMe9rIXUC5HoMiGUQ05c1WC9rCDWe3xGpfnGqKv0bQ9CFPHeDREPfHBPPGJZ9Q",
+              "received": false
+            },
+            {
+              "_id": "694b154c1c508c5d5efabd96",
+              "name": "Tuna74137",
+              "amount": 88,
+              "price": 25629,
+              "manufacturer": "Amazon",
+              "notes": "TADuySuhQX06L2UDiFeEZqG1BlpI9xlmkXKVyhVHCWL2Ri7HFJKqOLi3UL9Gh6xvQwhbwTQvj0k9MRmC5wLbgV0OjroI2MkkKcFMGitq18wk1MibsNzyP5uH1OZUJB1Mwz7ocPFuo5tELS2KUJdhFX8UkL4kdacnFQkBtwZQIDBnCPgvYuNngFyml26sOJgJj6rxBrSsy69kLBjGzsklEYmpiacpCy34WcwpbPyxP7TP4sDOhN8Mgufchg",
+              "received": false
+            },
+            {
+              "_id": "694b154c1c508c5d5efabdc1",
+              "name": "Soap86960",
+              "amount": 947,
+              "price": 33220,
+              "manufacturer": "Apple",
+              "notes": "Vlwpm2ghYv2Erd5CDsYCekG4sDrV3n2kJsA6QfGbCt6j99uud86CVwIzFUDNTl9I4GhjUg9aN7gajAfoirolQc1qUaz2ZK0A1G0rDwcANlk5jFsdqDVhylJEBSUrlgpRLNQwsMuFDKWERwdldYHyAd9ppirQ9elOuzXAUljaFhJUseBC2GmeJRoQKaSGp7IksjVONh2xWTfhvRa3n6duASbCQzWkgxSTZC2VgvQZYksnXBLwzgFOmzp0gW",
+              "received": false
+            }
+          ],
+          "total_price": 170612,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:18:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b154d1c508c5d5efabe10"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

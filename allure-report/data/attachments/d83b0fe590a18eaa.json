@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:17:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1902",
+    "etag": "W/\"76e-8XLu/CRpXn2fVO3iTm/2B4/ZXfg\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b14dc1c508c5d5efa6bd1",
+        "email": "Cindy_Oberbrunner@hotmail.com",
+        "name": "Brisa Little",
+        "country": "Great Britain",
+        "city": "Port Chris",
+        "street": "Cade Row",
+        "house": 48,
+        "flat": 639,
+        "phone": "+18954619763",
+        "createdOn": "2025-12-23T22:17:00.000Z",
+        "notes": "4pPKCpmFqhebcIWQx5oPwGPCkKB4EdpBIwI464ScwSeIEJ8ADG7C2BdruHaeld8QLjFb5UjGRsSVZ19jPUjiacdF1yHkWWI2VzuvAlJuS4oSTPO9S5ibPJPUCSBBsupi4M9keJGCa7S15kIo5cG6hKwegjybJDPkiS1jrFtD0q8lTMMLgaKTk0QiLueRkYYDc10fkUpDcyq19l5NLAwKOZqIIa4ni3Wq670y6Z6OItFjSsyoKFPojbh666"
+      },
+      "products": [
+        {
+          "_id": "694b14dd1c508c5d5efa6bf5",
+          "name": "Keyboard25270",
+          "amount": 120,
+          "price": 96363,
+          "manufacturer": "Microsoft",
+          "notes": "l3WeVq2xx07opOZKpH8tjXzAf2FTJJieUCq1Xhc2Grdg9i24c4s8xO0ZD1PKG3N8XPuqEvabqBCUrWmP1fc7iW52z2uY4U4YICXyBibh1MxXkEtxopHmdipf3vq1S8KFOPrnUuAULvfYuN9QjlHiAmyhHn3Pojw91kjf80Yx9XklnNadOkZrHPIJ3MWGBdUzDTCMspm9wCOF9BzeVmFrUMKZtrbRQxMu4opEuyP4uAiCDRsgA2tMmFbkPD",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 96363,
+      "createdOn": "2025-12-23T22:17:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b14dc1c508c5d5efa6bd1",
+          "products": [
+            {
+              "_id": "694b14dd1c508c5d5efa6bf5",
+              "name": "Keyboard25270",
+              "amount": 120,
+              "price": 96363,
+              "manufacturer": "Microsoft",
+              "notes": "l3WeVq2xx07opOZKpH8tjXzAf2FTJJieUCq1Xhc2Grdg9i24c4s8xO0ZD1PKG3N8XPuqEvabqBCUrWmP1fc7iW52z2uY4U4YICXyBibh1MxXkEtxopHmdipf3vq1S8KFOPrnUuAULvfYuN9QjlHiAmyhHn3Pojw91kjf80Yx9XklnNadOkZrHPIJ3MWGBdUzDTCMspm9wCOF9BzeVmFrUMKZtrbRQxMu4opEuyP4uAiCDRsgA2tMmFbkPD",
+              "received": false
+            }
+          ],
+          "total_price": 96363,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:17:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b14df1c508c5d5efa6d1c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

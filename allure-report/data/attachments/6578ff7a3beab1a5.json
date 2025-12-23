@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:16:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3873",
+    "etag": "W/\"f21-Wts3Ah4MtdS+QKbO/XDd5pvIKaw\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b14c71c508c5d5efa5abb",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b14c71c508c5d5efa5a6c",
+        "email": "Annabel.McDermott@hotmail.com",
+        "name": "Jonatan Mertz",
+        "country": "Russia",
+        "city": "Fort Tryciaport",
+        "street": "Medhurst Way",
+        "house": 15,
+        "flat": 166,
+        "phone": "+17848132781",
+        "createdOn": "2025-12-23T22:16:39.000Z",
+        "notes": "SdPjeaETxozBLW4ZNjgQaOfoQFPz6KE3Na4OW62aHlHdTCYzfPpGEEJ8nOpbROHg9DFM4ivAXl9Uv11vjE3dvZt5c0PJwi99nJzKzg1xvBPFo4oIFlmK4S5v12eG2gibUGZ5hUgyPlEyyCAkEDkkjOsqvZkF379fbkmMK0BvIBHQfAhhqepOo6YlStajtQC62skZZp9sBz3EhywGDOrMpohvRnDdVc93VSQ7JtjZWUH4WlLPt0MKMTbNKd"
+      },
+      "products": [
+        {
+          "_id": "694b14c71c508c5d5efa5a8b",
+          "name": "Tuna43077",
+          "amount": 297,
+          "price": 15741,
+          "manufacturer": "Google",
+          "notes": "ocOjramw76j3s6oXiI5CqcFCt3pRZdbLsSqmwUQ2SXRCf3PWZq2g47Bnl0VQSGTVIporf74IU2f5BGUCeyNM4FV4vINbLbXIrR97NrHMYCfJNB7phPMILLaP9TmocNf03w3qPSCBUkn7omr0IltwGNvkhxQAudN3Vr7KA9K1XLQAV7gVJXCz2qh6nXPbG1hTrRKjmH7m8owGllReKIROmyn15ZKKXrjmut9hvHOPYE7wMF9ap55a5zRQN7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 15741,
+      "createdOn": "2025-12-23T22:16:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b14c71c508c5d5efa5a6c",
+          "products": [
+            {
+              "_id": "694b14c71c508c5d5efa5a8b",
+              "name": "Tuna43077",
+              "amount": 297,
+              "price": 15741,
+              "manufacturer": "Google",
+              "notes": "ocOjramw76j3s6oXiI5CqcFCt3pRZdbLsSqmwUQ2SXRCf3PWZq2g47Bnl0VQSGTVIporf74IU2f5BGUCeyNM4FV4vINbLbXIrR97NrHMYCfJNB7phPMILLaP9TmocNf03w3qPSCBUkn7omr0IltwGNvkhxQAudN3Vr7KA9K1XLQAV7gVJXCz2qh6nXPbG1hTrRKjmH7m8owGllReKIROmyn15ZKKXrjmut9hvHOPYE7wMF9ap55a5zRQN7",
+              "received": false
+            }
+          ],
+          "total_price": 15741,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:16:40.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "694b14c71c508c5d5efa5a6c",
+          "products": [
+            {
+              "_id": "694b14c71c508c5d5efa5a8b",
+              "name": "Tuna43077",
+              "amount": 297,
+              "price": 15741,
+              "manufacturer": "Google",
+              "notes": "ocOjramw76j3s6oXiI5CqcFCt3pRZdbLsSqmwUQ2SXRCf3PWZq2g47Bnl0VQSGTVIporf74IU2f5BGUCeyNM4FV4vINbLbXIrR97NrHMYCfJNB7phPMILLaP9TmocNf03w3qPSCBUkn7omr0IltwGNvkhxQAudN3Vr7KA9K1XLQAV7gVJXCz2qh6nXPbG1hTrRKjmH7m8owGllReKIROmyn15ZKKXrjmut9hvHOPYE7wMF9ap55a5zRQN7",
+              "received": false
+            }
+          ],
+          "total_price": 15741,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:16:40.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "694b14c71c508c5d5efa5a6c",
+          "products": [
+            {
+              "_id": "694b14c71c508c5d5efa5a8b",
+              "name": "Tuna43077",
+              "amount": 297,
+              "price": 15741,
+              "manufacturer": "Google",
+              "notes": "ocOjramw76j3s6oXiI5CqcFCt3pRZdbLsSqmwUQ2SXRCf3PWZq2g47Bnl0VQSGTVIporf74IU2f5BGUCeyNM4FV4vINbLbXIrR97NrHMYCfJNB7phPMILLaP9TmocNf03w3qPSCBUkn7omr0IltwGNvkhxQAudN3Vr7KA9K1XLQAV7gVJXCz2qh6nXPbG1hTrRKjmH7m8owGllReKIROmyn15ZKKXrjmut9hvHOPYE7wMF9ap55a5zRQN7",
+              "received": false
+            }
+          ],
+          "total_price": 15741,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:16:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95332d",
+        "username": "student6@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Padberg",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

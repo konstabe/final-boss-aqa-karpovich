@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:17:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3428",
+    "etag": "W/\"d64-23ZWSVAV/BbharadLNm3qk1BNik\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b15061c508c5d5efa89e9",
+        "email": "Katelynn.Conroy@yahoo.com",
+        "name": "Shaina Muller",
+        "country": "Russia",
+        "city": "West Maximoland",
+        "street": "Gerhold Parks",
+        "house": 23,
+        "flat": 458,
+        "phone": "+14828855673",
+        "createdOn": "2025-12-23T22:17:42.000Z",
+        "notes": "ufdcpt9nFUrwjDAm0qbO8lP1XhrrXYDcBotrsjCmgAOXHdqV78H3vgJBsmGWFvtXsYJsvONGoVC8lMrb2CYBTTZbewa0wH0otuNDzqqu1UKevEhCoCFGfH756rrSvrqMtEPzZwXYJEA02lwfcHf3ZsTZ1FAijlf5UvCFv6wUZaoL7FxI6KZ7CuefCl0adm6NcKrWRQ414VFCO2k4TbpVVTww1RugV7blz6HJSnsfjsnilSlYNKOMExSPd7"
+      },
+      "products": [
+        {
+          "_id": "694b15071c508c5d5efa8a13",
+          "name": "Bike70526",
+          "amount": 242,
+          "price": 43420,
+          "manufacturer": "Amazon",
+          "notes": "xnAY1UeuJKUCC72SfI1OXLc00S8aTOGpGSB5A669ttIJf8Df0CEccOPQClmaoB6dDSDOJBK8tWjXLHnWYo9IZrPafXMQJNnbE6WOc5yqmjALJn6R991kaacaBWMjDQ7JV57FFuCiDm5PCajvzAig5xRtT8CsGPvDVfkBkeHcfKpOmhmAG7De5wrhmfpXXOgbb8MYh5zoSuXOVfMCqyOxqaflsVBOwIVvcTA9oCOIYGc27RKIVnFJ7MssH4",
+          "received": false
+        },
+        {
+          "_id": "694b15071c508c5d5efa8a43",
+          "name": "Pizza48828",
+          "amount": 760,
+          "price": 8181,
+          "manufacturer": "Apple",
+          "notes": "BL3f3ngr4gOzFZ1ltGMStm5A45befbeJL0WPAcPOuUl0hGXQSOI6KpvNRVYh0p7izxYBqIF85P2HlsBs7TrMu00yL8gBtcC4enJW8EvRVhAqqXFdrqmR1vOSZfAtihE9pdxE6lcQkjGmwZeXlgflIUKynIFxdpjRUdVf7mmWdyVc5uVYRc5zR1CjFr8qfsBgCyftHgRjbKfUndRLa2kNqnBbVMCdBTmHIkU1Unp7pv50BEhX6khPsGhcrD",
+          "received": false
+        },
+        {
+          "_id": "694b15081c508c5d5efa8a83",
+          "name": "Computer33399",
+          "amount": 729,
+          "price": 52962,
+          "manufacturer": "Google",
+          "notes": "F24cTBj4nPEdDF7IjnaRS5kutLSnbCwyIsZJIzuZd06oYykqO6lCVnCkdSNWapnAwveXfJHikgKDd3MqRgoM3rQedrNlINzlC60rldbvFYNUabjBGJW3O54gDTxPcab8m2FrlmC1LVR8xjfEt2lUuKO3mVZUJum4AWxAyZFmktUa3TMNZ1LuYEWRWrZ7CKMaEIE2AoRh75CPo9DqhBTIir7J3hFQwyEi4yUY62ti94VQqD7fTJZpK8zeV8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 104563,
+      "createdOn": "2025-12-23T22:17:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b15061c508c5d5efa89e9",
+          "products": [
+            {
+              "_id": "694b15071c508c5d5efa8a13",
+              "name": "Bike70526",
+              "amount": 242,
+              "price": 43420,
+              "manufacturer": "Amazon",
+              "notes": "xnAY1UeuJKUCC72SfI1OXLc00S8aTOGpGSB5A669ttIJf8Df0CEccOPQClmaoB6dDSDOJBK8tWjXLHnWYo9IZrPafXMQJNnbE6WOc5yqmjALJn6R991kaacaBWMjDQ7JV57FFuCiDm5PCajvzAig5xRtT8CsGPvDVfkBkeHcfKpOmhmAG7De5wrhmfpXXOgbb8MYh5zoSuXOVfMCqyOxqaflsVBOwIVvcTA9oCOIYGc27RKIVnFJ7MssH4",
+              "received": false
+            },
+            {
+              "_id": "694b15071c508c5d5efa8a43",
+              "name": "Pizza48828",
+              "amount": 760,
+              "price": 8181,
+              "manufacturer": "Apple",
+              "notes": "BL3f3ngr4gOzFZ1ltGMStm5A45befbeJL0WPAcPOuUl0hGXQSOI6KpvNRVYh0p7izxYBqIF85P2HlsBs7TrMu00yL8gBtcC4enJW8EvRVhAqqXFdrqmR1vOSZfAtihE9pdxE6lcQkjGmwZeXlgflIUKynIFxdpjRUdVf7mmWdyVc5uVYRc5zR1CjFr8qfsBgCyftHgRjbKfUndRLa2kNqnBbVMCdBTmHIkU1Unp7pv50BEhX6khPsGhcrD",
+              "received": false
+            },
+            {
+              "_id": "694b15081c508c5d5efa8a83",
+              "name": "Computer33399",
+              "amount": 729,
+              "price": 52962,
+              "manufacturer": "Google",
+              "notes": "F24cTBj4nPEdDF7IjnaRS5kutLSnbCwyIsZJIzuZd06oYykqO6lCVnCkdSNWapnAwveXfJHikgKDd3MqRgoM3rQedrNlINzlC60rldbvFYNUabjBGJW3O54gDTxPcab8m2FrlmC1LVR8xjfEt2lUuKO3mVZUJum4AWxAyZFmktUa3TMNZ1LuYEWRWrZ7CKMaEIE2AoRh75CPo9DqhBTIir7J3hFQwyEi4yUY62ti94VQqD7fTJZpK8zeV8",
+              "received": false
+            }
+          ],
+          "total_price": 104563,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:17:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b15081c508c5d5efa8ab8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

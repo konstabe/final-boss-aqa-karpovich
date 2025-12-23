@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:16:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2651",
+    "etag": "W/\"a5b-UDW2IyjdrGVFOAyGsgzI18H1dJA\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b14c51c508c5d5efa5935",
+        "email": "Tavares_Franecki14@gmail.com",
+        "name": "Shayna Fay",
+        "country": "USA",
+        "city": "Jaredside",
+        "street": "Kellen Mountains",
+        "house": 2,
+        "flat": 170,
+        "phone": "+12664642009",
+        "createdOn": "2025-12-23T22:16:37.000Z",
+        "notes": "VA6btX9iiBjKylHx2f22u1GGpzRxkoB3ZPLJ5SSFKDhwpxGxFrYRLBw0ARACdzsqoWe3mEsokW3VdTSSFpBv60I02TYWhxCuaMKcFiBGt9P3ZjsGrw1Sz0Vrd5thdXoLIFsjRpWNPdwqpaKLgr7ILw8aC0kUNM6lmws5zwZwVEFDqk6G3KwB3hptqyotYOy3gFbbBMpMJikiIxLW68AHFYvyZOG4GxZGyKV0GwAZQ1eCeVr87ck9QlevNQ"
+      },
+      "products": [
+        {
+          "_id": "694b14c51c508c5d5efa5954",
+          "name": "Shirt87244",
+          "amount": 640,
+          "price": 22319,
+          "manufacturer": "Microsoft",
+          "notes": "30wgGxWlcw2MmFrM0XCQehNJQR6RrwPxii2yhwJ88BNUwLaigzq2sEbo5EpQLLFtMgc5hpWLWyuAPGVnlkHJLReX8wfCGmM2L2CCuUuFjbfNYBcrSHBsJ3oIxzaV0W4r0CdYJBzhJmWhLtBXKQ41VvZC3QJfln4TJ6vj5asU1iLwj37rcdSVrFfkqxvCmGv96osqiMs5Hbctx9pjBSVb2WwbTTOm52D5IAEj1L3OjG83CTvPPjokgpQjKZ",
+          "received": false
+        },
+        {
+          "_id": "694b14c61c508c5d5efa59bf",
+          "name": "Chair48881",
+          "amount": 39,
+          "price": 62144,
+          "manufacturer": "Sony",
+          "notes": "xlk1z4MMTcre3ywtSGio7dBEI9oaXsYfOAqld34d3z53Yzxovj4y6qYuMJdw8g5tsZFMmjNS2IDzCxeDG3fXsI7EHi2PW2qKqZp4dDY7OOQVrkd3Uz9ONkbZP5zrKVjDGXsqNH27Tn9UZJqhjLLVcumwvXtdIHuqZr3MpnoqhJZR3rXhHXiBZLv7N2PgJKDRgrJb8O0UnbtFdtrvHuzTxRcElFEWwo0eS9yiU8HuuOZN1gNcfSKZWq1iuj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 84463,
+      "createdOn": "2025-12-23T22:16:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b14c51c508c5d5efa5935",
+          "products": [
+            {
+              "_id": "694b14c51c508c5d5efa5954",
+              "name": "Shirt87244",
+              "amount": 640,
+              "price": 22319,
+              "manufacturer": "Microsoft",
+              "notes": "30wgGxWlcw2MmFrM0XCQehNJQR6RrwPxii2yhwJ88BNUwLaigzq2sEbo5EpQLLFtMgc5hpWLWyuAPGVnlkHJLReX8wfCGmM2L2CCuUuFjbfNYBcrSHBsJ3oIxzaV0W4r0CdYJBzhJmWhLtBXKQ41VvZC3QJfln4TJ6vj5asU1iLwj37rcdSVrFfkqxvCmGv96osqiMs5Hbctx9pjBSVb2WwbTTOm52D5IAEj1L3OjG83CTvPPjokgpQjKZ",
+              "received": false
+            },
+            {
+              "_id": "694b14c61c508c5d5efa59bf",
+              "name": "Chair48881",
+              "amount": 39,
+              "price": 62144,
+              "manufacturer": "Sony",
+              "notes": "xlk1z4MMTcre3ywtSGio7dBEI9oaXsYfOAqld34d3z53Yzxovj4y6qYuMJdw8g5tsZFMmjNS2IDzCxeDG3fXsI7EHi2PW2qKqZp4dDY7OOQVrkd3Uz9ONkbZP5zrKVjDGXsqNH27Tn9UZJqhjLLVcumwvXtdIHuqZr3MpnoqhJZR3rXhHXiBZLv7N2PgJKDRgrJb8O0UnbtFdtrvHuzTxRcElFEWwo0eS9yiU8HuuOZN1gNcfSKZWq1iuj",
+              "received": false
+            }
+          ],
+          "total_price": 84463,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:16:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b14c61c508c5d5efa5a3a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

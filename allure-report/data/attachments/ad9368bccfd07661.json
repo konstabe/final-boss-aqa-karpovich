@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:17:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3867",
+    "etag": "W/\"f1b-fO0Cdjj8+jJ9iKSc8m4ARVoSB54\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b14f61c508c5d5efa7edb",
+      "status": "In Process",
+      "customer": {
+        "_id": "694b14f51c508c5d5efa7e43",
+        "email": "Dejuan_Wunsch@yahoo.com",
+        "name": "Cletus Okuneva",
+        "country": "Germany",
+        "city": "Port Beau",
+        "street": "Rodrick Neck",
+        "house": 36,
+        "flat": 338,
+        "phone": "+12807499587",
+        "createdOn": "2025-12-23T22:17:25.000Z",
+        "notes": "8mBdYqPEz2OON2FFFzx7exer57DXkuptBy0UL3r8K2WfEdNFPVl4KcCOPI40QvAyFd0owkvTXKeEhNwCGuI9lXHrGJu0bPZ00f2cagvn9breU8NBlxygNXaIvPsX2LjBVQ9ua9SwfrlnDlK808ESzwwnLHc83VW3u2OL3NZwIC89AvFUCGdGzsjJ50rS0T77Mv6XRODvdfAXeqQHivrQbm14iKtQZZjh00Pa0YyxxAxYUta2VJou0WCAAh"
+      },
+      "products": [
+        {
+          "_id": "694b14f61c508c5d5efa7e8f",
+          "name": "Bacon95876",
+          "amount": 627,
+          "price": 8964,
+          "manufacturer": "Xiaomi",
+          "notes": "XSIl10AYrg4rFNSEEFEHYwh5FmTsuvcFX9kT5wJztPj8VyZBwfz6MIUgQGRS5ftVbSpJrmPqOalfJ0XM63OMt7txwTz1n2M3plY9Faqafx0q3Qr1WQ5EqVroirzXD2dlpmqsYPZZRHr2xhTtKfsfivhA3WRlUrd1DGt2wJIDYu8KqTD3AcsmZUjLICprMXgspp9yY0tUPOblPZbVBQCDcg6z6FbvhvdDLS8UyhF36yjE9Bwj9u6iEoGfVW",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Port Beau",
+          "street": "Rodrick Neck",
+          "house": 36,
+          "flat": 338
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 8964,
+      "createdOn": "2025-12-23T22:17:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694b14f51c508c5d5efa7e43",
+          "products": [
+            {
+              "_id": "694b14f61c508c5d5efa7e8f",
+              "name": "Bacon95876",
+              "amount": 627,
+              "price": 8964,
+              "manufacturer": "Xiaomi",
+              "notes": "XSIl10AYrg4rFNSEEFEHYwh5FmTsuvcFX9kT5wJztPj8VyZBwfz6MIUgQGRS5ftVbSpJrmPqOalfJ0XM63OMt7txwTz1n2M3plY9Faqafx0q3Qr1WQ5EqVroirzXD2dlpmqsYPZZRHr2xhTtKfsfivhA3WRlUrd1DGt2wJIDYu8KqTD3AcsmZUjLICprMXgspp9yY0tUPOblPZbVBQCDcg6z6FbvhvdDLS8UyhF36yjE9Bwj9u6iEoGfVW",
+              "received": false
+            }
+          ],
+          "total_price": 8964,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Port Beau",
+              "street": "Rodrick Neck",
+              "house": 36,
+              "flat": 338
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-23T22:17:28.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b14f51c508c5d5efa7e43",
+          "products": [
+            {
+              "_id": "694b14f61c508c5d5efa7e8f",
+              "name": "Bacon95876",
+              "amount": 627,
+              "price": 8964,
+              "manufacturer": "Xiaomi",
+              "notes": "XSIl10AYrg4rFNSEEFEHYwh5FmTsuvcFX9kT5wJztPj8VyZBwfz6MIUgQGRS5ftVbSpJrmPqOalfJ0XM63OMt7txwTz1n2M3plY9Faqafx0q3Qr1WQ5EqVroirzXD2dlpmqsYPZZRHr2xhTtKfsfivhA3WRlUrd1DGt2wJIDYu8KqTD3AcsmZUjLICprMXgspp9yY0tUPOblPZbVBQCDcg6z6FbvhvdDLS8UyhF36yjE9Bwj9u6iEoGfVW",
+              "received": false
+            }
+          ],
+          "total_price": 8964,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Port Beau",
+              "street": "Rodrick Neck",
+              "house": 36,
+              "flat": 338
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-23T22:17:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b14f51c508c5d5efa7e43",
+          "products": [
+            {
+              "_id": "694b14f61c508c5d5efa7e8f",
+              "name": "Bacon95876",
+              "amount": 627,
+              "price": 8964,
+              "manufacturer": "Xiaomi",
+              "notes": "XSIl10AYrg4rFNSEEFEHYwh5FmTsuvcFX9kT5wJztPj8VyZBwfz6MIUgQGRS5ftVbSpJrmPqOalfJ0XM63OMt7txwTz1n2M3plY9Faqafx0q3Qr1WQ5EqVroirzXD2dlpmqsYPZZRHr2xhTtKfsfivhA3WRlUrd1DGt2wJIDYu8KqTD3AcsmZUjLICprMXgspp9yY0tUPOblPZbVBQCDcg6z6FbvhvdDLS8UyhF36yjE9Bwj9u6iEoGfVW",
+              "received": false
+            }
+          ],
+          "total_price": 8964,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:17:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:17:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-5anLJj556eskyXrKz10ZmI36bIU\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b14df1c508c5d5efa6d33",
+        "email": "Torey90@gmail.com",
+        "name": "Heloise McDermott",
+        "country": "Great Britain",
+        "city": "Andersonton",
+        "street": "Wisoky Dale",
+        "house": 43,
+        "flat": 106,
+        "phone": "+14712459902",
+        "createdOn": "2025-12-23T22:17:03.000Z",
+        "notes": "CXz7gZQN4IHODhsyo9RrmkpyJvQckFrK3myaZLNr66pK2VBIsGFpVZsj0XS9e14UUhaMQGMxLErH3YxVFoofUhkGPu3dcFYJdD3XcWvHfWVCLG2OjGjJiC30hshxkXaQEPYsWRQ9gERhA7EnGH8QIn4foPq9pTOpKmO48sDbtAG9ZRSmNOn3ydnQmreifrJHUZ3yiLa3FcHe1rnX6gGTyYZ1Tousgm6VMeljzZKGTcOPKNKPOHx1rJbRx1"
+      },
+      "products": [
+        {
+          "_id": "694b14e11c508c5d5efa6e45",
+          "name": "Gloves9405",
+          "amount": 12,
+          "price": 87607,
+          "manufacturer": "Sony",
+          "notes": "WZh2q7xfITIEaL6W6TJwkozc2oWQok6ymTisUVWVCMBO1sgcQsVwj5iOsl1UCziQd1pFFban1q9zVUfjjvKz3ADJzx1LyIOjIaoyE6306vqUmHZlkhWPV5GKPKI7aCMQRHLpWqajFnpKMzzYJR1oUHeIHjdITgMWtbBkKIbXasqQcjr54z4J0iBUjQ9AYIqLIia5E03o1NgNbpY0OR5wcOg6uksgIS3ezUAISBlhQlpV2VGmfppPc0N7qq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 87607,
+      "createdOn": "2025-12-23T22:17:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b14df1c508c5d5efa6d33",
+          "products": [
+            {
+              "_id": "694b14e11c508c5d5efa6e45",
+              "name": "Gloves9405",
+              "amount": 12,
+              "price": 87607,
+              "manufacturer": "Sony",
+              "notes": "WZh2q7xfITIEaL6W6TJwkozc2oWQok6ymTisUVWVCMBO1sgcQsVwj5iOsl1UCziQd1pFFban1q9zVUfjjvKz3ADJzx1LyIOjIaoyE6306vqUmHZlkhWPV5GKPKI7aCMQRHLpWqajFnpKMzzYJR1oUHeIHjdITgMWtbBkKIbXasqQcjr54z4J0iBUjQ9AYIqLIia5E03o1NgNbpY0OR5wcOg6uksgIS3ezUAISBlhQlpV2VGmfppPc0N7qq",
+              "received": false
+            }
+          ],
+          "total_price": 87607,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:17:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b14e11c508c5d5efa6e63"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

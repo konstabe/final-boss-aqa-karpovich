@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:16:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2654",
+    "etag": "W/\"a5e-186nELKoXey4rUMkRaHWbvARaJw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b14c51c508c5d5efa58de",
+        "email": "Oscar7@hotmail.com",
+        "name": "Maudie Heaney",
+        "country": "Great Britain",
+        "city": "West Kylachester",
+        "street": "Miller River",
+        "house": 31,
+        "flat": 910,
+        "phone": "+13797814233",
+        "createdOn": "2025-12-23T22:16:37.000Z",
+        "notes": "jsXyrWFbG5OxV8KTqhosb2SBZ17F8DWliFzmR0Gn90RFulCB3CzLBFCZv6llWmZNP3B0TVTuOJJf9rpnLxxqbnxKVJZ8xSjtRn4sHkXWl38upp7KIEJd3j3IidZqhoip0GbcApVYRwXaHwtbyr8CzavXKfzmVIuGfZMwtTT1bMcgGqGKWrzWYDBvbky4MMyCgoXAcm8GhDGg1g12L4aOrPAfiokaceR1HmYGBhYdfWxLn5iaT3H9NiTqjG"
+      },
+      "products": [
+        {
+          "_id": "694b14c51c508c5d5efa593a",
+          "name": "Shirt99719",
+          "amount": 917,
+          "price": 58293,
+          "manufacturer": "Xiaomi",
+          "notes": "mfvhC0kBkhlEd2fWdVdt8Z8lYSQGGejjAhlTuyIpaEUy63WTTL1gDG0Cv1UddNjl6DWDtS3lDcHcA7riXxCRLoxTmbEFBuiwgOFtVBKyjymWWPWgyuDDN8hpRbevaPIVVdeFmcYHjzmSUTzXTFTNC0tgBPeYxBniZ12p3hEodNIpWAHdfot4CTybyv1r9tRmx9YPnndzN1nqETGuUn8bqyXECfOdvfZZ6tdB0ifLF2X6BOGQvSxTBgaHIo",
+          "received": false
+        },
+        {
+          "_id": "694b14c51c508c5d5efa59aa",
+          "name": "Chips6157",
+          "amount": 190,
+          "price": 86020,
+          "manufacturer": "Sony",
+          "notes": "1eRhSVBmjUCYQh3yCBii3Jmb5AftgMZF5ypi4fE1MKxFbt4bQn5gupRCAYyJz9HxtxVlRgGMRhlHjfTZ7kLr6z2SIzcxHde0lfxraoqBbsuEzXUJGpzqV4pjR3XYUIZZF7IUNfbpB6E8zWtj3ChMjuCX3dnr7A0hr8s86TbRt6AiVH3TDKTFDOOcqZlSABEHhZB9nFD3ty7DMRcfDhLqL4QEqZgbjJvPQA84CZsjaNZi6FeaLfQfAOxMzE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 144313,
+      "createdOn": "2025-12-23T22:16:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b14c51c508c5d5efa58de",
+          "products": [
+            {
+              "_id": "694b14c51c508c5d5efa593a",
+              "name": "Shirt99719",
+              "amount": 917,
+              "price": 58293,
+              "manufacturer": "Xiaomi",
+              "notes": "mfvhC0kBkhlEd2fWdVdt8Z8lYSQGGejjAhlTuyIpaEUy63WTTL1gDG0Cv1UddNjl6DWDtS3lDcHcA7riXxCRLoxTmbEFBuiwgOFtVBKyjymWWPWgyuDDN8hpRbevaPIVVdeFmcYHjzmSUTzXTFTNC0tgBPeYxBniZ12p3hEodNIpWAHdfot4CTybyv1r9tRmx9YPnndzN1nqETGuUn8bqyXECfOdvfZZ6tdB0ifLF2X6BOGQvSxTBgaHIo",
+              "received": false
+            },
+            {
+              "_id": "694b14c51c508c5d5efa59aa",
+              "name": "Chips6157",
+              "amount": 190,
+              "price": 86020,
+              "manufacturer": "Sony",
+              "notes": "1eRhSVBmjUCYQh3yCBii3Jmb5AftgMZF5ypi4fE1MKxFbt4bQn5gupRCAYyJz9HxtxVlRgGMRhlHjfTZ7kLr6z2SIzcxHde0lfxraoqBbsuEzXUJGpzqV4pjR3XYUIZZF7IUNfbpB6E8zWtj3ChMjuCX3dnr7A0hr8s86TbRt6AiVH3TDKTFDOOcqZlSABEHhZB9nFD3ty7DMRcfDhLqL4QEqZgbjJvPQA84CZsjaNZi6FeaLfQfAOxMzE",
+              "received": false
+            }
+          ],
+          "total_price": 144313,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:16:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b14c61c508c5d5efa5a22"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:17:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2662",
+    "etag": "W/\"a66-GjyMuKH6ZOGoLeV/N4fVz+w9Rkg\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b15061c508c5d5efa899f",
+        "email": "Hildegard.Douglas69@hotmail.com",
+        "name": "Walton Emard",
+        "country": "Russia",
+        "city": "North Carterhaven",
+        "street": "Grimes Fords",
+        "house": 45,
+        "flat": 650,
+        "phone": "+19423119617",
+        "createdOn": "2025-12-23T22:17:42.000Z",
+        "notes": "XIRc4gpy3EzXCVI3AaH61z7tOc41XsGgThMsRG9Xdyssz575UP2NFFsm4iZ1cL1jRZa5QMEPfeEdGyaWTpX8zfEhpp5ZSesgUHRdYaux1QlAs0lHMx9hg8jYD9SW5hEGGN5qvtx5hDocT8eX8gLKZMATAqh6i7J8mSYElNojrqeXTllKvv9DiMnMnSI47sNZM325AgO4kK5Uzj9FPwRzwB9USp74C088LeQnpaHZVahoVITtdL05f7zQAa"
+      },
+      "products": [
+        {
+          "_id": "694b15061c508c5d5efa89ca",
+          "name": "Towels40109",
+          "amount": 576,
+          "price": 57907,
+          "manufacturer": "Tesla",
+          "notes": "XZ56i9F3wv1JDBWjxmHsUz7mWUr0fsbR2aSP0udnMPLMnXCEpNurcTOxaKC1ORgtHApB9juC33oM4bIDOur4hY0zD35hey722ZzOLo3FXmixZFv97LwgBipreSlBKtLOmtlcZJjOZwAgeF3USkEPqbmLiY0trs0GRUx8WoVM2OOayW6O5btRApVaJdc0JEXpkPFsHhaofFRHzevBImNcg42skhAITbpY9AincrFW5G7qMGmZjmEDaNrOD9",
+          "received": false
+        },
+        {
+          "_id": "694b15071c508c5d5efa8a09",
+          "name": "Shoes97293",
+          "amount": 151,
+          "price": 63178,
+          "manufacturer": "Sony",
+          "notes": "025QNXv0Iz4s2T9770L8RTl2jfq1nkc5E56XzzZSYnWl1cdT2dzIpqPzMFcruFfe9v5w6F1hVIbrDfaZ9HX9MW2asxcnbIFUhXgtwtGGvDborbCQBRPO3S1H1gBDDt7eD4aCfq2wI0A7WlenqOhOjqEBZ4UFUhjLxA2M496uuWWokVZKjgjMR4G4BDbHhInpfG5s9xzCKJQ1lby8YMlrOkK9xHwhWnnSVANwPMP1vjHXN4gY4TsjaOxvdi",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 121085,
+      "createdOn": "2025-12-23T22:17:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b15061c508c5d5efa899f",
+          "products": [
+            {
+              "_id": "694b15061c508c5d5efa89ca",
+              "name": "Towels40109",
+              "amount": 576,
+              "price": 57907,
+              "manufacturer": "Tesla",
+              "notes": "XZ56i9F3wv1JDBWjxmHsUz7mWUr0fsbR2aSP0udnMPLMnXCEpNurcTOxaKC1ORgtHApB9juC33oM4bIDOur4hY0zD35hey722ZzOLo3FXmixZFv97LwgBipreSlBKtLOmtlcZJjOZwAgeF3USkEPqbmLiY0trs0GRUx8WoVM2OOayW6O5btRApVaJdc0JEXpkPFsHhaofFRHzevBImNcg42skhAITbpY9AincrFW5G7qMGmZjmEDaNrOD9",
+              "received": false
+            },
+            {
+              "_id": "694b15071c508c5d5efa8a09",
+              "name": "Shoes97293",
+              "amount": 151,
+              "price": 63178,
+              "manufacturer": "Sony",
+              "notes": "025QNXv0Iz4s2T9770L8RTl2jfq1nkc5E56XzzZSYnWl1cdT2dzIpqPzMFcruFfe9v5w6F1hVIbrDfaZ9HX9MW2asxcnbIFUhXgtwtGGvDborbCQBRPO3S1H1gBDDt7eD4aCfq2wI0A7WlenqOhOjqEBZ4UFUhjLxA2M496uuWWokVZKjgjMR4G4BDbHhInpfG5s9xzCKJQ1lby8YMlrOkK9xHwhWnnSVANwPMP1vjHXN4gY4TsjaOxvdi",
+              "received": false
+            }
+          ],
+          "total_price": 121085,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:17:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b15071c508c5d5efa8a30"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
