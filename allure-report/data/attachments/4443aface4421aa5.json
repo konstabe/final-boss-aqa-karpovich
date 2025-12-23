@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:21:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-gOsJDGe38S1f7Ta/RgqLbf4klPI\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b07bb1c508c5d5ef7b3bc",
+        "email": "Flavie58@gmail.com",
+        "name": "Kristopher Rempel",
+        "country": "Great Britain",
+        "city": "Nicoleburgh",
+        "street": "Douglas Drive",
+        "house": 29,
+        "flat": 674,
+        "phone": "+15597724242",
+        "createdOn": "2025-12-23T21:20:59.000Z",
+        "notes": "2MrVZoRm9RbxlWqlKdKPmpYXiLu4XFxsc1WJSEeF9ushWm9NvFJlxhKMDnLnZUHRe6G8cRU0E4HFmsFRsMtv6sev2Ky5KyTJ2k9xrfxSZ9MzVT0RG6hXqC6kuOecDli8obeSlUuxnkiWeQWCdSE46vVUrcoQuxbmHwida4ECevIxoOZSYYWBZSKpv9uktGfywcQjVWiR5GyXb0S9EG2aaP1pu7iMPbucSS1YEREuAAIour79dPSVVl7D3r"
+      },
+      "products": [
+        {
+          "_id": "694b07bb1c508c5d5ef7b406",
+          "name": "Chair53475",
+          "amount": 967,
+          "price": 4931,
+          "manufacturer": "Amazon",
+          "notes": "uVAuqekseZM7IlVrKKQdXVQ8W8UYVpD1nGbqgFsxXkTKYVUhAYKWj6NCWEvW6IbhJPHI9Yrbk6sRQKjNHfZIdqSdeGWkJvquC2NATAMhVuLP53IRq895g84P43u0NtRuKNaflkObse7sHzeGNZQyKACAhdAgUmPimGSPTlOPtvwH25U5bjL0t35wBPtScyFw2UXhBAGWRcdyRIQg4j74DCBcLqSSkpLQpNZ7MKrGHz3tWZrTP9bMiXYrh4",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 4931,
+      "createdOn": "2025-12-23T21:21:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b07bb1c508c5d5ef7b3bc",
+          "products": [
+            {
+              "_id": "694b07bb1c508c5d5ef7b406",
+              "name": "Chair53475",
+              "amount": 967,
+              "price": 4931,
+              "manufacturer": "Amazon",
+              "notes": "uVAuqekseZM7IlVrKKQdXVQ8W8UYVpD1nGbqgFsxXkTKYVUhAYKWj6NCWEvW6IbhJPHI9Yrbk6sRQKjNHfZIdqSdeGWkJvquC2NATAMhVuLP53IRq895g84P43u0NtRuKNaflkObse7sHzeGNZQyKACAhdAgUmPimGSPTlOPtvwH25U5bjL0t35wBPtScyFw2UXhBAGWRcdyRIQg4j74DCBcLqSSkpLQpNZ7MKrGHz3tWZrTP9bMiXYrh4",
+              "received": false
+            }
+          ],
+          "total_price": 4931,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:21:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b07bd1c508c5d5ef7b552"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

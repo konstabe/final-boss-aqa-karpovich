@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:21:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-6tN/qcIcxiNa886KRtzoxuJKn38\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b07bd1c508c5d5ef7b545",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b07bb1c508c5d5ef7b3d0",
+        "email": "Britney99@yahoo.com",
+        "name": "Nickolas Pfeffer",
+        "country": "France",
+        "city": "Delilahview",
+        "street": "S Mill Street",
+        "house": 48,
+        "flat": 974,
+        "phone": "+17062982463",
+        "createdOn": "2025-12-23T21:20:59.000Z",
+        "notes": "CBm1iwIbyoW46LzfwvISD4R3JAwPUlgmMKyXXlbvxoVf0erfqtHudwzqsyHGLjk92PS8x2v6Mz7ArHz484AqRxqxXVusl7Sh8Mqwc28I5SzA1EZsq4Fxh6Rrg9txI8taRTOf50dd8wBBExa4VBeUrfGgKuvfZRGEByd95RchZQwZqdwE3MlOLk72Pv3CvRjZLH6B4tQ8IIrV0qPmmGEOquMGBdwKRKIdyw6H8mLzsKmC9P7zl9pfcu88Ja"
+      },
+      "products": [
+        {
+          "_id": "694b07bb1c508c5d5ef7b410",
+          "name": "Car92481",
+          "amount": 300,
+          "price": 97763,
+          "manufacturer": "Tesla",
+          "notes": "Hd1XS1Iw8eYTwzZbrhVuavSFSpUuGwFBPqIPYmhjGOLVsfzQYJ4hX7BNU1XpkFJxqMB3WK4lU7W7TexqQr7yrDp1kVWwzJfBp7VmFod5ZDxoX4gws0s1AL5dYmKxMYi1IRffRTiXu6ylQPCNBYTEHf8J49xGMLraNDWngwE5MEnW2buZpMLsNS6YYMi0gznOVHEBMDicVkLnWQqqP5smEqQIXMLLR1CrWmQeS91hOFnoc20FSezAcKLHwY",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 97763,
+      "createdOn": "2025-12-23T21:21:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b07bb1c508c5d5ef7b3d0",
+          "products": [
+            {
+              "_id": "694b07bb1c508c5d5ef7b410",
+              "name": "Car92481",
+              "amount": 300,
+              "price": 97763,
+              "manufacturer": "Tesla",
+              "notes": "Hd1XS1Iw8eYTwzZbrhVuavSFSpUuGwFBPqIPYmhjGOLVsfzQYJ4hX7BNU1XpkFJxqMB3WK4lU7W7TexqQr7yrDp1kVWwzJfBp7VmFod5ZDxoX4gws0s1AL5dYmKxMYi1IRffRTiXu6ylQPCNBYTEHf8J49xGMLraNDWngwE5MEnW2buZpMLsNS6YYMi0gznOVHEBMDicVkLnWQqqP5smEqQIXMLLR1CrWmQeS91hOFnoc20FSezAcKLHwY",
+              "received": false
+            }
+          ],
+          "total_price": 97763,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:21:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:21:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1894",
+    "etag": "W/\"766-9rpLVxTA+9ltET0nRDAZQzfgsow\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b07c01c508c5d5ef7b6a4",
+        "email": "Randall_Orn@yahoo.com",
+        "name": "Alivia Waters",
+        "country": "Russia",
+        "city": "Lake Myrticeville",
+        "street": "Heidenreich Forks",
+        "house": 22,
+        "flat": 112,
+        "phone": "+12147445936",
+        "createdOn": "2025-12-23T21:21:04.000Z",
+        "notes": "UtUJHA1OokHshraWRNGrPyRend9Ho8kpNabXR7ZmPrkS8XLvXK61HRTGwoXQ0UfqaxCXULp436SkueklQMKdVX9oSEbzhZBgdGr4gsBcElzrhY7VK2ZWdmiJ3GVFv1EYIyJ74de5dObaVOgaECbF9m9OrK1WA1oNaCSGSGKz7QgswZrkJTqLgscpWusnC93UualJXmmpnoj2E5xWvp9klxhlY4FcxCC0n4M0oXuBOLjGc5oBed16eYrceS"
+      },
+      "products": [
+        {
+          "_id": "694b07c11c508c5d5ef7b7af",
+          "name": "Towels98754",
+          "amount": 745,
+          "price": 47487,
+          "manufacturer": "Google",
+          "notes": "JOVWnYAq2ccF2OInY9WkKf30V9A2LVuIzvEB7ozVNR7HD9FXNyx8yIJOqQicoch2Lh9XdNltjpdEDeBEHHnVMv9vvkle25xgR9IaRoRAZCiu3oBMAHcopl7aP0DoYtQYc4TAfNDMZbokHUpkrqMq4bjsBK7tvh3or1pbN4QuqGd0WP6oobKhOoc7r7pTmyEiNbLYjXdsIAU0vY0sjlEDyV8W8NcwttrIve9yH35FSipQ8rIqT6VsQ1cDLa",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 47487,
+      "createdOn": "2025-12-23T21:21:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b07c01c508c5d5ef7b6a4",
+          "products": [
+            {
+              "_id": "694b07c11c508c5d5ef7b7af",
+              "name": "Towels98754",
+              "amount": 745,
+              "price": 47487,
+              "manufacturer": "Google",
+              "notes": "JOVWnYAq2ccF2OInY9WkKf30V9A2LVuIzvEB7ozVNR7HD9FXNyx8yIJOqQicoch2Lh9XdNltjpdEDeBEHHnVMv9vvkle25xgR9IaRoRAZCiu3oBMAHcopl7aP0DoYtQYc4TAfNDMZbokHUpkrqMq4bjsBK7tvh3or1pbN4QuqGd0WP6oobKhOoc7r7pTmyEiNbLYjXdsIAU0vY0sjlEDyV8W8NcwttrIve9yH35FSipQ8rIqT6VsQ1cDLa",
+              "received": false
+            }
+          ],
+          "total_price": 47487,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:21:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b07c21c508c5d5ef7b85e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
