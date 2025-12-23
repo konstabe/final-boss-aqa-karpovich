@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 19:47:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2642",
+    "etag": "W/\"a52-335WFnpFXEYPKPFlaIm9EefdT9M\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694af1c31c508c5d5ef63007",
+        "email": "Cara_Huel@hotmail.com",
+        "name": "Gina Hayes",
+        "country": "Ukraine",
+        "city": "Walshstead",
+        "street": "Spruce Street",
+        "house": 31,
+        "flat": 42,
+        "phone": "+13119072776",
+        "createdOn": "2025-12-23T19:47:15.000Z",
+        "notes": "pwbWmgciG8Dm2uRd9EXurHZq8RX1794UONKNJxbLdxKFyFTWV2GqYW4YsbCftIk1t5InY0PXkYA5cyHCFBglNyi8TWoYcEHohHOt7GyI1GmWqWGfiJUYPgk6Rbn1BRb1Kvu4fBowC5SQEiw4XjQDpS4WTgb8quvz3uvh4E7aLRN1Hz75WWHL4hTW2gG0Bq7qHr7wAq3KeVAyYYl9Kgup239HbVjB8ounFhhH6b7hWn6pHZ0e4wzT3eg6Ld"
+      },
+      "products": [
+        {
+          "_id": "694af1c31c508c5d5ef6302d",
+          "name": "Car71693",
+          "amount": 166,
+          "price": 20991,
+          "manufacturer": "Samsung",
+          "notes": "gJppSOCEcyxKaWczetuRFkXDBE8ZY2p93SAEzEjQhPTjUHEHdBbtU40L0LSPe2lhRMQLoJef95FRiSvuiufGRCD6Xt4Y77WCmZpL3v3On3VEPi5MGM5Ickokq3KCLU5fof7PACHT29lW2E5ZQhTyiyrphgcsCmxPWLd0MH2YxQKI826nflegdLstS6eXVPcWn4o5fbLnoJF1Gv4JPkIiHBR26G3fWNM7zZ8TJnxyPfaPPMCDXfuCIOAqo8",
+          "received": false
+        },
+        {
+          "_id": "694af1c31c508c5d5ef63062",
+          "name": "Pizza97471",
+          "amount": 932,
+          "price": 91518,
+          "manufacturer": "Sony",
+          "notes": "aj1YMR6h0Q9xohZGDDHa1NP8dG28bWnttMHKk0VubcUHHCUOaEzMc93MDZPtbdZiNk7RdMCEblU9hEnKvqjAH8PTnGCVqBI5XGdqnPX9Bdeh95pDQItVpS3dHdG84lfdGf8CuyXjj2GocFK6ss2tA1BjneVs8sIABrp5FZJpxPl4rdQfnZK0tz30fwZoKHC4EswEzdrn3dOtTee1nsoTpuoPAFc4iS77YY4QaLh3tC9Eqq3zc1Q4126MkW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 112509,
+      "createdOn": "2025-12-23T19:47:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694af1c31c508c5d5ef63007",
+          "products": [
+            {
+              "_id": "694af1c31c508c5d5ef6302d",
+              "name": "Car71693",
+              "amount": 166,
+              "price": 20991,
+              "manufacturer": "Samsung",
+              "notes": "gJppSOCEcyxKaWczetuRFkXDBE8ZY2p93SAEzEjQhPTjUHEHdBbtU40L0LSPe2lhRMQLoJef95FRiSvuiufGRCD6Xt4Y77WCmZpL3v3On3VEPi5MGM5Ickokq3KCLU5fof7PACHT29lW2E5ZQhTyiyrphgcsCmxPWLd0MH2YxQKI826nflegdLstS6eXVPcWn4o5fbLnoJF1Gv4JPkIiHBR26G3fWNM7zZ8TJnxyPfaPPMCDXfuCIOAqo8",
+              "received": false
+            },
+            {
+              "_id": "694af1c31c508c5d5ef63062",
+              "name": "Pizza97471",
+              "amount": 932,
+              "price": 91518,
+              "manufacturer": "Sony",
+              "notes": "aj1YMR6h0Q9xohZGDDHa1NP8dG28bWnttMHKk0VubcUHHCUOaEzMc93MDZPtbdZiNk7RdMCEblU9hEnKvqjAH8PTnGCVqBI5XGdqnPX9Bdeh95pDQItVpS3dHdG84lfdGf8CuyXjj2GocFK6ss2tA1BjneVs8sIABrp5FZJpxPl4rdQfnZK0tz30fwZoKHC4EswEzdrn3dOtTee1nsoTpuoPAFc4iS77YY4QaLh3tC9Eqq3zc1Q4126MkW",
+              "received": false
+            }
+          ],
+          "total_price": 112509,
+          "delivery": null,
+          "changedOn": "2025-12-23T19:47:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694af1c41c508c5d5ef630a0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

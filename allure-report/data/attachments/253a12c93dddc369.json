@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 19:47:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1873",
+    "etag": "W/\"751-m0AlFEnZKveyuuBSgJUNu3SaSQU\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694af1c31c508c5d5ef6307d",
+        "email": "Hope35@yahoo.com",
+        "name": "Henri Collier",
+        "country": "Belarus",
+        "city": "Lorenatown",
+        "street": "Angel Plains",
+        "house": 2,
+        "flat": 582,
+        "phone": "+15393405548",
+        "createdOn": "2025-12-23T19:47:15.000Z",
+        "notes": "yGNNs6c4tgq75Qx1EbeNrUWzAx76sgY9kfeZSVrvVxxeaEk8uO0Om8nalkCH3tDPkNjAYiVY5xFPKx4JqaHbsytBu1uWsRyMwhpJiuJ2OFUH5IwzDqPd1DYNsRNnH0vMz86WTQZtmZXkGbzUoX3FhMxI2VoqKy2iRodZ7kHcUo9ivvMLv12z97vRTDNFuNllmCwkqNSH7Y8PS5UWgko7ONkynk7yly7tmE3ERA94ZgIM5g3xGdOKv0SFO0"
+      },
+      "products": [
+        {
+          "_id": "694af1c41c508c5d5ef630a8",
+          "name": "Bike71259",
+          "amount": 801,
+          "price": 77024,
+          "manufacturer": "Amazon",
+          "notes": "JoMMCyAGQoVlJRH2HmkIaOBx4NVtTJpWsjIJWUuNmIM2CVaLSN3gsPJiHWQk4byinpx31a0DWyP0ZXRmjshWekZKyE1LT7CuDqpQDglqpkIPodXiBGTZLdrhCRYNosQXmvu5gf9ZB2B8PRLlnQDhF0tavi3OJB6NgNi2bntafPCPOnCLB3mQYYsBJzD1aDuJftZlYPjmyIQ7c1IYklNUrl06fkwqiS15d4u7v8t7M01FxzhC5XaldNG2BS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 77024,
+      "createdOn": "2025-12-23T19:47:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694af1c31c508c5d5ef6307d",
+          "products": [
+            {
+              "_id": "694af1c41c508c5d5ef630a8",
+              "name": "Bike71259",
+              "amount": 801,
+              "price": 77024,
+              "manufacturer": "Amazon",
+              "notes": "JoMMCyAGQoVlJRH2HmkIaOBx4NVtTJpWsjIJWUuNmIM2CVaLSN3gsPJiHWQk4byinpx31a0DWyP0ZXRmjshWekZKyE1LT7CuDqpQDglqpkIPodXiBGTZLdrhCRYNosQXmvu5gf9ZB2B8PRLlnQDhF0tavi3OJB6NgNi2bntafPCPOnCLB3mQYYsBJzD1aDuJftZlYPjmyIQ7c1IYklNUrl06fkwqiS15d4u7v8t7M01FxzhC5XaldNG2BS",
+              "received": false
+            }
+          ],
+          "total_price": 77024,
+          "delivery": null,
+          "changedOn": "2025-12-23T19:47:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694af1c41c508c5d5ef63122"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 19:47:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1901",
+    "etag": "W/\"76d-R434X/maTgrnpzugeaaYYqWZglU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694af1c21c508c5d5ef62ff0",
+        "email": "Alessia.Schulist@hotmail.com",
+        "name": "Candelario Bergnaum",
+        "country": "Great Britain",
+        "city": "North Ludie",
+        "street": "Leatha Ville",
+        "house": 43,
+        "flat": 153,
+        "phone": "+19214750810",
+        "createdOn": "2025-12-23T19:47:14.000Z",
+        "notes": "Tpm8ySWjArKRr9PsfxnyWy5ATVqZ5IYqwMLXItRfRj1LAAJFSAwSrEn90sgJhsb5X2qdraqydbeFxAp7YWHW0noeIjISFjJJOCUow7pav2lCJ06AwyYssMhszAAvzFL15PbPICtIsKEWVnaiMV90K7wmidEE11BveyBWxGX6LxlHaRMExfk3IHqniAckJ9n1u8kMHPV5oPPUYWnXdK0obzZk8MTwXuej0vcaAy8mNcMU9NHvidcanFZa1x"
+      },
+      "products": [
+        {
+          "_id": "694af1c31c508c5d5ef6301b",
+          "name": "Mouse85517",
+          "amount": 403,
+          "price": 55082,
+          "manufacturer": "Google",
+          "notes": "nBCPLg9Rmayjl8QSniSsneEp8pUUojoKs2FYkkkT8JmBeHOP8gxEZE5c1gYHTqHtnpMn7OpqfnSwckgfEnTWTl9gDJl9fCvo4DDCSiew40LpZ3neUpg528Wk4oT4c8RbHqHUoLWRcg58ExJvt3fYntLLVLnPV20fn6Iluk4CETulhw7qgQS04Fql1gSnm7a5hh9tAdKHBAx0auaAJlG4s7WR5XDY6mCsQ4h4iEQcL46yaqZS6LaPEbqNQA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55082,
+      "createdOn": "2025-12-23T19:47:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694af1c21c508c5d5ef62ff0",
+          "products": [
+            {
+              "_id": "694af1c31c508c5d5ef6301b",
+              "name": "Mouse85517",
+              "amount": 403,
+              "price": 55082,
+              "manufacturer": "Google",
+              "notes": "nBCPLg9Rmayjl8QSniSsneEp8pUUojoKs2FYkkkT8JmBeHOP8gxEZE5c1gYHTqHtnpMn7OpqfnSwckgfEnTWTl9gDJl9fCvo4DDCSiew40LpZ3neUpg528Wk4oT4c8RbHqHUoLWRcg58ExJvt3fYntLLVLnPV20fn6Iluk4CETulhw7qgQS04Fql1gSnm7a5hh9tAdKHBAx0auaAJlG4s7WR5XDY6mCsQ4h4iEQcL46yaqZS6LaPEbqNQA",
+              "received": false
+            }
+          ],
+          "total_price": 55082,
+          "delivery": null,
+          "changedOn": "2025-12-23T19:47:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694af1c31c508c5d5ef6303e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

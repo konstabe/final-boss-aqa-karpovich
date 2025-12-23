@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 19:47:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1893",
+    "etag": "W/\"765-Tbv1D9GUamASXnl+cYS6e2Nr1aQ\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694af1c21c508c5d5ef62fcd",
+        "email": "Maximilian78@gmail.com",
+        "name": "Michelle Hauck",
+        "country": "Ukraine",
+        "city": "South Ottiliechester",
+        "street": "N Lincoln Street",
+        "house": 36,
+        "flat": 126,
+        "phone": "+13334153901",
+        "createdOn": "2025-12-23T19:47:14.000Z",
+        "notes": "frgI9IcpSMUU2jZqByHWMDSBu84gbQ4NJZbhH0yvIP4fyZPHcKOUPIn1j9vTXIiBOe1pyOAoXfwm9oCLiRN5cvegPh0ENxrqcPA4D9F1dwevblTGpPyWQMQq3L7dd07ruBp4ADLXkVIL0CFfkdRvH1sBk9kEbqxUvO76bnjNS3Ccpxqz0dGxG46SDXxX5E4Rx7cJIjjPRnEhnvwdpMjSBiUBNzW4UR9dazlXvLzcLw5CVEM2lQ4JAPQwMJ"
+      },
+      "products": [
+        {
+          "_id": "694af1c21c508c5d5ef62ff2",
+          "name": "Soap9457",
+          "amount": 97,
+          "price": 40342,
+          "manufacturer": "Samsung",
+          "notes": "pcLO55jV3QIvH5rWH1qyaQBsQ4TSC4UFKzgRxgyZSfqeRYmqU5ZYJgE5MejUyEKys0C24RfUexxBfbeObnwUFZRzwgReiLApOe9I0yQ3CLOzuQyKLu00La3PikxRxkSwNdJAoXcytcF2LC3RZlG5vyqejh0oBK5mtn8J504VGFHYsBXQQZSySOJSIzijlNEGcD2EciCSnfHGX1WMbqcGOeySODnFN1EsDajkN10CIUiNPjy1AN8hraw3tF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 40342,
+      "createdOn": "2025-12-23T19:47:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694af1c21c508c5d5ef62fcd",
+          "products": [
+            {
+              "_id": "694af1c21c508c5d5ef62ff2",
+              "name": "Soap9457",
+              "amount": 97,
+              "price": 40342,
+              "manufacturer": "Samsung",
+              "notes": "pcLO55jV3QIvH5rWH1qyaQBsQ4TSC4UFKzgRxgyZSfqeRYmqU5ZYJgE5MejUyEKys0C24RfUexxBfbeObnwUFZRzwgReiLApOe9I0yQ3CLOzuQyKLu00La3PikxRxkSwNdJAoXcytcF2LC3RZlG5vyqejh0oBK5mtn8J504VGFHYsBXQQZSySOJSIzijlNEGcD2EciCSnfHGX1WMbqcGOeySODnFN1EsDajkN10CIUiNPjy1AN8hraw3tF",
+              "received": false
+            }
+          ],
+          "total_price": 40342,
+          "delivery": null,
+          "changedOn": "2025-12-23T19:47:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694af1c31c508c5d5ef6301f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

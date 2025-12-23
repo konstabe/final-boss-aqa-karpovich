@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 19:47:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-aN5xsob61WOX05ZX+2v5L241XX4\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694af1c41c508c5d5ef63116",
+      "status": "Draft",
+      "customer": {
+        "_id": "694af1c31c508c5d5ef6305c",
+        "email": "Timothy69@hotmail.com",
+        "name": "Timmothy Turcotte",
+        "country": "Belarus",
+        "city": "Lake Johnathanfort",
+        "street": "Oak Drive",
+        "house": 23,
+        "flat": 217,
+        "phone": "+12679360449",
+        "createdOn": "2025-12-23T19:47:15.000Z",
+        "notes": "E21ory6YZtoOBms0bsYedrGKX0Oi51HM2kextMp65PgSIrIkMEDo0Z7XPlt2WUfDBcdXAn3jousw9nFlj8HNr8GH3VvX2BrCBFlIXZ2wV7kVMv4EhLwgXVbYVqyDxopNjk5ZDZ57lra5VjTMWadsIso5RdbLvaXgPlBKWygumA7DkrFhRkI2MOWLT8IaeMZ27SGl9MPbQ2S1v5RAogu8SeHpqvOZk0ycO4CR9SspNV9ZJkIrAaOCYANKhJ"
+      },
+      "products": [
+        {
+          "_id": "694af1c41c508c5d5ef6308a",
+          "name": "Chair1121",
+          "amount": 486,
+          "price": 60897,
+          "manufacturer": "Xiaomi",
+          "notes": "kW4VSt70ZKHfl5yJ2DBKxRl4te5NAcZWXnEAQZ9mmSNbkzgRiugcJVP91pDjkKwyW2a6OSvUuusJPQCwUMSDConkgKxaSh9lzi3gPxvf5EjpMKFDnffobeXMyIKhRXhUOoDy5sV1NWqOr8o6Rj8MlxirSYCKsztTwJDPK6MMschA5l3Mx0N1VYtS47wUjfd4VBngR6Q0J1adtxblIdTRK1JTyFg5cbKPxoUr7hmtqTs267gEBpDqMsO7L0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 60897,
+      "createdOn": "2025-12-23T19:47:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694af1c31c508c5d5ef6305c",
+          "products": [
+            {
+              "_id": "694af1c41c508c5d5ef6308a",
+              "name": "Chair1121",
+              "amount": 486,
+              "price": 60897,
+              "manufacturer": "Xiaomi",
+              "notes": "kW4VSt70ZKHfl5yJ2DBKxRl4te5NAcZWXnEAQZ9mmSNbkzgRiugcJVP91pDjkKwyW2a6OSvUuusJPQCwUMSDConkgKxaSh9lzi3gPxvf5EjpMKFDnffobeXMyIKhRXhUOoDy5sV1NWqOr8o6Rj8MlxirSYCKsztTwJDPK6MMschA5l3Mx0N1VYtS47wUjfd4VBngR6Q0J1adtxblIdTRK1JTyFg5cbKPxoUr7hmtqTs267gEBpDqMsO7L0",
+              "received": false
+            }
+          ],
+          "total_price": 60897,
+          "delivery": null,
+          "changedOn": "2025-12-23T19:47:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

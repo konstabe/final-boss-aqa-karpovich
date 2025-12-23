@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 19:47:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-TjRF08/33phubLgpg1V/jZNrhpQ\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694af1c31c508c5d5ef63056",
+        "email": "Kayleigh55@hotmail.com",
+        "name": "Fausto Jenkins",
+        "country": "Canada",
+        "city": "Bonita Springs",
+        "street": "Lauretta Hill",
+        "house": 41,
+        "flat": 333,
+        "phone": "+17026929378",
+        "createdOn": "2025-12-23T19:47:15.000Z",
+        "notes": "xKbgyKAj3JRBBgFvQtVhw233QfTtipr1VXAC77ocvmaF3BavbSw7I9XjVAl6yHDFt9J5tlVZXLOHCjB4PXmqLIy1oS8K76bng5bhgpdIHwHtW62TApvQt3vNDs7SO8C60L8uy6dr4JiYmQdVVMUa4gyn7bXVc036O24qqbzNTcSwbkAXNTPVR01BfoYEOycaHxZmZ4rN5QOYxpKH4qwsEXH1m6isbvLQPoIoEEqB3oIYUvxjKzsqKKocxd"
+      },
+      "products": [
+        {
+          "_id": "694af1c41c508c5d5ef63087",
+          "name": "Gloves99517",
+          "amount": 944,
+          "price": 89974,
+          "manufacturer": "Samsung",
+          "notes": "1xAiezHa3OzW2TkAu9CBQo3xIvrLBvNtTJDrAg9NjwZEvTSu7JyGhLFdrBZCAbL7Mw14cr0ixz9pk6oTTQLlPgPNMnIGiY2hsrUYBBcp206t0tR6bUoSE8Ijc9dr94Tk4mdC6GFkjrXZYOyhHNoWA2K4avYFEEvAJ9Xn1h8daJEDDO9OSYq1hdeYsfynvX7BD9ESSKid3xEmlRsDAFdG5vlbJ8yWLZDgs7YqHCDiFuVYsFTX2UXjsCVxzU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 89974,
+      "createdOn": "2025-12-23T19:47:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694af1c31c508c5d5ef63056",
+          "products": [
+            {
+              "_id": "694af1c41c508c5d5ef63087",
+              "name": "Gloves99517",
+              "amount": 944,
+              "price": 89974,
+              "manufacturer": "Samsung",
+              "notes": "1xAiezHa3OzW2TkAu9CBQo3xIvrLBvNtTJDrAg9NjwZEvTSu7JyGhLFdrBZCAbL7Mw14cr0ixz9pk6oTTQLlPgPNMnIGiY2hsrUYBBcp206t0tR6bUoSE8Ijc9dr94Tk4mdC6GFkjrXZYOyhHNoWA2K4avYFEEvAJ9Xn1h8daJEDDO9OSYq1hdeYsfynvX7BD9ESSKid3xEmlRsDAFdG5vlbJ8yWLZDgs7YqHCDiFuVYsFTX2UXjsCVxzU",
+              "received": false
+            }
+          ],
+          "total_price": 89974,
+          "delivery": null,
+          "changedOn": "2025-12-23T19:47:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694af1c41c508c5d5ef630ba"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
