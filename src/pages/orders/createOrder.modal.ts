@@ -1,6 +1,7 @@
 import { logStep } from "utils/report/logStep.utils";
 import { BaseModal } from "../base/base.modal";
 import { expect } from "@playwright/test";
+import { UpToFive } from "data/types/core.types";
 
 export class CreateOrderModal extends BaseModal {
 	readonly createOrderPageTitle = this.page.locator("h5");
@@ -30,44 +31,23 @@ export class CreateOrderModal extends BaseModal {
 		await this.cancelButton.click();
 	}
 
+	@logStep("Click close icon for create order modal window")
+	async clickCloseModal() {
+		await this.closeModal.click();
+	}
+
 	@logStep("Select customer and product for order")
-	async selectCustomerAndProduct(initialCustomerName: string, initialProductNames: string[]) {
+	async selectCustomerAndProduct(initialCustomerName: string, initialProductNames: UpToFive<string> | string[]) {
 		await this.customerField.selectOption(initialCustomerName);
 
-		const maxProducts = initialProductNames.length > 5 ? 5 : initialProductNames.length;
-
 		if (initialProductNames.length === 1) {
-			await this.productField.selectOption(initialProductNames);
+			await this.productField.selectOption(initialProductNames[0]!);
 		} else if (initialProductNames.length > 1) {
-			for (let i = 0; i < maxProducts; i++) {
-				const productName = initialProductNames[i];
-
-				let productLocator;
-				switch (i) {
-					case 0:
-						productLocator = this.productField.nth(0);
-						break;
-					case 1:
-						await this.addProductButton.click();
-						productLocator = this.productField.nth(1);
-						break;
-					case 2:
-						await this.addProductButton.click();
-						productLocator = this.productField.nth(2);
-						break;
-					case 3:
-						await this.addProductButton.click();
-						productLocator = this.productField.nth(3);
-						break;
-					case 4:
-						await this.addProductButton.click();
-						productLocator = this.productField.nth(4);
-						break;
-					default:
-						continue;
+			for (let i = 0; i < initialProductNames.length; i++) {
+				if (i > 0) {
+					await this.addProductButton.click();
 				}
-
-				await productLocator.selectOption(productName!);
+				await this.productField.nth(i).selectOption(initialProductNames[i]!);
 			}
 		}
 	}
@@ -88,24 +68,19 @@ export class CreateOrderModal extends BaseModal {
 	}
 
 	@logStep("Delete Product Index By Name")
-	async deleteProductByIndex(index: number): Promise<boolean> {
+	async deleteProductByIndex(index: number) {
 		const deleteButton = this.deleteProductButton.nth(index);
 		await deleteButton.click();
-
-		return true;
 	}
 
 	@logStep("Delete Product By Name")
-	async deleteProductByName(productName: string): Promise<boolean> {
+	async deleteProductByName(productName: string) {
 		const productIndex = await this.getProductIndexByName(productName);
-
 		await this.deleteProductByIndex(productIndex);
-
-		return true;
 	}
 
 	@logStep("Counting the number of 'Delete' buttons")
-	async countDeleteButtons(productNumber: number) {
+	async verifyCountOfDeleteButtons(productNumber: number) {
 		await expect(this.deleteProductButton).toHaveCount(productNumber);
 	}
 }

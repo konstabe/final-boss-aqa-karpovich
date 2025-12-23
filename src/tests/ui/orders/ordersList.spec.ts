@@ -7,7 +7,6 @@ test.describe("[UI] [Orders]", () => {
 			"Should open Orders List page via direct URL",
 			{ tag: [TAGS.UI, TAGS.REGRESSION] },
 			async ({ ordersListPage }) => {
-				await ordersListPage.getAuthToken();
 				await ordersListPage.open("orders");
 				await ordersListPage.waitForOpened();
 
@@ -20,7 +19,6 @@ test.describe("[UI] [Orders]", () => {
 			"Should open Orders List page from Home page via 'View Orders' button",
 			{ tag: [TAGS.UI, TAGS.REGRESSION] },
 			async ({ homePage, ordersListPage, homeUIService }) => {
-				await homePage.getAuthToken();
 				await homeUIService.open();
 				await homePage.clickOnViewModule("Orders");
 				await ordersListPage.waitForOpened();
@@ -34,7 +32,6 @@ test.describe("[UI] [Orders]", () => {
 			"Should open Orders List page via Navigation Menu",
 			{ tag: [TAGS.UI, TAGS.REGRESSION] },
 			async ({ ordersListPage, ordersListUIService }) => {
-				await ordersListPage.getAuthToken();
 				await ordersListUIService.open();
 				await ordersListPage.navBarMenu.clickModule("Orders");
 				await ordersListPage.waitForOpened();
@@ -50,7 +47,6 @@ test.describe("[UI] [Orders]", () => {
 			"Should display all main UI components on Orders List page",
 			{ tag: [TAGS.UI, TAGS.REGRESSION] },
 			async ({ ordersListPage, ordersListUIService }) => {
-				await ordersListPage.getAuthToken();
 				await ordersListUIService.open();
 
 				await expect.soft(ordersListPage.title).toHaveText("Orders List");

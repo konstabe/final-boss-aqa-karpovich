@@ -1,15 +1,18 @@
 import { NOTIFICATIONS } from "data/notifications";
-import { generateProductData } from "data/products/generateProductData";
 import { TAGS } from "data/tags";
-import { expect, test } from "fixtures/business.fixture";
+import { IOrderInTable } from "data/types/order.types";
+import { expect, test } from "fixtures";
 
 test.describe("[UI] [Orders]", () => {
 	let token = "";
-	const ids: string[] = [];
+	let ids: string[] = [];
 	let id_product = "";
 	let id_order = "";
 	let id_customer = "";
-	const product_name: string[] = [];
+
+	test.beforeEach(async ({ ordersListPage }) => {
+		token = await ordersListPage.getAuthToken();
+	});
 
 	test.afterEach(async ({ productsApiService, customersApiService, ordersApiService }) => {
 		if (id_order) await ordersApiService.deleteOrder(token, id_order);
@@ -27,48 +30,73 @@ test.describe("[UI] [Orders]", () => {
 	});
 
 	test(
-		"Add order with 5 products",
+		"Check UI components",
 		{
-			tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.UI],
+			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({
-			page,
-			addNewOrderPage,
-			ordersListPage,
-			ordersListUIService,
-			customersApiService,
-			productsApiService,
-		}) => {
-			token = await ordersListPage.getAuthToken();
-			const customer = await customersApiService.create(token);
-			id_customer = customer._id;
-			const customer_name = customer.name;
+		async ({ addNewOrderPage, ordersListPage, ordersListUIService, ordersApiService }) => {
+			const { customerId, customerName, customerEmail } = await ordersApiService.createCustomer(token);
+			id_customer = customerId;
 
-			for (let i = 1; i <= 5; i++) {
-				const products = await productsApiService.create(token);
-				ids.push(products._id);
-				product_name.push(products.name);
-				await page.waitForTimeout(1000);
-			}
+			const { productsIds, productNames } = await ordersApiService.createProducts(token, 5);
+			ids = productsIds;
 
-			token = await ordersListPage.getAuthToken();
 			await ordersListUIService.open();
 			await ordersListPage.clickCreateOrder();
 
 			await expect(addNewOrderPage.createOrderPageTitle).toHaveText("Create Order");
 			await expect(addNewOrderPage.addProductButton).toBeVisible();
+			await expect(addNewOrderPage.deleteProductButton).not.toBeVisible();
 
-			await addNewOrderPage.selectCustomerAndProduct(customer_name, product_name);
+			await addNewOrderPage.selectCustomerAndProduct(customerName, productNames);
 			await expect(addNewOrderPage.addProductButton).not.toBeVisible();
-			await addNewOrderPage.countDeleteButtons(5);
+			await addNewOrderPage.verifyCountOfDeleteButtons(5);
+
+			await addNewOrderPage.deleteProductByName(productNames[1]!);
+			await addNewOrderPage.deleteProductByName(productNames[2]!);
+			await addNewOrderPage.verifyCountOfDeleteButtons(3);
+			await expect(addNewOrderPage.addProductButton).toBeVisible();
+
+			await addNewOrderPage.deleteProductByName(productNames[1]!);
+			await addNewOrderPage.deleteProductByName(productNames[2]!);
+			await expect(addNewOrderPage.addProductButton).toBeVisible();
+			await expect(addNewOrderPage.deleteProductButton).not.toBeVisible();
+
 			await addNewOrderPage.clickCreate();
 
 			await ordersListPage.waitForOpened();
 			await expect(ordersListPage.toastMessage).toContainText(NOTIFICATIONS.ORDER_CREATED);
 
-			await expect(ordersListPage.tableRowsByEmail(customer.email)).toBeVisible();
+			await expect(ordersListPage.tableRowsByEmail(customerEmail)).toBeVisible();
 			const orderData = await ordersListPage.getTableData();
-			const order = orderData.find((order: any) => order.email === customer.email);
+			const order = orderData.find((order: IOrderInTable) => order.email === customerEmail);
+			id_order = order!._id;
+		},
+	);
+
+	test(
+		"Add order with 5 products",
+		{
+			tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.UI],
+		},
+		async ({ addNewOrderPage, ordersListPage, ordersListUIService, ordersApiService }) => {
+			const { customerId, customerName, customerEmail } = await ordersApiService.createCustomer(token);
+			id_customer = customerId;
+
+			const { productsIds, productNames } = await ordersApiService.createProducts(token, 5);
+			ids = productsIds;
+
+			await ordersListUIService.open();
+			await ordersListPage.clickCreateOrder();
+
+			await addNewOrderPage.selectCustomerAndProduct(customerName, productNames);
+			await addNewOrderPage.clickCreate();
+
+			await ordersListPage.waitForOpened();
+
+			await expect(ordersListPage.tableRowsByEmail(customerEmail)).toBeVisible();
+			const orderData = await ordersListPage.getTableData();
+			const order = orderData.find((order: IOrderInTable) => order.email === customerEmail);
 			id_order = order!._id;
 		},
 	);
@@ -78,48 +106,29 @@ test.describe("[UI] [Orders]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({
-			page,
-			addNewOrderPage,
-			ordersListPage,
-			ordersListUIService,
-			customersApiService,
-			productsApiService,
-		}) => {
-			token = await ordersListPage.getAuthToken();
-			const customer = await customersApiService.create(token);
-			id_customer = customer._id;
-			const customer_name = customer.name;
+		async ({ addNewOrderPage, ordersListPage, ordersListUIService, ordersApiService }) => {
+			const { customerId, customerName, customerEmail } = await ordersApiService.createCustomer(token);
+			id_customer = customerId;
 
-			for (let i = 1; i <= 3; i++) {
-				const products = await productsApiService.create(token);
-				ids.push(products._id);
-				product_name.push(products.name);
-				await page.waitForTimeout(1000);
-			}
+			const { productsIds, productNames } = await ordersApiService.createProducts(token, 3);
+			ids = productsIds;
 
-			token = await ordersListPage.getAuthToken();
 			await ordersListUIService.open();
 			await ordersListPage.clickCreateOrder();
 
-			await expect(addNewOrderPage.createOrderPageTitle).toHaveText("Create Order");
-			await expect(addNewOrderPage.addProductButton).toBeVisible();
+			await addNewOrderPage.selectCustomerAndProduct(customerName, productNames);
 
-			await addNewOrderPage.selectCustomerAndProduct(customer_name, product_name);
-			await addNewOrderPage.countDeleteButtons(3);
-
-			await addNewOrderPage.deleteProductByName(product_name[1]!);
-			await addNewOrderPage.deleteProductByName(product_name[2]!);
-			await expect(addNewOrderPage.deleteProductButton).not.toBeVisible();
+			await addNewOrderPage.deleteProductByName(productNames[1]!);
+			await addNewOrderPage.deleteProductByName(productNames[2]!);
+			expect(addNewOrderPage.productField.selectOption(productNames[0]!));
 
 			await addNewOrderPage.clickCreate();
 
 			await ordersListPage.waitForOpened();
-			await expect(ordersListPage.toastMessage).toContainText(NOTIFICATIONS.ORDER_CREATED);
 
-			await expect(ordersListPage.tableRowsByEmail(customer.email)).toBeVisible();
+			await expect(ordersListPage.tableRowsByEmail(customerEmail)).toBeVisible();
 			const orderData = await ordersListPage.getTableData();
-			const order = orderData.find((order: any) => order.email === customer.email);
+			const order = orderData.find((order: IOrderInTable) => order.email === customerEmail);
 			id_order = order!._id;
 		},
 	);
@@ -129,33 +138,24 @@ test.describe("[UI] [Orders]", () => {
 		{
 			tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ addNewOrderPage, ordersListPage, ordersListUIService, customersApiService, productsApi }) => {
-			token = await ordersListPage.getAuthToken();
-			const customer = await customersApiService.create(token);
-			id_customer = customer._id;
-			const customer_name = customer.name;
+		async ({ addNewOrderPage, ordersListPage, ordersListUIService, ordersApiService }) => {
+			const { customerId, customerName, customerEmail } = await ordersApiService.createCustomer(token);
+			id_customer = customerId;
 
-			const createdProduct = await productsApi.create(generateProductData(), token);
-			id_product = createdProduct.body.Product._id;
-			product_name.push(createdProduct.body.Product.name);
+			const { productsIds, productNames } = await ordersApiService.createProducts(token, 3);
+			ids = productsIds;
 
-			token = await ordersListPage.getAuthToken();
 			await ordersListUIService.open();
 			await ordersListPage.clickCreateOrder();
 
-			await expect(addNewOrderPage.createOrderPageTitle).toHaveText("Create Order");
-			await expect(addNewOrderPage.addProductButton).toBeVisible();
-
-			await addNewOrderPage.selectCustomerAndProduct(customer_name, product_name);
-			await expect(addNewOrderPage.deleteProductButton).not.toBeVisible();
+			await addNewOrderPage.selectCustomerAndProduct(customerName, productNames);
 			await addNewOrderPage.clickCreate();
 
 			await ordersListPage.waitForOpened();
-			await expect(ordersListPage.toastMessage).toContainText(NOTIFICATIONS.ORDER_CREATED);
 
-			await expect(ordersListPage.tableRowsByEmail(customer.email)).toBeVisible();
+			await expect(ordersListPage.tableRowsByEmail(customerEmail)).toBeVisible();
 			const orderData = await ordersListPage.getTableData();
-			const order = orderData.find((order: any) => order.email === customer.email);
+			const order = orderData.find((order: IOrderInTable) => order.email === customerEmail);
 			id_order = order!._id;
 		},
 	);
