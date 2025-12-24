@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 20:59:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2816",
+    "etag": "W/\"b00-R51Uvwfl97R/lCXTENQvpSf69zs\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c543c1c508c5d5e013598",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c54371c508c5d5e013246",
+        "email": "Diana_Gottlieb4@hotmail.com",
+        "name": "Rosamond Farrell",
+        "country": "Germany",
+        "city": "Fort Jaquan",
+        "street": "Oakfield Road",
+        "house": 33,
+        "flat": 731,
+        "phone": "+12974460532",
+        "createdOn": "2025-12-24T20:59:35.000Z",
+        "notes": "uyn9bHGqambQvK1NUo6FMRfjqYk4viPcCvuBOwbFUlrLbI48H995FlzrOAvqo2syU0ovQ7ghE9dabjAP9C3yDeJhzGLZiKlQSUIrOmnK3SKlQxMC9QVOBKAPdsxGnILsOmjEXixl7af2R8wjZ5uTpfKjEKeF1Qv7L5KNSiQ4Gf8Wq1GyBjlWRqmcBoL5OXnc05rgzB8qb3oUNrdeDfpCjtFlcA6602kUEB0Hr9rzCd1BLWPShV8gOi8OMA"
+      },
+      "products": [
+        {
+          "_id": "694c543a1c508c5d5e0133e4",
+          "name": "Chips54825",
+          "amount": 319,
+          "price": 45007,
+          "manufacturer": "Google",
+          "notes": "ubXsgYuFAzdYhclhVc1CvRLpHbZNTKwuYZLDBEGbDlIN6AMYXCMrY8NkwiS2U898kbrZmDZzDlodVioZ5b8DnuEBJrPFvx5Z9PDYBk9LP8mdB8cN1mhhhvNnnYfTpIWJyLPbpXy5alt8EABqmQ1wAPyjs9bMcfMEMCIs2hCcKmeheUhvTLCHcHwUPmy2m6X0FdN0MvycOP0fBCaVziXiqgQ0XU75v7Oz3Jf1vcSqZvzPVWhozy24oaGSdq",
+          "received": false
+        },
+        {
+          "_id": "694c543c1c508c5d5e01356f",
+          "name": "Bacon87468",
+          "amount": 165,
+          "price": 35668,
+          "manufacturer": "Apple",
+          "notes": "39kPMri0zFUUILdadpUJFjLQvw7XJ4bkddCPsIV2OL6nAAXN9AD1OmFKZP8lxGDKqONfGcAe3lxMIx9wWIxQfvZ6bWEKnTRYumJdBTSmnMADcAqVnIXInjfWrzi1KGiq9KWeIHgfKy9leCDGBVizTHGiu3B6TS342e8UgbWmPSJM2qDObJdQuTfCoJDDRjMo2jcSuozkKPKyG0mIpdXLHchfMMBREZ01UWRKTdQlotty5dr1H0N7rqUv1D",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 80675,
+      "createdOn": "2025-12-24T20:59:40.000Z",
+      "comments": [
+        {
+          "text": "tcDgZAQB9DTALc3p1kMBNA6rQQVasjgj1c484Cd5hJHnND5HL9G2uWcT2P8yx9pbZdcFa71hqHB",
+          "createdOn": "2025-12-24T20:59:41.000Z",
+          "_id": "694c543d1c508c5d5e0135d1"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c54371c508c5d5e013246",
+          "products": [
+            {
+              "_id": "694c543a1c508c5d5e0133e4",
+              "name": "Chips54825",
+              "amount": 319,
+              "price": 45007,
+              "manufacturer": "Google",
+              "notes": "ubXsgYuFAzdYhclhVc1CvRLpHbZNTKwuYZLDBEGbDlIN6AMYXCMrY8NkwiS2U898kbrZmDZzDlodVioZ5b8DnuEBJrPFvx5Z9PDYBk9LP8mdB8cN1mhhhvNnnYfTpIWJyLPbpXy5alt8EABqmQ1wAPyjs9bMcfMEMCIs2hCcKmeheUhvTLCHcHwUPmy2m6X0FdN0MvycOP0fBCaVziXiqgQ0XU75v7Oz3Jf1vcSqZvzPVWhozy24oaGSdq",
+              "received": false
+            },
+            {
+              "_id": "694c543c1c508c5d5e01356f",
+              "name": "Bacon87468",
+              "amount": 165,
+              "price": 35668,
+              "manufacturer": "Apple",
+              "notes": "39kPMri0zFUUILdadpUJFjLQvw7XJ4bkddCPsIV2OL6nAAXN9AD1OmFKZP8lxGDKqONfGcAe3lxMIx9wWIxQfvZ6bWEKnTRYumJdBTSmnMADcAqVnIXInjfWrzi1KGiq9KWeIHgfKy9leCDGBVizTHGiu3B6TS342e8UgbWmPSJM2qDObJdQuTfCoJDDRjMo2jcSuozkKPKyG0mIpdXLHchfMMBREZ01UWRKTdQlotty5dr1H0N7rqUv1D",
+              "received": false
+            }
+          ],
+          "total_price": 80675,
+          "delivery": null,
+          "changedOn": "2025-12-24T20:59:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

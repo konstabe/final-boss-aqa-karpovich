@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 20:59:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4782",
+    "etag": "W/\"12ae-bD2UaGeLDVh0Ti4ckXiSDuyEmHA\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c54411c508c5d5e0138dd",
+      "status": "Received",
+      "customer": {
+        "_id": "694c543d1c508c5d5e0135c2",
+        "email": "Mariah84@yahoo.com",
+        "name": "Madonna Jones",
+        "country": "Canada",
+        "city": "Longmont",
+        "street": "Sherwood Terrace",
+        "house": 36,
+        "flat": 715,
+        "phone": "+16729464618",
+        "createdOn": "2025-12-24T20:59:41.000Z",
+        "notes": "MOXZq1uqx7WUnI1uPanLGtSvRPIqjRwRjk6rjkpo2HtKoZVIF0eMvzZLMNx1uSzFZhcFDjvf0ou1uVbLtC8fVZAwx33WogZrxlAouBB8NS2HeuIqQAoU6cs5cF8ATwQvO5F0LAmszJKqezXvRIIdpCOBggSfybl7brYPJLR7lpm87GX7nRviiQHgbrm3mH3gLoDg3uRtsGB010ydD8t9SvMQzDOiYkUDTJVec5bz58FEteeJ20Q89BafSm"
+      },
+      "products": [
+        {
+          "_id": "694c543f1c508c5d5e01374c",
+          "name": "Shirt46524",
+          "amount": 415,
+          "price": 97410,
+          "manufacturer": "Sony",
+          "notes": "O6Tcdozm2mXUjDuqYy78LafiqgYnUxmWJ1qCx9AGNWZdxLshh6qgzTMeAQfLRopi7KQd8PBqZIfd6TyHEWccFfJ9g8SXH25Eiv7pNzanI5ly87bw3Ze3xKEq1wjTJphaHuw1kWMasZB9fdusCg0xIxfp6cSF7EjsZSAqalSCUjrCMPexlYZPmXveHB4BlJaHK4y11dyGoOEGWgiTHxVyqTMHOPTT88VhyB7C3gQNZesgdj40yYfNf12ogB",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Longmont",
+          "street": "Sherwood Terrace",
+          "house": 36,
+          "flat": 715
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 97410,
+      "createdOn": "2025-12-24T20:59:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694c543d1c508c5d5e0135c2",
+          "products": [
+            {
+              "_id": "694c543f1c508c5d5e01374c",
+              "name": "Shirt46524",
+              "amount": 415,
+              "price": 97410,
+              "manufacturer": "Sony",
+              "notes": "O6Tcdozm2mXUjDuqYy78LafiqgYnUxmWJ1qCx9AGNWZdxLshh6qgzTMeAQfLRopi7KQd8PBqZIfd6TyHEWccFfJ9g8SXH25Eiv7pNzanI5ly87bw3Ze3xKEq1wjTJphaHuw1kWMasZB9fdusCg0xIxfp6cSF7EjsZSAqalSCUjrCMPexlYZPmXveHB4BlJaHK4y11dyGoOEGWgiTHxVyqTMHOPTT88VhyB7C3gQNZesgdj40yYfNf12ogB",
+              "received": true
+            }
+          ],
+          "total_price": 97410,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Longmont",
+              "street": "Sherwood Terrace",
+              "house": 36,
+              "flat": 715
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-24T20:59:55.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694c543d1c508c5d5e0135c2",
+          "products": [
+            {
+              "_id": "694c543f1c508c5d5e01374c",
+              "name": "Shirt46524",
+              "amount": 415,
+              "price": 97410,
+              "manufacturer": "Sony",
+              "notes": "O6Tcdozm2mXUjDuqYy78LafiqgYnUxmWJ1qCx9AGNWZdxLshh6qgzTMeAQfLRopi7KQd8PBqZIfd6TyHEWccFfJ9g8SXH25Eiv7pNzanI5ly87bw3Ze3xKEq1wjTJphaHuw1kWMasZB9fdusCg0xIxfp6cSF7EjsZSAqalSCUjrCMPexlYZPmXveHB4BlJaHK4y11dyGoOEGWgiTHxVyqTMHOPTT88VhyB7C3gQNZesgdj40yYfNf12ogB",
+              "received": false
+            }
+          ],
+          "total_price": 97410,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Longmont",
+              "street": "Sherwood Terrace",
+              "house": 36,
+              "flat": 715
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-24T20:59:51.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c543d1c508c5d5e0135c2",
+          "products": [
+            {
+              "_id": "694c543f1c508c5d5e01374c",
+              "name": "Shirt46524",
+              "amount": 415,
+              "price": 97410,
+              "manufacturer": "Sony",
+              "notes": "O6Tcdozm2mXUjDuqYy78LafiqgYnUxmWJ1qCx9AGNWZdxLshh6qgzTMeAQfLRopi7KQd8PBqZIfd6TyHEWccFfJ9g8SXH25Eiv7pNzanI5ly87bw3Ze3xKEq1wjTJphaHuw1kWMasZB9fdusCg0xIxfp6cSF7EjsZSAqalSCUjrCMPexlYZPmXveHB4BlJaHK4y11dyGoOEGWgiTHxVyqTMHOPTT88VhyB7C3gQNZesgdj40yYfNf12ogB",
+              "received": false
+            }
+          ],
+          "total_price": 97410,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Longmont",
+              "street": "Sherwood Terrace",
+              "house": 36,
+              "flat": 715
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-24T20:59:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c543d1c508c5d5e0135c2",
+          "products": [
+            {
+              "_id": "694c543f1c508c5d5e01374c",
+              "name": "Shirt46524",
+              "amount": 415,
+              "price": 97410,
+              "manufacturer": "Sony",
+              "notes": "O6Tcdozm2mXUjDuqYy78LafiqgYnUxmWJ1qCx9AGNWZdxLshh6qgzTMeAQfLRopi7KQd8PBqZIfd6TyHEWccFfJ9g8SXH25Eiv7pNzanI5ly87bw3Ze3xKEq1wjTJphaHuw1kWMasZB9fdusCg0xIxfp6cSF7EjsZSAqalSCUjrCMPexlYZPmXveHB4BlJaHK4y11dyGoOEGWgiTHxVyqTMHOPTT88VhyB7C3gQNZesgdj40yYfNf12ogB",
+              "received": false
+            }
+          ],
+          "total_price": 97410,
+          "delivery": null,
+          "changedOn": "2025-12-24T20:59:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

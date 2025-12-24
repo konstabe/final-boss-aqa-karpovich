@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 21:00:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2970",
+    "etag": "W/\"b9a-NfZHhlYuVupRv45QZqt9tmIkCd8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c54721c508c5d5e015ec5",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c546e1c508c5d5e015bdb",
+        "email": "Ryann_Daniel88@hotmail.com",
+        "name": "Haylie Farrell",
+        "country": "Canada",
+        "city": "Lake Havasu City",
+        "street": "Leopold Loaf",
+        "house": 36,
+        "flat": 998,
+        "phone": "+17864164790",
+        "createdOn": "2025-12-24T21:00:30.000Z",
+        "notes": "3mFstFqsJEBc8EsBZCP2nY1ZyzisJdjO0E32mTQV460rlbY7MuCPggeGkU1MBX58Hjwt4ydACiduPPEyCaLW6xsrAONAtrpcCVxQmVMvTlRWErjzKyKRPEUACG8vkR1NvEVxxefqcHaWZvqCrwRXd6P17WsqtYdEo7cC1TNi3KVHEtpRnt7rduq71gA2y8gBcIvyya022VSSEx80hHtPwBUrq1eWoyZvnWHDbQdxxUTuJnW9prqdKrF6qy"
+      },
+      "products": [
+        {
+          "_id": "694c546e1c508c5d5e015bef",
+          "name": "Keyboard32161",
+          "amount": 353,
+          "price": 30090,
+          "manufacturer": "Google",
+          "notes": "767Bo5SSoMHodM9KA3IjsRpiFkCxlIPgCfs41be7SKlFUugj1xoX9FifeLc7EpMqYShmtSFFSGQAAGFofRW7oSKJ6x5EmOkDvtJTBQjJMXmrI8WGLLM7ncOVzm8FvqFwKU1088FqlUZEGNvtBCymZxIN3TY7SsoIAb5cjZy9EmaVTeoSQ6tfBf2FepktROERXIdfxtKrwBAd1M1wMXHRi0vzvx88BR7u2DGc5lWl7RR3yhuVFNLy4iyq32",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 30090,
+      "createdOn": "2025-12-24T21:00:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c546e1c508c5d5e015bdb",
+          "products": [
+            {
+              "_id": "694c546e1c508c5d5e015bef",
+              "name": "Keyboard32161",
+              "amount": 353,
+              "price": 30090,
+              "manufacturer": "Google",
+              "notes": "767Bo5SSoMHodM9KA3IjsRpiFkCxlIPgCfs41be7SKlFUugj1xoX9FifeLc7EpMqYShmtSFFSGQAAGFofRW7oSKJ6x5EmOkDvtJTBQjJMXmrI8WGLLM7ncOVzm8FvqFwKU1088FqlUZEGNvtBCymZxIN3TY7SsoIAb5cjZy9EmaVTeoSQ6tfBf2FepktROERXIdfxtKrwBAd1M1wMXHRi0vzvx88BR7u2DGc5lWl7RR3yhuVFNLy4iyq32",
+              "received": false
+            }
+          ],
+          "total_price": 30090,
+          "delivery": null,
+          "changedOn": "2025-12-24T21:00:34.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "694c546e1c508c5d5e015bdb",
+          "products": [
+            {
+              "_id": "694c546e1c508c5d5e015bef",
+              "name": "Keyboard32161",
+              "amount": 353,
+              "price": 30090,
+              "manufacturer": "Google",
+              "notes": "767Bo5SSoMHodM9KA3IjsRpiFkCxlIPgCfs41be7SKlFUugj1xoX9FifeLc7EpMqYShmtSFFSGQAAGFofRW7oSKJ6x5EmOkDvtJTBQjJMXmrI8WGLLM7ncOVzm8FvqFwKU1088FqlUZEGNvtBCymZxIN3TY7SsoIAb5cjZy9EmaVTeoSQ6tfBf2FepktROERXIdfxtKrwBAd1M1wMXHRi0vzvx88BR7u2DGc5lWl7RR3yhuVFNLy4iyq32",
+              "received": false
+            }
+          ],
+          "total_price": 30090,
+          "delivery": null,
+          "changedOn": "2025-12-24T21:00:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

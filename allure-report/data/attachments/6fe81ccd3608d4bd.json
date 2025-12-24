@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 20:59:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1894",
+    "etag": "W/\"766-/dukTzLhX9m7EBCNe1zigrA/kso\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c54381c508c5d5e013251",
+        "email": "Lorna_Hane89@hotmail.com",
+        "name": "Elyse Howell",
+        "country": "Russia",
+        "city": "South Toy",
+        "street": "Abbott Trafficway",
+        "house": 38,
+        "flat": 379,
+        "phone": "+12937678271",
+        "createdOn": "2025-12-24T20:59:36.000Z",
+        "notes": "E56FHtBBxsm8JZHGFDRmoPFmKyKNEe8KWJ44NDQQowxm1F601KjfSqcC5D2Bx6Z1sxbcWrQ2sfsm1V4Q0ufzUzPbiREZnP34AhC7AOxNT0pBZnUEninPcifV16iP91FbLy2KqAXell6A3u30lp3rF5NLgIambIazXR7JukiU3Fx50ejEN7XN0AtRxXPjnvdFjDmFFFVI6Ue41dGRHqlyxDPhYOGTjn106NXHLDxxbTV1BqXjZHcxCiaQkJ"
+      },
+      "products": [
+        {
+          "_id": "694c543a1c508c5d5e0133e6",
+          "name": "Cheese15807",
+          "amount": 256,
+          "price": 83312,
+          "manufacturer": "Microsoft",
+          "notes": "dGnDRl29ujDi6H9R4x8IFz0vLBg9aR8QX64Pz7PEByIa2qk43bOdQBx4KZ57rMXfiVGG6PKwBlwpBj5rSjHH2151QL5CgAbYrXclUJy4TXhW7V9yTAxLkO1ZPaZN5GcgUgn7ItFhdsMKgTQqZ9IBz9MP3JHUpPLPtvxbkfEKlbu7GSknutvsbIli34qBiZFk389ixhWB5ukCgGcqKZCrGKENhd3EA0nNGp9oNGELCnSAE8eU9bIRk6ywqZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 83312,
+      "createdOn": "2025-12-24T20:59:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c54381c508c5d5e013251",
+          "products": [
+            {
+              "_id": "694c543a1c508c5d5e0133e6",
+              "name": "Cheese15807",
+              "amount": 256,
+              "price": 83312,
+              "manufacturer": "Microsoft",
+              "notes": "dGnDRl29ujDi6H9R4x8IFz0vLBg9aR8QX64Pz7PEByIa2qk43bOdQBx4KZ57rMXfiVGG6PKwBlwpBj5rSjHH2151QL5CgAbYrXclUJy4TXhW7V9yTAxLkO1ZPaZN5GcgUgn7ItFhdsMKgTQqZ9IBz9MP3JHUpPLPtvxbkfEKlbu7GSknutvsbIli34qBiZFk389ixhWB5ukCgGcqKZCrGKENhd3EA0nNGp9oNGELCnSAE8eU9bIRk6ywqZ",
+              "received": false
+            }
+          ],
+          "total_price": 83312,
+          "delivery": null,
+          "changedOn": "2025-12-24T20:59:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c543c1c508c5d5e013576"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

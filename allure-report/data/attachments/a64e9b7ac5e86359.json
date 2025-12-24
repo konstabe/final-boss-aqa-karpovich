@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 20:59:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1414",
+    "etag": "W/\"586-Y19VOyoojyfQ02a9BGDX1gazcYo\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "694c54371c508c5d5e0131fc",
+        "status": "Draft",
+        "customer": "694c54361c508c5d5e0131a0",
+        "products": [
+          {
+            "_id": "694c54361c508c5d5e0131c3",
+            "name": "Keyboard95801",
+            "amount": 151,
+            "price": 56629,
+            "manufacturer": "Sony",
+            "notes": "UFo600l22O0slXpr4KGevdMTTJWFSbcL93fNBS2C1QIRR9J1y60hayeaHnrf66tednpQPc9chdLfgCVzS1nlIlTKsOK1tJAjeGZHLS7UgoXuKBmUj9mhLvqcRPqIA77HlHnYNyvWdr5MD4yK6Klv1odypwiRvFM3UszccvBgvI7hnUUzHHZPQmbWJyKjJuBqGSFnPAfBMUzuH2sJTxnu96s45DBo4lN6t8SFY5C5UXosx9ebrGTpQE77MP",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 56629,
+        "createdOn": "2025-12-24T20:59:35.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "694c54361c508c5d5e0131a0",
+            "products": [
+              {
+                "_id": "694c54361c508c5d5e0131c3",
+                "name": "Keyboard95801",
+                "amount": 151,
+                "price": 56629,
+                "manufacturer": "Sony",
+                "notes": "UFo600l22O0slXpr4KGevdMTTJWFSbcL93fNBS2C1QIRR9J1y60hayeaHnrf66tednpQPc9chdLfgCVzS1nlIlTKsOK1tJAjeGZHLS7UgoXuKBmUj9mhLvqcRPqIA77HlHnYNyvWdr5MD4yK6Klv1odypwiRvFM3UszccvBgvI7hnUUzHHZPQmbWJyKjJuBqGSFnPAfBMUzuH2sJTxnu96s45DBo4lN6t8SFY5C5UXosx9ebrGTpQE77MP",
+                "received": false
+              }
+            ],
+            "total_price": 56629,
+            "delivery": null,
+            "changedOn": "2025-12-24T20:59:35.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953315",
+              "username": "student2@gmail.com",
+              "firstName": "Wilfrid",
+              "lastName": "Daugherty",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
