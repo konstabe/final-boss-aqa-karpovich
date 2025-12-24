@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 20:58:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1412",
+    "etag": "W/\"584-NC9Pd+jD9jBSk9pXqZ9CQfaM9VU\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "694c53ec1c508c5d5e0101c3",
+        "status": "Draft",
+        "customer": "694c53eb1c508c5d5e01016d",
+        "products": [
+          {
+            "_id": "694c53ec1c508c5d5e01019a",
+            "name": "Chicken59825",
+            "amount": 484,
+            "price": 4883,
+            "manufacturer": "Xiaomi",
+            "notes": "bJy4jWgmPOcLFlxsVLOUQn8eZU0SarDVM08pvF9bGnmfJ6ZHB44fco5MHPFgSnFs2m4W9HzCfEe8xFjFyPFqRCySHK5yQHycSjJPrf384YlHWULeeZCEFKTxQybbJTcQsTSqXcOqz7mR70ljkjepowrBmpCesHbsfjofhMGHreoahXc7yxVQv2Y2bnDo3Gu5bBc6tklsa4y52015hzA4Tom3dFRMtJ1MQGlNNok0tyyAUZ6jKkE3W3LR8e",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 4883,
+        "createdOn": "2025-12-24T20:58:20.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "694c53eb1c508c5d5e01016d",
+            "products": [
+              {
+                "_id": "694c53ec1c508c5d5e01019a",
+                "name": "Chicken59825",
+                "amount": 484,
+                "price": 4883,
+                "manufacturer": "Xiaomi",
+                "notes": "bJy4jWgmPOcLFlxsVLOUQn8eZU0SarDVM08pvF9bGnmfJ6ZHB44fco5MHPFgSnFs2m4W9HzCfEe8xFjFyPFqRCySHK5yQHycSjJPrf384YlHWULeeZCEFKTxQybbJTcQsTSqXcOqz7mR70ljkjepowrBmpCesHbsfjofhMGHreoahXc7yxVQv2Y2bnDo3Gu5bBc6tklsa4y52015hzA4Tom3dFRMtJ1MQGlNNok0tyyAUZ6jKkE3W3LR8e",
+                "received": false
+              }
+            ],
+            "total_price": 4883,
+            "delivery": null,
+            "changedOn": "2025-12-24T20:58:20.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953315",
+              "username": "student2@gmail.com",
+              "firstName": "Wilfrid",
+              "lastName": "Daugherty",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

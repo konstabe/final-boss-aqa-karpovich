@@ -1,0 +1,187 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 20:58:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5278",
+    "etag": "W/\"149e-VMGg1iFlJQ3udlMffar32FyIWLY\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c53fe1c508c5d5e010e7c",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c53f41c508c5d5e01070c",
+        "email": "Hudson_Feest@hotmail.com",
+        "name": "Shaniya Ritchie",
+        "country": "Belarus",
+        "city": "Centreville",
+        "street": "Kaelyn Fork",
+        "house": 24,
+        "flat": 619,
+        "phone": "+12446457849",
+        "createdOn": "2025-12-24T20:58:28.000Z",
+        "notes": "asyB1fSXSdrsQDKeukaPoltugBegZXmc2szaU4aykjB5bKyqg7JGS7kctoFCilnIFpbgsd1folxb089pkD32nPUmtevCm8sdqxbTVxatrYpbXWQhqf6QxMXxJqjXwGgbVyqAKTVKJ7mGED3S5dxlvkLXrZfaiHElkVCoP5A8CyH1guQQCAbZoWHYPkXJu6gHF5A8VlzqUGlSbB3aC4xDynZb3AWK6yMxUgANDTovw6VBKFHREhjgRMCW8D"
+      },
+      "products": [
+        {
+          "_id": "694c53f41c508c5d5e010720",
+          "name": "Soap12471",
+          "amount": 455,
+          "price": 99299,
+          "manufacturer": "Google",
+          "notes": "mlqEGdsLPMXqlCE3nWqkehdXP29HsRDSonwDh0t3b6R5cBwwmJIGK1lHJdRuP8f9Ol9Rn5Ghyugr68xaTDNhnjSGjeqDVU4h5OIU1esbPVXpwUvr2MzyJcJQi924dwoh4w42QmytoRtqSKkatZx8VJyPSw9oNWwVSxgGVYqoR64DvD1Pe9nc9BGLc7wJ6CY3rkpvLLU6ZfW3jxrvS6ZLxC20OjWDlpGF3SifrmeaKI8WnGbevCqU9sKHrM",
+          "received": false
+        },
+        {
+          "_id": "694c53f51c508c5d5e010761",
+          "name": "Sausages28934",
+          "amount": 828,
+          "price": 28384,
+          "manufacturer": "Microsoft",
+          "notes": "VQF7ltsF2MxlSu44r66OAnq7ofk4rGtbs3kyunAzySECpxIw4y31f1zDae8h1xdWCWGHOKaUj3jrx5w4uEDP90Q9mD3d4cblhT2HaXjpHLZOPHXgDokp2LAulua9WIA4kkUIPviLeFSGc4t91UNaSSLgKUf9qnJUKjASs95XAth0AB4FYB3RSv1tbxZxoMGH79xSFNwXb1FB30FYiXphOA9LWp7OyYSdQbBjsqieZQ5EWapclOFpPUL4RH",
+          "received": false
+        },
+        {
+          "_id": "694c53f71c508c5d5e0108e5",
+          "name": "Cheese46362",
+          "amount": 757,
+          "price": 40334,
+          "manufacturer": "Xiaomi",
+          "notes": "nMOwCzv2KHdanoHqoql3cXbNo0fpypmJimjS5K3UjJKGP7NYQ7iomoYDlvUtsOiN4MC4W4THnDaLOz17BEn9z2sWb0QzGMkWk0rtN8mRlPH5BPvsfPxnsZHcx6NYyDUx7bbR6Phsv39O2cxkH6B1L5oeT6nzvp61AExZKWcb5BrDwEQjQqh4kkmUW1BeSGBxMOza9wDLCrASQjwrrrFrRPqh6JOD48WuSrvjk0b7RVujNPKpKEvG7kz7dT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Centreville",
+          "street": "Kaelyn Fork",
+          "house": 24,
+          "flat": 619
+        },
+        "finalDate": "2025-12-27T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 168017,
+      "createdOn": "2025-12-24T20:58:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c53f41c508c5d5e01070c",
+          "products": [
+            {
+              "_id": "694c53f41c508c5d5e010720",
+              "name": "Soap12471",
+              "amount": 455,
+              "price": 99299,
+              "manufacturer": "Google",
+              "notes": "mlqEGdsLPMXqlCE3nWqkehdXP29HsRDSonwDh0t3b6R5cBwwmJIGK1lHJdRuP8f9Ol9Rn5Ghyugr68xaTDNhnjSGjeqDVU4h5OIU1esbPVXpwUvr2MzyJcJQi924dwoh4w42QmytoRtqSKkatZx8VJyPSw9oNWwVSxgGVYqoR64DvD1Pe9nc9BGLc7wJ6CY3rkpvLLU6ZfW3jxrvS6ZLxC20OjWDlpGF3SifrmeaKI8WnGbevCqU9sKHrM",
+              "received": false
+            },
+            {
+              "_id": "694c53f51c508c5d5e010761",
+              "name": "Sausages28934",
+              "amount": 828,
+              "price": 28384,
+              "manufacturer": "Microsoft",
+              "notes": "VQF7ltsF2MxlSu44r66OAnq7ofk4rGtbs3kyunAzySECpxIw4y31f1zDae8h1xdWCWGHOKaUj3jrx5w4uEDP90Q9mD3d4cblhT2HaXjpHLZOPHXgDokp2LAulua9WIA4kkUIPviLeFSGc4t91UNaSSLgKUf9qnJUKjASs95XAth0AB4FYB3RSv1tbxZxoMGH79xSFNwXb1FB30FYiXphOA9LWp7OyYSdQbBjsqieZQ5EWapclOFpPUL4RH",
+              "received": false
+            },
+            {
+              "_id": "694c53f71c508c5d5e0108e5",
+              "name": "Cheese46362",
+              "amount": 757,
+              "price": 40334,
+              "manufacturer": "Xiaomi",
+              "notes": "nMOwCzv2KHdanoHqoql3cXbNo0fpypmJimjS5K3UjJKGP7NYQ7iomoYDlvUtsOiN4MC4W4THnDaLOz17BEn9z2sWb0QzGMkWk0rtN8mRlPH5BPvsfPxnsZHcx6NYyDUx7bbR6Phsv39O2cxkH6B1L5oeT6nzvp61AExZKWcb5BrDwEQjQqh4kkmUW1BeSGBxMOza9wDLCrASQjwrrrFrRPqh6JOD48WuSrvjk0b7RVujNPKpKEvG7kz7dT",
+              "received": false
+            }
+          ],
+          "total_price": 168017,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Centreville",
+              "street": "Kaelyn Fork",
+              "house": 24,
+              "flat": 619
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-24T20:58:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c53f41c508c5d5e01070c",
+          "products": [
+            {
+              "_id": "694c53f41c508c5d5e010720",
+              "name": "Soap12471",
+              "amount": 455,
+              "price": 99299,
+              "manufacturer": "Google",
+              "notes": "mlqEGdsLPMXqlCE3nWqkehdXP29HsRDSonwDh0t3b6R5cBwwmJIGK1lHJdRuP8f9Ol9Rn5Ghyugr68xaTDNhnjSGjeqDVU4h5OIU1esbPVXpwUvr2MzyJcJQi924dwoh4w42QmytoRtqSKkatZx8VJyPSw9oNWwVSxgGVYqoR64DvD1Pe9nc9BGLc7wJ6CY3rkpvLLU6ZfW3jxrvS6ZLxC20OjWDlpGF3SifrmeaKI8WnGbevCqU9sKHrM",
+              "received": false
+            },
+            {
+              "_id": "694c53f51c508c5d5e010761",
+              "name": "Sausages28934",
+              "amount": 828,
+              "price": 28384,
+              "manufacturer": "Microsoft",
+              "notes": "VQF7ltsF2MxlSu44r66OAnq7ofk4rGtbs3kyunAzySECpxIw4y31f1zDae8h1xdWCWGHOKaUj3jrx5w4uEDP90Q9mD3d4cblhT2HaXjpHLZOPHXgDokp2LAulua9WIA4kkUIPviLeFSGc4t91UNaSSLgKUf9qnJUKjASs95XAth0AB4FYB3RSv1tbxZxoMGH79xSFNwXb1FB30FYiXphOA9LWp7OyYSdQbBjsqieZQ5EWapclOFpPUL4RH",
+              "received": false
+            },
+            {
+              "_id": "694c53f71c508c5d5e0108e5",
+              "name": "Cheese46362",
+              "amount": 757,
+              "price": 40334,
+              "manufacturer": "Xiaomi",
+              "notes": "nMOwCzv2KHdanoHqoql3cXbNo0fpypmJimjS5K3UjJKGP7NYQ7iomoYDlvUtsOiN4MC4W4THnDaLOz17BEn9z2sWb0QzGMkWk0rtN8mRlPH5BPvsfPxnsZHcx6NYyDUx7bbR6Phsv39O2cxkH6B1L5oeT6nzvp61AExZKWcb5BrDwEQjQqh4kkmUW1BeSGBxMOza9wDLCrASQjwrrrFrRPqh6JOD48WuSrvjk0b7RVujNPKpKEvG7kz7dT",
+              "received": false
+            }
+          ],
+          "total_price": 168017,
+          "delivery": null,
+          "changedOn": "2025-12-24T20:58:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
