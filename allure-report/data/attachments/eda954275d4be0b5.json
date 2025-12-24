@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 11:05:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1416",
+    "etag": "W/\"588-oJotBQqxCn8XInXim/Ouiwx1RD4\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "694bc8e81c508c5d5efc5f86",
+        "status": "Draft",
+        "customer": "694bc8e81c508c5d5efc5f45",
+        "products": [
+          {
+            "_id": "694bc8e81c508c5d5efc5f64",
+            "name": "Sausages1187",
+            "amount": 753,
+            "price": 80735,
+            "manufacturer": "Amazon",
+            "notes": "bI8T8gGERuUEVYTm8w64SDdE0cRpytUEaPyraQDM9rVLag5eUKRSjEAyqvLpHD4rbMlBJW5ImsOu0HoQKzegO6LJ9YdumfvLuecIB1gj9qifawmfcoKT2iyC1uuhmv2UuxWMGBuxCV43rpEUhg6a5w5CX432R1hvVym0MSdwsLij8Muy6kC5ZCcxIHN6E553scetPWewr47cSDWbQL436GbbM71kF1NQX7ZXPllOJkBvwhR1TZaIGNUsyC",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 80735,
+        "createdOn": "2025-12-24T11:05:12.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "694bc8e81c508c5d5efc5f45",
+            "products": [
+              {
+                "_id": "694bc8e81c508c5d5efc5f64",
+                "name": "Sausages1187",
+                "amount": 753,
+                "price": 80735,
+                "manufacturer": "Amazon",
+                "notes": "bI8T8gGERuUEVYTm8w64SDdE0cRpytUEaPyraQDM9rVLag5eUKRSjEAyqvLpHD4rbMlBJW5ImsOu0HoQKzegO6LJ9YdumfvLuecIB1gj9qifawmfcoKT2iyC1uuhmv2UuxWMGBuxCV43rpEUhg6a5w5CX432R1hvVym0MSdwsLij8Muy6kC5ZCcxIHN6E553scetPWewr47cSDWbQL436GbbM71kF1NQX7ZXPllOJkBvwhR1TZaIGNUsyC",
+                "received": false
+              }
+            ],
+            "total_price": 80735,
+            "delivery": null,
+            "changedOn": "2025-12-24T11:05:12.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953315",
+              "username": "student2@gmail.com",
+              "firstName": "Wilfrid",
+              "lastName": "Daugherty",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

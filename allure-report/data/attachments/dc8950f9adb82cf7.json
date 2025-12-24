@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 11:05:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-OZIXdgjPLzaI7S6Nfkyi8w0INvM\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694bc8e81c508c5d5efc5f45",
+        "email": "Laney_Bruen63@hotmail.com",
+        "name": "Lazaro Hintz",
+        "country": "France",
+        "city": "Delphiaborough",
+        "street": "E Park Avenue",
+        "house": 40,
+        "flat": 335,
+        "phone": "+18295356775",
+        "createdOn": "2025-12-24T11:05:12.000Z",
+        "notes": "DkPJBz6N53iG7n5ufe3h5ruVAgE4IqW0zJwhSnkyJ82RQb2qZHajUnm1VLFWkeuqRRWSM3dJazyUqfSEUOdBaGbWWTIEpd7P2bXsHNwryom4akccbC5LXPaYzQcj5NgjsDunhhlVoidS0poLtRHm9B3IYMUhAm3sBQXQfF4Ejm8NJdsNwICMLrjXGfULKcMpFQc78Qoiaqv3AHjWhSnbrFKSybl1hWfDKr3cdoMFK5Ptu9xC6VUtrk4rXq"
+      },
+      "products": [
+        {
+          "_id": "694bc8e81c508c5d5efc5f64",
+          "name": "Sausages1187",
+          "amount": 753,
+          "price": 80735,
+          "manufacturer": "Amazon",
+          "notes": "bI8T8gGERuUEVYTm8w64SDdE0cRpytUEaPyraQDM9rVLag5eUKRSjEAyqvLpHD4rbMlBJW5ImsOu0HoQKzegO6LJ9YdumfvLuecIB1gj9qifawmfcoKT2iyC1uuhmv2UuxWMGBuxCV43rpEUhg6a5w5CX432R1hvVym0MSdwsLij8Muy6kC5ZCcxIHN6E553scetPWewr47cSDWbQL436GbbM71kF1NQX7ZXPllOJkBvwhR1TZaIGNUsyC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 80735,
+      "createdOn": "2025-12-24T11:05:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694bc8e81c508c5d5efc5f45",
+          "products": [
+            {
+              "_id": "694bc8e81c508c5d5efc5f64",
+              "name": "Sausages1187",
+              "amount": 753,
+              "price": 80735,
+              "manufacturer": "Amazon",
+              "notes": "bI8T8gGERuUEVYTm8w64SDdE0cRpytUEaPyraQDM9rVLag5eUKRSjEAyqvLpHD4rbMlBJW5ImsOu0HoQKzegO6LJ9YdumfvLuecIB1gj9qifawmfcoKT2iyC1uuhmv2UuxWMGBuxCV43rpEUhg6a5w5CX432R1hvVym0MSdwsLij8Muy6kC5ZCcxIHN6E553scetPWewr47cSDWbQL436GbbM71kF1NQX7ZXPllOJkBvwhR1TZaIGNUsyC",
+              "received": false
+            }
+          ],
+          "total_price": 80735,
+          "delivery": null,
+          "changedOn": "2025-12-24T11:05:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694bc8e81c508c5d5efc5f86"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

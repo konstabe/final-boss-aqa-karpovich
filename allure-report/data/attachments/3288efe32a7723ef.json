@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 11:05:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2659",
+    "etag": "W/\"a63-u1FZF2ciVVGlSJes74zxZOhn004\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694bc8e91c508c5d5efc5f9a",
+        "email": "Hermann.Hintz61@gmail.com",
+        "name": "Chelsea Emmerich",
+        "country": "Canada",
+        "city": "Fort Skylarhaven",
+        "street": "Mario Branch",
+        "house": 20,
+        "flat": 643,
+        "phone": "+16312742731",
+        "createdOn": "2025-12-24T11:05:13.000Z",
+        "notes": "hTZuCEAEvoQGmWa6RIicMfBMFtatJNrlwMwvZklxjpVAylpzuwAgThyuQRie367Ak8vUWGjb9ugPVsNPWlFnjpwMvyK24NvQleDh76muEMis5eHQIPumcYzMj3dMXJUSADy0BUKhLk7lpqW9RhZMU2PzL8t3ooIqaQPa5Adzy8llqZlJ9lDqLPNSOBDXRjafPU9X0BSiM5ER6mXTxXa6QakdhoCMozodms6cPeSSU5mSLTi5FDIuj0edgm"
+      },
+      "products": [
+        {
+          "_id": "694bc8e91c508c5d5efc5fc8",
+          "name": "Bacon44064",
+          "amount": 545,
+          "price": 98857,
+          "manufacturer": "Google",
+          "notes": "90VieiM11as3z1dlLWKVEwSEYuPFXN573siCNVuPWtoRVhg1Rrb0YG8QZpQZBm9zFT9VmI6i5gyCgoYRi7klnDRafK9ktQG5zIKfldv9JwlnME29s1wIB2EVbjyC2qlipRmKXN9Fvmfs8tJgM0T7b9JlQcXEXCPc7Of14nrNyMh2oP8ut6GFCgGX4Dk3ZxZXjh9EXz87IWbOEUqKe2dusubHWAw66HhvdMPu24UQdIq05fHnxsLfM9KGM8",
+          "received": false
+        },
+        {
+          "_id": "694bc8e91c508c5d5efc5fee",
+          "name": "Chips53077",
+          "amount": 853,
+          "price": 5881,
+          "manufacturer": "Apple",
+          "notes": "pNnYqQnOfFK24FBbDv9nEnGVO9rDDbUVhCfzrYnvJixXKvyHL6rwAGdXOZSRVN8qCSpvDq0FEhneYBmWUhi2KEUYqZEjEAqlzCUpiebze8oeCrx2M82IkB7yckvjWw43qkgTxMWCV7py12yg81PD6h9Vk7KlNEBc0NZxFqGOGYXLzlVJ5zOZb0Cj8cHNwIGOBc7O1uUkgeB5g40pc5VuwSEM4xfcEYgRRqPRnDneu5WnAawa4rRRzeHrjf",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 104738,
+      "createdOn": "2025-12-24T11:05:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694bc8e91c508c5d5efc5f9a",
+          "products": [
+            {
+              "_id": "694bc8e91c508c5d5efc5fc8",
+              "name": "Bacon44064",
+              "amount": 545,
+              "price": 98857,
+              "manufacturer": "Google",
+              "notes": "90VieiM11as3z1dlLWKVEwSEYuPFXN573siCNVuPWtoRVhg1Rrb0YG8QZpQZBm9zFT9VmI6i5gyCgoYRi7klnDRafK9ktQG5zIKfldv9JwlnME29s1wIB2EVbjyC2qlipRmKXN9Fvmfs8tJgM0T7b9JlQcXEXCPc7Of14nrNyMh2oP8ut6GFCgGX4Dk3ZxZXjh9EXz87IWbOEUqKe2dusubHWAw66HhvdMPu24UQdIq05fHnxsLfM9KGM8",
+              "received": false
+            },
+            {
+              "_id": "694bc8e91c508c5d5efc5fee",
+              "name": "Chips53077",
+              "amount": 853,
+              "price": 5881,
+              "manufacturer": "Apple",
+              "notes": "pNnYqQnOfFK24FBbDv9nEnGVO9rDDbUVhCfzrYnvJixXKvyHL6rwAGdXOZSRVN8qCSpvDq0FEhneYBmWUhi2KEUYqZEjEAqlzCUpiebze8oeCrx2M82IkB7yckvjWw43qkgTxMWCV7py12yg81PD6h9Vk7KlNEBc0NZxFqGOGYXLzlVJ5zOZb0Cj8cHNwIGOBc7O1uUkgeB5g40pc5VuwSEM4xfcEYgRRqPRnDneu5WnAawa4rRRzeHrjf",
+              "received": false
+            }
+          ],
+          "total_price": 104738,
+          "delivery": null,
+          "changedOn": "2025-12-24T11:05:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694bc8eb1c508c5d5efc614d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
