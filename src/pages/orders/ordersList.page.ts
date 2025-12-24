@@ -2,11 +2,15 @@ import { IOrderInTable, OrdersTableHeader, OrderStatus } from "data/types/order.
 import { SalesPortalPage } from "../salesPortal.page";
 import { logStep } from "utils/report/logStep.utils";
 import { CreateOrderModal } from "pages/orders/createOrder.modal";
+import { ReopenModal } from "pages/reOpenOder.modal";
+import { filterModal } from "pages/filter.modal";
+import { ExportDataModal } from "pages/exportData.modal";
 
 export class OrdersListPage extends SalesPortalPage {
-	// readonly filtersModal = new FiltersModal(this.page);
-	// readonly exportDataModal = new ExportDataModal(this.page);
+	readonly filterModal = new filterModal(this.page);
+	readonly exportDataModal = new ExportDataModal(this.page);
 	readonly createOrderModal = new CreateOrderModal(this.page);
+	readonly reopenModal = new ReopenModal(this.page);
 
 	readonly createOrderButton = this.page.locator("button[name='add-button']");
 	readonly uniqueElement = this.createOrderButton;

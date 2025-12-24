@@ -146,3 +146,5 @@ export interface IOrdersMock extends IResponseFields {
 		sortOrder: SortOrder;
 	};
 }
+
+export type OrdersModalName = "reopenModal" | "filterModal" | "exportDataModal"; //добавить createOrderModal
