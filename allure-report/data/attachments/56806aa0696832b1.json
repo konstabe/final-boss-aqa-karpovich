@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 21:02:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2656",
+    "etag": "W/\"a60-FlxAteNfjDj0FsNGjFfnulUDtKI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c54e61c508c5d5e016d0b",
+        "email": "Bobby.Conn53@yahoo.com",
+        "name": "Peggie Conroy",
+        "country": "Russia",
+        "city": "South Lavina",
+        "street": "Tevin Plaza",
+        "house": 36,
+        "flat": 919,
+        "phone": "+12587988083",
+        "createdOn": "2025-12-24T21:02:30.000Z",
+        "notes": "XgH0G96qr11HnsZjR6i6SvmS8qAmv9buiF6vdDOY66ppdLjkv4KG35L3aKyuSm4Xo26OvmGWVThucgn1nzYCxGNx9pjJCTL1qdte2GmdXl98HPQsuO6lNm3MOOiS2RYJ2QVKaVoKUZf7KiwxYDv0F9L6ixbGOF7l79rIFstd642SW0COXnd8mY9fE9VJckgI4pa9MK0paAoyrZj4HDKiMzpF0D3ohoiDBWIAB6JSPwhWP3aJonH0KGHwB1"
+      },
+      "products": [
+        {
+          "_id": "694c54e61c508c5d5e016d2f",
+          "name": "Shirt83201",
+          "amount": 517,
+          "price": 69644,
+          "manufacturer": "Amazon",
+          "notes": "Fa6DHtf6ecV2FkLw0nhF4H4VMmXRZlPTUpXtRLeFESqIZnKRr3TXKo3Om2h8UJh7WkCUoLGsTKvbBM3VyngQPhRxBcPK8yml7Lz6VVoLt7bH0T12becwQmTKyNUtL4WEebQdpLQV8GWsknGM4d32G0ExdIE8vRNGjSjy7UeOFS3iq0J7PgHZNEh2jH0BPHKYNH4vXaUBZ7EnOR0G4NBkhTTuTGL4z6oXNE0e7PkBfxtkkHg3JkQGTnVlLN",
+          "received": false
+        },
+        {
+          "_id": "694c54e61c508c5d5e016d54",
+          "name": "Soap72081",
+          "amount": 188,
+          "price": 88663,
+          "manufacturer": "Microsoft",
+          "notes": "c7f5MHXFbIh0IUFtJBtEVK67a1HOgFRZRfQzLtPgMvgC9P6J9AsQDnQyDRuS7bOMEs6brXAt2oO1R0WvnwX75G2mGniL2anulHPkhJxKkAa48sARND6Uz1ZG9GDqE3Di4YQK8T3U1tNG93xYzRsGM86eDnr4nXYFDN5DujOpysqGUDUzxRyZmp03PKGB1K95rxb7coBGpZnLof8m6fF5YhhnYu1JH2DrXma9sqV8eReOh6lvAdwsxKeXlh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 158307,
+      "createdOn": "2025-12-24T21:02:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c54e61c508c5d5e016d0b",
+          "products": [
+            {
+              "_id": "694c54e61c508c5d5e016d2f",
+              "name": "Shirt83201",
+              "amount": 517,
+              "price": 69644,
+              "manufacturer": "Amazon",
+              "notes": "Fa6DHtf6ecV2FkLw0nhF4H4VMmXRZlPTUpXtRLeFESqIZnKRr3TXKo3Om2h8UJh7WkCUoLGsTKvbBM3VyngQPhRxBcPK8yml7Lz6VVoLt7bH0T12becwQmTKyNUtL4WEebQdpLQV8GWsknGM4d32G0ExdIE8vRNGjSjy7UeOFS3iq0J7PgHZNEh2jH0BPHKYNH4vXaUBZ7EnOR0G4NBkhTTuTGL4z6oXNE0e7PkBfxtkkHg3JkQGTnVlLN",
+              "received": false
+            },
+            {
+              "_id": "694c54e61c508c5d5e016d54",
+              "name": "Soap72081",
+              "amount": 188,
+              "price": 88663,
+              "manufacturer": "Microsoft",
+              "notes": "c7f5MHXFbIh0IUFtJBtEVK67a1HOgFRZRfQzLtPgMvgC9P6J9AsQDnQyDRuS7bOMEs6brXAt2oO1R0WvnwX75G2mGniL2anulHPkhJxKkAa48sARND6Uz1ZG9GDqE3Di4YQK8T3U1tNG93xYzRsGM86eDnr4nXYFDN5DujOpysqGUDUzxRyZmp03PKGB1K95rxb7coBGpZnLof8m6fF5YhhnYu1JH2DrXma9sqV8eReOh6lvAdwsxKeXlh",
+              "received": false
+            }
+          ],
+          "total_price": 158307,
+          "delivery": null,
+          "changedOn": "2025-12-24T21:02:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c54e71c508c5d5e016da0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

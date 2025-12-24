@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 21:02:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2951",
+    "etag": "W/\"b87-OYR+VmF1mpkpWANpBgWLXFfjFMk\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c54ef1c508c5d5e017284",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c54ee1c508c5d5e017220",
+        "email": "Taurean29@hotmail.com",
+        "name": "Leann Hegmann",
+        "country": "Great Britain",
+        "city": "Hertaside",
+        "street": "Milo Pass",
+        "house": 19,
+        "flat": 109,
+        "phone": "+19569357195",
+        "createdOn": "2025-12-24T21:02:38.000Z",
+        "notes": "cuFm7VTxKcCJVHsL5Up157C7dSukinZZw9tmV1hVmjA3RhryfA2BpQ0FGW0Pwci2awMtDopiojDqtnVxfijmcYOW5bAUPL2GigVxTqhxUG1RicNa5zaVjL3HvgkaWSeG4lcoeOluIKQIVIudTZr9e9Q0Ci8GskklHyOppFGqzKF5LK8HMtFku0oSalqoBCjX6tP4L0TisaKz3sItoNaM3bFIF7lo59ho1WkyHGOzujC9lxRZTzLILMnR57"
+      },
+      "products": [
+        {
+          "_id": "694c54ee1c508c5d5e017258",
+          "name": "Shoes8253",
+          "amount": 573,
+          "price": 35583,
+          "manufacturer": "Google",
+          "notes": "cXh39R3wTayTGelSITOzza1f4VfphDfQoId2AuJnTRJSW6WLndL10Nk3saCOrC4AJTngUaR49Syf2MYiXklG4WTH4CP3mZfZZUL3lJ1ApG6RaGjVX7FCMwar8XwfqVk1wTe981Q2XtdQWXC4kLdsCACXRkETZc7o3D6d3J6fbb0ELN4PDQLotJAFlae7JJMHTHRGEcEEIbdCkemebIGjQTw47f8z9nHB1ZmlScdLtakOpUy33Voe1d4YYI",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Hertaside",
+          "street": "Milo Pass",
+          "house": 19,
+          "flat": 109
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 35583,
+      "createdOn": "2025-12-24T21:02:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c54ee1c508c5d5e017220",
+          "products": [
+            {
+              "_id": "694c54ee1c508c5d5e017258",
+              "name": "Shoes8253",
+              "amount": 573,
+              "price": 35583,
+              "manufacturer": "Google",
+              "notes": "cXh39R3wTayTGelSITOzza1f4VfphDfQoId2AuJnTRJSW6WLndL10Nk3saCOrC4AJTngUaR49Syf2MYiXklG4WTH4CP3mZfZZUL3lJ1ApG6RaGjVX7FCMwar8XwfqVk1wTe981Q2XtdQWXC4kLdsCACXRkETZc7o3D6d3J6fbb0ELN4PDQLotJAFlae7JJMHTHRGEcEEIbdCkemebIGjQTw47f8z9nHB1ZmlScdLtakOpUy33Voe1d4YYI",
+              "received": false
+            }
+          ],
+          "total_price": 35583,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Hertaside",
+              "street": "Milo Pass",
+              "house": 19,
+              "flat": 109
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-24T21:02:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c54ee1c508c5d5e017220",
+          "products": [
+            {
+              "_id": "694c54ee1c508c5d5e017258",
+              "name": "Shoes8253",
+              "amount": 573,
+              "price": 35583,
+              "manufacturer": "Google",
+              "notes": "cXh39R3wTayTGelSITOzza1f4VfphDfQoId2AuJnTRJSW6WLndL10Nk3saCOrC4AJTngUaR49Syf2MYiXklG4WTH4CP3mZfZZUL3lJ1ApG6RaGjVX7FCMwar8XwfqVk1wTe981Q2XtdQWXC4kLdsCACXRkETZc7o3D6d3J6fbb0ELN4PDQLotJAFlae7JJMHTHRGEcEEIbdCkemebIGjQTw47f8z9nHB1ZmlScdLtakOpUy33Voe1d4YYI",
+              "received": false
+            }
+          ],
+          "total_price": 35583,
+          "delivery": null,
+          "changedOn": "2025-12-24T21:02:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

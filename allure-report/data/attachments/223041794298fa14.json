@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 21:03:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5399",
+    "etag": "W/\"1517-areQGjycnkQPMmAusoXthuEvRPU\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c553b1c508c5d5e01ac75",
+      "status": "In Process",
+      "customer": {
+        "_id": "694c55351c508c5d5e01a8fb",
+        "email": "Jovany5@gmail.com",
+        "name": "Hipolito Lockman",
+        "country": "Ukraine",
+        "city": "Fort Tedstad",
+        "street": "West Street",
+        "house": 24,
+        "flat": 648,
+        "phone": "+13635570903",
+        "createdOn": "2025-12-24T21:03:49.000Z",
+        "notes": "QWU9fIyh5Ro9TYAhxtvybV7beY7fkLIPcnHeUpoAbYy1eWPQOpsr9udluZrgXSU0hq5osMCoV9Qu0B4U1x2mA6jvoTGoWUTkyX7cGbpYO108HTKXJLe6SIDokW0fXZPdmEc4OwJx0HSNWpGS6ISum6oKAJEVJ7D984CihnMNYcaYhYaGzT3Aq6j4sBZ2gUuYDpcTmK2y5OIAuJPLCMGDgHdX3Q0Bn6m10kOupJvUm81IfZQfYDHl0XDJUP"
+      },
+      "products": [
+        {
+          "_id": "694c55391c508c5d5e01ac0e",
+          "name": "Chair47253",
+          "amount": 963,
+          "price": 43238,
+          "manufacturer": "Sony",
+          "notes": "IVi6JdmYB5BwgrkeXgwBhVNJZLnIYEDdYbXGVNvlKEDnX9Tkjov2KocwaT8dCwiUdHCP8clgnlihAafGFV9ft0eXFNuy2AdeQUTF3yvxgsuUMFad5I2h4ibmi4mpkajRpmywTAJAjLqhA5qlMwSoHmizjSocfTIYnisekb1QbipUweD2W7dNb8lyHHBgCf4xPG9w7UqUfSfNrFxMZciwYhD8eNWTpWUclNeeW2P16y2jLOOdIOvW5RVQTK",
+          "received": false
+        },
+        {
+          "_id": "694c553a1c508c5d5e01ac3f",
+          "name": "Towels49626",
+          "amount": 774,
+          "price": 9881,
+          "manufacturer": "Sony",
+          "notes": "ro0FLigqpIe59m2UXKyhGfdJ5PIG6xteGYjthER626EITqqhEyIcBTfML98zW7K82KgIFnrQJbmhmrfmW67UzLNphlaG5qtsTBQds7Fkwb4iU0VGduJTYH1KwVC2dUmXHtQKg7AJJqrhnnIEEbR8DGDxSFY1gniq7cTleHjcanYDOqw8TMGC2vh65KrjSN9mlxKSXkfi8SdLouFibGRnWJJWlscAy8krVhfecdwMIOtyMta4rqDZGQfZbe",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Fort Tedstad",
+          "street": "West Street",
+          "house": 24,
+          "flat": 648
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 53119,
+      "createdOn": "2025-12-24T21:03:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694c55351c508c5d5e01a8fb",
+          "products": [
+            {
+              "_id": "694c55391c508c5d5e01ac0e",
+              "name": "Chair47253",
+              "amount": 963,
+              "price": 43238,
+              "manufacturer": "Sony",
+              "notes": "IVi6JdmYB5BwgrkeXgwBhVNJZLnIYEDdYbXGVNvlKEDnX9Tkjov2KocwaT8dCwiUdHCP8clgnlihAafGFV9ft0eXFNuy2AdeQUTF3yvxgsuUMFad5I2h4ibmi4mpkajRpmywTAJAjLqhA5qlMwSoHmizjSocfTIYnisekb1QbipUweD2W7dNb8lyHHBgCf4xPG9w7UqUfSfNrFxMZciwYhD8eNWTpWUclNeeW2P16y2jLOOdIOvW5RVQTK",
+              "received": false
+            },
+            {
+              "_id": "694c553a1c508c5d5e01ac3f",
+              "name": "Towels49626",
+              "amount": 774,
+              "price": 9881,
+              "manufacturer": "Sony",
+              "notes": "ro0FLigqpIe59m2UXKyhGfdJ5PIG6xteGYjthER626EITqqhEyIcBTfML98zW7K82KgIFnrQJbmhmrfmW67UzLNphlaG5qtsTBQds7Fkwb4iU0VGduJTYH1KwVC2dUmXHtQKg7AJJqrhnnIEEbR8DGDxSFY1gniq7cTleHjcanYDOqw8TMGC2vh65KrjSN9mlxKSXkfi8SdLouFibGRnWJJWlscAy8krVhfecdwMIOtyMta4rqDZGQfZbe",
+              "received": false
+            }
+          ],
+          "total_price": 53119,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Fort Tedstad",
+              "street": "West Street",
+              "house": 24,
+              "flat": 648
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-24T21:03:55.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c55351c508c5d5e01a8fb",
+          "products": [
+            {
+              "_id": "694c55391c508c5d5e01ac0e",
+              "name": "Chair47253",
+              "amount": 963,
+              "price": 43238,
+              "manufacturer": "Sony",
+              "notes": "IVi6JdmYB5BwgrkeXgwBhVNJZLnIYEDdYbXGVNvlKEDnX9Tkjov2KocwaT8dCwiUdHCP8clgnlihAafGFV9ft0eXFNuy2AdeQUTF3yvxgsuUMFad5I2h4ibmi4mpkajRpmywTAJAjLqhA5qlMwSoHmizjSocfTIYnisekb1QbipUweD2W7dNb8lyHHBgCf4xPG9w7UqUfSfNrFxMZciwYhD8eNWTpWUclNeeW2P16y2jLOOdIOvW5RVQTK",
+              "received": false
+            },
+            {
+              "_id": "694c553a1c508c5d5e01ac3f",
+              "name": "Towels49626",
+              "amount": 774,
+              "price": 9881,
+              "manufacturer": "Sony",
+              "notes": "ro0FLigqpIe59m2UXKyhGfdJ5PIG6xteGYjthER626EITqqhEyIcBTfML98zW7K82KgIFnrQJbmhmrfmW67UzLNphlaG5qtsTBQds7Fkwb4iU0VGduJTYH1KwVC2dUmXHtQKg7AJJqrhnnIEEbR8DGDxSFY1gniq7cTleHjcanYDOqw8TMGC2vh65KrjSN9mlxKSXkfi8SdLouFibGRnWJJWlscAy8krVhfecdwMIOtyMta4rqDZGQfZbe",
+              "received": false
+            }
+          ],
+          "total_price": 53119,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Fort Tedstad",
+              "street": "West Street",
+              "house": 24,
+              "flat": 648
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-24T21:03:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c55351c508c5d5e01a8fb",
+          "products": [
+            {
+              "_id": "694c55391c508c5d5e01ac0e",
+              "name": "Chair47253",
+              "amount": 963,
+              "price": 43238,
+              "manufacturer": "Sony",
+              "notes": "IVi6JdmYB5BwgrkeXgwBhVNJZLnIYEDdYbXGVNvlKEDnX9Tkjov2KocwaT8dCwiUdHCP8clgnlihAafGFV9ft0eXFNuy2AdeQUTF3yvxgsuUMFad5I2h4ibmi4mpkajRpmywTAJAjLqhA5qlMwSoHmizjSocfTIYnisekb1QbipUweD2W7dNb8lyHHBgCf4xPG9w7UqUfSfNrFxMZciwYhD8eNWTpWUclNeeW2P16y2jLOOdIOvW5RVQTK",
+              "received": false
+            },
+            {
+              "_id": "694c553a1c508c5d5e01ac3f",
+              "name": "Towels49626",
+              "amount": 774,
+              "price": 9881,
+              "manufacturer": "Sony",
+              "notes": "ro0FLigqpIe59m2UXKyhGfdJ5PIG6xteGYjthER626EITqqhEyIcBTfML98zW7K82KgIFnrQJbmhmrfmW67UzLNphlaG5qtsTBQds7Fkwb4iU0VGduJTYH1KwVC2dUmXHtQKg7AJJqrhnnIEEbR8DGDxSFY1gniq7cTleHjcanYDOqw8TMGC2vh65KrjSN9mlxKSXkfi8SdLouFibGRnWJJWlscAy8krVhfecdwMIOtyMta4rqDZGQfZbe",
+              "received": false
+            }
+          ],
+          "total_price": 53119,
+          "delivery": null,
+          "changedOn": "2025-12-24T21:03:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

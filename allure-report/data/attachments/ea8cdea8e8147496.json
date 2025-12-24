@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 21:05:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3428",
+    "etag": "W/\"d64-XO8BmB8KdW6YFT6TGVZnwtzqCWs\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c55871c508c5d5e01e911",
+        "email": "Fleta.Reinger@yahoo.com",
+        "name": "Armando Senger",
+        "country": "Great Britain",
+        "city": "North Darrel",
+        "street": "Homenick Meadows",
+        "house": 36,
+        "flat": 972,
+        "phone": "+12623908356",
+        "createdOn": "2025-12-24T21:05:11.000Z",
+        "notes": "8iEtkLPrFUHdrQG4SgZhdmL5tnuzw9Yar7pLxv97jbvPNCMozeGoEEGncjZHd0L1HIOH0YoZukzpC1sNihTewX2XVKChXlKpmQHObROP0onzYMQuMsLwaDyzOQa6TsjAdf2hEnZ6TDmkwlwCjVzB0GFlA8hhB8c5c1TSs2QZGhmCY0lgoAFAr9GObRoqfzSrVN2ZEbykOeA75mIwLQPRenOU8bgLQxqMARikfGQxr7UM9uJz5QuCBvkIYe"
+      },
+      "products": [
+        {
+          "_id": "694c55871c508c5d5e01e933",
+          "name": "Salad80272",
+          "amount": 100,
+          "price": 99787,
+          "manufacturer": "Tesla",
+          "notes": "JEElO7SMy9yKxGJcS03lfOGvBCTPG8aAHUo0UVg7Rryi4l8SFypn0O12UIOuH0zhZdqTcG6iUSnNwZEF1a9i1v0aR57KAD9g8dFyQj3VbJg2eNhcNhX8yE2vE4jjZfpqUPOAVxCRNMrOYE0n54LUFPsfOh2MNygjSiWNFvEXDiG8wSUbYmDfE6OkWM6k3LbHvgaHUzCGE8rDPRZXe8enUZ7yogxjLmog2rNWgbKVLXSUCuAngNNFh57RDM",
+          "received": false
+        },
+        {
+          "_id": "694c55881c508c5d5e01e953",
+          "name": "Tuna40139",
+          "amount": 293,
+          "price": 20790,
+          "manufacturer": "Tesla",
+          "notes": "U4byFbh7GZjlbk1BJDZ8CuE6A3LSvgVVGeDixUxFHCstOEheTmE87zQG6HmLCYsxart2LX2d6kdYfshqi206Q17VCqMethRnteUjGkwuIxqebjQdnBH0VvPPx7ZBdIHrYd9jDTbdsiOM3DSRQYvO6HECBhrOWpQ1TWZCr0WNSUrP5eWKzexRcu2prEoANHPO3O6DF6SWpDDIa26ekOUAM6VFOgPHf3PYvTmREHxxwist13yT0Q3mLAOMX1",
+          "received": false
+        },
+        {
+          "_id": "694c55881c508c5d5e01e97a",
+          "name": "Bacon17008",
+          "amount": 339,
+          "price": 77292,
+          "manufacturer": "Google",
+          "notes": "VOgCrIC3Ctt1omZeM8Gr897bN7hi5DL5HIjhfS6Cf9HrISwsd075sK5KhOy2fDSHgo4TshPi2WN3Poo82ES2Lfe0bZ0zYeXoRMRtqIvZ7PR1AuzeS0xTAFcrBkmDGOYbTZI5oXREaZqhIQsYgCNyiRQ87ovcbYx7o0et1vM6ilRwsdklOj2C2S3dYmWWU3Z7zJVxJOmnGLgtRNhO7dne5eCDZQtkGfDQMMpBhAVrweVfhRsnfiYZYA8ZEA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 197869,
+      "createdOn": "2025-12-24T21:05:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c55871c508c5d5e01e911",
+          "products": [
+            {
+              "_id": "694c55871c508c5d5e01e933",
+              "name": "Salad80272",
+              "amount": 100,
+              "price": 99787,
+              "manufacturer": "Tesla",
+              "notes": "JEElO7SMy9yKxGJcS03lfOGvBCTPG8aAHUo0UVg7Rryi4l8SFypn0O12UIOuH0zhZdqTcG6iUSnNwZEF1a9i1v0aR57KAD9g8dFyQj3VbJg2eNhcNhX8yE2vE4jjZfpqUPOAVxCRNMrOYE0n54LUFPsfOh2MNygjSiWNFvEXDiG8wSUbYmDfE6OkWM6k3LbHvgaHUzCGE8rDPRZXe8enUZ7yogxjLmog2rNWgbKVLXSUCuAngNNFh57RDM",
+              "received": false
+            },
+            {
+              "_id": "694c55881c508c5d5e01e953",
+              "name": "Tuna40139",
+              "amount": 293,
+              "price": 20790,
+              "manufacturer": "Tesla",
+              "notes": "U4byFbh7GZjlbk1BJDZ8CuE6A3LSvgVVGeDixUxFHCstOEheTmE87zQG6HmLCYsxart2LX2d6kdYfshqi206Q17VCqMethRnteUjGkwuIxqebjQdnBH0VvPPx7ZBdIHrYd9jDTbdsiOM3DSRQYvO6HECBhrOWpQ1TWZCr0WNSUrP5eWKzexRcu2prEoANHPO3O6DF6SWpDDIa26ekOUAM6VFOgPHf3PYvTmREHxxwist13yT0Q3mLAOMX1",
+              "received": false
+            },
+            {
+              "_id": "694c55881c508c5d5e01e97a",
+              "name": "Bacon17008",
+              "amount": 339,
+              "price": 77292,
+              "manufacturer": "Google",
+              "notes": "VOgCrIC3Ctt1omZeM8Gr897bN7hi5DL5HIjhfS6Cf9HrISwsd075sK5KhOy2fDSHgo4TshPi2WN3Poo82ES2Lfe0bZ0zYeXoRMRtqIvZ7PR1AuzeS0xTAFcrBkmDGOYbTZI5oXREaZqhIQsYgCNyiRQ87ovcbYx7o0et1vM6ilRwsdklOj2C2S3dYmWWU3Z7zJVxJOmnGLgtRNhO7dne5eCDZQtkGfDQMMpBhAVrweVfhRsnfiYZYA8ZEA",
+              "received": false
+            }
+          ],
+          "total_price": 197869,
+          "delivery": null,
+          "changedOn": "2025-12-24T21:05:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c55881c508c5d5e01e9a1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

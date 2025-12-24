@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 21:02:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-RHhOC8vG9W6Q6W3/ES6KkJmR5GM\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c54f01c508c5d5e0172a5",
+        "email": "Marion.Kemmer@yahoo.com",
+        "name": "Leonard Harvey",
+        "country": "France",
+        "city": "Mosescester",
+        "street": "E 11th Street",
+        "house": 20,
+        "flat": 298,
+        "phone": "+19464777553",
+        "createdOn": "2025-12-24T21:02:40.000Z",
+        "notes": "ZKELi1FNhoVyVk2e3CmOhenq2KRXMwx4Nqv2P5Pe4lp9jMwQ4vQ8EYo8GOxmtXHYkAHUSzN4KSL6o8lm3GXdJ5a8kpv8LcBDETmDZKcgu5Ql5AADVhFizvXecZqs2PlNvFYFdsv8YRumXxD9FlN9HyNC4y8HDQpSq0p9slq9pJmaqNaz8d0MJwxAGgVksTpzr1gIpeR39TplUHyrgxBjrsvaS2IgDrTekjZD6ake4RrM4jIqnl2FepDwKn"
+      },
+      "products": [
+        {
+          "_id": "694c54f01c508c5d5e0172c1",
+          "name": "Pizza15945",
+          "amount": 282,
+          "price": 71555,
+          "manufacturer": "Amazon",
+          "notes": "34RkRGtNRYzRSdNBOfGfrAnmVbhaAIT3D2PquJp6K5KHAGfzC5zg9WuBwCsw6wro2q3nX6XwHYtO2W34QsUHAGTi4LT2sB9pGblw7etys0qSDSYcZgr6lvXQWoUR2ERcjnLlXNMeHecArcQO4GyvnmVEcgL1I7SupavyYG5iAavgELE4xTj24bWzGGz3HUIDOKPXISwdGxL9VSmX8ms0iJKixnMOaXJUbRHFhC8rH9lpENj2cH7JvsJPy1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 71555,
+      "createdOn": "2025-12-24T21:02:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c54f01c508c5d5e0172a5",
+          "products": [
+            {
+              "_id": "694c54f01c508c5d5e0172c1",
+              "name": "Pizza15945",
+              "amount": 282,
+              "price": 71555,
+              "manufacturer": "Amazon",
+              "notes": "34RkRGtNRYzRSdNBOfGfrAnmVbhaAIT3D2PquJp6K5KHAGfzC5zg9WuBwCsw6wro2q3nX6XwHYtO2W34QsUHAGTi4LT2sB9pGblw7etys0qSDSYcZgr6lvXQWoUR2ERcjnLlXNMeHecArcQO4GyvnmVEcgL1I7SupavyYG5iAavgELE4xTj24bWzGGz3HUIDOKPXISwdGxL9VSmX8ms0iJKixnMOaXJUbRHFhC8rH9lpENj2cH7JvsJPy1",
+              "received": false
+            }
+          ],
+          "total_price": 71555,
+          "delivery": null,
+          "changedOn": "2025-12-24T21:02:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c54f01c508c5d5e0172fb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

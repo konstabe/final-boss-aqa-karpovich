@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 21:05:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4775",
+    "etag": "W/\"12a7-epqYPFBLaO2npauSDmqOy9zMmUY\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c55871c508c5d5e01e919",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694c557d1c508c5d5e01e181",
+        "email": "Viola42@gmail.com",
+        "name": "Shania Adams",
+        "country": "USA",
+        "city": "West Mateoton",
+        "street": "Lincoln Street",
+        "house": 7,
+        "flat": 105,
+        "phone": "+15426161932",
+        "createdOn": "2025-12-24T21:05:01.000Z",
+        "notes": "TWd608RpbDokWopFAncgTywdm0p6OlRyQDMwInYtzlnRVHmF8LdywvIQtgNiAAPgkN4y1BSiLda9OHC0Hj3cEg8g4EHq3DPiOuwfVN1YEnaEU6TsZ2LGsNnbGilzhGriemzcsoWC3pffPTmXGbEOBH6b49aRQdiYLBzrTt8ssjMY3qnWN8i4WjRSrbdtbt1o98sitCMdW8d1slmrRSLVSPTLbA995HLwVHfsUfwP6aBCX93eFioz6BqkFW"
+      },
+      "products": [
+        {
+          "_id": "694c55831c508c5d5e01e604",
+          "name": "Chair21731",
+          "amount": 608,
+          "price": 38317,
+          "manufacturer": "Apple",
+          "notes": "Ca2SRCinGdDt4PleerbO9kyHyNRGuyt0OyeZJz2woxYatwtIPeKPXzmlVU4bViTGrE8UY0vA6ujPMGCcIVl31jfW1iWxcbff2f5v38F6DMVjpxrWsDtmeAKxKgbAKfdgU26FTiogviIMgYJxTVa8Zl3dc2VZYUVAb4d4EwzB3obpSXQgPnePnpKbT595A5n5J7BAuCXBQcWDEmcffE5RJ6HQO4s6DcYUhSH6OhUTQVpU5eZTbAkNDvE22n",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "West Mateoton",
+          "street": "Lincoln Street",
+          "house": 7,
+          "flat": 105
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 38317,
+      "createdOn": "2025-12-24T21:05:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694c557d1c508c5d5e01e181",
+          "products": [
+            {
+              "_id": "694c55831c508c5d5e01e604",
+              "name": "Chair21731",
+              "amount": 608,
+              "price": 38317,
+              "manufacturer": "Apple",
+              "notes": "Ca2SRCinGdDt4PleerbO9kyHyNRGuyt0OyeZJz2woxYatwtIPeKPXzmlVU4bViTGrE8UY0vA6ujPMGCcIVl31jfW1iWxcbff2f5v38F6DMVjpxrWsDtmeAKxKgbAKfdgU26FTiogviIMgYJxTVa8Zl3dc2VZYUVAb4d4EwzB3obpSXQgPnePnpKbT595A5n5J7BAuCXBQcWDEmcffE5RJ6HQO4s6DcYUhSH6OhUTQVpU5eZTbAkNDvE22n",
+              "received": false
+            }
+          ],
+          "total_price": 38317,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Mateoton",
+              "street": "Lincoln Street",
+              "house": 7,
+              "flat": 105
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-24T21:05:12.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694c557d1c508c5d5e01e181",
+          "products": [
+            {
+              "_id": "694c55831c508c5d5e01e604",
+              "name": "Chair21731",
+              "amount": 608,
+              "price": 38317,
+              "manufacturer": "Apple",
+              "notes": "Ca2SRCinGdDt4PleerbO9kyHyNRGuyt0OyeZJz2woxYatwtIPeKPXzmlVU4bViTGrE8UY0vA6ujPMGCcIVl31jfW1iWxcbff2f5v38F6DMVjpxrWsDtmeAKxKgbAKfdgU26FTiogviIMgYJxTVa8Zl3dc2VZYUVAb4d4EwzB3obpSXQgPnePnpKbT595A5n5J7BAuCXBQcWDEmcffE5RJ6HQO4s6DcYUhSH6OhUTQVpU5eZTbAkNDvE22n",
+              "received": false
+            }
+          ],
+          "total_price": 38317,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Mateoton",
+              "street": "Lincoln Street",
+              "house": 7,
+              "flat": 105
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-24T21:05:12.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c557d1c508c5d5e01e181",
+          "products": [
+            {
+              "_id": "694c55831c508c5d5e01e604",
+              "name": "Chair21731",
+              "amount": 608,
+              "price": 38317,
+              "manufacturer": "Apple",
+              "notes": "Ca2SRCinGdDt4PleerbO9kyHyNRGuyt0OyeZJz2woxYatwtIPeKPXzmlVU4bViTGrE8UY0vA6ujPMGCcIVl31jfW1iWxcbff2f5v38F6DMVjpxrWsDtmeAKxKgbAKfdgU26FTiogviIMgYJxTVa8Zl3dc2VZYUVAb4d4EwzB3obpSXQgPnePnpKbT595A5n5J7BAuCXBQcWDEmcffE5RJ6HQO4s6DcYUhSH6OhUTQVpU5eZTbAkNDvE22n",
+              "received": false
+            }
+          ],
+          "total_price": 38317,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Mateoton",
+              "street": "Lincoln Street",
+              "house": 7,
+              "flat": 105
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-24T21:05:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c557d1c508c5d5e01e181",
+          "products": [
+            {
+              "_id": "694c55831c508c5d5e01e604",
+              "name": "Chair21731",
+              "amount": 608,
+              "price": 38317,
+              "manufacturer": "Apple",
+              "notes": "Ca2SRCinGdDt4PleerbO9kyHyNRGuyt0OyeZJz2woxYatwtIPeKPXzmlVU4bViTGrE8UY0vA6ujPMGCcIVl31jfW1iWxcbff2f5v38F6DMVjpxrWsDtmeAKxKgbAKfdgU26FTiogviIMgYJxTVa8Zl3dc2VZYUVAb4d4EwzB3obpSXQgPnePnpKbT595A5n5J7BAuCXBQcWDEmcffE5RJ6HQO4s6DcYUhSH6OhUTQVpU5eZTbAkNDvE22n",
+              "received": false
+            }
+          ],
+          "total_price": 38317,
+          "delivery": null,
+          "changedOn": "2025-12-24T21:05:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

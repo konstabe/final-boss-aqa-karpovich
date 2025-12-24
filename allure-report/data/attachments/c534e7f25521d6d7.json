@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 21:02:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2809",
+    "etag": "W/\"af9-9zljYoiEsEQ/j2W54oor/NWhyvE\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c54e71c508c5d5e016da2",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c54e61c508c5d5e016d07",
+        "email": "Edyth59@yahoo.com",
+        "name": "Clemmie Grimes",
+        "country": "Ukraine",
+        "city": "Rippinburgh",
+        "street": "Grange Avenue",
+        "house": 6,
+        "flat": 998,
+        "phone": "+16306310993",
+        "createdOn": "2025-12-24T21:02:30.000Z",
+        "notes": "NINUVJb8L1gnerLX5olEKAkrGN5CXqefR1jiqcwTJXBOyRSrca1VFfjcA32iE0s7MnyoEqDxYbhAlSzxf1PZBVaC8k2lXNQHyXMYNbLDcssDhqwM2LmGQDpFVFuvgYdMH6S4yj0JEFf1kajnqwgl5uB0CBSNl8xm7opxJQl0JxgvPBCVnler1PsUIboQNSZgF2Z6tuQHLxZxxDCafDBp10DR2F9DzBBSUyehPYo1YfS0BDvf4GIu5u78Fr"
+      },
+      "products": [
+        {
+          "_id": "694c54e61c508c5d5e016d27",
+          "name": "Tuna40551",
+          "amount": 885,
+          "price": 59849,
+          "manufacturer": "Microsoft",
+          "notes": "ZlylI1aQY1filqmoGSxET1ZfIfhAoqRY8Zx97FSpLBRDfUyud604UxgpulBxF6APCsV4nLZQnE0zQTWfRpteHPEpLCW27nf0ZccmumfF0koL0dJhzdOE13X4djU04QGK7VwWPv49y9PEC5bbW6lzJgSl1GxYHbxdUbYoHRbeoY1unMKyKvTTAObo6lZRZxwuzXHMNeGeV3iWpAJBfhWG7fuHw4h9Q2EdcGwCVsILwSGa2opNonDQpm70S2",
+          "received": false
+        },
+        {
+          "_id": "694c54e61c508c5d5e016d52",
+          "name": "Chips10832",
+          "amount": 671,
+          "price": 46623,
+          "manufacturer": "Apple",
+          "notes": "oiIGJhzRRgxVwnsNTKpumZJrxSdCFdH8CEk6d6cQrt9DLioDq7ZbTi6Rzu7GYdcvLznVFPa0HWvtVwZ1Nf14S3eSJicS1Jt0T5a66akGeLhViRVfdnWIHuzAGcYz2sYq69PMekPAHqReZrOhxMP4cnLPqcXFqBYUwLPeECg8uDEPfgILGCtvOmkW7KV7iIMNa3Zzh6SHs989vdoh7WY2AvLUrFCcNamSbM0qrACgsbjbZS3MbIlbDIfLGH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 106472,
+      "createdOn": "2025-12-24T21:02:31.000Z",
+      "comments": [
+        {
+          "text": "stsLGunvQslJGBCtBlTO4R8dHXI96ax6Vkpwhdt4CsohbgcTYqSfA1crPWmbtjShdLLUhHYNIry",
+          "createdOn": "2025-12-24T21:02:31.000Z",
+          "_id": "694c54e71c508c5d5e016dc2"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c54e61c508c5d5e016d07",
+          "products": [
+            {
+              "_id": "694c54e61c508c5d5e016d27",
+              "name": "Tuna40551",
+              "amount": 885,
+              "price": 59849,
+              "manufacturer": "Microsoft",
+              "notes": "ZlylI1aQY1filqmoGSxET1ZfIfhAoqRY8Zx97FSpLBRDfUyud604UxgpulBxF6APCsV4nLZQnE0zQTWfRpteHPEpLCW27nf0ZccmumfF0koL0dJhzdOE13X4djU04QGK7VwWPv49y9PEC5bbW6lzJgSl1GxYHbxdUbYoHRbeoY1unMKyKvTTAObo6lZRZxwuzXHMNeGeV3iWpAJBfhWG7fuHw4h9Q2EdcGwCVsILwSGa2opNonDQpm70S2",
+              "received": false
+            },
+            {
+              "_id": "694c54e61c508c5d5e016d52",
+              "name": "Chips10832",
+              "amount": 671,
+              "price": 46623,
+              "manufacturer": "Apple",
+              "notes": "oiIGJhzRRgxVwnsNTKpumZJrxSdCFdH8CEk6d6cQrt9DLioDq7ZbTi6Rzu7GYdcvLznVFPa0HWvtVwZ1Nf14S3eSJicS1Jt0T5a66akGeLhViRVfdnWIHuzAGcYz2sYq69PMekPAHqReZrOhxMP4cnLPqcXFqBYUwLPeECg8uDEPfgILGCtvOmkW7KV7iIMNa3Zzh6SHs989vdoh7WY2AvLUrFCcNamSbM0qrACgsbjbZS3MbIlbDIfLGH",
+              "received": false
+            }
+          ],
+          "total_price": 106472,
+          "delivery": null,
+          "changedOn": "2025-12-24T21:02:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

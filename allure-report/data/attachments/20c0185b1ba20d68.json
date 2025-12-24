@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 21:02:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2661",
+    "etag": "W/\"a65-ywlBEvj2dATpIfHbBeOrE/jgJWg\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c54fa1c508c5d5e017a07",
+        "email": "Rosalee.Bogisich73@gmail.com",
+        "name": "Lesly Nienow",
+        "country": "USA",
+        "city": "South Stevecester",
+        "street": "Shayna Skyway",
+        "house": 16,
+        "flat": 842,
+        "phone": "+18846272612",
+        "createdOn": "2025-12-24T21:02:50.000Z",
+        "notes": "lFjKWyAkYz4RxXMIwxzWFAfrAG9diuZEHa9hrvWxhiOxlATpKqo0mNSetXb5YD5gTIcqnWROtDgVfWMJwgcGbrLlh5wJKfvDaaD56c4GXLFLgza9MLPyyATDqawF3p1pnM7xn7z8kHOly0n5d3dt131Ym6oyO42MK69W68rRF2xsd9xmTUERqIomwFt1kzgeShEwwuU4e8nyc91ER8wopMuifasCIWIdlAoMplBIsykYj7R4wFsS1JZzEq"
+      },
+      "products": [
+        {
+          "_id": "694c54fe1c508c5d5e017d14",
+          "name": "Hat83135",
+          "amount": 411,
+          "price": 70845,
+          "manufacturer": "Samsung",
+          "notes": "qhZPhUMEnE3wWqxfXmQDXKZrB550sCMgQORdaN8Vx9to41jvbtOvzUHsK1TrphKABxfQA9HPOKxcE4m0fixfQI3OqFiG0qtYnyADyZmWSrZw441HEC2qsOtwNxDTMJaVXQUem6WqdfuQK4yGGvnAnR6uDsv2OGHUhBt1W1S72VjlqF7Xv1rIFuBRq8Ym77x1U21Kt8WQvusIappRxl6qMUC6M9Zz99HNzz8yzR9c6iOfKBt9GJMhpW8pxC",
+          "received": false
+        },
+        {
+          "_id": "694c55001c508c5d5e017eb5",
+          "name": "Salad73307",
+          "amount": 63,
+          "price": 18683,
+          "manufacturer": "Microsoft",
+          "notes": "q33S8p4ulmZq3xwPLL7GgQpgFI47y4kpSi1nmWvTE9HouPsB97e1F8at41x2fEcHPe610cE3ZWE8cAsvvfJvf1XSrYCP9rNi2ZUYpCxTb8ByJ7ENTX75h8J5HxhP8LuG031kqkLMFkMYxmqdhMlAZX2Ynxdc5QdtTWhQO32wAeiqW83u6Lb3JeOwIjJvUhA5L2zzAFswpOsd4F3Z6YUuWqmuLO8Ln630kghVsTUIajsLNSN2eWEOflGWQu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 89528,
+      "createdOn": "2025-12-24T21:02:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c54fa1c508c5d5e017a07",
+          "products": [
+            {
+              "_id": "694c54fe1c508c5d5e017d14",
+              "name": "Hat83135",
+              "amount": 411,
+              "price": 70845,
+              "manufacturer": "Samsung",
+              "notes": "qhZPhUMEnE3wWqxfXmQDXKZrB550sCMgQORdaN8Vx9to41jvbtOvzUHsK1TrphKABxfQA9HPOKxcE4m0fixfQI3OqFiG0qtYnyADyZmWSrZw441HEC2qsOtwNxDTMJaVXQUem6WqdfuQK4yGGvnAnR6uDsv2OGHUhBt1W1S72VjlqF7Xv1rIFuBRq8Ym77x1U21Kt8WQvusIappRxl6qMUC6M9Zz99HNzz8yzR9c6iOfKBt9GJMhpW8pxC",
+              "received": false
+            },
+            {
+              "_id": "694c55001c508c5d5e017eb5",
+              "name": "Salad73307",
+              "amount": 63,
+              "price": 18683,
+              "manufacturer": "Microsoft",
+              "notes": "q33S8p4ulmZq3xwPLL7GgQpgFI47y4kpSi1nmWvTE9HouPsB97e1F8at41x2fEcHPe610cE3ZWE8cAsvvfJvf1XSrYCP9rNi2ZUYpCxTb8ByJ7ENTX75h8J5HxhP8LuG031kqkLMFkMYxmqdhMlAZX2Ynxdc5QdtTWhQO32wAeiqW83u6Lb3JeOwIjJvUhA5L2zzAFswpOsd4F3Z6YUuWqmuLO8Ln630kghVsTUIajsLNSN2eWEOflGWQu",
+              "received": false
+            }
+          ],
+          "total_price": 89528,
+          "delivery": null,
+          "changedOn": "2025-12-24T21:02:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c55011c508c5d5e017ee5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

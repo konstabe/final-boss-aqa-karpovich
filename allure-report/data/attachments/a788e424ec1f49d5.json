@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 21:02:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3414",
+    "etag": "W/\"d56-cZAUNMO38eZ4EM/CD/dUNGo7Z6s\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c54ee1c508c5d5e017231",
+        "email": "Nickolas30@yahoo.com",
+        "name": "Royal Bailey",
+        "country": "USA",
+        "city": "Maricopa",
+        "street": "Marie Forge",
+        "house": 36,
+        "flat": 449,
+        "phone": "+13408909272",
+        "createdOn": "2025-12-24T21:02:38.000Z",
+        "notes": "n0LSGcd1PRUrqh4DUcRhoSRXlQv9RUZGxIVzZ54UZdue8p8QZ3PmEjRtjaqMUzkGBTiQAZm9UMWdaArDAjrrX7qhrV4r0jauG4ncJuXwgs7WbTMppA9uM4zpC7JreX0OTs3p9HFMGevGoGtdbZiNWk2UD39FaPfClzQxwZ99t6uRVv95HXm6lH2tPYGYLBLGfJLtFDBuUEM0eoN3MvzOxyeWxiFL7wAFpSjhhzBsCqZBYZSiMzQwdjxhxl"
+      },
+      "products": [
+        {
+          "_id": "694c54ef1c508c5d5e017270",
+          "name": "Pants76105",
+          "amount": 686,
+          "price": 59872,
+          "manufacturer": "Samsung",
+          "notes": "I6HMqf1n39ULHhI1d9DHTBZ6ZHJDeLXeG58237vxJXAUbFdXTXrvLHLFYjMnNaPngHWQLzJrgt3yN6aKJPD3ge3NEQKEEsLvGgqrDzANESgTXu0x4CCtpKRVflQUMFPqnIj0aUJo8A1EqbVeAb0zfxDBw350wzN7tzNtor7Ljqa0PWwyp3oqeY9hA00vw3tavFU1V40C6v95wEHhfyQLnFmennro7EG6zxJcnrZ8kKXJDop1wtkvaRTDqd",
+          "received": false
+        },
+        {
+          "_id": "694c54ef1c508c5d5e01728d",
+          "name": "Keyboard64281",
+          "amount": 930,
+          "price": 30886,
+          "manufacturer": "Tesla",
+          "notes": "pqkO4RI3yFPfYR43c7QjwDaR36yxynMZVuGTsGZTxOAkOxWURku87b1VxcOQXJ7sRFOnvUxkcS43ES9CPw3RSFoBrhJSOcg7iLXLwcmxTp3e0iOouIgSGDHOjTkTk9aXKCXoJFQdBSwuYurSLTUC9mzRjycViHLDE9KcujtT8bkZT037OCTZ15zwL8ddcv5oZjSLmigKes4xFN7208TWXqjlL8KkUTR7QMA8SM8Jij4PK1NjfaGzP8tfvK",
+          "received": false
+        },
+        {
+          "_id": "694c54f01c508c5d5e0172b3",
+          "name": "Towels88069",
+          "amount": 940,
+          "price": 64698,
+          "manufacturer": "Sony",
+          "notes": "aKxWgJ1cMrV3kMWQhTypQVS0Rq7Si5Dg8G9WM4QmQ36mw4kVrmp95phgB2YG15UVkX4qMJ00xJnrKaFFVxPpQ00dCDm3POCYBUm5neU7cMfDzTiRfofgME9CYUIECVdK2YUcsvAeOmCpqZLtSIwbINtSdMjEE3oslkboFXb0HhB3XhnmUpXfREhACrqIiuFw3Vu3P6g3ntdaaRfDzYL9DZbkusCvgiYPLX1SpJHsLfjnUCD3JSBpWQVWUr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 155456,
+      "createdOn": "2025-12-24T21:02:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c54ee1c508c5d5e017231",
+          "products": [
+            {
+              "_id": "694c54ef1c508c5d5e017270",
+              "name": "Pants76105",
+              "amount": 686,
+              "price": 59872,
+              "manufacturer": "Samsung",
+              "notes": "I6HMqf1n39ULHhI1d9DHTBZ6ZHJDeLXeG58237vxJXAUbFdXTXrvLHLFYjMnNaPngHWQLzJrgt3yN6aKJPD3ge3NEQKEEsLvGgqrDzANESgTXu0x4CCtpKRVflQUMFPqnIj0aUJo8A1EqbVeAb0zfxDBw350wzN7tzNtor7Ljqa0PWwyp3oqeY9hA00vw3tavFU1V40C6v95wEHhfyQLnFmennro7EG6zxJcnrZ8kKXJDop1wtkvaRTDqd",
+              "received": false
+            },
+            {
+              "_id": "694c54ef1c508c5d5e01728d",
+              "name": "Keyboard64281",
+              "amount": 930,
+              "price": 30886,
+              "manufacturer": "Tesla",
+              "notes": "pqkO4RI3yFPfYR43c7QjwDaR36yxynMZVuGTsGZTxOAkOxWURku87b1VxcOQXJ7sRFOnvUxkcS43ES9CPw3RSFoBrhJSOcg7iLXLwcmxTp3e0iOouIgSGDHOjTkTk9aXKCXoJFQdBSwuYurSLTUC9mzRjycViHLDE9KcujtT8bkZT037OCTZ15zwL8ddcv5oZjSLmigKes4xFN7208TWXqjlL8KkUTR7QMA8SM8Jij4PK1NjfaGzP8tfvK",
+              "received": false
+            },
+            {
+              "_id": "694c54f01c508c5d5e0172b3",
+              "name": "Towels88069",
+              "amount": 940,
+              "price": 64698,
+              "manufacturer": "Sony",
+              "notes": "aKxWgJ1cMrV3kMWQhTypQVS0Rq7Si5Dg8G9WM4QmQ36mw4kVrmp95phgB2YG15UVkX4qMJ00xJnrKaFFVxPpQ00dCDm3POCYBUm5neU7cMfDzTiRfofgME9CYUIECVdK2YUcsvAeOmCpqZLtSIwbINtSdMjEE3oslkboFXb0HhB3XhnmUpXfREhACrqIiuFw3Vu3P6g3ntdaaRfDzYL9DZbkusCvgiYPLX1SpJHsLfjnUCD3JSBpWQVWUr",
+              "received": false
+            }
+          ],
+          "total_price": 155456,
+          "delivery": null,
+          "changedOn": "2025-12-24T21:02:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c54f01c508c5d5e0172dd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

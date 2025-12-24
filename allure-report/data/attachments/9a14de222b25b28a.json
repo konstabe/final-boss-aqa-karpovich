@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 21:04:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2664",
+    "etag": "W/\"a68-8JWqd57YjNDsmPeGBvIPPfrEDpk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c553b1c508c5d5e01acdb",
+        "email": "Mellie.Oberbrunner56@gmail.com",
+        "name": "Morgan Macejkovic",
+        "country": "France",
+        "city": "Lake Carliport",
+        "street": "Jaskolski Shoal",
+        "house": 37,
+        "flat": 232,
+        "phone": "+14206158823",
+        "createdOn": "2025-12-24T21:03:55.000Z",
+        "notes": "4ZadTP17cvOhY2HAWwUymVeyfzWDyMq3VlYuRv78WhGMqMQ1sXGc0IRZhiMO2vOt2HSuhr8kgQ22W00ITasBgYbApNmXLeVGeLStXiGHQqbXPp0uALChn4HMBmgM9F5Jp3l6xG2Nhezr0k8bznNk9W9DattEW68aHUxWKEuJAYE1FxUuGk66BdrCBd0ZmrKqnPeAhldYAtfJZsVXpUiRK7qUhlpb9S9Lox8DqDIPxefJNoSjq9QsBcOIpA"
+      },
+      "products": [
+        {
+          "_id": "694c553c1c508c5d5e01ad24",
+          "name": "Hat34903",
+          "amount": 456,
+          "price": 44394,
+          "manufacturer": "Xiaomi",
+          "notes": "5ZOkdLfyUJccEHkICm8OUFVWAyGRofqChqzcSQve2nt4BdV3VT3YuLPdaCM2QQGJks4HuJisg5yXbPIVAAvG7Tc4tqsMZNU2n9eS22odaCG8FnllDVxn7GHLhMzCtel9pcvqlzies2O8GYC5jn2YCbNyyFJoJjYvqpbyK0gcE9kSsJ3SdwUFhHtMPIDagwObfUssmOBAiDdVev9YHDiJzsL2wzUiBGzv67KDE0kV5H5HYMV5GqMtLqeLS5",
+          "received": false
+        },
+        {
+          "_id": "694c553c1c508c5d5e01ad4f",
+          "name": "Gloves92361",
+          "amount": 671,
+          "price": 93366,
+          "manufacturer": "Sony",
+          "notes": "bOoeexCyIeZ8ofeMrYXBCwgFE96B0PvdHqJ29c12FV62TBjuMUGhzNIGcqT3pSCDy1ezAHfr7oOoKejaULCkLqnN5UI1vnbx75DsMGtE7JBk4FV4zWAOVK6cHY4wOWKWIe6oUEKiKlF8mDUfhLSyftaTeP8ri7EYBAIp2fgOOmRPnK8ktrqWjMl349Df2hDxoWDlCXFjW65b2ErWCX2u7yqUW3BEi8UcBeJjizJ4AdvEndmzvmeJ6cjZY6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 137760,
+      "createdOn": "2025-12-24T21:04:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c553b1c508c5d5e01acdb",
+          "products": [
+            {
+              "_id": "694c553c1c508c5d5e01ad24",
+              "name": "Hat34903",
+              "amount": 456,
+              "price": 44394,
+              "manufacturer": "Xiaomi",
+              "notes": "5ZOkdLfyUJccEHkICm8OUFVWAyGRofqChqzcSQve2nt4BdV3VT3YuLPdaCM2QQGJks4HuJisg5yXbPIVAAvG7Tc4tqsMZNU2n9eS22odaCG8FnllDVxn7GHLhMzCtel9pcvqlzies2O8GYC5jn2YCbNyyFJoJjYvqpbyK0gcE9kSsJ3SdwUFhHtMPIDagwObfUssmOBAiDdVev9YHDiJzsL2wzUiBGzv67KDE0kV5H5HYMV5GqMtLqeLS5",
+              "received": false
+            },
+            {
+              "_id": "694c553c1c508c5d5e01ad4f",
+              "name": "Gloves92361",
+              "amount": 671,
+              "price": 93366,
+              "manufacturer": "Sony",
+              "notes": "bOoeexCyIeZ8ofeMrYXBCwgFE96B0PvdHqJ29c12FV62TBjuMUGhzNIGcqT3pSCDy1ezAHfr7oOoKejaULCkLqnN5UI1vnbx75DsMGtE7JBk4FV4zWAOVK6cHY4wOWKWIe6oUEKiKlF8mDUfhLSyftaTeP8ri7EYBAIp2fgOOmRPnK8ktrqWjMl349Df2hDxoWDlCXFjW65b2ErWCX2u7yqUW3BEi8UcBeJjizJ4AdvEndmzvmeJ6cjZY6",
+              "received": false
+            }
+          ],
+          "total_price": 137760,
+          "delivery": null,
+          "changedOn": "2025-12-24T21:04:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c554d1c508c5d5e01baca"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

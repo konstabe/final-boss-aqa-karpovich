@@ -1,0 +1,187 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 21:03:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5264",
+    "etag": "W/\"1490-v0KYpsoxsX6m/drv0h+OaN98018\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c553b1c508c5d5e01acf4",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c55391c508c5d5e01ac1e",
+        "email": "Michaela88@yahoo.com",
+        "name": "Granville Lockman",
+        "country": "Russia",
+        "city": "Fort Jeanetteville",
+        "street": "Hauck Keys",
+        "house": 47,
+        "flat": 191,
+        "phone": "+17532174103",
+        "createdOn": "2025-12-24T21:03:53.000Z",
+        "notes": "BdHGcC2SLvK4MjFo0t35wVpLROxuhoIrivaOG8uDalvpsq15Cm2naTzTtTFnAL6BEjkHV54JNzyWObMvGXmu3eZOOyXHcpwhIgfEZ4qPaEDsEpTFVXmDRJFFY1iRHA2aIdsxhCuLZA3hvztORnz8jcHXQa9aTGevwUcxb3AheD9mhLelNcVhsy79i2hzdLb8lNyO5ngrh8Oq6JJXHTPc9qJlcTtEUkUjIws6YLwmGqHlwN7jHM4WOSZJAG"
+      },
+      "products": [
+        {
+          "_id": "694c553a1c508c5d5e01ac4b",
+          "name": "Chicken73719",
+          "amount": 483,
+          "price": 75021,
+          "manufacturer": "Xiaomi",
+          "notes": "Ai10IkwrKBKkmthCriSwqsoKzZExkdBoxd3v2WkBt8SyZQGPfkSVtlXJJHTOblPb1JUD2o4YRwPrKSyDdDQr0yi9mVnwtNOClyp6OFb62Ks2NtYvPzDXhlaIZNqHm2HWnYF1h9b7fqj7wuDXWg9uojGSYOaJBghINIZ24VlHhZJ4K5LBE7HesRI1qVZaM4qE1AdBftsYgVkFfydXeybp6pZ59YU2T6Ht88TeRS8Uu1AtutaBwdknV6Owh9",
+          "received": false
+        },
+        {
+          "_id": "694c553b1c508c5d5e01ac77",
+          "name": "Bike76431",
+          "amount": 15,
+          "price": 58069,
+          "manufacturer": "Apple",
+          "notes": "ydbyEaiShrv8M3yjy7sWsyLlIBYQ65a1wXDcHSpuMgYfizFZqoW0BYF1itObJbHtdaKDVX9PAtBV2pFylen6c64vFgMoFMlill7FLXztChhyLpdkeh9M3YQ9i5LXxHUhA1K2dAteTpxrwnPIhPn3zcoiccUtZZQ65iZIpbxA1Js8pNjhGyeugkIAEkGfCPkiq6Dnun6NkOjXsXzGb2rZZkfOZs6nrCyj5BLzpju8OF6ueFagsHXSxgKlg9",
+          "received": false
+        },
+        {
+          "_id": "694c553b1c508c5d5e01acb7",
+          "name": "Chair31354",
+          "amount": 504,
+          "price": 12638,
+          "manufacturer": "Sony",
+          "notes": "f3o9c3K0pAKzR72B6YnIISUil8wkTq43WmBUiqj6U05ejpNJ6MMZNhxhDp0OzZzFTZfasvadjtzX3gynd6wN9vhB7y81KS3eb2BBQSKknW0pyCSYe1cVUrWcapeyxGggSvWfFW2ux7bjW5fXWYrPXamghOvEi9mRFqYPfeydgfAfBrrMgt1waiVvhEzttNo8FhMVRH7wvBX2MdT3gnvh8coPyQyabv2QMdliAwwadtZHfrSmgX45LUyYuM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Fort Jeanetteville",
+          "street": "Hauck Keys",
+          "house": 47,
+          "flat": 191
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 145728,
+      "createdOn": "2025-12-24T21:03:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c55391c508c5d5e01ac1e",
+          "products": [
+            {
+              "_id": "694c553a1c508c5d5e01ac4b",
+              "name": "Chicken73719",
+              "amount": 483,
+              "price": 75021,
+              "manufacturer": "Xiaomi",
+              "notes": "Ai10IkwrKBKkmthCriSwqsoKzZExkdBoxd3v2WkBt8SyZQGPfkSVtlXJJHTOblPb1JUD2o4YRwPrKSyDdDQr0yi9mVnwtNOClyp6OFb62Ks2NtYvPzDXhlaIZNqHm2HWnYF1h9b7fqj7wuDXWg9uojGSYOaJBghINIZ24VlHhZJ4K5LBE7HesRI1qVZaM4qE1AdBftsYgVkFfydXeybp6pZ59YU2T6Ht88TeRS8Uu1AtutaBwdknV6Owh9",
+              "received": false
+            },
+            {
+              "_id": "694c553b1c508c5d5e01ac77",
+              "name": "Bike76431",
+              "amount": 15,
+              "price": 58069,
+              "manufacturer": "Apple",
+              "notes": "ydbyEaiShrv8M3yjy7sWsyLlIBYQ65a1wXDcHSpuMgYfizFZqoW0BYF1itObJbHtdaKDVX9PAtBV2pFylen6c64vFgMoFMlill7FLXztChhyLpdkeh9M3YQ9i5LXxHUhA1K2dAteTpxrwnPIhPn3zcoiccUtZZQ65iZIpbxA1Js8pNjhGyeugkIAEkGfCPkiq6Dnun6NkOjXsXzGb2rZZkfOZs6nrCyj5BLzpju8OF6ueFagsHXSxgKlg9",
+              "received": false
+            },
+            {
+              "_id": "694c553b1c508c5d5e01acb7",
+              "name": "Chair31354",
+              "amount": 504,
+              "price": 12638,
+              "manufacturer": "Sony",
+              "notes": "f3o9c3K0pAKzR72B6YnIISUil8wkTq43WmBUiqj6U05ejpNJ6MMZNhxhDp0OzZzFTZfasvadjtzX3gynd6wN9vhB7y81KS3eb2BBQSKknW0pyCSYe1cVUrWcapeyxGggSvWfFW2ux7bjW5fXWYrPXamghOvEi9mRFqYPfeydgfAfBrrMgt1waiVvhEzttNo8FhMVRH7wvBX2MdT3gnvh8coPyQyabv2QMdliAwwadtZHfrSmgX45LUyYuM",
+              "received": false
+            }
+          ],
+          "total_price": 145728,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Fort Jeanetteville",
+              "street": "Hauck Keys",
+              "house": 47,
+              "flat": 191
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-24T21:03:56.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c55391c508c5d5e01ac1e",
+          "products": [
+            {
+              "_id": "694c553a1c508c5d5e01ac4b",
+              "name": "Chicken73719",
+              "amount": 483,
+              "price": 75021,
+              "manufacturer": "Xiaomi",
+              "notes": "Ai10IkwrKBKkmthCriSwqsoKzZExkdBoxd3v2WkBt8SyZQGPfkSVtlXJJHTOblPb1JUD2o4YRwPrKSyDdDQr0yi9mVnwtNOClyp6OFb62Ks2NtYvPzDXhlaIZNqHm2HWnYF1h9b7fqj7wuDXWg9uojGSYOaJBghINIZ24VlHhZJ4K5LBE7HesRI1qVZaM4qE1AdBftsYgVkFfydXeybp6pZ59YU2T6Ht88TeRS8Uu1AtutaBwdknV6Owh9",
+              "received": false
+            },
+            {
+              "_id": "694c553b1c508c5d5e01ac77",
+              "name": "Bike76431",
+              "amount": 15,
+              "price": 58069,
+              "manufacturer": "Apple",
+              "notes": "ydbyEaiShrv8M3yjy7sWsyLlIBYQ65a1wXDcHSpuMgYfizFZqoW0BYF1itObJbHtdaKDVX9PAtBV2pFylen6c64vFgMoFMlill7FLXztChhyLpdkeh9M3YQ9i5LXxHUhA1K2dAteTpxrwnPIhPn3zcoiccUtZZQ65iZIpbxA1Js8pNjhGyeugkIAEkGfCPkiq6Dnun6NkOjXsXzGb2rZZkfOZs6nrCyj5BLzpju8OF6ueFagsHXSxgKlg9",
+              "received": false
+            },
+            {
+              "_id": "694c553b1c508c5d5e01acb7",
+              "name": "Chair31354",
+              "amount": 504,
+              "price": 12638,
+              "manufacturer": "Sony",
+              "notes": "f3o9c3K0pAKzR72B6YnIISUil8wkTq43WmBUiqj6U05ejpNJ6MMZNhxhDp0OzZzFTZfasvadjtzX3gynd6wN9vhB7y81KS3eb2BBQSKknW0pyCSYe1cVUrWcapeyxGggSvWfFW2ux7bjW5fXWYrPXamghOvEi9mRFqYPfeydgfAfBrrMgt1waiVvhEzttNo8FhMVRH7wvBX2MdT3gnvh8coPyQyabv2QMdliAwwadtZHfrSmgX45LUyYuM",
+              "received": false
+            }
+          ],
+          "total_price": 145728,
+          "delivery": null,
+          "changedOn": "2025-12-24T21:03:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

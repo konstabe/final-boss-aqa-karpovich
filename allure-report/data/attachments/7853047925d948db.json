@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 21:03:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3426",
+    "etag": "W/\"d62-ZPAuC3mKU8nrwt0qNAG/SE4XD3k\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c55361c508c5d5e01aa74",
+        "email": "Gilberto26@hotmail.com",
+        "name": "Barbara Mann",
+        "country": "Germany",
+        "city": "Wilhelmineborough",
+        "street": "Goyette Lock",
+        "house": 15,
+        "flat": 133,
+        "phone": "+17235850807",
+        "createdOn": "2025-12-24T21:03:50.000Z",
+        "notes": "0erLPaCLL3XsVb03Cu5aK4fQlUutMI4rpuwRX21gvlirMvQcccADlWbJUvkybxO1TGPvpbpyAtmg7N8EXg4j0kU9ddFaSyuIse4GZOk7qlDpnXVWaMvxjpFThUh5lebrnLHvy7VuJ0ZtYNrJsPkTL8nHeFRX5tW2OSXEYecBg2A03iDoF9qyulGT1FNTdtq9dAbAbzkyNxWSOUJFSKMHXKGy4mcvLuLS3DtU7CoILDInfTIm1ZId9sJ2LD"
+      },
+      "products": [
+        {
+          "_id": "694c55391c508c5d5e01ac03",
+          "name": "Soap45216",
+          "amount": 732,
+          "price": 6561,
+          "manufacturer": "Xiaomi",
+          "notes": "8K5CyCZhpOaOlMVDqRlvWBkvPkYfAQyOMp4rB65J3CVOd484R17vg0R7pNfEtrbxOywZeK78XlGnxCER6cF1HsAIVmZH6hkWsze6lYtCqnHx5YxGJtWyIVh9zljE9ERiE6k7bU6eAFMaHmip1y9Gw77bLAMvp15dIYyS0UIeO7z4Pugxi44pXOlqcuymJv3tO4Dj9Cnl1bcW42Mnr3NB2gNeiq8Ww9HFMR26PoUPeIbmTMGsrI7MVAyj1k",
+          "received": false
+        },
+        {
+          "_id": "694c55391c508c5d5e01ac1c",
+          "name": "Chips99485",
+          "amount": 985,
+          "price": 49011,
+          "manufacturer": "Amazon",
+          "notes": "o3CjNdb7GodjBwp2e8PaCBp4YgjMs2bOyN2XQbnHtNxRfFSGzeg5MTzSCYTfADK2zPyFqwCMsVoBueTjkPihysfEOF27bteyHhLWNDAdejyNhpNhAFHbjG0NjXLnoWpo0Oe3SnqKMkxsSVpbQUU9DQ1EQ7IXrsmRlL5uN0eCODPBv4W1ull0PpMSPrDHzI5dvwb62n82xzrl1znE9NYL1SNvYuhaDUeOLyZsMe9cZ6nfXmwSrCV2nejyBM",
+          "received": false
+        },
+        {
+          "_id": "694c553a1c508c5d5e01ac48",
+          "name": "Ball93193",
+          "amount": 845,
+          "price": 65687,
+          "manufacturer": "Microsoft",
+          "notes": "LbxZG4i18bespimePBzaaYJnxtnvKzcuf1gqfnC3YbId3MYYz9PPhAFF6n9feDQiWsQ5S9EoSO3075wqIn5y5IXuFJtkYOHKwfjB6MWYOXMlXLIFiLZo2gk9i1rgHyoLESo5kGcbP3cST6ZGMy0fhJRPRkFgSSBgmMHOvsg0zah1H8xxbHUGKLR6KGuDYT1M4eqb3Cz9bKI3elVihQejNsYpDzFH1hBCVaQgM4x8IyXSbggQ600D3zhmj9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 121259,
+      "createdOn": "2025-12-24T21:03:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c55361c508c5d5e01aa74",
+          "products": [
+            {
+              "_id": "694c55391c508c5d5e01ac03",
+              "name": "Soap45216",
+              "amount": 732,
+              "price": 6561,
+              "manufacturer": "Xiaomi",
+              "notes": "8K5CyCZhpOaOlMVDqRlvWBkvPkYfAQyOMp4rB65J3CVOd484R17vg0R7pNfEtrbxOywZeK78XlGnxCER6cF1HsAIVmZH6hkWsze6lYtCqnHx5YxGJtWyIVh9zljE9ERiE6k7bU6eAFMaHmip1y9Gw77bLAMvp15dIYyS0UIeO7z4Pugxi44pXOlqcuymJv3tO4Dj9Cnl1bcW42Mnr3NB2gNeiq8Ww9HFMR26PoUPeIbmTMGsrI7MVAyj1k",
+              "received": false
+            },
+            {
+              "_id": "694c55391c508c5d5e01ac1c",
+              "name": "Chips99485",
+              "amount": 985,
+              "price": 49011,
+              "manufacturer": "Amazon",
+              "notes": "o3CjNdb7GodjBwp2e8PaCBp4YgjMs2bOyN2XQbnHtNxRfFSGzeg5MTzSCYTfADK2zPyFqwCMsVoBueTjkPihysfEOF27bteyHhLWNDAdejyNhpNhAFHbjG0NjXLnoWpo0Oe3SnqKMkxsSVpbQUU9DQ1EQ7IXrsmRlL5uN0eCODPBv4W1ull0PpMSPrDHzI5dvwb62n82xzrl1znE9NYL1SNvYuhaDUeOLyZsMe9cZ6nfXmwSrCV2nejyBM",
+              "received": false
+            },
+            {
+              "_id": "694c553a1c508c5d5e01ac48",
+              "name": "Ball93193",
+              "amount": 845,
+              "price": 65687,
+              "manufacturer": "Microsoft",
+              "notes": "LbxZG4i18bespimePBzaaYJnxtnvKzcuf1gqfnC3YbId3MYYz9PPhAFF6n9feDQiWsQ5S9EoSO3075wqIn5y5IXuFJtkYOHKwfjB6MWYOXMlXLIFiLZo2gk9i1rgHyoLESo5kGcbP3cST6ZGMy0fhJRPRkFgSSBgmMHOvsg0zah1H8xxbHUGKLR6KGuDYT1M4eqb3Cz9bKI3elVihQejNsYpDzFH1hBCVaQgM4x8IyXSbggQ600D3zhmj9",
+              "received": false
+            }
+          ],
+          "total_price": 121259,
+          "delivery": null,
+          "changedOn": "2025-12-24T21:03:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c553b1c508c5d5e01ac7f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

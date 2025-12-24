@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 21:02:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1893",
+    "etag": "W/\"765-nmYfxLrimapm2Qh/4iS1vzUy2wQ\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c54e81c508c5d5e016e1b",
+        "email": "Kendra.Ziemann@yahoo.com",
+        "name": "Malachi Collins",
+        "country": "Canada",
+        "city": "Roanoke",
+        "street": "Hilton Course",
+        "house": 31,
+        "flat": 594,
+        "phone": "+17597473289",
+        "createdOn": "2025-12-24T21:02:32.000Z",
+        "notes": "YRSn4PXEhzabwT93u6xgFUwRzbpJgYMRPwy4zka0PXzrDjXAGPz9QcEMzTyAsiMDctcyO7tLzIwkKK5QgASxSFm6EyvtQiuxJAJQCW3ErWWXxm9qh6QhtKqLDr0vA9yX2pC7qNAZYnStNljQ1SwotIvXlNLzzqCTLAW8rmd08FbOyRDZZ6okS2FI3SL7BNbdfrsfDOL3V67SLByuucpMx6P2C2ikuMobSpJIx7riAeRyDm92wDFjw0IrEr"
+      },
+      "products": [
+        {
+          "_id": "694c54e91c508c5d5e016e3b",
+          "name": "Computer11416",
+          "amount": 71,
+          "price": 47951,
+          "manufacturer": "Microsoft",
+          "notes": "74CVJktxtfWMJhthYVJpvEpu975kejEy2Ecn6zFVjGm3UPoSjv0HkH8T0MaTCPX3RZTtP5KGnbNvLMPxeKwaM8tISr2EzrX7PPxBV7bpQqX0ffCC1r7xOigAuo2l4ZHJCrX0fwhcaxFma1pknSE5vgncdBFkjpd4WokUiYHiup43SF4eZZDoGiyjs0gqkN947V7tyWl6sWTexrYgJiRmOKybITGhie6XCuNc2edcf7HrqcoWFwnJYMNvAf",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 47951,
+      "createdOn": "2025-12-24T21:02:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c54e81c508c5d5e016e1b",
+          "products": [
+            {
+              "_id": "694c54e91c508c5d5e016e3b",
+              "name": "Computer11416",
+              "amount": 71,
+              "price": 47951,
+              "manufacturer": "Microsoft",
+              "notes": "74CVJktxtfWMJhthYVJpvEpu975kejEy2Ecn6zFVjGm3UPoSjv0HkH8T0MaTCPX3RZTtP5KGnbNvLMPxeKwaM8tISr2EzrX7PPxBV7bpQqX0ffCC1r7xOigAuo2l4ZHJCrX0fwhcaxFma1pknSE5vgncdBFkjpd4WokUiYHiup43SF4eZZDoGiyjs0gqkN947V7tyWl6sWTexrYgJiRmOKybITGhie6XCuNc2edcf7HrqcoWFwnJYMNvAf",
+              "received": false
+            }
+          ],
+          "total_price": 47951,
+          "delivery": null,
+          "changedOn": "2025-12-24T21:02:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c54e91c508c5d5e016e5e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

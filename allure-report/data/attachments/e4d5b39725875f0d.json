@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 21:02:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2975",
+    "etag": "W/\"b9f-TCCa+jFbkcplDzYP5Pga8mmc/kM\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c54f11c508c5d5e017383",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c54f01c508c5d5e01732b",
+        "email": "Vilma.Morar@gmail.com",
+        "name": "Julian Christiansen",
+        "country": "Canada",
+        "city": "Centreville",
+        "street": "Washington Street",
+        "house": 34,
+        "flat": 552,
+        "phone": "+13279643731",
+        "createdOn": "2025-12-24T21:02:40.000Z",
+        "notes": "NqCCWDPWLBbKf6LFK57E3TIisJIBLfR3nyaeriM6J1e7vg3eklooqlrvwHXHm2IoIpuQXjVCdjrK9gG23V9DS2pF49y7SkXwr0wxkn3hw6qYnOgtIeeHIbdxwuKbuzLLQTekc7DxRzboqIxILJrE1tuijACuZpFsgUiQpTALeGm0KJI5uYauL12IaYm6XzlpArxwTwpqtjE0OPXIAS7Go2yONDy3C5PKJzqh7deFpiXm27Q01JnqlkgeA3"
+      },
+      "products": [
+        {
+          "_id": "694c54f11c508c5d5e017358",
+          "name": "Sausages79457",
+          "amount": 631,
+          "price": 18661,
+          "manufacturer": "Tesla",
+          "notes": "obXwDNDGBmkgg6QUXo3WNNHJRjTgeo25O3fM5oG722ehuNVLxWsKs0mzoUdcX74MgHfu7RVVvLgsIbDmZS0oD4OuVKWQCXv4ZQR2wlcTJ6vB24V2VUHktU1WysKe3Kaat9ADEFz7q0IJNP88ieLTH4ctBHmz7wElvhjLazF8XNip6xzImub3bQPjAX7kZ567wyFxsYnXjClM2cvC8NLC7szZKqq1TKJSSfkq1H9wVJUSCUfz0QrodX6BzQ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Centreville",
+          "street": "Washington Street",
+          "house": 34,
+          "flat": 552
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 18661,
+      "createdOn": "2025-12-24T21:02:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c54f01c508c5d5e01732b",
+          "products": [
+            {
+              "_id": "694c54f11c508c5d5e017358",
+              "name": "Sausages79457",
+              "amount": 631,
+              "price": 18661,
+              "manufacturer": "Tesla",
+              "notes": "obXwDNDGBmkgg6QUXo3WNNHJRjTgeo25O3fM5oG722ehuNVLxWsKs0mzoUdcX74MgHfu7RVVvLgsIbDmZS0oD4OuVKWQCXv4ZQR2wlcTJ6vB24V2VUHktU1WysKe3Kaat9ADEFz7q0IJNP88ieLTH4ctBHmz7wElvhjLazF8XNip6xzImub3bQPjAX7kZ567wyFxsYnXjClM2cvC8NLC7szZKqq1TKJSSfkq1H9wVJUSCUfz0QrodX6BzQ",
+              "received": false
+            }
+          ],
+          "total_price": 18661,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Centreville",
+              "street": "Washington Street",
+              "house": 34,
+              "flat": 552
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-24T21:02:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c54f01c508c5d5e01732b",
+          "products": [
+            {
+              "_id": "694c54f11c508c5d5e017358",
+              "name": "Sausages79457",
+              "amount": 631,
+              "price": 18661,
+              "manufacturer": "Tesla",
+              "notes": "obXwDNDGBmkgg6QUXo3WNNHJRjTgeo25O3fM5oG722ehuNVLxWsKs0mzoUdcX74MgHfu7RVVvLgsIbDmZS0oD4OuVKWQCXv4ZQR2wlcTJ6vB24V2VUHktU1WysKe3Kaat9ADEFz7q0IJNP88ieLTH4ctBHmz7wElvhjLazF8XNip6xzImub3bQPjAX7kZ567wyFxsYnXjClM2cvC8NLC7szZKqq1TKJSSfkq1H9wVJUSCUfz0QrodX6BzQ",
+              "received": false
+            }
+          ],
+          "total_price": 18661,
+          "delivery": null,
+          "changedOn": "2025-12-24T21:02:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

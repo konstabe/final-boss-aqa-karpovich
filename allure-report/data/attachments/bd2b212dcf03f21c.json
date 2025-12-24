@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 21:02:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2941",
+    "etag": "W/\"b7d-CijqINpH0xjpJZE8jBqLbCb5ur8\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c54ee1c508c5d5e01720f",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c54ea1c508c5d5e016ec0",
+        "email": "Roma77@yahoo.com",
+        "name": "Jacinto Kuhlman",
+        "country": "Canada",
+        "city": "Steuberview",
+        "street": "Jackson Street",
+        "house": 27,
+        "flat": 401,
+        "phone": "+17143112039",
+        "createdOn": "2025-12-24T21:02:34.000Z",
+        "notes": "V1VltmvpiDbJbUQwMusmbPw843oaloiZxh9jnw3nTfwcS4LioEDWZVKkCli60mjv26aup9hjp2lDstDtR6hMKd4mjn0Z8A8QvtG0JSLwKIRsi408O6iCDdXv3TJzyLgsAsiCCyBzpTgSxSSkSMuReQcnH94Ftx7AeyjACQdJyH572wFal8WSY5AMWKUT37MPzE9hmJBq0NqKsTkBu2GYUW4FdH9Uc0oSNgpiXIQgkbJu1gXhQmhFLkGwe6"
+      },
+      "products": [
+        {
+          "_id": "694c54ed1c508c5d5e0171b5",
+          "name": "Fish95085",
+          "amount": 402,
+          "price": 74501,
+          "manufacturer": "Google",
+          "notes": "NCZyZ7du8YpLfLBpoctZ012Ogs52zxsUVhOMerdDZCHePaToT5GfRQfQibmgp5rqjJg9Xx8RosoleTnSeodkxA8eF3fmVptw6VpY3mADf7l1NQFlnOP3VN9I09gEpI3BPTxU9cBGOQvPqbXjeArMj0NfSOppcCCOQ2DMyWAFc5QePN1PWn4aPTIoVP1RkHjYBsYuHxxeIxOKY5XLFylkiyMosG1nQksmcCzskUADDklsG6evLklAklZHBT",
+          "received": false
+        },
+        {
+          "_id": "694c54ed1c508c5d5e0171dc",
+          "name": "Chair89521",
+          "amount": 35,
+          "price": 28320,
+          "manufacturer": "Samsung",
+          "notes": "RdoDyRP0KdkzT6GIqu4o8nUXfKMx6fcpcT3i5X4VnbuC0TTvUYSueSdLiKCbMek7X1WlLiUomnLdTAEfj9wQpYHWfMPPwtI8XobfXyeEM7AnmFD9BQmkit0QUm0NKDacKC9QttKbLVf54cpL7rSHnm9rvCBNLk8ACfRRVbQo9saTPVoBrxxiOXb9EzTFvKbQMmav74XfVPp7psMcZE5s9Rb15TNEgEUXGhYjMuSXk3cVsBTTrwdIoJs4pH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 102821,
+      "createdOn": "2025-12-24T21:02:38.000Z",
+      "comments": [
+        {
+          "text": "<script>Q5yab97Athda6CzJuXSBh0To3UJcinqriplllwOjtXmIJ28ubJRFvOP2rfjOQmgExIL1qr5THarUP5fCZqEn8YY28aC1XfozZFeJeLSvxIgz4Me3qRIup4028IvgCvAKzxnmrhPL8VH30cfiKWryyoI6QiOXSQ0iePdOJ5I4baorfA7GZtIBjbMEJWmHm1y1E9JLNwp0 >",
+          "createdOn": "2025-12-24T21:02:38.000Z",
+          "_id": "694c54ee1c508c5d5e01725a"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c54ea1c508c5d5e016ec0",
+          "products": [
+            {
+              "_id": "694c54ed1c508c5d5e0171b5",
+              "name": "Fish95085",
+              "amount": 402,
+              "price": 74501,
+              "manufacturer": "Google",
+              "notes": "NCZyZ7du8YpLfLBpoctZ012Ogs52zxsUVhOMerdDZCHePaToT5GfRQfQibmgp5rqjJg9Xx8RosoleTnSeodkxA8eF3fmVptw6VpY3mADf7l1NQFlnOP3VN9I09gEpI3BPTxU9cBGOQvPqbXjeArMj0NfSOppcCCOQ2DMyWAFc5QePN1PWn4aPTIoVP1RkHjYBsYuHxxeIxOKY5XLFylkiyMosG1nQksmcCzskUADDklsG6evLklAklZHBT",
+              "received": false
+            },
+            {
+              "_id": "694c54ed1c508c5d5e0171dc",
+              "name": "Chair89521",
+              "amount": 35,
+              "price": 28320,
+              "manufacturer": "Samsung",
+              "notes": "RdoDyRP0KdkzT6GIqu4o8nUXfKMx6fcpcT3i5X4VnbuC0TTvUYSueSdLiKCbMek7X1WlLiUomnLdTAEfj9wQpYHWfMPPwtI8XobfXyeEM7AnmFD9BQmkit0QUm0NKDacKC9QttKbLVf54cpL7rSHnm9rvCBNLk8ACfRRVbQo9saTPVoBrxxiOXb9EzTFvKbQMmav74XfVPp7psMcZE5s9Rb15TNEgEUXGhYjMuSXk3cVsBTTrwdIoJs4pH",
+              "received": false
+            }
+          ],
+          "total_price": 102821,
+          "delivery": null,
+          "changedOn": "2025-12-24T21:02:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
