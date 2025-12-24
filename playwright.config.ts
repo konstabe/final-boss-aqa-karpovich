@@ -49,23 +49,39 @@ export default defineConfig({
 	/* Configure projects for major browsers */
 	projects: [
 		{
-			name: "sales-portal-api",
-			use: {
-				...devices["Desktop Chrome"],
-			},
-			testDir: "src/tests/api",
+			name: "setup",
+			use: { ...devices["Desktop Chrome"] },
+			testDir: "src/tests/ui/orders",
+			testMatch: /\.setup\.ts/,
 		},
 		{
 			name: "sales-portal-ui",
 			use: {
 				...devices["Desktop Chrome"],
 				viewport: { width: 1920, height: 1080 },
+				storageState: "src/.auth/user.json",
 			},
-			testDir: "src/tests/ui",
+			dependencies: ["setup"],
+			testDir: "src/tests/ui/orders",
 		},
 		{
+			name: "sales-portal-api",
+			use: {
+				...devices["Desktop Chrome"],
+			},
+			testDir: "src/tests/api",
+		},
+		// {
+		// 	name: "sales-portal-ui",
+		// 	use: {
+		// 		...devices["Desktop Chrome"],
+		// 		viewport: { width: 1920, height: 1080 },
+		// 	},
+		// 	testDir: "src/tests/ui",
+		// },
+		{
 			name: "chromium",
-			use: { ...devices["Desktop Chrome"] },
+			use: { ...devices["Desktop Chrome"], headless: true },
 		},
 
 		{

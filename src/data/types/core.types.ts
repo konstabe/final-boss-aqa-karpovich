@@ -26,3 +26,5 @@ export interface IRequestOptions {
 	data?: object;
 	headers?: Record<string, string>;
 }
+
+export type UpToFive<T> = [T] | [T, T] | [T, T, T] | [T, T, T, T] | [T, T, T, T, T];

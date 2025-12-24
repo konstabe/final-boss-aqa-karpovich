@@ -1,6 +1,6 @@
 import { STATUS_CODES } from "data/statusCodes";
 import { SortOrder } from "data/types/core.types";
-import { IProductFromResponse, ProductsSortField } from "data/types/product.types";
+import { ProductsSortField } from "data/types/product.types";
 
 interface IProductsSearch {
 	title: string;

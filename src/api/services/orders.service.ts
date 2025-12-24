@@ -1,5 +1,12 @@
 import { OrdersApi } from "api/api/orders.api";
-import { IAddress, IOrderDelivery, IOrderFromResponse, IOrderWithCustomerAndProducts } from "data/types/order.types";
+import {
+	IAddress,
+	ICreatedCustomerForOrder,
+	ICreatedProductsForOrder,
+	IOrderDelivery,
+	IOrderFromResponse,
+	IOrderWithCustomerAndProducts,
+} from "data/types/order.types";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 import { CustomersApiService } from "./customers.service";
 import { ProductsApiService } from "./products.service";
@@ -256,5 +263,30 @@ export class OrdersApiService {
 		});
 
 		return created;
+	}
+
+	async createProducts(token: string, numberOfProducts: number): Promise<ICreatedProductsForOrder> {
+		const productsIds: string[] = [];
+		const productNames: string[] = [];
+		for (let i = 0; i < numberOfProducts; i++) {
+			const products = await this.productsApiService.create(token);
+			productsIds.push(products._id);
+			productNames.push(products.name);
+		}
+
+		return {
+			productsIds,
+			productNames,
+		};
+	}
+
+	async createCustomer(token: string): Promise<ICreatedCustomerForOrder> {
+		const customer = await this.customersApiService.create(token);
+
+		return {
+			customerId: customer._id,
+			customerName: customer.name,
+			customerEmail: customer.email,
+		};
 	}
 }
