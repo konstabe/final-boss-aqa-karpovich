@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:17:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2642",
+    "etag": "W/\"a52-R6OTpKvMm0Gbe4Y/JfRf6fhmRFU\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c66761c508c5d5e025688",
+        "email": "Jerry58@yahoo.com",
+        "name": "Gia Treutel",
+        "country": "Germany",
+        "city": "South Pink",
+        "street": "S East Street",
+        "house": 24,
+        "flat": 668,
+        "phone": "+12057990145",
+        "createdOn": "2025-12-24T22:17:26.000Z",
+        "notes": "YCP5isxPg7ncWTr1h27BrelkXpvfNNX4YUq9PG8NcrOrGsmZUXPcx7QtHdA5QT1lhc7JQVPPmTqwHWpVlTZ61TDOy2N5yaxYr9WOdauRm5LcrX9HqT4cTVVsuzT4c7wp2Jv0VcGR1VMo544eElDHqkIgD2YUYW9gTgTChxFlcPWkfkK4oSf0KS5tpcdjSopQAb7vpjXaUsN8pXcILUrYgqSBJ0FqrNNmMMSSlEzNNYz3OJY1I9glCddHpJ"
+      },
+      "products": [
+        {
+          "_id": "694c66781c508c5d5e025829",
+          "name": "Shoes38722",
+          "amount": 505,
+          "price": 82157,
+          "manufacturer": "Amazon",
+          "notes": "k0fB0m0eVIgjVY5J26UJt8zdy6TAd3fUS08B0vEmPQGuXYR0zBwFsEL07GbJ2vleRmQ8yAr46XSvq6PoNQPat3GwDhKXNGxZOC3PTpDVG54Dj9MZJLlu5r2EXOwPrZD46VWj1ThnsvMukyjMvoL1RrsqgzRuBmJCJrTOGa9caZB3ohRHXW0KLXeVLrbEcgwMR0DoTUs7Ls30HbyydXS2LTd4H4SF4lGoQlkOX32OFAyCOZowSVl7RIUe4k",
+          "received": false
+        },
+        {
+          "_id": "694c667c1c508c5d5e025b53",
+          "name": "Mouse8912",
+          "amount": 34,
+          "price": 27848,
+          "manufacturer": "Xiaomi",
+          "notes": "bvT8HTrDTokE7NNAjJuAUkITpDSjVoJ2EG5hIfa4y2UfBITyFnAcf2pefxuAhOB3oJVxJjE7yzojBcVpJO9NApwHDV8Cbi3AUt3CsbWdwh1hEx9VVHdTLkoPtl9KVl8LvRU6OfCSoGrMqhdq2QDtrlJqxkFLHXDqtCJsUQuJyWUvIHR4xzx0dnnpFmRUNxmmIKMFLvZZxXtuGQMVpoivOD83wW9oSMelQexiGtLrq9sKK1h0Ry86D06Obg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 110005,
+      "createdOn": "2025-12-24T22:17:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c66761c508c5d5e025688",
+          "products": [
+            {
+              "_id": "694c66781c508c5d5e025829",
+              "name": "Shoes38722",
+              "amount": 505,
+              "price": 82157,
+              "manufacturer": "Amazon",
+              "notes": "k0fB0m0eVIgjVY5J26UJt8zdy6TAd3fUS08B0vEmPQGuXYR0zBwFsEL07GbJ2vleRmQ8yAr46XSvq6PoNQPat3GwDhKXNGxZOC3PTpDVG54Dj9MZJLlu5r2EXOwPrZD46VWj1ThnsvMukyjMvoL1RrsqgzRuBmJCJrTOGa9caZB3ohRHXW0KLXeVLrbEcgwMR0DoTUs7Ls30HbyydXS2LTd4H4SF4lGoQlkOX32OFAyCOZowSVl7RIUe4k",
+              "received": false
+            },
+            {
+              "_id": "694c667c1c508c5d5e025b53",
+              "name": "Mouse8912",
+              "amount": 34,
+              "price": 27848,
+              "manufacturer": "Xiaomi",
+              "notes": "bvT8HTrDTokE7NNAjJuAUkITpDSjVoJ2EG5hIfa4y2UfBITyFnAcf2pefxuAhOB3oJVxJjE7yzojBcVpJO9NApwHDV8Cbi3AUt3CsbWdwh1hEx9VVHdTLkoPtl9KVl8LvRU6OfCSoGrMqhdq2QDtrlJqxkFLHXDqtCJsUQuJyWUvIHR4xzx0dnnpFmRUNxmmIKMFLvZZxXtuGQMVpoivOD83wW9oSMelQexiGtLrq9sKK1h0Ry86D06Obg",
+              "received": false
+            }
+          ],
+          "total_price": 110005,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:17:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c66801c508c5d5e025e99"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

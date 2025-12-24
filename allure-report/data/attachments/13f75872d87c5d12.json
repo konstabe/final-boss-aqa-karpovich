@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:19:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3420",
+    "etag": "W/\"d5c-hhO8LQ+n0VI7TYGZ2LH+ioj89tI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c66d21c508c5d5e02a961",
+        "email": "Ciara.Senger86@gmail.com",
+        "name": "Reid Wintheiser",
+        "country": "France",
+        "city": "Loveland",
+        "street": "Keebler Rue",
+        "house": 14,
+        "flat": 440,
+        "phone": "+18938184055",
+        "createdOn": "2025-12-24T22:18:58.000Z",
+        "notes": "zg99RSJzWRq55I7j2fSOCyvlujqftAjdyGUmNRHfr97j3xXqYrwJP5pyNzaav0aB2LBU3cSCOdCQvko62rst5fFusHu7BgsoVWnUQqftfkeG7zOahWKRnSZWOg4me9v0VS19fXE4vLX7QB8CJAb8lXl7zKXEEORvZK1n3La6gjlXyektuCqsiCfwdpaqr7FSjQ9CVNZ9frUF51nbYTkhsyvVAfnObSjgGaDKVsQiqkJipR6gBhUuxBjX8x"
+      },
+      "products": [
+        {
+          "_id": "694c66d31c508c5d5e02a98d",
+          "name": "Hat76655",
+          "amount": 104,
+          "price": 6598,
+          "manufacturer": "Xiaomi",
+          "notes": "kmDxD1AiGK8gscPILWXB47Q6MQBSVGbBPiWQOYAZ6uxkHJzDSlBqR7BxhDsyu60GvVB0T0lw3xlG6jAxvPXy51Lcubwcf6lPEtqbDWkP2QWJcwsQtjd7ihWmmOwJaJAjtqlapS8shJDZigrtv4uuMlx1z22SDAJzdDEhJnhJnsltZ7QOkPHIVJ1vLHfNjm6qipIRj5gA5I4SjoL5FhayARH2xvMpZkGfkW6RqdqbvcxfRoJmhkW3R35az5",
+          "received": false
+        },
+        {
+          "_id": "694c66d71c508c5d5e02ace6",
+          "name": "Sausages4971",
+          "amount": 645,
+          "price": 34006,
+          "manufacturer": "Google",
+          "notes": "W5WOBcIyf59EXroBqMbdVmUeqpdGUMToJo3puYpDqp2lCSgfx2zjspmnRWcraYXqTPluwLxrFrrWBw4W4rb0FtYdsQIRXRvOpsb5qKeXmB4wS8m0IkXg23YzsDeXIrR2QQeMBzBgIwKgC8fH1aE5KcVOlsOxuPpQ2HZrPnOUPk4crYRCLWCkwuuU9Wm2yuS9rxxfpopEYj1ikiqar8M1JfdhHm0pH7xyCt0xXkXAJCqBcqI8DkMBotTCfI",
+          "received": false
+        },
+        {
+          "_id": "694c66dd1c508c5d5e02b1cf",
+          "name": "Chips76445",
+          "amount": 249,
+          "price": 1382,
+          "manufacturer": "Microsoft",
+          "notes": "MpvHZ9eDOmuYo7x2HYIRahFTRgtPqlp38xeEhkCdcxhM2lDlSPhVroxwdCMFAz4DVf914SN0kWJAL99S8RUzsuWCHGYBWRXXsJKPka4LOQlgCUaLPL5zQ0OJmGpmhqO1AOWN7r1eBf6WPgg6YkwplRcldSgs7iD8LMFwldV9QYYerfItWeHGOG1vHzbkxJxUpnN41GKCa6vTWRyfDEKQXXQmbtzuLZPZ2QLGdkFK1ukzde0JIc9eajbwKQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 41986,
+      "createdOn": "2025-12-24T22:19:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c66d21c508c5d5e02a961",
+          "products": [
+            {
+              "_id": "694c66d31c508c5d5e02a98d",
+              "name": "Hat76655",
+              "amount": 104,
+              "price": 6598,
+              "manufacturer": "Xiaomi",
+              "notes": "kmDxD1AiGK8gscPILWXB47Q6MQBSVGbBPiWQOYAZ6uxkHJzDSlBqR7BxhDsyu60GvVB0T0lw3xlG6jAxvPXy51Lcubwcf6lPEtqbDWkP2QWJcwsQtjd7ihWmmOwJaJAjtqlapS8shJDZigrtv4uuMlx1z22SDAJzdDEhJnhJnsltZ7QOkPHIVJ1vLHfNjm6qipIRj5gA5I4SjoL5FhayARH2xvMpZkGfkW6RqdqbvcxfRoJmhkW3R35az5",
+              "received": false
+            },
+            {
+              "_id": "694c66d71c508c5d5e02ace6",
+              "name": "Sausages4971",
+              "amount": 645,
+              "price": 34006,
+              "manufacturer": "Google",
+              "notes": "W5WOBcIyf59EXroBqMbdVmUeqpdGUMToJo3puYpDqp2lCSgfx2zjspmnRWcraYXqTPluwLxrFrrWBw4W4rb0FtYdsQIRXRvOpsb5qKeXmB4wS8m0IkXg23YzsDeXIrR2QQeMBzBgIwKgC8fH1aE5KcVOlsOxuPpQ2HZrPnOUPk4crYRCLWCkwuuU9Wm2yuS9rxxfpopEYj1ikiqar8M1JfdhHm0pH7xyCt0xXkXAJCqBcqI8DkMBotTCfI",
+              "received": false
+            },
+            {
+              "_id": "694c66dd1c508c5d5e02b1cf",
+              "name": "Chips76445",
+              "amount": 249,
+              "price": 1382,
+              "manufacturer": "Microsoft",
+              "notes": "MpvHZ9eDOmuYo7x2HYIRahFTRgtPqlp38xeEhkCdcxhM2lDlSPhVroxwdCMFAz4DVf914SN0kWJAL99S8RUzsuWCHGYBWRXXsJKPka4LOQlgCUaLPL5zQ0OJmGpmhqO1AOWN7r1eBf6WPgg6YkwplRcldSgs7iD8LMFwldV9QYYerfItWeHGOG1vHzbkxJxUpnN41GKCa6vTWRyfDEKQXXQmbtzuLZPZ2QLGdkFK1ukzde0JIc9eajbwKQ",
+              "received": false
+            }
+          ],
+          "total_price": 41986,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:19:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c66e01c508c5d5e02b591"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

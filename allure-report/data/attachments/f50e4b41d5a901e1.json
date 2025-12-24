@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:16:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1418",
+    "etag": "W/\"58a-bkDC2K7J2CjraZ71VBMcnD4aHKU\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "694c665b1c508c5d5e024258",
+        "status": "Draft",
+        "customer": "694c665a1c508c5d5e0241e0",
+        "products": [
+          {
+            "_id": "694c665a1c508c5d5e0241fd",
+            "name": "Mouse63828",
+            "amount": 156,
+            "price": 77214,
+            "manufacturer": "Microsoft",
+            "notes": "fW9AiO8SEWqDnJu2H01j2axbHGnfwWuprO1dyfnKeTHYXGRvvIEoDdy2lIfDdOKEZ2UHGCIQEkurQoJSjx75UjeNei3kIgCE9ePgMlegtu20YMsxi5BtnB5qbj9Gow6HidvriwnIbzu4H73NKzAGG0V3VoIkzo5hLVdpfMcMAkdEftBiYazLUzwvuL63VPPBB6k2Lh2qE5TTCw7rQoYDKtnG6N9pbDW92HJh03RCdyRkzbPean5GzuY2y3",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 77214,
+        "createdOn": "2025-12-24T22:16:59.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "694c665a1c508c5d5e0241e0",
+            "products": [
+              {
+                "_id": "694c665a1c508c5d5e0241fd",
+                "name": "Mouse63828",
+                "amount": 156,
+                "price": 77214,
+                "manufacturer": "Microsoft",
+                "notes": "fW9AiO8SEWqDnJu2H01j2axbHGnfwWuprO1dyfnKeTHYXGRvvIEoDdy2lIfDdOKEZ2UHGCIQEkurQoJSjx75UjeNei3kIgCE9ePgMlegtu20YMsxi5BtnB5qbj9Gow6HidvriwnIbzu4H73NKzAGG0V3VoIkzo5hLVdpfMcMAkdEftBiYazLUzwvuL63VPPBB6k2Lh2qE5TTCw7rQoYDKtnG6N9pbDW92HJh03RCdyRkzbPean5GzuY2y3",
+                "received": false
+              }
+            ],
+            "total_price": 77214,
+            "delivery": null,
+            "changedOn": "2025-12-24T22:16:59.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953315",
+              "username": "student2@gmail.com",
+              "firstName": "Wilfrid",
+              "lastName": "Daugherty",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

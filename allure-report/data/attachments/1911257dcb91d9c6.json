@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:18:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2816",
+    "etag": "W/\"b00-u4fp9PqYcYQJq37/RmFLvPBpSH0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c66a91c508c5d5e02844b",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c66a11c508c5d5e027cb9",
+        "email": "Carlos.Ziemann@yahoo.com",
+        "name": "Kamryn McDermott",
+        "country": "France",
+        "city": "Jamiecester",
+        "street": "Anita Ridges",
+        "house": 9,
+        "flat": 535,
+        "phone": "+16657084821",
+        "createdOn": "2025-12-24T22:18:09.000Z",
+        "notes": "rBIm4yc8cphQXe8sa6kvDeILV8Z4PhIaHJKdRK5akLo6xgOkBrJNYoWCrawAJIk0esuoCHJI50TDvQdrX1qleoWGZg73l8og2X81eZdXYCPpXPf4dEmD956GkqrqjnW5fEaQ0HvzvmOJRiUzIHsN5Zr6XaxQaL6erNAfQAl3uzP8RwJ8eo4SdUwE7IdEdCZb4Vr6z5WEZsJHd2L8xEsXZpBOcB7GZSUQyewZYMy09ZzOKn4MP73XZrTazR"
+      },
+      "products": [
+        {
+          "_id": "694c66a41c508c5d5e027e8e",
+          "name": "Bacon94635",
+          "amount": 112,
+          "price": 48738,
+          "manufacturer": "Tesla",
+          "notes": "CbDsU1XgXisEF6Ti0BSf14WSoceLdoC1vizmCdNn4NRLrkkcqPPvVzQqV8SJXO0GvsQV9ySrlQFnX8xhy44EnpOZ4qRVJQ530XfiZJ8ftBAT8VvjDRal19VWjfH88NtoP35zORrFP8Mu9tF23iwWTymGphyqJgTZBNL0jP6htykafUBF91dw3emIgSOVcwl99kg9bi0MZOC9F0vtISjNITuk1WaR09SP0rrmPfxprbBy7XQTb0eg3Xx0yL",
+          "received": false
+        },
+        {
+          "_id": "694c66a81c508c5d5e0281e6",
+          "name": "Cheese42446",
+          "amount": 376,
+          "price": 78189,
+          "manufacturer": "Samsung",
+          "notes": "hR7fgEeHAioJR37PnsRPJyF99wc1vQm8nbs7dqDmSimYvY2QhjFHaZrLKny7tbPnbOTiOyFuHBH6v9i3fqJVbRps9J8kl2oZZGEekMeXT611eiinX3ej2s5BdLZ9AM34jfsxzy4SIf2p1NR7AUPfgMfHe4TPZr2JoiPgcosUoxhQQTKImQxIrUwl1vAdDkx02LlYYcANmqs9EVrAwh5eOVFAb5ODaePBbIweI6VLoRyK15UJSRZRh5jXY8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 126927,
+      "createdOn": "2025-12-24T22:18:17.000Z",
+      "comments": [
+        {
+          "text": "Fpv4hLYwLJ6THDHrIf3ITop2oEKb7Bxunm99GJndkYEgirtYpHCUliLeZjdzeDq7YRbsV4h5g0z",
+          "createdOn": "2025-12-24T22:18:18.000Z",
+          "_id": "694c66aa1c508c5d5e02857b"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c66a11c508c5d5e027cb9",
+          "products": [
+            {
+              "_id": "694c66a41c508c5d5e027e8e",
+              "name": "Bacon94635",
+              "amount": 112,
+              "price": 48738,
+              "manufacturer": "Tesla",
+              "notes": "CbDsU1XgXisEF6Ti0BSf14WSoceLdoC1vizmCdNn4NRLrkkcqPPvVzQqV8SJXO0GvsQV9ySrlQFnX8xhy44EnpOZ4qRVJQ530XfiZJ8ftBAT8VvjDRal19VWjfH88NtoP35zORrFP8Mu9tF23iwWTymGphyqJgTZBNL0jP6htykafUBF91dw3emIgSOVcwl99kg9bi0MZOC9F0vtISjNITuk1WaR09SP0rrmPfxprbBy7XQTb0eg3Xx0yL",
+              "received": false
+            },
+            {
+              "_id": "694c66a81c508c5d5e0281e6",
+              "name": "Cheese42446",
+              "amount": 376,
+              "price": 78189,
+              "manufacturer": "Samsung",
+              "notes": "hR7fgEeHAioJR37PnsRPJyF99wc1vQm8nbs7dqDmSimYvY2QhjFHaZrLKny7tbPnbOTiOyFuHBH6v9i3fqJVbRps9J8kl2oZZGEekMeXT611eiinX3ej2s5BdLZ9AM34jfsxzy4SIf2p1NR7AUPfgMfHe4TPZr2JoiPgcosUoxhQQTKImQxIrUwl1vAdDkx02LlYYcANmqs9EVrAwh5eOVFAb5ODaePBbIweI6VLoRyK15UJSRZRh5jXY8",
+              "received": false
+            }
+          ],
+          "total_price": 126927,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:18:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

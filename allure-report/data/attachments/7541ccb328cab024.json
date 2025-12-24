@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:17:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-ut76jGL8hH2oqFSyHWWM2a13PJA\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c668c1c508c5d5e026936",
+        "email": "Oswaldo.Daniel@yahoo.com",
+        "name": "Jacklyn Gleason",
+        "country": "Ukraine",
+        "city": "Roryport",
+        "street": "Keenan Crossroad",
+        "house": 24,
+        "flat": 317,
+        "phone": "+16353795024",
+        "createdOn": "2025-12-24T22:17:48.000Z",
+        "notes": "oPdgwSCiAVdV2issmpJ8i3IDxgLhZBOFpFAoXKVxA9U0qBEtNybhWFlQhqVOBaAXxK8CGal2XmAbszZVASt4SiN2L1Qp7KxVaem5PvwypTnGWKMphNSeFLlxIzEfglPjPaorW48TqRMvQGW44MErQzc8mdifzI3vP24UjxKFjxgMODJT7z8iSzZLB0YICX65OVhXGfqr43IfVyWhy5SxKRfSoIZjfwvpfx16i8N8K9563f2nwkfgiV4ECx"
+      },
+      "products": [
+        {
+          "_id": "694c668c1c508c5d5e026956",
+          "name": "Bacon35129",
+          "amount": 11,
+          "price": 2386,
+          "manufacturer": "Samsung",
+          "notes": "B1a7TbZZyHvjHYCkNL2Vh3RP11f56IkcyFGfLRnvJaUqGAhz4VB19OBg1F6oqA6LNEs6exmEhaHIUGyJmNIOp88g7vaZssBWhr8JfZ8ZsEfpoMzw2mkIfxnD01a7VeTaOR7b3Q91HJgAZlvMvQ97NowLFfxemXVtJFkeOLpl077ydthMf2pk2UM1FgI9gyJHnkpndkCUHmpP2fkHBHQQdkWpT6oCqFdT7WrR3Ya5Z77OXWjiyrWoWF4PIW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 2386,
+      "createdOn": "2025-12-24T22:17:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c668c1c508c5d5e026936",
+          "products": [
+            {
+              "_id": "694c668c1c508c5d5e026956",
+              "name": "Bacon35129",
+              "amount": 11,
+              "price": 2386,
+              "manufacturer": "Samsung",
+              "notes": "B1a7TbZZyHvjHYCkNL2Vh3RP11f56IkcyFGfLRnvJaUqGAhz4VB19OBg1F6oqA6LNEs6exmEhaHIUGyJmNIOp88g7vaZssBWhr8JfZ8ZsEfpoMzw2mkIfxnD01a7VeTaOR7b3Q91HJgAZlvMvQ97NowLFfxemXVtJFkeOLpl077ydthMf2pk2UM1FgI9gyJHnkpndkCUHmpP2fkHBHQQdkWpT6oCqFdT7WrR3Ya5Z77OXWjiyrWoWF4PIW",
+              "received": false
+            }
+          ],
+          "total_price": 2386,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:17:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c668d1c508c5d5e02698b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

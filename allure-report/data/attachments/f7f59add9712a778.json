@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:19:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3426",
+    "etag": "W/\"d62-SRvRmZX5uD5uHahXsf/pdNNS7Oc\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c66e01c508c5d5e02b5cf",
+        "email": "Brenden_Cummerata31@yahoo.com",
+        "name": "Georgette Ruecker",
+        "country": "Belarus",
+        "city": "Vernerton",
+        "street": "Macejkovic Wells",
+        "house": 20,
+        "flat": 536,
+        "phone": "+15259530528",
+        "createdOn": "2025-12-24T22:19:12.000Z",
+        "notes": "d31wJvIocTPESjEQ1AMHh3s83zv9GUF5iBVi6Vel1bWNLD5Jfh6KnuVlDSkxk0yJSQrjoTIOkKIYfEt5G3IKny82NDJm2Ka2TgBfyqAWfdDgpGggV3ISl4r8oIKoO8dxFHJFSfVCpZWmXQT7VLF28HwneXacUtRexBYqjdb1LqHO4NEExFalvp9dq6JLq0f6CS5aJxSb8tMnDcJ3jioUr6m6UnHwBicNOGtcVxay5qpu88srMqslCUycpg"
+      },
+      "products": [
+        {
+          "_id": "694c66e11c508c5d5e02b5f2",
+          "name": "Shirt9850",
+          "amount": 127,
+          "price": 42882,
+          "manufacturer": "Tesla",
+          "notes": "XuWq5lGBoWU70CWYwlJLulGIR7AwGmEtuya3GRP0Sg9fwK0abM7Ub1mYnHL0OxCPz8eVcQ9JDW9YZ9EMZdMMdWi4D9uJozvKjiYUezzaTLBKxMTs8eVhikTlr0Vs5dG13skTOmGKGgQ2ioFWhkbgf3qr4O2DxsjJkBaEoq9mOSz83xQUgbhinfnHuHiS8fTlVoSLSEQAvxD16Xdwt14XF6bqZaBZImKMd31yLjVzpxGzORDgi3PE5jxDkc",
+          "received": false
+        },
+        {
+          "_id": "694c66e11c508c5d5e02b624",
+          "name": "Chair39931",
+          "amount": 269,
+          "price": 10206,
+          "manufacturer": "Google",
+          "notes": "vvEFwz62lY69C3KM49VEIiiM5fkWDfEnpeIQCiwxwZgsBRxahoYGqNSK1Fx9ifhQngYh8oopZLyoeGzKfMHgGgqgQKkShacXXVQF0T9iCyHS1Ad60OKOBoLwdhUrShHDxUI4QalO513fAkbUcTjEcJJF2ToW5AlSRmY4KBgahmSo6i62pg7GAHEti2ERmO0DUmQOOj59nL5TC7Xe5r4O7FE1QY4SCjHkSjmDIkZ9jBpygUYPP94WgloHsl",
+          "received": false
+        },
+        {
+          "_id": "694c66e21c508c5d5e02b657",
+          "name": "Ball47621",
+          "amount": 285,
+          "price": 47283,
+          "manufacturer": "Apple",
+          "notes": "0DoiyCPpvZgt6fYiRBGEkxhBQyr9eI9wmwDgrIrPwRF4lFkHRprZ0gBeVod6xI16RNwjCrWunLXqf7Eu50ExHJBCXAuks5QeAwMXvqF2lPdBDG87e2yyQUhP7lh0a0dhAlsKGGcDElUr6UozptTdpnn7ac577D5gtQFBufIKilv4puA5nhycblJWQ0AtlBTd7lzXghhKuRoWgFFXrsh3ThYT3yaXL3OF933dZTSNEmoXS7z4n2SZ1KFKDL",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 100371,
+      "createdOn": "2025-12-24T22:19:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c66e01c508c5d5e02b5cf",
+          "products": [
+            {
+              "_id": "694c66e11c508c5d5e02b5f2",
+              "name": "Shirt9850",
+              "amount": 127,
+              "price": 42882,
+              "manufacturer": "Tesla",
+              "notes": "XuWq5lGBoWU70CWYwlJLulGIR7AwGmEtuya3GRP0Sg9fwK0abM7Ub1mYnHL0OxCPz8eVcQ9JDW9YZ9EMZdMMdWi4D9uJozvKjiYUezzaTLBKxMTs8eVhikTlr0Vs5dG13skTOmGKGgQ2ioFWhkbgf3qr4O2DxsjJkBaEoq9mOSz83xQUgbhinfnHuHiS8fTlVoSLSEQAvxD16Xdwt14XF6bqZaBZImKMd31yLjVzpxGzORDgi3PE5jxDkc",
+              "received": false
+            },
+            {
+              "_id": "694c66e11c508c5d5e02b624",
+              "name": "Chair39931",
+              "amount": 269,
+              "price": 10206,
+              "manufacturer": "Google",
+              "notes": "vvEFwz62lY69C3KM49VEIiiM5fkWDfEnpeIQCiwxwZgsBRxahoYGqNSK1Fx9ifhQngYh8oopZLyoeGzKfMHgGgqgQKkShacXXVQF0T9iCyHS1Ad60OKOBoLwdhUrShHDxUI4QalO513fAkbUcTjEcJJF2ToW5AlSRmY4KBgahmSo6i62pg7GAHEti2ERmO0DUmQOOj59nL5TC7Xe5r4O7FE1QY4SCjHkSjmDIkZ9jBpygUYPP94WgloHsl",
+              "received": false
+            },
+            {
+              "_id": "694c66e21c508c5d5e02b657",
+              "name": "Ball47621",
+              "amount": 285,
+              "price": 47283,
+              "manufacturer": "Apple",
+              "notes": "0DoiyCPpvZgt6fYiRBGEkxhBQyr9eI9wmwDgrIrPwRF4lFkHRprZ0gBeVod6xI16RNwjCrWunLXqf7Eu50ExHJBCXAuks5QeAwMXvqF2lPdBDG87e2yyQUhP7lh0a0dhAlsKGGcDElUr6UozptTdpnn7ac577D5gtQFBufIKilv4puA5nhycblJWQ0AtlBTd7lzXghhKuRoWgFFXrsh3ThYT3yaXL3OF933dZTSNEmoXS7z4n2SZ1KFKDL",
+              "received": false
+            }
+          ],
+          "total_price": 100371,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:19:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c66e21c508c5d5e02b693"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:19:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-gd43SgMLx5TL9i4P1U5togMrpXg\"",
+    "keep-alive": "timeout=5, max=63",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c66e01c508c5d5e02b59a",
+        "email": "Loyal_Hamill81@yahoo.com",
+        "name": "Emerson Schultz",
+        "country": "Russia",
+        "city": "Kutchshire",
+        "street": "Ethelyn Burg",
+        "house": 17,
+        "flat": 27,
+        "phone": "+12526409120",
+        "createdOn": "2025-12-24T22:19:12.000Z",
+        "notes": "VJ9JnJFVB8CL9isRmMeyoF6eM2dAdqt4PFpvkrs00D9R5uwNOWCRTO3rc9o17t3tv2Le34Z3gebtvn48oCLkOY4KFFe965fJVPIWZ764SvxkAdJoEqpFsgacjRrkhtkCRSNf4UfaSuve712sCkS83wqugZ2Wbiv6by57ghNssrAzFcsrdurzgSFAxAu1F0apQwcwTUSV1u3NhZynbmjMEoV1zftPyjQoDHHDuNP3lQbjbfT9qASul5bvE4"
+      },
+      "products": [
+        {
+          "_id": "694c66e01c508c5d5e02b5bf",
+          "name": "Hat41440",
+          "amount": 936,
+          "price": 97882,
+          "manufacturer": "Microsoft",
+          "notes": "yiCb1mFbXm2JXjAgrcs7wbOIttEYJchZ45797yeVE1YXhrRvnpDMvG43QCZ0eWLbgl11d1hl9UXxSi4STVUAs4YXpmDYBB4Eoc9QolLdwxTBgwdHXT3UAY2eiSqPJpJLmVTdQ7sswnbTbujhxqlVEcm1D973zdKJetwNMzzHcIATA1boY5ka0qjlrd9gD7mJ9KWB7MBxOZoC2LAfmucstJ8qdprscAZeQyb6nQXFMJs6vdwMFcdbv9o8lH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 97882,
+      "createdOn": "2025-12-24T22:19:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c66e01c508c5d5e02b59a",
+          "products": [
+            {
+              "_id": "694c66e01c508c5d5e02b5bf",
+              "name": "Hat41440",
+              "amount": 936,
+              "price": 97882,
+              "manufacturer": "Microsoft",
+              "notes": "yiCb1mFbXm2JXjAgrcs7wbOIttEYJchZ45797yeVE1YXhrRvnpDMvG43QCZ0eWLbgl11d1hl9UXxSi4STVUAs4YXpmDYBB4Eoc9QolLdwxTBgwdHXT3UAY2eiSqPJpJLmVTdQ7sswnbTbujhxqlVEcm1D973zdKJetwNMzzHcIATA1boY5ka0qjlrd9gD7mJ9KWB7MBxOZoC2LAfmucstJ8qdprscAZeQyb6nQXFMJs6vdwMFcdbv9o8lH",
+              "received": false
+            }
+          ],
+          "total_price": 97882,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:19:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c66e11c508c5d5e02b5fa"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

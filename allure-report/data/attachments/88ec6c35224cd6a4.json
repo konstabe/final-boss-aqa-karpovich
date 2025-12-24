@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:18:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2937",
+    "etag": "W/\"b79-0Eju9rZG9NmyN0Lo+wKz80ou7+A\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c66d01c508c5d5e02a7d1",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c66cd1c508c5d5e02a4d6",
+        "email": "Houston92@hotmail.com",
+        "name": "Rasheed Gleichner",
+        "country": "Belarus",
+        "city": "Evaboro",
+        "street": "McKenzie Spring",
+        "house": 9,
+        "flat": 982,
+        "phone": "+17857857433",
+        "createdOn": "2025-12-24T22:18:53.000Z",
+        "notes": "pYVyE2tOnyTp7UZrSN41sWM4rPAmdddWtuGqVgHVGCRz6lPtuHZyrbEyXkJN87uUuHDgBghf16rmA2kIsplCGCb55pu0pbcTJriEs3CcUzYFCDoOC7ihwDfxC1l0QtDEftTkl6P6dbNFxusHetYhcxNRsBrlH2UL2MDnLpFGZL9Lv4C6tbANtoaBC0IoskgTW4T2RvOUUmVRfmOdjgcSiCbwn1uLMg4LbgGTxcYZBDGevuk6794pfHfC4c"
+      },
+      "products": [
+        {
+          "_id": "694c66cf1c508c5d5e02a6ab",
+          "name": "Shirt225",
+          "amount": 689,
+          "price": 2418,
+          "manufacturer": "Google",
+          "notes": "tfYxuGggeCw5IBellgqOgoDcNtpT4VFFFotKJj6HPw45R9PLVLi2QzvGrDGYzPbb6GMmF95P64Gj6gyD7nsIhlF8D2bL3naWOEPLIkaJ27Kp85Dyg0rKCP4CS1M7BUJFvmDhUsOPjeCXkeq3RmIo60xRwHZT4MxklDhmCGZUOhqNfaU5BfkLKIxWf2YiCXLmWxyuOmP3GIgpCYxZskMqDt7jxvz73aaJ7szHcw0uMyQE6SsD2U9MA5jGct",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Evaboro",
+          "street": "McKenzie Spring",
+          "house": 9,
+          "flat": 982
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 2418,
+      "createdOn": "2025-12-24T22:18:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c66cd1c508c5d5e02a4d6",
+          "products": [
+            {
+              "_id": "694c66cf1c508c5d5e02a6ab",
+              "name": "Shirt225",
+              "amount": 689,
+              "price": 2418,
+              "manufacturer": "Google",
+              "notes": "tfYxuGggeCw5IBellgqOgoDcNtpT4VFFFotKJj6HPw45R9PLVLi2QzvGrDGYzPbb6GMmF95P64Gj6gyD7nsIhlF8D2bL3naWOEPLIkaJ27Kp85Dyg0rKCP4CS1M7BUJFvmDhUsOPjeCXkeq3RmIo60xRwHZT4MxklDhmCGZUOhqNfaU5BfkLKIxWf2YiCXLmWxyuOmP3GIgpCYxZskMqDt7jxvz73aaJ7szHcw0uMyQE6SsD2U9MA5jGct",
+              "received": false
+            }
+          ],
+          "total_price": 2418,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Evaboro",
+              "street": "McKenzie Spring",
+              "house": 9,
+              "flat": 982
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-24T22:18:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c66cd1c508c5d5e02a4d6",
+          "products": [
+            {
+              "_id": "694c66cf1c508c5d5e02a6ab",
+              "name": "Shirt225",
+              "amount": 689,
+              "price": 2418,
+              "manufacturer": "Google",
+              "notes": "tfYxuGggeCw5IBellgqOgoDcNtpT4VFFFotKJj6HPw45R9PLVLi2QzvGrDGYzPbb6GMmF95P64Gj6gyD7nsIhlF8D2bL3naWOEPLIkaJ27Kp85Dyg0rKCP4CS1M7BUJFvmDhUsOPjeCXkeq3RmIo60xRwHZT4MxklDhmCGZUOhqNfaU5BfkLKIxWf2YiCXLmWxyuOmP3GIgpCYxZskMqDt7jxvz73aaJ7szHcw0uMyQE6SsD2U9MA5jGct",
+              "received": false
+            }
+          ],
+          "total_price": 2418,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:18:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

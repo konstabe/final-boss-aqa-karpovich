@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:18:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-Np/YHIv7KOBZ+PxVusymbeBswxA\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c66aa1c508c5d5e028569",
+        "email": "Velva.Beier@gmail.com",
+        "name": "Vilma Kshlerin",
+        "country": "Germany",
+        "city": "South Rhett",
+        "street": "Larkin Vista",
+        "house": 32,
+        "flat": 233,
+        "phone": "+13383720696",
+        "createdOn": "2025-12-24T22:18:18.000Z",
+        "notes": "vTQdOuIJ6r0fjBCZEyS7ZCnKB3Ssg4lEg6SBnVSWJ28AVMHeKMhV6tEUk3aQkisKZljMSW8Ag4wbbrQNMhLXzK81x0ej1b84ByVvk9R2MhWyxGLbOZ9x8ogTqQy7TvmFJhto0FTqvs9SDh9V3IALRG4vSeJHTUiI2yWk6Es60l7IndLdiPpdjGqsvJphcFm45ySMnspK7S4b9uR06v68V9ExkZl5DUZO9lVLnfgU49EQOkE0txHR8fsbhg"
+      },
+      "products": [
+        {
+          "_id": "694c66aa1c508c5d5e028588",
+          "name": "Shirt29454",
+          "amount": 896,
+          "price": 24357,
+          "manufacturer": "Amazon",
+          "notes": "cGgTTfbJlgA2SyTdsCVEpyw1Q2Vo7yhGCztUx7RendXpqMXC2mVQ1jh8xnwzYyEwkoP8Hq5mGbv3ile28r9uertP1xkhpHj4H592GxYXzqb3mPtsmgbX880Qv45Dy5bDlvHvtqFjdusygz3pc3okhNIr7LEldEd17M0YgwlRcgzLGKMzpy7ntLAf4W9vzg8nx4iiBa1P0AcxixMjDKwpOb9MSnprV5JISoOo9NAXrdZgALukUU5DLy7r37",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 24357,
+      "createdOn": "2025-12-24T22:18:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c66aa1c508c5d5e028569",
+          "products": [
+            {
+              "_id": "694c66aa1c508c5d5e028588",
+              "name": "Shirt29454",
+              "amount": 896,
+              "price": 24357,
+              "manufacturer": "Amazon",
+              "notes": "cGgTTfbJlgA2SyTdsCVEpyw1Q2Vo7yhGCztUx7RendXpqMXC2mVQ1jh8xnwzYyEwkoP8Hq5mGbv3ile28r9uertP1xkhpHj4H592GxYXzqb3mPtsmgbX880Qv45Dy5bDlvHvtqFjdusygz3pc3okhNIr7LEldEd17M0YgwlRcgzLGKMzpy7ntLAf4W9vzg8nx4iiBa1P0AcxixMjDKwpOb9MSnprV5JISoOo9NAXrdZgALukUU5DLy7r37",
+              "received": false
+            }
+          ],
+          "total_price": 24357,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:18:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c66ad1c508c5d5e028766"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

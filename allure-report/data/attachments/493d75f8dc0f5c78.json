@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:18:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-3OLr5NDPFDDu/zW7GNr2VvvU0T8\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c66971c508c5d5e027220",
+        "email": "Samson_Walker@yahoo.com",
+        "name": "Dangelo Ratke",
+        "country": "Great Britain",
+        "city": "Charityshire",
+        "street": "Oma Harbors",
+        "house": 48,
+        "flat": 497,
+        "phone": "+19705879759",
+        "createdOn": "2025-12-24T22:17:59.000Z",
+        "notes": "OUV3h27NWgRxmwqL43keoyTLw0lm9V3FMXXFkxe3AVpLLcSYdh7LV5Rz4E2mJAVsTCxBAXPvfc1MYoXtqViwlmIJOUu2kYc8m7OIbUkOmUzFHsbSYfSisxf5wc3gzAeDP6T7mBmeqf9XyofKBtMnhjG4fzk0u0jjsc3pz3q50opAAYNdkNNF7uoXPlXo7mXeTcDDA5HgxBNmMSNZrV2ki4ra0ICQ4Qth89KVeIv3FmOuxoyKOurMcG2rWv"
+      },
+      "products": [
+        {
+          "_id": "694c669b1c508c5d5e0276ce",
+          "name": "Bike2025",
+          "amount": 38,
+          "price": 5312,
+          "manufacturer": "Xiaomi",
+          "notes": "smqrhQUUp0oS0gNVQXM9sPklPz84bLu4P4rqnu1QcZvlNtinWL4ZRCMN7x9wb52aZ9DX9gm0WdAWXVNt8aqGLlHywUu4cxfyVFj3Uf5cEHQYslRNnPFzEqUdZNfGyW1MfcKU65gjBC51kdxOPNCBvgxCVMKJlkqQS66rql7vWURlYsyIAHsuW3y2E9TSlV9iNis6yhBe8bnj5vj49F6Ad2uNLasDh8Z4ySIyjAf1jYb1jrjWLTSkjCVrLF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 5312,
+      "createdOn": "2025-12-24T22:18:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c66971c508c5d5e027220",
+          "products": [
+            {
+              "_id": "694c669b1c508c5d5e0276ce",
+              "name": "Bike2025",
+              "amount": 38,
+              "price": 5312,
+              "manufacturer": "Xiaomi",
+              "notes": "smqrhQUUp0oS0gNVQXM9sPklPz84bLu4P4rqnu1QcZvlNtinWL4ZRCMN7x9wb52aZ9DX9gm0WdAWXVNt8aqGLlHywUu4cxfyVFj3Uf5cEHQYslRNnPFzEqUdZNfGyW1MfcKU65gjBC51kdxOPNCBvgxCVMKJlkqQS66rql7vWURlYsyIAHsuW3y2E9TSlV9iNis6yhBe8bnj5vj49F6Ad2uNLasDh8Z4ySIyjAf1jYb1jrjWLTSkjCVrLF",
+              "received": false
+            }
+          ],
+          "total_price": 5312,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:18:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c669c1c508c5d5e02791f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

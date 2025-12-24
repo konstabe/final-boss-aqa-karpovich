@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:18:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-x5ajXXMY0zqEfA1/YaDoKtIswqU\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c66ad1c508c5d5e02877a",
+        "email": "Sophia_Cremin@yahoo.com",
+        "name": "Watson Carter",
+        "country": "Ukraine",
+        "city": "Hansencester",
+        "street": "Windmill Lane",
+        "house": 2,
+        "flat": 171,
+        "phone": "+15736793639",
+        "createdOn": "2025-12-24T22:18:21.000Z",
+        "notes": "Hk4z6mXjPhbMWWT4Qnux1OCDNhQBBR4zNXcHgRtgS4smMBgEdEXyAeARmw5ehwjk5gXOnUsn8L555hHBOS44Vz8ZaQJayjMj6fZitshvSd5MK43Sw3OtUtjsdbLbCvfSoAn0UyVWZfnNJjVQhbdZSaDZKGR4FO858hckQgcKac5tdl5xlCbRzAEMzpEhfBWdj2z24X6Yu7hAKCKOrSlSXgmYYjlp3zbiJJbUjxGoFSn7VAeBfilTOO1IRC"
+      },
+      "products": [
+        {
+          "_id": "694c66af1c508c5d5e0289ae",
+          "name": "Cheese57291",
+          "amount": 830,
+          "price": 73296,
+          "manufacturer": "Google",
+          "notes": "stPm7fj6VEdkVq5gQ9NEnoC63B1MoUpnFIL6sA2rg0XU8jIzf2oiKRXtEKRjNb9JV3aN98HwrAcoGbUY3zD82kUugTYhfGDTPN4SvkUV7X9FpOcKU9mv34srGlWO6jtF6VOugBJYTwVuJm8EIqq5jUqk2RYSovFWGFaNs5fCYm5HdmoTCtryrBNByQVhHYzJ9cSCZwAkr1gh1reVSi8tfvilfo4iSU7Gld1Qev9zSfGNSn6W8gV8efPyXf",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 73296,
+      "createdOn": "2025-12-24T22:18:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c66ad1c508c5d5e02877a",
+          "products": [
+            {
+              "_id": "694c66af1c508c5d5e0289ae",
+              "name": "Cheese57291",
+              "amount": 830,
+              "price": 73296,
+              "manufacturer": "Google",
+              "notes": "stPm7fj6VEdkVq5gQ9NEnoC63B1MoUpnFIL6sA2rg0XU8jIzf2oiKRXtEKRjNb9JV3aN98HwrAcoGbUY3zD82kUugTYhfGDTPN4SvkUV7X9FpOcKU9mv34srGlWO6jtF6VOugBJYTwVuJm8EIqq5jUqk2RYSovFWGFaNs5fCYm5HdmoTCtryrBNByQVhHYzJ9cSCZwAkr1gh1reVSi8tfvilfo4iSU7Gld1Qev9zSfGNSn6W8gV8efPyXf",
+              "received": false
+            }
+          ],
+          "total_price": 73296,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:18:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c66af1c508c5d5e0289d9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

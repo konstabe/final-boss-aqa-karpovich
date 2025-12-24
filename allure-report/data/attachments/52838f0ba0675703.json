@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:18:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2972",
+    "etag": "W/\"b9c-TNcgBqO1aHXUdtO9AlOqel+jZZU\"",
+    "keep-alive": "timeout=5, max=58",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c66d01c508c5d5e02a7d4",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c66cd1c508c5d5e02a4e0",
+        "email": "Trenton_Pouros@gmail.com",
+        "name": "Joyce Goyette",
+        "country": "Great Britain",
+        "city": "New Mosheborough",
+        "street": "Lenny Dale",
+        "house": 11,
+        "flat": 835,
+        "phone": "+15195952838",
+        "createdOn": "2025-12-24T22:18:53.000Z",
+        "notes": "TDnOAJCPL61di8MeNVtRa3F76gsbvwL145YxicuvihXy4rJ0nQNFzSqJkLXPYZvgXNJLrAeDnQifOn5GM64RXl3TmYH4CDi9u9qTF4UyQ1qwFxC8JElqndHJ7mUyoyMl7zmo4oxE10fUBF86U2t9MnugjWC7XyCai3EHPIhAQ9SMkabA0OHRk4cWFjeYODsko7MohI1NDWvNdPsBlCa8KJHZUuCOr6weODx8Qr0rK2rpiKhIkGH2zETYpk"
+      },
+      "products": [
+        {
+          "_id": "694c66cf1c508c5d5e02a69c",
+          "name": "Soap1468",
+          "amount": 599,
+          "price": 12683,
+          "manufacturer": "Apple",
+          "notes": "0Z09rdBgd9CDE1jvUcrYkTXrQxoyGpGvc9J6ZN1JxvCWB4QwEiX4UDbhcHMpz9VGUeTjVrYlBohJZ1c0WDqoVgTFzURYuVYMD1lngWfNZ966DJrm8y5WiahRNgtR2zoo4VJQTFv2Qv1rc7djuH6JsY6303geohsS2TWwIXIb528vthapJole2D8PE1YeEknDu3vRoGwEurxKcY1A2nXtG3FdefiRpmZHrAqc01xyd2D61XHp87X5vgndXp",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "New Mosheborough",
+          "street": "Lenny Dale",
+          "house": 11,
+          "flat": 835
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 12683,
+      "createdOn": "2025-12-24T22:18:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c66cd1c508c5d5e02a4e0",
+          "products": [
+            {
+              "_id": "694c66cf1c508c5d5e02a69c",
+              "name": "Soap1468",
+              "amount": 599,
+              "price": 12683,
+              "manufacturer": "Apple",
+              "notes": "0Z09rdBgd9CDE1jvUcrYkTXrQxoyGpGvc9J6ZN1JxvCWB4QwEiX4UDbhcHMpz9VGUeTjVrYlBohJZ1c0WDqoVgTFzURYuVYMD1lngWfNZ966DJrm8y5WiahRNgtR2zoo4VJQTFv2Qv1rc7djuH6JsY6303geohsS2TWwIXIb528vthapJole2D8PE1YeEknDu3vRoGwEurxKcY1A2nXtG3FdefiRpmZHrAqc01xyd2D61XHp87X5vgndXp",
+              "received": false
+            }
+          ],
+          "total_price": 12683,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Mosheborough",
+              "street": "Lenny Dale",
+              "house": 11,
+              "flat": 835
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-24T22:18:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c66cd1c508c5d5e02a4e0",
+          "products": [
+            {
+              "_id": "694c66cf1c508c5d5e02a69c",
+              "name": "Soap1468",
+              "amount": 599,
+              "price": 12683,
+              "manufacturer": "Apple",
+              "notes": "0Z09rdBgd9CDE1jvUcrYkTXrQxoyGpGvc9J6ZN1JxvCWB4QwEiX4UDbhcHMpz9VGUeTjVrYlBohJZ1c0WDqoVgTFzURYuVYMD1lngWfNZ966DJrm8y5WiahRNgtR2zoo4VJQTFv2Qv1rc7djuH6JsY6303geohsS2TWwIXIb528vthapJole2D8PE1YeEknDu3vRoGwEurxKcY1A2nXtG3FdefiRpmZHrAqc01xyd2D61XHp87X5vgndXp",
+              "received": false
+            }
+          ],
+          "total_price": 12683,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:18:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

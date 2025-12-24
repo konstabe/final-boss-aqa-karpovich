@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:17:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2647",
+    "etag": "W/\"a57-DBIoCZpBHRyF8uF+xevETRSrCUc\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c66851c508c5d5e02628d",
+        "email": "Shemar.Will44@yahoo.com",
+        "name": "Bill Stamm",
+        "country": "Canada",
+        "city": "Valdosta",
+        "street": "W Broadway",
+        "house": 24,
+        "flat": 836,
+        "phone": "+12082096105",
+        "createdOn": "2025-12-24T22:17:41.000Z",
+        "notes": "v2uaGqsIKQ6HneqtzA5wt8WcbDsX2WBkK7jIQ9pigdbL6Xig2tjniZnTqRasSVZlvRDqzX6FHWs5VfiWzrruBRmXBQgw9apyV94mJqxVLqVNfGBOzkARQFSk461bc3S2Om0L5RmAOb6jQA1qOCyCMBMNvJVTUNISdr0qNk6RtL27fqNffJbEDO7TNqdoIyngYnlimb8nDtjWMPViu9j3cF0EVgOvuIF84s4Rd7xaNe9jKmHZod4p864vpE"
+      },
+      "products": [
+        {
+          "_id": "694c66861c508c5d5e0263c5",
+          "name": "Ball74947",
+          "amount": 158,
+          "price": 59164,
+          "manufacturer": "Xiaomi",
+          "notes": "1NTuAOtWJuCuZKsRjK4cawlMUvTqbap0RxeYMAqewJDJ2WcdOwlWJiE5tEcouUPCxUsC10Nl91Av5w8lSVDDcDRWKjgIyt61WcFqLvBpjHjMpA2SgL3tcALdGIndgEnRFcqW8UecSvBbO0arj1JTEEsNF4qifeOsPCBVL6TRxCrsYtBN0CYXLjCdYUUfbP2ncusqj6XRgaFWHbA2IODb7aoIuuNRbdQlC0gdHCKfmnjjuDheLi0X6qFXOp",
+          "received": false
+        },
+        {
+          "_id": "694c668a1c508c5d5e02670e",
+          "name": "Fish74412",
+          "amount": 949,
+          "price": 55576,
+          "manufacturer": "Microsoft",
+          "notes": "lTODYvga7zgf4ZS1cwCsdqb38TY5XgCYLnQnEsUN0L10jt3dznVE5aOoK71kOiuB0q2AZDp7FkBYExdX0gbAp1uW4TiaB4iCA9CLTsbObwfiU5sV6ksLzNv472cbnOgpMFjw3U3E4oPSCnBslHinaLxVWi7fIjKXaNnlU88LEpKocYIZtPriky7rFpoYIiGhV7ziOBJ0oNb5KsV48Ag4mRRxbV2w3VK7JcxucLtheGsUFwFwlaKyPaJRmo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 114740,
+      "createdOn": "2025-12-24T22:17:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c66851c508c5d5e02628d",
+          "products": [
+            {
+              "_id": "694c66861c508c5d5e0263c5",
+              "name": "Ball74947",
+              "amount": 158,
+              "price": 59164,
+              "manufacturer": "Xiaomi",
+              "notes": "1NTuAOtWJuCuZKsRjK4cawlMUvTqbap0RxeYMAqewJDJ2WcdOwlWJiE5tEcouUPCxUsC10Nl91Av5w8lSVDDcDRWKjgIyt61WcFqLvBpjHjMpA2SgL3tcALdGIndgEnRFcqW8UecSvBbO0arj1JTEEsNF4qifeOsPCBVL6TRxCrsYtBN0CYXLjCdYUUfbP2ncusqj6XRgaFWHbA2IODb7aoIuuNRbdQlC0gdHCKfmnjjuDheLi0X6qFXOp",
+              "received": false
+            },
+            {
+              "_id": "694c668a1c508c5d5e02670e",
+              "name": "Fish74412",
+              "amount": 949,
+              "price": 55576,
+              "manufacturer": "Microsoft",
+              "notes": "lTODYvga7zgf4ZS1cwCsdqb38TY5XgCYLnQnEsUN0L10jt3dznVE5aOoK71kOiuB0q2AZDp7FkBYExdX0gbAp1uW4TiaB4iCA9CLTsbObwfiU5sV6ksLzNv472cbnOgpMFjw3U3E4oPSCnBslHinaLxVWi7fIjKXaNnlU88LEpKocYIZtPriky7rFpoYIiGhV7ziOBJ0oNb5KsV48Ag4mRRxbV2w3VK7JcxucLtheGsUFwFwlaKyPaJRmo",
+              "received": false
+            }
+          ],
+          "total_price": 114740,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:17:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c668b1c508c5d5e02684d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

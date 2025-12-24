@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:17:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2814",
+    "etag": "W/\"afe-9cmMjHRdMHTJnTG6Jx4uK8/v6Z8\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c667e1c508c5d5e025ceb",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c66751c508c5d5e02563b",
+        "email": "Quinton39@hotmail.com",
+        "name": "Rhett Runolfsdottir",
+        "country": "Germany",
+        "city": "Elmhurst",
+        "street": "Wyman Spurs",
+        "house": 26,
+        "flat": 658,
+        "phone": "+14044781204",
+        "createdOn": "2025-12-24T22:17:25.000Z",
+        "notes": "nyc2bC6mGWLY27nLIUfl3j19Cts0HuD5biVp0nCIRdNltAWPIthFKwhdvv87vce00KWeS8fEk5mQQaKOcBL146nwkso3zjT4cbmzokGq4e1LnZgNBVVjOWRaDDvF2PARfluj9yYWw06D9baHGcnoccCXCNnhbyfBh96f5UzQjREf2r2gxFOLGFRu9y7AxMAiqgS69x3Jm0mlrD6r3NXNda4HxA0k91jC3DuCReqbl9LqqzhjvrUHSiOe8C"
+      },
+      "products": [
+        {
+          "_id": "694c66761c508c5d5e02567b",
+          "name": "Chips2098",
+          "amount": 107,
+          "price": 88524,
+          "manufacturer": "Amazon",
+          "notes": "ijWZEQAUzqvfXwskkZZgf6YJ5CGrq5fMNeyk4uhtclC2UPFDVTVbUIHg6g3RrvlDW86Cx6gJssdBkArPFO0CTeKOFO6JPNDWNKZPgjm6JVOcA8vlvW5UcugOYpPV2PY9kEZHldi9NaeFTWfn82HbVBxrj6KKKuc0v9FCmTh4IXljVoTwro7rSKFU2gxMnvpGxSzf9K2scgL4F7zZO5l4Sdl4zCzrwgNCv8czrRTESSeqtz3eJNMkjCIok9",
+          "received": false
+        },
+        {
+          "_id": "694c66781c508c5d5e025835",
+          "name": "Computer52560",
+          "amount": 555,
+          "price": 23027,
+          "manufacturer": "Tesla",
+          "notes": "bZNEIkgGllp4GW2mDaC98Ji45VOfi3tnx4aBlUpwjCVh24UGZxoH2OWTGi1kssI2rKtqaLlE2PH4MKZlV3zwfdk9afWT1Ysab9upk3DPiYTMJa7WizBptE8qAhg9FVGNY36smXtS2Z2ONooJ5NiWrIzpualRzsmm57t7sj7p0vmeFvR3XSrpfkBImdQrPscrH9pETK4VAFl4OvqEPbArrNcjGmbDKqjj6yrKVyWq6ag2ybBWorx7Yghszs",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 111551,
+      "createdOn": "2025-12-24T22:17:34.000Z",
+      "comments": [
+        {
+          "text": "CBWRb94esVVHsPtcLdK4WPbuTgusxHQS7woMkdjeklfahKcv6NsR5E5cCyPJW2LiQ6McwEZtMsz",
+          "createdOn": "2025-12-24T22:17:37.000Z",
+          "_id": "694c66811c508c5d5e0261e6"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c66751c508c5d5e02563b",
+          "products": [
+            {
+              "_id": "694c66761c508c5d5e02567b",
+              "name": "Chips2098",
+              "amount": 107,
+              "price": 88524,
+              "manufacturer": "Amazon",
+              "notes": "ijWZEQAUzqvfXwskkZZgf6YJ5CGrq5fMNeyk4uhtclC2UPFDVTVbUIHg6g3RrvlDW86Cx6gJssdBkArPFO0CTeKOFO6JPNDWNKZPgjm6JVOcA8vlvW5UcugOYpPV2PY9kEZHldi9NaeFTWfn82HbVBxrj6KKKuc0v9FCmTh4IXljVoTwro7rSKFU2gxMnvpGxSzf9K2scgL4F7zZO5l4Sdl4zCzrwgNCv8czrRTESSeqtz3eJNMkjCIok9",
+              "received": false
+            },
+            {
+              "_id": "694c66781c508c5d5e025835",
+              "name": "Computer52560",
+              "amount": 555,
+              "price": 23027,
+              "manufacturer": "Tesla",
+              "notes": "bZNEIkgGllp4GW2mDaC98Ji45VOfi3tnx4aBlUpwjCVh24UGZxoH2OWTGi1kssI2rKtqaLlE2PH4MKZlV3zwfdk9afWT1Ysab9upk3DPiYTMJa7WizBptE8qAhg9FVGNY36smXtS2Z2ONooJ5NiWrIzpualRzsmm57t7sj7p0vmeFvR3XSrpfkBImdQrPscrH9pETK4VAFl4OvqEPbArrNcjGmbDKqjj6yrKVyWq6ag2ybBWorx7Yghszs",
+              "received": false
+            }
+          ],
+          "total_price": 111551,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:17:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

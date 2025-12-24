@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:17:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2939",
+    "etag": "W/\"b7b-EKO/HiOP24mM7/NdFH6Uew2q62E\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c668b1c508c5d5e0268f2",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c66861c508c5d5e0263cb",
+        "email": "Akeem_Kshlerin@yahoo.com",
+        "name": "Blair Gutkowski",
+        "country": "Germany",
+        "city": "Coleworth",
+        "street": "Nina Pike",
+        "house": 36,
+        "flat": 813,
+        "phone": "+15276334465",
+        "createdOn": "2025-12-24T22:17:42.000Z",
+        "notes": "xjAlToskRzVOS79fyPwZCMAsqnEAsD756HzyCkZEVG2mLz2UUJi4kJCwqtqaKSGvVF24dvRid8BVUFd0XmyoV6P0eIkNX9dHtbu2Q7FcrNzO6Z1jNwQnqSD9ZJqxspEg9WM8IWWtlK05sXRB5Mpbd4P4ZfeSAO9bfT2M4BS6mSajhPlgV0ydRPXcHrfWFIGOCNsQqYdL9xiEryy3KxZzgHqRv2OPKpm5gVv4Gywv68rp7c3c4HuOlKO9ip"
+      },
+      "products": [
+        {
+          "_id": "694c668a1c508c5d5e026708",
+          "name": "Pizza40096",
+          "amount": 9,
+          "price": 55592,
+          "manufacturer": "Amazon",
+          "notes": "6345N3tv6bJro4CD5AeAcYdUWRxxRbSEjOkMJjFQTaro2H7FViIclhmXr23vV4JmxgFS9k5p9kUOP4BiVU5CNDm2eV6N0wk7TBAA58661n9ryuABlVwGZ6bqX5MoFXsP2YNa7O7g8PK8lfyFxcma6doOYrs1wD1uRdukvGmPn0WIUB7Uw5FS9ql2DtCTTkWyzcQtbsBmCUudeDK3RYcp9ryPp9qh4tVPJVkwGEwKvWEaYIZo6bvKEwTTM3",
+          "received": false
+        },
+        {
+          "_id": "694c668b1c508c5d5e02683a",
+          "name": "Towels23097",
+          "amount": 790,
+          "price": 19553,
+          "manufacturer": "Microsoft",
+          "notes": "FzppJQyHab2ZHibNBCjtJefEmzlY5EWprqGmRrOxzpFaTFJKObqMO0FviKzgkEiI78DONIjC659TmaMCki6C49xXDozy3EU4oCdZJrVVNqKKNfiApObcIjNDcebJFLGS049RxaREgeSesjfsdCPvmSfFDFxvqU3B73dbZ7JUWZLNuPQ1BMDBECuZAiYZJvN9dSqBNAUHZmRDqVgpCMrqkL1AMUFpA94RzyesmDH5crpKOWEgaOiLS36mxE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 75145,
+      "createdOn": "2025-12-24T22:17:47.000Z",
+      "comments": [
+        {
+          "text": "Pj3u2EU9hTtJwOIdBLEtTqgzFKxuiLo0nzEAnhkUNeCgmWNobkuseHv9L26jUXSyRa81CeWZCv0axA4EOjf3q0kfuoHtmAA56aXOhmVOS7EIFFIujN5TCjM7qVNfkqlNIprHyYmcHTXnU3bReidyVVjJuKePtxZELDE65nQqQFVTKGQsLaaDButMKJ1QPdE3R1h64aMQ <",
+          "createdOn": "2025-12-24T22:17:48.000Z",
+          "_id": "694c668c1c508c5d5e02691d"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c66861c508c5d5e0263cb",
+          "products": [
+            {
+              "_id": "694c668a1c508c5d5e026708",
+              "name": "Pizza40096",
+              "amount": 9,
+              "price": 55592,
+              "manufacturer": "Amazon",
+              "notes": "6345N3tv6bJro4CD5AeAcYdUWRxxRbSEjOkMJjFQTaro2H7FViIclhmXr23vV4JmxgFS9k5p9kUOP4BiVU5CNDm2eV6N0wk7TBAA58661n9ryuABlVwGZ6bqX5MoFXsP2YNa7O7g8PK8lfyFxcma6doOYrs1wD1uRdukvGmPn0WIUB7Uw5FS9ql2DtCTTkWyzcQtbsBmCUudeDK3RYcp9ryPp9qh4tVPJVkwGEwKvWEaYIZo6bvKEwTTM3",
+              "received": false
+            },
+            {
+              "_id": "694c668b1c508c5d5e02683a",
+              "name": "Towels23097",
+              "amount": 790,
+              "price": 19553,
+              "manufacturer": "Microsoft",
+              "notes": "FzppJQyHab2ZHibNBCjtJefEmzlY5EWprqGmRrOxzpFaTFJKObqMO0FviKzgkEiI78DONIjC659TmaMCki6C49xXDozy3EU4oCdZJrVVNqKKNfiApObcIjNDcebJFLGS049RxaREgeSesjfsdCPvmSfFDFxvqU3B73dbZ7JUWZLNuPQ1BMDBECuZAiYZJvN9dSqBNAUHZmRDqVgpCMrqkL1AMUFpA94RzyesmDH5crpKOWEgaOiLS36mxE",
+              "received": false
+            }
+          ],
+          "total_price": 75145,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:17:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

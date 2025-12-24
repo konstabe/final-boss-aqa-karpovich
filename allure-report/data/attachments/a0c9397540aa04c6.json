@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:18:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1899",
+    "etag": "W/\"76b-WG6hBi7mZu3oVElkArYyQ0GKoIM\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c669b1c508c5d5e0276e1",
+        "email": "Jeremy.Johnston81@yahoo.com",
+        "name": "Vallie Hoeger",
+        "country": "Germany",
+        "city": "Port Randyshire",
+        "street": "S East Street",
+        "house": 33,
+        "flat": 634,
+        "phone": "+17246164026",
+        "createdOn": "2025-12-24T22:18:03.000Z",
+        "notes": "zAbv6eGdJw3aMabypghjv9AVU3N4x2UhTTPX3T88PDopwrSz5T7OkDXZKEnLFj6wi5HZT74EPkkhgVzPr1yRNiDSWBhNjwur4zT2xRvIJBYk7cE4DLmhsNc3oJsea9hvVbtnsRYLtm0pyGMugK0AaW8auuDjFP0a84pPUeHuqUcqxGPzwX6t18iz4xYyHD7n2Et7KI0ACkvbNAODGA0BSKlDDx28JokIsUzPmPl6mEBiYffGkxy9uRZ9pA"
+      },
+      "products": [
+        {
+          "_id": "694c669c1c508c5d5e027733",
+          "name": "Chicken55727",
+          "amount": 390,
+          "price": 56962,
+          "manufacturer": "Samsung",
+          "notes": "s9l5LGfhQ78LI0z4cX0L76r786pwmbXtO6M5aE3ZEFX7aUXKolzdaUjfhcltZA0MXnVNBMfIATdEDQoxW91Ez2HHjyoNQikSWimdGLgbZSw0ElsJkQyPsY2xS9ZRI0KYEASHMxtpUqyAfjOKPAm0Bff2JnG1fmY2Ro9WqK8G0HJY6X0Di2WkS5ETPRtvBOXZFo1EBbON3iAPms80lvbXhCnJTuBuahfaHydgvwTZANyS3OlyqaaaOnHU9i",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 56962,
+      "createdOn": "2025-12-24T22:18:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c669b1c508c5d5e0276e1",
+          "products": [
+            {
+              "_id": "694c669c1c508c5d5e027733",
+              "name": "Chicken55727",
+              "amount": 390,
+              "price": 56962,
+              "manufacturer": "Samsung",
+              "notes": "s9l5LGfhQ78LI0z4cX0L76r786pwmbXtO6M5aE3ZEFX7aUXKolzdaUjfhcltZA0MXnVNBMfIATdEDQoxW91Ez2HHjyoNQikSWimdGLgbZSw0ElsJkQyPsY2xS9ZRI0KYEASHMxtpUqyAfjOKPAm0Bff2JnG1fmY2Ro9WqK8G0HJY6X0Di2WkS5ETPRtvBOXZFo1EBbON3iAPms80lvbXhCnJTuBuahfaHydgvwTZANyS3OlyqaaaOnHU9i",
+              "received": false
+            }
+          ],
+          "total_price": 56962,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:18:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c669c1c508c5d5e02792d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
