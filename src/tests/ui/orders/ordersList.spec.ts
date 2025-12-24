@@ -85,8 +85,7 @@ test.describe("[UI] [Orders]", () => {
 				await mock.ordersListPage(mockData);
 
 				await ordersListUIService.open();
-				await ordersListPage.clickReopenByOrderId(order._id);
-				await ordersListPage.reopenModal.waitForOpened();
+				await ordersListUIService.clickReopenOrder(order._id);
 
 				expect(ordersListPage.reopenModal.title).toHaveText(CONFIRMATION_MODAL_TEXT.reopen.title);
 				expect(ordersListPage.reopenModal.confirmationMessage).toHaveText(CONFIRMATION_MODAL_TEXT.reopen.body);
@@ -106,8 +105,7 @@ test.describe("[UI] [Orders]", () => {
 			async ({ ordersListPage, ordersListUIService, ordersApiService }) => {
 				const canceledOrder = await ordersApiService.cancelOrderInProgress(token, 1);
 				await ordersListUIService.open();
-				await ordersListPage.clickReopenByOrderId(canceledOrder._id);
-				await ordersListPage.reopenModal.waitForOpened();
+				await ordersListUIService.clickReopenOrder(canceledOrder._id);
 
 				await ordersListUIService.closeModal("reopenModal");
 
@@ -123,8 +121,7 @@ test.describe("[UI] [Orders]", () => {
 			async ({ ordersListPage, ordersListUIService, ordersApiService }) => {
 				const canceledOrder = await ordersApiService.cancelOrderInProgress(token, 1);
 				await ordersListUIService.open();
-				await ordersListPage.clickReopenByOrderId(canceledOrder._id);
-				await ordersListPage.reopenModal.waitForOpened();
+				await ordersListUIService.clickReopenOrder(canceledOrder._id);
 
 				await ordersListUIService.cancelModal("reopenModal");
 
@@ -140,8 +137,7 @@ test.describe("[UI] [Orders]", () => {
 			async ({ ordersListPage, ordersListUIService, ordersApiService }) => {
 				const canceledOrder = await ordersApiService.cancelOrderInProgress(token, 1);
 				await ordersListUIService.open();
-				await ordersListPage.clickReopenByOrderId(canceledOrder._id);
-				await ordersListPage.reopenModal.waitForOpened();
+				await ordersListUIService.clickReopenOrder(canceledOrder._id);
 
 				await ordersListPage.reopenModal.clickReopen();
 				await ordersListPage.reopenModal.waitForClosed();

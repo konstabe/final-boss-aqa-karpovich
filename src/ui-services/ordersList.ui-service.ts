@@ -29,4 +29,10 @@ export class OrdersListUIService {
 		await modal.clickCancel();
 		await modal.waitForClosed();
 	}
+
+	@logStep("Click Reopen Modal on Orders List Page")
+	async clickReopenOrder(orderId: string) {
+		await this.ordersListPage.clickReopenByOrderId(orderId);
+		await this.ordersListPage.reopenModal.waitForOpened();
+	}
 }
