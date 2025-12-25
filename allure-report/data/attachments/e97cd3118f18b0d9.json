@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 15:03:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-jOhEohD3yZ2cF74/8W0sWOI0HdU\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694d52321c508c5d5e0a528f",
+        "email": "Brandi38@yahoo.com",
+        "name": "Kathlyn Keebler",
+        "country": "Belarus",
+        "city": "Perryworth",
+        "street": "Wolf Meadows",
+        "house": 7,
+        "flat": 329,
+        "phone": "+12424607067",
+        "createdOn": "2025-12-25T15:03:14.000Z",
+        "notes": "F4dNolCorGt0vqFBieU0MkswggZ402wwaDDbWgMfYCNJTAXTiUA8TaXE6KX0ZRAVEWlcGN8kDW92SLcbG9qHLt99FV3igG9kKpnwhzL4SdWTEuTTJLC2Iw2HdpdsO9iPgbRmFgtNpx4qqce30x4W59QtK80t7dT3IymxpcLlmwYGheT15Ei25I5NdgmTJl4U0W4CoUDqAAJUlfWzzvhI34OnboBAg0SbMwZxnxJpSYAu98dn6ro7ZVAkEV"
+      },
+      "products": [
+        {
+          "_id": "694d52321c508c5d5e0a5294",
+          "name": "Chicken26130",
+          "amount": 891,
+          "price": 16103,
+          "manufacturer": "Apple",
+          "notes": "h3YCDUVuo4ToZUNGhjtfepJz42oHiXoe23xDTCkmWsko7vyrjZ4OOhgj9E24R6qLUwL7EBCF1YJ2m9RaZCQnAOuIzrYHBNmgHARqP7f9EMwvGDdvrHuHb4bQ1cICB5SpR8a4DM5ZjO8E9WmKy5fHugViNgCTp8ApONryAWrfaDGCqiPOTYNGDjngkdh2aWHnSpfd17ArG0kavN8VshwWyNaTWgxYfcCUpRGhu7SqAQixDxI3l4Dkz1I7e3",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 16103,
+      "createdOn": "2025-12-25T15:03:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d52321c508c5d5e0a528f",
+          "products": [
+            {
+              "_id": "694d52321c508c5d5e0a5294",
+              "name": "Chicken26130",
+              "amount": 891,
+              "price": 16103,
+              "manufacturer": "Apple",
+              "notes": "h3YCDUVuo4ToZUNGhjtfepJz42oHiXoe23xDTCkmWsko7vyrjZ4OOhgj9E24R6qLUwL7EBCF1YJ2m9RaZCQnAOuIzrYHBNmgHARqP7f9EMwvGDdvrHuHb4bQ1cICB5SpR8a4DM5ZjO8E9WmKy5fHugViNgCTp8ApONryAWrfaDGCqiPOTYNGDjngkdh2aWHnSpfd17ArG0kavN8VshwWyNaTWgxYfcCUpRGhu7SqAQixDxI3l4Dkz1I7e3",
+              "received": false
+            }
+          ],
+          "total_price": 16103,
+          "delivery": null,
+          "changedOn": "2025-12-25T15:03:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694d52331c508c5d5e0a529c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

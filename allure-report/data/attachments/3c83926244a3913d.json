@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 15:02:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2942",
+    "etag": "W/\"b7e-Yr+foi9oF7w/t7LD/5Olk218kgU\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d52131c508c5d5e0a4546",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d52131c508c5d5e0a44fc",
+        "email": "Werner.Thiel50@yahoo.com",
+        "name": "Eryn Jacobson",
+        "country": "USA",
+        "city": "Poway",
+        "street": "Avery Track",
+        "house": 5,
+        "flat": 144,
+        "phone": "+18434155861",
+        "createdOn": "2025-12-25T15:02:43.000Z",
+        "notes": "vbdeEbGAXWYSbCRye20xttn93Z69qcvzK4YedQr55KonIou98QI85SwKoUW7d9W4miZGtSX8iyez8IOYhmcKIPXyzLKsQ3ODMCG7vutzquSVYoBTXKkrtHDA0oAolJOrZpe7RqtKBZWld3PyE70TlFcDNMMns57db1F0uhGS1aMp15qqoZHpoWjf16ddrSo7eyt5MhFobXVDJnwceRS6IvIXj1XuknCf27wyNyeAj2uY77eyEsYa0u9PQQ"
+      },
+      "products": [
+        {
+          "_id": "694d52131c508c5d5e0a451c",
+          "name": "Cheese27024",
+          "amount": 155,
+          "price": 84876,
+          "manufacturer": "Apple",
+          "notes": "VPjC2YrcV2l53dRwCVwzRlOA33aQ7UmwOKvwJi7YDPRv3EEbhR0ToTIE6bXDXQOhADS12F1ckwoOKfgqHC7kBA2BzKp7Hkal6tTnSYKz5PrRgDCIy6rdo8Kq5ZJQ7NMtZqspPXXchdZAhHS9jlDYqYflViafJgeklGDMBmdou8i4kQpJMnC6t8GLf5wYOieZZAXk5UqTWrQavkmN9SWvC1SlMmlb3hgl5VXQwTEHBgLIqptcatWQKvAhMC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 84876,
+      "createdOn": "2025-12-25T15:02:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d52131c508c5d5e0a44fc",
+          "products": [
+            {
+              "_id": "694d52131c508c5d5e0a451c",
+              "name": "Cheese27024",
+              "amount": 155,
+              "price": 84876,
+              "manufacturer": "Apple",
+              "notes": "VPjC2YrcV2l53dRwCVwzRlOA33aQ7UmwOKvwJi7YDPRv3EEbhR0ToTIE6bXDXQOhADS12F1ckwoOKfgqHC7kBA2BzKp7Hkal6tTnSYKz5PrRgDCIy6rdo8Kq5ZJQ7NMtZqspPXXchdZAhHS9jlDYqYflViafJgeklGDMBmdou8i4kQpJMnC6t8GLf5wYOieZZAXk5UqTWrQavkmN9SWvC1SlMmlb3hgl5VXQwTEHBgLIqptcatWQKvAhMC",
+              "received": false
+            }
+          ],
+          "total_price": 84876,
+          "delivery": null,
+          "changedOn": "2025-12-25T15:02:44.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "694d52131c508c5d5e0a44fc",
+          "products": [
+            {
+              "_id": "694d52131c508c5d5e0a451c",
+              "name": "Cheese27024",
+              "amount": 155,
+              "price": 84876,
+              "manufacturer": "Apple",
+              "notes": "VPjC2YrcV2l53dRwCVwzRlOA33aQ7UmwOKvwJi7YDPRv3EEbhR0ToTIE6bXDXQOhADS12F1ckwoOKfgqHC7kBA2BzKp7Hkal6tTnSYKz5PrRgDCIy6rdo8Kq5ZJQ7NMtZqspPXXchdZAhHS9jlDYqYflViafJgeklGDMBmdou8i4kQpJMnC6t8GLf5wYOieZZAXk5UqTWrQavkmN9SWvC1SlMmlb3hgl5VXQwTEHBgLIqptcatWQKvAhMC",
+              "received": false
+            }
+          ],
+          "total_price": 84876,
+          "delivery": null,
+          "changedOn": "2025-12-25T15:02:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 15:02:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2934",
+    "etag": "W/\"b76-H49QNabaeiK5VqWG/CYpuBCeEYc\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d52151c508c5d5e0a463f",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d52141c508c5d5e0a4568",
+        "email": "Marcus51@yahoo.com",
+        "name": "Lowell Lind",
+        "country": "Germany",
+        "city": "Rocklin",
+        "street": "Jerod Freeway",
+        "house": 35,
+        "flat": 195,
+        "phone": "+12958246631",
+        "createdOn": "2025-12-25T15:02:44.000Z",
+        "notes": "fixR0S8o1QCfBol1uwZPsK3aI6DrPzLAltCqfGKzSw6aoA6GbMQDJzgJKHE9miQ9TuuiY5fxBQk9CKXoZG1yXzSRUYwZsPO9ITe62Lf0670XF6Bw5SPLgKOEE2fCBPjbVpZ1L9YWFRFLd0TqBIXqrpkq7iornaK9qRPCE9KRtDre1KpzkVXqod5LWkINNYf4TFRVkQSRPIVzQFB23CuAGqsbKGxftAk9EmWlSOMZmxSYGL2qsett8hR210"
+      },
+      "products": [
+        {
+          "_id": "694d52141c508c5d5e0a45a8",
+          "name": "Salad67159",
+          "amount": 547,
+          "price": 66778,
+          "manufacturer": "Apple",
+          "notes": "uPR8YFSbII1PVRrBEilQ5YmxybBPYyzxtjbCGSTR7eCVXUcuacq7n9W6kKp6vKn4NGFuYCSLrN0JpptQinQltJX1QHTa894wvaltLGHb0zwYNNZ3jd10RLacc69ZewbsiC8JuQbbONRo5ZOOJMlJ8Le6sdoKArMAOR6Y5Ec1ZWEyAzOyEzhzwOL9isIKH2QWwNMCmeLCDnYrx5vbmLphYJM2XzskjPUe0wojWFKH4OWxvENgqpZiboA33o",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Rocklin",
+          "street": "Jerod Freeway",
+          "house": 35,
+          "flat": 195
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 66778,
+      "createdOn": "2025-12-25T15:02:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d52141c508c5d5e0a4568",
+          "products": [
+            {
+              "_id": "694d52141c508c5d5e0a45a8",
+              "name": "Salad67159",
+              "amount": 547,
+              "price": 66778,
+              "manufacturer": "Apple",
+              "notes": "uPR8YFSbII1PVRrBEilQ5YmxybBPYyzxtjbCGSTR7eCVXUcuacq7n9W6kKp6vKn4NGFuYCSLrN0JpptQinQltJX1QHTa894wvaltLGHb0zwYNNZ3jd10RLacc69ZewbsiC8JuQbbONRo5ZOOJMlJ8Le6sdoKArMAOR6Y5Ec1ZWEyAzOyEzhzwOL9isIKH2QWwNMCmeLCDnYrx5vbmLphYJM2XzskjPUe0wojWFKH4OWxvENgqpZiboA33o",
+              "received": false
+            }
+          ],
+          "total_price": 66778,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Rocklin",
+              "street": "Jerod Freeway",
+              "house": 35,
+              "flat": 195
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-25T15:02:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d52141c508c5d5e0a4568",
+          "products": [
+            {
+              "_id": "694d52141c508c5d5e0a45a8",
+              "name": "Salad67159",
+              "amount": 547,
+              "price": 66778,
+              "manufacturer": "Apple",
+              "notes": "uPR8YFSbII1PVRrBEilQ5YmxybBPYyzxtjbCGSTR7eCVXUcuacq7n9W6kKp6vKn4NGFuYCSLrN0JpptQinQltJX1QHTa894wvaltLGHb0zwYNNZ3jd10RLacc69ZewbsiC8JuQbbONRo5ZOOJMlJ8Le6sdoKArMAOR6Y5Ec1ZWEyAzOyEzhzwOL9isIKH2QWwNMCmeLCDnYrx5vbmLphYJM2XzskjPUe0wojWFKH4OWxvENgqpZiboA33o",
+              "received": false
+            }
+          ],
+          "total_price": 66778,
+          "delivery": null,
+          "changedOn": "2025-12-25T15:02:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

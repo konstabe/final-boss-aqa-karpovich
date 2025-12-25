@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 15:02:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-rbLgjrtTUWrJjIgQ+Ke3DNAb8rI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694d52131c508c5d5e0a4502",
+        "email": "Tremayne97@yahoo.com",
+        "name": "Florencio Ratke",
+        "country": "Ukraine",
+        "city": "Sawaynchester",
+        "street": "Beech Drive",
+        "house": 32,
+        "flat": 551,
+        "phone": "+14605038366",
+        "createdOn": "2025-12-25T15:02:43.000Z",
+        "notes": "UPxzljqBgnaMfiofv27YrB8C34CRLqSwkReqZba1xIgqX9tQUHlZzICuwPqKPBWPVxsDGegYdPXHa4di75tnE1x6QOIrYVh3v3CSrssV8JTbG8f6suxR7y4j5nM65vMPkrOC3ajYoA7Q9fXoLnBBL1t5Ktxvel5IbPaUI6fmhNeFIYT9ncQiWrD3eM5pFQm1qhbkEQ1o0nYWZrjBugux6Cd6lN1s6kkGwRQmYQf1npU9ncGR5mPzSIGrpJ"
+      },
+      "products": [
+        {
+          "_id": "694d52131c508c5d5e0a451f",
+          "name": "Shoes21380",
+          "amount": 703,
+          "price": 97374,
+          "manufacturer": "Microsoft",
+          "notes": "RTp867R85lRIf6i68HxWhapW66OZJI73djDYS00pEhC0F4odqhYhs8cyRIVkvweZQbeUcNoMpbRE6x0FD8dctlN2SpHjQi22fPsupPARYqVZOKLEiGpbHBfxYMjpoEUHX8WDJYERtcWv1NFgueKWfOPnePZjHOoGQpq5t5DSWXMr6I5TqJJgklAc7GQIppaQ1NFmf8RYEmT4UmKIyOslWuahcz47s3oj9XgfbOf6xLZCIH3XeIihdAJqgh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 97374,
+      "createdOn": "2025-12-25T15:02:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d52131c508c5d5e0a4502",
+          "products": [
+            {
+              "_id": "694d52131c508c5d5e0a451f",
+              "name": "Shoes21380",
+              "amount": 703,
+              "price": 97374,
+              "manufacturer": "Microsoft",
+              "notes": "RTp867R85lRIf6i68HxWhapW66OZJI73djDYS00pEhC0F4odqhYhs8cyRIVkvweZQbeUcNoMpbRE6x0FD8dctlN2SpHjQi22fPsupPARYqVZOKLEiGpbHBfxYMjpoEUHX8WDJYERtcWv1NFgueKWfOPnePZjHOoGQpq5t5DSWXMr6I5TqJJgklAc7GQIppaQ1NFmf8RYEmT4UmKIyOslWuahcz47s3oj9XgfbOf6xLZCIH3XeIihdAJqgh",
+              "received": false
+            }
+          ],
+          "total_price": 97374,
+          "delivery": null,
+          "changedOn": "2025-12-25T15:02:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694d52131c508c5d5e0a454b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

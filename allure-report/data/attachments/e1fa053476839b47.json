@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 15:02:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2644",
+    "etag": "W/\"a54-NLZPybDcRjIHGSsje1IyJnICfKQ\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694d52131c508c5d5e0a4518",
+        "email": "Cheyanne_Goodwin@yahoo.com",
+        "name": "Brent Kshlerin",
+        "country": "USA",
+        "city": "Grand Forks",
+        "street": "Finn Loaf",
+        "house": 6,
+        "flat": 463,
+        "phone": "+13067531605",
+        "createdOn": "2025-12-25T15:02:43.000Z",
+        "notes": "fNxDouQmJJ3WaLhsEI4NdYuH8vyBDKlfntIsDXteYfm234vyldZvO2y0aN78LGzlJNuJBL0thqgYDoTU8Ff7xsnPpNJtWpaAdl65NHcS3Q72UTLmpGI7wKCjPoT6HqFtGSKxmazUg1XbSqbwsmRebWPfmKo7R8LdGOCvTA4li0efh3Y0OBYMU5Loqjh1JjD3sJ74k4fFL8djrpHVdJ8JOPF0sFgzBVV6UGuGq1U3fUH0nIwmwqnLD79EJv"
+      },
+      "products": [
+        {
+          "_id": "694d52131c508c5d5e0a4536",
+          "name": "Gloves23482",
+          "amount": 266,
+          "price": 6156,
+          "manufacturer": "Apple",
+          "notes": "VfjsRMtqQf33pFNsRPcwBJpaT1C10XEMEa8E14dGFjCnTZZiTUx2pzBL3xi2CDh6oY5tgHrNRjVFsuHHziHnml0P2uNOi0b2zrMZg5imYBXRgkTMPbDW2aEPnEXvS41eOse1n8qGFGJ6SCfsNMYwKoC0DRd9DasV2or2Kj9sQ4xgNc9RLcGvUCpA4ZUc56xzrkOIRFqrU0bd5scmeQUcKXhAYY04hcc7q5UWAPRhPY39J887jjIVsJj5rV",
+          "received": false
+        },
+        {
+          "_id": "694d52131c508c5d5e0a4560",
+          "name": "Shoes41189",
+          "amount": 35,
+          "price": 38173,
+          "manufacturer": "Xiaomi",
+          "notes": "r3rvrmTXlQ1WrARCg3XRbPFfMVstNiwNIJDaf6dZc3RbvXFwlSjzBFpWK7d7A9oTaz0rLfMkRYNEF73ThRds7WMEIEjneypuGhi7IvwpcSuQRYePia4FvKoxi2rD8yHnttT3FbRCLjo6EnPDG7FOb2bYQbNMk0i1oTZYur8WIrPsqnE32nGFdzA9t6sAxRY602JDgSjG5RxgFKbKLwwVEx5G9nuXQME7W672KneBLZ8VFOXVUODQmgJ1GN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 44329,
+      "createdOn": "2025-12-25T15:02:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d52131c508c5d5e0a4518",
+          "products": [
+            {
+              "_id": "694d52131c508c5d5e0a4536",
+              "name": "Gloves23482",
+              "amount": 266,
+              "price": 6156,
+              "manufacturer": "Apple",
+              "notes": "VfjsRMtqQf33pFNsRPcwBJpaT1C10XEMEa8E14dGFjCnTZZiTUx2pzBL3xi2CDh6oY5tgHrNRjVFsuHHziHnml0P2uNOi0b2zrMZg5imYBXRgkTMPbDW2aEPnEXvS41eOse1n8qGFGJ6SCfsNMYwKoC0DRd9DasV2or2Kj9sQ4xgNc9RLcGvUCpA4ZUc56xzrkOIRFqrU0bd5scmeQUcKXhAYY04hcc7q5UWAPRhPY39J887jjIVsJj5rV",
+              "received": false
+            },
+            {
+              "_id": "694d52131c508c5d5e0a4560",
+              "name": "Shoes41189",
+              "amount": 35,
+              "price": 38173,
+              "manufacturer": "Xiaomi",
+              "notes": "r3rvrmTXlQ1WrARCg3XRbPFfMVstNiwNIJDaf6dZc3RbvXFwlSjzBFpWK7d7A9oTaz0rLfMkRYNEF73ThRds7WMEIEjneypuGhi7IvwpcSuQRYePia4FvKoxi2rD8yHnttT3FbRCLjo6EnPDG7FOb2bYQbNMk0i1oTZYur8WIrPsqnE32nGFdzA9t6sAxRY602JDgSjG5RxgFKbKLwwVEx5G9nuXQME7W672KneBLZ8VFOXVUODQmgJ1GN",
+              "received": false
+            }
+          ],
+          "total_price": 44329,
+          "delivery": null,
+          "changedOn": "2025-12-25T15:02:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694d52141c508c5d5e0a45b4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

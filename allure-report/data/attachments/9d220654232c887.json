@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 15:02:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2655",
+    "etag": "W/\"a5f-v/VgBS0bXhcU1FlMJnBFCKHZB7E\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694d52131c508c5d5e0a4527",
+        "email": "Reyna_Stark@gmail.com",
+        "name": "Rory Marquardt",
+        "country": "Germany",
+        "city": "East Adolph",
+        "street": "Alexandra Road",
+        "house": 44,
+        "flat": 784,
+        "phone": "+15368485270",
+        "createdOn": "2025-12-25T15:02:43.000Z",
+        "notes": "QuGZmMwA4RdtgOZw29yUCGth3ZAXcijXX3lhkxj27RYJS6sp4eg2DJOPtLOyR4yFykdssr0cyG4btfn4uOGZavPu7fiiWLMpNgayBLPGYKzNaADkHHjWNp4w3q9ELj5R0AUuO369TNA4mwj02XSZWUclteyx1P7DOG42fH1ddeQRQqDbtbPIM92IpqUCEGJN02EKZ8yqLc5OT7ea4AmUmDF2X5v8d9Vkf7VFZ0nqPlSFjMp0TElFwnnIq4"
+      },
+      "products": [
+        {
+          "_id": "694d52131c508c5d5e0a4559",
+          "name": "Tuna26425",
+          "amount": 514,
+          "price": 23531,
+          "manufacturer": "Amazon",
+          "notes": "yviYYyVNXRDIfyppH3oMhUh7CBNBff4Io8csLXdlZOe5UaTzTHU36UurAZUGzXe8VtuRELwCNKiDRibSe9NSpBVsKS6AxbgA2AGkr1yesQHR8w9qesfpeY2H6ABH9nQPpS5ARz91frRirhK55vIyIO5Z6fUOlZrhe3VDx3Hf2k1OKQIsqr7anZJDG2koAcJIaNofSvVKlFyovBVnjCkv7elDRTrrkVr1K04b7yKjonrZTbmOATKxkartFu",
+          "received": false
+        },
+        {
+          "_id": "694d52141c508c5d5e0a4573",
+          "name": "Computer31664",
+          "amount": 869,
+          "price": 34098,
+          "manufacturer": "Tesla",
+          "notes": "oMKzdpP5CJiDW5ugIx0n8zhV9BUMDRX4Z0oxf9No5abED8duUCs34SIPVQ0RDhS6VF6xpsY9cU1LkTTj8OtQ7M2cKzrOYsXLBx5hsibHOBFhvVIjfsh6lE7pqw8OTnEBLMOHARCMfmyTGXSwI5geCZ9E23HB2wt2JDY8IiyuDTCvQvHwcQ4rTxTGZWU5zJIMMriXfpVacigQ7r99irBqKtYBQvcLa7RHA2DTsrcaUlBoMeey9tIsocmF2H",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 57629,
+      "createdOn": "2025-12-25T15:02:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d52131c508c5d5e0a4527",
+          "products": [
+            {
+              "_id": "694d52131c508c5d5e0a4559",
+              "name": "Tuna26425",
+              "amount": 514,
+              "price": 23531,
+              "manufacturer": "Amazon",
+              "notes": "yviYYyVNXRDIfyppH3oMhUh7CBNBff4Io8csLXdlZOe5UaTzTHU36UurAZUGzXe8VtuRELwCNKiDRibSe9NSpBVsKS6AxbgA2AGkr1yesQHR8w9qesfpeY2H6ABH9nQPpS5ARz91frRirhK55vIyIO5Z6fUOlZrhe3VDx3Hf2k1OKQIsqr7anZJDG2koAcJIaNofSvVKlFyovBVnjCkv7elDRTrrkVr1K04b7yKjonrZTbmOATKxkartFu",
+              "received": false
+            },
+            {
+              "_id": "694d52141c508c5d5e0a4573",
+              "name": "Computer31664",
+              "amount": 869,
+              "price": 34098,
+              "manufacturer": "Tesla",
+              "notes": "oMKzdpP5CJiDW5ugIx0n8zhV9BUMDRX4Z0oxf9No5abED8duUCs34SIPVQ0RDhS6VF6xpsY9cU1LkTTj8OtQ7M2cKzrOYsXLBx5hsibHOBFhvVIjfsh6lE7pqw8OTnEBLMOHARCMfmyTGXSwI5geCZ9E23HB2wt2JDY8IiyuDTCvQvHwcQ4rTxTGZWU5zJIMMriXfpVacigQ7r99irBqKtYBQvcLa7RHA2DTsrcaUlBoMeey9tIsocmF2H",
+              "received": false
+            }
+          ],
+          "total_price": 57629,
+          "delivery": null,
+          "changedOn": "2025-12-25T15:02:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694d52141c508c5d5e0a45be"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 15:02:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-Pd3XMKolRU6pOQb1G9NS0YtZxCs\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d52141c508c5d5e0a45ca",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d52141c508c5d5e0a456a",
+        "email": "Chloe.Nienow@yahoo.com",
+        "name": "Gunnar Deckow",
+        "country": "Great Britain",
+        "city": "Bergnaumfield",
+        "street": "Cedar Avenue",
+        "house": 8,
+        "flat": 277,
+        "phone": "+13415799279",
+        "createdOn": "2025-12-25T15:02:44.000Z",
+        "notes": "cAsZiOuMyWKslMv0sB3JRBYQX37MFUsNl81eEi2PWJjNgfoDdPTKuACpAk0zGG9RiYu2kEkvMZTl6AHGdIRUNx5YgVebEPzv0cOQVz1WvWRodRpIzCpoa6rARM5ISfSfy3tGNNoZplB4t3U7kxaxhC0IUwlH26T9kz9swEOFRbcdmVaHDbMFgH2ZEhmsvZtXiwBt0Kn4bptZ6lBIAYk68BMqvckCgrVn9qbTQ7fniAlTDUBxCEFJSC1KRr"
+      },
+      "products": [
+        {
+          "_id": "694d52141c508c5d5e0a4596",
+          "name": "Pants40399",
+          "amount": 806,
+          "price": 36722,
+          "manufacturer": "Samsung",
+          "notes": "ywGhz6BRvTHQNkQFm5jqfXJioQhq4VdfFXq1vnzxXn3z9tyYRUp7JCwsbj7sbbKUgdxsgig3Eg2I9f7a7Q087bIGXhpW8dRvVMyIPSA4xmnDf035CLhzN7GLD0ByoKpZvh2VHxZPfP0rzeYd9qAmt6FJ5BuElZGWvK44d9G0extXp2mPddcKPK7SnVuVYuTlIa5OqHc70tdB4w0Ph2DYr7oSs5i8AiX5YuPcBlbQTGcTbhcoOGIBj7tLBP",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 36722,
+      "createdOn": "2025-12-25T15:02:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d52141c508c5d5e0a456a",
+          "products": [
+            {
+              "_id": "694d52141c508c5d5e0a4596",
+              "name": "Pants40399",
+              "amount": 806,
+              "price": 36722,
+              "manufacturer": "Samsung",
+              "notes": "ywGhz6BRvTHQNkQFm5jqfXJioQhq4VdfFXq1vnzxXn3z9tyYRUp7JCwsbj7sbbKUgdxsgig3Eg2I9f7a7Q087bIGXhpW8dRvVMyIPSA4xmnDf035CLhzN7GLD0ByoKpZvh2VHxZPfP0rzeYd9qAmt6FJ5BuElZGWvK44d9G0extXp2mPddcKPK7SnVuVYuTlIa5OqHc70tdB4w0Ph2DYr7oSs5i8AiX5YuPcBlbQTGcTbhcoOGIBj7tLBP",
+              "received": false
+            }
+          ],
+          "total_price": 36722,
+          "delivery": null,
+          "changedOn": "2025-12-25T15:02:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
