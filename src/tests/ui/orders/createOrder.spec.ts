@@ -3,7 +3,7 @@ import { TAGS } from "data/tags";
 import { IOrderInTable } from "data/types/order.types";
 import { expect, test } from "fixtures";
 
-test.describe("[UI] [Orders]", () => {
+test.describe("[UI] [Orders] [createOrderModal]", () => {
 	let token = "";
 	let ids: string[] = [];
 	let id_product = "";
@@ -15,6 +15,7 @@ test.describe("[UI] [Orders]", () => {
 	});
 
 	test.afterEach(async ({ productsApiService, customersApiService, ordersApiService }) => {
+		test.setTimeout(40000);
 		if (id_order) await ordersApiService.deleteOrder(token, id_order);
 		id_order = "";
 		if (id_customer) await customersApiService.delete(id_customer, token);

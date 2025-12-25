@@ -13,6 +13,7 @@ export class CreateOrderModal extends BaseModal {
 	readonly totalPriceOrder = this.page.locator("#total-price-order-modal");
 	readonly closeModal = this.page.locator('[aria-label="Close"]');
 	readonly deleteProductButton = this.page.locator(".del-btn-modal");
+	readonly modalBody = this.page.locator(".modal-content");
 
 	readonly uniqueElement = this.createOrderPageTitle;
 
