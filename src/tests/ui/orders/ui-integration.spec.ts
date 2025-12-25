@@ -5,10 +5,6 @@ import { TAGS } from "data/tags";
 import { expect, test } from "fixtures";
 
 test.describe("[UI Integration] [Orders]", () => {
-	test.beforeEach(async ({ loginUIService }) => {
-		//убрать, когда появится global setup
-		await loginUIService.loginAsAdmin();
-	});
 	test.describe("[Orders List Page] [Render Orders List based on API response]", () => {
 		for (const { title, order } of ordersListDataForMock) {
 			test(

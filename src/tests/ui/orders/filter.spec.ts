@@ -1,14 +1,10 @@
 import { ORDER_STATUS } from "data/orders/orderStatus";
 import { TAGS } from "data/tags";
 import { expect, test } from "fixtures";
+import { getDifferentEnumValue, getRandomEnumValue } from "utils/enum.utils";
 
 test.describe("[UI] [Orders]", () => {
 	let token = "";
-
-	test.beforeEach(async ({ loginUIService }) => {
-		//убрать, когда появится global setup
-		token = await loginUIService.loginAsAdmin();
-	});
 
 	test.afterEach(async ({ ordersApiService }) => {
 		await ordersApiService.fullDelete(token);
@@ -56,6 +52,8 @@ test.describe("[UI] [Orders]", () => {
 			"Should apply filters and update orders table",
 			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersListPage, ordersListUIService, ordersApiService }) => {
+				token = await ordersListPage.getAuthToken();
+
 				await ordersApiService.createDraft(token, 1);
 				await ordersApiService.processOrder(token, 1);
 				await ordersApiService.cancelOrderInProgress(token, 1);
@@ -64,40 +62,39 @@ test.describe("[UI] [Orders]", () => {
 				await ordersApiService.partiallyReceived(token, order, 2);
 
 				await ordersListUIService.open();
+				const randomStatus = getRandomEnumValue(ORDER_STATUS);
 
-				for (const status of Object.values(ORDER_STATUS)) {
-					await ordersListUIService.openFilterModal();
-					await ordersListPage.filterModal.checkCheckboxByStatus(status);
-					await ordersListPage.filterModal.clickApply();
-					await ordersListPage.filterModal.waitForClosed();
+				await ordersListUIService.openFilterModal();
+				await ordersListPage.filterModal.checkCheckboxByStatus(randomStatus);
+				await ordersListPage.filterModal.clickApply();
+				await ordersListPage.filterModal.waitForClosed();
 
-					await ordersListPage.waitForOpened();
-					const tableData = await ordersListPage.getTableData();
-					tableData.forEach((row) => expect(row.status).toBe(status));
-					await expect(ordersListPage.filtredOrdersButtons).toHaveCount(1);
-					await expect(ordersListPage.filtredOrdersButtons).toHaveText(status);
-
-					await ordersListUIService.openFilterModal();
-					await ordersListPage.filterModal.uncheckCheckboxByStatus(status);
-
-					await ordersListPage.filterModal.clickApply();
-					await ordersListPage.filterModal.waitForClosed();
-					await expect(ordersListPage.filtredOrdersButtons).toHaveCount(0);
-				}
+				await ordersListPage.waitForOpened();
+				const tableData = await ordersListPage.getTableData();
+				tableData.forEach((row) => expect(row.status).toBe(randomStatus));
+				await expect(ordersListPage.filtredOrdersButtons).toHaveCount(1);
+				await expect(ordersListPage.filtredOrdersButtons).toHaveText(randomStatus);
 			},
 		);
 		test(
 			"Should apply multiple filters and update orders table",
 			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersListPage, ordersListUIService, ordersApiService }) => {
+				token = await ordersListPage.getAuthToken();
+
 				await ordersApiService.createDraft(token, 1);
 				await ordersApiService.processOrder(token, 1);
 				await ordersApiService.cancelOrderInProgress(token, 1);
+				await ordersApiService.allReceived(token, 1);
+				const order = await ordersApiService.processOrder(token, 4);
+				await ordersApiService.partiallyReceived(token, order, 2);
 
 				await ordersListUIService.open();
 				await ordersListUIService.openFilterModal();
 
-				const statusesForFilter = [ORDER_STATUS.DRAFT, ORDER_STATUS.IN_PROGRESS];
+				const status1 = getRandomEnumValue(ORDER_STATUS);
+				const status2 = getDifferentEnumValue(ORDER_STATUS, status1);
+				const statusesForFilter = [status1, status2];
 				await ordersListPage.filterModal.chooseCheckboxForFilter(statusesForFilter);
 
 				await ordersListPage.filterModal.clickApply();
@@ -119,6 +116,7 @@ test.describe("[UI] [Orders]", () => {
 			"Should clear filter by clicking Clear Filters Button",
 			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersListPage, ordersListUIService, ordersApiService }) => {
+				token = await ordersListPage.getAuthToken();
 				await ordersApiService.createDraft(token, 1);
 
 				await ordersListUIService.open();

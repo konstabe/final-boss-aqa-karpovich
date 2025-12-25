@@ -7,11 +7,6 @@ import { expect, test } from "fixtures";
 test.describe("[UI] [Orders]", () => {
 	let token = "";
 
-// 	test.beforeEach(async ({ loginUIService }) => {
-// 		//убрать, когда появится global setup
-// 		token = await loginUIService.loginAsAdmin();
-// 	});
-
 	test.afterEach(async ({ ordersApiService }) => {
 		await ordersApiService.fullDelete(token);
 	});
@@ -45,8 +40,8 @@ test.describe("[UI] [Orders]", () => {
 		test(
 			"Should open Orders List page via Navigation Menu",
 			{ tag: [TAGS.UI, TAGS.REGRESSION] },
-			async ({ ordersListPage, ordersListUIService }) => {
-				await ordersListUIService.open();
+			async ({ ordersListPage, homeUIService }) => {
+				await homeUIService.open();
 				await ordersListPage.navBarMenu.clickModule("Orders");
 				await ordersListPage.waitForOpened();
 
@@ -105,6 +100,7 @@ test.describe("[UI] [Orders]", () => {
 			"Should close Reopen Order Modal by clicking Close",
 			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersListPage, ordersListUIService, ordersApiService }) => {
+				token = await ordersListPage.getAuthToken();
 				const canceledOrder = await ordersApiService.cancelOrderInProgress(token, 1);
 				await ordersListUIService.open();
 				await ordersListUIService.clickReopenOrder(canceledOrder._id);
@@ -121,6 +117,7 @@ test.describe("[UI] [Orders]", () => {
 			"Should close Reopen Order Modal by clicking Cancel",
 			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersListPage, ordersListUIService, ordersApiService }) => {
+				token = await ordersListPage.getAuthToken();
 				const canceledOrder = await ordersApiService.cancelOrderInProgress(token, 1);
 				await ordersListUIService.open();
 				await ordersListUIService.clickReopenOrder(canceledOrder._id);
@@ -137,6 +134,7 @@ test.describe("[UI] [Orders]", () => {
 			"Should confirm action by clicking Confirm",
 			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersListPage, ordersListUIService, ordersApiService }) => {
+				token = await ordersListPage.getAuthToken();
 				const canceledOrder = await ordersApiService.cancelOrderInProgress(token, 1);
 				await ordersListUIService.open();
 				await ordersListUIService.clickReopenOrder(canceledOrder._id);
