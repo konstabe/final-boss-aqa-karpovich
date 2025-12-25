@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 12:05:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-4QmQSkA4ZFYH1/AQI84Az8hKdtU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694d288d1c508c5d5e07a873",
+        "email": "Elinor48@hotmail.com",
+        "name": "Josephine Hammes",
+        "country": "Ukraine",
+        "city": "Brekkehaven",
+        "street": "Lodge Close",
+        "house": 20,
+        "flat": 512,
+        "phone": "+15406273990",
+        "createdOn": "2025-12-25T12:05:33.000Z",
+        "notes": "AtHblBMBio1hpyD1UhWSw0S56n3Han2pRsCTJ2BUCq4JYlVTGVDOOQnzJgHphmzRHpL80sqYeAmUQPNaNbZ9vcfHnPZHKxId31k43hlq6zHw5HHhXCusVCLXFulia6AMYtDFeVcotGBL2Fv2PcdJYs86md3N1kIrHjbtiVvxoQVZ1RXq3mFSbxaQqssZioQeRGB9KgrixqOTrJM5obQ0zcdZXakC3eiYQ09FQSwLzJ9UmLnu59XrDPhNU4"
+      },
+      "products": [
+        {
+          "_id": "694d288d1c508c5d5e07a891",
+          "name": "Keyboard7270",
+          "amount": 587,
+          "price": 92701,
+          "manufacturer": "Sony",
+          "notes": "lbZdxZY0k4njMUfC6ghw5jhmhtmhF0VmcRoX25SsNJn19K5lGZNbTiJZyiGG9Gst9sRnT10wOPs6Gi7jRO9oETjkKaoL7HECjtomjZiqbMWDIg17MqyQK2y1iO9RfbtisMtVNJP9RCmBJqMHtGYRRYQaeF6XJo0bVljIizTH7SxdMrjJcaBluTj4ESSi0I1iz9DmhjqkmI4Om5Fsuy49mea9L8srD8RXhKfjSaUjFBKt0f4OcRFyw0UBAK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 92701,
+      "createdOn": "2025-12-25T12:05:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d288d1c508c5d5e07a873",
+          "products": [
+            {
+              "_id": "694d288d1c508c5d5e07a891",
+              "name": "Keyboard7270",
+              "amount": 587,
+              "price": 92701,
+              "manufacturer": "Sony",
+              "notes": "lbZdxZY0k4njMUfC6ghw5jhmhtmhF0VmcRoX25SsNJn19K5lGZNbTiJZyiGG9Gst9sRnT10wOPs6Gi7jRO9oETjkKaoL7HECjtomjZiqbMWDIg17MqyQK2y1iO9RfbtisMtVNJP9RCmBJqMHtGYRRYQaeF6XJo0bVljIizTH7SxdMrjJcaBluTj4ESSi0I1iz9DmhjqkmI4Om5Fsuy49mea9L8srD8RXhKfjSaUjFBKt0f4OcRFyw0UBAK",
+              "received": false
+            }
+          ],
+          "total_price": 92701,
+          "delivery": null,
+          "changedOn": "2025-12-25T12:05:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694d288e1c508c5d5e07a8b9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

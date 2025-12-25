@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 12:05:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-5JCjeSyakTFAayX8cGfJ/tTzD44\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694d288d1c508c5d5e07a837",
+        "email": "Dante_Von15@gmail.com",
+        "name": "Brice Shields",
+        "country": "Canada",
+        "city": "West Janis",
+        "street": "Greenfelder Roads",
+        "house": 18,
+        "flat": 12,
+        "phone": "+13879435154",
+        "createdOn": "2025-12-25T12:05:33.000Z",
+        "notes": "SXpc6gULaKEXNA7UoNiJfglvsdZtA3ea8fxKNEtq7BvRFQjQjNNKEm2i55QlZ5NKFwKb3lw7HopIpB8CKvg3iJIMxuoiNF2dumyi6gvA7fKhOqlMfuxxXcRj06Riya2Yj8XEoncqdxSdH7AEuak2pENvdfcnjVrkx3V8k9vuSL1rboyOIYNXcaUuG19PpFqPKO22FzXGeQiJf41ykGXqIae6yeX1vroANXTQcrprBPjDoxrxN7eTpFjF7s"
+      },
+      "products": [
+        {
+          "_id": "694d288d1c508c5d5e07a858",
+          "name": "Towels16883",
+          "amount": 477,
+          "price": 67240,
+          "manufacturer": "Xiaomi",
+          "notes": "fcrtrEO15GKpIVyY6oapm3Op55lyRK0j1wbv7t64kwLSfZLa3QIJmsaMTtmDlOGu3s0hy02ruhjJS5uUxqcJkfJqq3JtuR2khpmgvT1f0B0QMWY8nZRuEryiLAPQKMNGGB2R2pknJ5viCCxPPxZoS8UC1bfLS4ePYTvtVB3R4ZqHVoOXKaD4zxe3ndoBBysLIBoieY7r1TE5ESQTDyRqFuhOwmMvVBOiGfyJ1xnaMZoN7IXL82uoXin7V7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 67240,
+      "createdOn": "2025-12-25T12:05:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d288d1c508c5d5e07a837",
+          "products": [
+            {
+              "_id": "694d288d1c508c5d5e07a858",
+              "name": "Towels16883",
+              "amount": 477,
+              "price": 67240,
+              "manufacturer": "Xiaomi",
+              "notes": "fcrtrEO15GKpIVyY6oapm3Op55lyRK0j1wbv7t64kwLSfZLa3QIJmsaMTtmDlOGu3s0hy02ruhjJS5uUxqcJkfJqq3JtuR2khpmgvT1f0B0QMWY8nZRuEryiLAPQKMNGGB2R2pknJ5viCCxPPxZoS8UC1bfLS4ePYTvtVB3R4ZqHVoOXKaD4zxe3ndoBBysLIBoieY7r1TE5ESQTDyRqFuhOwmMvVBOiGfyJ1xnaMZoN7IXL82uoXin7V7",
+              "received": false
+            }
+          ],
+          "total_price": 67240,
+          "delivery": null,
+          "changedOn": "2025-12-25T12:05:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694d288d1c508c5d5e07a88f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

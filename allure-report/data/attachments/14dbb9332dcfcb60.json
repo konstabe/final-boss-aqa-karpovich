@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 12:05:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2673",
+    "etag": "W/\"a71-apWHbDgDZwAST0S47ryIHUjOLRo\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694d288f1c508c5d5e07a91a",
+        "email": "Beulah_Roob@hotmail.com",
+        "name": "Linda Flatley",
+        "country": "Belarus",
+        "city": "Port Averyside",
+        "street": "Treutel Cape",
+        "house": 5,
+        "flat": 41,
+        "phone": "+16093567922",
+        "createdOn": "2025-12-25T12:05:35.000Z",
+        "notes": "z17veWpNtIzlIP9o2b5DXwxeUawx5CufxMCONNMOQ3sd1CYHk6VZVvVojoVhoq49Mv00VJn4ajcUdX5Ok1BgOjW33ooIDhqUmRLkVg4xYM5aOAwCGibiNtOJQxyYb3XDmlBeBjrZ11VyjtIeU0Um2AFvUTJG1oyBob7KkWvyUu4p9E9vTCQWPFRck73zuZZCnWUFfVMqC6aKaA0yDhtpb2UQrhe2B6qm1gCrK6KeLjgGgmxNSlS3bXyj43"
+      },
+      "products": [
+        {
+          "_id": "694d288f1c508c5d5e07aaeb",
+          "name": "Computer42325",
+          "amount": 879,
+          "price": 69148,
+          "manufacturer": "Microsoft",
+          "notes": "75GYXutaM6PBUMpAsQyJaoB06Q5vltm54Jp2gQBzf1tKmGAfW9Yr282daTeY1cJFl4EWZXWE7ApsAeiPnFQzX1QQP04EXAyDdHHtHxaUE9wZVcHNYLSvBoIFl6YoEVUsCerluqwEGd1L9YSa51tu773FUt18rvY9x7F8TdiQDOEuMr0C2t65gJQHyRU5kJCESnbckjbBaz7dIMeRZjbVaO73GbVKGGunbiAb06cwm0ZfLefBGu9nNvSCn3",
+          "received": false
+        },
+        {
+          "_id": "694d28941c508c5d5e07acc5",
+          "name": "Computer88756",
+          "amount": 29,
+          "price": 35888,
+          "manufacturer": "Samsung",
+          "notes": "lYj6KG9kT8FJ8rOjpeQL50IK630xTPrdD0xAufdXuT4adkDPNlOmxHmQ6dwomJj6QiASWuqh0Z1zFiozKoJgj3t8s5xWxOPj5AfGdZQ9xg3oztOvKkTnSxH09AxUd05DQCvWJoL0tor4KnMafhAIdMoFPzKRuAjSXUYV1R8h7OBozgJuu9ghEjABUF3Fl9bX4OEH1lpqBEgNSkqJwfudmfX8PrG6nCIDPiLqvsQhv1uS7wjM1mzecLTkSz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 105036,
+      "createdOn": "2025-12-25T12:05:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d288f1c508c5d5e07a91a",
+          "products": [
+            {
+              "_id": "694d288f1c508c5d5e07aaeb",
+              "name": "Computer42325",
+              "amount": 879,
+              "price": 69148,
+              "manufacturer": "Microsoft",
+              "notes": "75GYXutaM6PBUMpAsQyJaoB06Q5vltm54Jp2gQBzf1tKmGAfW9Yr282daTeY1cJFl4EWZXWE7ApsAeiPnFQzX1QQP04EXAyDdHHtHxaUE9wZVcHNYLSvBoIFl6YoEVUsCerluqwEGd1L9YSa51tu773FUt18rvY9x7F8TdiQDOEuMr0C2t65gJQHyRU5kJCESnbckjbBaz7dIMeRZjbVaO73GbVKGGunbiAb06cwm0ZfLefBGu9nNvSCn3",
+              "received": false
+            },
+            {
+              "_id": "694d28941c508c5d5e07acc5",
+              "name": "Computer88756",
+              "amount": 29,
+              "price": 35888,
+              "manufacturer": "Samsung",
+              "notes": "lYj6KG9kT8FJ8rOjpeQL50IK630xTPrdD0xAufdXuT4adkDPNlOmxHmQ6dwomJj6QiASWuqh0Z1zFiozKoJgj3t8s5xWxOPj5AfGdZQ9xg3oztOvKkTnSxH09AxUd05DQCvWJoL0tor4KnMafhAIdMoFPzKRuAjSXUYV1R8h7OBozgJuu9ghEjABUF3Fl9bX4OEH1lpqBEgNSkqJwfudmfX8PrG6nCIDPiLqvsQhv1uS7wjM1mzecLTkSz",
+              "received": false
+            }
+          ],
+          "total_price": 105036,
+          "delivery": null,
+          "changedOn": "2025-12-25T12:05:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694d28941c508c5d5e07ace6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
