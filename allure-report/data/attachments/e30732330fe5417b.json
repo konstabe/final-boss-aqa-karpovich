@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 13:11:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2825",
+    "etag": "W/\"b09-dIKWLicX7c6Dc3wY3RzgELNn5kQ\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d380c1c508c5d5e08f3cc",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d380b1c508c5d5e08f33c",
+        "email": "Jordane.Heathcote@yahoo.com",
+        "name": "Devyn Braun",
+        "country": "France",
+        "city": "North Saraiburgh",
+        "street": "Letha Street",
+        "house": 6,
+        "flat": 158,
+        "phone": "+15583640901",
+        "createdOn": "2025-12-25T13:11:39.000Z",
+        "notes": "NLsuYDZ87rEQ5blpNytjPvK5OAOCyYaKEWrgtcfEDimLjZXKuZJyMIRB7124xpU3BaXB2SI7Etmx7fcIDJZ8CWD7Yx3tMtqf2Uphtk8fFK7mku5t1OIb0nSNexUyPPHDGakh87EQRKOkGbU2zZBxfoy7RpvNuJjF34P3tmk4pwGuo75bgu8FPWow3USExybjd28oe5sjEIiD7kR6qtGxt1XW0TUsz6FJLb7iBUotL9YTF4ocJwvJ53cSEt"
+      },
+      "products": [
+        {
+          "_id": "694d380b1c508c5d5e08f368",
+          "name": "Chair61897",
+          "amount": 999,
+          "price": 59390,
+          "manufacturer": "Xiaomi",
+          "notes": "kBFBXICKYOlWc9fDwwLl6VeX1sc71QsRtFMESUMKV1tNXH4aG6wo4KSEvJ3iBuUPWo8nIhXBfcYVBeH7fPWK2PzBIHM05rj55anNC5603h7Ij7V0Y04vxKa9Q3vIPK7tKZbCgddY3miM6lOZYVgz4CjSY2S8YHK2zpGWL4Oy6WiTzojxDeNsJjU1JFrAxD61PNbB2oMQuKe3epH45g7JMzVQlzIWC4KkYmuQxir9EX6iczXZD33x4PU2L1",
+          "received": false
+        },
+        {
+          "_id": "694d380c1c508c5d5e08f392",
+          "name": "Sausages92893",
+          "amount": 519,
+          "price": 88976,
+          "manufacturer": "Samsung",
+          "notes": "7vfjGDeKo9EnKJZbGYXRSm9ymkIILE8LEcPGpyzdvHt19it9mrzJnLHJy6e7M3kk7FDhv1mMJZpfqDKQcEeyLgvC2Ob0JmrSg8ywSt9puipYXkkV9PJbws96CuUsNxB5BtgdST3zjyRMhktiQVChyWBWwMGQnr2I8J8SZUqlfpFlf7gW9s7IEttceTg8S1tMMBfxMyOYeXQMxcmhed3zTS0shF8hgRb6XqAksDBnjfL7KDMaznovGuWXCn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 148366,
+      "createdOn": "2025-12-25T13:11:40.000Z",
+      "comments": [
+        {
+          "text": "d1dxn9BwN7xfG4HhOuSOSZOxkyBgFFjxmS0qtNDgx3oPvMKAhMDSFamcjc1jnp20a43vTYq6FwL",
+          "createdOn": "2025-12-25T13:11:41.000Z",
+          "_id": "694d380d1c508c5d5e08f409"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d380b1c508c5d5e08f33c",
+          "products": [
+            {
+              "_id": "694d380b1c508c5d5e08f368",
+              "name": "Chair61897",
+              "amount": 999,
+              "price": 59390,
+              "manufacturer": "Xiaomi",
+              "notes": "kBFBXICKYOlWc9fDwwLl6VeX1sc71QsRtFMESUMKV1tNXH4aG6wo4KSEvJ3iBuUPWo8nIhXBfcYVBeH7fPWK2PzBIHM05rj55anNC5603h7Ij7V0Y04vxKa9Q3vIPK7tKZbCgddY3miM6lOZYVgz4CjSY2S8YHK2zpGWL4Oy6WiTzojxDeNsJjU1JFrAxD61PNbB2oMQuKe3epH45g7JMzVQlzIWC4KkYmuQxir9EX6iczXZD33x4PU2L1",
+              "received": false
+            },
+            {
+              "_id": "694d380c1c508c5d5e08f392",
+              "name": "Sausages92893",
+              "amount": 519,
+              "price": 88976,
+              "manufacturer": "Samsung",
+              "notes": "7vfjGDeKo9EnKJZbGYXRSm9ymkIILE8LEcPGpyzdvHt19it9mrzJnLHJy6e7M3kk7FDhv1mMJZpfqDKQcEeyLgvC2Ob0JmrSg8ywSt9puipYXkkV9PJbws96CuUsNxB5BtgdST3zjyRMhktiQVChyWBWwMGQnr2I8J8SZUqlfpFlf7gW9s7IEttceTg8S1tMMBfxMyOYeXQMxcmhed3zTS0shF8hgRb6XqAksDBnjfL7KDMaznovGuWXCn",
+              "received": false
+            }
+          ],
+          "total_price": 148366,
+          "delivery": null,
+          "changedOn": "2025-12-25T13:11:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 13:11:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-YyJxL8er2fUHYeUOA4jsfF6Swt4\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694d380b1c508c5d5e08f301",
+        "email": "Joy_Walker72@hotmail.com",
+        "name": "Tessie Mraz",
+        "country": "Ukraine",
+        "city": "Roanoke",
+        "street": "Robbie Centers",
+        "house": 32,
+        "flat": 608,
+        "phone": "+17055651168",
+        "createdOn": "2025-12-25T13:11:39.000Z",
+        "notes": "dryqqns4jEJKXyjo7yT2jCAkbcnSesrIGDGfRsXCii5nTKfT7UpnEOqyEMIBRALU0ZeM7sYaTsTOOj2HMDQSvyFRvrOsfz30br3vkYJNIMTTVMrGgX7qTJJLOID6bTQm4FY8pq0jVMKyxCbNnlzSfz4dTBgzaqkNdOUjCskwyvmrAgknMDgTsnGxvkmBALYeE0SBWS00wzzIYH8aLWauetzL8cUmwOrc7wHNJf9Mu59x1ov0C9akUOKTgF"
+      },
+      "products": [
+        {
+          "_id": "694d380b1c508c5d5e08f318",
+          "name": "Fish17580",
+          "amount": 457,
+          "price": 84353,
+          "manufacturer": "Apple",
+          "notes": "1W6rYfxYL9ZsDsUGacXWwx9rOIIAkkPJVAo3mrZkcuCkPx3HJB3U5yoMFzhzpKDYUCvsPYo5cx4pJjg0fARuvlmFTOEhuKgxfTIVCtVTceeiw2iaOVebvscnbZ4Rlqat7FhPPGpcgTHAHP4zD0oT20lLZlv72O3IF8G5loZ2WDnULsyw9J7VCbC6RCuXZSn3PdNDF8TbD7VI16AgJOmIKT66nAodYfS3X5c4JwjGjUJZRNvCMa5PpSsHWW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 84353,
+      "createdOn": "2025-12-25T13:11:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d380b1c508c5d5e08f301",
+          "products": [
+            {
+              "_id": "694d380b1c508c5d5e08f318",
+              "name": "Fish17580",
+              "amount": 457,
+              "price": 84353,
+              "manufacturer": "Apple",
+              "notes": "1W6rYfxYL9ZsDsUGacXWwx9rOIIAkkPJVAo3mrZkcuCkPx3HJB3U5yoMFzhzpKDYUCvsPYo5cx4pJjg0fARuvlmFTOEhuKgxfTIVCtVTceeiw2iaOVebvscnbZ4Rlqat7FhPPGpcgTHAHP4zD0oT20lLZlv72O3IF8G5loZ2WDnULsyw9J7VCbC6RCuXZSn3PdNDF8TbD7VI16AgJOmIKT66nAodYfS3X5c4JwjGjUJZRNvCMa5PpSsHWW",
+              "received": false
+            }
+          ],
+          "total_price": 84353,
+          "delivery": null,
+          "changedOn": "2025-12-25T13:11:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694d380b1c508c5d5e08f33a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

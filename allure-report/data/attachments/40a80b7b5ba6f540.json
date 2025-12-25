@@ -1,0 +1,187 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 13:11:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5222",
+    "etag": "W/\"1466-nT00QrWfsLDUurmiuekFw/cCQRE\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d380f1c508c5d5e08f51d",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d380e1c508c5d5e08f46c",
+        "email": "Marquis.Pouros@yahoo.com",
+        "name": "Verona Herman",
+        "country": "Ukraine",
+        "city": "New Jacky",
+        "street": "Oak Road",
+        "house": 36,
+        "flat": 994,
+        "phone": "+14498214070",
+        "createdOn": "2025-12-25T13:11:42.000Z",
+        "notes": "LvbDCIeZjt2eZlSBzDlVlewAGqTvhs5TcLaeW6Pu6mTK9InIHd5VZa870WtqW464oMkHcW2OCSHBjWI29OCMmq2oKJUZqiIvnGXk72tX50Oa8wvbZJ5bAXRzn4dt7LNRU7FUNUE7oTj5ghik4A6a6ggJQX45Tfu6qaH0eYwvt80MBQvQcyrf1hDwTNqRnlSNIryymnxqZbWxeegnV2JiGsHOJZpENC0ANeCY6uRBkYa3WKwb5qrsJDqzjM"
+      },
+      "products": [
+        {
+          "_id": "694d380e1c508c5d5e08f489",
+          "name": "Car26334",
+          "amount": 271,
+          "price": 35367,
+          "manufacturer": "Amazon",
+          "notes": "ENPg687Opqycge2mVIXgCay8LtsbTqFOnePMagRikdLP4MkgbVavFN6uOJ52KJPVmaCdM5p39dP2CLRcyb4LmMBIEUtncwTuRTvgxsAyJGiBFdzATXcLwLVSOR3Pa6zQ7YjtyppPAhSUxcwodPmFWu9cF5gOkgrAhSF4RTotp4q7K8pHfPhHQLzIUC3q6AJEXlkdLzMMheLCsV7OxsNsGi8f1bBTBBF6bEU8Yjfe8GgL2krLNBlr75EL2t",
+          "received": false
+        },
+        {
+          "_id": "694d380e1c508c5d5e08f4b1",
+          "name": "Shoes15958",
+          "amount": 611,
+          "price": 55299,
+          "manufacturer": "Tesla",
+          "notes": "BIE0ZILm5gIi667RKzAAbCAFQVWbNkSF2NrQsJbHljkrRLMTgPzw10XWPUN8qu7j98QkHXWTmwCiArXx9rjVVFdfYUOGcBgOXWRS7gghmvp0hAdsDQzMPHZbQF50XbxP2GqpWQCUF8X8sHW61uBNtSLL2CGfMgE31FJjBBDk9IiJNJbqtkpuNKU4oTUsDA9mEkKm330WH019BXoxUPcQLcpNGaUV6mQ5cXDHlJqRaQdVpiz4wRnX6Ufq62",
+          "received": false
+        },
+        {
+          "_id": "694d380f1c508c5d5e08f4d9",
+          "name": "Hat35765",
+          "amount": 358,
+          "price": 54645,
+          "manufacturer": "Sony",
+          "notes": "4UIV4QxB17yg1jCejT223aNiTQRTyWoDU6odTlq7t9JF3qMI1tZGxjKXwTqyHk85wzFmscyURfngwOxjBVBItAVIfSkXpzWc9dtRhyuXSWDrmQSl0qELcIznQudMnsMuJgPqE18xWgcVf5CzdQPSBKC6cqPJi8Ssm1iByMnNwEYeVo2uRph0VjPIT1C5Cc21VB1z8rXaKIw4qTr0DA5kxwgIArIMfHBrFInqx76v2arJ05p1ZoSgscw2aE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "New Jacky",
+          "street": "Oak Road",
+          "house": 36,
+          "flat": 994
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 145311,
+      "createdOn": "2025-12-25T13:11:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d380e1c508c5d5e08f46c",
+          "products": [
+            {
+              "_id": "694d380e1c508c5d5e08f489",
+              "name": "Car26334",
+              "amount": 271,
+              "price": 35367,
+              "manufacturer": "Amazon",
+              "notes": "ENPg687Opqycge2mVIXgCay8LtsbTqFOnePMagRikdLP4MkgbVavFN6uOJ52KJPVmaCdM5p39dP2CLRcyb4LmMBIEUtncwTuRTvgxsAyJGiBFdzATXcLwLVSOR3Pa6zQ7YjtyppPAhSUxcwodPmFWu9cF5gOkgrAhSF4RTotp4q7K8pHfPhHQLzIUC3q6AJEXlkdLzMMheLCsV7OxsNsGi8f1bBTBBF6bEU8Yjfe8GgL2krLNBlr75EL2t",
+              "received": false
+            },
+            {
+              "_id": "694d380e1c508c5d5e08f4b1",
+              "name": "Shoes15958",
+              "amount": 611,
+              "price": 55299,
+              "manufacturer": "Tesla",
+              "notes": "BIE0ZILm5gIi667RKzAAbCAFQVWbNkSF2NrQsJbHljkrRLMTgPzw10XWPUN8qu7j98QkHXWTmwCiArXx9rjVVFdfYUOGcBgOXWRS7gghmvp0hAdsDQzMPHZbQF50XbxP2GqpWQCUF8X8sHW61uBNtSLL2CGfMgE31FJjBBDk9IiJNJbqtkpuNKU4oTUsDA9mEkKm330WH019BXoxUPcQLcpNGaUV6mQ5cXDHlJqRaQdVpiz4wRnX6Ufq62",
+              "received": false
+            },
+            {
+              "_id": "694d380f1c508c5d5e08f4d9",
+              "name": "Hat35765",
+              "amount": 358,
+              "price": 54645,
+              "manufacturer": "Sony",
+              "notes": "4UIV4QxB17yg1jCejT223aNiTQRTyWoDU6odTlq7t9JF3qMI1tZGxjKXwTqyHk85wzFmscyURfngwOxjBVBItAVIfSkXpzWc9dtRhyuXSWDrmQSl0qELcIznQudMnsMuJgPqE18xWgcVf5CzdQPSBKC6cqPJi8Ssm1iByMnNwEYeVo2uRph0VjPIT1C5Cc21VB1z8rXaKIw4qTr0DA5kxwgIArIMfHBrFInqx76v2arJ05p1ZoSgscw2aE",
+              "received": false
+            }
+          ],
+          "total_price": 145311,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "New Jacky",
+              "street": "Oak Road",
+              "house": 36,
+              "flat": 994
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-25T13:11:44.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d380e1c508c5d5e08f46c",
+          "products": [
+            {
+              "_id": "694d380e1c508c5d5e08f489",
+              "name": "Car26334",
+              "amount": 271,
+              "price": 35367,
+              "manufacturer": "Amazon",
+              "notes": "ENPg687Opqycge2mVIXgCay8LtsbTqFOnePMagRikdLP4MkgbVavFN6uOJ52KJPVmaCdM5p39dP2CLRcyb4LmMBIEUtncwTuRTvgxsAyJGiBFdzATXcLwLVSOR3Pa6zQ7YjtyppPAhSUxcwodPmFWu9cF5gOkgrAhSF4RTotp4q7K8pHfPhHQLzIUC3q6AJEXlkdLzMMheLCsV7OxsNsGi8f1bBTBBF6bEU8Yjfe8GgL2krLNBlr75EL2t",
+              "received": false
+            },
+            {
+              "_id": "694d380e1c508c5d5e08f4b1",
+              "name": "Shoes15958",
+              "amount": 611,
+              "price": 55299,
+              "manufacturer": "Tesla",
+              "notes": "BIE0ZILm5gIi667RKzAAbCAFQVWbNkSF2NrQsJbHljkrRLMTgPzw10XWPUN8qu7j98QkHXWTmwCiArXx9rjVVFdfYUOGcBgOXWRS7gghmvp0hAdsDQzMPHZbQF50XbxP2GqpWQCUF8X8sHW61uBNtSLL2CGfMgE31FJjBBDk9IiJNJbqtkpuNKU4oTUsDA9mEkKm330WH019BXoxUPcQLcpNGaUV6mQ5cXDHlJqRaQdVpiz4wRnX6Ufq62",
+              "received": false
+            },
+            {
+              "_id": "694d380f1c508c5d5e08f4d9",
+              "name": "Hat35765",
+              "amount": 358,
+              "price": 54645,
+              "manufacturer": "Sony",
+              "notes": "4UIV4QxB17yg1jCejT223aNiTQRTyWoDU6odTlq7t9JF3qMI1tZGxjKXwTqyHk85wzFmscyURfngwOxjBVBItAVIfSkXpzWc9dtRhyuXSWDrmQSl0qELcIznQudMnsMuJgPqE18xWgcVf5CzdQPSBKC6cqPJi8Ssm1iByMnNwEYeVo2uRph0VjPIT1C5Cc21VB1z8rXaKIw4qTr0DA5kxwgIArIMfHBrFInqx76v2arJ05p1ZoSgscw2aE",
+              "received": false
+            }
+          ],
+          "total_price": 145311,
+          "delivery": null,
+          "changedOn": "2025-12-25T13:11:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
