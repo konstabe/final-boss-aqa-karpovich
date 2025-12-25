@@ -1,3 +1,4 @@
+import { FILTER_MODAL_TEXT } from "data/orders/modalText";
 import { ORDER_STATUS } from "data/orders/orderStatus";
 import { TAGS } from "data/tags";
 import { expect, test } from "fixtures";
@@ -18,12 +19,14 @@ test.describe("[UI] [Orders]", () => {
 				await ordersListUIService.open();
 				await ordersListUIService.openFilterModal();
 
-				await expect(ordersListPage.filterModal.title).toHaveText("Filters");
+				await expect(ordersListPage.filterModal.title).toHaveText(FILTER_MODAL_TEXT.title);
 				await expect(ordersListPage.filterModal.closeButton).toBeEnabled();
 				await expect(ordersListPage.filterModal.applyButton).toBeEnabled();
-				await expect(ordersListPage.filterModal.applyButton).toHaveText("Apply");
+				await expect(ordersListPage.filterModal.applyButton).toHaveText(FILTER_MODAL_TEXT.applyButton);
 				await expect(ordersListPage.filterModal.clearFiltersButton).toBeEnabled();
-				await expect(ordersListPage.filterModal.clearFiltersButton).toHaveText("Clear Filters");
+				await expect(ordersListPage.filterModal.clearFiltersButton).toHaveText(
+					FILTER_MODAL_TEXT.clearFiltersButton,
+				);
 
 				for (const status of Object.values(ORDER_STATUS)) {
 					const checkbox = ordersListPage.filterModal.getCheckboxByStatus(status);
@@ -94,7 +97,7 @@ test.describe("[UI] [Orders]", () => {
 
 				const status1 = getRandomEnumValue(ORDER_STATUS);
 				const status2 = getDifferentEnumValue(ORDER_STATUS, status1);
-				const statusesForFilter = [status1, status2];
+				const statusesForFilter = [status1, status2].toSorted();
 				await ordersListPage.filterModal.chooseCheckboxForFilter(statusesForFilter);
 
 				await ordersListPage.filterModal.clickApply();
@@ -102,13 +105,13 @@ test.describe("[UI] [Orders]", () => {
 
 				await ordersListPage.waitForOpened();
 				await expect(ordersListPage.filtredOrdersButtons).toHaveCount(statusesForFilter.length);
-				const filterButtonText = await ordersListPage.filtredOrdersButtons.allInnerTexts();
+				const filterButtonText = (await ordersListPage.filtredOrdersButtons.allInnerTexts()).toSorted();
 				expect(filterButtonText).toEqual(statusesForFilter);
 
 				const tableData = await ordersListPage.getTableData();
-				const tableStatuses = [...new Set(tableData.map((row) => row.status))];
+				const tableStatuses = [...new Set(tableData.map((row) => row.status))].toSorted();
 
-				expect(tableStatuses.sort()).toEqual(statusesForFilter.sort());
+				expect(tableStatuses).toEqual(statusesForFilter);
 			},
 		);
 

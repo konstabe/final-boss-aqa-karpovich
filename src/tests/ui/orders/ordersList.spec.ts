@@ -1,4 +1,4 @@
-import { CONFIRMATION_MODAL_TEXT } from "data/orders/confirmationModalText";
+import { CONFIRMATION_MODAL_TEXT } from "data/orders/modalText";
 import { generateOrderMock, generateOrdersListUIMock } from "data/orders/generateOrdersListResponse";
 import { ORDER_STATUS } from "data/orders/orderStatus";
 import { TAGS } from "data/tags";

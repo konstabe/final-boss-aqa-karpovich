@@ -6,3 +6,9 @@ export const CONFIRMATION_MODAL_TEXT = {
 	},
 	cancelButton: "Cancel",
 };
+
+export const FILTER_MODAL_TEXT = {
+	title: "Filters",
+	applyButton: "Apply",
+	clearFiltersButton: "Clear Filters",
+};
