@@ -1,0 +1,303 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 18:08:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8603",
+    "etag": "W/\"219b-5g00C7gQA5BUyT3IZvgbSM/1/QQ\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d7d7f1c508c5d5e0c95c0",
+      "status": "Received",
+      "customer": {
+        "_id": "694d7d7b1c508c5d5e0c92b1",
+        "email": "Roma.Hagenes66@yahoo.com",
+        "name": "Erna Fritsch",
+        "country": "Germany",
+        "city": "Vonhaven",
+        "street": "The Mount",
+        "house": 28,
+        "flat": 206,
+        "phone": "+16757221375",
+        "createdOn": "2025-12-25T18:07:55.000Z",
+        "notes": "ad2pN9x5R3l8LiaQGr4yPY8st5kXmsfoEPzsle3UrooImVjnEjrzNv05E9oH257AikFjPvdQJrxxdms6qGyljHp3wQUnYPjxaZzKcbGVaeOK76oqQTkguhfVxdohmjzAi3OYeiZ19HKXBLtv0RdKsdfNuv3AUQxu8K57SJmBZ5n56etBjiW82PAtkd1n4ZZZWcykDDrZZsv3v0VAn1en8mL1f97joPzYlGQk0cTDuDPOF4nJmg2cHvXGSB"
+      },
+      "products": [
+        {
+          "_id": "694d7d7c1c508c5d5e0c9378",
+          "name": "Table41636",
+          "amount": 586,
+          "price": 64577,
+          "manufacturer": "Google",
+          "notes": "sl8qmrtFdxQ2iKzHMZA7IGI2IZRbucymoNibe0zTqKNRfz5WIvmLMQ9tG8a8QAk5b9czo61HrUEqEMePRNArUPi9Q031vX48uvY7ur6oybh6x2eVdWQdtUbVRdRSKQSes3gk0TpLO1nAONFMMrw8iZGPTscwTfiU1O7l96TjHzGxSZgaOQVeXjmkeTqtHAeuQUcsroxyDUNwG4MJMrJC5JQyk37AW13oLQKzGqKf17SLzA2TEveiuja5Y1",
+          "received": true
+        },
+        {
+          "_id": "694d7d7d1c508c5d5e0c9431",
+          "name": "Bike95626",
+          "amount": 664,
+          "price": 79125,
+          "manufacturer": "Tesla",
+          "notes": "uuz4NjjC5xEao8DlSFkOftIV3YkMTgxXp14lJ9gebObpUzQuyykQphcKXzJ0Y27EJPiO6iu6ZX6ia5fMWivZZlBuReK8hRBQVFolrWpze9qXrVFZUV4Tufpc6X2uO34PeqwoAMYfXF2mpE0G1BxA1ezEH9fzCTQShNSoGbkjvSsNp17TTxGggpB2CUAEfWlTRReJhsS8OLY1iPIIVAxfES5xCsGFLBlRvC3XeonjHTlcGQQN4rCvzmq7U8",
+          "received": true
+        },
+        {
+          "_id": "694d7d7e1c508c5d5e0c94f2",
+          "name": "Gloves43923",
+          "amount": 558,
+          "price": 92576,
+          "manufacturer": "Xiaomi",
+          "notes": "NCjV2QM1z06KaEuqFIzKOKDLtUaCSCKGTHUR10el7QakvDahgvUHkTu6iLXAgmTWk7qUP5cXDWhMUksRfhhdTpKjL6KaP8qjFEgNtwA6XrIeE3mi3M3ExB9ydcgs8gqJDpWl3WIndtLqBfvDdzLYiMh7fy7K6guACbhp8OkZZMF4SCmyWy981ELWVjxIfVg20eUhkWBXNc8BHGQA2EzIUjb5h299HWbLsKQtWElPOdvGjkkC0ffNDMDTwd",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Vonhaven",
+          "street": "The Mount",
+          "house": 28,
+          "flat": 206
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 236278,
+      "createdOn": "2025-12-25T18:07:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694d7d7b1c508c5d5e0c92b1",
+          "products": [
+            {
+              "_id": "694d7d7c1c508c5d5e0c9378",
+              "name": "Table41636",
+              "amount": 586,
+              "price": 64577,
+              "manufacturer": "Google",
+              "notes": "sl8qmrtFdxQ2iKzHMZA7IGI2IZRbucymoNibe0zTqKNRfz5WIvmLMQ9tG8a8QAk5b9czo61HrUEqEMePRNArUPi9Q031vX48uvY7ur6oybh6x2eVdWQdtUbVRdRSKQSes3gk0TpLO1nAONFMMrw8iZGPTscwTfiU1O7l96TjHzGxSZgaOQVeXjmkeTqtHAeuQUcsroxyDUNwG4MJMrJC5JQyk37AW13oLQKzGqKf17SLzA2TEveiuja5Y1",
+              "received": true
+            },
+            {
+              "_id": "694d7d7d1c508c5d5e0c9431",
+              "name": "Bike95626",
+              "amount": 664,
+              "price": 79125,
+              "manufacturer": "Tesla",
+              "notes": "uuz4NjjC5xEao8DlSFkOftIV3YkMTgxXp14lJ9gebObpUzQuyykQphcKXzJ0Y27EJPiO6iu6ZX6ia5fMWivZZlBuReK8hRBQVFolrWpze9qXrVFZUV4Tufpc6X2uO34PeqwoAMYfXF2mpE0G1BxA1ezEH9fzCTQShNSoGbkjvSsNp17TTxGggpB2CUAEfWlTRReJhsS8OLY1iPIIVAxfES5xCsGFLBlRvC3XeonjHTlcGQQN4rCvzmq7U8",
+              "received": true
+            },
+            {
+              "_id": "694d7d7e1c508c5d5e0c94f2",
+              "name": "Gloves43923",
+              "amount": 558,
+              "price": 92576,
+              "manufacturer": "Xiaomi",
+              "notes": "NCjV2QM1z06KaEuqFIzKOKDLtUaCSCKGTHUR10el7QakvDahgvUHkTu6iLXAgmTWk7qUP5cXDWhMUksRfhhdTpKjL6KaP8qjFEgNtwA6XrIeE3mi3M3ExB9ydcgs8gqJDpWl3WIndtLqBfvDdzLYiMh7fy7K6guACbhp8OkZZMF4SCmyWy981ELWVjxIfVg20eUhkWBXNc8BHGQA2EzIUjb5h299HWbLsKQtWElPOdvGjkkC0ffNDMDTwd",
+              "received": true
+            }
+          ],
+          "total_price": 236278,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Vonhaven",
+              "street": "The Mount",
+              "house": 28,
+              "flat": 206
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-25T18:08:04.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694d7d7b1c508c5d5e0c92b1",
+          "products": [
+            {
+              "_id": "694d7d7c1c508c5d5e0c9378",
+              "name": "Table41636",
+              "amount": 586,
+              "price": 64577,
+              "manufacturer": "Google",
+              "notes": "sl8qmrtFdxQ2iKzHMZA7IGI2IZRbucymoNibe0zTqKNRfz5WIvmLMQ9tG8a8QAk5b9czo61HrUEqEMePRNArUPi9Q031vX48uvY7ur6oybh6x2eVdWQdtUbVRdRSKQSes3gk0TpLO1nAONFMMrw8iZGPTscwTfiU1O7l96TjHzGxSZgaOQVeXjmkeTqtHAeuQUcsroxyDUNwG4MJMrJC5JQyk37AW13oLQKzGqKf17SLzA2TEveiuja5Y1",
+              "received": false
+            },
+            {
+              "_id": "694d7d7d1c508c5d5e0c9431",
+              "name": "Bike95626",
+              "amount": 664,
+              "price": 79125,
+              "manufacturer": "Tesla",
+              "notes": "uuz4NjjC5xEao8DlSFkOftIV3YkMTgxXp14lJ9gebObpUzQuyykQphcKXzJ0Y27EJPiO6iu6ZX6ia5fMWivZZlBuReK8hRBQVFolrWpze9qXrVFZUV4Tufpc6X2uO34PeqwoAMYfXF2mpE0G1BxA1ezEH9fzCTQShNSoGbkjvSsNp17TTxGggpB2CUAEfWlTRReJhsS8OLY1iPIIVAxfES5xCsGFLBlRvC3XeonjHTlcGQQN4rCvzmq7U8",
+              "received": false
+            },
+            {
+              "_id": "694d7d7e1c508c5d5e0c94f2",
+              "name": "Gloves43923",
+              "amount": 558,
+              "price": 92576,
+              "manufacturer": "Xiaomi",
+              "notes": "NCjV2QM1z06KaEuqFIzKOKDLtUaCSCKGTHUR10el7QakvDahgvUHkTu6iLXAgmTWk7qUP5cXDWhMUksRfhhdTpKjL6KaP8qjFEgNtwA6XrIeE3mi3M3ExB9ydcgs8gqJDpWl3WIndtLqBfvDdzLYiMh7fy7K6guACbhp8OkZZMF4SCmyWy981ELWVjxIfVg20eUhkWBXNc8BHGQA2EzIUjb5h299HWbLsKQtWElPOdvGjkkC0ffNDMDTwd",
+              "received": false
+            }
+          ],
+          "total_price": 236278,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Vonhaven",
+              "street": "The Mount",
+              "house": 28,
+              "flat": 206
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-25T18:08:02.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d7d7b1c508c5d5e0c92b1",
+          "products": [
+            {
+              "_id": "694d7d7c1c508c5d5e0c9378",
+              "name": "Table41636",
+              "amount": 586,
+              "price": 64577,
+              "manufacturer": "Google",
+              "notes": "sl8qmrtFdxQ2iKzHMZA7IGI2IZRbucymoNibe0zTqKNRfz5WIvmLMQ9tG8a8QAk5b9czo61HrUEqEMePRNArUPi9Q031vX48uvY7ur6oybh6x2eVdWQdtUbVRdRSKQSes3gk0TpLO1nAONFMMrw8iZGPTscwTfiU1O7l96TjHzGxSZgaOQVeXjmkeTqtHAeuQUcsroxyDUNwG4MJMrJC5JQyk37AW13oLQKzGqKf17SLzA2TEveiuja5Y1",
+              "received": false
+            },
+            {
+              "_id": "694d7d7d1c508c5d5e0c9431",
+              "name": "Bike95626",
+              "amount": 664,
+              "price": 79125,
+              "manufacturer": "Tesla",
+              "notes": "uuz4NjjC5xEao8DlSFkOftIV3YkMTgxXp14lJ9gebObpUzQuyykQphcKXzJ0Y27EJPiO6iu6ZX6ia5fMWivZZlBuReK8hRBQVFolrWpze9qXrVFZUV4Tufpc6X2uO34PeqwoAMYfXF2mpE0G1BxA1ezEH9fzCTQShNSoGbkjvSsNp17TTxGggpB2CUAEfWlTRReJhsS8OLY1iPIIVAxfES5xCsGFLBlRvC3XeonjHTlcGQQN4rCvzmq7U8",
+              "received": false
+            },
+            {
+              "_id": "694d7d7e1c508c5d5e0c94f2",
+              "name": "Gloves43923",
+              "amount": 558,
+              "price": 92576,
+              "manufacturer": "Xiaomi",
+              "notes": "NCjV2QM1z06KaEuqFIzKOKDLtUaCSCKGTHUR10el7QakvDahgvUHkTu6iLXAgmTWk7qUP5cXDWhMUksRfhhdTpKjL6KaP8qjFEgNtwA6XrIeE3mi3M3ExB9ydcgs8gqJDpWl3WIndtLqBfvDdzLYiMh7fy7K6guACbhp8OkZZMF4SCmyWy981ELWVjxIfVg20eUhkWBXNc8BHGQA2EzIUjb5h299HWbLsKQtWElPOdvGjkkC0ffNDMDTwd",
+              "received": false
+            }
+          ],
+          "total_price": 236278,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Vonhaven",
+              "street": "The Mount",
+              "house": 28,
+              "flat": 206
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-25T18:08:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d7d7b1c508c5d5e0c92b1",
+          "products": [
+            {
+              "_id": "694d7d7c1c508c5d5e0c9378",
+              "name": "Table41636",
+              "amount": 586,
+              "price": 64577,
+              "manufacturer": "Google",
+              "notes": "sl8qmrtFdxQ2iKzHMZA7IGI2IZRbucymoNibe0zTqKNRfz5WIvmLMQ9tG8a8QAk5b9czo61HrUEqEMePRNArUPi9Q031vX48uvY7ur6oybh6x2eVdWQdtUbVRdRSKQSes3gk0TpLO1nAONFMMrw8iZGPTscwTfiU1O7l96TjHzGxSZgaOQVeXjmkeTqtHAeuQUcsroxyDUNwG4MJMrJC5JQyk37AW13oLQKzGqKf17SLzA2TEveiuja5Y1",
+              "received": false
+            },
+            {
+              "_id": "694d7d7d1c508c5d5e0c9431",
+              "name": "Bike95626",
+              "amount": 664,
+              "price": 79125,
+              "manufacturer": "Tesla",
+              "notes": "uuz4NjjC5xEao8DlSFkOftIV3YkMTgxXp14lJ9gebObpUzQuyykQphcKXzJ0Y27EJPiO6iu6ZX6ia5fMWivZZlBuReK8hRBQVFolrWpze9qXrVFZUV4Tufpc6X2uO34PeqwoAMYfXF2mpE0G1BxA1ezEH9fzCTQShNSoGbkjvSsNp17TTxGggpB2CUAEfWlTRReJhsS8OLY1iPIIVAxfES5xCsGFLBlRvC3XeonjHTlcGQQN4rCvzmq7U8",
+              "received": false
+            },
+            {
+              "_id": "694d7d7e1c508c5d5e0c94f2",
+              "name": "Gloves43923",
+              "amount": 558,
+              "price": 92576,
+              "manufacturer": "Xiaomi",
+              "notes": "NCjV2QM1z06KaEuqFIzKOKDLtUaCSCKGTHUR10el7QakvDahgvUHkTu6iLXAgmTWk7qUP5cXDWhMUksRfhhdTpKjL6KaP8qjFEgNtwA6XrIeE3mi3M3ExB9ydcgs8gqJDpWl3WIndtLqBfvDdzLYiMh7fy7K6guACbhp8OkZZMF4SCmyWy981ELWVjxIfVg20eUhkWBXNc8BHGQA2EzIUjb5h299HWbLsKQtWElPOdvGjkkC0ffNDMDTwd",
+              "received": false
+            }
+          ],
+          "total_price": 236278,
+          "delivery": null,
+          "changedOn": "2025-12-25T18:07:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 18:07:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2648",
+    "etag": "W/\"a58-EkUBkNmr7ZsudAQwW+vkEdE386I\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694d7d761c508c5d5e0c8f7c",
+        "email": "Lowell65@yahoo.com",
+        "name": "Bryana Huel",
+        "country": "Ukraine",
+        "city": "East Clayland",
+        "street": "Breana Crossing",
+        "house": 16,
+        "flat": 143,
+        "phone": "+17496454772",
+        "createdOn": "2025-12-25T18:07:50.000Z",
+        "notes": "mPSSeGUyLe5sA0CpmIi3M4IPLqNMTIRApPwkHYdocyN5IXCqAw4nyAaMWUOEk58pqhnB011FpxOaaEjyxaTsexNkyyWGEUEAvnB9r3u4MYrV9pSO64l4N8mpydObVSU46j8cLmEJMixLuPHJgCynQYvfuyTXvnNcogPRrpLfuZCmed146soFCt5CXXAqFlvE6QHCZmIC9zf9IX09hApqcWWrCQD8fFkY7dg8KGPOIPDsZsiEHQCy1MmoPt"
+      },
+      "products": [
+        {
+          "_id": "694d7d771c508c5d5e0c8f9d",
+          "name": "Tuna1836",
+          "amount": 869,
+          "price": 68026,
+          "manufacturer": "Google",
+          "notes": "mW5Fqm9gEtunJ1KYPW5nSAHKB2MxxRbzLgtCAZVcG1uYIYHbRPVijxMV4Zm7x4Ptopm3xfE3sNqMZ1X46uXt9ap2zfw7hiOqNiDBnexqSUSpQtsVXzCokI8NzBsXDGv5LMI1UA5uucSDwN0TxDFbxSqJd8NsSh5EniYXCE6M5hZDbQtHbWYWVKm8CTwqrfN6HGIn6npQRmUV8xMNdQYcToHz0ONVAv8aXmcaCxJoYF7OUhxZ46wEooobHW",
+          "received": false
+        },
+        {
+          "_id": "694d7d771c508c5d5e0c8fcb",
+          "name": "Chair32201",
+          "amount": 940,
+          "price": 19059,
+          "manufacturer": "Samsung",
+          "notes": "1p3LMALNZ98Wbh7UrJu5rg0fNQ8hNNYS6NeRiBRdZ86yJETjuliqqTCt53VkhXtmKJkZYq7rYI6umzHGhFcRFeF201dkuLQQvOZxG1hEXkWFsdWmIRWci5xcPvxqXfT1SJHDb0qR2XbqBA8nUMogQxYdEk75EkGGRNxQDgf8XMiNRwBKqdabeFgOiCM4ggVC1GOYdx1fhYArexP7Gc8oCM8VCVOp2ahw2MeADgy190DXTQS8QXBbO3ewAt",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 87085,
+      "createdOn": "2025-12-25T18:07:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d7d761c508c5d5e0c8f7c",
+          "products": [
+            {
+              "_id": "694d7d771c508c5d5e0c8f9d",
+              "name": "Tuna1836",
+              "amount": 869,
+              "price": 68026,
+              "manufacturer": "Google",
+              "notes": "mW5Fqm9gEtunJ1KYPW5nSAHKB2MxxRbzLgtCAZVcG1uYIYHbRPVijxMV4Zm7x4Ptopm3xfE3sNqMZ1X46uXt9ap2zfw7hiOqNiDBnexqSUSpQtsVXzCokI8NzBsXDGv5LMI1UA5uucSDwN0TxDFbxSqJd8NsSh5EniYXCE6M5hZDbQtHbWYWVKm8CTwqrfN6HGIn6npQRmUV8xMNdQYcToHz0ONVAv8aXmcaCxJoYF7OUhxZ46wEooobHW",
+              "received": false
+            },
+            {
+              "_id": "694d7d771c508c5d5e0c8fcb",
+              "name": "Chair32201",
+              "amount": 940,
+              "price": 19059,
+              "manufacturer": "Samsung",
+              "notes": "1p3LMALNZ98Wbh7UrJu5rg0fNQ8hNNYS6NeRiBRdZ86yJETjuliqqTCt53VkhXtmKJkZYq7rYI6umzHGhFcRFeF201dkuLQQvOZxG1hEXkWFsdWmIRWci5xcPvxqXfT1SJHDb0qR2XbqBA8nUMogQxYdEk75EkGGRNxQDgf8XMiNRwBKqdabeFgOiCM4ggVC1GOYdx1fhYArexP7Gc8oCM8VCVOp2ahw2MeADgy190DXTQS8QXBbO3ewAt",
+              "received": false
+            }
+          ],
+          "total_price": 87085,
+          "delivery": null,
+          "changedOn": "2025-12-25T18:07:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694d7d771c508c5d5e0c9001"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
