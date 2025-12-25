@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:18:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2652",
+    "etag": "W/\"a5c-T8jAg52W2nD7AsOV8CcIgFykTUQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694db81f1c508c5d5e100c86",
+        "email": "Burdette_Koepp@yahoo.com",
+        "name": "Bobby Haag",
+        "country": "Russia",
+        "city": "Jessicabury",
+        "street": "Pine Street",
+        "house": 11,
+        "flat": 871,
+        "phone": "+15654185980",
+        "createdOn": "2025-12-25T22:18:07.000Z",
+        "notes": "Iuz4AhmOiDhh8uEYSSzJZpSf8TroLpHMHle2r1kVgOB5aAC5PVVjDt7FrRF0yenHUBsWgLXDEWAbb07Yh4huMiE4iGXeApqk3DFNrjUSxBPIaaX35CAtGF1MWMn319AYDlWbYv5Lw9wcAwAvPXGZVczzQvN4ZoeNU0zchaN2NIz88sZzrg8RgNr6PoSa4fZyG8ZDE2UuqrYZs8KQt73M5E6YYPO9MEjmtXympwNbuerYwEyc7jb4Sc74WK"
+      },
+      "products": [
+        {
+          "_id": "694db8201c508c5d5e100cd7",
+          "name": "Chair3101",
+          "amount": 77,
+          "price": 80542,
+          "manufacturer": "Samsung",
+          "notes": "JNUHEZoKZ5EwCcZwLs8NkdC6efF6POowDN0ooPkv1pqWExRh54r4CUYWs5HzT4GkVECRNsVv4fQ5HEKGROfYCA7FivE5MxcUvyT48q2vewErsbyqhSCscyc4osDrcatOjScn6kxwVR46QHMfmPonB1NdMUC0QItLD8qqFBunIX4uuuQt33MChEalDah4hFUmNkgUdum4fOvpshtxwnQfIhWANRXKmzwNL6htoeigaD8tPKhN2sRCqAJVT4",
+          "received": false
+        },
+        {
+          "_id": "694db8231c508c5d5e101182",
+          "name": "Computer4863",
+          "amount": 386,
+          "price": 39136,
+          "manufacturer": "Amazon",
+          "notes": "pL0eTyB8l6kVhDNJCilHNz9IttRFQClq6dchIU1vmWqP9LSz3mPZctdxu05gWjQfCRU7h5MhO126spSWb0aRwGxi1iqaQ7Xy28I21uoNille4UwRMcQKogXokQsvnC55WIRlPWZPyHlRjV5BQXsN6yswRUCXEkI3WakaZlgjh5TVXrUeF7XVPlNPCTzlkZnSnD32QKOMLCHemUb3qlpm7doHElr3VLFods4YUOBCrd1qRiaDXgtS580noJ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 119678,
+      "createdOn": "2025-12-25T22:18:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db81f1c508c5d5e100c86",
+          "products": [
+            {
+              "_id": "694db8201c508c5d5e100cd7",
+              "name": "Chair3101",
+              "amount": 77,
+              "price": 80542,
+              "manufacturer": "Samsung",
+              "notes": "JNUHEZoKZ5EwCcZwLs8NkdC6efF6POowDN0ooPkv1pqWExRh54r4CUYWs5HzT4GkVECRNsVv4fQ5HEKGROfYCA7FivE5MxcUvyT48q2vewErsbyqhSCscyc4osDrcatOjScn6kxwVR46QHMfmPonB1NdMUC0QItLD8qqFBunIX4uuuQt33MChEalDah4hFUmNkgUdum4fOvpshtxwnQfIhWANRXKmzwNL6htoeigaD8tPKhN2sRCqAJVT4",
+              "received": false
+            },
+            {
+              "_id": "694db8231c508c5d5e101182",
+              "name": "Computer4863",
+              "amount": 386,
+              "price": 39136,
+              "manufacturer": "Amazon",
+              "notes": "pL0eTyB8l6kVhDNJCilHNz9IttRFQClq6dchIU1vmWqP9LSz3mPZctdxu05gWjQfCRU7h5MhO126spSWb0aRwGxi1iqaQ7Xy28I21uoNille4UwRMcQKogXokQsvnC55WIRlPWZPyHlRjV5BQXsN6yswRUCXEkI3WakaZlgjh5TVXrUeF7XVPlNPCTzlkZnSnD32QKOMLCHemUb3qlpm7doHElr3VLFods4YUOBCrd1qRiaDXgtS580noJ",
+              "received": false
+            }
+          ],
+          "total_price": 119678,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:18:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694db82c1c508c5d5e10162f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

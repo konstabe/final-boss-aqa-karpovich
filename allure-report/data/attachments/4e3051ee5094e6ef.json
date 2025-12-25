@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:17:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-nQeCnB+ifK/ya2+y+HEetbr12wg\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694db7ed1c508c5d5e0fe734",
+        "email": "Sherwood15@hotmail.com",
+        "name": "Shawna Cremin",
+        "country": "France",
+        "city": "East Kirstinmouth",
+        "street": "Maegan Loop",
+        "house": 14,
+        "flat": 161,
+        "phone": "+19648588677",
+        "createdOn": "2025-12-25T22:17:17.000Z",
+        "notes": "JJFa2x3lYnJHeXBUkipmDNNpYqpEr5NEbVvyZdFSnjxkHkwDhmrtorTw8KEU5PK0gfSvFcWYJsFykhZaq0AdqEFINGdjR736Mt60yX2o3DxOFQi9pQiaDVNuOmt0B38qjExhSRMLo2t3R8DzyETwIDwgx03q9yhrpbbWCVLIeMRbCQBEh0BS2uuDwxyInnN2uJ0oR0pVoLrf6RpXxt3fZYhhsLl5RBQ7vvF3pZc1pzB7LNZREX4D4EtWz5"
+      },
+      "products": [
+        {
+          "_id": "694db7f01c508c5d5e0fe97f",
+          "name": "Gloves30858",
+          "amount": 349,
+          "price": 98319,
+          "manufacturer": "Google",
+          "notes": "UVeFal2AmS2fUJpSuS7JeSymhDBpHM2OFBBanRGGrzIQ29nwfNvmzhrib42JRx553umuwm4sazHdejPoPMQAXfoe37M1IeHwOh3xyOKuVTYY9nnaq6xo20mPthjCDgZf5AKTUvOsEngZI1FhXpre88mKUJUs43lJg32KmYbNZrLVaDW3yJ8FvxlvI37Hac7vJYlnLLJ4RD2FTUy16oQBxdvI8k1a7IRoPUrnGbOCEu7GtEmGQpybLTp6W1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98319,
+      "createdOn": "2025-12-25T22:17:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db7ed1c508c5d5e0fe734",
+          "products": [
+            {
+              "_id": "694db7f01c508c5d5e0fe97f",
+              "name": "Gloves30858",
+              "amount": 349,
+              "price": 98319,
+              "manufacturer": "Google",
+              "notes": "UVeFal2AmS2fUJpSuS7JeSymhDBpHM2OFBBanRGGrzIQ29nwfNvmzhrib42JRx553umuwm4sazHdejPoPMQAXfoe37M1IeHwOh3xyOKuVTYY9nnaq6xo20mPthjCDgZf5AKTUvOsEngZI1FhXpre88mKUJUs43lJg32KmYbNZrLVaDW3yJ8FvxlvI37Hac7vJYlnLLJ4RD2FTUy16oQBxdvI8k1a7IRoPUrnGbOCEu7GtEmGQpybLTp6W1",
+              "received": false
+            }
+          ],
+          "total_price": 98319,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:17:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694db7f01c508c5d5e0fe9af"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

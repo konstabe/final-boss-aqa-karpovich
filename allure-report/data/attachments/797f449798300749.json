@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:17:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-G1icYH/vWtWoxx/aF0TLGkaDJRk\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694db7f01c508c5d5e0fe9aa",
+        "email": "Lou_Rodriguez37@gmail.com",
+        "name": "Deontae Hettinger",
+        "country": "Great Britain",
+        "city": "Hilo",
+        "street": "E Church Street",
+        "house": 45,
+        "flat": 292,
+        "phone": "+16529955771",
+        "createdOn": "2025-12-25T22:17:20.000Z",
+        "notes": "UVVUBKjPRWDTSo0f7xmLrZKzo0mcEb5hf2EItUbBKhCvnWBTLoNOAb4ZdOCasDDom6LLG2cmOGqnFcuCd57jGR2yucWepwvEgGdaYv8eJB90i8yOH9ai555C08l276VPzMoJiU6PtDORZ0Eid6aNibjQseYmAZqqG0AecurSntSAqBvntCCCom3MIlq9r5zzFfcJTQjQs0GieiJAqbcQexCUh6Bdv3wFuZa2lt5SUGfxmtRXFTeGSf9s1D"
+      },
+      "products": [
+        {
+          "_id": "694db7f21c508c5d5e0feae4",
+          "name": "Mouse59374",
+          "amount": 462,
+          "price": 20944,
+          "manufacturer": "Tesla",
+          "notes": "Q5tD6gemnJwsqN2KMKMGvUsjVEqOad65egAi3iIt8e1xl3Qub6GFBQ05AQ9g4DMfD1I9U0YyVq9NE5iFTyFYPprsdrxoCOfak9dRF5w5JVMcwCJB2lKAXDeo9pelhiZIkJYzM4Q8G7d5DouUL7zlnYqsD6OepWlexLBsgI3rW2P8ZJG3qsBGTdb2bECpJ089XpcDwNCPhyBZSxj4iV5PfpF7iDpPRqfnLcWd9VQnFoGlg4PtoKtlAM3H45",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 20944,
+      "createdOn": "2025-12-25T22:17:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db7f01c508c5d5e0fe9aa",
+          "products": [
+            {
+              "_id": "694db7f21c508c5d5e0feae4",
+              "name": "Mouse59374",
+              "amount": 462,
+              "price": 20944,
+              "manufacturer": "Tesla",
+              "notes": "Q5tD6gemnJwsqN2KMKMGvUsjVEqOad65egAi3iIt8e1xl3Qub6GFBQ05AQ9g4DMfD1I9U0YyVq9NE5iFTyFYPprsdrxoCOfak9dRF5w5JVMcwCJB2lKAXDeo9pelhiZIkJYzM4Q8G7d5DouUL7zlnYqsD6OepWlexLBsgI3rW2P8ZJG3qsBGTdb2bECpJ089XpcDwNCPhyBZSxj4iV5PfpF7iDpPRqfnLcWd9VQnFoGlg4PtoKtlAM3H45",
+              "received": false
+            }
+          ],
+          "total_price": 20944,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:17:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694db7f21c508c5d5e0feb10"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

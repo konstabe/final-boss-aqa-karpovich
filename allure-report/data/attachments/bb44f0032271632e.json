@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:17:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2929",
+    "etag": "W/\"b71-rY/LIKY315C7hRYVt5hC9PpJFqA\"",
+    "keep-alive": "timeout=5, max=51",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694db8091c508c5d5e0ffe01",
+      "status": "Draft",
+      "customer": {
+        "_id": "694db8071c508c5d5e0ffba0",
+        "email": "Loma.Nitzsche@gmail.com",
+        "name": "Reta Johns",
+        "country": "USA",
+        "city": "Thornton",
+        "street": "Tressa Garden",
+        "house": 19,
+        "flat": 815,
+        "phone": "+17343167103",
+        "createdOn": "2025-12-25T22:17:43.000Z",
+        "notes": "ixjamCDLlbG7g2iiskvTGOsE1kUkWKzfzjkcHp0f2pGkID2QDnJWXgOEzhR6kvqjRbpxpgonisZ72Lf0fxZDfqQXAY4h6jr2Ox9LT5cK43vORCVwx8WyqYuQZzcPcrxiLauMKPsipk3mQOrMMvDJMBSsL66LgK7eFX76wc1kX4o7J5K3f1why7l904mQrDc6ydzZpY0UCXfrkMbbIQVkHLsqyem0v7b4p2pltWnyiJLoT491bICEc9qoJv"
+      },
+      "products": [
+        {
+          "_id": "694db8091c508c5d5e0ffd86",
+          "name": "Soap3527",
+          "amount": 4,
+          "price": 28626,
+          "manufacturer": "Microsoft",
+          "notes": "Ic6uZoIvswtVybIAbLKQdzGRAoAKmFvavkNbVGtggP2n8w7IOu2F2PIxJ3zbxQNwTvsC2vAGU4hQbv4Nhc11cNBZgMUsqu3uRm58A7oHUDfTrpRlBlkguzi61wj44iCY57w4vx4llO6rWW7SWnoQnXJczuG5Hm1Ooff7sGcGyODtuhEeqCvFwD1ob9jtj0lkELQtR33BP5dUW1Lv5FmdEjDBsplxzsCGGcpc9mQSPUaFd5t5NA1lVCOGid",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Thornton",
+          "street": "Tressa Garden",
+          "house": 19,
+          "flat": 815
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 28626,
+      "createdOn": "2025-12-25T22:17:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db8071c508c5d5e0ffba0",
+          "products": [
+            {
+              "_id": "694db8091c508c5d5e0ffd86",
+              "name": "Soap3527",
+              "amount": 4,
+              "price": 28626,
+              "manufacturer": "Microsoft",
+              "notes": "Ic6uZoIvswtVybIAbLKQdzGRAoAKmFvavkNbVGtggP2n8w7IOu2F2PIxJ3zbxQNwTvsC2vAGU4hQbv4Nhc11cNBZgMUsqu3uRm58A7oHUDfTrpRlBlkguzi61wj44iCY57w4vx4llO6rWW7SWnoQnXJczuG5Hm1Ooff7sGcGyODtuhEeqCvFwD1ob9jtj0lkELQtR33BP5dUW1Lv5FmdEjDBsplxzsCGGcpc9mQSPUaFd5t5NA1lVCOGid",
+              "received": false
+            }
+          ],
+          "total_price": 28626,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Thornton",
+              "street": "Tressa Garden",
+              "house": 19,
+              "flat": 815
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-25T22:17:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694db8071c508c5d5e0ffba0",
+          "products": [
+            {
+              "_id": "694db8091c508c5d5e0ffd86",
+              "name": "Soap3527",
+              "amount": 4,
+              "price": 28626,
+              "manufacturer": "Microsoft",
+              "notes": "Ic6uZoIvswtVybIAbLKQdzGRAoAKmFvavkNbVGtggP2n8w7IOu2F2PIxJ3zbxQNwTvsC2vAGU4hQbv4Nhc11cNBZgMUsqu3uRm58A7oHUDfTrpRlBlkguzi61wj44iCY57w4vx4llO6rWW7SWnoQnXJczuG5Hm1Ooff7sGcGyODtuhEeqCvFwD1ob9jtj0lkELQtR33BP5dUW1Lv5FmdEjDBsplxzsCGGcpc9mQSPUaFd5t5NA1lVCOGid",
+              "received": false
+            }
+          ],
+          "total_price": 28626,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:17:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

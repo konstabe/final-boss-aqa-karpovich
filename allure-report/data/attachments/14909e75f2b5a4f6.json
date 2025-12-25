@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:16:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-d4KoFGWteeiJqIAy1FVwVb5u8WY\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694db7d41c508c5d5e0fd3b0",
+        "email": "Isaac.Cremin@hotmail.com",
+        "name": "Lenny Goyette",
+        "country": "Belarus",
+        "city": "North Ayana",
+        "street": "Smith Street",
+        "house": 24,
+        "flat": 663,
+        "phone": "+19772613087",
+        "createdOn": "2025-12-25T22:16:52.000Z",
+        "notes": "jaoCqgNqu3NG26x22JZc2AJmmjnVK8mUQbh9xQFJ716wF8CpeVP643FHpNKalbxy5defOP92zjM1h3TSPXZ7pPa51Zy4D5aiLqeU0wWV6ggrxFqBc9kLaCBjsTnlVCuXx7OHyN4QSiGpSrVsABKk2ezPjFRyRZWEAq2RNRaCutGsc38LQ6CwOU4fquQTmS8P0RgtDkiOZav9cDNGX8gnZTdWd4CxnKsZMyw3zTGYEi2UQNzMASMkd4hLaz"
+      },
+      "products": [
+        {
+          "_id": "694db7d51c508c5d5e0fd3fd",
+          "name": "Gloves50761",
+          "amount": 280,
+          "price": 77727,
+          "manufacturer": "Amazon",
+          "notes": "knJedltUEB4XjMwDl8Reh6yLiggJ3svN7jsXSCAADN5u7lJ0TAtiUABMIXvlpq9TWgcO4qaHVPUQjypVtJVVqiIKLRo5z71lO2m7TcRSuGLRmqLiafk39jG4RbL7LsfoRmRJ2GCkn7P8NQsREXYvDQLHL5HkbToPSYc0RpU3BbqqMoeGY5XvCP7oJOBM9zWAXbiHdaJSBW5wBxJhoMHSAnu2eOzFDQhqPgnOx2PsKk5q0z7VeFYuI3Zmwc",
+          "received": false
+        },
+        {
+          "_id": "694db7d71c508c5d5e0fd592",
+          "name": "Fish89682",
+          "amount": 61,
+          "price": 3301,
+          "manufacturer": "Google",
+          "notes": "ZmJ7tZ2jNEwmJxqru3UcC5wLovScn5ru4Uw5yKgLXJXdl9xq7umxGIQXS0nNGT2D5ZsBvcv7sGb3WljILETBPJsFKbjrxluRcyZB7FIKSN01y9e0mw631xvGU08bmQub1tF0ZhrepFRS7G6AOmJKojoebYwRYWyo3r65bIHAtJC4rkPmkHfDbegKIntodEG5Iz4zsrmiMzs8MrEjRIqToEf3blaDfhee5HLC6cXUaoTglVs5gp6j5wvNMO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 81028,
+      "createdOn": "2025-12-25T22:16:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db7d41c508c5d5e0fd3b0",
+          "products": [
+            {
+              "_id": "694db7d51c508c5d5e0fd3fd",
+              "name": "Gloves50761",
+              "amount": 280,
+              "price": 77727,
+              "manufacturer": "Amazon",
+              "notes": "knJedltUEB4XjMwDl8Reh6yLiggJ3svN7jsXSCAADN5u7lJ0TAtiUABMIXvlpq9TWgcO4qaHVPUQjypVtJVVqiIKLRo5z71lO2m7TcRSuGLRmqLiafk39jG4RbL7LsfoRmRJ2GCkn7P8NQsREXYvDQLHL5HkbToPSYc0RpU3BbqqMoeGY5XvCP7oJOBM9zWAXbiHdaJSBW5wBxJhoMHSAnu2eOzFDQhqPgnOx2PsKk5q0z7VeFYuI3Zmwc",
+              "received": false
+            },
+            {
+              "_id": "694db7d71c508c5d5e0fd592",
+              "name": "Fish89682",
+              "amount": 61,
+              "price": 3301,
+              "manufacturer": "Google",
+              "notes": "ZmJ7tZ2jNEwmJxqru3UcC5wLovScn5ru4Uw5yKgLXJXdl9xq7umxGIQXS0nNGT2D5ZsBvcv7sGb3WljILETBPJsFKbjrxluRcyZB7FIKSN01y9e0mw631xvGU08bmQub1tF0ZhrepFRS7G6AOmJKojoebYwRYWyo3r65bIHAtJC4rkPmkHfDbegKIntodEG5Iz4zsrmiMzs8MrEjRIqToEf3blaDfhee5HLC6cXUaoTglVs5gp6j5wvNMO",
+              "received": false
+            }
+          ],
+          "total_price": 81028,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:16:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694db7d91c508c5d5e0fd7b1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

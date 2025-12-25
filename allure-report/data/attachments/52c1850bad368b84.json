@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:16:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-SqCFS82u3ZdmLsDyCXi24hIcjPc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694db7d41c508c5d5e0fd2e8",
+        "email": "Kristian_Grady@gmail.com",
+        "name": "Vergie Wilkinson",
+        "country": "France",
+        "city": "Raymundofort",
+        "street": "S Elm Street",
+        "house": 12,
+        "flat": 758,
+        "phone": "+12942734380",
+        "createdOn": "2025-12-25T22:16:52.000Z",
+        "notes": "GkvUk3rabBDj2OvNsUIf1ufTyqirsUKmITUlsHHarSLUnYTcWva3xWeZ9PLAltrB3UW8mAdtIHsN4Bh18r7b9mSFtdxWRmybEBPd3EDXojI6Skr0l7Ngb4v2lPvQqygLjA02QCJK2IOksFmWB4JLnrSovuXPs6rQuOfXSMXoFcYbw92vsf5pyIzxa7B5ikPb2P4gz5jUmAQtNs7DeuHlCiXVpVctBVs6jZSNKs2VmdORlE4Fs2qp5FwDek"
+      },
+      "products": [
+        {
+          "_id": "694db7d41c508c5d5e0fd3b2",
+          "name": "Pants229",
+          "amount": 954,
+          "price": 59978,
+          "manufacturer": "Microsoft",
+          "notes": "rp8tAhuWHc1ZKsR0VQ3ZGfmsd9YYDXYdYL2hbGhH7kgm5L0obcdKng0JvR4SCnHqLJ0lASzD3Z9RnoLoxE4KCAhP3WSfTuHbHBreuuQ9A5z2a1iBgb3f2W2waO6nJp9Pgyi5svxYd8hK1ia4Z5pkld8dN8rVNloV1mNbpLjBdgp8jPYNZ1KQJK7268Eqe1GDhJu61X0FqDmx9IKdyFvJq7afnRrb4k2Tt4JHuDzjATDJi4lJN609xuzgsb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 59978,
+      "createdOn": "2025-12-25T22:16:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db7d41c508c5d5e0fd2e8",
+          "products": [
+            {
+              "_id": "694db7d41c508c5d5e0fd3b2",
+              "name": "Pants229",
+              "amount": 954,
+              "price": 59978,
+              "manufacturer": "Microsoft",
+              "notes": "rp8tAhuWHc1ZKsR0VQ3ZGfmsd9YYDXYdYL2hbGhH7kgm5L0obcdKng0JvR4SCnHqLJ0lASzD3Z9RnoLoxE4KCAhP3WSfTuHbHBreuuQ9A5z2a1iBgb3f2W2waO6nJp9Pgyi5svxYd8hK1ia4Z5pkld8dN8rVNloV1mNbpLjBdgp8jPYNZ1KQJK7268Eqe1GDhJu61X0FqDmx9IKdyFvJq7afnRrb4k2Tt4JHuDzjATDJi4lJN609xuzgsb",
+              "received": false
+            }
+          ],
+          "total_price": 59978,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:16:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694db7d71c508c5d5e0fd525"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

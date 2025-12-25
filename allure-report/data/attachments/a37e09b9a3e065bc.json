@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:19:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3417",
+    "etag": "W/\"d59-tKPOijHxLx3gFo4Nosh8Pn0lDz0\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694db8711c508c5d5e10494d",
+        "email": "Evert12@hotmail.com",
+        "name": "Fletcher Jones",
+        "country": "Belarus",
+        "city": "Lindborough",
+        "street": "Hilpert Inlet",
+        "house": 31,
+        "flat": 33,
+        "phone": "+16924298949",
+        "createdOn": "2025-12-25T22:19:29.000Z",
+        "notes": "nfyTtPtWM6UDySSLH3MtiHGPvwhR8gWV8bcumKV9RbMmhttROU5ISDwuW8Y9v5eQxmk4piGbVvrNgQBz48Fa8XL0PBTovcLVprwOkVESaeDA6N0gkYzjk9yCYnlto4cSOIZsRWYXdxYVujbnpjDX7VbTIF6lCRzIyQoUhnBu1XKzcp5ZCFZW1DFQOGUSvzFfMEd83cVIIu1baQZdYhSaSQhyS6B7ac1ba5J2zrtqn1qI7xyIXtgqnF0f8M"
+      },
+      "products": [
+        {
+          "_id": "694db8711c508c5d5e104970",
+          "name": "Salad3391",
+          "amount": 675,
+          "price": 5261,
+          "manufacturer": "Microsoft",
+          "notes": "vkz6YNrgV27CcwkPv7oFgzRsgrWs4NqH4x9HlgAPxF313Sm0wah3btVhFfhAp7wksT9n8KxNGR4BryQCctCupxymHE7jRQkdfIg9Ww2p9JVKqzP8pYDevD0oxioqPMGQ51MnneY9rJkFPVZ7urAlxf6aYeuFpIZXQxxRSPBW2te4RDqjiEwVFC8SBpDoPSFe0fisqeOUFvQItQwNNLmKdr5WZJ9A8ljHP7vfQ8IsDE1flV4bJmm57thgdo",
+          "received": false
+        },
+        {
+          "_id": "694db8721c508c5d5e1049b3",
+          "name": "Pizza21572",
+          "amount": 620,
+          "price": 72060,
+          "manufacturer": "Tesla",
+          "notes": "0VhxaCNIUbFfwTIMKUvwDsD5Mg4V03JLsT5V7X8u6anlEERBzFO92KRDaPTBPwUO3aKDZhBJMc685MMtddVM6M1xUHqITa5irsBLzWQXwZWXgS7FNmcWOU17ND8HWZLsxPNCVh9NJNhUeRYicMkRwqcmvt3GUudkv7aDQsbrUyIcwIWIdxjbCtkSdWiYmDjFsVd86xX8UOrsNAXfNs8pVTLZzaoijckjPQ2vA6JixU5mJdPHTREjvEvLvS",
+          "received": false
+        },
+        {
+          "_id": "694db8721c508c5d5e1049d1",
+          "name": "Shirt29654",
+          "amount": 554,
+          "price": 54265,
+          "manufacturer": "Tesla",
+          "notes": "fzMDwTQCNp43bXIGS3k7w1ceBq8Pw8vUFgSV0MuHhYiUTs5aP6Mmtp0qVFoiCy1kKiSVRfND1A1xKRm89csjxzlWcJWEFGJav1moybPxFyAt7D5mztfJinuS9iWGKMeEkNK7nCea0Izti2kHVXQiQrtKWiZt1IiU71Dps3ZsRcAmXY3qeHMw3sNIuqvGmBewN1s6M4cSsKWYoScXkBQHq5XqeBkly2HYdEnkd6kjvJpBgTWTPgPADhyrpn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 131586,
+      "createdOn": "2025-12-25T22:19:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db8711c508c5d5e10494d",
+          "products": [
+            {
+              "_id": "694db8711c508c5d5e104970",
+              "name": "Salad3391",
+              "amount": 675,
+              "price": 5261,
+              "manufacturer": "Microsoft",
+              "notes": "vkz6YNrgV27CcwkPv7oFgzRsgrWs4NqH4x9HlgAPxF313Sm0wah3btVhFfhAp7wksT9n8KxNGR4BryQCctCupxymHE7jRQkdfIg9Ww2p9JVKqzP8pYDevD0oxioqPMGQ51MnneY9rJkFPVZ7urAlxf6aYeuFpIZXQxxRSPBW2te4RDqjiEwVFC8SBpDoPSFe0fisqeOUFvQItQwNNLmKdr5WZJ9A8ljHP7vfQ8IsDE1flV4bJmm57thgdo",
+              "received": false
+            },
+            {
+              "_id": "694db8721c508c5d5e1049b3",
+              "name": "Pizza21572",
+              "amount": 620,
+              "price": 72060,
+              "manufacturer": "Tesla",
+              "notes": "0VhxaCNIUbFfwTIMKUvwDsD5Mg4V03JLsT5V7X8u6anlEERBzFO92KRDaPTBPwUO3aKDZhBJMc685MMtddVM6M1xUHqITa5irsBLzWQXwZWXgS7FNmcWOU17ND8HWZLsxPNCVh9NJNhUeRYicMkRwqcmvt3GUudkv7aDQsbrUyIcwIWIdxjbCtkSdWiYmDjFsVd86xX8UOrsNAXfNs8pVTLZzaoijckjPQ2vA6JixU5mJdPHTREjvEvLvS",
+              "received": false
+            },
+            {
+              "_id": "694db8721c508c5d5e1049d1",
+              "name": "Shirt29654",
+              "amount": 554,
+              "price": 54265,
+              "manufacturer": "Tesla",
+              "notes": "fzMDwTQCNp43bXIGS3k7w1ceBq8Pw8vUFgSV0MuHhYiUTs5aP6Mmtp0qVFoiCy1kKiSVRfND1A1xKRm89csjxzlWcJWEFGJav1moybPxFyAt7D5mztfJinuS9iWGKMeEkNK7nCea0Izti2kHVXQiQrtKWiZt1IiU71Dps3ZsRcAmXY3qeHMw3sNIuqvGmBewN1s6M4cSsKWYoScXkBQHq5XqeBkly2HYdEnkd6kjvJpBgTWTPgPADhyrpn",
+              "received": false
+            }
+          ],
+          "total_price": 131586,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:19:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694db8731c508c5d5e1049f7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

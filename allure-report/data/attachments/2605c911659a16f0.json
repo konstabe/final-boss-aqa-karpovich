@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:18:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3417",
+    "etag": "W/\"d59-mG6Dsa1Jy4t8oLqsHs9e5UPUrVY\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694db81d1c508c5d5e100b9d",
+        "email": "Brett.Hettinger@yahoo.com",
+        "name": "Adalberto Frami",
+        "country": "USA",
+        "city": "East Orinboro",
+        "street": "Aidan Circles",
+        "house": 39,
+        "flat": 585,
+        "phone": "+18937990331",
+        "createdOn": "2025-12-25T22:18:05.000Z",
+        "notes": "nOmWNwxs7EKyIw10NaA99SOo1Psu9OfggilPUv629ruLejnzNWNAB4mJPyXPexsXb0DBrDxRTAJb5aahrIJcjZzoitK0W5utSkMBg6xlxA2l8xvcjObfartZVPmy7R0iZeqXUAwDFTLCFlM6KqZxcCiazYxegcEocJ2xnDJyNm5KEk5RaKltyNsY3Hc9Zl1NxWzY6evx9v2BDc6JnxzON9udTYB1sNqbLWbmHHpUnLilsiixlHtLNN4CBB"
+      },
+      "products": [
+        {
+          "_id": "694db81e1c508c5d5e100bce",
+          "name": "Chair17381",
+          "amount": 842,
+          "price": 1872,
+          "manufacturer": "Tesla",
+          "notes": "YRPNI3sroypASSWosJXVLDOq27huA2q52YYm6cCAVLibrOEKwtxXqeRBr0uLm4WdXH5ipsV9OERgzrVnp735DcJbkTaOU4DUEjzWxa2WhLOsQyCcA7CaIi3jXRstGCgI69gtgAZnKRu8vgOrTj5ksndO9vHHUjhA38lhIGKigrOGlvMmQKoNIyA8EAE8nxPoPtGkL5VjyW8XOySncXij2AbaC07mRuNcxpfKmf5QQ8KfuwBad5w6TYoMfU",
+          "received": false
+        },
+        {
+          "_id": "694db81e1c508c5d5e100c08",
+          "name": "Chair59579",
+          "amount": 474,
+          "price": 96097,
+          "manufacturer": "Apple",
+          "notes": "1o9TRsRfVsyG9lflAjPxP0EVGCGhbkxpFVYMOeJ5n2kRK3Wvadc3cqzFFtjfUFA4xLTmiAUJ0IreahVz3boodmURK9Wd7QRlq1ZfisjlhNeFeEzDYvVFRdaN3fxznhuTdnWSC5fPR7Y5u8DDJTg8KvgjykWPw6hvRvbHxutkVekvmSucUUgm0C723CzunXTbFMbpGNeqVInCYRcB2k4PmvKYGxGhkMRyUpQeGc1RweZK64UKEDABXEA4l4",
+          "received": false
+        },
+        {
+          "_id": "694db81f1c508c5d5e100c41",
+          "name": "Table42140",
+          "amount": 565,
+          "price": 79524,
+          "manufacturer": "Tesla",
+          "notes": "QDqTMAcpYvebulbyWYLKg2jCfS5OMDAVNaU9IPr9UZFgcbJRjoT5dae2cg0GVKGcxu1IgDK8747FFT6Fm0dZ2TYXmhMbomFttPMvmvJ5pyrtmKzQ60mdkKXTYtakOTntuPAEYZkhQiRTBtjxsykyjqZNoAaiv7jR1pMHSkRFi778BPZzWldaJtHJMthwCJxzTYK1pqQewGUSPRSqYAG92A8qGtLtLF4YtwqmFQW0C3AwKeXD8AMsrdnMFJ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 177493,
+      "createdOn": "2025-12-25T22:18:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db81d1c508c5d5e100b9d",
+          "products": [
+            {
+              "_id": "694db81e1c508c5d5e100bce",
+              "name": "Chair17381",
+              "amount": 842,
+              "price": 1872,
+              "manufacturer": "Tesla",
+              "notes": "YRPNI3sroypASSWosJXVLDOq27huA2q52YYm6cCAVLibrOEKwtxXqeRBr0uLm4WdXH5ipsV9OERgzrVnp735DcJbkTaOU4DUEjzWxa2WhLOsQyCcA7CaIi3jXRstGCgI69gtgAZnKRu8vgOrTj5ksndO9vHHUjhA38lhIGKigrOGlvMmQKoNIyA8EAE8nxPoPtGkL5VjyW8XOySncXij2AbaC07mRuNcxpfKmf5QQ8KfuwBad5w6TYoMfU",
+              "received": false
+            },
+            {
+              "_id": "694db81e1c508c5d5e100c08",
+              "name": "Chair59579",
+              "amount": 474,
+              "price": 96097,
+              "manufacturer": "Apple",
+              "notes": "1o9TRsRfVsyG9lflAjPxP0EVGCGhbkxpFVYMOeJ5n2kRK3Wvadc3cqzFFtjfUFA4xLTmiAUJ0IreahVz3boodmURK9Wd7QRlq1ZfisjlhNeFeEzDYvVFRdaN3fxznhuTdnWSC5fPR7Y5u8DDJTg8KvgjykWPw6hvRvbHxutkVekvmSucUUgm0C723CzunXTbFMbpGNeqVInCYRcB2k4PmvKYGxGhkMRyUpQeGc1RweZK64UKEDABXEA4l4",
+              "received": false
+            },
+            {
+              "_id": "694db81f1c508c5d5e100c41",
+              "name": "Table42140",
+              "amount": 565,
+              "price": 79524,
+              "manufacturer": "Tesla",
+              "notes": "QDqTMAcpYvebulbyWYLKg2jCfS5OMDAVNaU9IPr9UZFgcbJRjoT5dae2cg0GVKGcxu1IgDK8747FFT6Fm0dZ2TYXmhMbomFttPMvmvJ5pyrtmKzQ60mdkKXTYtakOTntuPAEYZkhQiRTBtjxsykyjqZNoAaiv7jR1pMHSkRFi778BPZzWldaJtHJMthwCJxzTYK1pqQewGUSPRSqYAG92A8qGtLtLF4YtwqmFQW0C3AwKeXD8AMsrdnMFJ",
+              "received": false
+            }
+          ],
+          "total_price": 177493,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:18:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694db8201c508c5d5e100ca7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

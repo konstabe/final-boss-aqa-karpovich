@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:17:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2642",
+    "etag": "W/\"a52-aVQFIKjmnAMXZ4LJbtF+Ou38T9I\"",
+    "keep-alive": "timeout=5, max=65",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694db7e41c508c5d5e0fdf9d",
+        "email": "Dagmar_Walker63@gmail.com",
+        "name": "Donald Renner",
+        "country": "Ukraine",
+        "city": "New Nyasia",
+        "street": "Bath Street",
+        "house": 33,
+        "flat": 628,
+        "phone": "+19452645535",
+        "createdOn": "2025-12-25T22:17:08.000Z",
+        "notes": "y0O9PUwf2PochPl2zsTeynkPck2TojBbVk00FeOeTRQkQXsXwl2XpPEmAKXunLW4RRDu2jXtrYZLRDRKSgkaeODL3LzNofBRMB6jEuBb6RFntdqD2eh3s6v0fnmUQEiE4bZxN9aUh8neucpxyACEc2GJc4IyoB6ftnahfJwlIw0qsJnxfGhweQSLqCeBzOdIORz8Gcp3yMfwY7tNupk0imu1HJ1N3a7V9cplUk2dBKumoircjzpvY0nWzL"
+      },
+      "products": [
+        {
+          "_id": "694db7e41c508c5d5e0fe007",
+          "name": "Bike1006",
+          "amount": 97,
+          "price": 258,
+          "manufacturer": "Apple",
+          "notes": "ht39pNsignBEKqZMC6C79fdzfLoHlfI5iGlM4gDjxWm4ETNWmdu5RMxVhwKmuNBkEKeVBeobTAu9lvWQS0rMSu7P8JMQzioopSEgpFIksJHWAJxSQDWbCrgsIBUmT8fo64JaKgwb9ngosMxSboEHCCTRar6QpduJFbPOdeUYS5Cyq1slfc1xombXbP5rl1LhvVkRubKwAoi8cPfAuT0NB9uYuN9MoPXl38n42IKohskE66WJb9sb94UYFd",
+          "received": false
+        },
+        {
+          "_id": "694db7e41c508c5d5e0fe027",
+          "name": "Gloves23844",
+          "amount": 790,
+          "price": 54893,
+          "manufacturer": "Xiaomi",
+          "notes": "86J8OwwEpSw7m8vJ0OtY4kvqBg7pY3lT5XHsuk9HTGSvqX3CoGzukgsFzM1XaqANbDjiItH2g9c2kjoo72bDqRgPvxdDYHCYXnpcfSKXNtfY1WvxblXyGTjMa81l3141FbBGUqrF7l22wkBBYKK3taaudDMBkVhMdLdNsIyKuwdJxu3HMKaNMWWGost3bJV0Td8vVZ6gTcW7WHCb4L8hYzLwwo1V4GyVMPodAtF0VxKkIBUjluL2ODATSj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55151,
+      "createdOn": "2025-12-25T22:17:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db7e41c508c5d5e0fdf9d",
+          "products": [
+            {
+              "_id": "694db7e41c508c5d5e0fe007",
+              "name": "Bike1006",
+              "amount": 97,
+              "price": 258,
+              "manufacturer": "Apple",
+              "notes": "ht39pNsignBEKqZMC6C79fdzfLoHlfI5iGlM4gDjxWm4ETNWmdu5RMxVhwKmuNBkEKeVBeobTAu9lvWQS0rMSu7P8JMQzioopSEgpFIksJHWAJxSQDWbCrgsIBUmT8fo64JaKgwb9ngosMxSboEHCCTRar6QpduJFbPOdeUYS5Cyq1slfc1xombXbP5rl1LhvVkRubKwAoi8cPfAuT0NB9uYuN9MoPXl38n42IKohskE66WJb9sb94UYFd",
+              "received": false
+            },
+            {
+              "_id": "694db7e41c508c5d5e0fe027",
+              "name": "Gloves23844",
+              "amount": 790,
+              "price": 54893,
+              "manufacturer": "Xiaomi",
+              "notes": "86J8OwwEpSw7m8vJ0OtY4kvqBg7pY3lT5XHsuk9HTGSvqX3CoGzukgsFzM1XaqANbDjiItH2g9c2kjoo72bDqRgPvxdDYHCYXnpcfSKXNtfY1WvxblXyGTjMa81l3141FbBGUqrF7l22wkBBYKK3taaudDMBkVhMdLdNsIyKuwdJxu3HMKaNMWWGost3bJV0Td8vVZ6gTcW7WHCb4L8hYzLwwo1V4GyVMPodAtF0VxKkIBUjluL2ODATSj",
+              "received": false
+            }
+          ],
+          "total_price": 55151,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:17:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694db7e91c508c5d5e0fe3d5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

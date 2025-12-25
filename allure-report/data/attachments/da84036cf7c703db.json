@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:18:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3433",
+    "etag": "W/\"d69-RgsbhkdWp4IT0XCwwZHWC07KIdg\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694db81f1c508c5d5e100c6e",
+        "email": "Bailee32@gmail.com",
+        "name": "Ibrahim Reinger",
+        "country": "Great Britain",
+        "city": "Levittown",
+        "street": "Kara Stravenue",
+        "house": 14,
+        "flat": 784,
+        "phone": "+18247939759",
+        "createdOn": "2025-12-25T22:18:07.000Z",
+        "notes": "p4blVupXWRU57MV26l5c3aCe5C1k8eBE42YX8DmWxctjw7PcMljuVvR5nkUcfXNAXOR0GDJ3cRK0GSBQbghxvBwhYYzMW6YNICrftlRaDQYmwF7ZZCdeQe1XHNEA5ZK25k3l8TcXl1yA1Hi4nQt1qOlr48CSibm8w2zt2TksXB2R4GPEzrrl75gTXgJHYT5Ov7l1a8AWtNv5deYBO278LYynFOb0EQlUPo83DO9gI7UWoPbdcJSXv5pMfp"
+      },
+      "products": [
+        {
+          "_id": "694db8201c508c5d5e100ca4",
+          "name": "Towels49569",
+          "amount": 734,
+          "price": 50069,
+          "manufacturer": "Google",
+          "notes": "nNbEfQ8WEPH8Y03XFuRrTgEtAojfpu8HMEWsRmqvkm5pQS8DC4Xkhjb4HGlZBrpE1LlBKZ78smRavEPFw3FO32Yg8qVV4Tg9FbD8W0HK0lGlvBGVzPoX1kEqnfsq45g4MZemqF7duivLZMS1VctaPFxWQA8rqdLgDRoKZVNsR9xktP50Lz0aAanBhOdv9wQqmqH9sHR8kfPj68fwpmgQsacfdtJpiwD6gGtTUquroltv2H9eiShz0Qiqtm",
+          "received": false
+        },
+        {
+          "_id": "694db8201c508c5d5e100e02",
+          "name": "Pants99791",
+          "amount": 200,
+          "price": 87531,
+          "manufacturer": "Samsung",
+          "notes": "c8GrVwnaVmYggFi5nlmg27kCr0CK1x55SDHmVCdMXcIhMH14YIxQrtXZwLGkdD09g9a5dZ3ezMENrKEsIXNQVQUH9uhKaxIEn12SPqqCuggtPHWOS8pUB90CTTgpgy9sBB48qZQpGM6EqHXqY6DY812LoAjDtxdnY2VgaW82AHZbAIGbLPukBVGzV4V0mLDPLMQUXTXgjJwUitbHRSkYZgIBQxCFS0p3tqQ4fDZBiRKwWGTkGKn9ZnpuJZ",
+          "received": false
+        },
+        {
+          "_id": "694db8291c508c5d5e101610",
+          "name": "Mouse47720",
+          "amount": 843,
+          "price": 1750,
+          "manufacturer": "Microsoft",
+          "notes": "ae2M9e5n6XdP1U84agwYtZvZlSYLAOrapQNPsirfSh0m73QPCOStYMsPLOdnXDDZ6zK8r3O5e2cQXxh9jLb6IH8zNio3SOW2EsWimvSoSIaOMJlUsAlGe1ZeXfEMpd2mOnkR0kGHNzrrdcEz1cuKDz6GzsaL3oQJWSi51jnekopEePZmRHSbnJqmqnQJJVlHPEGyFkLkBqD7l7TWGmcxWqWEXvphqglUpiiaNhVHNNHig5F2ave1UNFQgh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 139350,
+      "createdOn": "2025-12-25T22:18:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db81f1c508c5d5e100c6e",
+          "products": [
+            {
+              "_id": "694db8201c508c5d5e100ca4",
+              "name": "Towels49569",
+              "amount": 734,
+              "price": 50069,
+              "manufacturer": "Google",
+              "notes": "nNbEfQ8WEPH8Y03XFuRrTgEtAojfpu8HMEWsRmqvkm5pQS8DC4Xkhjb4HGlZBrpE1LlBKZ78smRavEPFw3FO32Yg8qVV4Tg9FbD8W0HK0lGlvBGVzPoX1kEqnfsq45g4MZemqF7duivLZMS1VctaPFxWQA8rqdLgDRoKZVNsR9xktP50Lz0aAanBhOdv9wQqmqH9sHR8kfPj68fwpmgQsacfdtJpiwD6gGtTUquroltv2H9eiShz0Qiqtm",
+              "received": false
+            },
+            {
+              "_id": "694db8201c508c5d5e100e02",
+              "name": "Pants99791",
+              "amount": 200,
+              "price": 87531,
+              "manufacturer": "Samsung",
+              "notes": "c8GrVwnaVmYggFi5nlmg27kCr0CK1x55SDHmVCdMXcIhMH14YIxQrtXZwLGkdD09g9a5dZ3ezMENrKEsIXNQVQUH9uhKaxIEn12SPqqCuggtPHWOS8pUB90CTTgpgy9sBB48qZQpGM6EqHXqY6DY812LoAjDtxdnY2VgaW82AHZbAIGbLPukBVGzV4V0mLDPLMQUXTXgjJwUitbHRSkYZgIBQxCFS0p3tqQ4fDZBiRKwWGTkGKn9ZnpuJZ",
+              "received": false
+            },
+            {
+              "_id": "694db8291c508c5d5e101610",
+              "name": "Mouse47720",
+              "amount": 843,
+              "price": 1750,
+              "manufacturer": "Microsoft",
+              "notes": "ae2M9e5n6XdP1U84agwYtZvZlSYLAOrapQNPsirfSh0m73QPCOStYMsPLOdnXDDZ6zK8r3O5e2cQXxh9jLb6IH8zNio3SOW2EsWimvSoSIaOMJlUsAlGe1ZeXfEMpd2mOnkR0kGHNzrrdcEz1cuKDz6GzsaL3oQJWSi51jnekopEePZmRHSbnJqmqnQJJVlHPEGyFkLkBqD7l7TWGmcxWqWEXvphqglUpiiaNhVHNNHig5F2ave1UNFQgh",
+              "received": false
+            }
+          ],
+          "total_price": 139350,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:18:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694db82d1c508c5d5e101670"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

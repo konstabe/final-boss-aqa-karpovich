@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:17:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1893",
+    "etag": "W/\"765-NAbcvVTonBVKdgLur7H53ibecNM\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694db7f21c508c5d5e0feb1f",
+        "email": "Foster.Nicolas53@yahoo.com",
+        "name": "Bessie Abshire",
+        "country": "Canada",
+        "city": "Lake Ashly",
+        "street": "Lincoln Highway",
+        "house": 32,
+        "flat": 214,
+        "phone": "+15707107236",
+        "createdOn": "2025-12-25T22:17:22.000Z",
+        "notes": "0czYXiRQOHG95SbxZ5RQigrdxUCHW5F8tOdLdInlsvBbqeC1mA2REz1zO9uRqYWK0iticHJ8TFpZ5l3LtrmElE0pEn2sg4Ow22HRJfKCIDrxwxkNphkyycTFSiszMhfCxuHStmqC00wQawIC0Pc6a1RKqv9aqSGSoQNcnykg8Z7AxCX6jsQvCktkZZueX9ACkxVdObpxgdiqF2T7bnoLa0pw73P8h0mzKL7bRlSVKLSLhx2hxbvGbfFP7U"
+      },
+      "products": [
+        {
+          "_id": "694db7f41c508c5d5e0fec76",
+          "name": "Cheese67276",
+          "amount": 120,
+          "price": 18813,
+          "manufacturer": "Samsung",
+          "notes": "UyGy6t02dlqRB6eiYNbIytyKHVItPLtzKK5ldPuQWWKMjIk5mkTKd1ApKOLGdhCGrmu0pasbm6hojCuqyv0jHs0Xth7INF4pP1OOQp0D60BVA6wzRbT2CWIEs7Qdnr3v3GdLjWtSX62PN51DwGNB2p5Gg5ScY3neJtxM6d7yfe9TRxjL2sV36GsftZLbxC7Y7NLQP8OqvdscykfMOSQ8BoxBaMmFmCP0Ga9godMstECgMDABNxDNuEuo2V",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 18813,
+      "createdOn": "2025-12-25T22:17:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db7f21c508c5d5e0feb1f",
+          "products": [
+            {
+              "_id": "694db7f41c508c5d5e0fec76",
+              "name": "Cheese67276",
+              "amount": 120,
+              "price": 18813,
+              "manufacturer": "Samsung",
+              "notes": "UyGy6t02dlqRB6eiYNbIytyKHVItPLtzKK5ldPuQWWKMjIk5mkTKd1ApKOLGdhCGrmu0pasbm6hojCuqyv0jHs0Xth7INF4pP1OOQp0D60BVA6wzRbT2CWIEs7Qdnr3v3GdLjWtSX62PN51DwGNB2p5Gg5ScY3neJtxM6d7yfe9TRxjL2sV36GsftZLbxC7Y7NLQP8OqvdscykfMOSQ8BoxBaMmFmCP0Ga9godMstECgMDABNxDNuEuo2V",
+              "received": false
+            }
+          ],
+          "total_price": 18813,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:17:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694db7f91c508c5d5e0ff36f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

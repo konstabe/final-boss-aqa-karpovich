@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:19:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2647",
+    "etag": "W/\"a57-seaCzDwtU4gF0ep7Q5NFFYlk/pM\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694db8721c508c5d5e1049b1",
+        "email": "Corene4@hotmail.com",
+        "name": "Quinn Roob",
+        "country": "Russia",
+        "city": "Woodland",
+        "street": "Bryon Villages",
+        "house": 36,
+        "flat": 306,
+        "phone": "+12159634405",
+        "createdOn": "2025-12-25T22:19:30.000Z",
+        "notes": "QCt7oLPLtjEBQZ31W5YfvoQvPaJnO8Ahl1c3llFQfPfrb78ZGFuW7oaRbOifck8sVbEw8BoB0Lky3Ngo6qNgVEZkf298hsSrlBDKqekOKJJhOpo8lKMfOdzJRdZdDeBefMBf0lNuHO48QhzmsnJXHIecu5QG1CWbfgiyPkjga1xkMeuqmNDjdlBh9hdmubP0yyvkRNmkPA5uQGh3ayJ2oNgMkDnXYpAyUxjZvo6xvGKyKIMMBUfUT4asR1"
+      },
+      "products": [
+        {
+          "_id": "694db8721c508c5d5e1049ce",
+          "name": "Bacon48440",
+          "amount": 905,
+          "price": 61771,
+          "manufacturer": "Samsung",
+          "notes": "4btqfccccT3dRpBMiVwCBQ5hZvl0VLQU8Yj59jyIcXvoGYgGADz0zcOgaTdu2CoeugbHuQXYTbsKStWm15UQ9xoDGR563zHEvn2FuEVebhozW2DRDwDxAQpRZkhl364W7oLLfKkQJHfyFCy1Z25xuQfdlaGe1xJpIX1X6YfWQ21lqvkdEF6DvuCp4mZKK7vYVnNAjfZz79507Jc3wfJTBsun6ugAkxn740D8VrDYRcWDawFlQb4HsohaWO",
+          "received": false
+        },
+        {
+          "_id": "694db8731c508c5d5e1049ec",
+          "name": "Gloves29859",
+          "amount": 836,
+          "price": 25513,
+          "manufacturer": "Google",
+          "notes": "eyNomf2zz6k6j1p5cVBg4ezdO5v5kK0P7Q6NOzQmLSQNLlARk36UzGLsnIXn3mcj6Ao4emKxpeiA7CuTYAxgfFd6RgDnkWy57xVeZkwWGegIHu98kHugzlzvNO1G4whAt9VYQJwbEhz4thHCVMp4ZOaWxdNFsmqDvSYwVkYZLEIYuy8LTNQzTt0ZzA3zYNQZvS3tvOxEj1hkrHAVHQUpAVzo7qyscyOpHfWtgUMjRXlvbOSUYrZXe6R0QR",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 87284,
+      "createdOn": "2025-12-25T22:19:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db8721c508c5d5e1049b1",
+          "products": [
+            {
+              "_id": "694db8721c508c5d5e1049ce",
+              "name": "Bacon48440",
+              "amount": 905,
+              "price": 61771,
+              "manufacturer": "Samsung",
+              "notes": "4btqfccccT3dRpBMiVwCBQ5hZvl0VLQU8Yj59jyIcXvoGYgGADz0zcOgaTdu2CoeugbHuQXYTbsKStWm15UQ9xoDGR563zHEvn2FuEVebhozW2DRDwDxAQpRZkhl364W7oLLfKkQJHfyFCy1Z25xuQfdlaGe1xJpIX1X6YfWQ21lqvkdEF6DvuCp4mZKK7vYVnNAjfZz79507Jc3wfJTBsun6ugAkxn740D8VrDYRcWDawFlQb4HsohaWO",
+              "received": false
+            },
+            {
+              "_id": "694db8731c508c5d5e1049ec",
+              "name": "Gloves29859",
+              "amount": 836,
+              "price": 25513,
+              "manufacturer": "Google",
+              "notes": "eyNomf2zz6k6j1p5cVBg4ezdO5v5kK0P7Q6NOzQmLSQNLlARk36UzGLsnIXn3mcj6Ao4emKxpeiA7CuTYAxgfFd6RgDnkWy57xVeZkwWGegIHu98kHugzlzvNO1G4whAt9VYQJwbEhz4thHCVMp4ZOaWxdNFsmqDvSYwVkYZLEIYuy8LTNQzTt0ZzA3zYNQZvS3tvOxEj1hkrHAVHQUpAVzo7qyscyOpHfWtgUMjRXlvbOSUYrZXe6R0QR",
+              "received": false
+            }
+          ],
+          "total_price": 87284,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:19:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694db8731c508c5d5e104a22"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:17:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1895",
+    "etag": "W/\"767-Hjpet5UU+cgvRaPl7XwSZTpx+0c\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694db8091c508c5d5e0ffd84",
+        "email": "Lessie.Gottlieb63@hotmail.com",
+        "name": "Maudie Hodkiewicz",
+        "country": "Great Britain",
+        "city": "El Monte",
+        "street": "Belmont Road",
+        "house": 14,
+        "flat": 989,
+        "phone": "+18649254448",
+        "createdOn": "2025-12-25T22:17:45.000Z",
+        "notes": "iSC2d8Zjz4H0NQ10yNAa9Zed0YI3GM6SjZ3q1jImZagpCDVaqz22k9tfkmfIsnisaC68WbeJd6C4ObJoVvmss964W3XkKx3scalub1LTYVlngbaMoJy31OIGaDcc4Kto7Wdw6F7Bh8wvtqRljgZfvz96j9tRZsjtkFhdrX1QRMWQyHR0UTPxaStlK4LUxUN6LAa5EqqVuNIf8h2Yl8SBZah2rWPj4eYfddOn9bNP7O2NgaNA59uqjEaECp"
+      },
+      "products": [
+        {
+          "_id": "694db8091c508c5d5e0ffdf6",
+          "name": "Chair32135",
+          "amount": 909,
+          "price": 82382,
+          "manufacturer": "Apple",
+          "notes": "0QEiQdZ2uR8702TD01vU5xe22SyG6c1nW4B2zyHAoCdZbfCxTuB7fBNbhjBo1PJh3wIIrA2KzLkC8uAPt22CkkUizYEvipsi2UBm7HvwyuAGRVNELommghnpIhkPWNvn8Uhs8Cvf1bgOkLZ9NMmFu5CitFEUYlxRNUh5juEbsrsRLLIQtvxgbjsKFm7E2waRHzo8DZdeCTcimhuvDLQsM68m2GXpmwLGUceBF1FseNxGjK8rkaxkyh0m3p",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 82382,
+      "createdOn": "2025-12-25T22:17:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db8091c508c5d5e0ffd84",
+          "products": [
+            {
+              "_id": "694db8091c508c5d5e0ffdf6",
+              "name": "Chair32135",
+              "amount": 909,
+              "price": 82382,
+              "manufacturer": "Apple",
+              "notes": "0QEiQdZ2uR8702TD01vU5xe22SyG6c1nW4B2zyHAoCdZbfCxTuB7fBNbhjBo1PJh3wIIrA2KzLkC8uAPt22CkkUizYEvipsi2UBm7HvwyuAGRVNELommghnpIhkPWNvn8Uhs8Cvf1bgOkLZ9NMmFu5CitFEUYlxRNUh5juEbsrsRLLIQtvxgbjsKFm7E2waRHzo8DZdeCTcimhuvDLQsM68m2GXpmwLGUceBF1FseNxGjK8rkaxkyh0m3p",
+              "received": false
+            }
+          ],
+          "total_price": 82382,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:17:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694db8091c508c5d5e0ffe23"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

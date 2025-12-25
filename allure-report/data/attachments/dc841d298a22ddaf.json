@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:16:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1414",
+    "etag": "W/\"586-+GLgCKIs/ycRZ0NDucTk9kuvnYE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "694db7c71c508c5d5e0fc926",
+        "status": "Draft",
+        "customer": "694db7c71c508c5d5e0fc8e5",
+        "products": [
+          {
+            "_id": "694db7c71c508c5d5e0fc906",
+            "name": "Towels40838",
+            "amount": 789,
+            "price": 18664,
+            "manufacturer": "Xiaomi",
+            "notes": "UdOE2C6VdVej5Fx2IWFp0RXoFx85H2C4aXSomtFHiu1a3mQQPi6I2AonecQkU4a6y5u0JGT6T62J333qsEuufTQzVPOxT82i5KpAafMLAiYgO9IaieYRrsr1yqOQWNRZCLrvVLL7yNlIYoAJ9gqvvx94KecYLBZd3YYyHMzPU0zVuDnv4j90o3XEQd5Woe0VHa53ZHjKF4DmTEjpQyPcE7BPUu39410OfmihHS3I69MJMB8ZSmpP39V2jU",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 18664,
+        "createdOn": "2025-12-25T22:16:39.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "694db7c71c508c5d5e0fc8e5",
+            "products": [
+              {
+                "_id": "694db7c71c508c5d5e0fc906",
+                "name": "Towels40838",
+                "amount": 789,
+                "price": 18664,
+                "manufacturer": "Xiaomi",
+                "notes": "UdOE2C6VdVej5Fx2IWFp0RXoFx85H2C4aXSomtFHiu1a3mQQPi6I2AonecQkU4a6y5u0JGT6T62J333qsEuufTQzVPOxT82i5KpAafMLAiYgO9IaieYRrsr1yqOQWNRZCLrvVLL7yNlIYoAJ9gqvvx94KecYLBZd3YYyHMzPU0zVuDnv4j90o3XEQd5Woe0VHa53ZHjKF4DmTEjpQyPcE7BPUu39410OfmihHS3I69MJMB8ZSmpP39V2jU",
+                "received": false
+              }
+            ],
+            "total_price": 18664,
+            "delivery": null,
+            "changedOn": "2025-12-25T22:16:39.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953315",
+              "username": "student2@gmail.com",
+              "firstName": "Wilfrid",
+              "lastName": "Daugherty",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

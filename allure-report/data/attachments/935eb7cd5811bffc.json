@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:17:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2670",
+    "etag": "W/\"a6e-IixVGpUvI5CIhy67snhFtP3PlAE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694db7e41c508c5d5e0fdff2",
+        "email": "Hattie.Welch98@yahoo.com",
+        "name": "Fatima Kreiger",
+        "country": "Ukraine",
+        "city": "Port Constanceworth",
+        "street": "Felicita Mission",
+        "house": 16,
+        "flat": 864,
+        "phone": "+12697572323",
+        "createdOn": "2025-12-25T22:17:08.000Z",
+        "notes": "umM4blOAPTdoKkw2qb4jCTepjSLNN16GoOLZn8ngng3uil0m2H1CFDbbTP4ZFlGv7CRd2wtrjtp0s9IKJsUYnml8EhhSRJ0gRHE13JdeRALhm8AKG4Mewa52KIBGLVi12YhPbgwvMOcHKupJMARUaRqjnw1L4hQ8jlRWGf2UxtF0hyD69peOSeVnGoX2xdvL8sNGWlv6kSmOqr9u08kS8T5kpITtqai8fPHqiP3JCEq5N9EoajZmVUopmJ"
+      },
+      "products": [
+        {
+          "_id": "694db7e41c508c5d5e0fe00c",
+          "name": "Sausages44468",
+          "amount": 409,
+          "price": 78031,
+          "manufacturer": "Google",
+          "notes": "ZCcCS2IOs9XbMEPUt35wxybGFt75h0oPdZPInJqA9k9SSUdiTHwIOrmz0acfY0aSxQsv4c6DbrB0AqeQF4eXIj5MUK9fMxTqADQ1N3wQ1gSZe4nhyTbrCVlNrPE1haIZeQwMtl6EXBFYufuq0r0DoPrBusxYKbCuzxyLI8uzK5XEblKw8L8QS8tQeWBGWYaRiOP6E3QvUTXKtNiqnoG9Qyp4p2Nc8kbYnOGIeATyS3a2TJQavUzv3IHivF",
+          "received": false
+        },
+        {
+          "_id": "694db7e41c508c5d5e0fe02c",
+          "name": "Pizza7308",
+          "amount": 292,
+          "price": 16609,
+          "manufacturer": "Xiaomi",
+          "notes": "kCMHOONCLFJWhM2mUaJF6Vy97u5nzTzXGwZCQDPshjAGuiaflIcKtY64aX7vQ8iY5Jp94eYX5IOCdPLG0Zh6gSvJLV7gXXFIHzumcLlgbLqOOykRYiQrJVVfXUeFu9rqrTx5bPakBy4RLm7J6M332nTropdjpaH2QA4AE3WawfxYDCorQWrvoUJ8ujY44VBH4jZ7TFSttSiVPkmKnD6oIMZht6XNzmWvDKFZ1rCEmqizGuUx2WVkuMzwM9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94640,
+      "createdOn": "2025-12-25T22:17:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db7e41c508c5d5e0fdff2",
+          "products": [
+            {
+              "_id": "694db7e41c508c5d5e0fe00c",
+              "name": "Sausages44468",
+              "amount": 409,
+              "price": 78031,
+              "manufacturer": "Google",
+              "notes": "ZCcCS2IOs9XbMEPUt35wxybGFt75h0oPdZPInJqA9k9SSUdiTHwIOrmz0acfY0aSxQsv4c6DbrB0AqeQF4eXIj5MUK9fMxTqADQ1N3wQ1gSZe4nhyTbrCVlNrPE1haIZeQwMtl6EXBFYufuq0r0DoPrBusxYKbCuzxyLI8uzK5XEblKw8L8QS8tQeWBGWYaRiOP6E3QvUTXKtNiqnoG9Qyp4p2Nc8kbYnOGIeATyS3a2TJQavUzv3IHivF",
+              "received": false
+            },
+            {
+              "_id": "694db7e41c508c5d5e0fe02c",
+              "name": "Pizza7308",
+              "amount": 292,
+              "price": 16609,
+              "manufacturer": "Xiaomi",
+              "notes": "kCMHOONCLFJWhM2mUaJF6Vy97u5nzTzXGwZCQDPshjAGuiaflIcKtY64aX7vQ8iY5Jp94eYX5IOCdPLG0Zh6gSvJLV7gXXFIHzumcLlgbLqOOykRYiQrJVVfXUeFu9rqrTx5bPakBy4RLm7J6M332nTropdjpaH2QA4AE3WawfxYDCorQWrvoUJ8ujY44VBH4jZ7TFSttSiVPkmKnD6oIMZht6XNzmWvDKFZ1rCEmqizGuUx2WVkuMzwM9",
+              "received": false
+            }
+          ],
+          "total_price": 94640,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:17:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694db7e91c508c5d5e0fe3e6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

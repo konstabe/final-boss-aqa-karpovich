@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:17:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2942",
+    "etag": "W/\"b7e-gQU8p1f82upNr6YA1FR2MFS3XV8\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694db7dd1c508c5d5e0fda2a",
+      "status": "Draft",
+      "customer": {
+        "_id": "694db7d71c508c5d5e0fd58f",
+        "email": "Jace92@gmail.com",
+        "name": "Emerald Hoeger",
+        "country": "Great Britain",
+        "city": "Cronachester",
+        "street": "N Franklin Street",
+        "house": 7,
+        "flat": 647,
+        "phone": "+19055440524",
+        "createdOn": "2025-12-25T22:16:55.000Z",
+        "notes": "lkfj4UZO1pyUvFwbzbnzK4SiIrtRAnb2LGusw2qWuxhETTCrVOVDh1BxfsQhzdbdAY2BMRBUOxxu0C621gMpMgz82njvFm7X9qIkVEHfH6C4LLOH5pBWL7Ok5OI1M9PCie5cTprEB43dgEcavxbydi0PbdHvEu9M6BJ4OyoBIG1zz1qqs8fvUamPl8aGlYLSFXQOCDPJbIqTXBiHfzJO26V69gAZu9DGmR6WKdfuTbgY2z6ayq6ZogygtS"
+      },
+      "products": [
+        {
+          "_id": "694db7d91c508c5d5e0fd70b",
+          "name": "Chips49514",
+          "amount": 373,
+          "price": 41659,
+          "manufacturer": "Apple",
+          "notes": "TW3yR914Ff0dnz3fLJQXhUBbFM4haxzxnHUUYdBkMs9bha5sEpniUR9TRiKHn9VoJFY1khj1Stpw9ULynQTADGpGpcCNvMbw19XyCUJGvnjKgOPCqxHxQzboFvw8aRXxtouxcCyArmNz5DiwdTy7TSwRlNUBUjprwUbemB0DEOewZBNXGL7wYwDL3sJpRUE8mAO5mtuMqzbyCfsbAPE91LEHsdDhwskG8whdPJ82S7orDTKhMUgOaWFlAU",
+          "received": false
+        },
+        {
+          "_id": "694db7db1c508c5d5e0fd8e0",
+          "name": "Pants66592",
+          "amount": 635,
+          "price": 31631,
+          "manufacturer": "Samsung",
+          "notes": "4CAieoX9R8HQ7gdTIrG1z5cLrC0a2fR4gEgdGMdgydfIbgVrWy25zaDFIlkxhMZIbDjVs3QCtbv5GXOLxrKhnJnTVZEDRkvYTF9FI5HqF6nBy40yTXHT6XhaeqcPxmX8jWM7Sa4XvfCbYSPCJcVihHlSr5LiciwiDm7vL7JAQhRFRdZMzg2Tmgv9DNTdP6Qj6xdLRMTeQL0kbCxOzhsInwb0tP4ettDMFSppJLzZA8ftt7dnwR065UYGsh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 73290,
+      "createdOn": "2025-12-25T22:17:01.000Z",
+      "comments": [
+        {
+          "text": "Fq96OApHt621F3XKRVhDoBw2kny0XCYD7iUS7P4DOL31gAyos1HT338wtRjdipVQXodyNBHTA3HfAQB2HIs75AaxkGqtC5po6SuWtTfmY2aRZMAYdiwu9K12CnnlE1Qosez7HYBw0izRrgcJvpc21SvQl40EK3VC9QZ2oPcKaqg4YvsL34HSNfdvjf9Tq84KtzdW7s1C <",
+          "createdOn": "2025-12-25T22:17:01.000Z",
+          "_id": "694db7dd1c508c5d5e0fdb03"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db7d71c508c5d5e0fd58f",
+          "products": [
+            {
+              "_id": "694db7d91c508c5d5e0fd70b",
+              "name": "Chips49514",
+              "amount": 373,
+              "price": 41659,
+              "manufacturer": "Apple",
+              "notes": "TW3yR914Ff0dnz3fLJQXhUBbFM4haxzxnHUUYdBkMs9bha5sEpniUR9TRiKHn9VoJFY1khj1Stpw9ULynQTADGpGpcCNvMbw19XyCUJGvnjKgOPCqxHxQzboFvw8aRXxtouxcCyArmNz5DiwdTy7TSwRlNUBUjprwUbemB0DEOewZBNXGL7wYwDL3sJpRUE8mAO5mtuMqzbyCfsbAPE91LEHsdDhwskG8whdPJ82S7orDTKhMUgOaWFlAU",
+              "received": false
+            },
+            {
+              "_id": "694db7db1c508c5d5e0fd8e0",
+              "name": "Pants66592",
+              "amount": 635,
+              "price": 31631,
+              "manufacturer": "Samsung",
+              "notes": "4CAieoX9R8HQ7gdTIrG1z5cLrC0a2fR4gEgdGMdgydfIbgVrWy25zaDFIlkxhMZIbDjVs3QCtbv5GXOLxrKhnJnTVZEDRkvYTF9FI5HqF6nBy40yTXHT6XhaeqcPxmX8jWM7Sa4XvfCbYSPCJcVihHlSr5LiciwiDm7vL7JAQhRFRdZMzg2Tmgv9DNTdP6Qj6xdLRMTeQL0kbCxOzhsInwb0tP4ettDMFSppJLzZA8ftt7dnwR065UYGsh",
+              "received": false
+            }
+          ],
+          "total_price": 73290,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:17:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

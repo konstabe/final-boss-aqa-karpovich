@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:19:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3437",
+    "etag": "W/\"d6d-onl6KQtkEYYINVO74nRBG0Tl33c\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694db8711c508c5d5e10494f",
+        "email": "Giuseppe_Auer-Frami89@hotmail.com",
+        "name": "Leann Hilll",
+        "country": "USA",
+        "city": "Palm Beach Gardens",
+        "street": "E 1st Street",
+        "house": 16,
+        "flat": 424,
+        "phone": "+12148710501",
+        "createdOn": "2025-12-25T22:19:29.000Z",
+        "notes": "5qp7flRHVclSYHZdH0uxx09HdOitv8odevdIFYwlMoVz2ZvUKCkerFA7WP7VvlUPVK9A4sR4U5bFiVnHF4e8o1MfKRnLE94SS2fKjZabaBsyOKCZ8N4Imv1zcm13MXEjeJUsxTRbxf6q3se9NqvQvtVuQCwbccFN70xaOcOpb97F6kvSxh03GkJJeGs64ggljtZ570haBU1B2HsfKbfXyZtoyDnV5pXfYAvMODilUH34VWXlJ2E9j2n6P6"
+      },
+      "products": [
+        {
+          "_id": "694db8711c508c5d5e10496d",
+          "name": "Pizza79628",
+          "amount": 301,
+          "price": 86532,
+          "manufacturer": "Microsoft",
+          "notes": "XTI5Mw5uM9CD8H6XNukzJdT2F6p8AYr3WqJ7R4R3qGhN1AJ88vK7NYt6a01HHwjcZMG0DjJdwFjb47aWCVfJSkAJZ9LvCtKsyW7AZ1xGbdcoSJgCLHu9ZoLwQ00fEg2oXmcqThWKEKcuhEci4cJcwhWMbywQalWRed5j6tj4U5d2XAzl4Z80QAUFwM4L4TmOWdR17Wz8zKJARDt8wrra4s4QYrYVMNOCf06l3m8n8Zbjcw5qtMjNHWzs8Q",
+          "received": false
+        },
+        {
+          "_id": "694db8721c508c5d5e1049a7",
+          "name": "Bike75973",
+          "amount": 403,
+          "price": 44695,
+          "manufacturer": "Google",
+          "notes": "5YrKzXY6oviTvQ7OOyOj6geMofEzWI79Rkxp3NYYNsC2szmOnWrnVsF3vHKfrnVjcebzUY7Gz96o8jtn8OMe8Fzqs6lRCgXFohqAcgeyPWXVubwyGuQyok4p1GVB4urZB5K5RsQCcMBSUVji3W9HF8O06YKk9QEgbeyEQHMKgqyQDq9sGKp52BKNKwyBgW3QvgZSmoUqiKiasOC1vr4x6xFfZBzYmSHXLJW5avNx8qtzcitFyiprzLfGIQ",
+          "received": false
+        },
+        {
+          "_id": "694db8721c508c5d5e1049c4",
+          "name": "Bacon96147",
+          "amount": 581,
+          "price": 29654,
+          "manufacturer": "Google",
+          "notes": "3KpKuOGJehTJTwEEOJRmCRqlTYyqM0ygaoxlR1CN0RxKIoLTd8OlfWXoUuvzyPvjDURZNZgavsUzBIvAZoOoT98M3T7OXvJJwVnR2h5U7T2R3JGvAyDllqvc9aux8MmI7YerM0Q6u3NmCHBQybpElwfa3hlwtnxWvi2Y2gb6BlQMVW5EJtAd7G7M3nSqbqZ51gXLTlZer5G78bxAEUdvmF0lLnrnzj7L1M7yg8psAGh5nKynVBmWm8myOZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 160881,
+      "createdOn": "2025-12-25T22:19:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db8711c508c5d5e10494f",
+          "products": [
+            {
+              "_id": "694db8711c508c5d5e10496d",
+              "name": "Pizza79628",
+              "amount": 301,
+              "price": 86532,
+              "manufacturer": "Microsoft",
+              "notes": "XTI5Mw5uM9CD8H6XNukzJdT2F6p8AYr3WqJ7R4R3qGhN1AJ88vK7NYt6a01HHwjcZMG0DjJdwFjb47aWCVfJSkAJZ9LvCtKsyW7AZ1xGbdcoSJgCLHu9ZoLwQ00fEg2oXmcqThWKEKcuhEci4cJcwhWMbywQalWRed5j6tj4U5d2XAzl4Z80QAUFwM4L4TmOWdR17Wz8zKJARDt8wrra4s4QYrYVMNOCf06l3m8n8Zbjcw5qtMjNHWzs8Q",
+              "received": false
+            },
+            {
+              "_id": "694db8721c508c5d5e1049a7",
+              "name": "Bike75973",
+              "amount": 403,
+              "price": 44695,
+              "manufacturer": "Google",
+              "notes": "5YrKzXY6oviTvQ7OOyOj6geMofEzWI79Rkxp3NYYNsC2szmOnWrnVsF3vHKfrnVjcebzUY7Gz96o8jtn8OMe8Fzqs6lRCgXFohqAcgeyPWXVubwyGuQyok4p1GVB4urZB5K5RsQCcMBSUVji3W9HF8O06YKk9QEgbeyEQHMKgqyQDq9sGKp52BKNKwyBgW3QvgZSmoUqiKiasOC1vr4x6xFfZBzYmSHXLJW5avNx8qtzcitFyiprzLfGIQ",
+              "received": false
+            },
+            {
+              "_id": "694db8721c508c5d5e1049c4",
+              "name": "Bacon96147",
+              "amount": 581,
+              "price": 29654,
+              "manufacturer": "Google",
+              "notes": "3KpKuOGJehTJTwEEOJRmCRqlTYyqM0ygaoxlR1CN0RxKIoLTd8OlfWXoUuvzyPvjDURZNZgavsUzBIvAZoOoT98M3T7OXvJJwVnR2h5U7T2R3JGvAyDllqvc9aux8MmI7YerM0Q6u3NmCHBQybpElwfa3hlwtnxWvi2Y2gb6BlQMVW5EJtAd7G7M3nSqbqZ51gXLTlZer5G78bxAEUdvmF0lLnrnzj7L1M7yg8psAGh5nKynVBmWm8myOZ",
+              "received": false
+            }
+          ],
+          "total_price": 160881,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:19:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694db8721c508c5d5e1049e5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

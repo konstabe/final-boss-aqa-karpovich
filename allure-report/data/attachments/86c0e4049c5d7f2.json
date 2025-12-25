@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:16:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2955",
+    "etag": "W/\"b8b-q0vuXYjWGoSSF6w1ijkRJSuqgUc\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694db7d31c508c5d5e0fd208",
+      "status": "Draft",
+      "customer": {
+        "_id": "694db7d21c508c5d5e0fd169",
+        "email": "Serena_Raynor@gmail.com",
+        "name": "Conor Pfannerstill",
+        "country": "Germany",
+        "city": "Ziemannton",
+        "street": "Merl Throughway",
+        "house": 4,
+        "flat": 502,
+        "phone": "+18715046787",
+        "createdOn": "2025-12-25T22:16:50.000Z",
+        "notes": "toztZc0BTeaHdYi3luq4VPLsUjr5ULvC17JItoxvQwA4zifon6zDEsAUpw8AOsMNJO19JphkyTuC2orNQbeTJMjljs1Zb3yQckpnefzueF4qUjf0Xb026YwXVdwnLzmTNBZJ2Sq8nhLZZbM1DtMPDYnxkBjqvMIOy8rRMGfV5VyX7lWUw2otqOCPEeimKGJQYB0zbIdGpIGiDYtrvDXVd7tmKcwa5BplFFwYAAXyxcMh5lr7ebyGvyEnaS"
+      },
+      "products": [
+        {
+          "_id": "694db7d21c508c5d5e0fd1ce",
+          "name": "Sausages15782",
+          "amount": 756,
+          "price": 9162,
+          "manufacturer": "Amazon",
+          "notes": "VpoxZt7E5LPsbcw941iMUEDK2sObe184bRGRj6Syw9ydmumvqBxKeacsvkVmRyTdZsLMSjwYoDxcAVA3248NcjzIGZwzkYAvnXRNmml3jprPqck5GEKFEUHbqiL11Z9IrszksmuxCj0fnglQkY1XSXC9whbQECvU2A8UkvHmQhyVxTJxcGQEqRBwotkZ2dHQs4IsJl39PrRiohNDJMyDxSk5pDf4GedvU4YbbR6VDh5M6GfAVLA68zGCfv",
+          "received": false
+        },
+        {
+          "_id": "694db7d21c508c5d5e0fd1df",
+          "name": "Shirt59925",
+          "amount": 28,
+          "price": 92686,
+          "manufacturer": "Xiaomi",
+          "notes": "ZFsbMVOGzc3VhMq5wlS8MYOLL5XDvkm1g220hxDr6yU4ANGMr0Mp5X8mNyGLs3br5d5dWENzqH1BE1HvxJNEt0JLKVxq4259U69cu8G0VSLCUsbDOnx4Hj6XryIGAKGI9y0lHvMoGpPF3pS56y88vtQ8mjcJ8ttJn8nAwBvor33dcIaZcT5gYyCikRH5R3a1DHkNJuMUgYuPnSvlrYSiDE2Cbd2EmpexIRh6LWWLFCsBXOlciDj5KQ7LGg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 101848,
+      "createdOn": "2025-12-25T22:16:51.000Z",
+      "comments": [
+        {
+          "text": "<script>LQUj01mIjyUNqrRrOREoF7AUfwYolpbNwB1qZATm0vbKuh6N2z1dUB770i2DYsMHCpCg2Cc5gf2WmxhIc6sX4JEs4jIhph8FUoVFHFG0MMkSueowkAqjj3f9M9bg8wH12oTGHIHB8m68OLFXdmvus8dvCoFr63BO13Ra7T4fu3FoJ5tLciBvDcsmcMJ8mTjaiIwzkZk9 >",
+          "createdOn": "2025-12-25T22:16:51.000Z",
+          "_id": "694db7d31c508c5d5e0fd283"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db7d21c508c5d5e0fd169",
+          "products": [
+            {
+              "_id": "694db7d21c508c5d5e0fd1ce",
+              "name": "Sausages15782",
+              "amount": 756,
+              "price": 9162,
+              "manufacturer": "Amazon",
+              "notes": "VpoxZt7E5LPsbcw941iMUEDK2sObe184bRGRj6Syw9ydmumvqBxKeacsvkVmRyTdZsLMSjwYoDxcAVA3248NcjzIGZwzkYAvnXRNmml3jprPqck5GEKFEUHbqiL11Z9IrszksmuxCj0fnglQkY1XSXC9whbQECvU2A8UkvHmQhyVxTJxcGQEqRBwotkZ2dHQs4IsJl39PrRiohNDJMyDxSk5pDf4GedvU4YbbR6VDh5M6GfAVLA68zGCfv",
+              "received": false
+            },
+            {
+              "_id": "694db7d21c508c5d5e0fd1df",
+              "name": "Shirt59925",
+              "amount": 28,
+              "price": 92686,
+              "manufacturer": "Xiaomi",
+              "notes": "ZFsbMVOGzc3VhMq5wlS8MYOLL5XDvkm1g220hxDr6yU4ANGMr0Mp5X8mNyGLs3br5d5dWENzqH1BE1HvxJNEt0JLKVxq4259U69cu8G0VSLCUsbDOnx4Hj6XryIGAKGI9y0lHvMoGpPF3pS56y88vtQ8mjcJ8ttJn8nAwBvor33dcIaZcT5gYyCikRH5R3a1DHkNJuMUgYuPnSvlrYSiDE2Cbd2EmpexIRh6LWWLFCsBXOlciDj5KQ7LGg",
+              "received": false
+            }
+          ],
+          "total_price": 101848,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:16:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
