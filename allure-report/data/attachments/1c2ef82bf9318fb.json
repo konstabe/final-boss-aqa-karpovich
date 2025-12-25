@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 19:47:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2643",
+    "etag": "W/\"a53-JOR90d5Zzi+3wB8HhbeVAZOg6Q0\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694d94c91c508c5d5e0ca8f2",
+        "email": "Vito98@hotmail.com",
+        "name": "Mohammed Kreiger",
+        "country": "France",
+        "city": "Langside",
+        "street": "Delmer Mews",
+        "house": 49,
+        "flat": 581,
+        "phone": "+12025068645",
+        "createdOn": "2025-12-25T19:47:21.000Z",
+        "notes": "qw3z0oswK8NgNJze1mtHcCpFGwrJsbELCpdGJqKkF2MjIo637Y04HRnuM9TZWNfPAIjnxiKqyf6YDj5ro9H0OBHMeytpjyV7QqDU0kfqyRYvGbi4k5lWFCaxKm7PKjCOLgRjNOjVvAQLJDeK8s3rvlpTmmK5RJ1yJ88UPUXryMQ94QKJ2dZ7Zd8ffKb3lr5APDkSQTHFsZMnySBYhvp3EOG7KQM3823dPhZGj00KRILuHUQIaqIhdtnzae"
+      },
+      "products": [
+        {
+          "_id": "694d94ca1c508c5d5e0ca914",
+          "name": "Towels58239",
+          "amount": 445,
+          "price": 27316,
+          "manufacturer": "Xiaomi",
+          "notes": "lbZ4m4sQhbZShnBOfC3gprfK9a8a8p6sa42z7qbiwpaYNPbk2GYU7Q5YW60Q5DiwBYIvZRipVnhPS4796B7ZUwsZlQXUbB7N1rRyrRhh2vOAsFnBbPpUSRoVsaGDFl7q2WZPM69yVUqwFO9SSnTBzbfG0ppmsMZbmyBg9qQPfYiXpxxAmlfcSBb289JQUTtT3yq34G4P2GeCgYcH7KGxXZ7aGzLMzzLfdwvGcy5bG4oWuc2alGODv688b2",
+          "received": false
+        },
+        {
+          "_id": "694d94ca1c508c5d5e0ca944",
+          "name": "Hat62070",
+          "amount": 510,
+          "price": 33061,
+          "manufacturer": "Xiaomi",
+          "notes": "U69pB3DKaTcKEeDF9MPPkSZBQVgm60T6WuS5XnDESiRlZI6upL7AfboU5kX5u4o8NB8dVm9oMngrIonFhqAIJ3vHiF4miJUqttELbkOIKVN8a9QIK30sBvkqBlAupUzrqoh73Qe81ZEbzbt0QehP7tnE69yXBNrb2VmeiR8RMSN0Pd3YYptKkuer7B8wUfK2JWMhQVuXcvOhJLw5IrP96Mtpcrt6jLz8gYVDzz6zQorVlQlkU0WIDqBBOu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 60377,
+      "createdOn": "2025-12-25T19:47:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d94c91c508c5d5e0ca8f2",
+          "products": [
+            {
+              "_id": "694d94ca1c508c5d5e0ca914",
+              "name": "Towels58239",
+              "amount": 445,
+              "price": 27316,
+              "manufacturer": "Xiaomi",
+              "notes": "lbZ4m4sQhbZShnBOfC3gprfK9a8a8p6sa42z7qbiwpaYNPbk2GYU7Q5YW60Q5DiwBYIvZRipVnhPS4796B7ZUwsZlQXUbB7N1rRyrRhh2vOAsFnBbPpUSRoVsaGDFl7q2WZPM69yVUqwFO9SSnTBzbfG0ppmsMZbmyBg9qQPfYiXpxxAmlfcSBb289JQUTtT3yq34G4P2GeCgYcH7KGxXZ7aGzLMzzLfdwvGcy5bG4oWuc2alGODv688b2",
+              "received": false
+            },
+            {
+              "_id": "694d94ca1c508c5d5e0ca944",
+              "name": "Hat62070",
+              "amount": 510,
+              "price": 33061,
+              "manufacturer": "Xiaomi",
+              "notes": "U69pB3DKaTcKEeDF9MPPkSZBQVgm60T6WuS5XnDESiRlZI6upL7AfboU5kX5u4o8NB8dVm9oMngrIonFhqAIJ3vHiF4miJUqttELbkOIKVN8a9QIK30sBvkqBlAupUzrqoh73Qe81ZEbzbt0QehP7tnE69yXBNrb2VmeiR8RMSN0Pd3YYptKkuer7B8wUfK2JWMhQVuXcvOhJLw5IrP96Mtpcrt6jLz8gYVDzz6zQorVlQlkU0WIDqBBOu",
+              "received": false
+            }
+          ],
+          "total_price": 60377,
+          "delivery": null,
+          "changedOn": "2025-12-25T19:47:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694d94ca1c508c5d5e0ca985"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

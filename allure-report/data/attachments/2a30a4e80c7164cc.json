@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 19:47:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2811",
+    "etag": "W/\"afb-mMF+NqDcPPmsKGInGzOs7Wze+RI\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d94ca1c508c5d5e0ca993",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d94c91c508c5d5e0ca8f4",
+        "email": "Vada_Pfeffer97@gmail.com",
+        "name": "Mose Armstrong",
+        "country": "Ukraine",
+        "city": "Pico Rivera",
+        "street": "N Poplar Street",
+        "house": 32,
+        "flat": 326,
+        "phone": "+16536027666",
+        "createdOn": "2025-12-25T19:47:21.000Z",
+        "notes": "s01PzUuxhwrMJznKcRrE90ME0gGfdii3ztVVUVwuL2Ex4siMbmtODxcHIvGIxZihYgHlOy6FHY5YwZIZ43hiq2W2rv4O3jGJX1vMuMWCVPBsLmZwYaD4Zvc9qHWT8ugC6Roi0Zxl1vFBWS35As4jE7oNYhiAVmgnm5ti874VKRIuTzejJaBDVfP6aleeJstONhMs9mqq7np1d5ao9URRyHA6hpj1J8Jtzq7WKxXXP7Dqdf6Z82VmOvMbPC"
+      },
+      "products": [
+        {
+          "_id": "694d94ca1c508c5d5e0ca918",
+          "name": "Fish60577",
+          "amount": 708,
+          "price": 69700,
+          "manufacturer": "Sony",
+          "notes": "PpLRs58APYZETNIRmZQXOYMBBN05sowc5bVgfAe9PNIkECPDUrkXP4qHad6EE26OZbs0fMo4f9VBFD1wn4GX0vdmfNEq5PsVpNbVjdANMWZdMhtjzNCEeNzNFKAKuTUHbpjTKc8fOW3phdj4sh2Fx2Dwr2OH2xhDs8fjMcyJtlGrjqaRjQ0LMdudx4sg2s7AywGoTZuTB8cFi2X7kW50IB52QRlAOSq9SX7XZpJOCvaW6aI2YCpIowPcbO",
+          "received": false
+        },
+        {
+          "_id": "694d94ca1c508c5d5e0ca94a",
+          "name": "Shoes18196",
+          "amount": 633,
+          "price": 50882,
+          "manufacturer": "Amazon",
+          "notes": "uzjWfwSEiaPPUzwDah7tiYdaRPcXADbaN6scHyZ97Q6vk7xNajBzmmBdr4JDYXTUIsFHrsb0ZwMJc0MSHpDAnKJaHTtBmeYB1RAECX04QumW3bsZsH9bpped4rUxCmOLi7Gmn28Se82wqs3BC3RXduAfsNrOKFSZl07Be8VHtJNfT0KcR0LEUwx5DoLUNj0hyRVGbT0eoQnf3S3TQTL0SK4gI4EWVgZZ9fcCXeDyLaGXxRuI0jOIcL2XQA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 120582,
+      "createdOn": "2025-12-25T19:47:22.000Z",
+      "comments": [
+        {
+          "text": "KqX2r04dJMeSPyBBgdpmBMBLKNGtpKCjnowRkyjBQq7P1xSkEjtMMIOkgNJl5ZxZNi1888Neln6",
+          "createdOn": "2025-12-25T19:47:23.000Z",
+          "_id": "694d94cc1c508c5d5e0caa7a"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d94c91c508c5d5e0ca8f4",
+          "products": [
+            {
+              "_id": "694d94ca1c508c5d5e0ca918",
+              "name": "Fish60577",
+              "amount": 708,
+              "price": 69700,
+              "manufacturer": "Sony",
+              "notes": "PpLRs58APYZETNIRmZQXOYMBBN05sowc5bVgfAe9PNIkECPDUrkXP4qHad6EE26OZbs0fMo4f9VBFD1wn4GX0vdmfNEq5PsVpNbVjdANMWZdMhtjzNCEeNzNFKAKuTUHbpjTKc8fOW3phdj4sh2Fx2Dwr2OH2xhDs8fjMcyJtlGrjqaRjQ0LMdudx4sg2s7AywGoTZuTB8cFi2X7kW50IB52QRlAOSq9SX7XZpJOCvaW6aI2YCpIowPcbO",
+              "received": false
+            },
+            {
+              "_id": "694d94ca1c508c5d5e0ca94a",
+              "name": "Shoes18196",
+              "amount": 633,
+              "price": 50882,
+              "manufacturer": "Amazon",
+              "notes": "uzjWfwSEiaPPUzwDah7tiYdaRPcXADbaN6scHyZ97Q6vk7xNajBzmmBdr4JDYXTUIsFHrsb0ZwMJc0MSHpDAnKJaHTtBmeYB1RAECX04QumW3bsZsH9bpped4rUxCmOLi7Gmn28Se82wqs3BC3RXduAfsNrOKFSZl07Be8VHtJNfT0KcR0LEUwx5DoLUNj0hyRVGbT0eoQnf3S3TQTL0SK4gI4EWVgZZ9fcCXeDyLaGXxRuI0jOIcL2XQA",
+              "received": false
+            }
+          ],
+          "total_price": 120582,
+          "delivery": null,
+          "changedOn": "2025-12-25T19:47:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

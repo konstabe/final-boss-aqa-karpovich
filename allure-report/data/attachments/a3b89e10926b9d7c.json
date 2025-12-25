@@ -1,0 +1,245 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 19:47:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6952",
+    "etag": "W/\"1b28-xvw4/802xd14ucirChmPkaBG54k\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d94d91c508c5d5e0cb401",
+      "status": "In Process",
+      "customer": {
+        "_id": "694d94d41c508c5d5e0cb013",
+        "email": "Ocie34@hotmail.com",
+        "name": "Delfina Luettgen",
+        "country": "Belarus",
+        "city": "Rock Hill",
+        "street": "Cummings Loop",
+        "house": 36,
+        "flat": 952,
+        "phone": "+17046989527",
+        "createdOn": "2025-12-25T19:47:32.000Z",
+        "notes": "68cUj4JbxffletX2kSDw4PYN9uMCnn22ctHQfQdnojNlbz2bjJDc7ClpcrLKMwGve0FDzUhVR0bnnU3a2C94U5M298H0Z9BLH1DGn0U01b0CsEKX4r6YUiQSCwMtfDL6MO3zXEauswbRRtCKlgG4lNRplQsndWz7NkxqwGUUIOfqtLrqRE7jJU0JSwctwMhWcF7YSM0aDS9t6mphPCCATukGveZc7CCLo4iPpOXm5nlYIB4pPY1qt1uyrl"
+      },
+      "products": [
+        {
+          "_id": "694d94d51c508c5d5e0cb0ec",
+          "name": "Shoes88446",
+          "amount": 842,
+          "price": 87083,
+          "manufacturer": "Apple",
+          "notes": "Jdwtzzt6ZZxvIcdwiL05u74RRjCKeHitvtYnEu9aJiCwnY7RwP0RJGPxSQzUmRcwSVPqCozexqtz2bKv9Tt1CveUIRJHY1HLWuHvRjeqJ8mgObNCY9xtM1HHThvUbtAVDBVrOZktjL5GOc9LrqzHoHgJUYA6RRngRuFgfFZisw5UoRDGqXh9ZOfBkpHWjkowCAs5cqcozPgt9qIph1s5AmH4wp8HNmxlSH1Ug8Du9iNCqFCHIZ7KvqnUQy",
+          "received": false
+        },
+        {
+          "_id": "694d94d51c508c5d5e0cb109",
+          "name": "Bacon33302",
+          "amount": 803,
+          "price": 72120,
+          "manufacturer": "Microsoft",
+          "notes": "g7QzQz8mis0DBWVNE0vMTeDVIebNYxv3k95Jla5oWiUakxJtJsBOKc5wkV9KLl6otOqtHbcE2jpaxTKtrxLhwVuoo1NZ2PZ2GQrvJqGxjIpDJAqZHSHJDksT2GLZHV1c5EjWayj6yTxe9Wxu07o0nB3JGG4qZmztNjW68hlIq8RoAkQo0qxFAJ6WBOLUR7LIe59dCn3ueSKkRcEWohuLbxd1GhCFH9KBfqZ5tuLUmxYTswEf8GoInWz27L",
+          "received": false
+        },
+        {
+          "_id": "694d94d91c508c5d5e0cb326",
+          "name": "Car86374",
+          "amount": 465,
+          "price": 50967,
+          "manufacturer": "Google",
+          "notes": "Ixc5482wPnvTcIATW66x5JNPxj7d7gedK3EkFg6YZdDKiKvk6yaBtPFlV0kohx3tarZQLV5rg65Oc8hNAAlXyAXpCbgQ3mStXBfJB6nwQdmaHiyMQiBqEtqxdxOVSF8S5Ez3aFwBe606lUtM4vjIkQbxzJ1JoL6jWmoCyWDb8QifboqhpTxAbVXE030O9BnShlK3E94VjvFI7dhCbHl2jwHv4rmvbmVtI5UUdNhJ4t7eurfBUCOkppVGm3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Rock Hill",
+          "street": "Cummings Loop",
+          "house": 36,
+          "flat": 952
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 210170,
+      "createdOn": "2025-12-25T19:47:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694d94d41c508c5d5e0cb013",
+          "products": [
+            {
+              "_id": "694d94d51c508c5d5e0cb0ec",
+              "name": "Shoes88446",
+              "amount": 842,
+              "price": 87083,
+              "manufacturer": "Apple",
+              "notes": "Jdwtzzt6ZZxvIcdwiL05u74RRjCKeHitvtYnEu9aJiCwnY7RwP0RJGPxSQzUmRcwSVPqCozexqtz2bKv9Tt1CveUIRJHY1HLWuHvRjeqJ8mgObNCY9xtM1HHThvUbtAVDBVrOZktjL5GOc9LrqzHoHgJUYA6RRngRuFgfFZisw5UoRDGqXh9ZOfBkpHWjkowCAs5cqcozPgt9qIph1s5AmH4wp8HNmxlSH1Ug8Du9iNCqFCHIZ7KvqnUQy",
+              "received": false
+            },
+            {
+              "_id": "694d94d51c508c5d5e0cb109",
+              "name": "Bacon33302",
+              "amount": 803,
+              "price": 72120,
+              "manufacturer": "Microsoft",
+              "notes": "g7QzQz8mis0DBWVNE0vMTeDVIebNYxv3k95Jla5oWiUakxJtJsBOKc5wkV9KLl6otOqtHbcE2jpaxTKtrxLhwVuoo1NZ2PZ2GQrvJqGxjIpDJAqZHSHJDksT2GLZHV1c5EjWayj6yTxe9Wxu07o0nB3JGG4qZmztNjW68hlIq8RoAkQo0qxFAJ6WBOLUR7LIe59dCn3ueSKkRcEWohuLbxd1GhCFH9KBfqZ5tuLUmxYTswEf8GoInWz27L",
+              "received": false
+            },
+            {
+              "_id": "694d94d91c508c5d5e0cb326",
+              "name": "Car86374",
+              "amount": 465,
+              "price": 50967,
+              "manufacturer": "Google",
+              "notes": "Ixc5482wPnvTcIATW66x5JNPxj7d7gedK3EkFg6YZdDKiKvk6yaBtPFlV0kohx3tarZQLV5rg65Oc8hNAAlXyAXpCbgQ3mStXBfJB6nwQdmaHiyMQiBqEtqxdxOVSF8S5Ez3aFwBe606lUtM4vjIkQbxzJ1JoL6jWmoCyWDb8QifboqhpTxAbVXE030O9BnShlK3E94VjvFI7dhCbHl2jwHv4rmvbmVtI5UUdNhJ4t7eurfBUCOkppVGm3",
+              "received": false
+            }
+          ],
+          "total_price": 210170,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Rock Hill",
+              "street": "Cummings Loop",
+              "house": 36,
+              "flat": 952
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-25T19:47:42.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d94d41c508c5d5e0cb013",
+          "products": [
+            {
+              "_id": "694d94d51c508c5d5e0cb0ec",
+              "name": "Shoes88446",
+              "amount": 842,
+              "price": 87083,
+              "manufacturer": "Apple",
+              "notes": "Jdwtzzt6ZZxvIcdwiL05u74RRjCKeHitvtYnEu9aJiCwnY7RwP0RJGPxSQzUmRcwSVPqCozexqtz2bKv9Tt1CveUIRJHY1HLWuHvRjeqJ8mgObNCY9xtM1HHThvUbtAVDBVrOZktjL5GOc9LrqzHoHgJUYA6RRngRuFgfFZisw5UoRDGqXh9ZOfBkpHWjkowCAs5cqcozPgt9qIph1s5AmH4wp8HNmxlSH1Ug8Du9iNCqFCHIZ7KvqnUQy",
+              "received": false
+            },
+            {
+              "_id": "694d94d51c508c5d5e0cb109",
+              "name": "Bacon33302",
+              "amount": 803,
+              "price": 72120,
+              "manufacturer": "Microsoft",
+              "notes": "g7QzQz8mis0DBWVNE0vMTeDVIebNYxv3k95Jla5oWiUakxJtJsBOKc5wkV9KLl6otOqtHbcE2jpaxTKtrxLhwVuoo1NZ2PZ2GQrvJqGxjIpDJAqZHSHJDksT2GLZHV1c5EjWayj6yTxe9Wxu07o0nB3JGG4qZmztNjW68hlIq8RoAkQo0qxFAJ6WBOLUR7LIe59dCn3ueSKkRcEWohuLbxd1GhCFH9KBfqZ5tuLUmxYTswEf8GoInWz27L",
+              "received": false
+            },
+            {
+              "_id": "694d94d91c508c5d5e0cb326",
+              "name": "Car86374",
+              "amount": 465,
+              "price": 50967,
+              "manufacturer": "Google",
+              "notes": "Ixc5482wPnvTcIATW66x5JNPxj7d7gedK3EkFg6YZdDKiKvk6yaBtPFlV0kohx3tarZQLV5rg65Oc8hNAAlXyAXpCbgQ3mStXBfJB6nwQdmaHiyMQiBqEtqxdxOVSF8S5Ez3aFwBe606lUtM4vjIkQbxzJ1JoL6jWmoCyWDb8QifboqhpTxAbVXE030O9BnShlK3E94VjvFI7dhCbHl2jwHv4rmvbmVtI5UUdNhJ4t7eurfBUCOkppVGm3",
+              "received": false
+            }
+          ],
+          "total_price": 210170,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Rock Hill",
+              "street": "Cummings Loop",
+              "house": 36,
+              "flat": 952
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-25T19:47:42.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d94d41c508c5d5e0cb013",
+          "products": [
+            {
+              "_id": "694d94d51c508c5d5e0cb0ec",
+              "name": "Shoes88446",
+              "amount": 842,
+              "price": 87083,
+              "manufacturer": "Apple",
+              "notes": "Jdwtzzt6ZZxvIcdwiL05u74RRjCKeHitvtYnEu9aJiCwnY7RwP0RJGPxSQzUmRcwSVPqCozexqtz2bKv9Tt1CveUIRJHY1HLWuHvRjeqJ8mgObNCY9xtM1HHThvUbtAVDBVrOZktjL5GOc9LrqzHoHgJUYA6RRngRuFgfFZisw5UoRDGqXh9ZOfBkpHWjkowCAs5cqcozPgt9qIph1s5AmH4wp8HNmxlSH1Ug8Du9iNCqFCHIZ7KvqnUQy",
+              "received": false
+            },
+            {
+              "_id": "694d94d51c508c5d5e0cb109",
+              "name": "Bacon33302",
+              "amount": 803,
+              "price": 72120,
+              "manufacturer": "Microsoft",
+              "notes": "g7QzQz8mis0DBWVNE0vMTeDVIebNYxv3k95Jla5oWiUakxJtJsBOKc5wkV9KLl6otOqtHbcE2jpaxTKtrxLhwVuoo1NZ2PZ2GQrvJqGxjIpDJAqZHSHJDksT2GLZHV1c5EjWayj6yTxe9Wxu07o0nB3JGG4qZmztNjW68hlIq8RoAkQo0qxFAJ6WBOLUR7LIe59dCn3ueSKkRcEWohuLbxd1GhCFH9KBfqZ5tuLUmxYTswEf8GoInWz27L",
+              "received": false
+            },
+            {
+              "_id": "694d94d91c508c5d5e0cb326",
+              "name": "Car86374",
+              "amount": 465,
+              "price": 50967,
+              "manufacturer": "Google",
+              "notes": "Ixc5482wPnvTcIATW66x5JNPxj7d7gedK3EkFg6YZdDKiKvk6yaBtPFlV0kohx3tarZQLV5rg65Oc8hNAAlXyAXpCbgQ3mStXBfJB6nwQdmaHiyMQiBqEtqxdxOVSF8S5Ez3aFwBe606lUtM4vjIkQbxzJ1JoL6jWmoCyWDb8QifboqhpTxAbVXE030O9BnShlK3E94VjvFI7dhCbHl2jwHv4rmvbmVtI5UUdNhJ4t7eurfBUCOkppVGm3",
+              "received": false
+            }
+          ],
+          "total_price": 210170,
+          "delivery": null,
+          "changedOn": "2025-12-25T19:47:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
