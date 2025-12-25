@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 11:57:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-z+P2xuL8z4BTv478c/QrXPVLKqc\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694d26b11c508c5d5e075e74",
+        "email": "Angelo_Rath-Senger@gmail.com",
+        "name": "Nyah Hessel",
+        "country": "Germany",
+        "city": "West Kamrenland",
+        "street": "Jazmyne Hills",
+        "house": 1,
+        "flat": 825,
+        "phone": "+15048993231",
+        "createdOn": "2025-12-25T11:57:37.000Z",
+        "notes": "nXcnrmQ45sTWEcXiQPjRedZNZrV1rx7hpA3ZOZe3Po8xvUMqaV3t38WKbgTuEEokRgZiqePjnQKy6PbDUkhb85BCgfuhPTaWfHseZIPEyzBBKodSQGh0QbEBZDHpeKAxvmOFpBSTLbQdbnqAXiWUogrFkamU3lKNxbOXaet2USulG9HXx8LKHhxmjeponlcxq1q7znPF150XyaLYrNTsn2avEUIdbRGe5kneHROmDShVpRNdRFVhGjD3JG"
+      },
+      "products": [
+        {
+          "_id": "694d26b11c508c5d5e075ea6",
+          "name": "Gloves11588",
+          "amount": 411,
+          "price": 97132,
+          "manufacturer": "Sony",
+          "notes": "xBDRicogfNFJXft6b854r4onhWfXvihSlpF0rJ7nffTVfAw2xDamvb2oWuu2DaPLbsXSbScZhXG795PjyX9FtoiUT6bAVqQOPoCfSHm6dcMdrA5tYrCGcBEA7HSVcMPeWANIPBPwNDuFHpthen6r0VZYFiEO9ChVSgk2LGHsFOP5njNgE40kjLMv7GYkN7GXj6BpJFkDD7C70SMseTt1teb5rQmp2HQ2Y1lyXxMBxXJplfBqgV51qSeVOu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 97132,
+      "createdOn": "2025-12-25T11:57:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d26b11c508c5d5e075e74",
+          "products": [
+            {
+              "_id": "694d26b11c508c5d5e075ea6",
+              "name": "Gloves11588",
+              "amount": 411,
+              "price": 97132,
+              "manufacturer": "Sony",
+              "notes": "xBDRicogfNFJXft6b854r4onhWfXvihSlpF0rJ7nffTVfAw2xDamvb2oWuu2DaPLbsXSbScZhXG795PjyX9FtoiUT6bAVqQOPoCfSHm6dcMdrA5tYrCGcBEA7HSVcMPeWANIPBPwNDuFHpthen6r0VZYFiEO9ChVSgk2LGHsFOP5njNgE40kjLMv7GYkN7GXj6BpJFkDD7C70SMseTt1teb5rQmp2HQ2Y1lyXxMBxXJplfBqgV51qSeVOu",
+              "received": false
+            }
+          ],
+          "total_price": 97132,
+          "delivery": null,
+          "changedOn": "2025-12-25T11:57:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694d26b11c508c5d5e075ee0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

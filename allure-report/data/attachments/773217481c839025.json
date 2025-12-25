@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 11:58:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-b89+D2YxNvtjpp7kZ/oArw0ndN4\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694d26ec1c508c5d5e078aee",
+        "email": "Cristina_Russel@hotmail.com",
+        "name": "Paige Herman",
+        "country": "Russia",
+        "city": "New Cecelia",
+        "street": "Hayes Orchard",
+        "house": 27,
+        "flat": 956,
+        "phone": "+12704656032",
+        "createdOn": "2025-12-25T11:58:36.000Z",
+        "notes": "lfFsd0cO9sYlNbdofdaA1bkNmsxORbYqWgInsbPrcn56CglgBk0DzmbbmLYgq837kq7OoNXXwSNghx5onquuYTrYVsdGAumGYB0DDfvBJi20Nggcti9edZ8OwSqFJQg2Pkim3spAQWmNWMFz1XCZKSz9WpQVDCVLqRrxLS43ycGXC2iAUray2XjKeySm3fBoawMe7vk7rf9dy29soJlYkwuVbrZgBkYvzWrM5laVCOxv4kXfS5Otj9vd4L"
+      },
+      "products": [
+        {
+          "_id": "694d26f01c508c5d5e078e4f",
+          "name": "Table67902",
+          "amount": 962,
+          "price": 43098,
+          "manufacturer": "Xiaomi",
+          "notes": "ZIHbyc868wOXFZPRyAA71t9AQGC0NEsav4sSuCntel6fscRxkIcweIJy8OifxKUmGUIOrQuE1odDsHtAjjmpnx0EEZe9Bur60vbZOFXjfmrqiu8vr0Ugfk4tBMwQXsjxN3O7vglGkXxqCofs9kAOK0hrbdPMlGA9p4dIlQEZeLmoVQa2aYvcTNhfsVMfwaIdE1UKWY77FxZkpdV7YqdZqUjQE99dSxjRWIZgVXcBNF07KEc1UtulCDw8xH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 43098,
+      "createdOn": "2025-12-25T11:58:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d26ec1c508c5d5e078aee",
+          "products": [
+            {
+              "_id": "694d26f01c508c5d5e078e4f",
+              "name": "Table67902",
+              "amount": 962,
+              "price": 43098,
+              "manufacturer": "Xiaomi",
+              "notes": "ZIHbyc868wOXFZPRyAA71t9AQGC0NEsav4sSuCntel6fscRxkIcweIJy8OifxKUmGUIOrQuE1odDsHtAjjmpnx0EEZe9Bur60vbZOFXjfmrqiu8vr0Ugfk4tBMwQXsjxN3O7vglGkXxqCofs9kAOK0hrbdPMlGA9p4dIlQEZeLmoVQa2aYvcTNhfsVMfwaIdE1UKWY77FxZkpdV7YqdZqUjQE99dSxjRWIZgVXcBNF07KEc1UtulCDw8xH",
+              "received": false
+            }
+          ],
+          "total_price": 43098,
+          "delivery": null,
+          "changedOn": "2025-12-25T11:58:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694d26f21c508c5d5e079012"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

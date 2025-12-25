@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 11:57:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-YiVwCuhz8mFFJ6CYaQw0I5HKPKQ\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694d26b01c508c5d5e075e55",
+        "email": "Bertha82@yahoo.com",
+        "name": "Priscilla Jenkins",
+        "country": "Ukraine",
+        "city": "New Maryse",
+        "street": "Kurtis Flat",
+        "house": 20,
+        "flat": 7,
+        "phone": "+12994943956",
+        "createdOn": "2025-12-25T11:57:36.000Z",
+        "notes": "ZZ5eNYl1ud1AMP3k9RcoffiMiDzEAEyUudEUf2OKXykxeqn0r0Qz4nlklDsvEI9FGJPt8JIQ420HiIOODmcWRJhchM2ncLJZdkAgovHf2vylBOQgcVq7T2DxPbqU03yvLaXjBeIlGM96HMmDTSqDxFQ5isUXqlJ7ES7Rd8IUHHL7rdN2rYI4taqkfsBKjLEGQoJWEFGCe6G4maKEUCVdKtGszZxVsMyu30U9Ix2FqDdKEUbopPbddxaQBC"
+      },
+      "products": [
+        {
+          "_id": "694d26b11c508c5d5e075e76",
+          "name": "Gloves20778",
+          "amount": 384,
+          "price": 31018,
+          "manufacturer": "Microsoft",
+          "notes": "V0g43c4FiwWI1o2VGHbBuBGL5HLm2OupZnrvMUuxT6zUbSDjAgvjr89XzSZjqcgJGCk8og2u94HU9wULTWdcMZYP7Kh3CMBApqSQPt49KfCa7ifcOkWRxpVJdA0jFDvddnJJ4v7SsEfMbp63InJga6NHDSmufxf78Lxj4cbxomF62wY5q7JtSBZYtTb60npvid7vt1utiv5nCc0CD2ChXRnEWSOr2If0jIFJy9kJ2iQ4dLD1WTSnQKtUSE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 31018,
+      "createdOn": "2025-12-25T11:57:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d26b01c508c5d5e075e55",
+          "products": [
+            {
+              "_id": "694d26b11c508c5d5e075e76",
+              "name": "Gloves20778",
+              "amount": 384,
+              "price": 31018,
+              "manufacturer": "Microsoft",
+              "notes": "V0g43c4FiwWI1o2VGHbBuBGL5HLm2OupZnrvMUuxT6zUbSDjAgvjr89XzSZjqcgJGCk8og2u94HU9wULTWdcMZYP7Kh3CMBApqSQPt49KfCa7ifcOkWRxpVJdA0jFDvddnJJ4v7SsEfMbp63InJga6NHDSmufxf78Lxj4cbxomF62wY5q7JtSBZYtTb60npvid7vt1utiv5nCc0CD2ChXRnEWSOr2If0jIFJy9kJ2iQ4dLD1WTSnQKtUSE",
+              "received": false
+            }
+          ],
+          "total_price": 31018,
+          "delivery": null,
+          "changedOn": "2025-12-25T11:57:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694d26b11c508c5d5e075ead"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

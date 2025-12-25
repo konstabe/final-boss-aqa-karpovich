@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 11:57:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3908",
+    "etag": "W/\"f44-xar3Pw8IMhU234TqHxv8E5HqnWA\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d26bc1c508c5d5e07664f",
+      "status": "In Process",
+      "customer": {
+        "_id": "694d26b91c508c5d5e07644d",
+        "email": "Mckenna34@hotmail.com",
+        "name": "Antonietta Raynor",
+        "country": "Canada",
+        "city": "Draper",
+        "street": "Heidenreich Throughway",
+        "house": 37,
+        "flat": 250,
+        "phone": "+13844572608",
+        "createdOn": "2025-12-25T11:57:45.000Z",
+        "notes": "yqfk7RJXvLOdNSPlJh8FPPGkxvG67tTlQrRvby6sJ4nIBn55gJTo0D7SOpPjReuUMxZ1mvBXTVx6z1rRMqEoZIrKUrpue6PushcjrtmR734W9krx23JqF5Pkfl5RpH06wCr5jdx4B0qQYRKvtgGNK7qEsuY7pA5JgzkXpKBGGX1yqnOwRFQ3eOZbhsbwzsCWMSZclfuIJpTH6rkSthtWQKDssk40mMvOzGOhQdmKM4QneZ78uatPgpysPQ"
+      },
+      "products": [
+        {
+          "_id": "694d26b91c508c5d5e07646e",
+          "name": "Soap33182",
+          "amount": 114,
+          "price": 85967,
+          "manufacturer": "Microsoft",
+          "notes": "ESWeGXbjrmKNA2bUTMS3J0FoOhksSwIooZBG95uSwO4ajzEmctsTgWmuLGiN0Qmg7glhvHpuZrBNO7HYq5bEt5Q8gRdkt2AEDl87hxGE0o4oj1sHQ1rpVi3i2Qs1FfT6hECWcKvKC0yJNroHVB3daI4ZJLO4kqmLBNV8LehtaD3Zyo0Si118iqAQfEY7pSvkIY0yWKgMdoW74VHjOJMadNt7R6HRhv9dYkAJC3EsSuPEbgcyutph270l65",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Draper",
+          "street": "Heidenreich Throughway",
+          "house": 37,
+          "flat": 250
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 85967,
+      "createdOn": "2025-12-25T11:57:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694d26b91c508c5d5e07644d",
+          "products": [
+            {
+              "_id": "694d26b91c508c5d5e07646e",
+              "name": "Soap33182",
+              "amount": 114,
+              "price": 85967,
+              "manufacturer": "Microsoft",
+              "notes": "ESWeGXbjrmKNA2bUTMS3J0FoOhksSwIooZBG95uSwO4ajzEmctsTgWmuLGiN0Qmg7glhvHpuZrBNO7HYq5bEt5Q8gRdkt2AEDl87hxGE0o4oj1sHQ1rpVi3i2Qs1FfT6hECWcKvKC0yJNroHVB3daI4ZJLO4kqmLBNV8LehtaD3Zyo0Si118iqAQfEY7pSvkIY0yWKgMdoW74VHjOJMadNt7R6HRhv9dYkAJC3EsSuPEbgcyutph270l65",
+              "received": false
+            }
+          ],
+          "total_price": 85967,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Draper",
+              "street": "Heidenreich Throughway",
+              "house": 37,
+              "flat": 250
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-25T11:57:55.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d26b91c508c5d5e07644d",
+          "products": [
+            {
+              "_id": "694d26b91c508c5d5e07646e",
+              "name": "Soap33182",
+              "amount": 114,
+              "price": 85967,
+              "manufacturer": "Microsoft",
+              "notes": "ESWeGXbjrmKNA2bUTMS3J0FoOhksSwIooZBG95uSwO4ajzEmctsTgWmuLGiN0Qmg7glhvHpuZrBNO7HYq5bEt5Q8gRdkt2AEDl87hxGE0o4oj1sHQ1rpVi3i2Qs1FfT6hECWcKvKC0yJNroHVB3daI4ZJLO4kqmLBNV8LehtaD3Zyo0Si118iqAQfEY7pSvkIY0yWKgMdoW74VHjOJMadNt7R6HRhv9dYkAJC3EsSuPEbgcyutph270l65",
+              "received": false
+            }
+          ],
+          "total_price": 85967,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Draper",
+              "street": "Heidenreich Throughway",
+              "house": 37,
+              "flat": 250
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-25T11:57:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d26b91c508c5d5e07644d",
+          "products": [
+            {
+              "_id": "694d26b91c508c5d5e07646e",
+              "name": "Soap33182",
+              "amount": 114,
+              "price": 85967,
+              "manufacturer": "Microsoft",
+              "notes": "ESWeGXbjrmKNA2bUTMS3J0FoOhksSwIooZBG95uSwO4ajzEmctsTgWmuLGiN0Qmg7glhvHpuZrBNO7HYq5bEt5Q8gRdkt2AEDl87hxGE0o4oj1sHQ1rpVi3i2Qs1FfT6hECWcKvKC0yJNroHVB3daI4ZJLO4kqmLBNV8LehtaD3Zyo0Si118iqAQfEY7pSvkIY0yWKgMdoW74VHjOJMadNt7R6HRhv9dYkAJC3EsSuPEbgcyutph270l65",
+              "received": false
+            }
+          ],
+          "total_price": 85967,
+          "delivery": null,
+          "changedOn": "2025-12-25T11:57:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
