@@ -30,9 +30,15 @@ export class OrdersListUIService {
 		await modal.waitForClosed();
 	}
 
-	@logStep("Click Reopen Modal on Orders List Page")
+	@logStep("Open Reopen Modal on Orders List Page")
 	async clickReopenOrder(orderId: string) {
 		await this.ordersListPage.clickReopenByOrderId(orderId);
 		await this.ordersListPage.reopenModal.waitForOpened();
+	}
+
+	@logStep("Open Filter Modal on Orders List Page")
+	async openFilterModal() {
+		await this.ordersListPage.clickFilter();
+		await this.ordersListPage.filterModal.waitForOpened();
 	}
 }

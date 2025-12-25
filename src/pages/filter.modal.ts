@@ -1,17 +1,20 @@
 import { logStep } from "utils/report/logStep.utils";
 import { BaseModal } from "./base/base.modal";
-import { Locator } from "@playwright/test";
+import { ORDER_STATUS } from "data/orders/orderStatus";
 
-export class filterModal extends BaseModal {
+export class FilterModal extends BaseModal {
 	readonly uniqueElement = this.page.locator("//div[@class='modal-dialog modal-filters-wrapper']");
 
 	readonly title = this.uniqueElement.locator("h5");
 	readonly applyButton = this.uniqueElement.locator("#apply-filters");
 	readonly clearFiltersButton = this.uniqueElement.locator("#clear-filters");
 	readonly closeButton = this.uniqueElement.locator("button.btn-close");
-	private filtersCheckbox(value: string): Locator {
-		return this.uniqueElement.locator(`//*[@value='${value}']`);
-	}
+	readonly getCheckboxByStatus = (status: ORDER_STATUS) => {
+		return this.uniqueElement.locator(`//*[@value='${status}']`);
+	};
+	readonly getLabelByStatus = (status: ORDER_STATUS) => {
+		return this.getCheckboxByStatus(status).locator("~label");
+	};
 
 	@logStep("Click close button")
 	async clickClose() {
@@ -29,9 +32,19 @@ export class filterModal extends BaseModal {
 	}
 
 	@logStep("Choose filters")
-	async chooseFieldsForExport(checkboxes: string[]) {
+	async chooseCheckboxForFilter(checkboxes: ORDER_STATUS[]) {
 		for (const checkbox of checkboxes) {
-			await this.filtersCheckbox(checkbox).click();
+			await this.getCheckboxByStatus(checkbox).click();
 		}
+	}
+
+	@logStep("Check checkbox")
+	async checkCheckboxByStatus(checkbox: ORDER_STATUS) {
+		await this.getCheckboxByStatus(checkbox).check();
+	}
+
+	@logStep("Uncheck checkbox")
+	async uncheckCheckboxByStatus(checkbox: ORDER_STATUS) {
+		await this.getCheckboxByStatus(checkbox).uncheck();
 	}
 }
