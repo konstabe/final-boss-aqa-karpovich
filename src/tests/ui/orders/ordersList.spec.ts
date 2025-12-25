@@ -7,10 +7,10 @@ import { expect, test } from "fixtures";
 test.describe("[UI] [Orders]", () => {
 	let token = "";
 
-	test.beforeEach(async ({ loginUIService }) => {
-		//убрать, когда появится global setup
-		token = await loginUIService.loginAsAdmin();
-	});
+// 	test.beforeEach(async ({ loginUIService }) => {
+// 		//убрать, когда появится global setup
+// 		token = await loginUIService.loginAsAdmin();
+// 	});
 
 	test.afterEach(async ({ ordersApiService }) => {
 		await ordersApiService.fullDelete(token);
@@ -31,8 +31,9 @@ test.describe("[UI] [Orders]", () => {
 
 		test(
 			"Should open Orders List page from Home page via 'View Orders' button",
-			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
-			async ({ homePage, ordersListPage }) => {
+			{ tag: [TAGS.UI, TAGS.REGRESSION] },
+			async ({ homePage, ordersListPage, homeUIService }) => {
+				await homeUIService.open();
 				await homePage.clickOnViewModule("Orders");
 				await ordersListPage.waitForOpened();
 
@@ -43,8 +44,9 @@ test.describe("[UI] [Orders]", () => {
 
 		test(
 			"Should open Orders List page via Navigation Menu",
-			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
-			async ({ ordersListPage }) => {
+			{ tag: [TAGS.UI, TAGS.REGRESSION] },
+			async ({ ordersListPage, ordersListUIService }) => {
+				await ordersListUIService.open();
 				await ordersListPage.navBarMenu.clickModule("Orders");
 				await ordersListPage.waitForOpened();
 

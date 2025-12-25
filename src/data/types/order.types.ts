@@ -109,6 +109,17 @@ export interface IOrderInTable extends ICreatedOn, ID {
 	assignedManager: string;
 }
 
+export interface ICreatedProductsForOrder {
+	productsIds: string[];
+	productNames: string[];
+}
+
+export interface ICreatedCustomerForOrder {
+	customerId: string;
+	customerName: string;
+	customerEmail: string;
+}
+
 export interface IOrderMock {
 	_id: string;
 	status: ORDER_STATUS;
