@@ -3,8 +3,11 @@ import { SalesPortalPage } from "pages/salesPortal.page";
 import { parseSummaryCell } from "utils/parseCells";
 import { OrderSummaryTitle } from "../common/order.types";
 import { logStep } from "utils/report/logStep.utils";
+import { ProcessOrderModal } from "../processOrder.modal";
 
 export class OrderDetailsHeaderPage extends SalesPortalPage {
+	readonly processOrderModal = new ProcessOrderModal(this.page);
+
 	readonly detailsHeader = this.page.locator("#order-details-header");
 	readonly uniqueElement = this.detailsHeader;
 
@@ -18,6 +21,11 @@ export class OrderDetailsHeaderPage extends SalesPortalPage {
 	readonly assignManagerContainer = this.page.locator("#assigned-manager-container");
 	readonly unassignManagerButton = this.page.locator("#assigned-manager-link");
 	readonly editAssignedManagerButton = this.page.locator("[onclick*='renderAssigneManagerModal']");
+	readonly processOrderButton = this.page.locator("#process-order");
+	readonly tableValueByHeader = (header: OrderSummaryTitle) =>
+		this.page.locator(
+			`//div[@id='order-status-bar-container']//span[contains(text(), '${header}')]/following-sibling::span`,
+		);
 
 	@logStep("Get order number")
 	async getOrderNumber() {
@@ -66,5 +74,10 @@ export class OrderDetailsHeaderPage extends SalesPortalPage {
 	@logStep("Open edit assigned manager modal")
 	async openEditAssignedManagerModal() {
 		await this.editAssignedManagerButton.click();
+	}
+
+	@logStep("Click Process Order")
+	async clickProcessOrder() {
+		await this.processOrderButton.click();
 	}
 }
