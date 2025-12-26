@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:17:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5391",
+    "etag": "W/\"150f-j4PeAAu2KAQWPFXCs7QW0JI3pnk\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f097d1c508c5d5e31a12e",
+      "status": "In Process",
+      "customer": {
+        "_id": "694f09781c508c5d5e319d96",
+        "email": "Jada74@gmail.com",
+        "name": "Maudie Mayert",
+        "country": "USA",
+        "city": "Annetteburgh",
+        "street": "Oakfield Road",
+        "house": 7,
+        "flat": 975,
+        "phone": "+12825613251",
+        "createdOn": "2025-12-26T22:17:28.000Z",
+        "notes": "FUy5stZyxU743SUxE5fcT6V8MHCXBjp9rrJhJbye081ce0odb9l132wTOTxvBAzf7MZgDEX7DUbXyXS5BFGRDs9oE9l6OZ4CJfJGH0QICz1hAKGasocpDAaD7eCpootyo8DHyoc2dSLxGuO7iILlow5ss3SsobNJiaY2UgTtH43EJCMfpXN4EgAwVxBvDa4PNKC3tlNK7U4vwktFG9ZeixCDVghJMWaMHIJCd62IIUovO9uEWqJtap926d"
+      },
+      "products": [
+        {
+          "_id": "694f097a1c508c5d5e31a09e",
+          "name": "Chair66609",
+          "amount": 864,
+          "price": 6775,
+          "manufacturer": "Apple",
+          "notes": "8xvWDZyFU1KxErl5h4nkWcyC3MN6FjbwyIGWaZeaQP9Ik9Ff36r8smCkWYRRmDFp1P30YpS6In2DMmtstUieMB44BWtUibRTRB66MMgFUxQzZV3Ow6DnbwIl73ba1cQ1zzceXn0YLVWFqUfguxdAMC2TREqYQj7WirDOhrLN47GYyqMmKvbtMjMTOIfmM1HFNMGtb0aKQwrwoOWqYLLjtjTgJwViFlC5O2nJZhxV6xWwTnpEvikXPCZQOm",
+          "received": false
+        },
+        {
+          "_id": "694f097d1c508c5d5e31a111",
+          "name": "Towels75628",
+          "amount": 536,
+          "price": 5282,
+          "manufacturer": "Xiaomi",
+          "notes": "k0BaAsDUmJFSCkp8g9gvOBrtTfuUY6JfzmSRQJZyzIML1Faq6IKiZfeIaw0sU4m8hafaqFN3isl88TeFvvA2L7GP1gRxnwTe2CXO15clh4djnUxSFojHHyMx5JcOTFwQqdJpj9YUX5XBpFmMLaRb67PlX4Y9wy3bGB1WikbTUCKyzBSZVxhfGi4hSZtv3kjGHmSp4xo5YjNbKo4OG5LALsVPtbAipXsXPNlcSq9DbhZwBw334IPMdizFHP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Annetteburgh",
+          "street": "Oakfield Road",
+          "house": 7,
+          "flat": 975
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 12057,
+      "createdOn": "2025-12-26T22:17:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694f09781c508c5d5e319d96",
+          "products": [
+            {
+              "_id": "694f097a1c508c5d5e31a09e",
+              "name": "Chair66609",
+              "amount": 864,
+              "price": 6775,
+              "manufacturer": "Apple",
+              "notes": "8xvWDZyFU1KxErl5h4nkWcyC3MN6FjbwyIGWaZeaQP9Ik9Ff36r8smCkWYRRmDFp1P30YpS6In2DMmtstUieMB44BWtUibRTRB66MMgFUxQzZV3Ow6DnbwIl73ba1cQ1zzceXn0YLVWFqUfguxdAMC2TREqYQj7WirDOhrLN47GYyqMmKvbtMjMTOIfmM1HFNMGtb0aKQwrwoOWqYLLjtjTgJwViFlC5O2nJZhxV6xWwTnpEvikXPCZQOm",
+              "received": false
+            },
+            {
+              "_id": "694f097d1c508c5d5e31a111",
+              "name": "Towels75628",
+              "amount": 536,
+              "price": 5282,
+              "manufacturer": "Xiaomi",
+              "notes": "k0BaAsDUmJFSCkp8g9gvOBrtTfuUY6JfzmSRQJZyzIML1Faq6IKiZfeIaw0sU4m8hafaqFN3isl88TeFvvA2L7GP1gRxnwTe2CXO15clh4djnUxSFojHHyMx5JcOTFwQqdJpj9YUX5XBpFmMLaRb67PlX4Y9wy3bGB1WikbTUCKyzBSZVxhfGi4hSZtv3kjGHmSp4xo5YjNbKo4OG5LALsVPtbAipXsXPNlcSq9DbhZwBw334IPMdizFHP",
+              "received": false
+            }
+          ],
+          "total_price": 12057,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Annetteburgh",
+              "street": "Oakfield Road",
+              "house": 7,
+              "flat": 975
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T22:17:37.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f09781c508c5d5e319d96",
+          "products": [
+            {
+              "_id": "694f097a1c508c5d5e31a09e",
+              "name": "Chair66609",
+              "amount": 864,
+              "price": 6775,
+              "manufacturer": "Apple",
+              "notes": "8xvWDZyFU1KxErl5h4nkWcyC3MN6FjbwyIGWaZeaQP9Ik9Ff36r8smCkWYRRmDFp1P30YpS6In2DMmtstUieMB44BWtUibRTRB66MMgFUxQzZV3Ow6DnbwIl73ba1cQ1zzceXn0YLVWFqUfguxdAMC2TREqYQj7WirDOhrLN47GYyqMmKvbtMjMTOIfmM1HFNMGtb0aKQwrwoOWqYLLjtjTgJwViFlC5O2nJZhxV6xWwTnpEvikXPCZQOm",
+              "received": false
+            },
+            {
+              "_id": "694f097d1c508c5d5e31a111",
+              "name": "Towels75628",
+              "amount": 536,
+              "price": 5282,
+              "manufacturer": "Xiaomi",
+              "notes": "k0BaAsDUmJFSCkp8g9gvOBrtTfuUY6JfzmSRQJZyzIML1Faq6IKiZfeIaw0sU4m8hafaqFN3isl88TeFvvA2L7GP1gRxnwTe2CXO15clh4djnUxSFojHHyMx5JcOTFwQqdJpj9YUX5XBpFmMLaRb67PlX4Y9wy3bGB1WikbTUCKyzBSZVxhfGi4hSZtv3kjGHmSp4xo5YjNbKo4OG5LALsVPtbAipXsXPNlcSq9DbhZwBw334IPMdizFHP",
+              "received": false
+            }
+          ],
+          "total_price": 12057,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Annetteburgh",
+              "street": "Oakfield Road",
+              "house": 7,
+              "flat": 975
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T22:17:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f09781c508c5d5e319d96",
+          "products": [
+            {
+              "_id": "694f097a1c508c5d5e31a09e",
+              "name": "Chair66609",
+              "amount": 864,
+              "price": 6775,
+              "manufacturer": "Apple",
+              "notes": "8xvWDZyFU1KxErl5h4nkWcyC3MN6FjbwyIGWaZeaQP9Ik9Ff36r8smCkWYRRmDFp1P30YpS6In2DMmtstUieMB44BWtUibRTRB66MMgFUxQzZV3Ow6DnbwIl73ba1cQ1zzceXn0YLVWFqUfguxdAMC2TREqYQj7WirDOhrLN47GYyqMmKvbtMjMTOIfmM1HFNMGtb0aKQwrwoOWqYLLjtjTgJwViFlC5O2nJZhxV6xWwTnpEvikXPCZQOm",
+              "received": false
+            },
+            {
+              "_id": "694f097d1c508c5d5e31a111",
+              "name": "Towels75628",
+              "amount": 536,
+              "price": 5282,
+              "manufacturer": "Xiaomi",
+              "notes": "k0BaAsDUmJFSCkp8g9gvOBrtTfuUY6JfzmSRQJZyzIML1Faq6IKiZfeIaw0sU4m8hafaqFN3isl88TeFvvA2L7GP1gRxnwTe2CXO15clh4djnUxSFojHHyMx5JcOTFwQqdJpj9YUX5XBpFmMLaRb67PlX4Y9wy3bGB1WikbTUCKyzBSZVxhfGi4hSZtv3kjGHmSp4xo5YjNbKo4OG5LALsVPtbAipXsXPNlcSq9DbhZwBw334IPMdizFHP",
+              "received": false
+            }
+          ],
+          "total_price": 12057,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:17:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

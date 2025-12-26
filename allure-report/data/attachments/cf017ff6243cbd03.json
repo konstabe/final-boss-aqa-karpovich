@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:16:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2640",
+    "etag": "W/\"a50-4335xmWfAUm5dAG9JDNOfEl5TEI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f09531c508c5d5e31879e",
+        "email": "Otis.Dicki4@hotmail.com",
+        "name": "Reid Boyer",
+        "country": "Russia",
+        "city": "Orem",
+        "street": "Hettinger Motorway",
+        "house": 7,
+        "flat": 330,
+        "phone": "+12707794112",
+        "createdOn": "2025-12-26T22:16:51.000Z",
+        "notes": "1xmEE8N9BabODO59XcIt3WS2h6lObqY2iUqFti3YKpOSsx5h2FFws5z3JVn3Zu1Ikuj7hP7HRHQNinPPsYkTfMwAHgpjOI8Sa6osrTNjnkQNz2oEp2mSDZJWx4qLIjED2RGy4XfHIi69trNhMcwbCZwVbAXOQgyMpO7OpyOktHr3qxvq704Gnvr2KG2hKIR8oAW0TN2oQOyLOf2kCRBarPTQiLiZ1Mo1KnaKtV8GWANWaGefdAToQo8bcI"
+      },
+      "products": [
+        {
+          "_id": "694f09541c508c5d5e3187c4",
+          "name": "Fish75074",
+          "amount": 800,
+          "price": 83439,
+          "manufacturer": "Apple",
+          "notes": "BQ2ZQpimSj94kXJMDNIrXPteYFxHSxistUzcvnsZH12p2JzefkJ2c94oQkYq19mVwFyftRC4OyTeL0Y6WHoyyRjcarOnHHwXaNoaBKQXtMks0H2tIjjZVfAjdAv6jgiqQ2uaOXVI0RWFPR254kzZnj68092aBhch5FYqgjZ95qsdn3bXMzKeuf6ogJvi0dHteCZxfbwaW8sND9azRDEHRHrQrhecCkG8C38f4GePcLj0mFEH9Qz9wKNA5f",
+          "received": false
+        },
+        {
+          "_id": "694f09551c508c5d5e318878",
+          "name": "Soap47598",
+          "amount": 887,
+          "price": 65167,
+          "manufacturer": "Apple",
+          "notes": "OqRngyfzocyW0Js2MdEQJ4tROpxGVfuj9gEQgwCTgZTplwHluB7yLgGHsX5IBIzvEnC8XRGryUIhnA0tu15tvmM6RQjUj3vohSGbO8z5pDKPohZ9h774t6aSJBKJTgzjcw7Zn9z4DDm4RFeIwRBmRqMP9Nbna4ZWZxgF8fVv0p3DsWUzQONGCcB0A277H4LzX5vHQ0x7AvXCI1BIED32IruvgsYzvpDF1d6wEyVBNHEvgWnlPSbzgRhVai",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 148606,
+      "createdOn": "2025-12-26T22:16:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f09531c508c5d5e31879e",
+          "products": [
+            {
+              "_id": "694f09541c508c5d5e3187c4",
+              "name": "Fish75074",
+              "amount": 800,
+              "price": 83439,
+              "manufacturer": "Apple",
+              "notes": "BQ2ZQpimSj94kXJMDNIrXPteYFxHSxistUzcvnsZH12p2JzefkJ2c94oQkYq19mVwFyftRC4OyTeL0Y6WHoyyRjcarOnHHwXaNoaBKQXtMks0H2tIjjZVfAjdAv6jgiqQ2uaOXVI0RWFPR254kzZnj68092aBhch5FYqgjZ95qsdn3bXMzKeuf6ogJvi0dHteCZxfbwaW8sND9azRDEHRHrQrhecCkG8C38f4GePcLj0mFEH9Qz9wKNA5f",
+              "received": false
+            },
+            {
+              "_id": "694f09551c508c5d5e318878",
+              "name": "Soap47598",
+              "amount": 887,
+              "price": 65167,
+              "manufacturer": "Apple",
+              "notes": "OqRngyfzocyW0Js2MdEQJ4tROpxGVfuj9gEQgwCTgZTplwHluB7yLgGHsX5IBIzvEnC8XRGryUIhnA0tu15tvmM6RQjUj3vohSGbO8z5pDKPohZ9h774t6aSJBKJTgzjcw7Zn9z4DDm4RFeIwRBmRqMP9Nbna4ZWZxgF8fVv0p3DsWUzQONGCcB0A277H4LzX5vHQ0x7AvXCI1BIED32IruvgsYzvpDF1d6wEyVBNHEvgWnlPSbzgRhVai",
+              "received": false
+            }
+          ],
+          "total_price": 148606,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:16:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f09551c508c5d5e3188af"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

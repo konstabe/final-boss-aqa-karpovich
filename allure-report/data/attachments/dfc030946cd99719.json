@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:17:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2658",
+    "etag": "W/\"a62-2iweQULCkJQgC5NnrbaPkK4Xu6k\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f09861c508c5d5e31a72f",
+        "email": "Ashlynn.Ziemann@hotmail.com",
+        "name": "Marlene Schuster",
+        "country": "Canada",
+        "city": "Port Abdullah",
+        "street": "S 2nd Street",
+        "house": 28,
+        "flat": 108,
+        "phone": "+12666731552",
+        "createdOn": "2025-12-26T22:17:42.000Z",
+        "notes": "AGzVxRtzEVB38G0Q4xzW4mVjudietRv1OayEZAwWRpAMrFTzQ0DcZFNryN8om6WxIxhcBZjXUsxmPbIvhwHBWfQtGt8AYRBPmns775yn7jSjvWSy1pSlWM65OBnew04XyXtPXihmektjPJpvNRRQt2NoVSTVfFXml8kKocrxtW0Cw4lduIkYOpFki7Pdxoo2DDAj7VTInZu2bJsOlIXwClAoZgNXAw0go1BztwP64nXAuK6kPKt3wkwMIq"
+      },
+      "products": [
+        {
+          "_id": "694f09871c508c5d5e31a7c2",
+          "name": "Gloves1907",
+          "amount": 355,
+          "price": 5501,
+          "manufacturer": "Tesla",
+          "notes": "qJ2zDbrBvmCKOM5sQewWbSY0x29PaiwJEuS1rj3jmzdGR3qyM5FIEDdsnKyCkKDD4cbtmWCVLBsFUV7whN76rOx3eX8viqErCDICSbW9fuwnn2yG1FEiJbWUPIfNiojHKEJOPQVRHiIrzt04Ni36LtxyAX8UkmpIhN7KYfzjFDWBPAco1sBJIJndax0bP4Byo6lA3UiQpXLUGYrsQpwXMOB9vm6Edm7KjqRaPWKZ5DWcDc37EVj2bXfIkk",
+          "received": false
+        },
+        {
+          "_id": "694f098d1c508c5d5e31ac0e",
+          "name": "Car80152",
+          "amount": 433,
+          "price": 38347,
+          "manufacturer": "Microsoft",
+          "notes": "9cVoHNx4FfQx1VWSSfA1q21tQKYbcIeMs8vMP01wtmOBHH83L9JMlA1KNmU6sTE0xSX4UPRTFNioy1TiWLXDhOMRPya8cSuQ7GBokAw2Y2iV5ZgRKi1feSlS6LKazVUrnojFF7EhXisCDCBeUDtCNozbsY5upPtlOz7ojCuuiMlJosRsjvI2Odu7ZJirwfYHCcCXa3Glx49v1jFzYhBRqeiwR85I5uC2IyibhMjrGSEAzPcfqx9zAstnKZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 43848,
+      "createdOn": "2025-12-26T22:17:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f09861c508c5d5e31a72f",
+          "products": [
+            {
+              "_id": "694f09871c508c5d5e31a7c2",
+              "name": "Gloves1907",
+              "amount": 355,
+              "price": 5501,
+              "manufacturer": "Tesla",
+              "notes": "qJ2zDbrBvmCKOM5sQewWbSY0x29PaiwJEuS1rj3jmzdGR3qyM5FIEDdsnKyCkKDD4cbtmWCVLBsFUV7whN76rOx3eX8viqErCDICSbW9fuwnn2yG1FEiJbWUPIfNiojHKEJOPQVRHiIrzt04Ni36LtxyAX8UkmpIhN7KYfzjFDWBPAco1sBJIJndax0bP4Byo6lA3UiQpXLUGYrsQpwXMOB9vm6Edm7KjqRaPWKZ5DWcDc37EVj2bXfIkk",
+              "received": false
+            },
+            {
+              "_id": "694f098d1c508c5d5e31ac0e",
+              "name": "Car80152",
+              "amount": 433,
+              "price": 38347,
+              "manufacturer": "Microsoft",
+              "notes": "9cVoHNx4FfQx1VWSSfA1q21tQKYbcIeMs8vMP01wtmOBHH83L9JMlA1KNmU6sTE0xSX4UPRTFNioy1TiWLXDhOMRPya8cSuQ7GBokAw2Y2iV5ZgRKi1feSlS6LKazVUrnojFF7EhXisCDCBeUDtCNozbsY5upPtlOz7ojCuuiMlJosRsjvI2Odu7ZJirwfYHCcCXa3Glx49v1jFzYhBRqeiwR85I5uC2IyibhMjrGSEAzPcfqx9zAstnKZ",
+              "received": false
+            }
+          ],
+          "total_price": 43848,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:17:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f098f1c508c5d5e31ad65"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

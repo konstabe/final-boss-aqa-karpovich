@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:16:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2642",
+    "etag": "W/\"a52-6Y0mY9eXVbU9657B0UvgMPKmRRE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f09461c508c5d5e318074",
+        "email": "Zackary_Hand@gmail.com",
+        "name": "Colten Metz",
+        "country": "France",
+        "city": "Lake Tobymouth",
+        "street": "Russel Canyon",
+        "house": 31,
+        "flat": 415,
+        "phone": "+14934459516",
+        "createdOn": "2025-12-26T22:16:38.000Z",
+        "notes": "6V548DaUF83dIAWBprUj2eOaOvtBLpZUkgm3fSwUlEDrHtiI7qxw8zSSlbSBZ8y56ENAc5Tr71FALNTErrGitfcGRC3hKkzPHTthGtC8hqvUiGdikZCK7eHSVffqtEV4VSpvoOq0LdUrWczWhbQqTjCLr0kHTYSv3jm9LFyJyRpesZELov41LDsgG5jqgQrPsWSz7z6kdpwCglWBn2aIsSkHEdledUerVoCG4EwFOl4swMfA7EbcQoQvgg"
+      },
+      "products": [
+        {
+          "_id": "694f09471c508c5d5e3180b2",
+          "name": "Computer6639",
+          "amount": 934,
+          "price": 3206,
+          "manufacturer": "Xiaomi",
+          "notes": "UjR8nhUbpP13m7xu31BBrEZuArgON5CCwzHleTXFfaIx97fwdv3dT6wiMQPBTMfUEexHucEzE14wH6AiQUETcAvhzfrqGwG3mqwi1S2fuCbAb7sKl9eWYyjORMuF2SqVSrUAo40tRileUbU7JnjDmsBW18e8cMKLKIjsuzCWtNkDvH0mNSX07i2XuPj8JJpnI4Nec0Bht4sfHPliaoRdLyksd0MJ7RE2Ns243ZOCdwCDbMWe3gyJlg9BeZ",
+          "received": false
+        },
+        {
+          "_id": "694f09471c508c5d5e318109",
+          "name": "Car7376",
+          "amount": 2,
+          "price": 47522,
+          "manufacturer": "Tesla",
+          "notes": "EJhKCapCaDnajWdlzBr8krAIPLY3NUmbGd8Weq6tEYiKFBLlHW5K62ZP3gghm5OVvnkrUY7r1UEMva05yb86knfffMEKghM1HNk2VEDczt5A8exaLRkAxksXja3cb2nJ6Ft6FIdujBPFuhiBODMq3KUIBZbOerzCRHbKrnI8vLMop71hU1WqBsQmeAFDYg0PKPVm8RDjIgOm8n2yBArkTcWdFHoVkFU26VCfooSapcpgXSWQowf6OiRuRu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 50728,
+      "createdOn": "2025-12-26T22:16:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f09461c508c5d5e318074",
+          "products": [
+            {
+              "_id": "694f09471c508c5d5e3180b2",
+              "name": "Computer6639",
+              "amount": 934,
+              "price": 3206,
+              "manufacturer": "Xiaomi",
+              "notes": "UjR8nhUbpP13m7xu31BBrEZuArgON5CCwzHleTXFfaIx97fwdv3dT6wiMQPBTMfUEexHucEzE14wH6AiQUETcAvhzfrqGwG3mqwi1S2fuCbAb7sKl9eWYyjORMuF2SqVSrUAo40tRileUbU7JnjDmsBW18e8cMKLKIjsuzCWtNkDvH0mNSX07i2XuPj8JJpnI4Nec0Bht4sfHPliaoRdLyksd0MJ7RE2Ns243ZOCdwCDbMWe3gyJlg9BeZ",
+              "received": false
+            },
+            {
+              "_id": "694f09471c508c5d5e318109",
+              "name": "Car7376",
+              "amount": 2,
+              "price": 47522,
+              "manufacturer": "Tesla",
+              "notes": "EJhKCapCaDnajWdlzBr8krAIPLY3NUmbGd8Weq6tEYiKFBLlHW5K62ZP3gghm5OVvnkrUY7r1UEMva05yb86knfffMEKghM1HNk2VEDczt5A8exaLRkAxksXja3cb2nJ6Ft6FIdujBPFuhiBODMq3KUIBZbOerzCRHbKrnI8vLMop71hU1WqBsQmeAFDYg0PKPVm8RDjIgOm8n2yBArkTcWdFHoVkFU26VCfooSapcpgXSWQowf6OiRuRu",
+              "received": false
+            }
+          ],
+          "total_price": 50728,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:16:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f09471c508c5d5e318129"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

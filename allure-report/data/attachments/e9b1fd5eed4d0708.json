@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:17:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3869",
+    "etag": "W/\"f1d-a91phy5BJ9Nk3FXUvee7feNCTLU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f096a1c508c5d5e319590",
+      "status": "In Process",
+      "customer": {
+        "_id": "694f09691c508c5d5e3194ed",
+        "email": "Elnora51@hotmail.com",
+        "name": "Presley Quigley",
+        "country": "USA",
+        "city": "Kunzestad",
+        "street": "Park Crescent",
+        "house": 33,
+        "flat": 299,
+        "phone": "+12433616178",
+        "createdOn": "2025-12-26T22:17:13.000Z",
+        "notes": "pvOD5NsYvgFXVzy5JjONG27WGzTBoNoPHDFHhVBXMGKo5DNRWgnAiX0kPII3nA6vNd9kJJYtrsXyi7zxig1DZhQJtLKFitfQxsHFf5NgmicNDAAOac1pFOCKvU1Wd3lI9PuJTx6bFSyZdzTx5nag0DjVIZLoF65UFfkRfCd1ZVuA15fYC85ApVtJ5ahYdOESce7AIpMQ696npHPLjfGMziE7kI5w3aFzNRiDHl4IyYg9xVUU9fvdzkwGiV"
+      },
+      "products": [
+        {
+          "_id": "694f096a1c508c5d5e31956a",
+          "name": "Computer80780",
+          "amount": 712,
+          "price": 72642,
+          "manufacturer": "Tesla",
+          "notes": "fuoY3otxKkSELRpmZcQGv1sax4EFFOaym8XB8C8tIQTDCWAJwU6a9ngRmGlioNytpybN7nYEdFASpQxt20RWMgboZvqVZeypJU6N780s2SxOfLKVtMCVMw4AOSzITIu7XhDOs1i8YmGdC75sKGOWQ4GyPnnUcAQdT9aVZhbkc9QM0jeYlck30htuKnEhI0e6sDVeKeiYJs7f5Auct3pLZxXBNoJL2MBTaq8eK2gUSOvAklc2LQib6svjEo",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Kunzestad",
+          "street": "Park Crescent",
+          "house": 33,
+          "flat": 299
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 72642,
+      "createdOn": "2025-12-26T22:17:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694f09691c508c5d5e3194ed",
+          "products": [
+            {
+              "_id": "694f096a1c508c5d5e31956a",
+              "name": "Computer80780",
+              "amount": 712,
+              "price": 72642,
+              "manufacturer": "Tesla",
+              "notes": "fuoY3otxKkSELRpmZcQGv1sax4EFFOaym8XB8C8tIQTDCWAJwU6a9ngRmGlioNytpybN7nYEdFASpQxt20RWMgboZvqVZeypJU6N780s2SxOfLKVtMCVMw4AOSzITIu7XhDOs1i8YmGdC75sKGOWQ4GyPnnUcAQdT9aVZhbkc9QM0jeYlck30htuKnEhI0e6sDVeKeiYJs7f5Auct3pLZxXBNoJL2MBTaq8eK2gUSOvAklc2LQib6svjEo",
+              "received": false
+            }
+          ],
+          "total_price": 72642,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Kunzestad",
+              "street": "Park Crescent",
+              "house": 33,
+              "flat": 299
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T22:17:19.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f09691c508c5d5e3194ed",
+          "products": [
+            {
+              "_id": "694f096a1c508c5d5e31956a",
+              "name": "Computer80780",
+              "amount": 712,
+              "price": 72642,
+              "manufacturer": "Tesla",
+              "notes": "fuoY3otxKkSELRpmZcQGv1sax4EFFOaym8XB8C8tIQTDCWAJwU6a9ngRmGlioNytpybN7nYEdFASpQxt20RWMgboZvqVZeypJU6N780s2SxOfLKVtMCVMw4AOSzITIu7XhDOs1i8YmGdC75sKGOWQ4GyPnnUcAQdT9aVZhbkc9QM0jeYlck30htuKnEhI0e6sDVeKeiYJs7f5Auct3pLZxXBNoJL2MBTaq8eK2gUSOvAklc2LQib6svjEo",
+              "received": false
+            }
+          ],
+          "total_price": 72642,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Kunzestad",
+              "street": "Park Crescent",
+              "house": 33,
+              "flat": 299
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T22:17:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f09691c508c5d5e3194ed",
+          "products": [
+            {
+              "_id": "694f096a1c508c5d5e31956a",
+              "name": "Computer80780",
+              "amount": 712,
+              "price": 72642,
+              "manufacturer": "Tesla",
+              "notes": "fuoY3otxKkSELRpmZcQGv1sax4EFFOaym8XB8C8tIQTDCWAJwU6a9ngRmGlioNytpybN7nYEdFASpQxt20RWMgboZvqVZeypJU6N780s2SxOfLKVtMCVMw4AOSzITIu7XhDOs1i8YmGdC75sKGOWQ4GyPnnUcAQdT9aVZhbkc9QM0jeYlck30htuKnEhI0e6sDVeKeiYJs7f5Auct3pLZxXBNoJL2MBTaq8eK2gUSOvAklc2LQib6svjEo",
+              "received": false
+            }
+          ],
+          "total_price": 72642,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:17:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

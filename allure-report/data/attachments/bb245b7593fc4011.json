@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:16:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-3kT/eeRFhLvVh3QO2dzSQxjrAac\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f09461c508c5d5e3180a2",
+        "email": "Harry.Hegmann57@yahoo.com",
+        "name": "Heidi Lesch",
+        "country": "Belarus",
+        "city": "Fort Cordiacester",
+        "street": "Gonzalo Coves",
+        "house": 9,
+        "flat": 370,
+        "phone": "+15802797817",
+        "createdOn": "2025-12-26T22:16:38.000Z",
+        "notes": "EkYDArFkhlTjRh5NJIBTRDK5zg5NbLmD6RvBmuhAMI6OFHNxt0kBSHOB5VRKU7zCGV5sCXfj9EM13n0cV4CJ6TAaGYGg1v93XSdgRRGlTLx2EQdJQaDPEX0xuS9cZD4b8KHindsdb8HQhWtezvt5aCEMN3opj0VuAflapdKOQ9RUXvwSqnpwPjxppvjfWP92IrihzhN1qSiEcXG4nHA5oZI4otl3gaI4v5JT1aH2Pr0HAznPnunZr1c61x"
+      },
+      "products": [
+        {
+          "_id": "694f09471c508c5d5e318102",
+          "name": "Salad24164",
+          "amount": 420,
+          "price": 80910,
+          "manufacturer": "Apple",
+          "notes": "PTWzsoyjbiQHS39AmnFBTw16wczvzN04jm5ojmo6XmSCj48VDJcCA0wQjyRTkKsHfRhmbOUb9WxKNClW9zNhNvnR8BExKEWmvNNHfGyhi4J5s7NnRtrP0iYh9t1PaXEUOvbf1XhuzrijhI4vgM4y7Z7cIWgpeaDusGz0PaJ0jS22eW4pARnCHZBrcv6rhTq76eqo5miRnnXLhTC9wfdFOK0v4zxI6azXPkoFoFMZkdwrghcfmOV6NmHdSY",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 80910,
+      "createdOn": "2025-12-26T22:16:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f09461c508c5d5e3180a2",
+          "products": [
+            {
+              "_id": "694f09471c508c5d5e318102",
+              "name": "Salad24164",
+              "amount": 420,
+              "price": 80910,
+              "manufacturer": "Apple",
+              "notes": "PTWzsoyjbiQHS39AmnFBTw16wczvzN04jm5ojmo6XmSCj48VDJcCA0wQjyRTkKsHfRhmbOUb9WxKNClW9zNhNvnR8BExKEWmvNNHfGyhi4J5s7NnRtrP0iYh9t1PaXEUOvbf1XhuzrijhI4vgM4y7Z7cIWgpeaDusGz0PaJ0jS22eW4pARnCHZBrcv6rhTq76eqo5miRnnXLhTC9wfdFOK0v4zxI6azXPkoFoFMZkdwrghcfmOV6NmHdSY",
+              "received": false
+            }
+          ],
+          "total_price": 80910,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:16:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f09471c508c5d5e318111"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

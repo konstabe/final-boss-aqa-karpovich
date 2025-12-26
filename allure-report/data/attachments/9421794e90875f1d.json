@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:16:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-bvkQz4oBzJvHbNBLa3l5ygyjzik\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f09431c508c5d5e317fac",
+        "email": "German_Larson63@yahoo.com",
+        "name": "Judah Graham",
+        "country": "Canada",
+        "city": "Rockford",
+        "street": "Pine Close",
+        "house": 33,
+        "flat": 576,
+        "phone": "+19653111187",
+        "createdOn": "2025-12-26T22:16:35.000Z",
+        "notes": "ZN50akagy5pfzYJImaxiuZcte0qu5gh8wJHJH5aHVS2surdnsuj7ppMH8Nn0hHLGwFQ1dntNd3tZTZld4xCIpGTl99Cw2bJWb4YTgj6cXkiquT2ZghrCf0umj5xfI37r0KaC1H847Sgg2xF9rs99aLLaydJPJyJ5ClYIFrAb1jOIc01d3IZNA02S6PqAtRwqRpxDoGPq0QxfDMEeW1wFhlwhcYsOEA5QIeNL9t6hxNghplbWI4LpiqiBxh"
+      },
+      "products": [
+        {
+          "_id": "694f09441c508c5d5e317fd3",
+          "name": "Cheese43345",
+          "amount": 194,
+          "price": 79826,
+          "manufacturer": "Xiaomi",
+          "notes": "az2SPX6ySpJIqxTeIyHSIWdwQVzJ3DKyevXocmGFJ8WN7lJaVCsYJzxz9pDZUT1XAomrn5Hl7m6pajeZFf9igCiC7q8zrxXogfH8KfFWjAqgTFv7qO8juBN9LPLk1HcwFSjJ4adFA7hLkqCwqXHldh0LS1723vxJqnJfVvZ5qgu0vvpWDCaM2t3Cm8ctseuOq4KZHUGzEmbmcYg2w5DvWbEHjwH7aZEUMjuVKeRnRaoXi3p43o84Fni2GS",
+          "received": false
+        },
+        {
+          "_id": "694f09441c508c5d5e317ff3",
+          "name": "Towels99356",
+          "amount": 963,
+          "price": 15952,
+          "manufacturer": "Apple",
+          "notes": "45XXpsFClL5YJb7aPSy1HhhqoRSp7kmn6lC8PSGBiHSnxVndP2rdMpE3JUNPucMiFucGR4F2ThxI9MFjrOKC5gyVqEGQflQBXqhrHRgu6MoEQReZUGseKqIRLWZMrUgtbAMEOMEBzHKQvSKYLKO6eIP7A6e6Hd99G99w336KrazuaLCbABLHeQv1Y3qbA5RclfjJCgoLGIxCgfAi8H4Ol07x6i2kjroAx6mXGhMJyLALnVqGZwIZDDqIXp",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 95778,
+      "createdOn": "2025-12-26T22:16:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f09431c508c5d5e317fac",
+          "products": [
+            {
+              "_id": "694f09441c508c5d5e317fd3",
+              "name": "Cheese43345",
+              "amount": 194,
+              "price": 79826,
+              "manufacturer": "Xiaomi",
+              "notes": "az2SPX6ySpJIqxTeIyHSIWdwQVzJ3DKyevXocmGFJ8WN7lJaVCsYJzxz9pDZUT1XAomrn5Hl7m6pajeZFf9igCiC7q8zrxXogfH8KfFWjAqgTFv7qO8juBN9LPLk1HcwFSjJ4adFA7hLkqCwqXHldh0LS1723vxJqnJfVvZ5qgu0vvpWDCaM2t3Cm8ctseuOq4KZHUGzEmbmcYg2w5DvWbEHjwH7aZEUMjuVKeRnRaoXi3p43o84Fni2GS",
+              "received": false
+            },
+            {
+              "_id": "694f09441c508c5d5e317ff3",
+              "name": "Towels99356",
+              "amount": 963,
+              "price": 15952,
+              "manufacturer": "Apple",
+              "notes": "45XXpsFClL5YJb7aPSy1HhhqoRSp7kmn6lC8PSGBiHSnxVndP2rdMpE3JUNPucMiFucGR4F2ThxI9MFjrOKC5gyVqEGQflQBXqhrHRgu6MoEQReZUGseKqIRLWZMrUgtbAMEOMEBzHKQvSKYLKO6eIP7A6e6Hd99G99w336KrazuaLCbABLHeQv1Y3qbA5RclfjJCgoLGIxCgfAi8H4Ol07x6i2kjroAx6mXGhMJyLALnVqGZwIZDDqIXp",
+              "received": false
+            }
+          ],
+          "total_price": 95778,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:16:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f09451c508c5d5e318015"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

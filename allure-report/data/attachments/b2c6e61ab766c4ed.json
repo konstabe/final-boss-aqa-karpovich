@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:17:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3434",
+    "etag": "W/\"d6a-OE+5SGKnruxVrXiuWVgeA3ymYTk\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f09871c508c5d5e31a7ab",
+        "email": "Marianne.Gerhold50@hotmail.com",
+        "name": "Berenice McLaughlin",
+        "country": "Belarus",
+        "city": "Juwanport",
+        "street": "11th Street",
+        "house": 43,
+        "flat": 810,
+        "phone": "+16663008131",
+        "createdOn": "2025-12-26T22:17:43.000Z",
+        "notes": "qsBx3fbxUajcY8kgMmGFWgxKBxTK3pDLggKEyFTIaX6FqptFUMbQ6xFXLRqctjBDkCc2n3FhuA25smmJT5kzRmqpRdwP59bR3Mbo8jGtKU1i1B0d9kkEcbVbaMEcBOrhEtKlvTmh64v8Iz5n7B38XSFzSXw4Uh9ALtW7LeDJO9RNFsdFHiEwqlycVu2OH16enrvBR7nIprtCHnWfUOXez7vz9LmyOg8Psicqvn1RRsEDYF4OzHijXoF55U"
+      },
+      "products": [
+        {
+          "_id": "694f09891c508c5d5e31ab78",
+          "name": "Bike34024",
+          "amount": 822,
+          "price": 49565,
+          "manufacturer": "Google",
+          "notes": "1L7VRGVJWxVHIyNPhVJhv1n509Pbc30BVDR1x1xUnRMCbg2wcL8B2gWNQqU11v0FZ5EA15bOM5Cyp1FzCjj2aaHH0LCvnhhTsNEZcXRJfDpeJYg24R47CnZVsVkBK710q08KLW5ZmCyAz0FZJXJtDIL6AoLQOSvEkF39NoMR4GXdW0wo3JPoad4jBUNtBuJFK5DkMYInWmiDibHL8JtIwGPV2LnhaccxcKyj1UaqhJUSSJoztU3egsLv2q",
+          "received": false
+        },
+        {
+          "_id": "694f098e1c508c5d5e31ad4c",
+          "name": "Gloves85264",
+          "amount": 405,
+          "price": 30238,
+          "manufacturer": "Tesla",
+          "notes": "msW9A8eTvGWzItTdE203D0AZIIhTkkUgoE23LcnBtkioYBV8hWzCBXj4YiKh8A9qFf6ofSmFZqGIToIeOhSln7gYmGWo5cS1tZQ9wmUHRJfjlERJiNhn20O93Fmue2wAky6MRhLyrvl80PyQ01h7nlFAQldgE6E6VQlcke2NeODGDMUdOKVXSfnqnkpoOljhg4oh7eUBzHXYid5EimJKQl6x8rArO0ATCVRHVgRkxfrUzjv7TEQvYNh4UW",
+          "received": false
+        },
+        {
+          "_id": "694f098f1c508c5d5e31adb5",
+          "name": "Sausages20735",
+          "amount": 119,
+          "price": 77580,
+          "manufacturer": "Tesla",
+          "notes": "vBLzbVfnfbVcfkexnrHH6AOCo37nUnHBFkTi9UFtqgmieJV1zQq42Zt9XpMcjvS6yKB2Lvg6wZxBAOg0Y8vTiDFTzgPIKS8L9Z9qptteSD5KhvQusmIoC54te8J7rMyIlywVGGCtmErnzXBPgnomLOzG6Jas1gqJUC5fWoyqrzt5rSg9opgdXJRwYZkg2N1ez6E3HXgzTZGq8q8x9i0tSRMwk8jSqyp51pDncBgG0G3S5o7HEGva9WMFde",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 157383,
+      "createdOn": "2025-12-26T22:17:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f09871c508c5d5e31a7ab",
+          "products": [
+            {
+              "_id": "694f09891c508c5d5e31ab78",
+              "name": "Bike34024",
+              "amount": 822,
+              "price": 49565,
+              "manufacturer": "Google",
+              "notes": "1L7VRGVJWxVHIyNPhVJhv1n509Pbc30BVDR1x1xUnRMCbg2wcL8B2gWNQqU11v0FZ5EA15bOM5Cyp1FzCjj2aaHH0LCvnhhTsNEZcXRJfDpeJYg24R47CnZVsVkBK710q08KLW5ZmCyAz0FZJXJtDIL6AoLQOSvEkF39NoMR4GXdW0wo3JPoad4jBUNtBuJFK5DkMYInWmiDibHL8JtIwGPV2LnhaccxcKyj1UaqhJUSSJoztU3egsLv2q",
+              "received": false
+            },
+            {
+              "_id": "694f098e1c508c5d5e31ad4c",
+              "name": "Gloves85264",
+              "amount": 405,
+              "price": 30238,
+              "manufacturer": "Tesla",
+              "notes": "msW9A8eTvGWzItTdE203D0AZIIhTkkUgoE23LcnBtkioYBV8hWzCBXj4YiKh8A9qFf6ofSmFZqGIToIeOhSln7gYmGWo5cS1tZQ9wmUHRJfjlERJiNhn20O93Fmue2wAky6MRhLyrvl80PyQ01h7nlFAQldgE6E6VQlcke2NeODGDMUdOKVXSfnqnkpoOljhg4oh7eUBzHXYid5EimJKQl6x8rArO0ATCVRHVgRkxfrUzjv7TEQvYNh4UW",
+              "received": false
+            },
+            {
+              "_id": "694f098f1c508c5d5e31adb5",
+              "name": "Sausages20735",
+              "amount": 119,
+              "price": 77580,
+              "manufacturer": "Tesla",
+              "notes": "vBLzbVfnfbVcfkexnrHH6AOCo37nUnHBFkTi9UFtqgmieJV1zQq42Zt9XpMcjvS6yKB2Lvg6wZxBAOg0Y8vTiDFTzgPIKS8L9Z9qptteSD5KhvQusmIoC54te8J7rMyIlywVGGCtmErnzXBPgnomLOzG6Jas1gqJUC5fWoyqrzt5rSg9opgdXJRwYZkg2N1ez6E3HXgzTZGq8q8x9i0tSRMwk8jSqyp51pDncBgG0G3S5o7HEGva9WMFde",
+              "received": false
+            }
+          ],
+          "total_price": 157383,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:17:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f09921c508c5d5e31af54"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

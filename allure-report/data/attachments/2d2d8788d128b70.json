@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:17:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4849",
+    "etag": "W/\"12f1-/3XUcSP0rS+ye2ITg9s4ESFnhx8\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f09611c508c5d5e319068",
+      "status": "Received",
+      "customer": {
+        "_id": "694f095e1c508c5d5e318e28",
+        "email": "Rusty_Bode@gmail.com",
+        "name": "Kiley Kautzer",
+        "country": "Great Britain",
+        "city": "Port Karsonchester",
+        "street": "Norfolk Road",
+        "house": 6,
+        "flat": 965,
+        "phone": "+19983859555",
+        "createdOn": "2025-12-26T22:17:02.000Z",
+        "notes": "ESrQ1rQTxGMWVotmieqfs31XCdHQhQTYEzUehC9JIXUy3LPVCU4Bzamv2z4PMtKcATkHyHsQtsowbNYvwuax2ycjZNViqjJoSZMEZlzpvYbl2evb6C8bqesgeVAiAQqAmN6RyzUnTnrYlSmyg1gLDh4FBYU7h9PfnAdGDhZWT7dnaxwY3uPv9x4PzCyTJNp5Gfcxczd01ftsMPCDuxwwwcByc5UbThB6KBDdIZe5G68Ab4oKSE7m4YWWkm"
+      },
+      "products": [
+        {
+          "_id": "694f09601c508c5d5e319046",
+          "name": "Cheese2300",
+          "amount": 658,
+          "price": 47196,
+          "manufacturer": "Tesla",
+          "notes": "kxHdp2MSQFfIK99MLiAkvnE7XBj9qFvQVzXoYUVHLTKDinB0pFROivBrQDZhkX92Ft5CfuZFmdE0maImbNPs9W1zAgMbFhneXFKN1nwHv4KG7f75FmdUXDYBdwXR3ZzJ6vAXKgmeBnl43ZBqz8crmt2kxBQjwuq39DthhyApsFrDiidL3i8YHGiXZKyK0ZBKPP9rX76qTbNdMP8DZoO9vUSrIk5O5AfShB4MsKs4MCXDxZp0zR11a9Hx2X",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Port Karsonchester",
+          "street": "Norfolk Road",
+          "house": 6,
+          "flat": 965
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 47196,
+      "createdOn": "2025-12-26T22:17:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694f095e1c508c5d5e318e28",
+          "products": [
+            {
+              "_id": "694f09601c508c5d5e319046",
+              "name": "Cheese2300",
+              "amount": 658,
+              "price": 47196,
+              "manufacturer": "Tesla",
+              "notes": "kxHdp2MSQFfIK99MLiAkvnE7XBj9qFvQVzXoYUVHLTKDinB0pFROivBrQDZhkX92Ft5CfuZFmdE0maImbNPs9W1zAgMbFhneXFKN1nwHv4KG7f75FmdUXDYBdwXR3ZzJ6vAXKgmeBnl43ZBqz8crmt2kxBQjwuq39DthhyApsFrDiidL3i8YHGiXZKyK0ZBKPP9rX76qTbNdMP8DZoO9vUSrIk5O5AfShB4MsKs4MCXDxZp0zR11a9Hx2X",
+              "received": true
+            }
+          ],
+          "total_price": 47196,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Karsonchester",
+              "street": "Norfolk Road",
+              "house": 6,
+              "flat": 965
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T22:17:08.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694f095e1c508c5d5e318e28",
+          "products": [
+            {
+              "_id": "694f09601c508c5d5e319046",
+              "name": "Cheese2300",
+              "amount": 658,
+              "price": 47196,
+              "manufacturer": "Tesla",
+              "notes": "kxHdp2MSQFfIK99MLiAkvnE7XBj9qFvQVzXoYUVHLTKDinB0pFROivBrQDZhkX92Ft5CfuZFmdE0maImbNPs9W1zAgMbFhneXFKN1nwHv4KG7f75FmdUXDYBdwXR3ZzJ6vAXKgmeBnl43ZBqz8crmt2kxBQjwuq39DthhyApsFrDiidL3i8YHGiXZKyK0ZBKPP9rX76qTbNdMP8DZoO9vUSrIk5O5AfShB4MsKs4MCXDxZp0zR11a9Hx2X",
+              "received": false
+            }
+          ],
+          "total_price": 47196,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Karsonchester",
+              "street": "Norfolk Road",
+              "house": 6,
+              "flat": 965
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T22:17:08.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f095e1c508c5d5e318e28",
+          "products": [
+            {
+              "_id": "694f09601c508c5d5e319046",
+              "name": "Cheese2300",
+              "amount": 658,
+              "price": 47196,
+              "manufacturer": "Tesla",
+              "notes": "kxHdp2MSQFfIK99MLiAkvnE7XBj9qFvQVzXoYUVHLTKDinB0pFROivBrQDZhkX92Ft5CfuZFmdE0maImbNPs9W1zAgMbFhneXFKN1nwHv4KG7f75FmdUXDYBdwXR3ZzJ6vAXKgmeBnl43ZBqz8crmt2kxBQjwuq39DthhyApsFrDiidL3i8YHGiXZKyK0ZBKPP9rX76qTbNdMP8DZoO9vUSrIk5O5AfShB4MsKs4MCXDxZp0zR11a9Hx2X",
+              "received": false
+            }
+          ],
+          "total_price": 47196,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Karsonchester",
+              "street": "Norfolk Road",
+              "house": 6,
+              "flat": 965
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T22:17:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f095e1c508c5d5e318e28",
+          "products": [
+            {
+              "_id": "694f09601c508c5d5e319046",
+              "name": "Cheese2300",
+              "amount": 658,
+              "price": 47196,
+              "manufacturer": "Tesla",
+              "notes": "kxHdp2MSQFfIK99MLiAkvnE7XBj9qFvQVzXoYUVHLTKDinB0pFROivBrQDZhkX92Ft5CfuZFmdE0maImbNPs9W1zAgMbFhneXFKN1nwHv4KG7f75FmdUXDYBdwXR3ZzJ6vAXKgmeBnl43ZBqz8crmt2kxBQjwuq39DthhyApsFrDiidL3i8YHGiXZKyK0ZBKPP9rX76qTbNdMP8DZoO9vUSrIk5O5AfShB4MsKs4MCXDxZp0zR11a9Hx2X",
+              "received": false
+            }
+          ],
+          "total_price": 47196,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:17:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

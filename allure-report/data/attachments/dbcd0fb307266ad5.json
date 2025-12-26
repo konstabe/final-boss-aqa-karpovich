@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:17:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2671",
+    "etag": "W/\"a6f-GKYfOwCnYElTdvAGWNHqvIOMJhA\"",
+    "keep-alive": "timeout=5, max=67",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f096f1c508c5d5e3198f8",
+        "email": "Margarita.Bednar@yahoo.com",
+        "name": "Elbert Jakubowski",
+        "country": "France",
+        "city": "South Janice",
+        "street": "Gardner Court",
+        "house": 10,
+        "flat": 39,
+        "phone": "+16255930684",
+        "createdOn": "2025-12-26T22:17:19.000Z",
+        "notes": "ckMWzm9xmDrnfS3XJADyIaSKaUiksJDWbHuWcBwG20ODuXgWx93qyGtcZlAfSgJ3ULFUGQDHIX9QA3ijMbfMrwAt2R6jqCi3mr3vO3WqLWNQvAExz224y3lzMyNr5I5Yr0oYNpRzByS0nMqQ3kf8LHbRHqhrqBGdswWmPLws9lC1aQR4FN0KYf9vjUKHT6B4hFo6cWNfbq2tn6Uu9XVhCa6cDyV28xMdZF4WnfMRMlGlY6pGoK6nyjo8on"
+      },
+      "products": [
+        {
+          "_id": "694f096f1c508c5d5e31994d",
+          "name": "Shoes95929",
+          "amount": 327,
+          "price": 41844,
+          "manufacturer": "Amazon",
+          "notes": "bZ4KGNzkogY3LvsdCahCoT5R7FcAd21lZZ3NrnkPPCAKcOg5mAtGRKIzbeHMUD71DC0gSMkrPqJKxg6jPmkfexrBVjMnPVPouJnKvs8EfTxNL33BPj2HjyfowoVwL4YwlQoThcWxsf0zaIDBTsaVgoFeTahSVxkqRYgH9ckbfwkPcAJvImcCyRruc54WuKlHWCEnMomXCW4QDVovpUtCn5QoESIp1B0eLV1NVliq3tvAMOzGc72pwYHzNk",
+          "received": false
+        },
+        {
+          "_id": "694f09701c508c5d5e319979",
+          "name": "Sausages89674",
+          "amount": 447,
+          "price": 25435,
+          "manufacturer": "Microsoft",
+          "notes": "3PFsTglZDeZHGx0kigDFysTSpGChU6vnXnejK7sHdrQtI4cKMZDOOOnKke5u8avTteEfCt7pxAybqQpSBmkXw6H8sYGdMNg9nKOnI3zJsLTNE6yY6UMmtefUXaZwiLfNw70ZKr1nmROgXf74pPQpM0oyRIY40Nqe0ZZfWa4mMW2jVU9bd996aNQ860rvJ8ETFpxvg8m0rKBI2YJLM3Ft3zwnvVwgiifo4GEfI60p9xPTl7zSNXghsAll0E",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 67279,
+      "createdOn": "2025-12-26T22:17:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f096f1c508c5d5e3198f8",
+          "products": [
+            {
+              "_id": "694f096f1c508c5d5e31994d",
+              "name": "Shoes95929",
+              "amount": 327,
+              "price": 41844,
+              "manufacturer": "Amazon",
+              "notes": "bZ4KGNzkogY3LvsdCahCoT5R7FcAd21lZZ3NrnkPPCAKcOg5mAtGRKIzbeHMUD71DC0gSMkrPqJKxg6jPmkfexrBVjMnPVPouJnKvs8EfTxNL33BPj2HjyfowoVwL4YwlQoThcWxsf0zaIDBTsaVgoFeTahSVxkqRYgH9ckbfwkPcAJvImcCyRruc54WuKlHWCEnMomXCW4QDVovpUtCn5QoESIp1B0eLV1NVliq3tvAMOzGc72pwYHzNk",
+              "received": false
+            },
+            {
+              "_id": "694f09701c508c5d5e319979",
+              "name": "Sausages89674",
+              "amount": 447,
+              "price": 25435,
+              "manufacturer": "Microsoft",
+              "notes": "3PFsTglZDeZHGx0kigDFysTSpGChU6vnXnejK7sHdrQtI4cKMZDOOOnKke5u8avTteEfCt7pxAybqQpSBmkXw6H8sYGdMNg9nKOnI3zJsLTNE6yY6UMmtefUXaZwiLfNw70ZKr1nmROgXf74pPQpM0oyRIY40Nqe0ZZfWa4mMW2jVU9bd996aNQ860rvJ8ETFpxvg8m0rKBI2YJLM3Ft3zwnvVwgiifo4GEfI60p9xPTl7zSNXghsAll0E",
+              "received": false
+            }
+          ],
+          "total_price": 67279,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:17:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f09701c508c5d5e319991"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

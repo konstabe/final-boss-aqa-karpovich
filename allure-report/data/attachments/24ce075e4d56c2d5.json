@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:18:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3426",
+    "etag": "W/\"d62-oQas/++Ds8dhOID/NMeZMZoj/DM\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f09981c508c5d5e31b284",
+        "email": "Emerson76@yahoo.com",
+        "name": "Ervin Nienow",
+        "country": "Great Britain",
+        "city": "Howellworth",
+        "street": "Marquis Ridge",
+        "house": 24,
+        "flat": 579,
+        "phone": "+15947676476",
+        "createdOn": "2025-12-26T22:18:00.000Z",
+        "notes": "Ji5ZMy9NrdlnvhYgFMJQbazyxntMrSagDE9hkVbNUhCKCvHzTuazem2lY91BqsnZZQ5rrCroYCLKxFKokKBhsc4rYSydYbBM8jKYLkiBjPLQLewO3vifhi1p4m0uM0aVUikfDVznBFzMhSuRmot1cRjy9xH7u845kL9O2LJ6N0Y0PdNvUByvXmZJiZOcwCQSzsdO2ly27v5kymYGakuaTMqER8ihYrEs7M6uuHxj9aPnAhdq26omt9Ww76"
+      },
+      "products": [
+        {
+          "_id": "694f09991c508c5d5e31b2e6",
+          "name": "Ball11281",
+          "amount": 403,
+          "price": 37899,
+          "manufacturer": "Xiaomi",
+          "notes": "EFbTa2N4IsCjziDdw4TbP9fd2jH97poUm7QmrGndhlQqw7dmqU9yuEkdzgJthY5BkeO7PvOcx0QN8dA0E0YCNg6NZH6UWJKh2POA0Pk39fGyJQdjc3HJODtz5QPZ3xaujYfIgcsg7PcUK3I6kjLdP0gujW8v6qCKlBmQm14nBEzXFbbxWDOYavTEBXKrKGqdPYA6E7oQO9a3jcjY56NH5zVjXqOmYuJpoMlI8nHXFP36GOo3wRVFc0OfFF",
+          "received": false
+        },
+        {
+          "_id": "694f099a1c508c5d5e31b547",
+          "name": "Chair64664",
+          "amount": 531,
+          "price": 87885,
+          "manufacturer": "Sony",
+          "notes": "T1U2y83nGNkP36u87dbCMAfhthGcOL060C8wRM20U7umoQ2DzySQhLDXrH1j9wGeWKIb7XoPnOXqf3Opgh9R6ijvyMQGiYWSkBOdCQFqaBq4EKFvKFSG1tSUuGH4ySoKzCK1p5gLOeUCQ63qTpkUG3HfRDWo4sdryhn4tvvrLIqRKpGU45j3G5zfOOLRB8xfb8n8hoSPVdmSh9B3382pfTYMvwcHEmItL1WPq3Xl6ib1a44Ujgw305XmrS",
+          "received": false
+        },
+        {
+          "_id": "694f099d1c508c5d5e31b61d",
+          "name": "Cheese94705",
+          "amount": 764,
+          "price": 35900,
+          "manufacturer": "Microsoft",
+          "notes": "Mk3l5F38L13okmv6NyT05rPQnT0OQ3BHqjVnT3KlL7EpZgeVx43qZRXBNRCiTDu6foUtiA30cLgWWh8DZFBWBYEzqbHLsMJ7f6VorpzooB7esllxNU9fP74uRSg4m1Eo3rPEjQVOTWZTYCUT1xMFYSotJwwr0oFSW4vOOFP1lzReoDY2uPhAL6Z79oUl8bk7DY3xX0XiHwOMkMvX98USiVbOGfT7kyXiYZCsukKyQj8zSc2yjwTrXhclDZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 161684,
+      "createdOn": "2025-12-26T22:18:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f09981c508c5d5e31b284",
+          "products": [
+            {
+              "_id": "694f09991c508c5d5e31b2e6",
+              "name": "Ball11281",
+              "amount": 403,
+              "price": 37899,
+              "manufacturer": "Xiaomi",
+              "notes": "EFbTa2N4IsCjziDdw4TbP9fd2jH97poUm7QmrGndhlQqw7dmqU9yuEkdzgJthY5BkeO7PvOcx0QN8dA0E0YCNg6NZH6UWJKh2POA0Pk39fGyJQdjc3HJODtz5QPZ3xaujYfIgcsg7PcUK3I6kjLdP0gujW8v6qCKlBmQm14nBEzXFbbxWDOYavTEBXKrKGqdPYA6E7oQO9a3jcjY56NH5zVjXqOmYuJpoMlI8nHXFP36GOo3wRVFc0OfFF",
+              "received": false
+            },
+            {
+              "_id": "694f099a1c508c5d5e31b547",
+              "name": "Chair64664",
+              "amount": 531,
+              "price": 87885,
+              "manufacturer": "Sony",
+              "notes": "T1U2y83nGNkP36u87dbCMAfhthGcOL060C8wRM20U7umoQ2DzySQhLDXrH1j9wGeWKIb7XoPnOXqf3Opgh9R6ijvyMQGiYWSkBOdCQFqaBq4EKFvKFSG1tSUuGH4ySoKzCK1p5gLOeUCQ63qTpkUG3HfRDWo4sdryhn4tvvrLIqRKpGU45j3G5zfOOLRB8xfb8n8hoSPVdmSh9B3382pfTYMvwcHEmItL1WPq3Xl6ib1a44Ujgw305XmrS",
+              "received": false
+            },
+            {
+              "_id": "694f099d1c508c5d5e31b61d",
+              "name": "Cheese94705",
+              "amount": 764,
+              "price": 35900,
+              "manufacturer": "Microsoft",
+              "notes": "Mk3l5F38L13okmv6NyT05rPQnT0OQ3BHqjVnT3KlL7EpZgeVx43qZRXBNRCiTDu6foUtiA30cLgWWh8DZFBWBYEzqbHLsMJ7f6VorpzooB7esllxNU9fP74uRSg4m1Eo3rPEjQVOTWZTYCUT1xMFYSotJwwr0oFSW4vOOFP1lzReoDY2uPhAL6Z79oUl8bk7DY3xX0XiHwOMkMvX98USiVbOGfT7kyXiYZCsukKyQj8zSc2yjwTrXhclDZ",
+              "received": false
+            }
+          ],
+          "total_price": 161684,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:18:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f099e1c508c5d5e31b63d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

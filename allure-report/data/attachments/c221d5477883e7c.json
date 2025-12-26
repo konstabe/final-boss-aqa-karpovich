@@ -1,0 +1,137 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:17:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4186",
+    "etag": "W/\"105a-g4R74FsEES1ymRMQZrPXgCqMDPc\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f097d1c508c5d5e31a0fc",
+        "email": "Dessie.Ratke@yahoo.com",
+        "name": "Olin Rath",
+        "country": "Canada",
+        "city": "Lake Omerland",
+        "street": "1st Street",
+        "house": 33,
+        "flat": 199,
+        "phone": "+19275739868",
+        "createdOn": "2025-12-26T22:17:33.000Z",
+        "notes": "0sTT34hUSOl9p4Jlf6UOpLr15PagXKlFjtE3lHdsnwDijJQsw06BMvAbhODgHYIG9JGbJWP3N1vGPahJi3UkMJgU8FQK1RRcZNwfnXk2UqcVsndE6S2kFkBw21TBvQDBQsMdUMDNB4A2DA64SBrxeYCAR8AVmDAGuOxJrgrpYimKvSJ1HRgIiKqfvb7WUVcubtD8axyFYyKVBjvcwEXgpkVnbnhHvXjmhSabEAmCrMiFp0Bnl1WywUmnV5"
+      },
+      "products": [
+        {
+          "_id": "694f097d1c508c5d5e31a1b9",
+          "name": "Soap57960",
+          "amount": 169,
+          "price": 60139,
+          "manufacturer": "Amazon",
+          "notes": "bV2yyjFfZY9ZO4OyfbpIw84WYZY6YzvOJc8VrcGMbYv3NKwgBOLDO4QsTpF2EVCXF6N5EhNxHFZuLdvgMHCbX17fmgjOSDISOKb5SIfBTagu5K99uBVD8SVakT0usU41Fmn9NbjV6WOMVsBtdwPdelcrtuoongbqk7JSEXylapHlzMMTUFbrrXxmnq3qTTVyAPg4u9aULXyUSMnIGHaUGV69bwh59gnfLfMawXK8WSeRSBwEu9c4Mx6jIw",
+          "received": false
+        },
+        {
+          "_id": "694f097f1c508c5d5e31a36b",
+          "name": "Towels47663",
+          "amount": 867,
+          "price": 81847,
+          "manufacturer": "Samsung",
+          "notes": "C2yBWMAQm2VyqNVRSI0DxzlPGa1RHGlduWkg2oBhjIPdeEMxG71fuA8FMGOSuh2eqEkLi9hictsr6PmDIoEKKR8taUwqY4gIAXH7mtHxqZQLvmbbQRBfovuZZKvQRBK777rxZsKJZrNN10v59zQH3Mk8zX8EB3GD1jngAatscIvxexKgjFjLJ1Pwkl8hhQIgsCyDwV9z3TtR2imMG4nXXcgBvTrkJy942HXKFegA0klOqRqz8IgnJcRwnm",
+          "received": false
+        },
+        {
+          "_id": "694f09821c508c5d5e31a4ab",
+          "name": "Table69070",
+          "amount": 732,
+          "price": 18280,
+          "manufacturer": "Samsung",
+          "notes": "A8vJJpFSzdOjpMZQu9QFclkYiCDc6eA2FCmfjHfCEVd2bziM08SLwQrqqQ03MdbmILMKtfsim7XVuK40BaprJG1xTIXmc2cUaoNYIPYtaSCoKIczCEuRpP7aCFbfE4SG22ms1OVpWeTqtwEBQQCqx82b6KYVNpWcg1ktHm5h022IdbjL5rnRUDL4PME2zWxqJzBoODqNNuuEDduFESWVamIGAMpr0F94L8fOcnbrL06z5XBvTcaKGRaXGY",
+          "received": false
+        },
+        {
+          "_id": "694f09861c508c5d5e31a741",
+          "name": "Soap50646",
+          "amount": 248,
+          "price": 59321,
+          "manufacturer": "Amazon",
+          "notes": "s5dzKnJAkfxKKTNCAfwhmybJKoWquzde6ULQjDmzU2wo4HWI4LUo76AZNvhGyFul5nahOdXfobtOFUkX20BvNM5Ke58BxolF0tnypmltGNfWwL9BAjyVVOFa9mZG4R0aDsdH1LmNVMsay9l631hHofGFmUE1x3zoIwnBGn43oLNJfEYEbJQIjTZBTlheKOYc9jcSxRCaBrQDKTmak1AFoAmygj2NWAxTBPONMsJIRYE5xXN13mWGHzKlzW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 219587,
+      "createdOn": "2025-12-26T22:17:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f097d1c508c5d5e31a0fc",
+          "products": [
+            {
+              "_id": "694f097d1c508c5d5e31a1b9",
+              "name": "Soap57960",
+              "amount": 169,
+              "price": 60139,
+              "manufacturer": "Amazon",
+              "notes": "bV2yyjFfZY9ZO4OyfbpIw84WYZY6YzvOJc8VrcGMbYv3NKwgBOLDO4QsTpF2EVCXF6N5EhNxHFZuLdvgMHCbX17fmgjOSDISOKb5SIfBTagu5K99uBVD8SVakT0usU41Fmn9NbjV6WOMVsBtdwPdelcrtuoongbqk7JSEXylapHlzMMTUFbrrXxmnq3qTTVyAPg4u9aULXyUSMnIGHaUGV69bwh59gnfLfMawXK8WSeRSBwEu9c4Mx6jIw",
+              "received": false
+            },
+            {
+              "_id": "694f097f1c508c5d5e31a36b",
+              "name": "Towels47663",
+              "amount": 867,
+              "price": 81847,
+              "manufacturer": "Samsung",
+              "notes": "C2yBWMAQm2VyqNVRSI0DxzlPGa1RHGlduWkg2oBhjIPdeEMxG71fuA8FMGOSuh2eqEkLi9hictsr6PmDIoEKKR8taUwqY4gIAXH7mtHxqZQLvmbbQRBfovuZZKvQRBK777rxZsKJZrNN10v59zQH3Mk8zX8EB3GD1jngAatscIvxexKgjFjLJ1Pwkl8hhQIgsCyDwV9z3TtR2imMG4nXXcgBvTrkJy942HXKFegA0klOqRqz8IgnJcRwnm",
+              "received": false
+            },
+            {
+              "_id": "694f09821c508c5d5e31a4ab",
+              "name": "Table69070",
+              "amount": 732,
+              "price": 18280,
+              "manufacturer": "Samsung",
+              "notes": "A8vJJpFSzdOjpMZQu9QFclkYiCDc6eA2FCmfjHfCEVd2bziM08SLwQrqqQ03MdbmILMKtfsim7XVuK40BaprJG1xTIXmc2cUaoNYIPYtaSCoKIczCEuRpP7aCFbfE4SG22ms1OVpWeTqtwEBQQCqx82b6KYVNpWcg1ktHm5h022IdbjL5rnRUDL4PME2zWxqJzBoODqNNuuEDduFESWVamIGAMpr0F94L8fOcnbrL06z5XBvTcaKGRaXGY",
+              "received": false
+            },
+            {
+              "_id": "694f09861c508c5d5e31a741",
+              "name": "Soap50646",
+              "amount": 248,
+              "price": 59321,
+              "manufacturer": "Amazon",
+              "notes": "s5dzKnJAkfxKKTNCAfwhmybJKoWquzde6ULQjDmzU2wo4HWI4LUo76AZNvhGyFul5nahOdXfobtOFUkX20BvNM5Ke58BxolF0tnypmltGNfWwL9BAjyVVOFa9mZG4R0aDsdH1LmNVMsay9l631hHofGFmUE1x3zoIwnBGn43oLNJfEYEbJQIjTZBTlheKOYc9jcSxRCaBrQDKTmak1AFoAmygj2NWAxTBPONMsJIRYE5xXN13mWGHzKlzW",
+              "received": false
+            }
+          ],
+          "total_price": 219587,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:17:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f09861c508c5d5e31a773"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

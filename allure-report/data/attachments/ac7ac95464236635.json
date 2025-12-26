@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:16:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-tLXnnn3UFSx6ar0q44oa5bMOfhQ\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f095a1c508c5d5e318b04",
+        "email": "Genoveva57@hotmail.com",
+        "name": "Delphine Blick",
+        "country": "USA",
+        "city": "Port Vicente",
+        "street": "Bogisich Mall",
+        "house": 5,
+        "flat": 20,
+        "phone": "+17167075979",
+        "createdOn": "2025-12-26T22:16:58.000Z",
+        "notes": "JozY38JC7548xQAeDNPrqi0j9N2HNlVean8MpmfrIwziXxTig8xzH1CYT5KdAaPBrjROZ9sjEyS4T5jeUztdedsl18ZlyGZRe79R4EkfjZmg55Uvpvs2vpuHDOXOnjPwj66WajQWN6AgBvVSr9iTFnz0gSHu9IhXyZTuIGqqi0qn7EeSAVQXhiHyC9wlRjJTrVd2TPjX9CbALQaxq0Gk4sgdG8zq2klspfLQHVQEClTbSFFMIOSLqfuKHd"
+      },
+      "products": [
+        {
+          "_id": "694f095a1c508c5d5e318bd0",
+          "name": "Bike45125",
+          "amount": 935,
+          "price": 98030,
+          "manufacturer": "Samsung",
+          "notes": "EUknhYT6Fhr92DE8JO7Mb7Aw00hLnbYVLlJbGR3oTLK3J3eWA5ItMji8PIen6jVm5VACHHQiHMKAthm6cxMU1oo91TN9PvHo8NdYCx3B0RUMgi4KZ2NFwcKVnzXMLqWLij3Mrhu7hGvcEEzT9HJT1hb69i8BU2J5zRFZ8AiqIliYwhkpCpYrjK1hWgAFiotOsNsTwfW9rP9doJedAhzN8CwwFiPEAdzi9d9j2xjO3xSOIDrA0z34DJPL5i",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98030,
+      "createdOn": "2025-12-26T22:16:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f095a1c508c5d5e318b04",
+          "products": [
+            {
+              "_id": "694f095a1c508c5d5e318bd0",
+              "name": "Bike45125",
+              "amount": 935,
+              "price": 98030,
+              "manufacturer": "Samsung",
+              "notes": "EUknhYT6Fhr92DE8JO7Mb7Aw00hLnbYVLlJbGR3oTLK3J3eWA5ItMji8PIen6jVm5VACHHQiHMKAthm6cxMU1oo91TN9PvHo8NdYCx3B0RUMgi4KZ2NFwcKVnzXMLqWLij3Mrhu7hGvcEEzT9HJT1hb69i8BU2J5zRFZ8AiqIliYwhkpCpYrjK1hWgAFiotOsNsTwfW9rP9doJedAhzN8CwwFiPEAdzi9d9j2xjO3xSOIDrA0z34DJPL5i",
+              "received": false
+            }
+          ],
+          "total_price": 98030,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:16:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f095b1c508c5d5e318bf6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:16:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2653",
+    "etag": "W/\"a5d-xYHAJ4FkL9NPmj+/OETsjMmUS6s\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f094b1c508c5d5e3183a5",
+        "email": "Amari_Lueilwitz@hotmail.com",
+        "name": "Jeramie Connelly",
+        "country": "Russia",
+        "city": "South Arno",
+        "street": "Haylie Rue",
+        "house": 45,
+        "flat": 232,
+        "phone": "+17639647910",
+        "createdOn": "2025-12-26T22:16:43.000Z",
+        "notes": "Lat0Yb2hMGYfhP9FiYzb6qlujIskfIQBwnxL9zLZNTVvYNj5oN1eRkeeURlPltyqenoRr8kFqKx6n529FMJuRVDDlOKGwOvEzcYqDmHDK0LG7ZC8YDveHODnYYRygLaLovEfvhlIjVoWJ2ImcUZckUkhqKd4kxnSZ2g02zGBmnXoKw4BWmJB4l0Irc9JCaViJFgjnkW3Ke50uNEr3wnlXfNQrY4cl0XuxCx0iORPDlx1AUCYpdZr4keRxC"
+      },
+      "products": [
+        {
+          "_id": "694f094d1c508c5d5e318419",
+          "name": "Mouse83183",
+          "amount": 397,
+          "price": 6179,
+          "manufacturer": "Apple",
+          "notes": "xUawlGALJ1KlsCB71r9uieb8U3GP1y6Hg17C6j8Cu4V1V67LcH3J8hfyZQjnqkheZZH7s84kuWgCd97rcppsWkC6KxvY9LXTzbtZOJHNdpI2OSG6PrBHdtiZp5boSk9JWlMNfpXpUUhcLTiNFGQpqfxmYnPFUXV2NcZjR9efX1oYMoXej4jI7Wx2iP5R3eYU5liU1IUGSzaDbtFZPFUPLl8aXM8aUesI7DvUFDONUZWNWoabTF2B7F53Aa",
+          "received": false
+        },
+        {
+          "_id": "694f094d1c508c5d5e31846f",
+          "name": "Bike99604",
+          "amount": 232,
+          "price": 99480,
+          "manufacturer": "Samsung",
+          "notes": "RI946c2lNoG3FfeUyJcKi7OKzsb5NShPtfqeyb2XB1S1KM7QpDTvWfPrm7Ne6ISEPJ10mLjW34cuQWxuXi7gJKZrQPLA3ep73KmSb9FJGpuwnHn4WjndRqYJdSqKbvHatCz6VmT6EKAH7djoQI7ZuOXe6Uw0XCeaCp83SghKc5k1zo1Vfi3NzVIpqiOEEPX3FTfkI3LTuNWzkhWxLCS8QC1Ou2yj5xlrj2jlZzrYkIRfvUQURcCOocqM6D",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 105659,
+      "createdOn": "2025-12-26T22:16:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f094b1c508c5d5e3183a5",
+          "products": [
+            {
+              "_id": "694f094d1c508c5d5e318419",
+              "name": "Mouse83183",
+              "amount": 397,
+              "price": 6179,
+              "manufacturer": "Apple",
+              "notes": "xUawlGALJ1KlsCB71r9uieb8U3GP1y6Hg17C6j8Cu4V1V67LcH3J8hfyZQjnqkheZZH7s84kuWgCd97rcppsWkC6KxvY9LXTzbtZOJHNdpI2OSG6PrBHdtiZp5boSk9JWlMNfpXpUUhcLTiNFGQpqfxmYnPFUXV2NcZjR9efX1oYMoXej4jI7Wx2iP5R3eYU5liU1IUGSzaDbtFZPFUPLl8aXM8aUesI7DvUFDONUZWNWoabTF2B7F53Aa",
+              "received": false
+            },
+            {
+              "_id": "694f094d1c508c5d5e31846f",
+              "name": "Bike99604",
+              "amount": 232,
+              "price": 99480,
+              "manufacturer": "Samsung",
+              "notes": "RI946c2lNoG3FfeUyJcKi7OKzsb5NShPtfqeyb2XB1S1KM7QpDTvWfPrm7Ne6ISEPJ10mLjW34cuQWxuXi7gJKZrQPLA3ep73KmSb9FJGpuwnHn4WjndRqYJdSqKbvHatCz6VmT6EKAH7djoQI7ZuOXe6Uw0XCeaCp83SghKc5k1zo1Vfi3NzVIpqiOEEPX3FTfkI3LTuNWzkhWxLCS8QC1Ou2yj5xlrj2jlZzrYkIRfvUQURcCOocqM6D",
+              "received": false
+            }
+          ],
+          "total_price": 105659,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:16:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f094e1c508c5d5e31849a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

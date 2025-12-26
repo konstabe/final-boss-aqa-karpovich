@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:16:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2819",
+    "etag": "W/\"b03-ixCAJp4gdWkkYgEkhGldESEPwHo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f09551c508c5d5e3188ac",
+      "status": "Draft",
+      "customer": {
+        "_id": "694f09531c508c5d5e31879c",
+        "email": "Dave_Schmitt75@hotmail.com",
+        "name": "Alfredo Braun",
+        "country": "Great Britain",
+        "city": "Lake Myron",
+        "street": "Jillian Lights",
+        "house": 6,
+        "flat": 341,
+        "phone": "+12408673464",
+        "createdOn": "2025-12-26T22:16:51.000Z",
+        "notes": "yCIZd4Cq1A7kalsJIFcLvcVWl6uSK8x5ykU3OV9KaFIULcqRT0czhhtWxbn87AoxgEfHIdYSm4CvFGPtSZvLc5RQXsHpk3uIL4n999lHbAr9EmKlYcEtfSA22Qyoe2MO3qeWQe1eaAbWKkOGisvl37a7uAwEnLfVRKb7tnqWj1hU4z2VsyT48JYsnuU6JrBBcgVqwsxTpyZCGQBs6ZUFjFmAaXgHrXW44A4NzKMJ3I5DXLvKOlY0og7X9C"
+      },
+      "products": [
+        {
+          "_id": "694f09541c508c5d5e3187c1",
+          "name": "Towels69668",
+          "amount": 358,
+          "price": 58911,
+          "manufacturer": "Sony",
+          "notes": "7nYHo30UKaSxXs2UnVENeoegD6ThOiMe4PiIXDxsK6i647uPLEM0w8RVIs2faXRXYIJS7ccFDuasGRNpDeNVMOl3W5pOwXADkYAMiXOixRh6IKMgrjcLwo61Y7CxQvMmQj66NX2ub3dgwcBCPuVr41cgd7ICW5S31XUdjtprvL6FQd1IUg91fyMpRFTY7olrnMUPFpi1CIRiXMo4buwIKqqXwgkR39BYgEqH2zyJ8FKBhd2duYlIXNF2x5",
+          "received": false
+        },
+        {
+          "_id": "694f09551c508c5d5e31887a",
+          "name": "Salad34478",
+          "amount": 969,
+          "price": 60888,
+          "manufacturer": "Amazon",
+          "notes": "XDYqxcEPHelM5f0P0zRvFQJMD6Wv3uNupqVc2LomV8YWtp1JTQWnd5RtLHcfOtTzlYJGo4twO8NwTYdNIUeoNLarFjpbNUCm8JsT4D0pwlqjfFHR1lEUTlknn482OM8shlcv5ZQSUsmecjjeCJ2Nm8L6jgVDoDuBqGz32k1YzHTVBwoul4bpjsDpwWq4F7mQq9K0OYaqUMRzBCy7HeAKx1Lo84yehlRjPeluNq1OqrkIEfnWyj9xnXMdsC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 119799,
+      "createdOn": "2025-12-26T22:16:53.000Z",
+      "comments": [
+        {
+          "text": "ZzIimtcce91G1hkFQJ3UDPltbMzpztJtMk3zDkq4JolYtyMcfSGSE4zzMzSbfQiin70iCwKtMJD",
+          "createdOn": "2025-12-26T22:16:53.000Z",
+          "_id": "694f09561c508c5d5e3188ee"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f09531c508c5d5e31879c",
+          "products": [
+            {
+              "_id": "694f09541c508c5d5e3187c1",
+              "name": "Towels69668",
+              "amount": 358,
+              "price": 58911,
+              "manufacturer": "Sony",
+              "notes": "7nYHo30UKaSxXs2UnVENeoegD6ThOiMe4PiIXDxsK6i647uPLEM0w8RVIs2faXRXYIJS7ccFDuasGRNpDeNVMOl3W5pOwXADkYAMiXOixRh6IKMgrjcLwo61Y7CxQvMmQj66NX2ub3dgwcBCPuVr41cgd7ICW5S31XUdjtprvL6FQd1IUg91fyMpRFTY7olrnMUPFpi1CIRiXMo4buwIKqqXwgkR39BYgEqH2zyJ8FKBhd2duYlIXNF2x5",
+              "received": false
+            },
+            {
+              "_id": "694f09551c508c5d5e31887a",
+              "name": "Salad34478",
+              "amount": 969,
+              "price": 60888,
+              "manufacturer": "Amazon",
+              "notes": "XDYqxcEPHelM5f0P0zRvFQJMD6Wv3uNupqVc2LomV8YWtp1JTQWnd5RtLHcfOtTzlYJGo4twO8NwTYdNIUeoNLarFjpbNUCm8JsT4D0pwlqjfFHR1lEUTlknn482OM8shlcv5ZQSUsmecjjeCJ2Nm8L6jgVDoDuBqGz32k1YzHTVBwoul4bpjsDpwWq4F7mQq9K0OYaqUMRzBCy7HeAKx1Lo84yehlRjPeluNq1OqrkIEfnWyj9xnXMdsC",
+              "received": false
+            }
+          ],
+          "total_price": 119799,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:16:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

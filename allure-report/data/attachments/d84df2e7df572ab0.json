@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:16:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-IBBf07kjJuKlDn7/D/YaZCtSgpA\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f09571c508c5d5e3189da",
+        "email": "Gerard.Romaguera@gmail.com",
+        "name": "Heaven Harvey",
+        "country": "Great Britain",
+        "city": "Kochville",
+        "street": "Krystel Forest",
+        "house": 36,
+        "flat": 340,
+        "phone": "+14877596801",
+        "createdOn": "2025-12-26T22:16:55.000Z",
+        "notes": "imdIl8Tuf0LY3pOk9wEDoqrbAC3BKNmVU29IYrYOSHbZK99vIVH3CVf6kOL3Vw3MLLoJSbwoswVx8ltdKcYNJskH9dCINbSfyvHjJSFnyiu16AlowdriZ6cuoLPeksgcWoMBbXBM2HbXr1cGvVbTpmQvCvPg7qTQvh4gBcdgQxV4GYjAOLpEZnujDnxmbffTDZp0HqPwFxP28Yd9jq0x5kUSDl99Q2FBffLFDClYmVJutRzcs1LbNaYBKb"
+      },
+      "products": [
+        {
+          "_id": "694f09581c508c5d5e318a21",
+          "name": "Salad21527",
+          "amount": 633,
+          "price": 98358,
+          "manufacturer": "Apple",
+          "notes": "88X969F38L0WvvCD81xhX42SsZMFHjot9hB4XbiF2odcco0qrMelCtUDfZTbKCNhB0nTRPQ0pF4knYBgEjEgfUMlJYeuGsq4QbIqdInwSTAjqCZ8lb7OQnt8LPR4S09NDTwMOd2AXLf9tM0GNfNuICBJzUqUA3M5oY8IsiifmF5cIkf4ef0VsCZ9gol3y5t8hAu0n0GMRBkWQF0qsGEYuKBOyc4ht7LreZ4Eoz1DQ46n7YFBJgjX21PUkl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98358,
+      "createdOn": "2025-12-26T22:16:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f09571c508c5d5e3189da",
+          "products": [
+            {
+              "_id": "694f09581c508c5d5e318a21",
+              "name": "Salad21527",
+              "amount": 633,
+              "price": 98358,
+              "manufacturer": "Apple",
+              "notes": "88X969F38L0WvvCD81xhX42SsZMFHjot9hB4XbiF2odcco0qrMelCtUDfZTbKCNhB0nTRPQ0pF4knYBgEjEgfUMlJYeuGsq4QbIqdInwSTAjqCZ8lb7OQnt8LPR4S09NDTwMOd2AXLf9tM0GNfNuICBJzUqUA3M5oY8IsiifmF5cIkf4ef0VsCZ9gol3y5t8hAu0n0GMRBkWQF0qsGEYuKBOyc4ht7LreZ4Eoz1DQ46n7YFBJgjX21PUkl",
+              "received": false
+            }
+          ],
+          "total_price": 98358,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:16:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f09591c508c5d5e318a90"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

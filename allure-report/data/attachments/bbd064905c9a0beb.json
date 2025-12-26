@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:16:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2936",
+    "etag": "W/\"b78-r5opsQl6xQ7Cjw9ILDbJVahVHHs\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f09471c508c5d5e31811e",
+      "status": "Draft",
+      "customer": {
+        "_id": "694f09461c508c5d5e3180ad",
+        "email": "Roma90@yahoo.com",
+        "name": "Retha Grimes",
+        "country": "Belarus",
+        "city": "Vallejo",
+        "street": "Main Street N",
+        "house": 30,
+        "flat": 114,
+        "phone": "+12025467662",
+        "createdOn": "2025-12-26T22:16:38.000Z",
+        "notes": "dYGlMHyV86uE6TBIFUOXZOkSWwUjNnKr5mcmRqJvOLqnHlTaE5JqwlunGzGVxYfofFW0MXIJN2uOMA2xe69ptK5jV7BWLnzZMX4WU0ecm4PcJq0fyrHLWogoeJvPMX6pO2SVJYgW3mCfb8oBRko08M5rkymeioQA88hhc1JO63pOWsMGDjAa1TJgRllNT7w72F3zbTd5nAz1ViRLTobEpBGodTlvSHA1lkqXjoVaVfRp5vW1ISSOcIkIP5"
+      },
+      "products": [
+        {
+          "_id": "694f09471c508c5d5e318107",
+          "name": "Car77350",
+          "amount": 553,
+          "price": 75162,
+          "manufacturer": "Google",
+          "notes": "I6tjm46nhfxvlgRLqLFp3R2TtJx62ld7hISpOxAtTIQQql9BlhP2m0prxE4N1Rg3duNzQ5MOHyF3NY3lmo3WNz8gX724M7qKYj7KIqCtRoO0B36owGMENHAHVeIDnxjXOQJ6ZImKEHzJFhUoy66sjVm5YzevvwChxEZxqkfJpWgGTaMwXGLojUzrxku03qNcQUHEksVOot8UTgvQcu1Xw4l4UT7S33a7lz9gKdCku3PFyIjWrJwnDC7EPU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 75162,
+      "createdOn": "2025-12-26T22:16:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f09461c508c5d5e3180ad",
+          "products": [
+            {
+              "_id": "694f09471c508c5d5e318107",
+              "name": "Car77350",
+              "amount": 553,
+              "price": 75162,
+              "manufacturer": "Google",
+              "notes": "I6tjm46nhfxvlgRLqLFp3R2TtJx62ld7hISpOxAtTIQQql9BlhP2m0prxE4N1Rg3duNzQ5MOHyF3NY3lmo3WNz8gX724M7qKYj7KIqCtRoO0B36owGMENHAHVeIDnxjXOQJ6ZImKEHzJFhUoy66sjVm5YzevvwChxEZxqkfJpWgGTaMwXGLojUzrxku03qNcQUHEksVOot8UTgvQcu1Xw4l4UT7S33a7lz9gKdCku3PFyIjWrJwnDC7EPU",
+              "received": false
+            }
+          ],
+          "total_price": 75162,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:16:40.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "694f09461c508c5d5e3180ad",
+          "products": [
+            {
+              "_id": "694f09471c508c5d5e318107",
+              "name": "Car77350",
+              "amount": 553,
+              "price": 75162,
+              "manufacturer": "Google",
+              "notes": "I6tjm46nhfxvlgRLqLFp3R2TtJx62ld7hISpOxAtTIQQql9BlhP2m0prxE4N1Rg3duNzQ5MOHyF3NY3lmo3WNz8gX724M7qKYj7KIqCtRoO0B36owGMENHAHVeIDnxjXOQJ6ZImKEHzJFhUoy66sjVm5YzevvwChxEZxqkfJpWgGTaMwXGLojUzrxku03qNcQUHEksVOot8UTgvQcu1Xw4l4UT7S33a7lz9gKdCku3PFyIjWrJwnDC7EPU",
+              "received": false
+            }
+          ],
+          "total_price": 75162,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:16:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
