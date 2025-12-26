@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 20:50:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2646",
+    "etag": "W/\"a56-PoFGKDsNEkxdMCzcVJiOdXzA3IY\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694ef5051c508c5d5e308810",
+        "email": "Destini47@yahoo.com",
+        "name": "Janiya Mertz",
+        "country": "Russia",
+        "city": "Fort Alizebury",
+        "street": "N Pearl Street",
+        "house": 8,
+        "flat": 991,
+        "phone": "+17802153855",
+        "createdOn": "2025-12-26T20:50:13.000Z",
+        "notes": "jvRCa0Azf0aZrWQgTghfmhIPjZJz7LyJPwTkEljAUTyoNg4yWajz29Z0M4B0GRZtocYcWjVek1vH6hgK4tpFUSw42qWBvRcHRES2wKIC5I4Tkj8pykNnxgWOwm5LWi9nBvdpRlytF9mful25sM29M8kzQWSfMtFQ5Ex08X181Cpsl23dITRDgQ6pfGLvvqyNcEarlQf3J1EiBvZjapIMndN55k8QfCDZnfdIKlr1ZkoScq82ZRmQYoDnfM"
+      },
+      "products": [
+        {
+          "_id": "694ef5071c508c5d5e3088b3",
+          "name": "Chair84989",
+          "amount": 490,
+          "price": 49098,
+          "manufacturer": "Google",
+          "notes": "m9A9qxnLhCsbCmKUe0RH8CS1E754abVBsLbjf86JGIel1N1QQ50ZWDP0rpwLtBb22J0BUWRmodZi0wi85FXqmw4bFElaeq7pjIA0mzFkFZ9tlSUwf4K3nVOvy8GkYEMldAcSi78lxsLIiqMUzaZo17UUHBtzf2hyavJQqhprtTspRWvnxjAH4nRH0ZO5n4nJ3lhdughU8aLBkT4ko2yLYxo5fL8QiKOFKzAdko4TT7TUh1oRjFQJs4IJNc",
+          "received": false
+        },
+        {
+          "_id": "694ef5091c508c5d5e308956",
+          "name": "Bacon51690",
+          "amount": 517,
+          "price": 49878,
+          "manufacturer": "Sony",
+          "notes": "2pPLJfe4vJfzjI0PXZbrsZbFoQ9C2MTP5AGlz5zwKUcefyzZSl7ooDHvFyn3vU0tLuGHZL2bq51zn7ReiRu3fs1NCZ5xgv9Wv6K0waSuCDKMqUpbfk1darEc7L7QLwHuufYzdHIBU0d86IzpRP6OhSxJeddIv6jJxIDNuRzKSPfJCW9IdCITms4b7fnVCKJVzrydnZXCK6pAxGQWRLWQ9Z3iNvE0717X4mXNR7JxNUeT7RGSjVVporiBE8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98976,
+      "createdOn": "2025-12-26T20:50:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ef5051c508c5d5e308810",
+          "products": [
+            {
+              "_id": "694ef5071c508c5d5e3088b3",
+              "name": "Chair84989",
+              "amount": 490,
+              "price": 49098,
+              "manufacturer": "Google",
+              "notes": "m9A9qxnLhCsbCmKUe0RH8CS1E754abVBsLbjf86JGIel1N1QQ50ZWDP0rpwLtBb22J0BUWRmodZi0wi85FXqmw4bFElaeq7pjIA0mzFkFZ9tlSUwf4K3nVOvy8GkYEMldAcSi78lxsLIiqMUzaZo17UUHBtzf2hyavJQqhprtTspRWvnxjAH4nRH0ZO5n4nJ3lhdughU8aLBkT4ko2yLYxo5fL8QiKOFKzAdko4TT7TUh1oRjFQJs4IJNc",
+              "received": false
+            },
+            {
+              "_id": "694ef5091c508c5d5e308956",
+              "name": "Bacon51690",
+              "amount": 517,
+              "price": 49878,
+              "manufacturer": "Sony",
+              "notes": "2pPLJfe4vJfzjI0PXZbrsZbFoQ9C2MTP5AGlz5zwKUcefyzZSl7ooDHvFyn3vU0tLuGHZL2bq51zn7ReiRu3fs1NCZ5xgv9Wv6K0waSuCDKMqUpbfk1darEc7L7QLwHuufYzdHIBU0d86IzpRP6OhSxJeddIv6jJxIDNuRzKSPfJCW9IdCITms4b7fnVCKJVzrydnZXCK6pAxGQWRLWQ9Z3iNvE0717X4mXNR7JxNUeT7RGSjVVporiBE8",
+              "received": false
+            }
+          ],
+          "total_price": 98976,
+          "delivery": null,
+          "changedOn": "2025-12-26T20:50:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694ef5091c508c5d5e30897b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

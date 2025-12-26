@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 20:50:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-/3G/Vdv6sEMtrMQfJIZopKP3HFw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694ef5041c508c5d5e3087dc",
+        "email": "Deanna34@yahoo.com",
+        "name": "Libby Paucek",
+        "country": "Ukraine",
+        "city": "Koeppworth",
+        "street": "Geraldine Ways",
+        "house": 12,
+        "flat": 749,
+        "phone": "+16319820298",
+        "createdOn": "2025-12-26T20:50:12.000Z",
+        "notes": "TyxmTxBnboUKLLmlAQRd2jhUIACDEna7ldGCGWB6CkOSFW95Y1jxnKtSwI6VzO0XHEePRzgdRKVwSxrr79646wTQLdlJqbgsSAuOqYX7repkLDP2fdI9epq8dFAdPFiBdYTSgq9V5pdCUaHtTextnFXNziFX7DldBtxIpjy99VJI6CoYxuca4Hx0JxD0MsH1vHX8xXlGrjluDu7PIdTJvXHU0Kn7D38Hy2Ma8Z8oujOp05AKlP8tVWNDXB"
+      },
+      "products": [
+        {
+          "_id": "694ef5061c508c5d5e308861",
+          "name": "Bike38677",
+          "amount": 159,
+          "price": 64954,
+          "manufacturer": "Amazon",
+          "notes": "DIZoxbjKth4nw5cv8DzhtUO8B3TSBFgnAsJNvpGxXPrAtu7rDc3wHkufB4JhhdgiEToCpAqSc84nND9A9T5o9RXcquJT0wNO3zVRZw2IakBOo04O2tLNrDr3gcy8Y38aE90XbCf6qXQG3KfMeNEcL6MKhx4aYJWGb6OTTG1zEfxUjhG0ohWYpUys6kGlarhYa4nyKyJiBGQpSZ08UkE6fiQ0b9E1NvQziRRUlW4ZEf97cDZGiE6lrQ5gUq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 64954,
+      "createdOn": "2025-12-26T20:50:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ef5041c508c5d5e3087dc",
+          "products": [
+            {
+              "_id": "694ef5061c508c5d5e308861",
+              "name": "Bike38677",
+              "amount": 159,
+              "price": 64954,
+              "manufacturer": "Amazon",
+              "notes": "DIZoxbjKth4nw5cv8DzhtUO8B3TSBFgnAsJNvpGxXPrAtu7rDc3wHkufB4JhhdgiEToCpAqSc84nND9A9T5o9RXcquJT0wNO3zVRZw2IakBOo04O2tLNrDr3gcy8Y38aE90XbCf6qXQG3KfMeNEcL6MKhx4aYJWGb6OTTG1zEfxUjhG0ohWYpUys6kGlarhYa4nyKyJiBGQpSZ08UkE6fiQ0b9E1NvQziRRUlW4ZEf97cDZGiE6lrQ5gUq",
+              "received": false
+            }
+          ],
+          "total_price": 64954,
+          "delivery": null,
+          "changedOn": "2025-12-26T20:50:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694ef5061c508c5d5e30887a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
