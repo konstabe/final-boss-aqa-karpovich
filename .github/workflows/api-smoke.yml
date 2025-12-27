@@ -19,11 +19,11 @@ jobs:
                   ARTIFACT_ID=$(curl -s \
                     -H "Accept: application/vnd.github+json" \
                     -H "Authorization: Bearer ${{ secrets.TOKEN }}" \
-                    https://api.github.com/repos/maratgefter/final-boss-aqa-karpovich/actions/artifacts \
+                    https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts \
                     | python -c "import sys, json; data=json.load(sys.stdin); print([a['id'] for a in data['artifacts'] if a['name']=='regression-report'][0])")
                   curl -L \
                     -H "Authorization: Bearer ${{ secrets.TOKEN }}" \
-                    https://api.github.com/repos/maratgefter/final-boss-aqa-karpovich/actions/artifacts/$ARTIFACT_ID/zip \
+                    https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts/$ARTIFACT_ID/zip \
                     -o artifacts.zip
                   mkdir allure-results && unzip artifacts.zip -d allure-results
 
@@ -32,11 +32,11 @@ jobs:
                   REPORT_ID=$(curl -s \
                     -H "Accept: application/vnd.github+json" \
                     -H "Authorization: Bearer ${{ secrets.TOKEN }}" \
-                    https://api.github.com/repos/maratgefter/final-boss-aqa-karpovich/actions/artifacts \
+                    https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts \
                     | python -c "import sys, json; data=json.load(sys.stdin); print([a['id'] for a in data['artifacts'] if a['name']=='github-pages'][0])")
                   curl -L \
                     -H "Authorization: Bearer ${{ secrets.TOKEN }}" \
-                    https://api.github.com/repos/maratgefter/final-boss-aqa-karpovich/actions/artifacts/$REPORT_ID/zip \
+                    https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts/$REPORT_ID/zip \
                     -o pages.zip
                   mkdir old_pages pages_history && unzip pages.zip -d old_pages && tar -xvf old_pages/artifact.tar -C pages_history
                   cp -r pages_history/history allure-results || true
