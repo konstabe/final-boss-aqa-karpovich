@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:17:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-b7Eaej7FkshEf+qoae9orMEM2UA\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505af71c508c5d5e3737c5",
+        "email": "Elody90@yahoo.com",
+        "name": "Jeanette Klocko",
+        "country": "Ukraine",
+        "city": "Fort Germaineland",
+        "street": "Meghan Junction",
+        "house": 40,
+        "flat": 563,
+        "phone": "+19069997682",
+        "createdOn": "2025-12-27T22:17:27.000Z",
+        "notes": "v3fJFQ9F6wSPMEzgRFfTCo2kCjM56yo2OeelzI0VYPyvo0YfP8z5vT8CWLSnmfxjoEbFUdjuMo1tz1EvywPOgciQBwJbLbEOufrrzMQjAJfY4KuNEgX6MZOMSLC8A9swsPqJA7UwhRpXRdR0DITpereQhpL64bVpsQQpSuE5CujX58BG7to6T69YgLZQur3ryqYSdaewYJg3RMjuVvMm6LplWpJzBFeWh1JChH7TgIjXIVgoC2wkYhI4aF"
+      },
+      "products": [
+        {
+          "_id": "69505af91c508c5d5e3738b6",
+          "name": "Bacon92255",
+          "amount": 667,
+          "price": 32300,
+          "manufacturer": "Amazon",
+          "notes": "feppOlYswPHsjTR5IURGekfgkiJRTQhNzwkJ3tMDmcgIy6uYXChMtCItFaB9JFRMBmKgCeA5k6xIKuXJI8V33Qej70Q37Fa7ASmbf3gwKLddkF8whnIEuw9UiGJ4X7EVgDWyBqAVF9ScPiJJlaB88T3GmH8AQGdifhqCXyRtAYVvKjSuAHldwCMdYqs3hZTMRssR6LN7Mhk11jud6P9DNs9ynlTUkJu4JFlFCLyMAnCOoOnGKE9986lhgE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 32300,
+      "createdOn": "2025-12-27T22:17:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505af71c508c5d5e3737c5",
+          "products": [
+            {
+              "_id": "69505af91c508c5d5e3738b6",
+              "name": "Bacon92255",
+              "amount": 667,
+              "price": 32300,
+              "manufacturer": "Amazon",
+              "notes": "feppOlYswPHsjTR5IURGekfgkiJRTQhNzwkJ3tMDmcgIy6uYXChMtCItFaB9JFRMBmKgCeA5k6xIKuXJI8V33Qej70Q37Fa7ASmbf3gwKLddkF8whnIEuw9UiGJ4X7EVgDWyBqAVF9ScPiJJlaB88T3GmH8AQGdifhqCXyRtAYVvKjSuAHldwCMdYqs3hZTMRssR6LN7Mhk11jud6P9DNs9ynlTUkJu4JFlFCLyMAnCOoOnGKE9986lhgE",
+              "received": false
+            }
+          ],
+          "total_price": 32300,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:17:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505afb1c508c5d5e373976"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:17:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1893",
+    "etag": "W/\"765-aitPozkGlj49NHZNGjdwEMRTNf8\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505ae01c508c5d5e37282c",
+        "email": "Vincent.Baumbach@hotmail.com",
+        "name": "Herman Johnston",
+        "country": "Belarus",
+        "city": "Alfredobury",
+        "street": "Highfield Road",
+        "house": 13,
+        "flat": 143,
+        "phone": "+17083011522",
+        "createdOn": "2025-12-27T22:17:04.000Z",
+        "notes": "7cZ0ifNLuWJ1mSsOdSraCMsMQZ1loMjuSCmqkWmC2UkxzIKH4MOM0mUb4fkJkY4nWfZ04PbLTtEz1gmIuF9dYAWVocPWQZKtO1K21d84qRPgEjiwmtkn0BbiHIr55z8xYcKV32xOJEieJ06PK8O4UIAsuqnOf9K3u9Rlbiy37ucNTUgWv8DcbpiIIrZ2zOU53cGZHT7QRnwPZz76BdkgqfsiBl90UEU725qrkWtblR4E0GS21IPmoKcBId"
+      },
+      "products": [
+        {
+          "_id": "69505ae21c508c5d5e372989",
+          "name": "Chips30497",
+          "amount": 581,
+          "price": 96374,
+          "manufacturer": "Google",
+          "notes": "NmxY6bqIy7mfgzOifhuqtZAyuVLM3L2qJ6fiH0D0yaHLhhGVmpphGSjalza0jiHvTsnxv5AIbYuxwHVzOEoJ02VuTEs3HBFXhBotMs5e24f5feJdOhQJtjzOzya5BEQXIKBpzdA94AsE7WZZB4GMOIGBC83daLisFEY0znrn0XSfM2ZIfQeZxVPpzMeg0knribPZA6PaqSZgiRaK7JOpCNdBysDoUQbSDrogqVjdtuxqA68eifI27LwZm6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 96374,
+      "createdOn": "2025-12-27T22:17:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505ae01c508c5d5e37282c",
+          "products": [
+            {
+              "_id": "69505ae21c508c5d5e372989",
+              "name": "Chips30497",
+              "amount": 581,
+              "price": 96374,
+              "manufacturer": "Google",
+              "notes": "NmxY6bqIy7mfgzOifhuqtZAyuVLM3L2qJ6fiH0D0yaHLhhGVmpphGSjalza0jiHvTsnxv5AIbYuxwHVzOEoJ02VuTEs3HBFXhBotMs5e24f5feJdOhQJtjzOzya5BEQXIKBpzdA94AsE7WZZB4GMOIGBC83daLisFEY0znrn0XSfM2ZIfQeZxVPpzMeg0knribPZA6PaqSZgiRaK7JOpCNdBysDoUQbSDrogqVjdtuxqA68eifI27LwZm6",
+              "received": false
+            }
+          ],
+          "total_price": 96374,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:17:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505ae31c508c5d5e372ae8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

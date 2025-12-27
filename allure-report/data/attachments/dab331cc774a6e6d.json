@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:17:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-HoeBseSyzqzpAxbVW6G3Cyjtr8A\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505af81c508c5d5e373817",
+        "email": "Jonathon69@gmail.com",
+        "name": "Jakayla Murray",
+        "country": "Great Britain",
+        "city": "South Jewell",
+        "street": "Eladio Mount",
+        "house": 14,
+        "flat": 34,
+        "phone": "+19122200909",
+        "createdOn": "2025-12-27T22:17:28.000Z",
+        "notes": "pxqh2rJwHAkU5C0m69ZBjjOvi2msAXaGGcVg2CkHWKqLSkHZwuTMcQJ8XFQEzmhoP7OrLV7N9rMD3g5pcZ7eZSOEDSYE2ZF3kWhoRuowI8tc78P4Ly3gfPMP6z9TmsGCQXS0O730ryfkdyQtZtK5twLZfgsaMSpvcFa7JMrrlzBQsPEP5n8JVqwjFpsTJX4pNXwI277FfIdruNWN5xIn2CZm7IEuhNT5UQJt9UW0yBFIqOwa81ChvJr3QK"
+      },
+      "products": [
+        {
+          "_id": "69505afb1c508c5d5e373970",
+          "name": "Fish10068",
+          "amount": 856,
+          "price": 93985,
+          "manufacturer": "Sony",
+          "notes": "C7OGfuXhZg10saQxrBZE19DN5h5KWIBDM0vYOi8U1Me6s0OnhDqqRNVo2VIjVIOdMl3sXf2IFcTc45CwGgNjZ9RxdZrTS7F4IpAosk4tH2qWvXpg57C50UFRR9IIrNRLepcRJdqQPHi7N1FTy1afsGg9hSsXy1JT66jGCXsKdV16BxLF1EluMBnzdP0O5hWPyJqlQk6WDVCwYrLJILOTLRMagsXVKU61b3sgbYGPAbgWJkKM2jxGIiAHBo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 93985,
+      "createdOn": "2025-12-27T22:17:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505af81c508c5d5e373817",
+          "products": [
+            {
+              "_id": "69505afb1c508c5d5e373970",
+              "name": "Fish10068",
+              "amount": 856,
+              "price": 93985,
+              "manufacturer": "Sony",
+              "notes": "C7OGfuXhZg10saQxrBZE19DN5h5KWIBDM0vYOi8U1Me6s0OnhDqqRNVo2VIjVIOdMl3sXf2IFcTc45CwGgNjZ9RxdZrTS7F4IpAosk4tH2qWvXpg57C50UFRR9IIrNRLepcRJdqQPHi7N1FTy1afsGg9hSsXy1JT66jGCXsKdV16BxLF1EluMBnzdP0O5hWPyJqlQk6WDVCwYrLJILOTLRMagsXVKU61b3sgbYGPAbgWJkKM2jxGIiAHBo",
+              "received": false
+            }
+          ],
+          "total_price": 93985,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:17:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505afe1c508c5d5e373bba"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

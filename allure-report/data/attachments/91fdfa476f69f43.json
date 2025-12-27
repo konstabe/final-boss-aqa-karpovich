@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:18:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3430",
+    "etag": "W/\"d66-DI1lOInDDjMTlXQTHfsgDwFcbzk\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505b291c508c5d5e37555c",
+        "email": "Leatha.OKon70@hotmail.com",
+        "name": "Christy Jaskolski",
+        "country": "Germany",
+        "city": "North Shaynaboro",
+        "street": "Church Walk",
+        "house": 24,
+        "flat": 611,
+        "phone": "+14738045857",
+        "createdOn": "2025-12-27T22:18:17.000Z",
+        "notes": "CDLw0MDNJCR8UFG3eX0OtIRvSwdG1mH5zcf2krsJuVZMlYZP0bEJsAOBrEQABxIFILkP7655xohzfviuGwqGNIyHRwabKAZl3q9hht1TnaTQv3ooTTx8rk8dPH5zBZiOhVPveaHqqqzMn4jv3iD5hILiS869CnftFECI7AV9ngRT5fohszMSEkYQf5kdsAEyQISACpdeCDfZv3mkdRYnz3A5bbM5uBR3VbvnmE8zobC6Fn9z36nQUecsKV"
+      },
+      "products": [
+        {
+          "_id": "69505b2b1c508c5d5e37589e",
+          "name": "Computer38570",
+          "amount": 506,
+          "price": 99350,
+          "manufacturer": "Amazon",
+          "notes": "xDiyYHmdx8gzd1hNLgCW6JhJTeunCzL8bxuIeAbtILdCRo1nWpQwSyUkN9YJmwTjD7N1jwNItwFPuPBpvS7LcWLifbcCuMhB46vIMyHrtm4O7AWFibPEGjnZHDUOkiykztWpJGcoRo1cRlSrC4mUzav4EtSBDvctEaVaGlBfWGFpP3CLhfEARjk2CSLUEcryEcbgGjscVmvyaN98f7ARn6dNztWxtnRcZzm7uqjkzTJ1AxCk6LSbeLAhn5",
+          "received": false
+        },
+        {
+          "_id": "69505b301c508c5d5e375ae4",
+          "name": "Pizza13437",
+          "amount": 136,
+          "price": 9576,
+          "manufacturer": "Google",
+          "notes": "LWJbdT3uoGBFZnsA8cmIroQRxbZkU23NSaj5o1nuuPg2uBKpEI9XZomSiDsHBqtlBRZuUFM0NBTk0fTmCPjxT3majyCHQxHRhTrzA2wEVLFmRqsykLqPygdTmlL1b0FSG2ItmYzEknAIsfH1rLsurrkILOkYaRZXQjgOd0ckTSKnByShtFWiY8P3OmGXQzd76Ttb9jfXOknoOsqCnibTdwDKNuctMYeRV0v2Nl0MGDTsZKpYjJqHvHwVDV",
+          "received": false
+        },
+        {
+          "_id": "69505b351c508c5d5e375ff9",
+          "name": "Car5528",
+          "amount": 403,
+          "price": 94522,
+          "manufacturer": "Amazon",
+          "notes": "bmuGace7PVBmDu40uJHlmrEOGdkuxMt47W8myYaIkfmMwGk2bm1kGOEdKo3Us7u8lZcJ9VS7eWFFhHxMBNVgwA85CUANcOZ3BISwC69aEmECXDbGnLOz7ETkgGFirNe9pAAEd3l6kpzgYh2c7vfrox7kRkJS7W9n9AVaMmSTuHcuEgPERSPDela0Ms4pisRBqjHn8YPJX2TUqjjHVrg9LujKwNUfCZ5hczw25VHShTD4CksZWbSMU4vo8F",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 203448,
+      "createdOn": "2025-12-27T22:18:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505b291c508c5d5e37555c",
+          "products": [
+            {
+              "_id": "69505b2b1c508c5d5e37589e",
+              "name": "Computer38570",
+              "amount": 506,
+              "price": 99350,
+              "manufacturer": "Amazon",
+              "notes": "xDiyYHmdx8gzd1hNLgCW6JhJTeunCzL8bxuIeAbtILdCRo1nWpQwSyUkN9YJmwTjD7N1jwNItwFPuPBpvS7LcWLifbcCuMhB46vIMyHrtm4O7AWFibPEGjnZHDUOkiykztWpJGcoRo1cRlSrC4mUzav4EtSBDvctEaVaGlBfWGFpP3CLhfEARjk2CSLUEcryEcbgGjscVmvyaN98f7ARn6dNztWxtnRcZzm7uqjkzTJ1AxCk6LSbeLAhn5",
+              "received": false
+            },
+            {
+              "_id": "69505b301c508c5d5e375ae4",
+              "name": "Pizza13437",
+              "amount": 136,
+              "price": 9576,
+              "manufacturer": "Google",
+              "notes": "LWJbdT3uoGBFZnsA8cmIroQRxbZkU23NSaj5o1nuuPg2uBKpEI9XZomSiDsHBqtlBRZuUFM0NBTk0fTmCPjxT3majyCHQxHRhTrzA2wEVLFmRqsykLqPygdTmlL1b0FSG2ItmYzEknAIsfH1rLsurrkILOkYaRZXQjgOd0ckTSKnByShtFWiY8P3OmGXQzd76Ttb9jfXOknoOsqCnibTdwDKNuctMYeRV0v2Nl0MGDTsZKpYjJqHvHwVDV",
+              "received": false
+            },
+            {
+              "_id": "69505b351c508c5d5e375ff9",
+              "name": "Car5528",
+              "amount": 403,
+              "price": 94522,
+              "manufacturer": "Amazon",
+              "notes": "bmuGace7PVBmDu40uJHlmrEOGdkuxMt47W8myYaIkfmMwGk2bm1kGOEdKo3Us7u8lZcJ9VS7eWFFhHxMBNVgwA85CUANcOZ3BISwC69aEmECXDbGnLOz7ETkgGFirNe9pAAEd3l6kpzgYh2c7vfrox7kRkJS7W9n9AVaMmSTuHcuEgPERSPDela0Ms4pisRBqjHn8YPJX2TUqjjHVrg9LujKwNUfCZ5hczw25VHShTD4CksZWbSMU4vo8F",
+              "received": false
+            }
+          ],
+          "total_price": 203448,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:18:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505b3a1c508c5d5e376166"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

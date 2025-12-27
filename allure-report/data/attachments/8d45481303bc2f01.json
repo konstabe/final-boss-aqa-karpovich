@@ -1,0 +1,303 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:17:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8629",
+    "etag": "W/\"21b5-k6LcxtK8GCECgTQUBTP5Xdvjz/A\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69505af31c508c5d5e373501",
+      "status": "Received",
+      "customer": {
+        "_id": "69505aeb1c508c5d5e373043",
+        "email": "Dayana81@hotmail.com",
+        "name": "Rae Nitzsche",
+        "country": "Ukraine",
+        "city": "Winnifredchester",
+        "street": "Marie Creek",
+        "house": 33,
+        "flat": 466,
+        "phone": "+18412614960",
+        "createdOn": "2025-12-27T22:17:15.000Z",
+        "notes": "f2NI37vhnTgAu6UU0ExidVjmMb96m7rulFog2qhTF8ErTRMqisjUc6M2liM0uUIyyAYWNe018bATPXtmlilaNtUG3rK7lpQ4xFCD3KJlaUHNUhxy6ykwZxvQ1yqClzs7CswwZDgd8BPDYhtQUadOiBBvl9mq0YynuBcOStcKWlxdbAudAzucCPiHlEoWdp7EwKINniGptnyBPU3XitTBEq8L5HOygcQiXQvmSdBt2nQ4twzONAD5pPKmA4"
+      },
+      "products": [
+        {
+          "_id": "69505aee1c508c5d5e37324c",
+          "name": "Chair22898",
+          "amount": 301,
+          "price": 51661,
+          "manufacturer": "Google",
+          "notes": "0492wa9DL2OjGmkzx1dlMoQdFZ9JfEANjayVoaK5YFGiEFgmNETxHrBV3uxWFzlWS5F0nHqyxL2TF6axoNoKebcCx3rqpzMII5LrG0tnyVpEbguw74Dahg3mh92vLD0M4aA4mG1zChIlKFYzdP6ntuNAXM7lJr7BZVuthwPbNYjs0DNoHxzTQf6pPzlVtjoMNQ18AxkzsY7eU5h8t5CNWhB5XbUX9rv5RbGRW7CLrmeci5jusYCu0eGP6F",
+          "received": true
+        },
+        {
+          "_id": "69505af11c508c5d5e373362",
+          "name": "Ball18255",
+          "amount": 53,
+          "price": 15270,
+          "manufacturer": "Samsung",
+          "notes": "AVtNbQeo3IOlRWEQAfgaQfLtayKShmzObvunHGVyZTyvjWNZDdjVLzY0klYbgaTIZqZYBPzHYzdS8Z0bxsqv7qi2Ae4ZNoZtloE991wmuKpRd3hraUngizlo5CCwXFMaLSGYcU5zYcEvdVM7G96r7STr1dm9vNTFWBDH7TpyNZRbHaYdVwZq2DwJDEa8KrNnAyfCWeSUEIh9SNBkGe8RxxhmSx4InbzufhxW1s9ddICFjMqFOfMPN4I6xI",
+          "received": true
+        },
+        {
+          "_id": "69505af31c508c5d5e3734d4",
+          "name": "Car72893",
+          "amount": 819,
+          "price": 5583,
+          "manufacturer": "Amazon",
+          "notes": "WpxWxZQBZHx1rkkIiHZ4IqL7ex8XaetE78H2LCcdXUngNrhBhgGS5zuIrwt0Upsxhz1ZGBZ0uyJfEMhYAOi2uQOLTCcX5zhN9gLEhOsw8UZDZnmeP9v7hVxXBzDtuRB3CVCDz4cgh7EWOJ0iEA4y7I2P6TSXrWETsaO0PJOQaTnxr7AVN8Iz7yEF01v3sudlovyu555tfmTRSpt5d5qpGVMdmqx2eWVfsf7OhBlTpOErW8aCFHTkzkcIdZ",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Winnifredchester",
+          "street": "Marie Creek",
+          "house": 33,
+          "flat": 466
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 72514,
+      "createdOn": "2025-12-27T22:17:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69505aeb1c508c5d5e373043",
+          "products": [
+            {
+              "_id": "69505aee1c508c5d5e37324c",
+              "name": "Chair22898",
+              "amount": 301,
+              "price": 51661,
+              "manufacturer": "Google",
+              "notes": "0492wa9DL2OjGmkzx1dlMoQdFZ9JfEANjayVoaK5YFGiEFgmNETxHrBV3uxWFzlWS5F0nHqyxL2TF6axoNoKebcCx3rqpzMII5LrG0tnyVpEbguw74Dahg3mh92vLD0M4aA4mG1zChIlKFYzdP6ntuNAXM7lJr7BZVuthwPbNYjs0DNoHxzTQf6pPzlVtjoMNQ18AxkzsY7eU5h8t5CNWhB5XbUX9rv5RbGRW7CLrmeci5jusYCu0eGP6F",
+              "received": true
+            },
+            {
+              "_id": "69505af11c508c5d5e373362",
+              "name": "Ball18255",
+              "amount": 53,
+              "price": 15270,
+              "manufacturer": "Samsung",
+              "notes": "AVtNbQeo3IOlRWEQAfgaQfLtayKShmzObvunHGVyZTyvjWNZDdjVLzY0klYbgaTIZqZYBPzHYzdS8Z0bxsqv7qi2Ae4ZNoZtloE991wmuKpRd3hraUngizlo5CCwXFMaLSGYcU5zYcEvdVM7G96r7STr1dm9vNTFWBDH7TpyNZRbHaYdVwZq2DwJDEa8KrNnAyfCWeSUEIh9SNBkGe8RxxhmSx4InbzufhxW1s9ddICFjMqFOfMPN4I6xI",
+              "received": true
+            },
+            {
+              "_id": "69505af31c508c5d5e3734d4",
+              "name": "Car72893",
+              "amount": 819,
+              "price": 5583,
+              "manufacturer": "Amazon",
+              "notes": "WpxWxZQBZHx1rkkIiHZ4IqL7ex8XaetE78H2LCcdXUngNrhBhgGS5zuIrwt0Upsxhz1ZGBZ0uyJfEMhYAOi2uQOLTCcX5zhN9gLEhOsw8UZDZnmeP9v7hVxXBzDtuRB3CVCDz4cgh7EWOJ0iEA4y7I2P6TSXrWETsaO0PJOQaTnxr7AVN8Iz7yEF01v3sudlovyu555tfmTRSpt5d5qpGVMdmqx2eWVfsf7OhBlTpOErW8aCFHTkzkcIdZ",
+              "received": true
+            }
+          ],
+          "total_price": 72514,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Winnifredchester",
+              "street": "Marie Creek",
+              "house": 33,
+              "flat": 466
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-27T22:17:27.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69505aeb1c508c5d5e373043",
+          "products": [
+            {
+              "_id": "69505aee1c508c5d5e37324c",
+              "name": "Chair22898",
+              "amount": 301,
+              "price": 51661,
+              "manufacturer": "Google",
+              "notes": "0492wa9DL2OjGmkzx1dlMoQdFZ9JfEANjayVoaK5YFGiEFgmNETxHrBV3uxWFzlWS5F0nHqyxL2TF6axoNoKebcCx3rqpzMII5LrG0tnyVpEbguw74Dahg3mh92vLD0M4aA4mG1zChIlKFYzdP6ntuNAXM7lJr7BZVuthwPbNYjs0DNoHxzTQf6pPzlVtjoMNQ18AxkzsY7eU5h8t5CNWhB5XbUX9rv5RbGRW7CLrmeci5jusYCu0eGP6F",
+              "received": false
+            },
+            {
+              "_id": "69505af11c508c5d5e373362",
+              "name": "Ball18255",
+              "amount": 53,
+              "price": 15270,
+              "manufacturer": "Samsung",
+              "notes": "AVtNbQeo3IOlRWEQAfgaQfLtayKShmzObvunHGVyZTyvjWNZDdjVLzY0klYbgaTIZqZYBPzHYzdS8Z0bxsqv7qi2Ae4ZNoZtloE991wmuKpRd3hraUngizlo5CCwXFMaLSGYcU5zYcEvdVM7G96r7STr1dm9vNTFWBDH7TpyNZRbHaYdVwZq2DwJDEa8KrNnAyfCWeSUEIh9SNBkGe8RxxhmSx4InbzufhxW1s9ddICFjMqFOfMPN4I6xI",
+              "received": false
+            },
+            {
+              "_id": "69505af31c508c5d5e3734d4",
+              "name": "Car72893",
+              "amount": 819,
+              "price": 5583,
+              "manufacturer": "Amazon",
+              "notes": "WpxWxZQBZHx1rkkIiHZ4IqL7ex8XaetE78H2LCcdXUngNrhBhgGS5zuIrwt0Upsxhz1ZGBZ0uyJfEMhYAOi2uQOLTCcX5zhN9gLEhOsw8UZDZnmeP9v7hVxXBzDtuRB3CVCDz4cgh7EWOJ0iEA4y7I2P6TSXrWETsaO0PJOQaTnxr7AVN8Iz7yEF01v3sudlovyu555tfmTRSpt5d5qpGVMdmqx2eWVfsf7OhBlTpOErW8aCFHTkzkcIdZ",
+              "received": false
+            }
+          ],
+          "total_price": 72514,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Winnifredchester",
+              "street": "Marie Creek",
+              "house": 33,
+              "flat": 466
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-27T22:17:27.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69505aeb1c508c5d5e373043",
+          "products": [
+            {
+              "_id": "69505aee1c508c5d5e37324c",
+              "name": "Chair22898",
+              "amount": 301,
+              "price": 51661,
+              "manufacturer": "Google",
+              "notes": "0492wa9DL2OjGmkzx1dlMoQdFZ9JfEANjayVoaK5YFGiEFgmNETxHrBV3uxWFzlWS5F0nHqyxL2TF6axoNoKebcCx3rqpzMII5LrG0tnyVpEbguw74Dahg3mh92vLD0M4aA4mG1zChIlKFYzdP6ntuNAXM7lJr7BZVuthwPbNYjs0DNoHxzTQf6pPzlVtjoMNQ18AxkzsY7eU5h8t5CNWhB5XbUX9rv5RbGRW7CLrmeci5jusYCu0eGP6F",
+              "received": false
+            },
+            {
+              "_id": "69505af11c508c5d5e373362",
+              "name": "Ball18255",
+              "amount": 53,
+              "price": 15270,
+              "manufacturer": "Samsung",
+              "notes": "AVtNbQeo3IOlRWEQAfgaQfLtayKShmzObvunHGVyZTyvjWNZDdjVLzY0klYbgaTIZqZYBPzHYzdS8Z0bxsqv7qi2Ae4ZNoZtloE991wmuKpRd3hraUngizlo5CCwXFMaLSGYcU5zYcEvdVM7G96r7STr1dm9vNTFWBDH7TpyNZRbHaYdVwZq2DwJDEa8KrNnAyfCWeSUEIh9SNBkGe8RxxhmSx4InbzufhxW1s9ddICFjMqFOfMPN4I6xI",
+              "received": false
+            },
+            {
+              "_id": "69505af31c508c5d5e3734d4",
+              "name": "Car72893",
+              "amount": 819,
+              "price": 5583,
+              "manufacturer": "Amazon",
+              "notes": "WpxWxZQBZHx1rkkIiHZ4IqL7ex8XaetE78H2LCcdXUngNrhBhgGS5zuIrwt0Upsxhz1ZGBZ0uyJfEMhYAOi2uQOLTCcX5zhN9gLEhOsw8UZDZnmeP9v7hVxXBzDtuRB3CVCDz4cgh7EWOJ0iEA4y7I2P6TSXrWETsaO0PJOQaTnxr7AVN8Iz7yEF01v3sudlovyu555tfmTRSpt5d5qpGVMdmqx2eWVfsf7OhBlTpOErW8aCFHTkzkcIdZ",
+              "received": false
+            }
+          ],
+          "total_price": 72514,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Winnifredchester",
+              "street": "Marie Creek",
+              "house": 33,
+              "flat": 466
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-27T22:17:25.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69505aeb1c508c5d5e373043",
+          "products": [
+            {
+              "_id": "69505aee1c508c5d5e37324c",
+              "name": "Chair22898",
+              "amount": 301,
+              "price": 51661,
+              "manufacturer": "Google",
+              "notes": "0492wa9DL2OjGmkzx1dlMoQdFZ9JfEANjayVoaK5YFGiEFgmNETxHrBV3uxWFzlWS5F0nHqyxL2TF6axoNoKebcCx3rqpzMII5LrG0tnyVpEbguw74Dahg3mh92vLD0M4aA4mG1zChIlKFYzdP6ntuNAXM7lJr7BZVuthwPbNYjs0DNoHxzTQf6pPzlVtjoMNQ18AxkzsY7eU5h8t5CNWhB5XbUX9rv5RbGRW7CLrmeci5jusYCu0eGP6F",
+              "received": false
+            },
+            {
+              "_id": "69505af11c508c5d5e373362",
+              "name": "Ball18255",
+              "amount": 53,
+              "price": 15270,
+              "manufacturer": "Samsung",
+              "notes": "AVtNbQeo3IOlRWEQAfgaQfLtayKShmzObvunHGVyZTyvjWNZDdjVLzY0klYbgaTIZqZYBPzHYzdS8Z0bxsqv7qi2Ae4ZNoZtloE991wmuKpRd3hraUngizlo5CCwXFMaLSGYcU5zYcEvdVM7G96r7STr1dm9vNTFWBDH7TpyNZRbHaYdVwZq2DwJDEa8KrNnAyfCWeSUEIh9SNBkGe8RxxhmSx4InbzufhxW1s9ddICFjMqFOfMPN4I6xI",
+              "received": false
+            },
+            {
+              "_id": "69505af31c508c5d5e3734d4",
+              "name": "Car72893",
+              "amount": 819,
+              "price": 5583,
+              "manufacturer": "Amazon",
+              "notes": "WpxWxZQBZHx1rkkIiHZ4IqL7ex8XaetE78H2LCcdXUngNrhBhgGS5zuIrwt0Upsxhz1ZGBZ0uyJfEMhYAOi2uQOLTCcX5zhN9gLEhOsw8UZDZnmeP9v7hVxXBzDtuRB3CVCDz4cgh7EWOJ0iEA4y7I2P6TSXrWETsaO0PJOQaTnxr7AVN8Iz7yEF01v3sudlovyu555tfmTRSpt5d5qpGVMdmqx2eWVfsf7OhBlTpOErW8aCFHTkzkcIdZ",
+              "received": false
+            }
+          ],
+          "total_price": 72514,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:17:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

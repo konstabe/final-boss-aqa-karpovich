@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:17:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2812",
+    "etag": "W/\"afc-SacjSqfHLWX/+i/2DfYLaY8ixRc\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69505adc1c508c5d5e3725d2",
+      "status": "Draft",
+      "customer": {
+        "_id": "69505ad71c508c5d5e3722a0",
+        "email": "Aniyah57@hotmail.com",
+        "name": "Lavonne Abshire",
+        "country": "Canada",
+        "city": "New Elsestad",
+        "street": "Princess Street",
+        "house": 28,
+        "flat": 625,
+        "phone": "+13425799528",
+        "createdOn": "2025-12-27T22:16:55.000Z",
+        "notes": "SKD26ehLf5qcem3uAU9beQ53RVxN0hmoqA7jEtgeKdJWeHhB4MjnUWzdllsGT5zfW2Qyikb1pQ48cFzbjccu0fAEXUYFzeG2Djp1bu4lAkvofHhFPncybIultb0WuPwZKyHjkIbUupVKF5DxxT0gItxrOJbVeiblXifiog6Wev7TSC8xQyNxUUvT5USQR2r9Tp7CWd2Oq7T0gXq0CwRtFE2wjRj7FF4MUuU3TYwhRXMtlCjfGJ0IfnnsHY"
+      },
+      "products": [
+        {
+          "_id": "69505ada1c508c5d5e372521",
+          "name": "Pizza35034",
+          "amount": 322,
+          "price": 82626,
+          "manufacturer": "Xiaomi",
+          "notes": "KIPvzWRmbxiaqXh0LXSU1OdIydaVgXn4OCahFqHlfHKzwjdFDLYykGRLgdZ8MRKKRpghRBtDR5o8e5upgGkRrcYP3Fy3y3uJKcSXVk7NIOgx2Te8AyFpTg7Ch3VwSjcXYwtSo5EIaQGcPdtj6ZNTxyBbJMmCnHzVPh9zouIjo3pgkNwLGBaCIWkFu8tzBzemPjNCYKoxJbWqAQ7oja41pxjTksTgibbzOY9Q5LYB1CdnLJ1lQKyh9s4fKs",
+          "received": false
+        },
+        {
+          "_id": "69505adc1c508c5d5e3725af",
+          "name": "Cheese13100",
+          "amount": 198,
+          "price": 2561,
+          "manufacturer": "Google",
+          "notes": "5bXQlab8lu4lbzjiGw7nAg3qsqaSTstbSwtzEQOTGKEoAdFifYA8Ot3GxLDiypOkFrKs8pK2ZhA5qNXFFJCz3NT2VBUGA9eiBerGuqA6LATaLLxqlGGHz8AldMARyYJjpPVNc1F8euZ1MSCbn4Jh5cmomVi1NJ66nZgHVhy5nbv5itQjwsT5tKUB42mCgMSdtwMQeyu1n9MdEhZo3af1pQcFty0LqousD9YVNXJkNUJZb6gbrfiofmgi1m",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 85187,
+      "createdOn": "2025-12-27T22:17:00.000Z",
+      "comments": [
+        {
+          "text": "Ld0k5mNpjQhrvRQfNXc9Kj6Afwzb9kMZNM4W9WNa1faSFnrfllIyAG9LeKCwPoXq2FbYkbHudQs",
+          "createdOn": "2025-12-27T22:17:00.000Z",
+          "_id": "69505adc1c508c5d5e3725ef"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505ad71c508c5d5e3722a0",
+          "products": [
+            {
+              "_id": "69505ada1c508c5d5e372521",
+              "name": "Pizza35034",
+              "amount": 322,
+              "price": 82626,
+              "manufacturer": "Xiaomi",
+              "notes": "KIPvzWRmbxiaqXh0LXSU1OdIydaVgXn4OCahFqHlfHKzwjdFDLYykGRLgdZ8MRKKRpghRBtDR5o8e5upgGkRrcYP3Fy3y3uJKcSXVk7NIOgx2Te8AyFpTg7Ch3VwSjcXYwtSo5EIaQGcPdtj6ZNTxyBbJMmCnHzVPh9zouIjo3pgkNwLGBaCIWkFu8tzBzemPjNCYKoxJbWqAQ7oja41pxjTksTgibbzOY9Q5LYB1CdnLJ1lQKyh9s4fKs",
+              "received": false
+            },
+            {
+              "_id": "69505adc1c508c5d5e3725af",
+              "name": "Cheese13100",
+              "amount": 198,
+              "price": 2561,
+              "manufacturer": "Google",
+              "notes": "5bXQlab8lu4lbzjiGw7nAg3qsqaSTstbSwtzEQOTGKEoAdFifYA8Ot3GxLDiypOkFrKs8pK2ZhA5qNXFFJCz3NT2VBUGA9eiBerGuqA6LATaLLxqlGGHz8AldMARyYJjpPVNc1F8euZ1MSCbn4Jh5cmomVi1NJ66nZgHVhy5nbv5itQjwsT5tKUB42mCgMSdtwMQeyu1n9MdEhZo3af1pQcFty0LqousD9YVNXJkNUJZb6gbrfiofmgi1m",
+              "received": false
+            }
+          ],
+          "total_price": 85187,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:17:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

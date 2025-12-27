@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:18:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3433",
+    "etag": "W/\"d69-Evhp6OJXUw0fx9/n9O7iViB5z6s\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505b411c508c5d5e376505",
+        "email": "Morris_Fritsch@yahoo.com",
+        "name": "Dewayne Cummerata",
+        "country": "Ukraine",
+        "city": "Sterling Heights",
+        "street": "Alexandro Fords",
+        "house": 43,
+        "flat": 186,
+        "phone": "+15932804121",
+        "createdOn": "2025-12-27T22:18:41.000Z",
+        "notes": "tOy5w45xirPMEWVdVn4RyjqAziITf7UzOc0URYk3PSXvC0wwNRL0QvRnTRQaqMpzsTYqh9nolfn7hZAyrx5t4Kwyem78rYkuT9TeSX9rbrtCAda7d7s09OhY6GWsiQthCT4YgkxZNU4JBaZYLULUgcO3OfrLadrMh1s5uK4l9fS6rPMQb86rt7WADQIbJWGf1yZwiz1r3BSpQnbI1fBQy9LyVZ6oo9LpAAVxLePGvAg9xCLDS4uFL7p7sE"
+      },
+      "products": [
+        {
+          "_id": "69505b441c508c5d5e3765fd",
+          "name": "Hat96664",
+          "amount": 511,
+          "price": 73847,
+          "manufacturer": "Google",
+          "notes": "dhKFnXnkhz9uDwc9th4iYw8u7KnwZxeI3Fdj1uNUpXAWXWFFxrolfG6KzJPQdv3ecPJZCE4pHOXLtD4gaMYxMBkPLvkySQLKyGkqLQOvgGmAXUyVZ6U6vOUUv1cAJiJTmQyAB39Wd3SPzh43mcz5MSUXEqT2GCgt3e4huUeLKlkqeYiljDxxM4ouGoibd1SPLAfZcUkTFk4A3ZBeRKr8xzdvMXDKcsWH0psXe1gAQOexJn8Y8c5GORNxOi",
+          "received": false
+        },
+        {
+          "_id": "69505b471c508c5d5e376845",
+          "name": "Bike84066",
+          "amount": 33,
+          "price": 91369,
+          "manufacturer": "Google",
+          "notes": "w8hXpFLh4UsHeWON5Owar6c9HiaqlY7HukUzCZZwQIkNmyj4oRayFSuhOeUDW5e85KXD2tHgAnqIA49nIDPSv9somKYW5JI0oLKTnpdZZIIJKfqLgIjuUccJaXjrSyoNfq5DHpwOcx5JLdp7sFrdXWRmq3wzBQdBREE09THp9408y9n1NXVKrhgM24FT2ugCE9T1phQJaIJQscycFYaw4ds3TrrIo8LIpdJoMQiuCs9Y0XxVbrh9DHjV50",
+          "received": false
+        },
+        {
+          "_id": "69505b491c508c5d5e376943",
+          "name": "Keyboard22978",
+          "amount": 862,
+          "price": 18584,
+          "manufacturer": "Xiaomi",
+          "notes": "OjpsIsslC0ujRAeRT1tRC5NK6tKYRNCRKhevqLXXcLXYzg7kqJ8pyUL0yMXTF1HHXQu6U5ynEedwVJ7VQ5p547XOJLVnVYIZFWAgmViAvGFeZ3EEZfXcmb8YHAOuO7QB3dxs6FvLUTMrPXNQADgWLwXfSCgv3rvBuppT5d3YjrCFYOMgkYVNNVbYsmhaHXn8SOXust3JDbv9URMrzHK3bSZQBnjyF1kdhthhVkRNUAQVwAynER2uYP31P8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 183800,
+      "createdOn": "2025-12-27T22:18:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505b411c508c5d5e376505",
+          "products": [
+            {
+              "_id": "69505b441c508c5d5e3765fd",
+              "name": "Hat96664",
+              "amount": 511,
+              "price": 73847,
+              "manufacturer": "Google",
+              "notes": "dhKFnXnkhz9uDwc9th4iYw8u7KnwZxeI3Fdj1uNUpXAWXWFFxrolfG6KzJPQdv3ecPJZCE4pHOXLtD4gaMYxMBkPLvkySQLKyGkqLQOvgGmAXUyVZ6U6vOUUv1cAJiJTmQyAB39Wd3SPzh43mcz5MSUXEqT2GCgt3e4huUeLKlkqeYiljDxxM4ouGoibd1SPLAfZcUkTFk4A3ZBeRKr8xzdvMXDKcsWH0psXe1gAQOexJn8Y8c5GORNxOi",
+              "received": false
+            },
+            {
+              "_id": "69505b471c508c5d5e376845",
+              "name": "Bike84066",
+              "amount": 33,
+              "price": 91369,
+              "manufacturer": "Google",
+              "notes": "w8hXpFLh4UsHeWON5Owar6c9HiaqlY7HukUzCZZwQIkNmyj4oRayFSuhOeUDW5e85KXD2tHgAnqIA49nIDPSv9somKYW5JI0oLKTnpdZZIIJKfqLgIjuUccJaXjrSyoNfq5DHpwOcx5JLdp7sFrdXWRmq3wzBQdBREE09THp9408y9n1NXVKrhgM24FT2ugCE9T1phQJaIJQscycFYaw4ds3TrrIo8LIpdJoMQiuCs9Y0XxVbrh9DHjV50",
+              "received": false
+            },
+            {
+              "_id": "69505b491c508c5d5e376943",
+              "name": "Keyboard22978",
+              "amount": 862,
+              "price": 18584,
+              "manufacturer": "Xiaomi",
+              "notes": "OjpsIsslC0ujRAeRT1tRC5NK6tKYRNCRKhevqLXXcLXYzg7kqJ8pyUL0yMXTF1HHXQu6U5ynEedwVJ7VQ5p547XOJLVnVYIZFWAgmViAvGFeZ3EEZfXcmb8YHAOuO7QB3dxs6FvLUTMrPXNQADgWLwXfSCgv3rvBuppT5d3YjrCFYOMgkYVNNVbYsmhaHXn8SOXust3JDbv9URMrzHK3bSZQBnjyF1kdhthhVkRNUAQVwAynER2uYP31P8",
+              "received": false
+            }
+          ],
+          "total_price": 183800,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:18:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505b4a1c508c5d5e37696f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

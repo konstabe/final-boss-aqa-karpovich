@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:18:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3419",
+    "etag": "W/\"d5b-KbEXMQiaYWRGcAPdrcjN0HNPs3E\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505b1c1c508c5d5e374c89",
+        "email": "Niko.Cruickshank79@hotmail.com",
+        "name": "Dawn Borer",
+        "country": "Canada",
+        "city": "Reston",
+        "street": "Carmine Parkways",
+        "house": 2,
+        "flat": 178,
+        "phone": "+12314066708",
+        "createdOn": "2025-12-27T22:18:04.000Z",
+        "notes": "3Bpz3Xkt6YjdNOBGkPd6Nqzf07Yb3bX1NRYfnphCtA3xNPZiwmmyMrYBi7RMSG3hKkAnzYWjrzG1VsPGs16ysJ69jxFpAQ5O2f8VRDHV3GsDcBynlUJqMRlPrlx8CJkHzH2Uxh0htfAUynzkulQY0CTM3tgLP9obLGWxkJ0HAPYptjL7VcRpyzUzfjcAgD5TsLfsXC5Wg6VHxP3xvszlwS4sfZUJCKLgU8YCdFBHu2SisJRHOjk0PxEdUM"
+      },
+      "products": [
+        {
+          "_id": "69505b221c508c5d5e375459",
+          "name": "Table54791",
+          "amount": 209,
+          "price": 85364,
+          "manufacturer": "Google",
+          "notes": "4COxT8DoSU0TDerP1An8wtudGMm0rViqiTqrLmfcixiv7nKoP2HNGciiZ3QpZF8j5k9tvGY1uWjzinam4RzfBFX9kPpkEZKjor5J1lcbcUmYPhQE7yZ4P2YybDwqssXp3BRSqNVZrA9a9G5xPLj4L2N5epZmbiBkPX7w9ACGBwABamKmcjoLGUrDcDzhqsxtqmxtcNjJP5wd2cxSBG5i8A4CcyeWABpjEusQ0NHN9LZapDntk3ScyYPqEk",
+          "received": false
+        },
+        {
+          "_id": "69505b291c508c5d5e375520",
+          "name": "Computer73199",
+          "amount": 571,
+          "price": 180,
+          "manufacturer": "Apple",
+          "notes": "oVR1SB2olaIRkNxnZwGyGeEUsCGUPIzChlhAjS2yKIOCyyUgVPMI94lKpaRikKHkJLw8kFqv04oThNYqh6fzfU0WuU5VpCxzkesGYTAenF64PXJrZYVJkVNqWC9ZVI9ZXBJWLUgnlEm5ScNPpaXNurNJJWvYiOhnRU5AiAEcolSnr95Y3vqG8MhitmeP4g1SsFamlLGEU3OjnfJETZoz6EcHGTCMI02JpyYHfF4tRWy8QaQ6PLt9VKbUAl",
+          "received": false
+        },
+        {
+          "_id": "69505b2a1c508c5d5e37589b",
+          "name": "Chips72704",
+          "amount": 755,
+          "price": 49721,
+          "manufacturer": "Sony",
+          "notes": "GMKXaDIiYkWjGkqzyxFEx4DH8KxvJzNkiAwwNPsIr0ly58eQ9zqDnSbztnhr6EaRdXTEGVC3JZfumS0dmBNTZVVPkuHVPzHd7pXCutc7AguvH9ZS6khmgNoiHUlZ2VxfdLJAz17vPTD7dACfLZSo8zWvdPfqjcVVGNfgFFFibQubOUOHbf5H9yzbCY8F07rbGJ3RKwNBT61qOlPsKf8I6NKtclaCUACZ2bYYy2mWj7pozPTDYIhBTN4bBC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 135265,
+      "createdOn": "2025-12-27T22:18:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505b1c1c508c5d5e374c89",
+          "products": [
+            {
+              "_id": "69505b221c508c5d5e375459",
+              "name": "Table54791",
+              "amount": 209,
+              "price": 85364,
+              "manufacturer": "Google",
+              "notes": "4COxT8DoSU0TDerP1An8wtudGMm0rViqiTqrLmfcixiv7nKoP2HNGciiZ3QpZF8j5k9tvGY1uWjzinam4RzfBFX9kPpkEZKjor5J1lcbcUmYPhQE7yZ4P2YybDwqssXp3BRSqNVZrA9a9G5xPLj4L2N5epZmbiBkPX7w9ACGBwABamKmcjoLGUrDcDzhqsxtqmxtcNjJP5wd2cxSBG5i8A4CcyeWABpjEusQ0NHN9LZapDntk3ScyYPqEk",
+              "received": false
+            },
+            {
+              "_id": "69505b291c508c5d5e375520",
+              "name": "Computer73199",
+              "amount": 571,
+              "price": 180,
+              "manufacturer": "Apple",
+              "notes": "oVR1SB2olaIRkNxnZwGyGeEUsCGUPIzChlhAjS2yKIOCyyUgVPMI94lKpaRikKHkJLw8kFqv04oThNYqh6fzfU0WuU5VpCxzkesGYTAenF64PXJrZYVJkVNqWC9ZVI9ZXBJWLUgnlEm5ScNPpaXNurNJJWvYiOhnRU5AiAEcolSnr95Y3vqG8MhitmeP4g1SsFamlLGEU3OjnfJETZoz6EcHGTCMI02JpyYHfF4tRWy8QaQ6PLt9VKbUAl",
+              "received": false
+            },
+            {
+              "_id": "69505b2a1c508c5d5e37589b",
+              "name": "Chips72704",
+              "amount": 755,
+              "price": 49721,
+              "manufacturer": "Sony",
+              "notes": "GMKXaDIiYkWjGkqzyxFEx4DH8KxvJzNkiAwwNPsIr0ly58eQ9zqDnSbztnhr6EaRdXTEGVC3JZfumS0dmBNTZVVPkuHVPzHd7pXCutc7AguvH9ZS6khmgNoiHUlZ2VxfdLJAz17vPTD7dACfLZSo8zWvdPfqjcVVGNfgFFFibQubOUOHbf5H9yzbCY8F07rbGJ3RKwNBT61qOlPsKf8I6NKtclaCUACZ2bYYy2mWj7pozPTDYIhBTN4bBC",
+              "received": false
+            }
+          ],
+          "total_price": 135265,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:18:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505b2f1c508c5d5e375a22"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

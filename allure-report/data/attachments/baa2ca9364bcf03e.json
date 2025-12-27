@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:17:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1898",
+    "etag": "W/\"76a-2akddnOVyNImovMmY8Zv2pzOkHE\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505aeb1c508c5d5e37303f",
+        "email": "Demario.Hodkiewicz99@gmail.com",
+        "name": "Brenda Pagac",
+        "country": "Germany",
+        "city": "East Ludie",
+        "street": "Kihn Curve",
+        "house": 2,
+        "flat": 619,
+        "phone": "+14403558162",
+        "createdOn": "2025-12-27T22:17:15.000Z",
+        "notes": "oQKNGIy7eG6kiBGHcufE6NCHEUCXWkq8ShHQHKWyEZthw2ij2zljAF1VpJdSHNnq9MONrlwse7TLKIhTYQRwYfkbD18zbUdEOtJhVKwN6SFwJQ0TUWkwl0URDkPQm31AJPaJ4xqCwjkWlaos2Kp7Gz1XyhyYCEWCLxALAF41vtTZzNXYHppq7BRSUVj8xS20B3thbzKyu0Sm5ZTUzOoKJpfLrg0lTLhukzSyOvU8uFqpP8ATPJLFpMe3Yb"
+      },
+      "products": [
+        {
+          "_id": "69505aef1c508c5d5e373250",
+          "name": "Keyboard28216",
+          "amount": 959,
+          "price": 37287,
+          "manufacturer": "Microsoft",
+          "notes": "z9KV6wS2jYsMcoYdOqC3lkfunJ8sWcddDGP3XBQ2jJ60XdMRCwgU2UQHlVaGGyvpPiE9LtAPW94EJX7L392Q2rGgCycB8KGwk8AjjwhlVCXsoOUxBGpKoAAqQDR6QZ9XdOX7Yg2g0GxinLGVDZRxa7I85jDaZZN4nJEtm5GQoUqYLImEuqwMZJw0Vqtf5jX4R8iDq6geYhmRkyXlHWVhc2JJLswQUFT52MrlOi5Sizjqn8cnVWRUpyHX4I",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 37287,
+      "createdOn": "2025-12-27T22:17:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505aeb1c508c5d5e37303f",
+          "products": [
+            {
+              "_id": "69505aef1c508c5d5e373250",
+              "name": "Keyboard28216",
+              "amount": 959,
+              "price": 37287,
+              "manufacturer": "Microsoft",
+              "notes": "z9KV6wS2jYsMcoYdOqC3lkfunJ8sWcddDGP3XBQ2jJ60XdMRCwgU2UQHlVaGGyvpPiE9LtAPW94EJX7L392Q2rGgCycB8KGwk8AjjwhlVCXsoOUxBGpKoAAqQDR6QZ9XdOX7Yg2g0GxinLGVDZRxa7I85jDaZZN4nJEtm5GQoUqYLImEuqwMZJw0Vqtf5jX4R8iDq6geYhmRkyXlHWVhc2JJLswQUFT52MrlOi5Sizjqn8cnVWRUpyHX4I",
+              "received": false
+            }
+          ],
+          "total_price": 37287,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:17:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505aef1c508c5d5e373280"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:17:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3432",
+    "etag": "W/\"d68-kmTJzl/Fnu2VEmX9hc3+X6dm8Gw\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505b001c508c5d5e373c93",
+        "email": "Felicity.Schmitt60@yahoo.com",
+        "name": "Imogene Torp",
+        "country": "USA",
+        "city": "Denisshire",
+        "street": "Heloise Alley",
+        "house": 36,
+        "flat": 671,
+        "phone": "+17329421535",
+        "createdOn": "2025-12-27T22:17:36.000Z",
+        "notes": "C7RKsPwkWLuJGr1mHPzov3EAKrGg8Cqy2q7szePQd5cz3uG3FU5pmy8E5F3iufJd8529onDV3GM9nLVwxQdNvyUoQtf5erRq6yMmA4oFwyxq4to4cg8KFRBD1gyqHGeX0Yki5BKhLXh5H6a7RKUBCuIClSX87bdpkj9atuqw6GNOy2cGi1ptkAsHBI9W5LxmcUnfmJIWT1qf4xaBICTf92An20EWcT9xwuer2yfH0u7H50Hb5io4HpJxDs"
+      },
+      "products": [
+        {
+          "_id": "69505b021c508c5d5e373d90",
+          "name": "Towels80341",
+          "amount": 559,
+          "price": 88375,
+          "manufacturer": "Microsoft",
+          "notes": "daGM4pqhx7OXjM5WEtjh8SuXpLNLMtyIaCAOOtwPJeiTtzpZvPFBqJ11hxWKRLdPQFjfZrG74PU144VF2XOtzXgC78JuYBui1tIfqNK37dTjgbbIVSAGeXhjsstrJM8hqB1rWFwpvp8XfFIprOi6O1YHfE7Y5adtyMz0YU3EOWijKodGaGq1vHRdZoSskwkXsiFPzHwBhRVYUL5jlA3o38mA6HU1rsmrkF5BUSejjPPfiOM7Qu1GqzqmIB",
+          "received": false
+        },
+        {
+          "_id": "69505b041c508c5d5e373e8d",
+          "name": "Sausages13077",
+          "amount": 748,
+          "price": 11873,
+          "manufacturer": "Apple",
+          "notes": "9cXtoW7czHfYUGTlij6tzCYZE6v6XwgSqYs6KNWqqghMdqjNlpA9ChmbWsjZ9Ltj2eUwGv6kNshSMu7mpTxwUm5w5miuzhWpVVjYe8P477xj5NDZ2zXNcF5sIQVUwrlb58ntlRW1xzhaT8MNe9CkOr0l1122VLLk9lt953QO1oeIRP8Zc4sFjQNRpttyWHh9Fbb1UU66aO7lr3MAZtGU4ubsvItxQqmnf9VN13V4d1HktcL0f5QywKUB71",
+          "received": false
+        },
+        {
+          "_id": "69505b061c508c5d5e373f2d",
+          "name": "Gloves89841",
+          "amount": 93,
+          "price": 62662,
+          "manufacturer": "Apple",
+          "notes": "FDYsp3DG7ehXUuSzYJff0nQ9dd7GmNQ8Ou8bFp3psJM5iKF0CVQztoc0pSOL7rC6WK76y3cYCWWHFEtOy49kKk31wXosaEdeUDmLR3NNEWgwsMDtHINRaLtKcqbELvg0T38a8zJl9zzs9gSjO8qAgKNl9dghEYxRYo94pXBoaVRWEKg3NFu6OpFAlWAtPTOVlUe1tBARQYkBC1G6HorByO4AxYtHCjdkl9wykGkCSMPFxPDKjbTm6iTIED",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 162910,
+      "createdOn": "2025-12-27T22:17:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505b001c508c5d5e373c93",
+          "products": [
+            {
+              "_id": "69505b021c508c5d5e373d90",
+              "name": "Towels80341",
+              "amount": 559,
+              "price": 88375,
+              "manufacturer": "Microsoft",
+              "notes": "daGM4pqhx7OXjM5WEtjh8SuXpLNLMtyIaCAOOtwPJeiTtzpZvPFBqJ11hxWKRLdPQFjfZrG74PU144VF2XOtzXgC78JuYBui1tIfqNK37dTjgbbIVSAGeXhjsstrJM8hqB1rWFwpvp8XfFIprOi6O1YHfE7Y5adtyMz0YU3EOWijKodGaGq1vHRdZoSskwkXsiFPzHwBhRVYUL5jlA3o38mA6HU1rsmrkF5BUSejjPPfiOM7Qu1GqzqmIB",
+              "received": false
+            },
+            {
+              "_id": "69505b041c508c5d5e373e8d",
+              "name": "Sausages13077",
+              "amount": 748,
+              "price": 11873,
+              "manufacturer": "Apple",
+              "notes": "9cXtoW7czHfYUGTlij6tzCYZE6v6XwgSqYs6KNWqqghMdqjNlpA9ChmbWsjZ9Ltj2eUwGv6kNshSMu7mpTxwUm5w5miuzhWpVVjYe8P477xj5NDZ2zXNcF5sIQVUwrlb58ntlRW1xzhaT8MNe9CkOr0l1122VLLk9lt953QO1oeIRP8Zc4sFjQNRpttyWHh9Fbb1UU66aO7lr3MAZtGU4ubsvItxQqmnf9VN13V4d1HktcL0f5QywKUB71",
+              "received": false
+            },
+            {
+              "_id": "69505b061c508c5d5e373f2d",
+              "name": "Gloves89841",
+              "amount": 93,
+              "price": 62662,
+              "manufacturer": "Apple",
+              "notes": "FDYsp3DG7ehXUuSzYJff0nQ9dd7GmNQ8Ou8bFp3psJM5iKF0CVQztoc0pSOL7rC6WK76y3cYCWWHFEtOy49kKk31wXosaEdeUDmLR3NNEWgwsMDtHINRaLtKcqbELvg0T38a8zJl9zzs9gSjO8qAgKNl9dghEYxRYo94pXBoaVRWEKg3NFu6OpFAlWAtPTOVlUe1tBARQYkBC1G6HorByO4AxYtHCjdkl9wykGkCSMPFxPDKjbTm6iTIED",
+              "received": false
+            }
+          ],
+          "total_price": 162910,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:17:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505b061c508c5d5e373f43"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

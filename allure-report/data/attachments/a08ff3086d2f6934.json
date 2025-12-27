@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:16:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3895",
+    "etag": "W/\"f37-4hwsUYjnkyZjLUNNUntNC6cPuCI\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69505abd1c508c5d5e3713c4",
+      "status": "Draft",
+      "customer": {
+        "_id": "69505abb1c508c5d5e371332",
+        "email": "Diana_Bode@yahoo.com",
+        "name": "Leonora Homenick",
+        "country": "Great Britain",
+        "city": "Rosenbaumbury",
+        "street": "Predovic Brook",
+        "house": 41,
+        "flat": 50,
+        "phone": "+12888907444",
+        "createdOn": "2025-12-27T22:16:27.000Z",
+        "notes": "G0a3FSwNW7RuZmEkFptsk32aLFuCl8RrudUr2J2zQsU6AvR2xRXwgKwAuwZComi890qF4Anx0uulvyZhTFqGM9kvsz4z2TapiY0oBoJwvHQjzBRh7yNW2jTUvtg8FOfTI5FFeVD2AbTPUzIWKiatrV1Y9bjsBGHPzETa8SfgjHFnZkLtYdJhhsh63pwXRlUkR8oqcEonI3w3DcAq73ubYAPBiyN2ylx8CcLE8gTi8B5TcioxyoITBkGdeX"
+      },
+      "products": [
+        {
+          "_id": "69505abd1c508c5d5e3713a9",
+          "name": "Gloves4555",
+          "amount": 597,
+          "price": 33539,
+          "manufacturer": "Tesla",
+          "notes": "zC6yqQQvYEPpDj5zn9wRFzRe1Daib2GAGlSBfBaiXnnBBM7hCxHcrTzCpNiFEUHbSGW1JWVr3GgxSVuq3kYtB6zZeAG7d4KrJdgzwrvF3cHSWKyGGsbLsUQdl6wJYBVOVx2X3IrHWoTqb3MGdScvG2dbVnlFG8goulCjfibUMcgexNKNi5ryFrplvNIKNScKEpR1YgHckahAk9grGcNBZym0Ti4KSzYgk74pLGK0hoDWL3eYgj60dx7J4l",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 33539,
+      "createdOn": "2025-12-27T22:16:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505abb1c508c5d5e371332",
+          "products": [
+            {
+              "_id": "69505abd1c508c5d5e3713a9",
+              "name": "Gloves4555",
+              "amount": 597,
+              "price": 33539,
+              "manufacturer": "Tesla",
+              "notes": "zC6yqQQvYEPpDj5zn9wRFzRe1Daib2GAGlSBfBaiXnnBBM7hCxHcrTzCpNiFEUHbSGW1JWVr3GgxSVuq3kYtB6zZeAG7d4KrJdgzwrvF3cHSWKyGGsbLsUQdl6wJYBVOVx2X3IrHWoTqb3MGdScvG2dbVnlFG8goulCjfibUMcgexNKNi5ryFrplvNIKNScKEpR1YgHckahAk9grGcNBZym0Ti4KSzYgk74pLGK0hoDWL3eYgj60dx7J4l",
+              "received": false
+            }
+          ],
+          "total_price": 33539,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:16:30.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95333f",
+            "username": "student9@gmail.com",
+            "firstName": "Mireille",
+            "lastName": "Altenwerth-Emmerich",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69505abb1c508c5d5e371332",
+          "products": [
+            {
+              "_id": "69505abd1c508c5d5e3713a9",
+              "name": "Gloves4555",
+              "amount": 597,
+              "price": 33539,
+              "manufacturer": "Tesla",
+              "notes": "zC6yqQQvYEPpDj5zn9wRFzRe1Daib2GAGlSBfBaiXnnBBM7hCxHcrTzCpNiFEUHbSGW1JWVr3GgxSVuq3kYtB6zZeAG7d4KrJdgzwrvF3cHSWKyGGsbLsUQdl6wJYBVOVx2X3IrHWoTqb3MGdScvG2dbVnlFG8goulCjfibUMcgexNKNi5ryFrplvNIKNScKEpR1YgHckahAk9grGcNBZym0Ti4KSzYgk74pLGK0hoDWL3eYgj60dx7J4l",
+              "received": false
+            }
+          ],
+          "total_price": 33539,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:16:29.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e95332d",
+            "username": "student6@gmail.com",
+            "firstName": "Jackeline",
+            "lastName": "Padberg",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69505abb1c508c5d5e371332",
+          "products": [
+            {
+              "_id": "69505abd1c508c5d5e3713a9",
+              "name": "Gloves4555",
+              "amount": 597,
+              "price": 33539,
+              "manufacturer": "Tesla",
+              "notes": "zC6yqQQvYEPpDj5zn9wRFzRe1Daib2GAGlSBfBaiXnnBBM7hCxHcrTzCpNiFEUHbSGW1JWVr3GgxSVuq3kYtB6zZeAG7d4KrJdgzwrvF3cHSWKyGGsbLsUQdl6wJYBVOVx2X3IrHWoTqb3MGdScvG2dbVnlFG8goulCjfibUMcgexNKNi5ryFrplvNIKNScKEpR1YgHckahAk9grGcNBZym0Ti4KSzYgk74pLGK0hoDWL3eYgj60dx7J4l",
+              "received": false
+            }
+          ],
+          "total_price": 33539,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:16:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e95333f",
+        "username": "student9@gmail.com",
+        "firstName": "Mireille",
+        "lastName": "Altenwerth-Emmerich",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

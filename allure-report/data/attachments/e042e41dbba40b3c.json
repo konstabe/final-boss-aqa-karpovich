@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:16:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-C1fmHEqlvR78rmgk+ZG2vWpL1fk\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505acb1c508c5d5e371b9f",
+        "email": "Wallace_Kris52@yahoo.com",
+        "name": "Johnson Schamberger",
+        "country": "Canada",
+        "city": "Stokeschester",
+        "street": "Lehner Rapids",
+        "house": 6,
+        "flat": 623,
+        "phone": "+19848904509",
+        "createdOn": "2025-12-27T22:16:43.000Z",
+        "notes": "KKPIlnrcJ3lPbCRkAqGE7sHkzk6idSWTGGjWvAYdMpjsZNQ7xPQmYc0iCv5jWWeoNZHgHq9QNekLlclaanWWOM1UCBNhlu9srmGqAMiQiGCWgULkgvvVioqGbiA7djn8sZvRqHXX1GQRSmaYtQFGmsJktiDzh2AkPr9JDUe60UucmfPCuBUQBxp7yBaDwPqWUm1O5zbPrkm7VrmedFst8qMtrHhsVHsVSGgx4nKMojzZqvYQqWiy1MQqk6"
+      },
+      "products": [
+        {
+          "_id": "69505acd1c508c5d5e371c06",
+          "name": "Soap21294",
+          "amount": 562,
+          "price": 75235,
+          "manufacturer": "Amazon",
+          "notes": "dqjSAGi80GNJFywggWn6CrOkh6Ssl7N6dYqID1u1YyNlfGpLabG1IPk6facqz0qy310oSVLWwnUyVJGIOIW9nSaTDgSsfbH4iYbXZZdl3DBcHcFKTIGtcsWZKMuUPYLlBlM3iV8AafcDs7bh4SdmZ31TaMneWbRkmkLqG5MpqEZ8chMrL2niYU9ptpNDix7UJRK6LSTlOp0lIDG3ZQ8rnaUItJuHylh3GhI0uqJFNyfjjlnvMxiNEY3A06",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 75235,
+      "createdOn": "2025-12-27T22:16:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505acb1c508c5d5e371b9f",
+          "products": [
+            {
+              "_id": "69505acd1c508c5d5e371c06",
+              "name": "Soap21294",
+              "amount": 562,
+              "price": 75235,
+              "manufacturer": "Amazon",
+              "notes": "dqjSAGi80GNJFywggWn6CrOkh6Ssl7N6dYqID1u1YyNlfGpLabG1IPk6facqz0qy310oSVLWwnUyVJGIOIW9nSaTDgSsfbH4iYbXZZdl3DBcHcFKTIGtcsWZKMuUPYLlBlM3iV8AafcDs7bh4SdmZ31TaMneWbRkmkLqG5MpqEZ8chMrL2niYU9ptpNDix7UJRK6LSTlOp0lIDG3ZQ8rnaUItJuHylh3GhI0uqJFNyfjjlnvMxiNEY3A06",
+              "received": false
+            }
+          ],
+          "total_price": 75235,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:16:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505acd1c508c5d5e371c39"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

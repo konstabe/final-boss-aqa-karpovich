@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:17:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-uKnMxLwsbwp9Inz0eg1LS0gr/Pc\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505adb1c508c5d5e3725a3",
+        "email": "Osvaldo.Jones@hotmail.com",
+        "name": "Raegan Marvin",
+        "country": "Russia",
+        "city": "Fort Aaronshire",
+        "street": "Daniel Mission",
+        "house": 20,
+        "flat": 939,
+        "phone": "+12053489485",
+        "createdOn": "2025-12-27T22:16:59.000Z",
+        "notes": "jwg7AjfuWMl6MGdKDpF1QJL9k9Uom8HPWZrt3Bo5nDljHpyt6FAqOfduDOKaPiCqJKQ6WZ3F0uGWaLZFZU8gvfddudWxqgtrj4sIsfkdqTweZwfN24MvPNL9T04dZRP4CEP4ByDfsLtefeahKFpJS2Oz9q8tBwolkpF6SFE7A4hmgbi94niwBNiRqpLa2rP43f6byU3fjA5nOcSzJuQMTDAPHvcWPVVtnmwRtlXdyoZeaCHIk8hb7vbJvQ"
+      },
+      "products": [
+        {
+          "_id": "69505add1c508c5d5e3726f5",
+          "name": "Car94125",
+          "amount": 996,
+          "price": 300,
+          "manufacturer": "Tesla",
+          "notes": "MoVektYrkNrriDstwbCTBh76e1yuh1WuAkIvOwoSv6zGLRokU4q4UK7Ak32C56Lopo9qYa0sJXJy8HbT7zlh0ZZjQOTs9QWse0sBk7tnwR6wAPxvQDntC52nFwSgXWvyTH5qCByMGoaPI2QwiAZjsOYnEIurOUpAlpoVpQyqJFscsMtzibpMbsJLFshPMZ38hUikePz9HBoKvbyzD8pCFIxL9YYehaL7JGGoDcl4MMz0GfTC1MLeH68el7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 300,
+      "createdOn": "2025-12-27T22:17:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505adb1c508c5d5e3725a3",
+          "products": [
+            {
+              "_id": "69505add1c508c5d5e3726f5",
+              "name": "Car94125",
+              "amount": 996,
+              "price": 300,
+              "manufacturer": "Tesla",
+              "notes": "MoVektYrkNrriDstwbCTBh76e1yuh1WuAkIvOwoSv6zGLRokU4q4UK7Ak32C56Lopo9qYa0sJXJy8HbT7zlh0ZZjQOTs9QWse0sBk7tnwR6wAPxvQDntC52nFwSgXWvyTH5qCByMGoaPI2QwiAZjsOYnEIurOUpAlpoVpQyqJFscsMtzibpMbsJLFshPMZ38hUikePz9HBoKvbyzD8pCFIxL9YYehaL7JGGoDcl4MMz0GfTC1MLeH68el7",
+              "received": false
+            }
+          ],
+          "total_price": 300,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:17:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505add1c508c5d5e372713"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

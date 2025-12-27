@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:18:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3413",
+    "etag": "W/\"d55-+F6c/2NcxTzUqt/GUP6NRtv277M\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505b3c1c508c5d5e3761d3",
+        "email": "Malachi_Kris45@yahoo.com",
+        "name": "Mina Braun",
+        "country": "Great Britain",
+        "city": "Jaydafurt",
+        "street": "Hirthe Oval",
+        "house": 30,
+        "flat": 592,
+        "phone": "+17814990522",
+        "createdOn": "2025-12-27T22:18:36.000Z",
+        "notes": "TlB92kVThnidC7alw7DOwItb2vr8ptrQZgMX4eLjSgD1Suwpe4EzLDvrcgVdhAyw8ZEzl1WpNWAGctuzHcSV9XhEdBULiWkU2RnvkQoj8xaBHCHnx1SoGV1QBs6kwJMmb2qaunWpquuqrzWeiSr9FYLZhHv4fBQvZyAJlw4TtlqO0prhIVwexSUc2r5XuzIMqvDgJoDKzyLjsTQQi7Eth7cyxxgQH6ve0YcwDITJrj42CJBif0wBzezQbq"
+      },
+      "products": [
+        {
+          "_id": "69505b3d1c508c5d5e3762cc",
+          "name": "Shoes63772",
+          "amount": 989,
+          "price": 94756,
+          "manufacturer": "Sony",
+          "notes": "9sQuUplFj9yrugxtqcJMBMwe1CrPMD4oYjNHsfUMrIC1DWHyVFGQRCb9IDEhVuPLKHF6mhDAohWp99z6AmvhfSoiXiEJUwAfAOtCpqfZeQggnSFNNCgoYrQTxTQVTnClN9t0gYi6u2RtZZHawp3FVHBrdffW7J8VkwdYSTB1REIu6KB6zIJyFU0QLUkgTr1btZMGyOb1iSMRQTKpCGVZwfWLnrk4taBbttHHLefwJOhSBkAQ8HEs4pqKDW",
+          "received": false
+        },
+        {
+          "_id": "69505b411c508c5d5e37645d",
+          "name": "Mouse20926",
+          "amount": 703,
+          "price": 64202,
+          "manufacturer": "Samsung",
+          "notes": "u5k0eqIzi4aAUBxt6GuSvYRbz9YC5JPGVnaUfa2Qd9fG29D4zzdFpwHTJ75zUAjaasaLn1Ms1LVzeEX3HBB9skGp6xXtABhImSk5QOD44WOY3R7Rz8JjlvXIH6AliyGLrwIoa54CzjRTgmUkNJjKhbUYplpY5dhdEXoG1TDt3MWUXzosp645VHtzKSvlgjxCw6rxbdIP4oJm26FFySxTYYenpI9Kk5O3ByS9ZXC9LQuDICOLKe2wNufXFJ",
+          "received": false
+        },
+        {
+          "_id": "69505b431c508c5d5e37654a",
+          "name": "Soap3380",
+          "amount": 68,
+          "price": 51078,
+          "manufacturer": "Apple",
+          "notes": "Lh0ICM9heRlF73uiCQC0QeteDu4rq4zEuShHfo8MFvLfINEzumTnAdzbWAp4b6u5lS2pxlhnGZ9cR2kPd3s5wtdpo2jJPQ5rQfMeKnURuASOSmXBLDD6KzkEQ5dqtUiSZNvfeeOboynHNgMnSnhYMzXIS98GgoyWakG028CLTPvRNJ30VkqYO3YAD5phosgMHPtILHUpedzenDkAhiMizeB4n1B1BAyMhW4NulYOCNjmxW94gFO0PeGKeD",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 210036,
+      "createdOn": "2025-12-27T22:18:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505b3c1c508c5d5e3761d3",
+          "products": [
+            {
+              "_id": "69505b3d1c508c5d5e3762cc",
+              "name": "Shoes63772",
+              "amount": 989,
+              "price": 94756,
+              "manufacturer": "Sony",
+              "notes": "9sQuUplFj9yrugxtqcJMBMwe1CrPMD4oYjNHsfUMrIC1DWHyVFGQRCb9IDEhVuPLKHF6mhDAohWp99z6AmvhfSoiXiEJUwAfAOtCpqfZeQggnSFNNCgoYrQTxTQVTnClN9t0gYi6u2RtZZHawp3FVHBrdffW7J8VkwdYSTB1REIu6KB6zIJyFU0QLUkgTr1btZMGyOb1iSMRQTKpCGVZwfWLnrk4taBbttHHLefwJOhSBkAQ8HEs4pqKDW",
+              "received": false
+            },
+            {
+              "_id": "69505b411c508c5d5e37645d",
+              "name": "Mouse20926",
+              "amount": 703,
+              "price": 64202,
+              "manufacturer": "Samsung",
+              "notes": "u5k0eqIzi4aAUBxt6GuSvYRbz9YC5JPGVnaUfa2Qd9fG29D4zzdFpwHTJ75zUAjaasaLn1Ms1LVzeEX3HBB9skGp6xXtABhImSk5QOD44WOY3R7Rz8JjlvXIH6AliyGLrwIoa54CzjRTgmUkNJjKhbUYplpY5dhdEXoG1TDt3MWUXzosp645VHtzKSvlgjxCw6rxbdIP4oJm26FFySxTYYenpI9Kk5O3ByS9ZXC9LQuDICOLKe2wNufXFJ",
+              "received": false
+            },
+            {
+              "_id": "69505b431c508c5d5e37654a",
+              "name": "Soap3380",
+              "amount": 68,
+              "price": 51078,
+              "manufacturer": "Apple",
+              "notes": "Lh0ICM9heRlF73uiCQC0QeteDu4rq4zEuShHfo8MFvLfINEzumTnAdzbWAp4b6u5lS2pxlhnGZ9cR2kPd3s5wtdpo2jJPQ5rQfMeKnURuASOSmXBLDD6KzkEQ5dqtUiSZNvfeeOboynHNgMnSnhYMzXIS98GgoyWakG028CLTPvRNJ30VkqYO3YAD5phosgMHPtILHUpedzenDkAhiMizeB4n1B1BAyMhW4NulYOCNjmxW94gFO0PeGKeD",
+              "received": false
+            }
+          ],
+          "total_price": 210036,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:18:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505b431c508c5d5e376561"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

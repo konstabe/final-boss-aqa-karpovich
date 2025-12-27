@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:17:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3891",
+    "etag": "W/\"f33-RqNziavf5uEPsZCfzF9jl1ND2ow\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69505af31c508c5d5e3734c4",
+      "status": "In Process",
+      "customer": {
+        "_id": "69505aef1c508c5d5e373296",
+        "email": "Ernestina11@yahoo.com",
+        "name": "Alexis Lynch",
+        "country": "Germany",
+        "city": "Jordynfield",
+        "street": "Candace Spur",
+        "house": 15,
+        "flat": 640,
+        "phone": "+17205753425",
+        "createdOn": "2025-12-27T22:17:19.000Z",
+        "notes": "kv1sl7nw0RPf35hsbaocogof1KhTm7VivtSXdyCx7H4DM60J6u6rBJ77KRdvOzM2IKYcIzoFa6wEB2DWl5G5oyAlCqSdmXfGpMA6biex5hpDwYDp53efHxn60TGuaZbAzvvxwSqnd3nu6eiVeAJzoW5bOWmL5FIu56ltn1Ni96ffjhkUjbQpwQ81kvjKWo6IvpKfuCdIQgDBFqrCXrJlnXIVN4UwQzXZ2zQuJ2H6H6Bmcm7feDz8wjcYDQ"
+      },
+      "products": [
+        {
+          "_id": "69505af31c508c5d5e37347c",
+          "name": "Computer94336",
+          "amount": 171,
+          "price": 36536,
+          "manufacturer": "Google",
+          "notes": "zosILMYeoiM5gmxEXTD2KV0Vt4fv3lob2lKBEbDO6j8J344F4SDMDp3G5iesKv8UW51d47eOt4ESNWYEN0XE5R0uOwlLomZXBYeBf0JyspRKsbQyqXKBgrQjQ66YAAIjA3wDxlS2DmbJ8E1eeKp9Pj2jVAjtHIVK7qRpAgBsy4E0IIvD0qTXjkoNObM94qPGMqnlVISx2g9PLMWZjOe3KyGIce9AhNRTdWaDGB5wxE79I2qcj6Qghkjb0J",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Jordynfield",
+          "street": "Candace Spur",
+          "house": 15,
+          "flat": 640
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 36536,
+      "createdOn": "2025-12-27T22:17:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69505aef1c508c5d5e373296",
+          "products": [
+            {
+              "_id": "69505af31c508c5d5e37347c",
+              "name": "Computer94336",
+              "amount": 171,
+              "price": 36536,
+              "manufacturer": "Google",
+              "notes": "zosILMYeoiM5gmxEXTD2KV0Vt4fv3lob2lKBEbDO6j8J344F4SDMDp3G5iesKv8UW51d47eOt4ESNWYEN0XE5R0uOwlLomZXBYeBf0JyspRKsbQyqXKBgrQjQ66YAAIjA3wDxlS2DmbJ8E1eeKp9Pj2jVAjtHIVK7qRpAgBsy4E0IIvD0qTXjkoNObM94qPGMqnlVISx2g9PLMWZjOe3KyGIce9AhNRTdWaDGB5wxE79I2qcj6Qghkjb0J",
+              "received": false
+            }
+          ],
+          "total_price": 36536,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Jordynfield",
+              "street": "Candace Spur",
+              "house": 15,
+              "flat": 640
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-27T22:17:24.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69505aef1c508c5d5e373296",
+          "products": [
+            {
+              "_id": "69505af31c508c5d5e37347c",
+              "name": "Computer94336",
+              "amount": 171,
+              "price": 36536,
+              "manufacturer": "Google",
+              "notes": "zosILMYeoiM5gmxEXTD2KV0Vt4fv3lob2lKBEbDO6j8J344F4SDMDp3G5iesKv8UW51d47eOt4ESNWYEN0XE5R0uOwlLomZXBYeBf0JyspRKsbQyqXKBgrQjQ66YAAIjA3wDxlS2DmbJ8E1eeKp9Pj2jVAjtHIVK7qRpAgBsy4E0IIvD0qTXjkoNObM94qPGMqnlVISx2g9PLMWZjOe3KyGIce9AhNRTdWaDGB5wxE79I2qcj6Qghkjb0J",
+              "received": false
+            }
+          ],
+          "total_price": 36536,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Jordynfield",
+              "street": "Candace Spur",
+              "house": 15,
+              "flat": 640
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-27T22:17:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69505aef1c508c5d5e373296",
+          "products": [
+            {
+              "_id": "69505af31c508c5d5e37347c",
+              "name": "Computer94336",
+              "amount": 171,
+              "price": 36536,
+              "manufacturer": "Google",
+              "notes": "zosILMYeoiM5gmxEXTD2KV0Vt4fv3lob2lKBEbDO6j8J344F4SDMDp3G5iesKv8UW51d47eOt4ESNWYEN0XE5R0uOwlLomZXBYeBf0JyspRKsbQyqXKBgrQjQ66YAAIjA3wDxlS2DmbJ8E1eeKp9Pj2jVAjtHIVK7qRpAgBsy4E0IIvD0qTXjkoNObM94qPGMqnlVISx2g9PLMWZjOe3KyGIce9AhNRTdWaDGB5wxE79I2qcj6Qghkjb0J",
+              "received": false
+            }
+          ],
+          "total_price": 36536,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:17:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

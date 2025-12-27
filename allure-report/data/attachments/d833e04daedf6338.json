@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:16:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-oZZujvLo0zOb53IKYMvAZZ/L1Ss\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505abd1c508c5d5e37139b",
+        "email": "Rick_Dach@hotmail.com",
+        "name": "Golda Rodriguez",
+        "country": "Great Britain",
+        "city": "New Gaetano",
+        "street": "Brennon Ways",
+        "house": 11,
+        "flat": 681,
+        "phone": "+15326330866",
+        "createdOn": "2025-12-27T22:16:29.000Z",
+        "notes": "dV4HvJT2q4gt56h886IRK9Th9t1IGtQXb9qWOj3gJWX50xCc75XfOejbqPO2tDC2tmpl1sPiKyX1YOYWoVMYV1Fd1zQHN5lhFU3EEYLHZBSSAC4vuz018ElYhbKNkdoSNVZ4JyMYn53GUmB38EUtTm6vwqJ3aTCqnfixOVHherY61mk5zJqHd7E3huUlivsoj9MC9jnY6UKDOYAjwFA4XB8ej0CjHnrOsML7wBt6Sgei9lUwEhOuGOVnhb"
+      },
+      "products": [
+        {
+          "_id": "69505abe1c508c5d5e37142b",
+          "name": "Mouse77216",
+          "amount": 273,
+          "price": 32154,
+          "manufacturer": "Amazon",
+          "notes": "TqEaQ3drs5qXmhWVGlrS4VtyRPkQEoOfSaVdHnPWmAVbvZY8TBTZuNcUnGMg0VTgFl8HYePwqjpfDRsTzaBj9PF1JtGo2YUEW44DBttRe3FdLXun7mvV5XQgRdU7i7tRZp8rXdekWdyszWHa5F5VkddjDWTSxTWu8L9R9RMW8zupegaxdddSgMBR70nRDEZVD5orbeZjls9dhuldhCQAJpfLlJ3PBde5EV214aC8f68LvpnmM8suRM60vp",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 32154,
+      "createdOn": "2025-12-27T22:16:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505abd1c508c5d5e37139b",
+          "products": [
+            {
+              "_id": "69505abe1c508c5d5e37142b",
+              "name": "Mouse77216",
+              "amount": 273,
+              "price": 32154,
+              "manufacturer": "Amazon",
+              "notes": "TqEaQ3drs5qXmhWVGlrS4VtyRPkQEoOfSaVdHnPWmAVbvZY8TBTZuNcUnGMg0VTgFl8HYePwqjpfDRsTzaBj9PF1JtGo2YUEW44DBttRe3FdLXun7mvV5XQgRdU7i7tRZp8rXdekWdyszWHa5F5VkddjDWTSxTWu8L9R9RMW8zupegaxdddSgMBR70nRDEZVD5orbeZjls9dhuldhCQAJpfLlJ3PBde5EV214aC8f68LvpnmM8suRM60vp",
+              "received": false
+            }
+          ],
+          "total_price": 32154,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:16:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505abf1c508c5d5e371440"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

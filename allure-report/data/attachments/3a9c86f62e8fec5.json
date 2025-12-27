@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:16:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2654",
+    "etag": "W/\"a5e-i6/NuuAmwhRBfDYxZa1XbGsfrKQ\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505ab01c508c5d5e370bf7",
+        "email": "Amani95@yahoo.com",
+        "name": "Lisandro Smith",
+        "country": "Germany",
+        "city": "Annamaestead",
+        "street": "Schowalter Plain",
+        "house": 46,
+        "flat": 447,
+        "phone": "+18134390481",
+        "createdOn": "2025-12-27T22:16:16.000Z",
+        "notes": "QKYDKXoUpA6SXc0kOnmPboFmEjakFfEbPmCkv2A1QPMAVjpu6NgEecqssn2h6I0ctLJygEyGtgFIO4htxCZ3rHoAbXsMME2kNyzT2UFHyh7XGYprJD0j2DUTvGeJJmFg7WXwV8jY4EkNzjYzVz0rqdtyEITFKZ4PgnMvqSy3v5dL2X8npYF78G3GtNZjQpLi3iDeAveKV7gRpujsIv3JQz6p660vtdkEPTYLwob2DBmzZoGwGr17JXdneJ"
+      },
+      "products": [
+        {
+          "_id": "69505ab31c508c5d5e370e34",
+          "name": "Table13801",
+          "amount": 887,
+          "price": 24286,
+          "manufacturer": "Amazon",
+          "notes": "OuuLlr11kIDuwOJ2OX3JVZrhTq1XuLwzVgLCRpWSmavjlTkDkVIuEE33xPoHdwzcgL6lPOmSXMgMCO5ZLco36LpHQO7NlfdZbGIoaBVDkvhvufxmBVLXvIsbkmVwOoASOMVjf2Yztb4vxwVE7ABrMS0MKIkYWo8CD9b0fIFqHd1ugJrPFFjtTnuHoLvMv3SRzzRIny5YYry42RdpZvNZ6Yz9sZVBJidU9soa3wqrXV1w7bdfi9LoIeHEXH",
+          "received": false
+        },
+        {
+          "_id": "69505ab51c508c5d5e370f27",
+          "name": "Chicken5109",
+          "amount": 855,
+          "price": 15467,
+          "manufacturer": "Xiaomi",
+          "notes": "cd4uqsEQ0gFlxfNsio9DEdWacGBGZR88TLChKFBvu0mPQPwqCTFM5YEc8bYlz0CBrILa5gRf3G9SEui8bnR9VXv7GduBcW3x0hcvmCY8Q5b7uoJKLYIYTTsczulPOMX8QUCzFhs8ZuWHRVhWYOSWadN1vJkzQOV6dwHAnA3XpcRe5gabMTi8OWWtmFeW7efmi6KHqRkNDJ7cnEj7NfxeZohe7iTtQUG7wJToPq6BsP9euVH2lniZyu46fm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 39753,
+      "createdOn": "2025-12-27T22:16:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505ab01c508c5d5e370bf7",
+          "products": [
+            {
+              "_id": "69505ab31c508c5d5e370e34",
+              "name": "Table13801",
+              "amount": 887,
+              "price": 24286,
+              "manufacturer": "Amazon",
+              "notes": "OuuLlr11kIDuwOJ2OX3JVZrhTq1XuLwzVgLCRpWSmavjlTkDkVIuEE33xPoHdwzcgL6lPOmSXMgMCO5ZLco36LpHQO7NlfdZbGIoaBVDkvhvufxmBVLXvIsbkmVwOoASOMVjf2Yztb4vxwVE7ABrMS0MKIkYWo8CD9b0fIFqHd1ugJrPFFjtTnuHoLvMv3SRzzRIny5YYry42RdpZvNZ6Yz9sZVBJidU9soa3wqrXV1w7bdfi9LoIeHEXH",
+              "received": false
+            },
+            {
+              "_id": "69505ab51c508c5d5e370f27",
+              "name": "Chicken5109",
+              "amount": 855,
+              "price": 15467,
+              "manufacturer": "Xiaomi",
+              "notes": "cd4uqsEQ0gFlxfNsio9DEdWacGBGZR88TLChKFBvu0mPQPwqCTFM5YEc8bYlz0CBrILa5gRf3G9SEui8bnR9VXv7GduBcW3x0hcvmCY8Q5b7uoJKLYIYTTsczulPOMX8QUCzFhs8ZuWHRVhWYOSWadN1vJkzQOV6dwHAnA3XpcRe5gabMTi8OWWtmFeW7efmi6KHqRkNDJ7cnEj7NfxeZohe7iTtQUG7wJToPq6BsP9euVH2lniZyu46fm",
+              "received": false
+            }
+          ],
+          "total_price": 39753,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:16:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505ab51c508c5d5e370f4c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

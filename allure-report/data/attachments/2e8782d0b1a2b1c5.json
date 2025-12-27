@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:16:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2807",
+    "etag": "W/\"af7-Jh7ELVwQ91X4wYTjlPwx4lJk22o\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69505adb1c508c5d5e372571",
+      "status": "Draft",
+      "customer": {
+        "_id": "69505ad61c508c5d5e37229b",
+        "email": "Gerda.Jones@hotmail.com",
+        "name": "Karl Runte",
+        "country": "Russia",
+        "city": "Fort Antonettaberg",
+        "street": "Common Lane",
+        "house": 11,
+        "flat": 55,
+        "phone": "+12493880401",
+        "createdOn": "2025-12-27T22:16:54.000Z",
+        "notes": "oMFkprHFmPdHBV63nwvb3cSC6r6yj93Pj6iw9Pemm8pFrIYc5kFYHUC10EmgjrxuyniyUTqBiX9c79JNZTp9PAbw5lP0DeAjBJ34auXDOm9xm56A3wBWD2NQ9Pa2iCrX6sVexnZW3kq45AvuI9t0yzzLkz5JPC1YEYOr2J8aHH4fpRLBXSSoMuLJyvnnTHGgQqjPGvlIDQnzdsgfHg4Qwr0el5mgGbOGSpcZCP50mQor6Wh3uRxu7GdxUx"
+      },
+      "products": [
+        {
+          "_id": "69505ad81c508c5d5e372484",
+          "name": "Shoes58846",
+          "amount": 781,
+          "price": 5238,
+          "manufacturer": "Xiaomi",
+          "notes": "cRCJPy5cDuzPC0RYTZbCpUXtDxY57V1mK2No1zOG2eZP2vSlYh2no2P8UWjBElQUNSxUzlV95FZzp2qXy9l2CDFvURNBfNWlwnL3BHZFT34qFsh0n9Yjl4NuUpkjsISe8JnXHXFPpgOGO6rJuabAct4MKZ6RqwLifNihtJE0KUMxrQo0XKZjZm2puLK5t82Sks6Diq4vQgb8gCARsxUNYILSiSVKTuXLF6rJhyPyipHA06h3eia7QWCW5F",
+          "received": false
+        },
+        {
+          "_id": "69505adb1c508c5d5e372563",
+          "name": "Towels75804",
+          "amount": 89,
+          "price": 91411,
+          "manufacturer": "Tesla",
+          "notes": "pS0qNePJgKrt9wd1GANLYMAslaaKuo4fxFtxTdhYypvdV9L3XP9wwvgoBX91Q5P5vFFanl1v0pLBCHyldZRaij6n5WEKcPuXIrMGKNmVLRk5Q4hS6KbOKpPE7Nnsbl7HvLiUytJlm4pdqKWo7VqgZGMUAko1mTlDqkYKP7tKjuQqhrWdcWMZWG9bJbwltcbeKl5aQRpcELkdaaTMagVDPLhD5vTCgyhX9bLJcLJXu0Fm1y5FX46NuQ38Pm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 96649,
+      "createdOn": "2025-12-27T22:16:59.000Z",
+      "comments": [
+        {
+          "text": "uNAScjHEF4lG0kCEgVT4AAJoChCaxZGjk2iHXRwl69wh5GWkLQOyzkaQsGcwqjmhoTDtG2firbO",
+          "createdOn": "2025-12-27T22:16:59.000Z",
+          "_id": "69505adb1c508c5d5e37257c"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505ad61c508c5d5e37229b",
+          "products": [
+            {
+              "_id": "69505ad81c508c5d5e372484",
+              "name": "Shoes58846",
+              "amount": 781,
+              "price": 5238,
+              "manufacturer": "Xiaomi",
+              "notes": "cRCJPy5cDuzPC0RYTZbCpUXtDxY57V1mK2No1zOG2eZP2vSlYh2no2P8UWjBElQUNSxUzlV95FZzp2qXy9l2CDFvURNBfNWlwnL3BHZFT34qFsh0n9Yjl4NuUpkjsISe8JnXHXFPpgOGO6rJuabAct4MKZ6RqwLifNihtJE0KUMxrQo0XKZjZm2puLK5t82Sks6Diq4vQgb8gCARsxUNYILSiSVKTuXLF6rJhyPyipHA06h3eia7QWCW5F",
+              "received": false
+            },
+            {
+              "_id": "69505adb1c508c5d5e372563",
+              "name": "Towels75804",
+              "amount": 89,
+              "price": 91411,
+              "manufacturer": "Tesla",
+              "notes": "pS0qNePJgKrt9wd1GANLYMAslaaKuo4fxFtxTdhYypvdV9L3XP9wwvgoBX91Q5P5vFFanl1v0pLBCHyldZRaij6n5WEKcPuXIrMGKNmVLRk5Q4hS6KbOKpPE7Nnsbl7HvLiUytJlm4pdqKWo7VqgZGMUAko1mTlDqkYKP7tKjuQqhrWdcWMZWG9bJbwltcbeKl5aQRpcELkdaaTMagVDPLhD5vTCgyhX9bLJcLJXu0Fm1y5FX46NuQ38Pm",
+              "received": false
+            }
+          ],
+          "total_price": 96649,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:16:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
