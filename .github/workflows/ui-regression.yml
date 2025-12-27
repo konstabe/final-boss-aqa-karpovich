@@ -1,11 +1,8 @@
-name: Run Sales Portal Customers API tests
+name: Run Sales Portal Regression UI tests
 
 on:
-    push:
-        branches:
-            - main
-        paths:
-            - "src/tests/api/customers/**"
+    schedule:
+        - cron: "0 23 * * *"
     workflow_dispatch: # Manually trigger the workflow
 
 jobs:
@@ -58,20 +55,24 @@ jobs:
         container:
             image: mcr.microsoft.com/playwright:v1.57.0-noble
         steps:
+            # Checkout
             - uses: actions/checkout@v4
 
+            # Install OpenJDK
             - name: Install OpenJDK
               run: |
                   apt-get update
                   apt-get install -y openjdk-17-jre
                   echo "JAVA_HOME=$(dirname $(dirname $(readlink -f $(which java))))" >> $GITHUB_ENV
 
+            # Install dependencies
             - name: Install dependencies
               run: npm ci
 
             - name: Install Playwright Browsers
               run: npx playwright install --with-deps
 
+            # Run tests
             - name: Run tests
               env:
                   SALES_PORTAL_API_URL: ${{ secrets.SALES_PORTAL_API_URL }}
@@ -79,7 +80,7 @@ jobs:
                   USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
                   TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
                   TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-              run: npm run test:api-customers
+              run: npm run test:ui
               continue-on-error: true
 
             - name: Download allure history
