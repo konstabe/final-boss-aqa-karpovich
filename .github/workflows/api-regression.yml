@@ -1,4 +1,4 @@
-name: Run Sales Portal API tests
+name: Run Sales Portal Regression API tests
 
 on:
     schedule:
@@ -6,6 +6,49 @@ on:
     workflow_dispatch: # Manually trigger the workflow
 
 jobs:
+    download-history:
+        runs-on: ubuntu-latest
+        name: Download history
+        steps:
+            - name: Setup Python
+              uses: actions/setup-python@v4
+              with:
+                  python-version: "3.10"
+
+            - name: Download allure-results artifact
+              run: |
+                  ARTIFACT_ID=$(curl -s \
+                    -H "Accept: application/vnd.github+json" \
+                    -H "Authorization: Bearer ${{ secrets.TOKEN }}" \
+                    https://api.github.com/repos/maratgefter/final-boss-aqa-karpovich/actions/artifacts \
+                    | python -c "import sys, json; data=json.load(sys.stdin); print([a['id'] for a in data['artifacts'] if a['name']=='regression-report'][0])")
+                  curl -L \
+                    -H "Authorization: Bearer ${{ secrets.TOKEN }}" \
+                    https://api.github.com/repos/maratgefter/final-boss-aqa-karpovich/actions/artifacts/$ARTIFACT_ID/zip \
+                    -o artifacts.zip
+                  mkdir allure-results && unzip artifacts.zip -d allure-results
+
+            - name: Download github-pages artifact
+              run: |
+                  REPORT_ID=$(curl -s \
+                    -H "Accept: application/vnd.github+json" \
+                    -H "Authorization: Bearer ${{ secrets.TOKEN }}" \
+                    https://api.github.com/repos/maratgefter/final-boss-aqa-karpovich/actions/artifacts \
+                    | python -c "import sys, json; data=json.load(sys.stdin); print([a['id'] for a in data['artifacts'] if a['name']=='github-pages'][0])")
+                  curl -L \
+                    -H "Authorization: Bearer ${{ secrets.TOKEN }}" \
+                    https://api.github.com/repos/maratgefter/final-boss-aqa-karpovich/actions/artifacts/$REPORT_ID/zip \
+                    -o pages.zip
+                  mkdir old_pages pages_history && unzip pages.zip -d old_pages && tar -xvf old_pages/artifact.tar -C pages_history
+                  cp -r pages_history/history allure-results || true
+
+            - name: Store allure history
+              uses: actions/upload-artifact@v4
+              with:
+                  name: allure-results
+                  path: allure-results
+                  retention-days: 10
+
     test:
         timeout-minutes: 60
         runs-on: ubuntu-latest
@@ -40,9 +83,17 @@ jobs:
               run: npm run test:api
               continue-on-error: true
 
-            # Create Allure report
+            - name: Download allure history
+              uses: actions/download-artifact@v4
+              with:
+                  name: allure-results
+                  path: ./allure-results
+
             - name: Create Allure report
               run: npm run allure-report
+
+            - name: Copy history into report
+              run: cp -r allure-results/history allure-report/history || true
 
             - name: Save Allure report
               uses: actions/upload-artifact@v4
@@ -50,10 +101,9 @@ jobs:
                   name: regression-report
                   path: ./allure-report
 
-            # Deploy to GitHub Pages
             - name: Deploy to GitHub Pages
               if: success()
-              uses: peaceiris/actions-gh-pages@v3
+              uses: peaceiris/actions-gh-pages@v4
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
                   publish_dir: ./allure-report
