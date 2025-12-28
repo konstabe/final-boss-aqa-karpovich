@@ -1,0 +1,303 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:30:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8624",
+    "etag": "W/\"21b0-UAtJjXS/thf6SzJhl9m9DMPOqe0\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951854e1c508c5d5e3deaf0",
+      "status": "Received",
+      "customer": {
+        "_id": "695185471c508c5d5e3de8d5",
+        "email": "Brice.Hudson@hotmail.com",
+        "name": "Kelsie Crooks",
+        "country": "Ukraine",
+        "city": "West Daren",
+        "street": "Somerset Road",
+        "house": 45,
+        "flat": 560,
+        "phone": "+17039160701",
+        "createdOn": "2025-12-28T19:30:15.000Z",
+        "notes": "Ou60oiOezXHraSEORQ0ROWfbsFupTnm3a3cc0GLSpOlZM6iwpXN10Mvw4Kkvn8tBuBCmbPtA58pHeFce2OhditfRxkQn0myW5tJMdjvg8DV7vv9QnXznetAWpCP4uqLRUJtYLmOqzQZT4YQt8k7JP7nDW6umOo8KOwvPc2WL8C1cTBLgsRr0cvImpE22FjIQcxhjvu0yMdEFdtAU9CIrDmyLKDQjW8Qij6QM9UMEiFt8zBILEOuxyaotz9"
+      },
+      "products": [
+        {
+          "_id": "6951854a1c508c5d5e3de9d8",
+          "name": "Car67882",
+          "amount": 75,
+          "price": 69325,
+          "manufacturer": "Amazon",
+          "notes": "e6gxSihAByekJA4WxfrPdQHnaAiermQqRGhxh4ukuQmQyzjKf1BLGWEp9WaJn0kgHRTIr0yAdNYuDh37qtQGZDeY2m0g6bJrU7Fc6D4l3JZ6kKl0kqy9RJzUSpbxwx6pvBxUjxCCbbp2z1nA5KEAevhKX9M5QhrAeCp5yupG8ViwD6jQsqcFVKLfMS4wVxOAWK9Xk8GFgpDWOTMWaKzTgcoyb0OyDSwm2RVlAndhUP6TeFuUvl2IWatRBf",
+          "received": true
+        },
+        {
+          "_id": "6951854b1c508c5d5e3dea06",
+          "name": "Pizza80954",
+          "amount": 324,
+          "price": 22481,
+          "manufacturer": "Xiaomi",
+          "notes": "bnVyqWDUPwQsvtWMaHqWLFY6GqndWu2sqSC53ZOFxdcialwXFWH2GtSVOyUSPgMTtmZqQblIArRr4Mp4HO3yiGBtFibz3HsqF5AXpb8liSixZMEqipSggeCxmyXDfEtn5t5P5PAH01Skl0OtfoSLzAokFw4gr8FBvr6sI0GuEVc3KQo5mVY4q55reK0A8qdcmyMudEVDg4mHWpNYsiHcod1ZwcXGjkixeNJFROIZbMzVmEjl46WMb8mQe3",
+          "received": true
+        },
+        {
+          "_id": "6951854d1c508c5d5e3deabb",
+          "name": "Shirt85029",
+          "amount": 878,
+          "price": 21357,
+          "manufacturer": "Xiaomi",
+          "notes": "dd8AcxgcFTnX3axLO9stm05wuVLFgdE3GsBvcOPiDiRZzC5CtMXdya7Z7lzRFfC8IosBbx2SE54XCFCz87wG4ZFjVNtdyuM9LcM2RGH0jXBvpbsWWBNW75PcziRwSjFysNZE82MPWzsVdpMAlVfXzRvnlOzBZAadKoETf3oW4kflGEne4ZWtkZ8on3dmmjLSjo1u4SyOuPmUw5CA6LjVbzbYbZozhtx9E96VNfmqmxEUienDxcKcTSSbQb",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "West Daren",
+          "street": "Somerset Road",
+          "house": 45,
+          "flat": 560
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 113163,
+      "createdOn": "2025-12-28T19:30:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695185471c508c5d5e3de8d5",
+          "products": [
+            {
+              "_id": "6951854a1c508c5d5e3de9d8",
+              "name": "Car67882",
+              "amount": 75,
+              "price": 69325,
+              "manufacturer": "Amazon",
+              "notes": "e6gxSihAByekJA4WxfrPdQHnaAiermQqRGhxh4ukuQmQyzjKf1BLGWEp9WaJn0kgHRTIr0yAdNYuDh37qtQGZDeY2m0g6bJrU7Fc6D4l3JZ6kKl0kqy9RJzUSpbxwx6pvBxUjxCCbbp2z1nA5KEAevhKX9M5QhrAeCp5yupG8ViwD6jQsqcFVKLfMS4wVxOAWK9Xk8GFgpDWOTMWaKzTgcoyb0OyDSwm2RVlAndhUP6TeFuUvl2IWatRBf",
+              "received": true
+            },
+            {
+              "_id": "6951854b1c508c5d5e3dea06",
+              "name": "Pizza80954",
+              "amount": 324,
+              "price": 22481,
+              "manufacturer": "Xiaomi",
+              "notes": "bnVyqWDUPwQsvtWMaHqWLFY6GqndWu2sqSC53ZOFxdcialwXFWH2GtSVOyUSPgMTtmZqQblIArRr4Mp4HO3yiGBtFibz3HsqF5AXpb8liSixZMEqipSggeCxmyXDfEtn5t5P5PAH01Skl0OtfoSLzAokFw4gr8FBvr6sI0GuEVc3KQo5mVY4q55reK0A8qdcmyMudEVDg4mHWpNYsiHcod1ZwcXGjkixeNJFROIZbMzVmEjl46WMb8mQe3",
+              "received": true
+            },
+            {
+              "_id": "6951854d1c508c5d5e3deabb",
+              "name": "Shirt85029",
+              "amount": 878,
+              "price": 21357,
+              "manufacturer": "Xiaomi",
+              "notes": "dd8AcxgcFTnX3axLO9stm05wuVLFgdE3GsBvcOPiDiRZzC5CtMXdya7Z7lzRFfC8IosBbx2SE54XCFCz87wG4ZFjVNtdyuM9LcM2RGH0jXBvpbsWWBNW75PcziRwSjFysNZE82MPWzsVdpMAlVfXzRvnlOzBZAadKoETf3oW4kflGEne4ZWtkZ8on3dmmjLSjo1u4SyOuPmUw5CA6LjVbzbYbZozhtx9E96VNfmqmxEUienDxcKcTSSbQb",
+              "received": true
+            }
+          ],
+          "total_price": 113163,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "West Daren",
+              "street": "Somerset Road",
+              "house": 45,
+              "flat": 560
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-28T19:30:27.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695185471c508c5d5e3de8d5",
+          "products": [
+            {
+              "_id": "6951854a1c508c5d5e3de9d8",
+              "name": "Car67882",
+              "amount": 75,
+              "price": 69325,
+              "manufacturer": "Amazon",
+              "notes": "e6gxSihAByekJA4WxfrPdQHnaAiermQqRGhxh4ukuQmQyzjKf1BLGWEp9WaJn0kgHRTIr0yAdNYuDh37qtQGZDeY2m0g6bJrU7Fc6D4l3JZ6kKl0kqy9RJzUSpbxwx6pvBxUjxCCbbp2z1nA5KEAevhKX9M5QhrAeCp5yupG8ViwD6jQsqcFVKLfMS4wVxOAWK9Xk8GFgpDWOTMWaKzTgcoyb0OyDSwm2RVlAndhUP6TeFuUvl2IWatRBf",
+              "received": false
+            },
+            {
+              "_id": "6951854b1c508c5d5e3dea06",
+              "name": "Pizza80954",
+              "amount": 324,
+              "price": 22481,
+              "manufacturer": "Xiaomi",
+              "notes": "bnVyqWDUPwQsvtWMaHqWLFY6GqndWu2sqSC53ZOFxdcialwXFWH2GtSVOyUSPgMTtmZqQblIArRr4Mp4HO3yiGBtFibz3HsqF5AXpb8liSixZMEqipSggeCxmyXDfEtn5t5P5PAH01Skl0OtfoSLzAokFw4gr8FBvr6sI0GuEVc3KQo5mVY4q55reK0A8qdcmyMudEVDg4mHWpNYsiHcod1ZwcXGjkixeNJFROIZbMzVmEjl46WMb8mQe3",
+              "received": false
+            },
+            {
+              "_id": "6951854d1c508c5d5e3deabb",
+              "name": "Shirt85029",
+              "amount": 878,
+              "price": 21357,
+              "manufacturer": "Xiaomi",
+              "notes": "dd8AcxgcFTnX3axLO9stm05wuVLFgdE3GsBvcOPiDiRZzC5CtMXdya7Z7lzRFfC8IosBbx2SE54XCFCz87wG4ZFjVNtdyuM9LcM2RGH0jXBvpbsWWBNW75PcziRwSjFysNZE82MPWzsVdpMAlVfXzRvnlOzBZAadKoETf3oW4kflGEne4ZWtkZ8on3dmmjLSjo1u4SyOuPmUw5CA6LjVbzbYbZozhtx9E96VNfmqmxEUienDxcKcTSSbQb",
+              "received": false
+            }
+          ],
+          "total_price": 113163,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "West Daren",
+              "street": "Somerset Road",
+              "house": 45,
+              "flat": 560
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-28T19:30:27.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695185471c508c5d5e3de8d5",
+          "products": [
+            {
+              "_id": "6951854a1c508c5d5e3de9d8",
+              "name": "Car67882",
+              "amount": 75,
+              "price": 69325,
+              "manufacturer": "Amazon",
+              "notes": "e6gxSihAByekJA4WxfrPdQHnaAiermQqRGhxh4ukuQmQyzjKf1BLGWEp9WaJn0kgHRTIr0yAdNYuDh37qtQGZDeY2m0g6bJrU7Fc6D4l3JZ6kKl0kqy9RJzUSpbxwx6pvBxUjxCCbbp2z1nA5KEAevhKX9M5QhrAeCp5yupG8ViwD6jQsqcFVKLfMS4wVxOAWK9Xk8GFgpDWOTMWaKzTgcoyb0OyDSwm2RVlAndhUP6TeFuUvl2IWatRBf",
+              "received": false
+            },
+            {
+              "_id": "6951854b1c508c5d5e3dea06",
+              "name": "Pizza80954",
+              "amount": 324,
+              "price": 22481,
+              "manufacturer": "Xiaomi",
+              "notes": "bnVyqWDUPwQsvtWMaHqWLFY6GqndWu2sqSC53ZOFxdcialwXFWH2GtSVOyUSPgMTtmZqQblIArRr4Mp4HO3yiGBtFibz3HsqF5AXpb8liSixZMEqipSggeCxmyXDfEtn5t5P5PAH01Skl0OtfoSLzAokFw4gr8FBvr6sI0GuEVc3KQo5mVY4q55reK0A8qdcmyMudEVDg4mHWpNYsiHcod1ZwcXGjkixeNJFROIZbMzVmEjl46WMb8mQe3",
+              "received": false
+            },
+            {
+              "_id": "6951854d1c508c5d5e3deabb",
+              "name": "Shirt85029",
+              "amount": 878,
+              "price": 21357,
+              "manufacturer": "Xiaomi",
+              "notes": "dd8AcxgcFTnX3axLO9stm05wuVLFgdE3GsBvcOPiDiRZzC5CtMXdya7Z7lzRFfC8IosBbx2SE54XCFCz87wG4ZFjVNtdyuM9LcM2RGH0jXBvpbsWWBNW75PcziRwSjFysNZE82MPWzsVdpMAlVfXzRvnlOzBZAadKoETf3oW4kflGEne4ZWtkZ8on3dmmjLSjo1u4SyOuPmUw5CA6LjVbzbYbZozhtx9E96VNfmqmxEUienDxcKcTSSbQb",
+              "received": false
+            }
+          ],
+          "total_price": 113163,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "West Daren",
+              "street": "Somerset Road",
+              "house": 45,
+              "flat": 560
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-28T19:30:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695185471c508c5d5e3de8d5",
+          "products": [
+            {
+              "_id": "6951854a1c508c5d5e3de9d8",
+              "name": "Car67882",
+              "amount": 75,
+              "price": 69325,
+              "manufacturer": "Amazon",
+              "notes": "e6gxSihAByekJA4WxfrPdQHnaAiermQqRGhxh4ukuQmQyzjKf1BLGWEp9WaJn0kgHRTIr0yAdNYuDh37qtQGZDeY2m0g6bJrU7Fc6D4l3JZ6kKl0kqy9RJzUSpbxwx6pvBxUjxCCbbp2z1nA5KEAevhKX9M5QhrAeCp5yupG8ViwD6jQsqcFVKLfMS4wVxOAWK9Xk8GFgpDWOTMWaKzTgcoyb0OyDSwm2RVlAndhUP6TeFuUvl2IWatRBf",
+              "received": false
+            },
+            {
+              "_id": "6951854b1c508c5d5e3dea06",
+              "name": "Pizza80954",
+              "amount": 324,
+              "price": 22481,
+              "manufacturer": "Xiaomi",
+              "notes": "bnVyqWDUPwQsvtWMaHqWLFY6GqndWu2sqSC53ZOFxdcialwXFWH2GtSVOyUSPgMTtmZqQblIArRr4Mp4HO3yiGBtFibz3HsqF5AXpb8liSixZMEqipSggeCxmyXDfEtn5t5P5PAH01Skl0OtfoSLzAokFw4gr8FBvr6sI0GuEVc3KQo5mVY4q55reK0A8qdcmyMudEVDg4mHWpNYsiHcod1ZwcXGjkixeNJFROIZbMzVmEjl46WMb8mQe3",
+              "received": false
+            },
+            {
+              "_id": "6951854d1c508c5d5e3deabb",
+              "name": "Shirt85029",
+              "amount": 878,
+              "price": 21357,
+              "manufacturer": "Xiaomi",
+              "notes": "dd8AcxgcFTnX3axLO9stm05wuVLFgdE3GsBvcOPiDiRZzC5CtMXdya7Z7lzRFfC8IosBbx2SE54XCFCz87wG4ZFjVNtdyuM9LcM2RGH0jXBvpbsWWBNW75PcziRwSjFysNZE82MPWzsVdpMAlVfXzRvnlOzBZAadKoETf3oW4kflGEne4ZWtkZ8on3dmmjLSjo1u4SyOuPmUw5CA6LjVbzbYbZozhtx9E96VNfmqmxEUienDxcKcTSSbQb",
+              "received": false
+            }
+          ],
+          "total_price": 113163,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:30:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
