@@ -103,7 +103,6 @@ test.describe("[API] [Sales Portal] [Orders] [Comments] [Add Comment]", () => {
 					addCommentNegativeCase.testData.comment,
 					token,
 				);
-				console.log(addedComment);
 				validateResponse(addedComment, {
 					status: addCommentNegativeCase.testData.responseCode,
 					IsSuccess: false,
