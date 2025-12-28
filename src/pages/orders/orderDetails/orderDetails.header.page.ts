@@ -8,7 +8,7 @@ export class OrderDetailsHeaderPage extends SalesPortalPage {
 	readonly detailsHeader = this.page.locator("#order-details-header");
 	readonly uniqueElement = this.detailsHeader;
 
-	readonly backLink = this.page.locator("a", { hasText: "Orders" });
+	readonly backLink = this.page.locator("[class='back-link']");
 	readonly orderNumber = this.detailsHeader.locator("span.strong-details + span.fst-italic");
 	readonly orderStatusBlocks = this.page.locator("#order-status-bar-container .me-2");
 
@@ -49,8 +49,8 @@ export class OrderDetailsHeaderPage extends SalesPortalPage {
 	}
 
 	@logStep("Refresh order")
-	async refreshOrder() {
-		return this.interceptResponse("/api/orders/", () => this.refreshOrderButton.click());
+	async refreshOrder(id: string) {
+		return this.interceptResponse(`/api/orders/${id}`, () => this.refreshOrderButton.click());
 	}
 
 	@logStep("Click assign manager")

@@ -21,10 +21,23 @@ export abstract class BasePage {
 			this.page.waitForResponse((response) => response.url().includes(url)),
 			triggerAction(...args),
 		]);
+		const status = response.status();
+		const headers = response.headers();
+		let body: U = null as U;
+		const isRedirect = status >= 300 && status < 400;
+		const hasBody = status !== 204 && status !== 304 && !isRedirect;
+		const contentType = headers["content-type"] ?? "";
+		if (hasBody && contentType.includes("application/json")) {
+			try {
+				body = (await response.json()) as U;
+			} catch {
+				body = null as U;
+			}
+		}
 		return {
-			status: response.status(),
-			headers: response.headers(),
-			body: (await response.json()) as U,
+			status,
+			headers,
+			body,
 		};
 	}
 
