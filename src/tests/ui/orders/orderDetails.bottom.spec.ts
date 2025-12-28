@@ -62,6 +62,24 @@ test.describe("[UI] [Orders] [Details] [Bottom]", () => {
 	);
 
 	test(
+		"Should open Edit Delivery modal",
+		{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
+		async ({ orderDetailsBottomPage, editDeliveryModal }) => {
+			await orderDetailsBottomPage.changeBottomTab("delivery-tab");
+			await orderDetailsBottomPage.openScheduleDeliveryModal();
+
+			await expect(editDeliveryModal.uniqueElement).toBeVisible();
+			await expect(editDeliveryModal.typeSelect).toBeVisible();
+			await expect(editDeliveryModal.locationSelect).toBeVisible();
+			await expect(editDeliveryModal.saveDeliveryButton).toBeVisible();
+			await expect(editDeliveryModal.backToOrderDetailsButton).toBeVisible();
+
+			await editDeliveryModal.backToOrderDetails();
+			await editDeliveryModal.waitForClosed();
+		},
+	);
+
+	test(
 		"Should show history data",
 		{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
 		async ({ orderDetailsBottomPage }) => {

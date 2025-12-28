@@ -16,7 +16,7 @@ export class OrderDetailsHeaderPage extends SalesPortalPage {
 	readonly reopenOrderButton = this.page.locator("#reopen-order");
 	readonly refreshOrderButton = this.page.locator("#refresh-order");
 	readonly assignManagerContainer = this.page.locator("#assigned-manager-container");
-	readonly unassignManagerButton = this.page.locator("#assigned-manager-link");
+	readonly unassignManagerButton = this.page.locator("[onclick*='renderRemoveAssignedManagerModal']");
 	readonly editAssignedManagerButton = this.page.locator("[onclick*='renderAssigneManagerModal']");
 
 	@logStep("Get order number")

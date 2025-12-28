@@ -15,6 +15,9 @@ import { OrderDetailsHeaderPage } from "pages/orders/orderDetails/orderDetails.h
 import { OrderDetailsBottomPage } from "pages/orders/orderDetails/orderDetails.bottom.page";
 import { OrderDetailsCustomerPage } from "pages/orders/orderDetails/orderDetails.customer.page";
 import { OrderDetailsProductPage } from "pages/orders/orderDetails/orderDetails.product.page";
+import { AssignedManagerModal } from "pages/assignManager.modal";
+import { ConfirmationModal } from "pages/confirmation.modal";
+import { EditDeliveryModal } from "pages/editDelivery";
 // import { AddNewCustomerPage } from "pages/customers/addNewCustomer.page";
 // import { CustomersListPage } from "pages/customers/customersList.page";
 // import { AddNewProductPage } from "pages/products/addNewProduct.page";
@@ -41,6 +44,9 @@ export interface IPages {
 	orderDetailsBottomPage: OrderDetailsBottomPage;
 	orderDetailsCustomerPage: OrderDetailsCustomerPage;
 	orderDetailsProductPage: OrderDetailsProductPage;
+	assignedManagerModal: AssignedManagerModal;
+	confirmationModal: ConfirmationModal;
+	editDeliveryModal: EditDeliveryModal;
 
 	addNewOrderPage: CreateOrderModal;
 
@@ -100,6 +106,15 @@ export const test = base.extend<IPages>({
 	},
 	orderDetailsProductPage: async ({ page }, use) => {
 		await use(new OrderDetailsProductPage(page));
+	},
+	assignedManagerModal: async ({ page }, use) => {
+		await use(new AssignedManagerModal(page));
+	},
+	confirmationModal: async ({ page }, use) => {
+		await use(new ConfirmationModal(page));
+	},
+	editDeliveryModal: async ({ page }, use) => {
+		await use(new EditDeliveryModal(page));
 	},
 
 	addNewOrderPage: async ({ page }, use) => {

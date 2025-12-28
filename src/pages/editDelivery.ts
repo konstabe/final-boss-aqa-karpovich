@@ -1,7 +1,7 @@
 import { IAddressDelivery } from "data/types/order.types";
 import { BaseModal } from "./base/base.modal";
 
-export class EditCustomerModal extends BaseModal {
+export class EditDeliveryModal extends BaseModal {
 	readonly container = this.page.locator("#delivery-container");
 	readonly uniqueElement = this.container;
 
