@@ -22,14 +22,14 @@ export class OrdersDetailsUIService {
 		await this.orderDetailsHeaderPage.processOrderModal.waitForOpened();
 	}
 
-	@logStep("Close Modal")
+	@logStep("Close modal by clicking on Close button")
 	async closeModal(modalName: ModalsOnOrderDetails) {
 		const modal = this.orderDetailsHeaderPage[modalName];
 		await modal.clickClose();
 		await modal.waitForClosed();
 	}
 
-	@logStep("Cancel Modal")
+	@logStep("Close modal by clicking on Cancel button")
 	async cancelModal(modalName: ModalsOnOrderDetails) {
 		const modal = this.orderDetailsHeaderPage[modalName];
 		await modal.clickCancel();

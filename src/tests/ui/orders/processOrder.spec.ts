@@ -1,4 +1,5 @@
 import { apiConfig } from "config/apiConfig";
+import { generateOrderDetailsMockWithDelivery } from "data/orders/generateOrderDetailsMock";
 import { CONFIRMATION_MODAL_TEXT } from "data/orders/modalText";
 import { ORDER_STATUS } from "data/orders/orderStatus";
 import { TAGS } from "data/tags";
@@ -20,10 +21,11 @@ test.describe("[UI] [Orders]", () => {
 		test(
 			"Check UI components on Process Order Modal",
 			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
-			async ({ orderDetailsHeaderPage, ordersDetailsUIService, ordersApiService }) => {
-				const order = await ordersApiService.createDraftWithDelivery(token, 1);
+			async ({ orderDetailsHeaderPage, ordersDetailsUIService, mock }) => {
+				const order = generateOrderDetailsMockWithDelivery(ORDER_STATUS.DRAFT, false);
+				await mock.orderDetailsPage(order);
 
-				await ordersDetailsUIService.open(order._id);
+				await ordersDetailsUIService.open(order.Order._id);
 				await ordersDetailsUIService.openProcessOrderModal();
 
 				expect(orderDetailsHeaderPage.processOrderModal.title).toHaveText(
