@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:41:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2806",
+    "etag": "W/\"af6-L3mppo516AlJQ0P4LCQADOSxNzU\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695187ff1c508c5d5e3e4803",
+      "status": "Draft",
+      "customer": {
+        "_id": "695187fb1c508c5d5e3e4736",
+        "email": "Dorian18@yahoo.com",
+        "name": "Eleanora Hane",
+        "country": "Ukraine",
+        "city": "Fort Ericka",
+        "street": "Keeling Views",
+        "house": 46,
+        "flat": 515,
+        "phone": "+13398288773",
+        "createdOn": "2025-12-28T19:41:47.000Z",
+        "notes": "BMNHJYZbo3ROE77OGPxpOkhx8fQ1vBndevogEhsJWla8dVCUbHLRWke7MAwVmMr5RX6GUdv7lY0M8w45WyHErbHBO5rQlbRMrCnY9oLWPwX29wvoLlKCpnlaHWQYrYtQ2rbh5u5Ju9blBFHEfXsiR4AmfYOMP5CQVMfItrHu6tnhwVbMhMJ0jYSiUo8eRgvU82p0hKrs8IPRKAyj4ORMf5XJAsZrpcdyIzfPymzDfPzdQwA1LUxtPX3xCd"
+      },
+      "products": [
+        {
+          "_id": "695187fd1c508c5d5e3e47b5",
+          "name": "Shoes97611",
+          "amount": 441,
+          "price": 90853,
+          "manufacturer": "Samsung",
+          "notes": "iHYpu1UEHpQL3rqWl89UBMqqawwyisWKAIt8TrI4RT5PEC54km4irD5qunx8Snmj4q1gNNYIAasDrJ2NWl28QSDA204CHL4LPriVujmK3JmZwZuaDv6VBT6OIJZJhsO3oEEVGYTaQsTUozsVJYzpc7OvCHM84iyat9VslkIeiUOaNedLe37ii1ipRc01liJ7PNOkaHOxXw9Pnz47LfeTbRlR0CDLb59vie1vyTKBHdmyuBYqIniLnB8YI1",
+          "received": false
+        },
+        {
+          "_id": "695187fe1c508c5d5e3e47e6",
+          "name": "Car98501",
+          "amount": 857,
+          "price": 83281,
+          "manufacturer": "Google",
+          "notes": "mS7EbZBDF5ezPz1VcFql6NJfCckkjSwcEi5OfYTPmRU4mfDbQfx656ecidEp5Odfiut2Ol5YnKMt67i7DuTGuzCrOixt4zy7HcgsRqTF3fQuWUVsofLQ5A4fvDsRdabMxdyCzFYjArPiAIMLPb8Oc86g9Pv1dC0HC8z0pxLw5lUidSsmNefDTn7DPKNRBvrfvOcTJFZaG7wKI59w8KrnGeIPuVhwjus4si85xjcJLgWsQPAAWjnNnXgn4D",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 174134,
+      "createdOn": "2025-12-28T19:41:51.000Z",
+      "comments": [
+        {
+          "text": "Mhszohvj1m1tuctthwvz6IVeUnbxtSimJ1H3LoMFl7ykkVJGf32C7FB4IZ2Q2tAujEjXTh9W9es",
+          "createdOn": "2025-12-28T19:41:53.000Z",
+          "_id": "695188011c508c5d5e3e4987"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695187fb1c508c5d5e3e4736",
+          "products": [
+            {
+              "_id": "695187fd1c508c5d5e3e47b5",
+              "name": "Shoes97611",
+              "amount": 441,
+              "price": 90853,
+              "manufacturer": "Samsung",
+              "notes": "iHYpu1UEHpQL3rqWl89UBMqqawwyisWKAIt8TrI4RT5PEC54km4irD5qunx8Snmj4q1gNNYIAasDrJ2NWl28QSDA204CHL4LPriVujmK3JmZwZuaDv6VBT6OIJZJhsO3oEEVGYTaQsTUozsVJYzpc7OvCHM84iyat9VslkIeiUOaNedLe37ii1ipRc01liJ7PNOkaHOxXw9Pnz47LfeTbRlR0CDLb59vie1vyTKBHdmyuBYqIniLnB8YI1",
+              "received": false
+            },
+            {
+              "_id": "695187fe1c508c5d5e3e47e6",
+              "name": "Car98501",
+              "amount": 857,
+              "price": 83281,
+              "manufacturer": "Google",
+              "notes": "mS7EbZBDF5ezPz1VcFql6NJfCckkjSwcEi5OfYTPmRU4mfDbQfx656ecidEp5Odfiut2Ol5YnKMt67i7DuTGuzCrOixt4zy7HcgsRqTF3fQuWUVsofLQ5A4fvDsRdabMxdyCzFYjArPiAIMLPb8Oc86g9Pv1dC0HC8z0pxLw5lUidSsmNefDTn7DPKNRBvrfvOcTJFZaG7wKI59w8KrnGeIPuVhwjus4si85xjcJLgWsQPAAWjnNnXgn4D",
+              "received": false
+            }
+          ],
+          "total_price": 174134,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:41:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

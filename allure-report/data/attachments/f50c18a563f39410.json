@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:41:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3902",
+    "etag": "W/\"f3e-O8WT+w/ECRAZfW61yM9EbpGe6Po\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695187fe1c508c5d5e3e47e3",
+      "status": "In Process",
+      "customer": {
+        "_id": "695187fc1c508c5d5e3e47ab",
+        "email": "Raoul.Smitham22@hotmail.com",
+        "name": "Salma Kuhlman",
+        "country": "France",
+        "city": "Wolfhaven",
+        "street": "Macejkovic Circles",
+        "house": 42,
+        "flat": 648,
+        "phone": "+14652975575",
+        "createdOn": "2025-12-28T19:41:48.000Z",
+        "notes": "1d5lsRrGbbc4BBSuPvPXmX5tj3ODCJggy7Dzu9pN2zHEaN790pKA852UcoNpxD8ZegUbyQkB5Nwz6u61sv6dm83AUDeDgpoCWQea1A4VxY4CnUVhZg0LjSFXuKf8XdG5ESFDa1TJoE3c71ZG5jRhToxc8YHbr0kd1Cdj0vwh24IH8qSABoML4i8TfmeKtsdZpekEoxopOevfHAxU8U4EjIuJIMHH8OTEGy89TuhoiUeWhMhpEo30ZABrkv"
+      },
+      "products": [
+        {
+          "_id": "695187fe1c508c5d5e3e47db",
+          "name": "Keyboard39199",
+          "amount": 34,
+          "price": 66889,
+          "manufacturer": "Tesla",
+          "notes": "SrUukV9dStIupN3xci3GHWoAuWt0pEwtNQ5CLR9IfA9GtkzNmk7o1irXV6NGC0Sn7Zjep1MI4XVyv3fNzvSdUCt9WzW9pBMrN3Hu74KDSgWIEcO5C41UBdsZleVuragH0oPw9q2l7gF6V9xvXDfdOjfVNbLskEg5TI3v6q8TglVvexl7KT97pJt2Y3YhzKLaX7GmUWyPf6T7NgPoOutIyLzoq6zKTmhnkWufUwFarkHApjOAvGtJh1WVbw",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Wolfhaven",
+          "street": "Macejkovic Circles",
+          "house": 42,
+          "flat": 648
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 66889,
+      "createdOn": "2025-12-28T19:41:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695187fc1c508c5d5e3e47ab",
+          "products": [
+            {
+              "_id": "695187fe1c508c5d5e3e47db",
+              "name": "Keyboard39199",
+              "amount": 34,
+              "price": 66889,
+              "manufacturer": "Tesla",
+              "notes": "SrUukV9dStIupN3xci3GHWoAuWt0pEwtNQ5CLR9IfA9GtkzNmk7o1irXV6NGC0Sn7Zjep1MI4XVyv3fNzvSdUCt9WzW9pBMrN3Hu74KDSgWIEcO5C41UBdsZleVuragH0oPw9q2l7gF6V9xvXDfdOjfVNbLskEg5TI3v6q8TglVvexl7KT97pJt2Y3YhzKLaX7GmUWyPf6T7NgPoOutIyLzoq6zKTmhnkWufUwFarkHApjOAvGtJh1WVbw",
+              "received": false
+            }
+          ],
+          "total_price": 66889,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Wolfhaven",
+              "street": "Macejkovic Circles",
+              "house": 42,
+              "flat": 648
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-28T19:41:53.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695187fc1c508c5d5e3e47ab",
+          "products": [
+            {
+              "_id": "695187fe1c508c5d5e3e47db",
+              "name": "Keyboard39199",
+              "amount": 34,
+              "price": 66889,
+              "manufacturer": "Tesla",
+              "notes": "SrUukV9dStIupN3xci3GHWoAuWt0pEwtNQ5CLR9IfA9GtkzNmk7o1irXV6NGC0Sn7Zjep1MI4XVyv3fNzvSdUCt9WzW9pBMrN3Hu74KDSgWIEcO5C41UBdsZleVuragH0oPw9q2l7gF6V9xvXDfdOjfVNbLskEg5TI3v6q8TglVvexl7KT97pJt2Y3YhzKLaX7GmUWyPf6T7NgPoOutIyLzoq6zKTmhnkWufUwFarkHApjOAvGtJh1WVbw",
+              "received": false
+            }
+          ],
+          "total_price": 66889,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Wolfhaven",
+              "street": "Macejkovic Circles",
+              "house": 42,
+              "flat": 648
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-28T19:41:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695187fc1c508c5d5e3e47ab",
+          "products": [
+            {
+              "_id": "695187fe1c508c5d5e3e47db",
+              "name": "Keyboard39199",
+              "amount": 34,
+              "price": 66889,
+              "manufacturer": "Tesla",
+              "notes": "SrUukV9dStIupN3xci3GHWoAuWt0pEwtNQ5CLR9IfA9GtkzNmk7o1irXV6NGC0Sn7Zjep1MI4XVyv3fNzvSdUCt9WzW9pBMrN3Hu74KDSgWIEcO5C41UBdsZleVuragH0oPw9q2l7gF6V9xvXDfdOjfVNbLskEg5TI3v6q8TglVvexl7KT97pJt2Y3YhzKLaX7GmUWyPf6T7NgPoOutIyLzoq6zKTmhnkWufUwFarkHApjOAvGtJh1WVbw",
+              "received": false
+            }
+          ],
+          "total_price": 66889,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:41:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

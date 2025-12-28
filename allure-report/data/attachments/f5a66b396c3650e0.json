@@ -1,0 +1,187 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:42:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5267",
+    "etag": "W/\"1493-O+Tl3uLFBVvd5RIpgAG0+Yfv5zk\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695188061c508c5d5e3e4ae7",
+      "status": "Draft",
+      "customer": {
+        "_id": "695187ff1c508c5d5e3e48c4",
+        "email": "Eloy.Fadel@hotmail.com",
+        "name": "Vernice Pollich",
+        "country": "Belarus",
+        "city": "East Abigale",
+        "street": "University Drive",
+        "house": 23,
+        "flat": 181,
+        "phone": "+13729444462",
+        "createdOn": "2025-12-28T19:41:51.000Z",
+        "notes": "27DUFlDLcjZVNX3Y8ujXcfwjkafvce7kPlzE9Tbxk56FMebOML4Mnya2xUIgfc6mIC8AXaxAMEpM7IUcLV7nzG0I4QMXeS2g4I1rdWMNqCiZo3ZWclf4VDA91mkB1zQ16QgJoebC1Qo20EoLeoGWz1TfLFpM0uhAgcvOw6YeM0n8kOQuLShXUS2jfHxTsHWDwklVgPTehfBW9ahmnIloWZoPin5ngggYDYZwg4zskSx1AunuaNulQh44mE"
+      },
+      "products": [
+        {
+          "_id": "695188021c508c5d5e3e49ee",
+          "name": "Ball79781",
+          "amount": 936,
+          "price": 48816,
+          "manufacturer": "Xiaomi",
+          "notes": "D3E86EeMkHTaMmMbWy6aZ4kzUMs8pgII7Z5P02Sar0QtSQjoX33kfZ5k4UTs6l8WIGJRoWnAo84lRzK2iSRbAv7MxsMYDCdZtwL6T33w1yk4Ev1llpkV1IXaTvVkObjI2TXnSd8PguzS5gPLsLKIweH0tqtTVqkXKvR1lh3NcVDNfz0LsdsjOdqGgxpwAYddMVOYQ9wWwqcfyRy705SDLIHKbTjqHvImrchzOmf7vlK5A0gfId7OWZiS9e",
+          "received": false
+        },
+        {
+          "_id": "695188041c508c5d5e3e4a20",
+          "name": "Pants30081",
+          "amount": 530,
+          "price": 29144,
+          "manufacturer": "Apple",
+          "notes": "SPyL7ILmhSZEmNA1TGDxHcdkjIpIbBCbYFL9L4FMEUQzpgrs1t76VJhWUI0ldxLbv8jRgZfZSvFgRNt0Nx2Oyadvp0v1MdbZxH0eqZqn9cYIgDXfBYuIhE9sV4Lpe8YiifRbdyjaLv30YnjNJW1OKxUwOEuMkr5PkgT8s4iFAMQws6bIIsRT5G5FK0NqHKPh8nl80FefDJWM7REc4WSeY4KT0y6aUgSOhN835tLMfd8PPLT4kDtHO83Tdd",
+          "received": false
+        },
+        {
+          "_id": "695188061c508c5d5e3e4ad3",
+          "name": "Tuna28007",
+          "amount": 608,
+          "price": 38548,
+          "manufacturer": "Google",
+          "notes": "kA3Z52qZpHuDQqALn7ESBatXmY26dY32XP2p12Cq2huBKnYBMdCi7n91mW85hNracAqm0AYfL3pqeUKiIOfJ2zZCrCseW7l0dYgcsWVmWwcoRbLeC1h4M32k7XAMMs4rYe9Wn6RINiLHsErkBez5jj3wGGLba1uXv2uEYyEQLlaCCoZmhP0yo5U0vWrHBaMWJo0ywN9C1VCJhKpgNj3NJIKN4uVZrIQtz1qVmIlVW2r7Vgj32MBV0a3E0W",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "East Abigale",
+          "street": "University Drive",
+          "house": 23,
+          "flat": 181
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 116508,
+      "createdOn": "2025-12-28T19:41:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695187ff1c508c5d5e3e48c4",
+          "products": [
+            {
+              "_id": "695188021c508c5d5e3e49ee",
+              "name": "Ball79781",
+              "amount": 936,
+              "price": 48816,
+              "manufacturer": "Xiaomi",
+              "notes": "D3E86EeMkHTaMmMbWy6aZ4kzUMs8pgII7Z5P02Sar0QtSQjoX33kfZ5k4UTs6l8WIGJRoWnAo84lRzK2iSRbAv7MxsMYDCdZtwL6T33w1yk4Ev1llpkV1IXaTvVkObjI2TXnSd8PguzS5gPLsLKIweH0tqtTVqkXKvR1lh3NcVDNfz0LsdsjOdqGgxpwAYddMVOYQ9wWwqcfyRy705SDLIHKbTjqHvImrchzOmf7vlK5A0gfId7OWZiS9e",
+              "received": false
+            },
+            {
+              "_id": "695188041c508c5d5e3e4a20",
+              "name": "Pants30081",
+              "amount": 530,
+              "price": 29144,
+              "manufacturer": "Apple",
+              "notes": "SPyL7ILmhSZEmNA1TGDxHcdkjIpIbBCbYFL9L4FMEUQzpgrs1t76VJhWUI0ldxLbv8jRgZfZSvFgRNt0Nx2Oyadvp0v1MdbZxH0eqZqn9cYIgDXfBYuIhE9sV4Lpe8YiifRbdyjaLv30YnjNJW1OKxUwOEuMkr5PkgT8s4iFAMQws6bIIsRT5G5FK0NqHKPh8nl80FefDJWM7REc4WSeY4KT0y6aUgSOhN835tLMfd8PPLT4kDtHO83Tdd",
+              "received": false
+            },
+            {
+              "_id": "695188061c508c5d5e3e4ad3",
+              "name": "Tuna28007",
+              "amount": 608,
+              "price": 38548,
+              "manufacturer": "Google",
+              "notes": "kA3Z52qZpHuDQqALn7ESBatXmY26dY32XP2p12Cq2huBKnYBMdCi7n91mW85hNracAqm0AYfL3pqeUKiIOfJ2zZCrCseW7l0dYgcsWVmWwcoRbLeC1h4M32k7XAMMs4rYe9Wn6RINiLHsErkBez5jj3wGGLba1uXv2uEYyEQLlaCCoZmhP0yo5U0vWrHBaMWJo0ywN9C1VCJhKpgNj3NJIKN4uVZrIQtz1qVmIlVW2r7Vgj32MBV0a3E0W",
+              "received": false
+            }
+          ],
+          "total_price": 116508,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Abigale",
+              "street": "University Drive",
+              "house": 23,
+              "flat": 181
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-28T19:42:02.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695187ff1c508c5d5e3e48c4",
+          "products": [
+            {
+              "_id": "695188021c508c5d5e3e49ee",
+              "name": "Ball79781",
+              "amount": 936,
+              "price": 48816,
+              "manufacturer": "Xiaomi",
+              "notes": "D3E86EeMkHTaMmMbWy6aZ4kzUMs8pgII7Z5P02Sar0QtSQjoX33kfZ5k4UTs6l8WIGJRoWnAo84lRzK2iSRbAv7MxsMYDCdZtwL6T33w1yk4Ev1llpkV1IXaTvVkObjI2TXnSd8PguzS5gPLsLKIweH0tqtTVqkXKvR1lh3NcVDNfz0LsdsjOdqGgxpwAYddMVOYQ9wWwqcfyRy705SDLIHKbTjqHvImrchzOmf7vlK5A0gfId7OWZiS9e",
+              "received": false
+            },
+            {
+              "_id": "695188041c508c5d5e3e4a20",
+              "name": "Pants30081",
+              "amount": 530,
+              "price": 29144,
+              "manufacturer": "Apple",
+              "notes": "SPyL7ILmhSZEmNA1TGDxHcdkjIpIbBCbYFL9L4FMEUQzpgrs1t76VJhWUI0ldxLbv8jRgZfZSvFgRNt0Nx2Oyadvp0v1MdbZxH0eqZqn9cYIgDXfBYuIhE9sV4Lpe8YiifRbdyjaLv30YnjNJW1OKxUwOEuMkr5PkgT8s4iFAMQws6bIIsRT5G5FK0NqHKPh8nl80FefDJWM7REc4WSeY4KT0y6aUgSOhN835tLMfd8PPLT4kDtHO83Tdd",
+              "received": false
+            },
+            {
+              "_id": "695188061c508c5d5e3e4ad3",
+              "name": "Tuna28007",
+              "amount": 608,
+              "price": 38548,
+              "manufacturer": "Google",
+              "notes": "kA3Z52qZpHuDQqALn7ESBatXmY26dY32XP2p12Cq2huBKnYBMdCi7n91mW85hNracAqm0AYfL3pqeUKiIOfJ2zZCrCseW7l0dYgcsWVmWwcoRbLeC1h4M32k7XAMMs4rYe9Wn6RINiLHsErkBez5jj3wGGLba1uXv2uEYyEQLlaCCoZmhP0yo5U0vWrHBaMWJo0ywN9C1VCJhKpgNj3NJIKN4uVZrIQtz1qVmIlVW2r7Vgj32MBV0a3E0W",
+              "received": false
+            }
+          ],
+          "total_price": 116508,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:41:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

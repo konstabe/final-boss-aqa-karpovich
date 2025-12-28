@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:42:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2940",
+    "etag": "W/\"b7c-5Tfyskau55nM3n3q+8ZQWEFUCbM\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695188291c508c5d5e3e5e86",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951881f1c508c5d5e3e5706",
+        "email": "Lisandro49@hotmail.com",
+        "name": "Edgar Smith",
+        "country": "Germany",
+        "city": "Rileyburgh",
+        "street": "Stark Way",
+        "house": 13,
+        "flat": 370,
+        "phone": "+19648568315",
+        "createdOn": "2025-12-28T19:42:23.000Z",
+        "notes": "dJDDCJwyMzA3egLNuzGSILsawQIjY6REdYpGOO8lqP2vxcoTuao1kuq40pVfdTXzAg7c3zwVDbwksM37PG5Zn8ffgUB99WSKfKwTRL5C4821iAtS4bXk6d0T1FZx8MliEyq6xa6LxBw1vpNIIHPtAzB6AF51TcP41UvkD1dKXhY29fyqq0BDP2M1QeUHCFzY2ewlZHJS1PAHvU0aD93Oy92pOgGj5BqNIduFpkGPwbGBOS67OdJtwXKzmV"
+      },
+      "products": [
+        {
+          "_id": "695188241c508c5d5e3e5e66",
+          "name": "Bike4364",
+          "amount": 341,
+          "price": 25614,
+          "manufacturer": "Amazon",
+          "notes": "6BiPPHapgrTd1DqtYRj8avSA5SHdrckPrHnege9kD0bkw3Z6TYsz2pwcyrwI7MLmY2V1b6YIZnhhZlTgyQHjwlMi2WdrjyYBVSjtHdNZPFD4JmYbfHsJo1N8G64v0t8RH2DVBkW7gqBkWjNUrPPxoC8ZMZgyxrR7VczJ5196zPF3m6NTcni6IBTLopgM1BM3kEJu0kJpMH32RYlrKKf17bw1b0K5kbbVEHRI8WOf3bDNkghvkoDQSIoaGq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 25614,
+      "createdOn": "2025-12-28T19:42:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951881f1c508c5d5e3e5706",
+          "products": [
+            {
+              "_id": "695188241c508c5d5e3e5e66",
+              "name": "Bike4364",
+              "amount": 341,
+              "price": 25614,
+              "manufacturer": "Amazon",
+              "notes": "6BiPPHapgrTd1DqtYRj8avSA5SHdrckPrHnege9kD0bkw3Z6TYsz2pwcyrwI7MLmY2V1b6YIZnhhZlTgyQHjwlMi2WdrjyYBVSjtHdNZPFD4JmYbfHsJo1N8G64v0t8RH2DVBkW7gqBkWjNUrPPxoC8ZMZgyxrR7VczJ5196zPF3m6NTcni6IBTLopgM1BM3kEJu0kJpMH32RYlrKKf17bw1b0K5kbbVEHRI8WOf3bDNkghvkoDQSIoaGq",
+              "received": false
+            }
+          ],
+          "total_price": 25614,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:42:34.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6951881f1c508c5d5e3e5706",
+          "products": [
+            {
+              "_id": "695188241c508c5d5e3e5e66",
+              "name": "Bike4364",
+              "amount": 341,
+              "price": 25614,
+              "manufacturer": "Amazon",
+              "notes": "6BiPPHapgrTd1DqtYRj8avSA5SHdrckPrHnege9kD0bkw3Z6TYsz2pwcyrwI7MLmY2V1b6YIZnhhZlTgyQHjwlMi2WdrjyYBVSjtHdNZPFD4JmYbfHsJo1N8G64v0t8RH2DVBkW7gqBkWjNUrPPxoC8ZMZgyxrR7VczJ5196zPF3m6NTcni6IBTLopgM1BM3kEJu0kJpMH32RYlrKKf17bw1b0K5kbbVEHRI8WOf3bDNkghvkoDQSIoaGq",
+              "received": false
+            }
+          ],
+          "total_price": 25614,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:42:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
