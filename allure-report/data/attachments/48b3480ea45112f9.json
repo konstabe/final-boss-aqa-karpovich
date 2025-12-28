@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:36:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4814",
+    "etag": "W/\"12ce-M8oSr+h0YYTjg9k9IEksVDz2HQ8\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695186b31c508c5d5e3e2d4a",
+      "status": "Received",
+      "customer": {
+        "_id": "695186b11c508c5d5e3e2ced",
+        "email": "Malika.Botsford51@gmail.com",
+        "name": "Timmothy Pacocha",
+        "country": "Great Britain",
+        "city": "Goodyear",
+        "street": "Mack Ways",
+        "house": 23,
+        "flat": 576,
+        "phone": "+18519466523",
+        "createdOn": "2025-12-28T19:36:17.000Z",
+        "notes": "8iuIuooOsDlJ1izZgxZC6QPW0chUdANITadyAECE4Wi3HhBXQL5ij9PQnJ4h9qvneBtrdag5TrsB5qQm4hP4MqORFNHvJ6HGx0Y5ZQbIlLC2eVNDZy6Vv51oH3uja3efPY7HoUotgYSz9XWmUUcySYI90GXxyKs3OKmIg1WQSuVM3X2qPQjxkAAeCZyp6cLOtG6LFnVw43Wx6oYBYGcKXeyBwuqOZqLS0CsT74GUw828Ik5V0hvXX4WX2N"
+      },
+      "products": [
+        {
+          "_id": "695186b31c508c5d5e3e2d2e",
+          "name": "Keyboard5071",
+          "amount": 826,
+          "price": 38160,
+          "manufacturer": "Xiaomi",
+          "notes": "A4Sbp2f8UXaRpftKjHGCPkrsCyXGxoP4ITAaM8caG8D5base4tnyTFQopE6qPwmLrnwcUl8ZnFAf1ZF4JU5Maavmc43fJNGbDVvnB2ERGUmzf3cZ6ExXLkAVFxHCfC9lZw9PMVSfmcP2JruIhmsKzIsY0rQZlzSieSekmkwpP3wJJJwkuQKkUFIMIxw19KxwRcQ5K3KN5jxN18hG5RmSopRgIgEIYOZ2ZRIJol11Tj6Idke85oJapBj727",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Goodyear",
+          "street": "Mack Ways",
+          "house": 23,
+          "flat": 576
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 38160,
+      "createdOn": "2025-12-28T19:36:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695186b11c508c5d5e3e2ced",
+          "products": [
+            {
+              "_id": "695186b31c508c5d5e3e2d2e",
+              "name": "Keyboard5071",
+              "amount": 826,
+              "price": 38160,
+              "manufacturer": "Xiaomi",
+              "notes": "A4Sbp2f8UXaRpftKjHGCPkrsCyXGxoP4ITAaM8caG8D5base4tnyTFQopE6qPwmLrnwcUl8ZnFAf1ZF4JU5Maavmc43fJNGbDVvnB2ERGUmzf3cZ6ExXLkAVFxHCfC9lZw9PMVSfmcP2JruIhmsKzIsY0rQZlzSieSekmkwpP3wJJJwkuQKkUFIMIxw19KxwRcQ5K3KN5jxN18hG5RmSopRgIgEIYOZ2ZRIJol11Tj6Idke85oJapBj727",
+              "received": true
+            }
+          ],
+          "total_price": 38160,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Goodyear",
+              "street": "Mack Ways",
+              "house": 23,
+              "flat": 576
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-28T19:36:23.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695186b11c508c5d5e3e2ced",
+          "products": [
+            {
+              "_id": "695186b31c508c5d5e3e2d2e",
+              "name": "Keyboard5071",
+              "amount": 826,
+              "price": 38160,
+              "manufacturer": "Xiaomi",
+              "notes": "A4Sbp2f8UXaRpftKjHGCPkrsCyXGxoP4ITAaM8caG8D5base4tnyTFQopE6qPwmLrnwcUl8ZnFAf1ZF4JU5Maavmc43fJNGbDVvnB2ERGUmzf3cZ6ExXLkAVFxHCfC9lZw9PMVSfmcP2JruIhmsKzIsY0rQZlzSieSekmkwpP3wJJJwkuQKkUFIMIxw19KxwRcQ5K3KN5jxN18hG5RmSopRgIgEIYOZ2ZRIJol11Tj6Idke85oJapBj727",
+              "received": false
+            }
+          ],
+          "total_price": 38160,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Goodyear",
+              "street": "Mack Ways",
+              "house": 23,
+              "flat": 576
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-28T19:36:21.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695186b11c508c5d5e3e2ced",
+          "products": [
+            {
+              "_id": "695186b31c508c5d5e3e2d2e",
+              "name": "Keyboard5071",
+              "amount": 826,
+              "price": 38160,
+              "manufacturer": "Xiaomi",
+              "notes": "A4Sbp2f8UXaRpftKjHGCPkrsCyXGxoP4ITAaM8caG8D5base4tnyTFQopE6qPwmLrnwcUl8ZnFAf1ZF4JU5Maavmc43fJNGbDVvnB2ERGUmzf3cZ6ExXLkAVFxHCfC9lZw9PMVSfmcP2JruIhmsKzIsY0rQZlzSieSekmkwpP3wJJJwkuQKkUFIMIxw19KxwRcQ5K3KN5jxN18hG5RmSopRgIgEIYOZ2ZRIJol11Tj6Idke85oJapBj727",
+              "received": false
+            }
+          ],
+          "total_price": 38160,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Goodyear",
+              "street": "Mack Ways",
+              "house": 23,
+              "flat": 576
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-28T19:36:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695186b11c508c5d5e3e2ced",
+          "products": [
+            {
+              "_id": "695186b31c508c5d5e3e2d2e",
+              "name": "Keyboard5071",
+              "amount": 826,
+              "price": 38160,
+              "manufacturer": "Xiaomi",
+              "notes": "A4Sbp2f8UXaRpftKjHGCPkrsCyXGxoP4ITAaM8caG8D5base4tnyTFQopE6qPwmLrnwcUl8ZnFAf1ZF4JU5Maavmc43fJNGbDVvnB2ERGUmzf3cZ6ExXLkAVFxHCfC9lZw9PMVSfmcP2JruIhmsKzIsY0rQZlzSieSekmkwpP3wJJJwkuQKkUFIMIxw19KxwRcQ5K3KN5jxN18hG5RmSopRgIgEIYOZ2ZRIJol11Tj6Idke85oJapBj727",
+              "received": false
+            }
+          ],
+          "total_price": 38160,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:36:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

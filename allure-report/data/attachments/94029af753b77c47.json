@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:36:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-uVUBxCUam0CXj2aUQ/j63pMubJ8\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695186ad1c508c5d5e3e2c1c",
+        "email": "Kaley_Schumm81@gmail.com",
+        "name": "Kelley Wintheiser",
+        "country": "Canada",
+        "city": "New Gregory",
+        "street": "Davis Mission",
+        "house": 16,
+        "flat": 886,
+        "phone": "+19603668367",
+        "createdOn": "2025-12-28T19:36:13.000Z",
+        "notes": "mebdSY3C1l2WBl2neOcXlPwfV2ks8VTFew4f6sQV4jJM3Q2sCp0deS8A9gW7w2JK3R1tl9BXvNcac9BRY6g9iVI2kgFX8Nh8TrGRAxxMvYif0FfZV1bpgX8zTZXQRD4Iu4RpXz11cJZ9e0qu6YG3tBaCM7aTS7AeAcUxuu0atZEW9iCV4jWK2FDoBKb3bPoQ6MJd0Vk8eY2PG2OKvMEhdQmx7nFdQA9XI6I44d52Mlc8P9XBtF4JDHbnKB"
+      },
+      "products": [
+        {
+          "_id": "695186af1c508c5d5e3e2c65",
+          "name": "Cheese60502",
+          "amount": 893,
+          "price": 2442,
+          "manufacturer": "Google",
+          "notes": "DiZkiQt6dSpEmB2uUp3RgCbLqCA6NuQxDF7ZrdoMxLVuorzgnUH8bkTBi6UNRIBkijI3x2r7As6KD8r3XxevGql0o934Ed4hYTgta1cj3E1lvVsKrQVe5oxx6gY6z25CAt6SbbmtJaDM60CtM0znD4whwMf85HtS2h3ERftLfaSDc5T0iPIcTamrV1nDEwMhbSDFZktF7q22idCA50juGX2QqCO24wVhHyv5gYOTdh7217JqxnUMye8x79",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 2442,
+      "createdOn": "2025-12-28T19:36:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695186ad1c508c5d5e3e2c1c",
+          "products": [
+            {
+              "_id": "695186af1c508c5d5e3e2c65",
+              "name": "Cheese60502",
+              "amount": 893,
+              "price": 2442,
+              "manufacturer": "Google",
+              "notes": "DiZkiQt6dSpEmB2uUp3RgCbLqCA6NuQxDF7ZrdoMxLVuorzgnUH8bkTBi6UNRIBkijI3x2r7As6KD8r3XxevGql0o934Ed4hYTgta1cj3E1lvVsKrQVe5oxx6gY6z25CAt6SbbmtJaDM60CtM0znD4whwMf85HtS2h3ERftLfaSDc5T0iPIcTamrV1nDEwMhbSDFZktF7q22idCA50juGX2QqCO24wVhHyv5gYOTdh7217JqxnUMye8x79",
+              "received": false
+            }
+          ],
+          "total_price": 2442,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:36:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695186af1c508c5d5e3e2c7b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

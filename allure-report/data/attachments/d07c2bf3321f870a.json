@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:36:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-mF+DehUbSkKAVAHf3xPA4OFbyB8\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695186af1c508c5d5e3e2c67",
+        "email": "Dena_Abernathy1@yahoo.com",
+        "name": "Estell Wunsch",
+        "country": "Canada",
+        "city": "Port Donnieworth",
+        "street": "Riverside",
+        "house": 29,
+        "flat": 436,
+        "phone": "+18805019959",
+        "createdOn": "2025-12-28T19:36:15.000Z",
+        "notes": "8Q52vvtZL8EioANqxbDKvO18SA1phhacOHvvgtRfqLZp7gxpBHYtDxZww93SfxuuPuF3TggCtjnKtmdKNFEqdNHYpnLnw7ulLN29VhyRYWemM68unv0csdz9WzOOaAwwYTakt5Bqokv0N0P192cid9aclRWbCTp8rAXMF3RS37HoGJqOaAlTsu0thqFddB4uf4R2EqN78bi1cNvO0m07iKIDLtOT9xNMlu6X211zyD6pspqswKMB7kRnY4"
+      },
+      "products": [
+        {
+          "_id": "695186b11c508c5d5e3e2ceb",
+          "name": "Fish99818",
+          "amount": 784,
+          "price": 4080,
+          "manufacturer": "Apple",
+          "notes": "eczcoZkkBqwdHHPurfcinJyL8rC6rtRJy7i4LyDp3nRG8fZkQqSHvUGe8ImoqxxwoVzpa8sCjCx0ozOadWf9cxSj2KFVXqcSgBmjZ5Oh7v1WPpJvIJbKRS0SU3g7FDpjWOdwx6bpNzlQlKl4YEx2NCzbnFl09klAZCVPAONBdfMwHt5OhBdmL0CvkR6bt6TLNkq9M9fB7bOACkN8PrH09SAi6Jjr8dlDH3mMU0NJ9Zjjjj7prEDTFLkJpu",
+          "received": false
+        },
+        {
+          "_id": "695186b31c508c5d5e3e2d2a",
+          "name": "Shoes78865",
+          "amount": 191,
+          "price": 68671,
+          "manufacturer": "Amazon",
+          "notes": "NYSMjbRx3FDUVGeRkuUaa7yxJA3JeLyLhv5jJg0zJpjeVoFDM1jKSUV0STQqAIvIvkHGH2tqOANrO0zo1s4sJKtNSaFkMvPuv45Ll2E2P3GzQxiyFTCRe2rFUSi4hQQcfiLLLMzpWwrGqxl8OUp4WZkQmPXGse2ybdhB48z28LoNdW9RtyLC3SmKJz7gGPsR09RNHjZhSf4mdOfGCJq0M96bMhS9owXuo54j8uLC9wiZPEize5IptpZD1S",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 72751,
+      "createdOn": "2025-12-28T19:36:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695186af1c508c5d5e3e2c67",
+          "products": [
+            {
+              "_id": "695186b11c508c5d5e3e2ceb",
+              "name": "Fish99818",
+              "amount": 784,
+              "price": 4080,
+              "manufacturer": "Apple",
+              "notes": "eczcoZkkBqwdHHPurfcinJyL8rC6rtRJy7i4LyDp3nRG8fZkQqSHvUGe8ImoqxxwoVzpa8sCjCx0ozOadWf9cxSj2KFVXqcSgBmjZ5Oh7v1WPpJvIJbKRS0SU3g7FDpjWOdwx6bpNzlQlKl4YEx2NCzbnFl09klAZCVPAONBdfMwHt5OhBdmL0CvkR6bt6TLNkq9M9fB7bOACkN8PrH09SAi6Jjr8dlDH3mMU0NJ9Zjjjj7prEDTFLkJpu",
+              "received": false
+            },
+            {
+              "_id": "695186b31c508c5d5e3e2d2a",
+              "name": "Shoes78865",
+              "amount": 191,
+              "price": 68671,
+              "manufacturer": "Amazon",
+              "notes": "NYSMjbRx3FDUVGeRkuUaa7yxJA3JeLyLhv5jJg0zJpjeVoFDM1jKSUV0STQqAIvIvkHGH2tqOANrO0zo1s4sJKtNSaFkMvPuv45Ll2E2P3GzQxiyFTCRe2rFUSi4hQQcfiLLLMzpWwrGqxl8OUp4WZkQmPXGse2ybdhB48z28LoNdW9RtyLC3SmKJz7gGPsR09RNHjZhSf4mdOfGCJq0M96bMhS9owXuo54j8uLC9wiZPEize5IptpZD1S",
+              "received": false
+            }
+          ],
+          "total_price": 72751,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:36:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695186b31c508c5d5e3e2d44"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
