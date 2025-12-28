@@ -1,5 +1,5 @@
 import { Page } from "@playwright/test";
-import { OrdersModalName } from "data/types/order.types";
+import { ModalsOnOrdersList } from "data/types/order.types";
 import { OrdersListPage } from "pages/orders/ordersList.page";
 import { logStep } from "utils/report/logStep.utils";
 
@@ -17,14 +17,14 @@ export class OrdersListUIService {
 	}
 
 	@logStep("Close Modal")
-	async closeModal(modalName: OrdersModalName) {
+	async closeModal(modalName: ModalsOnOrdersList) {
 		const modal = this.ordersListPage[modalName];
 		await modal.clickClose();
 		await modal.waitForClosed();
 	}
 
 	@logStep("Cancel Modal")
-	async cancelModal(modalName: OrdersModalName) {
+	async cancelModal(modalName: ModalsOnOrdersList) {
 		const modal = this.ordersListPage[modalName];
 		await modal.clickCancel();
 		await modal.waitForClosed();
