@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 10:36:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1895",
+    "etag": "W/\"767-/REupepZQjicU+DlROmckeVeSs0\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695108361c508c5d5e38c014",
+        "email": "Angel.Witting@gmail.com",
+        "name": "Etha Upton",
+        "country": "Great Britain",
+        "city": "New Cindyville",
+        "street": "Aric Course",
+        "house": 45,
+        "flat": 353,
+        "phone": "+12906971581",
+        "createdOn": "2025-12-28T10:36:38.000Z",
+        "notes": "zCrSN6ixG6qGAkxCUNiA3Wkl9UK3jpNilLPjuw5VUeG4rBuRTud54v43op2iA01UjI3cgTb9mJopSPG7NMZ4CFJJnSlp21QPKYghme9DIXdmzMCup6KxSwOAsXlx1gzSRtKtMet50xrDCeajAR66gB5wJKGyI6zthiIigkNcUMAoaiM51E87lXLbLNih4ChydLSeRzQLPvSmZqex0HoALN7OBiSUhaefZKXJ75bwjSzrFLaxCsVrxQ25CK"
+      },
+      "products": [
+        {
+          "_id": "695108361c508c5d5e38c034",
+          "name": "Keyboard29450",
+          "amount": 365,
+          "price": 85687,
+          "manufacturer": "Xiaomi",
+          "notes": "1USHMCDQTci6vtmEoHP1vmgOiuao0qitzNduKNKxsnXw4QlAmpPMc1ghSTIAEO5NcpklEP8MmLCBwTKzOpzVyKEuwAKSZzM5Y7FGMe9X0I4669DPo0jFarCwYq0qudimhzvJWSQwFeZk9VgbtU7uRlXfC004qrTQakHBVbrqENSXVcpLn5zeTmNH5TFO7sl1lt5almkYB6aLftPOWEZcxFv8ZE6aDVFEaTCfw3HYVbYLBF8PtbGOTTO70S",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 85687,
+      "createdOn": "2025-12-28T10:36:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695108361c508c5d5e38c014",
+          "products": [
+            {
+              "_id": "695108361c508c5d5e38c034",
+              "name": "Keyboard29450",
+              "amount": 365,
+              "price": 85687,
+              "manufacturer": "Xiaomi",
+              "notes": "1USHMCDQTci6vtmEoHP1vmgOiuao0qitzNduKNKxsnXw4QlAmpPMc1ghSTIAEO5NcpklEP8MmLCBwTKzOpzVyKEuwAKSZzM5Y7FGMe9X0I4669DPo0jFarCwYq0qudimhzvJWSQwFeZk9VgbtU7uRlXfC004qrTQakHBVbrqENSXVcpLn5zeTmNH5TFO7sl1lt5almkYB6aLftPOWEZcxFv8ZE6aDVFEaTCfw3HYVbYLBF8PtbGOTTO70S",
+              "received": false
+            }
+          ],
+          "total_price": 85687,
+          "delivery": null,
+          "changedOn": "2025-12-28T10:36:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695108361c508c5d5e38c04e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

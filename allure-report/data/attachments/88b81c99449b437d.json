@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 10:36:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1901",
+    "etag": "W/\"76d-k+BNefKmCfcAE/gdisTIMDAKAC4\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695108361c508c5d5e38c02b",
+        "email": "Doris_Oberbrunner-OKon@yahoo.com",
+        "name": "Linnie Abernathy",
+        "country": "Canada",
+        "city": "Lebsackville",
+        "street": "Arturo Tunnel",
+        "house": 41,
+        "flat": 221,
+        "phone": "+15237062788",
+        "createdOn": "2025-12-28T10:36:38.000Z",
+        "notes": "Ey8hVt2cIiOyJU6HvCRCI6y4DWswM4KceUBH8o8sob9GEVbTRYoNCoyhUJroS3Oc89hfuUkUMvsxrT3UnThmDHnXlQl8qARvhSuk07JqDWTXIJ4BfMEGBf2qoEjx6Q9INhufW47H5ZNCHjAft3GlXUa3rdkw08Kjtq4om8sQR8pec8KDFCEi5fkSCf8AxDiDdz3OFoGo8sdewFsbhq9dbrasXfTaV2jiVw66wbSUrvdSpNAPfHawzRWSG8"
+      },
+      "products": [
+        {
+          "_id": "695108361c508c5d5e38c055",
+          "name": "Computer28944",
+          "amount": 49,
+          "price": 61013,
+          "manufacturer": "Google",
+          "notes": "x7lsjnqxtRhnSrHMyCZ3yLxRqRZ2jLWstSwKzaU6BY1Q0Yuc3bK58b12Le8cI4bgbUL9qk6MjTtAYROLDVrMX4MEEq4gvcuEZqPuBQ6MNI2qf1o3D1ZBiMPSa7cvAzp1H3o4g7x09R4vEgwYYTsG1ByZNl6mQMcNah7dksLXJ1JGsJ1DbN4YsqSenxDzCMNCzHvWAwAbokO12TohEOaWP35sHbmv6qXBlfPd53ne0Y6fLZcZmiBjLTB1SE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 61013,
+      "createdOn": "2025-12-28T10:36:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695108361c508c5d5e38c02b",
+          "products": [
+            {
+              "_id": "695108361c508c5d5e38c055",
+              "name": "Computer28944",
+              "amount": 49,
+              "price": 61013,
+              "manufacturer": "Google",
+              "notes": "x7lsjnqxtRhnSrHMyCZ3yLxRqRZ2jLWstSwKzaU6BY1Q0Yuc3bK58b12Le8cI4bgbUL9qk6MjTtAYROLDVrMX4MEEq4gvcuEZqPuBQ6MNI2qf1o3D1ZBiMPSa7cvAzp1H3o4g7x09R4vEgwYYTsG1ByZNl6mQMcNah7dksLXJ1JGsJ1DbN4YsqSenxDzCMNCzHvWAwAbokO12TohEOaWP35sHbmv6qXBlfPd53ne0Y6fLZcZmiBjLTB1SE",
+              "received": false
+            }
+          ],
+          "total_price": 61013,
+          "delivery": null,
+          "changedOn": "2025-12-28T10:36:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695108361c508c5d5e38c073"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

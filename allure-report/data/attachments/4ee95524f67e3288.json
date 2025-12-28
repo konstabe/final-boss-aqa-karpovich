@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 10:36:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-JHGpwvWQrKeXYvagjXk6SqB6B/U\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695108351c508c5d5e38bfd5",
+      "status": "Draft",
+      "customer": {
+        "_id": "695108341c508c5d5e38bf82",
+        "email": "Pearl15@hotmail.com",
+        "name": "Saul Lakin",
+        "country": "Canada",
+        "city": "Fort Kileystead",
+        "street": "Yoshiko Drives",
+        "house": 41,
+        "flat": 453,
+        "phone": "+16476730988",
+        "createdOn": "2025-12-28T10:36:36.000Z",
+        "notes": "Lcmcp2CTkjHNnPbT30khHYCY5tYf12WRYHCDEoEm9GR5JqJeiPW16T96DSnXyKXHDBtfMXaxZpKUy8WdAEgRpIaGft2sNOZrL3Y0HXKHUIntIiCVP0BusFUD4D7mddmkR2Tl3kFUJwBz0Tq72wZh4TQoxo0VeXG6YawODdsfvEm4azg5xZfUwp8BiEK3J1actOkDenTc9pibyM5cr5GKc3dRXLivijYw36ifcmIzpRHmOIdm5HxCQbFBZO"
+      },
+      "products": [
+        {
+          "_id": "695108351c508c5d5e38bfa9",
+          "name": "Gloves76370",
+          "amount": 414,
+          "price": 59321,
+          "manufacturer": "Google",
+          "notes": "2WKqCPz5mYxEGWDfoW0gtC2H7ABQKWo8WVmVAx3onLowHDU2cxwbUZrEhQpHS9TiHPFX4efLXw9vK3Sxz8XlucS6YzfhcGIBGtf7KW6Qrw4nmzyNTqu80H0LPDibCnrPOP01dDDf2HeRvAIbqxCqluFcvSk5kF4rsGqF7PCvCRQSgRErbjGU382kytsX6HUFfxtDACek1upSfmplF1dAqjEnJS5CsAq7aJRYSka4KtFVWAe1Aq0w7it80B",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 59321,
+      "createdOn": "2025-12-28T10:36:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695108341c508c5d5e38bf82",
+          "products": [
+            {
+              "_id": "695108351c508c5d5e38bfa9",
+              "name": "Gloves76370",
+              "amount": 414,
+              "price": 59321,
+              "manufacturer": "Google",
+              "notes": "2WKqCPz5mYxEGWDfoW0gtC2H7ABQKWo8WVmVAx3onLowHDU2cxwbUZrEhQpHS9TiHPFX4efLXw9vK3Sxz8XlucS6YzfhcGIBGtf7KW6Qrw4nmzyNTqu80H0LPDibCnrPOP01dDDf2HeRvAIbqxCqluFcvSk5kF4rsGqF7PCvCRQSgRErbjGU382kytsX6HUFfxtDACek1upSfmplF1dAqjEnJS5CsAq7aJRYSka4KtFVWAe1Aq0w7it80B",
+              "received": false
+            }
+          ],
+          "total_price": 59321,
+          "delivery": null,
+          "changedOn": "2025-12-28T10:36:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

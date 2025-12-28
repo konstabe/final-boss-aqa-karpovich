@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 10:36:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-H2v4gTZMsT2J7iu6pep/FAriQOA\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695108341c508c5d5e38bf50",
+        "email": "Dasia.MacGyver39@gmail.com",
+        "name": "Marty Wintheiser",
+        "country": "USA",
+        "city": "El Centro",
+        "street": "Kunde Glen",
+        "house": 40,
+        "flat": 32,
+        "phone": "+12759566614",
+        "createdOn": "2025-12-28T10:36:36.000Z",
+        "notes": "CRt5L7uNMOHqAheyijjq3JvDKhSwGMTjmGqmkS5L5XhAa5aWI7PKIaa0cOOHn8nQAXZlsw6r8cbuBE3m0jthTvde6YIeDB355py9pkJOsdrknH1io4c80YqriVgHvGO6RY1tgRXqMNrh9KRXQ7qWbFe4kevwrgM78q280UL1UzUTdHhkiKONRtoyeMow3UDjsDZZ02BGGnq8iuF4Jjuc5LTl26XeffsHodguLfo9O6G3qnrs5OPoMlTkdH"
+      },
+      "products": [
+        {
+          "_id": "695108341c508c5d5e38bf6f",
+          "name": "Towels44821",
+          "amount": 647,
+          "price": 47877,
+          "manufacturer": "Xiaomi",
+          "notes": "eCXUENSqWqtyY9Asm90cFP6fsLvXnROfZricQX5oDp1jstQiNpxVV9odxvjFdMIaCMnksLjGBUJxbyGxcOPGHn0bBORdeA2g7Ws129r1lgBEaWgikSDBNf2v1rvbShnhgJL5hSApxx3IR9PvFosGMvixNtir4VEgHjGObilcIDWwA27MV2O80SWoFBHhDlAePeRO0LZxLWYup7ccm2v8VWqDt5qkMlcYSzJU9azH8wZMUbrssZRUdiPdTH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 47877,
+      "createdOn": "2025-12-28T10:36:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695108341c508c5d5e38bf50",
+          "products": [
+            {
+              "_id": "695108341c508c5d5e38bf6f",
+              "name": "Towels44821",
+              "amount": 647,
+              "price": 47877,
+              "manufacturer": "Xiaomi",
+              "notes": "eCXUENSqWqtyY9Asm90cFP6fsLvXnROfZricQX5oDp1jstQiNpxVV9odxvjFdMIaCMnksLjGBUJxbyGxcOPGHn0bBORdeA2g7Ws129r1lgBEaWgikSDBNf2v1rvbShnhgJL5hSApxx3IR9PvFosGMvixNtir4VEgHjGObilcIDWwA27MV2O80SWoFBHhDlAePeRO0LZxLWYup7ccm2v8VWqDt5qkMlcYSzJU9azH8wZMUbrssZRUdiPdTH",
+              "received": false
+            }
+          ],
+          "total_price": 47877,
+          "delivery": null,
+          "changedOn": "2025-12-28T10:36:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695108341c508c5d5e38bf95"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
