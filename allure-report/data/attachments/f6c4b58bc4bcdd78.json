@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:18:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3887",
+    "etag": "W/\"f2f-040WqdoQplFxk15w1U43OuY4HCA\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951ac9b1c508c5d5e4538d0",
+      "status": "In Process",
+      "customer": {
+        "_id": "6951ac971c508c5d5e453652",
+        "email": "Floyd5@yahoo.com",
+        "name": "Tyreek Franey",
+        "country": "Canada",
+        "city": "Kurtisborough",
+        "street": "Leora Spur",
+        "house": 10,
+        "flat": 752,
+        "phone": "+16657217284",
+        "createdOn": "2025-12-28T22:17:59.000Z",
+        "notes": "q6NK2ayfpY3rfWKNLDEAw9RUxvDcZ6hppx3gwEz5gmQz6z8SxpfbsxeZr5uIBlaV7MmvIWG9a7KdGqNAABLdFKoTNHBuJHY2eokcmLifwJApyEMKViejsP0YJNHwxVj1sb3FxO1Ta0ixBdIXueBkEkoMgTWlvzIahOTmVhdU7GX7gI9h0xu1M2qxy9mMUxXrH8m7P877yk0Lc3avA2aubpnCf8HfW6MhvnkDDnExNKul45Klxg7GxLBOvR"
+      },
+      "products": [
+        {
+          "_id": "6951ac9a1c508c5d5e45387f",
+          "name": "Computer43020",
+          "amount": 577,
+          "price": 71462,
+          "manufacturer": "Samsung",
+          "notes": "gF5IeS2Tm6E2zaE3kXSBbVabZYxSR8sWSkm7DY3MzrxtoDSff7emGatXRhmSdPdaovSGryEn1nosEH8Jn7Dq0I9n6cphoXPey6vYiHg6CLeT5oHGtBH68U1FsAQdL91mv7iIlaLBi4ChywHuzeOqObNc7vTCc6eqI6BwFvO4K0j8j2F16z06kMV8VALR7H62VnNuMXgixruaxGYYW3hwDGSKXFRxfs2pcbfmP4LavHWpJUmsxGELJjtP0E",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Kurtisborough",
+          "street": "Leora Spur",
+          "house": 10,
+          "flat": 752
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 71462,
+      "createdOn": "2025-12-28T22:18:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6951ac971c508c5d5e453652",
+          "products": [
+            {
+              "_id": "6951ac9a1c508c5d5e45387f",
+              "name": "Computer43020",
+              "amount": 577,
+              "price": 71462,
+              "manufacturer": "Samsung",
+              "notes": "gF5IeS2Tm6E2zaE3kXSBbVabZYxSR8sWSkm7DY3MzrxtoDSff7emGatXRhmSdPdaovSGryEn1nosEH8Jn7Dq0I9n6cphoXPey6vYiHg6CLeT5oHGtBH68U1FsAQdL91mv7iIlaLBi4ChywHuzeOqObNc7vTCc6eqI6BwFvO4K0j8j2F16z06kMV8VALR7H62VnNuMXgixruaxGYYW3hwDGSKXFRxfs2pcbfmP4LavHWpJUmsxGELJjtP0E",
+              "received": false
+            }
+          ],
+          "total_price": 71462,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Kurtisborough",
+              "street": "Leora Spur",
+              "house": 10,
+              "flat": 752
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-28T22:18:08.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ac971c508c5d5e453652",
+          "products": [
+            {
+              "_id": "6951ac9a1c508c5d5e45387f",
+              "name": "Computer43020",
+              "amount": 577,
+              "price": 71462,
+              "manufacturer": "Samsung",
+              "notes": "gF5IeS2Tm6E2zaE3kXSBbVabZYxSR8sWSkm7DY3MzrxtoDSff7emGatXRhmSdPdaovSGryEn1nosEH8Jn7Dq0I9n6cphoXPey6vYiHg6CLeT5oHGtBH68U1FsAQdL91mv7iIlaLBi4ChywHuzeOqObNc7vTCc6eqI6BwFvO4K0j8j2F16z06kMV8VALR7H62VnNuMXgixruaxGYYW3hwDGSKXFRxfs2pcbfmP4LavHWpJUmsxGELJjtP0E",
+              "received": false
+            }
+          ],
+          "total_price": 71462,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Kurtisborough",
+              "street": "Leora Spur",
+              "house": 10,
+              "flat": 752
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-28T22:18:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ac971c508c5d5e453652",
+          "products": [
+            {
+              "_id": "6951ac9a1c508c5d5e45387f",
+              "name": "Computer43020",
+              "amount": 577,
+              "price": 71462,
+              "manufacturer": "Samsung",
+              "notes": "gF5IeS2Tm6E2zaE3kXSBbVabZYxSR8sWSkm7DY3MzrxtoDSff7emGatXRhmSdPdaovSGryEn1nosEH8Jn7Dq0I9n6cphoXPey6vYiHg6CLeT5oHGtBH68U1FsAQdL91mv7iIlaLBi4ChywHuzeOqObNc7vTCc6eqI6BwFvO4K0j8j2F16z06kMV8VALR7H62VnNuMXgixruaxGYYW3hwDGSKXFRxfs2pcbfmP4LavHWpJUmsxGELJjtP0E",
+              "received": false
+            }
+          ],
+          "total_price": 71462,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:18:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:17:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-CsQCRVTItTxB4I8OcBlaATuANVc\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac881c508c5d5e452e9d",
+        "email": "Ludwig27@gmail.com",
+        "name": "Katharina Feil",
+        "country": "Russia",
+        "city": "East Fatima",
+        "street": "Batz Lights",
+        "house": 32,
+        "flat": 399,
+        "phone": "+12759615099",
+        "createdOn": "2025-12-28T22:17:44.000Z",
+        "notes": "SGc5O7LSiroaSkbtiqVWLLJT8FTaqHochrKEaIaFIMCMZDr542KWR0Tsqu5MtzkN4yXqdo717uinCV31KulErawDhKHwJfNSC48RyOGP9KRJrA1643cTH7zngpZI0jeJwu4ybwuwtXzv2Lwiqfyw0sVX0sc7JO1ORYlYJrLeNXiBSHDxAxWgzGDwuWORDAQcOqF1qVmtJuY3E317bEJZW6CHVLvLfDHERHQ7WzehbhvMXTxuK7xZI1sVJo"
+      },
+      "products": [
+        {
+          "_id": "6951ac8b1c508c5d5e453004",
+          "name": "Gloves5568",
+          "amount": 725,
+          "price": 66664,
+          "manufacturer": "Microsoft",
+          "notes": "pGia2q4ZlT89IqPZuWFnJBTjYbcDIET0ydsgBiDaetDw5Ws14Msom3zGqaGKkyDpCfX8ZWmFESWZRiunRGKqBQIDemnJKLY1ndMiDD3jINDB84KZQ6vz27zRd4L4MPPx5JFUeCKb2K77Az65HY6OGzWoXIuSZGENh2yww6Mrkx5OFrxMkpmArcTXNC9wBEfu50PqfvF1a7hb4sfOaouS7pei8oWFmsqJUXZe33WakFYs36mP0sPYEdm2oo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 66664,
+      "createdOn": "2025-12-28T22:17:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac881c508c5d5e452e9d",
+          "products": [
+            {
+              "_id": "6951ac8b1c508c5d5e453004",
+              "name": "Gloves5568",
+              "amount": 725,
+              "price": 66664,
+              "manufacturer": "Microsoft",
+              "notes": "pGia2q4ZlT89IqPZuWFnJBTjYbcDIET0ydsgBiDaetDw5Ws14Msom3zGqaGKkyDpCfX8ZWmFESWZRiunRGKqBQIDemnJKLY1ndMiDD3jINDB84KZQ6vz27zRd4L4MPPx5JFUeCKb2K77Az65HY6OGzWoXIuSZGENh2yww6Mrkx5OFrxMkpmArcTXNC9wBEfu50PqfvF1a7hb4sfOaouS7pei8oWFmsqJUXZe33WakFYs36mP0sPYEdm2oo",
+              "received": false
+            }
+          ],
+          "total_price": 66664,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:17:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ac8b1c508c5d5e453026"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

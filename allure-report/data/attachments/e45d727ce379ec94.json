@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:17:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2935",
+    "etag": "W/\"b77-BNYQsvPVC1FWz74eF/nWxmkk78M\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951ac831c508c5d5e452c16",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac801c508c5d5e452a5d",
+        "email": "Maverick37@gmail.com",
+        "name": "Colby Borer",
+        "country": "USA",
+        "city": "North Ila",
+        "street": "Frida Road",
+        "house": 28,
+        "flat": 187,
+        "phone": "+14845551300",
+        "createdOn": "2025-12-28T22:17:36.000Z",
+        "notes": "NpBMrLy4TQ22RoRWNMUSxLUR81cGlKp72mtLhffk5nz5tf0ypOhuLdNHTkmtRr2ot7PAZMCHyeBSGTNzqdiGSmjPcwS6cSuotYvJaPKiO0zDAZR2Ic0dVfPTtguvxwnLfQ9K0EHZt2g917TFNP21ZLRjmAgC2lkTYHUk1oHRTVbu3jLmyY4p02xAqWUdx8DOrsfD8OHSS33QNAhXlwTpYgzcDNHr0sBCVoeT9fjqUnAi4ExZjNpgwuQG6c"
+      },
+      "products": [
+        {
+          "_id": "6951ac821c508c5d5e452ba6",
+          "name": "Tuna82984",
+          "amount": 69,
+          "price": 80661,
+          "manufacturer": "Tesla",
+          "notes": "hAwyrOZZUZxOdJySwnn3WZrkCQzjPMQgqdGRxSf0YXVthyJbrrTR6S21zQqPxIVA2jRwa2eqgymVDD3jE4D7QjJWJGER0uNJWAG1wTHZ74d71Jn6CzfHkGx6zFFtu14TqD2mmc6pjuC9qVV3p0hkO0ESo3dRZru0iwv1NWo2Tku0zORz49uVPKmDudWVeE0JCfduXyI72ScY8EBZ1wDnqhuqoEQ6JoFsnAMnrxW1fEfd2stz2GmqiJ3oN5",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Lake Laisha",
+          "street": "Rosemary Junction",
+          "house": 41,
+          "flat": 2
+        },
+        "finalDate": "2025-12-28T22:17:39.553Z",
+        "condition": "Pickup"
+      },
+      "total_price": 80661,
+      "createdOn": "2025-12-28T22:17:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac801c508c5d5e452a5d",
+          "products": [
+            {
+              "_id": "6951ac821c508c5d5e452ba6",
+              "name": "Tuna82984",
+              "amount": 69,
+              "price": 80661,
+              "manufacturer": "Tesla",
+              "notes": "hAwyrOZZUZxOdJySwnn3WZrkCQzjPMQgqdGRxSf0YXVthyJbrrTR6S21zQqPxIVA2jRwa2eqgymVDD3jE4D7QjJWJGER0uNJWAG1wTHZ74d71Jn6CzfHkGx6zFFtu14TqD2mmc6pjuC9qVV3p0hkO0ESo3dRZru0iwv1NWo2Tku0zORz49uVPKmDudWVeE0JCfduXyI72ScY8EBZ1wDnqhuqoEQ6JoFsnAMnrxW1fEfd2stz2GmqiJ3oN5",
+              "received": false
+            }
+          ],
+          "total_price": 80661,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lake Laisha",
+              "street": "Rosemary Junction",
+              "house": 41,
+              "flat": 2
+            },
+            "finalDate": "2025-12-28T22:17:39.553Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-28T22:17:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ac801c508c5d5e452a5d",
+          "products": [
+            {
+              "_id": "6951ac821c508c5d5e452ba6",
+              "name": "Tuna82984",
+              "amount": 69,
+              "price": 80661,
+              "manufacturer": "Tesla",
+              "notes": "hAwyrOZZUZxOdJySwnn3WZrkCQzjPMQgqdGRxSf0YXVthyJbrrTR6S21zQqPxIVA2jRwa2eqgymVDD3jE4D7QjJWJGER0uNJWAG1wTHZ74d71Jn6CzfHkGx6zFFtu14TqD2mmc6pjuC9qVV3p0hkO0ESo3dRZru0iwv1NWo2Tku0zORz49uVPKmDudWVeE0JCfduXyI72ScY8EBZ1wDnqhuqoEQ6JoFsnAMnrxW1fEfd2stz2GmqiJ3oN5",
+              "received": false
+            }
+          ],
+          "total_price": 80661,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:17:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

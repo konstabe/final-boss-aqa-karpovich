@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:17:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1906",
+    "etag": "W/\"772-jaDlQasVedvYKxZKNHc20EKBVhw\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac731c508c5d5e4523a1",
+        "email": "Karelle_Rutherford@yahoo.com",
+        "name": "Kennedi Hackett",
+        "country": "Germany",
+        "city": "North Mathew",
+        "street": "DuBuque Forest",
+        "house": 42,
+        "flat": 706,
+        "phone": "+16048410421",
+        "createdOn": "2025-12-28T22:17:23.000Z",
+        "notes": "YMnHVNhCOU9z8rbhRDGOrW5nHWiCKUGWXjAeBT4M3GBTrZGuHuOMJ797N0gzqPiiZWz7I0bXTXyIV09W4YnNS6cr2XbuzMeFIJbfuR8cqn7FtEkrUR10tk8WYAI5sqv94k2TNSQ3AyUmURREvomIf8aXNVAOMGs93tDWJCSqckmiTwRhV8hcvHyFowcJTvyYXf2ZtY9z6tUtjxmqFGqDhCZBTAjTDos5c3zwIsX9N4d89j8rsEhQinYQNQ"
+      },
+      "products": [
+        {
+          "_id": "6951ac751c508c5d5e452503",
+          "name": "Keyboard90624",
+          "amount": 582,
+          "price": 62233,
+          "manufacturer": "Microsoft",
+          "notes": "4fh7WgwCQ0u2d60Aj9mprVTT5r5tgYkJLnaIVWrV5GJbZgWN8BEn36vHSkizfBXzkIIoTN5KAMKyzDKJ5Z9ZIDzWnZqkp6oDo9N3bFMOJzYtFyppdjlvhSgj0HgRDYY8GS2Gpg79G5u8F4wDxj5JLBctO34hfnfJqaHuAAOloE1IpBRA7v1dW1VYELGK7jC9eate3gm8ZPflfWMA70sxvV7CQgdVeVgolVTJbNdx7LqVQfuFdwP3lDCBo8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 62233,
+      "createdOn": "2025-12-28T22:17:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac731c508c5d5e4523a1",
+          "products": [
+            {
+              "_id": "6951ac751c508c5d5e452503",
+              "name": "Keyboard90624",
+              "amount": 582,
+              "price": 62233,
+              "manufacturer": "Microsoft",
+              "notes": "4fh7WgwCQ0u2d60Aj9mprVTT5r5tgYkJLnaIVWrV5GJbZgWN8BEn36vHSkizfBXzkIIoTN5KAMKyzDKJ5Z9ZIDzWnZqkp6oDo9N3bFMOJzYtFyppdjlvhSgj0HgRDYY8GS2Gpg79G5u8F4wDxj5JLBctO34hfnfJqaHuAAOloE1IpBRA7v1dW1VYELGK7jC9eate3gm8ZPflfWMA70sxvV7CQgdVeVgolVTJbNdx7LqVQfuFdwP3lDCBo8",
+              "received": false
+            }
+          ],
+          "total_price": 62233,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:17:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ac761c508c5d5e452522"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

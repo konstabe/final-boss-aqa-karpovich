@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:17:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2658",
+    "etag": "W/\"a62-+WwwEnKUkoKPuB9bzsOzkz+BopE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac5e1c508c5d5e451bc9",
+        "email": "Jazlyn_Bogisich@hotmail.com",
+        "name": "Agustina Grant",
+        "country": "Ukraine",
+        "city": "Padbergbury",
+        "street": "Wunsch Road",
+        "house": 46,
+        "flat": 986,
+        "phone": "+13999321492",
+        "createdOn": "2025-12-28T22:17:02.000Z",
+        "notes": "MJ1v8bwUkb5lu0mftphkCZnuHlVZlXlHZXnMCa1a4uRWuQkbfgQCemTnqW9UXXMjw1rLk5TixHtyBc9LFuWT99wlkUeQf23i1TEb6Xc9XXLkl4rprYRpqklh0xuNJPf4xssJ58Rbx3Q5AC2iZUq23xENXu0hhF4fchXcxuRrwfZkoDHwCA8jlyo93Z8iRrpKiHz0XxgnhzEOb6PSsecSRT3dXmyYCY4i3W0XCbez3aLDXrJLyQa5I6Znco"
+      },
+      "products": [
+        {
+          "_id": "6951ac611c508c5d5e451cf4",
+          "name": "Shoes62528",
+          "amount": 179,
+          "price": 34548,
+          "manufacturer": "Xiaomi",
+          "notes": "HPPDGGWHAnfxA5idzQT2IR0y0H3OwLx6BeZlDuro3PlFox5bT49K3rAu0O1UMspzZoQ4uSSZkXg1VHniYG1nQVYlc5z4RDZtXmELOaDmCQ50Z3ZpUv3XAex6D2A2nU0s1CmgYBCxP8b5t2kq8E8aQYkYOhyLcVeX31offNpjzczUDtc4cTpjdxKce6sHDZZTl9ultc3dTJ4CaalNIgGnFbg0SK5EtNk1pTUB3HeqiZlBmhzqE5PZb9gOeQ",
+          "received": false
+        },
+        {
+          "_id": "6951ac661c508c5d5e451e67",
+          "name": "Shoes83813",
+          "amount": 128,
+          "price": 81543,
+          "manufacturer": "Google",
+          "notes": "jB1xgpBITtw8ky90O0gbJXhGxPttyBkA7etxaOrQF3Z77k6Cwap1x2QMhxczxAyRtrdXRkMbaoLGGStQ0vZAQKAjiHgTWdtlCIGcqVHdm46epcIjrEBuwq6qGHQ1gp7Tf0QznWcACPimgbkI5banyDTEFKBD5BunQ7k1RlZ2Q4Zd339GnvBv0CBTOFmh9Qnaenfr0Xuf7mAQhDmIKzyOtCc3xM64jL9PBS9iouPwK1r3HpU28nfqeljC9t",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 116091,
+      "createdOn": "2025-12-28T22:17:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac5e1c508c5d5e451bc9",
+          "products": [
+            {
+              "_id": "6951ac611c508c5d5e451cf4",
+              "name": "Shoes62528",
+              "amount": 179,
+              "price": 34548,
+              "manufacturer": "Xiaomi",
+              "notes": "HPPDGGWHAnfxA5idzQT2IR0y0H3OwLx6BeZlDuro3PlFox5bT49K3rAu0O1UMspzZoQ4uSSZkXg1VHniYG1nQVYlc5z4RDZtXmELOaDmCQ50Z3ZpUv3XAex6D2A2nU0s1CmgYBCxP8b5t2kq8E8aQYkYOhyLcVeX31offNpjzczUDtc4cTpjdxKce6sHDZZTl9ultc3dTJ4CaalNIgGnFbg0SK5EtNk1pTUB3HeqiZlBmhzqE5PZb9gOeQ",
+              "received": false
+            },
+            {
+              "_id": "6951ac661c508c5d5e451e67",
+              "name": "Shoes83813",
+              "amount": 128,
+              "price": 81543,
+              "manufacturer": "Google",
+              "notes": "jB1xgpBITtw8ky90O0gbJXhGxPttyBkA7etxaOrQF3Z77k6Cwap1x2QMhxczxAyRtrdXRkMbaoLGGStQ0vZAQKAjiHgTWdtlCIGcqVHdm46epcIjrEBuwq6qGHQ1gp7Tf0QznWcACPimgbkI5banyDTEFKBD5BunQ7k1RlZ2Q4Zd339GnvBv0CBTOFmh9Qnaenfr0Xuf7mAQhDmIKzyOtCc3xM64jL9PBS9iouPwK1r3HpU28nfqeljC9t",
+              "received": false
+            }
+          ],
+          "total_price": 116091,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:17:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ac661c508c5d5e451eac"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

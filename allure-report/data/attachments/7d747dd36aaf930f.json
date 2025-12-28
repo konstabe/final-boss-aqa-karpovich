@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:17:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-tkypkBwo9R8v5v8fQgddQzKHeNo\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac931c508c5d5e45357a",
+        "email": "Colby.Rempel@hotmail.com",
+        "name": "Miles Zemlak",
+        "country": "Belarus",
+        "city": "Abernathyport",
+        "street": "Carolina Lakes",
+        "house": 50,
+        "flat": 17,
+        "phone": "+17749287292",
+        "createdOn": "2025-12-28T22:17:55.000Z",
+        "notes": "2wLj7SDhH2Pvj2E7CzDSwEud4c3tvDQdUIUsqpaWhLqm7DAxLOMBcwHvFmuVM58LtrU4lzoYNHMeqlnBBO2Hskwk1Y3LXO5rOiNRG1BpymX7fG4AwQhuYOLBOsyySKR53UP3feigP1ORBDEuR6ufGvsDz8q30YRc3srLBXwIrrHtx5lfzdU0nyY3Hiv2zJXKDuCRgXbobkblBj6mWLMygvDLGbs1lDy6wyLq2Wy7HPJV2guBWv469dlDyc"
+      },
+      "products": [
+        {
+          "_id": "6951ac971c508c5d5e453629",
+          "name": "Keyboard36564",
+          "amount": 160,
+          "price": 17635,
+          "manufacturer": "Apple",
+          "notes": "eon98Syfz0v3Hgq30FSreuHyBQvHlPSCkfi7nmeJba2xhKf8wZz1qNkGB9OBbyOPO021YghwDa0yD5p2XUpUGvILFeWlDXUqCEEvGUXGxh2ycPVptx5BDvoLTnhR2XigARCdmQMKfWmIl77iNw21smycCjCRVAgQlbtjXiXI4ipRqX5cmoAblKYSnEb06qWg9GMxHUXDWrK7PxyTvA23doF3fWpueE5swP98nwCbhfB7jbPKOyRXASJPhE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 17635,
+      "createdOn": "2025-12-28T22:17:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac931c508c5d5e45357a",
+          "products": [
+            {
+              "_id": "6951ac971c508c5d5e453629",
+              "name": "Keyboard36564",
+              "amount": 160,
+              "price": 17635,
+              "manufacturer": "Apple",
+              "notes": "eon98Syfz0v3Hgq30FSreuHyBQvHlPSCkfi7nmeJba2xhKf8wZz1qNkGB9OBbyOPO021YghwDa0yD5p2XUpUGvILFeWlDXUqCEEvGUXGxh2ycPVptx5BDvoLTnhR2XigARCdmQMKfWmIl77iNw21smycCjCRVAgQlbtjXiXI4ipRqX5cmoAblKYSnEb06qWg9GMxHUXDWrK7PxyTvA23doF3fWpueE5swP98nwCbhfB7jbPKOyRXASJPhE",
+              "received": false
+            }
+          ],
+          "total_price": 17635,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:17:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ac971c508c5d5e453676"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

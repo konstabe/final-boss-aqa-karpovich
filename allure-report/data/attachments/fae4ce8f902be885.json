@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:18:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3902",
+    "etag": "W/\"f3e-kvmpqDKLI6H5k4lR1pwaEneVK8A\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951ac9b1c508c5d5e4538cd",
+      "status": "In Process",
+      "customer": {
+        "_id": "6951ac971c508c5d5e45362f",
+        "email": "Mercedes79@yahoo.com",
+        "name": "Mose Keebler",
+        "country": "USA",
+        "city": "New Tessieboro",
+        "street": "Gutkowski Underpass",
+        "house": 9,
+        "flat": 839,
+        "phone": "+13627646154",
+        "createdOn": "2025-12-28T22:17:59.000Z",
+        "notes": "aQU3D4jYakyb9c2ojCsBufpAG9qzJCwA1w6YwwfXq4gruD04Vyd4YOIhQFejL3UANveNfmpXwNPtvHUf2r2FZ3Hulf76jlvxHWB92gpWYv9ayN90fiOazEuOB6twMUv0snsBhwJygwGEdPSF8OS6bL4vrV6HaRWgN637SiKUG2xDY98B7WopxnYKLKirSz3ouBYhhqvOJ5CWpUhQW3jLhW4OOHdm8j6TTGZXTwLVQ5QgyVzGIL3JLUipGz"
+      },
+      "products": [
+        {
+          "_id": "6951ac9a1c508c5d5e453887",
+          "name": "Sausages84402",
+          "amount": 727,
+          "price": 81976,
+          "manufacturer": "Sony",
+          "notes": "4BfvryXfOej0k8URLXcUt78SQhwUAEztsL0vr7jujEJseHq5KWQgTNA541rTI3KvEH3GjLP1xhF0ZaCNuuMCTJHgWLaakGIfGbusmzEDosnkB0YX3tIZESsS0zQtdAriXWtlrCljMgHksafvcAJWVY7sQe1FtDFWQ4nBxyQybwje4edegMrYpNHGsB0ZYubr1J9AWOxQfFOFajz4r4DxfclRbuW5ELIbcKEq0dsk213pWSsncsMdZ25yKT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "New Tessieboro",
+          "street": "Gutkowski Underpass",
+          "house": 9,
+          "flat": 839
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 81976,
+      "createdOn": "2025-12-28T22:18:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6951ac971c508c5d5e45362f",
+          "products": [
+            {
+              "_id": "6951ac9a1c508c5d5e453887",
+              "name": "Sausages84402",
+              "amount": 727,
+              "price": 81976,
+              "manufacturer": "Sony",
+              "notes": "4BfvryXfOej0k8URLXcUt78SQhwUAEztsL0vr7jujEJseHq5KWQgTNA541rTI3KvEH3GjLP1xhF0ZaCNuuMCTJHgWLaakGIfGbusmzEDosnkB0YX3tIZESsS0zQtdAriXWtlrCljMgHksafvcAJWVY7sQe1FtDFWQ4nBxyQybwje4edegMrYpNHGsB0ZYubr1J9AWOxQfFOFajz4r4DxfclRbuW5ELIbcKEq0dsk213pWSsncsMdZ25yKT",
+              "received": false
+            }
+          ],
+          "total_price": 81976,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Tessieboro",
+              "street": "Gutkowski Underpass",
+              "house": 9,
+              "flat": 839
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-28T22:18:07.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ac971c508c5d5e45362f",
+          "products": [
+            {
+              "_id": "6951ac9a1c508c5d5e453887",
+              "name": "Sausages84402",
+              "amount": 727,
+              "price": 81976,
+              "manufacturer": "Sony",
+              "notes": "4BfvryXfOej0k8URLXcUt78SQhwUAEztsL0vr7jujEJseHq5KWQgTNA541rTI3KvEH3GjLP1xhF0ZaCNuuMCTJHgWLaakGIfGbusmzEDosnkB0YX3tIZESsS0zQtdAriXWtlrCljMgHksafvcAJWVY7sQe1FtDFWQ4nBxyQybwje4edegMrYpNHGsB0ZYubr1J9AWOxQfFOFajz4r4DxfclRbuW5ELIbcKEq0dsk213pWSsncsMdZ25yKT",
+              "received": false
+            }
+          ],
+          "total_price": 81976,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Tessieboro",
+              "street": "Gutkowski Underpass",
+              "house": 9,
+              "flat": 839
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-28T22:18:04.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ac971c508c5d5e45362f",
+          "products": [
+            {
+              "_id": "6951ac9a1c508c5d5e453887",
+              "name": "Sausages84402",
+              "amount": 727,
+              "price": 81976,
+              "manufacturer": "Sony",
+              "notes": "4BfvryXfOej0k8URLXcUt78SQhwUAEztsL0vr7jujEJseHq5KWQgTNA541rTI3KvEH3GjLP1xhF0ZaCNuuMCTJHgWLaakGIfGbusmzEDosnkB0YX3tIZESsS0zQtdAriXWtlrCljMgHksafvcAJWVY7sQe1FtDFWQ4nBxyQybwje4edegMrYpNHGsB0ZYubr1J9AWOxQfFOFajz4r4DxfclRbuW5ELIbcKEq0dsk213pWSsncsMdZ25yKT",
+              "received": false
+            }
+          ],
+          "total_price": 81976,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:18:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

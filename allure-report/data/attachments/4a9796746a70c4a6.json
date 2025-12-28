@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:17:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-EIBq1ABkmd7nxZ/8oB7Yl8S1mGg\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac7f1c508c5d5e452a53",
+        "email": "Madaline_Purdy28@gmail.com",
+        "name": "Newton Hilpert",
+        "country": "Germany",
+        "city": "Arnulfoworth",
+        "street": "High Road",
+        "house": 3,
+        "flat": 530,
+        "phone": "+12672243673",
+        "createdOn": "2025-12-28T22:17:35.000Z",
+        "notes": "xavVEdaQ2iBWT0lbEEGP7Ul3NIpOt2jWpHhBme6XJihQf1fPOEhJS0D42WdsAPQpQpqbi7EDh5Er7jso9wclUgIzeALzqcFrKBZHlXwGeF860OgSVPwFAhYTSlgS1zwsSFyHq9wFfuNGDCivqNHz9SVoeqSmigHsgb7ZGWP96UsiCOfhzY1c9Zooga20H4glbCJLYwRg8zIL0eDzPgTMJyCiARYhizpLQEdvlfWQfe5DLiKPmFT7xvhIRy"
+      },
+      "products": [
+        {
+          "_id": "6951ac821c508c5d5e452b13",
+          "name": "Cheese72845",
+          "amount": 452,
+          "price": 43823,
+          "manufacturer": "Xiaomi",
+          "notes": "M4Sqv8HuAbAtebhVUargOoMBNzTSdaerZozx55O1Bv08G6zWW3l63TsX5MeKZgR6BoVfSSpvV4UCNiU5djiJBJVYezoihYthldXJeDAUTo7PyBfPNlMDM6BS5ws5NwwDd0nX9Ajb2nMDDbf0BGEHJVAfYzxTZ6Y85OOm65IiStyRqHDb9nqmziJQfysrYdgfSDzxjy0ENCeouKNGhmRVX9xdsqC7ZVNi0RpG0UVlMGw2nSjKJW5mDogzQz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 43823,
+      "createdOn": "2025-12-28T22:17:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac7f1c508c5d5e452a53",
+          "products": [
+            {
+              "_id": "6951ac821c508c5d5e452b13",
+              "name": "Cheese72845",
+              "amount": 452,
+              "price": 43823,
+              "manufacturer": "Xiaomi",
+              "notes": "M4Sqv8HuAbAtebhVUargOoMBNzTSdaerZozx55O1Bv08G6zWW3l63TsX5MeKZgR6BoVfSSpvV4UCNiU5djiJBJVYezoihYthldXJeDAUTo7PyBfPNlMDM6BS5ws5NwwDd0nX9Ajb2nMDDbf0BGEHJVAfYzxTZ6Y85OOm65IiStyRqHDb9nqmziJQfysrYdgfSDzxjy0ENCeouKNGhmRVX9xdsqC7ZVNi0RpG0UVlMGw2nSjKJW5mDogzQz",
+              "received": false
+            }
+          ],
+          "total_price": 43823,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:17:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ac821c508c5d5e452b49"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

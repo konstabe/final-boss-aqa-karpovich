@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:17:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2643",
+    "etag": "W/\"a53-hc6SXl2WVa3Go7AAOS0WC52swAQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac7e1c508c5d5e452964",
+        "email": "Millie0@gmail.com",
+        "name": "Rosalia Fritsch",
+        "country": "Germany",
+        "city": "West Chet",
+        "street": "Larissa Fork",
+        "house": 4,
+        "flat": 265,
+        "phone": "+17312333918",
+        "createdOn": "2025-12-28T22:17:34.000Z",
+        "notes": "RPuJiDMvrnIQE1FVsd6Lg748J2UpW9THPUTMWWJ6bwHGkc3MSqzsqNaGOhXZxSTriSLitb0ZYGmLE948PZOAnkKgRIZ0UVn72X0dp6bvfo4x2k4e8IeNOiLJElFHOkYtN9zRT4637YFIp5kg7kbWlGpYYB7gCloZC3C8cd211aScozoY7zNrwSoNpU1l9bc80XaCO85IhDnfweYG0pV0rVB6q1JDgvmC2EyVtWqORzE9cNg6xm520gjuiA"
+      },
+      "products": [
+        {
+          "_id": "6951ac811c508c5d5e452af4",
+          "name": "Chicken14661",
+          "amount": 585,
+          "price": 1470,
+          "manufacturer": "Amazon",
+          "notes": "UwUUNeWAI7pYfuOFQGuLgI2W52fxOF9KJahR2cyJ4p72ObRXs4mrg0dsl2dFgx9nHKAxiY6uO6OcdC3JukZ6sWIqBmFGSI1u12KXYAXTqVshVZCpLJwDMVVrGbDvfVgNqm2G5RnB2JZEJcu6naszsz8NsP5Q4XCZLZqYWLDkW0o45gz0o2w6bzZ5qexR9b4Ss5rGqVw3ZPAixsoQHYZX6YjtmWoFRgkd96uTbczlzpAhwCtfI5T0pIcJ9W",
+          "received": false
+        },
+        {
+          "_id": "6951ac841c508c5d5e452c3b",
+          "name": "Hat20472",
+          "amount": 245,
+          "price": 79406,
+          "manufacturer": "Xiaomi",
+          "notes": "piJqXGKvjH7uqxR4AFRwdXPCM501zKFxiVCfhVjGfAL4shk8LYT4LSHiWMMN8R6XeHSVKxvhvbNFNYj27ZU5VG7ODbZhNX9ElqlV342KzIV0rBOHUBC5ylq7xZGT03QoMQTeKVAWlmS2500ll0UaXwySwPAeEGCicb8s3x5usmyaTTCAeDCPPxMibq3QSLOLrTtU45egk2Epz7ARQ52xVCy3wVDPHdGHrCqOJjXYxjk27OVdvDAXiRi0ZX",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 80876,
+      "createdOn": "2025-12-28T22:17:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac7e1c508c5d5e452964",
+          "products": [
+            {
+              "_id": "6951ac811c508c5d5e452af4",
+              "name": "Chicken14661",
+              "amount": 585,
+              "price": 1470,
+              "manufacturer": "Amazon",
+              "notes": "UwUUNeWAI7pYfuOFQGuLgI2W52fxOF9KJahR2cyJ4p72ObRXs4mrg0dsl2dFgx9nHKAxiY6uO6OcdC3JukZ6sWIqBmFGSI1u12KXYAXTqVshVZCpLJwDMVVrGbDvfVgNqm2G5RnB2JZEJcu6naszsz8NsP5Q4XCZLZqYWLDkW0o45gz0o2w6bzZ5qexR9b4Ss5rGqVw3ZPAixsoQHYZX6YjtmWoFRgkd96uTbczlzpAhwCtfI5T0pIcJ9W",
+              "received": false
+            },
+            {
+              "_id": "6951ac841c508c5d5e452c3b",
+              "name": "Hat20472",
+              "amount": 245,
+              "price": 79406,
+              "manufacturer": "Xiaomi",
+              "notes": "piJqXGKvjH7uqxR4AFRwdXPCM501zKFxiVCfhVjGfAL4shk8LYT4LSHiWMMN8R6XeHSVKxvhvbNFNYj27ZU5VG7ODbZhNX9ElqlV342KzIV0rBOHUBC5ylq7xZGT03QoMQTeKVAWlmS2500ll0UaXwySwPAeEGCicb8s3x5usmyaTTCAeDCPPxMibq3QSLOLrTtU45egk2Epz7ARQ52xVCy3wVDPHdGHrCqOJjXYxjk27OVdvDAXiRi0ZX",
+              "received": false
+            }
+          ],
+          "total_price": 80876,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:17:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ac841c508c5d5e452c69"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:19:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-5cGJxZSlwiBRQ3VEq2u/se3+7pI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951acd01c508c5d5e455300",
+        "email": "Justus_Rodriguez@hotmail.com",
+        "name": "Amber Kohler",
+        "country": "Great Britain",
+        "city": "Canton",
+        "street": "Crown Street",
+        "house": 12,
+        "flat": 602,
+        "phone": "+19635371360",
+        "createdOn": "2025-12-28T22:18:56.000Z",
+        "notes": "beQbH6YJC4MLqtCfJ9ux2yRo4fdmRaPMofpZhCLMyD1V6jxfAnkSeo4dgyRiH3q04abVfdjIs2YLenhTtZtMGadRDBkprY4kY2ngcQB5LFUp4Ww372HiX7VKdPMbK8tUoFWsWieCr1s8EL3f2EXyyFWcfHElrA7PnY27ozIJxBqrymjjRCmhYkCMKamyP5LHStswUE9zJpylqPiXCMVdpTWWEJzGEVuJUsfeHSYWcDHd4kgBHdjG3QQvNX"
+      },
+      "products": [
+        {
+          "_id": "6951acd31c508c5d5e455359",
+          "name": "Shoes34071",
+          "amount": 506,
+          "price": 28936,
+          "manufacturer": "Sony",
+          "notes": "ic8PKiBgqrVuJKltf8ctKYXnaCy6Ml7mmSUv2hYpxuXE2um9wkOVHykRNhNNLlnVmvhEuLAkk735W22n1R2PMONfwK68OCDqpFjbBDN0yHt1ZEKTKDPBDXwRkFe6wQlKsfwf8qiqCoboi7VWecJBd7tbVG5Oao7j4QBVsPw2cldBFfTXVm0VvUWpSw7zw67SCGADBYP9JAP2fRgaLcBeHM5eECxG1h3vjTTyJVMLug3d8r1oTRhOhZzLGI",
+          "received": false
+        },
+        {
+          "_id": "6951acd71c508c5d5e455584",
+          "name": "Soap40319",
+          "amount": 593,
+          "price": 82024,
+          "manufacturer": "Sony",
+          "notes": "mZJnJNQUyGoMBqIeOqGK5Tl9AR7oBEr7Ia914T89RDgpA0sD5ouqcOHuVHHVNX0xVfc6gTT6ID70jziMsy7hrGfCFbBqloyTqTtcC85ViNiEutEklcJIUNRR8E3X61tzG7SK9jdqhCd8cc21O3vEQqIE8ko6Cr9NGmpqrN35L0cICvkwBgJGQ46LizRWe1v3xzhAaFZSjzvQ0kCo63sEGkwaj2KXGOkdhO3DGB7ecr1FvsmFVhdreYk3KZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 110960,
+      "createdOn": "2025-12-28T22:19:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951acd01c508c5d5e455300",
+          "products": [
+            {
+              "_id": "6951acd31c508c5d5e455359",
+              "name": "Shoes34071",
+              "amount": 506,
+              "price": 28936,
+              "manufacturer": "Sony",
+              "notes": "ic8PKiBgqrVuJKltf8ctKYXnaCy6Ml7mmSUv2hYpxuXE2um9wkOVHykRNhNNLlnVmvhEuLAkk735W22n1R2PMONfwK68OCDqpFjbBDN0yHt1ZEKTKDPBDXwRkFe6wQlKsfwf8qiqCoboi7VWecJBd7tbVG5Oao7j4QBVsPw2cldBFfTXVm0VvUWpSw7zw67SCGADBYP9JAP2fRgaLcBeHM5eECxG1h3vjTTyJVMLug3d8r1oTRhOhZzLGI",
+              "received": false
+            },
+            {
+              "_id": "6951acd71c508c5d5e455584",
+              "name": "Soap40319",
+              "amount": 593,
+              "price": 82024,
+              "manufacturer": "Sony",
+              "notes": "mZJnJNQUyGoMBqIeOqGK5Tl9AR7oBEr7Ia914T89RDgpA0sD5ouqcOHuVHHVNX0xVfc6gTT6ID70jziMsy7hrGfCFbBqloyTqTtcC85ViNiEutEklcJIUNRR8E3X61tzG7SK9jdqhCd8cc21O3vEQqIE8ko6Cr9NGmpqrN35L0cICvkwBgJGQ46LizRWe1v3xzhAaFZSjzvQ0kCo63sEGkwaj2KXGOkdhO3DGB7ecr1FvsmFVhdreYk3KZ",
+              "received": false
+            }
+          ],
+          "total_price": 110960,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:19:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951acd71c508c5d5e4555cb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

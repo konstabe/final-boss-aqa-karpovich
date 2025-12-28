@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:17:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2658",
+    "etag": "W/\"a62-wVz/li5+c5nfZzYAQWA+qh/oHRk\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac5b1c508c5d5e451a9c",
+        "email": "Chesley_McClure@gmail.com",
+        "name": "Cristobal Reichert",
+        "country": "Canada",
+        "city": "East Makenzie",
+        "street": "W Front Street",
+        "house": 10,
+        "flat": 651,
+        "phone": "+14558750367",
+        "createdOn": "2025-12-28T22:16:59.000Z",
+        "notes": "zAa88T1LQhi2aRmyD7Hf1hU4KluxR7oWIJ2p5ftImLCeNPWV7lQQuAy947kQns5RfH7AooWOKgnPlH17MhyCkIVzVD8Y3aNHsFBZFcnIQkAaNO0RfK5IoYOgcB3drldHGwTxbvHyRnsUNytPpjtFkflvdb5x6KL9ZsAGcyK3YpNwWQLZJLqbehhtS9p8h0NxmCWFJ6xc8zUlZeoMy0WaGetOrqxVII697UbKTlnG2DHMFteMDTlNIHtzPw"
+      },
+      "products": [
+        {
+          "_id": "6951ac5e1c508c5d5e451bbf",
+          "name": "Mouse15806",
+          "amount": 20,
+          "price": 7447,
+          "manufacturer": "Apple",
+          "notes": "LpfPdZYmmB4Xg25rFSpIXeGtPQFvStgdVGgne44hRNEJYI35CSwCMgtpmQf1gqcjO3pX0vzAtqWQsTD4b3TAAAflTIp3SkOy1mlVUhoV6Wl8kFr0jGGMGbor1Yb9iFvrbyT4jZOWVKEPSLD3EWckJud2RIdfVsaiVS3JOKcy8Ts12oYSIZxWiBYj6bDTHTkyXRuQi3QdcPjOs7X6gd5L0EhlYdvE1aTNip6SFw1jOT4rq3gquKvh1jrFsE",
+          "received": false
+        },
+        {
+          "_id": "6951ac611c508c5d5e451cf2",
+          "name": "Cheese73321",
+          "amount": 497,
+          "price": 67805,
+          "manufacturer": "Amazon",
+          "notes": "sWZgMwjErok1rbcEpzgAGte8f2pKPH6sA7cQeGA51eyfPMMIXHIGnl8VEZ8TaLZUVZcNeh5gtSiZmu0RLNrOjWUBcc06LPMXqJEQeRtxsE8BCxamUxxL7uJXfGBfFf8BWoI8cyNRcPMQKFx0VGVTHlNdSRi5kJzrkDU5hDpwQlCAjnUA7SfeCURL4lGTD6n9w4ru5DgNdjB2WEGo232jmVy18MuATQjXWswXCEKH3GXgxuSGGkvII9zryA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 75252,
+      "createdOn": "2025-12-28T22:17:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac5b1c508c5d5e451a9c",
+          "products": [
+            {
+              "_id": "6951ac5e1c508c5d5e451bbf",
+              "name": "Mouse15806",
+              "amount": 20,
+              "price": 7447,
+              "manufacturer": "Apple",
+              "notes": "LpfPdZYmmB4Xg25rFSpIXeGtPQFvStgdVGgne44hRNEJYI35CSwCMgtpmQf1gqcjO3pX0vzAtqWQsTD4b3TAAAflTIp3SkOy1mlVUhoV6Wl8kFr0jGGMGbor1Yb9iFvrbyT4jZOWVKEPSLD3EWckJud2RIdfVsaiVS3JOKcy8Ts12oYSIZxWiBYj6bDTHTkyXRuQi3QdcPjOs7X6gd5L0EhlYdvE1aTNip6SFw1jOT4rq3gquKvh1jrFsE",
+              "received": false
+            },
+            {
+              "_id": "6951ac611c508c5d5e451cf2",
+              "name": "Cheese73321",
+              "amount": 497,
+              "price": 67805,
+              "manufacturer": "Amazon",
+              "notes": "sWZgMwjErok1rbcEpzgAGte8f2pKPH6sA7cQeGA51eyfPMMIXHIGnl8VEZ8TaLZUVZcNeh5gtSiZmu0RLNrOjWUBcc06LPMXqJEQeRtxsE8BCxamUxxL7uJXfGBfFf8BWoI8cyNRcPMQKFx0VGVTHlNdSRi5kJzrkDU5hDpwQlCAjnUA7SfeCURL4lGTD6n9w4ru5DgNdjB2WEGo232jmVy18MuATQjXWswXCEKH3GXgxuSGGkvII9zryA",
+              "received": false
+            }
+          ],
+          "total_price": 75252,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:17:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ac631c508c5d5e451d3a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

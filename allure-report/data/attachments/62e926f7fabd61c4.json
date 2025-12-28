@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:17:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-sqZjdDVbkW3L0FfWFX/ZLS1zIAM\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac5b1c508c5d5e451a9a",
+        "email": "Murray25@yahoo.com",
+        "name": "Imogene Ebert",
+        "country": "Canada",
+        "city": "New Jaidaboro",
+        "street": "Gutkowski Walks",
+        "house": 37,
+        "flat": 112,
+        "phone": "+15562047792",
+        "createdOn": "2025-12-28T22:16:59.000Z",
+        "notes": "3WMJn9cQMBfh7Jp7FVj081oMQgtKd1wr46qxWiMPzSn1eVvMtSPceYbWIApje7JgjpsfNFkpeTwvzMrh53Ph3F2wLbF4L5vj2ZQeDMwlFVeIlu8YfDE74cEUTfsHy84Lz2u3UvwbnUnUw8yGFj72S60o8zEYPH5hH76vo2A43E0NU8W4FPQx35VK0dSdN1vM4zr5ibKj8lGqhp5QhMuP5qToP1GIJywpAJJbOce53rLYHLaT31LJc2G8Nm"
+      },
+      "products": [
+        {
+          "_id": "6951ac5d1c508c5d5e451b7f",
+          "name": "Table366",
+          "amount": 193,
+          "price": 66119,
+          "manufacturer": "Sony",
+          "notes": "4tc3chTnPgy1Iey6FStvbsZCL7RFlHkijD4F00nfbcxUnDWAov1Hw7Kg8ababXR53wRzyZUPelc3wpSUAkKizMVv9KfgQJIhWia9oOrkylLxVZkiJ4lR7n7SEL3tyo9i71HCmE6OzdfnxNhT9j4BPTuq8grNMDSlNRryQ26yIBDnsFLpUUSxz2i5kINAcWZ9rT0AvDOONle9W6hBlG9exUte7pt1sLZNcgQVWvJA5n8MsaPK8su4A1NXQ1",
+          "received": false
+        },
+        {
+          "_id": "6951ac601c508c5d5e451ce5",
+          "name": "Ball90849",
+          "amount": 221,
+          "price": 35239,
+          "manufacturer": "Microsoft",
+          "notes": "jOuySZ7XuPTePcBpWRVJ7731iEDS9AXvMjidCNRMSMnGwC0qnmWNVuqMeB8rgAsHehTIZGG3MLi7Tn2FZhfrKerV5tzG7QPbaOQjQxManbXH02GILUhim2ZqG7I5LDCd1mvYDyJzhNm9EDnvQUfXYUpN8S5F9nVipNEsOx0T5fHM3WXiQhMlPqgdnYC6WQFCm2SZc35mo8W8lTOAQ78TJlXz0FHAbsp8GbQLpIo06VnBGiYZgKolSNg9sA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 101358,
+      "createdOn": "2025-12-28T22:17:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac5b1c508c5d5e451a9a",
+          "products": [
+            {
+              "_id": "6951ac5d1c508c5d5e451b7f",
+              "name": "Table366",
+              "amount": 193,
+              "price": 66119,
+              "manufacturer": "Sony",
+              "notes": "4tc3chTnPgy1Iey6FStvbsZCL7RFlHkijD4F00nfbcxUnDWAov1Hw7Kg8ababXR53wRzyZUPelc3wpSUAkKizMVv9KfgQJIhWia9oOrkylLxVZkiJ4lR7n7SEL3tyo9i71HCmE6OzdfnxNhT9j4BPTuq8grNMDSlNRryQ26yIBDnsFLpUUSxz2i5kINAcWZ9rT0AvDOONle9W6hBlG9exUte7pt1sLZNcgQVWvJA5n8MsaPK8su4A1NXQ1",
+              "received": false
+            },
+            {
+              "_id": "6951ac601c508c5d5e451ce5",
+              "name": "Ball90849",
+              "amount": 221,
+              "price": 35239,
+              "manufacturer": "Microsoft",
+              "notes": "jOuySZ7XuPTePcBpWRVJ7731iEDS9AXvMjidCNRMSMnGwC0qnmWNVuqMeB8rgAsHehTIZGG3MLi7Tn2FZhfrKerV5tzG7QPbaOQjQxManbXH02GILUhim2ZqG7I5LDCd1mvYDyJzhNm9EDnvQUfXYUpN8S5F9nVipNEsOx0T5fHM3WXiQhMlPqgdnYC6WQFCm2SZc35mo8W8lTOAQ78TJlXz0FHAbsp8GbQLpIo06VnBGiYZgKolSNg9sA",
+              "received": false
+            }
+          ],
+          "total_price": 101358,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:17:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ac631c508c5d5e451d38"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

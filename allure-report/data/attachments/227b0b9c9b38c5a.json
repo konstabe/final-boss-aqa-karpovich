@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:17:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2964",
+    "etag": "W/\"b94-MSe8MDoMkWbKMuh7qKPjNgoQqmI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951ac751c508c5d5e4524bf",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac6c1c508c5d5e45218c",
+        "email": "Erick_Zieme70@yahoo.com",
+        "name": "Penelope Gislason",
+        "country": "Germany",
+        "city": "Nestorworth",
+        "street": "Hammes Tunnel",
+        "house": 23,
+        "flat": 789,
+        "phone": "+19243383955",
+        "createdOn": "2025-12-28T22:17:16.000Z",
+        "notes": "LzlSuc6O8wSydE7Xamp7fT3l9q1M8HAHLNaafdR9BfP7dbSOeJU4mSRkZ2UXZvkpxb83EC636jeDUOG9H8vOGgOXFzuJtTn2QJs8zm6ZiQbQMzYV0FEhnCRR74gliNPpzoTGII66BlK1ss6tkEZTIOLvjjKB30335KkdWe3zGjsG7UnQG75XdWKamIhPMC4HWwPQXbLHi759XxbK638uJk6QPAr8nZkJWoUnROEkmwgReEyfRgvtEW9qV7"
+      },
+      "products": [
+        {
+          "_id": "6951ac711c508c5d5e452320",
+          "name": "Computer97343",
+          "amount": 16,
+          "price": 46774,
+          "manufacturer": "Microsoft",
+          "notes": "61Z5gTEjg5YY5QY5aHzTTuk6gS8wiMRCUVmy85bJHrhPrehkd7jFcfCVPJxoEf7c21PDOWPbz7TlzEAn0C9S58SMP8aSrhXpVqXP6t7yxrqrw248YhDD3SGZSv4dG96BwLZrLi1QDcVoGm1es7YOEbXQD5tXuNaDvKE9TrIjUJR1zrfbhB0vgukwucu8yYjfNpdLJZNbhUSogpYlBBSNrEfEIOlUHHuQRXXOGTjjSovnnTIYkAQMcYp7GK",
+          "received": false
+        },
+        {
+          "_id": "6951ac741c508c5d5e45248c",
+          "name": "Table1525",
+          "amount": 289,
+          "price": 52890,
+          "manufacturer": "Microsoft",
+          "notes": "xTj8eHYUXdbQKWxfeMhGQVu4LGAqJNXcYrt6saM608XS0SDsRru7fND00VZ59td5VIPSpjl83xOWsOwF2ScXcqhVwweLKurmVsVY2QpNFto21lqd9o7Hkpf56BVXSkBL2vlEZwYpjqY1bYo7tuE9XBEXtuLKK8Ncafo7i4KSnhrJy573KSZuhtj0JoSJGV1hx3ijm0Gl26UWp8AlBP24YQeGk4InqJi7BcJUlHNzr6CD4DkbDWn5SyJ0z8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 99664,
+      "createdOn": "2025-12-28T22:17:25.000Z",
+      "comments": [
+        {
+          "text": "<script>X5oCgPcVWO9a6HAxCLNmyvY0rnrYTZj80ckV9JL2bBx2BO761xPU4QG5NK4tan1BBll3CpNYm5b0Pt5JByskBKRpasUYg5Xl1LxUQ0iNaKfMp9D0WVzr8tirB7UIFdPMOYXCUolS5StkNAvgZzIpxlJcmOzJcFtskLRt8SBgLqyEU3PeJMpcDy45f6TKA2fgGszVQibP >",
+          "createdOn": "2025-12-28T22:17:25.000Z",
+          "_id": "6951ac751c508c5d5e4524fb"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac6c1c508c5d5e45218c",
+          "products": [
+            {
+              "_id": "6951ac711c508c5d5e452320",
+              "name": "Computer97343",
+              "amount": 16,
+              "price": 46774,
+              "manufacturer": "Microsoft",
+              "notes": "61Z5gTEjg5YY5QY5aHzTTuk6gS8wiMRCUVmy85bJHrhPrehkd7jFcfCVPJxoEf7c21PDOWPbz7TlzEAn0C9S58SMP8aSrhXpVqXP6t7yxrqrw248YhDD3SGZSv4dG96BwLZrLi1QDcVoGm1es7YOEbXQD5tXuNaDvKE9TrIjUJR1zrfbhB0vgukwucu8yYjfNpdLJZNbhUSogpYlBBSNrEfEIOlUHHuQRXXOGTjjSovnnTIYkAQMcYp7GK",
+              "received": false
+            },
+            {
+              "_id": "6951ac741c508c5d5e45248c",
+              "name": "Table1525",
+              "amount": 289,
+              "price": 52890,
+              "manufacturer": "Microsoft",
+              "notes": "xTj8eHYUXdbQKWxfeMhGQVu4LGAqJNXcYrt6saM608XS0SDsRru7fND00VZ59td5VIPSpjl83xOWsOwF2ScXcqhVwweLKurmVsVY2QpNFto21lqd9o7Hkpf56BVXSkBL2vlEZwYpjqY1bYo7tuE9XBEXtuLKK8Ncafo7i4KSnhrJy573KSZuhtj0JoSJGV1hx3ijm0Gl26UWp8AlBP24YQeGk4InqJi7BcJUlHNzr6CD4DkbDWn5SyJ0z8",
+              "received": false
+            }
+          ],
+          "total_price": 99664,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:17:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

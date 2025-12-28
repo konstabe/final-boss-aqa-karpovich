@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:17:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-7YfpyRgu6NwXDOQ2cyUmTRdfAFo\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac881c508c5d5e452e9f",
+        "email": "Hillary19@hotmail.com",
+        "name": "Astrid Spencer",
+        "country": "Ukraine",
+        "city": "Cutler Bay",
+        "street": "Candice Mill",
+        "house": 22,
+        "flat": 347,
+        "phone": "+17403650622",
+        "createdOn": "2025-12-28T22:17:44.000Z",
+        "notes": "piJIqRUEl0uS2hYwBoCHSdInpiFBDKiezCD062jA3HyATWUzYF31kJiTdsGLwkUBxk7PDFHPE2xHBJApfnRtoG0pAZjcssuRfDRicoxHnag5dpbC31RwDmsP41N0vFZzE9v9iAojg9PdGzfXWvZXHrr9BcleBP6GaGSACW2Pn4k1Vflw8Y6rXxVjphYzJI4tE12A9ELJlf0AnYnDwVpHtRpOIEY6NcUBJ8MsgUp8dCcYEVauhh8vYHJS6S"
+      },
+      "products": [
+        {
+          "_id": "6951ac8b1c508c5d5e453006",
+          "name": "Gloves24647",
+          "amount": 198,
+          "price": 58382,
+          "manufacturer": "Sony",
+          "notes": "ogqgMio9liGixbqESOsx2k4L4nAiHHDWcap4J8FrGQUX4a5G1qEzNm1fMGcq1EBZO9DP7n7ZcBc4mb99ERAdLR9E1QImGocqThVnWmDdKwPmtDFin8bwXptfrpyV1lzO2uEp6IKrzJzx1I7DfkqpPq4YTTuSNwFRvw18UX1gjbMnAtdqCbElGnwu8y1X0aMexjPPK2HoW830WgZBwwHRqW7ZPd5cfpDVH2EVwgdkwrfLJLOF3wMOFblZUy",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 58382,
+      "createdOn": "2025-12-28T22:17:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac881c508c5d5e452e9f",
+          "products": [
+            {
+              "_id": "6951ac8b1c508c5d5e453006",
+              "name": "Gloves24647",
+              "amount": 198,
+              "price": 58382,
+              "manufacturer": "Sony",
+              "notes": "ogqgMio9liGixbqESOsx2k4L4nAiHHDWcap4J8FrGQUX4a5G1qEzNm1fMGcq1EBZO9DP7n7ZcBc4mb99ERAdLR9E1QImGocqThVnWmDdKwPmtDFin8bwXptfrpyV1lzO2uEp6IKrzJzx1I7DfkqpPq4YTTuSNwFRvw18UX1gjbMnAtdqCbElGnwu8y1X0aMexjPPK2HoW830WgZBwwHRqW7ZPd5cfpDVH2EVwgdkwrfLJLOF3wMOFblZUy",
+              "received": false
+            }
+          ],
+          "total_price": 58382,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:17:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ac8b1c508c5d5e453022"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

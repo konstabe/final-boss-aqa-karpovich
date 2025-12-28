@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:18:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2638",
+    "etag": "W/\"a4e-qYSH5j/3mzvFuZBMdDQ/PNef53Y\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951acc61c508c5d5e454d71",
+        "email": "Zoey72@gmail.com",
+        "name": "Jillian Pagac",
+        "country": "USA",
+        "city": "North Janie",
+        "street": "S East Street",
+        "house": 47,
+        "flat": 445,
+        "phone": "+18565624747",
+        "createdOn": "2025-12-28T22:18:46.000Z",
+        "notes": "tqlKs7AwnQ05iasIDn1IFbgOYniwo0Y6ZGrUtXd7rKoclgU3fBQDYJV4PXmQByhMSgwy5BUtqa3PdpCCuw5vgdSFiq1AXOHeujKY568u3nMyfpYMyExNCzjeSDvqQIoCEN3hjoBMero4SXZCZMm3ZDVPl0pgPv36L66Le3SpurUI5qycf2YqjVdPLY0UOyI902HbW47gDJ21haG05hmqkrzVnRf2GrsYHcp5rHv4ASXsHnJKRYUIGaV4xU"
+      },
+      "products": [
+        {
+          "_id": "6951acc81c508c5d5e454efe",
+          "name": "Shirt8159",
+          "amount": 504,
+          "price": 13614,
+          "manufacturer": "Xiaomi",
+          "notes": "NDbYGLp01M4wSAUMYSg2chCOo5vFTmzp3Ul6xtWoxrAivCkxM0StsjmFPLOTHEO8KtVM0SHiuxm8S6BIcHLQa3vWR08PJL3vfwnK3E8KeWBCT9aIgnizsH5S3nVzd80EVpz7b2NC76eC6UjbMT1cbbwTCMBVvKhMMtfbTUNxepjeMsjeWZXP3T1hj0VS4VS9rhC68HwVQQ04SVZImK03oMN9ki92UsHjOpd5p6IwdW4tQb7YOJL6BretZA",
+          "received": false
+        },
+        {
+          "_id": "6951accb1c508c5d5e454fe3",
+          "name": "Pants66492",
+          "amount": 82,
+          "price": 72523,
+          "manufacturer": "Xiaomi",
+          "notes": "iH0wPnTzCRAoxfaMapm7YWADgGdztoBVpZ4SeRhExfY1fQ4z9RJpmVAyxJjyVPeFN7Y8RBHQEICE4kIEqgXYwU0AtN5K9wMvLC9WMbweMUz0Vt4Y77TdvcKd5hU1X6kDsKs7uFIPJRdmMgYd1PYCUzDGq6S047hWOyiW76FO0YGIXZ17EPNEJrjzJa10ykMPnZHsnWTREc8IFqlMPyUvqD4qzNMgxPo1wQc98MW0nAYlyyWyTC4H8GKbcg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 86137,
+      "createdOn": "2025-12-28T22:18:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951acc61c508c5d5e454d71",
+          "products": [
+            {
+              "_id": "6951acc81c508c5d5e454efe",
+              "name": "Shirt8159",
+              "amount": 504,
+              "price": 13614,
+              "manufacturer": "Xiaomi",
+              "notes": "NDbYGLp01M4wSAUMYSg2chCOo5vFTmzp3Ul6xtWoxrAivCkxM0StsjmFPLOTHEO8KtVM0SHiuxm8S6BIcHLQa3vWR08PJL3vfwnK3E8KeWBCT9aIgnizsH5S3nVzd80EVpz7b2NC76eC6UjbMT1cbbwTCMBVvKhMMtfbTUNxepjeMsjeWZXP3T1hj0VS4VS9rhC68HwVQQ04SVZImK03oMN9ki92UsHjOpd5p6IwdW4tQb7YOJL6BretZA",
+              "received": false
+            },
+            {
+              "_id": "6951accb1c508c5d5e454fe3",
+              "name": "Pants66492",
+              "amount": 82,
+              "price": 72523,
+              "manufacturer": "Xiaomi",
+              "notes": "iH0wPnTzCRAoxfaMapm7YWADgGdztoBVpZ4SeRhExfY1fQ4z9RJpmVAyxJjyVPeFN7Y8RBHQEICE4kIEqgXYwU0AtN5K9wMvLC9WMbweMUz0Vt4Y77TdvcKd5hU1X6kDsKs7uFIPJRdmMgYd1PYCUzDGq6S047hWOyiW76FO0YGIXZ17EPNEJrjzJa10ykMPnZHsnWTREc8IFqlMPyUvqD4qzNMgxPo1wQc98MW0nAYlyyWyTC4H8GKbcg",
+              "received": false
+            }
+          ],
+          "total_price": 86137,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:18:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951accb1c508c5d5e45501e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

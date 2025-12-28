@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:17:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-zKmIV7rOi0mWfCCDEu/D2d6viyM\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac751c508c5d5e452505",
+        "email": "Sophia.Marks@gmail.com",
+        "name": "Cristopher Braun",
+        "country": "France",
+        "city": "North Ivaton",
+        "street": "Lane Lane",
+        "house": 43,
+        "flat": 481,
+        "phone": "+16617023266",
+        "createdOn": "2025-12-28T22:17:25.000Z",
+        "notes": "bzkdjbXqgLSra2uPklXVpHQLNyktGghn1Y0Fvz69LBowvRpDCVfFWp9ALOAGn0Zii7V6TsYLm8u8R7i7igHl2vQje2VgIaA7YoCfa3V1tVZAwxdj3yLFLaJZtCCTH6GZlgaAjGfStzlyanxgVj4dV1mHUb5foK8nZcx68lrv6QZfwCGeEoIceZLJvll6DSocCMsJqaWvArjUb2YUacx0T8XIlqop8dyK9vJYGxtfaHfMwQUpEKD8T3xF9j"
+      },
+      "products": [
+        {
+          "_id": "6951ac781c508c5d5e452670",
+          "name": "Hat48090",
+          "amount": 119,
+          "price": 98318,
+          "manufacturer": "Microsoft",
+          "notes": "Kggo6GKtbX99DUZaGSTT8dpYz27ZKkV1a81UhRyBMXXqusEw0eJk1PChUQbd9mnkS529qQmlhpphVXA7sMaM08Ro28hhYBcWa4Nlt1ywk5Ch1PIyNbscwAlOYBXJ01h7EGGIBcSLi4ZzBtF7IhMpvJIXrTuyTFsAAAHgWr7YZouHGm2Sy2pxB9tdiOzFtdk0X2GCy4d7M9wgqPK1KZulXjVJXLxjPCydvYiRiD2ZRK3BQrHlRO2685H9vi",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98318,
+      "createdOn": "2025-12-28T22:17:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac751c508c5d5e452505",
+          "products": [
+            {
+              "_id": "6951ac781c508c5d5e452670",
+              "name": "Hat48090",
+              "amount": 119,
+              "price": 98318,
+              "manufacturer": "Microsoft",
+              "notes": "Kggo6GKtbX99DUZaGSTT8dpYz27ZKkV1a81UhRyBMXXqusEw0eJk1PChUQbd9mnkS529qQmlhpphVXA7sMaM08Ro28hhYBcWa4Nlt1ywk5Ch1PIyNbscwAlOYBXJ01h7EGGIBcSLi4ZzBtF7IhMpvJIXrTuyTFsAAAHgWr7YZouHGm2Sy2pxB9tdiOzFtdk0X2GCy4d7M9wgqPK1KZulXjVJXLxjPCydvYiRiD2ZRK3BQrHlRO2685H9vi",
+              "received": false
+            }
+          ],
+          "total_price": 98318,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:17:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ac791c508c5d5e4526de"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

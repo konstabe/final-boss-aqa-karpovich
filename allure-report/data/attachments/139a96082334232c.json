@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:17:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-2yK0xJHbpsvnwK0SDHCkLdxQ/1I\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac721c508c5d5e45236f",
+        "email": "Jarrell3@yahoo.com",
+        "name": "Shanelle Goyette",
+        "country": "Belarus",
+        "city": "Davisworth",
+        "street": "Johnpaul Stravenue",
+        "house": 47,
+        "flat": 268,
+        "phone": "+18215948545",
+        "createdOn": "2025-12-28T22:17:22.000Z",
+        "notes": "aKWupEBBgbz3aoQfsarLyknnBZ0jZ658daPLjn9MIy2U5MX7j6Ikf1zZ2gFhmmBn4lfR7QAc7o4ER9dr6CQnX46pQrwZDrOWdlhCnusjuQaPTNTYDQpVePlMwSexXMbrLBtnfbdm1hb2bJAvUYyx9COI29hE5ySWH3AoACPR0X9pxtBoEShRc8an9A6pKRL6kuW5ppy5CFmyv8XQ8RJJSBqvtuz4aQeXVWXf1ftpE7POLcD1x6KpoQeDj6"
+      },
+      "products": [
+        {
+          "_id": "6951ac751c508c5d5e452501",
+          "name": "Chips6171",
+          "amount": 243,
+          "price": 47968,
+          "manufacturer": "Sony",
+          "notes": "gOtInzbXKfYRvGbL275BRP12WgMKzWZnqHadvieORN1lfxfxpdE2JuWX0BSycGLl6ntou4hMk8PAmmepwu65lo6d2sHb4lHVxjpqrzxAaj5LJcDxVJcBeT09REIb5VZSQ52xi4fY5isyECymPzU5jvM4ki9DXOe38GEkUYhJ9OqxNVYj7IeKsaiIX3ltPhySRjsz76HhgPsH5MeDm2CoMHQDNOGFBqI2jMhGQ4Azm4X0CPsT7Vn0ldsGL4",
+          "received": false
+        },
+        {
+          "_id": "6951ac781c508c5d5e452672",
+          "name": "Soap80850",
+          "amount": 872,
+          "price": 45875,
+          "manufacturer": "Samsung",
+          "notes": "kiXO4HmMNgRbBKK32oD69is0fDqKY59O7MpwkTZO7U7jhmOXPZRn5A5oZNwSLnQUVegKSULSnTM0ow22s4tWgGi32YW0VL4nDN6bdgYDhtostcWkaNcS5BbL6PssGn84wxZArE505m4V6HVKCn5vpIPGYBRfCqf9XKDqkhLPxThSkEBJ51uNYYCNhQxRzBxyzjT77DJsPQJ0dWIQ5jIiI4kURuKULghTSB518J8Igr8L1DWI5x5wIbv7Ab",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 93843,
+      "createdOn": "2025-12-28T22:17:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac721c508c5d5e45236f",
+          "products": [
+            {
+              "_id": "6951ac751c508c5d5e452501",
+              "name": "Chips6171",
+              "amount": 243,
+              "price": 47968,
+              "manufacturer": "Sony",
+              "notes": "gOtInzbXKfYRvGbL275BRP12WgMKzWZnqHadvieORN1lfxfxpdE2JuWX0BSycGLl6ntou4hMk8PAmmepwu65lo6d2sHb4lHVxjpqrzxAaj5LJcDxVJcBeT09REIb5VZSQ52xi4fY5isyECymPzU5jvM4ki9DXOe38GEkUYhJ9OqxNVYj7IeKsaiIX3ltPhySRjsz76HhgPsH5MeDm2CoMHQDNOGFBqI2jMhGQ4Azm4X0CPsT7Vn0ldsGL4",
+              "received": false
+            },
+            {
+              "_id": "6951ac781c508c5d5e452672",
+              "name": "Soap80850",
+              "amount": 872,
+              "price": 45875,
+              "manufacturer": "Samsung",
+              "notes": "kiXO4HmMNgRbBKK32oD69is0fDqKY59O7MpwkTZO7U7jhmOXPZRn5A5oZNwSLnQUVegKSULSnTM0ow22s4tWgGi32YW0VL4nDN6bdgYDhtostcWkaNcS5BbL6PssGn84wxZArE505m4V6HVKCn5vpIPGYBRfCqf9XKDqkhLPxThSkEBJ51uNYYCNhQxRzBxyzjT77DJsPQJ0dWIQ5jIiI4kURuKULghTSB518J8Igr8L1DWI5x5wIbv7Ab",
+              "received": false
+            }
+          ],
+          "total_price": 93843,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:17:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ac791c508c5d5e4526e2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:17:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2672",
+    "etag": "W/\"a70-nwV92Tz5JRpaxFUu43pW1yUGjA0\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac691c508c5d5e451ff4",
+        "email": "Nash_Block@gmail.com",
+        "name": "Armando Marquardt",
+        "country": "Great Britain",
+        "city": "North Alyssonborough",
+        "street": "MacGyver Ridge",
+        "house": 34,
+        "flat": 421,
+        "phone": "+12766255229",
+        "createdOn": "2025-12-28T22:17:13.000Z",
+        "notes": "tAwxRXwofeAhqx495MXXkls15Q4YuALFFy2AQH9EahM7APBYI8dN4ceS6OSmVjQT3NM8r2hjuKB23iSFv7Mu0DL8XnREnQ5Vk8x0SskEfmIcv1li6qrLqDX5ScujbXyvrAM9ndhUvoMSZVzIf3EWxZYXgFARDsT8eW1yogqF77qsJcDN4kZfRV1YmXjI27Nis8NSdtQr5Zt0mnpNxo2fOrUbc68xnIbK6eK9mRwgDr4ScC0xYdZvPKS1zG"
+      },
+      "products": [
+        {
+          "_id": "6951ac6c1c508c5d5e45213b",
+          "name": "Shirt81313",
+          "amount": 508,
+          "price": 26138,
+          "manufacturer": "Sony",
+          "notes": "wdthCJneIACW5ZcBGsZ0tNfuRgow0kRrCEwu1rPhAVsHLQKC3Kr2yUGwIPPTc7Ho4NSXqiaikMZl7LoUbqB26TqAU3fNhIOHCcfkbjdX0hoAWsSISljLSHPQ3eJfWM1CgttAZrLYktoYmPI5zTNXa84KlSj364lbUbr0UOmM7UFKiyElgQ4ahnkmlvDUsq0TDNGXmevANcfT2N7GNXEN90Cft3ZOv0xC3rQrRsSLXJ5qFi9vwKSpSFQcMe",
+          "received": false
+        },
+        {
+          "_id": "6951ac701c508c5d5e4522b2",
+          "name": "Table9941",
+          "amount": 887,
+          "price": 81343,
+          "manufacturer": "Microsoft",
+          "notes": "GdBYjYUEkC45IDXTMR0cRKjph4cl2cjuCNpvLEnrczkEmgRApuyTXHDUA1Ji2nfL3Ybb8yfLd2I1kZRwNg7AuXqQ8q1wjpo1jRNoQU6WAqeYNps8wB6R8jArlW8BxoCLaeAlpfNpzAWQ9OIa7mGiDVV8suDJZsaBT1mJVr93m8zI3aoYxFu1Ng2TI0NQjcoDqIw7JQRrxQNmx40YdwKFcBk91pzg0fiUySL4HVwlWCsEp341QRVEDzoKaV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 107481,
+      "createdOn": "2025-12-28T22:17:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac691c508c5d5e451ff4",
+          "products": [
+            {
+              "_id": "6951ac6c1c508c5d5e45213b",
+              "name": "Shirt81313",
+              "amount": 508,
+              "price": 26138,
+              "manufacturer": "Sony",
+              "notes": "wdthCJneIACW5ZcBGsZ0tNfuRgow0kRrCEwu1rPhAVsHLQKC3Kr2yUGwIPPTc7Ho4NSXqiaikMZl7LoUbqB26TqAU3fNhIOHCcfkbjdX0hoAWsSISljLSHPQ3eJfWM1CgttAZrLYktoYmPI5zTNXa84KlSj364lbUbr0UOmM7UFKiyElgQ4ahnkmlvDUsq0TDNGXmevANcfT2N7GNXEN90Cft3ZOv0xC3rQrRsSLXJ5qFi9vwKSpSFQcMe",
+              "received": false
+            },
+            {
+              "_id": "6951ac701c508c5d5e4522b2",
+              "name": "Table9941",
+              "amount": 887,
+              "price": 81343,
+              "manufacturer": "Microsoft",
+              "notes": "GdBYjYUEkC45IDXTMR0cRKjph4cl2cjuCNpvLEnrczkEmgRApuyTXHDUA1Ji2nfL3Ybb8yfLd2I1kZRwNg7AuXqQ8q1wjpo1jRNoQU6WAqeYNps8wB6R8jArlW8BxoCLaeAlpfNpzAWQ9OIa7mGiDVV8suDJZsaBT1mJVr93m8zI3aoYxFu1Ng2TI0NQjcoDqIw7JQRrxQNmx40YdwKFcBk91pzg0fiUySL4HVwlWCsEp341QRVEDzoKaV",
+              "received": false
+            }
+          ],
+          "total_price": 107481,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:17:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ac711c508c5d5e452303"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
