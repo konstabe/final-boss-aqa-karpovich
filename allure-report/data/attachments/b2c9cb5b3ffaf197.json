@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 21:47:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-KErKBDlL5fiZcGOy49XjvTxco1A\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6952f6ef1c508c5d5e4c24f0",
+        "email": "Garland.Brekke@hotmail.com",
+        "name": "Lenore Heaney",
+        "country": "Belarus",
+        "city": "Langworth",
+        "street": "Greenwood Road",
+        "house": 33,
+        "flat": 203,
+        "phone": "+16216257845",
+        "createdOn": "2025-12-29T21:47:27.000Z",
+        "notes": "vfCbfKJZZ5QIB9GH0SUD0qK1ZEaifxuQbuH1keVMcDmqreyRUOiRzbA4KH7rlxWVFI4rbFHasfmTQNtiDxqapCgp9AvCEREoxALXHUPCQkI2LStZIdHn7n2akSK9tDJJ6Ned5MNbiOL3RaA5oOBq7MjMG8c3Sab6Jzf1R5Kpu3xLRfidPnMeHCYW0ACljKFXCt1v8gJqnJ7KtEmosUGO8RfgBLJ1wnVvkdc4JLfRElIFjOimUoWm5FeUnI"
+      },
+      "products": [
+        {
+          "_id": "6952f6f11c508c5d5e4c2667",
+          "name": "Hat3628",
+          "amount": 85,
+          "price": 13987,
+          "manufacturer": "Apple",
+          "notes": "3hfqtNZKnrWO1c6O1KKOsQjr5BCyu9dlkiwBZsBrXteNGwTqAbVz6LWfiFi2LrNCuLvOv18Msm756sY0GEhBkYEiCuhy9qp3NcEhz2EzMIEN3S4BVxWeRH1BJOcyfseoyfpepcw1hIkM6ohHoZ7iasgq4WXd9Fp5dZFd8xsqUZgrf57P3tunYFHomBCSrwS8UcnhFng9aQBCRn6wy05DNO1EHwsIBmiT6kk1f7AcpFPCsp95xZAR2ClgXN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 13987,
+      "createdOn": "2025-12-29T21:47:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952f6ef1c508c5d5e4c24f0",
+          "products": [
+            {
+              "_id": "6952f6f11c508c5d5e4c2667",
+              "name": "Hat3628",
+              "amount": 85,
+              "price": 13987,
+              "manufacturer": "Apple",
+              "notes": "3hfqtNZKnrWO1c6O1KKOsQjr5BCyu9dlkiwBZsBrXteNGwTqAbVz6LWfiFi2LrNCuLvOv18Msm756sY0GEhBkYEiCuhy9qp3NcEhz2EzMIEN3S4BVxWeRH1BJOcyfseoyfpepcw1hIkM6ohHoZ7iasgq4WXd9Fp5dZFd8xsqUZgrf57P3tunYFHomBCSrwS8UcnhFng9aQBCRn6wy05DNO1EHwsIBmiT6kk1f7AcpFPCsp95xZAR2ClgXN",
+              "received": false
+            }
+          ],
+          "total_price": 13987,
+          "delivery": null,
+          "changedOn": "2025-12-29T21:47:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6952f6f21c508c5d5e4c26a8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

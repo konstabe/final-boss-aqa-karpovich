@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 21:47:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-gRhnNUDTuHBKS8hbmKoHf6GowUc\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6952f6f41c508c5d5e4c274e",
+        "email": "Enos.Parker@gmail.com",
+        "name": "Amina Monahan",
+        "country": "Russia",
+        "city": "Grand Forks",
+        "street": "Alexandrea Run",
+        "house": 50,
+        "flat": 259,
+        "phone": "+13049472112",
+        "createdOn": "2025-12-29T21:47:32.000Z",
+        "notes": "vZ94OLptdgaMzzfvR3jFzUcu21IG2yBc9gcvyLoVvS6PL5VFYUWHtUDa7l5zTHqhYDo7jrmif5eMGrTbDVoBS3EJSC0uY3jEJdWLvOx4o04tHH6g9PTDAt8hrgK6ePhheLLDKd3docN1GbmNgwRo9g03fDcsjpgodzN17VMVMPlqTWWtUXVM1uHBGmLP3NANJjitM7h4ebWLvQdVK6BMR5SMkUDYKCdxiPF3JFMPsvIF0amnsLyBLKlxPS"
+      },
+      "products": [
+        {
+          "_id": "6952f6f51c508c5d5e4c27c1",
+          "name": "Cheese40377",
+          "amount": 841,
+          "price": 29329,
+          "manufacturer": "Sony",
+          "notes": "fGOOdzSBG36LolqP6AioUpHXwoWVt72vn5H6GEBf5e2ifQylEpt10HNKQF41SM6826i7F3rc3BCbxPhCmilzhwVm6uxMDBSpJmnIt9yBZIad1qDzQbyKFhr3y1QvV4qnrY3cd5l5Xq00i1BXVqBjUlnpJIr0NT2ZYx0qHIqrVAGJUzvZ2DJAZQPvMVIHn56Qf3HjKSCunYAl2cWZpKVGDa0ThEP6ulrSLHqxdHXIQEpeltIkv4nA3rRmyo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 29329,
+      "createdOn": "2025-12-29T21:47:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952f6f41c508c5d5e4c274e",
+          "products": [
+            {
+              "_id": "6952f6f51c508c5d5e4c27c1",
+              "name": "Cheese40377",
+              "amount": 841,
+              "price": 29329,
+              "manufacturer": "Sony",
+              "notes": "fGOOdzSBG36LolqP6AioUpHXwoWVt72vn5H6GEBf5e2ifQylEpt10HNKQF41SM6826i7F3rc3BCbxPhCmilzhwVm6uxMDBSpJmnIt9yBZIad1qDzQbyKFhr3y1QvV4qnrY3cd5l5Xq00i1BXVqBjUlnpJIr0NT2ZYx0qHIqrVAGJUzvZ2DJAZQPvMVIHn56Qf3HjKSCunYAl2cWZpKVGDa0ThEP6ulrSLHqxdHXIQEpeltIkv4nA3rRmyo",
+              "received": false
+            }
+          ],
+          "total_price": 29329,
+          "delivery": null,
+          "changedOn": "2025-12-29T21:47:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6952f6f51c508c5d5e4c27e0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
