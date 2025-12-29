@@ -5,6 +5,11 @@ export const CONFIRMATION_MODAL_TEXT = {
 		confirmButton: "Yes, Reopen",
 	},
 	cancelButton: "Cancel",
+	processOrder: {
+		title: "Process Order",
+		body: "Are you sure you want to process the order?",
+		confirmButton: "Yes, Process",
+	},
 };
 
 export const FILTER_MODAL_TEXT = {
