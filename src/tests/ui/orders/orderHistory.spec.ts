@@ -29,7 +29,17 @@ test.describe("[UI] [Orders]", () => {
 
 				await expect(orderDetailsBottomPage.bottomTab("history-tab")).toBeVisible();
 				await orderDetailsBottomPage.changeBottomTab("history-tab");
-				await page.waitForTimeout(1000);
+				await page.waitForTimeout(500);
+
+				await expect(orderDetailsBottomPage.historyTitle).toHaveText("Order History");
+				await expect(orderDetailsBottomPage.bottomTab("history-tab")).toHaveText("Order History");
+
+				await expect(orderDetailsBottomPage.historyColumns).toHaveText([
+					"Action",
+					"Performed By",
+					"Date & Time",
+				]);
+
 				await expect(orderDetailsBottomPage.historyAccordion).toHaveCount(mockOrder.Order.history.length);
 				for (const [index, item] of mockOrder.Order.history.entries()) {
 					const accordion = orderDetailsBottomPage.historyAccordion.nth(index);
