@@ -7,7 +7,7 @@ export class OrderDetailsCustomerPage extends SalesPortalPage {
 	readonly customerSection = this.page.locator("#customer-section");
 	readonly uniqueElement = this.customerSection;
 
-	readonly customerDetailsBlocks = this.page.locator("#customer-details .c-details");
+	readonly customerDetailsBlocks = this.page.locator("#customer-section .c-details");
 	readonly editCustomerButton = this.page.locator("#edit-customer-pencil");
 
 	@logStep("Get customer details")

@@ -14,7 +14,7 @@ loadEnv();
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-	globalTeardown: require.resolve("./src/config/global.teardown"),
+	globalTeardown: "./src/config/global.teardown",
 	testDir: "./src/tests",
 	/* Run tests in files in parallel */
 	fullyParallel: true,
@@ -79,20 +79,6 @@ export default defineConfig({
 		// 	},
 		// 	testDir: "src/tests/ui",
 		// },
-		{
-			name: "chromium",
-			use: { ...devices["Desktop Chrome"], headless: true },
-		},
-
-		{
-			name: "firefox",
-			use: { ...devices["Desktop Firefox"] },
-		},
-
-		{
-			name: "webkit",
-			use: { ...devices["Desktop Safari"] },
-		},
 
 		/* Test against mobile viewports. */
 		// {
