@@ -57,12 +57,11 @@ export function generateOrderHistoryByStatuses(
 
 export function generateOrderHistoryByActions(
 	actions: ORDER_HISTORY_ACTIONS[],
-	baseOverrides: Omit<OrderHistoryOverrides, "status" | "action"> = {},
+	baseOverrides: Omit<OrderHistoryOverrides, "action" | "changedOn"> = {},
 ): IOrderHistory[] {
 	return actions.map((action, index) =>
 		generateOrderHistoryItem({
 			...baseOverrides,
-			status: ORDER_STATUS.DRAFT, // или выбирай статус по умолчанию
 			action,
 			changedOn: new Date(Date.now() + index * 1000).toISOString(),
 		}),
