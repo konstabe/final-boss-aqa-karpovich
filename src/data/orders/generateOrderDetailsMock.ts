@@ -5,7 +5,8 @@ import { generateDeliveryData } from "./generateDeliveryData";
 import { faker } from "@faker-js/faker";
 import { ORDER_STATUS } from "./orderStatus";
 import { IOrderDelivery, IOrderResponse } from "data/types/order.types";
-import { generateOrderHistoryByStatuses } from "./generateOrderHistorydata";
+import { generateOrderHistoryByActions } from "./generateOrderHistorydata";
+import { ORDER_HISTORY_ACTIONS } from "data/orderHistoryActions";
 
 export function generateOrderDetailsMockWithDelivery(status: ORDER_STATUS, received: boolean): IOrderResponse {
 	return {
@@ -18,14 +19,19 @@ export function generateOrderDetailsMockWithDelivery(status: ORDER_STATUS, recei
 			total_price: faker.number.int({ min: 1, max: 100000 }),
 			createdOn: new Date().toISOString(),
 			comments: [],
-			history: generateOrderHistoryByStatuses([
-				ORDER_STATUS.DRAFT, //работает
-				//ORDER_HISTORY_ACTIONS.REQUIRED_PRODUCTS_CHANGED,
-				// ORDER_HISTORY_ACTIONS.DELIVERY_SCHEDULED,
-				// ORDER_HISTORY_ACTIONS.DELIVERY_EDITED,
-				// ORDER_HISTORY_ACTIONS.MANAGER_UNASSIGNED,
-				// ORDER_HISTORY_ACTIONS.MANAGER_ASSIGNED,
-				// ORDER_HISTORY_ACTIONS.REOPENED,
+			history: generateOrderHistoryByActions([
+				ORDER_HISTORY_ACTIONS.CREATED,
+				ORDER_HISTORY_ACTIONS.REQUIRED_PRODUCTS_CHANGED,
+				ORDER_HISTORY_ACTIONS.DELIVERY_SCHEDULED,
+				ORDER_HISTORY_ACTIONS.DELIVERY_EDITED,
+				ORDER_HISTORY_ACTIONS.MANAGER_UNASSIGNED,
+				ORDER_HISTORY_ACTIONS.MANAGER_ASSIGNED,
+				ORDER_HISTORY_ACTIONS.REOPENED,
+				ORDER_HISTORY_ACTIONS.PROCESSED,
+				ORDER_HISTORY_ACTIONS.RECEIVED,
+				ORDER_HISTORY_ACTIONS.RECEIVED_ALL,
+				ORDER_HISTORY_ACTIONS.CANCELED,
+				ORDER_HISTORY_ACTIONS.DELIVERY_SCHEDULED,
 			]),
 			assignedManager: null,
 		},

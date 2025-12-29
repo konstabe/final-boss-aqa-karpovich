@@ -55,20 +55,16 @@ export function generateOrderHistoryByStatuses(
 	);
 }
 
-// export function generateOrderHistoryByActions(
-//   actions: ORDER_HISTORY_ACTIONS[],
-//   baseOverrides: Omit<OrderHistoryOverrides, 'status' | 'action'> = {},
-// ): IOrderHistory[] {
-//   return actions.map((action, index) => {
-//     const status = Object.entries(ORDER_STATUS_TO_HISTORY_ACTION).find(([_, actionsArray]) =>
-//       Array.isArray(actionsArray) ? actionsArray.includes(action) : actionsArray === action
-//     )?.[0] as ORDER_STATUS;
-
-//     return generateOrderHistoryItem({
-//       ...baseOverrides,
-//       status,
-//       action,
-//       changedOn: new Date(Date.now() + index * 1000).toISOString(),
-//     });
-//   });
-// }
+export function generateOrderHistoryByActions(
+	actions: ORDER_HISTORY_ACTIONS[],
+	baseOverrides: Omit<OrderHistoryOverrides, "status" | "action"> = {},
+): IOrderHistory[] {
+	return actions.map((action, index) =>
+		generateOrderHistoryItem({
+			...baseOverrides,
+			status: ORDER_STATUS.DRAFT, // или выбирай статус по умолчанию
+			action,
+			changedOn: new Date(Date.now() + index * 1000).toISOString(),
+		}),
+	);
+}
