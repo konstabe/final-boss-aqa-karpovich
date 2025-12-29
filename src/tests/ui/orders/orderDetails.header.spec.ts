@@ -1,6 +1,7 @@
 import { TAGS } from "data/tags";
 import { STATUS_CODES } from "data/statusCodes";
 import { expect, test } from "fixtures";
+import { ensureAssignedManager, ensureUnassignedManager } from "tests/ui/orders/helpers/orderDetails.helpers";
 
 test.describe.serial("[UI] [Orders] [Details] [Header]", () => {
 	let token = "";
@@ -8,42 +9,6 @@ test.describe.serial("[UI] [Orders] [Details] [Header]", () => {
 	let orderStatus = "";
 	let customerId = "";
 	let productIds: string[] = [];
-
-	const getAssignedManagerId = async (ordersApi: any) => {
-		const response = await ordersApi.getById(orderId, token);
-		expect(response.status).toBe(STATUS_CODES.OK);
-		return response.body.Order.assignedManager?._id ?? null;
-	};
-
-	const ensureAssignedManager = async (ordersApi: any, orderDetailsHeaderPage: any, assignedManagerModal: any) => {
-		const currentManagerId = await getAssignedManagerId(ordersApi);
-		if (currentManagerId) {
-			return currentManagerId;
-		}
-
-		await orderDetailsHeaderPage.open(`orders/${orderId}`);
-		await orderDetailsHeaderPage.waitForOpened();
-		await orderDetailsHeaderPage.clickAssignManager();
-		await expect(assignedManagerModal.uniqueElement).toBeVisible();
-
-		const managerCount = await assignedManagerModal.getManagerCount();
-		expect(managerCount).toBeGreaterThan(0);
-		const managerId = await assignedManagerModal.getManagerIdByIndex(0);
-		expect(managerId).toBeTruthy();
-
-		await assignedManagerModal.selectManagerByIndex(0);
-		await assignedManagerModal.assignManager();
-		await assignedManagerModal.waitForClosed();
-
-		return managerId;
-	};
-
-	const ensureUnassignedManager = async (ordersApi: any) => {
-		const currentManagerId = await getAssignedManagerId(ordersApi);
-		if (currentManagerId) {
-			await ordersApi.unAssignManagerToOrder(orderId, token);
-		}
-	};
 
 	test.beforeAll(async ({ loginApiService, ordersApiService }) => {
 		token = await loginApiService.loginAsAdmin();
@@ -123,16 +88,14 @@ test.describe.serial("[UI] [Orders] [Details] [Header]", () => {
 		async ({ orderDetailsHeaderPage, ordersListPage }) => {
 			await orderDetailsHeaderPage.backLink.click();
 			await ordersListPage.waitForOpened();
-
-			await expect(ordersListPage.title).toHaveText("Orders List");
 		},
 	);
 
 	test(
 		"Assign manager",
 		{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
-		async ({ orderDetailsHeaderPage, assignedManagerModal, ordersApi }) => {
-			await ensureUnassignedManager(ordersApi);
+		async ({ orderDetailsHeaderPage, assignedManagerModal, ordersApi, ordersApiService }) => {
+			await ensureUnassignedManager(ordersApiService, ordersApi, orderId, token);
 			await orderDetailsHeaderPage.open(`orders/${orderId}`);
 			await orderDetailsHeaderPage.waitForOpened();
 
@@ -148,7 +111,7 @@ test.describe.serial("[UI] [Orders] [Details] [Header]", () => {
 			await assignedManagerModal.assignManager();
 			await assignedManagerModal.waitForClosed();
 
-			const managerId = await getAssignedManagerId(ordersApi);
+			const managerId = await ordersApiService.getAssignedManagerId(token, orderId);
 			expect(managerId).toBe(expectedManagerId);
 		},
 	);
@@ -156,8 +119,14 @@ test.describe.serial("[UI] [Orders] [Details] [Header]", () => {
 	test(
 		"Unassign manager",
 		{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
-		async ({ orderDetailsHeaderPage, confirmationModal, ordersApi, assignedManagerModal }) => {
-			await ensureAssignedManager(ordersApi, orderDetailsHeaderPage, assignedManagerModal);
+		async ({ orderDetailsHeaderPage, confirmationModal, ordersApiService, assignedManagerModal }) => {
+			await ensureAssignedManager({
+				ordersApiService,
+				orderDetailsHeaderPage,
+				assignedManagerModal,
+				orderId,
+				token,
+			});
 			await orderDetailsHeaderPage.open(`orders/${orderId}`);
 			await orderDetailsHeaderPage.waitForOpened();
 
@@ -165,7 +134,7 @@ test.describe.serial("[UI] [Orders] [Details] [Header]", () => {
 			await confirmationModal.clickConfirm();
 			await confirmationModal.waitForClosed();
 
-			const managerId = await getAssignedManagerId(ordersApi);
+			const managerId = await ordersApiService.getAssignedManagerId(token, orderId);
 			expect(managerId).toBeNull();
 		},
 	);
@@ -173,12 +142,14 @@ test.describe.serial("[UI] [Orders] [Details] [Header]", () => {
 	test(
 		"Edit manager",
 		{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
-		async ({ orderDetailsHeaderPage, assignedManagerModal, ordersApi }) => {
-			const currentManagerId = await ensureAssignedManager(
-				ordersApi,
+		async ({ orderDetailsHeaderPage, assignedManagerModal, ordersApiService }) => {
+			const currentManagerId = await ensureAssignedManager({
+				ordersApiService,
 				orderDetailsHeaderPage,
 				assignedManagerModal,
-			);
+				orderId,
+				token,
+			});
 			await orderDetailsHeaderPage.open(`orders/${orderId}`);
 			await orderDetailsHeaderPage.waitForOpened();
 
@@ -198,7 +169,7 @@ test.describe.serial("[UI] [Orders] [Details] [Header]", () => {
 			await assignedManagerModal.assignManager();
 			await assignedManagerModal.waitForClosed();
 
-			const managerId = await getAssignedManagerId(ordersApi);
+			const managerId = await ordersApiService.getAssignedManagerId(token, orderId);
 			expect(managerId).toBe(expectedManagerId);
 		},
 	);

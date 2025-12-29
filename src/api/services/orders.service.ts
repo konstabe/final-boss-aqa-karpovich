@@ -86,6 +86,23 @@ export class OrdersApiService {
 		return orderWithDelivery;
 	}
 
+	async getById(token: string, orderId: string): Promise<IOrderFromResponse> {
+		const response = await this.ordersApi.getById(orderId, token);
+		validateResponse(response, {
+			status: STATUS_CODES.OK,
+			schema: orderResponseSchema,
+			IsSuccess: true,
+			ErrorMessage: null,
+		});
+
+		return response.body.Order;
+	}
+
+	async getAssignedManagerId(token: string, orderId: string): Promise<string | null> {
+		const order = await this.getById(token, orderId);
+		return order.assignedManager?._id ?? null;
+	}
+
 	private createDeliveryDetails(order: IOrderFromResponse): IOrderDelivery {
 		const address: IAddress = _.pick(order.customer, ["country", "city", "house", "flat", "street"]);
 		return {
