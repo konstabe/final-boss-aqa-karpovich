@@ -13,6 +13,7 @@ export class OrderDetailsBottomPage extends SalesPortalPage {
 	readonly deliveryInfoBlocks = this.page.locator("#delivery .c-details");
 	readonly scheduleDeliveryButton = this.page.locator("#delivery-btn");
 
+	readonly historyBody = this.page.locator("#history-body");
 	readonly historyAccordion = this.page.locator("#history-body .accordion");
 	readonly historyToggleButton = (index: number) =>
 		this.historyAccordion.nth(index).locator(".accordion-header button.accordion-button");

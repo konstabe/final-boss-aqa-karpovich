@@ -5,6 +5,7 @@ import { generateDeliveryData } from "./generateDeliveryData";
 import { faker } from "@faker-js/faker";
 import { ORDER_STATUS } from "./orderStatus";
 import { IOrderDelivery, IOrderResponse } from "data/types/order.types";
+import { generateOrderHistoryByStatuses } from "./generateOrderHistorydata";
 
 export function generateOrderDetailsMockWithDelivery(status: ORDER_STATUS, received: boolean): IOrderResponse {
 	return {
@@ -17,7 +18,15 @@ export function generateOrderDetailsMockWithDelivery(status: ORDER_STATUS, recei
 			total_price: faker.number.int({ min: 1, max: 100000 }),
 			createdOn: new Date().toISOString(),
 			comments: [],
-			history: [], //можно добавить
+			history: generateOrderHistoryByStatuses([
+				//ORDER_HISTORY_ACTIONS.CREATED,
+				// ORDER_HISTORY_ACTIONS.REQUIRED_PRODUCTS_CHANGED,
+				// ORDER_HISTORY_ACTIONS.DELIVERY_SCHEDULED,
+				// ORDER_HISTORY_ACTIONS.DELIVERY_EDITED,
+				// ORDER_HISTORY_ACTIONS.MANAGER_UNASSIGNED,
+				// ORDER_HISTORY_ACTIONS.MANAGER_ASSIGNED,
+				// ORDER_HISTORY_ACTIONS.REOPENED,
+			]),
 			assignedManager: null,
 		},
 		IsSuccess: true,

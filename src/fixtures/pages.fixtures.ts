@@ -3,6 +3,7 @@ import {
 	expect,
 	// Page
 } from "@playwright/test";
+import { OrderDetailsBottomPage } from "pages/orders/orderDetails/orderDetails.bottom.page";
 import { OrdersListPage } from "pages/orders/ordersList.page";
 import { LoginPage } from "pages/login.page";
 import { HomePage } from "pages/home.page";
@@ -51,6 +52,7 @@ export interface IPages {
 
 	addNewOrderPage: CreateOrderModal;
 	orderDetailsHeaderPage: OrderDetailsHeaderPage;
+	orderDetailsBottomPage: OrderDetailsBottomPage;
 
 	//ui-services
 	homeUIService: HomeUIService;
@@ -126,6 +128,9 @@ export const test = base.extend<IPages>({
 
 	orderDetailsHeaderPage: async ({ page }, use) => {
 		await use(new OrderDetailsHeaderPage(page));
+	},
+	orderDetailsBottomPage: async ({ page }, use) => {
+		await use(new OrderDetailsBottomPage(page));
 	},
 
 	// //ui-services
