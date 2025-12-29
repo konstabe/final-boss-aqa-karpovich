@@ -3,7 +3,6 @@ import {
 	expect,
 	// Page
 } from "@playwright/test";
-import { OrderDetailsBottomPage } from "pages/orders/orderDetails/orderDetails.bottom.page";
 import { OrdersListPage } from "pages/orders/ordersList.page";
 import { LoginPage } from "pages/login.page";
 import { HomePage } from "pages/home.page";
@@ -43,15 +42,12 @@ export interface IPages {
 	ordersListPage: OrdersListPage;
 
 	orderDetailsHeaderPage: OrderDetailsHeaderPage;
-	orderDetailsBottomPage: OrderDetailsBottomPage;
 	orderDetailsCustomerPage: OrderDetailsCustomerPage;
 	orderDetailsProductPage: OrderDetailsProductPage;
 	assignedManagerModal: AssignedManagerModal;
 	confirmationModal: ConfirmationModal;
 	editDeliveryModal: EditDeliveryModal;
-
 	addNewOrderPage: CreateOrderModal;
-	orderDetailsHeaderPage: OrderDetailsHeaderPage;
 	orderDetailsBottomPage: OrderDetailsBottomPage;
 
 	//ui-services
@@ -124,13 +120,6 @@ export const test = base.extend<IPages>({
 
 	addNewOrderPage: async ({ page }, use) => {
 		await use(new CreateOrderModal(page));
-	},
-
-	orderDetailsHeaderPage: async ({ page }, use) => {
-		await use(new OrderDetailsHeaderPage(page));
-	},
-	orderDetailsBottomPage: async ({ page }, use) => {
-		await use(new OrderDetailsBottomPage(page));
 	},
 
 	// //ui-services

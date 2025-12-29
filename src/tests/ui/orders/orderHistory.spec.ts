@@ -31,8 +31,7 @@ test.describe("[UI] [Orders]", () => {
 				await orderDetailsBottomPage.changeBottomTab("history-tab");
 				await page.waitForTimeout(1000);
 				await expect(orderDetailsBottomPage.historyAccordion).toHaveCount(mockOrder.Order.history.length);
-
-				mockOrder.Order.history.forEach(async (item, index) => {
+				for (const [index, item] of mockOrder.Order.history.entries()) {
 					const accordion = orderDetailsBottomPage.historyAccordion.nth(index);
 					const cols = accordion.locator(".his-col");
 
@@ -44,7 +43,7 @@ test.describe("[UI] [Orders]", () => {
 							.replace(/\..+Z$/, "")
 							.replace(/-/g, "/"),
 					);
-				});
+				}
 			},
 		);
 	});

@@ -19,8 +19,8 @@ export function generateOrderDetailsMockWithDelivery(status: ORDER_STATUS, recei
 			createdOn: new Date().toISOString(),
 			comments: [],
 			history: generateOrderHistoryByStatuses([
-				//ORDER_HISTORY_ACTIONS.CREATED,
-				// ORDER_HISTORY_ACTIONS.REQUIRED_PRODUCTS_CHANGED,
+				ORDER_STATUS.DRAFT, //работает
+				//ORDER_HISTORY_ACTIONS.REQUIRED_PRODUCTS_CHANGED,
 				// ORDER_HISTORY_ACTIONS.DELIVERY_SCHEDULED,
 				// ORDER_HISTORY_ACTIONS.DELIVERY_EDITED,
 				// ORDER_HISTORY_ACTIONS.MANAGER_UNASSIGNED,
