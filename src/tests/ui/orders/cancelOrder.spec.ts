@@ -1,4 +1,5 @@
 import { SALES_PORTAL_URL } from "config/env";
+import { NOTIFICATIONS } from "data/notifications";
 import { TAGS } from "data/tags";
 import { expect, test } from "fixtures";
 
@@ -21,16 +22,14 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, cancelOrderModal }) => {
-			const cancelOrderButton = page.locator("#cancel-order"); //необходимо убрать когда будет страница деталей
-
+		async ({ page, cancelOrderModal, orderDetailsProductPage, orderDetailsHeaderPage, ordersApiService }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 
 			const orderId = (await newOrder)._id;
 
 			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
 
-			await cancelOrderButton.click();
+			await orderDetailsHeaderPage.clickCancelOrderButton();
 
 			await expect(cancelOrderModal.uniqueElement).toHaveText("Are you sure you want to cancel the order?");
 			await expect(cancelOrderModal.cancelButton).toBeVisible();
@@ -39,7 +38,7 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 
 			await cancelOrderModal.clickYesCancel();
 			await expect(cancelOrderModal.modalBody).not.toBeVisible();
-			//await expect(!!!!page.toastMessage).toContainText(NOTIFICATIONS.ORDER_CANCELED);
+			await expect(orderDetailsProductPage.toastMessage).toContainText(NOTIFICATIONS.ORDER_CANCELED);
 		},
 	);
 
@@ -48,16 +47,14 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, cancelOrderModal }) => {
-			const cancelOrderButton = page.locator("#cancel-order"); //необходимо убрать когда будет страница деталей
-
+		async ({ page, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 
 			const orderId = (await newOrder)._id;
 
 			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
 
-			await cancelOrderButton.click();
+			await orderDetailsHeaderPage.clickCancelOrderButton();
 
 			await cancelOrderModal.clickCloseModal();
 			await expect(cancelOrderModal.modalBody).not.toBeVisible();
@@ -69,16 +66,14 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, cancelOrderModal }) => {
-			const cancelOrderButton = page.locator("#cancel-order"); //необходимо убрать когда будет страница деталей
-
+		async ({ page, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 
 			const orderId = (await newOrder)._id;
 
 			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
 
-			await cancelOrderButton.click();
+			await orderDetailsHeaderPage.clickCancelOrderButton();
 
 			await cancelOrderModal.clickCancel();
 			await expect(cancelOrderModal.modalBody).not.toBeVisible();
@@ -90,21 +85,25 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, cancelOrderModal }) => {
-			const cancelOrderButton = page.locator("#cancel-order"); //необходимо убрать когда будет страница деталей
-			const orderStatus = page.locator("#order-status-bar-container"); //необходимо убрать когда будет страница деталей
-
+		async ({ page, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 
 			const orderId = (await newOrder)._id;
 
 			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
 
-			await cancelOrderButton.click();
+			const orderStatusDraft = await orderDetailsHeaderPage.getOrderStatus();
+			await expect(orderStatusDraft[0]?.value).toEqual("Draft");
+
+			await orderDetailsHeaderPage.clickCancelOrderButton();
 
 			await cancelOrderModal.clickYesCancel();
 
-			await expect(orderStatus).toContainText("Canceled"); //необходимо убрать когда будет страница деталей
+			await orderDetailsHeaderPage.waitForOpened();
+
+			const orderStatus = await orderDetailsHeaderPage.getOrderStatus();
+
+			await expect(orderStatus[0]?.value).toEqual("Canceled");
 		},
 	);
 
@@ -113,14 +112,13 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, cancelOrderModal }) => {
-			const cancelOrderButton = page.locator("#cancel-order"); //необходимо убрать когда будет страница деталей
+		async ({ page, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
 			const newOrder = ordersApiService.processOrder(token, 1);
 			const orderId = (await newOrder)._id;
 
 			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
 
-			await cancelOrderButton.click();
+			await orderDetailsHeaderPage.clickCancelOrderButton();
 
 			await cancelOrderModal.clickYesCancel();
 		},
@@ -131,14 +129,13 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, cancelOrderModal }) => {
-			const cancelOrderButton = page.locator("#cancel-order"); //необходимо убрать когда будет страница деталей
+		async ({ page, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
 			const newOrder = ordersApiService.reopenOrderInProgress(token, 1);
 			const orderId = (await newOrder)._id;
 
 			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
 
-			await cancelOrderButton.click();
+			await orderDetailsHeaderPage.clickCancelOrderButton();
 
 			await cancelOrderModal.clickYesCancel();
 		},
@@ -149,14 +146,13 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService }) => {
-			const cancelOrderButton = page.locator("#cancel-order"); //необходимо убрать когда будет страница деталей
+		async ({ page, ordersApiService, orderDetailsHeaderPage }) => {
 			const newOrder = ordersApiService.allReceived(token, 1);
 			const orderId = (await newOrder)._id;
 
 			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
 
-			await expect(cancelOrderButton).not.toBeVisible();
+			await expect(orderDetailsHeaderPage.cancelOrderButton).not.toBeVisible();
 		},
 	);
 });

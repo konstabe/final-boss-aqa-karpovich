@@ -1,8 +1,18 @@
 import { faker } from "@faker-js/faker";
 import { ObjectId } from "bson";
-import { IOrderInTable, IOrderMock, IOrdersMock } from "data/types/order.types";
+import { generateCustomerResponseData } from "data/customers/generateCustomerData";
+import { generateProductDataForOrder } from "data/products/generateProductData";
+import {
+	IOrderDitailsMock,
+	IOrderInTable,
+	IOrderMock,
+	IOrderMockForDitails,
+	IOrdersMock,
+} from "data/types/order.types";
+import { IProductForOrder } from "data/types/product.types";
 import { convertToDateAndTime } from "utils/date.utils";
 import { convertToDate } from "utils/date.utils";
+import { ORDER_STATUS } from "./orderStatus";
 
 export function generateOrderMock({
 	status,
@@ -55,5 +65,41 @@ export function mapRespToTable(orderMock: IOrderMock): IOrderInTable {
 			? `${orderMock.assignedManager!.firstName} ${orderMock.assignedManager!.lastName}`
 			: "-",
 		createdOn: convertToDateAndTime(orderMock.createdOn),
+	};
+}
+
+export function generateOrderDetailsMock({
+	status,
+}: Pick<IOrderMockForDitails, "status"> & Partial<Pick<IProductForOrder, "received">>): IOrderMockForDitails {
+	const product = generateProductDataForOrder();
+	return {
+		_id: new ObjectId().toHexString(),
+		status,
+		customer: generateCustomerResponseData(),
+		products: [product],
+		total_price: faker.number.int({ min: 1, max: 100000 }),
+		delivery: null,
+		createdOn: new Date().toISOString(),
+		comments: [],
+		history: [],
+		assignedManager: null,
+	};
+}
+
+export function generateOrderDetailsMockResponse(
+	params?: Partial<IOrderMockForDitails> & Pick<IOrderMockForDitails, "status">,
+): IOrderDitailsMock {
+	const { status, ...otherParams } = params || {};
+
+	const order = generateOrderDetailsMock({
+		status: status || ORDER_STATUS.DRAFT,
+	});
+
+	const finalOrder = { ...order, ...otherParams };
+
+	return {
+		IsSuccess: true,
+		ErrorMessage: null,
+		Order: finalOrder,
 	};
 }

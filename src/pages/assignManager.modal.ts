@@ -7,8 +7,7 @@ export class AssignedManagerModal extends ConfirmationModal {
 	readonly title = this.uniqueElement.locator("h5");
 	readonly searchField = this.uniqueElement.locator("#manager-search-input");
 	readonly managerList = this.uniqueElement.locator("#manager-list");
-	readonly managerById = (id: string) =>
-		this.managerList.locator(`[data-managerid="${id}"]`);
+	readonly managerById = (id: string) => this.managerList.locator(`[data-managerid="${id}"]`);
 
 	readonly saveButton = this.uniqueElement.locator(".btn-primary");
 	readonly closeButton = this.uniqueElement.locator("button.hover-danger");

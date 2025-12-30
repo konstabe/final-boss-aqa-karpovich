@@ -1,4 +1,5 @@
 import { SALES_PORTAL_URL } from "config/env";
+import { NOTIFICATIONS } from "data/notifications";
 import { TAGS } from "data/tags";
 import { expect, test } from "fixtures";
 
@@ -28,15 +29,14 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, editProductModal }) => {
-			const editPodructButton = page.locator("#edit-products-pencil"); //необходимо убрать когда будет страница деталей
+		async ({ page, ordersApiService, editProductModal, orderDetailsProductPage }) => {
 			const newOrder = ordersApiService.createDraft(token, 5);
 
 			const orderId = (await newOrder)._id;
 
 			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
 
-			await editPodructButton.click();
+			await orderDetailsProductPage.openEditProductDetailsModal();
 
 			await expect(editProductModal.editProductModalTitle).toHaveText("Edit Products");
 			await expect(editProductModal.saveButton).toBeVisible();
@@ -54,7 +54,7 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 			await expect(editProductModal.deleteProductButton).not.toBeVisible();
 
 			await editProductModal.clickSave();
-			// await expect(page!!!!!.toastMessage).toContainText(NOTIFICATIONS.ORDER_UPDATED);
+			await expect(orderDetailsProductPage.toastMessage).toContainText(NOTIFICATIONS.ORDER_UPDATED);
 		},
 	);
 
@@ -63,16 +63,14 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, editProductModal }) => {
-			const editPodructButton = page.locator("#edit-products-pencil"); //необходимо убрать когда будет страница деталей
-
+		async ({ page, ordersApiService, editProductModal, orderDetailsProductPage }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 
 			const orderId = (await newOrder)._id;
 
 			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
 
-			await editPodructButton.click();
+			await orderDetailsProductPage.openEditProductDetailsModal();
 
 			await editProductModal.clickCloseModal();
 			await expect(editProductModal.modalBody).not.toBeVisible();
@@ -84,9 +82,8 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, editProductModal }) => {
+		async ({ page, ordersApiService, editProductModal, orderDetailsProductPage }) => {
 			const productsInOrder = page.locator("#products-accordion-section");
-			const editPodructButton = page.locator("#edit-products-pencil"); //необходимо убрать когда будет страница деталей
 
 			const newOrder = ordersApiService.createDraft(token, 1);
 			const orderId = (await newOrder)._id;
@@ -96,12 +93,12 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 
 			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
 
-			await editPodructButton.click();
+			await orderDetailsProductPage.openEditProductDetailsModal();
 
 			await editProductModal.updateProductByIndex(0, productNames[0]!);
 			await editProductModal.clickCancel();
 
-			await expect(productsInOrder).not.toHaveText(productNames); //необходимо убрать когда будет страница деталей
+			await expect(productsInOrder).not.toHaveText(productNames);
 		},
 	);
 
@@ -110,10 +107,7 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 		{
 			tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, editProductModal }) => {
-			const productsInOrder = page.locator("#products-accordion-section");
-			const editPodructButton = page.locator("#edit-products-pencil"); //необходимо убрать когда будет страница деталей
-
+		async ({ page, ordersApiService, editProductModal, orderDetailsProductPage }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 			const orderId = (await newOrder)._id;
 
@@ -122,12 +116,12 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 
 			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
 
-			await editPodructButton.click();
+			await orderDetailsProductPage.openEditProductDetailsModal();
 
 			await editProductModal.updateProductByIndex(0, productNames[0]!);
 			await editProductModal.clickSave();
 
-			await expect(productsInOrder).toContainText(productNames); //необходимо убрать когда будет страница деталей
+			await expect(orderDetailsProductPage.productsDetailsInOrder).toContainText(productNames);
 		},
 	);
 
@@ -136,15 +130,13 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService }) => {
-			const editPodructButton = page.locator("#edit-products-pencil"); //необходимо убрать когда будет страница деталей
-
+		async ({ page, ordersApiService, orderDetailsProductPage }) => {
 			const newOrder = ordersApiService.processOrder(token, 1);
 			const orderId = (await newOrder)._id;
 
 			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
 
-			await expect(editPodructButton).not.toBeVisible();
+			await expect(orderDetailsProductPage.editProductsButton).not.toBeVisible();
 		},
 	);
 
@@ -153,15 +145,13 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService }) => {
-			const editPodructButton = page.locator("#edit-products-pencil"); //необходимо убрать когда будет страница деталей
-
+		async ({ page, ordersApiService, orderDetailsProductPage }) => {
 			const newOrder = ordersApiService.cancelOrderInProgress(token, 1);
 			const orderId = (await newOrder)._id;
 
 			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
 
-			await expect(editPodructButton).not.toBeVisible();
+			await expect(orderDetailsProductPage.editProductsButton).not.toBeVisible();
 		},
 	);
 
@@ -170,15 +160,13 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService }) => {
-			const editPodructButton = page.locator("#edit-products-pencil"); //необходимо убрать когда будет страница деталей
-
+		async ({ page, ordersApiService, orderDetailsProductPage }) => {
 			const newOrder = ordersApiService.allReceived(token, 1);
 			const orderId = (await newOrder)._id;
 
 			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
 
-			await expect(editPodructButton).not.toBeVisible();
+			await expect(orderDetailsProductPage.editProductsButton).not.toBeVisible();
 		},
 	);
 
@@ -187,15 +175,13 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService }) => {
-			const editPodructButton = page.locator("#edit-products-pencil"); //необходимо убрать когда будет страница деталей
-
+		async ({ page, ordersApiService, orderDetailsProductPage }) => {
 			const newOrder = ordersApiService.reopenOrderInProgress(token, 1);
 			const orderId = (await newOrder)._id;
 
 			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
 
-			await expect(editPodructButton).toBeVisible();
+			await expect(orderDetailsProductPage.editProductsButton).toBeVisible();
 		},
 	);
 });

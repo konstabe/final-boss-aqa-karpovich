@@ -14,6 +14,10 @@ import { HomeUIService } from "ui-services/home.ui-service";
 import { EditCustomerModal } from "pages/orders/editCustomer.modal";
 import { EditProductModal } from "pages/orders/editProduct.modal";
 import { CancelOrderModal } from "pages/orders/canсelOrder.modal";
+import { OrderDetailsProductPage } from "pages/orders/orderDetails/orderDetails.product.page";
+import { OrderDetailsHeaderPage } from "pages/orders/orderDetails/orderDetails.header.page";
+import { OrderDetailsCustomerPage } from "pages/orders/orderDetails/orderDetails.customer.page";
+import { ReopenModal } from "pages/reOpenOder.modal";
 // import { AddNewCustomerPage } from "pages/customers/addNewCustomer.page";
 // import { CustomersListPage } from "pages/customers/customersList.page";
 // import { AddNewProductPage } from "pages/products/addNewProduct.page";
@@ -39,6 +43,10 @@ export interface IPages {
 	cancelOrderModal: CancelOrderModal;
 	ordersListPage: OrdersListPage;
 	addNewOrderPage: CreateOrderModal;
+	reopenModal: ReopenModal;
+	orderDetailsProductPage: OrderDetailsProductPage;
+	orderDetailsHeaderPage: OrderDetailsHeaderPage;
+	orderDetailsCustomerPage: OrderDetailsCustomerPage;
 
 	//ui-services
 	homeUIService: HomeUIService;
@@ -99,6 +107,22 @@ export const test = base.extend<IPages>({
 
 	cancelOrderModal: async ({ page }, use) => {
 		await use(new CancelOrderModal(page));
+	},
+
+	orderDetailsProductPage: async ({ page }, use) => {
+		await use(new OrderDetailsProductPage(page));
+	},
+
+	orderDetailsHeaderPage: async ({ page }, use) => {
+		await use(new OrderDetailsHeaderPage(page));
+	},
+
+	orderDetailsCustomerPage: async ({ page }, use) => {
+		await use(new OrderDetailsCustomerPage(page));
+	},
+
+	reopenModal: async ({ page }, use) => {
+		await use(new ReopenModal(page));
 	},
 
 	// //ui-services

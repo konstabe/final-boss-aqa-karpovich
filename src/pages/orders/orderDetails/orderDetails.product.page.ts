@@ -10,6 +10,7 @@ export class OrderDetailsProductPage extends SalesPortalPage {
 
 	readonly productDetailsHeader = (id: number) => this.page.locator(`#heading${id}`);
 	readonly productDetailsBlocks = (id: number) => this.page.locator(`#heading${id} .c-details`);
+	readonly productsDetailsInOrder = this.page.locator("#products-accordion-section");
 
 	@logStep("Change state product details by id")
 	async changeStateProductDetailsById(id: number = 0) {
