@@ -7,7 +7,7 @@ export class OrderDetailsCustomerPage extends SalesPortalPage {
 	readonly customerSection = this.page.locator("#customer-section");
 	readonly uniqueElement = this.customerSection;
 
-	readonly customerDetailsBlocks = this.page.locator("#customer-details .c-details");
+	readonly customerDetailsBlocks = this.page.locator("#customer-section .c-details");
 	readonly editCustomerButton = this.page.locator("#edit-customer-pencil");
 	readonly emailField = this.page.locator("//div[@class='p-3']/div[1]//span[2]");
 	readonly nameField = this.page.locator("//div[@class='p-3']/div[2]//span[2]");

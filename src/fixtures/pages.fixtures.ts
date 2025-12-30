@@ -11,13 +11,18 @@ import { OrdersListUIService } from "ui-services/ordersList.ui-service";
 import { CreateOrderModal } from "pages/orders/createOrder.modal";
 import { AddNewOrderUIService } from "ui-services/addNewOrder.ui-service";
 import { HomeUIService } from "ui-services/home.ui-service";
+import { OrderDetailsHeaderPage } from "pages/orders/orderDetails/orderDetails.header.page";
+import { OrderDetailsBottomPage } from "pages/orders/orderDetails/orderDetails.bottom.page";
+import { OrderDetailsCustomerPage } from "pages/orders/orderDetails/orderDetails.customer.page";
+import { OrderDetailsProductPage } from "pages/orders/orderDetails/orderDetails.product.page";
+import { AssignedManagerModal } from "pages/assignManager.modal";
+import { ConfirmationModal } from "pages/confirmation.modal";
+import { EditDeliveryModal } from "pages/editDelivery";
+import { OrdersDetailsUIService } from "ui-services/orderDetails.ui-service";
+import { ReopenModal } from "pages/reOpenOder.modal";
+import { CancelOrderModal } from "pages/orders/canсelOrder.modal";
 import { EditCustomerModal } from "pages/orders/editCustomer.modal";
 import { EditProductModal } from "pages/orders/editProduct.modal";
-import { CancelOrderModal } from "pages/orders/canсelOrder.modal";
-import { OrderDetailsProductPage } from "pages/orders/orderDetails/orderDetails.product.page";
-import { OrderDetailsHeaderPage } from "pages/orders/orderDetails/orderDetails.header.page";
-import { OrderDetailsCustomerPage } from "pages/orders/orderDetails/orderDetails.customer.page";
-import { ReopenModal } from "pages/reOpenOder.modal";
 // import { AddNewCustomerPage } from "pages/customers/addNewCustomer.page";
 // import { CustomersListPage } from "pages/customers/customersList.page";
 // import { AddNewProductPage } from "pages/products/addNewProduct.page";
@@ -42,11 +47,16 @@ export interface IPages {
 	editProductModal: EditProductModal;
 	cancelOrderModal: CancelOrderModal;
 	ordersListPage: OrdersListPage;
-	addNewOrderPage: CreateOrderModal;
-	reopenModal: ReopenModal;
-	orderDetailsProductPage: OrderDetailsProductPage;
+
 	orderDetailsHeaderPage: OrderDetailsHeaderPage;
+	orderDetailsBottomPage: OrderDetailsBottomPage;
 	orderDetailsCustomerPage: OrderDetailsCustomerPage;
+	orderDetailsProductPage: OrderDetailsProductPage;
+	assignedManagerModal: AssignedManagerModal;
+	confirmationModal: ConfirmationModal;
+	editDeliveryModal: EditDeliveryModal;
+	createOrderModal: CreateOrderModal;
+	reopenModal: ReopenModal;
 
 	//ui-services
 	homeUIService: HomeUIService;
@@ -57,6 +67,7 @@ export interface IPages {
 	// customersListUIService: CustomersListUIService;
 	// addNewCustomerUIService: AddNewCustomertUIService;
 	addNewOrderUIService: AddNewOrderUIService;
+	ordersDetailsUIService: OrdersDetailsUIService;
 }
 
 export const test = base.extend<IPages>({
@@ -93,32 +104,30 @@ export const test = base.extend<IPages>({
 		await use(new OrdersListPage(page));
 	},
 
-	addNewOrderPage: async ({ page }, use) => {
-		await use(new CreateOrderModal(page));
-	},
-
-	editCustomerModal: async ({ page }, use) => {
-		await use(new EditCustomerModal(page));
-	},
-
-	editProductModal: async ({ page }, use) => {
-		await use(new EditProductModal(page));
-	},
-
-	cancelOrderModal: async ({ page }, use) => {
-		await use(new CancelOrderModal(page));
-	},
-
-	orderDetailsProductPage: async ({ page }, use) => {
-		await use(new OrderDetailsProductPage(page));
-	},
-
 	orderDetailsHeaderPage: async ({ page }, use) => {
 		await use(new OrderDetailsHeaderPage(page));
 	},
-
+	orderDetailsBottomPage: async ({ page }, use) => {
+		await use(new OrderDetailsBottomPage(page));
+	},
 	orderDetailsCustomerPage: async ({ page }, use) => {
 		await use(new OrderDetailsCustomerPage(page));
+	},
+	orderDetailsProductPage: async ({ page }, use) => {
+		await use(new OrderDetailsProductPage(page));
+	},
+	assignedManagerModal: async ({ page }, use) => {
+		await use(new AssignedManagerModal(page));
+	},
+	confirmationModal: async ({ page }, use) => {
+		await use(new ConfirmationModal(page));
+	},
+	editDeliveryModal: async ({ page }, use) => {
+		await use(new EditDeliveryModal(page));
+	},
+
+	createOrderModal: async ({ page }, use) => {
+		await use(new CreateOrderModal(page));
 	},
 
 	reopenModal: async ({ page }, use) => {
@@ -156,6 +165,10 @@ export const test = base.extend<IPages>({
 
 	ordersListUIService: async ({ page }, use) => {
 		await use(new OrdersListUIService(page));
+	},
+
+	ordersDetailsUIService: async ({ page }, use) => {
+		await use(new OrdersDetailsUIService(page));
 	},
 });
 

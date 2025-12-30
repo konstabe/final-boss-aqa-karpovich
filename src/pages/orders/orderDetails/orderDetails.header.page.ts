@@ -3,12 +3,15 @@ import { SalesPortalPage } from "pages/salesPortal.page";
 import { parseSummaryCell } from "utils/parseCells";
 import { OrderSummaryTitle } from "../common/order.types";
 import { logStep } from "utils/report/logStep.utils";
+import { ProcessOrderModal } from "../processOrder.modal";
 
 export class OrderDetailsHeaderPage extends SalesPortalPage {
+	readonly processOrderModal = new ProcessOrderModal(this.page);
+
 	readonly detailsHeader = this.page.locator("#order-details-header");
 	readonly uniqueElement = this.detailsHeader;
 
-	readonly backLink = this.page.locator("a", { hasText: "Orders" });
+	readonly backLink = this.page.locator("[class='back-link']");
 	readonly orderNumber = this.detailsHeader.locator("span.strong-details + span.fst-italic");
 	readonly orderStatusBlocks = this.page.locator("#order-status-bar-container .me-2");
 
@@ -16,8 +19,13 @@ export class OrderDetailsHeaderPage extends SalesPortalPage {
 	readonly reopenOrderButton = this.page.locator("#reopen-order");
 	readonly refreshOrderButton = this.page.locator("#refresh-order");
 	readonly assignManagerContainer = this.page.locator("#assigned-manager-container");
-	readonly unassignManagerButton = this.page.locator("#assigned-manager-link");
+	readonly unassignManagerButton = this.page.locator("[onclick*='renderRemoveAssignedManagerModal']");
 	readonly editAssignedManagerButton = this.page.locator("[onclick*='renderAssigneManagerModal']");
+	readonly processOrderButton = this.page.locator("#process-order");
+	readonly tableValueByHeader = (header: OrderSummaryTitle) =>
+		this.page.locator(
+			`//div[@id='order-status-bar-container']//span[contains(text(), '${header}')]/following-sibling::span`,
+		);
 
 	@logStep("Get order number")
 	async getOrderNumber() {
@@ -49,8 +57,8 @@ export class OrderDetailsHeaderPage extends SalesPortalPage {
 	}
 
 	@logStep("Refresh order")
-	async refreshOrder() {
-		return this.interceptResponse("/api/orders/", () => this.refreshOrderButton.click());
+	async refreshOrder(id: string) {
+		return this.interceptResponse(`/api/orders/${id}`, () => this.refreshOrderButton.click());
 	}
 
 	@logStep("Click assign manager")
@@ -66,5 +74,10 @@ export class OrderDetailsHeaderPage extends SalesPortalPage {
 	@logStep("Open edit assigned manager modal")
 	async openEditAssignedManagerModal() {
 		await this.editAssignedManagerButton.click();
+	}
+
+	@logStep("Click Process Order")
+	async clickProcessOrder() {
+		await this.processOrderButton.click();
 	}
 }

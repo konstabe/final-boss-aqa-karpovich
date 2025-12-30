@@ -9,8 +9,8 @@ export class OrderDetailsProductPage extends SalesPortalPage {
 	readonly editProductsButton = this.page.locator("#edit-products-pencil");
 
 	readonly productDetailsHeader = (id: number) => this.page.locator(`#heading${id}`);
-	readonly productDetailsBlocks = (id: number) => this.page.locator(`#heading${id} .c-details`);
 	readonly productsDetailsInOrder = this.page.locator("#products-accordion-section");
+	readonly productDetailsBlocks = (id: number) => this.page.locator(`[aria-labelledby="heading${id}"] .c-details`);
 
 	@logStep("Change state product details by id")
 	async changeStateProductDetailsById(id: number = 0) {

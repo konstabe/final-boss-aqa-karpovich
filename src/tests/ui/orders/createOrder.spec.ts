@@ -35,7 +35,7 @@ test.describe("[UI] [Orders] [createOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ addNewOrderPage, ordersListPage, ordersListUIService, ordersApiService }) => {
+		async ({ createOrderModal, ordersListPage, ordersListUIService, ordersApiService }) => {
 			const { customerId, customerName, customerEmail } = await ordersApiService.createCustomer(token);
 			id_customer = customerId;
 
@@ -45,25 +45,25 @@ test.describe("[UI] [Orders] [createOrderModal]", () => {
 			await ordersListUIService.open();
 			await ordersListPage.clickCreateOrder();
 
-			await expect(addNewOrderPage.createOrderPageTitle).toHaveText("Create Order");
-			await expect(addNewOrderPage.addProductButton).toBeVisible();
-			await expect(addNewOrderPage.deleteProductButton).not.toBeVisible();
+			await expect(createOrderModal.createOrderPageTitle).toHaveText("Create Order");
+			await expect(createOrderModal.addProductButton).toBeVisible();
+			await expect(createOrderModal.deleteProductButton).not.toBeVisible();
 
-			await addNewOrderPage.selectCustomerAndProduct(customerName, productNames);
-			await expect(addNewOrderPage.addProductButton).not.toBeVisible();
-			await addNewOrderPage.verifyCountOfDeleteButtons(5);
+			await createOrderModal.selectCustomerAndProduct(customerName, productNames);
+			await expect(createOrderModal.addProductButton).not.toBeVisible();
+			await createOrderModal.verifyCountOfDeleteButtons(5);
 
-			await addNewOrderPage.deleteProductByName(productNames[1]!);
-			await addNewOrderPage.deleteProductByName(productNames[2]!);
-			await addNewOrderPage.verifyCountOfDeleteButtons(3);
-			await expect(addNewOrderPage.addProductButton).toBeVisible();
+			await createOrderModal.deleteProductByName(productNames[1]!);
+			await createOrderModal.deleteProductByName(productNames[2]!);
+			await createOrderModal.verifyCountOfDeleteButtons(3);
+			await expect(createOrderModal.addProductButton).toBeVisible();
 
-			await addNewOrderPage.deleteProductByName(productNames[1]!);
-			await addNewOrderPage.deleteProductByName(productNames[2]!);
-			await expect(addNewOrderPage.addProductButton).toBeVisible();
-			await expect(addNewOrderPage.deleteProductButton).not.toBeVisible();
+			await createOrderModal.deleteProductByName(productNames[1]!);
+			await createOrderModal.deleteProductByName(productNames[2]!);
+			await expect(createOrderModal.addProductButton).toBeVisible();
+			await expect(createOrderModal.deleteProductButton).not.toBeVisible();
 
-			await addNewOrderPage.clickCreate();
+			await createOrderModal.clickCreate();
 
 			await ordersListPage.waitForOpened();
 			await expect(ordersListPage.toastMessage).toContainText(NOTIFICATIONS.ORDER_CREATED);
@@ -80,7 +80,7 @@ test.describe("[UI] [Orders] [createOrderModal]", () => {
 		{
 			tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ addNewOrderPage, ordersListPage, ordersListUIService, ordersApiService }) => {
+		async ({ createOrderModal, ordersListPage, ordersListUIService, ordersApiService }) => {
 			const { customerId, customerName, customerEmail } = await ordersApiService.createCustomer(token);
 			id_customer = customerId;
 
@@ -90,8 +90,8 @@ test.describe("[UI] [Orders] [createOrderModal]", () => {
 			await ordersListUIService.open();
 			await ordersListPage.clickCreateOrder();
 
-			await addNewOrderPage.selectCustomerAndProduct(customerName, productNames);
-			await addNewOrderPage.clickCreate();
+			await createOrderModal.selectCustomerAndProduct(customerName, productNames);
+			await createOrderModal.clickCreate();
 
 			await ordersListPage.waitForOpened();
 
@@ -107,7 +107,7 @@ test.describe("[UI] [Orders] [createOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ addNewOrderPage, ordersListPage, ordersListUIService, ordersApiService }) => {
+		async ({ createOrderModal, ordersListPage, ordersListUIService, ordersApiService }) => {
 			const { customerId, customerName, customerEmail } = await ordersApiService.createCustomer(token);
 			id_customer = customerId;
 
@@ -117,13 +117,13 @@ test.describe("[UI] [Orders] [createOrderModal]", () => {
 			await ordersListUIService.open();
 			await ordersListPage.clickCreateOrder();
 
-			await addNewOrderPage.selectCustomerAndProduct(customerName, productNames);
+			await createOrderModal.selectCustomerAndProduct(customerName, productNames);
 
-			await addNewOrderPage.deleteProductByName(productNames[1]!);
-			await addNewOrderPage.deleteProductByName(productNames[2]!);
-			expect(addNewOrderPage.productField.selectOption(productNames[0]!));
+			await createOrderModal.deleteProductByName(productNames[1]!);
+			await createOrderModal.deleteProductByName(productNames[2]!);
+			expect(createOrderModal.productField.selectOption(productNames[0]!));
 
-			await addNewOrderPage.clickCreate();
+			await createOrderModal.clickCreate();
 
 			await ordersListPage.waitForOpened();
 
@@ -139,7 +139,7 @@ test.describe("[UI] [Orders] [createOrderModal]", () => {
 		{
 			tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ addNewOrderPage, ordersListPage, ordersListUIService, ordersApiService }) => {
+		async ({ createOrderModal, ordersListPage, ordersListUIService, ordersApiService }) => {
 			const { customerId, customerName, customerEmail } = await ordersApiService.createCustomer(token);
 			id_customer = customerId;
 
@@ -149,8 +149,8 @@ test.describe("[UI] [Orders] [createOrderModal]", () => {
 			await ordersListUIService.open();
 			await ordersListPage.clickCreateOrder();
 
-			await addNewOrderPage.selectCustomerAndProduct(customerName, productNames);
-			await addNewOrderPage.clickCreate();
+			await createOrderModal.selectCustomerAndProduct(customerName, productNames);
+			await createOrderModal.clickCreate();
 
 			await ordersListPage.waitForOpened();
 

@@ -8,6 +8,8 @@ export class AssignedManagerModal extends ConfirmationModal {
 	readonly searchField = this.uniqueElement.locator("#manager-search-input");
 	readonly managerList = this.uniqueElement.locator("#manager-list");
 	readonly managerById = (id: string) => this.managerList.locator(`[data-managerid="${id}"]`);
+	readonly managerItems = this.managerList.locator("[data-managerid]");
+	readonly managerItemByIndex = (index: number) => this.managerItems.nth(index);
 
 	readonly saveButton = this.uniqueElement.locator(".btn-primary");
 	readonly closeButton = this.uniqueElement.locator("button.hover-danger");
@@ -20,6 +22,26 @@ export class AssignedManagerModal extends ConfirmationModal {
 	@logStep("Select manager by id")
 	async selectManagerById(id: string) {
 		await this.managerById(id).click();
+	}
+
+	@logStep("Select first available manager")
+	async selectFirstManager() {
+		await this.managerItemByIndex(0).click();
+	}
+
+	@logStep("Select manager by index")
+	async selectManagerByIndex(index: number) {
+		await this.managerItemByIndex(index).click();
+	}
+
+	@logStep("Get manager id by index")
+	async getManagerIdByIndex(index: number) {
+		return this.managerItemByIndex(index).getAttribute("data-managerid");
+	}
+
+	@logStep("Get managers count")
+	async getManagerCount() {
+		return this.managerItems.count();
 	}
 
 	@logStep("Assign manager")
