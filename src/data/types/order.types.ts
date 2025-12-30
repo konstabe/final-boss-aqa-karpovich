@@ -149,7 +149,7 @@ export interface IOrdersMock extends IResponseFields {
 	};
 }
 
-export type ModalsOnOrdersList = "reopenModal" | "filterModal" | "exportDataModal" | "createOrderModal";
+export type ModalsOnOrdersList = "reopenModal" | "filterModal" | "exportDataModal"; //добавить createOrderModal
 export type ModalsOnOrderDetails = "processOrderModal"; //добавить остальные модалки
 
 export interface IOrderDitailsMock extends IResponseFields {
