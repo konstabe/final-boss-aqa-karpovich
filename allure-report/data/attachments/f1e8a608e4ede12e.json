@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 23:06:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-YHSz0+zioJ4IyqLBFUhsTP7SAqM\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69545ae71c508c5d5e58d45b",
+        "email": "Andreane92@hotmail.com",
+        "name": "Frances Auer",
+        "country": "Russia",
+        "city": "North Arlene",
+        "street": "Elbert Shoals",
+        "house": 11,
+        "flat": 719,
+        "phone": "+13719676727",
+        "createdOn": "2025-12-30T23:06:15.000Z",
+        "notes": "m3tsQxYlOtwL2jmqEk6ZVN6VSpb4RkKDhKoBncfhmMXWUNNThLgGmtBjylXcZgzV8GonGmlrvxMbbP5YXlk7Ey8kWJ6l15uiZ3up0bL2FZm9tAsNXOFlJJ0qmXwPsATqe8PSWyTVAiVoQ6nlpp2WldtfUdBJWwPTlk81F0OniftpAr9QGRVXB04HrWLXPBu1kYScJaFih3LSC8Coe4KNEynLMSxQwBzCZ9Uuf71FOOqk8CKPI2OrspUtV9"
+      },
+      "products": [
+        {
+          "_id": "69545ae81c508c5d5e58d4a4",
+          "name": "Gloves1964",
+          "amount": 999,
+          "price": 35745,
+          "manufacturer": "Tesla",
+          "notes": "kmfewQJzBUtkbfEKIyJKCr7yxDZuZGdDGw8j8c4BODOZ3UIUG52ZGw7mXwGsMdIjHWkGX0OUteyEmUAIlgOGtEEJbaw7Uip3vPHs4Uiv7MRfahPizXpbaNg0hjc7QLREC1NtJyAVwGlbey9TAJluGidNKYaVsDZHPYBUB8d4C9pJggoGyOfxCZZlzjAmwVh2RffhIQOJkuWeMF6b9s7ZNcgRrI2oPE524W2E6W047UIuRvTbnQpgOHGp6d",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35745,
+      "createdOn": "2025-12-30T23:06:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69545ae71c508c5d5e58d45b",
+          "products": [
+            {
+              "_id": "69545ae81c508c5d5e58d4a4",
+              "name": "Gloves1964",
+              "amount": 999,
+              "price": 35745,
+              "manufacturer": "Tesla",
+              "notes": "kmfewQJzBUtkbfEKIyJKCr7yxDZuZGdDGw8j8c4BODOZ3UIUG52ZGw7mXwGsMdIjHWkGX0OUteyEmUAIlgOGtEEJbaw7Uip3vPHs4Uiv7MRfahPizXpbaNg0hjc7QLREC1NtJyAVwGlbey9TAJluGidNKYaVsDZHPYBUB8d4C9pJggoGyOfxCZZlzjAmwVh2RffhIQOJkuWeMF6b9s7ZNcgRrI2oPE524W2E6W047UIuRvTbnQpgOHGp6d",
+              "received": false
+            }
+          ],
+          "total_price": 35745,
+          "delivery": null,
+          "changedOn": "2025-12-30T23:06:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69545ae81c508c5d5e58d4b6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

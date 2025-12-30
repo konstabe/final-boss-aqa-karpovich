@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 23:06:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-oXRNbzN1/cRGpFMAUNOlqLKTkj0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69545ae71c508c5d5e58d47c",
+        "email": "Dell_King59@hotmail.com",
+        "name": "Brenna Wolff",
+        "country": "Germany",
+        "city": "Cassidyville",
+        "street": "Jaiden Branch",
+        "house": 22,
+        "flat": 523,
+        "phone": "+15283184320",
+        "createdOn": "2025-12-30T23:06:15.000Z",
+        "notes": "aGONrg2sTCDKWbAiMvl6ES1DnJAEKZdQLqXPbvcFUYpfuA2jaH6F4EieeYpaIsul5XwutMsKj86tkKOnxgbADn8tnyk3TbR3Q0KOs15txnDteBzrQE5GnDApDSy7TDdVS8AyJ1qKUFgUQm1Wus3QE1KYxghEQmNs0KLbH0nuwBCZUYaOJnci9OGn7qaOT3qNxO1naugFKWpzrbOyoB1zhNdVzbrWrZ5UcG0RE0Zv6cGP0RGx1IDEklv2nm"
+      },
+      "products": [
+        {
+          "_id": "69545ae91c508c5d5e58d4bf",
+          "name": "Cheese22669",
+          "amount": 694,
+          "price": 98535,
+          "manufacturer": "Tesla",
+          "notes": "xuMzpkAqm8Qsdauo8ZuX0Q4QCHJQpqfzsI3RRo0lOLOgxi3NjYkjYUJHf2CCCeZciflCtJ4bA07yIatUYrCIL937wWI2JO3oTNpm64clqBOfQ8Ph3UAcsoNB34lbm93gdPH2rImkqZ7ra1Cj9VSONvRyoLqYXjChX4cE6gjk8uhXDKroZh58HtlGPJh00SuQtev4zI9wOvOZfNZgjNiQh7pceRzCgJOe5XwwYwVqbXkr5caGOKtzHHgYZn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98535,
+      "createdOn": "2025-12-30T23:06:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69545ae71c508c5d5e58d47c",
+          "products": [
+            {
+              "_id": "69545ae91c508c5d5e58d4bf",
+              "name": "Cheese22669",
+              "amount": 694,
+              "price": 98535,
+              "manufacturer": "Tesla",
+              "notes": "xuMzpkAqm8Qsdauo8ZuX0Q4QCHJQpqfzsI3RRo0lOLOgxi3NjYkjYUJHf2CCCeZciflCtJ4bA07yIatUYrCIL937wWI2JO3oTNpm64clqBOfQ8Ph3UAcsoNB34lbm93gdPH2rImkqZ7ra1Cj9VSONvRyoLqYXjChX4cE6gjk8uhXDKroZh58HtlGPJh00SuQtev4zI9wOvOZfNZgjNiQh7pceRzCgJOe5XwwYwVqbXkr5caGOKtzHHgYZn",
+              "received": false
+            }
+          ],
+          "total_price": 98535,
+          "delivery": null,
+          "changedOn": "2025-12-30T23:06:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69545ae91c508c5d5e58d4d6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

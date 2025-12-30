@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 23:06:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3895",
+    "etag": "W/\"f37-kXZks9+ItL7n65V25yj1wdun0y8\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69545af01c508c5d5e58d7e9",
+      "status": "In Process",
+      "customer": {
+        "_id": "69545aec1c508c5d5e58d63a",
+        "email": "Christopher_Hauck@hotmail.com",
+        "name": "Felipe Lueilwitz",
+        "country": "Belarus",
+        "city": "Russelworth",
+        "street": "Poplar Street",
+        "house": 10,
+        "flat": 50,
+        "phone": "+15462788880",
+        "createdOn": "2025-12-30T23:06:20.000Z",
+        "notes": "lz6EQj3w8NtSqZOPbUWSPbxc8l2kxCjQSJTBXhOIuwVKlqE8UUyUG1KmbJckfdemu4SB4zrI8H27BidFszelPklGy51zPet80lwy2GQyhtlpJM5H9lSdPf478EGlui7ygfKg3j8NY6GjLtWUAxtW2leHmjidmXITeCjmdCYTDQqvuf2vxi0aUIbBfHNVviHsGGkVaBMnrHAP1Igy2RTLRRS8gLXuPXOIGv0t3otRktC85tV3C2jggSwBkp"
+      },
+      "products": [
+        {
+          "_id": "69545af01c508c5d5e58d7de",
+          "name": "Computer81423",
+          "amount": 188,
+          "price": 96573,
+          "manufacturer": "Sony",
+          "notes": "mQoytTFb9l5cuhudAujAE2uRXy917psM47SJcYpCcBX0gXYyilkFmB00Z407nTAC7VOfkkvXgCwEcmNRnkfZFYrHpLl7ihAhPAmqexhI1HWCZumWA3w0Cxxvcdas6X3FVfaXi5v0Q8rfKG9dQnpe7YQKWhv1cuCDbb5I9aTFQhaCdhFbw8R4XD8bDTEHLihcBB9tOdlPmO9h8qh5eF8TUFvtTvv8fNE9BehzJE6VHfJleVsrpmTLcYT4Ps",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Russelworth",
+          "street": "Poplar Street",
+          "house": 10,
+          "flat": 50
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 96573,
+      "createdOn": "2025-12-30T23:06:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69545aec1c508c5d5e58d63a",
+          "products": [
+            {
+              "_id": "69545af01c508c5d5e58d7de",
+              "name": "Computer81423",
+              "amount": 188,
+              "price": 96573,
+              "manufacturer": "Sony",
+              "notes": "mQoytTFb9l5cuhudAujAE2uRXy917psM47SJcYpCcBX0gXYyilkFmB00Z407nTAC7VOfkkvXgCwEcmNRnkfZFYrHpLl7ihAhPAmqexhI1HWCZumWA3w0Cxxvcdas6X3FVfaXi5v0Q8rfKG9dQnpe7YQKWhv1cuCDbb5I9aTFQhaCdhFbw8R4XD8bDTEHLihcBB9tOdlPmO9h8qh5eF8TUFvtTvv8fNE9BehzJE6VHfJleVsrpmTLcYT4Ps",
+              "received": false
+            }
+          ],
+          "total_price": 96573,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Russelworth",
+              "street": "Poplar Street",
+              "house": 10,
+              "flat": 50
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-30T23:06:25.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69545aec1c508c5d5e58d63a",
+          "products": [
+            {
+              "_id": "69545af01c508c5d5e58d7de",
+              "name": "Computer81423",
+              "amount": 188,
+              "price": 96573,
+              "manufacturer": "Sony",
+              "notes": "mQoytTFb9l5cuhudAujAE2uRXy917psM47SJcYpCcBX0gXYyilkFmB00Z407nTAC7VOfkkvXgCwEcmNRnkfZFYrHpLl7ihAhPAmqexhI1HWCZumWA3w0Cxxvcdas6X3FVfaXi5v0Q8rfKG9dQnpe7YQKWhv1cuCDbb5I9aTFQhaCdhFbw8R4XD8bDTEHLihcBB9tOdlPmO9h8qh5eF8TUFvtTvv8fNE9BehzJE6VHfJleVsrpmTLcYT4Ps",
+              "received": false
+            }
+          ],
+          "total_price": 96573,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Russelworth",
+              "street": "Poplar Street",
+              "house": 10,
+              "flat": 50
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-30T23:06:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69545aec1c508c5d5e58d63a",
+          "products": [
+            {
+              "_id": "69545af01c508c5d5e58d7de",
+              "name": "Computer81423",
+              "amount": 188,
+              "price": 96573,
+              "manufacturer": "Sony",
+              "notes": "mQoytTFb9l5cuhudAujAE2uRXy917psM47SJcYpCcBX0gXYyilkFmB00Z407nTAC7VOfkkvXgCwEcmNRnkfZFYrHpLl7ihAhPAmqexhI1HWCZumWA3w0Cxxvcdas6X3FVfaXi5v0Q8rfKG9dQnpe7YQKWhv1cuCDbb5I9aTFQhaCdhFbw8R4XD8bDTEHLihcBB9tOdlPmO9h8qh5eF8TUFvtTvv8fNE9BehzJE6VHfJleVsrpmTLcYT4Ps",
+              "received": false
+            }
+          ],
+          "total_price": 96573,
+          "delivery": null,
+          "changedOn": "2025-12-30T23:06:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

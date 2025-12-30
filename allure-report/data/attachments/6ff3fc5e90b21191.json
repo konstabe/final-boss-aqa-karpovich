@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 23:07:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-evMKaSfRcEyaiiWqEY/vW0SjRns\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69545b151c508c5d5e58ec00",
+        "email": "Melisa_Schroeder3@gmail.com",
+        "name": "Leif Zemlak",
+        "country": "France",
+        "city": "Whitecester",
+        "street": "Donnelly Junctions",
+        "house": 32,
+        "flat": 501,
+        "phone": "+18408834470",
+        "createdOn": "2025-12-30T23:07:01.000Z",
+        "notes": "zLjuYhuX3n5iOJMprM4VPa2VgqVkpLR9zLlaygSQjfpUgZTvM7YPDt8JD6Lk1XUODPfJLYQpKM7SscE4Ez3bRgVU8wI9PQ67CXTh9VKKH5XhcnbB0qLwJ3YCYDWk0H5Le8MokkbVmwZrhD9FXIEmibG0e5dVXYv8PLwu7t9CE5JxtWqy3vPoJjaBhwxzwMsD4O3X0bFCg53Iz6SswzzJJMPtRrQRhGemF80wzcktiwd2wT1KJ5xA34VZTp"
+      },
+      "products": [
+        {
+          "_id": "69545b161c508c5d5e58eca8",
+          "name": "Car24183",
+          "amount": 513,
+          "price": 56189,
+          "manufacturer": "Google",
+          "notes": "BeANLweCT5KatSpvWn8WebbY3JhJGedLObi5YriOsyN182vPgUotYEn0vh61ZNotXAXVm2zDtXUkYLCptt80RbI64Jg7VsWlvQJd8mXB0cQFQNg0X0a4V93zH3yICo9Xm5xVqR1O4hmAN9rlM6zAhBQnShzzmHp3xj0ld3cWWEfKqpMTytQ5J5crkjyYj8XWuy7WNaUpgs2CoXW287kkKs9uy7wJgsyhlZ0AsF4DogkT0KN0xUgzD8xqFT",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 56189,
+      "createdOn": "2025-12-30T23:07:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69545b151c508c5d5e58ec00",
+          "products": [
+            {
+              "_id": "69545b161c508c5d5e58eca8",
+              "name": "Car24183",
+              "amount": 513,
+              "price": 56189,
+              "manufacturer": "Google",
+              "notes": "BeANLweCT5KatSpvWn8WebbY3JhJGedLObi5YriOsyN182vPgUotYEn0vh61ZNotXAXVm2zDtXUkYLCptt80RbI64Jg7VsWlvQJd8mXB0cQFQNg0X0a4V93zH3yICo9Xm5xVqR1O4hmAN9rlM6zAhBQnShzzmHp3xj0ld3cWWEfKqpMTytQ5J5crkjyYj8XWuy7WNaUpgs2CoXW287kkKs9uy7wJgsyhlZ0AsF4DogkT0KN0xUgzD8xqFT",
+              "received": false
+            }
+          ],
+          "total_price": 56189,
+          "delivery": null,
+          "changedOn": "2025-12-30T23:07:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69545b171c508c5d5e58ecb1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
