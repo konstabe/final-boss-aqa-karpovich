@@ -134,6 +134,18 @@ export const test = base.extend<IPages>({
 		await use(new ReopenModal(page));
 	},
 
+	editCustomerModal: async ({ page }, use) => {
+		await use(new EditCustomerModal(page));
+	},
+
+	editProductModal: async ({ page }, use) => {
+		await use(new EditProductModal(page));
+	},
+
+	cancelOrderModal: async ({ page }, use) => {
+		await use(new CancelOrderModal(page));
+	},
+
 	// //ui-services
 	homeUIService: async ({ page }, use) => {
 		await use(new HomeUIService(page));
