@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 23:10:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-uPhm18Xdr4qt3+uu3iHdJNAytms\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69545beb1c508c5d5e58ee28",
+        "email": "Mollie_Hessel48@gmail.com",
+        "name": "Newton Friesen",
+        "country": "Great Britain",
+        "city": "Myronboro",
+        "street": "Onie Rue",
+        "house": 43,
+        "flat": 57,
+        "phone": "+17128584166",
+        "createdOn": "2025-12-30T23:10:35.000Z",
+        "notes": "r2JUlmKe8E0loJdIeX5MtuQthIpkHJqsjD2cKApTMepCIrEK6LI7Mhzsgusx9SQNP2xCu1WfD4bAZJXKJTk1zdGL3n7DEGHaELj4XQumOeqXXdljBFIwGfRCtuVZqD4SijzlGjJ55Oi1ypM3KGCc0Blczyk6YtyKwc1Z0356WHa9xAIJfAITRaArC6KpuG0vKO7rEM1HdsVz0iCVojJecMSLOPCh7bGXqsP02DwxZhhuuOTxHNOlsGUqTK"
+      },
+      "products": [
+        {
+          "_id": "69545bed1c508c5d5e58eea6",
+          "name": "Sausages2915",
+          "amount": 275,
+          "price": 55493,
+          "manufacturer": "Amazon",
+          "notes": "GcKvUAMQUzECS4oYwdVLbX3s7C3TlgXqths9qDOsulkJ7Asef5FQ8DXRZTPEJwkodgn7o9wuVqpC6ylexHOyp2KqrtyDmM0OLLm72K31StNJV2xcWOszouCSoDr6pPVe1zaipAThjKdqFsF7wVUKLsCmRD7B8YWG7PYh34iNsUL6JtDM3Blw3fzLaFBgHV4jK0RszT52nK0fSkXlSnqomqkGsYTU1J2sIIzwAphJbonaCjhisjcbYLOyjb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55493,
+      "createdOn": "2025-12-30T23:10:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69545beb1c508c5d5e58ee28",
+          "products": [
+            {
+              "_id": "69545bed1c508c5d5e58eea6",
+              "name": "Sausages2915",
+              "amount": 275,
+              "price": 55493,
+              "manufacturer": "Amazon",
+              "notes": "GcKvUAMQUzECS4oYwdVLbX3s7C3TlgXqths9qDOsulkJ7Asef5FQ8DXRZTPEJwkodgn7o9wuVqpC6ylexHOyp2KqrtyDmM0OLLm72K31StNJV2xcWOszouCSoDr6pPVe1zaipAThjKdqFsF7wVUKLsCmRD7B8YWG7PYh34iNsUL6JtDM3Blw3fzLaFBgHV4jK0RszT52nK0fSkXlSnqomqkGsYTU1J2sIIzwAphJbonaCjhisjcbYLOyjb",
+              "received": false
+            }
+          ],
+          "total_price": 55493,
+          "delivery": null,
+          "changedOn": "2025-12-30T23:10:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69545bed1c508c5d5e58eeb7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
