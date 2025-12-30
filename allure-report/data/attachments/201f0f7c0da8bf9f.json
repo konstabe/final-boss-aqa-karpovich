@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 13:05:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-XExv3QLqIi8g23I7rfAV7hBmHhQ\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6953ce271c508c5d5e540b5b",
+        "email": "Aniya_Halvorson74@gmail.com",
+        "name": "Shad Kris",
+        "country": "Germany",
+        "city": "East Alyshaberg",
+        "street": "Windsor Close",
+        "house": 14,
+        "flat": 84,
+        "phone": "+16002405094",
+        "createdOn": "2025-12-30T13:05:43.000Z",
+        "notes": "tyipSe3xjzn2Vt4zdYvODWpvDCtiKGDuPugXWsqWQP0kOjtb5nGooRbUysgtOOlqCabzurhWQDgeAyH79P62kLNu1oz3vnTCNTPXma6cJVGYGEIMb2FIFpqnZP12wXG1RZrBMHWannTiJsdSDLqaAmgME0RXpbeGSS0TlahdtPVjrZYKobPQn16FELWGx2aJRBwMqSYnStrRhFhvjYmJOL80FZYctfcOsKfenYAocaKWhzs6ZDkT13wnEf"
+      },
+      "products": [
+        {
+          "_id": "6953ce271c508c5d5e540b77",
+          "name": "Mouse24091",
+          "amount": 153,
+          "price": 39784,
+          "manufacturer": "Sony",
+          "notes": "IzETtNCrQukdGIg2YzLu44V5AGxP6vfRlgj174juFAT2t8cFPyCdWx5GVXQn7mwkOjEbIFZln31AzAdRe9PybpWWpGXH7i3UecrT6mTu8pVh8Fq6Zje0qkzXzZtbi1JFpxAVqvlgnrTH9o57cXbdeScQaBdK6VN8ePkkxh8Q1zIeDZxU5MPuoIr4XhCDiWgNBLpmeqAqC9LYCiSgrmbpBDC7auoTSfQJBznBm4arYUCoOHFi6hqMuQx0oI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 39784,
+      "createdOn": "2025-12-30T13:05:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6953ce271c508c5d5e540b5b",
+          "products": [
+            {
+              "_id": "6953ce271c508c5d5e540b77",
+              "name": "Mouse24091",
+              "amount": 153,
+              "price": 39784,
+              "manufacturer": "Sony",
+              "notes": "IzETtNCrQukdGIg2YzLu44V5AGxP6vfRlgj174juFAT2t8cFPyCdWx5GVXQn7mwkOjEbIFZln31AzAdRe9PybpWWpGXH7i3UecrT6mTu8pVh8Fq6Zje0qkzXzZtbi1JFpxAVqvlgnrTH9o57cXbdeScQaBdK6VN8ePkkxh8Q1zIeDZxU5MPuoIr4XhCDiWgNBLpmeqAqC9LYCiSgrmbpBDC7auoTSfQJBznBm4arYUCoOHFi6hqMuQx0oI",
+              "received": false
+            }
+          ],
+          "total_price": 39784,
+          "delivery": null,
+          "changedOn": "2025-12-30T13:05:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6953ce281c508c5d5e540b94"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

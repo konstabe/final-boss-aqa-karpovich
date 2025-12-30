@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 13:05:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2953",
+    "etag": "W/\"b89-WEOg0u+NZl9mYRZDKxTq36+6eKw\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6953ce281c508c5d5e540bd8",
+      "status": "Draft",
+      "customer": {
+        "_id": "6953ce281c508c5d5e540b97",
+        "email": "Pattie79@gmail.com",
+        "name": "Deanna Littel",
+        "country": "Canada",
+        "city": "Spencerberg",
+        "street": "Schumm Cliff",
+        "house": 13,
+        "flat": 999,
+        "phone": "+14252789106",
+        "createdOn": "2025-12-30T13:05:44.000Z",
+        "notes": "MraUmCd9ZH2ORgUWywtlIXwqJvlQGZfeh2ck41rKBnVLRTaKFdzobz8wzGkV5ycwwAzmdTG4hDv2YF969OvKgXgmz1Fzcip2he3qtigAkMeYUIE5vWuNjOnuh7cDSdxhndGSG4MgdGYwqAqu1GyZKxY45SnUedsmwxuSgW0gr7iJsBfrxmDAM1SCzHhiVYvxyPlI0yqlaVvH53K139P1cSod1J63wgWFm9rZ3FVZl7Vn8PtlHJIsBBWdgX"
+      },
+      "products": [
+        {
+          "_id": "6953ce281c508c5d5e540bb6",
+          "name": "Sausages46391",
+          "amount": 382,
+          "price": 11225,
+          "manufacturer": "Apple",
+          "notes": "hoJnfFiUk8NK69BFQWQ8pYVckpI52YEh6lyRUOQPUGTtphVhbpZQ5Af7eINezFhn7LuqvzCe0kKmkOh8paDhSUtj4wfIEVBfSyI7OOvA4EJAcL8STHXoNf9SHQc2JAvqAanFgUafdKtYhFyjC1baiqkyNzzKUlWFHesd5qOYHRBNuovH8lFdRdHQGdcR4cTHeu2zlmfulBwpmEEevF26qSqhS47YQyZHHbXdzTXHfgn5b3PF8ErC7FIGoQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 11225,
+      "createdOn": "2025-12-30T13:05:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6953ce281c508c5d5e540b97",
+          "products": [
+            {
+              "_id": "6953ce281c508c5d5e540bb6",
+              "name": "Sausages46391",
+              "amount": 382,
+              "price": 11225,
+              "manufacturer": "Apple",
+              "notes": "hoJnfFiUk8NK69BFQWQ8pYVckpI52YEh6lyRUOQPUGTtphVhbpZQ5Af7eINezFhn7LuqvzCe0kKmkOh8paDhSUtj4wfIEVBfSyI7OOvA4EJAcL8STHXoNf9SHQc2JAvqAanFgUafdKtYhFyjC1baiqkyNzzKUlWFHesd5qOYHRBNuovH8lFdRdHQGdcR4cTHeu2zlmfulBwpmEEevF26qSqhS47YQyZHHbXdzTXHfgn5b3PF8ErC7FIGoQ",
+              "received": false
+            }
+          ],
+          "total_price": 11225,
+          "delivery": null,
+          "changedOn": "2025-12-30T13:05:45.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6953ce281c508c5d5e540b97",
+          "products": [
+            {
+              "_id": "6953ce281c508c5d5e540bb6",
+              "name": "Sausages46391",
+              "amount": 382,
+              "price": 11225,
+              "manufacturer": "Apple",
+              "notes": "hoJnfFiUk8NK69BFQWQ8pYVckpI52YEh6lyRUOQPUGTtphVhbpZQ5Af7eINezFhn7LuqvzCe0kKmkOh8paDhSUtj4wfIEVBfSyI7OOvA4EJAcL8STHXoNf9SHQc2JAvqAanFgUafdKtYhFyjC1baiqkyNzzKUlWFHesd5qOYHRBNuovH8lFdRdHQGdcR4cTHeu2zlmfulBwpmEEevF26qSqhS47YQyZHHbXdzTXHfgn5b3PF8ErC7FIGoQ",
+              "received": false
+            }
+          ],
+          "total_price": 11225,
+          "delivery": null,
+          "changedOn": "2025-12-30T13:05:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

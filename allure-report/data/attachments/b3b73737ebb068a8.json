@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 13:05:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2942",
+    "etag": "W/\"b7e-ZfgW/5cSjDw2nRrqRlfeepGx7Pw\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6953ce2a1c508c5d5e540cd5",
+      "status": "Draft",
+      "customer": {
+        "_id": "6953ce2a1c508c5d5e540c8b",
+        "email": "Raegan.Cremin@gmail.com",
+        "name": "Blanche Willms",
+        "country": "USA",
+        "city": "North Madilyn",
+        "street": "Sipes Ford",
+        "house": 32,
+        "flat": 273,
+        "phone": "+17932166165",
+        "createdOn": "2025-12-30T13:05:46.000Z",
+        "notes": "3iBUxueeJiSs3W19AKBxwCgw2aPdBfhfdnRv6VwSvKizMR6FKRiKteSYE3ZPHGk74qJ5JSOMqwm1UHShwDoBDXK5YV5ijQH7HDAWYPehKr9qKDsJD1tm9WtyRUHZQn4PXhm3xSKOtrFkpg7L6ykQplm4mCETU5rkOIqfgj1PzISfFiJOxL5jWQIhwGHqhajKxslTtJvDFdMD26Be6sLIophVmqQLRYI0zN7DheDH1RKJmimeQVDlzRT9LG"
+      },
+      "products": [
+        {
+          "_id": "6953ce2a1c508c5d5e540cb2",
+          "name": "Shirt91270",
+          "amount": 529,
+          "price": 52244,
+          "manufacturer": "Amazon",
+          "notes": "xGmWBaqd5pJYsfBAhLR9WgiJpdFucTZcbfy7mbMJ1UyM1iirsOwsEXZrslHCUvDeVcposMQcbgdyy1BCfm7fmLYm0AhfLQ7pEE9DEt5x0EMPRYHYv5ofNUpzfB83xB3qbqCJSfdgakSeByNg1uW4reLaJrA0WC5uBANHm5TLt8CHvCjzuCHJemb1jUazL3YEz2o7DEq99YITYD7EZcXQNVKvNKAqdG4DjMRGXc3t246YW6DrTW9YU8djk8",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "North Madilyn",
+          "street": "Sipes Ford",
+          "house": 32,
+          "flat": 273
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 52244,
+      "createdOn": "2025-12-30T13:05:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6953ce2a1c508c5d5e540c8b",
+          "products": [
+            {
+              "_id": "6953ce2a1c508c5d5e540cb2",
+              "name": "Shirt91270",
+              "amount": 529,
+              "price": 52244,
+              "manufacturer": "Amazon",
+              "notes": "xGmWBaqd5pJYsfBAhLR9WgiJpdFucTZcbfy7mbMJ1UyM1iirsOwsEXZrslHCUvDeVcposMQcbgdyy1BCfm7fmLYm0AhfLQ7pEE9DEt5x0EMPRYHYv5ofNUpzfB83xB3qbqCJSfdgakSeByNg1uW4reLaJrA0WC5uBANHm5TLt8CHvCjzuCHJemb1jUazL3YEz2o7DEq99YITYD7EZcXQNVKvNKAqdG4DjMRGXc3t246YW6DrTW9YU8djk8",
+              "received": false
+            }
+          ],
+          "total_price": 52244,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "North Madilyn",
+              "street": "Sipes Ford",
+              "house": 32,
+              "flat": 273
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-30T13:05:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953ce2a1c508c5d5e540c8b",
+          "products": [
+            {
+              "_id": "6953ce2a1c508c5d5e540cb2",
+              "name": "Shirt91270",
+              "amount": 529,
+              "price": 52244,
+              "manufacturer": "Amazon",
+              "notes": "xGmWBaqd5pJYsfBAhLR9WgiJpdFucTZcbfy7mbMJ1UyM1iirsOwsEXZrslHCUvDeVcposMQcbgdyy1BCfm7fmLYm0AhfLQ7pEE9DEt5x0EMPRYHYv5ofNUpzfB83xB3qbqCJSfdgakSeByNg1uW4reLaJrA0WC5uBANHm5TLt8CHvCjzuCHJemb1jUazL3YEz2o7DEq99YITYD7EZcXQNVKvNKAqdG4DjMRGXc3t246YW6DrTW9YU8djk8",
+              "received": false
+            }
+          ],
+          "total_price": 52244,
+          "delivery": null,
+          "changedOn": "2025-12-30T13:05:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
