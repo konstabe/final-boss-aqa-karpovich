@@ -18,14 +18,10 @@ test.describe("[UI] [Orders]", () => {
 		test(
 			"Check UI components on history Order Modal",
 			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
-			async ({ orderDetailsBottomPage, page, mock, ordersApiService }) => {
-				const order = await ordersApiService.createDraft(token, 1);
+			async ({ orderDetailsBottomPage, page, mock, ordersDetailsUIService }) => {
 				const mockOrder = generateOrderDetailsMockWithDelivery(ORDER_STATUS.RECEIVED, false);
-				mockOrder.Order._id = order._id;
-
 				await mock.orderDetailsPage(mockOrder);
-				await orderDetailsBottomPage.open(`orders/${order._id}`);
-				await orderDetailsBottomPage.waitForOpened();
+				await ordersDetailsUIService.open(mockOrder.Order._id);
 
 				await expect(orderDetailsBottomPage.bottomTab("history-tab")).toBeVisible();
 				await orderDetailsBottomPage.changeBottomTab("history-tab");
