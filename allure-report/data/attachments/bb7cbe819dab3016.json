@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 19:48:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1909",
+    "etag": "W/\"775-zBLcYv4lRAgYNxAQIQ0VKT0j9Po\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69542c9a1c508c5d5e5495ca",
+        "email": "Glennie.Nolan40@hotmail.com",
+        "name": "Leslie Cruickshank",
+        "country": "France",
+        "city": "Mount Vernon",
+        "street": "Springfield Road",
+        "house": 42,
+        "flat": 901,
+        "phone": "+15109232676",
+        "createdOn": "2025-12-30T19:48:42.000Z",
+        "notes": "EFOytL4oiSMLG0ip2B1JCDB3ZdMrFM2nZkaVBtHEdMTHrvTtyKMPOvST3a3JveqiVLDzV73C9j7kgFeXiKFpU0bepD4a6CjTWJywBIJ1Fx28smbPdMjnEAY9ol742lN5iPJJ2HCAuQ8aI2aFfAjJ4Net8UMTdOc1vgezoVplTfDnOheyDMUvuYbiHquywhmQZmvgh5bjjFFPABGJCgiHpzXi2LO7PrGBvluXzkngQKalh0NALexOfbWUEV"
+      },
+      "products": [
+        {
+          "_id": "69542c9a1c508c5d5e5495cf",
+          "name": "Sausages36750",
+          "amount": 524,
+          "price": 61230,
+          "manufacturer": "Microsoft",
+          "notes": "A32OYnQTpV8cMjXyg7FGePXvQqdSeQh7yPcHdqZvscAgVucq5h6AMZvz3ESKEfxHUbXZ3R5KMjbuhKYRdK4fW5rqkAegNi8hBaDnynHNsqTsTTHvbgrOiZ3LhHfEI25F63mBELjFxybEGCbdhQHYO74CKJ8x8Myp43AyQt4zD2m4UNkr6JWTB14v0xhH9twGuVkFJNVukojMxcYbaH7Zhv2f08MIoo4mJOyCsND9Vt6QQTW0BA1AvR7pKL",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 61230,
+      "createdOn": "2025-12-30T19:48:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69542c9a1c508c5d5e5495ca",
+          "products": [
+            {
+              "_id": "69542c9a1c508c5d5e5495cf",
+              "name": "Sausages36750",
+              "amount": 524,
+              "price": 61230,
+              "manufacturer": "Microsoft",
+              "notes": "A32OYnQTpV8cMjXyg7FGePXvQqdSeQh7yPcHdqZvscAgVucq5h6AMZvz3ESKEfxHUbXZ3R5KMjbuhKYRdK4fW5rqkAegNi8hBaDnynHNsqTsTTHvbgrOiZ3LhHfEI25F63mBELjFxybEGCbdhQHYO74CKJ8x8Myp43AyQt4zD2m4UNkr6JWTB14v0xhH9twGuVkFJNVukojMxcYbaH7Zhv2f08MIoo4mJOyCsND9Vt6QQTW0BA1AvR7pKL",
+              "received": false
+            }
+          ],
+          "total_price": 61230,
+          "delivery": null,
+          "changedOn": "2025-12-30T19:48:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69542c9a1c508c5d5e5495d7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
