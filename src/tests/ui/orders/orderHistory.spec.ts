@@ -41,6 +41,10 @@ test.describe("[UI] [Orders]", () => {
 					const accordion = orderDetailsBottomPage.historyAccordion.nth(index);
 					const cols = accordion.locator(".his-col");
 
+					await expect(orderDetailsBottomPage.historyToggleButton(index)).toHaveAttribute(
+						"aria-expanded",
+						"false",
+					);
 					await expect(cols.nth(0)).toHaveText(item.action);
 					await expect(cols.nth(1)).toHaveText(`${item.performer!.firstName} ${item.performer!.lastName}`);
 					await expect(cols.nth(2)).toHaveText(
@@ -50,6 +54,17 @@ test.describe("[UI] [Orders]", () => {
 							.replace(/-/g, "/"),
 					);
 				}
+				await orderDetailsBottomPage.historyToggleButton(3).click();
+				await expect
+					.poll(async () => await orderDetailsBottomPage.historyToggleButton(3).getAttribute("aria-expanded"))
+					.toBe("true");
+				await expect(orderDetailsBottomPage.historyChangeCols(3).nth(2)).toHaveText("Updated");
+				await expect(orderDetailsBottomPage.historyChangeCols(3).nth(1)).toHaveText("Previous");
+				await page.waitForTimeout(500);
+				await orderDetailsBottomPage.historyToggleButton(3).click();
+				await expect
+					.poll(async () => await orderDetailsBottomPage.historyToggleButton(3).getAttribute("aria-expanded"))
+					.toBe("false");
 			},
 		);
 	});

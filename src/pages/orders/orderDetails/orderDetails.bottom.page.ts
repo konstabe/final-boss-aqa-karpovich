@@ -26,8 +26,8 @@ export class OrderDetailsBottomPage extends SalesPortalPage {
 	readonly historyAccordionCollapse = (index: number) =>
 		this.historyAccordion.nth(index).locator(".accordion-collapse");
 	readonly historyChangeRow = (index: number) =>
-		this.historyAccordionCollapse(index).locator(".d-flex.justify-content-around.py-3.border-bottom").last();
-	readonly historyChangeCols = (index: number) => this.historyChangeRow(index).locator(".his-col");
+		this.historyAccordionCollapse(index).locator(".d-flex.justify-content-around.py-3.border-bottom").first();
+	readonly historyChangeCols = (index: number) => this.historyChangeRow(index).locator(".fw-bold.his-col");
 	readonly commentTextarea = this.page.locator("#textareaComments");
 	readonly sendCommentButton = this.page.locator("#create-comment-btn");
 	readonly commentValidationError = this.page.locator("#error-textareaComments");
