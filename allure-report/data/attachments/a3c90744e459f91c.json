@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 14:12:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-l6B9WJm9+KRzMKPBG3WgccgGqWU\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69552f3f1c508c5d5e5be8c8",
+        "email": "Jack.Romaguera@yahoo.com",
+        "name": "Summer Hirthe",
+        "country": "France",
+        "city": "West Lavon",
+        "street": "Vicarage Close",
+        "house": 38,
+        "flat": 562,
+        "phone": "+19378545041",
+        "createdOn": "2025-12-31T14:12:15.000Z",
+        "notes": "KdiLASlZ7SW9dMVJQuDu1LCPLtbHEbrfgElYNmFy9B0nEGC8WDdDdmGPX89p3O6hjVQ2Wz5BQ6GXc9CDMu7vWkD7zSM8HpYQCqlcqwcX1yeuanicqBYlrX6msJHS1arcohEilEhTttKWTM8UKAsJZKSnR6oWAgtyjM17OQUyGOLyNGqmRKY4pMvqSCG37Ai2c6jAExh1mv3IErcODUSG2caGfEBXkSNN45Si8JLIfI3YGByeUOBYNSMk3k"
+      },
+      "products": [
+        {
+          "_id": "69552f411c508c5d5e5be94a",
+          "name": "Soap91558",
+          "amount": 303,
+          "price": 87419,
+          "manufacturer": "Google",
+          "notes": "Y4HghDB1JlrG6OvhdPuntteYNMF1vKmlK2MwPNhaNWUEZVldNJWGtXu44YYpCTZpfDutFw8SuWmvvHMtDoXZmbvFw3W8Gc6rKdcBsYUmkMwKf77FvArfWjVweA0WSyPEwPkX8HzM6Ftq4a0IkpMAc3riAReTsu0vUA9Mjkc9tur1Xulks50CPo2NOCk5rKtTCPgSwsnh6e70ebHPgTBBxjlvNltx8LEHXY7SzoQoaDmVwr9tguXjyz4mDh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 87419,
+      "createdOn": "2025-12-31T14:12:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69552f3f1c508c5d5e5be8c8",
+          "products": [
+            {
+              "_id": "69552f411c508c5d5e5be94a",
+              "name": "Soap91558",
+              "amount": 303,
+              "price": 87419,
+              "manufacturer": "Google",
+              "notes": "Y4HghDB1JlrG6OvhdPuntteYNMF1vKmlK2MwPNhaNWUEZVldNJWGtXu44YYpCTZpfDutFw8SuWmvvHMtDoXZmbvFw3W8Gc6rKdcBsYUmkMwKf77FvArfWjVweA0WSyPEwPkX8HzM6Ftq4a0IkpMAc3riAReTsu0vUA9Mjkc9tur1Xulks50CPo2NOCk5rKtTCPgSwsnh6e70ebHPgTBBxjlvNltx8LEHXY7SzoQoaDmVwr9tguXjyz4mDh",
+              "received": false
+            }
+          ],
+          "total_price": 87419,
+          "delivery": null,
+          "changedOn": "2025-12-31T14:12:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69552f421c508c5d5e5be960"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

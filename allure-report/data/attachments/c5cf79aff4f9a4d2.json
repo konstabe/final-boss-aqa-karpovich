@@ -1,0 +1,187 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 14:12:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5248",
+    "etag": "W/\"1480-GNSU4nyBn9YNFY9gZfeYI88p/0g\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69552f4c1c508c5d5e5bedf8",
+      "status": "Draft",
+      "customer": {
+        "_id": "69552f441c508c5d5e5bea83",
+        "email": "Crystel.Leffler@gmail.com",
+        "name": "Tomas Braun",
+        "country": "Germany",
+        "city": "Pagacside",
+        "street": "Deborah Route",
+        "house": 45,
+        "flat": 214,
+        "phone": "+18878589128",
+        "createdOn": "2025-12-31T14:12:20.000Z",
+        "notes": "ksgro1lQGviPbRoj4OMeWqU6PkeWx87pkMBdqYlyTHSmJHnkBOjKJcuv60bURLOaxP6taeiTsnS1VB2wD1EqH6wkTGEHj3Gn9qRlm2o5eJmIrqbX89SdtCo2QQFPBwjnPjthjBDvCylYk2Rb2TBPqSunJauABgr7Y1TQ9xZBGe4BSt4TPlkLtsgsfnW4AgQ2RwTvAG5b6XShlYx81j6CNxIrAs8KLv9wB0kQaBr0Yw7gU7mara6KdmYR83"
+      },
+      "products": [
+        {
+          "_id": "69552f471c508c5d5e5becbb",
+          "name": "Hat35765",
+          "amount": 636,
+          "price": 23730,
+          "manufacturer": "Tesla",
+          "notes": "SmyYG2cZuEEXTl9LoOc6PJRwUncAZ9c6h3Xottyvei7eWvYssBvQ2uX2C2ZKcB1H23RGqReAu0UCD3ZwkPHIGFkMNw8NrxLS3kNGUX5RbA0acWzAbtGWm4UVHMN9lEVkiJjgfcVijNm9AWEisOw87Gjs14IdNtO5AkH0GQPeNc751HHU5SkI15Hbq9MIVtAOxDfws6qkR2gvw4BrKGw8J2WvIRgi8kwcbWHhzqyoXBcfnhEp26VMI87wPG",
+          "received": false
+        },
+        {
+          "_id": "69552f4a1c508c5d5e5bece4",
+          "name": "Soap41944",
+          "amount": 285,
+          "price": 63487,
+          "manufacturer": "Tesla",
+          "notes": "dDApWPualYOiLtYXMSDVIM9uvuNUMzMqP0GPFhz0eScxzSZL7PeYfsvR0pGj1C7px8yjjjpKUJMMmxJKjnSTYYeP0uArDLps7Kp23MhLgrfKNuDnCVFnMin6WEM9Ht2iDAWdxbnil7pW5e66ly9o04kLKNAJYbkCRWiroUqCqlrdyhRkmFQBY3hbA97oxX4VH0WlzzCtcwIMOggBe0EAGZfpUU2nfqZDkxp9OJMYJKl6fJPlWCXyev0O0D",
+          "received": false
+        },
+        {
+          "_id": "69552f4c1c508c5d5e5bede7",
+          "name": "Computer18826",
+          "amount": 996,
+          "price": 20755,
+          "manufacturer": "Apple",
+          "notes": "JNIknXeQR0qzfawVI3XINjDjwzxfTO06Aps5UZRpKfmTv5DW2l7sLDzH1XaQvr9UZyFR5dJYdhpWxN6sZlGklskrWYYwamHVud3JYpI9EFHlhN9egvjwKBffjM8Z9JFSVd2TV7Y0TLh1ULkBWeKTAM0C8flWwB4pnqCGNIJc0QbTMRcMrReAdGfyFNE5QNaCd1s0A2qBnNnFFHYqdEY4L7ITtwLsUfm0R9v1spqFksXBxYOv9hLaSbkkqQ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Pagacside",
+          "street": "Deborah Route",
+          "house": 45,
+          "flat": 214
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 107972,
+      "createdOn": "2025-12-31T14:12:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69552f441c508c5d5e5bea83",
+          "products": [
+            {
+              "_id": "69552f471c508c5d5e5becbb",
+              "name": "Hat35765",
+              "amount": 636,
+              "price": 23730,
+              "manufacturer": "Tesla",
+              "notes": "SmyYG2cZuEEXTl9LoOc6PJRwUncAZ9c6h3Xottyvei7eWvYssBvQ2uX2C2ZKcB1H23RGqReAu0UCD3ZwkPHIGFkMNw8NrxLS3kNGUX5RbA0acWzAbtGWm4UVHMN9lEVkiJjgfcVijNm9AWEisOw87Gjs14IdNtO5AkH0GQPeNc751HHU5SkI15Hbq9MIVtAOxDfws6qkR2gvw4BrKGw8J2WvIRgi8kwcbWHhzqyoXBcfnhEp26VMI87wPG",
+              "received": false
+            },
+            {
+              "_id": "69552f4a1c508c5d5e5bece4",
+              "name": "Soap41944",
+              "amount": 285,
+              "price": 63487,
+              "manufacturer": "Tesla",
+              "notes": "dDApWPualYOiLtYXMSDVIM9uvuNUMzMqP0GPFhz0eScxzSZL7PeYfsvR0pGj1C7px8yjjjpKUJMMmxJKjnSTYYeP0uArDLps7Kp23MhLgrfKNuDnCVFnMin6WEM9Ht2iDAWdxbnil7pW5e66ly9o04kLKNAJYbkCRWiroUqCqlrdyhRkmFQBY3hbA97oxX4VH0WlzzCtcwIMOggBe0EAGZfpUU2nfqZDkxp9OJMYJKl6fJPlWCXyev0O0D",
+              "received": false
+            },
+            {
+              "_id": "69552f4c1c508c5d5e5bede7",
+              "name": "Computer18826",
+              "amount": 996,
+              "price": 20755,
+              "manufacturer": "Apple",
+              "notes": "JNIknXeQR0qzfawVI3XINjDjwzxfTO06Aps5UZRpKfmTv5DW2l7sLDzH1XaQvr9UZyFR5dJYdhpWxN6sZlGklskrWYYwamHVud3JYpI9EFHlhN9egvjwKBffjM8Z9JFSVd2TV7Y0TLh1ULkBWeKTAM0C8flWwB4pnqCGNIJc0QbTMRcMrReAdGfyFNE5QNaCd1s0A2qBnNnFFHYqdEY4L7ITtwLsUfm0R9v1spqFksXBxYOv9hLaSbkkqQ",
+              "received": false
+            }
+          ],
+          "total_price": 107972,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Pagacside",
+              "street": "Deborah Route",
+              "house": 45,
+              "flat": 214
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-31T14:12:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69552f441c508c5d5e5bea83",
+          "products": [
+            {
+              "_id": "69552f471c508c5d5e5becbb",
+              "name": "Hat35765",
+              "amount": 636,
+              "price": 23730,
+              "manufacturer": "Tesla",
+              "notes": "SmyYG2cZuEEXTl9LoOc6PJRwUncAZ9c6h3Xottyvei7eWvYssBvQ2uX2C2ZKcB1H23RGqReAu0UCD3ZwkPHIGFkMNw8NrxLS3kNGUX5RbA0acWzAbtGWm4UVHMN9lEVkiJjgfcVijNm9AWEisOw87Gjs14IdNtO5AkH0GQPeNc751HHU5SkI15Hbq9MIVtAOxDfws6qkR2gvw4BrKGw8J2WvIRgi8kwcbWHhzqyoXBcfnhEp26VMI87wPG",
+              "received": false
+            },
+            {
+              "_id": "69552f4a1c508c5d5e5bece4",
+              "name": "Soap41944",
+              "amount": 285,
+              "price": 63487,
+              "manufacturer": "Tesla",
+              "notes": "dDApWPualYOiLtYXMSDVIM9uvuNUMzMqP0GPFhz0eScxzSZL7PeYfsvR0pGj1C7px8yjjjpKUJMMmxJKjnSTYYeP0uArDLps7Kp23MhLgrfKNuDnCVFnMin6WEM9Ht2iDAWdxbnil7pW5e66ly9o04kLKNAJYbkCRWiroUqCqlrdyhRkmFQBY3hbA97oxX4VH0WlzzCtcwIMOggBe0EAGZfpUU2nfqZDkxp9OJMYJKl6fJPlWCXyev0O0D",
+              "received": false
+            },
+            {
+              "_id": "69552f4c1c508c5d5e5bede7",
+              "name": "Computer18826",
+              "amount": 996,
+              "price": 20755,
+              "manufacturer": "Apple",
+              "notes": "JNIknXeQR0qzfawVI3XINjDjwzxfTO06Aps5UZRpKfmTv5DW2l7sLDzH1XaQvr9UZyFR5dJYdhpWxN6sZlGklskrWYYwamHVud3JYpI9EFHlhN9egvjwKBffjM8Z9JFSVd2TV7Y0TLh1ULkBWeKTAM0C8flWwB4pnqCGNIJc0QbTMRcMrReAdGfyFNE5QNaCd1s0A2qBnNnFFHYqdEY4L7ITtwLsUfm0R9v1spqFksXBxYOv9hLaSbkkqQ",
+              "received": false
+            }
+          ],
+          "total_price": 107972,
+          "delivery": null,
+          "changedOn": "2025-12-31T14:12:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
