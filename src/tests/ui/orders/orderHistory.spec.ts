@@ -3,11 +3,18 @@ import { ORDER_STATUS } from "data/orders/orderStatus";
 import { TAGS } from "data/tags";
 import { expect, test } from "fixtures";
 
-test.describe("[UI] [History]", () => {
-	let token = "";
+test.describe("[History on Orders Details Page]", () => {
+	const token = "";
+	let mockOrder: ReturnType<typeof generateOrderDetailsMockWithDelivery>;
 
-	test.beforeEach(async ({ orderDetailsHeaderPage }) => {
-		token = await orderDetailsHeaderPage.getAuthToken();
+	test.beforeEach(async ({ orderDetailsBottomPage, mock, ordersDetailsUIService, page }) => {
+		mockOrder = generateOrderDetailsMockWithDelivery(ORDER_STATUS.RECEIVED, false);
+
+		await mock.orderDetailsPage(mockOrder);
+		await ordersDetailsUIService.open(mockOrder.Order._id);
+		await expect(orderDetailsBottomPage.bottomTab("history-tab")).toBeVisible();
+		await orderDetailsBottomPage.changeBottomTab("history-tab");
+		await page.waitForTimeout(500);
 	});
 
 	test.afterEach(async ({ ordersApiService }) => {
@@ -18,15 +25,7 @@ test.describe("[UI] [History]", () => {
 		test(
 			"Check all order actions shown on history",
 			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.HISTORY] },
-			async ({ orderDetailsBottomPage, page, mock, ordersDetailsUIService }) => {
-				const mockOrder = generateOrderDetailsMockWithDelivery(ORDER_STATUS.RECEIVED, false);
-				await mock.orderDetailsPage(mockOrder);
-				await ordersDetailsUIService.open(mockOrder.Order._id);
-
-				await expect(orderDetailsBottomPage.bottomTab("history-tab")).toBeVisible();
-				await orderDetailsBottomPage.changeBottomTab("history-tab");
-				await page.waitForTimeout(500);
-
+			async ({ orderDetailsBottomPage }) => {
 				await expect(orderDetailsBottomPage.historyTitle).toHaveText("Order History");
 				await expect(orderDetailsBottomPage.bottomTab("history-tab")).toHaveText("Order History");
 
@@ -61,12 +60,7 @@ test.describe("[UI] [History]", () => {
 		test(
 			"Check expand and toggle button on history page",
 			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.HISTORY] },
-			async ({ orderDetailsBottomPage, page, mock, ordersDetailsUIService }) => {
-				const mockOrder = generateOrderDetailsMockWithDelivery(ORDER_STATUS.RECEIVED, false);
-				await mock.orderDetailsPage(mockOrder);
-				await ordersDetailsUIService.open(mockOrder.Order._id);
-				await orderDetailsBottomPage.changeBottomTab("history-tab");
-
+			async ({ orderDetailsBottomPage, page }) => {
 				await orderDetailsBottomPage.historyToggleButton(3).click();
 				await expect
 					.poll(async () => await orderDetailsBottomPage.historyToggleButton(3).getAttribute("aria-expanded"))
