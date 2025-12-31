@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 14:04:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3421",
+    "etag": "W/\"d5d-l04tua3i/ic6uy5jFQNqUMwQkio\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69552d6d1c508c5d5e5bbf66",
+        "email": "Kamron31@hotmail.com",
+        "name": "Kamren Ledner",
+        "country": "Russia",
+        "city": "North Dejafort",
+        "street": "Deion Fort",
+        "house": 35,
+        "flat": 439,
+        "phone": "+15827797035",
+        "createdOn": "2025-12-31T14:04:29.000Z",
+        "notes": "4gFIZY2N1fa7TVQ9MgI051uAzQyxYWQJxvNnZlZeoFWSa2ee5UBSzFtKkyAMDzdkV7Kcc9c0vPbydX0tqwCq4fEeCBOt504CcQB4KPUdrVhh8Aoc5rke5HVtTVhGQZ7LDqAtZtyHlwngRL5nOEThR8NxQFjrtxNpQn1CH3vByTfwlPAQ83k65HJ3U1cgqjnZboLGZRfWPRZc16Wf1MypYtU0Ug1iLfjx8Ewz5sNSaL23gW5X9wYfyfCVso"
+      },
+      "products": [
+        {
+          "_id": "69552d6f1c508c5d5e5bc081",
+          "name": "Gloves79299",
+          "amount": 406,
+          "price": 68987,
+          "manufacturer": "Sony",
+          "notes": "iS7caq6l3ojrChuw2Jh4gINdGug4MVJah8jqsRvxDJBuZIwakuYAdONSgv7D48Yjep2hSE91bJ0Yta6sVYWJqPVsrjsam6YtMKfpKCh5s5RYFgT3TUT0De9P96ZY7oK4JI5Xcg948Mvqgi0vevq27Sm9ZndHVKBMx1fhEdabC1omMqf7qgITCXtgO9TCUfYGz2WVgvIQvtJj1EQx4PRCmB2UBgSwSuXslT4t1Z5spxBo8THeZJPmeZv7dh",
+          "received": false
+        },
+        {
+          "_id": "69552d721c508c5d5e5bc1d3",
+          "name": "Table17166",
+          "amount": 41,
+          "price": 10844,
+          "manufacturer": "Microsoft",
+          "notes": "LjW5G52eBHjXTOrJAkubEqs0BLyGSdRWqxUp7phin1a3YTmNLIyM3hg8BFLSFEVekAP1KNDSfpVgKu1kOaHoz01skr6WciJdOIhv4m8M3vHQUUkGx9zxtOV0tcjJJJsB8jUS1NRapwwzIBOf4HobzdOcdzYLluggw1wz5OGbZBN6ve7y6sMIOtmMSaY56xCPLZOhvj0oyo8QQLsniVSBXT9vH8dSzELKNdQsN5YEQdACItkwCt0ba0RNyR",
+          "received": false
+        },
+        {
+          "_id": "69552d741c508c5d5e5bc1f5",
+          "name": "Pizza19103",
+          "amount": 904,
+          "price": 62926,
+          "manufacturer": "Google",
+          "notes": "zLmUBIOVNE2fcKxNNqdDNOf6AFvp8WqtOgvmcdGKrT4iUut33DRifNcK5HoNY9BTFvsfRewV8tO8ElcTMVyI4xBdEEF2onWZoCvhKa880Br8xpKcZQzAMl2m58Om0lTAiuUamIHh3XcCGnYa8DGJ9717qy3jEaLEl4QZ5UrBZDdGoRsEJwRy3rhr1CgU9rZw1snAMy7Sxkd6aPlgumX6SIsP7dTqMXz4VSuFC3x48x2fXOJ5mAugiyN0DV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 142757,
+      "createdOn": "2025-12-31T14:04:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69552d6d1c508c5d5e5bbf66",
+          "products": [
+            {
+              "_id": "69552d6f1c508c5d5e5bc081",
+              "name": "Gloves79299",
+              "amount": 406,
+              "price": 68987,
+              "manufacturer": "Sony",
+              "notes": "iS7caq6l3ojrChuw2Jh4gINdGug4MVJah8jqsRvxDJBuZIwakuYAdONSgv7D48Yjep2hSE91bJ0Yta6sVYWJqPVsrjsam6YtMKfpKCh5s5RYFgT3TUT0De9P96ZY7oK4JI5Xcg948Mvqgi0vevq27Sm9ZndHVKBMx1fhEdabC1omMqf7qgITCXtgO9TCUfYGz2WVgvIQvtJj1EQx4PRCmB2UBgSwSuXslT4t1Z5spxBo8THeZJPmeZv7dh",
+              "received": false
+            },
+            {
+              "_id": "69552d721c508c5d5e5bc1d3",
+              "name": "Table17166",
+              "amount": 41,
+              "price": 10844,
+              "manufacturer": "Microsoft",
+              "notes": "LjW5G52eBHjXTOrJAkubEqs0BLyGSdRWqxUp7phin1a3YTmNLIyM3hg8BFLSFEVekAP1KNDSfpVgKu1kOaHoz01skr6WciJdOIhv4m8M3vHQUUkGx9zxtOV0tcjJJJsB8jUS1NRapwwzIBOf4HobzdOcdzYLluggw1wz5OGbZBN6ve7y6sMIOtmMSaY56xCPLZOhvj0oyo8QQLsniVSBXT9vH8dSzELKNdQsN5YEQdACItkwCt0ba0RNyR",
+              "received": false
+            },
+            {
+              "_id": "69552d741c508c5d5e5bc1f5",
+              "name": "Pizza19103",
+              "amount": 904,
+              "price": 62926,
+              "manufacturer": "Google",
+              "notes": "zLmUBIOVNE2fcKxNNqdDNOf6AFvp8WqtOgvmcdGKrT4iUut33DRifNcK5HoNY9BTFvsfRewV8tO8ElcTMVyI4xBdEEF2onWZoCvhKa880Br8xpKcZQzAMl2m58Om0lTAiuUamIHh3XcCGnYa8DGJ9717qy3jEaLEl4QZ5UrBZDdGoRsEJwRy3rhr1CgU9rZw1snAMy7Sxkd6aPlgumX6SIsP7dTqMXz4VSuFC3x48x2fXOJ5mAugiyN0DV",
+              "received": false
+            }
+          ],
+          "total_price": 142757,
+          "delivery": null,
+          "changedOn": "2025-12-31T14:04:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69552d741c508c5d5e5bc205"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 14:04:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-2CNpf7vCi2a2UbADlZJB42qF0DE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69552d6a1c508c5d5e5bbdf0",
+        "email": "Mason.Ferry@yahoo.com",
+        "name": "Wilfred Bashirian",
+        "country": "USA",
+        "city": "Jeremiefort",
+        "street": "W 4th Street",
+        "house": 49,
+        "flat": 675,
+        "phone": "+14163158813",
+        "createdOn": "2025-12-31T14:04:26.000Z",
+        "notes": "SVOrgJYyQ5wbdxoD3b1BuZrwCP0WN6Kh8AvaoptkViuQRdaE2Rxcgdvy3qwdiYyXwZmmgC7S9DsR2Lj99FrodSJsLEzQSTcjwYKt2qMBIqU4FG87aEqZsgMXp3zZOaaHfNOzVItrs38ZAsHntElYHS9AArIMIfe2tBMRXde70cHOlw5VOUP1FmLamU8zhutSqeHY71GxXkxwonVb9uqEhrEI8NV07wjqHWv5MwRy3Nj3JXVOTBjxC3eFCE"
+      },
+      "products": [
+        {
+          "_id": "69552d6c1c508c5d5e5bbf2c",
+          "name": "Keyboard38396",
+          "amount": 871,
+          "price": 66032,
+          "manufacturer": "Amazon",
+          "notes": "3m5ZzhSrqmpgWUNUIPFTQWUyBUvyUFG5TX94zLQQiyS8T6TJeGS9oHxsvsX0OXlUeJjQjrYgm9S7QReqGwJoSl2H5NnZoJqi9HW7dy9Fuz1szHIcLmvSTm1SlfZ5AdIk5wKnQfwtG9Wa1gUYI0JJ5Y0x8U5RBYCEtCt9b5xbOqIMUZ3pCKdeiBI2EjGyCcQuYOW4wSzclmS0Vi2mhzqgQXJSKtyGC2hm6jP2L3nMLRZbGoHJzXD2IRT1my",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 66032,
+      "createdOn": "2025-12-31T14:04:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69552d6a1c508c5d5e5bbdf0",
+          "products": [
+            {
+              "_id": "69552d6c1c508c5d5e5bbf2c",
+              "name": "Keyboard38396",
+              "amount": 871,
+              "price": 66032,
+              "manufacturer": "Amazon",
+              "notes": "3m5ZzhSrqmpgWUNUIPFTQWUyBUvyUFG5TX94zLQQiyS8T6TJeGS9oHxsvsX0OXlUeJjQjrYgm9S7QReqGwJoSl2H5NnZoJqi9HW7dy9Fuz1szHIcLmvSTm1SlfZ5AdIk5wKnQfwtG9Wa1gUYI0JJ5Y0x8U5RBYCEtCt9b5xbOqIMUZ3pCKdeiBI2EjGyCcQuYOW4wSzclmS0Vi2mhzqgQXJSKtyGC2hm6jP2L3nMLRZbGoHJzXD2IRT1my",
+              "received": false
+            }
+          ],
+          "total_price": 66032,
+          "delivery": null,
+          "changedOn": "2025-12-31T14:04:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69552d6c1c508c5d5e5bbf43"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

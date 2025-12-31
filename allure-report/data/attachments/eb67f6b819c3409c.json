@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 14:04:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2955",
+    "etag": "W/\"b8b-I2glr7Py8Uy1EzzewLc2YZns/Bs\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69552d671c508c5d5e5bbd74",
+      "status": "Draft",
+      "customer": {
+        "_id": "69552d641c508c5d5e5bbd39",
+        "email": "Prudence_Lubowitz@gmail.com",
+        "name": "Ara Tillman",
+        "country": "Ukraine",
+        "city": "Salvatoremouth",
+        "street": "Claudine Way",
+        "house": 34,
+        "flat": 599,
+        "phone": "+14776133739",
+        "createdOn": "2025-12-31T14:04:20.000Z",
+        "notes": "019DfZXDypyYXGHmLcIPbKSR1uBp27bD2Ahz9QbXJRbsB6sLduIbNlQhUk9E1I3FKi6K9GQv0l50a9o2s68zybK6fgAC8R1vn1NuQT3HHJ0jbSE2kuPM9Fr6gOfOY2jNnISKFjk7qqLYSlWZGdHxtps2Ne49UYwqQRjOOSnHCp6Rivg5QLP1zplL0TswGmO7XRtMmsqMtqmDLe2b5ihACFqb39qttgzob4h9wSyXEu9qKGQrASkgLfl8xR"
+      },
+      "products": [
+        {
+          "_id": "69552d661c508c5d5e5bbd59",
+          "name": "Soap96049",
+          "amount": 674,
+          "price": 28155,
+          "manufacturer": "Google",
+          "notes": "8OxLIPSehxCZalVmeflXDHfLG3byyzWRjt444DaexAtRGabTRmy08UFbXPVTPuP6ftSnBRNPsig5iPkfilmehgYFQ4MIrCPizNmafcKLqXzKaxkKawOiIy476HinNmxc6qcWQc3KXMUmu33ErC7k78VsyNc5NtVrzlLkVnY6NIen1aBdEWzh5AF7kHwd8Bj1aVbnT37g94d4ZOdPWJm1jl0JhuM3A7YGt2yQGWw4DA5eKfBmFzmbgabHeZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 28155,
+      "createdOn": "2025-12-31T14:04:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69552d641c508c5d5e5bbd39",
+          "products": [
+            {
+              "_id": "69552d661c508c5d5e5bbd59",
+              "name": "Soap96049",
+              "amount": 674,
+              "price": 28155,
+              "manufacturer": "Google",
+              "notes": "8OxLIPSehxCZalVmeflXDHfLG3byyzWRjt444DaexAtRGabTRmy08UFbXPVTPuP6ftSnBRNPsig5iPkfilmehgYFQ4MIrCPizNmafcKLqXzKaxkKawOiIy476HinNmxc6qcWQc3KXMUmu33ErC7k78VsyNc5NtVrzlLkVnY6NIen1aBdEWzh5AF7kHwd8Bj1aVbnT37g94d4ZOdPWJm1jl0JhuM3A7YGt2yQGWw4DA5eKfBmFzmbgabHeZ",
+              "received": false
+            }
+          ],
+          "total_price": 28155,
+          "delivery": null,
+          "changedOn": "2025-12-31T14:04:23.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69552d641c508c5d5e5bbd39",
+          "products": [
+            {
+              "_id": "69552d661c508c5d5e5bbd59",
+              "name": "Soap96049",
+              "amount": 674,
+              "price": 28155,
+              "manufacturer": "Google",
+              "notes": "8OxLIPSehxCZalVmeflXDHfLG3byyzWRjt444DaexAtRGabTRmy08UFbXPVTPuP6ftSnBRNPsig5iPkfilmehgYFQ4MIrCPizNmafcKLqXzKaxkKawOiIy476HinNmxc6qcWQc3KXMUmu33ErC7k78VsyNc5NtVrzlLkVnY6NIen1aBdEWzh5AF7kHwd8Bj1aVbnT37g94d4ZOdPWJm1jl0JhuM3A7YGt2yQGWw4DA5eKfBmFzmbgabHeZ",
+              "received": false
+            }
+          ],
+          "total_price": 28155,
+          "delivery": null,
+          "changedOn": "2025-12-31T14:04:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
