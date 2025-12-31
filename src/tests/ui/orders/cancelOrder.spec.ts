@@ -1,5 +1,6 @@
-import { SALES_PORTAL_URL } from "config/env";
 import { NOTIFICATIONS } from "data/notifications";
+import { generateOrderDetailsMockWithDelivery } from "data/orders/generateOrderDetailsMock";
+import { ORDER_STATUS } from "data/orders/orderStatus";
 import { TAGS } from "data/tags";
 import { expect, test } from "fixtures";
 
@@ -22,12 +23,12 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, cancelOrderModal, orderDetailsProductPage, orderDetailsHeaderPage, ordersApiService }) => {
-			const newOrder = ordersApiService.createDraft(token, 1);
+		async ({ mock, cancelOrderModal, orderDetailsHeaderPage, ordersDetailsUIService }) => {
+			const order = generateOrderDetailsMockWithDelivery(ORDER_STATUS.DRAFT, false);
+			await mock.orderDetailsPage(order);
+			const orderId = order.Order._id;
 
-			const orderId = (await newOrder)._id;
-
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await orderDetailsHeaderPage.clickCancelOrderButton();
 
@@ -38,6 +39,31 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 
 			await cancelOrderModal.clickYesCancel();
 			await expect(cancelOrderModal.modalBody).not.toBeVisible();
+		},
+	);
+
+	test(
+		"Check notification after Cancel Order Modal",
+		{
+			tag: [TAGS.REGRESSION, TAGS.UI],
+		},
+		async ({
+			cancelOrderModal,
+			orderDetailsProductPage,
+			orderDetailsHeaderPage,
+			ordersApiService,
+			ordersDetailsUIService,
+		}) => {
+			const newOrder = ordersApiService.createDraft(token, 1);
+
+			const orderId = (await newOrder)._id;
+
+			await ordersDetailsUIService.open(orderId);
+
+			await orderDetailsHeaderPage.clickCancelOrderButton();
+
+			await cancelOrderModal.clickYesCancel();
+
 			await expect(orderDetailsProductPage.toastMessage).toContainText(NOTIFICATIONS.ORDER_CANCELED);
 		},
 	);
@@ -47,12 +73,12 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await orderDetailsHeaderPage.clickCancelOrderButton();
 
@@ -66,12 +92,12 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await orderDetailsHeaderPage.clickCancelOrderButton();
 
@@ -85,12 +111,12 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			const orderStatusDraft = await orderDetailsHeaderPage.getOrderStatus();
 			await expect(orderStatusDraft[0]?.value).toEqual("Draft");
@@ -112,11 +138,11 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
 			const newOrder = ordersApiService.processOrder(token, 1);
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await orderDetailsHeaderPage.clickCancelOrderButton();
 
@@ -129,11 +155,11 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
 			const newOrder = ordersApiService.reopenOrderInProgress(token, 1);
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await orderDetailsHeaderPage.clickCancelOrderButton();
 
@@ -146,11 +172,11 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, orderDetailsHeaderPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsHeaderPage }) => {
 			const newOrder = ordersApiService.allReceived(token, 1);
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await expect(orderDetailsHeaderPage.cancelOrderButton).not.toBeVisible();
 		},

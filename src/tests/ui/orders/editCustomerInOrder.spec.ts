@@ -1,4 +1,6 @@
-import { SALES_PORTAL_URL } from "config/env";
+import { generateCustomerResponseData } from "data/customers/generateCustomerData";
+import { generateOrderDetailsMockWithDelivery } from "data/orders/generateOrderDetailsMock";
+import { ORDER_STATUS } from "data/orders/orderStatus";
 import { TAGS } from "data/tags";
 import { expect, test } from "fixtures";
 
@@ -21,14 +23,17 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, editCustomerModal, orderDetailsCustomerPage }) => {
-			const newOrder = ordersApiService.createDraft(token, 1);
+		async ({ mock, editCustomerModal, orderDetailsCustomerPage, ordersDetailsUIService }) => {
+			const order = generateOrderDetailsMockWithDelivery(ORDER_STATUS.DRAFT, false);
+			await mock.orderDetailsPage(order);
 
-			const orderId = (await newOrder)._id;
+			const orderId = order.Order._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await orderDetailsCustomerPage.openChangeCustomerModal();
+			const allCustomet = generateCustomerResponseData();
+			await mock.orderDetailsAllCustomer(allCustomet);
 
 			await expect(editCustomerModal.editCustomerModalTitle).toHaveText("Edit Customer");
 			await expect(editCustomerModal.saveButton).toBeVisible();
@@ -41,12 +46,12 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, editCustomerModal, orderDetailsCustomerPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, editCustomerModal, orderDetailsCustomerPage }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await orderDetailsCustomerPage.openChangeCustomerModal();
 
@@ -60,7 +65,7 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, editCustomerModal, orderDetailsCustomerPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, editCustomerModal, orderDetailsCustomerPage }) => {
 			const { customerId, customerName } = await ordersApiService.createCustomer(token);
 			id_customer = customerId;
 
@@ -72,7 +77,7 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 			const customerEmailOriginal = (await newOrder).customer.email;
 			const customerNameOriginal = (await newOrder).customer.name;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await orderDetailsCustomerPage.openChangeCustomerModal();
 
@@ -92,7 +97,7 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 		{
 			tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, editCustomerModal, orderDetailsCustomerPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, editCustomerModal, orderDetailsCustomerPage }) => {
 			const { customerId, customerName, customerEmail } = await ordersApiService.createCustomer(token);
 			id_customer = customerId;
 
@@ -100,7 +105,7 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await orderDetailsCustomerPage.openChangeCustomerModal();
 
@@ -118,11 +123,11 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, orderDetailsCustomerPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsCustomerPage }) => {
 			const newOrder = ordersApiService.processOrder(token, 1);
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await expect(orderDetailsCustomerPage.editCustomerButton).not.toBeVisible();
 		},
@@ -133,11 +138,11 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, orderDetailsCustomerPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsCustomerPage }) => {
 			const newOrder = ordersApiService.allReceived(token, 1);
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await expect(orderDetailsCustomerPage.editCustomerButton).not.toBeVisible();
 		},
@@ -148,11 +153,11 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, orderDetailsCustomerPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsCustomerPage }) => {
 			const newOrder = ordersApiService.cancelOrderInProgress(token, 1);
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await expect(orderDetailsCustomerPage.editCustomerButton).not.toBeVisible();
 		},
@@ -163,11 +168,11 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, orderDetailsCustomerPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsCustomerPage }) => {
 			const newOrder = ordersApiService.reopenOrderInProgress(token, 1);
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await expect(orderDetailsCustomerPage.editCustomerButton).toBeVisible();
 		},

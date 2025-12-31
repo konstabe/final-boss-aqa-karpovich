@@ -1,8 +1,10 @@
-import { SALES_PORTAL_URL } from "config/env";
+import { NOTIFICATIONS } from "data/notifications";
+import { generateOrderDetailsMockWithDelivery } from "data/orders/generateOrderDetailsMock";
+import { ORDER_STATUS } from "data/orders/orderStatus";
 import { TAGS } from "data/tags";
 import { expect, test } from "fixtures";
 
-test.describe("[UI] [Orders] [cancelOrderModal]", () => {
+test.describe("[UI] [Orders] [reopenOrderModal]", () => {
 	let token = "";
 	let id_customer = "";
 
@@ -17,19 +19,46 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 	});
 
 	test(
-		"Reopen order from OrderDetailsPage",
+		"Check UI components",
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, reopenModal, ordersApiService, orderDetailsHeaderPage }) => {
+		async ({ ordersDetailsUIService, mock, reopenModal, orderDetailsHeaderPage }) => {
+			const order = generateOrderDetailsMockWithDelivery(ORDER_STATUS.CANCELED, false);
+			await mock.orderDetailsPage(order);
+			const orderId = order.Order._id;
+
+			await ordersDetailsUIService.open(orderId);
+
+			await orderDetailsHeaderPage.clickReopenButton();
+			await reopenModal.clickReopen();
+		},
+	);
+
+	test(
+		"Notification after Reopen order",
+		{
+			tag: [TAGS.REGRESSION, TAGS.UI],
+		},
+		async ({
+			reopenModal,
+			ordersApiService,
+			ordersDetailsUIService,
+			orderDetailsHeaderPage,
+			orderDetailsProductPage,
+		}) => {
 			const newOrder = ordersApiService.cancelOrderInProgress(token, 1);
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await orderDetailsHeaderPage.clickReopenButton();
 
 			await reopenModal.clickReopen();
+			await expect(orderDetailsProductPage.toastMessage).toContainText(NOTIFICATIONS.ORDER_REOPENED);
+
+			const orderData = await orderDetailsHeaderPage.getOrderStatus();
+			await expect(orderData[0]?.value).toEqual("Draft");
 		},
 	);
 
@@ -38,11 +67,11 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ reopenModal, ordersApiService, page, orderDetailsHeaderPage }) => {
+		async ({ reopenModal, ordersApiService, ordersDetailsUIService, orderDetailsHeaderPage }) => {
 			const newOrder = ordersApiService.cancelOrderInProgress(token, 1);
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await orderDetailsHeaderPage.clickReopenButton();
 
@@ -59,11 +88,11 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ reopenModal, ordersApiService, page, orderDetailsHeaderPage }) => {
+		async ({ reopenModal, ordersApiService, ordersDetailsUIService, orderDetailsHeaderPage }) => {
 			const newOrder = ordersApiService.cancelOrderInProgress(token, 1);
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await orderDetailsHeaderPage.clickReopenButton();
 

@@ -1,5 +1,7 @@
-import { SALES_PORTAL_URL } from "config/env";
 import { NOTIFICATIONS } from "data/notifications";
+import { generateOrderDetailsMockWithDelivery } from "data/orders/generateOrderDetailsMock";
+import { ORDER_STATUS } from "data/orders/orderStatus";
+import { generateAllProductsForOrderPage } from "data/products/generateProductData";
 import { TAGS } from "data/tags";
 import { expect, test } from "fixtures";
 
@@ -29,19 +31,41 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, editProductModal, orderDetailsProductPage }) => {
-			const newOrder = ordersApiService.createDraft(token, 5);
+		async ({ ordersDetailsUIService, mock, editProductModal, orderDetailsProductPage }) => {
+			const order = generateOrderDetailsMockWithDelivery(ORDER_STATUS.DRAFT, false);
+			await mock.orderDetailsPage(order);
 
-			const orderId = (await newOrder)._id;
+			const orderId = order.Order._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await orderDetailsProductPage.openEditProductDetailsModal();
+
+			await mock.orderDetailsAllProduct(generateAllProductsForOrderPage(1));
 
 			await expect(editProductModal.editProductModalTitle).toHaveText("Edit Products");
 			await expect(editProductModal.saveButton).toBeVisible();
 			await expect(editProductModal.cancelButton).toBeVisible();
 			await expect(editProductModal.cancelButton).toBeVisible();
+			await expect(editProductModal.deleteProductButton).not.toBeVisible();
+			await expect(editProductModal.addProductButton).toBeVisible();
+		},
+	);
+
+	test(
+		"Check notification after update products",
+		{
+			tag: [TAGS.REGRESSION, TAGS.UI],
+		},
+		async ({ orderDetailsProductPage, ordersApiService, editProductModal, ordersDetailsUIService }) => {
+			const newOrder = ordersApiService.createDraft(token, 5);
+
+			const orderId = (await newOrder)._id;
+
+			await ordersDetailsUIService.open(orderId);
+
+			await orderDetailsProductPage.openEditProductDetailsModal();
+
 			await editProductModal.verifyCountDeleteButtons(5);
 			await expect(editProductModal.addProductButton).not.toBeVisible();
 
@@ -51,7 +75,6 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 
 			await editProductModal.deleteProductByIndex(2);
 			await editProductModal.deleteProductByIndex(1);
-			await expect(editProductModal.deleteProductButton).not.toBeVisible();
 
 			await editProductModal.clickSave();
 			await expect(orderDetailsProductPage.toastMessage).toContainText(NOTIFICATIONS.ORDER_UPDATED);
@@ -63,12 +86,12 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, editProductModal, orderDetailsProductPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, editProductModal, orderDetailsProductPage }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await orderDetailsProductPage.openEditProductDetailsModal();
 
@@ -82,23 +105,21 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, editProductModal, orderDetailsProductPage }) => {
-			const productsInOrder = page.locator("#products-accordion-section");
-
+		async ({ ordersDetailsUIService, ordersApiService, editProductModal, orderDetailsProductPage }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 			const orderId = (await newOrder)._id;
 
 			const { productNames, productsIds } = await ordersApiService.createProducts(token, 1);
 			ids = productsIds;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await orderDetailsProductPage.openEditProductDetailsModal();
 
 			await editProductModal.updateProductByIndex(0, productNames[0]!);
 			await editProductModal.clickCancel();
 
-			await expect(productsInOrder).not.toHaveText(productNames);
+			await expect(orderDetailsProductPage.productsDetailsInOrder).not.toContainText(productNames);
 		},
 	);
 
@@ -107,14 +128,14 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 		{
 			tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, editProductModal, orderDetailsProductPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, editProductModal, orderDetailsProductPage }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 			const orderId = (await newOrder)._id;
 
 			const { productNames, productsIds } = await ordersApiService.createProducts(token, 1);
 			ids = productsIds;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await orderDetailsProductPage.openEditProductDetailsModal();
 
@@ -130,11 +151,11 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, orderDetailsProductPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsProductPage }) => {
 			const newOrder = ordersApiService.processOrder(token, 1);
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await expect(orderDetailsProductPage.editProductsButton).not.toBeVisible();
 		},
@@ -145,11 +166,11 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, orderDetailsProductPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsProductPage }) => {
 			const newOrder = ordersApiService.cancelOrderInProgress(token, 1);
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await expect(orderDetailsProductPage.editProductsButton).not.toBeVisible();
 		},
@@ -160,11 +181,11 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, orderDetailsProductPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsProductPage }) => {
 			const newOrder = ordersApiService.allReceived(token, 1);
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await expect(orderDetailsProductPage.editProductsButton).not.toBeVisible();
 		},
@@ -175,11 +196,11 @@ test.describe("[UI] [Orders] [editProductModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ page, ordersApiService, orderDetailsProductPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsProductPage }) => {
 			const newOrder = ordersApiService.reopenOrderInProgress(token, 1);
 			const orderId = (await newOrder)._id;
 
-			await page.goto(`${SALES_PORTAL_URL}orders/${orderId}`); //необходимо убрать когда будет страница деталей
+			await ordersDetailsUIService.open(orderId);
 
 			await expect(orderDetailsProductPage.editProductsButton).toBeVisible();
 		},

@@ -151,23 +151,3 @@ export interface IOrdersMock extends IResponseFields {
 
 export type ModalsOnOrdersList = "reopenModal" | "filterModal" | "exportDataModal"; //добавить createOrderModal
 export type ModalsOnOrderDetails = "processOrderModal"; //добавить остальные модалки
-
-export interface IOrderDitailsMock extends IResponseFields {
-	Order: IOrderMockForDitails;
-}
-
-export interface IOrderMockForDitails {
-	_id: string;
-	status: ORDER_STATUS;
-	customer: ICustomerFromResponse;
-	products: [IProductForOrder];
-	delivery: null;
-	total_price: number;
-	createdOn: string;
-	comments: string[];
-	history: IOrderHistory[];
-	assignedManager: {
-		firstName: string;
-		lastName: string;
-	} | null;
-}
