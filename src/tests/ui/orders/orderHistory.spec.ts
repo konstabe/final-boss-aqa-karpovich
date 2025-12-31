@@ -3,7 +3,7 @@ import { ORDER_STATUS } from "data/orders/orderStatus";
 import { TAGS } from "data/tags";
 import { expect, test } from "fixtures";
 
-test.describe("[UI] [Orders]", () => {
+test.describe("[UI] [History]", () => {
 	let token = "";
 
 	test.beforeEach(async ({ orderDetailsHeaderPage }) => {
@@ -14,10 +14,10 @@ test.describe("[UI] [Orders]", () => {
 		await ordersApiService.fullDelete(token);
 	});
 
-	test.describe("[history Order modal on Orders Details Page]", () => {
+	test.describe("[History on Orders Details Page]", () => {
 		test(
-			"Check UI components on history Order Modal",
-			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
+			"Check all order actions shown on history",
+			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.HISTORY] },
 			async ({ orderDetailsBottomPage, page, mock, ordersDetailsUIService }) => {
 				const mockOrder = generateOrderDetailsMockWithDelivery(ORDER_STATUS.RECEIVED, false);
 				await mock.orderDetailsPage(mockOrder);
@@ -54,6 +54,19 @@ test.describe("[UI] [Orders]", () => {
 							.replace(/-/g, "/"),
 					);
 				}
+			},
+		);
+	});
+	test.describe("[History on Orders Details Page]", () => {
+		test(
+			"Check expand and toggle button on history page",
+			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.HISTORY] },
+			async ({ orderDetailsBottomPage, page, mock, ordersDetailsUIService }) => {
+				const mockOrder = generateOrderDetailsMockWithDelivery(ORDER_STATUS.RECEIVED, false);
+				await mock.orderDetailsPage(mockOrder);
+				await ordersDetailsUIService.open(mockOrder.Order._id);
+				await orderDetailsBottomPage.changeBottomTab("history-tab");
+
 				await orderDetailsBottomPage.historyToggleButton(3).click();
 				await expect
 					.poll(async () => await orderDetailsBottomPage.historyToggleButton(3).getAttribute("aria-expanded"))
