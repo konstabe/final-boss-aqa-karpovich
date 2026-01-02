@@ -1,32 +1,42 @@
 import { logStep } from "utils/report/logStep.utils";
 import { BaseModal } from "../base/base.modal";
 import { expect } from "@playwright/test";
+import { UpToFive } from "data/types/core.types";
 
-export class EditProductPage extends BaseModal {
-	readonly editProductPageTitle = this.page.locator("h5");
+export class EditProductModal extends BaseModal {
+	readonly editProductModalTitle = this.page.locator("h5");
 	readonly productField = this.page.locator('select[name="Product"]');
-	readonly addProductButton = this.page.locator("add-product-btn");
+	readonly addProductButton = this.page.locator("#add-product-btn");
 	readonly cancelButton = this.page.locator("#cancel-edit-products-modal-btn");
 	readonly totalPriceOrder = this.page.locator("#total-price-order-modal");
 	readonly closeModal = this.page.locator('[aria-label="Close"]');
 	readonly deleteProductButton = this.page.locator(".del-btn-modal");
 	readonly saveButton = this.page.locator("#update-products-btn");
+	readonly modalBody = this.page.locator(".modal-content");
 
-	readonly uniqueElement = this.editProductPageTitle;
+	readonly uniqueElement = this.editProductModalTitle;
 
 	@logStep("Click save button")
 	async clickSave() {
 		await this.saveButton.click();
+		await expect(this.modalBody).not.toBeVisible();
 	}
 
 	@logStep("Click cancel button")
 	async clickCancel() {
 		await this.cancelButton.click();
+		await expect(this.modalBody).not.toBeVisible();
 	}
 
 	@logStep("Click close icon for edit product modal window")
 	async clickCloseModal() {
 		await this.closeModal.click();
+		await expect(this.modalBody).not.toBeVisible();
+	}
+
+	@logStep("Counting the number of 'Delete' buttons")
+	async verifyCountDeleteButtons(productNumber: number) {
+		await expect(this.deleteProductButton).toHaveCount(productNumber);
 	}
 
 	@logStep("Get Product Index By Name")
@@ -59,5 +69,20 @@ export class EditProductPage extends BaseModal {
 	@logStep("Counting the number of 'Delete' buttons")
 	async verifyCountOfDeleteButtons(productNumber: number) {
 		await expect(this.deleteProductButton).toHaveCount(productNumber);
+	}
+
+	@logStep("Update product for order")
+	async updateProduct(initialProductNames: UpToFive<string> | string[]) {
+		for (let i = 0; i < initialProductNames.length; i++) {
+			if (i > 0) {
+				await this.addProductButton.click();
+			}
+			await this.productField.nth(i).selectOption(initialProductNames[i]!);
+		}
+	}
+
+	@logStep("Update product for order")
+	async updateProductByIndex(index: number, newProductNames: string) {
+		await this.productField.nth(index).selectOption(newProductNames);
 	}
 }
