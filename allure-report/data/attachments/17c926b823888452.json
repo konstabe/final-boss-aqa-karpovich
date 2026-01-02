@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:17:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3898",
+    "etag": "W/\"f3a-RUy/CoSGtH7uFpjRq8Uwjluoxeg\"",
+    "keep-alive": "timeout=5, max=67",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695843f91c508c5d5e774b96",
+      "status": "In Process",
+      "customer": {
+        "_id": "695843f71c508c5d5e774a14",
+        "email": "Junius.Rempel19@gmail.com",
+        "name": "Omari Hettinger",
+        "country": "Great Britain",
+        "city": "Kiehnboro",
+        "street": "Harold Fall",
+        "house": 47,
+        "flat": 160,
+        "phone": "+15595194720",
+        "createdOn": "2026-01-02T22:17:27.000Z",
+        "notes": "DbDqIhuNn6CT8GsjvwKo715nAAPN50DOQSMh0grDeGOTNnGhXrDhnP03Q24Qe5q1pmyaMLE33u0TXgYwuO9QFFSKBThMrsGHvh5rQbvQaXsncO8CFBFD0YI2ON9c57WWTWPFQUS9zxP1Q6dKuf9BvHlAbkk7buu1f5V4DMYh86mOBGaL88zApPYeQIlvFvjXS2Pl84LsSaJskcdugeQMYl1xn2dGlgDTcOCpH9Q9JIUoTY6hrAzCi7LaZH"
+      },
+      "products": [
+        {
+          "_id": "695843f81c508c5d5e774b4d",
+          "name": "Bacon35128",
+          "amount": 752,
+          "price": 10516,
+          "manufacturer": "Xiaomi",
+          "notes": "r68WXYoEYbPxtGXZ4KxXpHRDAbTTl3PGrYdlqw9BKcIJhLlqPs5jURVPxztUa67yjBpfxWLh2rCcHsd6TqT8cTWGv7YQQzmMZ4ChTGO1zgREMNNqRaBwndM7L01AnghwUxrpjlu0IU1Q8BQK8RJchOifWhwIZ5b4F2sPTa1EVFrTi50rYJbdvVyYwzJMMqMGa5wlfpT6Kdj024n5UNe0C7AoGNBvuhwAepz29XHMNoUUcBR9XPEeSGVuu6",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Kiehnboro",
+          "street": "Harold Fall",
+          "house": 47,
+          "flat": 160
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 10516,
+      "createdOn": "2026-01-02T22:17:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695843f71c508c5d5e774a14",
+          "products": [
+            {
+              "_id": "695843f81c508c5d5e774b4d",
+              "name": "Bacon35128",
+              "amount": 752,
+              "price": 10516,
+              "manufacturer": "Xiaomi",
+              "notes": "r68WXYoEYbPxtGXZ4KxXpHRDAbTTl3PGrYdlqw9BKcIJhLlqPs5jURVPxztUa67yjBpfxWLh2rCcHsd6TqT8cTWGv7YQQzmMZ4ChTGO1zgREMNNqRaBwndM7L01AnghwUxrpjlu0IU1Q8BQK8RJchOifWhwIZ5b4F2sPTa1EVFrTi50rYJbdvVyYwzJMMqMGa5wlfpT6Kdj024n5UNe0C7AoGNBvuhwAepz29XHMNoUUcBR9XPEeSGVuu6",
+              "received": false
+            }
+          ],
+          "total_price": 10516,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Kiehnboro",
+              "street": "Harold Fall",
+              "house": 47,
+              "flat": 160
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-02T22:17:32.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695843f71c508c5d5e774a14",
+          "products": [
+            {
+              "_id": "695843f81c508c5d5e774b4d",
+              "name": "Bacon35128",
+              "amount": 752,
+              "price": 10516,
+              "manufacturer": "Xiaomi",
+              "notes": "r68WXYoEYbPxtGXZ4KxXpHRDAbTTl3PGrYdlqw9BKcIJhLlqPs5jURVPxztUa67yjBpfxWLh2rCcHsd6TqT8cTWGv7YQQzmMZ4ChTGO1zgREMNNqRaBwndM7L01AnghwUxrpjlu0IU1Q8BQK8RJchOifWhwIZ5b4F2sPTa1EVFrTi50rYJbdvVyYwzJMMqMGa5wlfpT6Kdj024n5UNe0C7AoGNBvuhwAepz29XHMNoUUcBR9XPEeSGVuu6",
+              "received": false
+            }
+          ],
+          "total_price": 10516,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Kiehnboro",
+              "street": "Harold Fall",
+              "house": 47,
+              "flat": 160
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-02T22:17:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695843f71c508c5d5e774a14",
+          "products": [
+            {
+              "_id": "695843f81c508c5d5e774b4d",
+              "name": "Bacon35128",
+              "amount": 752,
+              "price": 10516,
+              "manufacturer": "Xiaomi",
+              "notes": "r68WXYoEYbPxtGXZ4KxXpHRDAbTTl3PGrYdlqw9BKcIJhLlqPs5jURVPxztUa67yjBpfxWLh2rCcHsd6TqT8cTWGv7YQQzmMZ4ChTGO1zgREMNNqRaBwndM7L01AnghwUxrpjlu0IU1Q8BQK8RJchOifWhwIZ5b4F2sPTa1EVFrTi50rYJbdvVyYwzJMMqMGa5wlfpT6Kdj024n5UNe0C7AoGNBvuhwAepz29XHMNoUUcBR9XPEeSGVuu6",
+              "received": false
+            }
+          ],
+          "total_price": 10516,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:17:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

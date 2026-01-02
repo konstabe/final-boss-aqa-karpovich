@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2944",
+    "etag": "W/\"b80-Nd7JjhvnYIN1HLyzkLo56J/GbqU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695843db1c508c5d5e773aa1",
+      "status": "Draft",
+      "customer": {
+        "_id": "695843d71c508c5d5e773856",
+        "email": "Orlando44@hotmail.com",
+        "name": "Lizeth Jenkins",
+        "country": "USA",
+        "city": "Lefflerburgh",
+        "street": "Wellington Road",
+        "house": 24,
+        "flat": 948,
+        "phone": "+13508172590",
+        "createdOn": "2026-01-02T22:16:55.000Z",
+        "notes": "r4018eT7fJAvUHqbo4uxImHjPvVLSSJOaQHNoub8vHhOWlYZkJRUXeG1n75utZeEVyy909g5k0pIm6KVRPU2YnN3l9vYsuvqTXYtebcaRbMn7zlQbvlUJwuItoGhpYIjLbct4glJKD2MDgbQxTAfi0m95SI44Z3oW6j13XzbNUtJrRfWJI0zQNakZjxtHNlKo5iN46aEzky2ryXICXaqtF5jUffqRzv7iSLzNTKu3a0rLUPI9QaU22eUF0"
+      },
+      "products": [
+        {
+          "_id": "695843d81c508c5d5e773941",
+          "name": "Salad12529",
+          "amount": 656,
+          "price": 86656,
+          "manufacturer": "Samsung",
+          "notes": "8U6QvnmPYbKJhuRgw9oxJJCUahyifpxLx8HJUIwmriCRKE0OygEISfOgsBXNJZjJhquecxiUSQepyCuqsN3NU7q6FJ3SV4siJtB45sXwKMb62mmFwgJz8gWosM0Q1DckM1JGjbJjjDXu2UYqO95D83Fn5eSpmZaMCXtiwbvXNQ1WDi3gT5aPybPbAJKfJjRh9eUKuzCRP7ehPDK2TU0z9oDwkHV4Dx48w4ruhT7YBxGxu4Bi5IPe56ypwg",
+          "received": false
+        },
+        {
+          "_id": "695843da1c508c5d5e773a71",
+          "name": "Computer79731",
+          "amount": 674,
+          "price": 50791,
+          "manufacturer": "Tesla",
+          "notes": "TbsrOzueustwQ426JoApbJHofi9wXAVF7wNNVeCmXrEHRRR3tKt5KSBNB9MHHBsNk1T3xth5bHC05UwPEzFea7meyaKGUpYp1yn38bkd6n0NDDRG2dR9SLHosH9VaLbxx0JK5YTpqD5rblA87rcbwzQTssLbhj8HvIK7ZjQGHViFiFzSzEUZb0JwiY5sgmddgYb7QB1KQJk4Q7XHXQ8hqordG0np5wSXvtWgsQmUbTR5g86dPlo5Bix6B3",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 137447,
+      "createdOn": "2026-01-02T22:16:59.000Z",
+      "comments": [
+        {
+          "text": "hp07D511rU9v0jy8GmhmptAPAVesMTV3ktTwGkqVX87q8j3EQcgFdnZe5cd7jW1xnT0oMVWo2AZFloey78vdkwJLYy8fNMtKDz98zxf38ng2uvbY6SvpH3aC3wflg7YJpAn9kGKcPUGij9MfeB3QvTTGPdyUiHjilakLoJEcZXBCNGEsSEbIA3MpFcVPduttjHsAbatz <",
+          "createdOn": "2026-01-02T22:16:59.000Z",
+          "_id": "695843db1c508c5d5e773ad8"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843d71c508c5d5e773856",
+          "products": [
+            {
+              "_id": "695843d81c508c5d5e773941",
+              "name": "Salad12529",
+              "amount": 656,
+              "price": 86656,
+              "manufacturer": "Samsung",
+              "notes": "8U6QvnmPYbKJhuRgw9oxJJCUahyifpxLx8HJUIwmriCRKE0OygEISfOgsBXNJZjJhquecxiUSQepyCuqsN3NU7q6FJ3SV4siJtB45sXwKMb62mmFwgJz8gWosM0Q1DckM1JGjbJjjDXu2UYqO95D83Fn5eSpmZaMCXtiwbvXNQ1WDi3gT5aPybPbAJKfJjRh9eUKuzCRP7ehPDK2TU0z9oDwkHV4Dx48w4ruhT7YBxGxu4Bi5IPe56ypwg",
+              "received": false
+            },
+            {
+              "_id": "695843da1c508c5d5e773a71",
+              "name": "Computer79731",
+              "amount": 674,
+              "price": 50791,
+              "manufacturer": "Tesla",
+              "notes": "TbsrOzueustwQ426JoApbJHofi9wXAVF7wNNVeCmXrEHRRR3tKt5KSBNB9MHHBsNk1T3xth5bHC05UwPEzFea7meyaKGUpYp1yn38bkd6n0NDDRG2dR9SLHosH9VaLbxx0JK5YTpqD5rblA87rcbwzQTssLbhj8HvIK7ZjQGHViFiFzSzEUZb0JwiY5sgmddgYb7QB1KQJk4Q7XHXQ8hqordG0np5wSXvtWgsQmUbTR5g86dPlo5Bix6B3",
+              "received": false
+            }
+          ],
+          "total_price": 137447,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:16:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

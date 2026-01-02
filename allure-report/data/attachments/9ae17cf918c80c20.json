@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:18:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3437",
+    "etag": "W/\"d6d-z9zgL8DHTz1uvtCugfod0ks1xyo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6958440d1c508c5d5e775679",
+        "email": "Bethany_Huel@hotmail.com",
+        "name": "Elisa Emard",
+        "country": "Belarus",
+        "city": "North Abbyview",
+        "street": "Marvin Park",
+        "house": 10,
+        "flat": 196,
+        "phone": "+15412221432",
+        "createdOn": "2026-01-02T22:17:49.000Z",
+        "notes": "UsLCEURIRyQQpGA2PdptmmJYDXvNoMOYEaaSwNMPCuPn82q6eeUW4AcVrTLT8i7zPGPirjWLuI0StStgPzCGpBu9lNpa8jxBaxhEEnjswgJVVvmLvItmzd6zRIrLg0SBnnNHiQZ4jsr01rTDaXG6lnAbKR5u87vbo5YdID4YzbAQQsonDXnHb7xqdS5jdW0CcIHMh7rbYviP0Zfbc5RL9gB8Mq9YduvSsWpbJoRiTK6LtCX5r7q3MtnQTS"
+      },
+      "products": [
+        {
+          "_id": "695844101c508c5d5e77595a",
+          "name": "Computer79151",
+          "amount": 604,
+          "price": 76030,
+          "manufacturer": "Google",
+          "notes": "XCYBBrbP8JQ1kAh3fiwBRwFMyMersgjpej0XjJSpY0HQ2J7bLmufKWQ3S6kXuE1B5sAEcVGpScRI84PEriARAYapzD0Bmr5N5dhRDP1uQAQjPk35buisycYLHO53Ecx75hAXh50HnEfXg6gy4apmZgXVpFd7RARpMjwCobpPQu37s4tshl8dBvZcUD1P3p5cCg7kUVPnekCM7FhUucYr6quZytwbMKA92mf4uptZ5AWzUEatRUdTnnkiQW",
+          "received": false
+        },
+        {
+          "_id": "695844121c508c5d5e7759d5",
+          "name": "Bacon30736",
+          "amount": 477,
+          "price": 47376,
+          "manufacturer": "Samsung",
+          "notes": "DLIIO7Dyj2tYJslNMAl4R5n4m6UfeSxIWOz3bxibBOVfruwNWdS6RGKulc3GRuRvszTcUki6WGSYvQLGFNdCUdXh9Wm0A4ADwuHs6FpXBz0PQOA8gSgfScvNavUaVAi4QIpDJm8O1kKVwwWwxcAUxr9aGjCeXc46QT7hFKHol8dJC7HXLsUGT63bxBFRJezpX8CvBqOM9x2EJPG38HLVjlyApDskZH1MkWP9QRHas2lWkH3YFdSZ3EJzAd",
+          "received": false
+        },
+        {
+          "_id": "695844141c508c5d5e775f15",
+          "name": "Keyboard51109",
+          "amount": 881,
+          "price": 86822,
+          "manufacturer": "Xiaomi",
+          "notes": "hy7UXVeoMT1B1y2By2sAreUcnRnS2jbypqqaykJkFcDt5794zk3Bd2eKVIZfJUTOeSVenTnIzanBR8V74fK18nlGP76GfTfADIHWt60aAJ3GBhG43kCXnJ9wVQo8LtFbZgNxEOtdCs0dujpnTgYl8pwgyQ99HiHTZfXGpUpjzMT3maAKZYeMKNibolzswTFMZd1shphOaCd69tIPIqNobdwzBAC0j33BzR2HOeq9d9qMGeKGrVQcaFCOcX",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 210228,
+      "createdOn": "2026-01-02T22:18:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958440d1c508c5d5e775679",
+          "products": [
+            {
+              "_id": "695844101c508c5d5e77595a",
+              "name": "Computer79151",
+              "amount": 604,
+              "price": 76030,
+              "manufacturer": "Google",
+              "notes": "XCYBBrbP8JQ1kAh3fiwBRwFMyMersgjpej0XjJSpY0HQ2J7bLmufKWQ3S6kXuE1B5sAEcVGpScRI84PEriARAYapzD0Bmr5N5dhRDP1uQAQjPk35buisycYLHO53Ecx75hAXh50HnEfXg6gy4apmZgXVpFd7RARpMjwCobpPQu37s4tshl8dBvZcUD1P3p5cCg7kUVPnekCM7FhUucYr6quZytwbMKA92mf4uptZ5AWzUEatRUdTnnkiQW",
+              "received": false
+            },
+            {
+              "_id": "695844121c508c5d5e7759d5",
+              "name": "Bacon30736",
+              "amount": 477,
+              "price": 47376,
+              "manufacturer": "Samsung",
+              "notes": "DLIIO7Dyj2tYJslNMAl4R5n4m6UfeSxIWOz3bxibBOVfruwNWdS6RGKulc3GRuRvszTcUki6WGSYvQLGFNdCUdXh9Wm0A4ADwuHs6FpXBz0PQOA8gSgfScvNavUaVAi4QIpDJm8O1kKVwwWwxcAUxr9aGjCeXc46QT7hFKHol8dJC7HXLsUGT63bxBFRJezpX8CvBqOM9x2EJPG38HLVjlyApDskZH1MkWP9QRHas2lWkH3YFdSZ3EJzAd",
+              "received": false
+            },
+            {
+              "_id": "695844141c508c5d5e775f15",
+              "name": "Keyboard51109",
+              "amount": 881,
+              "price": 86822,
+              "manufacturer": "Xiaomi",
+              "notes": "hy7UXVeoMT1B1y2By2sAreUcnRnS2jbypqqaykJkFcDt5794zk3Bd2eKVIZfJUTOeSVenTnIzanBR8V74fK18nlGP76GfTfADIHWt60aAJ3GBhG43kCXnJ9wVQo8LtFbZgNxEOtdCs0dujpnTgYl8pwgyQ99HiHTZfXGpUpjzMT3maAKZYeMKNibolzswTFMZd1shphOaCd69tIPIqNobdwzBAC0j33BzR2HOeq9d9qMGeKGrVQcaFCOcX",
+              "received": false
+            }
+          ],
+          "total_price": 210228,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:18:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6958441a1c508c5d5e775ff7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

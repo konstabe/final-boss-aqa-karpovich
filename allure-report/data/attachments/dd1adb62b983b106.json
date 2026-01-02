@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1406",
+    "etag": "W/\"57e-ZW3jPkCmWq7ENRWRj62GDTkCuwM\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "695843c01c508c5d5e772b98",
+        "status": "Draft",
+        "customer": "695843be1c508c5d5e772a94",
+        "products": [
+          {
+            "_id": "695843bf1c508c5d5e772b72",
+            "name": "Soap83172",
+            "amount": 340,
+            "price": 42782,
+            "manufacturer": "Sony",
+            "notes": "sFeK4RRkzV6bxt6xwnKaxrPUHGT2YjHwMEPL4e2tmtfFlsmfQCNTwphzh5ksqm8cCI1vjvp2FSyrltJc7qYCfbg1COKhPJrsa776SrHqXyGSCBDmZ2FllNOGIvZyp8bdKCaHSnTgJc709wspOwNVn8AIUkPCeXkpSQOBaGLnq3xVPleePU2MC5XBmYqgLbnWRGktAICd3lEkd7HV8WRjjgh1LE2ALISCXhjjPYDm04USdJsbFebEzLmMCH",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 42782,
+        "createdOn": "2026-01-02T22:16:32.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695843be1c508c5d5e772a94",
+            "products": [
+              {
+                "_id": "695843bf1c508c5d5e772b72",
+                "name": "Soap83172",
+                "amount": 340,
+                "price": 42782,
+                "manufacturer": "Sony",
+                "notes": "sFeK4RRkzV6bxt6xwnKaxrPUHGT2YjHwMEPL4e2tmtfFlsmfQCNTwphzh5ksqm8cCI1vjvp2FSyrltJc7qYCfbg1COKhPJrsa776SrHqXyGSCBDmZ2FllNOGIvZyp8bdKCaHSnTgJc709wspOwNVn8AIUkPCeXkpSQOBaGLnq3xVPleePU2MC5XBmYqgLbnWRGktAICd3lEkd7HV8WRjjgh1LE2ALISCXhjjPYDm04USdJsbFebEzLmMCH",
+                "received": false
+              }
+            ],
+            "total_price": 42782,
+            "delivery": null,
+            "changedOn": "2026-01-02T22:16:32.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953315",
+              "username": "student2@gmail.com",
+              "firstName": "Wilfrid",
+              "lastName": "Daugherty",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

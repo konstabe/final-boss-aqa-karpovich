@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:17:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-nTmDu8+vD3xPHB2cDOEWpzXFD88\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695843ee1c508c5d5e774441",
+        "email": "Ramiro42@hotmail.com",
+        "name": "Branson Boehm",
+        "country": "Great Britain",
+        "city": "Altadena",
+        "street": "Gulgowski Locks",
+        "house": 28,
+        "flat": 396,
+        "phone": "+14047391887",
+        "createdOn": "2026-01-02T22:17:18.000Z",
+        "notes": "6nk9TFx7weFBB9TCi29WwASlASIxumUFKt2N3WFSllvNQDHeEfAN2jgQkDLf2POtbU6VAOhySNzi3LGEpl3ZXwEzmuKDWQwkinXCuS1zBkWqPs8AB0wqUNXBAUxbQR2Pds0uYJkNsfyx2U9N8pgw8TemQkt5Dqa3s5mhJqEfknTKseiTczHmIzsEHd6L6qQABwevBfqEuFSN4J1B5SZ0Gqi3peMNHLaxVwK4w4Rr0Q3f344xhxjqHkdtZd"
+      },
+      "products": [
+        {
+          "_id": "695843f01c508c5d5e77467f",
+          "name": "Table41056",
+          "amount": 37,
+          "price": 44240,
+          "manufacturer": "Amazon",
+          "notes": "Wu6OYg8zWvfpVELbBMnsTQnxtxInmqTFDWP1i5zNQob9cNXZEXUyvc5iz0ixJvwPpKPP6FoExf7PeL5rdZDGhroW7qy6UN7ETkYmd9kUHyITtl8G4IRD3WsaN7TKOXLoI1ukZRWguR9S9HZwhpcS92YHhzCJD5KyNECl1nPSOZ2Sb6At7gN2KprsULt1jup6OXe5rz9Q8mLB8h0NMEwYZ997VTOcbtxNFqd0XUAnyR0xvgS70pKvbHhIEj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 44240,
+      "createdOn": "2026-01-02T22:17:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843ee1c508c5d5e774441",
+          "products": [
+            {
+              "_id": "695843f01c508c5d5e77467f",
+              "name": "Table41056",
+              "amount": 37,
+              "price": 44240,
+              "manufacturer": "Amazon",
+              "notes": "Wu6OYg8zWvfpVELbBMnsTQnxtxInmqTFDWP1i5zNQob9cNXZEXUyvc5iz0ixJvwPpKPP6FoExf7PeL5rdZDGhroW7qy6UN7ETkYmd9kUHyITtl8G4IRD3WsaN7TKOXLoI1ukZRWguR9S9HZwhpcS92YHhzCJD5KyNECl1nPSOZ2Sb6At7gN2KprsULt1jup6OXe5rz9Q8mLB8h0NMEwYZ997VTOcbtxNFqd0XUAnyR0xvgS70pKvbHhIEj",
+              "received": false
+            }
+          ],
+          "total_price": 44240,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:17:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695843f21c508c5d5e7747a2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2661",
+    "etag": "W/\"a65-lwB60KFFR8xiKYAY8NkjTSmJSDw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695843ce1c508c5d5e7733e3",
+        "email": "Monique_Harber-Shanahan83@hotmail.com",
+        "name": "Cale Weimann",
+        "country": "Belarus",
+        "city": "Olathe",
+        "street": "Schimmel Island",
+        "house": 24,
+        "flat": 401,
+        "phone": "+13669448008",
+        "createdOn": "2026-01-02T22:16:46.000Z",
+        "notes": "SNRdJXIoerjQ2OB0hekzJpBc7DmRnEwDYxMDskt6J9HcHdUIJM9CJjuqv333ykorZV0BtvUvb7T8jwPowiqvzrRNwPYJjGV5yXrLAbv02hAx7kZt4pZ9pJLnpHdYgfiU8qVJZtbZiQiQ5A8gPZk0L9RJwI9S29D5dN1zLH8vofC9WYlq9bpN3ulWivUeK99EJSTIsv3f5Q6tZETyJ4A6yye6jiD7x7P83j16Tgc6xDhlknGoIh8nbsc86x"
+      },
+      "products": [
+        {
+          "_id": "695843cf1c508c5d5e773469",
+          "name": "Fish41832",
+          "amount": 317,
+          "price": 92538,
+          "manufacturer": "Amazon",
+          "notes": "WQFsySJXqWRatI9ES9DcjRyU8MkiDEqKQKN7Gq7r2eARLK9yphfcwVZSQFD2QXPcb1GnFNNdXdLNRa59RuRkeMPBayAeigIo58b22JxQ1jpUwIJYXS0purnJeRKsF4oSoMdxDKIUnvILQmddWdhRwI4zFevl4H289tYncgP6DlXcynyHjr1xft0dV0anCPO28CC0aHe37lJyUUANFH8lrkjp8dHBQoudMNccjeodjKpFDCjFoHCOsURrev",
+          "received": false
+        },
+        {
+          "_id": "695843d01c508c5d5e7734c4",
+          "name": "Bacon8922",
+          "amount": 255,
+          "price": 37713,
+          "manufacturer": "Amazon",
+          "notes": "mZYRsps9WNJyG95dM8v7FeUasHGhl6GkGtj7ikClf9pZFpbPPEUUUjYsiMVs1Fpbk1xj3PucsQDEVHTcFAWxKqTEuIHttburClYf5VQI4T0kv34KEYqHgY2Omdvy8kD5wqehNNaa79i4a6OhLYcgCRcGEmELlG6u799Empvl9KzqoZtCaQiEuW4jQvLKtsckariU59nNCDiI9QJtXqfoVhEZSBLDOCpbMmnjbaNiqbJI866m0K7F9TQKr4",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 130251,
+      "createdOn": "2026-01-02T22:16:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843ce1c508c5d5e7733e3",
+          "products": [
+            {
+              "_id": "695843cf1c508c5d5e773469",
+              "name": "Fish41832",
+              "amount": 317,
+              "price": 92538,
+              "manufacturer": "Amazon",
+              "notes": "WQFsySJXqWRatI9ES9DcjRyU8MkiDEqKQKN7Gq7r2eARLK9yphfcwVZSQFD2QXPcb1GnFNNdXdLNRa59RuRkeMPBayAeigIo58b22JxQ1jpUwIJYXS0purnJeRKsF4oSoMdxDKIUnvILQmddWdhRwI4zFevl4H289tYncgP6DlXcynyHjr1xft0dV0anCPO28CC0aHe37lJyUUANFH8lrkjp8dHBQoudMNccjeodjKpFDCjFoHCOsURrev",
+              "received": false
+            },
+            {
+              "_id": "695843d01c508c5d5e7734c4",
+              "name": "Bacon8922",
+              "amount": 255,
+              "price": 37713,
+              "manufacturer": "Amazon",
+              "notes": "mZYRsps9WNJyG95dM8v7FeUasHGhl6GkGtj7ikClf9pZFpbPPEUUUjYsiMVs1Fpbk1xj3PucsQDEVHTcFAWxKqTEuIHttburClYf5VQI4T0kv34KEYqHgY2Omdvy8kD5wqehNNaa79i4a6OhLYcgCRcGEmELlG6u799Empvl9KzqoZtCaQiEuW4jQvLKtsckariU59nNCDiI9QJtXqfoVhEZSBLDOCpbMmnjbaNiqbJI866m0K7F9TQKr4",
+              "received": false
+            }
+          ],
+          "total_price": 130251,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:16:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695843d11c508c5d5e7734eb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

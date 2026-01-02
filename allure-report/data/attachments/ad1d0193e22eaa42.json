@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:17:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3430",
+    "etag": "W/\"d66-v+lkB4XrybRSFuPBRkT6PIgK1sI\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695844041c508c5d5e775211",
+        "email": "Dixie.Hand@gmail.com",
+        "name": "Cecilia Ortiz",
+        "country": "Russia",
+        "city": "New Adastad",
+        "street": "E Central Avenue",
+        "house": 39,
+        "flat": 367,
+        "phone": "+18055255126",
+        "createdOn": "2026-01-02T22:17:40.000Z",
+        "notes": "RmRrOh1q4RJteROnSQav7QKyne6LyUAEIXrIBpWFCVKZg5zcDhXVY1Jw9qwGErN6HCRdLiI2LzsUeCE7B4wHh1GbgKYEFIOSnd034Ume9Ip2K34ypSK23IIhHYS2TVIakNFjKg4LlQAcxr1HOMLQ4vhu9vNhKXtmhpXsQxRDdadnwQq8gPdjhjHJTaqaeMiL1S5C44N1rr7ZdOacwiW8REkSnoWfYEfyoY1i8nyH8rKB1Pgm9rMBgAc4Vi"
+      },
+      "products": [
+        {
+          "_id": "695844051c508c5d5e775244",
+          "name": "Chair58045",
+          "amount": 656,
+          "price": 46424,
+          "manufacturer": "Amazon",
+          "notes": "SzwBRq4GFtohRHFlgsnRLMwqjmugpncTP62vxOgTSJ0kphwDVJKa0TmOJEmuwx34nXD11lrsijI0AkjeBvDYyigAl5Y1lWAwhVEWK4ChmWWNbSfVTDqH31rfPGv2ctYxZQe4nhtDj4bGmbDwysVtCE8Lw393xlq8J8I674ltvBn5D8jMxqS2Ut4fdtcZFifkuSzVLy5GCHAmQLZBUmHeXZ13zIMM8Pg4cnkq6ne313EFurIzTorQ1KyjTl",
+          "received": false
+        },
+        {
+          "_id": "695844061c508c5d5e77546a",
+          "name": "Bacon79407",
+          "amount": 492,
+          "price": 42109,
+          "manufacturer": "Microsoft",
+          "notes": "9Bv96Yt4u4QqMSv2rBrLlEEj4hfHOAxprpy2Qyhb4403BcsKgKduxiWvFYrVpGLCqk5TJfLAQtLafqFV9HPi3IcULOIfQt0nv4iwvFKa8F4diwFINGmgKgm3OKn48kx1EzFeGzoXvPUgVWbeYobCcJ6udzrUF3Dw5MxsboFtunEaW8Ly0iscsSSuIAifYEKl5yLOxknGeRk4awq0VxLebjN4ouFkSgruf6lAZ14WFA0SZ7KzzYKeODbeZh",
+          "received": false
+        },
+        {
+          "_id": "695844091c508c5d5e7754cb",
+          "name": "Towels44154",
+          "amount": 832,
+          "price": 86260,
+          "manufacturer": "Amazon",
+          "notes": "JX2x9jQDlFbHiHZkUoeKQ7CXCy9spdJEJf68BWaRHe9dnGlmGoTDU4sSZAA08ypomdd2CWtftOebPxIWh2C2G75ww7Km2HK3EShOJHKjcnJvEqtKpD2lpEE64OWySG7lotikFc5kfyEQ5wWVglE9WABCIUsSTg1lIwWa8vjxWI0J9kUUBfG180lu9oUfkUUGOohvqd0AD3vneFEqvBlNB38XeEB1YJ9hzM0wNBtlDXlM5tDqI16qpY58VJ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 174793,
+      "createdOn": "2026-01-02T22:17:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695844041c508c5d5e775211",
+          "products": [
+            {
+              "_id": "695844051c508c5d5e775244",
+              "name": "Chair58045",
+              "amount": 656,
+              "price": 46424,
+              "manufacturer": "Amazon",
+              "notes": "SzwBRq4GFtohRHFlgsnRLMwqjmugpncTP62vxOgTSJ0kphwDVJKa0TmOJEmuwx34nXD11lrsijI0AkjeBvDYyigAl5Y1lWAwhVEWK4ChmWWNbSfVTDqH31rfPGv2ctYxZQe4nhtDj4bGmbDwysVtCE8Lw393xlq8J8I674ltvBn5D8jMxqS2Ut4fdtcZFifkuSzVLy5GCHAmQLZBUmHeXZ13zIMM8Pg4cnkq6ne313EFurIzTorQ1KyjTl",
+              "received": false
+            },
+            {
+              "_id": "695844061c508c5d5e77546a",
+              "name": "Bacon79407",
+              "amount": 492,
+              "price": 42109,
+              "manufacturer": "Microsoft",
+              "notes": "9Bv96Yt4u4QqMSv2rBrLlEEj4hfHOAxprpy2Qyhb4403BcsKgKduxiWvFYrVpGLCqk5TJfLAQtLafqFV9HPi3IcULOIfQt0nv4iwvFKa8F4diwFINGmgKgm3OKn48kx1EzFeGzoXvPUgVWbeYobCcJ6udzrUF3Dw5MxsboFtunEaW8Ly0iscsSSuIAifYEKl5yLOxknGeRk4awq0VxLebjN4ouFkSgruf6lAZ14WFA0SZ7KzzYKeODbeZh",
+              "received": false
+            },
+            {
+              "_id": "695844091c508c5d5e7754cb",
+              "name": "Towels44154",
+              "amount": 832,
+              "price": 86260,
+              "manufacturer": "Amazon",
+              "notes": "JX2x9jQDlFbHiHZkUoeKQ7CXCy9spdJEJf68BWaRHe9dnGlmGoTDU4sSZAA08ypomdd2CWtftOebPxIWh2C2G75ww7Km2HK3EShOJHKjcnJvEqtKpD2lpEE64OWySG7lotikFc5kfyEQ5wWVglE9WABCIUsSTg1lIwWa8vjxWI0J9kUUBfG180lu9oUfkUUGOohvqd0AD3vneFEqvBlNB38XeEB1YJ9hzM0wNBtlDXlM5tDqI16qpY58VJ",
+              "received": false
+            }
+          ],
+          "total_price": 174793,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:17:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695844091c508c5d5e7754f1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

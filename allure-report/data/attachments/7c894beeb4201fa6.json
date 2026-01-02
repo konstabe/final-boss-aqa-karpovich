@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:17:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4120",
+    "etag": "W/\"1018-URdUwfoqN9gqptB1/TOkf+nu2wo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695844121c508c5d5e7759a9",
+      "status": "Draft",
+      "customer": {
+        "_id": "6958440c1c508c5d5e77561a",
+        "email": "Arnulfo88@gmail.com",
+        "name": "Cooper Hodkiewicz",
+        "country": "Germany",
+        "city": "Rancho Cucamonga",
+        "street": "Damaris Knoll",
+        "house": 4,
+        "flat": 343,
+        "phone": "+18284781633",
+        "createdOn": "2026-01-02T22:17:48.000Z",
+        "notes": "nAg4lfVBUW5WPQAL39jrdCQhwVTSabMK3jLXNVhx11LclLPQVXxRVYwrHo9zZEcO0sFNjplMeaU1DQG0Urw0Mn2zp5a4pXe6rsQ9jY7v0jeVPiUxRFJ9rOtyyhTAzzLyqSfBDBIoU28yTL2NgX9ZymcOvYA9wxrqmH83Z8zlw7qB0bvbhDs4kZvFZLW2GITQYhvsCRnrmOiUDAUIXjG4IOSQR6gKxVmULCH1E3kRVOvme1f45rWtUlExze"
+      },
+      "products": [
+        {
+          "_id": "6958440d1c508c5d5e775683",
+          "name": "Bike59628",
+          "amount": 772,
+          "price": 97008,
+          "manufacturer": "Microsoft",
+          "notes": "Q0wQBeNURULWxULy9lqENp7OleCQZoY8E166olAOxaEsxbdVbm4ynnU7VanRGyGyYZdOedMoTajk6JDmrB2XSL5Fj2LS3Drmrpr7KUEggNwYfkYrNJAjtyVTGyzQlNtymZszXIfAfBQ4Ic7Ha5ZXmrDXvZrldqeLY6z1sefbr0ykBAdSmvn6ATFLlQ2dxgx7sBxo6WXUf8cc6tSfJapiDGk6VifA7iltsP3W7A23GmvuYQjCqBtcoEgmdT",
+          "received": false
+        },
+        {
+          "_id": "695844101c508c5d5e775958",
+          "name": "Bike95920",
+          "amount": 623,
+          "price": 71048,
+          "manufacturer": "Sony",
+          "notes": "6xv0wu9NzNO6wF7rS2mA5nXVDXm6wmeLMedHhdUQBKb01LvRXxo2jh0uKRaYSB3i1KbhDuLtZ0bnODKjWv2oCUwvBbgnXnbNRMUPlHaVjG331xoHgCzaSuzG5eWJkDNnkZ8NCrFY8ld0QULQdXKUwx5dRCE3Bfrv0FGnZkAL1DrJvSfYF4pVIQWiiraJrYxTpVZaZSfOwR0z8onSYz3lcMEG5st1Bz2wcw3PdM0LmuXf2eGe8dMdQpt5bQ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Rancho Cucamonga",
+          "street": "Damaris Knoll",
+          "house": 4,
+          "flat": 343
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 168056,
+      "createdOn": "2026-01-02T22:17:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958440c1c508c5d5e77561a",
+          "products": [
+            {
+              "_id": "6958440d1c508c5d5e775683",
+              "name": "Bike59628",
+              "amount": 772,
+              "price": 97008,
+              "manufacturer": "Microsoft",
+              "notes": "Q0wQBeNURULWxULy9lqENp7OleCQZoY8E166olAOxaEsxbdVbm4ynnU7VanRGyGyYZdOedMoTajk6JDmrB2XSL5Fj2LS3Drmrpr7KUEggNwYfkYrNJAjtyVTGyzQlNtymZszXIfAfBQ4Ic7Ha5ZXmrDXvZrldqeLY6z1sefbr0ykBAdSmvn6ATFLlQ2dxgx7sBxo6WXUf8cc6tSfJapiDGk6VifA7iltsP3W7A23GmvuYQjCqBtcoEgmdT",
+              "received": false
+            },
+            {
+              "_id": "695844101c508c5d5e775958",
+              "name": "Bike95920",
+              "amount": 623,
+              "price": 71048,
+              "manufacturer": "Sony",
+              "notes": "6xv0wu9NzNO6wF7rS2mA5nXVDXm6wmeLMedHhdUQBKb01LvRXxo2jh0uKRaYSB3i1KbhDuLtZ0bnODKjWv2oCUwvBbgnXnbNRMUPlHaVjG331xoHgCzaSuzG5eWJkDNnkZ8NCrFY8ld0QULQdXKUwx5dRCE3Bfrv0FGnZkAL1DrJvSfYF4pVIQWiiraJrYxTpVZaZSfOwR0z8onSYz3lcMEG5st1Bz2wcw3PdM0LmuXf2eGe8dMdQpt5bQ",
+              "received": false
+            }
+          ],
+          "total_price": 168056,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Rancho Cucamonga",
+              "street": "Damaris Knoll",
+              "house": 4,
+              "flat": 343
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-02T22:17:54.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958440c1c508c5d5e77561a",
+          "products": [
+            {
+              "_id": "6958440d1c508c5d5e775683",
+              "name": "Bike59628",
+              "amount": 772,
+              "price": 97008,
+              "manufacturer": "Microsoft",
+              "notes": "Q0wQBeNURULWxULy9lqENp7OleCQZoY8E166olAOxaEsxbdVbm4ynnU7VanRGyGyYZdOedMoTajk6JDmrB2XSL5Fj2LS3Drmrpr7KUEggNwYfkYrNJAjtyVTGyzQlNtymZszXIfAfBQ4Ic7Ha5ZXmrDXvZrldqeLY6z1sefbr0ykBAdSmvn6ATFLlQ2dxgx7sBxo6WXUf8cc6tSfJapiDGk6VifA7iltsP3W7A23GmvuYQjCqBtcoEgmdT",
+              "received": false
+            },
+            {
+              "_id": "695844101c508c5d5e775958",
+              "name": "Bike95920",
+              "amount": 623,
+              "price": 71048,
+              "manufacturer": "Sony",
+              "notes": "6xv0wu9NzNO6wF7rS2mA5nXVDXm6wmeLMedHhdUQBKb01LvRXxo2jh0uKRaYSB3i1KbhDuLtZ0bnODKjWv2oCUwvBbgnXnbNRMUPlHaVjG331xoHgCzaSuzG5eWJkDNnkZ8NCrFY8ld0QULQdXKUwx5dRCE3Bfrv0FGnZkAL1DrJvSfYF4pVIQWiiraJrYxTpVZaZSfOwR0z8onSYz3lcMEG5st1Bz2wcw3PdM0LmuXf2eGe8dMdQpt5bQ",
+              "received": false
+            }
+          ],
+          "total_price": 168056,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:17:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

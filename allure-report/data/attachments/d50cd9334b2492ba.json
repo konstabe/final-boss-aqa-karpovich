@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:17:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2965",
+    "etag": "W/\"b95-CW7tmNAPHfHNUBkeNY7uQBAUcas\"",
+    "keep-alive": "timeout=5, max=56",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695843f51c508c5d5e77498c",
+      "status": "Draft",
+      "customer": {
+        "_id": "695843f31c508c5d5e77482f",
+        "email": "Sidney45@gmail.com",
+        "name": "Pinkie Parisian",
+        "country": "France",
+        "city": "South Francis",
+        "street": "Jeromy Village",
+        "house": 34,
+        "flat": 82,
+        "phone": "+17709013950",
+        "createdOn": "2026-01-02T22:17:23.000Z",
+        "notes": "rQCFkvlgahpkOhvlB2PQ3Muwy8DRWbyqtWKSbAxKBtGJUD4lbcxuQIdr2AEauSCVfgoBntCaPzrJ6lImWNrEFTlxS9R4SDXFLfQp4JQ2yMa2z8BNpAEQUaTAlFAEUrFcDB5AFdDKDCcblWu4L2607mUX4px8RY6dqcsQZTBBUXViC5WVIAfkzLxAGTCmpQIXeK8JzuhMAklP4ut2KHjER3a7qyrGq0E4cwwff9Ari98uFh4u7cND6Q2SNP"
+      },
+      "products": [
+        {
+          "_id": "695843f51c508c5d5e7748b2",
+          "name": "Chair48703",
+          "amount": 910,
+          "price": 95930,
+          "manufacturer": "Microsoft",
+          "notes": "v2O2Pf3Uadi0THuuHY94TUjbpx7Ru0av5VL1XjRgpNAKlBLoSqNkHFwhV3tCYmLgdOrPP316G91OQ4sXvK5JTYpwTIF6y16UgZFRaEYQ6aGdHPfXL9cQPit95ebJtpTZDvd9UOnoh59F2KUfpwj803aNzQidOA8uJtUX4PymlWiPi1WDx4ptuaETD1GuJkd8cBKkjhwnqx4h6TuIykvgrbL3nbjD2qmVzuUV6Zm3ADAZx8XaNhwAKCnKE2",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "South Francis",
+          "street": "Jeromy Village",
+          "house": 34,
+          "flat": 82
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 95930,
+      "createdOn": "2026-01-02T22:17:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843f31c508c5d5e77482f",
+          "products": [
+            {
+              "_id": "695843f51c508c5d5e7748b2",
+              "name": "Chair48703",
+              "amount": 910,
+              "price": 95930,
+              "manufacturer": "Microsoft",
+              "notes": "v2O2Pf3Uadi0THuuHY94TUjbpx7Ru0av5VL1XjRgpNAKlBLoSqNkHFwhV3tCYmLgdOrPP316G91OQ4sXvK5JTYpwTIF6y16UgZFRaEYQ6aGdHPfXL9cQPit95ebJtpTZDvd9UOnoh59F2KUfpwj803aNzQidOA8uJtUX4PymlWiPi1WDx4ptuaETD1GuJkd8cBKkjhwnqx4h6TuIykvgrbL3nbjD2qmVzuUV6Zm3ADAZx8XaNhwAKCnKE2",
+              "received": false
+            }
+          ],
+          "total_price": 95930,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "South Francis",
+              "street": "Jeromy Village",
+              "house": 34,
+              "flat": 82
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-02T22:17:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695843f31c508c5d5e77482f",
+          "products": [
+            {
+              "_id": "695843f51c508c5d5e7748b2",
+              "name": "Chair48703",
+              "amount": 910,
+              "price": 95930,
+              "manufacturer": "Microsoft",
+              "notes": "v2O2Pf3Uadi0THuuHY94TUjbpx7Ru0av5VL1XjRgpNAKlBLoSqNkHFwhV3tCYmLgdOrPP316G91OQ4sXvK5JTYpwTIF6y16UgZFRaEYQ6aGdHPfXL9cQPit95ebJtpTZDvd9UOnoh59F2KUfpwj803aNzQidOA8uJtUX4PymlWiPi1WDx4ptuaETD1GuJkd8cBKkjhwnqx4h6TuIykvgrbL3nbjD2qmVzuUV6Zm3ADAZx8XaNhwAKCnKE2",
+              "received": false
+            }
+          ],
+          "total_price": 95930,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:17:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

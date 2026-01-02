@@ -1,0 +1,35 @@
+Data is valid according to the schema.
+Data is valid according to the schema.
+Data is valid according to the schema.
+Data is valid according to the schema.
+{
+  status: 200,
+  body: {
+    Order: {
+      _id: '695843d31c508c5d5e773654',
+      status: 'Draft',
+      customer: [Object],
+      products: [Array],
+      delivery: null,
+      total_price: 63427,
+      createdOn: '2026-01-02T22:16:51.000Z',
+      comments: [Array],
+      history: [Array],
+      assignedManager: null
+    },
+    IsSuccess: true,
+    ErrorMessage: null
+  },
+  headers: {
+    date: 'Fri, 02 Jan 2026 22:16:52 GMT',
+    server: 'Apache',
+    'x-powered-by': 'Express',
+    'access-control-allow-origin': '*',
+    'access-control-expose-headers': 'Authorization,X-User-Name',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '2951',
+    etag: 'W/"b87-cYFwWn6xNFO7tpzliJLpJmHDlwY"',
+    'keep-alive': 'timeout=5, max=72',
+    connection: 'Keep-Alive'
+  }
+}

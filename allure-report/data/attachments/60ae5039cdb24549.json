@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:17:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-TCcvswiYFerO9eTySRK9k6qkMtU\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695843db1c508c5d5e773a88",
+        "email": "Lincoln49@hotmail.com",
+        "name": "Linnie Sporer",
+        "country": "Great Britain",
+        "city": "Sporerbury",
+        "street": "Walnut Close",
+        "house": 21,
+        "flat": 805,
+        "phone": "+15365611761",
+        "createdOn": "2026-01-02T22:16:59.000Z",
+        "notes": "WsiwwaCBmv9EYjSk58j8046tTjJ6vDj6pG8NzAIuPHffU2TVHj66MQ7TeLipi8xHIRSSJDlNWM5A6J5mPTRMVT0YPxRi5iAT4lop4mPE8kRtJJ2diV8l1iHAr3uDLWdoj1SdHt713eCLzZ0fadY1rAsx3zLYaEQkwk9FhXUe9j4maTJtOjrkGmn3tvaPaBZR3WoMoxDtf5h2Qj4Lpa0PRBehtwSlvXfpMKeFmOHAFrthau3PZoOMteGEFm"
+      },
+      "products": [
+        {
+          "_id": "695843dc1c508c5d5e773b34",
+          "name": "Chips95562",
+          "amount": 763,
+          "price": 2254,
+          "manufacturer": "Sony",
+          "notes": "REA2R2RYJo7cPKIyT5Hzjolq6xY16sXzIz99zQNtZYgxnM062jbTFAdV7B2vgMUnkpgcxz3oSLZOdOndJvZ8RWfdzd9HyXwyW5a3ub1TOzVNdyqGfMcqNzDT8nyE8VJHaDva4EI1dio5pjeC1jlOKrfKiyrfzQaB62pJFMQYk3tZRCJqQ80bkp7mNiFxhFzwM0xpUYGLKyinfnHLdITa07VkL1e9Hf1iaRhyNBKp6Iirex3Xn2Puy7Gt8d",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 2254,
+      "createdOn": "2026-01-02T22:17:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843db1c508c5d5e773a88",
+          "products": [
+            {
+              "_id": "695843dc1c508c5d5e773b34",
+              "name": "Chips95562",
+              "amount": 763,
+              "price": 2254,
+              "manufacturer": "Sony",
+              "notes": "REA2R2RYJo7cPKIyT5Hzjolq6xY16sXzIz99zQNtZYgxnM062jbTFAdV7B2vgMUnkpgcxz3oSLZOdOndJvZ8RWfdzd9HyXwyW5a3ub1TOzVNdyqGfMcqNzDT8nyE8VJHaDva4EI1dio5pjeC1jlOKrfKiyrfzQaB62pJFMQYk3tZRCJqQ80bkp7mNiFxhFzwM0xpUYGLKyinfnHLdITa07VkL1e9Hf1iaRhyNBKp6Iirex3Xn2Puy7Gt8d",
+              "received": false
+            }
+          ],
+          "total_price": 2254,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:17:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695843dc1c508c5d5e773b40"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

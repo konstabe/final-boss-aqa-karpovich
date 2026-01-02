@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:17:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2656",
+    "etag": "W/\"a60-dvJ2GwKNFZ4DqaV/D2vEpphio64\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695843de1c508c5d5e773c04",
+        "email": "Emelie_Lesch@hotmail.com",
+        "name": "Silas Mayert",
+        "country": "Ukraine",
+        "city": "Demariocester",
+        "street": "Bernita Fall",
+        "house": 37,
+        "flat": 518,
+        "phone": "+13244777422",
+        "createdOn": "2026-01-02T22:17:02.000Z",
+        "notes": "8c6gukmZ7pFzH5lVNT4YDs6iObDkMC0OKFc1JFn3eSO9id0ch3zNP1Vj9ZB3TpAHPFvVi7PGG64OKStbavaHxXwPBcRqX9hnOiaE5U60wZAKnfobOTBPyR0PiOKQ0rO44P19Gut3pbRbcTx1oRdcJpxd8sS1vBIJOabw9FVvV0febqLE2EGfMZMKDIuRDMjwxgMyQkqbcSwBjlgXzVxeH4zuweXcXk3PbRbiJPLiMEHXowAziSKbQUpF2k"
+      },
+      "products": [
+        {
+          "_id": "695843df1c508c5d5e773c8b",
+          "name": "Cheese27881",
+          "amount": 124,
+          "price": 60600,
+          "manufacturer": "Google",
+          "notes": "ABRi1pmDRmxLgTkSDW781No2WDwMj195v3uP93Q9twTMD1bfHdHSfMN0cWUgBOhJGxTfzC12zZCICOobgcDsEGqofAhPYg1Nnuz5VstZsUrzBe90J6UXDC3GHBkcO9TWXBaWnsjnsUihNwhGFAePXn9J3Enl6ArjhMgHgFJO7Rx2qWdGwgK2FMqpYugsgrIM4gia4os5gWb9tE8OU51IcZgTG2WxPUMK9TXmrtxUwQffOwkctTTtWykSPl",
+          "received": false
+        },
+        {
+          "_id": "695843e01c508c5d5e773cc7",
+          "name": "Pants9155",
+          "amount": 135,
+          "price": 78824,
+          "manufacturer": "Amazon",
+          "notes": "I7BjTChjEhrUEuPWXYrzTTYURtM9FvvdQSinWmkwEjiHrvV4n1mHzlaNW29F1RsQBkcGilAMJided81kQv7rdwJSj4ahImp2S6WuWJKRnxyBQDMeWRTvvVfLnN2A2e3C72lu9VMWpDux7ueA4zfAScrnoK60TZynAOOIhUJZAhwPyluLAeGCbuSQ27i2pg4nsMeuUIZsVFVxAdfUHdAP5Q2Ml7IygI8fzCb5LWN4POIoJpSpnsiijvBYYe",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 139424,
+      "createdOn": "2026-01-02T22:17:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843de1c508c5d5e773c04",
+          "products": [
+            {
+              "_id": "695843df1c508c5d5e773c8b",
+              "name": "Cheese27881",
+              "amount": 124,
+              "price": 60600,
+              "manufacturer": "Google",
+              "notes": "ABRi1pmDRmxLgTkSDW781No2WDwMj195v3uP93Q9twTMD1bfHdHSfMN0cWUgBOhJGxTfzC12zZCICOobgcDsEGqofAhPYg1Nnuz5VstZsUrzBe90J6UXDC3GHBkcO9TWXBaWnsjnsUihNwhGFAePXn9J3Enl6ArjhMgHgFJO7Rx2qWdGwgK2FMqpYugsgrIM4gia4os5gWb9tE8OU51IcZgTG2WxPUMK9TXmrtxUwQffOwkctTTtWykSPl",
+              "received": false
+            },
+            {
+              "_id": "695843e01c508c5d5e773cc7",
+              "name": "Pants9155",
+              "amount": 135,
+              "price": 78824,
+              "manufacturer": "Amazon",
+              "notes": "I7BjTChjEhrUEuPWXYrzTTYURtM9FvvdQSinWmkwEjiHrvV4n1mHzlaNW29F1RsQBkcGilAMJided81kQv7rdwJSj4ahImp2S6WuWJKRnxyBQDMeWRTvvVfLnN2A2e3C72lu9VMWpDux7ueA4zfAScrnoK60TZynAOOIhUJZAhwPyluLAeGCbuSQ27i2pg4nsMeuUIZsVFVxAdfUHdAP5Q2Ml7IygI8fzCb5LWN4POIoJpSpnsiijvBYYe",
+              "received": false
+            }
+          ],
+          "total_price": 139424,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:17:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695843e01c508c5d5e773ce3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

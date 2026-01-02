@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:17:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-7bT8okkIgYhSTIeKRk93ZmQjLvo\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695843e41c508c5d5e773f13",
+        "email": "Frankie_Emard44@yahoo.com",
+        "name": "Dena Adams",
+        "country": "Ukraine",
+        "city": "Nicolascester",
+        "street": "Carter Way",
+        "house": 15,
+        "flat": 783,
+        "phone": "+17098285568",
+        "createdOn": "2026-01-02T22:17:08.000Z",
+        "notes": "3ctbEhwvw8ykRRkydjeYlm3ktLsVuesayBwiCHpPFQralLoOZUDf4FcXA3kTMTIGXjzzCRna7U7mEEgdtmjOf9KSCqEqBPTfWwugkMeGA2lILuBtxyvF1kz8aqK8zZs4on5JRiZf7qVzhdLmf25X8gdRnJDuQxGpoRnVX20NiD3vVmW4pBG9ua8ESQHflUvSwAu4nkrG2BcCk2DMuTqIgkKqozdbbG3hvFp9Zofx3GkKIVUAjKA4J59bpR"
+      },
+      "products": [
+        {
+          "_id": "695843e51c508c5d5e773f99",
+          "name": "Pants72702",
+          "amount": 206,
+          "price": 68867,
+          "manufacturer": "Amazon",
+          "notes": "AQM2nLtqNzjwZFRSinZeUHXPEOqr2I2PnyKZ6fwYLG3hc02zMeZt7xbUJp5d2ZpCB2DxfvqsULbLoPSTkVYkrXEYbyXME5iFrgBzunfSIyj0kEUFdPHh6m3hgr1LX4f4AHYyE7KmlGXIBERUHqdNaqGBkgPoPhIUEfZMZfEssv5nrXT78Fk4J3th4lZEplvTBH3cAmBkGRnpihAQpTOab6TdeCK4O54f4kE3Q5PdKw2v8NueL3eSOpLwdS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68867,
+      "createdOn": "2026-01-02T22:17:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843e41c508c5d5e773f13",
+          "products": [
+            {
+              "_id": "695843e51c508c5d5e773f99",
+              "name": "Pants72702",
+              "amount": 206,
+              "price": 68867,
+              "manufacturer": "Amazon",
+              "notes": "AQM2nLtqNzjwZFRSinZeUHXPEOqr2I2PnyKZ6fwYLG3hc02zMeZt7xbUJp5d2ZpCB2DxfvqsULbLoPSTkVYkrXEYbyXME5iFrgBzunfSIyj0kEUFdPHh6m3hgr1LX4f4AHYyE7KmlGXIBERUHqdNaqGBkgPoPhIUEfZMZfEssv5nrXT78Fk4J3th4lZEplvTBH3cAmBkGRnpihAQpTOab6TdeCK4O54f4kE3Q5PdKw2v8NueL3eSOpLwdS",
+              "received": false
+            }
+          ],
+          "total_price": 68867,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:17:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695843e61c508c5d5e774035"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

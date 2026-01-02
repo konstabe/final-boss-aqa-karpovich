@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:17:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2799",
+    "etag": "W/\"aef-605GJ6xQcHzfjYNfkMdel5/zMfE\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695843e01c508c5d5e773ccb",
+      "status": "Draft",
+      "customer": {
+        "_id": "695843dd1c508c5d5e773b88",
+        "email": "Henry28@yahoo.com",
+        "name": "Angelo Spinka",
+        "country": "Belarus",
+        "city": "Bernhardside",
+        "street": "Stanley Road",
+        "house": 48,
+        "flat": 447,
+        "phone": "+15438239574",
+        "createdOn": "2026-01-02T22:17:01.000Z",
+        "notes": "n56tyi4aiWBbzBD4cUTx0OiDIJtXe1Z0IwAvUfzMpw9UmhcDtrIqRi1s90XlFxfmJIfXbnjp74vCqwIEZIGGdpVELr5qLXFcVa90KiCWCiC8FXwoWjCkJwtvP3lzCNUKz8TkN3oaCzsLb7GsEDitXtxxJEezlXoiPRQ7kfI8V1rARVCWeZrves0AlwhInpJFqOwXjnCT7n9ixJhKUX8gDXGwytIqQBDk6zFU90jIqLKmNnxmZicBJ9JQhs"
+      },
+      "products": [
+        {
+          "_id": "695843de1c508c5d5e773c77",
+          "name": "Gloves71647",
+          "amount": 561,
+          "price": 12633,
+          "manufacturer": "Google",
+          "notes": "qxYUTh7s6yLRYyd3B0YTHQdeAxNRZZ5IJvi2RGhsWlb9r2AYwUynCdo87Q3gqaMg0lmHEb8s5z5sAfrYRu0HGVKEeZO8dFTAJGN3WTKqnpF6CW5cqch1xRO26clHrcAo8ma9bf42OkZKZKvbzNzJwRYoxENKRmPRxu0QZdImfgC6xsll9ZweJ7qk4dPe41porC8VkTDV0ALvyMeluo1M28DxapWSiZz5rMRXKzZeBYk4l6DF92Q0R9ozEl",
+          "received": false
+        },
+        {
+          "_id": "695843df1c508c5d5e773cb9",
+          "name": "Car4810",
+          "amount": 741,
+          "price": 44192,
+          "manufacturer": "Apple",
+          "notes": "bmM5TuY9cqZJRQPm9EkvTqmy7VeoDaDFV3RWXS2O6eD0Fq1CGvmVcRMlt1C6FO9XWDcU5aIH4Sobnx49MPX5H7UfQXy30pwiDbYwKh4O87UsUvv6IXTXwlLVtTghAhMcjLMWaHwqmczJ5VD68GA2kJ8vlJIUqjaeNt57UEYj4RLWwf1qTM8Axn12QlV3UQ1dmEtZUvHGUymrRwkphsT2PVpRimUgvnPsYKl8XbpiV2SZj9gqEObhmztp3G",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 56825,
+      "createdOn": "2026-01-02T22:17:04.000Z",
+      "comments": [
+        {
+          "text": "V6oOizssdy80RcS84FZ0U3MxIHgAozKnVbVYNuGyHX74VnKfpJNFk0iJrhr5ITBZnSQBXxO7UuI",
+          "createdOn": "2026-01-02T22:17:04.000Z",
+          "_id": "695843e01c508c5d5e773cef"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843dd1c508c5d5e773b88",
+          "products": [
+            {
+              "_id": "695843de1c508c5d5e773c77",
+              "name": "Gloves71647",
+              "amount": 561,
+              "price": 12633,
+              "manufacturer": "Google",
+              "notes": "qxYUTh7s6yLRYyd3B0YTHQdeAxNRZZ5IJvi2RGhsWlb9r2AYwUynCdo87Q3gqaMg0lmHEb8s5z5sAfrYRu0HGVKEeZO8dFTAJGN3WTKqnpF6CW5cqch1xRO26clHrcAo8ma9bf42OkZKZKvbzNzJwRYoxENKRmPRxu0QZdImfgC6xsll9ZweJ7qk4dPe41porC8VkTDV0ALvyMeluo1M28DxapWSiZz5rMRXKzZeBYk4l6DF92Q0R9ozEl",
+              "received": false
+            },
+            {
+              "_id": "695843df1c508c5d5e773cb9",
+              "name": "Car4810",
+              "amount": 741,
+              "price": 44192,
+              "manufacturer": "Apple",
+              "notes": "bmM5TuY9cqZJRQPm9EkvTqmy7VeoDaDFV3RWXS2O6eD0Fq1CGvmVcRMlt1C6FO9XWDcU5aIH4Sobnx49MPX5H7UfQXy30pwiDbYwKh4O87UsUvv6IXTXwlLVtTghAhMcjLMWaHwqmczJ5VD68GA2kJ8vlJIUqjaeNt57UEYj4RLWwf1qTM8Axn12QlV3UQ1dmEtZUvHGUymrRwkphsT2PVpRimUgvnPsYKl8XbpiV2SZj9gqEObhmztp3G",
+              "received": false
+            }
+          ],
+          "total_price": 56825,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:17:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

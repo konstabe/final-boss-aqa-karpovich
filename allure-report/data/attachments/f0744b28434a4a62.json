@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:18:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3443",
+    "etag": "W/\"d73-S0ogdysh8ypNab39wRZLV2em+eI\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6958443e1c508c5d5e77777a",
+        "email": "Bridget_Trantow-Emmerich93@hotmail.com",
+        "name": "Vicenta Weber",
+        "country": "Ukraine",
+        "city": "West Alexandre",
+        "street": "Bosco Drives",
+        "house": 7,
+        "flat": 934,
+        "phone": "+18887603812",
+        "createdOn": "2026-01-02T22:18:38.000Z",
+        "notes": "kFhtT8g9ozoTMWhVM9IucocfW0dZ7sOPfjqEYjKXwksjw49UVZfr7BYt4CbCJ27s2HuJWpxqiIXJJVJsrIVH7NivXjlITxGpcUKzxKCnyLWfNhiwxy8KtVKROUQipTdIyhB9wSVkUMEGNCqPYpdyZprkUa9O6hoM8LQcN457MCIfJwpceDK9hoyCkg7JgpAGEaQB4OklOWQHDFhhQfyIhEN2yw7O7Do3HSXOZ4DN51dkYRJDgssdMdOLh1"
+      },
+      "products": [
+        {
+          "_id": "6958443f1c508c5d5e777808",
+          "name": "Mouse26998",
+          "amount": 811,
+          "price": 99443,
+          "manufacturer": "Amazon",
+          "notes": "0fGTw8AG5qbFyuVVAKB6ioXW6wmyzIfEFTnXqP4kkC2Y0o6dnvCzZSKPsgfS39pvke7AhtaDquZFwyMXm6OuwuGZs5ae33IrvsaKjd7XuvuEvd4oc34idLoE9SOSBZ6cBzTuFiKtjVjb5uyi5uYVBAfFgeU1KqavbV9ow7xmxPnSgypiT0weKlzYhgBjcr5DMTxYioqULvbw7eGPd2DqvCqRMXBCvGPswlz7qJk3OMlH2X2t6E8OG7M1XN",
+          "received": false
+        },
+        {
+          "_id": "695844401c508c5d5e777870",
+          "name": "Table47001",
+          "amount": 274,
+          "price": 86269,
+          "manufacturer": "Microsoft",
+          "notes": "VpE73Qbu3YNjHiRRlDgk25pnq0curSamZihUjCmfi4AooGDxe1KmXTpAoKmhAdMDZq5DER3jDIF63SleonFIt3Pz5jSBuslxtQVnyA01Bj8rSlOZJ7k5T8CWVpiNjBOe6ElP4XXJjKYkXU2dxsZ9phEOxOY4BAfg3j8IN3aPYh6e9XXAAchE4EeCo9esx6zL9ONV1oGmLLl86AaLMlq2uCiMbTIo0OwpbKxM5mqGBVKaCgCeFr1KwlOUgc",
+          "received": false
+        },
+        {
+          "_id": "695844411c508c5d5e7778d2",
+          "name": "Shirt26817",
+          "amount": 642,
+          "price": 49076,
+          "manufacturer": "Tesla",
+          "notes": "93A4ckJMJUQglZTEk9xdXdhWn6qWHGx6dP1eHOU7gwPoqdNiUKWSnndO2L6ZBi06LNrNNq2KfB9HbATl0Utsvwb0khPTb5eKMHzkCnaHY6h9QLtrwSEeQV8jxzIBKMMJZL2mCH70Lt63jCN4niKwdwU931qtWbXoWEru1E4oylozE4PixS3cTYUqnx2a350SbKULXr1FrLeWEeUfR4SctzzgJhN4TUr3TXkUbL4yNemFGhgl4YTDTnGAoE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 234788,
+      "createdOn": "2026-01-02T22:18:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958443e1c508c5d5e77777a",
+          "products": [
+            {
+              "_id": "6958443f1c508c5d5e777808",
+              "name": "Mouse26998",
+              "amount": 811,
+              "price": 99443,
+              "manufacturer": "Amazon",
+              "notes": "0fGTw8AG5qbFyuVVAKB6ioXW6wmyzIfEFTnXqP4kkC2Y0o6dnvCzZSKPsgfS39pvke7AhtaDquZFwyMXm6OuwuGZs5ae33IrvsaKjd7XuvuEvd4oc34idLoE9SOSBZ6cBzTuFiKtjVjb5uyi5uYVBAfFgeU1KqavbV9ow7xmxPnSgypiT0weKlzYhgBjcr5DMTxYioqULvbw7eGPd2DqvCqRMXBCvGPswlz7qJk3OMlH2X2t6E8OG7M1XN",
+              "received": false
+            },
+            {
+              "_id": "695844401c508c5d5e777870",
+              "name": "Table47001",
+              "amount": 274,
+              "price": 86269,
+              "manufacturer": "Microsoft",
+              "notes": "VpE73Qbu3YNjHiRRlDgk25pnq0curSamZihUjCmfi4AooGDxe1KmXTpAoKmhAdMDZq5DER3jDIF63SleonFIt3Pz5jSBuslxtQVnyA01Bj8rSlOZJ7k5T8CWVpiNjBOe6ElP4XXJjKYkXU2dxsZ9phEOxOY4BAfg3j8IN3aPYh6e9XXAAchE4EeCo9esx6zL9ONV1oGmLLl86AaLMlq2uCiMbTIo0OwpbKxM5mqGBVKaCgCeFr1KwlOUgc",
+              "received": false
+            },
+            {
+              "_id": "695844411c508c5d5e7778d2",
+              "name": "Shirt26817",
+              "amount": 642,
+              "price": 49076,
+              "manufacturer": "Tesla",
+              "notes": "93A4ckJMJUQglZTEk9xdXdhWn6qWHGx6dP1eHOU7gwPoqdNiUKWSnndO2L6ZBi06LNrNNq2KfB9HbATl0Utsvwb0khPTb5eKMHzkCnaHY6h9QLtrwSEeQV8jxzIBKMMJZL2mCH70Lt63jCN4niKwdwU931qtWbXoWEru1E4oylozE4PixS3cTYUqnx2a350SbKULXr1FrLeWEeUfR4SctzzgJhN4TUr3TXkUbL4yNemFGhgl4YTDTnGAoE",
+              "received": false
+            }
+          ],
+          "total_price": 234788,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:18:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695844421c508c5d5e7778f1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

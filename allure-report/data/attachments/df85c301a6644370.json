@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:17:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-CQJUa1eLzaA6++qRbuf1i4fj3qE\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695843e41c508c5d5e773f0f",
+        "email": "Kayleigh84@hotmail.com",
+        "name": "Riley Cormier",
+        "country": "Russia",
+        "city": "Lake Leorabury",
+        "street": "Church Avenue",
+        "house": 9,
+        "flat": 487,
+        "phone": "+16823088675",
+        "createdOn": "2026-01-02T22:17:08.000Z",
+        "notes": "eJF7cBOcdiPS8yEh5ovYx3CuEKQM8Kths1iskbdJ8Dl6hyjrjMWacTkzahV1kenfxhIzSnntoVr3wb76mx3cHQwGeq4HybvjCIWeEFXsmXfQqRFToKWskfTgE03VloVMg0nL0ooBdXflggguy9SgkizhAv6ZcguONRwUHviS2Kpcu82iaGlbiiLxi9gwpqINLaBU1HCH6zJmYCyKgNPQRcrDfyLGlJCa1rACh2GSlDsLWL075jQje7iS3T"
+      },
+      "products": [
+        {
+          "_id": "695843e51c508c5d5e773f8f",
+          "name": "Bike90740",
+          "amount": 698,
+          "price": 6141,
+          "manufacturer": "Tesla",
+          "notes": "IQfIFZzPen3jI2EG6slHrOHrOYIzzbaYGYOUcXazETDoY5Uv10b6DvTSkgg9F1o6ELLcNNEiWFweyYAOYWkgfDA38pvJSbtDR88nZnfvnTrFKT438V9hIDSfqo0FLJshNKsfI04ZHEDfWelKeVvzJZbuBH5oGB6FRzW27FNLOcT7CozTtjhjICo74pw1CcRpeW7ikIHiNVFNhVKXhkF3mbCNZJpcK26UbQNqD7jtw6ep9AAy4paPhQouKV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 6141,
+      "createdOn": "2026-01-02T22:17:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843e41c508c5d5e773f0f",
+          "products": [
+            {
+              "_id": "695843e51c508c5d5e773f8f",
+              "name": "Bike90740",
+              "amount": 698,
+              "price": 6141,
+              "manufacturer": "Tesla",
+              "notes": "IQfIFZzPen3jI2EG6slHrOHrOYIzzbaYGYOUcXazETDoY5Uv10b6DvTSkgg9F1o6ELLcNNEiWFweyYAOYWkgfDA38pvJSbtDR88nZnfvnTrFKT438V9hIDSfqo0FLJshNKsfI04ZHEDfWelKeVvzJZbuBH5oGB6FRzW27FNLOcT7CozTtjhjICo74pw1CcRpeW7ikIHiNVFNhVKXhkF3mbCNZJpcK26UbQNqD7jtw6ep9AAy4paPhQouKV",
+              "received": false
+            }
+          ],
+          "total_price": 6141,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:17:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695843e61c508c5d5e774023"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

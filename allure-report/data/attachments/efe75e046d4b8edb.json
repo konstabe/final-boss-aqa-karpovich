@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2664",
+    "etag": "W/\"a68-yp/12DGfq1rOS2ut6xxcb7vtk6o\"",
+    "keep-alive": "timeout=5, max=67",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695843cf1c508c5d5e77340b",
+        "email": "Marshall39@hotmail.com",
+        "name": "Bessie Lubowitz",
+        "country": "Ukraine",
+        "city": "Hermantown",
+        "street": "Hipolito Islands",
+        "house": 32,
+        "flat": 705,
+        "phone": "+19568748352",
+        "createdOn": "2026-01-02T22:16:47.000Z",
+        "notes": "pHl32w1kZutfjtebHv5fmb3NM6BTpYJvj9DFpUeWZ1s7gQeVmUHed77FSx7tZD9AF9Euma2Dy07aT4a2MpQZwufxlKgsPe7tap5ichXfGTPmwOyU2fxv7IJbRZ81qjMlcxyWTfh82AFv8twOpwbWxA8AMJNGhCptFzNHPbWAuUDm1JQGt14IItDST3OCqQ8cdMUH1F8fbyzqQro571mL6Oy2sog4EoWZiSMxNMjKqhjXalSMNocp3lt5Wh"
+      },
+      "products": [
+        {
+          "_id": "695843d01c508c5d5e77348b",
+          "name": "Keyboard34226",
+          "amount": 249,
+          "price": 14170,
+          "manufacturer": "Samsung",
+          "notes": "jaloCNcH4367U9CZK8rdTdVtvF8FTnbyX1F7MOwbtu9cRVwCeifwPW5QyyL03Wph0ZvUoACfiUfP5NYkDxBgbWF4U0OSjd3GWpOc0qGyKB0IYdGmsG1bG6v0fXzV88THOcV24rQrurSn1xZFFpLmroLgkU0rmGwVb9tyl727EJjiZmKaw04yBcmks652urRM8qqVGpRT1hnb3pVjfih3PBN6d3jywWbzM2knT20TFvDtVnb4tbiwy5sgZt",
+          "received": false
+        },
+        {
+          "_id": "695843d01c508c5d5e7734dc",
+          "name": "Salad16653",
+          "amount": 72,
+          "price": 75817,
+          "manufacturer": "Samsung",
+          "notes": "FKOwjbnN8kmuODq6WfLQ89agWzh9Ya4rIjxIRecn6wctBjz9OMnpiWSiapAmLeJ6VoURLr2QFo15sZZssR8iRjYbyRGJCFntCU693AnAenN57rwLPdWJ0BHHaLjn8vvBgQ66NuOo9iYwM9ni85pC3AYFew4ulikb2nRHlZ4eGZQXTsqPDCCuT0iUQctTDl0LIvdflVA6xsMkbj1eGQ3GhzkTZKCJZZsekVtHHkkuMLlyGNN9Mwld2K9O5W",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 89987,
+      "createdOn": "2026-01-02T22:16:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843cf1c508c5d5e77340b",
+          "products": [
+            {
+              "_id": "695843d01c508c5d5e77348b",
+              "name": "Keyboard34226",
+              "amount": 249,
+              "price": 14170,
+              "manufacturer": "Samsung",
+              "notes": "jaloCNcH4367U9CZK8rdTdVtvF8FTnbyX1F7MOwbtu9cRVwCeifwPW5QyyL03Wph0ZvUoACfiUfP5NYkDxBgbWF4U0OSjd3GWpOc0qGyKB0IYdGmsG1bG6v0fXzV88THOcV24rQrurSn1xZFFpLmroLgkU0rmGwVb9tyl727EJjiZmKaw04yBcmks652urRM8qqVGpRT1hnb3pVjfih3PBN6d3jywWbzM2knT20TFvDtVnb4tbiwy5sgZt",
+              "received": false
+            },
+            {
+              "_id": "695843d01c508c5d5e7734dc",
+              "name": "Salad16653",
+              "amount": 72,
+              "price": 75817,
+              "manufacturer": "Samsung",
+              "notes": "FKOwjbnN8kmuODq6WfLQ89agWzh9Ya4rIjxIRecn6wctBjz9OMnpiWSiapAmLeJ6VoURLr2QFo15sZZssR8iRjYbyRGJCFntCU693AnAenN57rwLPdWJ0BHHaLjn8vvBgQ66NuOo9iYwM9ni85pC3AYFew4ulikb2nRHlZ4eGZQXTsqPDCCuT0iUQctTDl0LIvdflVA6xsMkbj1eGQ3GhzkTZKCJZZsekVtHHkkuMLlyGNN9Mwld2K9O5W",
+              "received": false
+            }
+          ],
+          "total_price": 89987,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:16:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695843d11c508c5d5e773518"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

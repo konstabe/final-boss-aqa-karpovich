@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2642",
+    "etag": "W/\"a52-ld5ijCWcT4B6UkE+Ccm0iF8jIEw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695843d71c508c5d5e773858",
+        "email": "Yadira21@hotmail.com",
+        "name": "Xander Goyette",
+        "country": "Belarus",
+        "city": "Abshirehaven",
+        "street": "South View",
+        "house": 16,
+        "flat": 32,
+        "phone": "+12147962527",
+        "createdOn": "2026-01-02T22:16:55.000Z",
+        "notes": "VedTo7u0PM5FnHQDCR1xbaqrm7KnZEa7NP7V35v1XBxuf4wbBT91SK5pV6fsLy5DlWB41HGY4CrksGBl7YSgeV91LXa9tXVf7iYcPVuuCxufNyoNWiZunsW1edOCBYckUCLw2Lx21dAGE03ZBv1OhJ6hDbaQNWgPo29lTZzxSgNdShpZ0bHrIG7pGuTD7sYTmCXYMemviPtiyUOoFj3JjXxJh8QT5oTdx1B1ZyVxYxUlQzoTduQL9RWRMZ"
+      },
+      "products": [
+        {
+          "_id": "695843d81c508c5d5e773943",
+          "name": "Pizza68076",
+          "amount": 820,
+          "price": 63660,
+          "manufacturer": "Apple",
+          "notes": "hrsL9GtPs8yxFXdWLWj9vRyoFqAkMs9fEoFr81DCRWS2COnxM8Tg4N8So67HGS4uDzxN0Y7Z4eo2PbqeTBbVTf0maQlSl4GDm24SwgMgpaXYsOB5d09LRisgLc021MfwaSZGbk9f6s5pABaWuf9NrhAHbpzDZ5Bb8hQ0kBrMihjSo3dwLQPdIcPwdq16DvEkV15uFwlbMK9jFNTilXIBgUjT1AZgF1dqnDJU1gtriRM7I9F0gYT7iMeLwt",
+          "received": false
+        },
+        {
+          "_id": "695843da1c508c5d5e773a6e",
+          "name": "Fish6790",
+          "amount": 136,
+          "price": 38127,
+          "manufacturer": "Tesla",
+          "notes": "eAIbzchw9ll7C8YsPhdJRrCz2bA1BmAYxSxYRKG94PF90VmN2f5gz8v67InccoLq62OLFZPZ2njpq5ztNqNR9nvXOrI28XJ4Rh9w1CNkEQ8KNsUWoJyjW1yDA8uDCsLMvLuire58aEWiuhlepZ9vssKudbV6v9FdvS0HPTZmhahk79gLS9DLKW4ovM5nfeOIFXPxVv14xEnN6HDKl69yOeT13te6K8kpU6Qs95GV2hl4GHRLSjUzzCx1qt",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 101787,
+      "createdOn": "2026-01-02T22:16:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843d71c508c5d5e773858",
+          "products": [
+            {
+              "_id": "695843d81c508c5d5e773943",
+              "name": "Pizza68076",
+              "amount": 820,
+              "price": 63660,
+              "manufacturer": "Apple",
+              "notes": "hrsL9GtPs8yxFXdWLWj9vRyoFqAkMs9fEoFr81DCRWS2COnxM8Tg4N8So67HGS4uDzxN0Y7Z4eo2PbqeTBbVTf0maQlSl4GDm24SwgMgpaXYsOB5d09LRisgLc021MfwaSZGbk9f6s5pABaWuf9NrhAHbpzDZ5Bb8hQ0kBrMihjSo3dwLQPdIcPwdq16DvEkV15uFwlbMK9jFNTilXIBgUjT1AZgF1dqnDJU1gtriRM7I9F0gYT7iMeLwt",
+              "received": false
+            },
+            {
+              "_id": "695843da1c508c5d5e773a6e",
+              "name": "Fish6790",
+              "amount": 136,
+              "price": 38127,
+              "manufacturer": "Tesla",
+              "notes": "eAIbzchw9ll7C8YsPhdJRrCz2bA1BmAYxSxYRKG94PF90VmN2f5gz8v67InccoLq62OLFZPZ2njpq5ztNqNR9nvXOrI28XJ4Rh9w1CNkEQ8KNsUWoJyjW1yDA8uDCsLMvLuire58aEWiuhlepZ9vssKudbV6v9FdvS0HPTZmhahk79gLS9DLKW4ovM5nfeOIFXPxVv14xEnN6HDKl69yOeT13te6K8kpU6Qs95GV2hl4GHRLSjUzzCx1qt",
+              "received": false
+            }
+          ],
+          "total_price": 101787,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:16:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695843db1c508c5d5e773a86"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

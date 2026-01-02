@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:17:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2949",
+    "etag": "W/\"b85-fVZFokmrvvYW7Cvmod7hXsbduqc\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695843f01c508c5d5e774673",
+      "status": "Draft",
+      "customer": {
+        "_id": "695843ed1c508c5d5e77443c",
+        "email": "Genoveva.Pollich@gmail.com",
+        "name": "Carmine Bartoletti",
+        "country": "Belarus",
+        "city": "Altadena",
+        "street": "Tanner Roads",
+        "house": 29,
+        "flat": 816,
+        "phone": "+14066239144",
+        "createdOn": "2026-01-02T22:17:17.000Z",
+        "notes": "1Ur5Fi6Ds82p1yAD32H4zq531yNgAgzafyZZy8ks2gDdAw4aRoPb4xWu562DuTZ8ljaMUKorq1ngm4YwOvZM8nNHaW4wNDDnr8wqXN7G3qGW9dgrSi6QVAYZ4SncKsogAqJv7TiDby024tRbWoQjm247N9BSiAWtOJXPH1nasoZFTPe4vGd5FaU87T2tXWNPuHCdPTiJcLgreaUcCzAn4FhckBZiejpYp3t0MH5VDexLbPBkHA9gQpvaQb"
+      },
+      "products": [
+        {
+          "_id": "695843ef1c508c5d5e774620",
+          "name": "Chicken41816",
+          "amount": 445,
+          "price": 6906,
+          "manufacturer": "Apple",
+          "notes": "mKTYnbKBKnqEOwq0c8NtqWfreXeKunVHTo05YOh4VO6jThDjsfEwfrSawOgVlFR9BrK1V6lHBjL72DVfAM9zhGfydXFqH6hQhpw61pJ2QlnkRwHLUNjstTMbpcPHYpEZxq8yyQaaf7c1ctpzQaGNpUxLyMQKGRiQ5THHi8aMjvwQ6c4hfwUQwXYM7znatFHX3mOBURbaiZr5T9HDGcv7kM6gHwPsRmWGqiSb5RsxvLUPOJ5Gdb1rCgU09c",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Altadena",
+          "street": "Tanner Roads",
+          "house": 29,
+          "flat": 816
+        },
+        "finalDate": "2026-01-12T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 6906,
+      "createdOn": "2026-01-02T22:17:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843ed1c508c5d5e77443c",
+          "products": [
+            {
+              "_id": "695843ef1c508c5d5e774620",
+              "name": "Chicken41816",
+              "amount": 445,
+              "price": 6906,
+              "manufacturer": "Apple",
+              "notes": "mKTYnbKBKnqEOwq0c8NtqWfreXeKunVHTo05YOh4VO6jThDjsfEwfrSawOgVlFR9BrK1V6lHBjL72DVfAM9zhGfydXFqH6hQhpw61pJ2QlnkRwHLUNjstTMbpcPHYpEZxq8yyQaaf7c1ctpzQaGNpUxLyMQKGRiQ5THHi8aMjvwQ6c4hfwUQwXYM7znatFHX3mOBURbaiZr5T9HDGcv7kM6gHwPsRmWGqiSb5RsxvLUPOJ5Gdb1rCgU09c",
+              "received": false
+            }
+          ],
+          "total_price": 6906,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Altadena",
+              "street": "Tanner Roads",
+              "house": 29,
+              "flat": 816
+            },
+            "finalDate": "2026-01-12T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-02T22:17:22.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695843ed1c508c5d5e77443c",
+          "products": [
+            {
+              "_id": "695843ef1c508c5d5e774620",
+              "name": "Chicken41816",
+              "amount": 445,
+              "price": 6906,
+              "manufacturer": "Apple",
+              "notes": "mKTYnbKBKnqEOwq0c8NtqWfreXeKunVHTo05YOh4VO6jThDjsfEwfrSawOgVlFR9BrK1V6lHBjL72DVfAM9zhGfydXFqH6hQhpw61pJ2QlnkRwHLUNjstTMbpcPHYpEZxq8yyQaaf7c1ctpzQaGNpUxLyMQKGRiQ5THHi8aMjvwQ6c4hfwUQwXYM7znatFHX3mOBURbaiZr5T9HDGcv7kM6gHwPsRmWGqiSb5RsxvLUPOJ5Gdb1rCgU09c",
+              "received": false
+            }
+          ],
+          "total_price": 6906,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:17:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

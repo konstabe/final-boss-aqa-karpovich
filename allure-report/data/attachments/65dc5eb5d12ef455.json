@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2951",
+    "etag": "W/\"b87-cYFwWn6xNFO7tpzliJLpJmHDlwY\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695843d31c508c5d5e773654",
+      "status": "Draft",
+      "customer": {
+        "_id": "695843d01c508c5d5e7734a8",
+        "email": "Nella_Pouros@hotmail.com",
+        "name": "Stefanie Moore",
+        "country": "Russia",
+        "city": "Salinas",
+        "street": "Osinski Rapid",
+        "house": 30,
+        "flat": 110,
+        "phone": "+18947400848",
+        "createdOn": "2026-01-02T22:16:48.000Z",
+        "notes": "Agjoy9Lg25ndO747NxjuMLjTTQW3WIyQOJ7Ec2FhmIqFjqFFFxE7BJGgYQL4HKC64epi1nrB6yqNL1Eyti5Z1nFrtLmTYg0sGtVGlwW5Ip8XBk9RDRIBaO9vlNFNzkZiZfdhQbZ6pJS31c7lreAlpvfYYo2bKUeQqk09WkJ21RPAkhFFOng20OP2IykawPeKz9UTsEMYwG6nsASBv73GaLRroqSghevo54ixbL3a9Z6UNpCbVo5J3LyaxB"
+      },
+      "products": [
+        {
+          "_id": "695843d11c508c5d5e773524",
+          "name": "Computer34334",
+          "amount": 826,
+          "price": 32173,
+          "manufacturer": "Sony",
+          "notes": "BrCtLQI3QX40fR6x5fKZioOqT2P3ymug1u3mt1XQhRYbkn7alJXoHKTklt2j99MeKS8PrQPtVfuh2GcpY1mUz5G6it6Z0HTqw6DRYaoL1XIMDwSpOZ643KLi4U3sLtvIUIbkWgBPiKDa8t3FpleNxB9DT8PsKwUnBpX5pSZSY80vJijQMFhZZYJtXz4jn38HaePcahItgxFBpjEYAey0yFHUyt1u6HdxE103wqzRjdaZ61WQryYFwQ8EXl",
+          "received": false
+        },
+        {
+          "_id": "695843d31c508c5d5e773628",
+          "name": "Keyboard21585",
+          "amount": 555,
+          "price": 31254,
+          "manufacturer": "Xiaomi",
+          "notes": "FeDeIyfJlj5BhBtAD17FsAfCfosuDeNxkx1UtHRYl6EkVNK88RhZ65Ix5KPeu2PTE6XW86RVC6Z3p0uZgsYCXIu6mTiHNvBctr9lBDPvDrL1NnAgdpyMuXbmKtfE81CSGhGJwbCTNFuN9vl2TlF4RQyA4ubACSpnHBKLNvkEDnq0uPOHrMey9sOo1u3mWCiKT2TkAkDnr1kkfAAWKj1IKcTzvl6gUK7haiJTGiLmAAZaOiuEc4y3zeDZ5I",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 63427,
+      "createdOn": "2026-01-02T22:16:51.000Z",
+      "comments": [
+        {
+          "text": "<script>ezZRyS7bPRPP0QQG4qFmC0j70d442u63azHzoHYNwxuuD69dhGqtQ11StgmuZlpInMCMz3AtLXYlwBaEHWmxsYMkiGC4ZskiKPSJPMKihnpmOeVzkdemEPm7CjqEO4CsCzth4s1gP8YWHDLrswLLEab4OnOfVej9hXNDIYSmA9ZQd3cnuZaVF2Etrywr4IGJ5fl1saoI >",
+          "createdOn": "2026-01-02T22:16:51.000Z",
+          "_id": "695843d31c508c5d5e773678"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843d01c508c5d5e7734a8",
+          "products": [
+            {
+              "_id": "695843d11c508c5d5e773524",
+              "name": "Computer34334",
+              "amount": 826,
+              "price": 32173,
+              "manufacturer": "Sony",
+              "notes": "BrCtLQI3QX40fR6x5fKZioOqT2P3ymug1u3mt1XQhRYbkn7alJXoHKTklt2j99MeKS8PrQPtVfuh2GcpY1mUz5G6it6Z0HTqw6DRYaoL1XIMDwSpOZ643KLi4U3sLtvIUIbkWgBPiKDa8t3FpleNxB9DT8PsKwUnBpX5pSZSY80vJijQMFhZZYJtXz4jn38HaePcahItgxFBpjEYAey0yFHUyt1u6HdxE103wqzRjdaZ61WQryYFwQ8EXl",
+              "received": false
+            },
+            {
+              "_id": "695843d31c508c5d5e773628",
+              "name": "Keyboard21585",
+              "amount": 555,
+              "price": 31254,
+              "manufacturer": "Xiaomi",
+              "notes": "FeDeIyfJlj5BhBtAD17FsAfCfosuDeNxkx1UtHRYl6EkVNK88RhZ65Ix5KPeu2PTE6XW86RVC6Z3p0uZgsYCXIu6mTiHNvBctr9lBDPvDrL1NnAgdpyMuXbmKtfE81CSGhGJwbCTNFuN9vl2TlF4RQyA4ubACSpnHBKLNvkEDnq0uPOHrMey9sOo1u3mWCiKT2TkAkDnr1kkfAAWKj1IKcTzvl6gUK7haiJTGiLmAAZaOiuEc4y3zeDZ5I",
+              "received": false
+            }
+          ],
+          "total_price": 63427,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:16:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
