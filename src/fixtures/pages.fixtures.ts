@@ -49,12 +49,13 @@ export interface IPages {
 	ordersListPage: OrdersListPage;
 
 	orderDetailsHeaderPage: OrderDetailsHeaderPage;
-	orderDetailsBottomPage: OrderDetailsBottomPage;
 	orderDetailsCustomerPage: OrderDetailsCustomerPage;
 	orderDetailsProductPage: OrderDetailsProductPage;
 	assignedManagerModal: AssignedManagerModal;
 	confirmationModal: ConfirmationModal;
 	editDeliveryModal: EditDeliveryModal;
+	addNewOrderPage: CreateOrderModal;
+	orderDetailsBottomPage: OrderDetailsBottomPage;
 	createOrderModal: CreateOrderModal;
 	reopenModal: ReopenModal;
 
