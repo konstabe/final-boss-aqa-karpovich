@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 18:17:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2813",
+    "etag": "W/\"afd-4DD07U62jCY8R05lAysbBOM3etc\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69580bb91c508c5d5e71d520",
+      "status": "Draft",
+      "customer": {
+        "_id": "69580bb11c508c5d5e71d31b",
+        "email": "Liliana39@gmail.com",
+        "name": "Braxton Auer",
+        "country": "Ukraine",
+        "city": "Hempstead",
+        "street": "N College Street",
+        "house": 20,
+        "flat": 764,
+        "phone": "+17606761387",
+        "createdOn": "2026-01-02T18:17:21.000Z",
+        "notes": "7f9VUl5xbI7SXN0bUEWFByI1NUc4lccYQ150OWrMrZ4rVpAc6lmx6AWDDwNK2Gh5pdj30I7YuX36MN2wjdzyVD6DLdIzpFE5kgQygrCuTKI5pwNq6XiPNFgXtQGYqAe135zMJdxyElBPIavxTsHDP1UVPL42HCpk52iktvU5AO8sUQaVEodNVrWJK4UPB428ACyvFq10HTSGIODNk2rQJkcmjtjGEl0eOp1ikPhqc5hnFr0tSlJHInnp9N"
+      },
+      "products": [
+        {
+          "_id": "69580bb41c508c5d5e71d386",
+          "name": "Computer36160",
+          "amount": 920,
+          "price": 25879,
+          "manufacturer": "Amazon",
+          "notes": "tw1Gk8cxQ4XKxPINlduvP87Xsi9r6Nv2w5HGtaMDaJmF0IF2x65YLRjAjXQKB3QCSB6Ucgsy5gwUnsH6X8E5q6MHS5uwWOODPSnYjB9N5G4uXLjyWDpZAmnjhZQIhDJonbQfi6QSg7BUanLSEhmglPsLv7jyXeZCI0FB9SvICav7G4D0GubznA7GyD8hgOjtlED3H3QhE2eAqwmTOoGemyNUHVU2zFvxK9wSJGrOfdB2iVXxm33S3EzDy5",
+          "received": false
+        },
+        {
+          "_id": "69580bb81c508c5d5e71d503",
+          "name": "Towels10120",
+          "amount": 78,
+          "price": 19211,
+          "manufacturer": "Amazon",
+          "notes": "rrvvi3M7UmBoUFuEaphJLvnX18nLCfSjJzBSOWiPdpvi9bUm8sHDutmF1or16HpSGPSvrFznL3rLkcvO5RvKYCh9biFKLyfrqbwSifdLhl9oxVfhfgYigKbap41o89uUl80SviF5ohoSjUlmS29hzUDnElHc2oH9QSYQifEX7qSP9DskxF2SB4qmUUd5bvoIHYO1aTBsF8O9q2N1I18IY3eXsc4HDBwBOnlGsuDAnBvpouynx1O7wKNqlp",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 45090,
+      "createdOn": "2026-01-02T18:17:29.000Z",
+      "comments": [
+        {
+          "text": "a34PChdF4Gs3hNJlbJvsww9WNY3g0lo5hVHlp9TOQVy0SxFKo13ib0IMjPryK3mxhQwCBLTIFTm",
+          "createdOn": "2026-01-02T18:17:29.000Z",
+          "_id": "69580bb91c508c5d5e71d54b"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69580bb11c508c5d5e71d31b",
+          "products": [
+            {
+              "_id": "69580bb41c508c5d5e71d386",
+              "name": "Computer36160",
+              "amount": 920,
+              "price": 25879,
+              "manufacturer": "Amazon",
+              "notes": "tw1Gk8cxQ4XKxPINlduvP87Xsi9r6Nv2w5HGtaMDaJmF0IF2x65YLRjAjXQKB3QCSB6Ucgsy5gwUnsH6X8E5q6MHS5uwWOODPSnYjB9N5G4uXLjyWDpZAmnjhZQIhDJonbQfi6QSg7BUanLSEhmglPsLv7jyXeZCI0FB9SvICav7G4D0GubznA7GyD8hgOjtlED3H3QhE2eAqwmTOoGemyNUHVU2zFvxK9wSJGrOfdB2iVXxm33S3EzDy5",
+              "received": false
+            },
+            {
+              "_id": "69580bb81c508c5d5e71d503",
+              "name": "Towels10120",
+              "amount": 78,
+              "price": 19211,
+              "manufacturer": "Amazon",
+              "notes": "rrvvi3M7UmBoUFuEaphJLvnX18nLCfSjJzBSOWiPdpvi9bUm8sHDutmF1or16HpSGPSvrFznL3rLkcvO5RvKYCh9biFKLyfrqbwSifdLhl9oxVfhfgYigKbap41o89uUl80SviF5ohoSjUlmS29hzUDnElHc2oH9QSYQifEX7qSP9DskxF2SB4qmUUd5bvoIHYO1aTBsF8O9q2N1I18IY3eXsc4HDBwBOnlGsuDAnBvpouynx1O7wKNqlp",
+              "received": false
+            }
+          ],
+          "total_price": 45090,
+          "delivery": null,
+          "changedOn": "2026-01-02T18:17:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

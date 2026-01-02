@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 18:17:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-VvniRXJcTzPSVp0ncOm6FNKDbXA\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69580bae1c508c5d5e71d2ea",
+        "email": "Rebeka64@hotmail.com",
+        "name": "Monserrat Stark",
+        "country": "France",
+        "city": "Greggside",
+        "street": "Marina Square",
+        "house": 6,
+        "flat": 16,
+        "phone": "+13373854304",
+        "createdOn": "2026-01-02T18:17:18.000Z",
+        "notes": "HISQCnkxhZCiBnNPnP3oK7tMCnl9fGWkuFAq0xmNMO6p8IX1VPeDR0JALl1S91flweHD300PcKRRafYyxUJUJy3JRCNQEWnMDym05XQv5L0n20FkN2Ge04ucecedpqT9hUcw38f18vMr0tlS64PRDh6NwJvrYgVxLIcX5JQoxznb1JkedbMLPa4BMcncSbOOvIFYeEkMIUbxdt0fJwfP3A17FUPsd1R058Zepj66kFqpPIIFST0suE1j2f"
+      },
+      "products": [
+        {
+          "_id": "69580bb11c508c5d5e71d32a",
+          "name": "Keyboard74897",
+          "amount": 700,
+          "price": 46680,
+          "manufacturer": "Apple",
+          "notes": "aVtv8xtSYLfQTjF56kwZVdppV1RO8TsVRe8h0B4STfbhN7H2dAlcm4KsOSABdcu2PfRy0UUytpupgxZHeph5GmCYWmd81pMmax86Xd3c3gtSjLcAm9NnsocHU5Gf89FyuMPw05IUdVmBIwhOvaLMRArlLY4u6sOVT7bwP1tHxw8EqG92gFgjeB87M6hU1OUFIKZF2MJEwCbED6MxdsKJgHaGu2ymTLgL2iC7e46CUvsUSkdq90g9AFHvBh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 46680,
+      "createdOn": "2026-01-02T18:17:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69580bae1c508c5d5e71d2ea",
+          "products": [
+            {
+              "_id": "69580bb11c508c5d5e71d32a",
+              "name": "Keyboard74897",
+              "amount": 700,
+              "price": 46680,
+              "manufacturer": "Apple",
+              "notes": "aVtv8xtSYLfQTjF56kwZVdppV1RO8TsVRe8h0B4STfbhN7H2dAlcm4KsOSABdcu2PfRy0UUytpupgxZHeph5GmCYWmd81pMmax86Xd3c3gtSjLcAm9NnsocHU5Gf89FyuMPw05IUdVmBIwhOvaLMRArlLY4u6sOVT7bwP1tHxw8EqG92gFgjeB87M6hU1OUFIKZF2MJEwCbED6MxdsKJgHaGu2ymTLgL2iC7e46CUvsUSkdq90g9AFHvBh",
+              "received": false
+            }
+          ],
+          "total_price": 46680,
+          "delivery": null,
+          "changedOn": "2026-01-02T18:17:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69580bb21c508c5d5e71d347"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

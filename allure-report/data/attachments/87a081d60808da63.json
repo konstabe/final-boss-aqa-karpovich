@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 18:17:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4819",
+    "etag": "W/\"12d3-E8mqkICsK5s8gF3ebL4qfOfxx3A\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69580bb91c508c5d5e71d52d",
+      "status": "Received",
+      "customer": {
+        "_id": "69580bb51c508c5d5e71d38a",
+        "email": "Darrel_Balistreri95@hotmail.com",
+        "name": "Jalon Sawayn",
+        "country": "Russia",
+        "city": "Wittingbury",
+        "street": "Sycamore Drive",
+        "house": 28,
+        "flat": 434,
+        "phone": "+17143090991",
+        "createdOn": "2026-01-02T18:17:25.000Z",
+        "notes": "U8hJDu3IayKZJKNe0SZ4eTHqkvB4EKDNOpDb8JjlrcAFbvAe4cOQCcHx1MF7y8kFXmg4rCnirtd15oWr0WXN1xUClMxVZ25YRYTtTRiIqvBF8DAjXqREsE1CPea6D9kloP2uIxpjgWw4zsOBcYYRaXpMUSGYGZhV0KzfqykMcNMKY4pdaWaveJmstAVnD5NPysPj8JfIExtFzot36XWb5SkhEKKXD4s5rkCkHLhnu5fCOtckHa8TD4wFFU"
+      },
+      "products": [
+        {
+          "_id": "69580bb81c508c5d5e71d50a",
+          "name": "Keyboard67523",
+          "amount": 45,
+          "price": 12400,
+          "manufacturer": "Xiaomi",
+          "notes": "Ou7tn3MlyTBJLdRvL6dyrBqmpDaxuXMrOEPgyKuYUXnuA4JYv75UhxQARm7ZOMoKj4jkXEYnCamYxf7ls6G9fzsFSRNpH4x4YEwRkWO4YtbMsiBKkYLaia1Kkvq4qjFQR3Aldvh5lBXmGZkBL8TausXbhv7YAlbzxDyscGhMNhCG2i84geib7gqRCnvlrmFKogBVp0Xba9UZM4LR6y1wmXhFwkOfVm1nMveuNHsZw48F1bN2oyPXnhykdF",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Wittingbury",
+          "street": "Sycamore Drive",
+          "house": 28,
+          "flat": 434
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 12400,
+      "createdOn": "2026-01-02T18:17:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69580bb51c508c5d5e71d38a",
+          "products": [
+            {
+              "_id": "69580bb81c508c5d5e71d50a",
+              "name": "Keyboard67523",
+              "amount": 45,
+              "price": 12400,
+              "manufacturer": "Xiaomi",
+              "notes": "Ou7tn3MlyTBJLdRvL6dyrBqmpDaxuXMrOEPgyKuYUXnuA4JYv75UhxQARm7ZOMoKj4jkXEYnCamYxf7ls6G9fzsFSRNpH4x4YEwRkWO4YtbMsiBKkYLaia1Kkvq4qjFQR3Aldvh5lBXmGZkBL8TausXbhv7YAlbzxDyscGhMNhCG2i84geib7gqRCnvlrmFKogBVp0Xba9UZM4LR6y1wmXhFwkOfVm1nMveuNHsZw48F1bN2oyPXnhykdF",
+              "received": true
+            }
+          ],
+          "total_price": 12400,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Wittingbury",
+              "street": "Sycamore Drive",
+              "house": 28,
+              "flat": 434
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-02T18:17:30.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69580bb51c508c5d5e71d38a",
+          "products": [
+            {
+              "_id": "69580bb81c508c5d5e71d50a",
+              "name": "Keyboard67523",
+              "amount": 45,
+              "price": 12400,
+              "manufacturer": "Xiaomi",
+              "notes": "Ou7tn3MlyTBJLdRvL6dyrBqmpDaxuXMrOEPgyKuYUXnuA4JYv75UhxQARm7ZOMoKj4jkXEYnCamYxf7ls6G9fzsFSRNpH4x4YEwRkWO4YtbMsiBKkYLaia1Kkvq4qjFQR3Aldvh5lBXmGZkBL8TausXbhv7YAlbzxDyscGhMNhCG2i84geib7gqRCnvlrmFKogBVp0Xba9UZM4LR6y1wmXhFwkOfVm1nMveuNHsZw48F1bN2oyPXnhykdF",
+              "received": false
+            }
+          ],
+          "total_price": 12400,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Wittingbury",
+              "street": "Sycamore Drive",
+              "house": 28,
+              "flat": 434
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-02T18:17:30.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69580bb51c508c5d5e71d38a",
+          "products": [
+            {
+              "_id": "69580bb81c508c5d5e71d50a",
+              "name": "Keyboard67523",
+              "amount": 45,
+              "price": 12400,
+              "manufacturer": "Xiaomi",
+              "notes": "Ou7tn3MlyTBJLdRvL6dyrBqmpDaxuXMrOEPgyKuYUXnuA4JYv75UhxQARm7ZOMoKj4jkXEYnCamYxf7ls6G9fzsFSRNpH4x4YEwRkWO4YtbMsiBKkYLaia1Kkvq4qjFQR3Aldvh5lBXmGZkBL8TausXbhv7YAlbzxDyscGhMNhCG2i84geib7gqRCnvlrmFKogBVp0Xba9UZM4LR6y1wmXhFwkOfVm1nMveuNHsZw48F1bN2oyPXnhykdF",
+              "received": false
+            }
+          ],
+          "total_price": 12400,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Wittingbury",
+              "street": "Sycamore Drive",
+              "house": 28,
+              "flat": 434
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-02T18:17:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69580bb51c508c5d5e71d38a",
+          "products": [
+            {
+              "_id": "69580bb81c508c5d5e71d50a",
+              "name": "Keyboard67523",
+              "amount": 45,
+              "price": 12400,
+              "manufacturer": "Xiaomi",
+              "notes": "Ou7tn3MlyTBJLdRvL6dyrBqmpDaxuXMrOEPgyKuYUXnuA4JYv75UhxQARm7ZOMoKj4jkXEYnCamYxf7ls6G9fzsFSRNpH4x4YEwRkWO4YtbMsiBKkYLaia1Kkvq4qjFQR3Aldvh5lBXmGZkBL8TausXbhv7YAlbzxDyscGhMNhCG2i84geib7gqRCnvlrmFKogBVp0Xba9UZM4LR6y1wmXhFwkOfVm1nMveuNHsZw48F1bN2oyPXnhykdF",
+              "received": false
+            }
+          ],
+          "total_price": 12400,
+          "delivery": null,
+          "changedOn": "2026-01-02T18:17:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
