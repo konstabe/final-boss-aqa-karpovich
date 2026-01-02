@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 19:56:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2942",
+    "etag": "W/\"b7e-TDsCsAR9sDbgWxYuWYIAhBNjv48\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695822ff1c508c5d5e73f558",
+      "status": "Draft",
+      "customer": {
+        "_id": "695822f81c508c5d5e73f123",
+        "email": "Heaven36@yahoo.com",
+        "name": "Kathryne Collier",
+        "country": "USA",
+        "city": "Port Harry",
+        "street": "Corwin Branch",
+        "house": 48,
+        "flat": 766,
+        "phone": "+17403194585",
+        "createdOn": "2026-01-02T19:56:40.000Z",
+        "notes": "8TkLKpgl0Hzp6V3H1BvYjSKUe0srVNYeOnGNIWfK5m2q371jKYSjvKbng9Uu8soNytmt2FIVxsiC9WFFdpH2kPMsuiwSu1HmR7YUn6kggcnhYCGaosxfCWz2T3La3Y0yVZ71wcJDTH2UUSYmr5A2klf4AcciISvozRwCBfT9I8fhJGEfrS3cj3N7J7b4IdFf9TNVevy05oPdnpsyrjBwl2QiWVQLv8RrO4kwpGX3qJ3MqSHf7w4J2qCeMW"
+      },
+      "products": [
+        {
+          "_id": "695822fc1c508c5d5e73f51c",
+          "name": "Shirt57544",
+          "amount": 245,
+          "price": 78456,
+          "manufacturer": "Samsung",
+          "notes": "1VgsnJuDOUCCCNRv1wKFMAy5jwU23oYCFFYyQ8Ow1mTyoIlYESxPyhcCS0AA6HVlekXk5xnEnbVwLVosJBVKOxeJeLv62XQWJogaleQnTlX4aAEGX33dzsiFMvpdqpIMYzku4ybgm9yDRNSTjXZCa779l98gUa4skdt6UYc0txwAmJ8FSRAD2OCLPoVEu2QkfLyQzrLIwKF5QSxCY6aqbibYJODKNhVzCpuA1C7jTYGoZmpUESpPyHmruq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Port Harry",
+          "street": "Corwin Branch",
+          "house": 48,
+          "flat": 766
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 78456,
+      "createdOn": "2026-01-02T19:56:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695822f81c508c5d5e73f123",
+          "products": [
+            {
+              "_id": "695822fc1c508c5d5e73f51c",
+              "name": "Shirt57544",
+              "amount": 245,
+              "price": 78456,
+              "manufacturer": "Samsung",
+              "notes": "1VgsnJuDOUCCCNRv1wKFMAy5jwU23oYCFFYyQ8Ow1mTyoIlYESxPyhcCS0AA6HVlekXk5xnEnbVwLVosJBVKOxeJeLv62XQWJogaleQnTlX4aAEGX33dzsiFMvpdqpIMYzku4ybgm9yDRNSTjXZCa779l98gUa4skdt6UYc0txwAmJ8FSRAD2OCLPoVEu2QkfLyQzrLIwKF5QSxCY6aqbibYJODKNhVzCpuA1C7jTYGoZmpUESpPyHmruq",
+              "received": false
+            }
+          ],
+          "total_price": 78456,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Port Harry",
+              "street": "Corwin Branch",
+              "house": 48,
+              "flat": 766
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-02T19:56:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695822f81c508c5d5e73f123",
+          "products": [
+            {
+              "_id": "695822fc1c508c5d5e73f51c",
+              "name": "Shirt57544",
+              "amount": 245,
+              "price": 78456,
+              "manufacturer": "Samsung",
+              "notes": "1VgsnJuDOUCCCNRv1wKFMAy5jwU23oYCFFYyQ8Ow1mTyoIlYESxPyhcCS0AA6HVlekXk5xnEnbVwLVosJBVKOxeJeLv62XQWJogaleQnTlX4aAEGX33dzsiFMvpdqpIMYzku4ybgm9yDRNSTjXZCa779l98gUa4skdt6UYc0txwAmJ8FSRAD2OCLPoVEu2QkfLyQzrLIwKF5QSxCY6aqbibYJODKNhVzCpuA1C7jTYGoZmpUESpPyHmruq",
+              "received": false
+            }
+          ],
+          "total_price": 78456,
+          "delivery": null,
+          "changedOn": "2026-01-02T19:56:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

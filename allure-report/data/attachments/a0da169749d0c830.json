@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 19:56:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2818",
+    "etag": "W/\"b02-5ObWE5KCFMu1yJfGgakjJ+oBQak\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695822f91c508c5d5e73f26e",
+      "status": "Draft",
+      "customer": {
+        "_id": "695822f21c508c5d5e73f097",
+        "email": "Veronica.Konopelski17@yahoo.com",
+        "name": "Reina Kohler",
+        "country": "Russia",
+        "city": "Annalisefort",
+        "street": "Howard Street",
+        "house": 50,
+        "flat": 492,
+        "phone": "+12965274588",
+        "createdOn": "2026-01-02T19:56:34.000Z",
+        "notes": "LRno6uV0rJoDrHGSPCYMMnzosLj6J4Qbregyl9HL18Fl6qWslacj4COkijrD5rENWT8Gss4pX97ymyoqhmiGWGO9i81ZQ8J7XVdmjtDTTtPv71Ss7BCtOPZd4DFgHiYmO8D6CgMFXJOBJTsvMBvi101xJ3ZhmrPeO9a6Vz5Z4zIkeOBPZBmr0LgeB87dc2nxodefOs98rca60V7VH2V6nUWJ4wmThnlDxvixUJfKGvjboUGcvhtb5WyluK"
+      },
+      "products": [
+        {
+          "_id": "695822f61c508c5d5e73f0f8",
+          "name": "Cheese82616",
+          "amount": 786,
+          "price": 9041,
+          "manufacturer": "Amazon",
+          "notes": "Np76Igf8ZuJ4ljdNIJSm6znQi909lmQmDkSeqasSEPlKhS4nKHoIdPgOTMH4ZtRWwxHkKwxJtKs5x2l5YUrYQZxAOOM1ZC95Ao7opysrVHCaCgm05E9sptUISk9yn7WC84olQu07xyEqg2b978z5SI5tG3BnLHTsdCimWKldIncUE85l0zRSd1q2C8jcDnoJw60pajF8cEkqHwSPoHBVwFwDdwNDw80zlx7Wwgz54kWDGzIHZWkUM560nH",
+          "received": false
+        },
+        {
+          "_id": "695822f91c508c5d5e73f257",
+          "name": "Pants93328",
+          "amount": 218,
+          "price": 55037,
+          "manufacturer": "Amazon",
+          "notes": "ygOaj9NykRfR3pFrO5rhqt2eNzqXExqMiW4AMlg20RyVHtwpYpPlWTDmQGP1R70WE8FNxyXC5cLliNKKGduo60cdAn0mQDBij7pbOWCwmwWh5GBMpI5YigL28Ekf0PBNi2jud5flUOzBxZsgCYs20u9nvpaAF22ThvUP8otWgpxCxfciTYZqZVYXodI81aPzbhUKAUg5nWJEBYAZiqeL2Q6duXh5yPq4dsTfeifZzuZfHpgL8ikPCYh2Df",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 64078,
+      "createdOn": "2026-01-02T19:56:41.000Z",
+      "comments": [
+        {
+          "text": "kzlBbC7CdblJwxnWwlJ2TyAmJyzUy5KHMB2y120alEC80QCMOQlzntPaWoIdjkypXP0YWc9aWvp",
+          "createdOn": "2026-01-02T19:56:42.000Z",
+          "_id": "695822fa1c508c5d5e73f27c"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695822f21c508c5d5e73f097",
+          "products": [
+            {
+              "_id": "695822f61c508c5d5e73f0f8",
+              "name": "Cheese82616",
+              "amount": 786,
+              "price": 9041,
+              "manufacturer": "Amazon",
+              "notes": "Np76Igf8ZuJ4ljdNIJSm6znQi909lmQmDkSeqasSEPlKhS4nKHoIdPgOTMH4ZtRWwxHkKwxJtKs5x2l5YUrYQZxAOOM1ZC95Ao7opysrVHCaCgm05E9sptUISk9yn7WC84olQu07xyEqg2b978z5SI5tG3BnLHTsdCimWKldIncUE85l0zRSd1q2C8jcDnoJw60pajF8cEkqHwSPoHBVwFwDdwNDw80zlx7Wwgz54kWDGzIHZWkUM560nH",
+              "received": false
+            },
+            {
+              "_id": "695822f91c508c5d5e73f257",
+              "name": "Pants93328",
+              "amount": 218,
+              "price": 55037,
+              "manufacturer": "Amazon",
+              "notes": "ygOaj9NykRfR3pFrO5rhqt2eNzqXExqMiW4AMlg20RyVHtwpYpPlWTDmQGP1R70WE8FNxyXC5cLliNKKGduo60cdAn0mQDBij7pbOWCwmwWh5GBMpI5YigL28Ekf0PBNi2jud5flUOzBxZsgCYs20u9nvpaAF22ThvUP8otWgpxCxfciTYZqZVYXodI81aPzbhUKAUg5nWJEBYAZiqeL2Q6duXh5yPq4dsTfeifZzuZfHpgL8ikPCYh2Df",
+              "received": false
+            }
+          ],
+          "total_price": 64078,
+          "delivery": null,
+          "changedOn": "2026-01-02T19:56:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
