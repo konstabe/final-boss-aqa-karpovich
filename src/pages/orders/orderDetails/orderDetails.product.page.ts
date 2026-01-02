@@ -28,6 +28,7 @@ export class OrderDetailsProductPage extends SalesPortalPage {
 	}
 
 	readonly productDetailsHeader = (id: number) => this.page.locator(`#heading${id}`);
+	readonly productsDetailsInOrder = this.page.locator("#products-accordion-section");
 	readonly productDetailsBlocks = (id: number) => this.page.locator(`[aria-labelledby="heading${id}"] .c-details`);
 
 	@logStep("Change state product details by id")

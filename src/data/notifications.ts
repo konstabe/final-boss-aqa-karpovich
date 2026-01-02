@@ -8,6 +8,9 @@ export enum NOTIFICATIONS {
 	COMMENT_WAS_NOT_FOUND = "Comment was not found",
 	ORDER_CREATED = "Order was successfully created",
 	PRODUCTS_RECEIVED = "Products were successfully received",
+	ORDER_CANCELED = "Order was successfully canceled",
+	ORDER_UPDATED = "Order was successfully updated",
+	ORDER_REOPENED = "Order was successfully reopened",
 }
 
 export const ERROR_MESSAGES = {

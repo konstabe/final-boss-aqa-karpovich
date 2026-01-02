@@ -19,6 +19,10 @@ import { AssignedManagerModal } from "pages/assignManager.modal";
 import { ConfirmationModal } from "pages/confirmation.modal";
 import { EditDeliveryModal } from "pages/editDelivery";
 import { OrdersDetailsUIService } from "ui-services/orderDetails.ui-service";
+import { ReopenModal } from "pages/reOpenOder.modal";
+import { CancelOrderModal } from "pages/orders/canсelOrder.modal";
+import { EditCustomerModal } from "pages/orders/editCustomer.modal";
+import { EditProductModal } from "pages/orders/editProduct.modal";
 // import { AddNewCustomerPage } from "pages/customers/addNewCustomer.page";
 // import { CustomersListPage } from "pages/customers/customersList.page";
 // import { AddNewProductPage } from "pages/products/addNewProduct.page";
@@ -39,6 +43,9 @@ export interface IPages {
 	// editProductPage: EditProductPage;
 	// addNewCustomerPage: AddNewCustomerPage;
 	// customersListPage: CustomersListPage;
+	editCustomerModal: EditCustomerModal;
+	editProductModal: EditProductModal;
+	cancelOrderModal: CancelOrderModal;
 	ordersListPage: OrdersListPage;
 
 	orderDetailsHeaderPage: OrderDetailsHeaderPage;
@@ -49,6 +56,8 @@ export interface IPages {
 	editDeliveryModal: EditDeliveryModal;
 	addNewOrderPage: CreateOrderModal;
 	orderDetailsBottomPage: OrderDetailsBottomPage;
+	createOrderModal: CreateOrderModal;
+	reopenModal: ReopenModal;
 
 	//ui-services
 	homeUIService: HomeUIService;
@@ -118,8 +127,24 @@ export const test = base.extend<IPages>({
 		await use(new EditDeliveryModal(page));
 	},
 
-	addNewOrderPage: async ({ page }, use) => {
+	createOrderModal: async ({ page }, use) => {
 		await use(new CreateOrderModal(page));
+	},
+
+	reopenModal: async ({ page }, use) => {
+		await use(new ReopenModal(page));
+	},
+
+	editCustomerModal: async ({ page }, use) => {
+		await use(new EditCustomerModal(page));
+	},
+
+	editProductModal: async ({ page }, use) => {
+		await use(new EditProductModal(page));
+	},
+
+	cancelOrderModal: async ({ page }, use) => {
+		await use(new CancelOrderModal(page));
 	},
 
 	// //ui-services
