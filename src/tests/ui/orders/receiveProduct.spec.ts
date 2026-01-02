@@ -1,5 +1,6 @@
 import { expect, test } from "fixtures";
 import { TAGS } from "data/tags";
+import { NOTIFICATIONS } from "data/notifications";
 
 test.describe("[UI] [OrderProductsReceive]", () => {
 	let token = "";
@@ -46,13 +47,13 @@ test.describe("[UI] [OrderProductsReceive]", () => {
 			await orderDetailsProductPage.toggleProductCheckbox(0);
 			await orderDetailsProductPage.toggleProductCheckbox(2);
 			await orderDetailsProductPage.saveReceivedProductsButton.click();
-			await page.waitForTimeout(3500);
+			await page.waitForTimeout(500);
 
-			const row = page.locator(".accordion-header .received-label");
+			await expect(orderDetailsProductPage.toastMessage).toContainText(NOTIFICATIONS.PRODUCTS_RECEIVED);
 
-			await expect(row.nth(1)).toHaveText("Not Received");
-			await expect(row.nth(0)).toHaveText("Received");
-			await expect(row.nth(2)).toHaveText("Received");
+			await expect(orderDetailsProductPage.row.nth(1)).toHaveText("Not Received");
+			await expect(orderDetailsProductPage.row.nth(0)).toHaveText("Received");
+			await expect(orderDetailsProductPage.row.nth(2)).toHaveText("Received");
 		},
 	);
 });

@@ -7,6 +7,7 @@ export enum NOTIFICATIONS {
 	CUSTOMER_CREATED = "Customer was successfully created",
 	COMMENT_WAS_NOT_FOUND = "Comment was not found",
 	ORDER_CREATED = "Order was successfully created",
+	PRODUCTS_RECEIVED = "Products were successfully received",
 }
 
 export const ERROR_MESSAGES = {

@@ -17,6 +17,8 @@ export class OrderDetailsProductPage extends SalesPortalPage {
 	readonly receivedAccordionLabel = (index: number) =>
 		this.receivedAccordion.nth(index).locator(".accordion-header .received-label");
 	readonly receivedRow = this.receivedAccordion.locator(".received-label");
+	readonly row = this.page.locator(".accordion-header .received-label");
+
 	async toggleProductCheckbox(index: number) {
 		const checkbox = this.page.locator('input[name="product"]').nth(index);
 		await checkbox.click();
