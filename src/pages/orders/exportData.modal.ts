@@ -1,6 +1,7 @@
-import { expect } from "@playwright/test";
+import { Download, expect } from "@playwright/test";
 import { ExportDataFields } from "data/types/order.types";
 import { BaseModal } from "pages/base/base.modal";
+import path from "path";
 import { logStep } from "utils/report/logStep.utils";
 
 export class ExportOrderModal extends BaseModal {
@@ -26,7 +27,7 @@ export class ExportOrderModal extends BaseModal {
 
 	readonly uniqueElement = this.editProductModalTitle;
 
-	@logStep("Click export button")
+	@logStep("Click download button")
 	async clickDownloadButton() {
 		await this.downloadButton.click();
 		await expect(this.modalBody).not.toBeVisible({ timeout: 10000 });
@@ -64,5 +65,28 @@ export class ExportOrderModal extends BaseModal {
 	async selectFileFormat(radio: "CSV" | "JSON") {
 		if (radio === "CSV") await this.csvFormat.click();
 		if (radio === "JSON") await this.jsonFormat.click();
+	}
+
+	@logStep("Download file")
+	async downloadFile(format: "CSV" | "JSON"): Promise<{
+		download: Download;
+		fileName: string;
+	}> {
+		await this.selectFileFormat(format);
+
+		const downloadPromise = this.page.waitForEvent("download");
+
+		await this.downloadButton.click();
+
+		const download = await downloadPromise;
+
+		const fileName = download.suggestedFilename();
+
+		const downloadDir = process.cwd() + "/test-results/download";
+
+		const filePath = path.join(downloadDir, fileName);
+		await download.saveAs(filePath);
+
+		return { download, fileName };
 	}
 }

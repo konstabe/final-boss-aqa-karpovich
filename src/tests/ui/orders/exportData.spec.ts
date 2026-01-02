@@ -63,6 +63,7 @@ test.describe("[UI] [Orders] [exportDataModal]", () => {
 			await expect(exportOrderModal.downloadButton).toBeDisabled();
 
 			await exportOrderModal.selectFields("Delivery");
+			await expect(exportOrderModal.deliveryExportField).toBeChecked();
 			await expect(exportOrderModal.downloadButton).toBeEnabled();
 		},
 	);
@@ -76,7 +77,6 @@ test.describe("[UI] [Orders] [exportDataModal]", () => {
 			await ordersListUIService.open();
 			await ordersListPage.clickExport();
 			await exportOrderModal.clickCloseIcon();
-			await expect(exportOrderModal.modalBody).not.toBeVisible();
 		},
 	);
 
@@ -90,7 +90,6 @@ test.describe("[UI] [Orders] [exportDataModal]", () => {
 			await ordersListPage.clickExport();
 			await exportOrderModal.checkSelectAllFields();
 			await exportOrderModal.clickCancelButton();
-			await expect(exportOrderModal.modalBody).not.toBeVisible();
 		},
 	);
 
@@ -115,10 +114,27 @@ test.describe("[UI] [Orders] [exportDataModal]", () => {
 		},
 		async ({ ordersListPage, ordersListUIService, exportOrderModal, ordersApiService }) => {
 			ordersApiService.createDraft(token, 1);
+
 			await ordersListUIService.open();
 			await ordersListPage.clickExport();
-			await exportOrderModal.selectFileFormat("JSON");
-			await exportOrderModal.clickDownloadButton();
+			const { fileName } = await exportOrderModal.downloadFile("JSON");
+
+			await expect(fileName).toEqual("data.json");
+		},
+	);
+
+	test(
+		"Download CSV file",
+		{
+			tag: [TAGS.REGRESSION, TAGS.UI],
+		},
+		async ({ ordersListPage, ordersListUIService, exportOrderModal, ordersApiService }) => {
+			ordersApiService.createDraft(token, 1);
+			await ordersListUIService.open();
+			await ordersListPage.clickExport();
+			const { fileName } = await exportOrderModal.downloadFile("CSV");
+
+			await expect(fileName).toEqual("data.csv");
 		},
 	);
 });
