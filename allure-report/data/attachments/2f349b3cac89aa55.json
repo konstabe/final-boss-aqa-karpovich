@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 20:47:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2813",
+    "etag": "W/\"afd-N0IrBCjIqbVS1oy63rXlf3PMzwI\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69582ee01c508c5d5e755bd7",
+      "status": "Draft",
+      "customer": {
+        "_id": "69582edf1c508c5d5e755af3",
+        "email": "Mozell.Mayert@gmail.com",
+        "name": "Brianne Boyer",
+        "country": "Belarus",
+        "city": "Lake Vincenzo",
+        "street": "Runolfsdottir Plaza",
+        "house": 42,
+        "flat": 1,
+        "phone": "+12602283363",
+        "createdOn": "2026-01-02T20:47:27.000Z",
+        "notes": "bY7kQhzgCxptJs1lmIIyTYZwbtVbBUV9RIkb2GAC78jJ2TuqVXmXjPdoU9MGeILmiUq2xgFcAYAsAetlfFvFG9T3d1p4QcyjP124mnGGVbNVESBVCR84QoTfuWYCM91i2NzRm2oethW2lyXk2do5MbGaB3O61un187NjH4APahkGmtT3BahKXoGi3KhQKKprFUPNDT1LA50Vo2mdEEzEUVRd8xbJzjRHo1v4GPdSCJ9oUcddgjCCJ3hc4J"
+      },
+      "products": [
+        {
+          "_id": "69582edf1c508c5d5e755b2f",
+          "name": "Pants57375",
+          "amount": 725,
+          "price": 45669,
+          "manufacturer": "Sony",
+          "notes": "JIyMu5gk0DYcgYcoN23hETNdPiEmkM8sem0WPbjmFhRnlzqi5i6ldPD5bGQaPI3qkLuigabJHN7fvjXIY5HqZBEGbv3zlxdniFezwSHPV7LOZjCAXpT6BsqLhNHf32xX7AzBEGQqhfS0DsIqIgUbde3gFJbMRxOGRwazBCoiJVJJ16uuMsIyzHSMrQIfFAG0h6a0g23UPat15CWP3PxNxH0DEIziT6cUCLZKHNuLCQvBJ02j7wPQjzuk1G",
+          "received": false
+        },
+        {
+          "_id": "69582ee01c508c5d5e755b98",
+          "name": "Towels5646",
+          "amount": 343,
+          "price": 13218,
+          "manufacturer": "Google",
+          "notes": "eNmRYU6AXyPKjwV8vWoTkGeFBkIzr6yeYvDZnKJVwuxYlRncZYumZz8Iqo6lvsESdmmYLDNc3wYlNcwDuGbVX7zrduWJLyfUROz4k5hZrI0TzHM2WeBtgBEMMAvdw1c7379z5JXETCdV9MTQyjlFrOqkGs0jqEIyhJQnLP079tA38vTEjlyriX4rxKYlNhxdZmoqXjST8SZwXPCSAB4HBrfoPRgRsRZY70PzM7G74REJoi4R6lYhLiWTt5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 58887,
+      "createdOn": "2026-01-02T20:47:28.000Z",
+      "comments": [
+        {
+          "text": "fSibvvpgULxI41YzLAEUrTk07zUkSPbExtipZfP5cm6uo75dkiFJt6Fh7EEsn6dBgSeXSEP2o8k",
+          "createdOn": "2026-01-02T20:47:29.000Z",
+          "_id": "69582ee11c508c5d5e755c34"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69582edf1c508c5d5e755af3",
+          "products": [
+            {
+              "_id": "69582edf1c508c5d5e755b2f",
+              "name": "Pants57375",
+              "amount": 725,
+              "price": 45669,
+              "manufacturer": "Sony",
+              "notes": "JIyMu5gk0DYcgYcoN23hETNdPiEmkM8sem0WPbjmFhRnlzqi5i6ldPD5bGQaPI3qkLuigabJHN7fvjXIY5HqZBEGbv3zlxdniFezwSHPV7LOZjCAXpT6BsqLhNHf32xX7AzBEGQqhfS0DsIqIgUbde3gFJbMRxOGRwazBCoiJVJJ16uuMsIyzHSMrQIfFAG0h6a0g23UPat15CWP3PxNxH0DEIziT6cUCLZKHNuLCQvBJ02j7wPQjzuk1G",
+              "received": false
+            },
+            {
+              "_id": "69582ee01c508c5d5e755b98",
+              "name": "Towels5646",
+              "amount": 343,
+              "price": 13218,
+              "manufacturer": "Google",
+              "notes": "eNmRYU6AXyPKjwV8vWoTkGeFBkIzr6yeYvDZnKJVwuxYlRncZYumZz8Iqo6lvsESdmmYLDNc3wYlNcwDuGbVX7zrduWJLyfUROz4k5hZrI0TzHM2WeBtgBEMMAvdw1c7379z5JXETCdV9MTQyjlFrOqkGs0jqEIyhJQnLP079tA38vTEjlyriX4rxKYlNhxdZmoqXjST8SZwXPCSAB4HBrfoPRgRsRZY70PzM7G74REJoi4R6lYhLiWTt5",
+              "received": false
+            }
+          ],
+          "total_price": 58887,
+          "delivery": null,
+          "changedOn": "2026-01-02T20:47:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
