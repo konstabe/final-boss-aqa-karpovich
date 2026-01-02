@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 18:18:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2652",
+    "etag": "W/\"a5c-XT1yaib067DVqVtgbhpQg9OxHQE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69580beb1c508c5d5e71ec8e",
+        "email": "Wilber.Purdy@yahoo.com",
+        "name": "Yesenia Runte",
+        "country": "Belarus",
+        "city": "Littleberg",
+        "street": "Terrill Villages",
+        "house": 34,
+        "flat": 170,
+        "phone": "+18876112858",
+        "createdOn": "2026-01-02T18:18:19.000Z",
+        "notes": "DMmQrENSija1HAFw1TOpY4wNqLtsNSQoq5DmVG0llGPb6l90NCMfulVlC6CRaGLeVfS6EnoCQk7cjbYNkrjXfpd6yJywMtoaEzDkJs2eUNTz99oaB3yjfFVX2sZTVvmlseeB0shFyNbXTEgXzzPoy4yKu35mZKhkYQdnG6HcEYFL3bgFeJ4S594bNlAZRD6Svsh8QCSOVptn4LzkizteEYMc6moEBgh5yzsCrSI1wmaFnaFX983Ay9C1RC"
+      },
+      "products": [
+        {
+          "_id": "69580bee1c508c5d5e71ef42",
+          "name": "Soap3722",
+          "amount": 533,
+          "price": 53987,
+          "manufacturer": "Microsoft",
+          "notes": "LqJtzxKUFSbO36VA0jPevblQJzVnIBfSfPnNFEKu7YbE8zZvSvxVKe1AYKicjWEQHSqGt2aklH7UF3up84QPniegNhM6gHp6XbtzPlgnQ3YPCNd6Pyv7bzs3haNErhzws0uLFyRPI3uKySws7gf5p1yTXQrfmQmw0p7QaypAgROFWyZzW68Z5ngYw4DLvkYaY4BWym703s7oDW0zn38hS0VqlSfTaZbWOmErjKPsjGn5Emci9VANawlbeb",
+          "received": false
+        },
+        {
+          "_id": "69580bf51c508c5d5e71f305",
+          "name": "Car95697",
+          "amount": 697,
+          "price": 27815,
+          "manufacturer": "Xiaomi",
+          "notes": "HWp3uEY6gw7FrxC729i2knDTpRlOEvv65kOQyuGXIw3ycNf2ye0hL1RGCCXyn2tVPYK27PtPAS5NpJHndU0oZYyF4omKjctAIUwJiJFtfnoctD5nFJ630HSqFtFCz8vUnTE7jC5FprmR0K6K54UbpC0mFPrjx9bf0m0Ksyg272ipHgGQVwO7OPv5AU0YgumIhti5tWv1zNtYaOMyR00PKrkgOrHNrnW9OsXzpSViQlbKgpIzTqUa2khWRB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 81802,
+      "createdOn": "2026-01-02T18:18:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69580beb1c508c5d5e71ec8e",
+          "products": [
+            {
+              "_id": "69580bee1c508c5d5e71ef42",
+              "name": "Soap3722",
+              "amount": 533,
+              "price": 53987,
+              "manufacturer": "Microsoft",
+              "notes": "LqJtzxKUFSbO36VA0jPevblQJzVnIBfSfPnNFEKu7YbE8zZvSvxVKe1AYKicjWEQHSqGt2aklH7UF3up84QPniegNhM6gHp6XbtzPlgnQ3YPCNd6Pyv7bzs3haNErhzws0uLFyRPI3uKySws7gf5p1yTXQrfmQmw0p7QaypAgROFWyZzW68Z5ngYw4DLvkYaY4BWym703s7oDW0zn38hS0VqlSfTaZbWOmErjKPsjGn5Emci9VANawlbeb",
+              "received": false
+            },
+            {
+              "_id": "69580bf51c508c5d5e71f305",
+              "name": "Car95697",
+              "amount": 697,
+              "price": 27815,
+              "manufacturer": "Xiaomi",
+              "notes": "HWp3uEY6gw7FrxC729i2knDTpRlOEvv65kOQyuGXIw3ycNf2ye0hL1RGCCXyn2tVPYK27PtPAS5NpJHndU0oZYyF4omKjctAIUwJiJFtfnoctD5nFJ630HSqFtFCz8vUnTE7jC5FprmR0K6K54UbpC0mFPrjx9bf0m0Ksyg272ipHgGQVwO7OPv5AU0YgumIhti5tWv1zNtYaOMyR00PKrkgOrHNrnW9OsXzpSViQlbKgpIzTqUa2khWRB",
+              "received": false
+            }
+          ],
+          "total_price": 81802,
+          "delivery": null,
+          "changedOn": "2026-01-02T18:18:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69580bf61c508c5d5e71f33a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

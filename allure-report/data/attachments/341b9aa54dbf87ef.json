@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 18:19:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2943",
+    "etag": "W/\"b7f-Q+brQyQvYdRGm5emXhp1p6J/wa8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69580c151c508c5d5e72016d",
+      "status": "Draft",
+      "customer": {
+        "_id": "69580c111c508c5d5e720142",
+        "email": "Fred_Goyette20@yahoo.com",
+        "name": "Lorine Kuvalis",
+        "country": "Belarus",
+        "city": "Corineshire",
+        "street": "Metz Lakes",
+        "house": 2,
+        "flat": 414,
+        "phone": "+18679400820",
+        "createdOn": "2026-01-02T18:18:57.000Z",
+        "notes": "EDKMYQqUqHrlvb9aHLMUseKMz8O9jet3UaOYdQeHE4hbD73b6CjJM0pdNg1xLIgI1yCW3ptfi7swRgNpfoZhrKiwO5goOcY21eYleVOypQenILXOe0xsRuWYROapbdKdZMjWm6QSo55SByj7d5t4nDp9YVZmLMM9xrxryZr7wuagcoBNNKAzrmRdw6uTE0GKZHJ5NhTZPePxfq7kvuI2ubKSpv7aG3EjVTI4JI0577DrfZbZR3kJj7OvzJ"
+      },
+      "products": [
+        {
+          "_id": "69580c141c508c5d5e720165",
+          "name": "Pizza4050",
+          "amount": 31,
+          "price": 20896,
+          "manufacturer": "Tesla",
+          "notes": "xenoN4xhwvkbJqu7ES0CBQdzDevzVPV2AHgQoECxInhCKHBQsSUXWWfz2QhbE1WYMDyxBqU87V8iBIgOl7dCMn5xGx0dkE9A1I3DINBHvQJGX1NSdIbHDyKntBjmqJqARmoGwKTa1L2Aux2U5Yv4fa0l62LbSbEulZgksTsEzalSQDGPyttlpkWMAVu0EuzDSQScsQe0hyAyH4LlVnbJmm2zMB6sHLnJRTo0MU1BUCYpwkLzBf9zYNQAyO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 20896,
+      "createdOn": "2026-01-02T18:19:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69580c111c508c5d5e720142",
+          "products": [
+            {
+              "_id": "69580c141c508c5d5e720165",
+              "name": "Pizza4050",
+              "amount": 31,
+              "price": 20896,
+              "manufacturer": "Tesla",
+              "notes": "xenoN4xhwvkbJqu7ES0CBQdzDevzVPV2AHgQoECxInhCKHBQsSUXWWfz2QhbE1WYMDyxBqU87V8iBIgOl7dCMn5xGx0dkE9A1I3DINBHvQJGX1NSdIbHDyKntBjmqJqARmoGwKTa1L2Aux2U5Yv4fa0l62LbSbEulZgksTsEzalSQDGPyttlpkWMAVu0EuzDSQScsQe0hyAyH4LlVnbJmm2zMB6sHLnJRTo0MU1BUCYpwkLzBf9zYNQAyO",
+              "received": false
+            }
+          ],
+          "total_price": 20896,
+          "delivery": null,
+          "changedOn": "2026-01-02T18:19:01.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69580c111c508c5d5e720142",
+          "products": [
+            {
+              "_id": "69580c141c508c5d5e720165",
+              "name": "Pizza4050",
+              "amount": 31,
+              "price": 20896,
+              "manufacturer": "Tesla",
+              "notes": "xenoN4xhwvkbJqu7ES0CBQdzDevzVPV2AHgQoECxInhCKHBQsSUXWWfz2QhbE1WYMDyxBqU87V8iBIgOl7dCMn5xGx0dkE9A1I3DINBHvQJGX1NSdIbHDyKntBjmqJqARmoGwKTa1L2Aux2U5Yv4fa0l62LbSbEulZgksTsEzalSQDGPyttlpkWMAVu0EuzDSQScsQe0hyAyH4LlVnbJmm2zMB6sHLnJRTo0MU1BUCYpwkLzBf9zYNQAyO",
+              "received": false
+            }
+          ],
+          "total_price": 20896,
+          "delivery": null,
+          "changedOn": "2026-01-02T18:19:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

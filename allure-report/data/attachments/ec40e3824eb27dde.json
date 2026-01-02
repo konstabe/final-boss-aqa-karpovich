@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 18:18:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-O6fe8eSHiCDV89ULZwDMglUs+oc\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69580beb1c508c5d5e71ecac",
+        "email": "Vivienne64@gmail.com",
+        "name": "Jalen Cummerata",
+        "country": "USA",
+        "city": "East Mariah",
+        "street": "Stiedemann Shores",
+        "house": 38,
+        "flat": 277,
+        "phone": "+17334986207",
+        "createdOn": "2026-01-02T18:18:19.000Z",
+        "notes": "qAV0UwFsGYvC8BaoUHKZj3IgvyHLwYnv7hrR2uDeUtZkTa7i0yjGU6URoAfqjx0Q19ZryOCg0S7NddqtSsKe8YTvXeKuQFjLEhFnGhjm8L6IbvRnWtMi2ktHOL6CUBdbpg70Cp5ohN4Msplv6cRQKY2m0F3waUcAqzJSIpwNuFgEwAY6TDrtJaMl51VXOAZ9CWeokjDTlzq6e4m2jX7NR8H1Y8MCVGfaqvrk0FUIthiAAvNQaB5fta7eOd"
+      },
+      "products": [
+        {
+          "_id": "69580bee1c508c5d5e71f06b",
+          "name": "Pizza92218",
+          "amount": 736,
+          "price": 2433,
+          "manufacturer": "Xiaomi",
+          "notes": "DpTxFoMtBCVdJE1aaBlentRzqcDrvFl0KJ9BaNXLxW3DLFH7dMSvK95F8YF0igmqsqWWSEXoTxd8Ag7ULWqVf8Nr4C9rfSu8fFsFMRMJFiI97mTpcQTJozneXP7QHOUatT1ZqkdMvEyOyivWApZj2WVpJaRDBElFxyDTuRg5A67A44K8CrCaYKm1X6DIJHH0kZzv4x3kZIxPBEQtvt6OML9ACkkNTB1va7nOblML6lOh7mdCfxEs2QIi04",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 2433,
+      "createdOn": "2026-01-02T18:18:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69580beb1c508c5d5e71ecac",
+          "products": [
+            {
+              "_id": "69580bee1c508c5d5e71f06b",
+              "name": "Pizza92218",
+              "amount": 736,
+              "price": 2433,
+              "manufacturer": "Xiaomi",
+              "notes": "DpTxFoMtBCVdJE1aaBlentRzqcDrvFl0KJ9BaNXLxW3DLFH7dMSvK95F8YF0igmqsqWWSEXoTxd8Ag7ULWqVf8Nr4C9rfSu8fFsFMRMJFiI97mTpcQTJozneXP7QHOUatT1ZqkdMvEyOyivWApZj2WVpJaRDBElFxyDTuRg5A67A44K8CrCaYKm1X6DIJHH0kZzv4x3kZIxPBEQtvt6OML9ACkkNTB1va7nOblML6lOh7mdCfxEs2QIi04",
+              "received": false
+            }
+          ],
+          "total_price": 2433,
+          "delivery": null,
+          "changedOn": "2026-01-02T18:18:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69580bf21c508c5d5e71f093"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
