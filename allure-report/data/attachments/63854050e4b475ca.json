@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 15:54:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4787",
+    "etag": "W/\"12b3-lzF5lcPKc469UMBdVraKRb6XPfs\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6957ea461c508c5d5e6fed85",
+      "status": "Received",
+      "customer": {
+        "_id": "6957ea411c508c5d5e6feb05",
+        "email": "Loma.Rolfson@hotmail.com",
+        "name": "Elenor Bogan",
+        "country": "USA",
+        "city": "Delray Beach",
+        "street": "E 2nd Street",
+        "house": 3,
+        "flat": 124,
+        "phone": "+18362573306",
+        "createdOn": "2026-01-02T15:54:41.000Z",
+        "notes": "aHR2K57OcA7BH75Nc4WUYgqQPIfL0WLVcHqqH5206YLAOcbe2zkqGewdBIP7Lni6W6nqN4y3WGzNd2oTsa05fwd8Pp1PnTCdbrqPgG8GcuJ3CqtfEQGbLobQqWLdCEEFdcxUox3LzDwTu73pWviS7xPwHDDy58j9vcIxOER7qxLpnBl2sYnPiDWnpz6GSKhTxiQaASWUcEqU598qOqJ3SGgHIkvlbnxEcxLxgjENhxcivrq1ecKqKXU3jg"
+      },
+      "products": [
+        {
+          "_id": "6957ea441c508c5d5e6fed5e",
+          "name": "Cheese73901",
+          "amount": 339,
+          "price": 66522,
+          "manufacturer": "Samsung",
+          "notes": "zu9FWyRMRBiXeoLJgPeB7eWz89eduhwdUQdZ96gg9Kzcbt0SJ3blOlFZJPMxtXooCVTtffY8JqPUtPvUyf1VZzBaYqByJVAw80jCk91NmPB7P5HxtfH1mli7YIUj3FB40F2PvJyYgMPtEyFhNxv2ouDUVMzvzVMOxVhW5AnuvoteSpknIVWYxLPXIXHibYbIwJUrJDQr1FqY6bJUsDpGdox79WiA3ktfMPKQKH4gizQPokdtyLGShQvIXn",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Delray Beach",
+          "street": "E 2nd Street",
+          "house": 3,
+          "flat": 124
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 66522,
+      "createdOn": "2026-01-02T15:54:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6957ea411c508c5d5e6feb05",
+          "products": [
+            {
+              "_id": "6957ea441c508c5d5e6fed5e",
+              "name": "Cheese73901",
+              "amount": 339,
+              "price": 66522,
+              "manufacturer": "Samsung",
+              "notes": "zu9FWyRMRBiXeoLJgPeB7eWz89eduhwdUQdZ96gg9Kzcbt0SJ3blOlFZJPMxtXooCVTtffY8JqPUtPvUyf1VZzBaYqByJVAw80jCk91NmPB7P5HxtfH1mli7YIUj3FB40F2PvJyYgMPtEyFhNxv2ouDUVMzvzVMOxVhW5AnuvoteSpknIVWYxLPXIXHibYbIwJUrJDQr1FqY6bJUsDpGdox79WiA3ktfMPKQKH4gizQPokdtyLGShQvIXn",
+              "received": true
+            }
+          ],
+          "total_price": 66522,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Delray Beach",
+              "street": "E 2nd Street",
+              "house": 3,
+              "flat": 124
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-02T15:54:47.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6957ea411c508c5d5e6feb05",
+          "products": [
+            {
+              "_id": "6957ea441c508c5d5e6fed5e",
+              "name": "Cheese73901",
+              "amount": 339,
+              "price": 66522,
+              "manufacturer": "Samsung",
+              "notes": "zu9FWyRMRBiXeoLJgPeB7eWz89eduhwdUQdZ96gg9Kzcbt0SJ3blOlFZJPMxtXooCVTtffY8JqPUtPvUyf1VZzBaYqByJVAw80jCk91NmPB7P5HxtfH1mli7YIUj3FB40F2PvJyYgMPtEyFhNxv2ouDUVMzvzVMOxVhW5AnuvoteSpknIVWYxLPXIXHibYbIwJUrJDQr1FqY6bJUsDpGdox79WiA3ktfMPKQKH4gizQPokdtyLGShQvIXn",
+              "received": false
+            }
+          ],
+          "total_price": 66522,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Delray Beach",
+              "street": "E 2nd Street",
+              "house": 3,
+              "flat": 124
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-02T15:54:47.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6957ea411c508c5d5e6feb05",
+          "products": [
+            {
+              "_id": "6957ea441c508c5d5e6fed5e",
+              "name": "Cheese73901",
+              "amount": 339,
+              "price": 66522,
+              "manufacturer": "Samsung",
+              "notes": "zu9FWyRMRBiXeoLJgPeB7eWz89eduhwdUQdZ96gg9Kzcbt0SJ3blOlFZJPMxtXooCVTtffY8JqPUtPvUyf1VZzBaYqByJVAw80jCk91NmPB7P5HxtfH1mli7YIUj3FB40F2PvJyYgMPtEyFhNxv2ouDUVMzvzVMOxVhW5AnuvoteSpknIVWYxLPXIXHibYbIwJUrJDQr1FqY6bJUsDpGdox79WiA3ktfMPKQKH4gizQPokdtyLGShQvIXn",
+              "received": false
+            }
+          ],
+          "total_price": 66522,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Delray Beach",
+              "street": "E 2nd Street",
+              "house": 3,
+              "flat": 124
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-02T15:54:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6957ea411c508c5d5e6feb05",
+          "products": [
+            {
+              "_id": "6957ea441c508c5d5e6fed5e",
+              "name": "Cheese73901",
+              "amount": 339,
+              "price": 66522,
+              "manufacturer": "Samsung",
+              "notes": "zu9FWyRMRBiXeoLJgPeB7eWz89eduhwdUQdZ96gg9Kzcbt0SJ3blOlFZJPMxtXooCVTtffY8JqPUtPvUyf1VZzBaYqByJVAw80jCk91NmPB7P5HxtfH1mli7YIUj3FB40F2PvJyYgMPtEyFhNxv2ouDUVMzvzVMOxVhW5AnuvoteSpknIVWYxLPXIXHibYbIwJUrJDQr1FqY6bJUsDpGdox79WiA3ktfMPKQKH4gizQPokdtyLGShQvIXn",
+              "received": false
+            }
+          ],
+          "total_price": 66522,
+          "delivery": null,
+          "changedOn": "2026-01-02T15:54:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
