@@ -10,6 +10,7 @@ export enum NOTIFICATIONS {
 	ORDER_CANCELED = "Order was successfully canceled",
 	ORDER_UPDATED = "Order was successfully updated",
 	ORDER_REOPENED = "Order was successfully reopened",
+	DATA_EXPORTED = "Data was successfully exported",
 }
 
 export const ERROR_MESSAGES = {

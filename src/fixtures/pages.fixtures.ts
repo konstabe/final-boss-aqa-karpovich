@@ -23,6 +23,7 @@ import { ReopenModal } from "pages/reOpenOder.modal";
 import { CancelOrderModal } from "pages/orders/canсelOrder.modal";
 import { EditCustomerModal } from "pages/orders/editCustomer.modal";
 import { EditProductModal } from "pages/orders/editProduct.modal";
+import { ExportOrderModal } from "pages/orders/exportData.modal";
 // import { AddNewCustomerPage } from "pages/customers/addNewCustomer.page";
 // import { CustomersListPage } from "pages/customers/customersList.page";
 // import { AddNewProductPage } from "pages/products/addNewProduct.page";
@@ -47,6 +48,7 @@ export interface IPages {
 	editProductModal: EditProductModal;
 	cancelOrderModal: CancelOrderModal;
 	ordersListPage: OrdersListPage;
+	exportOrderModal: ExportOrderModal;
 
 	orderDetailsHeaderPage: OrderDetailsHeaderPage;
 	orderDetailsBottomPage: OrderDetailsBottomPage;
@@ -144,6 +146,10 @@ export const test = base.extend<IPages>({
 
 	cancelOrderModal: async ({ page }, use) => {
 		await use(new CancelOrderModal(page));
+	},
+
+	exportOrderModal: async ({ page }, use) => {
+		await use(new ExportOrderModal(page));
 	},
 
 	// //ui-services
