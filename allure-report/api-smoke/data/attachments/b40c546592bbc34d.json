@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:45:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-sipazP706R6V/zO4nvfRe5KZoo4\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695963c11c508c5d5e970a6e",
+        "email": "Tyra_Mante54@hotmail.com",
+        "name": "Drake Dach",
+        "country": "Russia",
+        "city": "Kertzmannfort",
+        "street": "Freddie Skyway",
+        "house": 36,
+        "flat": 747,
+        "phone": "+14573078579",
+        "createdOn": "2026-01-03T18:45:21.000Z",
+        "notes": "aS9439F7Zxr0qVPOitiNnDZHZf0qdjZYiAjp1msZthldoRcLY68tJf8C5LLs4r7RSTL39MO2XaLZt2bDsOnf0DNYOAyuEwEVDjMRB4XdP2j8nfCRXoHa2Cpf1OdVB9ks9NxdxoXjjfc5nlKr3Gv2ciXr2gAKDmOWyT2kjusYgX1rb9wbpZigm0ovPogxtjdQR1WsUbxbYkhhcqTzANDkTxQlyV6NwYeYEGtohd8pzpEqGsGqHPeI5iIsQ5"
+      },
+      "products": [
+        {
+          "_id": "695963c21c508c5d5e970acd",
+          "name": "Salad92301",
+          "amount": 362,
+          "price": 70316,
+          "manufacturer": "Tesla",
+          "notes": "3GlO5pLwzOdZatX7iMXYqdvM8IcAmkBsyqAZct5RPVb1axKehJEeDbWDI7XpznsT4t3wkkEKybmBD3AolBwvUSKWYjBc7YPhWZEpQHWoEe8bLOVrwvCqZ6Nn9z004w5iILBawbScbYdGjSDfwuDVKyAhA2SSZPhayWUXUTS31p8oWYNddnabsFc9FNEoUzu3LqlHKLR1Z3PN0orMfl51xdJeDaV2gnDq0xeBrH8j4hpFggI5uAIfPnqFkE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 70316,
+      "createdOn": "2026-01-03T18:45:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695963c11c508c5d5e970a6e",
+          "products": [
+            {
+              "_id": "695963c21c508c5d5e970acd",
+              "name": "Salad92301",
+              "amount": 362,
+              "price": 70316,
+              "manufacturer": "Tesla",
+              "notes": "3GlO5pLwzOdZatX7iMXYqdvM8IcAmkBsyqAZct5RPVb1axKehJEeDbWDI7XpznsT4t3wkkEKybmBD3AolBwvUSKWYjBc7YPhWZEpQHWoEe8bLOVrwvCqZ6Nn9z004w5iILBawbScbYdGjSDfwuDVKyAhA2SSZPhayWUXUTS31p8oWYNddnabsFc9FNEoUzu3LqlHKLR1Z3PN0orMfl51xdJeDaV2gnDq0xeBrH8j4hpFggI5uAIfPnqFkE",
+              "received": false
+            }
+          ],
+          "total_price": 70316,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:45:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695963c21c508c5d5e970ae6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

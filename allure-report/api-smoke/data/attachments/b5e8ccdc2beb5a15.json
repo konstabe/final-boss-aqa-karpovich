@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:45:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3879",
+    "etag": "W/\"f27-JXPpYzXLLFkUvHjdOrhx08nlw5c\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695963cb1c508c5d5e970ee9",
+      "status": "In Process",
+      "customer": {
+        "_id": "695963ca1c508c5d5e970e83",
+        "email": "Keegan_Padberg82@hotmail.com",
+        "name": "Elvis Grady",
+        "country": "Canada",
+        "city": "New Maeve",
+        "street": "Denis Gateway",
+        "house": 2,
+        "flat": 867,
+        "phone": "+17146089100",
+        "createdOn": "2026-01-03T18:45:30.000Z",
+        "notes": "wSSQclIBZYE5lL7kVnheyw8ZvUEadekm6n5Ch7VEmv2o8WpC2PTkiOTniVNdmYgdAJxekIyS0rLLoaqcm3ClKQ40rIrnrDDeEf7uoBfeCS551cof9mxAFHnHu5Kfq1JBLDvYMCO3aYYCC1D4ku6TB0gtS8HF38RRWYpP4McaRa8BiXpy6slLnLNxFZZDaNWeOooFLjCsLrIo9o2eXAHPc0WomZD5jCxeNdG4h0D691wzZs6ujY03jdMTRR"
+      },
+      "products": [
+        {
+          "_id": "695963cb1c508c5d5e970edc",
+          "name": "Towels26744",
+          "amount": 302,
+          "price": 75832,
+          "manufacturer": "Tesla",
+          "notes": "xFV50ihXyGf5QFr33D4QRvqncSmfoK6h1qYljlRJ5yO0JsN6TlpGdGLHGCzcoxlCGLXRxSUacETao60XPO8rTywEM1S1O5mppVLTmgRN8MnET2oxfsSsxQRMqScWDqv7GLlnp8wYxHe3MZ59vRyPSurzPU3Kt12B7GkiQ3eufwtXGGmP9hROTxGfCXpI3qwq6eHHRcNLGT5vAJ9leIrXYOM5UDeiX5p5z5V0mdmf9XtynnUg9CyZ4bujVB",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "New Maeve",
+          "street": "Denis Gateway",
+          "house": 2,
+          "flat": 867
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 75832,
+      "createdOn": "2026-01-03T18:45:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695963ca1c508c5d5e970e83",
+          "products": [
+            {
+              "_id": "695963cb1c508c5d5e970edc",
+              "name": "Towels26744",
+              "amount": 302,
+              "price": 75832,
+              "manufacturer": "Tesla",
+              "notes": "xFV50ihXyGf5QFr33D4QRvqncSmfoK6h1qYljlRJ5yO0JsN6TlpGdGLHGCzcoxlCGLXRxSUacETao60XPO8rTywEM1S1O5mppVLTmgRN8MnET2oxfsSsxQRMqScWDqv7GLlnp8wYxHe3MZ59vRyPSurzPU3Kt12B7GkiQ3eufwtXGGmP9hROTxGfCXpI3qwq6eHHRcNLGT5vAJ9leIrXYOM5UDeiX5p5z5V0mdmf9XtynnUg9CyZ4bujVB",
+              "received": false
+            }
+          ],
+          "total_price": 75832,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "New Maeve",
+              "street": "Denis Gateway",
+              "house": 2,
+              "flat": 867
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:45:32.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695963ca1c508c5d5e970e83",
+          "products": [
+            {
+              "_id": "695963cb1c508c5d5e970edc",
+              "name": "Towels26744",
+              "amount": 302,
+              "price": 75832,
+              "manufacturer": "Tesla",
+              "notes": "xFV50ihXyGf5QFr33D4QRvqncSmfoK6h1qYljlRJ5yO0JsN6TlpGdGLHGCzcoxlCGLXRxSUacETao60XPO8rTywEM1S1O5mppVLTmgRN8MnET2oxfsSsxQRMqScWDqv7GLlnp8wYxHe3MZ59vRyPSurzPU3Kt12B7GkiQ3eufwtXGGmP9hROTxGfCXpI3qwq6eHHRcNLGT5vAJ9leIrXYOM5UDeiX5p5z5V0mdmf9XtynnUg9CyZ4bujVB",
+              "received": false
+            }
+          ],
+          "total_price": 75832,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "New Maeve",
+              "street": "Denis Gateway",
+              "house": 2,
+              "flat": 867
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:45:32.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695963ca1c508c5d5e970e83",
+          "products": [
+            {
+              "_id": "695963cb1c508c5d5e970edc",
+              "name": "Towels26744",
+              "amount": 302,
+              "price": 75832,
+              "manufacturer": "Tesla",
+              "notes": "xFV50ihXyGf5QFr33D4QRvqncSmfoK6h1qYljlRJ5yO0JsN6TlpGdGLHGCzcoxlCGLXRxSUacETao60XPO8rTywEM1S1O5mppVLTmgRN8MnET2oxfsSsxQRMqScWDqv7GLlnp8wYxHe3MZ59vRyPSurzPU3Kt12B7GkiQ3eufwtXGGmP9hROTxGfCXpI3qwq6eHHRcNLGT5vAJ9leIrXYOM5UDeiX5p5z5V0mdmf9XtynnUg9CyZ4bujVB",
+              "received": false
+            }
+          ],
+          "total_price": 75832,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:45:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

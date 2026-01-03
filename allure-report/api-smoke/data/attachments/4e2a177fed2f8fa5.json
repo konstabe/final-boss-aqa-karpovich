@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:45:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2815",
+    "etag": "W/\"aff-AeVb/f44yph12XP3eMfaKBQHiM4\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695963c61c508c5d5e970c75",
+      "status": "Draft",
+      "customer": {
+        "_id": "695963c21c508c5d5e970acb",
+        "email": "Eliseo.Schiller@gmail.com",
+        "name": "Marie Lebsack",
+        "country": "Canada",
+        "city": "Dibbertbury",
+        "street": "Beahan Prairie",
+        "house": 11,
+        "flat": 100,
+        "phone": "+17529474433",
+        "createdOn": "2026-01-03T18:45:22.000Z",
+        "notes": "3sIZ1W4AAvVeBq3i2MFgrKpSjCouP2jB6xbOlJKaWTq96x39DGncZcVCYwrcWlngnyIZnP06L4ZFtU6bxwZLvle3Iu47UrGGl3zNR75BLLv2Q3R92aLvw8JH9jf3gUH9fNq6MnhAO1ZEUw21lv9rO6s28V4pOqbChXZmdOxbXRaaJgpmW6petbJJVlqsyMSLasE3KMRttd9q8nf9sGvmZKjqtrvLy9XNuSOqxtUzwrkUmGwPKSz7XXPTk6"
+      },
+      "products": [
+        {
+          "_id": "695963c31c508c5d5e970b61",
+          "name": "Table18036",
+          "amount": 342,
+          "price": 85740,
+          "manufacturer": "Google",
+          "notes": "pavXTRxB92dx3yGA7OBgaFYvBXaYGApWq4kLc0XqpNsmMFhkjSufzRj0kXNrXO6rDCiD7v1j9rFI7TaPXnrLDYLcUoHLVzv9lBvOspkXJiVwKrpmVd2qIr5rzjwa0D1fqgTZgikrTG6yZjbpJkRkjyZMtOR3RSqO8sB5EYh4q3WvXbZGvMSsEjtJJOP5dwntzyKt6U8mERTVYEAzJDcWQX4DX2N7FfqQ32Fj7xVHbVy9CZXAu6sPK7BlZy",
+          "received": false
+        },
+        {
+          "_id": "695963c51c508c5d5e970bc7",
+          "name": "Bacon46232",
+          "amount": 966,
+          "price": 69785,
+          "manufacturer": "Google",
+          "notes": "Xj7dngy1ASRjPYjWHaa37U1MGMga79lJkgLWfsEzN0hpddvWLFngUkp7oq0LSbfKRKuWRqKbnWaAfPJTFN64rEia4nCOrimOnZjkz2bSNEjk0RakR1TTNNUTVV5p0tUUELsNjlR89RMzx4JkkMPjjhYnalZLoVK6bP0CP61iXeXLhdMPb3enDrFy9zxZ8JQyuXUZXznRQ0uIyhd5PmetIKxmdRPSvFXblXYnNkdjOvi8UEVH4C64Y1MMG3",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 155525,
+      "createdOn": "2026-01-03T18:45:26.000Z",
+      "comments": [
+        {
+          "text": "k9LnpTda9R4r6ociHdpJ9wAPrbcN219CHwulg8uAKVv247HywucSAlnxdHuvyAOwXbiZeW0P1eT",
+          "createdOn": "2026-01-03T18:45:26.000Z",
+          "_id": "695963c61c508c5d5e970dce"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695963c21c508c5d5e970acb",
+          "products": [
+            {
+              "_id": "695963c31c508c5d5e970b61",
+              "name": "Table18036",
+              "amount": 342,
+              "price": 85740,
+              "manufacturer": "Google",
+              "notes": "pavXTRxB92dx3yGA7OBgaFYvBXaYGApWq4kLc0XqpNsmMFhkjSufzRj0kXNrXO6rDCiD7v1j9rFI7TaPXnrLDYLcUoHLVzv9lBvOspkXJiVwKrpmVd2qIr5rzjwa0D1fqgTZgikrTG6yZjbpJkRkjyZMtOR3RSqO8sB5EYh4q3WvXbZGvMSsEjtJJOP5dwntzyKt6U8mERTVYEAzJDcWQX4DX2N7FfqQ32Fj7xVHbVy9CZXAu6sPK7BlZy",
+              "received": false
+            },
+            {
+              "_id": "695963c51c508c5d5e970bc7",
+              "name": "Bacon46232",
+              "amount": 966,
+              "price": 69785,
+              "manufacturer": "Google",
+              "notes": "Xj7dngy1ASRjPYjWHaa37U1MGMga79lJkgLWfsEzN0hpddvWLFngUkp7oq0LSbfKRKuWRqKbnWaAfPJTFN64rEia4nCOrimOnZjkz2bSNEjk0RakR1TTNNUTVV5p0tUUELsNjlR89RMzx4JkkMPjjhYnalZLoVK6bP0CP61iXeXLhdMPb3enDrFy9zxZ8JQyuXUZXznRQ0uIyhd5PmetIKxmdRPSvFXblXYnNkdjOvi8UEVH4C64Y1MMG3",
+              "received": false
+            }
+          ],
+          "total_price": 155525,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:45:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

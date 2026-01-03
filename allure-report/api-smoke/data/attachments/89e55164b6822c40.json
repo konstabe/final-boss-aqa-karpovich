@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:46:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2980",
+    "etag": "W/\"ba4-KlSjqByzx96G69Rjd1Tu1zKfMTQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695963f11c508c5d5e972237",
+      "status": "Draft",
+      "customer": {
+        "_id": "695963e91c508c5d5e972173",
+        "email": "Colin_Johns60@gmail.com",
+        "name": "Lavada Corkery",
+        "country": "Canada",
+        "city": "East Patienceborough",
+        "street": "Daphney Pike",
+        "house": 18,
+        "flat": 180,
+        "phone": "+12259359439",
+        "createdOn": "2026-01-03T18:46:01.000Z",
+        "notes": "RbFo9vz849LH584YRiJ167Z5wpRqNqRSLk756SwENsq7t5XL9xv7yp7hcikpFxnNqx2BwKKG0xekTha2x8EdJeIgC2uduV9XpSscyXpqxUjsyyGrhsXK00yz0sA21B5XWVzilD5HQb9359XpNKZ702k6WkflucqMcclsOgZjH14nEohYql6DRgmt5Ik8FfNLAGVnc3EU9hN12YBuayix0URJRfR3oxxphjGOuh6HgBCgIP8jdBc6gALEWQ"
+      },
+      "products": [
+        {
+          "_id": "695963f11c508c5d5e97222f",
+          "name": "Keyboard66416",
+          "amount": 668,
+          "price": 98494,
+          "manufacturer": "Microsoft",
+          "notes": "k1LHsugXMMtiksy9Enpm3jaylMlGd2EEPmWw4qcPmmFh5Xo9XPsFyKWL5fi3TKPFwseug8Xt43Mxmu2tNVF8UTOk9ptSueip9LPBhCAXeGorABvZxyhG97yyie5YFuHtJ4Ga3f6yTeUL7vT2ZpdXwUQdbWmF8IiFUvTfSCoR00P4cYx50u2EDte4LQ1baNnfOIG28xbxcsOhjoi7jME1NTsEEsIJIEguQbmvEDqIGfVh7PNYrqViQhwsQa",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98494,
+      "createdOn": "2026-01-03T18:46:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695963e91c508c5d5e972173",
+          "products": [
+            {
+              "_id": "695963f11c508c5d5e97222f",
+              "name": "Keyboard66416",
+              "amount": 668,
+              "price": 98494,
+              "manufacturer": "Microsoft",
+              "notes": "k1LHsugXMMtiksy9Enpm3jaylMlGd2EEPmWw4qcPmmFh5Xo9XPsFyKWL5fi3TKPFwseug8Xt43Mxmu2tNVF8UTOk9ptSueip9LPBhCAXeGorABvZxyhG97yyie5YFuHtJ4Ga3f6yTeUL7vT2ZpdXwUQdbWmF8IiFUvTfSCoR00P4cYx50u2EDte4LQ1baNnfOIG28xbxcsOhjoi7jME1NTsEEsIJIEguQbmvEDqIGfVh7PNYrqViQhwsQa",
+              "received": false
+            }
+          ],
+          "total_price": 98494,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:46:10.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695963e91c508c5d5e972173",
+          "products": [
+            {
+              "_id": "695963f11c508c5d5e97222f",
+              "name": "Keyboard66416",
+              "amount": 668,
+              "price": 98494,
+              "manufacturer": "Microsoft",
+              "notes": "k1LHsugXMMtiksy9Enpm3jaylMlGd2EEPmWw4qcPmmFh5Xo9XPsFyKWL5fi3TKPFwseug8Xt43Mxmu2tNVF8UTOk9ptSueip9LPBhCAXeGorABvZxyhG97yyie5YFuHtJ4Ga3f6yTeUL7vT2ZpdXwUQdbWmF8IiFUvTfSCoR00P4cYx50u2EDte4LQ1baNnfOIG28xbxcsOhjoi7jME1NTsEEsIJIEguQbmvEDqIGfVh7PNYrqViQhwsQa",
+              "received": false
+            }
+          ],
+          "total_price": 98494,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:46:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
