@@ -57,6 +57,7 @@ jobs:
                   name: smoke-history
                   path: allure-results
                   retention-days: 10
+                  if-no-files-found: ignore
 
     test:
         timeout-minutes: 60
@@ -89,12 +90,6 @@ jobs:
                   TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
               run: npm run test:api-smoke
               continue-on-error: true
-
-            - name: Download smoke history
-              uses: actions/download-artifact@v4
-              with:
-                  name: smoke-history
-                  path: ./allure-results
 
             - name: Create Allure report
               run: npm run allure-report
