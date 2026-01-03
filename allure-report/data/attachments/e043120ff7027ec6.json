@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:55:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2960",
+    "etag": "W/\"b90-9BU+ctgqdM54AsygkoE/tq6tcns\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69591fbf1c508c5d5e8a16ca",
+      "status": "Draft",
+      "customer": {
+        "_id": "69591fba1c508c5d5e8a1648",
+        "email": "Garrick.Parisian70@gmail.com",
+        "name": "Lisandro Reichel",
+        "country": "USA",
+        "city": "Pinellas Park",
+        "street": "Kingfisher Close",
+        "house": 37,
+        "flat": 525,
+        "phone": "+18505099033",
+        "createdOn": "2026-01-03T13:55:06.000Z",
+        "notes": "uyBMKJKXhJ9c51Q03xp2Fx6z93rjlR6bASa5rzlAr0kengoZHj2u1kK21S80sU9MOTxaW9Q83dx61cpgnMjUWod0guz3ljb9nr4ebPG9oKU75eVGx8O4X4w7AXmV2RO2szbcZ05mCEdubfyrLKYJ5DzmdUqUf6L7zzMnbnV7LqYugxdBA2fZnshdmoUrBuMBfqFVQJZkZr25tGsm8jwEuDbfMABM9zmszIkvj4hwoYsoLkr9bCcZYzFHst"
+      },
+      "products": [
+        {
+          "_id": "69591fbf1c508c5d5e8a16b5",
+          "name": "Fish38299",
+          "amount": 189,
+          "price": 79583,
+          "manufacturer": "Google",
+          "notes": "Egn5j9vqNGYm5eVLT1d4fMiUarRizp85WFc6I7W6XyUxobSIxa2C04T3zUu1lw7mdtGBQwqLPDPjGI2UGmd9p7fVDQBiQpIF1WkVLwEBI6uDN9sdZdlkPNAQTFeQuNYzpISQHqeFGEePQALv4DrD19gSdKYfgpWc7iHQYAMDu8EVASP4djrPBsZY5h5eM0rB6NTpnTkMwmBP93a1KaKpnbq2ofrELrvalt4M55SDEFzeAqx1BuctuVYHXt",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 79583,
+      "createdOn": "2026-01-03T13:55:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69591fba1c508c5d5e8a1648",
+          "products": [
+            {
+              "_id": "69591fbf1c508c5d5e8a16b5",
+              "name": "Fish38299",
+              "amount": 189,
+              "price": 79583,
+              "manufacturer": "Google",
+              "notes": "Egn5j9vqNGYm5eVLT1d4fMiUarRizp85WFc6I7W6XyUxobSIxa2C04T3zUu1lw7mdtGBQwqLPDPjGI2UGmd9p7fVDQBiQpIF1WkVLwEBI6uDN9sdZdlkPNAQTFeQuNYzpISQHqeFGEePQALv4DrD19gSdKYfgpWc7iHQYAMDu8EVASP4djrPBsZY5h5eM0rB6NTpnTkMwmBP93a1KaKpnbq2ofrELrvalt4M55SDEFzeAqx1BuctuVYHXt",
+              "received": false
+            }
+          ],
+          "total_price": 79583,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:55:11.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69591fba1c508c5d5e8a1648",
+          "products": [
+            {
+              "_id": "69591fbf1c508c5d5e8a16b5",
+              "name": "Fish38299",
+              "amount": 189,
+              "price": 79583,
+              "manufacturer": "Google",
+              "notes": "Egn5j9vqNGYm5eVLT1d4fMiUarRizp85WFc6I7W6XyUxobSIxa2C04T3zUu1lw7mdtGBQwqLPDPjGI2UGmd9p7fVDQBiQpIF1WkVLwEBI6uDN9sdZdlkPNAQTFeQuNYzpISQHqeFGEePQALv4DrD19gSdKYfgpWc7iHQYAMDu8EVASP4djrPBsZY5h5eM0rB6NTpnTkMwmBP93a1KaKpnbq2ofrELrvalt4M55SDEFzeAqx1BuctuVYHXt",
+              "received": false
+            }
+          ],
+          "total_price": 79583,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:55:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

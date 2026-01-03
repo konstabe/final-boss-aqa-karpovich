@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:55:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-7ZbrfOHkbd8zA9mi7axv6lpt9ao\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69591fbe1c508c5d5e8a169f",
+        "email": "Hattie_Watsica@gmail.com",
+        "name": "Madisen Jenkins",
+        "country": "Ukraine",
+        "city": "Bend",
+        "street": "Mary Lakes",
+        "house": 14,
+        "flat": 868,
+        "phone": "+15384273085",
+        "createdOn": "2026-01-03T13:55:10.000Z",
+        "notes": "J6DrOWiRX5anjQYPKBI975XpLiRnDZ4dIoL7OV1Z9brbLcA1zWQOD17kkaEbHhhjkp9qmEXdwN0rSQHI1w5o8en5A8s8S50RlcbxODjy85hAbR4gc3Da0bRmeGLcbBsfvRglLjA1Ch2z1T2kGGFdpvHrcozNyIBzNXUatHMJNKLaTfophJcjy4HXGJ9naPcMtmXBV3Xo9H5sAingspHYnWAseKSXjJuqncg2rfshfY7eElNfRyq2JTBRUl"
+      },
+      "products": [
+        {
+          "_id": "69591fc31c508c5d5e8a181c",
+          "name": "Keyboard55447",
+          "amount": 675,
+          "price": 61373,
+          "manufacturer": "Tesla",
+          "notes": "JntVaZwCfwednazfEau45xAkmnqJzt5vdgs7CHyojSo5y0mahy6b1sSjyqxPLhO3gODOPG8aUGcPsip5pSXLa4x4IeOZHuPqGGde9mE2u3nFRjZTrbXCDj8vIN00sLLSmcrDESityiLvzXrHvVblGOBujTQWQtRR58FYTqcUYXnG80Y3HmtZtiXK8eNbSogZWMAneVV6hr2CMlN24ySF370QgBKuEhq8hiKmmtV23vJFVjahcl2bZ39NVG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 61373,
+      "createdOn": "2026-01-03T13:55:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69591fbe1c508c5d5e8a169f",
+          "products": [
+            {
+              "_id": "69591fc31c508c5d5e8a181c",
+              "name": "Keyboard55447",
+              "amount": 675,
+              "price": 61373,
+              "manufacturer": "Tesla",
+              "notes": "JntVaZwCfwednazfEau45xAkmnqJzt5vdgs7CHyojSo5y0mahy6b1sSjyqxPLhO3gODOPG8aUGcPsip5pSXLa4x4IeOZHuPqGGde9mE2u3nFRjZTrbXCDj8vIN00sLLSmcrDESityiLvzXrHvVblGOBujTQWQtRR58FYTqcUYXnG80Y3HmtZtiXK8eNbSogZWMAneVV6hr2CMlN24ySF370QgBKuEhq8hiKmmtV23vJFVjahcl2bZ39NVG",
+              "received": false
+            }
+          ],
+          "total_price": 61373,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:55:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69591fc41c508c5d5e8a1841"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

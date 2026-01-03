@@ -1,0 +1,187 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:55:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5239",
+    "etag": "W/\"1477-59GUWcoJw8BsxuVxTRY/twPCn2Q\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69591fd61c508c5d5e8a1d3f",
+      "status": "Draft",
+      "customer": {
+        "_id": "69591fc61c508c5d5e8a1901",
+        "email": "Lucienne50@hotmail.com",
+        "name": "Eriberto Kassulke",
+        "country": "Canada",
+        "city": "Ziemannmouth",
+        "street": "Baumbach Track",
+        "house": 31,
+        "flat": 859,
+        "phone": "+15486366666",
+        "createdOn": "2026-01-03T13:55:18.000Z",
+        "notes": "OQ2ap5QRCPJgFPbwUVu97K8kqUrsslC1sRVZyuc5HWmcaqBL6yI1eNFhd3VXXdgX8jbEi6Lz8o1BAYFSPreMlszUuqrxhqFACDtlL0TQ5Qz2opkxQD3Nyae2VZEvY3QLUe96MHM48nxH0Xj3dc8lwuQwiL7U2TOcj3lVd0m2bQjj9RLYH5Azp22AjTthrk3njmQi60196MuFemxMeyJJhiuHab0JaF0mRFniYao413aQW5gSxwQDymWOm9"
+      },
+      "products": [
+        {
+          "_id": "69591fcb1c508c5d5e8a1ab9",
+          "name": "Car17476",
+          "amount": 715,
+          "price": 73672,
+          "manufacturer": "Sony",
+          "notes": "6D9kZRsxX4CvjwSpNbORtiUCJa343GJUfJdtHXBNBv5onZJBKSJl4czB5cq10bcPuPqF89ianoKTp8j6U7NHLzRIJ8rnJbm4GNbyh9qeU4qtnKR1bkVn5ZWYuYP9cDu8GD1uzGU4REoKEjJgJ6kYUaNS657QXBNODXMcZ4Xd7MyumGRYVN1ugnBSo67X8S8s618xFxQ5FkHpHFZ8LMDequYQ5YnHWywShAeejjvyfbRU2z3xrUUWdVmdh8",
+          "received": false
+        },
+        {
+          "_id": "69591fd01c508c5d5e8a1b6d",
+          "name": "Bike42327",
+          "amount": 457,
+          "price": 4628,
+          "manufacturer": "Sony",
+          "notes": "blyu4k1IHSenDTwHfqt5O2zp6xzldSNRBlQAoeJee7zbPFIilvBTWlLV5IjUbeDbq8g2fzdAjgxBfKqvkvrUHVm9ZZOmT9m8p9pjoxzDtgCfOTvVoBEPa2vBURsEcIrsHG8b6OgKziEucmt0STX7h1jvSy2fJo1GTPRy52NP6CfS4Asv4lAYWqqGLSp4mbBC9VBdrHvzqXOeBVto2s1PujdtRr8zS8OG4TkWOXF5disgI1ZoKvtweEHSEy",
+          "received": false
+        },
+        {
+          "_id": "69591fd51c508c5d5e8a1d2c",
+          "name": "Tuna92291",
+          "amount": 417,
+          "price": 26481,
+          "manufacturer": "Apple",
+          "notes": "044Ph5zbrdSV2USe6bg4BaaiRchcOUzapkVY2eniXlyWTnawLvbqcDGnauX2MwNBDULv61QDHycuSZPHxhRheSpDgvCPmzI8k166GPqX57a0TY9XIjIK59mHp4uYkpENoz2Wigjcx996Cht44BSpVyLfGg6bIhejlooouFnKsbI50qjKRdLtaCyL3VjRU1x8s2QGyV9InJMCWF9UCYRFGreyMvFlRrhebn29lxc7OK4xml8nTWPPeev91M",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Ziemannmouth",
+          "street": "Baumbach Track",
+          "house": 31,
+          "flat": 859
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 104781,
+      "createdOn": "2026-01-03T13:55:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69591fc61c508c5d5e8a1901",
+          "products": [
+            {
+              "_id": "69591fcb1c508c5d5e8a1ab9",
+              "name": "Car17476",
+              "amount": 715,
+              "price": 73672,
+              "manufacturer": "Sony",
+              "notes": "6D9kZRsxX4CvjwSpNbORtiUCJa343GJUfJdtHXBNBv5onZJBKSJl4czB5cq10bcPuPqF89ianoKTp8j6U7NHLzRIJ8rnJbm4GNbyh9qeU4qtnKR1bkVn5ZWYuYP9cDu8GD1uzGU4REoKEjJgJ6kYUaNS657QXBNODXMcZ4Xd7MyumGRYVN1ugnBSo67X8S8s618xFxQ5FkHpHFZ8LMDequYQ5YnHWywShAeejjvyfbRU2z3xrUUWdVmdh8",
+              "received": false
+            },
+            {
+              "_id": "69591fd01c508c5d5e8a1b6d",
+              "name": "Bike42327",
+              "amount": 457,
+              "price": 4628,
+              "manufacturer": "Sony",
+              "notes": "blyu4k1IHSenDTwHfqt5O2zp6xzldSNRBlQAoeJee7zbPFIilvBTWlLV5IjUbeDbq8g2fzdAjgxBfKqvkvrUHVm9ZZOmT9m8p9pjoxzDtgCfOTvVoBEPa2vBURsEcIrsHG8b6OgKziEucmt0STX7h1jvSy2fJo1GTPRy52NP6CfS4Asv4lAYWqqGLSp4mbBC9VBdrHvzqXOeBVto2s1PujdtRr8zS8OG4TkWOXF5disgI1ZoKvtweEHSEy",
+              "received": false
+            },
+            {
+              "_id": "69591fd51c508c5d5e8a1d2c",
+              "name": "Tuna92291",
+              "amount": 417,
+              "price": 26481,
+              "manufacturer": "Apple",
+              "notes": "044Ph5zbrdSV2USe6bg4BaaiRchcOUzapkVY2eniXlyWTnawLvbqcDGnauX2MwNBDULv61QDHycuSZPHxhRheSpDgvCPmzI8k166GPqX57a0TY9XIjIK59mHp4uYkpENoz2Wigjcx996Cht44BSpVyLfGg6bIhejlooouFnKsbI50qjKRdLtaCyL3VjRU1x8s2QGyV9InJMCWF9UCYRFGreyMvFlRrhebn29lxc7OK4xml8nTWPPeev91M",
+              "received": false
+            }
+          ],
+          "total_price": 104781,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Ziemannmouth",
+              "street": "Baumbach Track",
+              "house": 31,
+              "flat": 859
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T13:55:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69591fc61c508c5d5e8a1901",
+          "products": [
+            {
+              "_id": "69591fcb1c508c5d5e8a1ab9",
+              "name": "Car17476",
+              "amount": 715,
+              "price": 73672,
+              "manufacturer": "Sony",
+              "notes": "6D9kZRsxX4CvjwSpNbORtiUCJa343GJUfJdtHXBNBv5onZJBKSJl4czB5cq10bcPuPqF89ianoKTp8j6U7NHLzRIJ8rnJbm4GNbyh9qeU4qtnKR1bkVn5ZWYuYP9cDu8GD1uzGU4REoKEjJgJ6kYUaNS657QXBNODXMcZ4Xd7MyumGRYVN1ugnBSo67X8S8s618xFxQ5FkHpHFZ8LMDequYQ5YnHWywShAeejjvyfbRU2z3xrUUWdVmdh8",
+              "received": false
+            },
+            {
+              "_id": "69591fd01c508c5d5e8a1b6d",
+              "name": "Bike42327",
+              "amount": 457,
+              "price": 4628,
+              "manufacturer": "Sony",
+              "notes": "blyu4k1IHSenDTwHfqt5O2zp6xzldSNRBlQAoeJee7zbPFIilvBTWlLV5IjUbeDbq8g2fzdAjgxBfKqvkvrUHVm9ZZOmT9m8p9pjoxzDtgCfOTvVoBEPa2vBURsEcIrsHG8b6OgKziEucmt0STX7h1jvSy2fJo1GTPRy52NP6CfS4Asv4lAYWqqGLSp4mbBC9VBdrHvzqXOeBVto2s1PujdtRr8zS8OG4TkWOXF5disgI1ZoKvtweEHSEy",
+              "received": false
+            },
+            {
+              "_id": "69591fd51c508c5d5e8a1d2c",
+              "name": "Tuna92291",
+              "amount": 417,
+              "price": 26481,
+              "manufacturer": "Apple",
+              "notes": "044Ph5zbrdSV2USe6bg4BaaiRchcOUzapkVY2eniXlyWTnawLvbqcDGnauX2MwNBDULv61QDHycuSZPHxhRheSpDgvCPmzI8k166GPqX57a0TY9XIjIK59mHp4uYkpENoz2Wigjcx996Cht44BSpVyLfGg6bIhejlooouFnKsbI50qjKRdLtaCyL3VjRU1x8s2QGyV9InJMCWF9UCYRFGreyMvFlRrhebn29lxc7OK4xml8nTWPPeev91M",
+              "received": false
+            }
+          ],
+          "total_price": 104781,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:55:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

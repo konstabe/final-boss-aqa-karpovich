@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:55:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2950",
+    "etag": "W/\"b86-upSOLCU0sa7nt/Cv5oId3OUeDkc\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69591fbf1c508c5d5e8a16c2",
+      "status": "Draft",
+      "customer": {
+        "_id": "69591fba1c508c5d5e8a1646",
+        "email": "Winifred31@yahoo.com",
+        "name": "Barrett Beahan",
+        "country": "Ukraine",
+        "city": "Port Chad",
+        "street": "Sanford Court",
+        "house": 29,
+        "flat": 160,
+        "phone": "+13406304097",
+        "createdOn": "2026-01-03T13:55:06.000Z",
+        "notes": "cZS02wRw69JEYTo6zI6Ed5DnsAbS7omRgnlmCJ0fcjqsGJoacYog9nHXWYsaVV9BZ0Wm5U5wEbr4RGtSY2B5i60kHyf7rvpiHLMJLmaEaRaoMkKpzs5vQwswrErRlFxAfY97Abd37USsTVMYvcO04wZpTDfliVbZj842VYPuTb0dwBCMvagmfmakRDTUetXIabeLK4Md0g2u41rMjbcppZYkUe5lQQB8Jm6vZw0wLVX3N79J8vmXLnsiOl"
+      },
+      "products": [
+        {
+          "_id": "69591fbf1c508c5d5e8a16b3",
+          "name": "Chair44391",
+          "amount": 984,
+          "price": 28562,
+          "manufacturer": "Google",
+          "notes": "ASuV1CZV9SCBaBtFAnOr7NqLCcr6GNuzoWPbDIzkJqx6bhkgElfdJNQKC1nLEaQgfMtO9HTjq9VPN3kqMpSVj02oVVFziHhfLR3QJxrIi8MMo19oiSI5rwPe9GD1RPZmx8aL0IS6aWCe4uKYKrzJvAObeyz5EutYStdtNepff1o59kxIIILWaTgO1vPclc8QrGVrXnXJympj0EZNUByqeCwYkfwqy0oBCqkQrvGDSu2ZweT8FhAQpTuqnR",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 28562,
+      "createdOn": "2026-01-03T13:55:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69591fba1c508c5d5e8a1646",
+          "products": [
+            {
+              "_id": "69591fbf1c508c5d5e8a16b3",
+              "name": "Chair44391",
+              "amount": 984,
+              "price": 28562,
+              "manufacturer": "Google",
+              "notes": "ASuV1CZV9SCBaBtFAnOr7NqLCcr6GNuzoWPbDIzkJqx6bhkgElfdJNQKC1nLEaQgfMtO9HTjq9VPN3kqMpSVj02oVVFziHhfLR3QJxrIi8MMo19oiSI5rwPe9GD1RPZmx8aL0IS6aWCe4uKYKrzJvAObeyz5EutYStdtNepff1o59kxIIILWaTgO1vPclc8QrGVrXnXJympj0EZNUByqeCwYkfwqy0oBCqkQrvGDSu2ZweT8FhAQpTuqnR",
+              "received": false
+            }
+          ],
+          "total_price": 28562,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:55:11.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69591fba1c508c5d5e8a1646",
+          "products": [
+            {
+              "_id": "69591fbf1c508c5d5e8a16b3",
+              "name": "Chair44391",
+              "amount": 984,
+              "price": 28562,
+              "manufacturer": "Google",
+              "notes": "ASuV1CZV9SCBaBtFAnOr7NqLCcr6GNuzoWPbDIzkJqx6bhkgElfdJNQKC1nLEaQgfMtO9HTjq9VPN3kqMpSVj02oVVFziHhfLR3QJxrIi8MMo19oiSI5rwPe9GD1RPZmx8aL0IS6aWCe4uKYKrzJvAObeyz5EutYStdtNepff1o59kxIIILWaTgO1vPclc8QrGVrXnXJympj0EZNUByqeCwYkfwqy0oBCqkQrvGDSu2ZweT8FhAQpTuqnR",
+              "received": false
+            }
+          ],
+          "total_price": 28562,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:55:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

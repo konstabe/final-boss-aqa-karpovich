@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:55:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2804",
+    "etag": "W/\"af4-diUodwypQtFeFo18czt65ZspbsM\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69591fc81c508c5d5e8a1955",
+      "status": "Draft",
+      "customer": {
+        "_id": "69591fbd1c508c5d5e8a168d",
+        "email": "Glenda1@gmail.com",
+        "name": "Kaelyn Brakus",
+        "country": "Ukraine",
+        "city": "Port Leopoldfurt",
+        "street": "Heaney Underpass",
+        "house": 22,
+        "flat": 41,
+        "phone": "+14856020804",
+        "createdOn": "2026-01-03T13:55:09.000Z",
+        "notes": "elOsJEs57biiAVTnJA6j8NIYHXGHSflxwWW9xnIV5n3gUN6q3NhpZOwF0Ft2nLDcEhcibKuIJw1dbN1F1uocDrr8zilq8JgyV9NrDkFfv4T6AgVmSEw1uCc8LE7b3Fesd1S7iBJXUNp2GyE7D5ZSKzBjNBNhufERoBXnzwLdmqe7ClLGH1HqU05Pf2WJX1pfzuKOIDMtPH5HsYYG28Au9uaAt7vqzFPdobFLQ1h1VoqAPQ0AxDAjES5rB3"
+      },
+      "products": [
+        {
+          "_id": "69591fc31c508c5d5e8a181e",
+          "name": "Fish52067",
+          "amount": 160,
+          "price": 151,
+          "manufacturer": "Amazon",
+          "notes": "LzNPpnVKA7JofqNBiRIHFBCvtkxz9I0FTIxZXVO645H5H5hmwUCZWsUdl81qj2Z41TOjLqe4pTNQ4Auz2FXNSPOYy9XY29myiqoFXEfvzRbPbrAIPb1IsIR9XG2rrjlrVSprNq7wmeFYxbAevJu7qxysmS5QGJctZU9AQlmZcXaisCg3VH0TieFTgx6JbjvYkCQMMCEPtLjuGX8E9MSBHR1SFU6U1nzxxwK3pBgr9LByTGAupxqtIgfGyZ",
+          "received": false
+        },
+        {
+          "_id": "69591fc81c508c5d5e8a1941",
+          "name": "Chair55705",
+          "amount": 453,
+          "price": 29554,
+          "manufacturer": "Apple",
+          "notes": "Y3SyMMQqu15hcq2xLCV0SPrCgBudE4dLTWRvMIvrvAgGsGXo0U4NzvhnKuvIT0T1mIKHTPSdxnYdiiSRal7Fp6Y5cVvb1ANgFuBIuF4XA12PKVsmj4NvlHs6GcGc0ZJr2kBUqXBskdxGe1yc96aDDdVFnpFJ5xF5mUFMWl0hKLBmgEj81piQipB6FR5cmqep9afAG8JENGKb2ElwtevLxjzcmduqKTl7BztMZdTRKQ3yRNu4ZlQWmdqoFD",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 29705,
+      "createdOn": "2026-01-03T13:55:20.000Z",
+      "comments": [
+        {
+          "text": "wTtwFRW1TkbMliftby2LLBPV1kgvVJhVs0QIRxShjOQNF3FPefaz4ZITIryXObNa2b6EmdOOstk",
+          "createdOn": "2026-01-03T13:55:21.000Z",
+          "_id": "69591fc91c508c5d5e8a196b"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69591fbd1c508c5d5e8a168d",
+          "products": [
+            {
+              "_id": "69591fc31c508c5d5e8a181e",
+              "name": "Fish52067",
+              "amount": 160,
+              "price": 151,
+              "manufacturer": "Amazon",
+              "notes": "LzNPpnVKA7JofqNBiRIHFBCvtkxz9I0FTIxZXVO645H5H5hmwUCZWsUdl81qj2Z41TOjLqe4pTNQ4Auz2FXNSPOYy9XY29myiqoFXEfvzRbPbrAIPb1IsIR9XG2rrjlrVSprNq7wmeFYxbAevJu7qxysmS5QGJctZU9AQlmZcXaisCg3VH0TieFTgx6JbjvYkCQMMCEPtLjuGX8E9MSBHR1SFU6U1nzxxwK3pBgr9LByTGAupxqtIgfGyZ",
+              "received": false
+            },
+            {
+              "_id": "69591fc81c508c5d5e8a1941",
+              "name": "Chair55705",
+              "amount": 453,
+              "price": 29554,
+              "manufacturer": "Apple",
+              "notes": "Y3SyMMQqu15hcq2xLCV0SPrCgBudE4dLTWRvMIvrvAgGsGXo0U4NzvhnKuvIT0T1mIKHTPSdxnYdiiSRal7Fp6Y5cVvb1ANgFuBIuF4XA12PKVsmj4NvlHs6GcGc0ZJr2kBUqXBskdxGe1yc96aDDdVFnpFJ5xF5mUFMWl0hKLBmgEj81piQipB6FR5cmqep9afAG8JENGKb2ElwtevLxjzcmduqKTl7BztMZdTRKQ3yRNu4ZlQWmdqoFD",
+              "received": false
+            }
+          ],
+          "total_price": 29705,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:55:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

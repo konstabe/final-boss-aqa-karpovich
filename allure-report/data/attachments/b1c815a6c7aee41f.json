@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:55:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2649",
+    "etag": "W/\"a59-7HnfPe1sm6824ZY8yVyPBhWWP5E\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69591fbd1c508c5d5e8a168f",
+        "email": "Elian_Howe84@yahoo.com",
+        "name": "Brigitte Pacocha",
+        "country": "Germany",
+        "city": "Bergstromhaven",
+        "street": "Ash Road",
+        "house": 46,
+        "flat": 698,
+        "phone": "+13866298050",
+        "createdOn": "2026-01-03T13:55:09.000Z",
+        "notes": "owqqM7NRNNFnkAms5JCoZXDyLiEO5MvrVGJzlCnYas6VL0vdqOySrtKO8Me5AdKF6iZrskQMvGLM61dpIz3F2hxInXIf6V6RjsVe0TEfzoQjYMIIXVDgO1tDcMYJLB4TMNtEXfG4JIgx03AAoHaRn1svLfkmiPjG6eEnb0VokXAMaZe49lUJopFteMR74cvb8MXbXfZGJ6d3dauTtq3W4nnWw4T36oYMZTfsnypGbFbXu2dTiPtJybZKlQ"
+      },
+      "products": [
+        {
+          "_id": "69591fc31c508c5d5e8a1820",
+          "name": "Sausages86211",
+          "amount": 98,
+          "price": 8386,
+          "manufacturer": "Apple",
+          "notes": "h1tMqeiG7XIpmW7bX1gHde4zj9hndAc90TTECBT1t19lWIFMZy1MdrWDYhwkZzRrZS4ShPc6IPdt2vBBDmXVDiONtAQBm8W6sJwsa2iowwd5pi4EEl85RXN960dElD6VCy53SboaUOCH90PbAW9gBO6x4T9mDr3ABTV7DJkAU586HWvVPon75q7kdSXsy1CaG42l1tYIK5pDz1N57UKjiI0CyqiYwoy93B6YEKj5uhCNpFrHdNtcV4GejL",
+          "received": false
+        },
+        {
+          "_id": "69591fc81c508c5d5e8a193f",
+          "name": "Hat15453",
+          "amount": 404,
+          "price": 19042,
+          "manufacturer": "Amazon",
+          "notes": "tG02hosOMzF42EMF5O1Qssl5SHp0eOLa3ufiTFPgEXJQ4sZxYy9WxHndHCeVQrBv2pJ8nRdyd06DUY19b8o2XUAQ1UoOkP0YGw0D95EHxHGVfUxaQWj33FPm1pvouIIY0yDY5GiM0qKbwFwJuwTsieWMYqVfqH59N6V0ZQrODxJObl1ttR4VXwRofrWjJNsjXAEVkEYflVcWojT6wlKyQo7KLtFLkWLGQp5Z2cjg87Ral0JMhol3HgK5k0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 27428,
+      "createdOn": "2026-01-03T13:55:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69591fbd1c508c5d5e8a168f",
+          "products": [
+            {
+              "_id": "69591fc31c508c5d5e8a1820",
+              "name": "Sausages86211",
+              "amount": 98,
+              "price": 8386,
+              "manufacturer": "Apple",
+              "notes": "h1tMqeiG7XIpmW7bX1gHde4zj9hndAc90TTECBT1t19lWIFMZy1MdrWDYhwkZzRrZS4ShPc6IPdt2vBBDmXVDiONtAQBm8W6sJwsa2iowwd5pi4EEl85RXN960dElD6VCy53SboaUOCH90PbAW9gBO6x4T9mDr3ABTV7DJkAU586HWvVPon75q7kdSXsy1CaG42l1tYIK5pDz1N57UKjiI0CyqiYwoy93B6YEKj5uhCNpFrHdNtcV4GejL",
+              "received": false
+            },
+            {
+              "_id": "69591fc81c508c5d5e8a193f",
+              "name": "Hat15453",
+              "amount": 404,
+              "price": 19042,
+              "manufacturer": "Amazon",
+              "notes": "tG02hosOMzF42EMF5O1Qssl5SHp0eOLa3ufiTFPgEXJQ4sZxYy9WxHndHCeVQrBv2pJ8nRdyd06DUY19b8o2XUAQ1UoOkP0YGw0D95EHxHGVfUxaQWj33FPm1pvouIIY0yDY5GiM0qKbwFwJuwTsieWMYqVfqH59N6V0ZQrODxJObl1ttR4VXwRofrWjJNsjXAEVkEYflVcWojT6wlKyQo7KLtFLkWLGQp5Z2cjg87Ral0JMhol3HgK5k0",
+              "received": false
+            }
+          ],
+          "total_price": 27428,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:55:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69591fc81c508c5d5e8a1953"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
