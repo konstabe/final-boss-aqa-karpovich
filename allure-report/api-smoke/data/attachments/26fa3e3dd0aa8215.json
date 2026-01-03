@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:24:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2967",
+    "etag": "W/\"b97-HTcNE/92p7i2ZPKLNYzHv/jQ8I4\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695918981c508c5d5e88b4df",
+      "status": "Draft",
+      "customer": {
+        "_id": "695918931c508c5d5e88b49a",
+        "email": "Pansy_Grimes@hotmail.com",
+        "name": "Karen Sipes",
+        "country": "Russia",
+        "city": "East Brantview",
+        "street": "Jerome Summit",
+        "house": 37,
+        "flat": 622,
+        "phone": "+15558366149",
+        "createdOn": "2026-01-03T13:24:35.000Z",
+        "notes": "KaCqpIytsSiFGdj1fR3R5ZGG13vV9C4Ywikif6JLqXXkkO7IeVvQbEPXLk2MFXQHiFYwM6V2BCpu7NDcz9tlIR02x00KJIq1nT6aQqaQcV7KUKnH7oW9ZR59fbhXr05cbGN6ZQLZog5oE1Fi4Wjzbr3q81m9pQLYFl7UHXU2HYPz8itXVdWO262t6A78khZjjFtO7mICjYYM5k9DHXdyvXRcSjOslTtCpZqfEoxoqJz6n2QbWZ4LPsIv7B"
+      },
+      "products": [
+        {
+          "_id": "695918981c508c5d5e88b4c1",
+          "name": "Computer71621",
+          "amount": 375,
+          "price": 81519,
+          "manufacturer": "Apple",
+          "notes": "y2PjkEiErlgkB2tFe4YC0Pzayt9kEq0e87f8VGVPSxvX2l2IuCs8iWNc7LCeOvKvq92TTadkJc0p8F7gOsrTajp8G3TI5Ks62FXNmnq9d6yZb5lyWzfn9Ly2cgq9ToDG4iQf43oRpmSwKcwSwYMZnfCvalZV2sokhcmlct53Tql0FulD5elaIiLpqrfV2UL5xvIaGngcSg9dvJ7yROwwtAWEP210eVTRys7wfeLAC8BUxDCxnPGdxADL8R",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "East Brantview",
+          "street": "Jerome Summit",
+          "house": 37,
+          "flat": 622
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 81519,
+      "createdOn": "2026-01-03T13:24:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695918931c508c5d5e88b49a",
+          "products": [
+            {
+              "_id": "695918981c508c5d5e88b4c1",
+              "name": "Computer71621",
+              "amount": 375,
+              "price": 81519,
+              "manufacturer": "Apple",
+              "notes": "y2PjkEiErlgkB2tFe4YC0Pzayt9kEq0e87f8VGVPSxvX2l2IuCs8iWNc7LCeOvKvq92TTadkJc0p8F7gOsrTajp8G3TI5Ks62FXNmnq9d6yZb5lyWzfn9Ly2cgq9ToDG4iQf43oRpmSwKcwSwYMZnfCvalZV2sokhcmlct53Tql0FulD5elaIiLpqrfV2UL5xvIaGngcSg9dvJ7yROwwtAWEP210eVTRys7wfeLAC8BUxDCxnPGdxADL8R",
+              "received": false
+            }
+          ],
+          "total_price": 81519,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "East Brantview",
+              "street": "Jerome Summit",
+              "house": 37,
+              "flat": 622
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T13:24:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695918931c508c5d5e88b49a",
+          "products": [
+            {
+              "_id": "695918981c508c5d5e88b4c1",
+              "name": "Computer71621",
+              "amount": 375,
+              "price": 81519,
+              "manufacturer": "Apple",
+              "notes": "y2PjkEiErlgkB2tFe4YC0Pzayt9kEq0e87f8VGVPSxvX2l2IuCs8iWNc7LCeOvKvq92TTadkJc0p8F7gOsrTajp8G3TI5Ks62FXNmnq9d6yZb5lyWzfn9Ly2cgq9ToDG4iQf43oRpmSwKcwSwYMZnfCvalZV2sokhcmlct53Tql0FulD5elaIiLpqrfV2UL5xvIaGngcSg9dvJ7yROwwtAWEP210eVTRys7wfeLAC8BUxDCxnPGdxADL8R",
+              "received": false
+            }
+          ],
+          "total_price": 81519,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:24:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

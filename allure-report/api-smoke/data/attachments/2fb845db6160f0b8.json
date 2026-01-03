@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:24:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2799",
+    "etag": "W/\"aef-GmMSh631ap1PdsAsrar2xKJBHZ4\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959188b1c508c5d5e88b21a",
+      "status": "Draft",
+      "customer": {
+        "_id": "695918821c508c5d5e88ac91",
+        "email": "Ludwig22@gmail.com",
+        "name": "Celine Reichel",
+        "country": "USA",
+        "city": "Atascocita",
+        "street": "State Avenue",
+        "house": 31,
+        "flat": 517,
+        "phone": "+12527218206",
+        "createdOn": "2026-01-03T13:24:18.000Z",
+        "notes": "cZeMs7wwApfLdme1caxC9fCSE5VyFp14SsebgGnZlrKinobiI4CiHIoIpdvX7iCy5MoT3zKKYabKaF7dQmhf3JGzHnbhQzui6TNlB6tfh89X9H5hthrpAmFW4M5LYZVMinE8ZQPfUkg4iCjFn7ATSQeqX8xSMsBPAou7flaxij7mBD936gjqrQY1Zt00F6ZMT55GWyXFtkUekO6f2DxGGdQmqBPXTlOPbDmqTGhhetjGN8RgbD5OtkpXJG"
+      },
+      "products": [
+        {
+          "_id": "695918861c508c5d5e88b020",
+          "name": "Shirt52869",
+          "amount": 175,
+          "price": 97390,
+          "manufacturer": "Sony",
+          "notes": "EZzLRexmhteQlIGHdj3mQqyLvznynwxG3ckzby33A2bf42rDX94n7CMdMhViFu0qZ6y2nWY4p4MoCclitiGDnqLXXkDJxlZ4ItaOn8ETRNmURCmHUKiQbPu6KA57P99OihGXD92oY3C8gPpXcULp0c0DwauYQutbSxDJkWaEeGk7vTqYQ7FYC4wHcE8xAImEh1t8TH9D8N5Z9FVnTgoRPp66E6lnO3Cx5RiN6n2tirgPw6dNxTgJF8DvRC",
+          "received": false
+        },
+        {
+          "_id": "6959188b1c508c5d5e88b1f7",
+          "name": "Shoes83284",
+          "amount": 887,
+          "price": 23615,
+          "manufacturer": "Xiaomi",
+          "notes": "oLUi0UsMVCoIviFMZyPMkoksCyMw1gAyZakooM9oxyc2VXI4Pwb2UAEZbByM8nBkZ2olCmGK2wQA9xkKMReJu1tgSNjRD74HYKNZvKW0L0fOdJdGovv27xu2cnSCLUTsmSuXqRJuEeI8GfUPWp9ueJneA4RgsWL3izRHwaQ2GoS9uG6iZvtARvH86728n4evI8cBAodLMb9pGlm0sSnSbxUW0vdZ5I2kMt7N7uzuITwgcrfxc1MBdW5KUM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 121005,
+      "createdOn": "2026-01-03T13:24:27.000Z",
+      "comments": [
+        {
+          "text": "JYcsSeIwF0kQKzmeL8LrXc2yv0R4Wb7ETnZQwimh92UQtixb6aqWiGPLb6EyEelMZMqvtJkCCqr",
+          "createdOn": "2026-01-03T13:24:27.000Z",
+          "_id": "6959188b1c508c5d5e88b238"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695918821c508c5d5e88ac91",
+          "products": [
+            {
+              "_id": "695918861c508c5d5e88b020",
+              "name": "Shirt52869",
+              "amount": 175,
+              "price": 97390,
+              "manufacturer": "Sony",
+              "notes": "EZzLRexmhteQlIGHdj3mQqyLvznynwxG3ckzby33A2bf42rDX94n7CMdMhViFu0qZ6y2nWY4p4MoCclitiGDnqLXXkDJxlZ4ItaOn8ETRNmURCmHUKiQbPu6KA57P99OihGXD92oY3C8gPpXcULp0c0DwauYQutbSxDJkWaEeGk7vTqYQ7FYC4wHcE8xAImEh1t8TH9D8N5Z9FVnTgoRPp66E6lnO3Cx5RiN6n2tirgPw6dNxTgJF8DvRC",
+              "received": false
+            },
+            {
+              "_id": "6959188b1c508c5d5e88b1f7",
+              "name": "Shoes83284",
+              "amount": 887,
+              "price": 23615,
+              "manufacturer": "Xiaomi",
+              "notes": "oLUi0UsMVCoIviFMZyPMkoksCyMw1gAyZakooM9oxyc2VXI4Pwb2UAEZbByM8nBkZ2olCmGK2wQA9xkKMReJu1tgSNjRD74HYKNZvKW0L0fOdJdGovv27xu2cnSCLUTsmSuXqRJuEeI8GfUPWp9ueJneA4RgsWL3izRHwaQ2GoS9uG6iZvtARvH86728n4evI8cBAodLMb9pGlm0sSnSbxUW0vdZ5I2kMt7N7uzuITwgcrfxc1MBdW5KUM",
+              "received": false
+            }
+          ],
+          "total_price": 121005,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:24:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
