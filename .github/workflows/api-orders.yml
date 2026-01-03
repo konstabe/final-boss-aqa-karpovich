@@ -18,13 +18,13 @@ jobs:
               with:
                   python-version: "3.10"
 
-            - name: Download allure-results artifact
+            - name: Download orders-history artifact
               run: |
                   ARTIFACT_ID=$(curl -s \
                     -H "Accept: application/vnd.github+json" \
                     -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
                     https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts \
-                    | python -c "import sys, json; data=json.load(sys.stdin); ids=[a['id'] for a in data.get('artifacts', []) if a['name']=='allure-results']; print(ids[0] if ids else '')")
+                    | python -c "import sys, json; data=json.load(sys.stdin); ids=[a['id'] for a in data.get('artifacts', []) if a['name']=='orders-history']; print(ids[0] if ids else '')")
                   if [ -n "$ARTIFACT_ID" ]; then
                     curl -L \
                       -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
@@ -32,7 +32,7 @@ jobs:
                       -o artifacts.zip
                     mkdir allure-results && unzip artifacts.zip -d allure-results
                   else
-                    echo "No allure-results artifact found"
+                    echo "No orders-history artifact found"
                   fi
 
             - name: Download github-pages artifact
@@ -55,10 +55,10 @@ jobs:
                     echo "No github-pages artifact found"
                   fi
 
-            - name: Store allure history
+            - name: Store orders history
               uses: actions/upload-artifact@v4
               with:
-                  name: allure-results
+                  name: orders-history
                   path: allure-results
                   retention-days: 10
 
@@ -94,10 +94,10 @@ jobs:
               run: npm run test:api-orders
               continue-on-error: true
 
-            - name: Download allure history
+            - name: Download orders history
               uses: actions/download-artifact@v4
               with:
-                  name: allure-results
+                  name: orders-history
                   path: ./allure-results
 
             - name: Create Allure report
