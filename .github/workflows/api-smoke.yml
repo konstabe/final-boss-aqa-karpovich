@@ -2,11 +2,12 @@ name: Run Sales Portal API smoke tests
 
 on:
     pull_request:
-    workflow_dispatch:
+    workflow_dispatch: # Manually trigger the workflow
 
 jobs:
     download-history:
         runs-on: ubuntu-latest
+        name: Download history
         steps:
             - name: Setup Python
               uses: actions/setup-python@v4
@@ -25,18 +26,37 @@ jobs:
                       -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
                       https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts/$ARTIFACT_ID/zip \
                       -o artifacts.zip
-                    mkdir smoke-history && unzip artifacts.zip -d smoke-history
+                    mkdir allure-results && unzip artifacts.zip -d allure-results
                   else
                     echo "No smoke-history artifact found"
+                  fi
+
+            - name: Download github-pages artifact
+              run: |
+                  REPORT_ID=$(curl -s \
+                    -H "Accept: application/vnd.github+json" \
+                    -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
+                    https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts \
+                    | python -c "import sys, json; data=json.load(sys.stdin); ids=[a['id'] for a in data.get('artifacts', []) if a['name']=='github-pages']; print(ids[0] if ids else '')")
+                  if [ -n "$REPORT_ID" ]; then
+                    curl -L \
+                      -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
+                      https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts/$REPORT_ID/zip \
+                      -o pages.zip
+                    mkdir old_pages pages_history
+                    unzip pages.zip -d old_pages
+                    tar -xvf old_pages/artifact.tar -C pages_history
+                    cp -r pages_history/history allure-results || true
+                  else
+                    echo "No github-pages artifact found"
                   fi
 
             - name: Store smoke history
               uses: actions/upload-artifact@v4
               with:
                   name: smoke-history
-                  path: smoke-history
+                  path: allure-results
                   retention-days: 10
-                  if-no-files-found: ignore
 
     test:
         timeout-minutes: 60
@@ -70,20 +90,17 @@ jobs:
               run: npm run test:api-smoke
               continue-on-error: true
 
-            - name: Copy old history into results
-              run: cp -r smoke-history/history allure-results/history || true
+            - name: Download smoke history
+              uses: actions/download-artifact@v4
+              with:
+                  name: smoke-history
+                  path: ./allure-results
 
             - name: Create Allure report
               run: npm run allure-report
 
-            - name: Save Allure history
-              uses: actions/upload-artifact@v4
-              with:
-                  name: smoke-history
-                  path: allure-report/history
-                  retention-days: 10
-                  if-no-files-found: ignore
-                  overwrite: true
+            - name: Copy history into report
+              run: cp -r allure-results/history allure-report/history || true
 
             - name: Save Allure report
               uses: actions/upload-artifact@v4
