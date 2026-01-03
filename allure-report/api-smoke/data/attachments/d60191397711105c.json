@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:03:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-aj5Mvi211X6IlZaTfsZtaevpF4A\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695913b21c508c5d5e876215",
+        "email": "Antonetta53@gmail.com",
+        "name": "Grace Kerluke",
+        "country": "Canada",
+        "city": "Pearl City",
+        "street": "Piper Path",
+        "house": 3,
+        "flat": 328,
+        "phone": "+17976661356",
+        "createdOn": "2026-01-03T13:03:46.000Z",
+        "notes": "pTtsyfCjOpHmOyRn9O2pnxYHB7IoNxpBcTDkYyC3HcFFJNUfqBhjUEWbgPjx1NWwKHAzx8q1e5JJzFPgVfffKinfYY0wzUhd6qRXxazy2Jka6q0nPwBtH5CS7eH1M7ldJZ7SJi5rGOYvMT7FXdaNyykdEOq52uhhVFhVJEnYcKcuU0QC4hLGfXlyQ6O2XvEcwhBVhabik1dXCU8f7AgmMWydDIrVZjyLi2sb7uoF6UVNKghzibY1yYGTK2"
+      },
+      "products": [
+        {
+          "_id": "695913b61c508c5d5e876339",
+          "name": "Towels40832",
+          "amount": 477,
+          "price": 24711,
+          "manufacturer": "Google",
+          "notes": "mgi9JFLu3ZMe5N89rWaTHJP5YbLS3JD76RFsukuTZamjpI4CJZq4u9vnKeIOgF2SZnxSW7Wk0qdF6X3TM46HcuRM29mduh5GNO51P8NH3YAfzIhtaqKGSXbrDWZYgek0GXkc8benAVLWmHPCY9LoRTcfkaA3CjCmyl6AR1gd5bmsIyx0hD6SgyofGxsZdeuKPBYCNyrvMD0S43KJxqFrFmiFEMPn3AG2QFwNaygPIDSgCc21kS82M8mzBy",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 24711,
+      "createdOn": "2026-01-03T13:03:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695913b21c508c5d5e876215",
+          "products": [
+            {
+              "_id": "695913b61c508c5d5e876339",
+              "name": "Towels40832",
+              "amount": 477,
+              "price": 24711,
+              "manufacturer": "Google",
+              "notes": "mgi9JFLu3ZMe5N89rWaTHJP5YbLS3JD76RFsukuTZamjpI4CJZq4u9vnKeIOgF2SZnxSW7Wk0qdF6X3TM46HcuRM29mduh5GNO51P8NH3YAfzIhtaqKGSXbrDWZYgek0GXkc8benAVLWmHPCY9LoRTcfkaA3CjCmyl6AR1gd5bmsIyx0hD6SgyofGxsZdeuKPBYCNyrvMD0S43KJxqFrFmiFEMPn3AG2QFwNaygPIDSgCc21kS82M8mzBy",
+              "received": false
+            }
+          ],
+          "total_price": 24711,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:03:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695913b81c508c5d5e876367"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

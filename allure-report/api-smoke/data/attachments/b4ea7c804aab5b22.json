@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:03:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-7GdgNN1ToaY9gZe0zgWPnuh1Fts\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695913b01c508c5d5e876123",
+        "email": "Chad_Konopelski29@yahoo.com",
+        "name": "Bettye Gusikowski",
+        "country": "France",
+        "city": "South Jarenbury",
+        "street": "New Road",
+        "house": 36,
+        "flat": 502,
+        "phone": "+19024808823",
+        "createdOn": "2026-01-03T13:03:44.000Z",
+        "notes": "5YHQQf36mPojiqEr9W1IatTjsNRwPaEi680abQ9ljoGXs84uRIql3YN1lDtBBYxUxTiwEF1YDAPryRCcEYgyKdBEOO17ZvRoXYx9rRx94OCTxhFXEJSC30d29R3h97KiSuhuio85BTRSntpLyz4er4MH6jJfALNoxh6dNuX8FJhXJrR7t1u6upVbLMTrQuCl0nuhzIdc136LOqtUpYLcqaQErIQabgITSFzMcJM6QY8YQec1z5n0wGKdpj"
+      },
+      "products": [
+        {
+          "_id": "695913b41c508c5d5e8762cd",
+          "name": "Ball9830",
+          "amount": 691,
+          "price": 28307,
+          "manufacturer": "Samsung",
+          "notes": "F8D38JheB0W506edyED3j3e0dl1YKG2e68EOirfCl8X5LTUVZg11MRMiNqPiGVRPDSNsfA5q7hFGPuyxKaOHlFWXjknOmYFBLlo1GvP0arH6XsV1Ey8yQp20t2ADYJscyVOHrou07ZpEJScee0ioRNmwSX1jDoVGh6MnWDXBoI1UbnAPBNJkTuC9Ud1HU6wIqGTDGjuCq7TPQ9xZsJcW10OWMBggsvwG826uKNsQPRW8XLx1OH4bTTC0FU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 28307,
+      "createdOn": "2026-01-03T13:03:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695913b01c508c5d5e876123",
+          "products": [
+            {
+              "_id": "695913b41c508c5d5e8762cd",
+              "name": "Ball9830",
+              "amount": 691,
+              "price": 28307,
+              "manufacturer": "Samsung",
+              "notes": "F8D38JheB0W506edyED3j3e0dl1YKG2e68EOirfCl8X5LTUVZg11MRMiNqPiGVRPDSNsfA5q7hFGPuyxKaOHlFWXjknOmYFBLlo1GvP0arH6XsV1Ey8yQp20t2ADYJscyVOHrou07ZpEJScee0ioRNmwSX1jDoVGh6MnWDXBoI1UbnAPBNJkTuC9Ud1HU6wIqGTDGjuCq7TPQ9xZsJcW10OWMBggsvwG826uKNsQPRW8XLx1OH4bTTC0FU",
+              "received": false
+            }
+          ],
+          "total_price": 28307,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:03:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695913b41c508c5d5e8762f6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
