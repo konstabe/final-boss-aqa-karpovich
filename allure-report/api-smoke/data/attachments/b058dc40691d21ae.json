@@ -1,0 +1,245 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:43:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6941",
+    "etag": "W/\"1b1d-PaHII/OnatZKoqVqz1aXSoBsG+M\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695963551c508c5d5e96f891",
+      "status": "In Process",
+      "customer": {
+        "_id": "695963501c508c5d5e96f677",
+        "email": "Delbert78@yahoo.com",
+        "name": "Harmony Dietrich",
+        "country": "Germany",
+        "city": "Hattiesburg",
+        "street": "Post Road",
+        "house": 44,
+        "flat": 970,
+        "phone": "+19366473470",
+        "createdOn": "2026-01-03T18:43:28.000Z",
+        "notes": "rzw0jwlJB35OHs4guvRzXFgfUp0c9Zxxq25qUAedeegxWguzM5pp4bYEFfwP2aGUuGQ4YLbIq27mncUiUD8wHQ82V4jqJCIW6aiIiLLLkKQYwApAYUTDRrxr3LX3YlSoRrk9z9UEF2m65cdgxamJMuZPQMDxwTsmoZSCmrroo8lnfSs3oeHgia3Dd4hgQkZu033Ucrfzd8YS8uLpKFF7lKhLUdymFrjCzON7IoGGAGCeD9byivex5cJAng"
+      },
+      "products": [
+        {
+          "_id": "695963511c508c5d5e96f723",
+          "name": "Fish72548",
+          "amount": 473,
+          "price": 32939,
+          "manufacturer": "Apple",
+          "notes": "zBCqTXjES6PgIL9nNfYqCXZZ56RZcpjzZpK9EIGFUX4krg1mWd50AdhPq3sziSYemPQRKMkFLDM9UF8yWCDqJx2ZWxYxFSNRS7dHowv1oYgrFmf8hdHnLSkhYOoTZ5HGMcyt5Sm00a5rpgkPsO8hrssATGxBZAftO4timQmWGTO4I4KtIdnFJ9tPWcyAfYSpjigRD5kF6Sq2N3zqkTOMpJWRPSNNyqLxBBGIirnsDDuzOvZXqan5ipihT8",
+          "received": false
+        },
+        {
+          "_id": "695963531c508c5d5e96f751",
+          "name": "Hat36226",
+          "amount": 494,
+          "price": 70167,
+          "manufacturer": "Google",
+          "notes": "rxzeHztCpjxTKEZbo1roz4QBAJh0c0JdjopLbmY7n0SCTQWXnYCPY92XVZYEkIBn1gusRVK0xyThOdRZHuM24lazuo1hVQn8tOQUvf1Euy6YWonY6F6j3Nen1RjkIsM9RJJA9mnTU6jZiGJ6reo0wQnKEwgQZiYLkTz2IoTTOBl4uIAKcOpjJiFV8uIp9oIRJHfiXSljnQPMd5djFB034gZeo5cuRY7YoSYHYGrlYlrb7CwlqcXisx8YkM",
+          "received": false
+        },
+        {
+          "_id": "695963551c508c5d5e96f874",
+          "name": "Computer77693",
+          "amount": 757,
+          "price": 32225,
+          "manufacturer": "Xiaomi",
+          "notes": "vTxBBlxpQkqvSWIhJ6HmN4ycy91FNAnslPbMzuIxh9ojTDB68k4uZfHSPL2DmsM9rDrTssrQuoN5pFSskCe0fsgqR9Ve7aNasGZFdFU0SLuDZZppH5xfPpchmwZPcz6wBmYxfEpvq7TtMZ1A4LydbMu7bPLlUMfSZCWssiJbLb4Mfm3jGPShglU0Q74LCxnSsI4Lz4SsOMKv7rTZUvg3IFIwgOWDga6ezAPQNvnEsUFtynCXQqTE0akm0j",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Hattiesburg",
+          "street": "Post Road",
+          "house": 44,
+          "flat": 970
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 135331,
+      "createdOn": "2026-01-03T18:43:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695963501c508c5d5e96f677",
+          "products": [
+            {
+              "_id": "695963511c508c5d5e96f723",
+              "name": "Fish72548",
+              "amount": 473,
+              "price": 32939,
+              "manufacturer": "Apple",
+              "notes": "zBCqTXjES6PgIL9nNfYqCXZZ56RZcpjzZpK9EIGFUX4krg1mWd50AdhPq3sziSYemPQRKMkFLDM9UF8yWCDqJx2ZWxYxFSNRS7dHowv1oYgrFmf8hdHnLSkhYOoTZ5HGMcyt5Sm00a5rpgkPsO8hrssATGxBZAftO4timQmWGTO4I4KtIdnFJ9tPWcyAfYSpjigRD5kF6Sq2N3zqkTOMpJWRPSNNyqLxBBGIirnsDDuzOvZXqan5ipihT8",
+              "received": false
+            },
+            {
+              "_id": "695963531c508c5d5e96f751",
+              "name": "Hat36226",
+              "amount": 494,
+              "price": 70167,
+              "manufacturer": "Google",
+              "notes": "rxzeHztCpjxTKEZbo1roz4QBAJh0c0JdjopLbmY7n0SCTQWXnYCPY92XVZYEkIBn1gusRVK0xyThOdRZHuM24lazuo1hVQn8tOQUvf1Euy6YWonY6F6j3Nen1RjkIsM9RJJA9mnTU6jZiGJ6reo0wQnKEwgQZiYLkTz2IoTTOBl4uIAKcOpjJiFV8uIp9oIRJHfiXSljnQPMd5djFB034gZeo5cuRY7YoSYHYGrlYlrb7CwlqcXisx8YkM",
+              "received": false
+            },
+            {
+              "_id": "695963551c508c5d5e96f874",
+              "name": "Computer77693",
+              "amount": 757,
+              "price": 32225,
+              "manufacturer": "Xiaomi",
+              "notes": "vTxBBlxpQkqvSWIhJ6HmN4ycy91FNAnslPbMzuIxh9ojTDB68k4uZfHSPL2DmsM9rDrTssrQuoN5pFSskCe0fsgqR9Ve7aNasGZFdFU0SLuDZZppH5xfPpchmwZPcz6wBmYxfEpvq7TtMZ1A4LydbMu7bPLlUMfSZCWssiJbLb4Mfm3jGPShglU0Q74LCxnSsI4Lz4SsOMKv7rTZUvg3IFIwgOWDga6ezAPQNvnEsUFtynCXQqTE0akm0j",
+              "received": false
+            }
+          ],
+          "total_price": 135331,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Hattiesburg",
+              "street": "Post Road",
+              "house": 44,
+              "flat": 970
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T18:43:36.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695963501c508c5d5e96f677",
+          "products": [
+            {
+              "_id": "695963511c508c5d5e96f723",
+              "name": "Fish72548",
+              "amount": 473,
+              "price": 32939,
+              "manufacturer": "Apple",
+              "notes": "zBCqTXjES6PgIL9nNfYqCXZZ56RZcpjzZpK9EIGFUX4krg1mWd50AdhPq3sziSYemPQRKMkFLDM9UF8yWCDqJx2ZWxYxFSNRS7dHowv1oYgrFmf8hdHnLSkhYOoTZ5HGMcyt5Sm00a5rpgkPsO8hrssATGxBZAftO4timQmWGTO4I4KtIdnFJ9tPWcyAfYSpjigRD5kF6Sq2N3zqkTOMpJWRPSNNyqLxBBGIirnsDDuzOvZXqan5ipihT8",
+              "received": false
+            },
+            {
+              "_id": "695963531c508c5d5e96f751",
+              "name": "Hat36226",
+              "amount": 494,
+              "price": 70167,
+              "manufacturer": "Google",
+              "notes": "rxzeHztCpjxTKEZbo1roz4QBAJh0c0JdjopLbmY7n0SCTQWXnYCPY92XVZYEkIBn1gusRVK0xyThOdRZHuM24lazuo1hVQn8tOQUvf1Euy6YWonY6F6j3Nen1RjkIsM9RJJA9mnTU6jZiGJ6reo0wQnKEwgQZiYLkTz2IoTTOBl4uIAKcOpjJiFV8uIp9oIRJHfiXSljnQPMd5djFB034gZeo5cuRY7YoSYHYGrlYlrb7CwlqcXisx8YkM",
+              "received": false
+            },
+            {
+              "_id": "695963551c508c5d5e96f874",
+              "name": "Computer77693",
+              "amount": 757,
+              "price": 32225,
+              "manufacturer": "Xiaomi",
+              "notes": "vTxBBlxpQkqvSWIhJ6HmN4ycy91FNAnslPbMzuIxh9ojTDB68k4uZfHSPL2DmsM9rDrTssrQuoN5pFSskCe0fsgqR9Ve7aNasGZFdFU0SLuDZZppH5xfPpchmwZPcz6wBmYxfEpvq7TtMZ1A4LydbMu7bPLlUMfSZCWssiJbLb4Mfm3jGPShglU0Q74LCxnSsI4Lz4SsOMKv7rTZUvg3IFIwgOWDga6ezAPQNvnEsUFtynCXQqTE0akm0j",
+              "received": false
+            }
+          ],
+          "total_price": 135331,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Hattiesburg",
+              "street": "Post Road",
+              "house": 44,
+              "flat": 970
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T18:43:35.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695963501c508c5d5e96f677",
+          "products": [
+            {
+              "_id": "695963511c508c5d5e96f723",
+              "name": "Fish72548",
+              "amount": 473,
+              "price": 32939,
+              "manufacturer": "Apple",
+              "notes": "zBCqTXjES6PgIL9nNfYqCXZZ56RZcpjzZpK9EIGFUX4krg1mWd50AdhPq3sziSYemPQRKMkFLDM9UF8yWCDqJx2ZWxYxFSNRS7dHowv1oYgrFmf8hdHnLSkhYOoTZ5HGMcyt5Sm00a5rpgkPsO8hrssATGxBZAftO4timQmWGTO4I4KtIdnFJ9tPWcyAfYSpjigRD5kF6Sq2N3zqkTOMpJWRPSNNyqLxBBGIirnsDDuzOvZXqan5ipihT8",
+              "received": false
+            },
+            {
+              "_id": "695963531c508c5d5e96f751",
+              "name": "Hat36226",
+              "amount": 494,
+              "price": 70167,
+              "manufacturer": "Google",
+              "notes": "rxzeHztCpjxTKEZbo1roz4QBAJh0c0JdjopLbmY7n0SCTQWXnYCPY92XVZYEkIBn1gusRVK0xyThOdRZHuM24lazuo1hVQn8tOQUvf1Euy6YWonY6F6j3Nen1RjkIsM9RJJA9mnTU6jZiGJ6reo0wQnKEwgQZiYLkTz2IoTTOBl4uIAKcOpjJiFV8uIp9oIRJHfiXSljnQPMd5djFB034gZeo5cuRY7YoSYHYGrlYlrb7CwlqcXisx8YkM",
+              "received": false
+            },
+            {
+              "_id": "695963551c508c5d5e96f874",
+              "name": "Computer77693",
+              "amount": 757,
+              "price": 32225,
+              "manufacturer": "Xiaomi",
+              "notes": "vTxBBlxpQkqvSWIhJ6HmN4ycy91FNAnslPbMzuIxh9ojTDB68k4uZfHSPL2DmsM9rDrTssrQuoN5pFSskCe0fsgqR9Ve7aNasGZFdFU0SLuDZZppH5xfPpchmwZPcz6wBmYxfEpvq7TtMZ1A4LydbMu7bPLlUMfSZCWssiJbLb4Mfm3jGPShglU0Q74LCxnSsI4Lz4SsOMKv7rTZUvg3IFIwgOWDga6ezAPQNvnEsUFtynCXQqTE0akm0j",
+              "received": false
+            }
+          ],
+          "total_price": 135331,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:43:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

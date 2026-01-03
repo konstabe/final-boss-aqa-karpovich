@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:43:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2820",
+    "etag": "W/\"b04-0akyPJyDiidi4Enp4DBQjSaliBo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959634d1c508c5d5e96f51e",
+      "status": "Draft",
+      "customer": {
+        "_id": "695963491c508c5d5e96f29b",
+        "email": "Scotty.Schowalter62@yahoo.com",
+        "name": "Barry Johnson",
+        "country": "Ukraine",
+        "city": "Cobyberg",
+        "street": "Hegmann Springs",
+        "house": 47,
+        "flat": 202,
+        "phone": "+12006892924",
+        "createdOn": "2026-01-03T18:43:21.000Z",
+        "notes": "HDaCeX2IiggQljBjyqwfrFTJM5SSeSnQFIuZxe7HWECYvvCJ30KePr1gh5qXI4Kdd1XbhsBfhkt6XoQI9rPtMozDzVFUM6Liw2r5hHoT8twTa85xO5A0IVB8ZVLkxkW9ba2mJgy0L0uOz7mahM7zMEGBb6YV8buF0K7Fr04UUl7NdeiBbgG4RrFjy27Zx6hVPe8t4HdMy9T5o99zMBSykI7Upp8HaW0mOE8lU76XdaEfpPQl2aK1h5mD3B"
+      },
+      "products": [
+        {
+          "_id": "6959634b1c508c5d5e96f34d",
+          "name": "Chicken68641",
+          "amount": 917,
+          "price": 99482,
+          "manufacturer": "Amazon",
+          "notes": "IZ6GGDTTuI9g2sWUJ0CnhEBiDhklp0t7zb5QPUiogfIEPn1kAoMg4s99AYOTnRwNV31qZmQhjdypQIVINPGrorkaNpgzV5dQoKAUWpJksQHWiaRdFRj0gehPqYlRdZ018tAxRY0SEqAFsjx0dNwUobHSOKUIWLfjC0bnwMMPBLlFvBl44KikDA4TFhYrDmGaXPEocFxQRhri3qdXz9Hro8ajdL1P36fX8C5rlrBUJbtdX5H0Ckoy2cKpOA",
+          "received": false
+        },
+        {
+          "_id": "6959634c1c508c5d5e96f4fe",
+          "name": "Mouse29601",
+          "amount": 804,
+          "price": 83269,
+          "manufacturer": "Apple",
+          "notes": "hjMrzGTlpdpJ5fke8I16y8gp0x7bz8usU60sNIRF60sWX6foW48kvwhCH7IiGN6yI4pJgj5VylXu9ZBGsbCRhw8PHAWoeBWiTYboRCHkXO2A5YkXKj4joJso78zueZ6LMIBPCru3DT6zGgd7VmLqgsk4OOeUbsXuJMqwcKcugISwBw4ll0MGKSMZJ2xWu8DOfsn32sDV1mTcFRTiuCTYtPbzuwM34yW7ITUay6XESLeEY8E4rGMaVKHiZV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 182751,
+      "createdOn": "2026-01-03T18:43:25.000Z",
+      "comments": [
+        {
+          "text": "9jYYppLprSuDE0vrbXcMxWaeR2SIRv6yrC84lWNJa26z22Gr4RlTwCyO3RdOG2GmGkNPps70gW1",
+          "createdOn": "2026-01-03T18:43:26.000Z",
+          "_id": "6959634e1c508c5d5e96f5b6"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695963491c508c5d5e96f29b",
+          "products": [
+            {
+              "_id": "6959634b1c508c5d5e96f34d",
+              "name": "Chicken68641",
+              "amount": 917,
+              "price": 99482,
+              "manufacturer": "Amazon",
+              "notes": "IZ6GGDTTuI9g2sWUJ0CnhEBiDhklp0t7zb5QPUiogfIEPn1kAoMg4s99AYOTnRwNV31qZmQhjdypQIVINPGrorkaNpgzV5dQoKAUWpJksQHWiaRdFRj0gehPqYlRdZ018tAxRY0SEqAFsjx0dNwUobHSOKUIWLfjC0bnwMMPBLlFvBl44KikDA4TFhYrDmGaXPEocFxQRhri3qdXz9Hro8ajdL1P36fX8C5rlrBUJbtdX5H0Ckoy2cKpOA",
+              "received": false
+            },
+            {
+              "_id": "6959634c1c508c5d5e96f4fe",
+              "name": "Mouse29601",
+              "amount": 804,
+              "price": 83269,
+              "manufacturer": "Apple",
+              "notes": "hjMrzGTlpdpJ5fke8I16y8gp0x7bz8usU60sNIRF60sWX6foW48kvwhCH7IiGN6yI4pJgj5VylXu9ZBGsbCRhw8PHAWoeBWiTYboRCHkXO2A5YkXKj4joJso78zueZ6LMIBPCru3DT6zGgd7VmLqgsk4OOeUbsXuJMqwcKcugISwBw4ll0MGKSMZJ2xWu8DOfsn32sDV1mTcFRTiuCTYtPbzuwM34yW7ITUay6XESLeEY8E4rGMaVKHiZV",
+              "received": false
+            }
+          ],
+          "total_price": 182751,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:43:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
