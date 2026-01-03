@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:30:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2655",
+    "etag": "W/\"a5f-yYDfmSrt+LntdfkKt2Xp3SXi1LI\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69596e521c508c5d5e982415",
+        "email": "Napoleon92@hotmail.com",
+        "name": "Blanche Mertz",
+        "country": "Great Britain",
+        "city": "East Baronburgh",
+        "street": "E 8th Street",
+        "house": 36,
+        "flat": 121,
+        "phone": "+19517969542",
+        "createdOn": "2026-01-03T19:30:26.000Z",
+        "notes": "Bo3LYhvd9nN0WDjMksGJylaPvmpBMCZ54DGhk0Da1Gpi8LmMeuZ7z7CvKhZJkbTFWBwg0HTlpx6eFyi1puIktXbiqleuPOXuo4Nrs4qjwAJrEbZebGe8vWytTQZcSLaCgxTzL2tOL4uopVf1Toc6KKThlWGx0JWQqaXXSkhCr4StPdjKIIAIfz4OBoPxiTRGK6PsLMBe2DQ5h9mE13Vk5EGgaeuPkwbmB0UAXNyJ3nxcbGrMLY5k7RV9Fd"
+      },
+      "products": [
+        {
+          "_id": "69596e531c508c5d5e9824ac",
+          "name": "Shirt2180",
+          "amount": 446,
+          "price": 74364,
+          "manufacturer": "Sony",
+          "notes": "xU7aPsGGkMW15AnFRqUf2EKZoCxzVodSqXUG7h38vHKvOjqC8eBTvdsMeGo1Q0bItfM2b3Ym1IEacwo7CWzolOMkBsrlHXD0f3m4kiPL7ee0yGoS5XIz5ibXG9vGFMAFzfFXTwkExXRvmDUG8iMRXAng7LRdOKMdY58fWWf9oXIuyGvbianIBt95Xu4N8yMKkJPHbEuN2pkgg8D9qpYCcE5Lyqo7dddXMRMh4dGYT9JJ2CKUfx4gf06UWl",
+          "received": false
+        },
+        {
+          "_id": "69596e551c508c5d5e9825dc",
+          "name": "Gloves45934",
+          "amount": 12,
+          "price": 20978,
+          "manufacturer": "Google",
+          "notes": "UPUVtS4esUVP98nUJNJklhrpBpieV25w5OtR44BBR9eW62oOOmyzWihYhVGDODQC2s8LvIVi2RVfvCscQZo3irCpKSBPFmrhZjs4iwBVpUeihx5B11MatqBfjeOsNwQ9SCzICpIYJRFFhWLhHsZPKkRidFhtJlh9pHTU6qUH19rUEyroh9Yi7P7PGKRqYwenJiXgdDFx48Qsrqm6NqjV7Rjf0LlJq5eBhZn3F2IhNVz3Llsd7PGrqgHyYI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 95342,
+      "createdOn": "2026-01-03T19:30:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69596e521c508c5d5e982415",
+          "products": [
+            {
+              "_id": "69596e531c508c5d5e9824ac",
+              "name": "Shirt2180",
+              "amount": 446,
+              "price": 74364,
+              "manufacturer": "Sony",
+              "notes": "xU7aPsGGkMW15AnFRqUf2EKZoCxzVodSqXUG7h38vHKvOjqC8eBTvdsMeGo1Q0bItfM2b3Ym1IEacwo7CWzolOMkBsrlHXD0f3m4kiPL7ee0yGoS5XIz5ibXG9vGFMAFzfFXTwkExXRvmDUG8iMRXAng7LRdOKMdY58fWWf9oXIuyGvbianIBt95Xu4N8yMKkJPHbEuN2pkgg8D9qpYCcE5Lyqo7dddXMRMh4dGYT9JJ2CKUfx4gf06UWl",
+              "received": false
+            },
+            {
+              "_id": "69596e551c508c5d5e9825dc",
+              "name": "Gloves45934",
+              "amount": 12,
+              "price": 20978,
+              "manufacturer": "Google",
+              "notes": "UPUVtS4esUVP98nUJNJklhrpBpieV25w5OtR44BBR9eW62oOOmyzWihYhVGDODQC2s8LvIVi2RVfvCscQZo3irCpKSBPFmrhZjs4iwBVpUeihx5B11MatqBfjeOsNwQ9SCzICpIYJRFFhWLhHsZPKkRidFhtJlh9pHTU6qUH19rUEyroh9Yi7P7PGKRqYwenJiXgdDFx48Qsrqm6NqjV7Rjf0LlJq5eBhZn3F2IhNVz3Llsd7PGrqgHyYI",
+              "received": false
+            }
+          ],
+          "total_price": 95342,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:30:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69596e561c508c5d5e982609"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

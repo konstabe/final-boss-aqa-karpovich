@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:31:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-+eQ6CjunJO2mFV2MoCKVphUbwDk\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69596e781c508c5d5e9839a2",
+        "email": "Francesca70@gmail.com",
+        "name": "Diamond Harris",
+        "country": "Germany",
+        "city": "Baumbachhaven",
+        "street": "Roderick Inlet",
+        "house": 14,
+        "flat": 421,
+        "phone": "+17966298275",
+        "createdOn": "2026-01-03T19:31:04.000Z",
+        "notes": "a4mDMMIejVUyFeKVUOLArEYR0yACmO9UscutAXEH1I3kaejLoF65m136fjcQw00tNTNabxtrtIzrWU8FDkN40vuFCQmkZ8KB4Yqgd1nouMdJKfRrPbHBanh0wTUh9Vv5WgkdQpTp8pOq5XelMT8Xo9RtlmsIg8dPswEBZDPJ9sirfzvld7OnaMlHPHRg9HmrX6oaNj3FNEAb6jThCp5WyTzMqZPKvZkBTEX3rrs8jSOF9AKSVBVFt1e9dS"
+      },
+      "products": [
+        {
+          "_id": "69596e851c508c5d5e983eba",
+          "name": "Soap98005",
+          "amount": 461,
+          "price": 62488,
+          "manufacturer": "Google",
+          "notes": "EbGgZmdGTdHTf7NHQYWSL3274ESTAFNkkHJQ0BWkHELj138h6a8ck2CPMH7DfjDZ5UDMj4gyjGSTz1YAgMZHVQaDMegtaLCQUu6ATRreUgeekilt2D5CNCKaSVSrJcaDmnrDoNs0YnqWR9Z47iaKcUYwIVTXm83SbtFOQQdy8mSlIFJznwF794p24J4UZkhWahpZAvilwdDx9Cwh9WnLae67a0iwsYpQEtKewYR9zZygAxyuaptsgCwMIR",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 62488,
+      "createdOn": "2026-01-03T19:31:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69596e781c508c5d5e9839a2",
+          "products": [
+            {
+              "_id": "69596e851c508c5d5e983eba",
+              "name": "Soap98005",
+              "amount": 461,
+              "price": 62488,
+              "manufacturer": "Google",
+              "notes": "EbGgZmdGTdHTf7NHQYWSL3274ESTAFNkkHJQ0BWkHELj138h6a8ck2CPMH7DfjDZ5UDMj4gyjGSTz1YAgMZHVQaDMegtaLCQUu6ATRreUgeekilt2D5CNCKaSVSrJcaDmnrDoNs0YnqWR9Z47iaKcUYwIVTXm83SbtFOQQdy8mSlIFJznwF794p24J4UZkhWahpZAvilwdDx9Cwh9WnLae67a0iwsYpQEtKewYR9zZygAxyuaptsgCwMIR",
+              "received": false
+            }
+          ],
+          "total_price": 62488,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:31:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69596e861c508c5d5e983edc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

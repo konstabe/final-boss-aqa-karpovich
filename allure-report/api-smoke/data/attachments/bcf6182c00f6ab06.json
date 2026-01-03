@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:31:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4968",
+    "etag": "W/\"1368-5oJK82RVlknhSCiRg7RS3XXa+d0\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69596e871c508c5d5e983ef5",
+        "email": "Leopold_Fahey@gmail.com",
+        "name": "Lambert Fritsch",
+        "country": "France",
+        "city": "Treutelborough",
+        "street": "St Andrews Close",
+        "house": 16,
+        "flat": 192,
+        "phone": "+13195635129",
+        "createdOn": "2026-01-03T19:31:19.000Z",
+        "notes": "zdd8W6pLh1XwyoyFOCmBhorDdSBH7E46t82To7uqBsVjCROYP5MTBIV4xaRzeeGwHJqE8uWyLR4mKJD0UgQIXVUpu67Fy0tpK5BysBsRwLiQM46SOVkteot8hrmYSWp8nNfFbVAutfwf1Mu0ancc7tXnF2spZAws6sdNn59p7dhzfL7qHv0ehj09ZzMl78JeY6QOC9Q33zheiEOVkLQK3Y3zqGRXwxzFqJJEz0YREKvw6e3Zhd6B6jNyCX"
+      },
+      "products": [
+        {
+          "_id": "69596e8a1c508c5d5e984078",
+          "name": "Chicken33886",
+          "amount": 260,
+          "price": 32536,
+          "manufacturer": "Xiaomi",
+          "notes": "Zd4yIxPxfpsTVwk9r58glmlMpDYnn96XuoZumwy5bn0wYgqKVfek53PwTs9g55dTlNl4oK4C81ekQZ3AuuJV1Vrok2joToHLST4nr2e3al6AsUmaynnOhnXeAH3niq2HoUOOYrdMsBd2kff3vJ0uXNnMd81TKkeLS54Xejq92w2DwiID2z4nrbrOZNYqA1RJhwaCufTxsWsmb4PxT8HqiwGROtLybHIi5yooI4FCUXQSs1wP16Ic0Gag4R",
+          "received": false
+        },
+        {
+          "_id": "69596e8b1c508c5d5e984085",
+          "name": "Mouse29968",
+          "amount": 471,
+          "price": 27497,
+          "manufacturer": "Apple",
+          "notes": "BJg3xEPUYbhcTY4wuvOtHbMIwoIARWlHnFtfqU0QEixZXCWedyby9P48RjR7IX1QlxqEkn41GpKPrBmFWYncZu1LRoeJMmJFRvfMjbJlTedt83YtvDc95BfiuGgaA4PMAf9jdnvJfbSHBSsPj5zoe7eV9FSc1TEKF072tHMkdPUPo9yMBwTVZP1N7cxLQpLaYTnqN38JagYACmRwjB3cNUkRcYnTIoYZGJK7MNxXOrvLGLA7ArFWsf5FkP",
+          "received": false
+        },
+        {
+          "_id": "69596e8d1c508c5d5e984173",
+          "name": "Keyboard36015",
+          "amount": 604,
+          "price": 45848,
+          "manufacturer": "Tesla",
+          "notes": "A9BwfvAwIdrLnGhesgbZFwgeM7a2SxKRYyoGNShUfSWbxyxNcQVImdTbCLh0oFpe1p8DPbHP3ABBaMJUynxv0b3SjCV4N7s0vpmACndb3pp32LZHasC7ZN1njBEAsSJurfBKwt2iejV9KQleCIRIkZG7KyEOWFM23adaOXkhEKtAcqv249VA6qWKwft38X43CfQp2IuldYNOdg39l1qrEUkmDsXppoqIDBJnSpBzDI06wwxlCMm2qHxAGx",
+          "received": false
+        },
+        {
+          "_id": "69596e8f1c508c5d5e984197",
+          "name": "Gloves4634",
+          "amount": 731,
+          "price": 11607,
+          "manufacturer": "Google",
+          "notes": "O9UHPci7m0ke1pmeyhBb5Q8dC9eI0JPrdRuefpAmwKygf9IB4qF5XpOA44ZE3dVO38VKdjkr2OaoA3klcod8KM07UWTQ6kjVYWjn1u0TxDfDI500rqJyVPWV0Or7euSkHEU7WvDJAtt7nc0ZrUJVE9YQcfvS8srnqhXIuNiTbaK0oVpdRBvrEa2gwmVIjIatwpvVTl3rAL76l0HKi1QjCPCT4W9KViHofzExsq8CDd4CA3QNfLqEdQ9jh1",
+          "received": false
+        },
+        {
+          "_id": "69596e911c508c5d5e9841ac",
+          "name": "Chair5726",
+          "amount": 413,
+          "price": 23292,
+          "manufacturer": "Tesla",
+          "notes": "SJv8HbZO4ERn5qGNOJDh4lEBVlv34soYEsh5ehuESugclMlpniwLbiQImUFuWD0TCfasS9OfDgWpzxQLJ1Gq1ufHttDH0nbbA9f1yQPpcMlsNSWrR06AK5VCRosr7mCsKKxJyyUAdgA8HFgeP47qB8ibHgeOnTkzT5770oKWePBxuqNmzNdfF1AfEGQa37uFXJvMM97QjI37sP0c4VdnuhCyg8Ji0JxLkAwBejIBURyue8TlopDOCmNT17",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 140780,
+      "createdOn": "2026-01-03T19:31:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69596e871c508c5d5e983ef5",
+          "products": [
+            {
+              "_id": "69596e8a1c508c5d5e984078",
+              "name": "Chicken33886",
+              "amount": 260,
+              "price": 32536,
+              "manufacturer": "Xiaomi",
+              "notes": "Zd4yIxPxfpsTVwk9r58glmlMpDYnn96XuoZumwy5bn0wYgqKVfek53PwTs9g55dTlNl4oK4C81ekQZ3AuuJV1Vrok2joToHLST4nr2e3al6AsUmaynnOhnXeAH3niq2HoUOOYrdMsBd2kff3vJ0uXNnMd81TKkeLS54Xejq92w2DwiID2z4nrbrOZNYqA1RJhwaCufTxsWsmb4PxT8HqiwGROtLybHIi5yooI4FCUXQSs1wP16Ic0Gag4R",
+              "received": false
+            },
+            {
+              "_id": "69596e8b1c508c5d5e984085",
+              "name": "Mouse29968",
+              "amount": 471,
+              "price": 27497,
+              "manufacturer": "Apple",
+              "notes": "BJg3xEPUYbhcTY4wuvOtHbMIwoIARWlHnFtfqU0QEixZXCWedyby9P48RjR7IX1QlxqEkn41GpKPrBmFWYncZu1LRoeJMmJFRvfMjbJlTedt83YtvDc95BfiuGgaA4PMAf9jdnvJfbSHBSsPj5zoe7eV9FSc1TEKF072tHMkdPUPo9yMBwTVZP1N7cxLQpLaYTnqN38JagYACmRwjB3cNUkRcYnTIoYZGJK7MNxXOrvLGLA7ArFWsf5FkP",
+              "received": false
+            },
+            {
+              "_id": "69596e8d1c508c5d5e984173",
+              "name": "Keyboard36015",
+              "amount": 604,
+              "price": 45848,
+              "manufacturer": "Tesla",
+              "notes": "A9BwfvAwIdrLnGhesgbZFwgeM7a2SxKRYyoGNShUfSWbxyxNcQVImdTbCLh0oFpe1p8DPbHP3ABBaMJUynxv0b3SjCV4N7s0vpmACndb3pp32LZHasC7ZN1njBEAsSJurfBKwt2iejV9KQleCIRIkZG7KyEOWFM23adaOXkhEKtAcqv249VA6qWKwft38X43CfQp2IuldYNOdg39l1qrEUkmDsXppoqIDBJnSpBzDI06wwxlCMm2qHxAGx",
+              "received": false
+            },
+            {
+              "_id": "69596e8f1c508c5d5e984197",
+              "name": "Gloves4634",
+              "amount": 731,
+              "price": 11607,
+              "manufacturer": "Google",
+              "notes": "O9UHPci7m0ke1pmeyhBb5Q8dC9eI0JPrdRuefpAmwKygf9IB4qF5XpOA44ZE3dVO38VKdjkr2OaoA3klcod8KM07UWTQ6kjVYWjn1u0TxDfDI500rqJyVPWV0Or7euSkHEU7WvDJAtt7nc0ZrUJVE9YQcfvS8srnqhXIuNiTbaK0oVpdRBvrEa2gwmVIjIatwpvVTl3rAL76l0HKi1QjCPCT4W9KViHofzExsq8CDd4CA3QNfLqEdQ9jh1",
+              "received": false
+            },
+            {
+              "_id": "69596e911c508c5d5e9841ac",
+              "name": "Chair5726",
+              "amount": 413,
+              "price": 23292,
+              "manufacturer": "Tesla",
+              "notes": "SJv8HbZO4ERn5qGNOJDh4lEBVlv34soYEsh5ehuESugclMlpniwLbiQImUFuWD0TCfasS9OfDgWpzxQLJ1Gq1ufHttDH0nbbA9f1yQPpcMlsNSWrR06AK5VCRosr7mCsKKxJyyUAdgA8HFgeP47qB8ibHgeOnTkzT5770oKWePBxuqNmzNdfF1AfEGQa37uFXJvMM97QjI37sP0c4VdnuhCyg8Ji0JxLkAwBejIBURyue8TlopDOCmNT17",
+              "received": false
+            }
+          ],
+          "total_price": 140780,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:31:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69596e911c508c5d5e9841bc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
