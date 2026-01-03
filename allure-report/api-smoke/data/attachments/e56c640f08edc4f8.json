@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:27:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-yRt4U9gLB5spGiVl6v7/8vFCvOk\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695919501c508c5d5e88d91f",
+        "email": "Colleen26@hotmail.com",
+        "name": "Miles Homenick",
+        "country": "Germany",
+        "city": "Fort Clemensland",
+        "street": "Oakfield Road",
+        "house": 23,
+        "flat": 167,
+        "phone": "+12834246667",
+        "createdOn": "2026-01-03T13:27:44.000Z",
+        "notes": "wrBA99DgTknR6L3WvOf18fpp7L036RgXO8n0vS7yjIwTyY9S3pPb8dIg05ye4PwrelVgCuiqIctzXe4UaaOiJHJtxz0YFwF4XImjjiFTmBWqN7zFDFItOyfZbT5G6y3YnMhIUrOksul5JlAGfrGuvcLggsBgxEGr92PB7sUiGNVzY2zuKnzRHvJ5CCkusAgS5DE3tb6L05D1bpLiH0Ub39IYkVcf4Xf0xGAuWd3HE01WYrlr2vJl3UM7Ic"
+      },
+      "products": [
+        {
+          "_id": "695919551c508c5d5e88daf1",
+          "name": "Pants76754",
+          "amount": 642,
+          "price": 29917,
+          "manufacturer": "Apple",
+          "notes": "E8ZpC7gvqBfRMiqv5kJr0L8bxBtaVSWqMRZHYZutK6ihtHz8FFgtl3Fu9yrOPrDp28EJj4v6cgYhU7MAJfz3VmmCxTlqzvvtrY9upk6IETfztXW6T30REayoDDIuiZthi4xZNXg90rtBbvQIFtg1L8BBBfvcyj4r95QmYTW5wfCPcLtIx44CQhCZr7fMFHqLJn1lSigBTZkYKH8Lq4Iyrj40ahd971xnnYEOs6sgyftB6GPONO4YctLHx9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 29917,
+      "createdOn": "2026-01-03T13:27:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695919501c508c5d5e88d91f",
+          "products": [
+            {
+              "_id": "695919551c508c5d5e88daf1",
+              "name": "Pants76754",
+              "amount": 642,
+              "price": 29917,
+              "manufacturer": "Apple",
+              "notes": "E8ZpC7gvqBfRMiqv5kJr0L8bxBtaVSWqMRZHYZutK6ihtHz8FFgtl3Fu9yrOPrDp28EJj4v6cgYhU7MAJfz3VmmCxTlqzvvtrY9upk6IETfztXW6T30REayoDDIuiZthi4xZNXg90rtBbvQIFtg1L8BBBfvcyj4r95QmYTW5wfCPcLtIx44CQhCZr7fMFHqLJn1lSigBTZkYKH8Lq4Iyrj40ahd971xnnYEOs6sgyftB6GPONO4YctLHx9",
+              "received": false
+            }
+          ],
+          "total_price": 29917,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:27:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695919561c508c5d5e88db23"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

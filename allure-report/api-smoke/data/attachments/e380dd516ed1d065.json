@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:27:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-3Ryqh9BKwFQd4vUDIkWlDPcWgos\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6959194c1c508c5d5e88d724",
+        "email": "Roxane.Swift@yahoo.com",
+        "name": "Caleigh Senger",
+        "country": "Germany",
+        "city": "Janaechester",
+        "street": "The Oval",
+        "house": 27,
+        "flat": 451,
+        "phone": "+14473137213",
+        "createdOn": "2026-01-03T13:27:40.000Z",
+        "notes": "HZHI2VL7QzF6JKmZN7D7Pff1NepBniWawaYMiZK0oYBCngnKIInTCQy52BRPVszMl8H37jLXZjPB07TFqYCkWvIpmVDhX12ZrSpySlUueBABcEkg1ZraQwMYXHYsZraasux3zppdywzshHqiYgWHZXtDGREhZ87NSdfRj6ZDhYFSej4SaTjo6tPxTzQ6zLFSNzPsZffZ7v5BXWqIvGjkmpwA2agbiL7ZJ43H1cC99moeJGISCbdqU5cHFY"
+      },
+      "products": [
+        {
+          "_id": "695919501c508c5d5e88d936",
+          "name": "Soap71364",
+          "amount": 225,
+          "price": 49302,
+          "manufacturer": "Microsoft",
+          "notes": "dUlhL0HEzwdfBMBgqK3qPJpAvo1nF323Pjg3XOCSbMT5l9bi1Zjh0YudKcGrlUSC3TL62NWOk4dzouKHtigAMBNgs5AUXmDMIDiog8ghjz5cLPzDAE48h7pQ9ilhgqqJla1cMEbdYgzVbujArrGPKXsjnN9RvPgSS2604KlKTy7JPFqEEioFbasIsg0u6h2MMtiNggh7ffH5qPT0ReiB4uXUuzgTUTZDoGjAfzXYwow1ltDv2wgfXu0Wep",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 49302,
+      "createdOn": "2026-01-03T13:27:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959194c1c508c5d5e88d724",
+          "products": [
+            {
+              "_id": "695919501c508c5d5e88d936",
+              "name": "Soap71364",
+              "amount": 225,
+              "price": 49302,
+              "manufacturer": "Microsoft",
+              "notes": "dUlhL0HEzwdfBMBgqK3qPJpAvo1nF323Pjg3XOCSbMT5l9bi1Zjh0YudKcGrlUSC3TL62NWOk4dzouKHtigAMBNgs5AUXmDMIDiog8ghjz5cLPzDAE48h7pQ9ilhgqqJla1cMEbdYgzVbujArrGPKXsjnN9RvPgSS2604KlKTy7JPFqEEioFbasIsg0u6h2MMtiNggh7ffH5qPT0ReiB4uXUuzgTUTZDoGjAfzXYwow1ltDv2wgfXu0Wep",
+              "received": false
+            }
+          ],
+          "total_price": 49302,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:27:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695919511c508c5d5e88d943"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

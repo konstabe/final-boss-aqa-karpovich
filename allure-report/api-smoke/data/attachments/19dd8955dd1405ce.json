@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:27:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-xJ0QMnULzuGqBsjKdbQAy9AaqcY\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695919561c508c5d5e88db0f",
+      "status": "Draft",
+      "customer": {
+        "_id": "695919501c508c5d5e88d91d",
+        "email": "Dion.Block@gmail.com",
+        "name": "Dorothy Collier",
+        "country": "Great Britain",
+        "city": "Tampa",
+        "street": "Monahan Keys",
+        "house": 11,
+        "flat": 335,
+        "phone": "+12408573924",
+        "createdOn": "2026-01-03T13:27:44.000Z",
+        "notes": "MFIYSXFt0kWjYdqABVMyT6TNitU78q6nHwrcpxeJZfE88q1RWQPa1smUQ4VDF6p6PdgBLVR2BPNfRsD27ZSNCWqvMbQYHOPLF5w0W6Nyai4E2DQw3Im9CN1EeQABaXcXksfS6bU9YZmDwHfQD7yOSQAge7sOGuFS2PztdYVDuRUFaSuqXeT2B7phnzM8qJKj5OpNu4efjYWIkNHUKUjACRpmbr6i97ykXqDJMAPoaNDItUP2DIhMSTnsx1"
+      },
+      "products": [
+        {
+          "_id": "695919541c508c5d5e88da72",
+          "name": "Sausages82098",
+          "amount": 240,
+          "price": 88528,
+          "manufacturer": "Xiaomi",
+          "notes": "J2l8Yf8kcE0b5wpRWecWgyGskUE6yN19hcYW6ESnkbD87nRgpSHESaU20s2myNY19fTkeskfZLIPBdEATR6jzRC87B97PJFsDPmgSRQDK4qayXCwpbCSgJe1JaIez9cnruiUUa9TkLASCmrNY72Mskr1Nd2bvxUxfNKAvIZ5e3shHXieMWrZtinEcWY6OS9yiaEbNK3EywfGGNSGzT8f2FoRMwsCTz6M8h4nXy3GbuPBLoycRq6ZenvHeI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 88528,
+      "createdOn": "2026-01-03T13:27:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695919501c508c5d5e88d91d",
+          "products": [
+            {
+              "_id": "695919541c508c5d5e88da72",
+              "name": "Sausages82098",
+              "amount": 240,
+              "price": 88528,
+              "manufacturer": "Xiaomi",
+              "notes": "J2l8Yf8kcE0b5wpRWecWgyGskUE6yN19hcYW6ESnkbD87nRgpSHESaU20s2myNY19fTkeskfZLIPBdEATR6jzRC87B97PJFsDPmgSRQDK4qayXCwpbCSgJe1JaIez9cnruiUUa9TkLASCmrNY72Mskr1Nd2bvxUxfNKAvIZ5e3shHXieMWrZtinEcWY6OS9yiaEbNK3EywfGGNSGzT8f2FoRMwsCTz6M8h4nXy3GbuPBLoycRq6ZenvHeI",
+              "received": false
+            }
+          ],
+          "total_price": 88528,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:27:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

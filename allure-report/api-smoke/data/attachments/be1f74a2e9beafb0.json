@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:28:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3414",
+    "etag": "W/\"d56-KEdKd0vcHN+a72MLet1zUF7wICA\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695919591c508c5d5e88dcac",
+        "email": "Linda70@hotmail.com",
+        "name": "Harley Lubowitz",
+        "country": "Canada",
+        "city": "Port Osborneland",
+        "street": "Wellington Courts",
+        "house": 4,
+        "flat": 844,
+        "phone": "+15385567065",
+        "createdOn": "2026-01-03T13:27:53.000Z",
+        "notes": "83PTKHNi0I40DvZrPCs0KQO907TMGw97bjw6DpDR6idCGOAFGCQieBnHp0KXu7PMjbs3IyMVhEQkIcpFzzmKxkLV8svCCo3cIxzF6NZPEv2aSMIyof1PK6WL04kOlMHFl58bPTngIjYDiBPxBRHq8qpwlAc3PnAX1hFeAtVF3EmFZCBxt8iJjqW8dqZbcntOMQXRpo39BqBCzushdVGyemoJ4grXPfZI7ITMM3zLu9x8CIkK92UxURUQMO"
+      },
+      "products": [
+        {
+          "_id": "6959195e1c508c5d5e88dea1",
+          "name": "Fish91208",
+          "amount": 244,
+          "price": 2595,
+          "manufacturer": "Amazon",
+          "notes": "t2SETAbPiREWpo0qNdJZNS5odf2DGM5E8fbSyNINh5lQMEEZuczICzOp8E3srzpzzLX9ZD9PjpPWAibYZ2dDA6nUPZddIilqCBw0QXrInANUanB7UYqRIrdmv73b3FQim3KccEUaxeOnCthncGhSgrfHzmfYMIMCGYElrqrScMejZUVf3Ws0E7aNkUUsEXTrtxvc2uXrLfN4AbKeXI8DoGBlbVyjd0Lrit2rK8rTS0uDSmsMAiFfLY5PnE",
+          "received": false
+        },
+        {
+          "_id": "695919631c508c5d5e88e14c",
+          "name": "Hat58543",
+          "amount": 365,
+          "price": 88707,
+          "manufacturer": "Amazon",
+          "notes": "7HhiwjDRRQtn8BQGbPyYeqXmdTvSXVwzbiCLjUwtqVGjFjhT0IqcL5UNpyLbDymRxvH6p9iETGw55g43uGzRen3F9hiTXy1p8rsBaxNmIprSkRyjJN5LXAP5fuz6tItbenEmTQQADq181SdEl1ClqF3kixsXskT7xyJixhOjdzfCiJk2mSxoG8w2weheOcTOLXCNQL8X97yShzcIHoIrDCoJ68kMZSUpsHl89T3tJHRdOd0QceF5JzPG9p",
+          "received": false
+        },
+        {
+          "_id": "695919681c508c5d5e88e29a",
+          "name": "Ball6610",
+          "amount": 921,
+          "price": 45686,
+          "manufacturer": "Tesla",
+          "notes": "dxcniq8MXFBOCMAviXviQhSEU3koFqIaVQFjlEVScoIu7sPHG8Zc55z6M9Q95V81Lp6IpXOXKfrPC3Chj6LkBsMwDuymyTWp5AZJqsQnasHkieDxhtbxmF2VsRLR8SUF1yNNIhctBbFP1YQuCofqQwdtUiiZTBXMQkGb6FXIJfXK2mhGXlkRC9ybIKIZOf3cWRAHV4CEzNitT2QuykRIIlGU2YAzLaov0xSl4Mvgw8ViJlYSF2bqlLjDvf",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 136988,
+      "createdOn": "2026-01-03T13:28:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695919591c508c5d5e88dcac",
+          "products": [
+            {
+              "_id": "6959195e1c508c5d5e88dea1",
+              "name": "Fish91208",
+              "amount": 244,
+              "price": 2595,
+              "manufacturer": "Amazon",
+              "notes": "t2SETAbPiREWpo0qNdJZNS5odf2DGM5E8fbSyNINh5lQMEEZuczICzOp8E3srzpzzLX9ZD9PjpPWAibYZ2dDA6nUPZddIilqCBw0QXrInANUanB7UYqRIrdmv73b3FQim3KccEUaxeOnCthncGhSgrfHzmfYMIMCGYElrqrScMejZUVf3Ws0E7aNkUUsEXTrtxvc2uXrLfN4AbKeXI8DoGBlbVyjd0Lrit2rK8rTS0uDSmsMAiFfLY5PnE",
+              "received": false
+            },
+            {
+              "_id": "695919631c508c5d5e88e14c",
+              "name": "Hat58543",
+              "amount": 365,
+              "price": 88707,
+              "manufacturer": "Amazon",
+              "notes": "7HhiwjDRRQtn8BQGbPyYeqXmdTvSXVwzbiCLjUwtqVGjFjhT0IqcL5UNpyLbDymRxvH6p9iETGw55g43uGzRen3F9hiTXy1p8rsBaxNmIprSkRyjJN5LXAP5fuz6tItbenEmTQQADq181SdEl1ClqF3kixsXskT7xyJixhOjdzfCiJk2mSxoG8w2weheOcTOLXCNQL8X97yShzcIHoIrDCoJ68kMZSUpsHl89T3tJHRdOd0QceF5JzPG9p",
+              "received": false
+            },
+            {
+              "_id": "695919681c508c5d5e88e29a",
+              "name": "Ball6610",
+              "amount": 921,
+              "price": 45686,
+              "manufacturer": "Tesla",
+              "notes": "dxcniq8MXFBOCMAviXviQhSEU3koFqIaVQFjlEVScoIu7sPHG8Zc55z6M9Q95V81Lp6IpXOXKfrPC3Chj6LkBsMwDuymyTWp5AZJqsQnasHkieDxhtbxmF2VsRLR8SUF1yNNIhctBbFP1YQuCofqQwdtUiiZTBXMQkGb6FXIJfXK2mhGXlkRC9ybIKIZOf3cWRAHV4CEzNitT2QuykRIIlGU2YAzLaov0xSl4Mvgw8ViJlYSF2bqlLjDvf",
+              "received": false
+            }
+          ],
+          "total_price": 136988,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:28:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695919691c508c5d5e88e2ae"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
