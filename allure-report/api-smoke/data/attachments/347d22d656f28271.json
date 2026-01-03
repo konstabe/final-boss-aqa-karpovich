@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:16:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-qHAvPemsh/ng4qNoUWWavnxoL6M\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695924931c508c5d5e8b4422",
+        "email": "Frederic.Kunde87@hotmail.com",
+        "name": "Augusta Lebsack",
+        "country": "Ukraine",
+        "city": "Izabellastead",
+        "street": "Kay Heights",
+        "house": 41,
+        "flat": 79,
+        "phone": "+14052692962",
+        "createdOn": "2026-01-03T14:15:47.000Z",
+        "notes": "6Yse41064vsOnkeNQK2zQKM0Jk72JdlAVXsmyZ0m9bux1MnC0dJjiYOCzEMWupC05JYWUehG3fFN2tqBM1DzrpLODMkWV6p00gyiR58OjLk9HkOUQ240vjRNf24oqRYdCYOewttggk1VTNpVIl6oIyRUpbRaLoxnmOLJ4Af4pqjIgmFOq6dCHUpkO7uHQuTxcXuLej1AsARvfL1xRtq4x9uuTgroUAYT2Ep6patduRB7dkbt39FKqsnCgn"
+      },
+      "products": [
+        {
+          "_id": "695924a31c508c5d5e8b465d",
+          "name": "Chair6923",
+          "amount": 435,
+          "price": 3151,
+          "manufacturer": "Amazon",
+          "notes": "TsvBMtGZHkvnufpDrTvuxsBjjHU6iiC2fyLzrjdWKxm7gpMUv0y1JRI3CuTEbn2kJ8tnmZiHFVwe25UlZLf9MTIVeDlHcQwP6Z5WMJ6DpOYAGWXp1sSx0uwl5ygcDaF2Nkm8wAqeqbOetil3cjk0aGgJnKVkYEj7YUT70VfDl126DF2aQQ6TPELjroxa6Xw8ptL2OSZIDQEmjfuwQoNElEpRxUKtJkclZGgLXHi5748mAeC9aKr1JpYROG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 3151,
+      "createdOn": "2026-01-03T14:16:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695924931c508c5d5e8b4422",
+          "products": [
+            {
+              "_id": "695924a31c508c5d5e8b465d",
+              "name": "Chair6923",
+              "amount": 435,
+              "price": 3151,
+              "manufacturer": "Amazon",
+              "notes": "TsvBMtGZHkvnufpDrTvuxsBjjHU6iiC2fyLzrjdWKxm7gpMUv0y1JRI3CuTEbn2kJ8tnmZiHFVwe25UlZLf9MTIVeDlHcQwP6Z5WMJ6DpOYAGWXp1sSx0uwl5ygcDaF2Nkm8wAqeqbOetil3cjk0aGgJnKVkYEj7YUT70VfDl126DF2aQQ6TPELjroxa6Xw8ptL2OSZIDQEmjfuwQoNElEpRxUKtJkclZGgLXHi5748mAeC9aKr1JpYROG",
+              "received": false
+            }
+          ],
+          "total_price": 3151,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:16:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695924ab1c508c5d5e8b46b8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

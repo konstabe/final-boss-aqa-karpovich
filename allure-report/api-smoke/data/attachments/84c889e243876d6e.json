@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:16:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1875",
+    "etag": "W/\"753-HeL3Dn4HIs1B0ECTQef+zuv6Uak\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695924a51c508c5d5e8b466b",
+        "email": "Spencer40@yahoo.com",
+        "name": "Augusta Brown",
+        "country": "Canada",
+        "city": "Bartbury",
+        "street": "W Broad Street",
+        "house": 8,
+        "flat": 598,
+        "phone": "+16999526060",
+        "createdOn": "2026-01-03T14:16:05.000Z",
+        "notes": "5e9mSxXrd2PX3dwTeNJrOgtXxpVFgQoKiVJkKUCg6LpNvpeEEsBcmi92mhYH1CclQzEkPkj5OWibNvNrVJV5SlF5ZlkILuoYh4xeMdM4UwESzZUeX8YsuL8sNJHl9e43jn3Z04uRzZUX5JKmYTspBUqJqHkLMk06KhRveNfYAzpl7deYE92WWxLXxV8yUt3JWlPRP1UNblLEMDgp3cnGe7tgYZLKwpwKwLyyOgCOoilj3Df0gyYRgJDRKH"
+      },
+      "products": [
+        {
+          "_id": "695924b81c508c5d5e8b4ded",
+          "name": "Tuna27167",
+          "amount": 205,
+          "price": 20469,
+          "manufacturer": "Amazon",
+          "notes": "XIDh0DN2WTfdaUHeEQPrTNqBDaRNfcBfAUJmeqEPGmEQb2kAfyk2j7guYTbBeLyKiwzmm6nu43kA3auGq9SeG3MVoj3X7NIhMKoCnFFCbjo0hBCendDCawIrRVZicKr13ZPeybiFFZVFxalnFZ1ObbsphWORZlrzV1pHY452rqB9jEn94HwMEODOvLOH784kefJeChBxaRFgBTn7L6p6UhFuwHqswIkT9TQhVwa21NSziIBjj7KysFPB1e",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 20469,
+      "createdOn": "2026-01-03T14:16:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695924a51c508c5d5e8b466b",
+          "products": [
+            {
+              "_id": "695924b81c508c5d5e8b4ded",
+              "name": "Tuna27167",
+              "amount": 205,
+              "price": 20469,
+              "manufacturer": "Amazon",
+              "notes": "XIDh0DN2WTfdaUHeEQPrTNqBDaRNfcBfAUJmeqEPGmEQb2kAfyk2j7guYTbBeLyKiwzmm6nu43kA3auGq9SeG3MVoj3X7NIhMKoCnFFCbjo0hBCendDCawIrRVZicKr13ZPeybiFFZVFxalnFZ1ObbsphWORZlrzV1pHY452rqB9jEn94HwMEODOvLOH784kefJeChBxaRFgBTn7L6p6UhFuwHqswIkT9TQhVwa21NSziIBjj7KysFPB1e",
+              "received": false
+            }
+          ],
+          "total_price": 20469,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:16:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695924bd1c508c5d5e8b4e91"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
