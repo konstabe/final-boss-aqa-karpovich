@@ -91,11 +91,11 @@ jobs:
               run: npm run test:api-smoke
               continue-on-error: true
 
+            - name: Copy old history into results
+              run: cp -r smoke-history-input/history allure-results/history || true
+
             - name: Create Allure report
               run: npm run allure-report
-
-            - name: Copy old history into report
-              run: cp -r smoke-history-input/history allure-report/history || true
 
             - name: Save Allure history
               uses: actions/upload-artifact@v4
