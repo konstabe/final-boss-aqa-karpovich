@@ -13,14 +13,21 @@ export class OrderDetailsBottomPage extends SalesPortalPage {
 	readonly deliveryInfoBlocks = this.page.locator("#delivery .c-details");
 	readonly scheduleDeliveryButton = this.page.locator("#delivery-btn");
 
+	readonly historySection = this.page.locator("#history");
+	readonly historyBody = this.page.locator("#history-body");
+	readonly historyTab = this.page.locator("#history-tab");
+	readonly historyTitle = this.historySection.locator("h4");
+
+	readonly historyColumns = this.page.locator("#history > .his-header > .his-col");
+
 	readonly historyAccordion = this.page.locator("#history-body .accordion");
 	readonly historyToggleButton = (index: number) =>
 		this.historyAccordion.nth(index).locator(".accordion-header button.accordion-button");
 	readonly historyAccordionCollapse = (index: number) =>
 		this.historyAccordion.nth(index).locator(".accordion-collapse");
 	readonly historyChangeRow = (index: number) =>
-		this.historyAccordionCollapse(index).locator(".d-flex.justify-content-around.py-3.border-bottom").last();
-	readonly historyChangeCols = (index: number) => this.historyChangeRow(index).locator(".his-col");
+		this.historyAccordionCollapse(index).locator(".d-flex.justify-content-around.py-3.border-bottom").first();
+	readonly historyChangeCols = (index: number) => this.historyChangeRow(index).locator(".fw-bold.his-col");
 	readonly commentTextarea = this.page.locator("#textareaComments");
 	readonly sendCommentButton = this.page.locator("#create-comment-btn");
 	readonly commentValidationError = this.page.locator("#error-textareaComments");

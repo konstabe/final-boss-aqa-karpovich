@@ -51,12 +51,13 @@ export interface IPages {
 	exportOrderModal: ExportOrderModal;
 
 	orderDetailsHeaderPage: OrderDetailsHeaderPage;
-	orderDetailsBottomPage: OrderDetailsBottomPage;
 	orderDetailsCustomerPage: OrderDetailsCustomerPage;
 	orderDetailsProductPage: OrderDetailsProductPage;
 	assignedManagerModal: AssignedManagerModal;
 	confirmationModal: ConfirmationModal;
 	editDeliveryModal: EditDeliveryModal;
+	addNewOrderPage: CreateOrderModal;
+	orderDetailsBottomPage: OrderDetailsBottomPage;
 	createOrderModal: CreateOrderModal;
 	reopenModal: ReopenModal;
 
