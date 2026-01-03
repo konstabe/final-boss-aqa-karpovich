@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:16:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4826",
+    "etag": "W/\"12da-pHSSzFKB7UQQJ/EyCXVjYd6enPA\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69596b1b1c508c5d5e97a646",
+      "status": "Received",
+      "customer": {
+        "_id": "69596b191c508c5d5e97a532",
+        "email": "Mertie_Turner31@yahoo.com",
+        "name": "Eriberto Kuphal",
+        "country": "Great Britain",
+        "city": "Nikitacester",
+        "street": "North Lane",
+        "house": 22,
+        "flat": 66,
+        "phone": "+12267767538",
+        "createdOn": "2026-01-03T19:16:41.000Z",
+        "notes": "0WglEvSgN9OvWRmzmv2AOkET5P4wmw7nBSokPJIfU1auwsLyaPihlZ3LHVDEZSrh1kFWs0i08tqwXxfUeRJa2eo7CrFYMU1A0JfW65OueMRSkvHhdukzvhCOkGwoLA5qTqMaH94JIylDqehfAV0NLP9GivEOaIFqL6SVwjNNoBUeZ7ihdEEyF9z4h252nNmsGKR7Pl6qeT1JwwfJeYlpc3EHwxDlZhwBhGkyEumpkhjnU0RKCVwCIkz89r"
+      },
+      "products": [
+        {
+          "_id": "69596b1b1c508c5d5e97a624",
+          "name": "Gloves84659",
+          "amount": 982,
+          "price": 27127,
+          "manufacturer": "Xiaomi",
+          "notes": "AMQIFDsrNSLB7yOqoaFrIq69z02xoiWcdYZHw2cVOT1sodb6UuAWz5F2yWs3LxTnMICRueuqYRFJdKspy6N9yscf73TtFSgJju0s6vFgQoI5ShNUmClYSpvelpOGjCiAtzH9FVQqcoYjr1StPzPpLiHGbFgV5fUsGNeO0kG66Ib6agJFTVCLqCkbBAUgr782VkSSqd1YvfQAAZadZFZtbrTmTKCXTJE8whdZ2itLQhlZ6dJ8eQEtJrNbLO",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Nikitacester",
+          "street": "North Lane",
+          "house": 22,
+          "flat": 66
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 27127,
+      "createdOn": "2026-01-03T19:16:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69596b191c508c5d5e97a532",
+          "products": [
+            {
+              "_id": "69596b1b1c508c5d5e97a624",
+              "name": "Gloves84659",
+              "amount": 982,
+              "price": 27127,
+              "manufacturer": "Xiaomi",
+              "notes": "AMQIFDsrNSLB7yOqoaFrIq69z02xoiWcdYZHw2cVOT1sodb6UuAWz5F2yWs3LxTnMICRueuqYRFJdKspy6N9yscf73TtFSgJju0s6vFgQoI5ShNUmClYSpvelpOGjCiAtzH9FVQqcoYjr1StPzPpLiHGbFgV5fUsGNeO0kG66Ib6agJFTVCLqCkbBAUgr782VkSSqd1YvfQAAZadZFZtbrTmTKCXTJE8whdZ2itLQhlZ6dJ8eQEtJrNbLO",
+              "received": true
+            }
+          ],
+          "total_price": 27127,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Nikitacester",
+              "street": "North Lane",
+              "house": 22,
+              "flat": 66
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T19:16:47.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69596b191c508c5d5e97a532",
+          "products": [
+            {
+              "_id": "69596b1b1c508c5d5e97a624",
+              "name": "Gloves84659",
+              "amount": 982,
+              "price": 27127,
+              "manufacturer": "Xiaomi",
+              "notes": "AMQIFDsrNSLB7yOqoaFrIq69z02xoiWcdYZHw2cVOT1sodb6UuAWz5F2yWs3LxTnMICRueuqYRFJdKspy6N9yscf73TtFSgJju0s6vFgQoI5ShNUmClYSpvelpOGjCiAtzH9FVQqcoYjr1StPzPpLiHGbFgV5fUsGNeO0kG66Ib6agJFTVCLqCkbBAUgr782VkSSqd1YvfQAAZadZFZtbrTmTKCXTJE8whdZ2itLQhlZ6dJ8eQEtJrNbLO",
+              "received": false
+            }
+          ],
+          "total_price": 27127,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Nikitacester",
+              "street": "North Lane",
+              "house": 22,
+              "flat": 66
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T19:16:47.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69596b191c508c5d5e97a532",
+          "products": [
+            {
+              "_id": "69596b1b1c508c5d5e97a624",
+              "name": "Gloves84659",
+              "amount": 982,
+              "price": 27127,
+              "manufacturer": "Xiaomi",
+              "notes": "AMQIFDsrNSLB7yOqoaFrIq69z02xoiWcdYZHw2cVOT1sodb6UuAWz5F2yWs3LxTnMICRueuqYRFJdKspy6N9yscf73TtFSgJju0s6vFgQoI5ShNUmClYSpvelpOGjCiAtzH9FVQqcoYjr1StPzPpLiHGbFgV5fUsGNeO0kG66Ib6agJFTVCLqCkbBAUgr782VkSSqd1YvfQAAZadZFZtbrTmTKCXTJE8whdZ2itLQhlZ6dJ8eQEtJrNbLO",
+              "received": false
+            }
+          ],
+          "total_price": 27127,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Nikitacester",
+              "street": "North Lane",
+              "house": 22,
+              "flat": 66
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T19:16:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69596b191c508c5d5e97a532",
+          "products": [
+            {
+              "_id": "69596b1b1c508c5d5e97a624",
+              "name": "Gloves84659",
+              "amount": 982,
+              "price": 27127,
+              "manufacturer": "Xiaomi",
+              "notes": "AMQIFDsrNSLB7yOqoaFrIq69z02xoiWcdYZHw2cVOT1sodb6UuAWz5F2yWs3LxTnMICRueuqYRFJdKspy6N9yscf73TtFSgJju0s6vFgQoI5ShNUmClYSpvelpOGjCiAtzH9FVQqcoYjr1StPzPpLiHGbFgV5fUsGNeO0kG66Ib6agJFTVCLqCkbBAUgr782VkSSqd1YvfQAAZadZFZtbrTmTKCXTJE8whdZ2itLQhlZ6dJ8eQEtJrNbLO",
+              "received": false
+            }
+          ],
+          "total_price": 27127,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:16:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

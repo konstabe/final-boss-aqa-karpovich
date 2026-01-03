@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:16:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2819",
+    "etag": "W/\"b03-r7TDK5nbvVpqFGq8nSSqF4a0/PM\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69596b1b1c508c5d5e97a649",
+      "status": "Draft",
+      "customer": {
+        "_id": "69596b181c508c5d5e97a4e4",
+        "email": "Dandre88@yahoo.com",
+        "name": "Rashawn Kilback",
+        "country": "Germany",
+        "city": "Port Nannieshire",
+        "street": "Emmerich Falls",
+        "house": 6,
+        "flat": 725,
+        "phone": "+19194680560",
+        "createdOn": "2026-01-03T19:16:40.000Z",
+        "notes": "nlhcCPEUcpdKl5RJYZRtQk8ghDkbizor0cGX4eeP0sz7yKKqB7gMz1qC8UR5YPiLth7a9GssQ0HINHnECcKGxJowxT0N74RClisg79mZSIj7szk90n9Tkw4upGPbt5QuqpdYKNDks7mEF3drh6V2GkKukrcZdqSdQg51yBY2guPzoDiRtnwstqyJeFvhPNgnte1iOVTmKz0zeBWcXZeIXwbP2mlooI9M9MS3H963vQzmz98BBf9leEsyE9"
+      },
+      "products": [
+        {
+          "_id": "69596b1a1c508c5d5e97a535",
+          "name": "Cheese69107",
+          "amount": 605,
+          "price": 99290,
+          "manufacturer": "Samsung",
+          "notes": "VJq93Km9sVm8hzvMP2FevEJVC8aoXA5POOVQKQdQBfJU8vIQYxIHXBcpYm93TRKj57RtDtGl91EozkPMxMEDtptpRcpbPgaC97Qb6tpYoz6bgRrmHfkQJZX9UpymeiT69qruRv6mHMkAZUj3NDJbwXeKQasSBy5QSOo416UAWLcGiWMYbDfBv0fULc8wFNyvyKweqLLjEFq8AEVf2cNIfnru4PX1u8KeQnfUrp1ZxR1exGSwFPxNpMkzH9",
+          "received": false
+        },
+        {
+          "_id": "69596b1b1c508c5d5e97a626",
+          "name": "Pizza90120",
+          "amount": 696,
+          "price": 48672,
+          "manufacturer": "Xiaomi",
+          "notes": "RRBwoYVJJIMcAv1cA1LMChf6xHcInxv2027sl2yj0FEoRNXUQi5jffH3SlhW9RlwqUoKSgwSi47BcC0YL2jl9ocdG8tuyTpk1kuOmEy0YuoWjxQgYza4QgrzXEcxPlz1K2gA6tZ23xoNbYgjmPx1XtxElGzWmlDARZqy4xIMZfPhza8fpp938VLInEhlAQwbxR2tCv5OuR2f9t92CUtlOCavemZu2bmEpiPdD6w3EKG7b4jhiujEqsOWPK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 147962,
+      "createdOn": "2026-01-03T19:16:43.000Z",
+      "comments": [
+        {
+          "text": "CphmebiHjcswnu5gygeQfxGkuS0k0RhilMLD0GiGHEBnd1QAhPdZDzfsCapp9LjS8FEfPl6R2k3",
+          "createdOn": "2026-01-03T19:16:44.000Z",
+          "_id": "69596b1e1c508c5d5e97a7be"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69596b181c508c5d5e97a4e4",
+          "products": [
+            {
+              "_id": "69596b1a1c508c5d5e97a535",
+              "name": "Cheese69107",
+              "amount": 605,
+              "price": 99290,
+              "manufacturer": "Samsung",
+              "notes": "VJq93Km9sVm8hzvMP2FevEJVC8aoXA5POOVQKQdQBfJU8vIQYxIHXBcpYm93TRKj57RtDtGl91EozkPMxMEDtptpRcpbPgaC97Qb6tpYoz6bgRrmHfkQJZX9UpymeiT69qruRv6mHMkAZUj3NDJbwXeKQasSBy5QSOo416UAWLcGiWMYbDfBv0fULc8wFNyvyKweqLLjEFq8AEVf2cNIfnru4PX1u8KeQnfUrp1ZxR1exGSwFPxNpMkzH9",
+              "received": false
+            },
+            {
+              "_id": "69596b1b1c508c5d5e97a626",
+              "name": "Pizza90120",
+              "amount": 696,
+              "price": 48672,
+              "manufacturer": "Xiaomi",
+              "notes": "RRBwoYVJJIMcAv1cA1LMChf6xHcInxv2027sl2yj0FEoRNXUQi5jffH3SlhW9RlwqUoKSgwSi47BcC0YL2jl9ocdG8tuyTpk1kuOmEy0YuoWjxQgYza4QgrzXEcxPlz1K2gA6tZ23xoNbYgjmPx1XtxElGzWmlDARZqy4xIMZfPhza8fpp938VLInEhlAQwbxR2tCv5OuR2f9t92CUtlOCavemZu2bmEpiPdD6w3EKG7b4jhiujEqsOWPK",
+              "received": false
+            }
+          ],
+          "total_price": 147962,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:16:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
