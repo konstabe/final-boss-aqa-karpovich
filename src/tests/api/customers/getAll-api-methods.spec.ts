@@ -38,7 +38,8 @@ test.describe("Get customers all", () => {
 			if (!createdCustomer) {
 				throw new Error("Created customer is missing");
 			}
-			const exists = response.body.Customers.some((c: ICustomerFromResponse) => c._id === createdCustomer._id);
+			const createdCustomerId = createdCustomer._id;
+			const exists = response.body.Customers.some((c: ICustomerFromResponse) => c._id === createdCustomerId);
 			expect(exists).toBe(true);
 		});
 
