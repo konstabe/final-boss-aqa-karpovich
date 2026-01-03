@@ -1,5 +1,6 @@
 import { NOTIFICATIONS } from "data/notifications";
 import { generateOrderDetailsMockWithDelivery } from "data/orders/generateOrderDetailsMock";
+import { CONFIRMATION_MODAL_TEXT } from "data/orders/modalText";
 import { ORDER_STATUS } from "data/orders/orderStatus";
 import { TAGS } from "data/tags";
 import { expect, test } from "fixtures";
@@ -31,6 +32,17 @@ test.describe("[UI] [Orders] [reopenOrderModal]", () => {
 			await ordersDetailsUIService.open(orderId);
 
 			await orderDetailsPage.header.clickReopenButton();
+			await expect(orderDetailsPage.reopenModal.title).toHaveText(CONFIRMATION_MODAL_TEXT.reopen.title);
+			await expect(orderDetailsPage.reopenModal.confirmationMessage).toHaveText(
+				CONFIRMATION_MODAL_TEXT.reopen.body,
+			);
+			await expect(orderDetailsPage.reopenModal.closeButton).toBeVisible();
+			await expect(orderDetailsPage.reopenModal.reopenButton).toBeVisible();
+			await expect(orderDetailsPage.reopenModal.reopenButton).toHaveText(
+				CONFIRMATION_MODAL_TEXT.reopen.confirmButton,
+			);
+			await expect(orderDetailsPage.reopenModal.cancelButton).toBeVisible();
+			await expect(orderDetailsPage.reopenModal.cancelButton).toHaveText(CONFIRMATION_MODAL_TEXT.cancelButton);
 			await orderDetailsPage.reopenModal.clickReopen();
 		},
 	);
