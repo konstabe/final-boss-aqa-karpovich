@@ -1,0 +1,187 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:20:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5262",
+    "etag": "W/\"148e-1079YhYPuRmAI8permb1aRLBzaI\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69596c011c508c5d5e97d615",
+      "status": "Draft",
+      "customer": {
+        "_id": "69596bf81c508c5d5e97d186",
+        "email": "Shyanne.Koepp70@hotmail.com",
+        "name": "Mariam Pfeffer",
+        "country": "Russia",
+        "city": "Coral Springs",
+        "street": "Cooper Key",
+        "house": 45,
+        "flat": 560,
+        "phone": "+19424466783",
+        "createdOn": "2026-01-03T19:20:24.000Z",
+        "notes": "jIpKOy77O6NDRh9K2gT5QDU4FL8PJBvYnkFj2reu6pdh4NK9kgFdGr3Q2lhcoh52EOKX0yryjOS53QkPjSSoZdpJzLl4NDAiQdur1QhFddpOGppVnJsOzMTgf2EGw5cyquBaphN18CeAsZRWEpFjOf6kcPFBzD0OF1RJjTQ0XczEW9iEsbwr90LgBWkBWqT2PWn2proQpjtZJkLl3fqD3UYDP7UmwiAOduA79EeLk9jSQYXM1nXxRCjn95"
+      },
+      "products": [
+        {
+          "_id": "69596bfa1c508c5d5e97d1da",
+          "name": "Salad31593",
+          "amount": 313,
+          "price": 25841,
+          "manufacturer": "Samsung",
+          "notes": "18JFyTGSO2hdhiAbir0PC2lvKrMtMFvMlRSQ4gozdVUYutfj0zF0g0WqiiW4Sh3dp6YcZS8yZucKIZHJPlL8LtqYUdWqKBm5xioVEIHWL2O8PP1dWfPc7KjzOn6BtmU6OLVDLCIS8qAaeQIZHcyJJIA1waoSlHpqZ3QpYa0Gy56p0drldd5QVAcj4BADz4tkYsYfAMrRYm1PSqOfHMWsimJFigDKHqIRHD19sID1wyfJbyEoK57GaEBrAo",
+          "received": false
+        },
+        {
+          "_id": "69596bfb1c508c5d5e97d2a3",
+          "name": "Fish61313",
+          "amount": 581,
+          "price": 34018,
+          "manufacturer": "Xiaomi",
+          "notes": "XDzgjfnCfHnnc3Z8Lpd914Em5xZh76xFISlKTszpDykpXy3dU2Lk5QJKZQTt7sSVfpfZkS7JcP8t5upQs1x576xwO6ZYnrjDeeGR8NCC0U2Z4LOeM1X5aCktCkRqWxbSZsQX8POAetl2WSyMvRKuiMDGQSJaBOgIruab6bvtE67Ve0y6jl796kaxQTAbUXLe50KLJM6uQ7oKZHJNAQnVAAP7mGyywZYQIci6hiIRCDcBRUXuGKzRPh7ftE",
+          "received": false
+        },
+        {
+          "_id": "69596bfe1c508c5d5e97d5e7",
+          "name": "Cheese62179",
+          "amount": 378,
+          "price": 90089,
+          "manufacturer": "Apple",
+          "notes": "6ns5dwcjWE0ooP1Y2SPst9U4Ae2sXH5cbtuPMYe0hP5ksFR2iogHRbhXv92rMlgKAv9CJsuD1p3i0ZadL8mOcb25BEfUpNucq6ovqgZYpr0eDinZNjzX4OZudONR7Ixvi8khaklCYhSfhv6lhsXarGJZMTjZO7LICJzIwNDgz070vm3eaomiJ3h70p3oyJ4onAjFBvJoHNZcjMij9JnqsJxiRWuntjgsg8uyFUVu8n8tMGwkcP42ZvJWS5",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Coral Springs",
+          "street": "Cooper Key",
+          "house": 45,
+          "flat": 560
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 149948,
+      "createdOn": "2026-01-03T19:20:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69596bf81c508c5d5e97d186",
+          "products": [
+            {
+              "_id": "69596bfa1c508c5d5e97d1da",
+              "name": "Salad31593",
+              "amount": 313,
+              "price": 25841,
+              "manufacturer": "Samsung",
+              "notes": "18JFyTGSO2hdhiAbir0PC2lvKrMtMFvMlRSQ4gozdVUYutfj0zF0g0WqiiW4Sh3dp6YcZS8yZucKIZHJPlL8LtqYUdWqKBm5xioVEIHWL2O8PP1dWfPc7KjzOn6BtmU6OLVDLCIS8qAaeQIZHcyJJIA1waoSlHpqZ3QpYa0Gy56p0drldd5QVAcj4BADz4tkYsYfAMrRYm1PSqOfHMWsimJFigDKHqIRHD19sID1wyfJbyEoK57GaEBrAo",
+              "received": false
+            },
+            {
+              "_id": "69596bfb1c508c5d5e97d2a3",
+              "name": "Fish61313",
+              "amount": 581,
+              "price": 34018,
+              "manufacturer": "Xiaomi",
+              "notes": "XDzgjfnCfHnnc3Z8Lpd914Em5xZh76xFISlKTszpDykpXy3dU2Lk5QJKZQTt7sSVfpfZkS7JcP8t5upQs1x576xwO6ZYnrjDeeGR8NCC0U2Z4LOeM1X5aCktCkRqWxbSZsQX8POAetl2WSyMvRKuiMDGQSJaBOgIruab6bvtE67Ve0y6jl796kaxQTAbUXLe50KLJM6uQ7oKZHJNAQnVAAP7mGyywZYQIci6hiIRCDcBRUXuGKzRPh7ftE",
+              "received": false
+            },
+            {
+              "_id": "69596bfe1c508c5d5e97d5e7",
+              "name": "Cheese62179",
+              "amount": 378,
+              "price": 90089,
+              "manufacturer": "Apple",
+              "notes": "6ns5dwcjWE0ooP1Y2SPst9U4Ae2sXH5cbtuPMYe0hP5ksFR2iogHRbhXv92rMlgKAv9CJsuD1p3i0ZadL8mOcb25BEfUpNucq6ovqgZYpr0eDinZNjzX4OZudONR7Ixvi8khaklCYhSfhv6lhsXarGJZMTjZO7LICJzIwNDgz070vm3eaomiJ3h70p3oyJ4onAjFBvJoHNZcjMij9JnqsJxiRWuntjgsg8uyFUVu8n8tMGwkcP42ZvJWS5",
+              "received": false
+            }
+          ],
+          "total_price": 149948,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Coral Springs",
+              "street": "Cooper Key",
+              "house": 45,
+              "flat": 560
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T19:20:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69596bf81c508c5d5e97d186",
+          "products": [
+            {
+              "_id": "69596bfa1c508c5d5e97d1da",
+              "name": "Salad31593",
+              "amount": 313,
+              "price": 25841,
+              "manufacturer": "Samsung",
+              "notes": "18JFyTGSO2hdhiAbir0PC2lvKrMtMFvMlRSQ4gozdVUYutfj0zF0g0WqiiW4Sh3dp6YcZS8yZucKIZHJPlL8LtqYUdWqKBm5xioVEIHWL2O8PP1dWfPc7KjzOn6BtmU6OLVDLCIS8qAaeQIZHcyJJIA1waoSlHpqZ3QpYa0Gy56p0drldd5QVAcj4BADz4tkYsYfAMrRYm1PSqOfHMWsimJFigDKHqIRHD19sID1wyfJbyEoK57GaEBrAo",
+              "received": false
+            },
+            {
+              "_id": "69596bfb1c508c5d5e97d2a3",
+              "name": "Fish61313",
+              "amount": 581,
+              "price": 34018,
+              "manufacturer": "Xiaomi",
+              "notes": "XDzgjfnCfHnnc3Z8Lpd914Em5xZh76xFISlKTszpDykpXy3dU2Lk5QJKZQTt7sSVfpfZkS7JcP8t5upQs1x576xwO6ZYnrjDeeGR8NCC0U2Z4LOeM1X5aCktCkRqWxbSZsQX8POAetl2WSyMvRKuiMDGQSJaBOgIruab6bvtE67Ve0y6jl796kaxQTAbUXLe50KLJM6uQ7oKZHJNAQnVAAP7mGyywZYQIci6hiIRCDcBRUXuGKzRPh7ftE",
+              "received": false
+            },
+            {
+              "_id": "69596bfe1c508c5d5e97d5e7",
+              "name": "Cheese62179",
+              "amount": 378,
+              "price": 90089,
+              "manufacturer": "Apple",
+              "notes": "6ns5dwcjWE0ooP1Y2SPst9U4Ae2sXH5cbtuPMYe0hP5ksFR2iogHRbhXv92rMlgKAv9CJsuD1p3i0ZadL8mOcb25BEfUpNucq6ovqgZYpr0eDinZNjzX4OZudONR7Ixvi8khaklCYhSfhv6lhsXarGJZMTjZO7LICJzIwNDgz070vm3eaomiJ3h70p3oyJ4onAjFBvJoHNZcjMij9JnqsJxiRWuntjgsg8uyFUVu8n8tMGwkcP42ZvJWS5",
+              "received": false
+            }
+          ],
+          "total_price": 149948,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:20:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

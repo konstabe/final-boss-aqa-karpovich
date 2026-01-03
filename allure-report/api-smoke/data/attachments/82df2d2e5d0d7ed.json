@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:20:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2817",
+    "etag": "W/\"b01-/qtWmVKsseF86tKZKQD7r0OU3wo\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69596bf61c508c5d5e97d0ec",
+      "status": "Draft",
+      "customer": {
+        "_id": "69596bf11c508c5d5e97cedf",
+        "email": "Felicita.Heathcote@gmail.com",
+        "name": "Danika Jerde",
+        "country": "Ukraine",
+        "city": "Port Robertbury",
+        "street": "Ashlee Street",
+        "house": 38,
+        "flat": 647,
+        "phone": "+16572156295",
+        "createdOn": "2026-01-03T19:20:17.000Z",
+        "notes": "XaLXNXlrs2N2dG0IkISwPLlLIKJBEqExjiWiohcEJGeBv9Ris47nLgVYg3uzvRDDpNMhAw9l8ZjBo4QYrT7tJ9EVV3rCwP9IXrUY6citkUPdhPJCXF23IeK6WaoxP6ezOkpFjcmyKX9VJDMOF8rR6y71FJ1dkeJkzLe1S2VGXEp1tm16Vw9wqYAK7aZq4BV91LD0Zxiom31EOdtLhGWFqF3x5eRBvsIFtAQTIzMiUygpEwDQloTzUO0kHo"
+      },
+      "products": [
+        {
+          "_id": "69596bf21c508c5d5e97cf57",
+          "name": "Cheese21201",
+          "amount": 55,
+          "price": 65964,
+          "manufacturer": "Sony",
+          "notes": "cL8tm6dg2SBYhN08NbZU2l2P4VWOnmKaYKRlKNuuvxsturAWCLlxT6Be7gh8teJdGdZ4mZRibQqPVD1ppySw4DGj12vkvPlzGAmIbeWthEjFQwQgVbxm94iqH96faR9MF9XHBhDQxKDTrNx4f5B3DwE8gWNg5Stjeu33HkBengmpmtbaLiFPPOLFpggI6lKF9vlIeBARVjevUUH2YcVjlGjd4iUCU2RDDysvNsSQwbXUySfOHZsDNjd52J",
+          "received": false
+        },
+        {
+          "_id": "69596bf41c508c5d5e97cf79",
+          "name": "Keyboard62548",
+          "amount": 981,
+          "price": 9255,
+          "manufacturer": "Tesla",
+          "notes": "fn39iToDRc6gnvBDY2O0KWBYR4ds9iK4F6dLEJiPWop8bBUm1a9nAFqkO9yYgmlHCuqloJWrnZcXiM5oZi1YOtFPOONUdvHGBSBqypEhnqMBvOIFw8555lIQWem1aSdZq2UhPMZiz5CL4zmsLUewMapeLXAuO0olip7HwDaRdyqytP2rf1jcgm2d0dLmsoq5mD7D0uNR7C3qX8GtfI06KDqAD6tvJBsmPHBA6J3maBzh3Qw9EuTtWQajKN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 75219,
+      "createdOn": "2026-01-03T19:20:22.000Z",
+      "comments": [
+        {
+          "text": "IWxQLgUx3QX7AiqSGXbzk1UgboM4Iekb7gSDuddviCFVt6lX1b1jDIYawMytoAKyktmezcKFVg3",
+          "createdOn": "2026-01-03T19:20:23.000Z",
+          "_id": "69596bf71c508c5d5e97d123"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69596bf11c508c5d5e97cedf",
+          "products": [
+            {
+              "_id": "69596bf21c508c5d5e97cf57",
+              "name": "Cheese21201",
+              "amount": 55,
+              "price": 65964,
+              "manufacturer": "Sony",
+              "notes": "cL8tm6dg2SBYhN08NbZU2l2P4VWOnmKaYKRlKNuuvxsturAWCLlxT6Be7gh8teJdGdZ4mZRibQqPVD1ppySw4DGj12vkvPlzGAmIbeWthEjFQwQgVbxm94iqH96faR9MF9XHBhDQxKDTrNx4f5B3DwE8gWNg5Stjeu33HkBengmpmtbaLiFPPOLFpggI6lKF9vlIeBARVjevUUH2YcVjlGjd4iUCU2RDDysvNsSQwbXUySfOHZsDNjd52J",
+              "received": false
+            },
+            {
+              "_id": "69596bf41c508c5d5e97cf79",
+              "name": "Keyboard62548",
+              "amount": 981,
+              "price": 9255,
+              "manufacturer": "Tesla",
+              "notes": "fn39iToDRc6gnvBDY2O0KWBYR4ds9iK4F6dLEJiPWop8bBUm1a9nAFqkO9yYgmlHCuqloJWrnZcXiM5oZi1YOtFPOONUdvHGBSBqypEhnqMBvOIFw8555lIQWem1aSdZq2UhPMZiz5CL4zmsLUewMapeLXAuO0olip7HwDaRdyqytP2rf1jcgm2d0dLmsoq5mD7D0uNR7C3qX8GtfI06KDqAD6tvJBsmPHBA6J3maBzh3Qw9EuTtWQajKN",
+              "received": false
+            }
+          ],
+          "total_price": 75219,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:20:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

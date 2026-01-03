@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:20:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-sC9VH41CUccRCJpighEOS04Rpwg\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69596bf81c508c5d5e97d169",
+        "email": "Americo.Smitham@hotmail.com",
+        "name": "Morris Kemmer",
+        "country": "USA",
+        "city": "Dale City",
+        "street": "Hagenes Branch",
+        "house": 18,
+        "flat": 444,
+        "phone": "+18026142701",
+        "createdOn": "2026-01-03T19:20:24.000Z",
+        "notes": "3jwllyYf6CasulhCh5ikGjkJMnPdFAzXJqhujHIubzJNK39wNiZd4Zdo4AEZOHIg7m1ecD43iJKjqJrwRjRW1AkN0bo0QIXExKkxOwo0ZSUO30rq0i3RSXUOL11tAzQUikCRdZtJSN4XSDFJ3mjmHuYsO4JbPiDKTdDicwBZ2gmiguJ9KXgfI40uQoZbzXqmHeVpAxWNPam475OGLbgoCtC1iUBzrcAlt2eExzVoztXG2Rcpso6vbW5xXB"
+      },
+      "products": [
+        {
+          "_id": "69596bf91c508c5d5e97d1cc",
+          "name": "Table72527",
+          "amount": 611,
+          "price": 71593,
+          "manufacturer": "Microsoft",
+          "notes": "xLe4nNGFa3a6kvj9zu61y56crLZFCeZqgq2QxlCo1Vy4L0gy6pZKvsl5WzqcP71JHCArjvjb5dE7dRDVG5YtetnRWaEte9mZ1VpXuDUWxgJqhps8aXi2zYfanpA4mhIhmze1ZvQW5bw61EqBN6H0CKNycCr1NxoHydcemVdC5qh9cyF18ZBR5eUpmNkzFbgPeUH3k5TlJ7D7515UFTF2O70aYBX9tmFZ5SW2EVPHtpVNxhblUseA0MjRiz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 71593,
+      "createdOn": "2026-01-03T19:20:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69596bf81c508c5d5e97d169",
+          "products": [
+            {
+              "_id": "69596bf91c508c5d5e97d1cc",
+              "name": "Table72527",
+              "amount": 611,
+              "price": 71593,
+              "manufacturer": "Microsoft",
+              "notes": "xLe4nNGFa3a6kvj9zu61y56crLZFCeZqgq2QxlCo1Vy4L0gy6pZKvsl5WzqcP71JHCArjvjb5dE7dRDVG5YtetnRWaEte9mZ1VpXuDUWxgJqhps8aXi2zYfanpA4mhIhmze1ZvQW5bw61EqBN6H0CKNycCr1NxoHydcemVdC5qh9cyF18ZBR5eUpmNkzFbgPeUH3k5TlJ7D7515UFTF2O70aYBX9tmFZ5SW2EVPHtpVNxhblUseA0MjRiz",
+              "received": false
+            }
+          ],
+          "total_price": 71593,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:20:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69596bf91c508c5d5e97d1d7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
