@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:53:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-+8ryX4j7VaAqZnTKrj3MNr2We6I\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695957af1c508c5d5e952243",
+        "email": "Sister_Quigley@hotmail.com",
+        "name": "Pink Kub",
+        "country": "Russia",
+        "city": "Fort Frederique",
+        "street": "Keebler Meadows",
+        "house": 6,
+        "flat": 706,
+        "phone": "+15384278098",
+        "createdOn": "2026-01-03T17:53:51.000Z",
+        "notes": "dcpGmk95lNufFpcGYaweJ21THcQzOErbPfiQefA2MaRtRYMhCcF9Wgj6gHWgP6UE8kBqDnaU8h8ltZKphNAsykKUNF3MyxiklaOH76hjd91RAwhqHCRPMUO8siDfLcWvbBtpEQ0v5rlOGNJ3klmnWYu49zoJQlGwRRDKmjSJOHZPolL1OOtLJjVzcTDf2nlZhpKoI0CPpFFRkT9jJDhsS5aK6llLNJJpLqzzjrOoSa66CkRuEtycKIsdqM"
+      },
+      "products": [
+        {
+          "_id": "695957b11c508c5d5e9522a1",
+          "name": "Towels45302",
+          "amount": 78,
+          "price": 47051,
+          "manufacturer": "Amazon",
+          "notes": "EULcFOhlHIkl3BuLUCpi4EKLreIqEOZpJQ210kL88fk3fS6aIHn9VAT2nw6oGeMJkARqZdX2Lhw2taRJoLRapRYa2fPSsJxqe0EqUmIhBpn2i1Ux4R5gEGDSgzM7XGSl6dFW2LLuvBPvrZxN6bc9fHKOqjrQ9FOIOQG4OtGm3fr06DptAS9Tem7Csxx2OI3C0bxNOznQjrLqjp4cLqF7CwiE1VgWXsnGcksvhFTJkorwh41lxOXm2gx46I",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 47051,
+      "createdOn": "2026-01-03T17:53:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695957af1c508c5d5e952243",
+          "products": [
+            {
+              "_id": "695957b11c508c5d5e9522a1",
+              "name": "Towels45302",
+              "amount": 78,
+              "price": 47051,
+              "manufacturer": "Amazon",
+              "notes": "EULcFOhlHIkl3BuLUCpi4EKLreIqEOZpJQ210kL88fk3fS6aIHn9VAT2nw6oGeMJkARqZdX2Lhw2taRJoLRapRYa2fPSsJxqe0EqUmIhBpn2i1Ux4R5gEGDSgzM7XGSl6dFW2LLuvBPvrZxN6bc9fHKOqjrQ9FOIOQG4OtGm3fr06DptAS9Tem7Csxx2OI3C0bxNOznQjrLqjp4cLqF7CwiE1VgWXsnGcksvhFTJkorwh41lxOXm2gx46I",
+              "received": false
+            }
+          ],
+          "total_price": 47051,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:53:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695957b11c508c5d5e9522b3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:53:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2945",
+    "etag": "W/\"b81-UUhVd1AltOX/IiK2h1otrUgj0/g\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695957ab1c508c5d5e952030",
+      "status": "Draft",
+      "customer": {
+        "_id": "695957a91c508c5d5e951fd7",
+        "email": "Lorenzo89@hotmail.com",
+        "name": "Eulalia Reinger",
+        "country": "USA",
+        "city": "Aaliyahchester",
+        "street": "Lewis Locks",
+        "house": 39,
+        "flat": 743,
+        "phone": "+19344613686",
+        "createdOn": "2026-01-03T17:53:45.000Z",
+        "notes": "au1HorZreC12knM9JwUOyanSlQQ3syq2dHQq1oIl8Skr7AAWJXGJUSqqjbOtSaTfGLAzWPZ3EhDnhpxkcS1SO5hEps5VMQnbZxeMQrr0XLeMyFhmRkIoa50eGlZgFhKzWP7AIIQtsafxe9ATY2NYQpS6t6Zaa62RPt05wraVJrb6jDeYSje8DZcmTLYykRG4iRjNZUdzE3fZXWjptfuGZVkaN1Z51nQ4J3mpxA3smPSUEkjxIhvVOyK5kU"
+      },
+      "products": [
+        {
+          "_id": "695957ab1c508c5d5e95201b",
+          "name": "Hat69172",
+          "amount": 139,
+          "price": 21392,
+          "manufacturer": "Google",
+          "notes": "cb74KWxhsmr0jUMToMq6ZNLvAVabNx34JPlGIRO0qZKe1K12F5VO2MdhyzLLz7FquVrpI3VCcAxhSEW6oOeQl4Bhud9wpkOOUgWU8zg5koqNeJ6t0C3sSuf2udWJX9J6Z5u6C9XIiwIbPHRYhS2an3KkGA876ZtW9uPtnwWE34pOmuSRoNaAxgZIWRZPpdlq6IIhO0IHE4eS8p0DKewF75j1DvB2ciPaZwyC3OAU2j3S0FKAX2GV6SnajU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 21392,
+      "createdOn": "2026-01-03T17:53:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695957a91c508c5d5e951fd7",
+          "products": [
+            {
+              "_id": "695957ab1c508c5d5e95201b",
+              "name": "Hat69172",
+              "amount": 139,
+              "price": 21392,
+              "manufacturer": "Google",
+              "notes": "cb74KWxhsmr0jUMToMq6ZNLvAVabNx34JPlGIRO0qZKe1K12F5VO2MdhyzLLz7FquVrpI3VCcAxhSEW6oOeQl4Bhud9wpkOOUgWU8zg5koqNeJ6t0C3sSuf2udWJX9J6Z5u6C9XIiwIbPHRYhS2an3KkGA876ZtW9uPtnwWE34pOmuSRoNaAxgZIWRZPpdlq6IIhO0IHE4eS8p0DKewF75j1DvB2ciPaZwyC3OAU2j3S0FKAX2GV6SnajU",
+              "received": false
+            }
+          ],
+          "total_price": 21392,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:53:47.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695957a91c508c5d5e951fd7",
+          "products": [
+            {
+              "_id": "695957ab1c508c5d5e95201b",
+              "name": "Hat69172",
+              "amount": 139,
+              "price": 21392,
+              "manufacturer": "Google",
+              "notes": "cb74KWxhsmr0jUMToMq6ZNLvAVabNx34JPlGIRO0qZKe1K12F5VO2MdhyzLLz7FquVrpI3VCcAxhSEW6oOeQl4Bhud9wpkOOUgWU8zg5koqNeJ6t0C3sSuf2udWJX9J6Z5u6C9XIiwIbPHRYhS2an3KkGA876ZtW9uPtnwWE34pOmuSRoNaAxgZIWRZPpdlq6IIhO0IHE4eS8p0DKewF75j1DvB2ciPaZwyC3OAU2j3S0FKAX2GV6SnajU",
+              "received": false
+            }
+          ],
+          "total_price": 21392,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:53:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

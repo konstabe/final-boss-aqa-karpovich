@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:53:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-zThUnckMN6n87pJDEFzpo5Kflvw\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695957af1c508c5d5e952245",
+        "email": "Ladarius_Murphy24@hotmail.com",
+        "name": "Joana Balistreri",
+        "country": "USA",
+        "city": "East Percyfield",
+        "street": "E Pine Street",
+        "house": 44,
+        "flat": 550,
+        "phone": "+14389739131",
+        "createdOn": "2026-01-03T17:53:51.000Z",
+        "notes": "v1AnN3mkN5IxGehXrmB3b5ta7DFsIFO75T422cd0OAmzqutpzhFr88uaETNnefe6aIBNJ7xkr8QzAsoEARg5nvR4Ocuflm43VSErkds8oLIo01cUu1N3PSCkfxTAhEYbCd7HFhFDnbk9cEcmEPW6p3g8sbsDDEUVbMLWkZklXbHPWBve3cAFgNxjh2zeOvnmMtzg2DvWfFgux5aEDqV7TxeXhD4ueVVIEq1Jmz6QxFoIKT91etoTNl6HeW"
+      },
+      "products": [
+        {
+          "_id": "695957b11c508c5d5e9522a4",
+          "name": "Fish45987",
+          "amount": 757,
+          "price": 28033,
+          "manufacturer": "Amazon",
+          "notes": "853GTZxlUo6xyNbzUHhQNTBv7izn4xywLYhCfDqYcfqefOG1HNZacHTskNDKECRgPsZtjfXUX9DeVAJUZYPHD7x6DKsPpWPWcbPgEnKwsEi9ey8RQAcSc3fpRwfVFBngwFKP4daKPxUGjcolymy1uq5y0fmKr923eTEGvfQEYO5ATqRtK1jwbceFxSfiw7jvJ2qtlzw1OSu01dh7b97gr7YXPqmcHAnrMpWRQS6o1WJ3xP2nYMlE3TgjAj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 28033,
+      "createdOn": "2026-01-03T17:53:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695957af1c508c5d5e952245",
+          "products": [
+            {
+              "_id": "695957b11c508c5d5e9522a4",
+              "name": "Fish45987",
+              "amount": 757,
+              "price": 28033,
+              "manufacturer": "Amazon",
+              "notes": "853GTZxlUo6xyNbzUHhQNTBv7izn4xywLYhCfDqYcfqefOG1HNZacHTskNDKECRgPsZtjfXUX9DeVAJUZYPHD7x6DKsPpWPWcbPgEnKwsEi9ey8RQAcSc3fpRwfVFBngwFKP4daKPxUGjcolymy1uq5y0fmKr923eTEGvfQEYO5ATqRtK1jwbceFxSfiw7jvJ2qtlzw1OSu01dh7b97gr7YXPqmcHAnrMpWRQS6o1WJ3xP2nYMlE3TgjAj",
+              "received": false
+            }
+          ],
+          "total_price": 28033,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:53:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695957b11c508c5d5e9522b8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

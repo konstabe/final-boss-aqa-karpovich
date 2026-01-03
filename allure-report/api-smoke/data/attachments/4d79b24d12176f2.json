@@ -1,0 +1,303 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:54:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8628",
+    "etag": "W/\"21b4-juXBVeGyuJEBa8VLjHAJ3BIPSKw\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695957b91c508c5d5e952699",
+      "status": "Received",
+      "customer": {
+        "_id": "695957b11c508c5d5e95229f",
+        "email": "Kenyatta4@gmail.com",
+        "name": "Ciara Cruickshank",
+        "country": "Russia",
+        "city": "Port Raoul",
+        "street": "Mills Ferry",
+        "house": 18,
+        "flat": 534,
+        "phone": "+16365363043",
+        "createdOn": "2026-01-03T17:53:53.000Z",
+        "notes": "rRvXuGaVCCLWTdwYiGUm9d9KlwOVzRpLTi41fcd2fiTBjRH2s8w3u1jOdfJpdACs7z8pWpJbB1xZ1onhAA1ZM6eswSoIQnq7RI05VPRv5LHaKifCVkAAjSGjxv9Nv9wizZKhrbz2SDFqXvBxdjbWCTqwmZAsKA3ozDnT4caq26R6Yjov8dxmXUmA1ZXDivv4zsqZY3hB6jFH6cLag0SnsabfETwcRsHb96jNvdlmVncaxKDOvnkvMlVQpf"
+      },
+      "products": [
+        {
+          "_id": "695957b21c508c5d5e952302",
+          "name": "Bacon59800",
+          "amount": 35,
+          "price": 7527,
+          "manufacturer": "Sony",
+          "notes": "KN60XLY2STsAXQdG8R10ZrLbSWO4Oglf0Uq3KfFQC9jK5O6ejiA8I8Gfy6qeDgBHkCpl2dZHX7BznlSU6WMknJQbpfSWzdfbYD6uiiqMp9w8VwhwhidC0NrHCHwK4O8rexsriOEXramKamdbkeLPC2rWxLd81UMkjGxz1LdT4sF6mgMWAQHej0YZh1seZhwzWqq7H2s6xXZjgYVYeSjUmVQsqRM1HoxrFNUurGH3OiO4tARnlzq9cQFFpz",
+          "received": true
+        },
+        {
+          "_id": "695957b41c508c5d5e9523bc",
+          "name": "Pants38691",
+          "amount": 972,
+          "price": 89822,
+          "manufacturer": "Microsoft",
+          "notes": "Q0SPosjKHLJVFpHJTxOigrygC44Kyb5WFKfiwJOlrbY1A8RfX53QKyRFEaFZhryM65a3iISAmDFOVWMRYM81MxRsIJcXTBRl8CnUbIkPSXMpOY69wN2KNJAqlGqhO8clNNoDLIsJ6n7iuLyO9rAsf1hevcumiWdnVXQO265Cd3sgH3quvw19wAPDSEsg1FWc38fWqUSVg4eXuQWROvUOPtpAYFrGPP3Y0wrTkrNox9S0uudnX7UsZ9pqIj",
+          "received": true
+        },
+        {
+          "_id": "695957b91c508c5d5e952686",
+          "name": "Chicken22072",
+          "amount": 248,
+          "price": 24122,
+          "manufacturer": "Amazon",
+          "notes": "sICpJmnh6FihJgR42EpbvfOkaSEf9DFww6AGBhzAedLqSvo0nxbm7Mp3VI7lN3EVVXbTLgrZcdud5z93K7bwXcVhuXzlZziB7KxdNOFwznWXDATGaCEv5H61iIG1thtEUzWvH1WNvWevZUk1joeTqJj8kYmI42SpLJldMXWn4GzHWmp9AzG3w06HhXdOe9iBm8GbyCAokJ0seQsc2fTENNppM3QpwnTfTEyxP6jxGfZGrUZ0zqNr6RtsCx",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Port Raoul",
+          "street": "Mills Ferry",
+          "house": 18,
+          "flat": 534
+        },
+        "finalDate": "2026-01-13T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 121471,
+      "createdOn": "2026-01-03T17:54:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695957b11c508c5d5e95229f",
+          "products": [
+            {
+              "_id": "695957b21c508c5d5e952302",
+              "name": "Bacon59800",
+              "amount": 35,
+              "price": 7527,
+              "manufacturer": "Sony",
+              "notes": "KN60XLY2STsAXQdG8R10ZrLbSWO4Oglf0Uq3KfFQC9jK5O6ejiA8I8Gfy6qeDgBHkCpl2dZHX7BznlSU6WMknJQbpfSWzdfbYD6uiiqMp9w8VwhwhidC0NrHCHwK4O8rexsriOEXramKamdbkeLPC2rWxLd81UMkjGxz1LdT4sF6mgMWAQHej0YZh1seZhwzWqq7H2s6xXZjgYVYeSjUmVQsqRM1HoxrFNUurGH3OiO4tARnlzq9cQFFpz",
+              "received": true
+            },
+            {
+              "_id": "695957b41c508c5d5e9523bc",
+              "name": "Pants38691",
+              "amount": 972,
+              "price": 89822,
+              "manufacturer": "Microsoft",
+              "notes": "Q0SPosjKHLJVFpHJTxOigrygC44Kyb5WFKfiwJOlrbY1A8RfX53QKyRFEaFZhryM65a3iISAmDFOVWMRYM81MxRsIJcXTBRl8CnUbIkPSXMpOY69wN2KNJAqlGqhO8clNNoDLIsJ6n7iuLyO9rAsf1hevcumiWdnVXQO265Cd3sgH3quvw19wAPDSEsg1FWc38fWqUSVg4eXuQWROvUOPtpAYFrGPP3Y0wrTkrNox9S0uudnX7UsZ9pqIj",
+              "received": true
+            },
+            {
+              "_id": "695957b91c508c5d5e952686",
+              "name": "Chicken22072",
+              "amount": 248,
+              "price": 24122,
+              "manufacturer": "Amazon",
+              "notes": "sICpJmnh6FihJgR42EpbvfOkaSEf9DFww6AGBhzAedLqSvo0nxbm7Mp3VI7lN3EVVXbTLgrZcdud5z93K7bwXcVhuXzlZziB7KxdNOFwznWXDATGaCEv5H61iIG1thtEUzWvH1WNvWevZUk1joeTqJj8kYmI42SpLJldMXWn4GzHWmp9AzG3w06HhXdOe9iBm8GbyCAokJ0seQsc2fTENNppM3QpwnTfTEyxP6jxGfZGrUZ0zqNr6RtsCx",
+              "received": true
+            }
+          ],
+          "total_price": 121471,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Port Raoul",
+              "street": "Mills Ferry",
+              "house": 18,
+              "flat": 534
+            },
+            "finalDate": "2026-01-13T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T17:54:03.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695957b11c508c5d5e95229f",
+          "products": [
+            {
+              "_id": "695957b21c508c5d5e952302",
+              "name": "Bacon59800",
+              "amount": 35,
+              "price": 7527,
+              "manufacturer": "Sony",
+              "notes": "KN60XLY2STsAXQdG8R10ZrLbSWO4Oglf0Uq3KfFQC9jK5O6ejiA8I8Gfy6qeDgBHkCpl2dZHX7BznlSU6WMknJQbpfSWzdfbYD6uiiqMp9w8VwhwhidC0NrHCHwK4O8rexsriOEXramKamdbkeLPC2rWxLd81UMkjGxz1LdT4sF6mgMWAQHej0YZh1seZhwzWqq7H2s6xXZjgYVYeSjUmVQsqRM1HoxrFNUurGH3OiO4tARnlzq9cQFFpz",
+              "received": false
+            },
+            {
+              "_id": "695957b41c508c5d5e9523bc",
+              "name": "Pants38691",
+              "amount": 972,
+              "price": 89822,
+              "manufacturer": "Microsoft",
+              "notes": "Q0SPosjKHLJVFpHJTxOigrygC44Kyb5WFKfiwJOlrbY1A8RfX53QKyRFEaFZhryM65a3iISAmDFOVWMRYM81MxRsIJcXTBRl8CnUbIkPSXMpOY69wN2KNJAqlGqhO8clNNoDLIsJ6n7iuLyO9rAsf1hevcumiWdnVXQO265Cd3sgH3quvw19wAPDSEsg1FWc38fWqUSVg4eXuQWROvUOPtpAYFrGPP3Y0wrTkrNox9S0uudnX7UsZ9pqIj",
+              "received": false
+            },
+            {
+              "_id": "695957b91c508c5d5e952686",
+              "name": "Chicken22072",
+              "amount": 248,
+              "price": 24122,
+              "manufacturer": "Amazon",
+              "notes": "sICpJmnh6FihJgR42EpbvfOkaSEf9DFww6AGBhzAedLqSvo0nxbm7Mp3VI7lN3EVVXbTLgrZcdud5z93K7bwXcVhuXzlZziB7KxdNOFwznWXDATGaCEv5H61iIG1thtEUzWvH1WNvWevZUk1joeTqJj8kYmI42SpLJldMXWn4GzHWmp9AzG3w06HhXdOe9iBm8GbyCAokJ0seQsc2fTENNppM3QpwnTfTEyxP6jxGfZGrUZ0zqNr6RtsCx",
+              "received": false
+            }
+          ],
+          "total_price": 121471,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Port Raoul",
+              "street": "Mills Ferry",
+              "house": 18,
+              "flat": 534
+            },
+            "finalDate": "2026-01-13T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T17:54:02.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695957b11c508c5d5e95229f",
+          "products": [
+            {
+              "_id": "695957b21c508c5d5e952302",
+              "name": "Bacon59800",
+              "amount": 35,
+              "price": 7527,
+              "manufacturer": "Sony",
+              "notes": "KN60XLY2STsAXQdG8R10ZrLbSWO4Oglf0Uq3KfFQC9jK5O6ejiA8I8Gfy6qeDgBHkCpl2dZHX7BznlSU6WMknJQbpfSWzdfbYD6uiiqMp9w8VwhwhidC0NrHCHwK4O8rexsriOEXramKamdbkeLPC2rWxLd81UMkjGxz1LdT4sF6mgMWAQHej0YZh1seZhwzWqq7H2s6xXZjgYVYeSjUmVQsqRM1HoxrFNUurGH3OiO4tARnlzq9cQFFpz",
+              "received": false
+            },
+            {
+              "_id": "695957b41c508c5d5e9523bc",
+              "name": "Pants38691",
+              "amount": 972,
+              "price": 89822,
+              "manufacturer": "Microsoft",
+              "notes": "Q0SPosjKHLJVFpHJTxOigrygC44Kyb5WFKfiwJOlrbY1A8RfX53QKyRFEaFZhryM65a3iISAmDFOVWMRYM81MxRsIJcXTBRl8CnUbIkPSXMpOY69wN2KNJAqlGqhO8clNNoDLIsJ6n7iuLyO9rAsf1hevcumiWdnVXQO265Cd3sgH3quvw19wAPDSEsg1FWc38fWqUSVg4eXuQWROvUOPtpAYFrGPP3Y0wrTkrNox9S0uudnX7UsZ9pqIj",
+              "received": false
+            },
+            {
+              "_id": "695957b91c508c5d5e952686",
+              "name": "Chicken22072",
+              "amount": 248,
+              "price": 24122,
+              "manufacturer": "Amazon",
+              "notes": "sICpJmnh6FihJgR42EpbvfOkaSEf9DFww6AGBhzAedLqSvo0nxbm7Mp3VI7lN3EVVXbTLgrZcdud5z93K7bwXcVhuXzlZziB7KxdNOFwznWXDATGaCEv5H61iIG1thtEUzWvH1WNvWevZUk1joeTqJj8kYmI42SpLJldMXWn4GzHWmp9AzG3w06HhXdOe9iBm8GbyCAokJ0seQsc2fTENNppM3QpwnTfTEyxP6jxGfZGrUZ0zqNr6RtsCx",
+              "received": false
+            }
+          ],
+          "total_price": 121471,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Port Raoul",
+              "street": "Mills Ferry",
+              "house": 18,
+              "flat": 534
+            },
+            "finalDate": "2026-01-13T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T17:54:02.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695957b11c508c5d5e95229f",
+          "products": [
+            {
+              "_id": "695957b21c508c5d5e952302",
+              "name": "Bacon59800",
+              "amount": 35,
+              "price": 7527,
+              "manufacturer": "Sony",
+              "notes": "KN60XLY2STsAXQdG8R10ZrLbSWO4Oglf0Uq3KfFQC9jK5O6ejiA8I8Gfy6qeDgBHkCpl2dZHX7BznlSU6WMknJQbpfSWzdfbYD6uiiqMp9w8VwhwhidC0NrHCHwK4O8rexsriOEXramKamdbkeLPC2rWxLd81UMkjGxz1LdT4sF6mgMWAQHej0YZh1seZhwzWqq7H2s6xXZjgYVYeSjUmVQsqRM1HoxrFNUurGH3OiO4tARnlzq9cQFFpz",
+              "received": false
+            },
+            {
+              "_id": "695957b41c508c5d5e9523bc",
+              "name": "Pants38691",
+              "amount": 972,
+              "price": 89822,
+              "manufacturer": "Microsoft",
+              "notes": "Q0SPosjKHLJVFpHJTxOigrygC44Kyb5WFKfiwJOlrbY1A8RfX53QKyRFEaFZhryM65a3iISAmDFOVWMRYM81MxRsIJcXTBRl8CnUbIkPSXMpOY69wN2KNJAqlGqhO8clNNoDLIsJ6n7iuLyO9rAsf1hevcumiWdnVXQO265Cd3sgH3quvw19wAPDSEsg1FWc38fWqUSVg4eXuQWROvUOPtpAYFrGPP3Y0wrTkrNox9S0uudnX7UsZ9pqIj",
+              "received": false
+            },
+            {
+              "_id": "695957b91c508c5d5e952686",
+              "name": "Chicken22072",
+              "amount": 248,
+              "price": 24122,
+              "manufacturer": "Amazon",
+              "notes": "sICpJmnh6FihJgR42EpbvfOkaSEf9DFww6AGBhzAedLqSvo0nxbm7Mp3VI7lN3EVVXbTLgrZcdud5z93K7bwXcVhuXzlZziB7KxdNOFwznWXDATGaCEv5H61iIG1thtEUzWvH1WNvWevZUk1joeTqJj8kYmI42SpLJldMXWn4GzHWmp9AzG3w06HhXdOe9iBm8GbyCAokJ0seQsc2fTENNppM3QpwnTfTEyxP6jxGfZGrUZ0zqNr6RtsCx",
+              "received": false
+            }
+          ],
+          "total_price": 121471,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:54:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
