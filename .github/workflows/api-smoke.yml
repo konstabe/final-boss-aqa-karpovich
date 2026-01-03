@@ -2,12 +2,11 @@ name: Run Sales Portal API smoke tests
 
 on:
     pull_request:
-    workflow_dispatch: # Manually trigger the workflow
+    workflow_dispatch:
 
 jobs:
     download-history:
         runs-on: ubuntu-latest
-        name: Download history
         steps:
             - name: Setup Python
               uses: actions/setup-python@v4
@@ -26,36 +25,16 @@ jobs:
                       -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
                       https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts/$ARTIFACT_ID/zip \
                       -o artifacts.zip
-                    mkdir smoke-history-input && unzip artifacts.zip -d smoke-history-input
+                    mkdir smoke-history && unzip artifacts.zip -d smoke-history
                   else
                     echo "No smoke-history artifact found"
                   fi
 
-            - name: Download github-pages artifact
-              run: |
-                  REPORT_ID=$(curl -s \
-                    -H "Accept: application/vnd.github+json" \
-                    -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
-                    https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts \
-                    | python -c "import sys, json; data=json.load(sys.stdin); ids=[a['id'] for a in data.get('artifacts', []) if a['name']=='github-pages']; print(ids[0] if ids else '')")
-                  if [ -n "$REPORT_ID" ]; then
-                    curl -L \
-                      -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
-                      https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts/$REPORT_ID/zip \
-                      -o pages.zip
-                    mkdir old_pages pages_history
-                    unzip pages.zip -d old_pages
-                    tar -xvf old_pages/artifact.tar -C pages_history
-                    cp -r pages_history/history smoke-history-input || true
-                  else
-                    echo "No github-pages artifact found"
-                  fi
-
-            - name: Store smoke history input
+            - name: Store smoke history
               uses: actions/upload-artifact@v4
               with:
-                  name: smoke-history-input
-                  path: smoke-history-input
+                  name: smoke-history
+                  path: smoke-history
                   retention-days: 10
                   if-no-files-found: ignore
 
@@ -92,7 +71,7 @@ jobs:
               continue-on-error: true
 
             - name: Copy old history into results
-              run: cp -r smoke-history-input/history allure-results/history || true
+              run: cp -r smoke-history/history allure-results/history || true
 
             - name: Create Allure report
               run: npm run allure-report
