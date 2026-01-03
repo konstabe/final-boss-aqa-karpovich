@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:06:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2806",
+    "etag": "W/\"af6-cQZKAOPItJEMlyjetoecxJmTvHw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69595a931c508c5d5e955dd1",
+      "status": "Draft",
+      "customer": {
+        "_id": "69595a921c508c5d5e955d05",
+        "email": "Adan_West@yahoo.com",
+        "name": "Leonel Block",
+        "country": "Russia",
+        "city": "Aufderharboro",
+        "street": "Coronation Avenue",
+        "house": 8,
+        "flat": 926,
+        "phone": "+17217686746",
+        "createdOn": "2026-01-03T18:06:10.000Z",
+        "notes": "N0uUgb08elVCUy5z80m1NtPaPyqTIfYehFWDrGffvqxck3GZljmTSQhW8HIZsfHiKc8tLeeww3cBKgkUViZ7DnmwFRyr1QUq9F63CGpftnnVK83ByWqzMGXOoXEYxXlkBEnoIvr9ib4SDi5mlpg4KYvx0cuSj98kgaXtBDTGoDXDVWnf0OXbjampnS3YDXuCWTVqEDwqnlrQa657hZ4UILoFUrYOQABgLCu9yuavL3oshllHsVTHJvviih"
+      },
+      "products": [
+        {
+          "_id": "69595a921c508c5d5e955d45",
+          "name": "Soap11786",
+          "amount": 954,
+          "price": 23434,
+          "manufacturer": "Samsung",
+          "notes": "LeSGVWbYWyiQFTDXA60IMbPz5BfTj1CCJKDkjg77KDOwhvPRBfm0sMWMSXuSfnmwNDmGH7GCT4H47lcKStOqR03DDTvboE98bSOzqWEnGczl3Hw7yBGchbPfGfCxUh1EOrpaG0KHEwLPyCgf7b7NlzX7JBOmbIhdZKNelzWH1kceSXBr6am1rsP4vkGaJMdDhcmmq9kCArapcAUz2lWPH9ILSO8s6JLHfDNfuNIg6mYFsve4W7lYLsoSg8",
+          "received": false
+        },
+        {
+          "_id": "69595a921c508c5d5e955d8f",
+          "name": "Mouse14055",
+          "amount": 600,
+          "price": 9019,
+          "manufacturer": "Apple",
+          "notes": "n62jWuwBYTGDwUp0Z9vPdqhQXHJ2oqveYNvhqOwW8e438rUDtE9tSWEpvMsVPah2kxZvtoL8TMKvkcVNnXwXPfztb7g8IdHxGKddHX3VXNRaBlORZhtZb6nygeZeLqsPu2TVWKUtpT20eWL39eNSp89FFzL4TgupXChKkOMhuttmjVxq5Bd91E27BLSrxz4jXemMZQaIjj0SMcUJUGsNDa0KUop08HfqO7MANNtvL8xRfSo8EzOIxfw2SR",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 32453,
+      "createdOn": "2026-01-03T18:06:11.000Z",
+      "comments": [
+        {
+          "text": "Fq50AR9TPa9HhjwJSPob5gKHWsC8OFdCkkanM0xfaf2oINs0EE1RiUP0oid1qaJ7txiUXRSXqOo",
+          "createdOn": "2026-01-03T18:06:12.000Z",
+          "_id": "69595a941c508c5d5e955e2c"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69595a921c508c5d5e955d05",
+          "products": [
+            {
+              "_id": "69595a921c508c5d5e955d45",
+              "name": "Soap11786",
+              "amount": 954,
+              "price": 23434,
+              "manufacturer": "Samsung",
+              "notes": "LeSGVWbYWyiQFTDXA60IMbPz5BfTj1CCJKDkjg77KDOwhvPRBfm0sMWMSXuSfnmwNDmGH7GCT4H47lcKStOqR03DDTvboE98bSOzqWEnGczl3Hw7yBGchbPfGfCxUh1EOrpaG0KHEwLPyCgf7b7NlzX7JBOmbIhdZKNelzWH1kceSXBr6am1rsP4vkGaJMdDhcmmq9kCArapcAUz2lWPH9ILSO8s6JLHfDNfuNIg6mYFsve4W7lYLsoSg8",
+              "received": false
+            },
+            {
+              "_id": "69595a921c508c5d5e955d8f",
+              "name": "Mouse14055",
+              "amount": 600,
+              "price": 9019,
+              "manufacturer": "Apple",
+              "notes": "n62jWuwBYTGDwUp0Z9vPdqhQXHJ2oqveYNvhqOwW8e438rUDtE9tSWEpvMsVPah2kxZvtoL8TMKvkcVNnXwXPfztb7g8IdHxGKddHX3VXNRaBlORZhtZb6nygeZeLqsPu2TVWKUtpT20eWL39eNSp89FFzL4TgupXChKkOMhuttmjVxq5Bd91E27BLSrxz4jXemMZQaIjj0SMcUJUGsNDa0KUop08HfqO7MANNtvL8xRfSo8EzOIxfw2SR",
+              "received": false
+            }
+          ],
+          "total_price": 32453,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:06:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

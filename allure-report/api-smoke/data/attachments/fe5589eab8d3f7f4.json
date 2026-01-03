@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:06:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4772",
+    "etag": "W/\"12a4-fXDwIaIDO5bPe4owAF8D2M0IEFs\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69595a901c508c5d5e955c11",
+      "status": "Received",
+      "customer": {
+        "_id": "69595a8e1c508c5d5e955b8c",
+        "email": "Rose_Feest26@gmail.com",
+        "name": "Alphonso Upton",
+        "country": "Germany",
+        "city": "Colton",
+        "street": "The Willows",
+        "house": 49,
+        "flat": 585,
+        "phone": "+17569121226",
+        "createdOn": "2026-01-03T18:06:06.000Z",
+        "notes": "jAtkWm229LtLTnzB8HoS4y1biM6A5bUiOBILM9ODC3ZQsHWQjqo9BZbRg8gbmUrxXeOHaBFq5TY4g9JNJi51cbszlLW2yrIVxuwIlnzi1lkyVXB8B5zzYRkM3XwtfCaZ4rpBAis7jvTmaPsPIp1sZaiOXIFlanqnEhrIlm7dzFcXA7QHpVIGu51n2RdixwS13HVTvkpP9YNnIzJ5nQE9hiJDCTdeTYQoCZ6kVZyterPZJ1MtiOxJ2BYe4n"
+      },
+      "products": [
+        {
+          "_id": "69595a8f1c508c5d5e955bc4",
+          "name": "Car89483",
+          "amount": 456,
+          "price": 38196,
+          "manufacturer": "Microsoft",
+          "notes": "MQnTT34nc7bymmKZyEfbKSKCdGQ9UaNGny71NktUykhP7UllKUk3TDX4AfZKbSMvvqhVHF7LtTHZ6AomGiIob2JgKM97SyNPbrGVSNzlIsaszNx8UGHVMyWhV3ohVSxQvZ9yVtRiLTRRdWwEwq4QVgPVZ7debllMTVCglRSf9HHt8hsCB6CcyWWN56DQor3m2KvZSHXBrKzDNspOFAr9CEq8sLkMhz6VsZ3AZKCpiLCLFz0VpARt1eBK9h",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Colton",
+          "street": "The Willows",
+          "house": 49,
+          "flat": 585
+        },
+        "finalDate": "2026-01-12T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 38196,
+      "createdOn": "2026-01-03T18:06:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69595a8e1c508c5d5e955b8c",
+          "products": [
+            {
+              "_id": "69595a8f1c508c5d5e955bc4",
+              "name": "Car89483",
+              "amount": 456,
+              "price": 38196,
+              "manufacturer": "Microsoft",
+              "notes": "MQnTT34nc7bymmKZyEfbKSKCdGQ9UaNGny71NktUykhP7UllKUk3TDX4AfZKbSMvvqhVHF7LtTHZ6AomGiIob2JgKM97SyNPbrGVSNzlIsaszNx8UGHVMyWhV3ohVSxQvZ9yVtRiLTRRdWwEwq4QVgPVZ7debllMTVCglRSf9HHt8hsCB6CcyWWN56DQor3m2KvZSHXBrKzDNspOFAr9CEq8sLkMhz6VsZ3AZKCpiLCLFz0VpARt1eBK9h",
+              "received": true
+            }
+          ],
+          "total_price": 38196,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Colton",
+              "street": "The Willows",
+              "house": 49,
+              "flat": 585
+            },
+            "finalDate": "2026-01-12T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T18:06:10.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69595a8e1c508c5d5e955b8c",
+          "products": [
+            {
+              "_id": "69595a8f1c508c5d5e955bc4",
+              "name": "Car89483",
+              "amount": 456,
+              "price": 38196,
+              "manufacturer": "Microsoft",
+              "notes": "MQnTT34nc7bymmKZyEfbKSKCdGQ9UaNGny71NktUykhP7UllKUk3TDX4AfZKbSMvvqhVHF7LtTHZ6AomGiIob2JgKM97SyNPbrGVSNzlIsaszNx8UGHVMyWhV3ohVSxQvZ9yVtRiLTRRdWwEwq4QVgPVZ7debllMTVCglRSf9HHt8hsCB6CcyWWN56DQor3m2KvZSHXBrKzDNspOFAr9CEq8sLkMhz6VsZ3AZKCpiLCLFz0VpARt1eBK9h",
+              "received": false
+            }
+          ],
+          "total_price": 38196,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Colton",
+              "street": "The Willows",
+              "house": 49,
+              "flat": 585
+            },
+            "finalDate": "2026-01-12T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T18:06:09.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595a8e1c508c5d5e955b8c",
+          "products": [
+            {
+              "_id": "69595a8f1c508c5d5e955bc4",
+              "name": "Car89483",
+              "amount": 456,
+              "price": 38196,
+              "manufacturer": "Microsoft",
+              "notes": "MQnTT34nc7bymmKZyEfbKSKCdGQ9UaNGny71NktUykhP7UllKUk3TDX4AfZKbSMvvqhVHF7LtTHZ6AomGiIob2JgKM97SyNPbrGVSNzlIsaszNx8UGHVMyWhV3ohVSxQvZ9yVtRiLTRRdWwEwq4QVgPVZ7debllMTVCglRSf9HHt8hsCB6CcyWWN56DQor3m2KvZSHXBrKzDNspOFAr9CEq8sLkMhz6VsZ3AZKCpiLCLFz0VpARt1eBK9h",
+              "received": false
+            }
+          ],
+          "total_price": 38196,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Colton",
+              "street": "The Willows",
+              "house": 49,
+              "flat": 585
+            },
+            "finalDate": "2026-01-12T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T18:06:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595a8e1c508c5d5e955b8c",
+          "products": [
+            {
+              "_id": "69595a8f1c508c5d5e955bc4",
+              "name": "Car89483",
+              "amount": 456,
+              "price": 38196,
+              "manufacturer": "Microsoft",
+              "notes": "MQnTT34nc7bymmKZyEfbKSKCdGQ9UaNGny71NktUykhP7UllKUk3TDX4AfZKbSMvvqhVHF7LtTHZ6AomGiIob2JgKM97SyNPbrGVSNzlIsaszNx8UGHVMyWhV3ohVSxQvZ9yVtRiLTRRdWwEwq4QVgPVZ7debllMTVCglRSf9HHt8hsCB6CcyWWN56DQor3m2KvZSHXBrKzDNspOFAr9CEq8sLkMhz6VsZ3AZKCpiLCLFz0VpARt1eBK9h",
+              "received": false
+            }
+          ],
+          "total_price": 38196,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:06:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
