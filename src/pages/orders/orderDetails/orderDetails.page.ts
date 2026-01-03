@@ -11,6 +11,7 @@ import { CancelOrderModal } from "pages/orders/canсelOrder.modal";
 import { EditCustomerModal } from "pages/orders/editCustomer.modal";
 import { EditProductModal } from "pages/orders/editProduct.modal";
 import { ProcessOrderModal } from "pages/orders/processOrder.modal";
+import { ScheduleDeliveryModal } from "pages/sceduleDeliveryModal";
 
 export class OrderDetailsPage extends SalesPortalPage {
 	readonly header = new OrderDetailsHeaderPage(this.page);
@@ -26,6 +27,7 @@ export class OrderDetailsPage extends SalesPortalPage {
 	readonly editCustomerModal = new EditCustomerModal(this.page);
 	readonly editProductModal = new EditProductModal(this.page);
 	readonly editDeliveryModal = new EditDeliveryModal(this.page);
+	readonly scheduleDeliveryModal = new ScheduleDeliveryModal(this.page);
 
 	readonly uniqueElement = this.header.uniqueElement;
 }
