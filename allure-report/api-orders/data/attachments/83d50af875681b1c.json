@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:45:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1898",
+    "etag": "W/\"76a-tFAnxDq/tzxWLj86rlzTb1yz8ME\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69592b861c508c5d5e8ce421",
+        "email": "Dessie_Reinger@gmail.com",
+        "name": "Katlyn Hermann",
+        "country": "Germany",
+        "city": "North Warrenland",
+        "street": "Railroad Street",
+        "house": 32,
+        "flat": 197,
+        "phone": "+12484147856",
+        "createdOn": "2026-01-03T14:45:26.000Z",
+        "notes": "aUcOnreIicM6LXXNm09pKjBm2R9vtpcZLc1rknERl6ijPjJt44u9C4MM3afDiF3Svi32dxsfjbKRRLhw2GPFcNfpEpI2e3usdcMVIxzqchU99wbQrPB1L2td9N90dk1NsPJxW7mNVLKai3efkJAlv1sZQsWuplUXS7u1soOAzm296qd3abYDwCRcfMaIrPX3gCyYU5fJOXuUDBCUVAZQyZB4ZE936Q1bKIV5Fzz4hfXnes1XLrog7SAQhY"
+      },
+      "products": [
+        {
+          "_id": "69592b921c508c5d5e8ce6cd",
+          "name": "Computer89030",
+          "amount": 472,
+          "price": 10556,
+          "manufacturer": "Apple",
+          "notes": "xcUkAOViKWARlPpmQqwg3WAuN9GQ2wgJ9Jnceqa92Zj5CTOkK9iPjhJNxZr0WQ2aSx7TQ866KhGR95ncaRQlyHMcfBLE8fc9jsrZWyRS9zLyRAC7acrZ2Y5TG7ktmxkAFnA0gwZpNPvGxP7lLLEdvXyyIW4FntZe87V5AyZP8uBwXW6VQtotALHZ4tC29T7tA0K52hvFy10X4cz1cu6Htv7g2Y3Bmmbz152LpUNjTvfLg7oIt8Pk6Sc2cz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 10556,
+      "createdOn": "2026-01-03T14:45:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69592b861c508c5d5e8ce421",
+          "products": [
+            {
+              "_id": "69592b921c508c5d5e8ce6cd",
+              "name": "Computer89030",
+              "amount": 472,
+              "price": 10556,
+              "manufacturer": "Apple",
+              "notes": "xcUkAOViKWARlPpmQqwg3WAuN9GQ2wgJ9Jnceqa92Zj5CTOkK9iPjhJNxZr0WQ2aSx7TQ866KhGR95ncaRQlyHMcfBLE8fc9jsrZWyRS9zLyRAC7acrZ2Y5TG7ktmxkAFnA0gwZpNPvGxP7lLLEdvXyyIW4FntZe87V5AyZP8uBwXW6VQtotALHZ4tC29T7tA0K52hvFy10X4cz1cu6Htv7g2Y3Bmmbz152LpUNjTvfLg7oIt8Pk6Sc2cz",
+              "received": false
+            }
+          ],
+          "total_price": 10556,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:45:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69592b9b1c508c5d5e8ce725"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

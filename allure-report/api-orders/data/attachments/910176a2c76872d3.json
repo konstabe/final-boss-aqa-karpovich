@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:46:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2960",
+    "etag": "W/\"b90-dP//WLAOWeeed50Wj0R53nWO370\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69592bb81c508c5d5e8ced49",
+      "status": "Draft",
+      "customer": {
+        "_id": "69592ba11c508c5d5e8ce9cc",
+        "email": "Enrico.McClure-Metz78@gmail.com",
+        "name": "Nola Keeling",
+        "country": "Ukraine",
+        "city": "East Kiannaton",
+        "street": "Haley Coves",
+        "house": 48,
+        "flat": 845,
+        "phone": "+16758522632",
+        "createdOn": "2026-01-03T14:45:53.000Z",
+        "notes": "UUoIxHkEI6E6etBonfKVB5NBUrPtKmf0IgLhBw6owBMfSVPzmd4EV0BZn4A29EJPBdyx7KR1gcFcYOrfZWOJ8j6OA9F6oC662rtRBFpfyf2cKuRN11yfuc5HvgYYQC53scgc4mAvofc6UtYlAXiOU8Xfjq5Vlh4bVKjd3AkOzx5tSopxl1kTajENp7fSEzqiCyPrFv15l6TCOs7oKUBYkPMYuIrLNBLq41CGIHcxmyBm54J8L3bOLdHkaB"
+      },
+      "products": [
+        {
+          "_id": "69592baf1c508c5d5e8cecd4",
+          "name": "Bike35942",
+          "amount": 593,
+          "price": 30997,
+          "manufacturer": "Apple",
+          "notes": "uOSLEQYQnFhJWY17FwOW8BjR7VPF0AoeuXxthKiO7JnXY8r0XynbUBwDPDsNDnQSk1fXDt3M7nxBeQ3Q72PTAr2rwKzweFcCo5cEJNQPrPR7H5e07VjlEBti1Uf23rQHfsHf5hvO4kzASrbBNitX0nfFynuU4ylpFR4QM6Uow4X9qWgrVj72aK4t9jiyRP2Vj7wrRD4F6xPalStHe7nn5hFAvYR5jjNH7yx6dDTOZremaQ6oDuSoAjs3B3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "East Kiannaton",
+          "street": "Haley Coves",
+          "house": 48,
+          "flat": 845
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 30997,
+      "createdOn": "2026-01-03T14:46:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69592ba11c508c5d5e8ce9cc",
+          "products": [
+            {
+              "_id": "69592baf1c508c5d5e8cecd4",
+              "name": "Bike35942",
+              "amount": 593,
+              "price": 30997,
+              "manufacturer": "Apple",
+              "notes": "uOSLEQYQnFhJWY17FwOW8BjR7VPF0AoeuXxthKiO7JnXY8r0XynbUBwDPDsNDnQSk1fXDt3M7nxBeQ3Q72PTAr2rwKzweFcCo5cEJNQPrPR7H5e07VjlEBti1Uf23rQHfsHf5hvO4kzASrbBNitX0nfFynuU4ylpFR4QM6Uow4X9qWgrVj72aK4t9jiyRP2Vj7wrRD4F6xPalStHe7nn5hFAvYR5jjNH7yx6dDTOZremaQ6oDuSoAjs3B3",
+              "received": false
+            }
+          ],
+          "total_price": 30997,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Kiannaton",
+              "street": "Haley Coves",
+              "house": 48,
+              "flat": 845
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T14:46:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69592ba11c508c5d5e8ce9cc",
+          "products": [
+            {
+              "_id": "69592baf1c508c5d5e8cecd4",
+              "name": "Bike35942",
+              "amount": 593,
+              "price": 30997,
+              "manufacturer": "Apple",
+              "notes": "uOSLEQYQnFhJWY17FwOW8BjR7VPF0AoeuXxthKiO7JnXY8r0XynbUBwDPDsNDnQSk1fXDt3M7nxBeQ3Q72PTAr2rwKzweFcCo5cEJNQPrPR7H5e07VjlEBti1Uf23rQHfsHf5hvO4kzASrbBNitX0nfFynuU4ylpFR4QM6Uow4X9qWgrVj72aK4t9jiyRP2Vj7wrRD4F6xPalStHe7nn5hFAvYR5jjNH7yx6dDTOZremaQ6oDuSoAjs3B3",
+              "received": false
+            }
+          ],
+          "total_price": 30997,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:46:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
