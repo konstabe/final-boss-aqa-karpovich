@@ -16,10 +16,17 @@ test.describe("Get customers all", () => {
 	});
 
 	test.describe("positive", () => {
-		let createdCustomer: ICustomerFromResponse;
+		let createdCustomer: ICustomerFromResponse | null = null;
 
 		test.beforeEach(async ({ customersApiService }) => {
 			createdCustomer = await customersApiService.create(token);
+		});
+
+		test.afterEach(async ({ customersApiService }) => {
+			if (createdCustomer) {
+				await customersApiService.delete(createdCustomer._id, token);
+				createdCustomer = null;
+			}
 		});
 
 		test("get list with created customer", { tag: TAGS.CUSTOMERS }, async ({ customersApiService }) => {
