@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:53:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1898",
+    "etag": "W/\"76a-fvbtWQchzzN6Wef4cbQoX6ptvs4\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6959659f1c508c5d5e973630",
+        "email": "Jon.Maggio77@hotmail.com",
+        "name": "Deangelo Balistreri",
+        "country": "Great Britain",
+        "city": "Barrowsmouth",
+        "street": "The Maltings",
+        "house": 50,
+        "flat": 767,
+        "phone": "+15493735580",
+        "createdOn": "2026-01-03T18:53:19.000Z",
+        "notes": "ZMCjOTODpe3N3n1Z6eOX8b4jbiYPi59okDre3h6LmAGlsYDfzEiqAVJw7oAFyJjJafQqvsQ0Ok258M3qEd3Tux4CSeQsK7QZS7JYLwWQT74cIfJcjbM0lRpYq8lAnVfrWVnSiKnZccPapqxURKltLphow5oGg0BJAHcU24EImNWNcRERv4dREfJ2edmFhorJ9D0tILB7tcXcT8sDHhztUlOg9qy7zg10ola9Vc4TvN46VqjwmiJ0ON6XpB"
+      },
+      "products": [
+        {
+          "_id": "695965a01c508c5d5e97367d",
+          "name": "Gloves36753",
+          "amount": 956,
+          "price": 81681,
+          "manufacturer": "Apple",
+          "notes": "5kJRzjrH1ca18UcJGAjuYbuSmgkzg9GzSjVNFOLIEmwVsPRXGu444g25JxRxGWwzaciHjkVrL0Z1kRplKvr5seUEggfKXFjrnv67sdcvZhsgJeBWjPBUoauhgrupLihNG8o6VvQbSqfgNmQeRJHOstllMtRYSWQ6f267f9QEH1BBmF5odzcbTijmO1geUwBc0QvXqPe2wDXRfy7EE4Bfqbn2OBN1W0k6mfZSLu9Pp3OMfhFY6udGJGM0P5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 81681,
+      "createdOn": "2026-01-03T18:53:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959659f1c508c5d5e973630",
+          "products": [
+            {
+              "_id": "695965a01c508c5d5e97367d",
+              "name": "Gloves36753",
+              "amount": 956,
+              "price": 81681,
+              "manufacturer": "Apple",
+              "notes": "5kJRzjrH1ca18UcJGAjuYbuSmgkzg9GzSjVNFOLIEmwVsPRXGu444g25JxRxGWwzaciHjkVrL0Z1kRplKvr5seUEggfKXFjrnv67sdcvZhsgJeBWjPBUoauhgrupLihNG8o6VvQbSqfgNmQeRJHOstllMtRYSWQ6f267f9QEH1BBmF5odzcbTijmO1geUwBc0QvXqPe2wDXRfy7EE4Bfqbn2OBN1W0k6mfZSLu9Pp3OMfhFY6udGJGM0P5",
+              "received": false
+            }
+          ],
+          "total_price": 81681,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:53:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695965a11c508c5d5e973690"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

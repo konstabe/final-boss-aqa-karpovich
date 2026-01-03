@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:53:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2951",
+    "etag": "W/\"b87-xd0aDgDttLLIoXACflQ68VAQOv8\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695965a41c508c5d5e9737da",
+      "status": "Draft",
+      "customer": {
+        "_id": "695965a21c508c5d5e9736f2",
+        "email": "Nestor.King71@hotmail.com",
+        "name": "Margot Adams",
+        "country": "Ukraine",
+        "city": "Tobinstad",
+        "street": "Wehner Drives",
+        "house": 19,
+        "flat": 947,
+        "phone": "+18507263694",
+        "createdOn": "2026-01-03T18:53:22.000Z",
+        "notes": "6LITRDlfa9b3g0xMLEMzU24TorJ0SUmqyxw8kA62A5HytpEifmgdHaJABDGrsphZjBFnXM1FzCebphCFDHxqpExr6py6Y1V98Ej0CDSLEnDhw1GEqlPWf3imKJk2N1C1OZCiMe9T1OO3oCcID0p0XVRY3SKeDIo6PvzopxnDMNjRpGXopxeGwTmLpfMgHz95NjAljx9MvWQmdOeaImVd7sFtlzEB16aEKA4iHveZOdp3xDtwLkXtJhWbEH"
+      },
+      "products": [
+        {
+          "_id": "695965a31c508c5d5e97373d",
+          "name": "Pizza87889",
+          "amount": 728,
+          "price": 55275,
+          "manufacturer": "Xiaomi",
+          "notes": "Hn2CQS8uJE7rGqW5kI1hA4hA37Gz8rrLf6QDRptITMa9x8ZLsXfvWycHvSUq3OMO7momChBjJQqyPJJ6o6rzwksSoZQ7npCdv3AC6i5qugqFkgpc8BxlWtd71P9YfKeHIxhMuAILZF0zkw4nh6YkWFp1z7hwpovvfao7sOgjFv9OsDrqpOlRdLSdda1kCZo5OjfukoXxUIUgtNkYWlzt7AidQUg9CCfJ4wWyliT6b8bM414epz8jntuu5P",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Tobinstad",
+          "street": "Wehner Drives",
+          "house": 19,
+          "flat": 947
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 55275,
+      "createdOn": "2026-01-03T18:53:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695965a21c508c5d5e9736f2",
+          "products": [
+            {
+              "_id": "695965a31c508c5d5e97373d",
+              "name": "Pizza87889",
+              "amount": 728,
+              "price": 55275,
+              "manufacturer": "Xiaomi",
+              "notes": "Hn2CQS8uJE7rGqW5kI1hA4hA37Gz8rrLf6QDRptITMa9x8ZLsXfvWycHvSUq3OMO7momChBjJQqyPJJ6o6rzwksSoZQ7npCdv3AC6i5qugqFkgpc8BxlWtd71P9YfKeHIxhMuAILZF0zkw4nh6YkWFp1z7hwpovvfao7sOgjFv9OsDrqpOlRdLSdda1kCZo5OjfukoXxUIUgtNkYWlzt7AidQUg9CCfJ4wWyliT6b8bM414epz8jntuu5P",
+              "received": false
+            }
+          ],
+          "total_price": 55275,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Tobinstad",
+              "street": "Wehner Drives",
+              "house": 19,
+              "flat": 947
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T18:53:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695965a21c508c5d5e9736f2",
+          "products": [
+            {
+              "_id": "695965a31c508c5d5e97373d",
+              "name": "Pizza87889",
+              "amount": 728,
+              "price": 55275,
+              "manufacturer": "Xiaomi",
+              "notes": "Hn2CQS8uJE7rGqW5kI1hA4hA37Gz8rrLf6QDRptITMa9x8ZLsXfvWycHvSUq3OMO7momChBjJQqyPJJ6o6rzwksSoZQ7npCdv3AC6i5qugqFkgpc8BxlWtd71P9YfKeHIxhMuAILZF0zkw4nh6YkWFp1z7hwpovvfao7sOgjFv9OsDrqpOlRdLSdda1kCZo5OjfukoXxUIUgtNkYWlzt7AidQUg9CCfJ4wWyliT6b8bM414epz8jntuu5P",
+              "received": false
+            }
+          ],
+          "total_price": 55275,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:53:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:53:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1869",
+    "etag": "W/\"74d-9HT0sgxhylzlrZGW4gyFgti/fUE\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6959659f1c508c5d5e973644",
+        "email": "Dominique39@hotmail.com",
+        "name": "Aylin Green",
+        "country": "USA",
+        "city": "New Abbie",
+        "street": "Anna Turnpike",
+        "house": 29,
+        "flat": 610,
+        "phone": "+18504625770",
+        "createdOn": "2026-01-03T18:53:19.000Z",
+        "notes": "Xw4xay5roD831R9VlwGMfhuDgrvC5MpecSPew55pDD5Kn7NuyisTApm6YTd9YNcoHKZU8LPmut0Epj77Kq8aiMI4OAsIa1N6zJicE3pjB7fIfqFIbhPu7NrNRhcvmyDKNziJSkVzaqVKMFm1AsKElw40KgXtkexZx0MxwptGhA88uXZAV690D5wzTfCJwsTbBaO50jr9VTGTdZRUMhqGAptpYj6MUqk9pDN4zhAeFEPsRufVqP2Vg8CNXF"
+      },
+      "products": [
+        {
+          "_id": "695965a01c508c5d5e973687",
+          "name": "Bike1632",
+          "amount": 793,
+          "price": 5785,
+          "manufacturer": "Google",
+          "notes": "mm3mPhDYzos95vKEIbEHA8oQhdpPMxbB2slJJc9QBNyTJ13dlFUhEKuqBTYbJBH1S76nwQYKZH3zup8yJMubFBYdu1fKAPaUoMHncbYHGfEGcjxUYT3ZZ1RSgHW3hklgF0dZmBuB53q5lXkqc1FPVgt3NCemL2lmGEEM09lAGYwE7clhYwUQKt2EssHbZKQMnoWe1tQRaHHtnPIO7SAzNkrhDBcozQmLAmWczTjHekAeHAyayH9kL6xDVk",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 5785,
+      "createdOn": "2026-01-03T18:53:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959659f1c508c5d5e973644",
+          "products": [
+            {
+              "_id": "695965a01c508c5d5e973687",
+              "name": "Bike1632",
+              "amount": 793,
+              "price": 5785,
+              "manufacturer": "Google",
+              "notes": "mm3mPhDYzos95vKEIbEHA8oQhdpPMxbB2slJJc9QBNyTJ13dlFUhEKuqBTYbJBH1S76nwQYKZH3zup8yJMubFBYdu1fKAPaUoMHncbYHGfEGcjxUYT3ZZ1RSgHW3hklgF0dZmBuB53q5lXkqc1FPVgt3NCemL2lmGEEM09lAGYwE7clhYwUQKt2EssHbZKQMnoWe1tQRaHHtnPIO7SAzNkrhDBcozQmLAmWczTjHekAeHAyayH9kL6xDVk",
+              "received": false
+            }
+          ],
+          "total_price": 5785,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:53:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695965a11c508c5d5e9736a5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

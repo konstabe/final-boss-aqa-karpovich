@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:53:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-J9slileto77ZWrrIdpnyvo+ndKE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695965a11c508c5d5e9736b0",
+        "email": "Elza.Kub27@hotmail.com",
+        "name": "Adaline Block",
+        "country": "Ukraine",
+        "city": "Costa Mesa",
+        "street": "Reichert Ports",
+        "house": 5,
+        "flat": 83,
+        "phone": "+12716278744",
+        "createdOn": "2026-01-03T18:53:21.000Z",
+        "notes": "HjTkZW2XvmGn7ESUG1BY6CIT7BFlZyDX2Rveg5i81kYuSqJsYN7EK1L5SqZib0SRoHE03DEitAZaloegE5zfTNZvuNQh8pdkcgnqZkeuAqJDYbRLab4A43alBfEr5ZFuPznK0HBydAnflOT1fi5KAWUpGAgc1tA5XF8X8qwf1rWi8R1w0j5viKutrxGjsFIdCgfHWk3mvqxkXzGWIpQSyTlcV1Zotk4MqT3hpytZ8hjyrLd2OgAEvzdioq"
+      },
+      "products": [
+        {
+          "_id": "695965a21c508c5d5e97370a",
+          "name": "Cheese80093",
+          "amount": 610,
+          "price": 38963,
+          "manufacturer": "Google",
+          "notes": "YVjKGEQYYedv83nkzNVgcPDxJFVp0nF4GbQFcij1dhhnpHrHOcG47vZHFNWEB5aofEWfc4uvGlGZ3iVJOkjBHU7UKWRy9bNJkfM5tTqk3e3l9XvnVd1yLmhQVPqbqZfJMzjZhyzqH1ZYdwJGYtBiec2tMkLStRn9kMIxrpHYNln2kj1kkzfeSqaAtIpNfRmYWpP7M5bjb8TdLHG4t0McmhD2iEq2EO7rxo3QanQEGxUeumgomHSeyxRViF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 38963,
+      "createdOn": "2026-01-03T18:53:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695965a11c508c5d5e9736b0",
+          "products": [
+            {
+              "_id": "695965a21c508c5d5e97370a",
+              "name": "Cheese80093",
+              "amount": 610,
+              "price": 38963,
+              "manufacturer": "Google",
+              "notes": "YVjKGEQYYedv83nkzNVgcPDxJFVp0nF4GbQFcij1dhhnpHrHOcG47vZHFNWEB5aofEWfc4uvGlGZ3iVJOkjBHU7UKWRy9bNJkfM5tTqk3e3l9XvnVd1yLmhQVPqbqZfJMzjZhyzqH1ZYdwJGYtBiec2tMkLStRn9kMIxrpHYNln2kj1kkzfeSqaAtIpNfRmYWpP7M5bjb8TdLHG4t0McmhD2iEq2EO7rxo3QanQEGxUeumgomHSeyxRViF",
+              "received": false
+            }
+          ],
+          "total_price": 38963,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:53:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695965a21c508c5d5e97371b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
