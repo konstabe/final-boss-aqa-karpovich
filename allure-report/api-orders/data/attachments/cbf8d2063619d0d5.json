@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:21:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2645",
+    "etag": "W/\"a55-JcsyHEiZBzcd6f+F0thlygWcFUs\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695933d41c508c5d5e8d88be",
+        "email": "Xavier_Quigley@yahoo.com",
+        "name": "Dave Halvorson",
+        "country": "Russia",
+        "city": "East Pansy",
+        "street": "Birch Grove",
+        "house": 39,
+        "flat": 212,
+        "phone": "+14189679997",
+        "createdOn": "2026-01-03T15:20:52.000Z",
+        "notes": "fN2KKqj9Vtsg62KLg4sbPpI9bUFthjo6RhPvBt1hhpetB43pXHmyV3WXlzvA9nLK2T1hUdwWXbYLEXtCPBipotslGUg7VnHfQfR1LiFMoa0FlIupd0mFXyZbRscR6ntGm4E5JjuAKxCMQNS83BhVqQ3HBiUUWBlVpXvt3KKnduAzDnQIn5AMCxGmZkxfsICII2TNkvVxuR8Y4BIHw9eXImvNo8uqoFCimdduo5YxQ68DxYj3DjAtB28fEV"
+      },
+      "products": [
+        {
+          "_id": "695933da1c508c5d5e8d89fa",
+          "name": "Chips1189",
+          "amount": 51,
+          "price": 16846,
+          "manufacturer": "Amazon",
+          "notes": "Xe9V8YM3kAbYnZ572L2xf95p3etXjQ4u8J9rwRNKy2rEwLh9ra2bndGYNElndt5hWAHxGLUZmTth8HYEwUwBTnrWussWpFmIMwNmbp7Y2fwvyR9mISkM5KO3HVgAbigvBuMFfQSyfWyWpZGpIp0SLSLcyJN7FezHVNbwp3ftK76mG30kmmSZjioYzxJ52MEHefiV4AvIvp1HfCgdo0oyTNSGFWUG5epFIabFQDbDlLvlVXfhdVaLM3D4zh",
+          "received": false
+        },
+        {
+          "_id": "695933e01c508c5d5e8d8aa7",
+          "name": "Tuna92915",
+          "amount": 379,
+          "price": 22091,
+          "manufacturer": "Google",
+          "notes": "0Tj6vtrHRK8cj0g1bvkpCbXWxEq1vN9MILcaHM4UOksbfWamaExHxMMT6t0UmmnVM1gpamNE6xm7BfF9Eut7TuZCR2986P8ykj8xjcO7YwuEKqHSZPrzI1wO2lpJlICeJfNriIwCv8VIP4OwldwsFh1T2hNtKBko0fRGeQyNnwB85T9UjkOAc4WsEid7yLYiVWogctBSxKShItimMrivbnl9nt9dESfB62mtC7SbTY8yZumri4dYYjyRtp",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 38937,
+      "createdOn": "2026-01-03T15:21:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933d41c508c5d5e8d88be",
+          "products": [
+            {
+              "_id": "695933da1c508c5d5e8d89fa",
+              "name": "Chips1189",
+              "amount": 51,
+              "price": 16846,
+              "manufacturer": "Amazon",
+              "notes": "Xe9V8YM3kAbYnZ572L2xf95p3etXjQ4u8J9rwRNKy2rEwLh9ra2bndGYNElndt5hWAHxGLUZmTth8HYEwUwBTnrWussWpFmIMwNmbp7Y2fwvyR9mISkM5KO3HVgAbigvBuMFfQSyfWyWpZGpIp0SLSLcyJN7FezHVNbwp3ftK76mG30kmmSZjioYzxJ52MEHefiV4AvIvp1HfCgdo0oyTNSGFWUG5epFIabFQDbDlLvlVXfhdVaLM3D4zh",
+              "received": false
+            },
+            {
+              "_id": "695933e01c508c5d5e8d8aa7",
+              "name": "Tuna92915",
+              "amount": 379,
+              "price": 22091,
+              "manufacturer": "Google",
+              "notes": "0Tj6vtrHRK8cj0g1bvkpCbXWxEq1vN9MILcaHM4UOksbfWamaExHxMMT6t0UmmnVM1gpamNE6xm7BfF9Eut7TuZCR2986P8ykj8xjcO7YwuEKqHSZPrzI1wO2lpJlICeJfNriIwCv8VIP4OwldwsFh1T2hNtKBko0fRGeQyNnwB85T9UjkOAc4WsEid7yLYiVWogctBSxKShItimMrivbnl9nt9dESfB62mtC7SbTY8yZumri4dYYjyRtp",
+              "received": false
+            }
+          ],
+          "total_price": 38937,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:21:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695933e01c508c5d5e8d8ab1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

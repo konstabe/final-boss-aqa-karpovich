@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:20:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2672",
+    "etag": "W/\"a70-3UxxjwHTMmgFCDsOy9HUdNvg5aM\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695933a91c508c5d5e8d843e",
+        "email": "Jessyca.Bashirian@yahoo.com",
+        "name": "Rudy Jerde",
+        "country": "Great Britain",
+        "city": "Armstronghaven",
+        "street": "Brook Trafficway",
+        "house": 44,
+        "flat": 539,
+        "phone": "+17414789241",
+        "createdOn": "2026-01-03T15:20:09.000Z",
+        "notes": "PpDty15m4WakCCJIZwdaDVqkgilxm263cW06J7gCbyuN7qo3Wxu2vJg0LPpHy3N93ceaLv8NVIBJnHH6TfyDunClvIUJMQQxrymfWZfXMqxS2IRVZCUkMDlgDiN7MRH7CQO6IHBaAmGUj1Q4dDNbX42URBEkycCEM6D00a7rsCDdUcXvbIaharevmQryBD7ogrT9zQf6umgPYrMdzoRqT0aGcQTUYnzWOhr3SZAfSy2b6yOzJugY7wAGig"
+      },
+      "products": [
+        {
+          "_id": "695933af1c508c5d5e8d8468",
+          "name": "Sausages52119",
+          "amount": 265,
+          "price": 35425,
+          "manufacturer": "Tesla",
+          "notes": "Mu5bS5k7jmXgV2ZlJvBmCy6BFBsbYKPRN8BOnL5ymMfcQaKbLdqA4h6fKGROCm7pp5r9HJvNYzDOLwO85Oy0DbO2yEbbNpaTz0ilKgfbQwn02EG6UrmX9ywttrNScAPOQ2Vf1HYNxkeEGY6s9ZdYsdH6oyj5tFNiBOZHitnf03vkXtvRc7VmR7O3KLdes8brr97V6gLCQeH1T68k36D7cd6N8JgQhZjSiYbJwEqpvzxNEcJovqXO5L6UaW",
+          "received": false
+        },
+        {
+          "_id": "695933b51c508c5d5e8d8490",
+          "name": "Cheese81111",
+          "amount": 100,
+          "price": 10542,
+          "manufacturer": "Xiaomi",
+          "notes": "clAJadrVfWFmSQh7fXWY24lg664xlKdgeRKtCgZLp9x2h2FhBOq2tOAE6K3FIkfugk7DYRjYB7iFglMBVlB0Eda3ixrhQJt5xXOKnggwsONdgYEI4xSrzVXDdDyufR4xNHjwwrIOglCqDs8BtWsUnUgC32xjJYZ4UkdtAGEWJWUSPqs11kT8xMbtzZwhMBYJzrNil5gOlBWqfPmiaggQlA1RgpQ7TVdSp13baqIQVUCEhtHNDqc98qINIP",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 45967,
+      "createdOn": "2026-01-03T15:20:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933a91c508c5d5e8d843e",
+          "products": [
+            {
+              "_id": "695933af1c508c5d5e8d8468",
+              "name": "Sausages52119",
+              "amount": 265,
+              "price": 35425,
+              "manufacturer": "Tesla",
+              "notes": "Mu5bS5k7jmXgV2ZlJvBmCy6BFBsbYKPRN8BOnL5ymMfcQaKbLdqA4h6fKGROCm7pp5r9HJvNYzDOLwO85Oy0DbO2yEbbNpaTz0ilKgfbQwn02EG6UrmX9ywttrNScAPOQ2Vf1HYNxkeEGY6s9ZdYsdH6oyj5tFNiBOZHitnf03vkXtvRc7VmR7O3KLdes8brr97V6gLCQeH1T68k36D7cd6N8JgQhZjSiYbJwEqpvzxNEcJovqXO5L6UaW",
+              "received": false
+            },
+            {
+              "_id": "695933b51c508c5d5e8d8490",
+              "name": "Cheese81111",
+              "amount": 100,
+              "price": 10542,
+              "manufacturer": "Xiaomi",
+              "notes": "clAJadrVfWFmSQh7fXWY24lg664xlKdgeRKtCgZLp9x2h2FhBOq2tOAE6K3FIkfugk7DYRjYB7iFglMBVlB0Eda3ixrhQJt5xXOKnggwsONdgYEI4xSrzVXDdDyufR4xNHjwwrIOglCqDs8BtWsUnUgC32xjJYZ4UkdtAGEWJWUSPqs11kT8xMbtzZwhMBYJzrNil5gOlBWqfPmiaggQlA1RgpQ7TVdSp13baqIQVUCEhtHNDqc98qINIP",
+              "received": false
+            }
+          ],
+          "total_price": 45967,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:20:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695933b51c508c5d5e8d84c3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

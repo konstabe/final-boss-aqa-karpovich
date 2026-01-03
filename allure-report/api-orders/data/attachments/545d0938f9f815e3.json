@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:20:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-b9w33bvlxoslxGfXqI8SpELZbtc\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695933bc1c508c5d5e8d85c5",
+        "email": "Archibald56@gmail.com",
+        "name": "Damion Mann",
+        "country": "Great Britain",
+        "city": "West Kelley",
+        "street": "Derwent Close",
+        "house": 46,
+        "flat": 70,
+        "phone": "+18436415158",
+        "createdOn": "2026-01-03T15:20:28.000Z",
+        "notes": "JEcz681JLX3cUGkcW8Tv4D6g0m2RI7qxoPd4rvSdtCQOBCWpQfzEJ9UcbkdboMk5RRbK7aDMOKlgFwDhJxiLjl8g5BBDONI0WKRinI628VgEd7WfthaPOID9v3s2P09ChPFcyVNz5TtE4wg5CKvJ6LAPPvOofGaWwjW4Ps33Y1UKBvvcinbwEoXCrObVRIo2xuV1QaXytEBvubHlNRT97FGNMebsRs9551A4tdvS2uoNsKUVIB0J2XggEK"
+      },
+      "products": [
+        {
+          "_id": "695933c11c508c5d5e8d8606",
+          "name": "Sausages19861",
+          "amount": 462,
+          "price": 78869,
+          "manufacturer": "Sony",
+          "notes": "ksGNY5zzAdTGMSeDgGdjEq6DYHJVyobQzxG7tytqDjq2XYG5fvoyePiYoJmE4wudKQmqiStcOXnilP9GQUGO32cZbx189JSbKHXjT3MgUw2uQrBLHcu72NAWCPigktsmaAYglAbA14IjQySzr40EjvxoETMwejVTgHH0KwjM6qgBbnMxl8ELiMRZIDq5W8p6ggmr0AIMfOxWcEnWiHwRlw4UXWngmHHt89Gknl9dplfOR61a3nmlK0KCmu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 78869,
+      "createdOn": "2026-01-03T15:20:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933bc1c508c5d5e8d85c5",
+          "products": [
+            {
+              "_id": "695933c11c508c5d5e8d8606",
+              "name": "Sausages19861",
+              "amount": 462,
+              "price": 78869,
+              "manufacturer": "Sony",
+              "notes": "ksGNY5zzAdTGMSeDgGdjEq6DYHJVyobQzxG7tytqDjq2XYG5fvoyePiYoJmE4wudKQmqiStcOXnilP9GQUGO32cZbx189JSbKHXjT3MgUw2uQrBLHcu72NAWCPigktsmaAYglAbA14IjQySzr40EjvxoETMwejVTgHH0KwjM6qgBbnMxl8ELiMRZIDq5W8p6ggmr0AIMfOxWcEnWiHwRlw4UXWngmHHt89Gknl9dplfOR61a3nmlK0KCmu",
+              "received": false
+            }
+          ],
+          "total_price": 78869,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:20:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695933c21c508c5d5e8d861d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

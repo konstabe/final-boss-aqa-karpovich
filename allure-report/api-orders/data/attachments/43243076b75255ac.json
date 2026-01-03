@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:20:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-GIhmija7HSSgdB7K7o83LEoYWy4\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695933bb1c508c5d5e8d85bb",
+        "email": "Eunice.OReilly@hotmail.com",
+        "name": "Crawford Dietrich",
+        "country": "Germany",
+        "city": "Quintonside",
+        "street": "Murazik Ports",
+        "house": 18,
+        "flat": 88,
+        "phone": "+14648079056",
+        "createdOn": "2026-01-03T15:20:27.000Z",
+        "notes": "8CV0mjV3o66nublZYhKTkizx1vhCh8Ws5eUOht853Lqu3qthOhl834gD5NVyQB02Nz9hQn8ve0Em8d59Bryfr0PveZhSdhoJgUbsNyDC25U9LH2j4AUFLBLLpSPDgbko0MrtbPDvbWNdYuPO1izM63DyOiKjXisOHhCRr7AB1FgORcyyHnM8bTJhKhSWQYOpOCQoCpjxqHhtT8zi1dhmfEihPfe2oSqUjd3hRpztbMNpLJYK8RaTSHYBeD"
+      },
+      "products": [
+        {
+          "_id": "695933c11c508c5d5e8d85e5",
+          "name": "Chips39127",
+          "amount": 299,
+          "price": 7094,
+          "manufacturer": "Google",
+          "notes": "Jj9wgebMpMvQE6RXNDye8iLzqnGAC8ep46Upl7iIPVCrSNy96d3QyvplykiWO6ucyJqfpsc8xnetvXYxEs3dVN91lbvh3QwKCB0Luvto7s6BDvHogTHkF4ZVxvrB1BKU3vqepOp2b86recTUje2MGMwAr0sB5r6EVHP5LHy4jRyTFRhrze8HHQR3ODt8QLQZ3KSWWhKu1cmMB4FnW7b2A3VBqxvmmYchNEDNh0VY38A9p69ueP4yHHVLDV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7094,
+      "createdOn": "2026-01-03T15:20:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933bb1c508c5d5e8d85bb",
+          "products": [
+            {
+              "_id": "695933c11c508c5d5e8d85e5",
+              "name": "Chips39127",
+              "amount": 299,
+              "price": 7094,
+              "manufacturer": "Google",
+              "notes": "Jj9wgebMpMvQE6RXNDye8iLzqnGAC8ep46Upl7iIPVCrSNy96d3QyvplykiWO6ucyJqfpsc8xnetvXYxEs3dVN91lbvh3QwKCB0Luvto7s6BDvHogTHkF4ZVxvrB1BKU3vqepOp2b86recTUje2MGMwAr0sB5r6EVHP5LHy4jRyTFRhrze8HHQR3ODt8QLQZ3KSWWhKu1cmMB4FnW7b2A3VBqxvmmYchNEDNh0VY38A9p69ueP4yHHVLDV",
+              "received": false
+            }
+          ],
+          "total_price": 7094,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:20:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695933c11c508c5d5e8d85fa"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:20:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4784",
+    "etag": "W/\"12b0-D7VU/VLTVNQfE1tGw/c320MftjY\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695933cc1c508c5d5e8d873f",
+      "status": "Received",
+      "customer": {
+        "_id": "695933c71c508c5d5e8d86a1",
+        "email": "Meghan54@gmail.com",
+        "name": "Albertha Littel",
+        "country": "USA",
+        "city": "Bel Air South",
+        "street": "Macey Loaf",
+        "house": 17,
+        "flat": 88,
+        "phone": "+16153775408",
+        "createdOn": "2026-01-03T15:20:39.000Z",
+        "notes": "s7SZAFqhfb5eCl8SHchjthjlHNMAZq6pU9XEmfCBd98ZUwyTgmOBjD7bPy5PqOrJIQjEJAHOg1xx6m2y93913idYD8Mx7RZjPSgwMg8PgAfOG8ibrB8k5Y7aWmttUvw5DPGySPPHEvlzRPWKfa3uw9Yql3BbfydGC2MZunlLk5iqQYVGstb3HUEs8yAm6LtY9Yz1wuWreuOmGAvNXE7njibQv5ffBxQsS9ym9IzA6nlya9jrcZUTPoQwIi"
+      },
+      "products": [
+        {
+          "_id": "695933cc1c508c5d5e8d8731",
+          "name": "Salad32992",
+          "amount": 690,
+          "price": 62188,
+          "manufacturer": "Microsoft",
+          "notes": "NwDA9QWVc9Zily7qCjBqDJyoT4b7YUoNoAb0OKnxk0OiDizuR7UMxWMwN8SIOLW0kokI0VXWcRnfA6tRavxvgH4QlDRfCV1xKJ3igwvSNvaoVlptk4YX9bVPngE04bwlQkHbvpVCu1kP7nVTdsugLsMBaOWP9pqwuFLHT3gcle2XrN5Xnpz8Mu74GZfGBtdOutMUTIiidXBjcR263Yy26qPfnQDtDMyy88gU3blS95MwiGDriRsXWGalow",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Bel Air South",
+          "street": "Macey Loaf",
+          "house": 17,
+          "flat": 88
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 62188,
+      "createdOn": "2026-01-03T15:20:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695933c71c508c5d5e8d86a1",
+          "products": [
+            {
+              "_id": "695933cc1c508c5d5e8d8731",
+              "name": "Salad32992",
+              "amount": 690,
+              "price": 62188,
+              "manufacturer": "Microsoft",
+              "notes": "NwDA9QWVc9Zily7qCjBqDJyoT4b7YUoNoAb0OKnxk0OiDizuR7UMxWMwN8SIOLW0kokI0VXWcRnfA6tRavxvgH4QlDRfCV1xKJ3igwvSNvaoVlptk4YX9bVPngE04bwlQkHbvpVCu1kP7nVTdsugLsMBaOWP9pqwuFLHT3gcle2XrN5Xnpz8Mu74GZfGBtdOutMUTIiidXBjcR263Yy26qPfnQDtDMyy88gU3blS95MwiGDriRsXWGalow",
+              "received": true
+            }
+          ],
+          "total_price": 62188,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Bel Air South",
+              "street": "Macey Loaf",
+              "house": 17,
+              "flat": 88
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T15:20:46.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695933c71c508c5d5e8d86a1",
+          "products": [
+            {
+              "_id": "695933cc1c508c5d5e8d8731",
+              "name": "Salad32992",
+              "amount": 690,
+              "price": 62188,
+              "manufacturer": "Microsoft",
+              "notes": "NwDA9QWVc9Zily7qCjBqDJyoT4b7YUoNoAb0OKnxk0OiDizuR7UMxWMwN8SIOLW0kokI0VXWcRnfA6tRavxvgH4QlDRfCV1xKJ3igwvSNvaoVlptk4YX9bVPngE04bwlQkHbvpVCu1kP7nVTdsugLsMBaOWP9pqwuFLHT3gcle2XrN5Xnpz8Mu74GZfGBtdOutMUTIiidXBjcR263Yy26qPfnQDtDMyy88gU3blS95MwiGDriRsXWGalow",
+              "received": false
+            }
+          ],
+          "total_price": 62188,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Bel Air South",
+              "street": "Macey Loaf",
+              "house": 17,
+              "flat": 88
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T15:20:45.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695933c71c508c5d5e8d86a1",
+          "products": [
+            {
+              "_id": "695933cc1c508c5d5e8d8731",
+              "name": "Salad32992",
+              "amount": 690,
+              "price": 62188,
+              "manufacturer": "Microsoft",
+              "notes": "NwDA9QWVc9Zily7qCjBqDJyoT4b7YUoNoAb0OKnxk0OiDizuR7UMxWMwN8SIOLW0kokI0VXWcRnfA6tRavxvgH4QlDRfCV1xKJ3igwvSNvaoVlptk4YX9bVPngE04bwlQkHbvpVCu1kP7nVTdsugLsMBaOWP9pqwuFLHT3gcle2XrN5Xnpz8Mu74GZfGBtdOutMUTIiidXBjcR263Yy26qPfnQDtDMyy88gU3blS95MwiGDriRsXWGalow",
+              "received": false
+            }
+          ],
+          "total_price": 62188,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Bel Air South",
+              "street": "Macey Loaf",
+              "house": 17,
+              "flat": 88
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T15:20:45.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695933c71c508c5d5e8d86a1",
+          "products": [
+            {
+              "_id": "695933cc1c508c5d5e8d8731",
+              "name": "Salad32992",
+              "amount": 690,
+              "price": 62188,
+              "manufacturer": "Microsoft",
+              "notes": "NwDA9QWVc9Zily7qCjBqDJyoT4b7YUoNoAb0OKnxk0OiDizuR7UMxWMwN8SIOLW0kokI0VXWcRnfA6tRavxvgH4QlDRfCV1xKJ3igwvSNvaoVlptk4YX9bVPngE04bwlQkHbvpVCu1kP7nVTdsugLsMBaOWP9pqwuFLHT3gcle2XrN5Xnpz8Mu74GZfGBtdOutMUTIiidXBjcR263Yy26qPfnQDtDMyy88gU3blS95MwiGDriRsXWGalow",
+              "received": false
+            }
+          ],
+          "total_price": 62188,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:20:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

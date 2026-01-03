@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:22:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3436",
+    "etag": "W/\"d6c-u0Hfg0igWq67MDEfyyOeqMDOJl4\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695934161c508c5d5e8d9310",
+        "email": "Emilie_Kuphal77@yahoo.com",
+        "name": "Jeanne Dare",
+        "country": "Russia",
+        "city": "West Lafayette",
+        "street": "Lee Street",
+        "house": 27,
+        "flat": 809,
+        "phone": "+19725338208",
+        "createdOn": "2026-01-03T15:21:58.000Z",
+        "notes": "yI1pCOmXG4x8jUhWyKAOrTmDpNe6NGuaMkblBRjHMUTq6Ud5eiJYPG2cPpIKuXoHNrqBoVbpfpo8luFt5MVFOdJ4LS1HqKZzkjhylCt5lzNI2A6NyCJOb50F53sYSXErhwl2IJw9g4U8wGvARzvWH0sEvWEG1CNGyrj6s3u5hp1dOuyV3rjglayqa7Z6SlxMJR2lWsNjXyzaQkb84zSzmB2G8dULc3dAwDG3yjWQ2uGdpIPUNtv0VpdJDo"
+      },
+      "products": [
+        {
+          "_id": "6959341c1c508c5d5e8d9321",
+          "name": "Towels53244",
+          "amount": 743,
+          "price": 22638,
+          "manufacturer": "Microsoft",
+          "notes": "oobbZpNUVeAsfP69zjJACfSqhP2fhfEKXAE6avrAai59B1Viu6asD4edo5qu9G1qvmgXvSuTteeZiQgoaeBe2d49SyCXFy5MtTYTVSPQ1cMoOKXM8obSAWcrzWiRr9ag8kcWOLBBvy86D1EEmkY7in2L06hXZOfODSgG1i4P8ijZWmbzzvIF4Cl3E8sLG3FCbtGtlmWu2DAG6jCBLQFvHCER0XMOYfsc3UvFpKLoglU73u9oNNy5YaScv7",
+          "received": false
+        },
+        {
+          "_id": "695934211c508c5d5e8d933b",
+          "name": "Salad472",
+          "amount": 552,
+          "price": 11904,
+          "manufacturer": "Google",
+          "notes": "uRYCCQGsQhNo4qY9SyMfHxk35C2uLRy21FSwXyKB6XcjASMUBL6HrN0lANT8PDBGzKPQdh4wDS8kQjEuB8cgE2siX42YYH3vU0dtpqg50kU6KxRxhcBGlVcZRg9CeS4TvBpO6JoFnOGkoCRdf7tM3flkVBpY2ENuvMd2rtkTBVAr51Y8N6EDHLU6bFdFp51tkqNKHY3UJAL0823DRUUGEzss5AJjIsY0xPdTLrrv2StdD8AoiMqPoqREKj",
+          "received": false
+        },
+        {
+          "_id": "695934271c508c5d5e8d934c",
+          "name": "Chicken35317",
+          "amount": 260,
+          "price": 94167,
+          "manufacturer": "Microsoft",
+          "notes": "r6XAnzeZLxysO1fBkeOC0pTVJIOiX1kVOEGYXjteySJBQyhQn1K29oEUHfyXTtyFmA6sRvvAXNHuGg4EGRbWkZMl6WVJzO4073pLy468UGwi4DdWBePwyU46IqNJj6vlKzrTcW9mDFrx5AXaISWhIc7wyOD6narBd01rFgopXofzTGVihnAVWPFRYfgEBwzsXANWOSSjGLNC037MVd5APeroqhEYNSRTJ1M9nudOEHzavHUgquerg25eEs",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 128709,
+      "createdOn": "2026-01-03T15:22:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695934161c508c5d5e8d9310",
+          "products": [
+            {
+              "_id": "6959341c1c508c5d5e8d9321",
+              "name": "Towels53244",
+              "amount": 743,
+              "price": 22638,
+              "manufacturer": "Microsoft",
+              "notes": "oobbZpNUVeAsfP69zjJACfSqhP2fhfEKXAE6avrAai59B1Viu6asD4edo5qu9G1qvmgXvSuTteeZiQgoaeBe2d49SyCXFy5MtTYTVSPQ1cMoOKXM8obSAWcrzWiRr9ag8kcWOLBBvy86D1EEmkY7in2L06hXZOfODSgG1i4P8ijZWmbzzvIF4Cl3E8sLG3FCbtGtlmWu2DAG6jCBLQFvHCER0XMOYfsc3UvFpKLoglU73u9oNNy5YaScv7",
+              "received": false
+            },
+            {
+              "_id": "695934211c508c5d5e8d933b",
+              "name": "Salad472",
+              "amount": 552,
+              "price": 11904,
+              "manufacturer": "Google",
+              "notes": "uRYCCQGsQhNo4qY9SyMfHxk35C2uLRy21FSwXyKB6XcjASMUBL6HrN0lANT8PDBGzKPQdh4wDS8kQjEuB8cgE2siX42YYH3vU0dtpqg50kU6KxRxhcBGlVcZRg9CeS4TvBpO6JoFnOGkoCRdf7tM3flkVBpY2ENuvMd2rtkTBVAr51Y8N6EDHLU6bFdFp51tkqNKHY3UJAL0823DRUUGEzss5AJjIsY0xPdTLrrv2StdD8AoiMqPoqREKj",
+              "received": false
+            },
+            {
+              "_id": "695934271c508c5d5e8d934c",
+              "name": "Chicken35317",
+              "amount": 260,
+              "price": 94167,
+              "manufacturer": "Microsoft",
+              "notes": "r6XAnzeZLxysO1fBkeOC0pTVJIOiX1kVOEGYXjteySJBQyhQn1K29oEUHfyXTtyFmA6sRvvAXNHuGg4EGRbWkZMl6WVJzO4073pLy468UGwi4DdWBePwyU46IqNJj6vlKzrTcW9mDFrx5AXaISWhIc7wyOD6narBd01rFgopXofzTGVihnAVWPFRYfgEBwzsXANWOSSjGLNC037MVd5APeroqhEYNSRTJ1M9nudOEHzavHUgquerg25eEs",
+              "received": false
+            }
+          ],
+          "total_price": 128709,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:22:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695934281c508c5d5e8d9358"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

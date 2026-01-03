@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:20:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2648",
+    "etag": "W/\"a58-3ng1lxe9aRLG5lf2QwMmnzrZrUU\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695933a91c508c5d5e8d8449",
+        "email": "Ayla22@hotmail.com",
+        "name": "Zachary Bergstrom",
+        "country": "USA",
+        "city": "Jaimeton",
+        "street": "N Bridge Street",
+        "house": 8,
+        "flat": 7,
+        "phone": "+18996706096",
+        "createdOn": "2026-01-03T15:20:09.000Z",
+        "notes": "Rcl9fTvaA8FRtcTAPG4QC32ENpJHzP7wR1cwp0U7Iiku1fb3DonjqTLZsKG2Ial5YuSapKBxXafkxmDjnsgEuhJFhujaRWE9uFl56aVZ51XtbBYzRyUsClvaT7UmcQ1h0kCGqcqyJo8gtbzlCA5vH7C2OCUjUaF0r67yLSVngaCRFqDkZVnI4pRk4QVUesJWzMqmCIY7TPguLBg3ELcgqYrhpCMdv6vvaD8qRSUN141xUaU8hPVFlPPefQ"
+      },
+      "products": [
+        {
+          "_id": "695933af1c508c5d5e8d8470",
+          "name": "Car93096",
+          "amount": 584,
+          "price": 97414,
+          "manufacturer": "Apple",
+          "notes": "gkAPrb7PElpvGt9ok7znWOtdKy203QnAQVj9xKuceeHyQ4mk6TKLePn7ZRZKKCuiIAfHF88rSiGzKkD3PiNLE6XZbX4xMNo8qwKvmevG1ujXt2qcHIk0L3lMPFzCtuZVcHgIrsbp8tuENa9Kc0ZFZMXCbKT0UrHOif5qhW4tPX11hZfw1m52XOvBjXR62Lz35nBbmHMljs4WHwUGx9AoJ8BGovjhweKt7RTMtplwHFcsqCv7ahdbFCL6RL",
+          "received": false
+        },
+        {
+          "_id": "695933b51c508c5d5e8d8498",
+          "name": "Cheese80006",
+          "amount": 135,
+          "price": 96489,
+          "manufacturer": "Microsoft",
+          "notes": "XLAfVFKsx2CegZECI1rjQL1ZJiq5ofD7Q0q9JbYuL34EhcnKs4KrTRoQn5AzyZ4OYJBqLkv5EGAstcCxaFqirq73N65VXX83OVQJK2fsOyA4Vi9omuANoCRqyXbfnxlyk5t6X6roeKt91cZ4Wy9RJKJoKAQ4ZNFSmawZu90J9s6SXAIkm4z3GjxvIui9wwApX8I5jIZ4J85oaHKaunorrN81NKMDJmRy7gLJHepEeokx8V0MYSkaW41C0u",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 193903,
+      "createdOn": "2026-01-03T15:20:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933a91c508c5d5e8d8449",
+          "products": [
+            {
+              "_id": "695933af1c508c5d5e8d8470",
+              "name": "Car93096",
+              "amount": 584,
+              "price": 97414,
+              "manufacturer": "Apple",
+              "notes": "gkAPrb7PElpvGt9ok7znWOtdKy203QnAQVj9xKuceeHyQ4mk6TKLePn7ZRZKKCuiIAfHF88rSiGzKkD3PiNLE6XZbX4xMNo8qwKvmevG1ujXt2qcHIk0L3lMPFzCtuZVcHgIrsbp8tuENa9Kc0ZFZMXCbKT0UrHOif5qhW4tPX11hZfw1m52XOvBjXR62Lz35nBbmHMljs4WHwUGx9AoJ8BGovjhweKt7RTMtplwHFcsqCv7ahdbFCL6RL",
+              "received": false
+            },
+            {
+              "_id": "695933b51c508c5d5e8d8498",
+              "name": "Cheese80006",
+              "amount": 135,
+              "price": 96489,
+              "manufacturer": "Microsoft",
+              "notes": "XLAfVFKsx2CegZECI1rjQL1ZJiq5ofD7Q0q9JbYuL34EhcnKs4KrTRoQn5AzyZ4OYJBqLkv5EGAstcCxaFqirq73N65VXX83OVQJK2fsOyA4Vi9omuANoCRqyXbfnxlyk5t6X6roeKt91cZ4Wy9RJKJoKAQ4ZNFSmawZu90J9s6SXAIkm4z3GjxvIui9wwApX8I5jIZ4J85oaHKaunorrN81NKMDJmRy7gLJHepEeokx8V0MYSkaW41C0u",
+              "received": false
+            }
+          ],
+          "total_price": 193903,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:20:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695933b51c508c5d5e8d84ed"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

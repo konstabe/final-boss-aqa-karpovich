@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:21:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4116",
+    "etag": "W/\"1014-srMArSw2lrjHlCGLcB1+kBzc7PU\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695934051c508c5d5e8d900f",
+      "status": "Draft",
+      "customer": {
+        "_id": "695933f91c508c5d5e8d8f28",
+        "email": "Adriel23@hotmail.com",
+        "name": "Emory Renner",
+        "country": "Belarus",
+        "city": "North Cordeliashire",
+        "street": "Skiles Springs",
+        "house": 13,
+        "flat": 84,
+        "phone": "+12664840265",
+        "createdOn": "2026-01-03T15:21:29.000Z",
+        "notes": "7GAOxTbNI3kMJSNBdR4NoTLCELNtzXJVAjlTlMlP6phqe65nMNnGi7ugfb8GkIJaFsUYMgZA1au0hbCgV2rbTRwhOHVvv63ufgGY36WQMQ0nVdvXtgUagoMq5TKqeoreO0qPbswJsFayl3yEBPnFsF8vX3ktb27WvqLBQrdDmXJHZD6n8S0P9XjMYlWyrH9lKNXpFDz5VqrqbLTKH2UDtjzAYkZxYz6TPN0pMhU2PUZcbgysVHJ7XQpES3"
+      },
+      "products": [
+        {
+          "_id": "695933ff1c508c5d5e8d8f88",
+          "name": "Salad30730",
+          "amount": 99,
+          "price": 84617,
+          "manufacturer": "Sony",
+          "notes": "luty4hKWmYcS87BGAa3SSlGyt50kwNuO6UssbGQn1zkMF0JvNeuykQNrjrXUmCBOPbs60R55hyk6nzIDdsq5WqP484TvOkU1sYxt3tr3RoTXmXMZHkZExbWc3udFeCZl7KLtuY99jkEnpi5GYeurtIhrNPQTXX1LvYLwA7eDfXMREqAbhlQ8Hlj5eduJS6OoRpjZNm38BiYtO8f6oE9wpND2BAh2mwCGmorBvlT3hBKEeLV4M92ZV9mo7Y",
+          "received": false
+        },
+        {
+          "_id": "695934051c508c5d5e8d9005",
+          "name": "Mouse61383",
+          "amount": 554,
+          "price": 55283,
+          "manufacturer": "Sony",
+          "notes": "oe6XXo3nc0Kwx1McKRuxNEB7ZT4syKpynX6U88tnIVOkRBTA67UJ9GHPy8e64r9QqnKBjzxVrPoBK2EWY5UXsBQZubFWgzlP0q8FgoMJ2lAkGc4oMvoEQZoZmPb4p6c2KZrm4DfcwDSbhvZsxQcpmkYQ1khyFNlzzIKEa3SQxFksP3DMyMs9cPiyCK0K0ottdkuq6RJiRgsuXd1cQnuGpJQpx2UOQx3WnGZq00tXkZKX9VIPKDbTxmcNIe",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "North Cordeliashire",
+          "street": "Skiles Springs",
+          "house": 13,
+          "flat": 84
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 139900,
+      "createdOn": "2026-01-03T15:21:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933f91c508c5d5e8d8f28",
+          "products": [
+            {
+              "_id": "695933ff1c508c5d5e8d8f88",
+              "name": "Salad30730",
+              "amount": 99,
+              "price": 84617,
+              "manufacturer": "Sony",
+              "notes": "luty4hKWmYcS87BGAa3SSlGyt50kwNuO6UssbGQn1zkMF0JvNeuykQNrjrXUmCBOPbs60R55hyk6nzIDdsq5WqP484TvOkU1sYxt3tr3RoTXmXMZHkZExbWc3udFeCZl7KLtuY99jkEnpi5GYeurtIhrNPQTXX1LvYLwA7eDfXMREqAbhlQ8Hlj5eduJS6OoRpjZNm38BiYtO8f6oE9wpND2BAh2mwCGmorBvlT3hBKEeLV4M92ZV9mo7Y",
+              "received": false
+            },
+            {
+              "_id": "695934051c508c5d5e8d9005",
+              "name": "Mouse61383",
+              "amount": 554,
+              "price": 55283,
+              "manufacturer": "Sony",
+              "notes": "oe6XXo3nc0Kwx1McKRuxNEB7ZT4syKpynX6U88tnIVOkRBTA67UJ9GHPy8e64r9QqnKBjzxVrPoBK2EWY5UXsBQZubFWgzlP0q8FgoMJ2lAkGc4oMvoEQZoZmPb4p6c2KZrm4DfcwDSbhvZsxQcpmkYQ1khyFNlzzIKEa3SQxFksP3DMyMs9cPiyCK0K0ottdkuq6RJiRgsuXd1cQnuGpJQpx2UOQx3WnGZq00tXkZKX9VIPKDbTxmcNIe",
+              "received": false
+            }
+          ],
+          "total_price": 139900,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "North Cordeliashire",
+              "street": "Skiles Springs",
+              "house": 13,
+              "flat": 84
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T15:21:42.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695933f91c508c5d5e8d8f28",
+          "products": [
+            {
+              "_id": "695933ff1c508c5d5e8d8f88",
+              "name": "Salad30730",
+              "amount": 99,
+              "price": 84617,
+              "manufacturer": "Sony",
+              "notes": "luty4hKWmYcS87BGAa3SSlGyt50kwNuO6UssbGQn1zkMF0JvNeuykQNrjrXUmCBOPbs60R55hyk6nzIDdsq5WqP484TvOkU1sYxt3tr3RoTXmXMZHkZExbWc3udFeCZl7KLtuY99jkEnpi5GYeurtIhrNPQTXX1LvYLwA7eDfXMREqAbhlQ8Hlj5eduJS6OoRpjZNm38BiYtO8f6oE9wpND2BAh2mwCGmorBvlT3hBKEeLV4M92ZV9mo7Y",
+              "received": false
+            },
+            {
+              "_id": "695934051c508c5d5e8d9005",
+              "name": "Mouse61383",
+              "amount": 554,
+              "price": 55283,
+              "manufacturer": "Sony",
+              "notes": "oe6XXo3nc0Kwx1McKRuxNEB7ZT4syKpynX6U88tnIVOkRBTA67UJ9GHPy8e64r9QqnKBjzxVrPoBK2EWY5UXsBQZubFWgzlP0q8FgoMJ2lAkGc4oMvoEQZoZmPb4p6c2KZrm4DfcwDSbhvZsxQcpmkYQ1khyFNlzzIKEa3SQxFksP3DMyMs9cPiyCK0K0ottdkuq6RJiRgsuXd1cQnuGpJQpx2UOQx3WnGZq00tXkZKX9VIPKDbTxmcNIe",
+              "received": false
+            }
+          ],
+          "total_price": 139900,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:21:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

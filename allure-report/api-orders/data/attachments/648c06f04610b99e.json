@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:21:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2952",
+    "etag": "W/\"b88-MUx8ImWwr0bniWvDFQjz4HFxthw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695933f51c508c5d5e8d8e9c",
+      "status": "Draft",
+      "customer": {
+        "_id": "695933ef1c508c5d5e8d8cd4",
+        "email": "Justice54@gmail.com",
+        "name": "Jeanette Macejkovic",
+        "country": "Great Britain",
+        "city": "Evanston",
+        "street": "Dare Burg",
+        "house": 22,
+        "flat": 121,
+        "phone": "+15108258536",
+        "createdOn": "2026-01-03T15:21:19.000Z",
+        "notes": "dFRiVLounP1CT3Y8iRkXk0o0VLvDMWnHIUgfuulbgMM3ZBmBGI7lzgly7qcNTqVqgnEjzaahAXmzUgYFyPFK622iuFap2XcExz1opzErrl5ZXLXDKPH2LkLKeuckWPnJIWY8FVWFeyoIAJc6y561oJ57KaGX2JIx721DdIlUD99oco57Ho422Fjanu09lfX4X1I9KqL3mvpr69bFrZ8zytgufmo1jjaSXOQq7hzE2lMavFVkPmE7gokDfl"
+      },
+      "products": [
+        {
+          "_id": "695933f51c508c5d5e8d8e8f",
+          "name": "Table94252",
+          "amount": 709,
+          "price": 80466,
+          "manufacturer": "Tesla",
+          "notes": "r2SADEYObep1PaB2UWimsn6kcxPPmqIjgwP0wLXYeNEYm6aLBTH5CHHrXwmQyw1Akn5QGK7YDVgwC9PHl5LNycrwgOS9hdI7BYE38odzAILJDEXaFYIeso12zgeztSWxmyvf0mWBr7DdRXDFlbTaDgUegn5VGF7SA5ZfRzEMIzSsRbHvDX7MeOj5AdfbUQ2NdePzP4fiwXlsyJKcppQ8nvPeG7989pMmR9ypuUo9T78dna4dyeCnOsJsZ1",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Evanston",
+          "street": "Dare Burg",
+          "house": 22,
+          "flat": 121
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 80466,
+      "createdOn": "2026-01-03T15:21:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933ef1c508c5d5e8d8cd4",
+          "products": [
+            {
+              "_id": "695933f51c508c5d5e8d8e8f",
+              "name": "Table94252",
+              "amount": 709,
+              "price": 80466,
+              "manufacturer": "Tesla",
+              "notes": "r2SADEYObep1PaB2UWimsn6kcxPPmqIjgwP0wLXYeNEYm6aLBTH5CHHrXwmQyw1Akn5QGK7YDVgwC9PHl5LNycrwgOS9hdI7BYE38odzAILJDEXaFYIeso12zgeztSWxmyvf0mWBr7DdRXDFlbTaDgUegn5VGF7SA5ZfRzEMIzSsRbHvDX7MeOj5AdfbUQ2NdePzP4fiwXlsyJKcppQ8nvPeG7989pMmR9ypuUo9T78dna4dyeCnOsJsZ1",
+              "received": false
+            }
+          ],
+          "total_price": 80466,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Evanston",
+              "street": "Dare Burg",
+              "house": 22,
+              "flat": 121
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T15:21:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695933ef1c508c5d5e8d8cd4",
+          "products": [
+            {
+              "_id": "695933f51c508c5d5e8d8e8f",
+              "name": "Table94252",
+              "amount": 709,
+              "price": 80466,
+              "manufacturer": "Tesla",
+              "notes": "r2SADEYObep1PaB2UWimsn6kcxPPmqIjgwP0wLXYeNEYm6aLBTH5CHHrXwmQyw1Akn5QGK7YDVgwC9PHl5LNycrwgOS9hdI7BYE38odzAILJDEXaFYIeso12zgeztSWxmyvf0mWBr7DdRXDFlbTaDgUegn5VGF7SA5ZfRzEMIzSsRbHvDX7MeOj5AdfbUQ2NdePzP4fiwXlsyJKcppQ8nvPeG7989pMmR9ypuUo9T78dna4dyeCnOsJsZ1",
+              "received": false
+            }
+          ],
+          "total_price": 80466,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:21:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

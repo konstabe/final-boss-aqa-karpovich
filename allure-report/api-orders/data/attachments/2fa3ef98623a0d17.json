@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:20:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3905",
+    "etag": "W/\"f41-DGHNXH1da2J3GTrD2U4MmsUcI/c\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695933d11c508c5d5e8d8816",
+      "status": "In Process",
+      "customer": {
+        "_id": "695933cb1c508c5d5e8d8728",
+        "email": "Leanne_Douglas-Stark@hotmail.com",
+        "name": "Quinn Ortiz",
+        "country": "Great Britain",
+        "city": "Kirstenfield",
+        "street": "W 7th Street",
+        "house": 50,
+        "flat": 11,
+        "phone": "+12497515308",
+        "createdOn": "2026-01-03T15:20:43.000Z",
+        "notes": "GU5vOpLT5wALAWxPWpFiT2eeXIfLIipPSMahH1hRag87wV9lJTJzMQ099O43b3X0lB4wqcsvQlMbySPaipTTdnWCoPTmIBUcZfDJ4VkDTui0jcLQw1QP9HeGHRD4IgYQN16raXAc3N5rwRDMdOi3gX0gjLnV9JWZayrXv8U2DZ3LZN02VtCbXq6T9zWaGxlTFhdfW2wzaYMp61DqGofn66k7cEjqwxa4a0Zq7P9y7B9H3vXwCxdu7F9UZo"
+      },
+      "products": [
+        {
+          "_id": "695933d11c508c5d5e8d880e",
+          "name": "Bike8972",
+          "amount": 933,
+          "price": 21325,
+          "manufacturer": "Amazon",
+          "notes": "990XafkH1YG9vo5pBbs5QcDGlBrGDa57oEwAvLG1fxj6r08Wmk3DiHySm3VYNZ6KeSJfphRpLh4NYm3aPQYG9ZdRtJ58xokQMAxH1JPvRBGllDlNygwavX355cSk8zFvTxQycb2GLReK2UJLYXdoI5mnwa5RQRVwUUdM1KErhdPSqz22ZlcLtAoItU4iqkS3rUYw4VIMZ85UHI8RI1EFoXLe4HIHK6CXVKqj6M7ljg3nZAfbrjN3l29Mlo",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Kirstenfield",
+          "street": "W 7th Street",
+          "house": 50,
+          "flat": 11
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 21325,
+      "createdOn": "2026-01-03T15:20:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695933cb1c508c5d5e8d8728",
+          "products": [
+            {
+              "_id": "695933d11c508c5d5e8d880e",
+              "name": "Bike8972",
+              "amount": 933,
+              "price": 21325,
+              "manufacturer": "Amazon",
+              "notes": "990XafkH1YG9vo5pBbs5QcDGlBrGDa57oEwAvLG1fxj6r08Wmk3DiHySm3VYNZ6KeSJfphRpLh4NYm3aPQYG9ZdRtJ58xokQMAxH1JPvRBGllDlNygwavX355cSk8zFvTxQycb2GLReK2UJLYXdoI5mnwa5RQRVwUUdM1KErhdPSqz22ZlcLtAoItU4iqkS3rUYw4VIMZ85UHI8RI1EFoXLe4HIHK6CXVKqj6M7ljg3nZAfbrjN3l29Mlo",
+              "received": false
+            }
+          ],
+          "total_price": 21325,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Kirstenfield",
+              "street": "W 7th Street",
+              "house": 50,
+              "flat": 11
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T15:20:50.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695933cb1c508c5d5e8d8728",
+          "products": [
+            {
+              "_id": "695933d11c508c5d5e8d880e",
+              "name": "Bike8972",
+              "amount": 933,
+              "price": 21325,
+              "manufacturer": "Amazon",
+              "notes": "990XafkH1YG9vo5pBbs5QcDGlBrGDa57oEwAvLG1fxj6r08Wmk3DiHySm3VYNZ6KeSJfphRpLh4NYm3aPQYG9ZdRtJ58xokQMAxH1JPvRBGllDlNygwavX355cSk8zFvTxQycb2GLReK2UJLYXdoI5mnwa5RQRVwUUdM1KErhdPSqz22ZlcLtAoItU4iqkS3rUYw4VIMZ85UHI8RI1EFoXLe4HIHK6CXVKqj6M7ljg3nZAfbrjN3l29Mlo",
+              "received": false
+            }
+          ],
+          "total_price": 21325,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Kirstenfield",
+              "street": "W 7th Street",
+              "house": 50,
+              "flat": 11
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T15:20:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695933cb1c508c5d5e8d8728",
+          "products": [
+            {
+              "_id": "695933d11c508c5d5e8d880e",
+              "name": "Bike8972",
+              "amount": 933,
+              "price": 21325,
+              "manufacturer": "Amazon",
+              "notes": "990XafkH1YG9vo5pBbs5QcDGlBrGDa57oEwAvLG1fxj6r08Wmk3DiHySm3VYNZ6KeSJfphRpLh4NYm3aPQYG9ZdRtJ58xokQMAxH1JPvRBGllDlNygwavX355cSk8zFvTxQycb2GLReK2UJLYXdoI5mnwa5RQRVwUUdM1KErhdPSqz22ZlcLtAoItU4iqkS3rUYw4VIMZ85UHI8RI1EFoXLe4HIHK6CXVKqj6M7ljg3nZAfbrjN3l29Mlo",
+              "received": false
+            }
+          ],
+          "total_price": 21325,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:20:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

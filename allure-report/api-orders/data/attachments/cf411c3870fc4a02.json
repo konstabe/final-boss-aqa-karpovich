@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:20:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-dTNXGchvjgIn3cf1dZwbmOC9whU\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695933cc1c508c5d5e8d872d",
+        "email": "Marietta.Heathcote46@yahoo.com",
+        "name": "Grayce Grimes",
+        "country": "Russia",
+        "city": "Annettatown",
+        "street": "Center Road",
+        "house": 41,
+        "flat": 690,
+        "phone": "+14488923912",
+        "createdOn": "2026-01-03T15:20:44.000Z",
+        "notes": "68bVTRYLFfsHwQFMQUyorw2bCQGU5hlfVTT5HClD3IFR2RAD0bC6L0IR7nHqSdTs7x3QcXV8voXbBq4p7pUBQC0RP2n8w3VJFLtRCm3EKMfrFICMHc8k0sMsZcCWhWnPs5LroFXOcAJ2qbmasgRoPxe5g08i96HMvOEfKYjSSWeGloMQeQKvkTcjRTuC7yaJD5zDRDZ3CLnpZ1nOJnA90FzAplIDgZXoQFaLMV11P6ZYuXoxpK90m1i4XL"
+      },
+      "products": [
+        {
+          "_id": "695933d21c508c5d5e8d8827",
+          "name": "Hat87556",
+          "amount": 968,
+          "price": 83226,
+          "manufacturer": "Amazon",
+          "notes": "5Z1CzALS0sqv3jg4nvPl97STKjV4iEAyPb0H3I1azqJox78ULFEepscilfcWjbtLCHqrKJJq90Xo0fdtAyQp9W6v6eD4ihJQnRYMr9sWfCTmUtsjBW7mgAkmURlHcMsfPlH6GIXMqABHpXv2MA8O7ddZkxM4oGjfuV4DFnH3tSCsrXIFPxe5ypliZoUDCVMpFe6Ly5YzBmHgBSGrEyYiouczAp0ohoR069CzXY27btM7rZr7A8e7B9mmNy",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 83226,
+      "createdOn": "2026-01-03T15:20:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933cc1c508c5d5e8d872d",
+          "products": [
+            {
+              "_id": "695933d21c508c5d5e8d8827",
+              "name": "Hat87556",
+              "amount": 968,
+              "price": 83226,
+              "manufacturer": "Amazon",
+              "notes": "5Z1CzALS0sqv3jg4nvPl97STKjV4iEAyPb0H3I1azqJox78ULFEepscilfcWjbtLCHqrKJJq90Xo0fdtAyQp9W6v6eD4ihJQnRYMr9sWfCTmUtsjBW7mgAkmURlHcMsfPlH6GIXMqABHpXv2MA8O7ddZkxM4oGjfuV4DFnH3tSCsrXIFPxe5ypliZoUDCVMpFe6Ly5YzBmHgBSGrEyYiouczAp0ohoR069CzXY27btM7rZr7A8e7B9mmNy",
+              "received": false
+            }
+          ],
+          "total_price": 83226,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:20:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695933d21c508c5d5e8d883f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

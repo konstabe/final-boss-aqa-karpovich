@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:22:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3420",
+    "etag": "W/\"d5c-HKk/OgCzTjuswfGQVL0VMRbsMsM\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695934241c508c5d5e8d9347",
+        "email": "Alex.Koch@hotmail.com",
+        "name": "Gideon Emard",
+        "country": "Great Britain",
+        "city": "East Korbin",
+        "street": "High Street",
+        "house": 30,
+        "flat": 731,
+        "phone": "+13732100498",
+        "createdOn": "2026-01-03T15:22:12.000Z",
+        "notes": "RajeVOltci1usHHGN4hIMGlLMblqhlGTxPJLMLnAdzApNG5Fybq6IasyVzfhfsA5Alif1NmOgpHIGdZX6VgHG5J2KAr5pfJYnTFZ905ZtOAC9Q69O2EH3BqM8UqLmtRX8uJLJ2H38ZYuVRyfQojmlnf3U7bjHb6GGs1VCMcsML6q2rQP4p0d5HW0OXyCb4QSV5eLx77op3z8lCWFV1FOS7KKTU9v9RjBFfRwrX7fB1MuNAsvPuiYDM6BB9"
+      },
+      "products": [
+        {
+          "_id": "6959342a1c508c5d5e8d93dc",
+          "name": "Chips72087",
+          "amount": 790,
+          "price": 37464,
+          "manufacturer": "Amazon",
+          "notes": "r85TMWcAxXnpgJwZrp8ItBlYvntuoHpDKoZD5pqDcj80uy4S98lZHlud8FKUtn3HK8qCKTUP237Z93NP5jgsIo2ell9vQYiVzg8R4togsi1IwGg5P1I948DaPloTIGXM3gow5L3bGIDyXtJnXA7G6IEzFwmsARNqObTgZr8aBKFGuKDb7ek4AeQPQuxDNL9ckKq3dqBBu6iaAVxoA8Q4rz3NovUTCieepWQobPCeQZkXhHZOcz5aUo4RB1",
+          "received": false
+        },
+        {
+          "_id": "695934301c508c5d5e8d93e6",
+          "name": "Tuna84",
+          "amount": 620,
+          "price": 31685,
+          "manufacturer": "Tesla",
+          "notes": "WWE39omRiJYMkWnNZ67RlMVB52qiUAuNZ1nSxOHeEufzJSBHLKONBB9ofLKg08ztOoFlRzAquGPh2w7OHme2m7CudTodYIIDwTOcLwQU9SrEOWP9OxBECXmNMzBXgvKnf6TdBprb2QySViC7BwDfJajRrWGlZIfzTHgIOp5fbGK61EORNU7iDCDIspL0lC8ndiZyRsqnBwnR5vgn8pZ9XO9cNDz0QI9gY7LvrzUAFjL7rzRS2Ry2LFLXMP",
+          "received": false
+        },
+        {
+          "_id": "695934361c508c5d5e8d93f3",
+          "name": "Keyboard71168",
+          "amount": 159,
+          "price": 92885,
+          "manufacturer": "Google",
+          "notes": "zxJXoG2ghHXii55vNsDhxrf2NjsrYoMacET7tsMsbxendVyuETgTWRX9CvoOAz0gxefxbtfIoMGwmtMIHseaK8a0Szcy2yAVOKFN1tSlUiPcY4MuyvWZrpY1wZDEs8gc7llc6qZCI5YzeO4iliRYvcoFWRXFWlM1DDTXhM8xYDLRT1SX4lHLRStCMYyep0rxGX4tyXG2UEPXP6PT47SynXEbaB0oKgXhamNBKMrje00FS5XF1NQzPphIm3",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 162034,
+      "createdOn": "2026-01-03T15:22:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695934241c508c5d5e8d9347",
+          "products": [
+            {
+              "_id": "6959342a1c508c5d5e8d93dc",
+              "name": "Chips72087",
+              "amount": 790,
+              "price": 37464,
+              "manufacturer": "Amazon",
+              "notes": "r85TMWcAxXnpgJwZrp8ItBlYvntuoHpDKoZD5pqDcj80uy4S98lZHlud8FKUtn3HK8qCKTUP237Z93NP5jgsIo2ell9vQYiVzg8R4togsi1IwGg5P1I948DaPloTIGXM3gow5L3bGIDyXtJnXA7G6IEzFwmsARNqObTgZr8aBKFGuKDb7ek4AeQPQuxDNL9ckKq3dqBBu6iaAVxoA8Q4rz3NovUTCieepWQobPCeQZkXhHZOcz5aUo4RB1",
+              "received": false
+            },
+            {
+              "_id": "695934301c508c5d5e8d93e6",
+              "name": "Tuna84",
+              "amount": 620,
+              "price": 31685,
+              "manufacturer": "Tesla",
+              "notes": "WWE39omRiJYMkWnNZ67RlMVB52qiUAuNZ1nSxOHeEufzJSBHLKONBB9ofLKg08ztOoFlRzAquGPh2w7OHme2m7CudTodYIIDwTOcLwQU9SrEOWP9OxBECXmNMzBXgvKnf6TdBprb2QySViC7BwDfJajRrWGlZIfzTHgIOp5fbGK61EORNU7iDCDIspL0lC8ndiZyRsqnBwnR5vgn8pZ9XO9cNDz0QI9gY7LvrzUAFjL7rzRS2Ry2LFLXMP",
+              "received": false
+            },
+            {
+              "_id": "695934361c508c5d5e8d93f3",
+              "name": "Keyboard71168",
+              "amount": 159,
+              "price": 92885,
+              "manufacturer": "Google",
+              "notes": "zxJXoG2ghHXii55vNsDhxrf2NjsrYoMacET7tsMsbxendVyuETgTWRX9CvoOAz0gxefxbtfIoMGwmtMIHseaK8a0Szcy2yAVOKFN1tSlUiPcY4MuyvWZrpY1wZDEs8gc7llc6qZCI5YzeO4iliRYvcoFWRXFWlM1DDTXhM8xYDLRT1SX4lHLRStCMYyep0rxGX4tyXG2UEPXP6PT47SynXEbaB0oKgXhamNBKMrje00FS5XF1NQzPphIm3",
+              "received": false
+            }
+          ],
+          "total_price": 162034,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:22:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695934361c508c5d5e8d93ff"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

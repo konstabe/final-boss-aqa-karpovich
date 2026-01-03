@@ -1,0 +1,137 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:21:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4214",
+    "etag": "W/\"1076-d05Upsx9ZBEmuvpRpCDmx/8slH0\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695933f51c508c5d5e8d8e8d",
+        "email": "Freeda.Leannon@yahoo.com",
+        "name": "Anna Zboncak",
+        "country": "Great Britain",
+        "city": "Somerville",
+        "street": "Oceane Groves",
+        "house": 38,
+        "flat": 715,
+        "phone": "+15776146307",
+        "createdOn": "2026-01-03T15:21:25.000Z",
+        "notes": "WcMMpRAHa5ucaefHdFYEQqegzrZcndnq4G6t4hR1eyZDlfPNPBqjLsp1lRhmYwL3nFf6iMThXOeE8Ellu8x3rrtQhWJ9m5aYnKWCWX16bYDLyh0GIyTwSnR4leRmqT69gtaNMyQgZz8gabAFnqityDlC4XqnQPkpJNsr8ZOFYBFDJoAHsTvLxEFi4QMTuEEENIkGALrVKWtx0iRQjWi0h10LvEbbBQMpboDQLBzI0xQqXTVj3D6AP95Lyi"
+      },
+      "products": [
+        {
+          "_id": "695933fb1c508c5d5e8d8f2d",
+          "name": "Keyboard59529",
+          "amount": 406,
+          "price": 65590,
+          "manufacturer": "Amazon",
+          "notes": "lbkQ7NjKFx102XpFCpEmeG6kNZDr5Se1VraKfpA2lYduKK8jVGoEAzlJO4fXiNnlWF5YXY704ZX4AgBqjEsaFcmxAgzk4tMfq4OXrXPTstdNIV2LDXXVtVBjhojGY4qathdeLND3QFPXvMW70kvFdSoh68bxRHdSEA5MchTwZEgUFxFbKfI9JrzsC37VzyZcepqSN30r7dF5FjUQtFAARzsezASCNJtAvyQjpDn7ZWN61Aod82Ys3AURzi",
+          "received": false
+        },
+        {
+          "_id": "695934011c508c5d5e8d8fd7",
+          "name": "Computer18184",
+          "amount": 867,
+          "price": 17720,
+          "manufacturer": "Google",
+          "notes": "K2bMekxGEFbFJAS22bz1iNGXaDj49OjNh8L3CZc9BfyHVS14CE36luAHNfujy6eOKKwztR21MOJPBZgAfgIhljpR5maR109MDyW8HBunjkq5D4ItQurZMTJBKN9c3advGT78gtHa0dGwbp6eUnv8UoXbto9ITWeeEvQfdMXS6lRKA1Gb7FTrZPJByj3or5GZxmG8k1M0tdf6v5ShQnjZbNnT5WRiy3ikuFqvl41BAQuhO6zTfRkKA4vw8I",
+          "received": false
+        },
+        {
+          "_id": "695934071c508c5d5e8d9038",
+          "name": "Keyboard22679",
+          "amount": 879,
+          "price": 26114,
+          "manufacturer": "Apple",
+          "notes": "J1RWobM3qWl4q3TC3Xf2WPMM7JBEWReOHrG9P0nkSYGsM7aAiQdKddzPKXJnlA85NVLY1x1HsQHzfwmqHfXpZDRzPivTz3i9EdfarNhbyQvW9DrJNDBPJpzl3JEfR0QTt8YLNEfFlwqvTX3M56jL9SL5ZKNEPdT47AvN9VMEOeFLnuXlIFkvsyyGkhzRJ49yfcGG8mtBTc635qucZzQL53EAfX7icoBmIvdNRG8PQU7MNYjlPuMVpOzqyv",
+          "received": false
+        },
+        {
+          "_id": "6959340c1c508c5d5e8d90c7",
+          "name": "Shirt75845",
+          "amount": 633,
+          "price": 84319,
+          "manufacturer": "Samsung",
+          "notes": "RCpTFamKcgGYLNIEN5poS3Q0jFwuSpfZTotqQ11QTfqeHvNQsLaUXpVegFq3YuGjjV3FGPVg8oHeoo7YnTrGFtLGprTGuDqQGUJkvAfXrflMZua993E0V4igtqALo0JjHm3Xap4GbsWOfzO7mVYJiNYek2QxwB3buXzK0AWPM0VABns2gPjxoDxVTpIVTlpkt4dSj085bwLNjFEsfor9D04VFfIvmGq95UflrbOHD62NKlc6PkIiiLeb0z",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 193743,
+      "createdOn": "2026-01-03T15:21:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933f51c508c5d5e8d8e8d",
+          "products": [
+            {
+              "_id": "695933fb1c508c5d5e8d8f2d",
+              "name": "Keyboard59529",
+              "amount": 406,
+              "price": 65590,
+              "manufacturer": "Amazon",
+              "notes": "lbkQ7NjKFx102XpFCpEmeG6kNZDr5Se1VraKfpA2lYduKK8jVGoEAzlJO4fXiNnlWF5YXY704ZX4AgBqjEsaFcmxAgzk4tMfq4OXrXPTstdNIV2LDXXVtVBjhojGY4qathdeLND3QFPXvMW70kvFdSoh68bxRHdSEA5MchTwZEgUFxFbKfI9JrzsC37VzyZcepqSN30r7dF5FjUQtFAARzsezASCNJtAvyQjpDn7ZWN61Aod82Ys3AURzi",
+              "received": false
+            },
+            {
+              "_id": "695934011c508c5d5e8d8fd7",
+              "name": "Computer18184",
+              "amount": 867,
+              "price": 17720,
+              "manufacturer": "Google",
+              "notes": "K2bMekxGEFbFJAS22bz1iNGXaDj49OjNh8L3CZc9BfyHVS14CE36luAHNfujy6eOKKwztR21MOJPBZgAfgIhljpR5maR109MDyW8HBunjkq5D4ItQurZMTJBKN9c3advGT78gtHa0dGwbp6eUnv8UoXbto9ITWeeEvQfdMXS6lRKA1Gb7FTrZPJByj3or5GZxmG8k1M0tdf6v5ShQnjZbNnT5WRiy3ikuFqvl41BAQuhO6zTfRkKA4vw8I",
+              "received": false
+            },
+            {
+              "_id": "695934071c508c5d5e8d9038",
+              "name": "Keyboard22679",
+              "amount": 879,
+              "price": 26114,
+              "manufacturer": "Apple",
+              "notes": "J1RWobM3qWl4q3TC3Xf2WPMM7JBEWReOHrG9P0nkSYGsM7aAiQdKddzPKXJnlA85NVLY1x1HsQHzfwmqHfXpZDRzPivTz3i9EdfarNhbyQvW9DrJNDBPJpzl3JEfR0QTt8YLNEfFlwqvTX3M56jL9SL5ZKNEPdT47AvN9VMEOeFLnuXlIFkvsyyGkhzRJ49yfcGG8mtBTc635qucZzQL53EAfX7icoBmIvdNRG8PQU7MNYjlPuMVpOzqyv",
+              "received": false
+            },
+            {
+              "_id": "6959340c1c508c5d5e8d90c7",
+              "name": "Shirt75845",
+              "amount": 633,
+              "price": 84319,
+              "manufacturer": "Samsung",
+              "notes": "RCpTFamKcgGYLNIEN5poS3Q0jFwuSpfZTotqQ11QTfqeHvNQsLaUXpVegFq3YuGjjV3FGPVg8oHeoo7YnTrGFtLGprTGuDqQGUJkvAfXrflMZua993E0V4igtqALo0JjHm3Xap4GbsWOfzO7mVYJiNYek2QxwB3buXzK0AWPM0VABns2gPjxoDxVTpIVTlpkt4dSj085bwLNjFEsfor9D04VFfIvmGq95UflrbOHD62NKlc6PkIiiLeb0z",
+              "received": false
+            }
+          ],
+          "total_price": 193743,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:21:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6959340d1c508c5d5e8d90d5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

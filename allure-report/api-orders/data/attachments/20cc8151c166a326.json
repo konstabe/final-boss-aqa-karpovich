@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:20:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2936",
+    "etag": "W/\"b78-XQqG8IGZkldLg4qikHKuJ3ggPCw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695933d51c508c5d5e8d8908",
+      "status": "Draft",
+      "customer": {
+        "_id": "695933cf1c508c5d5e8d87ad",
+        "email": "Roma.Durgan@gmail.com",
+        "name": "Joaquin Oberbrunner",
+        "country": "France",
+        "city": "Langport",
+        "street": "Adrianna Shoal",
+        "house": 7,
+        "flat": 97,
+        "phone": "+19429220406",
+        "createdOn": "2026-01-03T15:20:47.000Z",
+        "notes": "xi3ntrBDNHkN0wegz8fSCMxhKEuM3caCOAbUDGyfZlzVz9LAuHSk2vdRwRwh0GR3F4WIDBAb38x8aLoh3afk9XC10GorwlZFZQLZXXQgfroNR1H0eX6EINhgHj6ImL4FsGocF8hz0qW9CNHJPnx4JiD5gIaXYBYo8TXh0UTJ1h63shMVP41ioHI43Rl1eI7LkiPpZOvXSDynGWlMUo9oHtZtnTrDvjsao51YPxiznzNAREoeT8wnqu2ktA"
+      },
+      "products": [
+        {
+          "_id": "695933d51c508c5d5e8d88f2",
+          "name": "Cheese67715",
+          "amount": 735,
+          "price": 6294,
+          "manufacturer": "Sony",
+          "notes": "WGMaXB4bZYVTLQYb7Py9co0M7C3Q9r5GgSZgObsTN6MuH2SpTtVHrg3p2qCF9Yd8QMCBSyIdnalLlBkF6LEOPiWSTjOwGM2vlo8HFatQiY5a83vusGwiDVVjIVJXJpB6TJbp8nhM8M3ERtmrcHEpZH22UzSRrMkcZI5Gou3nrtBKp5J5a1VHhJJKXFtcx3cOY4UE80aezGoUeQOSJtbERPuCzmzKyJ2hzDUvYgsRWpqS7V6GORPRQxrIf6",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Langport",
+          "street": "Adrianna Shoal",
+          "house": 7,
+          "flat": 97
+        },
+        "finalDate": "2026-01-13T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 6294,
+      "createdOn": "2026-01-03T15:20:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933cf1c508c5d5e8d87ad",
+          "products": [
+            {
+              "_id": "695933d51c508c5d5e8d88f2",
+              "name": "Cheese67715",
+              "amount": 735,
+              "price": 6294,
+              "manufacturer": "Sony",
+              "notes": "WGMaXB4bZYVTLQYb7Py9co0M7C3Q9r5GgSZgObsTN6MuH2SpTtVHrg3p2qCF9Yd8QMCBSyIdnalLlBkF6LEOPiWSTjOwGM2vlo8HFatQiY5a83vusGwiDVVjIVJXJpB6TJbp8nhM8M3ERtmrcHEpZH22UzSRrMkcZI5Gou3nrtBKp5J5a1VHhJJKXFtcx3cOY4UE80aezGoUeQOSJtbERPuCzmzKyJ2hzDUvYgsRWpqS7V6GORPRQxrIf6",
+              "received": false
+            }
+          ],
+          "total_price": 6294,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Langport",
+              "street": "Adrianna Shoal",
+              "house": 7,
+              "flat": 97
+            },
+            "finalDate": "2026-01-13T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T15:20:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695933cf1c508c5d5e8d87ad",
+          "products": [
+            {
+              "_id": "695933d51c508c5d5e8d88f2",
+              "name": "Cheese67715",
+              "amount": 735,
+              "price": 6294,
+              "manufacturer": "Sony",
+              "notes": "WGMaXB4bZYVTLQYb7Py9co0M7C3Q9r5GgSZgObsTN6MuH2SpTtVHrg3p2qCF9Yd8QMCBSyIdnalLlBkF6LEOPiWSTjOwGM2vlo8HFatQiY5a83vusGwiDVVjIVJXJpB6TJbp8nhM8M3ERtmrcHEpZH22UzSRrMkcZI5Gou3nrtBKp5J5a1VHhJJKXFtcx3cOY4UE80aezGoUeQOSJtbERPuCzmzKyJ2hzDUvYgsRWpqS7V6GORPRQxrIf6",
+              "received": false
+            }
+          ],
+          "total_price": 6294,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:20:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

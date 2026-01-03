@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:20:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2812",
+    "etag": "W/\"afc-9sLmpBQ4vGhN8J7OBIE7rXZHoiA\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695933b51c508c5d5e8d84c7",
+      "status": "Draft",
+      "customer": {
+        "_id": "695933a91c508c5d5e8d8445",
+        "email": "Clair_Block@gmail.com",
+        "name": "Kamille Wisoky",
+        "country": "Great Britain",
+        "city": "Stokesfurt",
+        "street": "Kozey Port",
+        "house": 43,
+        "flat": 753,
+        "phone": "+16163791472",
+        "createdOn": "2026-01-03T15:20:09.000Z",
+        "notes": "Phjxo7NqTb94P4GJap8L4W1kknd8Y8Xq16b29CVAfusdVohetMvtpKZCRWKrSzFxXKSbtDdNbRVs6BMt0sOhBsihtDYxKqUaa86GjSQG7KZGS7XqGVJXgpkTB2Y24mzIYnMFbADI1Qh9gRQPzMAoLoIWxBC2FgA7kKQh2BfMhwgSHh4njqzrTti5ZuQFLaaGSj6pGRWVVzw9vo9zDBpYzWNWcPiQqJ4Ic1J2G6pA4wcyKZgKela6EzmTKV"
+      },
+      "products": [
+        {
+          "_id": "695933af1c508c5d5e8d846c",
+          "name": "Chips47581",
+          "amount": 139,
+          "price": 79752,
+          "manufacturer": "Xiaomi",
+          "notes": "tvbFMTgfhyAn7nOTmFFNUF3XxDPNJz0y2qBM6NF3GumeG6Wf6jW7ADbh8rNsPBlvKiPwNyTBpX051pHNO3GgZYkZUfNzvFOsYkhUvWs8Pvh7WPenodbgBItXCnBMVcUjQWOyjY0t0vMjbNWfRQAobZhTg2fE7eQZaEZhelFmA2XGZRvbRZk7LZo0ih9OPdaVe8NtYEGXDUfe7wxZtQjdPxIJSfLteqZUoSKQ9tSnRuODnQJOHxOpiXmt12",
+          "received": false
+        },
+        {
+          "_id": "695933b51c508c5d5e8d8492",
+          "name": "Table61880",
+          "amount": 398,
+          "price": 49764,
+          "manufacturer": "Tesla",
+          "notes": "1kqjQkDKC2LmEEKrN1QCqJP7fk8OeNdl2lQsAKL424Ps1rl93CvE2kLkRHQCjUmqgo4494P0vle51haM7NDTkOrS27E2uzz3lkwZLxbF0UGMJN4lxJqesXp9vqNPDSG3ELXy9A7bmVA4U7ZPbb2W0y2MLnb3VUlxKp6SP13YxPpINwmBq38oNarl3O0267Ba2VoEsDcnOjPccQuRs9R3xz4M45nJBjYvtb9reKlOlBwJ9TpwXLR4yJZLO4",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 129516,
+      "createdOn": "2026-01-03T15:20:21.000Z",
+      "comments": [
+        {
+          "text": "OP5b2hIumRjBChfQJzApI7UsGUMFzYTzeYmsWHJt4CZREkwP7s7hoICgdyhx9g7u1eS8TJzN0Hg",
+          "createdOn": "2026-01-03T15:20:22.000Z",
+          "_id": "695933b61c508c5d5e8d8514"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933a91c508c5d5e8d8445",
+          "products": [
+            {
+              "_id": "695933af1c508c5d5e8d846c",
+              "name": "Chips47581",
+              "amount": 139,
+              "price": 79752,
+              "manufacturer": "Xiaomi",
+              "notes": "tvbFMTgfhyAn7nOTmFFNUF3XxDPNJz0y2qBM6NF3GumeG6Wf6jW7ADbh8rNsPBlvKiPwNyTBpX051pHNO3GgZYkZUfNzvFOsYkhUvWs8Pvh7WPenodbgBItXCnBMVcUjQWOyjY0t0vMjbNWfRQAobZhTg2fE7eQZaEZhelFmA2XGZRvbRZk7LZo0ih9OPdaVe8NtYEGXDUfe7wxZtQjdPxIJSfLteqZUoSKQ9tSnRuODnQJOHxOpiXmt12",
+              "received": false
+            },
+            {
+              "_id": "695933b51c508c5d5e8d8492",
+              "name": "Table61880",
+              "amount": 398,
+              "price": 49764,
+              "manufacturer": "Tesla",
+              "notes": "1kqjQkDKC2LmEEKrN1QCqJP7fk8OeNdl2lQsAKL424Ps1rl93CvE2kLkRHQCjUmqgo4494P0vle51haM7NDTkOrS27E2uzz3lkwZLxbF0UGMJN4lxJqesXp9vqNPDSG3ELXy9A7bmVA4U7ZPbb2W0y2MLnb3VUlxKp6SP13YxPpINwmBq38oNarl3O0267Ba2VoEsDcnOjPccQuRs9R3xz4M45nJBjYvtb9reKlOlBwJ9TpwXLR4yJZLO4",
+              "received": false
+            }
+          ],
+          "total_price": 129516,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:20:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

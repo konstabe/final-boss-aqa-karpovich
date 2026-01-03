@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:21:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4094",
+    "etag": "W/\"ffe-Sq+5wZsBO2slweG9aHyblfLGHwM\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695933e81c508c5d5e8d8af0",
+      "status": "Draft",
+      "customer": {
+        "_id": "695933dc1c508c5d5e8d8a86",
+        "email": "Vince_Lakin@gmail.com",
+        "name": "Ally Parisian",
+        "country": "Germany",
+        "city": "Jessicaport",
+        "street": "Kassulke Square",
+        "house": 13,
+        "flat": 89,
+        "phone": "+19399323538",
+        "createdOn": "2026-01-03T15:21:00.000Z",
+        "notes": "63oUjQfKqvtTI81BEG1crOen4X8APW1JnF7vBtok2W4mxuTrrM8pv7gvoNMYFAvOVK6azVJaWbRmWafWIBQVEgBbW6bFtIG2SlmztAARePiZOF0235SvuIVp0JOBNbrRZrQPNAAwhC23p7YSXlA6VkXBHMS3K0jVhrogr1UqkscRYyubxPtHbGT0etMQ9JxNl01MJuA3A9TNaUJjpHl70QcTeaoMrlAyp0fduzjkFOvrBPt4Ah8gm27Y0O"
+      },
+      "products": [
+        {
+          "_id": "695933e21c508c5d5e8d8abc",
+          "name": "Soap90622",
+          "amount": 497,
+          "price": 35772,
+          "manufacturer": "Sony",
+          "notes": "WytpCyg9xlhXbQxQFSqLSn5VnDUEr6BhlCUEjellLONqCKrhZg4a5P1rG5iGz0YpEpxGIwM8ug1XCjVeP9rfXiGOqwukiXtymYsqzBwPlPRdZgFqKbtQcnQC9LuNRhyUjz3yd5JFGjSf7AOuMVdk8MfXcVVYIEvKDpkAy8pKrqjJ3w6cWtOb8iiTtnyLeHxBPTxv6QPTIIBmCWljFiqk13xP87QbtAhLYDtlxAPLzVu9Ci492j6KJsw6wu",
+          "received": false
+        },
+        {
+          "_id": "695933e81c508c5d5e8d8ae4",
+          "name": "Fish48458",
+          "amount": 232,
+          "price": 15533,
+          "manufacturer": "Tesla",
+          "notes": "M9bfCQ8wYEFdl08sTLxtDotFGodEagiSftr5PngDzWfHJl4jbAvfMIZGyB1V650CDOcw0KxyOaAWoRshaquJGeRoZ1ZGbQod4Y9PDu2mxU9rxDKV7KSR4X7gwkCElikMwNXunFGhi6LOi1upE6oOmZ8C1KAELvqch1cg68MQehl9m8nmV77UPd3pRtv1T5G3yZXEfvGq69VAedNTs7c2dTgLzo5NKmfv2ghvYjRAfh5a5FxEdUJe8jKtiR",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Jessicaport",
+          "street": "Kassulke Square",
+          "house": 13,
+          "flat": 89
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 51305,
+      "createdOn": "2026-01-03T15:21:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933dc1c508c5d5e8d8a86",
+          "products": [
+            {
+              "_id": "695933e21c508c5d5e8d8abc",
+              "name": "Soap90622",
+              "amount": 497,
+              "price": 35772,
+              "manufacturer": "Sony",
+              "notes": "WytpCyg9xlhXbQxQFSqLSn5VnDUEr6BhlCUEjellLONqCKrhZg4a5P1rG5iGz0YpEpxGIwM8ug1XCjVeP9rfXiGOqwukiXtymYsqzBwPlPRdZgFqKbtQcnQC9LuNRhyUjz3yd5JFGjSf7AOuMVdk8MfXcVVYIEvKDpkAy8pKrqjJ3w6cWtOb8iiTtnyLeHxBPTxv6QPTIIBmCWljFiqk13xP87QbtAhLYDtlxAPLzVu9Ci492j6KJsw6wu",
+              "received": false
+            },
+            {
+              "_id": "695933e81c508c5d5e8d8ae4",
+              "name": "Fish48458",
+              "amount": 232,
+              "price": 15533,
+              "manufacturer": "Tesla",
+              "notes": "M9bfCQ8wYEFdl08sTLxtDotFGodEagiSftr5PngDzWfHJl4jbAvfMIZGyB1V650CDOcw0KxyOaAWoRshaquJGeRoZ1ZGbQod4Y9PDu2mxU9rxDKV7KSR4X7gwkCElikMwNXunFGhi6LOi1upE6oOmZ8C1KAELvqch1cg68MQehl9m8nmV77UPd3pRtv1T5G3yZXEfvGq69VAedNTs7c2dTgLzo5NKmfv2ghvYjRAfh5a5FxEdUJe8jKtiR",
+              "received": false
+            }
+          ],
+          "total_price": 51305,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Jessicaport",
+              "street": "Kassulke Square",
+              "house": 13,
+              "flat": 89
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T15:21:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695933dc1c508c5d5e8d8a86",
+          "products": [
+            {
+              "_id": "695933e21c508c5d5e8d8abc",
+              "name": "Soap90622",
+              "amount": 497,
+              "price": 35772,
+              "manufacturer": "Sony",
+              "notes": "WytpCyg9xlhXbQxQFSqLSn5VnDUEr6BhlCUEjellLONqCKrhZg4a5P1rG5iGz0YpEpxGIwM8ug1XCjVeP9rfXiGOqwukiXtymYsqzBwPlPRdZgFqKbtQcnQC9LuNRhyUjz3yd5JFGjSf7AOuMVdk8MfXcVVYIEvKDpkAy8pKrqjJ3w6cWtOb8iiTtnyLeHxBPTxv6QPTIIBmCWljFiqk13xP87QbtAhLYDtlxAPLzVu9Ci492j6KJsw6wu",
+              "received": false
+            },
+            {
+              "_id": "695933e81c508c5d5e8d8ae4",
+              "name": "Fish48458",
+              "amount": 232,
+              "price": 15533,
+              "manufacturer": "Tesla",
+              "notes": "M9bfCQ8wYEFdl08sTLxtDotFGodEagiSftr5PngDzWfHJl4jbAvfMIZGyB1V650CDOcw0KxyOaAWoRshaquJGeRoZ1ZGbQod4Y9PDu2mxU9rxDKV7KSR4X7gwkCElikMwNXunFGhi6LOi1upE6oOmZ8C1KAELvqch1cg68MQehl9m8nmV77UPd3pRtv1T5G3yZXEfvGq69VAedNTs7c2dTgLzo5NKmfv2ghvYjRAfh5a5FxEdUJe8jKtiR",
+              "received": false
+            }
+          ],
+          "total_price": 51305,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:21:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

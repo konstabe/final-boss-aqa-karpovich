@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:20:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-G0ZeRlSJOviAVGGyZBdPIeyxh1A\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695933bb1c508c5d5e8d85b6",
+        "email": "Helmer_Will@gmail.com",
+        "name": "Walter Homenick",
+        "country": "Russia",
+        "city": "Melodyfurt",
+        "street": "The Ridgeway",
+        "house": 45,
+        "flat": 847,
+        "phone": "+15859658445",
+        "createdOn": "2026-01-03T15:20:27.000Z",
+        "notes": "VPW0fRyrSVF6VKQWHOUIQwmGjFXUNHwLMSXqqJTWXK2DLGJeF9ar6IWuhmdBufa5MxnHLKs4kLf6QsMRG3OQNlerWj1Q7BqDK2MT1tKbUlpPFGz6t7DtRGgoYtnDa3o4DGwHSlelBb9DEoX5vnRcIjx5Su3U6mcJ4WGNOLUNHioRIH90gxV8alwr46bb0ABJChnfAeO89q37e2xQPimCdgAh1KkMOuTVwVE6f79NOU8mCdgf1cRZwMiGTj"
+      },
+      "products": [
+        {
+          "_id": "695933c11c508c5d5e8d85de",
+          "name": "Mouse94113",
+          "amount": 966,
+          "price": 42670,
+          "manufacturer": "Microsoft",
+          "notes": "XJBzcOvcOWPlKB0FfJ8ivTsGpw69glVafgSWA5sDSYNVh0RW0DO8zLK3POIEfqoOkPYc4Bt0bJ70jgGGlFQMFFlImPUtO83gP03PgANaBPjO8uT1Xp7MrqCEndExD7riywXdnzjwype9myzKaNfVk25pTyAzAcFq8j5Bf8Q4t7Xw8d2mSTLIJu62oHYQEqBdWJtycRolsyUQy5wj9roMeBZ2UQqqzUsp4Xs3RK93Z1j2YccAtomuBFRyaS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 42670,
+      "createdOn": "2026-01-03T15:20:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933bb1c508c5d5e8d85b6",
+          "products": [
+            {
+              "_id": "695933c11c508c5d5e8d85de",
+              "name": "Mouse94113",
+              "amount": 966,
+              "price": 42670,
+              "manufacturer": "Microsoft",
+              "notes": "XJBzcOvcOWPlKB0FfJ8ivTsGpw69glVafgSWA5sDSYNVh0RW0DO8zLK3POIEfqoOkPYc4Bt0bJ70jgGGlFQMFFlImPUtO83gP03PgANaBPjO8uT1Xp7MrqCEndExD7riywXdnzjwype9myzKaNfVk25pTyAzAcFq8j5Bf8Q4t7Xw8d2mSTLIJu62oHYQEqBdWJtycRolsyUQy5wj9roMeBZ2UQqqzUsp4Xs3RK93Z1j2YccAtomuBFRyaS",
+              "received": false
+            }
+          ],
+          "total_price": 42670,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:20:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695933c11c508c5d5e8d85ea"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

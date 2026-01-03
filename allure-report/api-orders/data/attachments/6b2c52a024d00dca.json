@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:21:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3426",
+    "etag": "W/\"d62-Q4Cau+i1zfUwe1xNLm8i8FXnnQc\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695933dc1c508c5d5e8d8a88",
+        "email": "Sarah48@yahoo.com",
+        "name": "Abdul Greenholt",
+        "country": "Belarus",
+        "city": "Durganbury",
+        "street": "Bergstrom Court",
+        "house": 38,
+        "flat": 660,
+        "phone": "+12627646461",
+        "createdOn": "2026-01-03T15:21:00.000Z",
+        "notes": "069WJhm185NZCTttMVocA58oJoZMG3DeGOvlORSjcTiuaSRi1x4d9GrhVug0tCCIcaeyr3OGlNuIJAW6jIpeWHfOCcsTQhHahxT2HDMzhBeMUItbKF550tW7NfEYqPtLxB8w7UyRvEjMxgkQr71OvJfvigBwBOquiyFX4ihQEYVs7HtnOo1J6jaWFUJPvjHrgy3nmq1HgWFRc6ZRC43x86WNmbu94GHLkr454UXvJKecR3LlUGrop8ANwG"
+      },
+      "products": [
+        {
+          "_id": "695933e21c508c5d5e8d8abe",
+          "name": "Pants80627",
+          "amount": 764,
+          "price": 7758,
+          "manufacturer": "Xiaomi",
+          "notes": "AKFwLwtWkWqgXe4CjTRmoEl9SMhWDo9FCQfkyEDY9y5fUN0cixBFCsYqYhUJyt4ya0Fxgr2FhkD7trWNYrbCqvPY0790BRtv7Jr1exz5gUQFNzjJWYEmoulvDUP111fN1dlqNi2bLDNpZm5B3V5GNv1zhk0LrVWQl7moV1r8TxOVbrbH5aYe5fJB8vVroT3klQrx2z0Komq08BfQgshd6Dm3z7ide5GtHg0u9bIfG44O42okhcEquHSkGc",
+          "received": false
+        },
+        {
+          "_id": "695933e81c508c5d5e8d8ae6",
+          "name": "Bike72841",
+          "amount": 805,
+          "price": 64934,
+          "manufacturer": "Microsoft",
+          "notes": "8vuDmp4oZk3nYPi9t5Rh8uhnF0VWWOrAo6HZGTpgxqTxsAccdXq2S0zbiKA3GOeoLfWyJ7GnLC1pKaGj1anyCbelRxVYMdXBqmSpZQinDuTvFhaf4Vb3qOpk8f6mTfhcy0ngOLtK0QvXjsdcqDJH8Q7oPzfNxg8mYoPOD2XJA9l0NrSn9V8kthEcp7tHACnpSTgecuCMQpUScIAwZ0tmXL90ym1bv1JnUI0qvPwKBdmuIJlTiCzWmuSqp2",
+          "received": false
+        },
+        {
+          "_id": "695933ee1c508c5d5e8d8c41",
+          "name": "Tuna64132",
+          "amount": 279,
+          "price": 39623,
+          "manufacturer": "Microsoft",
+          "notes": "Q9h0ty1MQSBio6kAhY13RTPuZ0CUfuzDvNuQrf75vGuHQOUYciftjXInLnFDM6REoEwfK9iYYVr3WlgfFsRo1QHqXRDnVGj4VeNPVl3s15L0bOc0hKgF01KOX3SalDtvmbKgOXXUC1Andehk0EiZpwHjkX8Lvw3VlEOGsd8zxOqgUhHkGfpHnuEBsJyEsEoTWWANDXr2TO8hQ4Sm6ReaOWZ2sAMF0abuxvrn1BcSe6vVON7VOpxpuHPAaE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 112315,
+      "createdOn": "2026-01-03T15:21:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933dc1c508c5d5e8d8a88",
+          "products": [
+            {
+              "_id": "695933e21c508c5d5e8d8abe",
+              "name": "Pants80627",
+              "amount": 764,
+              "price": 7758,
+              "manufacturer": "Xiaomi",
+              "notes": "AKFwLwtWkWqgXe4CjTRmoEl9SMhWDo9FCQfkyEDY9y5fUN0cixBFCsYqYhUJyt4ya0Fxgr2FhkD7trWNYrbCqvPY0790BRtv7Jr1exz5gUQFNzjJWYEmoulvDUP111fN1dlqNi2bLDNpZm5B3V5GNv1zhk0LrVWQl7moV1r8TxOVbrbH5aYe5fJB8vVroT3klQrx2z0Komq08BfQgshd6Dm3z7ide5GtHg0u9bIfG44O42okhcEquHSkGc",
+              "received": false
+            },
+            {
+              "_id": "695933e81c508c5d5e8d8ae6",
+              "name": "Bike72841",
+              "amount": 805,
+              "price": 64934,
+              "manufacturer": "Microsoft",
+              "notes": "8vuDmp4oZk3nYPi9t5Rh8uhnF0VWWOrAo6HZGTpgxqTxsAccdXq2S0zbiKA3GOeoLfWyJ7GnLC1pKaGj1anyCbelRxVYMdXBqmSpZQinDuTvFhaf4Vb3qOpk8f6mTfhcy0ngOLtK0QvXjsdcqDJH8Q7oPzfNxg8mYoPOD2XJA9l0NrSn9V8kthEcp7tHACnpSTgecuCMQpUScIAwZ0tmXL90ym1bv1JnUI0qvPwKBdmuIJlTiCzWmuSqp2",
+              "received": false
+            },
+            {
+              "_id": "695933ee1c508c5d5e8d8c41",
+              "name": "Tuna64132",
+              "amount": 279,
+              "price": 39623,
+              "manufacturer": "Microsoft",
+              "notes": "Q9h0ty1MQSBio6kAhY13RTPuZ0CUfuzDvNuQrf75vGuHQOUYciftjXInLnFDM6REoEwfK9iYYVr3WlgfFsRo1QHqXRDnVGj4VeNPVl3s15L0bOc0hKgF01KOX3SalDtvmbKgOXXUC1Andehk0EiZpwHjkX8Lvw3VlEOGsd8zxOqgUhHkGfpHnuEBsJyEsEoTWWANDXr2TO8hQ4Sm6ReaOWZ2sAMF0abuxvrn1BcSe6vVON7VOpxpuHPAaE",
+              "received": false
+            }
+          ],
+          "total_price": 112315,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:21:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695933ee1c508c5d5e8d8c4d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

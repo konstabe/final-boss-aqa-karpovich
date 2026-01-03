@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:21:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3403",
+    "etag": "W/\"d4b-lG1yrKRGC94hB76GauCa96IA0Ig\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695933f81c508c5d5e8d8f12",
+        "email": "Josue67@gmail.com",
+        "name": "Mike Durgan",
+        "country": "Germany",
+        "city": "New Kianna",
+        "street": "Laburnum Grove",
+        "house": 21,
+        "flat": 854,
+        "phone": "+18319557576",
+        "createdOn": "2026-01-03T15:21:28.000Z",
+        "notes": "y150Kbfh7bDkobbqkXxBFX1LnvkQaR6T7iisZ7XGBMBLcJeOMvzpIyOLBn2nr1tAOmQ6L01QdNnfwRvODGfouIdyM1DRxU3f2biCXV7tuKUdbuEareJIrsYxUJiGHDZcDFpixQssjvkdIqQEaSiZ3QdyKZdM63fKA84axKICZFJB8AWdniUw5DTO46ByajVl0Q7MgG2rESuLl2zdz77YZVOHh3Bnv6Ze6VffYLFJXi72gYMsIzJL8C7aXT"
+      },
+      "products": [
+        {
+          "_id": "695933fe1c508c5d5e8d8f6a",
+          "name": "Pants65033",
+          "amount": 265,
+          "price": 35261,
+          "manufacturer": "Tesla",
+          "notes": "saa65ohcryqWmp5M1twLnExsmQfrAwgXsZjyj567iDyVyIHtKDnuw6hAly0dRp1RQINLmmMDIAmuWuJT5qphJFGCCSVnjXJcP4qElvd2ty1TwaaBN2gYboyqTt3WU7hBVULC9fUqZVOHJPiFNFxv3akzmIb7pI6JmdUkjLwhNPYZz1NdV5Bc0Ht0DtXQu5MlIkdxABBwzNDNfeHmJIsKhK1kiArJLi2RYXiFT27WC43N3jXDLaquaPqiGN",
+          "received": false
+        },
+        {
+          "_id": "695934041c508c5d5e8d8ff1",
+          "name": "Car33801",
+          "amount": 245,
+          "price": 9825,
+          "manufacturer": "Xiaomi",
+          "notes": "dVERW521kFvjiYib6NkJeF1AivLvp3FRjyoWMj4XjFTA2zMMv6nFGKcpzntpQW7iPlQB9GqoWiUEw4qLNdoZmHXTxsZwU2w0EmdFQQB9OggHYc5eYkm4DHPgO8CJY1McOXlYRl7LvKHJnFzbhEwz2EiFZXbBVeOpFeyl1hFzdBrPeNKJbCIXRq1AsrCmqqn6ZNteAOHxEDSHzaFTxdHGmV9QIGqQGjfPIbjXEhj9cVYWw6UOxu8F4Toxmx",
+          "received": false
+        },
+        {
+          "_id": "6959340a1c508c5d5e8d90a1",
+          "name": "Pants5327",
+          "amount": 98,
+          "price": 65044,
+          "manufacturer": "Google",
+          "notes": "TXodHMOmXSDjJlA6JgK0ZVKqww8hloBD27EvFhpaV0E1hSuyjR44dzaDc6mvaSvE4gLgdFhLGbfj8MABd0XCTU1h2OGV8xE1F1zdv5Xo9j3aA99rn23cVSpi3PYONO3B2d7GfPN4xQfwuunN9CI56BQVcstJ5HKyrveBAUGnLi9npGSodxfxU3STab710QrwhC9tIlI263T9Go26BlR0OR9hhfcKWrFkDIokoQCbIuyDn32eDG5zoFmm6p",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 110130,
+      "createdOn": "2026-01-03T15:21:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933f81c508c5d5e8d8f12",
+          "products": [
+            {
+              "_id": "695933fe1c508c5d5e8d8f6a",
+              "name": "Pants65033",
+              "amount": 265,
+              "price": 35261,
+              "manufacturer": "Tesla",
+              "notes": "saa65ohcryqWmp5M1twLnExsmQfrAwgXsZjyj567iDyVyIHtKDnuw6hAly0dRp1RQINLmmMDIAmuWuJT5qphJFGCCSVnjXJcP4qElvd2ty1TwaaBN2gYboyqTt3WU7hBVULC9fUqZVOHJPiFNFxv3akzmIb7pI6JmdUkjLwhNPYZz1NdV5Bc0Ht0DtXQu5MlIkdxABBwzNDNfeHmJIsKhK1kiArJLi2RYXiFT27WC43N3jXDLaquaPqiGN",
+              "received": false
+            },
+            {
+              "_id": "695934041c508c5d5e8d8ff1",
+              "name": "Car33801",
+              "amount": 245,
+              "price": 9825,
+              "manufacturer": "Xiaomi",
+              "notes": "dVERW521kFvjiYib6NkJeF1AivLvp3FRjyoWMj4XjFTA2zMMv6nFGKcpzntpQW7iPlQB9GqoWiUEw4qLNdoZmHXTxsZwU2w0EmdFQQB9OggHYc5eYkm4DHPgO8CJY1McOXlYRl7LvKHJnFzbhEwz2EiFZXbBVeOpFeyl1hFzdBrPeNKJbCIXRq1AsrCmqqn6ZNteAOHxEDSHzaFTxdHGmV9QIGqQGjfPIbjXEhj9cVYWw6UOxu8F4Toxmx",
+              "received": false
+            },
+            {
+              "_id": "6959340a1c508c5d5e8d90a1",
+              "name": "Pants5327",
+              "amount": 98,
+              "price": 65044,
+              "manufacturer": "Google",
+              "notes": "TXodHMOmXSDjJlA6JgK0ZVKqww8hloBD27EvFhpaV0E1hSuyjR44dzaDc6mvaSvE4gLgdFhLGbfj8MABd0XCTU1h2OGV8xE1F1zdv5Xo9j3aA99rn23cVSpi3PYONO3B2d7GfPN4xQfwuunN9CI56BQVcstJ5HKyrveBAUGnLi9npGSodxfxU3STab710QrwhC9tIlI263T9Go26BlR0OR9hhfcKWrFkDIokoQCbIuyDn32eDG5zoFmm6p",
+              "received": false
+            }
+          ],
+          "total_price": 110130,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:21:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6959340a1c508c5d5e8d90b2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:21:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3441",
+    "etag": "W/\"d71-AL5BZXxJATwase/PW6RWxzeM9rg\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695933d91c508c5d5e8d89cb",
+        "email": "Chelsea13@yahoo.com",
+        "name": "Rylee Schmeler",
+        "country": "Canada",
+        "city": "Lake Onaland",
+        "street": "Schamberger Hollow",
+        "house": 24,
+        "flat": 486,
+        "phone": "+18088119164",
+        "createdOn": "2026-01-03T15:20:57.000Z",
+        "notes": "2aGQaCokG6XIOxLmYCk5Afq5bGUubxQYYxVNMdJggzD8UAZOkOFXRFRBqNKKzqGPgPF0PD2VHbmxHm99iFXjOz577wwRfcFZoawbFAZcqq00S3RzASxLstFzGmmE9wK6iv883TkeKkvse3eYWp43VZHrBDgCe0Ycnxp2QmapUi7lRwvSKuWgDSekK1lvCEECISP4BBj5dfXAIkSpzHghMbWVxNtZ9TctTgXkMDdKO51PmhRVw5gLbMCTHz"
+      },
+      "products": [
+        {
+          "_id": "695933de1c508c5d5e8d8a98",
+          "name": "Computer64892",
+          "amount": 542,
+          "price": 92858,
+          "manufacturer": "Xiaomi",
+          "notes": "UqorDAPkEHZpslMgO2AxugC80DIzWq4yQWXY3sSUBxOjSkkDtsO9Uj2EUKGLBqPGmmnvbPFk18ksyGcg68LzYSRSYzO7smeeHDanPhwe5JpXm38NVKx3mG4vvQHhEQKOZGsILHGeuxIJdORhgwREm9krHESXaVdYJLxkcGBGLBlgkXX4vQnIbs7FiSaHZnwt87W6yqgbnMHCY7AV3M3KTUsWdxSkR3xq7YthPMYqAtfDrWd5BG3zD4otMj",
+          "received": false
+        },
+        {
+          "_id": "695933e41c508c5d5e8d8acb",
+          "name": "Cheese10825",
+          "amount": 698,
+          "price": 68292,
+          "manufacturer": "Samsung",
+          "notes": "DY6o9taWg2qL7OaHtI5a2dFpEBJnzJk2Fk9ope2bfkx305nT5lRn1oWwMBZIs5TinIwhdBPZEkIQSvWmomXinCFW0adIc1b3qyYp4wHXaSO98cJrY9lCn2HOv3OI4LLObQsUi3HLXP4gB22XdVDKIiz8rhECoS859DlwomWWDlqXyGrIh5OknEkJB3wHwrwy0LbarC8hnIuRTTHUmPd6yAlCKoYho8pGMIdrFRMHyD7V1a6NBiJJ4NOqb9",
+          "received": false
+        },
+        {
+          "_id": "695933ea1c508c5d5e8d8b41",
+          "name": "Bacon71610",
+          "amount": 203,
+          "price": 69800,
+          "manufacturer": "Microsoft",
+          "notes": "G8hgXwkIuExC9NhNMonPmBH9z3EQvKR5Ruke7f2xCdAjGWPGT97T37Ph1E8ekOfxpuj4lQwMF1i124dVeiK2KqgO9ViuF4bsnzNtyZvJ4ixOYGTRbgPSCpJgRpG7AbmAQRhzGez9cjAasN0XLXs0nzyz6RkhPhqAJODEw1sZ5YZY2a3tpB8THiaCHGpgJO0wMX3yD1UIWCW7RTn5HlLzxck72LFJceBCUFw1BJN817HuHb9ZuTHadldx4X",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 230950,
+      "createdOn": "2026-01-03T15:21:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933d91c508c5d5e8d89cb",
+          "products": [
+            {
+              "_id": "695933de1c508c5d5e8d8a98",
+              "name": "Computer64892",
+              "amount": 542,
+              "price": 92858,
+              "manufacturer": "Xiaomi",
+              "notes": "UqorDAPkEHZpslMgO2AxugC80DIzWq4yQWXY3sSUBxOjSkkDtsO9Uj2EUKGLBqPGmmnvbPFk18ksyGcg68LzYSRSYzO7smeeHDanPhwe5JpXm38NVKx3mG4vvQHhEQKOZGsILHGeuxIJdORhgwREm9krHESXaVdYJLxkcGBGLBlgkXX4vQnIbs7FiSaHZnwt87W6yqgbnMHCY7AV3M3KTUsWdxSkR3xq7YthPMYqAtfDrWd5BG3zD4otMj",
+              "received": false
+            },
+            {
+              "_id": "695933e41c508c5d5e8d8acb",
+              "name": "Cheese10825",
+              "amount": 698,
+              "price": 68292,
+              "manufacturer": "Samsung",
+              "notes": "DY6o9taWg2qL7OaHtI5a2dFpEBJnzJk2Fk9ope2bfkx305nT5lRn1oWwMBZIs5TinIwhdBPZEkIQSvWmomXinCFW0adIc1b3qyYp4wHXaSO98cJrY9lCn2HOv3OI4LLObQsUi3HLXP4gB22XdVDKIiz8rhECoS859DlwomWWDlqXyGrIh5OknEkJB3wHwrwy0LbarC8hnIuRTTHUmPd6yAlCKoYho8pGMIdrFRMHyD7V1a6NBiJJ4NOqb9",
+              "received": false
+            },
+            {
+              "_id": "695933ea1c508c5d5e8d8b41",
+              "name": "Bacon71610",
+              "amount": 203,
+              "price": 69800,
+              "manufacturer": "Microsoft",
+              "notes": "G8hgXwkIuExC9NhNMonPmBH9z3EQvKR5Ruke7f2xCdAjGWPGT97T37Ph1E8ekOfxpuj4lQwMF1i124dVeiK2KqgO9ViuF4bsnzNtyZvJ4ixOYGTRbgPSCpJgRpG7AbmAQRhzGez9cjAasN0XLXs0nzyz6RkhPhqAJODEw1sZ5YZY2a3tpB8THiaCHGpgJO0wMX3yD1UIWCW7RTn5HlLzxck72LFJceBCUFw1BJN817HuHb9ZuTHadldx4X",
+              "received": false
+            }
+          ],
+          "total_price": 230950,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:21:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695933ea1c508c5d5e8d8b4f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

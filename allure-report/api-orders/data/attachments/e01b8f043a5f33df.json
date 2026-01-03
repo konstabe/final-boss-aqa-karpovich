@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:22:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3442",
+    "etag": "W/\"d72-KpE67ou1C4p+q5fowmfjA3GKm0c\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6959343d1c508c5d5e8d94ab",
+        "email": "Jorge70@gmail.com",
+        "name": "Augustus Hermann",
+        "country": "Great Britain",
+        "city": "New Jaymefort",
+        "street": "Devonshire Road",
+        "house": 48,
+        "flat": 829,
+        "phone": "+14822443761",
+        "createdOn": "2026-01-03T15:22:37.000Z",
+        "notes": "tlqaWNoj2hfTYAhqXX2qQBhzIYrqjz541xtMkFdV9WIeKBGCqWf2pvh4ba9SWOaTapcjaFJgcPx2rfqXE9HOJY9ZmQwzBYbaJ9wRPcfBwne6sKBFH5WrYRkj2KuGnZoezeDNDzU9fJSD2xac9jZoSCaWdlhFLC0q4ogx5jBlSOgIER2DqbNRjAbbziWLAs8ut0N91e78ln13uVl0y57D1RR87kEIQOpy3cTEsFGNa2Amw5HEgHH2DesYUP"
+      },
+      "products": [
+        {
+          "_id": "695934431c508c5d5e8d94bd",
+          "name": "Keyboard6121",
+          "amount": 540,
+          "price": 5353,
+          "manufacturer": "Google",
+          "notes": "bvCRqEIjxfxx1gmU4MYhmxR4YZqoHgN0tFjd7dFPizCykAa6G00kSXo3QWx95UO5BNggrzHxUtghUfcoUNSh784jVG5Afm5KteLpU6Q3THwvNQzPFwj5R1fVHwEow3cYRZ97tJgrNEzNKLJraPQJDiI5KxSq3x5WLg3J7Iefl0c3oH426C6xnDJ28VWP3xpkrcJWqe2ydKMpK5XCQLPLfJZdMT0foMneZs8YWUS0zvQ9I2HJb7PpCjNF91",
+          "received": false
+        },
+        {
+          "_id": "695934491c508c5d5e8d94c4",
+          "name": "Keyboard71848",
+          "amount": 872,
+          "price": 93329,
+          "manufacturer": "Google",
+          "notes": "XuSlYfPv5FNwPI9jjqH9YvTIzCaNfZnkc9z4CvRxk62cqQVYyCFo3ZU9RhdVIClLVB7zgu93pX8vgtFtSbXroDQRA6ORwSDMIY5bTDTVtttrDVXCYYs6Kc8zURfuiCVwxbaX91wCZsUHxIHDIdrByGFr4YR7wPDBx2qv09XHIJFMgRDNuZLW01nzzwwKxT8PDQhRK9WvvdBgUUEstEM9miUQbUoOQYvHlMCeZkECZau9EtaLkDQuMSmtyk",
+          "received": false
+        },
+        {
+          "_id": "6959344f1c508c5d5e8d9526",
+          "name": "Chicken30931",
+          "amount": 149,
+          "price": 54130,
+          "manufacturer": "Xiaomi",
+          "notes": "4JNU7h9MJrzJzzWjeQUqQPSfFifydABciLN4ueyXDEkM5M63JsJZHwTlI1p1lLN9Tmyz9rCmTVJm73zZs9u8HkcFWLOwb2Tm2PLNaifM7n62TnQnZUsteSlUHFtBUBg4oPeb9Pj19NgldYzVl4otKNyffvbijRZKgXuRBWzxswDN7Cg22qEt6RCCkMUDo2FB6SoTxnfC106sQX3YQakjnNpdAkgNBYX9yclEUxzifPSsgVceZp885L66ok",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 152812,
+      "createdOn": "2026-01-03T15:22:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959343d1c508c5d5e8d94ab",
+          "products": [
+            {
+              "_id": "695934431c508c5d5e8d94bd",
+              "name": "Keyboard6121",
+              "amount": 540,
+              "price": 5353,
+              "manufacturer": "Google",
+              "notes": "bvCRqEIjxfxx1gmU4MYhmxR4YZqoHgN0tFjd7dFPizCykAa6G00kSXo3QWx95UO5BNggrzHxUtghUfcoUNSh784jVG5Afm5KteLpU6Q3THwvNQzPFwj5R1fVHwEow3cYRZ97tJgrNEzNKLJraPQJDiI5KxSq3x5WLg3J7Iefl0c3oH426C6xnDJ28VWP3xpkrcJWqe2ydKMpK5XCQLPLfJZdMT0foMneZs8YWUS0zvQ9I2HJb7PpCjNF91",
+              "received": false
+            },
+            {
+              "_id": "695934491c508c5d5e8d94c4",
+              "name": "Keyboard71848",
+              "amount": 872,
+              "price": 93329,
+              "manufacturer": "Google",
+              "notes": "XuSlYfPv5FNwPI9jjqH9YvTIzCaNfZnkc9z4CvRxk62cqQVYyCFo3ZU9RhdVIClLVB7zgu93pX8vgtFtSbXroDQRA6ORwSDMIY5bTDTVtttrDVXCYYs6Kc8zURfuiCVwxbaX91wCZsUHxIHDIdrByGFr4YR7wPDBx2qv09XHIJFMgRDNuZLW01nzzwwKxT8PDQhRK9WvvdBgUUEstEM9miUQbUoOQYvHlMCeZkECZau9EtaLkDQuMSmtyk",
+              "received": false
+            },
+            {
+              "_id": "6959344f1c508c5d5e8d9526",
+              "name": "Chicken30931",
+              "amount": 149,
+              "price": 54130,
+              "manufacturer": "Xiaomi",
+              "notes": "4JNU7h9MJrzJzzWjeQUqQPSfFifydABciLN4ueyXDEkM5M63JsJZHwTlI1p1lLN9Tmyz9rCmTVJm73zZs9u8HkcFWLOwb2Tm2PLNaifM7n62TnQnZUsteSlUHFtBUBg4oPeb9Pj19NgldYzVl4otKNyffvbijRZKgXuRBWzxswDN7Cg22qEt6RCCkMUDo2FB6SoTxnfC106sQX3YQakjnNpdAkgNBYX9yclEUxzifPSsgVceZp885L66ok",
+              "received": false
+            }
+          ],
+          "total_price": 152812,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:22:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6959344f1c508c5d5e8d9532"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:20:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2645",
+    "etag": "W/\"a55-eGXmT8tfAVXo4/h4M2R0u5Zwyuc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695933aa1c508c5d5e8d844b",
+        "email": "Arely78@gmail.com",
+        "name": "Zoie Schultz",
+        "country": "Belarus",
+        "city": "Port Berta",
+        "street": "Skyline Drive",
+        "house": 44,
+        "flat": 604,
+        "phone": "+18855465609",
+        "createdOn": "2026-01-03T15:20:10.000Z",
+        "notes": "hjRhiS8QEzBOESrEkMQeAHE9EyedPVUuNtfNHnmHUbRxL2g2LVfl4DroYMKGUiHeMOP2EpxS730DR8gA0yjUKtUV8TlhrIZ2x28leeg88g4tOed1eQXsCnScuToKzA45kdjzOuYH7iWGjIGqDCCvBcPGBbNnVtOjYs2B6q4M8rT8dHy2PyvZh9blBxIeKnqW3lH7UTvMfZwm5ZKufFOJYdCFqlAzhMcU5qjlp2l3BaJhLb6qVGGd4sImdo"
+      },
+      "products": [
+        {
+          "_id": "695933af1c508c5d5e8d8472",
+          "name": "Chair15995",
+          "amount": 860,
+          "price": 26374,
+          "manufacturer": "Xiaomi",
+          "notes": "JrBmpiTnO4IW6VzCjKZk1kwwIeFI1Oz6mgGTha8JLrAszTcMUuqcN7WM75RJVKg21vyBco37sJWnNydKr1IU6orUOhsobESx6kk7JDRRPgmevku0DzvFhbhmAsvL1yiUU06iY5PBReL82wza88Hp1QYqlKYSJliYIkOF6170VAMLJwMbEeE8RPGwkHEKYjDKGHzrXB4XzVekOPrad26ctD2puHCKOA7EpAxiLjL5mntpzsefb40jvLFl8O",
+          "received": false
+        },
+        {
+          "_id": "695933b51c508c5d5e8d849a",
+          "name": "Gloves40136",
+          "amount": 545,
+          "price": 4481,
+          "manufacturer": "Google",
+          "notes": "vyoOK8WtyBlAUP45mOxxUWlA9Eimq5yJSWQkwyQ6VMwyiO3SerjTu6FzFekQHdhHuh6s9PFZWhkFMUtQD89D7ujcnA8kE5TJKCuJvFxNVH9FcJyQ0NZOPVXWbtUvC3FzLFpSztYbmK61RBCJrNGH9mYJ2rTcGRzk5kBycOHoR078HVLuGYiPWQcaBUqhWSI3BkFSrSYT5mmU1GG2XiWtvzHCM9zu3fYT2IbyFaTSsY6cxg0DdEs8tDrY6C",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 30855,
+      "createdOn": "2026-01-03T15:20:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933aa1c508c5d5e8d844b",
+          "products": [
+            {
+              "_id": "695933af1c508c5d5e8d8472",
+              "name": "Chair15995",
+              "amount": 860,
+              "price": 26374,
+              "manufacturer": "Xiaomi",
+              "notes": "JrBmpiTnO4IW6VzCjKZk1kwwIeFI1Oz6mgGTha8JLrAszTcMUuqcN7WM75RJVKg21vyBco37sJWnNydKr1IU6orUOhsobESx6kk7JDRRPgmevku0DzvFhbhmAsvL1yiUU06iY5PBReL82wza88Hp1QYqlKYSJliYIkOF6170VAMLJwMbEeE8RPGwkHEKYjDKGHzrXB4XzVekOPrad26ctD2puHCKOA7EpAxiLjL5mntpzsefb40jvLFl8O",
+              "received": false
+            },
+            {
+              "_id": "695933b51c508c5d5e8d849a",
+              "name": "Gloves40136",
+              "amount": 545,
+              "price": 4481,
+              "manufacturer": "Google",
+              "notes": "vyoOK8WtyBlAUP45mOxxUWlA9Eimq5yJSWQkwyQ6VMwyiO3SerjTu6FzFekQHdhHuh6s9PFZWhkFMUtQD89D7ujcnA8kE5TJKCuJvFxNVH9FcJyQ0NZOPVXWbtUvC3FzLFpSztYbmK61RBCJrNGH9mYJ2rTcGRzk5kBycOHoR078HVLuGYiPWQcaBUqhWSI3BkFSrSYT5mmU1GG2XiWtvzHCM9zu3fYT2IbyFaTSsY6cxg0DdEs8tDrY6C",
+              "received": false
+            }
+          ],
+          "total_price": 30855,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:20:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695933b51c508c5d5e8d84ef"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

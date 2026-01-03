@@ -1,0 +1,245 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:20:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6924",
+    "etag": "W/\"1b0c-sPrxo2ArpFmLx3gYipHX3W9oS6w\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695933d91c508c5d5e8d89c9",
+      "status": "In Process",
+      "customer": {
+        "_id": "695933c71c508c5d5e8d86c0",
+        "email": "Jacinthe56@yahoo.com",
+        "name": "Troy Green",
+        "country": "USA",
+        "city": "McClureton",
+        "street": "Abe Park",
+        "house": 48,
+        "flat": 607,
+        "phone": "+19709629538",
+        "createdOn": "2026-01-03T15:20:39.000Z",
+        "notes": "ynTPtHEpwaL3fSz5w5wVxt4XfECbvdvQ9I3ud6v9E5jbZ602oBeq8F1WNReOyVe4DUNGHXbNl8GjfXyFnIEL8rOgfXFFM0lqppAiFANLaUCRgMLeWNjcB25vZyo8xMmcmDnMgKORLASHhRo4xjSiimxYc5cRkHU9tlVOdFg0PywwrqdsEkc7z09Qcd5hoKx3YOTglf057gHFaX8X0h1Pw2cJxsPMFGRY9uqIJNDoD9oOk6Y9LdYdtd9aW5"
+      },
+      "products": [
+        {
+          "_id": "695933cd1c508c5d5e8d8747",
+          "name": "Sausages71275",
+          "amount": 194,
+          "price": 70176,
+          "manufacturer": "Microsoft",
+          "notes": "VIP9aL7vZTGtTfQJ0UFRQPBSu6Hc7LBK7gXJW5PMt1wfQTTik5BNyLvo6JTJ51Ctc47Pk3XuyAELeqOSrh7VgME48pUWDTE3ZPtlBG1K3YcEJfWCoupGjQbapVQ03Ujbia907fihcjWWtKJA38sH1vwEOluoczs0eRUBVTrmHLDrAbeDMIEuYUtbWXhskgpW845mnXcpq5GBFZlX1ZeRDDzXgLjdU8SqVB1sOvwH04AlchpnQlP1hlliVu",
+          "received": false
+        },
+        {
+          "_id": "695933d21c508c5d5e8d8857",
+          "name": "Mouse26673",
+          "amount": 385,
+          "price": 38002,
+          "manufacturer": "Tesla",
+          "notes": "ZDcN20IZSyBhZSYQkuhg0nxbujBBp2hkrjUKTB2JMNku7PifFCr0nxWYQbRskktKMwiKTPXgYKcs4ybSw8NQwg79lLxwYi9QLXRi7aFLZ1y788MZpMYSGmKm7mpLn99X8JYvErt2MCnghZEEYG0nv5OwnrfA470Pj6fl9TlQGxplEFRdoBUzLAWHQPuhYe3av4Wt9REVbLHv4ocDDP7pZKnalpyCrjvTzQWyVIcQJSGMoKuqcA9AFuZXsp",
+          "received": false
+        },
+        {
+          "_id": "695933d81c508c5d5e8d89bd",
+          "name": "Car25614",
+          "amount": 74,
+          "price": 25443,
+          "manufacturer": "Google",
+          "notes": "4IAICRGumDqxtPXUKjt6r4XujLLRIq3VKjCEcpqwlk6RK8X76nw0dx4N2w9HPuEDQdvyimmplxYk3pqED6u1XG6SuNgAH7wlg9LYO8jnvr8UM48b8VXZy1ncDLpqNAcjEAwmf88ASlDXy8iaSXt7pxoBeaiNyZKD9kaPKovAtKvEVXgMWB2GC1AwqFzwdFPijYI8r7cPNcCdNuhs1uc7mJyJ0gQVyoRbuVS0hQWVTptH87B9YOKNvg3u5J",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "McClureton",
+          "street": "Abe Park",
+          "house": 48,
+          "flat": 607
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 133621,
+      "createdOn": "2026-01-03T15:20:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695933c71c508c5d5e8d86c0",
+          "products": [
+            {
+              "_id": "695933cd1c508c5d5e8d8747",
+              "name": "Sausages71275",
+              "amount": 194,
+              "price": 70176,
+              "manufacturer": "Microsoft",
+              "notes": "VIP9aL7vZTGtTfQJ0UFRQPBSu6Hc7LBK7gXJW5PMt1wfQTTik5BNyLvo6JTJ51Ctc47Pk3XuyAELeqOSrh7VgME48pUWDTE3ZPtlBG1K3YcEJfWCoupGjQbapVQ03Ujbia907fihcjWWtKJA38sH1vwEOluoczs0eRUBVTrmHLDrAbeDMIEuYUtbWXhskgpW845mnXcpq5GBFZlX1ZeRDDzXgLjdU8SqVB1sOvwH04AlchpnQlP1hlliVu",
+              "received": false
+            },
+            {
+              "_id": "695933d21c508c5d5e8d8857",
+              "name": "Mouse26673",
+              "amount": 385,
+              "price": 38002,
+              "manufacturer": "Tesla",
+              "notes": "ZDcN20IZSyBhZSYQkuhg0nxbujBBp2hkrjUKTB2JMNku7PifFCr0nxWYQbRskktKMwiKTPXgYKcs4ybSw8NQwg79lLxwYi9QLXRi7aFLZ1y788MZpMYSGmKm7mpLn99X8JYvErt2MCnghZEEYG0nv5OwnrfA470Pj6fl9TlQGxplEFRdoBUzLAWHQPuhYe3av4Wt9REVbLHv4ocDDP7pZKnalpyCrjvTzQWyVIcQJSGMoKuqcA9AFuZXsp",
+              "received": false
+            },
+            {
+              "_id": "695933d81c508c5d5e8d89bd",
+              "name": "Car25614",
+              "amount": 74,
+              "price": 25443,
+              "manufacturer": "Google",
+              "notes": "4IAICRGumDqxtPXUKjt6r4XujLLRIq3VKjCEcpqwlk6RK8X76nw0dx4N2w9HPuEDQdvyimmplxYk3pqED6u1XG6SuNgAH7wlg9LYO8jnvr8UM48b8VXZy1ncDLpqNAcjEAwmf88ASlDXy8iaSXt7pxoBeaiNyZKD9kaPKovAtKvEVXgMWB2GC1AwqFzwdFPijYI8r7cPNcCdNuhs1uc7mJyJ0gQVyoRbuVS0hQWVTptH87B9YOKNvg3u5J",
+              "received": false
+            }
+          ],
+          "total_price": 133621,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "McClureton",
+              "street": "Abe Park",
+              "house": 48,
+              "flat": 607
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T15:20:57.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695933c71c508c5d5e8d86c0",
+          "products": [
+            {
+              "_id": "695933cd1c508c5d5e8d8747",
+              "name": "Sausages71275",
+              "amount": 194,
+              "price": 70176,
+              "manufacturer": "Microsoft",
+              "notes": "VIP9aL7vZTGtTfQJ0UFRQPBSu6Hc7LBK7gXJW5PMt1wfQTTik5BNyLvo6JTJ51Ctc47Pk3XuyAELeqOSrh7VgME48pUWDTE3ZPtlBG1K3YcEJfWCoupGjQbapVQ03Ujbia907fihcjWWtKJA38sH1vwEOluoczs0eRUBVTrmHLDrAbeDMIEuYUtbWXhskgpW845mnXcpq5GBFZlX1ZeRDDzXgLjdU8SqVB1sOvwH04AlchpnQlP1hlliVu",
+              "received": false
+            },
+            {
+              "_id": "695933d21c508c5d5e8d8857",
+              "name": "Mouse26673",
+              "amount": 385,
+              "price": 38002,
+              "manufacturer": "Tesla",
+              "notes": "ZDcN20IZSyBhZSYQkuhg0nxbujBBp2hkrjUKTB2JMNku7PifFCr0nxWYQbRskktKMwiKTPXgYKcs4ybSw8NQwg79lLxwYi9QLXRi7aFLZ1y788MZpMYSGmKm7mpLn99X8JYvErt2MCnghZEEYG0nv5OwnrfA470Pj6fl9TlQGxplEFRdoBUzLAWHQPuhYe3av4Wt9REVbLHv4ocDDP7pZKnalpyCrjvTzQWyVIcQJSGMoKuqcA9AFuZXsp",
+              "received": false
+            },
+            {
+              "_id": "695933d81c508c5d5e8d89bd",
+              "name": "Car25614",
+              "amount": 74,
+              "price": 25443,
+              "manufacturer": "Google",
+              "notes": "4IAICRGumDqxtPXUKjt6r4XujLLRIq3VKjCEcpqwlk6RK8X76nw0dx4N2w9HPuEDQdvyimmplxYk3pqED6u1XG6SuNgAH7wlg9LYO8jnvr8UM48b8VXZy1ncDLpqNAcjEAwmf88ASlDXy8iaSXt7pxoBeaiNyZKD9kaPKovAtKvEVXgMWB2GC1AwqFzwdFPijYI8r7cPNcCdNuhs1uc7mJyJ0gQVyoRbuVS0hQWVTptH87B9YOKNvg3u5J",
+              "received": false
+            }
+          ],
+          "total_price": 133621,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "McClureton",
+              "street": "Abe Park",
+              "house": 48,
+              "flat": 607
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T15:20:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695933c71c508c5d5e8d86c0",
+          "products": [
+            {
+              "_id": "695933cd1c508c5d5e8d8747",
+              "name": "Sausages71275",
+              "amount": 194,
+              "price": 70176,
+              "manufacturer": "Microsoft",
+              "notes": "VIP9aL7vZTGtTfQJ0UFRQPBSu6Hc7LBK7gXJW5PMt1wfQTTik5BNyLvo6JTJ51Ctc47Pk3XuyAELeqOSrh7VgME48pUWDTE3ZPtlBG1K3YcEJfWCoupGjQbapVQ03Ujbia907fihcjWWtKJA38sH1vwEOluoczs0eRUBVTrmHLDrAbeDMIEuYUtbWXhskgpW845mnXcpq5GBFZlX1ZeRDDzXgLjdU8SqVB1sOvwH04AlchpnQlP1hlliVu",
+              "received": false
+            },
+            {
+              "_id": "695933d21c508c5d5e8d8857",
+              "name": "Mouse26673",
+              "amount": 385,
+              "price": 38002,
+              "manufacturer": "Tesla",
+              "notes": "ZDcN20IZSyBhZSYQkuhg0nxbujBBp2hkrjUKTB2JMNku7PifFCr0nxWYQbRskktKMwiKTPXgYKcs4ybSw8NQwg79lLxwYi9QLXRi7aFLZ1y788MZpMYSGmKm7mpLn99X8JYvErt2MCnghZEEYG0nv5OwnrfA470Pj6fl9TlQGxplEFRdoBUzLAWHQPuhYe3av4Wt9REVbLHv4ocDDP7pZKnalpyCrjvTzQWyVIcQJSGMoKuqcA9AFuZXsp",
+              "received": false
+            },
+            {
+              "_id": "695933d81c508c5d5e8d89bd",
+              "name": "Car25614",
+              "amount": 74,
+              "price": 25443,
+              "manufacturer": "Google",
+              "notes": "4IAICRGumDqxtPXUKjt6r4XujLLRIq3VKjCEcpqwlk6RK8X76nw0dx4N2w9HPuEDQdvyimmplxYk3pqED6u1XG6SuNgAH7wlg9LYO8jnvr8UM48b8VXZy1ncDLpqNAcjEAwmf88ASlDXy8iaSXt7pxoBeaiNyZKD9kaPKovAtKvEVXgMWB2GC1AwqFzwdFPijYI8r7cPNcCdNuhs1uc7mJyJ0gQVyoRbuVS0hQWVTptH87B9YOKNvg3u5J",
+              "received": false
+            }
+          ],
+          "total_price": 133621,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:20:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

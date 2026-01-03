@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:21:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3422",
+    "etag": "W/\"d5e-enoRKnGxgf+pgtSnZi7ndaEY6ZQ\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695933e11c508c5d5e8d8ab7",
+        "email": "Mario19@yahoo.com",
+        "name": "Joanne Okuneva",
+        "country": "France",
+        "city": "Richmond",
+        "street": "Clyde Underpass",
+        "house": 30,
+        "flat": 736,
+        "phone": "+15983465018",
+        "createdOn": "2026-01-03T15:21:05.000Z",
+        "notes": "WKlSIqdhRbnAtNeutqhC4CkdBmSFLRI2PRMAbdp2aJK4EQfQbmo0rRZ7Rxbg8XuJTdcZDYPJNlmknUUGqlJT8wnDWBXsK93OkyMbODIu4PjQRYo6ZfvmJKepEJaEF22Cc7513EV3Z6rtK6cGIJiNc6eGxNu9jMTdGaa5ZpFa2aPsm52wfDmIAsJ6VcfLuoG9tTTCgnWMytS7NmHAvblfJp5ed7dN58NMcD4dZa3u96cNq56xgCXFIYNTGI"
+      },
+      "products": [
+        {
+          "_id": "695933e61c508c5d5e8d8adf",
+          "name": "Table22641",
+          "amount": 196,
+          "price": 83185,
+          "manufacturer": "Amazon",
+          "notes": "5f52MHyFEGNnvKoaNvRm6vddqZKIbikqWNjCQz2UqdmgnoGr4kjGXwDtvTv1BWOeh87hTdGC1CAvf7iwfrpbZL7DSqfcPsRdWgrxBwp2KzJFebdv9FeymDoqVuSuwKz7OjcHgKaVWppefGEZIrBW37lcQirYdrCgH8YXTOkAqaDRS8cdH00I5F1u1w0tI71XM2OqaO2K0UW2o0fDY7hehz76O8p5vJwsgLif6PwOJJo2n7jw4Jb1VF0VBX",
+          "received": false
+        },
+        {
+          "_id": "695933ec1c508c5d5e8d8c29",
+          "name": "Bacon51607",
+          "amount": 943,
+          "price": 97522,
+          "manufacturer": "Amazon",
+          "notes": "94pdR7BvrbTEzEuVtjAYEaP1e0CDXnXevFrI9bNLmGdRMn7urIgD7scSKWNG9UJSN2nSGvMhpqr2usX8mjouLZtajRKTxSyfdCwiN6j4AlWLr9XDn2hlubLpqpMywxMlcJBV2jaKyqWvjtcMSZUD0Jdsl72oBuY6TR6BROM3lJcbQe4yWXl5kjumOh64FFY8r2wOC72IBH5hpi0T7r8lomvgQ3nchO1nKNEXAfrWth2wAlsf1VMmtBlySA",
+          "received": false
+        },
+        {
+          "_id": "695933f21c508c5d5e8d8d9b",
+          "name": "Chicken99453",
+          "amount": 935,
+          "price": 12379,
+          "manufacturer": "Samsung",
+          "notes": "Zol0kax9bpE8US7cfek06bR1vvLps66u73ZHvz1V16bT81C5xG4NcnWPZaexnnPH8unRyazIa4UtOZUTpYA1bTCuJCJe9JOemXaTagJ5evdS5NpCe41z7COy9aSf66L1GOxvsgU6L2Bcp86BQQTdmwS6KJztgfroBkM9pTsc00KevSrfakYjGL1ZswgUxEWoyqCBDYQV8Tcp266hvvuXCMMEFcHJ1y3GCo22SYDNRSSQcqPiTJ1xNefkDc",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 193086,
+      "createdOn": "2026-01-03T15:21:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933e11c508c5d5e8d8ab7",
+          "products": [
+            {
+              "_id": "695933e61c508c5d5e8d8adf",
+              "name": "Table22641",
+              "amount": 196,
+              "price": 83185,
+              "manufacturer": "Amazon",
+              "notes": "5f52MHyFEGNnvKoaNvRm6vddqZKIbikqWNjCQz2UqdmgnoGr4kjGXwDtvTv1BWOeh87hTdGC1CAvf7iwfrpbZL7DSqfcPsRdWgrxBwp2KzJFebdv9FeymDoqVuSuwKz7OjcHgKaVWppefGEZIrBW37lcQirYdrCgH8YXTOkAqaDRS8cdH00I5F1u1w0tI71XM2OqaO2K0UW2o0fDY7hehz76O8p5vJwsgLif6PwOJJo2n7jw4Jb1VF0VBX",
+              "received": false
+            },
+            {
+              "_id": "695933ec1c508c5d5e8d8c29",
+              "name": "Bacon51607",
+              "amount": 943,
+              "price": 97522,
+              "manufacturer": "Amazon",
+              "notes": "94pdR7BvrbTEzEuVtjAYEaP1e0CDXnXevFrI9bNLmGdRMn7urIgD7scSKWNG9UJSN2nSGvMhpqr2usX8mjouLZtajRKTxSyfdCwiN6j4AlWLr9XDn2hlubLpqpMywxMlcJBV2jaKyqWvjtcMSZUD0Jdsl72oBuY6TR6BROM3lJcbQe4yWXl5kjumOh64FFY8r2wOC72IBH5hpi0T7r8lomvgQ3nchO1nKNEXAfrWth2wAlsf1VMmtBlySA",
+              "received": false
+            },
+            {
+              "_id": "695933f21c508c5d5e8d8d9b",
+              "name": "Chicken99453",
+              "amount": 935,
+              "price": 12379,
+              "manufacturer": "Samsung",
+              "notes": "Zol0kax9bpE8US7cfek06bR1vvLps66u73ZHvz1V16bT81C5xG4NcnWPZaexnnPH8unRyazIa4UtOZUTpYA1bTCuJCJe9JOemXaTagJ5evdS5NpCe41z7COy9aSf66L1GOxvsgU6L2Bcp86BQQTdmwS6KJztgfroBkM9pTsc00KevSrfakYjGL1ZswgUxEWoyqCBDYQV8Tcp266hvvuXCMMEFcHJ1y3GCo22SYDNRSSQcqPiTJ1xNefkDc",
+              "received": false
+            }
+          ],
+          "total_price": 193086,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:21:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695933f21c508c5d5e8d8dea"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

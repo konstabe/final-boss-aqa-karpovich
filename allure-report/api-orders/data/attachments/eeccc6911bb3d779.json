@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:20:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2660",
+    "etag": "W/\"a64-EipW/R7FH7fgDLA/ASs6WYpZeBk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695933a91c508c5d5e8d8440",
+        "email": "Cierra.Larson91@yahoo.com",
+        "name": "Norval Fay",
+        "country": "Great Britain",
+        "city": "Port Bettye",
+        "street": "Monroe Islands",
+        "house": 48,
+        "flat": 76,
+        "phone": "+16293411655",
+        "createdOn": "2026-01-03T15:20:09.000Z",
+        "notes": "XvaDVZmFZTGJ6YI5xsWw1CG972ylSzCguC0trOuhMST4GSwmtZRZo7tM3aDEmouwHYTuT5RknMHkhro4iov920rNxquYFVt5JjTwGDxd3QhtETahFIEpWp6R6TEmUeip434hJ2xCDfOGod9N9RSdkzVD4KFOQIJbsFtCjJIize205T7r5Ffom7D9vzU3cOJ18APuC0UepsBhAjJsFeOI5m76l1eW90nIW2ZPfz9wjcwCDWjVrD9jJp9S2f"
+      },
+      "products": [
+        {
+          "_id": "695933af1c508c5d5e8d846a",
+          "name": "Shirt99601",
+          "amount": 452,
+          "price": 21737,
+          "manufacturer": "Amazon",
+          "notes": "XUYbE0U7UhiMvKdslZOspAzSZLmbofkOvzw04JkCRK9t6l99ocObMH7hx5FSNLv4VsElXq69tjSTI8bQk8WOCDwbZrEKkaVimUyGAKbVoQx3IeSlhsLQYpSFsCOsTL6xRhzFPAcJ9ztsi8GtehIAjmoQIm9ANErWUr5KOkGJUBdx2R9L0aBGD8mlZpZzWW687E08nfd0qTCJAbVq1y13rrUbYkJgtS8MV7uTLh9LBo6XQoJhVin9chqkhG",
+          "received": false
+        },
+        {
+          "_id": "695933b51c508c5d5e8d8494",
+          "name": "Towels45692",
+          "amount": 430,
+          "price": 31905,
+          "manufacturer": "Xiaomi",
+          "notes": "ECuHDy7BmddkY4l1WnOCwalHGM9K21wHUPJzn5ZrgiQfjoUNJtFe3fNzYzuIBbBMNF4dbWOlKpgH91OGaNh5fcjHdu8mqUFjSiV31PrpvmY1ymAKixuUDPXBAgi3ZMHf3S1gBtZ7VvtHhZNfc181ESawu2rkUWhL0AUzmfHFdzTqzlXdsuLZ0ACklGPy61GgUH6UkzDvjq80kFEcS2cWxmozKVTg3YpiYDU9hsN6q6hG0STrqwxp1xe1Am",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 53642,
+      "createdOn": "2026-01-03T15:20:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933a91c508c5d5e8d8440",
+          "products": [
+            {
+              "_id": "695933af1c508c5d5e8d846a",
+              "name": "Shirt99601",
+              "amount": 452,
+              "price": 21737,
+              "manufacturer": "Amazon",
+              "notes": "XUYbE0U7UhiMvKdslZOspAzSZLmbofkOvzw04JkCRK9t6l99ocObMH7hx5FSNLv4VsElXq69tjSTI8bQk8WOCDwbZrEKkaVimUyGAKbVoQx3IeSlhsLQYpSFsCOsTL6xRhzFPAcJ9ztsi8GtehIAjmoQIm9ANErWUr5KOkGJUBdx2R9L0aBGD8mlZpZzWW687E08nfd0qTCJAbVq1y13rrUbYkJgtS8MV7uTLh9LBo6XQoJhVin9chqkhG",
+              "received": false
+            },
+            {
+              "_id": "695933b51c508c5d5e8d8494",
+              "name": "Towels45692",
+              "amount": 430,
+              "price": 31905,
+              "manufacturer": "Xiaomi",
+              "notes": "ECuHDy7BmddkY4l1WnOCwalHGM9K21wHUPJzn5ZrgiQfjoUNJtFe3fNzYzuIBbBMNF4dbWOlKpgH91OGaNh5fcjHdu8mqUFjSiV31PrpvmY1ymAKixuUDPXBAgi3ZMHf3S1gBtZ7VvtHhZNfc181ESawu2rkUWhL0AUzmfHFdzTqzlXdsuLZ0ACklGPy61GgUH6UkzDvjq80kFEcS2cWxmozKVTg3YpiYDU9hsN6q6hG0STrqwxp1xe1Am",
+              "received": false
+            }
+          ],
+          "total_price": 53642,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:20:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695933b51c508c5d5e8d84eb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

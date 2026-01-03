@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:20:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2952",
+    "etag": "W/\"b88-vdoHSQdZvQtJB/akh+QVF9acMro\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695933c81c508c5d5e8d86fe",
+      "status": "Draft",
+      "customer": {
+        "_id": "695933bc1c508c5d5e8d85cc",
+        "email": "Melyssa85@yahoo.com",
+        "name": "Raphaelle Bahringer",
+        "country": "Great Britain",
+        "city": "Fort Angelinaberg",
+        "street": "Schowalter Rapid",
+        "house": 5,
+        "flat": 276,
+        "phone": "+14735025746",
+        "createdOn": "2026-01-03T15:20:28.000Z",
+        "notes": "sQOMpgBVlQJCl6SAkXyMv7NYuF0SyLxW9jtY5yxkBLTtXtp9EV0yiDE4F7yEwPbOn3rc5bvXZMN6WIxljEy6e1ViPzi0uhxqmG0ch2lMlvChBYZdWD4lu8cQ6J5e1UC0jM6vR8LQaOtN5NrwRIjYjyX7N89UQXt4X9Kx120vcVjEvwF78kj7Y4STecVsL8cKznpzxLfOEeEm03WgaCYkoGIUmps5tCUilvfh0xqbCuNbGDG3exuKChCxGK"
+      },
+      "products": [
+        {
+          "_id": "695933c21c508c5d5e8d8633",
+          "name": "Soap81992",
+          "amount": 707,
+          "price": 16154,
+          "manufacturer": "Microsoft",
+          "notes": "aTcjhZ02CH9qFRoMnyeKBY4JK8JOEE1LJxIJbvgH5GLAUZtSzlWMQuAfB2XbxUwNIZrqiPiREaJ9yCLeHqs4iOMWazhiGLu7tG8gDiolIpYfm2xnV7mJDH06PppXSo4X2EZPY6R5Wht6XMQhLhfUgJjbi5eHB60FnsdPTXQ1bQgnNxrA52lwQdJHZPS23FmLARub7NXtIm6sjlGib05a5d9PskUStJyFo8ATYLGkQEJtCrDngPDyoBvslZ",
+          "received": false
+        },
+        {
+          "_id": "695933c81c508c5d5e8d86e4",
+          "name": "Fish77129",
+          "amount": 333,
+          "price": 1478,
+          "manufacturer": "Tesla",
+          "notes": "IDOgIeSgoHYaaYmKShs7jCCgxw97WUy1cmG932SQZIsS3WoxXlDPbBfM27wUBSCuv6Lxr3ev9tjN0Ci4o5l294VEQUZoNnz3VdAgeOier3tez62s0r39wugwD3RHJmBiJ2egIkzfxxJv0hmk9MCGj5GHGiBgrQmpPAnbeMNckBpe5LzOpQ7cV4NfGHa8pYK7QN765QKLFXCt3AEwX0PNrUQNxfzIsJZvmUFkVMNDZOts5xZWjyQKgfVn05",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 17632,
+      "createdOn": "2026-01-03T15:20:40.000Z",
+      "comments": [
+        {
+          "text": "VH3MyNBCoiyLVIfH7BmiPTvm0VwDxHqsvx1Pj4YCiU0AODm9v3q0W1PDm9Nn9Pk7r0nSHYotgXzBUegFLoFs3DWJMcDwi3Vf5fq9TrLhWvyHDIwOuHrpflcw83DFveEDI94BGbO52IY5O3kPKvOSlYWoxh7wG9q9T0KgVJ0iiu3554eeHVN05x50QS7g858qwSwbGimi <",
+          "createdOn": "2026-01-03T15:20:40.000Z",
+          "_id": "695933c81c508c5d5e8d8714"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933bc1c508c5d5e8d85cc",
+          "products": [
+            {
+              "_id": "695933c21c508c5d5e8d8633",
+              "name": "Soap81992",
+              "amount": 707,
+              "price": 16154,
+              "manufacturer": "Microsoft",
+              "notes": "aTcjhZ02CH9qFRoMnyeKBY4JK8JOEE1LJxIJbvgH5GLAUZtSzlWMQuAfB2XbxUwNIZrqiPiREaJ9yCLeHqs4iOMWazhiGLu7tG8gDiolIpYfm2xnV7mJDH06PppXSo4X2EZPY6R5Wht6XMQhLhfUgJjbi5eHB60FnsdPTXQ1bQgnNxrA52lwQdJHZPS23FmLARub7NXtIm6sjlGib05a5d9PskUStJyFo8ATYLGkQEJtCrDngPDyoBvslZ",
+              "received": false
+            },
+            {
+              "_id": "695933c81c508c5d5e8d86e4",
+              "name": "Fish77129",
+              "amount": 333,
+              "price": 1478,
+              "manufacturer": "Tesla",
+              "notes": "IDOgIeSgoHYaaYmKShs7jCCgxw97WUy1cmG932SQZIsS3WoxXlDPbBfM27wUBSCuv6Lxr3ev9tjN0Ci4o5l294VEQUZoNnz3VdAgeOier3tez62s0r39wugwD3RHJmBiJ2egIkzfxxJv0hmk9MCGj5GHGiBgrQmpPAnbeMNckBpe5LzOpQ7cV4NfGHa8pYK7QN765QKLFXCt3AEwX0PNrUQNxfzIsJZvmUFkVMNDZOts5xZWjyQKgfVn05",
+              "received": false
+            }
+          ],
+          "total_price": 17632,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:20:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

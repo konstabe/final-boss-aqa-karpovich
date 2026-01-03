@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:20:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2951",
+    "etag": "W/\"b87-bhc0ZTQ4M8ZKRhZYvEDs11lXmGM\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695933c81c508c5d5e8d86fc",
+      "status": "Draft",
+      "customer": {
+        "_id": "695933bc1c508c5d5e8d85ca",
+        "email": "Anthony_Dooley@hotmail.com",
+        "name": "Enrique Connelly",
+        "country": "Russia",
+        "city": "San Jose",
+        "street": "S Front Street",
+        "house": 25,
+        "flat": 206,
+        "phone": "+12264129433",
+        "createdOn": "2026-01-03T15:20:28.000Z",
+        "notes": "YhztX4ncxICzAwy5laYKmwuv6D5WEWQty7Ugp1NIEFO91G7Fry4sptgEam6eStcLTwFv6nFErlmtFrwxG5tJtpSkROSbjKn2TveeukcT4TDXOmpfQDmCXdAC38RgVvgxV5YK6d2TJ4GdPmajhkgGX3opEJua50T5LOUCDPDFR264FiK7fAA8LOSWkicbkseVLfl76YYKM9ZqjPlmz7fLcBC5QCMIVdLfRKIxP38uZVilIL22Pg0v6JCpHP"
+      },
+      "products": [
+        {
+          "_id": "695933c21c508c5d5e8d8631",
+          "name": "Towels78827",
+          "amount": 707,
+          "price": 74267,
+          "manufacturer": "Google",
+          "notes": "0NClA8PuMg9sSL727iOSnmzTqqnw4BnYi4hRKHohjRM59mLPz60VwQCDg1OYqfukrWfXPlDjtBJFGROhWcPmVwz7gQlvcW1UgV4F6PWKzBC5NzclKWXtmxdcHCDNF1l40DujoJxav3lnyzvVzcM7HJN8YHt6Ckwis89UDbBpvHozrtjEgyrKaRIiRaUU5tEBcJd0j0qqVlnQ23PHRTMsEBSQe3QMiUFewPYSENJGEX7qbgb6SaHNc7UEfL",
+          "received": false
+        },
+        {
+          "_id": "695933c81c508c5d5e8d86e2",
+          "name": "Chair77986",
+          "amount": 712,
+          "price": 31902,
+          "manufacturer": "Apple",
+          "notes": "uM0ri3PtpJX4ASbp5Ods6ChOUSGzxhcPYtpyht3koJLYSfFULNqh8G2wcTdgPXVfgRogCNYY6pZv85ZoJDzk0Ayg4qvMWtKY53rlBjJoLbKN5FBk8wjKG8gbrd3U5MzxDIaQdmQB3RGCsZaEJtQoiGfhc4dCwGWGUEYtE6XYuuJAO36bSwovQ3mg4AJNiLHT7Tx7WhcsjUx1fbQLmFbDiqzioejMqkZcgFnh3Ru6RYJzUWl37kA9RfzAct",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 106169,
+      "createdOn": "2026-01-03T15:20:40.000Z",
+      "comments": [
+        {
+          "text": "<script>1WMEz0vulPlr0D3fyjf2u6ypEiVKkCHB6is7aMKrfAIbwHbZtLldoQzzo7i5f1QP5LAOOav4y8B4KInpTq30ldGfv67MwZTkgNNMYxIUEqtsK1nxpXX0mzFP3BfpiP26sF2dyoZMFwSF2eXS620ktVTzaAsdvlKuqGSZ1sFSZ93C9D29jSs1qXDxz7JTrXFYCWHHmaXT >",
+          "createdOn": "2026-01-03T15:20:40.000Z",
+          "_id": "695933c81c508c5d5e8d8710"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933bc1c508c5d5e8d85ca",
+          "products": [
+            {
+              "_id": "695933c21c508c5d5e8d8631",
+              "name": "Towels78827",
+              "amount": 707,
+              "price": 74267,
+              "manufacturer": "Google",
+              "notes": "0NClA8PuMg9sSL727iOSnmzTqqnw4BnYi4hRKHohjRM59mLPz60VwQCDg1OYqfukrWfXPlDjtBJFGROhWcPmVwz7gQlvcW1UgV4F6PWKzBC5NzclKWXtmxdcHCDNF1l40DujoJxav3lnyzvVzcM7HJN8YHt6Ckwis89UDbBpvHozrtjEgyrKaRIiRaUU5tEBcJd0j0qqVlnQ23PHRTMsEBSQe3QMiUFewPYSENJGEX7qbgb6SaHNc7UEfL",
+              "received": false
+            },
+            {
+              "_id": "695933c81c508c5d5e8d86e2",
+              "name": "Chair77986",
+              "amount": 712,
+              "price": 31902,
+              "manufacturer": "Apple",
+              "notes": "uM0ri3PtpJX4ASbp5Ods6ChOUSGzxhcPYtpyht3koJLYSfFULNqh8G2wcTdgPXVfgRogCNYY6pZv85ZoJDzk0Ayg4qvMWtKY53rlBjJoLbKN5FBk8wjKG8gbrd3U5MzxDIaQdmQB3RGCsZaEJtQoiGfhc4dCwGWGUEYtE6XYuuJAO36bSwovQ3mg4AJNiLHT7Tx7WhcsjUx1fbQLmFbDiqzioejMqkZcgFnh3Ru6RYJzUWl37kA9RfzAct",
+              "received": false
+            }
+          ],
+          "total_price": 106169,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:20:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

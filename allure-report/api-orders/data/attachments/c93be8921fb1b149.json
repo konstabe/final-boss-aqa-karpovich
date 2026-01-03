@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:20:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2923",
+    "etag": "W/\"b6b-DxruwO0q/ZMtL7wM4Mm1HZoE7RQ\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695933cd1c508c5d5e8d8768",
+      "status": "Draft",
+      "customer": {
+        "_id": "695933c71c508c5d5e8d86d2",
+        "email": "Octavia_Feeney@gmail.com",
+        "name": "Belle Von",
+        "country": "Canada",
+        "city": "Collierfurt",
+        "street": "Orn Fort",
+        "house": 13,
+        "flat": 472,
+        "phone": "+19574124845",
+        "createdOn": "2026-01-03T15:20:39.000Z",
+        "notes": "hHBnmW4296aO8GehDE9Pom1CBR97OvjHju3Lxiyc0cxTA9WtzOuAH6cgcitaabUwbp25avbfSTt5m3ai9IgZCALRfaUxTbuNBEwlzGXnOhAAYVhKLFjB6tIru1EzVHfoxDcdMTyC7VfqQipec4J3MPXI4RQeOTTSX7jXVRhKAUgyvfDz1nmjddZSeURLngeo61Wjx2nHz5bP9vBiJBJM1Na9FN2nhcJ7DbV1nAJVvX0psC9zERqOmxmbrC"
+      },
+      "products": [
+        {
+          "_id": "695933cd1c508c5d5e8d8755",
+          "name": "Hat57173",
+          "amount": 786,
+          "price": 55880,
+          "manufacturer": "Sony",
+          "notes": "HklWMXUcLzFHJXIx0qCXlSii6ayXMVbZsPwvXLjpqUGRc7CvgpGTORfjU2OT8Lsc8VrWwcifVnkwvWJvpETKiuqKIXyqhO34nWXBj8jIDMM5XvDkFCakQaa0mfOREaeK8G8Q0D01LCxEfVFD6TL8vgFIAtcWsLxfTkfKnaitN9QLJJqIkbWTAYRQZf3NO2U8kdhaETP4oUCCzPNcVXixCBSdOkmEbN8vePmtMleAlJKXW4OascfFc7Ukxt",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Collierfurt",
+          "street": "Orn Fort",
+          "house": 13,
+          "flat": 472
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 55880,
+      "createdOn": "2026-01-03T15:20:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933c71c508c5d5e8d86d2",
+          "products": [
+            {
+              "_id": "695933cd1c508c5d5e8d8755",
+              "name": "Hat57173",
+              "amount": 786,
+              "price": 55880,
+              "manufacturer": "Sony",
+              "notes": "HklWMXUcLzFHJXIx0qCXlSii6ayXMVbZsPwvXLjpqUGRc7CvgpGTORfjU2OT8Lsc8VrWwcifVnkwvWJvpETKiuqKIXyqhO34nWXBj8jIDMM5XvDkFCakQaa0mfOREaeK8G8Q0D01LCxEfVFD6TL8vgFIAtcWsLxfTkfKnaitN9QLJJqIkbWTAYRQZf3NO2U8kdhaETP4oUCCzPNcVXixCBSdOkmEbN8vePmtMleAlJKXW4OascfFc7Ukxt",
+              "received": false
+            }
+          ],
+          "total_price": 55880,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Collierfurt",
+              "street": "Orn Fort",
+              "house": 13,
+              "flat": 472
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T15:20:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695933c71c508c5d5e8d86d2",
+          "products": [
+            {
+              "_id": "695933cd1c508c5d5e8d8755",
+              "name": "Hat57173",
+              "amount": 786,
+              "price": 55880,
+              "manufacturer": "Sony",
+              "notes": "HklWMXUcLzFHJXIx0qCXlSii6ayXMVbZsPwvXLjpqUGRc7CvgpGTORfjU2OT8Lsc8VrWwcifVnkwvWJvpETKiuqKIXyqhO34nWXBj8jIDMM5XvDkFCakQaa0mfOREaeK8G8Q0D01LCxEfVFD6TL8vgFIAtcWsLxfTkfKnaitN9QLJJqIkbWTAYRQZf3NO2U8kdhaETP4oUCCzPNcVXixCBSdOkmEbN8vePmtMleAlJKXW4OascfFc7Ukxt",
+              "received": false
+            }
+          ],
+          "total_price": 55880,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:20:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

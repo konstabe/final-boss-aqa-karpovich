@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:21:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4087",
+    "etag": "W/\"ff7-S+nMYZQvQQ9/hmYHHnfT5z598DY\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695933fd1c508c5d5e8d8f41",
+      "status": "Draft",
+      "customer": {
+        "_id": "695933f11c508c5d5e8d8d65",
+        "email": "Khalid93@yahoo.com",
+        "name": "Zoila Fay",
+        "country": "USA",
+        "city": "Fort Nakia",
+        "street": "Brown Valleys",
+        "house": 49,
+        "flat": 819,
+        "phone": "+12958648932",
+        "createdOn": "2026-01-03T15:21:21.000Z",
+        "notes": "X0SV8RueJiLxMtiNyhMKxJ8XGN2tzfiDQJxZ0cPYFySiz08FVApXMdjX8JF10g4cXU4pDxye3knBBSqLRz6TbqMN8FgwcZ21DZOZabftDzmhOkRZbNHFsAJ9iUm97KokeRu0tjmEM0zJH6T9uaaT31EuxwFbHtGaXep08Jxt5ys0gl9VrW1ZsYQmTcGZLt0DwW8sE9pwSwHHZSfKKbO8qnHj185AzHd7B6PcKUfEIuqSlkTUTHoLGsECER"
+      },
+      "products": [
+        {
+          "_id": "695933f71c508c5d5e8d8ed7",
+          "name": "Computer61289",
+          "amount": 488,
+          "price": 42599,
+          "manufacturer": "Tesla",
+          "notes": "nKY824Ny09ZnlF5ExqO836lbjAj6sxRuLJ4yMarxUdlZXI8Z2qb4xZyTexLq44SKtmShJgy9Zvg6w69LwVF0chDGY1vhMtTNyo7MNMRCyztFgmI8bHjexki3B4NPIpzR4zp6y2iYwnadgWS4z7YeNVLs8gmShy6Q2vtYgtoxuoCShTikbkfUTOClp3xK1XmhM907F82snYCH9UUeuIJOJe3bLMQCcCP8jKFyUkYV7rAajQXjSKGhF3ABnj",
+          "received": false
+        },
+        {
+          "_id": "695933fd1c508c5d5e8d8f37",
+          "name": "Shoes41669",
+          "amount": 989,
+          "price": 41252,
+          "manufacturer": "Tesla",
+          "notes": "B42w7bbPDZm7QYepA7SKD1uzgbY4OFrvZ5JXMEh03EFRnOmJGZ2ewHrcgFG9g2fCCrXTJUuiNq39nbmwzmunKq8liAzE4MiwpiF91WlEK3FqF7hZGlgwLOm0FRBwnMCaBoQIWSZ4wHrqj7smnBrI3Acfzi4w38Ga8keY1u15x8SXjN963XwFlrf8jczPzarAiVhZn7qhhFVX2VbEIGim7wwWGfChCXhagYWsx9bWeGPvzBN0uKcxaTIQoq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Fort Nakia",
+          "street": "Brown Valleys",
+          "house": 49,
+          "flat": 819
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 83851,
+      "createdOn": "2026-01-03T15:21:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933f11c508c5d5e8d8d65",
+          "products": [
+            {
+              "_id": "695933f71c508c5d5e8d8ed7",
+              "name": "Computer61289",
+              "amount": 488,
+              "price": 42599,
+              "manufacturer": "Tesla",
+              "notes": "nKY824Ny09ZnlF5ExqO836lbjAj6sxRuLJ4yMarxUdlZXI8Z2qb4xZyTexLq44SKtmShJgy9Zvg6w69LwVF0chDGY1vhMtTNyo7MNMRCyztFgmI8bHjexki3B4NPIpzR4zp6y2iYwnadgWS4z7YeNVLs8gmShy6Q2vtYgtoxuoCShTikbkfUTOClp3xK1XmhM907F82snYCH9UUeuIJOJe3bLMQCcCP8jKFyUkYV7rAajQXjSKGhF3ABnj",
+              "received": false
+            },
+            {
+              "_id": "695933fd1c508c5d5e8d8f37",
+              "name": "Shoes41669",
+              "amount": 989,
+              "price": 41252,
+              "manufacturer": "Tesla",
+              "notes": "B42w7bbPDZm7QYepA7SKD1uzgbY4OFrvZ5JXMEh03EFRnOmJGZ2ewHrcgFG9g2fCCrXTJUuiNq39nbmwzmunKq8liAzE4MiwpiF91WlEK3FqF7hZGlgwLOm0FRBwnMCaBoQIWSZ4wHrqj7smnBrI3Acfzi4w38Ga8keY1u15x8SXjN963XwFlrf8jczPzarAiVhZn7qhhFVX2VbEIGim7wwWGfChCXhagYWsx9bWeGPvzBN0uKcxaTIQoq",
+              "received": false
+            }
+          ],
+          "total_price": 83851,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Nakia",
+              "street": "Brown Valleys",
+              "house": 49,
+              "flat": 819
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T15:21:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695933f11c508c5d5e8d8d65",
+          "products": [
+            {
+              "_id": "695933f71c508c5d5e8d8ed7",
+              "name": "Computer61289",
+              "amount": 488,
+              "price": 42599,
+              "manufacturer": "Tesla",
+              "notes": "nKY824Ny09ZnlF5ExqO836lbjAj6sxRuLJ4yMarxUdlZXI8Z2qb4xZyTexLq44SKtmShJgy9Zvg6w69LwVF0chDGY1vhMtTNyo7MNMRCyztFgmI8bHjexki3B4NPIpzR4zp6y2iYwnadgWS4z7YeNVLs8gmShy6Q2vtYgtoxuoCShTikbkfUTOClp3xK1XmhM907F82snYCH9UUeuIJOJe3bLMQCcCP8jKFyUkYV7rAajQXjSKGhF3ABnj",
+              "received": false
+            },
+            {
+              "_id": "695933fd1c508c5d5e8d8f37",
+              "name": "Shoes41669",
+              "amount": 989,
+              "price": 41252,
+              "manufacturer": "Tesla",
+              "notes": "B42w7bbPDZm7QYepA7SKD1uzgbY4OFrvZ5JXMEh03EFRnOmJGZ2ewHrcgFG9g2fCCrXTJUuiNq39nbmwzmunKq8liAzE4MiwpiF91WlEK3FqF7hZGlgwLOm0FRBwnMCaBoQIWSZ4wHrqj7smnBrI3Acfzi4w38Ga8keY1u15x8SXjN963XwFlrf8jczPzarAiVhZn7qhhFVX2VbEIGim7wwWGfChCXhagYWsx9bWeGPvzBN0uKcxaTIQoq",
+              "received": false
+            }
+          ],
+          "total_price": 83851,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:21:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:20:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-PXyLfVot1GD/c0YLkkby1Ji/bs0\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695933cc1c508c5d5e8d872f",
+        "email": "Brandon_Auer@yahoo.com",
+        "name": "Lavon Schaden",
+        "country": "Great Britain",
+        "city": "Visalia",
+        "street": "Beau Garden",
+        "house": 47,
+        "flat": 931,
+        "phone": "+14812812191",
+        "createdOn": "2026-01-03T15:20:44.000Z",
+        "notes": "yRync5WuDCGFUIcTQCwkiO0XWO57FdAqIJ3wDx8LiT2Fh0Ti4McHzZZceTYhFbO5xIjhzTp3JCb630DFiicz2YQChYf7jkv1c5BK7fy0EmSo0q4TzeXkYEeNamc6gNW7vso2wJpZsxy9LUGMbPJhM2QSKDYr840ZeqyUY1P1GCS4S9H9iHMDAYD0GxsJ3TI0QBhc7DEdgNshlY16Bumki2hQWHlNTUSDmjeFAAhocnegwlcgH915uFDlRu"
+      },
+      "products": [
+        {
+          "_id": "695933d21c508c5d5e8d882a",
+          "name": "Gloves41557",
+          "amount": 274,
+          "price": 32139,
+          "manufacturer": "Samsung",
+          "notes": "JInidtsI6yjXPZyysQAeYL27zIgns3gFyR773cPF8mOq9P0R25o4leHbwPGtQFmGUlChTfVNnBK24rGRanHMghpt0CDtG7gT2Jll2pqw3kwXFqbUD3p3f4DJyNXGxI7g7HyEwQykaQBJU3VJDWT3m06wVWdbVzDorZMXHnYIbpM3O4kcGIHCMMPCM4Bt1M6KWUOIPKX9Zj0OV5IkAbBRTrqCZb8tmCZyhpwfAKwErkce8RmGtMoLfL6FuI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 32139,
+      "createdOn": "2026-01-03T15:20:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695933cc1c508c5d5e8d872f",
+          "products": [
+            {
+              "_id": "695933d21c508c5d5e8d882a",
+              "name": "Gloves41557",
+              "amount": 274,
+              "price": 32139,
+              "manufacturer": "Samsung",
+              "notes": "JInidtsI6yjXPZyysQAeYL27zIgns3gFyR773cPF8mOq9P0R25o4leHbwPGtQFmGUlChTfVNnBK24rGRanHMghpt0CDtG7gT2Jll2pqw3kwXFqbUD3p3f4DJyNXGxI7g7HyEwQykaQBJU3VJDWT3m06wVWdbVzDorZMXHnYIbpM3O4kcGIHCMMPCM4Bt1M6KWUOIPKX9Zj0OV5IkAbBRTrqCZb8tmCZyhpwfAKwErkce8RmGtMoLfL6FuI",
+              "received": false
+            }
+          ],
+          "total_price": 32139,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:20:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695933d21c508c5d5e8d8844"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
