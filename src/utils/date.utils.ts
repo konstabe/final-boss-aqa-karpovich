@@ -24,3 +24,13 @@ export function convertToDate(value: string | Date) {
 export function convertToFullDateAndTime(value: string | Date) {
 	return moment(value).format("LLL");
 }
+
+/**
+ *
+ * @param {string} monthYear e.g. "January 2026"
+ * @param {string | number} day e.g. "6"
+ * @returns yyyy/mm/dd
+ */
+export function parseDatepickerDate(monthYear: string, day: string) {
+	return moment(`${monthYear} ${day}`, "MMMM YYYY D", true).format("YYYY/MM/DD");
+}

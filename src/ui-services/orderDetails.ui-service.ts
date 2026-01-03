@@ -35,4 +35,16 @@ export class OrdersDetailsUIService {
 		await modal.clickCancel();
 		await modal.waitForClosed();
 	}
+
+	@logStep("Open Delivery modal on Order Details Page")
+	async openDeliveryModal() {
+		await this.orderDetailsPage.bottom.openScheduleDeliveryModal();
+		await this.orderDetailsPage.scheduleDeliveryModal.waitForOpened();
+	}
+
+	@logStep("Save Delivery")
+	async saveDelivery() {
+		await this.orderDetailsPage.scheduleDeliveryModal.clickSaveDelivery();
+		await this.orderDetailsPage.scheduleDeliveryModal.waitForClosed();
+	}
 }

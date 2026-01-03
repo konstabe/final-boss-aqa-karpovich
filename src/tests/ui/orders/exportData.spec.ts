@@ -18,30 +18,30 @@ test.describe("[UI] [Orders] [exportDataModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersListPage, ordersListUIService, exportOrderModal }) => {
+		async ({ ordersListPage, ordersListUIService }) => {
 			await ordersListUIService.open();
 			await ordersListPage.clickExport();
 
-			await expect(exportOrderModal.editProductModalTitle).toHaveText("Export Data");
+			await expect(ordersListPage.exportOrderModal.editProductModalTitle).toHaveText("Export Data");
 
-			await expect(exportOrderModal.downloadButton).toBeVisible();
-			await expect(exportOrderModal.cancelButton).toBeVisible();
-			await expect(exportOrderModal.closeModalIcon).toBeVisible();
+			await expect(ordersListPage.exportOrderModal.downloadButton).toBeVisible();
+			await expect(ordersListPage.exportOrderModal.cancelButton).toBeVisible();
+			await expect(ordersListPage.exportOrderModal.closeModalIcon).toBeVisible();
 
-			await expect(exportOrderModal.csvFormat).toBeVisible();
-			await expect(exportOrderModal.jsonFormat).toBeVisible();
+			await expect(ordersListPage.exportOrderModal.csvFormat).toBeVisible();
+			await expect(ordersListPage.exportOrderModal.jsonFormat).toBeVisible();
 
-			await expect(exportOrderModal.exportFilteredToggle).toBeVisible();
-			await expect(exportOrderModal.exportAllToggle).toBeVisible();
+			await expect(ordersListPage.exportOrderModal.exportFilteredToggle).toBeVisible();
+			await expect(ordersListPage.exportOrderModal.exportAllToggle).toBeVisible();
 
-			await expect(exportOrderModal.selectAllFields).toBeVisible();
-			await expect(exportOrderModal.statusExportField).toBeVisible();
-			await expect(exportOrderModal.totalPriceExportField).toBeVisible();
-			await expect(exportOrderModal.deliveryExportField).toBeVisible();
-			await expect(exportOrderModal.customerExportField).toBeVisible();
-			await expect(exportOrderModal.productsExportField).toBeVisible();
-			await expect(exportOrderModal.assignedManagerExportField).toBeVisible();
-			await expect(exportOrderModal.createdOnExportField).toBeVisible();
+			await expect(ordersListPage.exportOrderModal.selectAllFields).toBeVisible();
+			await expect(ordersListPage.exportOrderModal.statusExportField).toBeVisible();
+			await expect(ordersListPage.exportOrderModal.totalPriceExportField).toBeVisible();
+			await expect(ordersListPage.exportOrderModal.deliveryExportField).toBeVisible();
+			await expect(ordersListPage.exportOrderModal.customerExportField).toBeVisible();
+			await expect(ordersListPage.exportOrderModal.productsExportField).toBeVisible();
+			await expect(ordersListPage.exportOrderModal.assignedManagerExportField).toBeVisible();
+			await expect(ordersListPage.exportOrderModal.createdOnExportField).toBeVisible();
 		},
 	);
 
@@ -50,21 +50,21 @@ test.describe("[UI] [Orders] [exportDataModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersListPage, ordersListUIService, exportOrderModal }) => {
+		async ({ ordersListPage, ordersListUIService }) => {
 			await ordersListUIService.open();
 			await ordersListPage.clickExport();
 
-			await exportOrderModal.selectFields("Status");
-			await exportOrderModal.selectFields("Total Price");
-			await exportOrderModal.selectFields("Customer");
-			await exportOrderModal.selectFields("Products");
-			await exportOrderModal.selectFields("Created On");
+			await ordersListPage.exportOrderModal.selectFields("Status");
+			await ordersListPage.exportOrderModal.selectFields("Total Price");
+			await ordersListPage.exportOrderModal.selectFields("Customer");
+			await ordersListPage.exportOrderModal.selectFields("Products");
+			await ordersListPage.exportOrderModal.selectFields("Created On");
 
-			await expect(exportOrderModal.downloadButton).toBeDisabled();
+			await expect(ordersListPage.exportOrderModal.downloadButton).toBeDisabled();
 
-			await exportOrderModal.selectFields("Delivery");
-			await expect(exportOrderModal.deliveryExportField).toBeChecked();
-			await expect(exportOrderModal.downloadButton).toBeEnabled();
+			await ordersListPage.exportOrderModal.selectFields("Delivery");
+			await expect(ordersListPage.exportOrderModal.deliveryExportField).toBeChecked();
+			await expect(ordersListPage.exportOrderModal.downloadButton).toBeEnabled();
 		},
 	);
 
@@ -73,10 +73,10 @@ test.describe("[UI] [Orders] [exportDataModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersListPage, ordersListUIService, exportOrderModal }) => {
+		async ({ ordersListPage, ordersListUIService }) => {
 			await ordersListUIService.open();
 			await ordersListPage.clickExport();
-			await exportOrderModal.clickCloseIcon();
+			await ordersListPage.exportOrderModal.clickCloseIcon();
 		},
 	);
 
@@ -85,13 +85,13 @@ test.describe("[UI] [Orders] [exportDataModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersListPage, ordersListUIService, exportOrderModal }) => {
+		async ({ ordersListPage, ordersListUIService }) => {
 			await ordersListUIService.open();
 			await ordersListPage.clickExport();
 
-			await exportOrderModal.checkSelectAllFields();
+			await ordersListPage.exportOrderModal.checkSelectAllFields();
 
-			await exportOrderModal.clickCancelButton();
+			await ordersListPage.exportOrderModal.clickCancelButton();
 		},
 	);
 
@@ -100,12 +100,12 @@ test.describe("[UI] [Orders] [exportDataModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI, TAGS.SMOKE],
 		},
-		async ({ ordersListPage, ordersListUIService, exportOrderModal, ordersApiService }) => {
+		async ({ ordersListPage, ordersListUIService, ordersApiService }) => {
 			ordersApiService.createDraft(token, 1);
 			await ordersListUIService.open();
 			await ordersListPage.clickExport();
 
-			await exportOrderModal.clickDownloadButton();
+			await ordersListPage.exportOrderModal.clickDownloadButton();
 
 			await expect(ordersListPage.toastMessage).toContainText(NOTIFICATIONS.DATA_EXPORTED);
 		},
@@ -116,12 +116,12 @@ test.describe("[UI] [Orders] [exportDataModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersListPage, ordersListUIService, exportOrderModal, ordersApiService }) => {
+		async ({ ordersListPage, ordersListUIService, ordersApiService }) => {
 			ordersApiService.createDraft(token, 1);
 			await ordersListUIService.open();
 			await ordersListPage.clickExport();
 
-			const { fileName } = await exportOrderModal.downloadFile("JSON");
+			const { fileName } = await ordersListPage.exportOrderModal.downloadFile("JSON");
 
 			await expect(fileName).toEqual("data.json");
 		},
@@ -132,12 +132,12 @@ test.describe("[UI] [Orders] [exportDataModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersListPage, ordersListUIService, exportOrderModal, ordersApiService }) => {
+		async ({ ordersListPage, ordersListUIService, ordersApiService }) => {
 			ordersApiService.createDraft(token, 1);
 			await ordersListUIService.open();
 			await ordersListPage.clickExport();
 
-			const { fileName } = await exportOrderModal.downloadFile("CSV");
+			const { fileName } = await ordersListPage.exportOrderModal.downloadFile("CSV");
 
 			await expect(fileName).toEqual("data.csv");
 		},
