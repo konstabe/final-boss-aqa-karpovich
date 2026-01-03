@@ -1,36 +1,86 @@
-name: Run Sales Portal API tests
+name: Run Sales Portal API smoke tests
 
 on:
     pull_request:
     workflow_dispatch: # Manually trigger the workflow
 
 jobs:
+    download-history:
+        runs-on: ubuntu-latest
+        name: Download history
+        steps:
+            - name: Setup Python
+              uses: actions/setup-python@v4
+              with:
+                  python-version: "3.10"
+
+            - name: Download allure-results artifact
+              run: |
+                  ARTIFACT_ID=$(curl -s \
+                    -H "Accept: application/vnd.github+json" \
+                    -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
+                    https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts \
+                    | python -c "import sys, json; data=json.load(sys.stdin); ids=[a['id'] for a in data.get('artifacts', []) if a['name']=='allure-results']; print(ids[0] if ids else '')")
+                  if [ -n "$ARTIFACT_ID" ]; then
+                    curl -L \
+                      -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
+                      https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts/$ARTIFACT_ID/zip \
+                      -o artifacts.zip
+                    mkdir allure-results && unzip artifacts.zip -d allure-results
+                  else
+                    echo "No allure-results artifact found"
+                  fi
+
+            - name: Download github-pages artifact
+              run: |
+                  REPORT_ID=$(curl -s \
+                    -H "Accept: application/vnd.github+json" \
+                    -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
+                    https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts \
+                    | python -c "import sys, json; data=json.load(sys.stdin); ids=[a['id'] for a in data.get('artifacts', []) if a['name']=='github-pages']; print(ids[0] if ids else '')")
+                  if [ -n "$REPORT_ID" ]; then
+                    curl -L \
+                      -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
+                      https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts/$REPORT_ID/zip \
+                      -o pages.zip
+                    mkdir old_pages pages_history
+                    unzip pages.zip -d old_pages
+                    tar -xvf old_pages/artifact.tar -C pages_history
+                    cp -r pages_history/history allure-results || true
+                  else
+                    echo "No github-pages artifact found"
+                  fi
+
+            - name: Store allure history
+              uses: actions/upload-artifact@v4
+              with:
+                  name: allure-results
+                  path: allure-results
+                  retention-days: 10
+
     test:
         timeout-minutes: 60
         runs-on: ubuntu-latest
         container:
             image: mcr.microsoft.com/playwright:v1.57.0-noble
         steps:
-            # Checkout
             - uses: actions/checkout@v4
 
-            # Install OpenJDK
             - name: Install OpenJDK
               run: |
                   apt-get update
                   apt-get install -y openjdk-17-jre
                   echo "JAVA_HOME=$(dirname $(dirname $(readlink -f $(which java))))" >> $GITHUB_ENV
 
-            # Install dependencies
             - name: Install dependencies
               run: npm ci
 
             - name: Install Playwright Browsers
               run: npx playwright install --with-deps
 
-            # Run tests
             - name: Run tests
               env:
+                  REPORT_PATH: allure-report/api-smoke
                   SALES_PORTAL_API_URL: ${{ secrets.SALES_PORTAL_API_URL }}
                   USER_NAME: ${{ secrets.USER_NAME }}
                   USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
@@ -39,21 +89,28 @@ jobs:
               run: npm run test:api-smoke
               continue-on-error: true
 
-            # Create Allure report
+            - name: Download allure history
+              uses: actions/download-artifact@v4
+              with:
+                  name: allure-results
+                  path: ./allure-results
+
             - name: Create Allure report
               run: npm run allure-report
+
+            - name: Copy history into report
+              run: cp -r allure-results/history allure-report/history || true
 
             - name: Save Allure report
               uses: actions/upload-artifact@v4
               with:
-                  name: regression-report
+                  name: smoke-report
                   path: ./allure-report
 
-            # Deploy to GitHub Pages
             - name: Deploy to GitHub Pages
               if: success()
-              uses: peaceiris/actions-gh-pages@v3
+              uses: peaceiris/actions-gh-pages@v4
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
                   publish_dir: ./allure-report
-                  destination_dir: allure-report
+                  destination_dir: allure-report/api-smoke

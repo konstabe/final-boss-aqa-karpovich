@@ -1,11 +1,8 @@
-name: Run Sales Portal Orders API tests
+name: Run Sales Portal Regression UI tests
 
 on:
-    push:
-        branches:
-            - main
-        paths:
-            - "src/tests/api/orders/**"
+    schedule:
+        - cron: "0 23 * * *"
     workflow_dispatch: # Manually trigger the workflow
 
 jobs:
@@ -65,7 +62,6 @@ jobs:
     test:
         timeout-minutes: 60
         runs-on: ubuntu-latest
-        needs: download-history
         container:
             image: mcr.microsoft.com/playwright:v1.57.0-noble
         steps:
@@ -85,13 +81,13 @@ jobs:
 
             - name: Run tests
               env:
-                  REPORT_PATH: allure-report/api-orders
+                  REPORT_PATH: allure-report/ui-regression
                   SALES_PORTAL_API_URL: ${{ secrets.SALES_PORTAL_API_URL }}
                   USER_NAME: ${{ secrets.USER_NAME }}
                   USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
                   TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
                   TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-              run: npm run test:api-orders
+              run: npm run test:ui
               continue-on-error: true
 
             - name: Download allure history
@@ -109,7 +105,7 @@ jobs:
             - name: Save Allure report
               uses: actions/upload-artifact@v4
               with:
-                  name: orders-report
+                  name: ui-regression-report
                   path: ./allure-report
 
             - name: Deploy to GitHub Pages
@@ -118,4 +114,4 @@ jobs:
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
                   publish_dir: ./allure-report
-                  destination_dir: allure-report/api-orders
+                  destination_dir: allure-report/ui-regression

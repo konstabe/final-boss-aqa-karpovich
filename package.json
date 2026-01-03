@@ -7,6 +7,7 @@
     "test": "npx playwright test",
     "test:setup": "playwright test src/tests/auth.setup.ts",
     "test:api": "npm run test -- --project=sales-portal-api",
+    "test:ui": "npm run test -- --project=sales-portal-ui",
     "test:api-smoke": "npm run test -- --project=sales-portal-api --grep @smoke",
     "test:api-products": "npm run test -- --project=sales-portal-api --grep @product",
     "test:api-customers": "npm run test -- --project=sales-portal-api --grep @customer",
