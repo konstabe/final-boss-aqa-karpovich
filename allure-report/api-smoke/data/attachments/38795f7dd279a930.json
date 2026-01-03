@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:42:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2972",
+    "etag": "W/\"b9c-RKsD0x/3o5oGiVilT9txcrdoxmg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69592aee1c508c5d5e8cca2d",
+      "status": "Draft",
+      "customer": {
+        "_id": "69592ae41c508c5d5e8cc849",
+        "email": "Corrine.Runolfsdottir@yahoo.com",
+        "name": "Eulah Glover",
+        "country": "Russia",
+        "city": "West Waldoville",
+        "street": "Terence Harbors",
+        "house": 24,
+        "flat": 224,
+        "phone": "+16986959758",
+        "createdOn": "2026-01-03T14:42:44.000Z",
+        "notes": "cSbWBiiYnYy1qz2fv4hoQMN7AvtxQGL3un7xNjy5kpuNYpl8eVM4Z5FuO0TfgsHzOlYRtQe8500amYBlZyigzfKq84GoDNWgYJMhGejdEA27UOIjkAuaHTk9OnZQhHscWmVSHKaZiJXmNoiBwVTUDlVTIS5Gv2rTTpgfur4sLngp9KHVLKPcYhdi58DqAscK50Xc3ZuT5dqldilWXDXux8Ok91olFtxvkWmVvKoC6AUC30ByjdttIrVVFF"
+      },
+      "products": [
+        {
+          "_id": "69592aee1c508c5d5e8cca17",
+          "name": "Keyboard87355",
+          "amount": 896,
+          "price": 62231,
+          "manufacturer": "Tesla",
+          "notes": "MZYJchMTYy1hoEnI15pjBWoceT9wXuJEJBld8rWkr4VZ3wFlh1E2AqjiV4zV679KKnS3LK55bEAZht5Pcq7fB9iBV4VqDGJ7W90afiBc3PGuvST6PmwphmNduwMTXCx6xhlLDoQbufWHyqpWrrcTUGtvbsiEY3edns7aD9yaVMgdS11Uz0RBNxSk8rW52oDweWdC0LCdrUVwipdx8Oappl8i5sxjUPmOHXLv3iFXUY0otsLGyx3Pd9jlg9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 62231,
+      "createdOn": "2026-01-03T14:42:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69592ae41c508c5d5e8cc849",
+          "products": [
+            {
+              "_id": "69592aee1c508c5d5e8cca17",
+              "name": "Keyboard87355",
+              "amount": 896,
+              "price": 62231,
+              "manufacturer": "Tesla",
+              "notes": "MZYJchMTYy1hoEnI15pjBWoceT9wXuJEJBld8rWkr4VZ3wFlh1E2AqjiV4zV679KKnS3LK55bEAZht5Pcq7fB9iBV4VqDGJ7W90afiBc3PGuvST6PmwphmNduwMTXCx6xhlLDoQbufWHyqpWrrcTUGtvbsiEY3edns7aD9yaVMgdS11Uz0RBNxSk8rW52oDweWdC0LCdrUVwipdx8Oappl8i5sxjUPmOHXLv3iFXUY0otsLGyx3Pd9jlg9",
+              "received": false
+            }
+          ],
+          "total_price": 62231,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:42:54.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69592ae41c508c5d5e8cc849",
+          "products": [
+            {
+              "_id": "69592aee1c508c5d5e8cca17",
+              "name": "Keyboard87355",
+              "amount": 896,
+              "price": 62231,
+              "manufacturer": "Tesla",
+              "notes": "MZYJchMTYy1hoEnI15pjBWoceT9wXuJEJBld8rWkr4VZ3wFlh1E2AqjiV4zV679KKnS3LK55bEAZht5Pcq7fB9iBV4VqDGJ7W90afiBc3PGuvST6PmwphmNduwMTXCx6xhlLDoQbufWHyqpWrrcTUGtvbsiEY3edns7aD9yaVMgdS11Uz0RBNxSk8rW52oDweWdC0LCdrUVwipdx8Oappl8i5sxjUPmOHXLv3iFXUY0otsLGyx3Pd9jlg9",
+              "received": false
+            }
+          ],
+          "total_price": 62231,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:42:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
