@@ -88,7 +88,9 @@ test.describe("[UI] [Orders] [exportDataModal]", () => {
 		async ({ ordersListPage, ordersListUIService, exportOrderModal }) => {
 			await ordersListUIService.open();
 			await ordersListPage.clickExport();
+
 			await exportOrderModal.checkSelectAllFields();
+
 			await exportOrderModal.clickCancelButton();
 		},
 	);
@@ -102,7 +104,9 @@ test.describe("[UI] [Orders] [exportDataModal]", () => {
 			ordersApiService.createDraft(token, 1);
 			await ordersListUIService.open();
 			await ordersListPage.clickExport();
+
 			await exportOrderModal.clickDownloadButton();
+
 			await expect(ordersListPage.toastMessage).toContainText(NOTIFICATIONS.DATA_EXPORTED);
 		},
 	);
@@ -114,9 +118,9 @@ test.describe("[UI] [Orders] [exportDataModal]", () => {
 		},
 		async ({ ordersListPage, ordersListUIService, exportOrderModal, ordersApiService }) => {
 			ordersApiService.createDraft(token, 1);
-
 			await ordersListUIService.open();
 			await ordersListPage.clickExport();
+
 			const { fileName } = await exportOrderModal.downloadFile("JSON");
 
 			await expect(fileName).toEqual("data.json");
@@ -132,6 +136,7 @@ test.describe("[UI] [Orders] [exportDataModal]", () => {
 			ordersApiService.createDraft(token, 1);
 			await ordersListUIService.open();
 			await ordersListPage.clickExport();
+
 			const { fileName } = await exportOrderModal.downloadFile("CSV");
 
 			await expect(fileName).toEqual("data.csv");
