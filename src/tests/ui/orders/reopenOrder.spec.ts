@@ -23,15 +23,15 @@ test.describe("[UI] [Orders] [reopenOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersDetailsUIService, mock, reopenModal, orderDetailsHeaderPage }) => {
+		async ({ ordersDetailsUIService, mock, orderDetailsPage }) => {
 			const order = generateOrderDetailsMockWithDelivery(ORDER_STATUS.CANCELED, false);
 			await mock.orderDetailsPage(order);
 			const orderId = order.Order._id;
 
 			await ordersDetailsUIService.open(orderId);
 
-			await orderDetailsHeaderPage.clickReopenButton();
-			await reopenModal.clickReopen();
+			await orderDetailsPage.header.clickReopenButton();
+			await orderDetailsPage.reopenModal.clickReopen();
 		},
 	);
 
@@ -40,24 +40,18 @@ test.describe("[UI] [Orders] [reopenOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({
-			reopenModal,
-			ordersApiService,
-			ordersDetailsUIService,
-			orderDetailsHeaderPage,
-			orderDetailsProductPage,
-		}) => {
+		async ({ ordersApiService, ordersDetailsUIService, orderDetailsPage }) => {
 			const newOrder = ordersApiService.cancelOrderInProgress(token, 1);
 			const orderId = (await newOrder)._id;
 
 			await ordersDetailsUIService.open(orderId);
 
-			await orderDetailsHeaderPage.clickReopenButton();
+			await orderDetailsPage.header.clickReopenButton();
 
-			await reopenModal.clickReopen();
-			await expect(orderDetailsProductPage.toastMessage).toContainText(NOTIFICATIONS.ORDER_REOPENED);
+			await orderDetailsPage.reopenModal.clickReopen();
+			await expect(orderDetailsPage.product.toastMessage).toContainText(NOTIFICATIONS.ORDER_REOPENED);
 
-			const orderData = await orderDetailsHeaderPage.getOrderStatus();
+			const orderData = await orderDetailsPage.header.getOrderStatus();
 			await expect(orderData[0]?.value).toEqual("Draft");
 		},
 	);
@@ -67,17 +61,17 @@ test.describe("[UI] [Orders] [reopenOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ reopenModal, ordersApiService, ordersDetailsUIService, orderDetailsHeaderPage }) => {
+		async ({ ordersApiService, ordersDetailsUIService, orderDetailsPage }) => {
 			const newOrder = ordersApiService.cancelOrderInProgress(token, 1);
 			const orderId = (await newOrder)._id;
 
 			await ordersDetailsUIService.open(orderId);
 
-			await orderDetailsHeaderPage.clickReopenButton();
+			await orderDetailsPage.header.clickReopenButton();
 
-			await reopenModal.clickCancel();
+			await orderDetailsPage.reopenModal.clickCancel();
 
-			const orderData = await orderDetailsHeaderPage.getOrderStatus();
+			const orderData = await orderDetailsPage.header.getOrderStatus();
 
 			await expect(orderData[0]?.value).toEqual((await newOrder).status);
 		},
@@ -88,17 +82,17 @@ test.describe("[UI] [Orders] [reopenOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ reopenModal, ordersApiService, ordersDetailsUIService, orderDetailsHeaderPage }) => {
+		async ({ ordersApiService, ordersDetailsUIService, orderDetailsPage }) => {
 			const newOrder = ordersApiService.cancelOrderInProgress(token, 1);
 			const orderId = (await newOrder)._id;
 
 			await ordersDetailsUIService.open(orderId);
 
-			await orderDetailsHeaderPage.clickReopenButton();
+			await orderDetailsPage.header.clickReopenButton();
 
-			await reopenModal.clickClose();
+			await orderDetailsPage.reopenModal.clickClose();
 
-			const orderData = await orderDetailsHeaderPage.getOrderStatus();
+			const orderData = await orderDetailsPage.header.getOrderStatus();
 
 			await expect(orderData[0]?.value).toEqual((await newOrder).status);
 		},

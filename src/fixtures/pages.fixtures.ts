@@ -11,18 +11,8 @@ import { OrdersListUIService } from "ui-services/ordersList.ui-service";
 import { CreateOrderModal } from "pages/orders/createOrder.modal";
 import { AddNewOrderUIService } from "ui-services/addNewOrder.ui-service";
 import { HomeUIService } from "ui-services/home.ui-service";
-import { OrderDetailsHeaderPage } from "pages/orders/orderDetails/orderDetails.header.page";
-import { OrderDetailsBottomPage } from "pages/orders/orderDetails/orderDetails.bottom.page";
-import { OrderDetailsCustomerPage } from "pages/orders/orderDetails/orderDetails.customer.page";
-import { OrderDetailsProductPage } from "pages/orders/orderDetails/orderDetails.product.page";
-import { AssignedManagerModal } from "pages/assignManager.modal";
-import { ConfirmationModal } from "pages/confirmation.modal";
-import { EditDeliveryModal } from "pages/editDelivery";
+import { OrderDetailsPage } from "pages/orders/orderDetails/orderDetails.page";
 import { OrdersDetailsUIService } from "ui-services/orderDetails.ui-service";
-import { ReopenModal } from "pages/reOpenOder.modal";
-import { CancelOrderModal } from "pages/orders/canсelOrder.modal";
-import { EditCustomerModal } from "pages/orders/editCustomer.modal";
-import { EditProductModal } from "pages/orders/editProduct.modal";
 // import { AddNewCustomerPage } from "pages/customers/addNewCustomer.page";
 // import { CustomersListPage } from "pages/customers/customersList.page";
 // import { AddNewProductPage } from "pages/products/addNewProduct.page";
@@ -43,21 +33,10 @@ export interface IPages {
 	// editProductPage: EditProductPage;
 	// addNewCustomerPage: AddNewCustomerPage;
 	// customersListPage: CustomersListPage;
-	editCustomerModal: EditCustomerModal;
-	editProductModal: EditProductModal;
-	cancelOrderModal: CancelOrderModal;
 	ordersListPage: OrdersListPage;
-
-	orderDetailsHeaderPage: OrderDetailsHeaderPage;
-	orderDetailsCustomerPage: OrderDetailsCustomerPage;
-	orderDetailsProductPage: OrderDetailsProductPage;
-	assignedManagerModal: AssignedManagerModal;
-	confirmationModal: ConfirmationModal;
-	editDeliveryModal: EditDeliveryModal;
+	orderDetailsPage: OrderDetailsPage;
 	addNewOrderPage: CreateOrderModal;
-	orderDetailsBottomPage: OrderDetailsBottomPage;
 	createOrderModal: CreateOrderModal;
-	reopenModal: ReopenModal;
 
 	//ui-services
 	homeUIService: HomeUIService;
@@ -105,46 +84,12 @@ export const test = base.extend<IPages>({
 		await use(new OrdersListPage(page));
 	},
 
-	orderDetailsHeaderPage: async ({ page }, use) => {
-		await use(new OrderDetailsHeaderPage(page));
-	},
-	orderDetailsBottomPage: async ({ page }, use) => {
-		await use(new OrderDetailsBottomPage(page));
-	},
-	orderDetailsCustomerPage: async ({ page }, use) => {
-		await use(new OrderDetailsCustomerPage(page));
-	},
-	orderDetailsProductPage: async ({ page }, use) => {
-		await use(new OrderDetailsProductPage(page));
-	},
-	assignedManagerModal: async ({ page }, use) => {
-		await use(new AssignedManagerModal(page));
-	},
-	confirmationModal: async ({ page }, use) => {
-		await use(new ConfirmationModal(page));
-	},
-	editDeliveryModal: async ({ page }, use) => {
-		await use(new EditDeliveryModal(page));
+	orderDetailsPage: async ({ page }, use) => {
+		await use(new OrderDetailsPage(page));
 	},
 
 	createOrderModal: async ({ page }, use) => {
 		await use(new CreateOrderModal(page));
-	},
-
-	reopenModal: async ({ page }, use) => {
-		await use(new ReopenModal(page));
-	},
-
-	editCustomerModal: async ({ page }, use) => {
-		await use(new EditCustomerModal(page));
-	},
-
-	editProductModal: async ({ page }, use) => {
-		await use(new EditProductModal(page));
-	},
-
-	cancelOrderModal: async ({ page }, use) => {
-		await use(new CancelOrderModal(page));
 	},
 
 	// //ui-services

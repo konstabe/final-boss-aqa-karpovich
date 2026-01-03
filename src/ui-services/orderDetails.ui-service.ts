@@ -1,37 +1,37 @@
 import { Page } from "@playwright/test";
 import { ModalsOnOrderDetails } from "data/types/order.types";
-import { OrderDetailsHeaderPage } from "pages/orders/orderDetails/orderDetails.header.page";
+import { OrderDetailsPage } from "pages/orders/orderDetails/orderDetails.page";
 import { logStep } from "utils/report/logStep.utils";
 
 export class OrdersDetailsUIService {
-	orderDetailsHeaderPage: OrderDetailsHeaderPage;
+	orderDetailsPage: OrderDetailsPage;
 
 	constructor(private page: Page) {
-		this.orderDetailsHeaderPage = new OrderDetailsHeaderPage(page);
+		this.orderDetailsPage = new OrderDetailsPage(page);
 	}
 
 	@logStep("Open Orders Details Page by order id")
 	async open(orderId: string) {
-		await this.orderDetailsHeaderPage.open(`orders/${orderId}`);
-		await this.orderDetailsHeaderPage.waitForOpened();
+		await this.orderDetailsPage.open(`orders/${orderId}`);
+		await this.orderDetailsPage.waitForOpened();
 	}
 
 	@logStep("Open Process Order Modal on Order Details Page")
 	async openProcessOrderModal() {
-		await this.orderDetailsHeaderPage.clickProcessOrder();
-		await this.orderDetailsHeaderPage.processOrderModal.waitForOpened();
+		await this.orderDetailsPage.header.clickProcessOrder();
+		await this.orderDetailsPage.processOrderModal.waitForOpened();
 	}
 
 	@logStep("Close modal by clicking on Close button")
 	async closeModal(modalName: ModalsOnOrderDetails) {
-		const modal = this.orderDetailsHeaderPage[modalName];
+		const modal = this.orderDetailsPage[modalName];
 		await modal.clickClose();
 		await modal.waitForClosed();
 	}
 
 	@logStep("Close modal by clicking on Cancel button")
 	async cancelModal(modalName: ModalsOnOrderDetails) {
-		const modal = this.orderDetailsHeaderPage[modalName];
+		const modal = this.orderDetailsPage[modalName];
 		await modal.clickCancel();
 		await modal.waitForClosed();
 	}

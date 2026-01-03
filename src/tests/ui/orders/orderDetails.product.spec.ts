@@ -17,9 +17,9 @@ test.describe("[UI] [Orders] [Details] [Product]", () => {
 		productIds = order.products.map((product) => product._id);
 	});
 
-	test.beforeEach(async ({ orderDetailsProductPage }) => {
-		await orderDetailsProductPage.open(`orders/${orderId}`);
-		await orderDetailsProductPage.waitForOpened();
+	test.beforeEach(async ({ orderDetailsPage }) => {
+		await orderDetailsPage.open(`orders/${orderId}`);
+		await orderDetailsPage.waitForOpened();
 	});
 
 	test.afterAll(async ({ ordersApiService, customersApiService, productsApiService }) => {
@@ -41,19 +41,19 @@ test.describe("[UI] [Orders] [Details] [Product]", () => {
 	test(
 		"Should display product section and edit button",
 		{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
-		async ({ orderDetailsProductPage }) => {
-			await expect(orderDetailsProductPage.productSection).toBeVisible();
-			await expect(orderDetailsProductPage.editProductsButton).toBeVisible();
+		async ({ orderDetailsPage }) => {
+			await expect(orderDetailsPage.product.productSection).toBeVisible();
+			await expect(orderDetailsPage.product.editProductsButton).toBeVisible();
 		},
 	);
 
 	test(
 		"Should show product details",
 		{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
-		async ({ orderDetailsProductPage }) => {
-			const headerIndex = (await orderDetailsProductPage.productDetailsHeader(0).count()) > 0 ? 0 : 1;
-			await orderDetailsProductPage.changeStateProductDetailsById(headerIndex);
-			const details = await orderDetailsProductPage.getProductDetails();
+		async ({ orderDetailsPage }) => {
+			const headerIndex = (await orderDetailsPage.product.productDetailsHeader(0).count()) > 0 ? 0 : 1;
+			await orderDetailsPage.product.changeStateProductDetailsById(headerIndex);
+			const details = await orderDetailsPage.product.getProductDetails();
 			const labels = details.map((item) => item.label);
 
 			expect(labels).toContain("Name");

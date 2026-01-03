@@ -23,22 +23,24 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ mock, cancelOrderModal, orderDetailsHeaderPage, ordersDetailsUIService }) => {
+		async ({ mock, orderDetailsPage, ordersDetailsUIService }) => {
 			const order = generateOrderDetailsMockWithDelivery(ORDER_STATUS.DRAFT, false);
 			await mock.orderDetailsPage(order);
 			const orderId = order.Order._id;
 
 			await ordersDetailsUIService.open(orderId);
 
-			await orderDetailsHeaderPage.clickCancelOrderButton();
+			await orderDetailsPage.header.clickCancelOrderButton();
 
-			await expect(cancelOrderModal.uniqueElement).toHaveText("Are you sure you want to cancel the order?");
-			await expect(cancelOrderModal.cancelButton).toBeVisible();
-			await expect(cancelOrderModal.closeModal).toBeVisible();
-			await expect(cancelOrderModal.yesCancelButton).toBeVisible();
+			await expect(orderDetailsPage.cancelOrderModal.uniqueElement).toHaveText(
+				"Are you sure you want to cancel the order?",
+			);
+			await expect(orderDetailsPage.cancelOrderModal.cancelButton).toBeVisible();
+			await expect(orderDetailsPage.cancelOrderModal.closeModal).toBeVisible();
+			await expect(orderDetailsPage.cancelOrderModal.yesCancelButton).toBeVisible();
 
-			await cancelOrderModal.clickYesCancel();
-			await expect(cancelOrderModal.modalBody).not.toBeVisible();
+			await orderDetailsPage.cancelOrderModal.clickYesCancel();
+			await expect(orderDetailsPage.cancelOrderModal.modalBody).not.toBeVisible();
 		},
 	);
 
@@ -47,24 +49,18 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({
-			cancelOrderModal,
-			orderDetailsProductPage,
-			orderDetailsHeaderPage,
-			ordersApiService,
-			ordersDetailsUIService,
-		}) => {
+		async ({ orderDetailsPage, ordersApiService, ordersDetailsUIService }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 
 			const orderId = (await newOrder)._id;
 
 			await ordersDetailsUIService.open(orderId);
 
-			await orderDetailsHeaderPage.clickCancelOrderButton();
+			await orderDetailsPage.header.clickCancelOrderButton();
 
-			await cancelOrderModal.clickYesCancel();
+			await orderDetailsPage.cancelOrderModal.clickYesCancel();
 
-			await expect(orderDetailsProductPage.toastMessage).toContainText(NOTIFICATIONS.ORDER_CANCELED);
+			await expect(orderDetailsPage.product.toastMessage).toContainText(NOTIFICATIONS.ORDER_CANCELED);
 		},
 	);
 
@@ -73,17 +69,17 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersDetailsUIService, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsPage }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 
 			const orderId = (await newOrder)._id;
 
 			await ordersDetailsUIService.open(orderId);
 
-			await orderDetailsHeaderPage.clickCancelOrderButton();
+			await orderDetailsPage.header.clickCancelOrderButton();
 
-			await cancelOrderModal.clickCloseModal();
-			await expect(cancelOrderModal.modalBody).not.toBeVisible();
+			await orderDetailsPage.cancelOrderModal.clickCloseModal();
+			await expect(orderDetailsPage.cancelOrderModal.modalBody).not.toBeVisible();
 		},
 	);
 
@@ -92,17 +88,17 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersDetailsUIService, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsPage }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 
 			const orderId = (await newOrder)._id;
 
 			await ordersDetailsUIService.open(orderId);
 
-			await orderDetailsHeaderPage.clickCancelOrderButton();
+			await orderDetailsPage.header.clickCancelOrderButton();
 
-			await cancelOrderModal.clickCancel();
-			await expect(cancelOrderModal.modalBody).not.toBeVisible();
+			await orderDetailsPage.cancelOrderModal.clickCancel();
+			await expect(orderDetailsPage.cancelOrderModal.modalBody).not.toBeVisible();
 		},
 	);
 
@@ -111,23 +107,23 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersDetailsUIService, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsPage }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 
 			const orderId = (await newOrder)._id;
 
 			await ordersDetailsUIService.open(orderId);
 
-			const orderStatusDraft = await orderDetailsHeaderPage.getOrderStatus();
+			const orderStatusDraft = await orderDetailsPage.header.getOrderStatus();
 			await expect(orderStatusDraft[0]?.value).toEqual("Draft");
 
-			await orderDetailsHeaderPage.clickCancelOrderButton();
+			await orderDetailsPage.header.clickCancelOrderButton();
 
-			await cancelOrderModal.clickYesCancel();
+			await orderDetailsPage.cancelOrderModal.clickYesCancel();
 
-			await orderDetailsHeaderPage.waitForOpened();
+			await orderDetailsPage.waitForOpened();
 
-			const orderStatus = await orderDetailsHeaderPage.getOrderStatus();
+			const orderStatus = await orderDetailsPage.header.getOrderStatus();
 
 			await expect(orderStatus[0]?.value).toEqual("Canceled");
 		},
@@ -138,15 +134,15 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersDetailsUIService, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsPage }) => {
 			const newOrder = ordersApiService.processOrder(token, 1);
 			const orderId = (await newOrder)._id;
 
 			await ordersDetailsUIService.open(orderId);
 
-			await orderDetailsHeaderPage.clickCancelOrderButton();
+			await orderDetailsPage.header.clickCancelOrderButton();
 
-			await cancelOrderModal.clickYesCancel();
+			await orderDetailsPage.cancelOrderModal.clickYesCancel();
 		},
 	);
 
@@ -155,15 +151,15 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersDetailsUIService, ordersApiService, cancelOrderModal, orderDetailsHeaderPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsPage }) => {
 			const newOrder = ordersApiService.reopenOrderInProgress(token, 1);
 			const orderId = (await newOrder)._id;
 
 			await ordersDetailsUIService.open(orderId);
 
-			await orderDetailsHeaderPage.clickCancelOrderButton();
+			await orderDetailsPage.header.clickCancelOrderButton();
 
-			await cancelOrderModal.clickYesCancel();
+			await orderDetailsPage.cancelOrderModal.clickYesCancel();
 		},
 	);
 
@@ -172,13 +168,13 @@ test.describe("[UI] [Orders] [cancelOrderModal]", () => {
 		{
 			tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersDetailsUIService, ordersApiService, orderDetailsHeaderPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsPage }) => {
 			const newOrder = ordersApiService.allReceived(token, 1);
 			const orderId = (await newOrder)._id;
 
 			await ordersDetailsUIService.open(orderId);
 
-			await expect(orderDetailsHeaderPage.cancelOrderButton).not.toBeVisible();
+			await expect(orderDetailsPage.header.cancelOrderButton).not.toBeVisible();
 		},
 	);
 });

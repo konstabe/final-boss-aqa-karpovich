@@ -19,9 +19,9 @@ test.describe("[UI] [Orders] [Details] [Customer]", () => {
 		productIds = order.products.map((product) => product._id);
 	});
 
-	test.beforeEach(async ({ orderDetailsCustomerPage }) => {
-		await orderDetailsCustomerPage.open(`orders/${orderId}`);
-		await orderDetailsCustomerPage.waitForOpened();
+	test.beforeEach(async ({ orderDetailsPage }) => {
+		await orderDetailsPage.open(`orders/${orderId}`);
+		await orderDetailsPage.waitForOpened();
 	});
 
 	test.afterAll(async ({ ordersApiService, customersApiService, productsApiService }) => {
@@ -44,17 +44,17 @@ test.describe("[UI] [Orders] [Details] [Customer]", () => {
 	test(
 		"Should display customer section and edit button",
 		{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
-		async ({ orderDetailsCustomerPage }) => {
-			await expect(orderDetailsCustomerPage.customerSection).toBeVisible();
-			await expect(orderDetailsCustomerPage.editCustomerButton).toBeVisible();
+		async ({ orderDetailsPage }) => {
+			await expect(orderDetailsPage.customer.customerSection).toBeVisible();
+			await expect(orderDetailsPage.customer.editCustomerButton).toBeVisible();
 		},
 	);
 
 	test(
 		"Should show customer details",
 		{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
-		async ({ orderDetailsCustomerPage }) => {
-			const details = await orderDetailsCustomerPage.getCustomerDetails();
+		async ({ orderDetailsPage }) => {
+			const details = await orderDetailsPage.customer.getCustomerDetails();
 			const labels = details.map((item) => item.label);
 
 			expect(labels).toContain("Email");
