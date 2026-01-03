@@ -3,17 +3,30 @@ import { STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";
 
 test.describe("[API] [Sales Portal] [Products]", () => {
+	let token = "";
+	let productId = "";
+
+	test.afterEach(async ({ productsApi }) => {
+		if (!token || !productId) return;
+
+		const response = await productsApi.delete(productId, token);
+		if (![STATUS_CODES.DELETED, STATUS_CODES.NOT_FOUND].includes(response.status)) {
+			throw new Error(`Cleanup failed for product ${productId}: ${response.status}`);
+		}
+		productId = "";
+	});
+
 	test(
 		"Delete Product",
 		{
 			tag: [TAGS.PRODUCTS, TAGS.SMOKE],
 		},
 		async ({ loginApiService, productsApiService, productsApi }) => {
-			const token = await loginApiService.loginAsAdmin();
+			token = await loginApiService.loginAsAdmin();
 			const createdProduct = await productsApiService.create(token);
-			const id = createdProduct._id;
+			productId = createdProduct._id;
 
-			const response = await productsApi.delete(id, token);
+			const response = await productsApi.delete(productId, token);
 
 			expect(response.status).toBe(STATUS_CODES.DELETED);
 		},
@@ -25,15 +38,15 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 			tag: [TAGS.PRODUCTS, TAGS.REGRESSION],
 		},
 		async ({ loginApiService, productsApiService, productsApi }) => {
-			const token = await loginApiService.loginAsAdmin();
+			token = await loginApiService.loginAsAdmin();
 
 			const createdProduct = await productsApiService.create(token);
-			const id = createdProduct._id;
+			productId = createdProduct._id;
 
-			const responsefirst = await productsApi.delete(id, token);
+			const responsefirst = await productsApi.delete(productId, token);
 			expect(responsefirst.status).toBe(STATUS_CODES.DELETED);
 
-			const response = await productsApi.delete(id, token);
+			const response = await productsApi.delete(productId, token);
 			expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
 		},
 	);
@@ -44,12 +57,12 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 			tag: [TAGS.PRODUCTS, TAGS.REGRESSION],
 		},
 		async ({ loginApiService, productsApiService, productsApi }) => {
-			const token = await loginApiService.loginAsAdmin();
+			token = await loginApiService.loginAsAdmin();
 
 			const createdProduct = await productsApiService.create(token);
-			const id = createdProduct._id;
+			productId = createdProduct._id;
 
-			const responsefirst = await productsApi.delete(id, "");
+			const responsefirst = await productsApi.delete(productId, "");
 			expect(responsefirst.status).toBe(STATUS_CODES.UNAUTHORIZED);
 		},
 	);

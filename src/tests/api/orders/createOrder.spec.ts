@@ -6,13 +6,27 @@ import { IOrder } from "data/types/order.types.js";
 
 test.describe("Create order", () => {
 	let token = "";
+	let extraCustomerIds: string[] = [];
+	let extraProductIds: string[] = [];
 
 	test.beforeAll(async ({ loginApiService }) => {
 		token = await loginApiService.loginAsAdmin();
 	});
 
-	test.afterEach(async ({ ordersApiService }) => {
+	test.afterEach(async ({ ordersApiService, productsApiService, customersApiService }) => {
 		await ordersApiService.fullDelete(token);
+		if (extraProductIds.length) {
+			for (const id of extraProductIds) {
+				await productsApiService.delete(token, id);
+			}
+			extraProductIds = [];
+		}
+		if (extraCustomerIds.length) {
+			for (const id of extraCustomerIds) {
+				await customersApiService.delete(id, token);
+			}
+			extraCustomerIds = [];
+		}
 	});
 
 	test("create order successfully", { tag: TAGS.API }, async ({ ordersApiService }) => {
@@ -50,6 +64,7 @@ test.describe("Create order", () => {
 
 	test("create order with invalid customer id", { tag: TAGS.API }, async ({ ordersApi, productsApiService }) => {
 		const product = await productsApiService.create(token);
+		extraProductIds.push(product._id);
 
 		const response = await ordersApi.create(
 			{
@@ -66,6 +81,7 @@ test.describe("Create order", () => {
 
 	test("create order with empty products list", { tag: TAGS.API }, async ({ customersApiService, ordersApi }) => {
 		const customer = await customersApiService.create(token);
+		extraCustomerIds.push(customer._id);
 
 		const response = await ordersApi.create(
 			{

@@ -11,11 +11,16 @@ import { positiveCasesProductCreate } from "data/products/createProductPositive.
 import { TAGS } from "data/tags";
 
 test.describe("[API] [Sales Portal] [Products]", () => {
-	let id = "";
+	let ids: string[] = [];
 	let token = "";
 
 	test.afterEach(async ({ productsApiService }) => {
-		await productsApiService.delete(token, id);
+		if (ids.length) {
+			for (const id of ids) {
+				await productsApiService.delete(token, id);
+			}
+			ids = [];
+		}
 	});
 
 	test(
@@ -26,10 +31,10 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 		async ({ loginApiService, productsApiService, productsApi }) => {
 			token = await loginApiService.loginAsAdmin();
 			const createdProduct = await productsApiService.create(token);
-			id = createdProduct._id;
+			ids.push(createdProduct._id);
 
 			const updatedProductData = generateProductData();
-			const updatedProductResponse = await productsApi.update(id, updatedProductData, "");
+			const updatedProductResponse = await productsApi.update(createdProduct._id, updatedProductData, "");
 			console.log("updatedProductResponse", updatedProductResponse);
 
 			validateResponse(updatedProductResponse, {
@@ -48,12 +53,11 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 			token = await loginApiService.loginAsAdmin();
 			const createdProduct = await productsApiService.create(token);
 			const secondProduct = await productsApiService.create(token);
-			id = createdProduct._id;
-			const id2 = secondProduct._id;
+			ids.push(createdProduct._id, secondProduct._id);
 
 			const updatedProductData = generateProductData({ name: secondProduct.name });
 
-			const updatedProductResponse = await productsApi.update(id, updatedProductData, token);
+			const updatedProductResponse = await productsApi.update(createdProduct._id, updatedProductData, token);
 
 			validateResponse(updatedProductResponse, {
 				status: STATUS_CODES.CONFLICT,
@@ -61,7 +65,6 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 				IsSuccess: false,
 				ErrorMessage: `Product with name '${secondProduct.name}' already exists`,
 			});
-			productsApiService.delete(token, id2);
 		},
 	);
 
@@ -74,11 +77,15 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 			async ({ loginApiService, productsApiService, productsApi }) => {
 				token = await loginApiService.loginAsAdmin();
 				const createdProduct = await productsApiService.create(token);
-				id = createdProduct._id;
+				ids.push(createdProduct._id);
 
 				const productData = { ...generateProductData(), ...testData };
 
-				const response = await productsApi.update(id, productData as unknown as IProduct, token);
+				const response = await productsApi.update(
+					createdProduct._id,
+					productData as unknown as IProduct,
+					token,
+				);
 
 				validateResponse(response, {
 					status: STATUS_CODES.BAD_REQUEST,
@@ -98,11 +105,15 @@ test.describe("[API] [Sales Portal] [Products]", () => {
 			async ({ loginApiService, productsApiService, productsApi }) => {
 				token = await loginApiService.loginAsAdmin();
 				const createdProduct = await productsApiService.create(token);
-				id = createdProduct._id;
+				ids.push(createdProduct._id);
 
 				const productData = { ...generateProductData(), ...testData };
 
-				const response = await productsApi.update(id, productData as unknown as IProduct, token);
+				const response = await productsApi.update(
+					createdProduct._id,
+					productData as unknown as IProduct,
+					token,
+				);
 
 				validateResponse(response, {
 					status: STATUS_CODES.OK,

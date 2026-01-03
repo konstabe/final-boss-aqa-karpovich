@@ -17,13 +17,15 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign a manager from an order]"
 		await ordersApiService.fullDelete(token);
 	});
 
-	test("Unassign a manager", async ({ customersApiService, productsApi, ordersApi }) => {
+	test("Unassign a manager", async ({ customersApiService, productsApi, ordersApi, ordersApiService }) => {
 		const customer = await customersApiService.create(token);
 		const id_customer = customer._id;
+		ordersApiService.customersIds.push(id_customer);
 
 		const createdProduct = await productsApi.create(generateProductData(), token);
 
 		const id_product = createdProduct.body.Product._id;
+		ordersApiService.productsIds.push(id_product);
 
 		const orderData: IOrder = {
 			customer: id_customer,
@@ -32,6 +34,7 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign a manager from an order]"
 
 		const createOrderForCustomer = await ordersApi.create(orderData, token);
 		const id_order = createOrderForCustomer.body.Order._id;
+		ordersApiService.ordersIds.push(id_order);
 
 		const manager_id = "692337cd1c508c5d5e95332d";
 		await ordersApi.assignManagerToOrder(id_order, manager_id, token);
@@ -48,13 +51,20 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign a manager from an order]"
 		expect(unAssignManager.body.Order.assignedManager ?? null).toBeNull();
 	});
 
-	test("Unassign a manager without TOKEN", async ({ customersApiService, productsApi, ordersApi }) => {
+	test("Unassign a manager without TOKEN", async ({
+		customersApiService,
+		productsApi,
+		ordersApi,
+		ordersApiService,
+	}) => {
 		const customer = await customersApiService.create(token);
 		const id_customer = customer._id;
+		ordersApiService.customersIds.push(id_customer);
 
 		const createdProduct = await productsApi.create(generateProductData(), token);
 
 		const id_product = createdProduct.body.Product._id;
+		ordersApiService.productsIds.push(id_product);
 
 		const orderData: IOrder = {
 			customer: id_customer,
@@ -63,6 +73,7 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign a manager from an order]"
 
 		const createOrderForCustomer = await ordersApi.create(orderData, token);
 		const id_order = createOrderForCustomer.body.Order._id;
+		ordersApiService.ordersIds.push(id_order);
 
 		const manager_id = "692337cd1c508c5d5e95332d";
 		await ordersApi.assignManagerToOrder(id_order, manager_id, token);

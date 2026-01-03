@@ -16,10 +16,17 @@ test.describe("Get customers all", () => {
 	});
 
 	test.describe("positive", () => {
-		let createdCustomer: ICustomerFromResponse;
+		let createdCustomer: ICustomerFromResponse | null = null;
 
 		test.beforeEach(async ({ customersApiService }) => {
 			createdCustomer = await customersApiService.create(token);
+		});
+
+		test.afterEach(async ({ customersApiService }) => {
+			if (createdCustomer) {
+				await customersApiService.delete(createdCustomer._id, token);
+				createdCustomer = null;
+			}
 		});
 
 		test("get list with created customer", { tag: TAGS.CUSTOMERS }, async ({ customersApiService }) => {
@@ -28,7 +35,11 @@ test.describe("Get customers all", () => {
 			registerSchema(customerSchema);
 			validateJsonSchema(response, customerAllSchema);
 
-			const exists = response.body.Customers.some((c: ICustomerFromResponse) => c._id === createdCustomer._id);
+			if (!createdCustomer) {
+				throw new Error("Created customer is missing");
+			}
+			const createdCustomerId = createdCustomer._id;
+			const exists = response.body.Customers.some((c: ICustomerFromResponse) => c._id === createdCustomerId);
 			expect(exists).toBe(true);
 		});
 

@@ -6,15 +6,26 @@ import { validateResponse } from "utils/validation/validateResponse.utils";
 
 test.describe("Delete customer", () => {
 	let token = "";
+	let createdCustomerId = "";
 
 	test.beforeAll(async ({ loginApiService }) => {
 		token = await loginApiService.loginAsAdmin();
+	});
+
+	test.afterEach(async ({ customersApi }) => {
+		if (!token || !createdCustomerId) return;
+		const response = await customersApi.delete(createdCustomerId, token);
+		if (![STATUS_CODES.DELETED, STATUS_CODES.NOT_FOUND].includes(response.status)) {
+			throw new Error(`Cleanup failed for customer ${createdCustomerId}: ${response.status}`);
+		}
+		createdCustomerId = "";
 	});
 
 	test.describe("positive", () => {
 		test("success", { tag: TAGS.CUSTOMERS }, async ({ customersApiService }) => {
 			const createdCustomer = await customersApiService.create(token);
 			const customerId = createdCustomer._id;
+			createdCustomerId = customerId;
 
 			const response = await customersApiService.delete(customerId, token);
 
@@ -24,6 +35,7 @@ test.describe("Delete customer", () => {
 		test("customer already deleted", { tag: TAGS.CUSTOMERS }, async ({ customersApiService, customersApi }) => {
 			const createdCustomer = await customersApiService.create(token);
 			const customerId = createdCustomer._id;
+			createdCustomerId = customerId;
 			await customersApiService.delete(customerId, token);
 
 			const response = await customersApi.delete(customerId, token);
