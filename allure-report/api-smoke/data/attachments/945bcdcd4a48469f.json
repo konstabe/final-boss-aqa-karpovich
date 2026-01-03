@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:28:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-WKwZNsVyp6maLdznQ5TgHUVT6rA\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69595fdb1c508c5d5e968674",
+        "email": "Grace51@hotmail.com",
+        "name": "Mellie Ondricka",
+        "country": "Russia",
+        "city": "Simi Valley",
+        "street": "Sporer Springs",
+        "house": 4,
+        "flat": 894,
+        "phone": "+19475003184",
+        "createdOn": "2026-01-03T18:28:43.000Z",
+        "notes": "1gNnmSbTd18hBfjGAp6ZWzciFzS8VML29ajutZJMjk9LyG2wmEIg7hYe1BbKe4EG3VhnV1huXFHn0tXoARjjwYMRLoZao6WFZlUq3daWBMi3paTi7kYNP4JzRSZ0sKOpBZSQ2v3k2FhOeJqHuCmw1dFZ9lMF7qYGxVLKTNxBu973fvQCp8cCzifg4U1cAKi4smDJ6B1IqWBpk0K7SoDcOTpdALJA6uJR1DO1v8PLMTxayvWCA5W2vGmYIo"
+      },
+      "products": [
+        {
+          "_id": "69595fdc1c508c5d5e9686a6",
+          "name": "Shoes12170",
+          "amount": 968,
+          "price": 75353,
+          "manufacturer": "Amazon",
+          "notes": "hfUZiXhAdojzOg1cmF7cyFIRqWwPKFACgqxxtSyMu4nk9sRuPKZbqKHBnk0WGNjJiVy69MTuEVkMDT2lQKFTFdcphnl4Gu6POtLYzQ8N3pKd5ZogoYgQKBRI7hJ2VwqqcrY5kDZINzVaCbLlbXsQ05r8lez5UV2wKa53ntzG6VZGArs0q3okStHRrbwJ9VnHdIaXE6vUyeybdYAlUZWupGJ057gEVWebEx0dzWFLK2dn52JmsDexEuihNf",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 75353,
+      "createdOn": "2026-01-03T18:28:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69595fdb1c508c5d5e968674",
+          "products": [
+            {
+              "_id": "69595fdc1c508c5d5e9686a6",
+              "name": "Shoes12170",
+              "amount": 968,
+              "price": 75353,
+              "manufacturer": "Amazon",
+              "notes": "hfUZiXhAdojzOg1cmF7cyFIRqWwPKFACgqxxtSyMu4nk9sRuPKZbqKHBnk0WGNjJiVy69MTuEVkMDT2lQKFTFdcphnl4Gu6POtLYzQ8N3pKd5ZogoYgQKBRI7hJ2VwqqcrY5kDZINzVaCbLlbXsQ05r8lez5UV2wKa53ntzG6VZGArs0q3okStHRrbwJ9VnHdIaXE6vUyeybdYAlUZWupGJ057gEVWebEx0dzWFLK2dn52JmsDexEuihNf",
+              "received": false
+            }
+          ],
+          "total_price": 75353,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:28:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69595fdc1c508c5d5e9686c1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
