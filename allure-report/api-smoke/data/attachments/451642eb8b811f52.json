@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2950",
+    "etag": "W/\"b86-0DVJTpmZS60n0qI7j9OPOyIopAE\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695960aa1c508c5d5e9699cb",
+      "status": "Draft",
+      "customer": {
+        "_id": "695960a91c508c5d5e96992e",
+        "email": "Lexie3@gmail.com",
+        "name": "Nellie Spinka",
+        "country": "Great Britain",
+        "city": "Jesstown",
+        "street": "S 10th Street",
+        "house": 10,
+        "flat": 453,
+        "phone": "+19127697002",
+        "createdOn": "2026-01-03T18:32:09.000Z",
+        "notes": "m1OT5PWq8e9Q9M1xddw8Rz42AvM37nKrmMFWlLL50guNtXSj6uFRUb2jdhPKGcyLnurNDGFzluamH6Q5giYlknm0iMsPcG7NTndWspOjArONrqAuyYd27pcncKwNHUOi6sG3xwUk5TG1LeKM7A4BtbDwLNKZbhcBj2U0UZXZW6QxBOVYUmKK1yAgVJaJb6a6ScFyTAvwkGJH1wf1MvvriWNkJN5j8mRl4jVKz7qetEktf79tBU3GhH7qxj"
+      },
+      "products": [
+        {
+          "_id": "695960aa1c508c5d5e969999",
+          "name": "Shoes73435",
+          "amount": 555,
+          "price": 61700,
+          "manufacturer": "Google",
+          "notes": "dBbivKFVN95EV9Ecd0LQq5a5oOxekECvwTaWRph6dVIUhK8cWmG3htrvPRq9ZmiGceMgZveHHeku1GVFIJM8EbUK9r9LV8CY5PI5ZKPMIJPNQi2U9DmKfsgUYzaUEx8pC8y526dM0POpAf3rH8iES1DsbbwRzvCc6hbKOdWjJ7oWMHY4kBKrIcG2QEvPwwJQTGbDfnnV1MAz3ic7bY9o284FMdJpol2ls79M2KpEjery7f2dsno8pI9nG9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 61700,
+      "createdOn": "2026-01-03T18:32:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695960a91c508c5d5e96992e",
+          "products": [
+            {
+              "_id": "695960aa1c508c5d5e969999",
+              "name": "Shoes73435",
+              "amount": 555,
+              "price": 61700,
+              "manufacturer": "Google",
+              "notes": "dBbivKFVN95EV9Ecd0LQq5a5oOxekECvwTaWRph6dVIUhK8cWmG3htrvPRq9ZmiGceMgZveHHeku1GVFIJM8EbUK9r9LV8CY5PI5ZKPMIJPNQi2U9DmKfsgUYzaUEx8pC8y526dM0POpAf3rH8iES1DsbbwRzvCc6hbKOdWjJ7oWMHY4kBKrIcG2QEvPwwJQTGbDfnnV1MAz3ic7bY9o284FMdJpol2ls79M2KpEjery7f2dsno8pI9nG9",
+              "received": false
+            }
+          ],
+          "total_price": 61700,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:32:11.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695960a91c508c5d5e96992e",
+          "products": [
+            {
+              "_id": "695960aa1c508c5d5e969999",
+              "name": "Shoes73435",
+              "amount": 555,
+              "price": 61700,
+              "manufacturer": "Google",
+              "notes": "dBbivKFVN95EV9Ecd0LQq5a5oOxekECvwTaWRph6dVIUhK8cWmG3htrvPRq9ZmiGceMgZveHHeku1GVFIJM8EbUK9r9LV8CY5PI5ZKPMIJPNQi2U9DmKfsgUYzaUEx8pC8y526dM0POpAf3rH8iES1DsbbwRzvCc6hbKOdWjJ7oWMHY4kBKrIcG2QEvPwwJQTGbDfnnV1MAz3ic7bY9o284FMdJpol2ls79M2KpEjery7f2dsno8pI9nG9",
+              "received": false
+            }
+          ],
+          "total_price": 61700,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:32:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
