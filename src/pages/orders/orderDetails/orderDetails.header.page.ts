@@ -3,11 +3,8 @@ import { SalesPortalPage } from "pages/salesPortal.page";
 import { parseSummaryCell } from "utils/parseCells";
 import { OrderSummaryTitle } from "../common/order.types";
 import { logStep } from "utils/report/logStep.utils";
-import { ProcessOrderModal } from "../processOrder.modal";
 
 export class OrderDetailsHeaderPage extends SalesPortalPage {
-	readonly processOrderModal = new ProcessOrderModal(this.page);
-
 	readonly detailsHeader = this.page.locator("#order-details-header");
 	readonly uniqueElement = this.detailsHeader;
 

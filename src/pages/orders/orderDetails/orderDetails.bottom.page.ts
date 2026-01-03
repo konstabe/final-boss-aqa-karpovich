@@ -11,7 +11,7 @@ export class OrderDetailsBottomPage extends SalesPortalPage {
 	readonly bottomTab = (tab: "delivery-tab" | "history-tab" | "comments-tab") => this.page.locator(`#${tab}`);
 
 	readonly deliveryInfoBlocks = this.page.locator("#delivery .c-details");
-	readonly scheduleDeliveryButton = this.page.locator("#delivery-btn");
+	readonly deliveryButton = this.page.locator("#delivery-btn");
 
 	readonly historySection = this.page.locator("#history");
 	readonly historyBody = this.page.locator("#history-body");
@@ -50,9 +50,21 @@ export class OrderDetailsBottomPage extends SalesPortalPage {
 		);
 	}
 
+	@logStep("Parse delivery information")
+	async parseDeliveryInformation() {
+		const info = await this.getDeliveryInformation();
+		return info.reduce(
+			(acc, { label, value }) => {
+				acc[label] = value;
+				return acc;
+			},
+			{} as Record<string, string>,
+		);
+	}
+
 	@logStep("Open schedule delivery modal")
 	async openScheduleDeliveryModal() {
-		await this.scheduleDeliveryButton.click();
+		await this.deliveryButton.click();
 	}
 
 	@logStep("Get history change by index")
