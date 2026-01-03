@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:00:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2641",
+    "etag": "W/\"a51-W106BtexI6eYJRteUREfaPKU0PA\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69592f061c508c5d5e8d5bdf",
+        "email": "Amely_Doyle@gmail.com",
+        "name": "Sam West",
+        "country": "Ukraine",
+        "city": "Franklin",
+        "street": "Maudie Mews",
+        "house": 47,
+        "flat": 239,
+        "phone": "+18744968309",
+        "createdOn": "2026-01-03T15:00:22.000Z",
+        "notes": "7Fb36NGM67titL6HaXZNUYcSGio0znOBUix99q9Pya4PS5Z8HKhLdVr3U5yb7dLHu08ScjNDwR8rDhoYFWAU4gJeDuSL0k1oFwI6Z2mzicW2QKKL41j4bPNT5vv5TXfiv70eIGzpYkEQY4Syg7ai7l8hlRjEiT5jHSNmtoiDPX7qIE227P51G8lMkMae8J4PVqmJLDcYWzgSIQGBi9FLEpXLMEunXlDjAmzjNUtGIzcpfjGS3lVhvapeUd"
+      },
+      "products": [
+        {
+          "_id": "69592f0c1c508c5d5e8d5c8b",
+          "name": "Pants92854",
+          "amount": 769,
+          "price": 17583,
+          "manufacturer": "Amazon",
+          "notes": "F4FQK1A9E4ypN5FBDLzeqrYHzu8VokOdMJKi27V2ma0Eci7dqpGChcvRUN0NZLItSPAarW6tnrNdZaCpgKZsud9gLDwj8XGLqL2XjKS2PzR1F2OLMCt0cOk1kZ5y9pN4rSdd1yT9QTs9MqWxAusXAxdE7yzrfoxWsbq1YkRxbLOdxuUfMp88Ohfgly8I4cChEFli9jBGq60ND8hnjAirZWeeXe34pMt903NTIdQ9iyrKkpWYZmo4Ze0GD4",
+          "received": false
+        },
+        {
+          "_id": "69592f111c508c5d5e8d5d4f",
+          "name": "Keyboard9206",
+          "amount": 435,
+          "price": 54667,
+          "manufacturer": "Sony",
+          "notes": "HCp7hMYlOOyPsDj0bFdkEZwLp6vAX0uw23UUGWVSpMxE94AVaIg4mJldURTuZsQYU163CuMPfHdX8bG7PkFvsp4TEqu4FZAItlyHOuKw6LeW24SH9h091cj1J5PktDLXzAvWrkQT2njkffAN8nbL0cECYD7EMju1whl9I3m5U5v9tp4gHiMUjejoHtf5RS347PqG6aZ2InZr4Kla1tGQvwDIMA4zG5UgM9331Anuf9aywXcmBLmJdtCG0k",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 72250,
+      "createdOn": "2026-01-03T15:00:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69592f061c508c5d5e8d5bdf",
+          "products": [
+            {
+              "_id": "69592f0c1c508c5d5e8d5c8b",
+              "name": "Pants92854",
+              "amount": 769,
+              "price": 17583,
+              "manufacturer": "Amazon",
+              "notes": "F4FQK1A9E4ypN5FBDLzeqrYHzu8VokOdMJKi27V2ma0Eci7dqpGChcvRUN0NZLItSPAarW6tnrNdZaCpgKZsud9gLDwj8XGLqL2XjKS2PzR1F2OLMCt0cOk1kZ5y9pN4rSdd1yT9QTs9MqWxAusXAxdE7yzrfoxWsbq1YkRxbLOdxuUfMp88Ohfgly8I4cChEFli9jBGq60ND8hnjAirZWeeXe34pMt903NTIdQ9iyrKkpWYZmo4Ze0GD4",
+              "received": false
+            },
+            {
+              "_id": "69592f111c508c5d5e8d5d4f",
+              "name": "Keyboard9206",
+              "amount": 435,
+              "price": 54667,
+              "manufacturer": "Sony",
+              "notes": "HCp7hMYlOOyPsDj0bFdkEZwLp6vAX0uw23UUGWVSpMxE94AVaIg4mJldURTuZsQYU163CuMPfHdX8bG7PkFvsp4TEqu4FZAItlyHOuKw6LeW24SH9h091cj1J5PktDLXzAvWrkQT2njkffAN8nbL0cECYD7EMju1whl9I3m5U5v9tp4gHiMUjejoHtf5RS347PqG6aZ2InZr4Kla1tGQvwDIMA4zG5UgM9331Anuf9aywXcmBLmJdtCG0k",
+              "received": false
+            }
+          ],
+          "total_price": 72250,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:00:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69592f111c508c5d5e8d5d64"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
