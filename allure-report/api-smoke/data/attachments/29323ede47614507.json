@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:59:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1893",
+    "etag": "W/\"765-H0ywBebasQsQBTc7iI8fpmD5cKY\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695912ba1c508c5d5e8724cc",
+        "email": "Greyson.Pouros@yahoo.com",
+        "name": "Kamren Oberbrunner",
+        "country": "Ukraine",
+        "city": "Torphybury",
+        "street": "Dejah Forest",
+        "house": 28,
+        "flat": 752,
+        "phone": "+12375214038",
+        "createdOn": "2026-01-03T12:59:38.000Z",
+        "notes": "YEtEmvgjsm09PLi4eeWzyNMu35FqpdgYMESgTVGp6JYUbvJviLxzY79lzUXVS49tddM21owXq3Ai9YdRWGrqfjlMD5W9dNnFn8ALQ6O5brzSbO4SDjpsdUTFVX2Tmewc3NOrSGCVHsBzIBXf8OK3K2Jj8ZJUFKfnjYy7a5nTTs13mW4k7C3G5FC0CxUZALNh4pXgGJvKclluhmHN7AoiDC7cS0lDz39vRwwrwwYBhGN25T5UwukVyPj2Jy"
+      },
+      "products": [
+        {
+          "_id": "695912be1c508c5d5e87255b",
+          "name": "Computer81927",
+          "amount": 901,
+          "price": 16226,
+          "manufacturer": "Apple",
+          "notes": "TN8f3cl85UlTbTD4WbJ83VbpPdSJQr0TdgoXQ0QSW2k7pUV1FS2C897ussQSeKHwNFNBcSyuVs83jC7ZIc5cxf6UclFzftOE6XC8HgPychrjK13t1pQk5Qbx9Vuxg9Graya7qbMB1bmYs2AlOsl9iqvStPVDal39u0TTvSMkUpD3KYH1d0lPiOIZer4UG7ONSeheVqn4LNhYHmL5npcuXAf2QEY2jojrrncOc0ByfBZtsf0wVgpJItXVAI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 16226,
+      "createdOn": "2026-01-03T12:59:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695912ba1c508c5d5e8724cc",
+          "products": [
+            {
+              "_id": "695912be1c508c5d5e87255b",
+              "name": "Computer81927",
+              "amount": 901,
+              "price": 16226,
+              "manufacturer": "Apple",
+              "notes": "TN8f3cl85UlTbTD4WbJ83VbpPdSJQr0TdgoXQ0QSW2k7pUV1FS2C897ussQSeKHwNFNBcSyuVs83jC7ZIc5cxf6UclFzftOE6XC8HgPychrjK13t1pQk5Qbx9Vuxg9Graya7qbMB1bmYs2AlOsl9iqvStPVDal39u0TTvSMkUpD3KYH1d0lPiOIZer4UG7ONSeheVqn4LNhYHmL5npcuXAf2QEY2jojrrncOc0ByfBZtsf0wVgpJItXVAI",
+              "received": false
+            }
+          ],
+          "total_price": 16226,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:59:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695912be1c508c5d5e872576"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

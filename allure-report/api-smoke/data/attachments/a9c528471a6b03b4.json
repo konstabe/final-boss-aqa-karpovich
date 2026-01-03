@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:59:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1901",
+    "etag": "W/\"76d-qDi3f6lxWJ1Gh3b97KvNs0IgXfo\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695912bd1c508c5d5e8724ff",
+        "email": "Faustino_Swift32@gmail.com",
+        "name": "Flossie Abbott",
+        "country": "Great Britain",
+        "city": "Fort Laurenfort",
+        "street": "South Avenue",
+        "house": 14,
+        "flat": 95,
+        "phone": "+16636611746",
+        "createdOn": "2026-01-03T12:59:41.000Z",
+        "notes": "Jm3MtsILfTXO6D57ukEhV6SptaF2s9SCZCacPUOX5BTpP6FfcOY3cEBpIxodu8k5ZgcmhRvwWSNjBf5UtONVHMlWWv06OxaMYe4uygU4iY0UitGB9a7rmTX7yytJYz1QxKWpMtWLvCXas8S39SWXA8Fst7s1EHpMDCm5P1ypsnaa65ckFMl4k7Vdyls280jC6HRWE765QonBNkxVokEr1nGNsIIMmvKMPadBfyhf8AB9rhRGxO9Q6PvoA9"
+      },
+      "products": [
+        {
+          "_id": "695912c01c508c5d5e872671",
+          "name": "Gloves80932",
+          "amount": 261,
+          "price": 3178,
+          "manufacturer": "Microsoft",
+          "notes": "g4rSk5fjCFf0HOnWeRk5XwUmun2vSXHT94X8vpwi0WPCYhoxaFfKpTmCbebKMpA1br71YNaW7J3yL3CnZG9mLnNmUZK3XgBF9yipJ15doMroWfDcgEhgbuiXBW6QyRRKfcjNKzZPCUmFO2aMSMeRaRyLB7UoxD4Oq090pMA9icWm4dVUSKfb7qjbtzdOFT1cwc70KkkHvB96rRfWwSviDfJ5JTrPDF0pdxZzkzZPqykBzeJLH8GS8dend8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 3178,
+      "createdOn": "2026-01-03T12:59:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695912bd1c508c5d5e8724ff",
+          "products": [
+            {
+              "_id": "695912c01c508c5d5e872671",
+              "name": "Gloves80932",
+              "amount": 261,
+              "price": 3178,
+              "manufacturer": "Microsoft",
+              "notes": "g4rSk5fjCFf0HOnWeRk5XwUmun2vSXHT94X8vpwi0WPCYhoxaFfKpTmCbebKMpA1br71YNaW7J3yL3CnZG9mLnNmUZK3XgBF9yipJ15doMroWfDcgEhgbuiXBW6QyRRKfcjNKzZPCUmFO2aMSMeRaRyLB7UoxD4Oq090pMA9icWm4dVUSKfb7qjbtzdOFT1cwc70KkkHvB96rRfWwSviDfJ5JTrPDF0pdxZzkzZPqykBzeJLH8GS8dend8",
+              "received": false
+            }
+          ],
+          "total_price": 3178,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:59:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695912c01c508c5d5e872684"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

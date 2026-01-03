@@ -1,0 +1,303 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:00:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8627",
+    "etag": "W/\"21b3-W6gWQt/As3IYC+2kEDll3edZGaM\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695912ce1c508c5d5e8729e6",
+      "status": "Received",
+      "customer": {
+        "_id": "695912c21c508c5d5e8726ef",
+        "email": "Luther62@hotmail.com",
+        "name": "Una Harber",
+        "country": "France",
+        "city": "Keeganburgh",
+        "street": "Romaguera Fork",
+        "house": 36,
+        "flat": 542,
+        "phone": "+19792982134",
+        "createdOn": "2026-01-03T12:59:46.000Z",
+        "notes": "lYG4WGOjLzryOlbSq9k9ANkBVnb73Q1I7R5rvnsmSqs4rqdckbtVGCC9tTCKLNG9n1GlprqfiUY4xZOC0YGMIBUj7Qlir3BLEa5TEKGhsEVTmcUxBlEYyDp0fcJs8d6Jx63VBwKlaL8pANla5WjdLF4pZXEsgMP7W1GM4AYFTEGMfmcE9gVHlso5wwPDivQDOKszDkPbRjh1sBtlqWUqZSG6QPZ9bGSg4wrGo8Kt67QT3C5SFkETnSA31b"
+      },
+      "products": [
+        {
+          "_id": "695912c61c508c5d5e87277b",
+          "name": "Shirt65508",
+          "amount": 490,
+          "price": 61506,
+          "manufacturer": "Google",
+          "notes": "YRnCowwMDTIZ5mxlAXmy0mW4NSROOrTQpDj1Jhm8Z7nWUDWSXqWKeXspprEJqGCsjJeIKlCsmafK2YBhgrMy6ynWMmIfLZw6woZj2JcsVWaLThjEFNff8VxJs0xpS2jSzBFiVHY7RpjSYStGbYxxobVxgQePmLfvkEFRvgtwftcmnunl2TTXNaea4KXv7vhCS94vsJ6C4m1aU39ukoWY8S9aPjGMI5Mvn5CP6Bxmbm1sQN3lqOZNApj56M",
+          "received": true
+        },
+        {
+          "_id": "695912c91c508c5d5e872894",
+          "name": "Mouse48126",
+          "amount": 452,
+          "price": 73589,
+          "manufacturer": "Tesla",
+          "notes": "noVGWaZqRh4COvpgbTR150e1g0jpXNcYmuucxkojFbRUg4bTLuwth11o0DC1BCKmYXrjhCLu1LZckOKOG5kdEy5V1ZAE2ewK7eSVXoWBAFIzN6wSqBQcihf0tyaHkFMpvD43G6ceuIfEbRz7d2p8ME2RHHIGucb7zm6yWVmPeR2CgebvyQqxFRJpAP96StkjuqAJZMn8aIYDn55kSwELzc2UUfzqPXaDZbX9C6SCvqg0RA33cPZfXaiC1X",
+          "received": true
+        },
+        {
+          "_id": "695912ce1c508c5d5e8729d3",
+          "name": "Hat66042",
+          "amount": 186,
+          "price": 50718,
+          "manufacturer": "Samsung",
+          "notes": "UsBK4yy8R0UvWuotzBg10AzBf2KM6JlXaG8jlgVgWR60gLZQ63rfX0CgXWqyVna9QlIBC7kejsIIRrUnuosdnKHeDkItyedmUOQ2b3U0Od8l2XkTZLlgsjXUhzJs7duYAYawOgK7uCeeI65nqZWXPeQtcAOAj6P9c7xtrWoBwl3v5vyXY5U9kYJ3uH0sj3D3nTQ1WbveeEvCNm4zrSkS6x1N9Bm71nzB1wkboi6gvOgOv5lnabgyFvNxKZ",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Keeganburgh",
+          "street": "Romaguera Fork",
+          "house": 36,
+          "flat": 542
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 185813,
+      "createdOn": "2026-01-03T12:59:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695912c21c508c5d5e8726ef",
+          "products": [
+            {
+              "_id": "695912c61c508c5d5e87277b",
+              "name": "Shirt65508",
+              "amount": 490,
+              "price": 61506,
+              "manufacturer": "Google",
+              "notes": "YRnCowwMDTIZ5mxlAXmy0mW4NSROOrTQpDj1Jhm8Z7nWUDWSXqWKeXspprEJqGCsjJeIKlCsmafK2YBhgrMy6ynWMmIfLZw6woZj2JcsVWaLThjEFNff8VxJs0xpS2jSzBFiVHY7RpjSYStGbYxxobVxgQePmLfvkEFRvgtwftcmnunl2TTXNaea4KXv7vhCS94vsJ6C4m1aU39ukoWY8S9aPjGMI5Mvn5CP6Bxmbm1sQN3lqOZNApj56M",
+              "received": true
+            },
+            {
+              "_id": "695912c91c508c5d5e872894",
+              "name": "Mouse48126",
+              "amount": 452,
+              "price": 73589,
+              "manufacturer": "Tesla",
+              "notes": "noVGWaZqRh4COvpgbTR150e1g0jpXNcYmuucxkojFbRUg4bTLuwth11o0DC1BCKmYXrjhCLu1LZckOKOG5kdEy5V1ZAE2ewK7eSVXoWBAFIzN6wSqBQcihf0tyaHkFMpvD43G6ceuIfEbRz7d2p8ME2RHHIGucb7zm6yWVmPeR2CgebvyQqxFRJpAP96StkjuqAJZMn8aIYDn55kSwELzc2UUfzqPXaDZbX9C6SCvqg0RA33cPZfXaiC1X",
+              "received": true
+            },
+            {
+              "_id": "695912ce1c508c5d5e8729d3",
+              "name": "Hat66042",
+              "amount": 186,
+              "price": 50718,
+              "manufacturer": "Samsung",
+              "notes": "UsBK4yy8R0UvWuotzBg10AzBf2KM6JlXaG8jlgVgWR60gLZQ63rfX0CgXWqyVna9QlIBC7kejsIIRrUnuosdnKHeDkItyedmUOQ2b3U0Od8l2XkTZLlgsjXUhzJs7duYAYawOgK7uCeeI65nqZWXPeQtcAOAj6P9c7xtrWoBwl3v5vyXY5U9kYJ3uH0sj3D3nTQ1WbveeEvCNm4zrSkS6x1N9Bm71nzB1wkboi6gvOgOv5lnabgyFvNxKZ",
+              "received": true
+            }
+          ],
+          "total_price": 185813,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Keeganburgh",
+              "street": "Romaguera Fork",
+              "house": 36,
+              "flat": 542
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T12:59:59.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695912c21c508c5d5e8726ef",
+          "products": [
+            {
+              "_id": "695912c61c508c5d5e87277b",
+              "name": "Shirt65508",
+              "amount": 490,
+              "price": 61506,
+              "manufacturer": "Google",
+              "notes": "YRnCowwMDTIZ5mxlAXmy0mW4NSROOrTQpDj1Jhm8Z7nWUDWSXqWKeXspprEJqGCsjJeIKlCsmafK2YBhgrMy6ynWMmIfLZw6woZj2JcsVWaLThjEFNff8VxJs0xpS2jSzBFiVHY7RpjSYStGbYxxobVxgQePmLfvkEFRvgtwftcmnunl2TTXNaea4KXv7vhCS94vsJ6C4m1aU39ukoWY8S9aPjGMI5Mvn5CP6Bxmbm1sQN3lqOZNApj56M",
+              "received": false
+            },
+            {
+              "_id": "695912c91c508c5d5e872894",
+              "name": "Mouse48126",
+              "amount": 452,
+              "price": 73589,
+              "manufacturer": "Tesla",
+              "notes": "noVGWaZqRh4COvpgbTR150e1g0jpXNcYmuucxkojFbRUg4bTLuwth11o0DC1BCKmYXrjhCLu1LZckOKOG5kdEy5V1ZAE2ewK7eSVXoWBAFIzN6wSqBQcihf0tyaHkFMpvD43G6ceuIfEbRz7d2p8ME2RHHIGucb7zm6yWVmPeR2CgebvyQqxFRJpAP96StkjuqAJZMn8aIYDn55kSwELzc2UUfzqPXaDZbX9C6SCvqg0RA33cPZfXaiC1X",
+              "received": false
+            },
+            {
+              "_id": "695912ce1c508c5d5e8729d3",
+              "name": "Hat66042",
+              "amount": 186,
+              "price": 50718,
+              "manufacturer": "Samsung",
+              "notes": "UsBK4yy8R0UvWuotzBg10AzBf2KM6JlXaG8jlgVgWR60gLZQ63rfX0CgXWqyVna9QlIBC7kejsIIRrUnuosdnKHeDkItyedmUOQ2b3U0Od8l2XkTZLlgsjXUhzJs7duYAYawOgK7uCeeI65nqZWXPeQtcAOAj6P9c7xtrWoBwl3v5vyXY5U9kYJ3uH0sj3D3nTQ1WbveeEvCNm4zrSkS6x1N9Bm71nzB1wkboi6gvOgOv5lnabgyFvNxKZ",
+              "received": false
+            }
+          ],
+          "total_price": 185813,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Keeganburgh",
+              "street": "Romaguera Fork",
+              "house": 36,
+              "flat": 542
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T12:59:59.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695912c21c508c5d5e8726ef",
+          "products": [
+            {
+              "_id": "695912c61c508c5d5e87277b",
+              "name": "Shirt65508",
+              "amount": 490,
+              "price": 61506,
+              "manufacturer": "Google",
+              "notes": "YRnCowwMDTIZ5mxlAXmy0mW4NSROOrTQpDj1Jhm8Z7nWUDWSXqWKeXspprEJqGCsjJeIKlCsmafK2YBhgrMy6ynWMmIfLZw6woZj2JcsVWaLThjEFNff8VxJs0xpS2jSzBFiVHY7RpjSYStGbYxxobVxgQePmLfvkEFRvgtwftcmnunl2TTXNaea4KXv7vhCS94vsJ6C4m1aU39ukoWY8S9aPjGMI5Mvn5CP6Bxmbm1sQN3lqOZNApj56M",
+              "received": false
+            },
+            {
+              "_id": "695912c91c508c5d5e872894",
+              "name": "Mouse48126",
+              "amount": 452,
+              "price": 73589,
+              "manufacturer": "Tesla",
+              "notes": "noVGWaZqRh4COvpgbTR150e1g0jpXNcYmuucxkojFbRUg4bTLuwth11o0DC1BCKmYXrjhCLu1LZckOKOG5kdEy5V1ZAE2ewK7eSVXoWBAFIzN6wSqBQcihf0tyaHkFMpvD43G6ceuIfEbRz7d2p8ME2RHHIGucb7zm6yWVmPeR2CgebvyQqxFRJpAP96StkjuqAJZMn8aIYDn55kSwELzc2UUfzqPXaDZbX9C6SCvqg0RA33cPZfXaiC1X",
+              "received": false
+            },
+            {
+              "_id": "695912ce1c508c5d5e8729d3",
+              "name": "Hat66042",
+              "amount": 186,
+              "price": 50718,
+              "manufacturer": "Samsung",
+              "notes": "UsBK4yy8R0UvWuotzBg10AzBf2KM6JlXaG8jlgVgWR60gLZQ63rfX0CgXWqyVna9QlIBC7kejsIIRrUnuosdnKHeDkItyedmUOQ2b3U0Od8l2XkTZLlgsjXUhzJs7duYAYawOgK7uCeeI65nqZWXPeQtcAOAj6P9c7xtrWoBwl3v5vyXY5U9kYJ3uH0sj3D3nTQ1WbveeEvCNm4zrSkS6x1N9Bm71nzB1wkboi6gvOgOv5lnabgyFvNxKZ",
+              "received": false
+            }
+          ],
+          "total_price": 185813,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Keeganburgh",
+              "street": "Romaguera Fork",
+              "house": 36,
+              "flat": 542
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T12:59:58.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695912c21c508c5d5e8726ef",
+          "products": [
+            {
+              "_id": "695912c61c508c5d5e87277b",
+              "name": "Shirt65508",
+              "amount": 490,
+              "price": 61506,
+              "manufacturer": "Google",
+              "notes": "YRnCowwMDTIZ5mxlAXmy0mW4NSROOrTQpDj1Jhm8Z7nWUDWSXqWKeXspprEJqGCsjJeIKlCsmafK2YBhgrMy6ynWMmIfLZw6woZj2JcsVWaLThjEFNff8VxJs0xpS2jSzBFiVHY7RpjSYStGbYxxobVxgQePmLfvkEFRvgtwftcmnunl2TTXNaea4KXv7vhCS94vsJ6C4m1aU39ukoWY8S9aPjGMI5Mvn5CP6Bxmbm1sQN3lqOZNApj56M",
+              "received": false
+            },
+            {
+              "_id": "695912c91c508c5d5e872894",
+              "name": "Mouse48126",
+              "amount": 452,
+              "price": 73589,
+              "manufacturer": "Tesla",
+              "notes": "noVGWaZqRh4COvpgbTR150e1g0jpXNcYmuucxkojFbRUg4bTLuwth11o0DC1BCKmYXrjhCLu1LZckOKOG5kdEy5V1ZAE2ewK7eSVXoWBAFIzN6wSqBQcihf0tyaHkFMpvD43G6ceuIfEbRz7d2p8ME2RHHIGucb7zm6yWVmPeR2CgebvyQqxFRJpAP96StkjuqAJZMn8aIYDn55kSwELzc2UUfzqPXaDZbX9C6SCvqg0RA33cPZfXaiC1X",
+              "received": false
+            },
+            {
+              "_id": "695912ce1c508c5d5e8729d3",
+              "name": "Hat66042",
+              "amount": 186,
+              "price": 50718,
+              "manufacturer": "Samsung",
+              "notes": "UsBK4yy8R0UvWuotzBg10AzBf2KM6JlXaG8jlgVgWR60gLZQ63rfX0CgXWqyVna9QlIBC7kejsIIRrUnuosdnKHeDkItyedmUOQ2b3U0Od8l2XkTZLlgsjXUhzJs7duYAYawOgK7uCeeI65nqZWXPeQtcAOAj6P9c7xtrWoBwl3v5vyXY5U9kYJ3uH0sj3D3nTQ1WbveeEvCNm4zrSkS6x1N9Bm71nzB1wkboi6gvOgOv5lnabgyFvNxKZ",
+              "received": false
+            }
+          ],
+          "total_price": 185813,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:59:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
