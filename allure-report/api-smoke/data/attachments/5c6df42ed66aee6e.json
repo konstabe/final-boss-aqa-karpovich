@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:40:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-MORssjp+tYApeqSraT2I/x1SETc\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695962841c508c5d5e96db3b",
+        "email": "Maximillian71@gmail.com",
+        "name": "Malinda Cormier",
+        "country": "Russia",
+        "city": "Cadenfield",
+        "street": "Golda Manors",
+        "house": 38,
+        "flat": 637,
+        "phone": "+13814558503",
+        "createdOn": "2026-01-03T18:40:04.000Z",
+        "notes": "lYdfOjr9JVKcWE24XUYDfpQ7JC8somBh4oixgs4zuIMAzkCbrwRNPSon2LVlaPS6cDGbNMgYC5r8fDNFWrTUdDcjU4X4f3HgLoPuWca2fs5VpKkWWffYKcVozuDxN1fTv4gZaI8VsQRcTi8Nq2NhxpX95TAkuNDH8Kc0FdBeQp5v7Jk3Oxu0DflmW4KznNvF0xO791es26btfzKdRhovyWln6zBBhVOyVyBvP6Ay4DrP8ANo78V7XVQ4Io"
+      },
+      "products": [
+        {
+          "_id": "695962851c508c5d5e96dbea",
+          "name": "Fish55454",
+          "amount": 571,
+          "price": 1023,
+          "manufacturer": "Google",
+          "notes": "UW861TIf1OVbrpC0BBFkQsqs2ChPJ0yjRwAUzbLwrF6QToqGgxB9h12Exk7un8vFJCMRxn5oZeXbgxfkgU1Odkw7JgBK5W0cPmjihqX9RArIfWbfEikzKeq8vIFGGxBjPfESIttBr9yMi6rLdu4i3ngc7wwxMUdYayBCrV3eGNf2RW8t9XXgf7sZb7zODI43FxiCh95b00w0jW1xV6lxKSzc5yoj3r8Do17kYTrrRAru0GotACADAVGsvS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 1023,
+      "createdOn": "2026-01-03T18:40:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695962841c508c5d5e96db3b",
+          "products": [
+            {
+              "_id": "695962851c508c5d5e96dbea",
+              "name": "Fish55454",
+              "amount": 571,
+              "price": 1023,
+              "manufacturer": "Google",
+              "notes": "UW861TIf1OVbrpC0BBFkQsqs2ChPJ0yjRwAUzbLwrF6QToqGgxB9h12Exk7un8vFJCMRxn5oZeXbgxfkgU1Odkw7JgBK5W0cPmjihqX9RArIfWbfEikzKeq8vIFGGxBjPfESIttBr9yMi6rLdu4i3ngc7wwxMUdYayBCrV3eGNf2RW8t9XXgf7sZb7zODI43FxiCh95b00w0jW1xV6lxKSzc5yoj3r8Do17kYTrrRAru0GotACADAVGsvS",
+              "received": false
+            }
+          ],
+          "total_price": 1023,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:40:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695962861c508c5d5e96dc0e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

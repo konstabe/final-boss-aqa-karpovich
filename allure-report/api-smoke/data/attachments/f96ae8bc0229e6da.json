@@ -1,0 +1,245 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:40:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6989",
+    "etag": "W/\"1b4d-zL3MMn6R4WpTP4n/N8lhKeUJV6o\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695962901c508c5d5e96e0c8",
+      "status": "In Process",
+      "customer": {
+        "_id": "695962881c508c5d5e96dd81",
+        "email": "Jerome_Hodkiewicz54@yahoo.com",
+        "name": "Meghan Effertz",
+        "country": "France",
+        "city": "South Geovanyland",
+        "street": "Commerce Street",
+        "house": 13,
+        "flat": 282,
+        "phone": "+17146530338",
+        "createdOn": "2026-01-03T18:40:08.000Z",
+        "notes": "LxDg9D0KFyTDU4nwyxmyBC2a9SdMYd9u7h4Lezbkekc0in1nJmGEDMvq8XmDOgUgyhYFlApZkLWJA0oOiwj9f7YEO54RYKX14LwvpJ2iSrPbFAUldp1B5n1nk5PPw2wZb1WMkwxpFr47ah2ULTF0aT3HVgasgXVJDKVAwhbdRBCBdWqBTHdmyh2V0f85VKsnZf02JlyllLpIuUJZ7PX0BPuxS9U5TgMr4bJ8ViZxVQ4DV5bKQGlIT8s0i2"
+      },
+      "products": [
+        {
+          "_id": "6959628a1c508c5d5e96ddce",
+          "name": "Car94512",
+          "amount": 838,
+          "price": 64689,
+          "manufacturer": "Samsung",
+          "notes": "KLwU6Is3kJ8Rbg0QZJ4B7nrz5UTrOEBA0jf2bo2F56ajUtcKIsBlw1bB5KhrtEoOTCUgqLpyMn74xAh6TXyzucEVNXB73D1NUx6AwHFyFDeGZicgNBE98pc1C9Wc6kZX8oy6llhQmrLBzFtyPujwARJvNt3palJA2rYMU77X9fo5czcIRH4LSHoIHtcu9a756dvxzB4jiJhtN81DXrYY0MU0XrrEXHqiGGI8z8ogcCBI7kEXAT3jUtkBus",
+          "received": false
+        },
+        {
+          "_id": "6959628b1c508c5d5e96ddf9",
+          "name": "Towels41439",
+          "amount": 235,
+          "price": 7952,
+          "manufacturer": "Google",
+          "notes": "BExrBEnYKYEyJr6zdgQ1XvYAEIXHAwnOUYFMDIg1auj120TsdRwdCdQl8dow5pWvXKH04oyInO5BHHCh3LShDmXTkId7kJBHEPqH7nHQApthd76qy1qpIUoNuKzEKp7JOk9VISxtERZbPkoc8NumtwbhK6pTIfkTMbUkAyZhkMahgd3nNk2q8dOnFOawukwHIoSHzZE6tQCuKjpr4cXt9ZLbqkyQGBSy6PHzUKfhRC6CoPGnf12WYQMXm1",
+          "received": false
+        },
+        {
+          "_id": "6959628f1c508c5d5e96e0a1",
+          "name": "Pants78003",
+          "amount": 59,
+          "price": 68802,
+          "manufacturer": "Google",
+          "notes": "TaGgC2TMQ1pzsD4idvhwnQevpLuMtDHOn1lRPKlKEWDd8QlAQYJr08zk4CRIOz3E4J0ZbwRDIb4HjQLMmiOu5Keghj7uvMOOJEfIpau7FxixWJAqA2Oh2e6pNrJLqhLT2kU5DNsxFDxbXuBbG6amYXYgyMnsj7vOb2gF7Yk39kwsKNsJDEtfAcE4zg0Au07zw0Fvov5ePaxHKGkLqOiTdUMHQrKyVxRnbwImhUKqYDhg5ggqssKuOSQAm8",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "South Geovanyland",
+          "street": "Commerce Street",
+          "house": 13,
+          "flat": 282
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 141443,
+      "createdOn": "2026-01-03T18:40:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695962881c508c5d5e96dd81",
+          "products": [
+            {
+              "_id": "6959628a1c508c5d5e96ddce",
+              "name": "Car94512",
+              "amount": 838,
+              "price": 64689,
+              "manufacturer": "Samsung",
+              "notes": "KLwU6Is3kJ8Rbg0QZJ4B7nrz5UTrOEBA0jf2bo2F56ajUtcKIsBlw1bB5KhrtEoOTCUgqLpyMn74xAh6TXyzucEVNXB73D1NUx6AwHFyFDeGZicgNBE98pc1C9Wc6kZX8oy6llhQmrLBzFtyPujwARJvNt3palJA2rYMU77X9fo5czcIRH4LSHoIHtcu9a756dvxzB4jiJhtN81DXrYY0MU0XrrEXHqiGGI8z8ogcCBI7kEXAT3jUtkBus",
+              "received": false
+            },
+            {
+              "_id": "6959628b1c508c5d5e96ddf9",
+              "name": "Towels41439",
+              "amount": 235,
+              "price": 7952,
+              "manufacturer": "Google",
+              "notes": "BExrBEnYKYEyJr6zdgQ1XvYAEIXHAwnOUYFMDIg1auj120TsdRwdCdQl8dow5pWvXKH04oyInO5BHHCh3LShDmXTkId7kJBHEPqH7nHQApthd76qy1qpIUoNuKzEKp7JOk9VISxtERZbPkoc8NumtwbhK6pTIfkTMbUkAyZhkMahgd3nNk2q8dOnFOawukwHIoSHzZE6tQCuKjpr4cXt9ZLbqkyQGBSy6PHzUKfhRC6CoPGnf12WYQMXm1",
+              "received": false
+            },
+            {
+              "_id": "6959628f1c508c5d5e96e0a1",
+              "name": "Pants78003",
+              "amount": 59,
+              "price": 68802,
+              "manufacturer": "Google",
+              "notes": "TaGgC2TMQ1pzsD4idvhwnQevpLuMtDHOn1lRPKlKEWDd8QlAQYJr08zk4CRIOz3E4J0ZbwRDIb4HjQLMmiOu5Keghj7uvMOOJEfIpau7FxixWJAqA2Oh2e6pNrJLqhLT2kU5DNsxFDxbXuBbG6amYXYgyMnsj7vOb2gF7Yk39kwsKNsJDEtfAcE4zg0Au07zw0Fvov5ePaxHKGkLqOiTdUMHQrKyVxRnbwImhUKqYDhg5ggqssKuOSQAm8",
+              "received": false
+            }
+          ],
+          "total_price": 141443,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "South Geovanyland",
+              "street": "Commerce Street",
+              "house": 13,
+              "flat": 282
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T18:40:17.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695962881c508c5d5e96dd81",
+          "products": [
+            {
+              "_id": "6959628a1c508c5d5e96ddce",
+              "name": "Car94512",
+              "amount": 838,
+              "price": 64689,
+              "manufacturer": "Samsung",
+              "notes": "KLwU6Is3kJ8Rbg0QZJ4B7nrz5UTrOEBA0jf2bo2F56ajUtcKIsBlw1bB5KhrtEoOTCUgqLpyMn74xAh6TXyzucEVNXB73D1NUx6AwHFyFDeGZicgNBE98pc1C9Wc6kZX8oy6llhQmrLBzFtyPujwARJvNt3palJA2rYMU77X9fo5czcIRH4LSHoIHtcu9a756dvxzB4jiJhtN81DXrYY0MU0XrrEXHqiGGI8z8ogcCBI7kEXAT3jUtkBus",
+              "received": false
+            },
+            {
+              "_id": "6959628b1c508c5d5e96ddf9",
+              "name": "Towels41439",
+              "amount": 235,
+              "price": 7952,
+              "manufacturer": "Google",
+              "notes": "BExrBEnYKYEyJr6zdgQ1XvYAEIXHAwnOUYFMDIg1auj120TsdRwdCdQl8dow5pWvXKH04oyInO5BHHCh3LShDmXTkId7kJBHEPqH7nHQApthd76qy1qpIUoNuKzEKp7JOk9VISxtERZbPkoc8NumtwbhK6pTIfkTMbUkAyZhkMahgd3nNk2q8dOnFOawukwHIoSHzZE6tQCuKjpr4cXt9ZLbqkyQGBSy6PHzUKfhRC6CoPGnf12WYQMXm1",
+              "received": false
+            },
+            {
+              "_id": "6959628f1c508c5d5e96e0a1",
+              "name": "Pants78003",
+              "amount": 59,
+              "price": 68802,
+              "manufacturer": "Google",
+              "notes": "TaGgC2TMQ1pzsD4idvhwnQevpLuMtDHOn1lRPKlKEWDd8QlAQYJr08zk4CRIOz3E4J0ZbwRDIb4HjQLMmiOu5Keghj7uvMOOJEfIpau7FxixWJAqA2Oh2e6pNrJLqhLT2kU5DNsxFDxbXuBbG6amYXYgyMnsj7vOb2gF7Yk39kwsKNsJDEtfAcE4zg0Au07zw0Fvov5ePaxHKGkLqOiTdUMHQrKyVxRnbwImhUKqYDhg5ggqssKuOSQAm8",
+              "received": false
+            }
+          ],
+          "total_price": 141443,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "South Geovanyland",
+              "street": "Commerce Street",
+              "house": 13,
+              "flat": 282
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T18:40:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695962881c508c5d5e96dd81",
+          "products": [
+            {
+              "_id": "6959628a1c508c5d5e96ddce",
+              "name": "Car94512",
+              "amount": 838,
+              "price": 64689,
+              "manufacturer": "Samsung",
+              "notes": "KLwU6Is3kJ8Rbg0QZJ4B7nrz5UTrOEBA0jf2bo2F56ajUtcKIsBlw1bB5KhrtEoOTCUgqLpyMn74xAh6TXyzucEVNXB73D1NUx6AwHFyFDeGZicgNBE98pc1C9Wc6kZX8oy6llhQmrLBzFtyPujwARJvNt3palJA2rYMU77X9fo5czcIRH4LSHoIHtcu9a756dvxzB4jiJhtN81DXrYY0MU0XrrEXHqiGGI8z8ogcCBI7kEXAT3jUtkBus",
+              "received": false
+            },
+            {
+              "_id": "6959628b1c508c5d5e96ddf9",
+              "name": "Towels41439",
+              "amount": 235,
+              "price": 7952,
+              "manufacturer": "Google",
+              "notes": "BExrBEnYKYEyJr6zdgQ1XvYAEIXHAwnOUYFMDIg1auj120TsdRwdCdQl8dow5pWvXKH04oyInO5BHHCh3LShDmXTkId7kJBHEPqH7nHQApthd76qy1qpIUoNuKzEKp7JOk9VISxtERZbPkoc8NumtwbhK6pTIfkTMbUkAyZhkMahgd3nNk2q8dOnFOawukwHIoSHzZE6tQCuKjpr4cXt9ZLbqkyQGBSy6PHzUKfhRC6CoPGnf12WYQMXm1",
+              "received": false
+            },
+            {
+              "_id": "6959628f1c508c5d5e96e0a1",
+              "name": "Pants78003",
+              "amount": 59,
+              "price": 68802,
+              "manufacturer": "Google",
+              "notes": "TaGgC2TMQ1pzsD4idvhwnQevpLuMtDHOn1lRPKlKEWDd8QlAQYJr08zk4CRIOz3E4J0ZbwRDIb4HjQLMmiOu5Keghj7uvMOOJEfIpau7FxixWJAqA2Oh2e6pNrJLqhLT2kU5DNsxFDxbXuBbG6amYXYgyMnsj7vOb2gF7Yk39kwsKNsJDEtfAcE4zg0Au07zw0Fvov5ePaxHKGkLqOiTdUMHQrKyVxRnbwImhUKqYDhg5ggqssKuOSQAm8",
+              "received": false
+            }
+          ],
+          "total_price": 141443,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:40:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

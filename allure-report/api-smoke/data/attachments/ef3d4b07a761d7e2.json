@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:40:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2638",
+    "etag": "W/\"a4e-cYYvYn6TuOuTkRVZ8OYBMbuXYO0\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695962831c508c5d5e96daee",
+        "email": "Nicola9@yahoo.com",
+        "name": "Itzel Hoppe",
+        "country": "Russia",
+        "city": "Port Carolefort",
+        "street": "Oxford Road",
+        "house": 37,
+        "flat": 5,
+        "phone": "+18963253346",
+        "createdOn": "2026-01-03T18:40:03.000Z",
+        "notes": "2R7zSqVJF6lf5iD08fh9NTL1mbQCgUCnbF1bixSlxv7m5VsYy2wqzD9x3wBtIFVLt15s9JxaTU0Izq4WS0qsBvuJ1zvBuggEwutOtoDBCuySoRoVQmzBQrzKbtEQZ5I4jInsD577kMGmWJbbU9RcLf8VItoEY1kK3pBZvManWiTk0NFCISLcAODdW4Gs5Wdn3NZmhlJbNRbcWCkjrcCSifCkTVuPjKx00zwxQwTNhuqtEqQ931kVAe8n9I"
+      },
+      "products": [
+        {
+          "_id": "695962841c508c5d5e96db43",
+          "name": "Ball6253",
+          "amount": 415,
+          "price": 95649,
+          "manufacturer": "Sony",
+          "notes": "fzZRyh3hYUGZ7OXVY8LL7AdxDON5c0K3OZqQMxVjkUwh7JkQWkdOSAGD82ncaiVilQdz9Dhnt5P168iJ57tsBUeOQAVMy6Aqz6VNhnpMHi8Xyo5NNYKIBO1Mjh9LZSlTHbLdlAKIiNYuumeUKYF1706T9G8buvllje5AaPEXfl82WHhcjydiB3wXRPpeDaVncyJkLQI9VOFtUPFl5LRvedcDEouzPV0YO5v7sE8GGJvqafcHaFhdVc29KH",
+          "received": false
+        },
+        {
+          "_id": "695962851c508c5d5e96dbec",
+          "name": "Pants63766",
+          "amount": 156,
+          "price": 27730,
+          "manufacturer": "Google",
+          "notes": "RpwYr6il9ukeFqMbHAx7aLULjlnILUwR4R7VdKQBJ5zWurWLJKbbDrFwx2BRbiJUi3k16X2TYVkRZub8sFm7R47TVcwBu2z0K4S7zv3atzo8Sta2jrCuGY9tObD4tqZSZpd8x6QEqJBYdbCqSZAG7Rk14KOv3NP8Fhv6Nxtt9KccU8Jxo2VAVPlKMLgAhbQI6BgM3TAS1TeW6ZQqD9vIBtW2vRvAtPMM8errYtzgFp3mO1bvYcvVWQau0v",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 123379,
+      "createdOn": "2026-01-03T18:40:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695962831c508c5d5e96daee",
+          "products": [
+            {
+              "_id": "695962841c508c5d5e96db43",
+              "name": "Ball6253",
+              "amount": 415,
+              "price": 95649,
+              "manufacturer": "Sony",
+              "notes": "fzZRyh3hYUGZ7OXVY8LL7AdxDON5c0K3OZqQMxVjkUwh7JkQWkdOSAGD82ncaiVilQdz9Dhnt5P168iJ57tsBUeOQAVMy6Aqz6VNhnpMHi8Xyo5NNYKIBO1Mjh9LZSlTHbLdlAKIiNYuumeUKYF1706T9G8buvllje5AaPEXfl82WHhcjydiB3wXRPpeDaVncyJkLQI9VOFtUPFl5LRvedcDEouzPV0YO5v7sE8GGJvqafcHaFhdVc29KH",
+              "received": false
+            },
+            {
+              "_id": "695962851c508c5d5e96dbec",
+              "name": "Pants63766",
+              "amount": 156,
+              "price": 27730,
+              "manufacturer": "Google",
+              "notes": "RpwYr6il9ukeFqMbHAx7aLULjlnILUwR4R7VdKQBJ5zWurWLJKbbDrFwx2BRbiJUi3k16X2TYVkRZub8sFm7R47TVcwBu2z0K4S7zv3atzo8Sta2jrCuGY9tObD4tqZSZpd8x6QEqJBYdbCqSZAG7Rk14KOv3NP8Fhv6Nxtt9KccU8Jxo2VAVPlKMLgAhbQI6BgM3TAS1TeW6ZQqD9vIBtW2vRvAtPMM8errYtzgFp3mO1bvYcvVWQau0v",
+              "received": false
+            }
+          ],
+          "total_price": 123379,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:40:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695962861c508c5d5e96dc11"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

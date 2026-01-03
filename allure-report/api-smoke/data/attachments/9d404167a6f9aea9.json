@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:40:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4814",
+    "etag": "W/\"12ce-nqWiWrhEVvfDc7yvG/Kn9qJbXQE\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695962891c508c5d5e96dd98",
+      "status": "Received",
+      "customer": {
+        "_id": "695962861c508c5d5e96dc9b",
+        "email": "Dorris97@hotmail.com",
+        "name": "Polly Stanton",
+        "country": "Germany",
+        "city": "Lake Lydashire",
+        "street": "N Union Street",
+        "house": 16,
+        "flat": 122,
+        "phone": "+13914763253",
+        "createdOn": "2026-01-03T18:40:06.000Z",
+        "notes": "OUZyA6Fa8W7Jep8CzWQjjhmIoUu9WJBYmw63pAdmbZSrGzXAQ5JZhHrcmvBLNfxoPZNUUdJb15jDqOFTkjVYnHqvERSlP0BRuMNrUCcmFXbeGWHYEqQNz130rgUpZdGpB0AYkJozYjOSt6xqsWdtrQBWYbdIegVBxwrkUqUnbhJWIVQ67CbNImJIXopRaHfJ3ASxenFmPs5LdfthFtCR8n2NRTAy53ZuzQUnuyIfiC81YIWHNBbqiBuzHg"
+      },
+      "products": [
+        {
+          "_id": "695962881c508c5d5e96dd83",
+          "name": "Shoes67390",
+          "amount": 155,
+          "price": 63928,
+          "manufacturer": "Apple",
+          "notes": "8KhQxKv1v5GjtFfwjJb8Y721orf0uOiOIy3cafmqQEmQZrosOWV5xlI33OZGzMPll78Z1Qh6sEfH49J8S7KT57bJBl7mEmwaY0BloRjIQSzKibKVUqSLfZGV1CvrAC6RwGCxZoIiGsLWAyYxzc3gRiUCiYPluasrPf8Q8195GZu58sfQQnSGRz5jRGHJTBJw5obBRYteEVYKk7jCsB71HUKG5G2TXwNc1XIcIJZRIdIDIl8KIsdzyKmI7d",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Lake Lydashire",
+          "street": "N Union Street",
+          "house": 16,
+          "flat": 122
+        },
+        "finalDate": "2026-01-13T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 63928,
+      "createdOn": "2026-01-03T18:40:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695962861c508c5d5e96dc9b",
+          "products": [
+            {
+              "_id": "695962881c508c5d5e96dd83",
+              "name": "Shoes67390",
+              "amount": 155,
+              "price": 63928,
+              "manufacturer": "Apple",
+              "notes": "8KhQxKv1v5GjtFfwjJb8Y721orf0uOiOIy3cafmqQEmQZrosOWV5xlI33OZGzMPll78Z1Qh6sEfH49J8S7KT57bJBl7mEmwaY0BloRjIQSzKibKVUqSLfZGV1CvrAC6RwGCxZoIiGsLWAyYxzc3gRiUCiYPluasrPf8Q8195GZu58sfQQnSGRz5jRGHJTBJw5obBRYteEVYKk7jCsB71HUKG5G2TXwNc1XIcIJZRIdIDIl8KIsdzyKmI7d",
+              "received": true
+            }
+          ],
+          "total_price": 63928,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Lydashire",
+              "street": "N Union Street",
+              "house": 16,
+              "flat": 122
+            },
+            "finalDate": "2026-01-13T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T18:40:10.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695962861c508c5d5e96dc9b",
+          "products": [
+            {
+              "_id": "695962881c508c5d5e96dd83",
+              "name": "Shoes67390",
+              "amount": 155,
+              "price": 63928,
+              "manufacturer": "Apple",
+              "notes": "8KhQxKv1v5GjtFfwjJb8Y721orf0uOiOIy3cafmqQEmQZrosOWV5xlI33OZGzMPll78Z1Qh6sEfH49J8S7KT57bJBl7mEmwaY0BloRjIQSzKibKVUqSLfZGV1CvrAC6RwGCxZoIiGsLWAyYxzc3gRiUCiYPluasrPf8Q8195GZu58sfQQnSGRz5jRGHJTBJw5obBRYteEVYKk7jCsB71HUKG5G2TXwNc1XIcIJZRIdIDIl8KIsdzyKmI7d",
+              "received": false
+            }
+          ],
+          "total_price": 63928,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Lydashire",
+              "street": "N Union Street",
+              "house": 16,
+              "flat": 122
+            },
+            "finalDate": "2026-01-13T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T18:40:10.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695962861c508c5d5e96dc9b",
+          "products": [
+            {
+              "_id": "695962881c508c5d5e96dd83",
+              "name": "Shoes67390",
+              "amount": 155,
+              "price": 63928,
+              "manufacturer": "Apple",
+              "notes": "8KhQxKv1v5GjtFfwjJb8Y721orf0uOiOIy3cafmqQEmQZrosOWV5xlI33OZGzMPll78Z1Qh6sEfH49J8S7KT57bJBl7mEmwaY0BloRjIQSzKibKVUqSLfZGV1CvrAC6RwGCxZoIiGsLWAyYxzc3gRiUCiYPluasrPf8Q8195GZu58sfQQnSGRz5jRGHJTBJw5obBRYteEVYKk7jCsB71HUKG5G2TXwNc1XIcIJZRIdIDIl8KIsdzyKmI7d",
+              "received": false
+            }
+          ],
+          "total_price": 63928,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Lydashire",
+              "street": "N Union Street",
+              "house": 16,
+              "flat": 122
+            },
+            "finalDate": "2026-01-13T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T18:40:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695962861c508c5d5e96dc9b",
+          "products": [
+            {
+              "_id": "695962881c508c5d5e96dd83",
+              "name": "Shoes67390",
+              "amount": 155,
+              "price": 63928,
+              "manufacturer": "Apple",
+              "notes": "8KhQxKv1v5GjtFfwjJb8Y721orf0uOiOIy3cafmqQEmQZrosOWV5xlI33OZGzMPll78Z1Qh6sEfH49J8S7KT57bJBl7mEmwaY0BloRjIQSzKibKVUqSLfZGV1CvrAC6RwGCxZoIiGsLWAyYxzc3gRiUCiYPluasrPf8Q8195GZu58sfQQnSGRz5jRGHJTBJw5obBRYteEVYKk7jCsB71HUKG5G2TXwNc1XIcIJZRIdIDIl8KIsdzyKmI7d",
+              "received": false
+            }
+          ],
+          "total_price": 63928,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:40:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
