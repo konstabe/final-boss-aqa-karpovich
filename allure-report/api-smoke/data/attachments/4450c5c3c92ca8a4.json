@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:48:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-tSkY9JYPYXcwEmt0r44K3RszOLg\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695956631c508c5d5e950745",
+        "email": "Ima.Botsford@gmail.com",
+        "name": "Eryn Kirlin",
+        "country": "France",
+        "city": "Yundtton",
+        "street": "Lacey Islands",
+        "house": 44,
+        "flat": 16,
+        "phone": "+14658978209",
+        "createdOn": "2026-01-03T17:48:19.000Z",
+        "notes": "c553WSDlf0oah58Wd9dR65ae9flGl3ounDEKS64DoE7D1mFhO9uf8L0wtt3D4YhsrC3VDQHo9mpNmhEAvlBa3F5oePWdcYNI6yi2Fdju84HUs5RA4sLFUrdfdGZQRPyIy2nurAcwa5jxGa2DqOwBcnl53Arl6EMVZ6iFSty5cOx0DXN8P7FxXMNMkXkLfUOVmH6LmDoWQIW45YRxUKiDUSiHa2bUoOTOg0Y7r6n0BPU9HaPrLDpu7kD7Q2"
+      },
+      "products": [
+        {
+          "_id": "695956651c508c5d5e950798",
+          "name": "Keyboard55994",
+          "amount": 122,
+          "price": 45356,
+          "manufacturer": "Google",
+          "notes": "XfG4aRyWhOIOdiwQYlFwO2mAq6zmtKpy6SzdAYd7OwKtvWHH6cunWRKIGgyQNz1cuOmINciAF31MZwnHxhq3iTxxgiw0dirCXveqSqZzaIq7FPUuQNMxXA18ONU2KaKhE1rrUjNzoxMPwiNY0gpzNksyafRmEbxOKCMqBrCSozQnimINHsCED3pNYjOYUWHKFOatBTxXnHSVOYoJmtMIDYPTEaBfflmwR9YLdvUjq0CClhzmvFAJRbVx7M",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 45356,
+      "createdOn": "2026-01-03T17:48:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695956631c508c5d5e950745",
+          "products": [
+            {
+              "_id": "695956651c508c5d5e950798",
+              "name": "Keyboard55994",
+              "amount": 122,
+              "price": 45356,
+              "manufacturer": "Google",
+              "notes": "XfG4aRyWhOIOdiwQYlFwO2mAq6zmtKpy6SzdAYd7OwKtvWHH6cunWRKIGgyQNz1cuOmINciAF31MZwnHxhq3iTxxgiw0dirCXveqSqZzaIq7FPUuQNMxXA18ONU2KaKhE1rrUjNzoxMPwiNY0gpzNksyafRmEbxOKCMqBrCSozQnimINHsCED3pNYjOYUWHKFOatBTxXnHSVOYoJmtMIDYPTEaBfflmwR9YLdvUjq0CClhzmvFAJRbVx7M",
+              "received": false
+            }
+          ],
+          "total_price": 45356,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:48:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695956651c508c5d5e9507ae"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
