@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:38:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2662",
+    "etag": "W/\"a66-Zl/FaIwB2Qd+96khBslP4ZQ01L0\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6959701e1c508c5d5e986dba",
+        "email": "Alexandrine.Metz71@hotmail.com",
+        "name": "Jordan Blick",
+        "country": "Great Britain",
+        "city": "South Cory",
+        "street": "Liberty Street",
+        "house": 5,
+        "flat": 437,
+        "phone": "+12206561700",
+        "createdOn": "2026-01-03T19:38:06.000Z",
+        "notes": "43YQf7hsa0VKadtWKiX8p8veJ1C1BDoFy6WoK8XmGLS2VymiABcRhVVojOkHTl4v9S0g2b6rGGDhlHm4AIoTgwzqdZidbXOwsJ8SkfHSxU5T7OBQi80FsjSoim40lSv1XK9Cm5leSgLtg8SX1Ks5BjSFhnFbY7nEU5Yy6hJOjSOTJy9ZHBaAOl4KOy8u1gYVZBqciYZtJXD5iXEnJBYoQxKmUm3IkG85nC6cGRClK56GxtqlSSca8oqhzu"
+      },
+      "products": [
+        {
+          "_id": "695970201c508c5d5e986e42",
+          "name": "Salad60584",
+          "amount": 193,
+          "price": 52354,
+          "manufacturer": "Amazon",
+          "notes": "aHMxb6Z5h6IFCEWqIPlAqrOIO4H5FTMLgv0WCYdSDhgrdv9LIAUl1HXQIcc6K9YDv3ScpgejRTNXD0dzM88A5d1A7C6sneTsKP4XNUyAf4HUv0EkGbeCMOiMlFv1mCVkdu5rUSQhmucLMigknGukRgZxhXzRHRG0uPnKs7lQXSIg5YMx08hbib8TzTFHkvPQnBsKeRnIPz8BAwCpPL1kJBwoAO5HjFuBKJUO1vVvO4XGujp0CR9BVJOLr6",
+          "received": false
+        },
+        {
+          "_id": "695970221c508c5d5e98701c",
+          "name": "Hat44287",
+          "amount": 409,
+          "price": 80508,
+          "manufacturer": "Amazon",
+          "notes": "IdS6JEBFisFQo9W6Iy5qtwdScpzdqkawEfITQCVcTeN6mngQunyL2Tt4q7LZivfGAXEzUV48fivagpkpXn6ztH0hhisORtEJCsAhpt1hnITY45JbDeUvIh7F8DWXluuDRkdz0sCaR5h9fSzxfpj5sJTUrtiKW3ZtDFNKFcPT5y93WR4RfHstJj9SjypFqK1kNcvMeKnlA7NGjaGyCZWrJiESagHbDd0HUbypAUGQpO60AbZ1iBKSo2rMk1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 132862,
+      "createdOn": "2026-01-03T19:38:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959701e1c508c5d5e986dba",
+          "products": [
+            {
+              "_id": "695970201c508c5d5e986e42",
+              "name": "Salad60584",
+              "amount": 193,
+              "price": 52354,
+              "manufacturer": "Amazon",
+              "notes": "aHMxb6Z5h6IFCEWqIPlAqrOIO4H5FTMLgv0WCYdSDhgrdv9LIAUl1HXQIcc6K9YDv3ScpgejRTNXD0dzM88A5d1A7C6sneTsKP4XNUyAf4HUv0EkGbeCMOiMlFv1mCVkdu5rUSQhmucLMigknGukRgZxhXzRHRG0uPnKs7lQXSIg5YMx08hbib8TzTFHkvPQnBsKeRnIPz8BAwCpPL1kJBwoAO5HjFuBKJUO1vVvO4XGujp0CR9BVJOLr6",
+              "received": false
+            },
+            {
+              "_id": "695970221c508c5d5e98701c",
+              "name": "Hat44287",
+              "amount": 409,
+              "price": 80508,
+              "manufacturer": "Amazon",
+              "notes": "IdS6JEBFisFQo9W6Iy5qtwdScpzdqkawEfITQCVcTeN6mngQunyL2Tt4q7LZivfGAXEzUV48fivagpkpXn6ztH0hhisORtEJCsAhpt1hnITY45JbDeUvIh7F8DWXluuDRkdz0sCaR5h9fSzxfpj5sJTUrtiKW3ZtDFNKFcPT5y93WR4RfHstJj9SjypFqK1kNcvMeKnlA7NGjaGyCZWrJiESagHbDd0HUbypAUGQpO60AbZ1iBKSo2rMk1",
+              "received": false
+            }
+          ],
+          "total_price": 132862,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:38:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695970241c508c5d5e98706b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

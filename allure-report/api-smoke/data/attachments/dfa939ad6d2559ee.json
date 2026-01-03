@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:38:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-fhEmuNIFnXVuJJ8zFKAZ16vWtFs\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695970211c508c5d5e986e92",
+      "status": "Draft",
+      "customer": {
+        "_id": "6959701f1c508c5d5e986df0",
+        "email": "Anabel_Gislason@gmail.com",
+        "name": "Isai Douglas",
+        "country": "Canada",
+        "city": "Turnerburgh",
+        "street": "Skyline Drive",
+        "house": 8,
+        "flat": 11,
+        "phone": "+18796944752",
+        "createdOn": "2026-01-03T19:38:07.000Z",
+        "notes": "fQIqOnAo6B5QpDEeUFPZYM03JSxB8uhxLuBYVA17ZBASJpoxZyRd5NO8nqB8pIjwXsWfOFYOocRbwwKUCJWrG5PQP0PJNxRQQLvV2FSdEpAeHtN9ycIhLF4tTDOUpRXXOQyb69X3dnyIKROwJu9E4bY2xt8Yo881wWnnkC3sohrhf1fCvG9zuR0YD6iFeCpealvMUUlLJftbFJOf7eR1gWW96UCuBOkPrYDwPI28azYDB6ig9Ehuw41Enu"
+      },
+      "products": [
+        {
+          "_id": "695970211c508c5d5e986e73",
+          "name": "Shirt82212",
+          "amount": 942,
+          "price": 10733,
+          "manufacturer": "Xiaomi",
+          "notes": "W0eL6GAi0xiGsjFX007lPO4q76PS0F9FKJh0eQOccVP3MJEBk5anAjeCI1wLfJ1tR8b8hUf8w2WqYUD17WsRO0HPm0Mdvo7707w3tJu4fh5dEHVPC1Ha1sWyCI6PRV8ZFsL3bWOtgEP5ffC05MvyrLSZQmLiNWYHhjU3JD9WaEb6hEUoq9uWdR9THL3ruLbryaAX6zn4h31jv1xhMxYD63YPdWfgn2ONhffcqIWY9Yd788n4zWTKXKPfoH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 10733,
+      "createdOn": "2026-01-03T19:38:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959701f1c508c5d5e986df0",
+          "products": [
+            {
+              "_id": "695970211c508c5d5e986e73",
+              "name": "Shirt82212",
+              "amount": 942,
+              "price": 10733,
+              "manufacturer": "Xiaomi",
+              "notes": "W0eL6GAi0xiGsjFX007lPO4q76PS0F9FKJh0eQOccVP3MJEBk5anAjeCI1wLfJ1tR8b8hUf8w2WqYUD17WsRO0HPm0Mdvo7707w3tJu4fh5dEHVPC1Ha1sWyCI6PRV8ZFsL3bWOtgEP5ffC05MvyrLSZQmLiNWYHhjU3JD9WaEb6hEUoq9uWdR9THL3ruLbryaAX6zn4h31jv1xhMxYD63YPdWfgn2ONhffcqIWY9Yd788n4zWTKXKPfoH",
+              "received": false
+            }
+          ],
+          "total_price": 10733,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:38:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

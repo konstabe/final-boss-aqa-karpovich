@@ -1,0 +1,245 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:38:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6955",
+    "etag": "W/\"1b2b-tEywzfbV316e5z6HQlCGQRKGhN4\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695970431c508c5d5e987ffa",
+      "status": "In Process",
+      "customer": {
+        "_id": "695970341c508c5d5e98787e",
+        "email": "Mikayla54@gmail.com",
+        "name": "Quinton Macejkovic",
+        "country": "France",
+        "city": "Lake Creola",
+        "street": "Reginald Ferry",
+        "house": 35,
+        "flat": 500,
+        "phone": "+15596369651",
+        "createdOn": "2026-01-03T19:38:28.000Z",
+        "notes": "61FZLFc33cHESmd6uINz9D717Cgfvu3vw1hSZtDmPpaa6hYzwSowkN40bqE8bYyP8C3Ux5FEw9g8SvTxD3qD3g7NmjQouSynF7Jek7IUTDLmsQ7SqPlN1w1nVQNeQDmydoRQuL9Unuo1u9mbPUhyzPMPFDONxfUXb6pDMUS3FENr5o4Ek8ffvMQFOjwMz4SNQ4lYCzke6GKPP7gqOQ3i7JDWQXqJVvo5uVjZHF7c3Srj5pKuz3e13B7Vao"
+      },
+      "products": [
+        {
+          "_id": "695970361c508c5d5e9879ad",
+          "name": "Shirt2820",
+          "amount": 852,
+          "price": 66970,
+          "manufacturer": "Samsung",
+          "notes": "SaiyeEgGGFLkoyyjEVwLXElV5rLEtKxYJqTuH0KfTyayf5IXHlaUDOjixp4EbMOY58iYmTHCfIOdg1puKiuyLPgQSF3DdhfWccVzidsZYpc6xwWmR41QwyqSbfXRvZGb2Dq8k0hAzqsQpvTNrRnX6am2SdWsQNweV9yOQTA4CaQZNlHa4mOwlWO14PPsnwADhDFf1MrfV6AXAbREXV3HVjhdj73cKuhXcnpDLWwopoC1iKjzhg0ghCSIQg",
+          "received": false
+        },
+        {
+          "_id": "695970381c508c5d5e987d02",
+          "name": "Pizza57631",
+          "amount": 775,
+          "price": 55817,
+          "manufacturer": "Apple",
+          "notes": "9z8sn8Tif3DF6ZkR0yGzXRpsbAXpXlaLw68vH9r9ka0SGROHjs95X3HLWF1nPV5KMvWIjPRbKZtRBcl3q17SKJmPT1uwiVOzsjYV5sMSPQc5Ju80UPjRlROqfxXR2K1K3B3YXt83OhdLZp6aruCnETcZ8JbQSYufE5L4XafiNTrO252FSJTUGFNKF4dom69HOZqdXVxORzWd7AzbUbpm7sGwj0PTZGKQAdpqkH0b4UF8H82hc5wo7Mjqp8",
+          "received": false
+        },
+        {
+          "_id": "695970421c508c5d5e987fc3",
+          "name": "Cheese37951",
+          "amount": 386,
+          "price": 4089,
+          "manufacturer": "Apple",
+          "notes": "Hve9pe6vKfM0aELiQpjH0NoiMqUhE6BjQWMKHefucWGmLCNPcyar96W0Qsob6i4BOoI9vWR2XwcLYKcrefFAit7SrmrhXnaDiNIPURaq1TxXwPevjCh5zcazl5cL0AcchtmkgnMb9VH18YdG84KzIlG5xacnFu6vUhdGED9qMZ3R4Qv6KcNiOoHDfymOqDvqiFYnsurccaxgziMcEgZGpy6r7SOtPPPdFKUj7k328vRCDYvoHfgHgxYF7d",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Lake Creola",
+          "street": "Reginald Ferry",
+          "house": 35,
+          "flat": 500
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 126876,
+      "createdOn": "2026-01-03T19:38:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695970341c508c5d5e98787e",
+          "products": [
+            {
+              "_id": "695970361c508c5d5e9879ad",
+              "name": "Shirt2820",
+              "amount": 852,
+              "price": 66970,
+              "manufacturer": "Samsung",
+              "notes": "SaiyeEgGGFLkoyyjEVwLXElV5rLEtKxYJqTuH0KfTyayf5IXHlaUDOjixp4EbMOY58iYmTHCfIOdg1puKiuyLPgQSF3DdhfWccVzidsZYpc6xwWmR41QwyqSbfXRvZGb2Dq8k0hAzqsQpvTNrRnX6am2SdWsQNweV9yOQTA4CaQZNlHa4mOwlWO14PPsnwADhDFf1MrfV6AXAbREXV3HVjhdj73cKuhXcnpDLWwopoC1iKjzhg0ghCSIQg",
+              "received": false
+            },
+            {
+              "_id": "695970381c508c5d5e987d02",
+              "name": "Pizza57631",
+              "amount": 775,
+              "price": 55817,
+              "manufacturer": "Apple",
+              "notes": "9z8sn8Tif3DF6ZkR0yGzXRpsbAXpXlaLw68vH9r9ka0SGROHjs95X3HLWF1nPV5KMvWIjPRbKZtRBcl3q17SKJmPT1uwiVOzsjYV5sMSPQc5Ju80UPjRlROqfxXR2K1K3B3YXt83OhdLZp6aruCnETcZ8JbQSYufE5L4XafiNTrO252FSJTUGFNKF4dom69HOZqdXVxORzWd7AzbUbpm7sGwj0PTZGKQAdpqkH0b4UF8H82hc5wo7Mjqp8",
+              "received": false
+            },
+            {
+              "_id": "695970421c508c5d5e987fc3",
+              "name": "Cheese37951",
+              "amount": 386,
+              "price": 4089,
+              "manufacturer": "Apple",
+              "notes": "Hve9pe6vKfM0aELiQpjH0NoiMqUhE6BjQWMKHefucWGmLCNPcyar96W0Qsob6i4BOoI9vWR2XwcLYKcrefFAit7SrmrhXnaDiNIPURaq1TxXwPevjCh5zcazl5cL0AcchtmkgnMb9VH18YdG84KzIlG5xacnFu6vUhdGED9qMZ3R4Qv6KcNiOoHDfymOqDvqiFYnsurccaxgziMcEgZGpy6r7SOtPPPdFKUj7k328vRCDYvoHfgHgxYF7d",
+              "received": false
+            }
+          ],
+          "total_price": 126876,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Lake Creola",
+              "street": "Reginald Ferry",
+              "house": 35,
+              "flat": 500
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T19:38:48.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695970341c508c5d5e98787e",
+          "products": [
+            {
+              "_id": "695970361c508c5d5e9879ad",
+              "name": "Shirt2820",
+              "amount": 852,
+              "price": 66970,
+              "manufacturer": "Samsung",
+              "notes": "SaiyeEgGGFLkoyyjEVwLXElV5rLEtKxYJqTuH0KfTyayf5IXHlaUDOjixp4EbMOY58iYmTHCfIOdg1puKiuyLPgQSF3DdhfWccVzidsZYpc6xwWmR41QwyqSbfXRvZGb2Dq8k0hAzqsQpvTNrRnX6am2SdWsQNweV9yOQTA4CaQZNlHa4mOwlWO14PPsnwADhDFf1MrfV6AXAbREXV3HVjhdj73cKuhXcnpDLWwopoC1iKjzhg0ghCSIQg",
+              "received": false
+            },
+            {
+              "_id": "695970381c508c5d5e987d02",
+              "name": "Pizza57631",
+              "amount": 775,
+              "price": 55817,
+              "manufacturer": "Apple",
+              "notes": "9z8sn8Tif3DF6ZkR0yGzXRpsbAXpXlaLw68vH9r9ka0SGROHjs95X3HLWF1nPV5KMvWIjPRbKZtRBcl3q17SKJmPT1uwiVOzsjYV5sMSPQc5Ju80UPjRlROqfxXR2K1K3B3YXt83OhdLZp6aruCnETcZ8JbQSYufE5L4XafiNTrO252FSJTUGFNKF4dom69HOZqdXVxORzWd7AzbUbpm7sGwj0PTZGKQAdpqkH0b4UF8H82hc5wo7Mjqp8",
+              "received": false
+            },
+            {
+              "_id": "695970421c508c5d5e987fc3",
+              "name": "Cheese37951",
+              "amount": 386,
+              "price": 4089,
+              "manufacturer": "Apple",
+              "notes": "Hve9pe6vKfM0aELiQpjH0NoiMqUhE6BjQWMKHefucWGmLCNPcyar96W0Qsob6i4BOoI9vWR2XwcLYKcrefFAit7SrmrhXnaDiNIPURaq1TxXwPevjCh5zcazl5cL0AcchtmkgnMb9VH18YdG84KzIlG5xacnFu6vUhdGED9qMZ3R4Qv6KcNiOoHDfymOqDvqiFYnsurccaxgziMcEgZGpy6r7SOtPPPdFKUj7k328vRCDYvoHfgHgxYF7d",
+              "received": false
+            }
+          ],
+          "total_price": 126876,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Lake Creola",
+              "street": "Reginald Ferry",
+              "house": 35,
+              "flat": 500
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T19:38:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695970341c508c5d5e98787e",
+          "products": [
+            {
+              "_id": "695970361c508c5d5e9879ad",
+              "name": "Shirt2820",
+              "amount": 852,
+              "price": 66970,
+              "manufacturer": "Samsung",
+              "notes": "SaiyeEgGGFLkoyyjEVwLXElV5rLEtKxYJqTuH0KfTyayf5IXHlaUDOjixp4EbMOY58iYmTHCfIOdg1puKiuyLPgQSF3DdhfWccVzidsZYpc6xwWmR41QwyqSbfXRvZGb2Dq8k0hAzqsQpvTNrRnX6am2SdWsQNweV9yOQTA4CaQZNlHa4mOwlWO14PPsnwADhDFf1MrfV6AXAbREXV3HVjhdj73cKuhXcnpDLWwopoC1iKjzhg0ghCSIQg",
+              "received": false
+            },
+            {
+              "_id": "695970381c508c5d5e987d02",
+              "name": "Pizza57631",
+              "amount": 775,
+              "price": 55817,
+              "manufacturer": "Apple",
+              "notes": "9z8sn8Tif3DF6ZkR0yGzXRpsbAXpXlaLw68vH9r9ka0SGROHjs95X3HLWF1nPV5KMvWIjPRbKZtRBcl3q17SKJmPT1uwiVOzsjYV5sMSPQc5Ju80UPjRlROqfxXR2K1K3B3YXt83OhdLZp6aruCnETcZ8JbQSYufE5L4XafiNTrO252FSJTUGFNKF4dom69HOZqdXVxORzWd7AzbUbpm7sGwj0PTZGKQAdpqkH0b4UF8H82hc5wo7Mjqp8",
+              "received": false
+            },
+            {
+              "_id": "695970421c508c5d5e987fc3",
+              "name": "Cheese37951",
+              "amount": 386,
+              "price": 4089,
+              "manufacturer": "Apple",
+              "notes": "Hve9pe6vKfM0aELiQpjH0NoiMqUhE6BjQWMKHefucWGmLCNPcyar96W0Qsob6i4BOoI9vWR2XwcLYKcrefFAit7SrmrhXnaDiNIPURaq1TxXwPevjCh5zcazl5cL0AcchtmkgnMb9VH18YdG84KzIlG5xacnFu6vUhdGED9qMZ3R4Qv6KcNiOoHDfymOqDvqiFYnsurccaxgziMcEgZGpy6r7SOtPPPdFKUj7k328vRCDYvoHfgHgxYF7d",
+              "received": false
+            }
+          ],
+          "total_price": 126876,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:38:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
