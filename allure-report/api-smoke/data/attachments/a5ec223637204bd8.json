@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:45:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1410",
+    "etag": "W/\"582-Z9CA1DlfmhPml40o201pnvdnDDs\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "69590f601c508c5d5e861107",
+        "status": "Draft",
+        "customer": "69590f5c1c508c5d5e860ffe",
+        "products": [
+          {
+            "_id": "69590f5f1c508c5d5e8610e5",
+            "name": "Chair21013",
+            "amount": 329,
+            "price": 52670,
+            "manufacturer": "Tesla",
+            "notes": "xlUCQQdfwmtPjqrwzgHz9gO8fTHSxUnfXRv82l0qY3eboayAAuCuLuRnaAOVeBNlFWe8iI7PPMQF1e1PEIiAIkGLHLRdm6bkt2PQue3n1nAn641TD76XJJHpR0oFMS6Qc9wLRVB6EXLXylcgXQEn5WRnPGUDaZYAGHMBGpLipq2FMGNLJQ4WrIzT1NUgRUSpnfMPrIdZoS3dMuWocMmTxmIafiIEVFBpmc4Ro91igDizJgQfe3DDsXy542",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 52670,
+        "createdOn": "2026-01-03T12:45:20.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "69590f5c1c508c5d5e860ffe",
+            "products": [
+              {
+                "_id": "69590f5f1c508c5d5e8610e5",
+                "name": "Chair21013",
+                "amount": 329,
+                "price": 52670,
+                "manufacturer": "Tesla",
+                "notes": "xlUCQQdfwmtPjqrwzgHz9gO8fTHSxUnfXRv82l0qY3eboayAAuCuLuRnaAOVeBNlFWe8iI7PPMQF1e1PEIiAIkGLHLRdm6bkt2PQue3n1nAn641TD76XJJHpR0oFMS6Qc9wLRVB6EXLXylcgXQEn5WRnPGUDaZYAGHMBGpLipq2FMGNLJQ4WrIzT1NUgRUSpnfMPrIdZoS3dMuWocMmTxmIafiIEVFBpmc4Ro91igDizJgQfe3DDsXy542",
+                "received": false
+              }
+            ],
+            "total_price": 52670,
+            "delivery": null,
+            "changedOn": "2026-01-03T12:45:20.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953315",
+              "username": "student2@gmail.com",
+              "firstName": "Wilfrid",
+              "lastName": "Daugherty",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

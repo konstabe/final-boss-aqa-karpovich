@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:45:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2957",
+    "etag": "W/\"b8d-ZEmbkZ1dciiACxDk1IuAYJqZYGE\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69590f611c508c5d5e861199",
+      "status": "Draft",
+      "customer": {
+        "_id": "69590f5d1c508c5d5e861058",
+        "email": "Kip_Hickle@hotmail.com",
+        "name": "Winnifred Kautzer",
+        "country": "Russia",
+        "city": "Worcester",
+        "street": "Kaleb Valleys",
+        "house": 18,
+        "flat": 310,
+        "phone": "+19707697577",
+        "createdOn": "2026-01-03T12:45:17.000Z",
+        "notes": "rdpNi6dWDLh2EhwxQD6OJSy4VQsGzDFGL6bBCjOEPPJ52IzxRYiVvCltbpv69X3v7iUV26oWJPiLKqMFyQLtXaXUOcr43cr2TRHuFQeQ1iaIaFd3BysbnVEOS1ohdlnUgmAitpBfFAJ5rtOYc3YwJoMUJqANQaRDBNH3e1fKayu5ZzVbpA9bi4CXE6I7cBvc8PUdt6HlOyaMAZZ2kXRP7HOWitINUSywi6YQOVsPzBOLlir5gLgabtnqpD"
+      },
+      "products": [
+        {
+          "_id": "69590f601c508c5d5e86116d",
+          "name": "Towels47593",
+          "amount": 426,
+          "price": 76913,
+          "manufacturer": "Xiaomi",
+          "notes": "bWJLb7oTJ9yOqVARGCOUWhD8tSrAlSkY95QDiOYkmYl5erXgOqMDD4X9HsOPEnTyH4KNWvoyYpXdsVrZ3DJJlnOOWFj87Xzplk5Mp61saoX6ni1rJOIMO58lZTZLIMqGG7qR5kSuJwIP4ZGkGyYGfqizXnAA4v3p1Pfb8yYQmPZ6DL7PAyvsGF9Hu6sxfROP44xmNNIYtK70lOTp96fLRKzbc2dA76NSIkJbCIQq0wRWLhRVUdFoVIcALS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 76913,
+      "createdOn": "2026-01-03T12:45:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69590f5d1c508c5d5e861058",
+          "products": [
+            {
+              "_id": "69590f601c508c5d5e86116d",
+              "name": "Towels47593",
+              "amount": 426,
+              "price": 76913,
+              "manufacturer": "Xiaomi",
+              "notes": "bWJLb7oTJ9yOqVARGCOUWhD8tSrAlSkY95QDiOYkmYl5erXgOqMDD4X9HsOPEnTyH4KNWvoyYpXdsVrZ3DJJlnOOWFj87Xzplk5Mp61saoX6ni1rJOIMO58lZTZLIMqGG7qR5kSuJwIP4ZGkGyYGfqizXnAA4v3p1Pfb8yYQmPZ6DL7PAyvsGF9Hu6sxfROP44xmNNIYtK70lOTp96fLRKzbc2dA76NSIkJbCIQq0wRWLhRVUdFoVIcALS",
+              "received": false
+            }
+          ],
+          "total_price": 76913,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:45:22.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69590f5d1c508c5d5e861058",
+          "products": [
+            {
+              "_id": "69590f601c508c5d5e86116d",
+              "name": "Towels47593",
+              "amount": 426,
+              "price": 76913,
+              "manufacturer": "Xiaomi",
+              "notes": "bWJLb7oTJ9yOqVARGCOUWhD8tSrAlSkY95QDiOYkmYl5erXgOqMDD4X9HsOPEnTyH4KNWvoyYpXdsVrZ3DJJlnOOWFj87Xzplk5Mp61saoX6ni1rJOIMO58lZTZLIMqGG7qR5kSuJwIP4ZGkGyYGfqizXnAA4v3p1Pfb8yYQmPZ6DL7PAyvsGF9Hu6sxfROP44xmNNIYtK70lOTp96fLRKzbc2dA76NSIkJbCIQq0wRWLhRVUdFoVIcALS",
+              "received": false
+            }
+          ],
+          "total_price": 76913,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:45:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
