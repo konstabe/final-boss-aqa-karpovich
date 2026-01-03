@@ -7,13 +7,13 @@ test.describe("[History on Orders Details Page]", () => {
 	const token = "";
 	let mockOrder: ReturnType<typeof generateOrderDetailsMockWithDelivery>;
 
-	test.beforeEach(async ({ orderDetailsBottomPage, mock, ordersDetailsUIService, page }) => {
+	test.beforeEach(async ({ orderDetailsPage, mock, ordersDetailsUIService, page }) => {
 		mockOrder = generateOrderDetailsMockWithDelivery(ORDER_STATUS.RECEIVED, false);
 
 		await mock.orderDetailsPage(mockOrder);
 		await ordersDetailsUIService.open(mockOrder.Order._id);
-		await expect(orderDetailsBottomPage.bottomTab("history-tab")).toBeVisible();
-		await orderDetailsBottomPage.changeBottomTab("history-tab");
+		await expect(orderDetailsPage.bottom.bottomTab("history-tab")).toBeVisible();
+		await orderDetailsPage.bottom.changeBottomTab("history-tab");
 		await page.waitForTimeout(500);
 	});
 
@@ -25,22 +25,22 @@ test.describe("[History on Orders Details Page]", () => {
 		test(
 			"Check all order actions shown on history",
 			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.HISTORY] },
-			async ({ orderDetailsBottomPage }) => {
-				await expect(orderDetailsBottomPage.historyTitle).toHaveText("Order History");
-				await expect(orderDetailsBottomPage.bottomTab("history-tab")).toHaveText("Order History");
+			async ({ orderDetailsPage }) => {
+				await expect(orderDetailsPage.bottom.historyTitle).toHaveText("Order History");
+				await expect(orderDetailsPage.bottom.bottomTab("history-tab")).toHaveText("Order History");
 
-				await expect(orderDetailsBottomPage.historyColumns).toHaveText([
+				await expect(orderDetailsPage.bottom.historyColumns).toHaveText([
 					"Action",
 					"Performed By",
 					"Date & Time",
 				]);
 
-				await expect(orderDetailsBottomPage.historyAccordion).toHaveCount(mockOrder.Order.history.length);
+				await expect(orderDetailsPage.bottom.historyAccordion).toHaveCount(mockOrder.Order.history.length);
 				for (const [index, item] of mockOrder.Order.history.entries()) {
-					const accordion = orderDetailsBottomPage.historyAccordion.nth(index);
+					const accordion = orderDetailsPage.bottom.historyAccordion.nth(index);
 					const cols = accordion.locator(".his-col");
 
-					await expect(orderDetailsBottomPage.historyToggleButton(index)).toHaveAttribute(
+					await expect(orderDetailsPage.bottom.historyToggleButton(index)).toHaveAttribute(
 						"aria-expanded",
 						"false",
 					);
@@ -60,17 +60,21 @@ test.describe("[History on Orders Details Page]", () => {
 		test(
 			"Check expand and toggle button on history page",
 			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.HISTORY] },
-			async ({ orderDetailsBottomPage, page }) => {
-				await orderDetailsBottomPage.historyToggleButton(3).click();
+			async ({ orderDetailsPage, page }) => {
+				await orderDetailsPage.bottom.historyToggleButton(3).click();
 				await expect
-					.poll(async () => await orderDetailsBottomPage.historyToggleButton(3).getAttribute("aria-expanded"))
+					.poll(
+						async () => await orderDetailsPage.bottom.historyToggleButton(3).getAttribute("aria-expanded"),
+					)
 					.toBe("true");
-				await expect(orderDetailsBottomPage.historyChangeCols(3).nth(2)).toHaveText("Updated");
-				await expect(orderDetailsBottomPage.historyChangeCols(3).nth(1)).toHaveText("Previous");
+				await expect(orderDetailsPage.bottom.historyChangeCols(3).nth(2)).toHaveText("Updated");
+				await expect(orderDetailsPage.bottom.historyChangeCols(3).nth(1)).toHaveText("Previous");
 				await page.waitForTimeout(500);
-				await orderDetailsBottomPage.historyToggleButton(3).click();
+				await orderDetailsPage.bottom.historyToggleButton(3).click();
 				await expect
-					.poll(async () => await orderDetailsBottomPage.historyToggleButton(3).getAttribute("aria-expanded"))
+					.poll(
+						async () => await orderDetailsPage.bottom.historyToggleButton(3).getAttribute("aria-expanded"),
+					)
 					.toBe("false");
 			},
 		);

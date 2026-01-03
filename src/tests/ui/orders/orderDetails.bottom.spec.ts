@@ -15,9 +15,9 @@ test.describe("[UI] [Orders] [Details] [Bottom]", () => {
 		productIds = order.products.map((product) => product._id);
 	});
 
-	test.beforeEach(async ({ orderDetailsBottomPage }) => {
-		await orderDetailsBottomPage.open(`orders/${orderId}`);
-		await orderDetailsBottomPage.waitForOpened();
+	test.beforeEach(async ({ orderDetailsPage }) => {
+		await orderDetailsPage.open(`orders/${orderId}`);
+		await orderDetailsPage.waitForOpened();
 	});
 
 	test.afterAll(async ({ ordersApiService, customersApiService, productsApiService }) => {
@@ -38,20 +38,20 @@ test.describe("[UI] [Orders] [Details] [Bottom]", () => {
 	test(
 		"Should display bottom section and tabs",
 		{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
-		async ({ orderDetailsBottomPage }) => {
-			await expect(orderDetailsBottomPage.bottomSection).toBeVisible();
-			await expect(orderDetailsBottomPage.bottomTab("delivery-tab")).toBeVisible();
-			await expect(orderDetailsBottomPage.bottomTab("history-tab")).toBeVisible();
-			await expect(orderDetailsBottomPage.bottomTab("comments-tab")).toBeVisible();
+		async ({ orderDetailsPage }) => {
+			await expect(orderDetailsPage.bottom.bottomSection).toBeVisible();
+			await expect(orderDetailsPage.bottom.bottomTab("delivery-tab")).toBeVisible();
+			await expect(orderDetailsPage.bottom.bottomTab("history-tab")).toBeVisible();
+			await expect(orderDetailsPage.bottom.bottomTab("comments-tab")).toBeVisible();
 		},
 	);
 
 	test(
 		"Should show delivery details",
 		{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
-		async ({ orderDetailsBottomPage }) => {
-			await orderDetailsBottomPage.changeBottomTab("delivery-tab");
-			const details = await orderDetailsBottomPage.getDeliveryInformation();
+		async ({ orderDetailsPage }) => {
+			await orderDetailsPage.bottom.changeBottomTab("delivery-tab");
+			const details = await orderDetailsPage.bottom.getDeliveryInformation();
 			const labels = details.map((item) => item.label);
 			const expectedLabels = ["Delivery Type", "Delivery Date", "Country", "City", "Street", "House", "Flat"];
 
@@ -64,44 +64,40 @@ test.describe("[UI] [Orders] [Details] [Bottom]", () => {
 	test(
 		"Should open Edit Delivery modal",
 		{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
-		async ({ orderDetailsBottomPage, editDeliveryModal }) => {
-			await orderDetailsBottomPage.changeBottomTab("delivery-tab");
-			await orderDetailsBottomPage.openScheduleDeliveryModal();
+		async ({ orderDetailsPage }) => {
+			await orderDetailsPage.bottom.changeBottomTab("delivery-tab");
+			await orderDetailsPage.bottom.openScheduleDeliveryModal();
 
-			await expect(editDeliveryModal.uniqueElement).toBeVisible();
-			await expect(editDeliveryModal.typeSelect).toBeVisible();
-			await expect(editDeliveryModal.locationSelect).toBeVisible();
-			await expect(editDeliveryModal.saveDeliveryButton).toBeVisible();
-			await expect(editDeliveryModal.backToOrderDetailsButton).toBeVisible();
+			await expect(orderDetailsPage.editDeliveryModal.uniqueElement).toBeVisible();
+			await expect(orderDetailsPage.editDeliveryModal.typeSelect).toBeVisible();
+			await expect(orderDetailsPage.editDeliveryModal.locationSelect).toBeVisible();
+			await expect(orderDetailsPage.editDeliveryModal.saveDeliveryButton).toBeVisible();
+			await expect(orderDetailsPage.editDeliveryModal.backToOrderDetailsButton).toBeVisible();
 
-			await editDeliveryModal.backToOrderDetails();
-			await editDeliveryModal.waitForClosed();
+			await orderDetailsPage.editDeliveryModal.backToOrderDetails();
+			await orderDetailsPage.editDeliveryModal.waitForClosed();
 		},
 	);
 
-	test(
-		"Should show history data",
-		{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
-		async ({ orderDetailsBottomPage }) => {
-			await orderDetailsBottomPage.changeBottomTab("history-tab");
-			const historyCount = await orderDetailsBottomPage.historyAccordion.count();
+	test("Should show history data", { tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] }, async ({ orderDetailsPage }) => {
+		await orderDetailsPage.bottom.changeBottomTab("history-tab");
+		const historyCount = await orderDetailsPage.bottom.historyAccordion.count();
 
-			expect(historyCount).toBeGreaterThan(0);
-			await expect(orderDetailsBottomPage.historyToggleButton(0)).toBeVisible();
-		},
-	);
+		expect(historyCount).toBeGreaterThan(0);
+		await expect(orderDetailsPage.bottom.historyToggleButton(0)).toBeVisible();
+	});
 
 	test(
 		"Should validate empty comment",
 		{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
-		async ({ orderDetailsBottomPage }) => {
-			await orderDetailsBottomPage.changeBottomTab("comments-tab");
-			await orderDetailsBottomPage.fillComment(">");
+		async ({ orderDetailsPage }) => {
+			await orderDetailsPage.bottom.changeBottomTab("comments-tab");
+			await orderDetailsPage.bottom.fillComment(">");
 
-			const errorText = await orderDetailsBottomPage.getCommentValidationErrorText();
+			const errorText = await orderDetailsPage.bottom.getCommentValidationErrorText();
 
 			expect(errorText ?? "").not.toBe("");
-			expect(orderDetailsBottomPage.sendCommentButton).toBeDisabled();
+			expect(orderDetailsPage.bottom.sendCommentButton).toBeDisabled();
 		},
 	);
 });

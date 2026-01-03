@@ -23,7 +23,7 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ mock, editCustomerModal, orderDetailsCustomerPage, ordersDetailsUIService }) => {
+		async ({ mock, orderDetailsPage, ordersDetailsUIService }) => {
 			const order = generateOrderDetailsMockWithDelivery(ORDER_STATUS.DRAFT, false);
 			await mock.orderDetailsPage(order);
 
@@ -31,13 +31,13 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 
 			await ordersDetailsUIService.open(orderId);
 
-			await orderDetailsCustomerPage.openChangeCustomerModal();
+			await orderDetailsPage.customer.openChangeCustomerModal();
 			const allCustomet = generateCustomerResponseData();
 			await mock.orderDetailsAllCustomer(allCustomet);
 
-			await expect(editCustomerModal.editCustomerModalTitle).toHaveText("Edit Customer");
-			await expect(editCustomerModal.saveButton).toBeVisible();
-			await expect(editCustomerModal.cancelButton).toBeVisible();
+			await expect(orderDetailsPage.editCustomerModal.editCustomerModalTitle).toHaveText("Edit Customer");
+			await expect(orderDetailsPage.editCustomerModal.saveButton).toBeVisible();
+			await expect(orderDetailsPage.editCustomerModal.cancelButton).toBeVisible();
 		},
 	);
 
@@ -46,17 +46,17 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersDetailsUIService, ordersApiService, editCustomerModal, orderDetailsCustomerPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsPage }) => {
 			const newOrder = ordersApiService.createDraft(token, 1);
 
 			const orderId = (await newOrder)._id;
 
 			await ordersDetailsUIService.open(orderId);
 
-			await orderDetailsCustomerPage.openChangeCustomerModal();
+			await orderDetailsPage.customer.openChangeCustomerModal();
 
-			await editCustomerModal.clickCloseModal();
-			await expect(editCustomerModal.modalBody).not.toBeVisible();
+			await orderDetailsPage.editCustomerModal.clickCloseModal();
+			await expect(orderDetailsPage.editCustomerModal.modalBody).not.toBeVisible();
 		},
 	);
 
@@ -65,11 +65,11 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersDetailsUIService, ordersApiService, editCustomerModal, orderDetailsCustomerPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsPage }) => {
 			const { customerId, customerName } = await ordersApiService.createCustomer(token);
 			id_customer = customerId;
 
-			const customerData = await orderDetailsCustomerPage.getCustomerDetails();
+			const customerData = await orderDetailsPage.customer.getCustomerDetails();
 
 			const newOrder = ordersApiService.createDraft(token, 1);
 
@@ -79,16 +79,16 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 
 			await ordersDetailsUIService.open(orderId);
 
-			await orderDetailsCustomerPage.openChangeCustomerModal();
+			await orderDetailsPage.customer.openChangeCustomerModal();
 
-			await editCustomerModal.changeCustomer(customerName);
-			await editCustomerModal.clickCancel();
-			await expect(editCustomerModal.modalBody).not.toBeVisible();
+			await orderDetailsPage.editCustomerModal.changeCustomer(customerName);
+			await orderDetailsPage.editCustomerModal.clickCancel();
+			await expect(orderDetailsPage.editCustomerModal.modalBody).not.toBeVisible();
 
 			console.log(customerData);
 
-			await expect(orderDetailsCustomerPage.emailField).toHaveText(customerEmailOriginal);
-			await expect(orderDetailsCustomerPage.nameField).toHaveText(customerNameOriginal);
+			await expect(orderDetailsPage.customer.emailField).toHaveText(customerEmailOriginal);
+			await expect(orderDetailsPage.customer.nameField).toHaveText(customerNameOriginal);
 		},
 	);
 
@@ -97,7 +97,7 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 		{
 			tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersDetailsUIService, ordersApiService, editCustomerModal, orderDetailsCustomerPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsPage }) => {
 			const { customerId, customerName, customerEmail } = await ordersApiService.createCustomer(token);
 			id_customer = customerId;
 
@@ -107,14 +107,14 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 
 			await ordersDetailsUIService.open(orderId);
 
-			await orderDetailsCustomerPage.openChangeCustomerModal();
+			await orderDetailsPage.customer.openChangeCustomerModal();
 
-			await editCustomerModal.changeCustomer(customerName);
-			await editCustomerModal.clickSave();
-			await expect(editCustomerModal.modalBody).not.toBeVisible();
+			await orderDetailsPage.editCustomerModal.changeCustomer(customerName);
+			await orderDetailsPage.editCustomerModal.clickSave();
+			await expect(orderDetailsPage.editCustomerModal.modalBody).not.toBeVisible();
 
-			await expect(orderDetailsCustomerPage.emailField).toHaveText(customerEmail);
-			await expect(orderDetailsCustomerPage.nameField).toHaveText(customerName);
+			await expect(orderDetailsPage.customer.emailField).toHaveText(customerEmail);
+			await expect(orderDetailsPage.customer.nameField).toHaveText(customerName);
 		},
 	);
 
@@ -123,13 +123,13 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersDetailsUIService, ordersApiService, orderDetailsCustomerPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsPage }) => {
 			const newOrder = ordersApiService.processOrder(token, 1);
 			const orderId = (await newOrder)._id;
 
 			await ordersDetailsUIService.open(orderId);
 
-			await expect(orderDetailsCustomerPage.editCustomerButton).not.toBeVisible();
+			await expect(orderDetailsPage.customer.editCustomerButton).not.toBeVisible();
 		},
 	);
 
@@ -138,13 +138,13 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersDetailsUIService, ordersApiService, orderDetailsCustomerPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsPage }) => {
 			const newOrder = ordersApiService.allReceived(token, 1);
 			const orderId = (await newOrder)._id;
 
 			await ordersDetailsUIService.open(orderId);
 
-			await expect(orderDetailsCustomerPage.editCustomerButton).not.toBeVisible();
+			await expect(orderDetailsPage.customer.editCustomerButton).not.toBeVisible();
 		},
 	);
 
@@ -153,13 +153,13 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersDetailsUIService, ordersApiService, orderDetailsCustomerPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsPage }) => {
 			const newOrder = ordersApiService.cancelOrderInProgress(token, 1);
 			const orderId = (await newOrder)._id;
 
 			await ordersDetailsUIService.open(orderId);
 
-			await expect(orderDetailsCustomerPage.editCustomerButton).not.toBeVisible();
+			await expect(orderDetailsPage.customer.editCustomerButton).not.toBeVisible();
 		},
 	);
 
@@ -168,13 +168,13 @@ test.describe("[UI] [Orders] [editCustomerModal]", () => {
 		{
 			tag: [TAGS.REGRESSION, TAGS.UI],
 		},
-		async ({ ordersDetailsUIService, ordersApiService, orderDetailsCustomerPage }) => {
+		async ({ ordersDetailsUIService, ordersApiService, orderDetailsPage }) => {
 			const newOrder = ordersApiService.reopenOrderInProgress(token, 1);
 			const orderId = (await newOrder)._id;
 
 			await ordersDetailsUIService.open(orderId);
 
-			await expect(orderDetailsCustomerPage.editCustomerButton).toBeVisible();
+			await expect(orderDetailsPage.customer.editCustomerButton).toBeVisible();
 		},
 	);
 });

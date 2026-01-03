@@ -15,16 +15,16 @@ test.describe("[UI] [OrderProductsReceive]", () => {
 	test(
 		"Receive All Products from order",
 		{ tag: [TAGS.ORDER, TAGS.REGRESSION, TAGS.SMOKE] },
-		async ({ ordersApiService, page, ordersDetailsUIService, orderDetailsProductPage }) => {
+		async ({ ordersApiService, page, ordersDetailsUIService, orderDetailsPage }) => {
 			const orderInProcess = await ordersApiService.processOrder(token, 2);
 
 			await ordersDetailsUIService.open(orderInProcess._id);
-			await expect(orderDetailsProductPage.productSection).toBeVisible();
-			await orderDetailsProductPage.receiveOrderButton.click();
+			await expect(orderDetailsPage.product.productSection).toBeVisible();
+			await orderDetailsPage.product.receiveOrderButton.click();
 			await page.waitForTimeout(500);
-			await expect(orderDetailsProductPage.selectAllCheckbox).toBeVisible();
-			await orderDetailsProductPage.selectAllCheckbox.click();
-			await orderDetailsProductPage.saveReceivedProductsButton.click();
+			await expect(orderDetailsPage.product.selectAllCheckbox).toBeVisible();
+			await orderDetailsPage.product.selectAllCheckbox.click();
+			await orderDetailsPage.product.saveReceivedProductsButton.click();
 			await page.waitForTimeout(1000);
 
 			const row = page.locator(".accordion-header .received-label");
@@ -35,25 +35,25 @@ test.describe("[UI] [OrderProductsReceive]", () => {
 	test(
 		"Receive few Products from order",
 		{ tag: [TAGS.ORDER, TAGS.REGRESSION, TAGS.SMOKE] },
-		async ({ ordersApiService, page, ordersDetailsUIService, orderDetailsProductPage }) => {
+		async ({ ordersApiService, page, ordersDetailsUIService, orderDetailsPage }) => {
 			const orderInProcess = await ordersApiService.processOrder(token, 3);
 			const id = orderInProcess._id;
 
 			await ordersDetailsUIService.open(id);
-			await expect(orderDetailsProductPage.productSection).toBeVisible();
-			await orderDetailsProductPage.receiveOrderButton.click();
+			await expect(orderDetailsPage.product.productSection).toBeVisible();
+			await orderDetailsPage.product.receiveOrderButton.click();
 			await page.waitForTimeout(500);
 
-			await orderDetailsProductPage.toggleProductCheckbox(0);
-			await orderDetailsProductPage.toggleProductCheckbox(2);
-			await orderDetailsProductPage.saveReceivedProductsButton.click();
+			await orderDetailsPage.product.toggleProductCheckbox(0);
+			await orderDetailsPage.product.toggleProductCheckbox(2);
+			await orderDetailsPage.product.saveReceivedProductsButton.click();
 			await page.waitForTimeout(500);
 
-			await expect(orderDetailsProductPage.toastMessage).toContainText(NOTIFICATIONS.PRODUCTS_RECEIVED);
+			await expect(orderDetailsPage.product.toastMessage).toContainText(NOTIFICATIONS.PRODUCTS_RECEIVED);
 
-			await expect(orderDetailsProductPage.row.nth(1)).toHaveText("Not Received");
-			await expect(orderDetailsProductPage.row.nth(0)).toHaveText("Received");
-			await expect(orderDetailsProductPage.row.nth(2)).toHaveText("Received");
+			await expect(orderDetailsPage.product.row.nth(1)).toHaveText("Not Received");
+			await expect(orderDetailsPage.product.row.nth(0)).toHaveText("Received");
+			await expect(orderDetailsPage.product.row.nth(2)).toHaveText("Received");
 		},
 	);
 });

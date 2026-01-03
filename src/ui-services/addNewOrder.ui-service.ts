@@ -1,6 +1,6 @@
 import { Page } from "@playwright/test";
 import { CreateOrderModal } from "pages/orders/createOrder.modal";
-import { OrderDetailsHeaderPage } from "pages/orders/orderDetails/orderDetails.header.page";
+import { OrderDetailsPage } from "pages/orders/orderDetails/orderDetails.page";
 import { logStep } from "utils/report/logStep.utils";
 
 export class AddNewOrderUIService {
@@ -12,10 +12,10 @@ export class AddNewOrderUIService {
 }
 
 export class OrderDetailsUIService {
-	orderDetailsPage: OrderDetailsHeaderPage;
+	orderDetailsPage: OrderDetailsPage;
 
 	constructor(private page: Page) {
-		this.orderDetailsPage = new OrderDetailsHeaderPage(page);
+		this.orderDetailsPage = new OrderDetailsPage(page);
 	}
 
 	@logStep("Open Orders List Page")
