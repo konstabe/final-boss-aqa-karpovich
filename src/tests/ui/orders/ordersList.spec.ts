@@ -72,6 +72,26 @@ test.describe("[UI] [Orders]", () => {
 		);
 	});
 
+	test.describe("[Navigation to Order Details Page]", () => {
+		test(
+			"Should open Order Details page via order row click",
+			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
+			async ({ ordersListPage, ordersListUIService, ordersApiService, orderDetailsPage }) => {
+				token = await ordersListPage.getAuthToken();
+				const order = await ordersApiService.createDraft(token, 1);
+
+				await ordersListUIService.open();
+				await expect(ordersListPage.tableRowByOrderNumber(order._id)).toBeVisible();
+
+				await ordersListPage.clickRowByOrderId(order._id);
+
+				await orderDetailsPage.waitForOpened();
+				const numberText = await orderDetailsPage.header.getOrderNumber();
+				expect(numberText ?? "").toContain(order._id);
+			},
+		);
+	});
+
 	test.describe("[Confirmation modals on Orders List Page]", () => {
 		test(
 			"Check UI components on Reopen Order Modal",

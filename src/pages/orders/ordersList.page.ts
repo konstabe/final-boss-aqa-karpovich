@@ -71,6 +71,11 @@ export class OrdersListPage extends SalesPortalPage {
 		await this.detailsButton(orderId).click();
 	}
 
+	@logStep("Click order row by order id")
+	async clickRowByOrderId(orderId: string) {
+		await this.tableRowByOrderNumber(orderId).click();
+	}
+
 	@logStep("Click Reopen Button")
 	async clickReopenByOrderId(orderId: string) {
 		await this.reopenButton(orderId).click();
