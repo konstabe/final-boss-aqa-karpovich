@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:28:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-J+8bVdSwJWXc4z5J/E9ac3FXLPo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69596dc81c508c5d5e980209",
+        "email": "Kiley.Treutel@gmail.com",
+        "name": "Ruthie Cronin",
+        "country": "Russia",
+        "city": "Arnaldofort",
+        "street": "Williamson Station",
+        "house": 39,
+        "flat": 555,
+        "phone": "+14839503019",
+        "createdOn": "2026-01-03T19:28:08.000Z",
+        "notes": "t4FMT4zR05B3AwEYUwBihJyyR9zYO9J9iB0y20O7HQ7XokgXk4Kjop2bqybxlAlqc0LlRxU41bWgoqpLzp83ooybv1XAJkk5NnkWhXNxs5t76vxx91ql2z51nP6hBj59jpsvt1hEMx3aeY2SyUud4qqoFlXwiitkkqkQw25tDo0WWp0lr6cY3PYFchdPKtmKM9dFkNgmtYwd1Bi1jYdKetcxqmLPtkwxI3CmarIQCkVBjOtEWWYW4nSHHz"
+      },
+      "products": [
+        {
+          "_id": "69596dc91c508c5d5e980259",
+          "name": "Shoes68214",
+          "amount": 626,
+          "price": 39123,
+          "manufacturer": "Amazon",
+          "notes": "OMgneFQ9OMfZe2X6lkrhVDzZ0vkH0a8LxyATxnDyuZlZnnByURlQd7WI2TjsTLsvFXVlg22VEtUCcLtl6LJhwnekAAYA3ItafYwIrH9udnch5VCfkfguy7raKxTJpVNm6w2iw0rffPUb8fTTpDOq3k3G6iWxkvaVTYn4BZ3RxFcRYECESVkbUjf5t8z32jzHtYPucZ3qLmRkfSGbJr6wcwhh2fOIQHKPw4eLnrmTA49h11kbU5Qup2hzX9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 39123,
+      "createdOn": "2026-01-03T19:28:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69596dc81c508c5d5e980209",
+          "products": [
+            {
+              "_id": "69596dc91c508c5d5e980259",
+              "name": "Shoes68214",
+              "amount": 626,
+              "price": 39123,
+              "manufacturer": "Amazon",
+              "notes": "OMgneFQ9OMfZe2X6lkrhVDzZ0vkH0a8LxyATxnDyuZlZnnByURlQd7WI2TjsTLsvFXVlg22VEtUCcLtl6LJhwnekAAYA3ItafYwIrH9udnch5VCfkfguy7raKxTJpVNm6w2iw0rffPUb8fTTpDOq3k3G6iWxkvaVTYn4BZ3RxFcRYECESVkbUjf5t8z32jzHtYPucZ3qLmRkfSGbJr6wcwhh2fOIQHKPw4eLnrmTA49h11kbU5Qup2hzX9",
+              "received": false
+            }
+          ],
+          "total_price": 39123,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:28:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69596dc91c508c5d5e98027a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

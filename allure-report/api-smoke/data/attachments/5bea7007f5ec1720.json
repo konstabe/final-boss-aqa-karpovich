@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:29:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2948",
+    "etag": "W/\"b84-7tL0ysNuW72dx8SZafKldTyEcU4\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69596dfb1c508c5d5e9818b4",
+      "status": "Draft",
+      "customer": {
+        "_id": "69596df01c508c5d5e98134a",
+        "email": "Kaia22@hotmail.com",
+        "name": "Beatrice Waters",
+        "country": "France",
+        "city": "Westminster",
+        "street": "Randi Crossing",
+        "house": 36,
+        "flat": 501,
+        "phone": "+15974396390",
+        "createdOn": "2026-01-03T19:28:48.000Z",
+        "notes": "g0RFTDNjz2JPXfnmMB2u4CIbDkOLLRkLx3pNzKQf1QEKc5o2Efy1Em6afSKVxmZpSi70gcsNKBnXK0l1d0snXgLRacDyfXxcqk2V9zuERzWCKuMlP7D8fPzfdwm4q2Du5LL4HZh67KhIzG3mbUB1G6VJM108InLn96c1n8RcNhGiXHfl2ZzyQoTYC51RNlDYTBBvM8ENNLhY6OpLcbwSdeciWmwoXt9WwwJSSRWpa6wp39sKEsnUrTSGNk"
+      },
+      "products": [
+        {
+          "_id": "69596df31c508c5d5e981895",
+          "name": "Bacon23805",
+          "amount": 46,
+          "price": 35002,
+          "manufacturer": "Xiaomi",
+          "notes": "8znanGma4SEdtRG8LY73wQo1ssxdzUcUkzmkRU1jI36VxxbKNobhj77swAgQaadAfZhjc4DzGSxiHlb7QNgGsW4WAxU3xsj40wgzpCnsGvLit8UGIdn1HPtLpDsn4nRH8cSxmwmtGOMWRHdbNdPv1EPBMwP0dfl46XUlF3NDUWVc05f9tyxGn69cqyqxdzZE7E9FY28XlQg4csJvX0GilVDtLGbzgKNxSVp8Pjxe6J2AotC6xPwf8qj09B",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35002,
+      "createdOn": "2026-01-03T19:28:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69596df01c508c5d5e98134a",
+          "products": [
+            {
+              "_id": "69596df31c508c5d5e981895",
+              "name": "Bacon23805",
+              "amount": 46,
+              "price": 35002,
+              "manufacturer": "Xiaomi",
+              "notes": "8znanGma4SEdtRG8LY73wQo1ssxdzUcUkzmkRU1jI36VxxbKNobhj77swAgQaadAfZhjc4DzGSxiHlb7QNgGsW4WAxU3xsj40wgzpCnsGvLit8UGIdn1HPtLpDsn4nRH8cSxmwmtGOMWRHdbNdPv1EPBMwP0dfl46XUlF3NDUWVc05f9tyxGn69cqyqxdzZE7E9FY28XlQg4csJvX0GilVDtLGbzgKNxSVp8Pjxe6J2AotC6xPwf8qj09B",
+              "received": false
+            }
+          ],
+          "total_price": 35002,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:29:00.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69596df01c508c5d5e98134a",
+          "products": [
+            {
+              "_id": "69596df31c508c5d5e981895",
+              "name": "Bacon23805",
+              "amount": 46,
+              "price": 35002,
+              "manufacturer": "Xiaomi",
+              "notes": "8znanGma4SEdtRG8LY73wQo1ssxdzUcUkzmkRU1jI36VxxbKNobhj77swAgQaadAfZhjc4DzGSxiHlb7QNgGsW4WAxU3xsj40wgzpCnsGvLit8UGIdn1HPtLpDsn4nRH8cSxmwmtGOMWRHdbNdPv1EPBMwP0dfl46XUlF3NDUWVc05f9tyxGn69cqyqxdzZE7E9FY28XlQg4csJvX0GilVDtLGbzgKNxSVp8Pjxe6J2AotC6xPwf8qj09B",
+              "received": false
+            }
+          ],
+          "total_price": 35002,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:28:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

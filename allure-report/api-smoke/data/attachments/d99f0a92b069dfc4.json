@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:28:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3436",
+    "etag": "W/\"d6c-mOA2Z/nnMF2KH7RUeZ13rZK9iDE\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69596dd11c508c5d5e9804d6",
+        "email": "Gisselle.Altenwerth-Hammes@hotmail.com",
+        "name": "Elta Frami",
+        "country": "Germany",
+        "city": "Lake Everettburgh",
+        "street": "Nikita Parks",
+        "house": 29,
+        "flat": 449,
+        "phone": "+13083999804",
+        "createdOn": "2026-01-03T19:28:17.000Z",
+        "notes": "3WXF47tyGMWlIjkcXH8z5OcZijdCdKUGupuAt6E7ANkWzuRtxhUm4bS3WUD3YnXjlSenqUPbu4NECV4cczwyqBNwggIHb9QuxZusHM8XX1RKe1bwjGvIOr7nFew8K91rLE8U8Dwiz3xv5u7pJhKrUdu6wMkq0bUgDGojFPolayYdsDHB4cYrTDi4PE417w7ZwiNlbE1shrAm3N5zxHcdLM1qNNWcPGRDLMhq9Jblxfj1zCUO5sEe5xKhuR"
+      },
+      "products": [
+        {
+          "_id": "69596dd21c508c5d5e980500",
+          "name": "Chair30714",
+          "amount": 310,
+          "price": 51016,
+          "manufacturer": "Apple",
+          "notes": "N7RS5tPt0gNpAUbZYvL4Pq8Z0k9x3MmsQThPfnkOg3FQdWrfuiifoJOC4j5kTgiGiCOpm9ydRvC5GZbL90UNUEohsz8ZtL1RHEbhwCz3LT22RAevSzewJx7Dk91d1o3VPZQOXqiyOwU4Zm9XUTB8dgjMlzGb5cleO2p3dLfCALUXwC1SEY89eUF1b3wbHP6AEIDMLk0fSN7OH6bf1wAx0U78wyyzy0sAfrUG2WKQuONoeBCHw6yN2tvcPE",
+          "received": false
+        },
+        {
+          "_id": "69596dd41c508c5d5e9805b9",
+          "name": "Salad83062",
+          "amount": 530,
+          "price": 28166,
+          "manufacturer": "Samsung",
+          "notes": "jivuJoKpki4prLsw98Q8BoEg3A9Gp2FysVArY2nKffarKmwA95jIXa17dbDICVnsl4BsDlos5QvSUeVWTMx5GgZLeIgPlJH4Nnpp4W7LrvrxVamgwi5MRbfIf9Nx5zrezNp5S1P0FK0iVTx6UotWDluxWFBEHdapqPblYv0SgaQJWrFqXmNH74bolxmJR8dQgT5WV0Gx0CZtrYJU77TQCf520F0RYOCtC37RwidhcNmqrBQ6SLtwRhtATC",
+          "received": false
+        },
+        {
+          "_id": "69596dda1c508c5d5e9807ec",
+          "name": "Chips69167",
+          "amount": 703,
+          "price": 68990,
+          "manufacturer": "Sony",
+          "notes": "HcSLeR74N1yy5gMfQLqlrqfBuJAu1p0hGyWY9DXPBd2I6ms5BWpRnbfc64UXJi0wOLNrdMyUyDyaXmiVvV679bkVKoyLohUkhM5GU8EU36wTbNgFfRi1CxTlBxmugXovnjmoRVt13B0wZ4ceEPLrAUr4w4MUhI9ZUmgsGzdgmlJ8HA6DDu00Tijh88Plox0VVFQsYWwb52rOHxdmgb7wD4uCERiUcOkhSJqdMHhJgyh92GAKui65aBJt95",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 148172,
+      "createdOn": "2026-01-03T19:28:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69596dd11c508c5d5e9804d6",
+          "products": [
+            {
+              "_id": "69596dd21c508c5d5e980500",
+              "name": "Chair30714",
+              "amount": 310,
+              "price": 51016,
+              "manufacturer": "Apple",
+              "notes": "N7RS5tPt0gNpAUbZYvL4Pq8Z0k9x3MmsQThPfnkOg3FQdWrfuiifoJOC4j5kTgiGiCOpm9ydRvC5GZbL90UNUEohsz8ZtL1RHEbhwCz3LT22RAevSzewJx7Dk91d1o3VPZQOXqiyOwU4Zm9XUTB8dgjMlzGb5cleO2p3dLfCALUXwC1SEY89eUF1b3wbHP6AEIDMLk0fSN7OH6bf1wAx0U78wyyzy0sAfrUG2WKQuONoeBCHw6yN2tvcPE",
+              "received": false
+            },
+            {
+              "_id": "69596dd41c508c5d5e9805b9",
+              "name": "Salad83062",
+              "amount": 530,
+              "price": 28166,
+              "manufacturer": "Samsung",
+              "notes": "jivuJoKpki4prLsw98Q8BoEg3A9Gp2FysVArY2nKffarKmwA95jIXa17dbDICVnsl4BsDlos5QvSUeVWTMx5GgZLeIgPlJH4Nnpp4W7LrvrxVamgwi5MRbfIf9Nx5zrezNp5S1P0FK0iVTx6UotWDluxWFBEHdapqPblYv0SgaQJWrFqXmNH74bolxmJR8dQgT5WV0Gx0CZtrYJU77TQCf520F0RYOCtC37RwidhcNmqrBQ6SLtwRhtATC",
+              "received": false
+            },
+            {
+              "_id": "69596dda1c508c5d5e9807ec",
+              "name": "Chips69167",
+              "amount": 703,
+              "price": 68990,
+              "manufacturer": "Sony",
+              "notes": "HcSLeR74N1yy5gMfQLqlrqfBuJAu1p0hGyWY9DXPBd2I6ms5BWpRnbfc64UXJi0wOLNrdMyUyDyaXmiVvV679bkVKoyLohUkhM5GU8EU36wTbNgFfRi1CxTlBxmugXovnjmoRVt13B0wZ4ceEPLrAUr4w4MUhI9ZUmgsGzdgmlJ8HA6DDu00Tijh88Plox0VVFQsYWwb52rOHxdmgb7wD4uCERiUcOkhSJqdMHhJgyh92GAKui65aBJt95",
+              "received": false
+            }
+          ],
+          "total_price": 148172,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:28:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69596dda1c508c5d5e980803"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

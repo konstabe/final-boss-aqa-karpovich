@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:28:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1416",
+    "etag": "W/\"588-xbvtnBBGJKlmlsfTS/RagQpLTDU\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "69596dc91c508c5d5e98023e",
+        "status": "Draft",
+        "customer": "69596dc71c508c5d5e9801dd",
+        "products": [
+          {
+            "_id": "69596dc91c508c5d5e98022d",
+            "name": "Fish34716",
+            "amount": 461,
+            "price": 70850,
+            "manufacturer": "Microsoft",
+            "notes": "cf3sMhj0bOte2AmbivkU1v8uZ5QOUHWMbzejH9FJJ7KqYrLyIhcAhhh1OZUqSyYqqIZ0AohQp49tu95c7cNbGoXJUN789pBHYXkWE2hCInQwUTy9iA0xxnaRP6284hpNxwNmT1TyNdTYJ9lzcoysq73BBnYOg8PBAzH5Je5kinnEcYCfZg2S1yVLgXBppFhJwlXrsCIuhh9xFjNtYcY4Z1YixsvW1nMXVvu9GqgE6Nlwb9jG9bdnlAhBup",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 70850,
+        "createdOn": "2026-01-03T19:28:09.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "69596dc71c508c5d5e9801dd",
+            "products": [
+              {
+                "_id": "69596dc91c508c5d5e98022d",
+                "name": "Fish34716",
+                "amount": 461,
+                "price": 70850,
+                "manufacturer": "Microsoft",
+                "notes": "cf3sMhj0bOte2AmbivkU1v8uZ5QOUHWMbzejH9FJJ7KqYrLyIhcAhhh1OZUqSyYqqIZ0AohQp49tu95c7cNbGoXJUN789pBHYXkWE2hCInQwUTy9iA0xxnaRP6284hpNxwNmT1TyNdTYJ9lzcoysq73BBnYOg8PBAzH5Je5kinnEcYCfZg2S1yVLgXBppFhJwlXrsCIuhh9xFjNtYcY4Z1YixsvW1nMXVvu9GqgE6Nlwb9jG9bdnlAhBup",
+                "received": false
+              }
+            ],
+            "total_price": 70850,
+            "delivery": null,
+            "changedOn": "2026-01-03T19:28:09.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953315",
+              "username": "student2@gmail.com",
+              "firstName": "Wilfrid",
+              "lastName": "Daugherty",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

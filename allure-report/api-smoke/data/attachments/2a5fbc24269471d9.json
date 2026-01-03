@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:28:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2660",
+    "etag": "W/\"a64-huajsIH4COEGeKqqqz31/WbbbPE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69596dc91c508c5d5e98024d",
+        "email": "Era.Cartwright@gmail.com",
+        "name": "Gregoria Carter",
+        "country": "Russia",
+        "city": "Fort Gaetano",
+        "street": "Shields Knoll",
+        "house": 24,
+        "flat": 474,
+        "phone": "+12162901312",
+        "createdOn": "2026-01-03T19:28:09.000Z",
+        "notes": "U0ah253wg1lwrf4fPkQlmyXiSQUr50wuh3l6zCrxnrPtUotuQRfgKKeIXk3uS1z8XM0G1fE2m59tPaYuBBZo9plufSIjzyklXTnKXpyYqyoRCOnyo1MTbgpSqZmbEyFrYr7nZXGuz8R7n1uuLIqmW7hYInHevkteADGUVbO85OyLM5bYGHbqHOYQkJjM3nyqZyXsBGvPC435gSS7OYtzdFeg2Gf292HA8gjihLjHf8sPHklCG7NYAMhbNF"
+      },
+      "products": [
+        {
+          "_id": "69596dcb1c508c5d5e9802b4",
+          "name": "Shirt15760",
+          "amount": 528,
+          "price": 83171,
+          "manufacturer": "Apple",
+          "notes": "UhlW3c8K2DtjTFqYhbWrnnMypGVjufdJ3yAocWYJeh8RINSOFcT2DujEPNPZcRdDMv8qVpvtP0MvGx2z62BIC8BDZ8SNbdLkUpKPxBKlwvqXZbRGH3rLBL7X63apETtkgn2ekg4LchSpI3sYtaRVen9hGTWHFOJFxWHf1m95TA640tPhkHp3yihnHwhHz7hnSagVuIA9XdRoJUHAnQUPga5ZhivxhjuuWsfGFVWrUpHjjWlchWe0eEOHlb",
+          "received": false
+        },
+        {
+          "_id": "69596dcd1c508c5d5e980371",
+          "name": "Chicken92189",
+          "amount": 953,
+          "price": 70556,
+          "manufacturer": "Google",
+          "notes": "vogwZR1JrwcWjymVkNeApDa297BZ8EySLbFUVmbKR7DnxwEj0Q023TeaBMxuqkP0WGvaNJVcqooLX7Or0WyvH7tbLWFS6DUa1sQVFuRJYP9bmrJRJxyvoHMOjvFF9gyiZsCJ5ECvk5AIlfV6Pg0AM9UPPe8J0ld1OGf0SIVDbMhFmv7ubaavolvvR03PQh0hvFrKFbbhTv97ZoVwG5KsOv1uErdct5m7dzNBdWPekTtlnlzQqNx8kA6uuY",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 153727,
+      "createdOn": "2026-01-03T19:28:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69596dc91c508c5d5e98024d",
+          "products": [
+            {
+              "_id": "69596dcb1c508c5d5e9802b4",
+              "name": "Shirt15760",
+              "amount": 528,
+              "price": 83171,
+              "manufacturer": "Apple",
+              "notes": "UhlW3c8K2DtjTFqYhbWrnnMypGVjufdJ3yAocWYJeh8RINSOFcT2DujEPNPZcRdDMv8qVpvtP0MvGx2z62BIC8BDZ8SNbdLkUpKPxBKlwvqXZbRGH3rLBL7X63apETtkgn2ekg4LchSpI3sYtaRVen9hGTWHFOJFxWHf1m95TA640tPhkHp3yihnHwhHz7hnSagVuIA9XdRoJUHAnQUPga5ZhivxhjuuWsfGFVWrUpHjjWlchWe0eEOHlb",
+              "received": false
+            },
+            {
+              "_id": "69596dcd1c508c5d5e980371",
+              "name": "Chicken92189",
+              "amount": 953,
+              "price": 70556,
+              "manufacturer": "Google",
+              "notes": "vogwZR1JrwcWjymVkNeApDa297BZ8EySLbFUVmbKR7DnxwEj0Q023TeaBMxuqkP0WGvaNJVcqooLX7Or0WyvH7tbLWFS6DUa1sQVFuRJYP9bmrJRJxyvoHMOjvFF9gyiZsCJ5ECvk5AIlfV6Pg0AM9UPPe8J0ld1OGf0SIVDbMhFmv7ubaavolvvR03PQh0hvFrKFbbhTv97ZoVwG5KsOv1uErdct5m7dzNBdWPekTtlnlzQqNx8kA6uuY",
+              "received": false
+            }
+          ],
+          "total_price": 153727,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:28:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69596dcf1c508c5d5e98043b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
