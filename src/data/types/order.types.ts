@@ -101,6 +101,15 @@ export type OrdersTableHeader =
 	| "Assigned Manager"
 	| "Created On";
 
+export type ExportDataFields =
+	| "Status"
+	| "Total Price"
+	| "Delivery"
+	| "Customer"
+	| "Products"
+	| "Assigned Manager"
+	| "Created On";
+
 export interface IOrderInTable extends ICreatedOn, ID {
 	email: string;
 	price: number;
