@@ -71,7 +71,7 @@ export class ScheduleDeliveryModal extends ConfirmationModal {
 		await this.availableDays.first().click();
 	}
 
-	private async getAllAvailableDays() {
+	async getAllAvailableDays() {
 		const dates = await this.availableDays.allInnerTexts();
 		return dates;
 	}

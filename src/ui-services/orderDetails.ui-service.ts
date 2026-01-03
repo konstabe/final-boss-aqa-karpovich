@@ -37,7 +37,7 @@ export class OrdersDetailsUIService {
 	}
 
 	@logStep("Open Delivery modal on Order Details Page")
-	async openScheduleDelivery() {
+	async openDeliveryModal() {
 		await this.orderDetailsPage.bottom.openScheduleDeliveryModal();
 		await this.orderDetailsPage.scheduleDeliveryModal.waitForOpened();
 	}

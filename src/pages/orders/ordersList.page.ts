@@ -5,12 +5,14 @@ import { CreateOrderModal } from "pages/orders/createOrder.modal";
 import { ReopenModal } from "pages/reOpenOder.modal";
 import { FilterModal } from "pages/filter.modal";
 import { ExportDataModal } from "pages/exportData.modal";
+import { ExportOrderModal } from "./exportData.modal";
 
 export class OrdersListPage extends SalesPortalPage {
 	readonly filterModal = new FilterModal(this.page);
 	readonly exportDataModal = new ExportDataModal(this.page);
 	readonly createOrderModal = new CreateOrderModal(this.page);
 	readonly reopenModal = new ReopenModal(this.page);
+	readonly exportOrderModal = new ExportOrderModal(this.page);
 
 	readonly createOrderButton = this.page.locator("button[name='add-button']");
 	readonly uniqueElement = this.createOrderButton;
