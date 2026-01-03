@@ -13,6 +13,7 @@ import { AddNewOrderUIService } from "ui-services/addNewOrder.ui-service";
 import { HomeUIService } from "ui-services/home.ui-service";
 import { OrderDetailsPage } from "pages/orders/orderDetails/orderDetails.page";
 import { OrdersDetailsUIService } from "ui-services/orderDetails.ui-service";
+import { NotificationsPopover } from "pages/notifications.popover";
 // import { AddNewCustomerPage } from "pages/customers/addNewCustomer.page";
 // import { CustomersListPage } from "pages/customers/customersList.page";
 // import { AddNewProductPage } from "pages/products/addNewProduct.page";
@@ -35,6 +36,7 @@ export interface IPages {
 	// customersListPage: CustomersListPage;
 	ordersListPage: OrdersListPage;
 	orderDetailsPage: OrderDetailsPage;
+	notificationsPopover: NotificationsPopover;
 	addNewOrderPage: CreateOrderModal;
 	createOrderModal: CreateOrderModal;
 
@@ -86,6 +88,10 @@ export const test = base.extend<IPages>({
 
 	orderDetailsPage: async ({ page }, use) => {
 		await use(new OrderDetailsPage(page));
+	},
+
+	notificationsPopover: async ({ page }, use) => {
+		await use(new NotificationsPopover(page));
 	},
 
 	createOrderModal: async ({ page }, use) => {
