@@ -1,8 +1,9 @@
 import { apiConfig } from "config/apiConfig";
+import { DELIVERY_CONDITION } from "data/orders/deliveryCondition";
 import { TAGS } from "data/tags";
 import { IOrderResponse } from "data/types/order.types";
 import { expect, test } from "fixtures";
-import { convertToDate, parseDatepickerDate } from "utils/date.utils";
+import { convertToDate } from "utils/date.utils";
 import { mapDeliveryInfo } from "utils/mappers.utils";
 
 test.describe("[UI] [Orders]", () => {
@@ -26,12 +27,8 @@ test.describe("[UI] [Orders]", () => {
 				await orderDetailsPage.bottom.changeBottomTab("delivery-tab");
 
 				await ordersDetailsUIService.openDeliveryModal();
-				await orderDetailsPage.scheduleDeliveryModal.clickDate();
-				const day = await orderDetailsPage.scheduleDeliveryModal.getRandomAvailableDay();
-				const monthAndYear = await orderDetailsPage.scheduleDeliveryModal.getMonthAndYear();
+				const date = await ordersDetailsUIService.clickRandomDeliveryDate();
 
-				await orderDetailsPage.scheduleDeliveryModal.clickAvailableDay(day!);
-				const date = parseDatepickerDate(monthAndYear, day!);
 				await expect(orderDetailsPage.scheduleDeliveryModal.dateInput).toHaveValue(date);
 				await expect(orderDetailsPage.scheduleDeliveryModal.saveDeliveryButton).toBeEnabled();
 
@@ -60,19 +57,97 @@ test.describe("[UI] [Orders]", () => {
 			async ({ ordersApiService, ordersDetailsUIService, orderDetailsPage }) => {
 				const order = await ordersApiService.createDraftWithDelivery(token, 2);
 				const deliveryDate = order.delivery?.finalDate;
-				const currentDay = convertToDate(deliveryDate!).split("/")[2];
 
 				await ordersDetailsUIService.open(order._id);
 				await orderDetailsPage.bottom.changeBottomTab("delivery-tab");
 
 				await ordersDetailsUIService.openDeliveryModal();
-				await orderDetailsPage.scheduleDeliveryModal.clickDate();
-				const availableDays = orderDetailsPage.scheduleDeliveryModal.getAllAvailableDays();
-				const day = (await availableDays).find((day) => day !== currentDay);
-				const monthAndYear = await orderDetailsPage.scheduleDeliveryModal.getMonthAndYear();
+				const date = await ordersDetailsUIService.clickDifferentDate(deliveryDate!);
 
-				await orderDetailsPage.scheduleDeliveryModal.clickAvailableDay(day!);
-				const date = parseDatepickerDate(monthAndYear, day!);
+				await expect(orderDetailsPage.scheduleDeliveryModal.dateInput).toHaveValue(date);
+				await expect(orderDetailsPage.scheduleDeliveryModal.saveDeliveryButton).toBeEnabled();
+
+				const response = await orderDetailsPage.interceptResponse<IOrderResponse, []>(
+					apiConfig.endpoints.updateDelivery(order._id),
+					orderDetailsPage.scheduleDeliveryModal.clickSaveDelivery.bind(
+						orderDetailsPage.scheduleDeliveryModal,
+					),
+				);
+				await orderDetailsPage.scheduleDeliveryModal.waitForClosed();
+				await orderDetailsPage.waitForOpened();
+
+				const dateDeliveryInTable = await orderDetailsPage.header.tableValueByHeader("Delivery").innerText();
+				expect(dateDeliveryInTable).toBe(date);
+				expect(orderDetailsPage.bottom.deliveryButton).toHaveText("Edit Delivery");
+
+				const infoFromUI = await orderDetailsPage.bottom.parseDeliveryInformation();
+				const infoFromResp = mapDeliveryInfo(response.body.Order.delivery!);
+				expect(infoFromUI).toEqual(infoFromResp);
+			},
+		);
+
+		test(
+			"Should schedule pickup",
+			{ tag: [TAGS.UI, TAGS.SMOKE, TAGS.ORDER] },
+			async ({ ordersApiService, ordersDetailsUIService, orderDetailsPage }) => {
+				const order = await ordersApiService.createDraft(token, 2);
+				const country = order.customer.country;
+				await ordersDetailsUIService.open(order._id);
+				await orderDetailsPage.bottom.changeBottomTab("delivery-tab");
+
+				await ordersDetailsUIService.openDeliveryModal();
+				await orderDetailsPage.scheduleDeliveryModal.selectDeliveryMethod("Pickup");
+				await expect(orderDetailsPage.scheduleDeliveryModal.deliveryType).toHaveValue(
+					DELIVERY_CONDITION.PICKUP,
+				);
+
+				const date = await ordersDetailsUIService.clickRandomDeliveryDate();
+
+				await expect(orderDetailsPage.scheduleDeliveryModal.dateInput).toHaveValue(date);
+				await expect(orderDetailsPage.scheduleDeliveryModal.country).toHaveValue(country);
+				await expect(orderDetailsPage.scheduleDeliveryModal.saveDeliveryButton).toBeEnabled();
+
+				const response = await orderDetailsPage.interceptResponse<IOrderResponse, []>(
+					apiConfig.endpoints.updateDelivery(order._id),
+					orderDetailsPage.scheduleDeliveryModal.clickSaveDelivery.bind(
+						orderDetailsPage.scheduleDeliveryModal,
+					),
+				);
+				await orderDetailsPage.scheduleDeliveryModal.waitForClosed();
+				await orderDetailsPage.waitForOpened();
+
+				const pickupDateInTable = await orderDetailsPage.header.tableValueByHeader("Delivery").innerText();
+				expect(pickupDateInTable).toBe(date);
+				expect(orderDetailsPage.bottom.deliveryButton).toHaveText("Edit Delivery");
+
+				const infoFromUI = await orderDetailsPage.bottom.parseDeliveryInformation();
+				const infoFromResp = mapDeliveryInfo(response.body.Order.delivery!);
+				expect(infoFromUI).toEqual(infoFromResp);
+			},
+		);
+
+		test(
+			"Should switch from delivery to pickup",
+			{ tag: [TAGS.UI, TAGS.SMOKE, TAGS.ORDER] },
+			async ({ ordersApiService, ordersDetailsUIService, orderDetailsPage }) => {
+				const order = await ordersApiService.createDraftWithDelivery(token, 2);
+				const deliveryDate = order.delivery?.finalDate;
+				const date = convertToDate(deliveryDate!);
+				expect(order.delivery?.condition).toBe(DELIVERY_CONDITION.DELIVERY);
+
+				await ordersDetailsUIService.open(order._id);
+				await orderDetailsPage.bottom.changeBottomTab("delivery-tab");
+
+				await ordersDetailsUIService.openDeliveryModal();
+				await expect(orderDetailsPage.scheduleDeliveryModal.deliveryType).toHaveValue(
+					DELIVERY_CONDITION.DELIVERY,
+				);
+				await orderDetailsPage.scheduleDeliveryModal.selectDeliveryMethod("Pickup");
+				await expect(orderDetailsPage.scheduleDeliveryModal.deliveryType).toHaveValue(
+					DELIVERY_CONDITION.PICKUP,
+				);
+				await expect(orderDetailsPage.scheduleDeliveryModal.saveDeliveryButton).toBeEnabled();
+
 				await expect(orderDetailsPage.scheduleDeliveryModal.dateInput).toHaveValue(date);
 				await expect(orderDetailsPage.scheduleDeliveryModal.saveDeliveryButton).toBeEnabled();
 

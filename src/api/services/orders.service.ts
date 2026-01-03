@@ -107,7 +107,7 @@ export class OrdersApiService {
 		const address: IAddress = _.pick(order.customer, ["country", "city", "house", "flat", "street"]);
 		return {
 			finalDate: getRandomFutureDate(),
-			condition: "Pickup",
+			condition: "Delivery",
 			address: address,
 		};
 	}
@@ -132,7 +132,7 @@ export class OrdersApiService {
 		const received = await this.ordersApi.markOrdersAsReceived(order._id, productsId, token);
 		validateResponse(received, {
 			status: STATUS_CODES.OK,
-			schema: orderResponseSchema, //подставить нужную схему
+			schema: orderResponseSchema,
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
@@ -195,7 +195,7 @@ export class OrdersApiService {
 		const assigned = await this.ordersApi.assignManagerToOrder(order._id, managerId, token);
 		validateResponse(assigned, {
 			status: STATUS_CODES.OK,
-			schema: orderResponseSchema, //подставить нужную схему
+			schema: orderResponseSchema,
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
@@ -208,7 +208,7 @@ export class OrdersApiService {
 		const changedStatus = await this.ordersApi.updateOrderStatus(order._id, ORDER_STATUS.CANCELED, token);
 		validateResponse(changedStatus, {
 			status: STATUS_CODES.OK,
-			schema: orderResponseSchema, //подставить нужную схему
+			schema: orderResponseSchema,
 			IsSuccess: true,
 			ErrorMessage: null,
 		});
@@ -222,7 +222,7 @@ export class OrdersApiService {
 		const changedStatus = await this.ordersApi.updateOrderStatus(canceled._id, ORDER_STATUS.DRAFT, token);
 		validateResponse(changedStatus, {
 			status: STATUS_CODES.OK,
-			schema: orderResponseSchema, //подставить нужную схему
+			schema: orderResponseSchema,
 			IsSuccess: true,
 			ErrorMessage: null,
 		});

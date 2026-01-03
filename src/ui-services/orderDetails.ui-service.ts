@@ -1,6 +1,7 @@
 import { Page } from "@playwright/test";
 import { ModalsOnOrderDetails } from "data/types/order.types";
 import { OrderDetailsPage } from "pages/orders/orderDetails/orderDetails.page";
+import { convertToDate, parseDatepickerDate } from "utils/date.utils";
 import { logStep } from "utils/report/logStep.utils";
 
 export class OrdersDetailsUIService {
@@ -46,5 +47,30 @@ export class OrdersDetailsUIService {
 	async saveDelivery() {
 		await this.orderDetailsPage.scheduleDeliveryModal.clickSaveDelivery();
 		await this.orderDetailsPage.scheduleDeliveryModal.waitForClosed();
+	}
+
+	@logStep("Click random delivery date")
+	async clickRandomDeliveryDate() {
+		await this.orderDetailsPage.scheduleDeliveryModal.clickDate();
+		const day = await this.orderDetailsPage.scheduleDeliveryModal.getRandomAvailableDay();
+		const monthAndYear = await this.orderDetailsPage.scheduleDeliveryModal.getMonthAndYear();
+
+		await this.orderDetailsPage.scheduleDeliveryModal.clickAvailableDay(day!);
+		const date = parseDatepickerDate(monthAndYear, day!);
+		return date;
+	}
+
+	@logStep("Click different delivery date")
+	async clickDifferentDate(currentDeliveryDate: string) {
+		const currentDay = convertToDate(currentDeliveryDate).split("/")[2];
+
+		await this.orderDetailsPage.scheduleDeliveryModal.clickDate();
+		const availableDays = this.orderDetailsPage.scheduleDeliveryModal.getAllAvailableDays();
+		const day = (await availableDays).find((day) => day !== currentDay);
+		const monthAndYear = await this.orderDetailsPage.scheduleDeliveryModal.getMonthAndYear();
+
+		await this.orderDetailsPage.scheduleDeliveryModal.clickAvailableDay(day!);
+		const date = parseDatepickerDate(monthAndYear, day!);
+		return date;
 	}
 }
