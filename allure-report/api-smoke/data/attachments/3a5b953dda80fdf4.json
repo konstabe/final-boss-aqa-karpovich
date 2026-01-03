@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:53:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-mnKkWLMXM4oNYROLC1sPU2n6Qio\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69592d571c508c5d5e8d329c",
+        "email": "Tierra74@yahoo.com",
+        "name": "Ole Runolfsdottir",
+        "country": "Germany",
+        "city": "Philadelphia",
+        "street": "Willard Mews",
+        "house": 20,
+        "flat": 739,
+        "phone": "+18335108457",
+        "createdOn": "2026-01-03T14:53:11.000Z",
+        "notes": "27zKy66uFv7R0gr0h6TzEhzQqaSjnhjV122aqVtBv4qwtCUeZQzZvYRZWtOsOzInDUqGz0rtS7wyjSqtvobzXptByLMvYOdPPbY14k08l7gESzjffTH4zbiutuKYBmoI4Kx8akaYAlNsrM3NL1v0US101LkvncwQXHnwplkiQ6zaa8X6QHnmERyzqlS5rNrV1UBmu7mb0m7jOZVoCwgtexQyxVjR192b6Ql7ujXQYGawRAZ31OHgWBCypv"
+      },
+      "products": [
+        {
+          "_id": "69592d661c508c5d5e8d3404",
+          "name": "Pizza89387",
+          "amount": 181,
+          "price": 47316,
+          "manufacturer": "Apple",
+          "notes": "m0gdHN0Rlm14aUOPbkx0jJHpLsRRCplpevuNQptn16bcktblbQzGrIPPSyDCwUzKb3ZdDCrC8QadQCZTkbOGwgSzqYvNlHURNA53pXIGtb4QGunpfZBZNI9vAVRthQyYDdqzRw29ZAfihRLMWWqFGGpaMtwjdBJWItFpgLTP4bHXPZzhNnIGdPcKWulSrQNQxDUmxq11whuUrdBbuyUqxOv5Y7bTyGJWeKvKfIERGa9YTGvl7WmQwN1N2l",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 47316,
+      "createdOn": "2026-01-03T14:53:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69592d571c508c5d5e8d329c",
+          "products": [
+            {
+              "_id": "69592d661c508c5d5e8d3404",
+              "name": "Pizza89387",
+              "amount": 181,
+              "price": 47316,
+              "manufacturer": "Apple",
+              "notes": "m0gdHN0Rlm14aUOPbkx0jJHpLsRRCplpevuNQptn16bcktblbQzGrIPPSyDCwUzKb3ZdDCrC8QadQCZTkbOGwgSzqYvNlHURNA53pXIGtb4QGunpfZBZNI9vAVRthQyYDdqzRw29ZAfihRLMWWqFGGpaMtwjdBJWItFpgLTP4bHXPZzhNnIGdPcKWulSrQNQxDUmxq11whuUrdBbuyUqxOv5Y7bTyGJWeKvKfIERGa9YTGvl7WmQwN1N2l",
+              "received": false
+            }
+          ],
+          "total_price": 47316,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:53:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69592d6e1c508c5d5e8d3477"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

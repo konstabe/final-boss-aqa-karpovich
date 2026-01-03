@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:53:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1902",
+    "etag": "W/\"76e-8p5/4UnLVS7dR/c/1Y/4n25Hijg\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69592d571c508c5d5e8d32bf",
+        "email": "Amber.Bergstrom-DAmore@hotmail.com",
+        "name": "Hilton Kemmer",
+        "country": "Canada",
+        "city": "Ephraimborough",
+        "street": "Kim Estate",
+        "house": 6,
+        "flat": 539,
+        "phone": "+19227029695",
+        "createdOn": "2026-01-03T14:53:11.000Z",
+        "notes": "mwJQ1JedMabd06QAt08J5BBBZJpVWX4cy56sfuFGlAcULmPRU56ROR6Ip85iMxjWPl7LSm0GQsumCTBMHJJf4NG25ZQJZBCCSlotzkFacs6FaZekhGlTyILjfqikxB6HCl2GHvBCEZb6JiOez20GtuNuxdhFymrdmYbRWlqK0SmMeneVICkcWq0tUDRnOcGioINM53BKwvpfcanbvvI1wmn7mFjrd2d0ePpdVWKOOyr4e6BPmPfntEei42"
+      },
+      "products": [
+        {
+          "_id": "69592d661c508c5d5e8d3400",
+          "name": "Keyboard19324",
+          "amount": 278,
+          "price": 97132,
+          "manufacturer": "Samsung",
+          "notes": "SUy6gYdJApbwRsUkqqql07mjCnEiviSv5gk5lP6uHIgE50gF32Pucl1FTnGvjUH9Yxr2vG2ggpoFqfCpWdFYb15jKVnfVOP4i8XTJP7KS2dMJp5Y5NlSJi4upwsGf1BHyWYlZPQdqSCk7QA0jwohbGg6nriIDy9oW8FFVUCrR2rhZACi60nJ74GOL5n5FTl3nM8YH162HHt7aA1bQVzivuZrKdovG7yY6ywRUOCZ8vud0rLPkgpSyJi6D1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 97132,
+      "createdOn": "2026-01-03T14:53:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69592d571c508c5d5e8d32bf",
+          "products": [
+            {
+              "_id": "69592d661c508c5d5e8d3400",
+              "name": "Keyboard19324",
+              "amount": 278,
+              "price": 97132,
+              "manufacturer": "Samsung",
+              "notes": "SUy6gYdJApbwRsUkqqql07mjCnEiviSv5gk5lP6uHIgE50gF32Pucl1FTnGvjUH9Yxr2vG2ggpoFqfCpWdFYb15jKVnfVOP4i8XTJP7KS2dMJp5Y5NlSJi4upwsGf1BHyWYlZPQdqSCk7QA0jwohbGg6nriIDy9oW8FFVUCrR2rhZACi60nJ74GOL5n5FTl3nM8YH162HHt7aA1bQVzivuZrKdovG7yY6ywRUOCZ8vud0rLPkgpSyJi6D1",
+              "received": false
+            }
+          ],
+          "total_price": 97132,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:53:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69592d6e1c508c5d5e8d347c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

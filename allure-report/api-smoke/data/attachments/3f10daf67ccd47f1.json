@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:53:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1894",
+    "etag": "W/\"766-vGpnUxvcHuSNMo5QGy7i5m2aQTw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69592d571c508c5d5e8d32bd",
+        "email": "Charles_Mante91@yahoo.com",
+        "name": "Ignacio Schuster",
+        "country": "Ukraine",
+        "city": "West Russell",
+        "street": "The Ridgeway",
+        "house": 29,
+        "flat": 430,
+        "phone": "+17483562821",
+        "createdOn": "2026-01-03T14:53:11.000Z",
+        "notes": "wBjejafaTPKYjPDFbSnATsqQmGTl0RVJwIWFKNUwws7c8pGnfbTlv8VtBASaS4yApxeS2WPy06ZQYYiklesGkvXT8ELuCPU0B4yFyl9lBbOc1XF9AFdGXHmEjNfJFnkFz4jqPBVzGwojgUgeigaOvzKjqHdi1no37E10H8BWm036VQyPwua5loxVWYnCVKoYq5K5KWJAzd6vD7pPo4JGZYEIh4l0KKzx8vXhDvouQwHxLeTRrX0wwhsAg6"
+      },
+      "products": [
+        {
+          "_id": "69592d661c508c5d5e8d33fa",
+          "name": "Computer55868",
+          "amount": 432,
+          "price": 9397,
+          "manufacturer": "Samsung",
+          "notes": "LjPrZxf5tv2k8EG2ksQfJP8VF37FxjH0M5XuOIHB63DCt1DEDTaugqTCVVwOHqG4JQm8EgaQ1rQDyIIKrJqW48rQopUiKlPOZ5nnK8NXGw76FOrAtDHuSKZTmGnI2bTmyXjN5PIPvZLbSeXR17csW8Zfz5yt6cAqLR7use98MqwlKPs1QWVH3P0MN4LZZU8ifFdpijxBOvH0QwPHJJKKx0KNVM1xhyw6dY4Nk7lqaPvN2m9DUCu2DCIQLs",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 9397,
+      "createdOn": "2026-01-03T14:53:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69592d571c508c5d5e8d32bd",
+          "products": [
+            {
+              "_id": "69592d661c508c5d5e8d33fa",
+              "name": "Computer55868",
+              "amount": 432,
+              "price": 9397,
+              "manufacturer": "Samsung",
+              "notes": "LjPrZxf5tv2k8EG2ksQfJP8VF37FxjH0M5XuOIHB63DCt1DEDTaugqTCVVwOHqG4JQm8EgaQ1rQDyIIKrJqW48rQopUiKlPOZ5nnK8NXGw76FOrAtDHuSKZTmGnI2bTmyXjN5PIPvZLbSeXR17csW8Zfz5yt6cAqLR7use98MqwlKPs1QWVH3P0MN4LZZU8ifFdpijxBOvH0QwPHJJKKx0KNVM1xhyw6dY4Nk7lqaPvN2m9DUCu2DCIQLs",
+              "received": false
+            }
+          ],
+          "total_price": 9397,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:53:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69592d6e1c508c5d5e8d345b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

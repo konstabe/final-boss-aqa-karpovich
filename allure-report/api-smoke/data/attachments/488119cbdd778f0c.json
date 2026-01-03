@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:54:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-h3BKPiU7aJNVp+FH7i6XiSpadhA\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69592d771c508c5d5e8d3626",
+        "email": "Filiberto94@yahoo.com",
+        "name": "Magdalen Moore",
+        "country": "France",
+        "city": "East Eladio",
+        "street": "Prospect Road",
+        "house": 29,
+        "flat": 353,
+        "phone": "+14322713315",
+        "createdOn": "2026-01-03T14:53:43.000Z",
+        "notes": "LZpPWTzP88i7UhZGd5q73Al0NM5gNnFPAjlyCmQJBEwzqjRUa7L5fpMEMGoOQ0AnfR4xtlKoBEkjC2xNYy46u9yywYpXBpqKV8G1y0jLuDKTXIltTpEfkUBlJvT2x0QziNnanVlk9miC2CvTKSgYWyye51pgtxKgnEaeRJJS7VOHAAzZidlXAzdr5e5TTrpCmmXFzlJb0ziqeu4DCzvXlG3Nhy7uBYH9LOfNrzQN4RPStrw5jM0pcbVowN"
+      },
+      "products": [
+        {
+          "_id": "69592d831c508c5d5e8d3855",
+          "name": "Gloves71840",
+          "amount": 693,
+          "price": 31342,
+          "manufacturer": "Amazon",
+          "notes": "ka83NJUZqyU6U1wOTuGjOG3wehpjTUP29bGPvMJw8Hp2yoI6Ndi8f872UzWExQpYzlZF92XluG2LKNWcMrnakx5CWWfxbJXhnLJWKKXG56299rkXs1hjv1hN854mL2Uk3vs290FWWi3DtulGwmQMln0VApZnIyXbidBSbjIWq0GwEcWwoHHFTx8n13ETtgctnyWBMXjZK6w3tG0Cx0tHXdlGOA85paGILgdkZfJeirvIp5rmd9otQEL7R6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 31342,
+      "createdOn": "2026-01-03T14:54:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69592d771c508c5d5e8d3626",
+          "products": [
+            {
+              "_id": "69592d831c508c5d5e8d3855",
+              "name": "Gloves71840",
+              "amount": 693,
+              "price": 31342,
+              "manufacturer": "Amazon",
+              "notes": "ka83NJUZqyU6U1wOTuGjOG3wehpjTUP29bGPvMJw8Hp2yoI6Ndi8f872UzWExQpYzlZF92XluG2LKNWcMrnakx5CWWfxbJXhnLJWKKXG56299rkXs1hjv1hN854mL2Uk3vs290FWWi3DtulGwmQMln0VApZnIyXbidBSbjIWq0GwEcWwoHHFTx8n13ETtgctnyWBMXjZK6w3tG0Cx0tHXdlGOA85paGILgdkZfJeirvIp5rmd9otQEL7R6",
+              "received": false
+            }
+          ],
+          "total_price": 31342,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:54:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69592d8c1c508c5d5e8d38ba"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
