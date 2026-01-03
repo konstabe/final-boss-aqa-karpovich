@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:41:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-+fw3GDWeyJBy/PrXS36fCUslsH8\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69590e8c1c508c5d5e85fc0a",
+        "email": "Neil_Hoppe-Kunde@gmail.com",
+        "name": "Jose Barton",
+        "country": "Ukraine",
+        "city": "South Jared",
+        "street": "W Church Street",
+        "house": 41,
+        "flat": 608,
+        "phone": "+14858651160",
+        "createdOn": "2026-01-03T12:41:48.000Z",
+        "notes": "tfnvjsLiJm0thM4tyV4TfZgAkLZ8KGDZKzpW1jakL2FvjrFEVHbXVwoOnWvebO1zB1XALUfA31MXtKb41JETWQ94DQWvmm84nekgwck9GquUajoeiW1KRKS9GXRm7NQe7jpV5hTrmI8t5dM142anj5EdyrWIu6zc8lgqummk4odQpFv7CKjRlZmplugUVEeBZnDYyjQPo7jApwHB4oiTxCJeMt9nLWy8m1ZdxUcrZBAnzpchyHXWTZKryI"
+      },
+      "products": [
+        {
+          "_id": "69590e8f1c508c5d5e85fcac",
+          "name": "Gloves13245",
+          "amount": 945,
+          "price": 42539,
+          "manufacturer": "Amazon",
+          "notes": "76mJJPPxoOqXdTAG31M3Wv5O5PSVGa3fRIekBPispfy6SctbP8UFk8p9azRPJfZFNERLInFKmjKsBF2aAa92cFaeUw90FmJM0x3XIDLPjdDjBV3obd6DlVOvWZJ5j9tp3evQVMwVlCbzhZ0GGM3xXsieEbsHP9Qfq3MXmV7mlp1RKIpi8KSULCC6SjEkozGJccJhYwtocrkacad8hrMf33P1jZXOvfIuVzgXUu88Xg01cRNniQsYaZmqZa",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 42539,
+      "createdOn": "2026-01-03T12:41:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69590e8c1c508c5d5e85fc0a",
+          "products": [
+            {
+              "_id": "69590e8f1c508c5d5e85fcac",
+              "name": "Gloves13245",
+              "amount": 945,
+              "price": 42539,
+              "manufacturer": "Amazon",
+              "notes": "76mJJPPxoOqXdTAG31M3Wv5O5PSVGa3fRIekBPispfy6SctbP8UFk8p9azRPJfZFNERLInFKmjKsBF2aAa92cFaeUw90FmJM0x3XIDLPjdDjBV3obd6DlVOvWZJ5j9tp3evQVMwVlCbzhZ0GGM3xXsieEbsHP9Qfq3MXmV7mlp1RKIpi8KSULCC6SjEkozGJccJhYwtocrkacad8hrMf33P1jZXOvfIuVzgXUu88Xg01cRNniQsYaZmqZa",
+              "received": false
+            }
+          ],
+          "total_price": 42539,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:41:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69590e8f1c508c5d5e85fcc7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

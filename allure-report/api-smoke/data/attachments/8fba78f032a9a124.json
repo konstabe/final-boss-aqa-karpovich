@@ -1,0 +1,303 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:42:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8665",
+    "etag": "W/\"21d9-gQVtSfVjjF5GwCvBn40s/Uvjb+U\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69590e9d1c508c5d5e8600d9",
+      "status": "Received",
+      "customer": {
+        "_id": "69590e931c508c5d5e85fe25",
+        "email": "Madeline_McCullough@hotmail.com",
+        "name": "Dylan Zemlak",
+        "country": "Russia",
+        "city": "Port Carmela",
+        "street": "Prosacco Mountain",
+        "house": 4,
+        "flat": 467,
+        "phone": "+12597799813",
+        "createdOn": "2026-01-03T12:41:55.000Z",
+        "notes": "Sl7gYupVHW7mky8TZJZdJeaG2wWQlbmlqGdFiCqOuNFSTugObLhnLGIlSBxroUapLgupWcV0tfQXNPFMdX9cXYQxZ4p4ZwP6aosma7CeWsrnWwqdp1dTFntgu9LI6G5QknT1Ql5F69Rxlkw7hAoNGAjSMg8C8gikIGMOmJT53tOsn4Vi0zZLEXDKfRQksVtf6TB2yISIMtQnNONktueDWv9Fmwi5Nfy7mnecTntHHM6XpBOPU18QebOlby"
+      },
+      "products": [
+        {
+          "_id": "69590e961c508c5d5e85ff12",
+          "name": "Pizza88593",
+          "amount": 640,
+          "price": 32264,
+          "manufacturer": "Microsoft",
+          "notes": "WlvsOrZHkOaAqSGxW7QjQlXersb0ttwlz3evpkwKVS8mGMUTw3Bo2jbnabzXkukMN9L2HSoJO4dztbTHNEW9hmn83CR8Lc5c6ZdLtpCYtYsC0n8kN5Na7mhNLy5AnAurUvoOTvOniQjhtrjMzYySqVGHwBwtJcpvLLKCVr8XxZsR6n0NL2Sp8bFoiMHIFKk8ymJYMAwN5bHTnJ4vQvvrloaolZ8u0f1Ro3R75U2jTwSue0yj6HMzC2ff1Y",
+          "received": true
+        },
+        {
+          "_id": "69590e991c508c5d5e85ffef",
+          "name": "Hat21694",
+          "amount": 853,
+          "price": 55754,
+          "manufacturer": "Apple",
+          "notes": "psGOLRpUq9qruV6qkTPt9176rxAYb4OErS93FtEdVa5EU5a0pwnaPYNiDr9fjAf34H4meSSsGn8X7vgf7LT35q6pq5FlcrzMMGry7FTSxuX1BYuAJ7n0DZme94hk6GSqoUd110UCj8nbZVZHPiEuYL6wS7kogr61JdqfTwuCVd2qris40m0j4DJM89PU66BdPAPbTEtIH8jyQ79udT0TdpdQtSPIB7jGReeV5fWYvUSG6RSVXF1nJQe1Yk",
+          "received": true
+        },
+        {
+          "_id": "69590e9c1c508c5d5e8600cd",
+          "name": "Pants18365",
+          "amount": 526,
+          "price": 72040,
+          "manufacturer": "Xiaomi",
+          "notes": "z4xK6zGIzG6NYyjf17ezpHmUxTxThONY63j9WlT8LLDg6BwIWBnEBWdZTokBAS39ovoHi0sNjQ3oPbAGcMEBUYN4sRMNVTADGIz469WvAD5j21XH7NfVmuZJOem2pd28HoCwFkvIVPEZzcVwdYopMRCcWUwUL1s0Ymwft8V2kq7Gwq8N2W4kyIcmlAMZ7qhpn5MPpSD6aMXOh0Two2o7BzAT3p3QwjPTAqiVUCRRf2hhnEyhmHl6wB7BRc",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Port Carmela",
+          "street": "Prosacco Mountain",
+          "house": 4,
+          "flat": 467
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 160058,
+      "createdOn": "2026-01-03T12:42:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69590e931c508c5d5e85fe25",
+          "products": [
+            {
+              "_id": "69590e961c508c5d5e85ff12",
+              "name": "Pizza88593",
+              "amount": 640,
+              "price": 32264,
+              "manufacturer": "Microsoft",
+              "notes": "WlvsOrZHkOaAqSGxW7QjQlXersb0ttwlz3evpkwKVS8mGMUTw3Bo2jbnabzXkukMN9L2HSoJO4dztbTHNEW9hmn83CR8Lc5c6ZdLtpCYtYsC0n8kN5Na7mhNLy5AnAurUvoOTvOniQjhtrjMzYySqVGHwBwtJcpvLLKCVr8XxZsR6n0NL2Sp8bFoiMHIFKk8ymJYMAwN5bHTnJ4vQvvrloaolZ8u0f1Ro3R75U2jTwSue0yj6HMzC2ff1Y",
+              "received": true
+            },
+            {
+              "_id": "69590e991c508c5d5e85ffef",
+              "name": "Hat21694",
+              "amount": 853,
+              "price": 55754,
+              "manufacturer": "Apple",
+              "notes": "psGOLRpUq9qruV6qkTPt9176rxAYb4OErS93FtEdVa5EU5a0pwnaPYNiDr9fjAf34H4meSSsGn8X7vgf7LT35q6pq5FlcrzMMGry7FTSxuX1BYuAJ7n0DZme94hk6GSqoUd110UCj8nbZVZHPiEuYL6wS7kogr61JdqfTwuCVd2qris40m0j4DJM89PU66BdPAPbTEtIH8jyQ79udT0TdpdQtSPIB7jGReeV5fWYvUSG6RSVXF1nJQe1Yk",
+              "received": true
+            },
+            {
+              "_id": "69590e9c1c508c5d5e8600cd",
+              "name": "Pants18365",
+              "amount": 526,
+              "price": 72040,
+              "manufacturer": "Xiaomi",
+              "notes": "z4xK6zGIzG6NYyjf17ezpHmUxTxThONY63j9WlT8LLDg6BwIWBnEBWdZTokBAS39ovoHi0sNjQ3oPbAGcMEBUYN4sRMNVTADGIz469WvAD5j21XH7NfVmuZJOem2pd28HoCwFkvIVPEZzcVwdYopMRCcWUwUL1s0Ymwft8V2kq7Gwq8N2W4kyIcmlAMZ7qhpn5MPpSD6aMXOh0Two2o7BzAT3p3QwjPTAqiVUCRRf2hhnEyhmHl6wB7BRc",
+              "received": true
+            }
+          ],
+          "total_price": 160058,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Port Carmela",
+              "street": "Prosacco Mountain",
+              "house": 4,
+              "flat": 467
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T12:42:06.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69590e931c508c5d5e85fe25",
+          "products": [
+            {
+              "_id": "69590e961c508c5d5e85ff12",
+              "name": "Pizza88593",
+              "amount": 640,
+              "price": 32264,
+              "manufacturer": "Microsoft",
+              "notes": "WlvsOrZHkOaAqSGxW7QjQlXersb0ttwlz3evpkwKVS8mGMUTw3Bo2jbnabzXkukMN9L2HSoJO4dztbTHNEW9hmn83CR8Lc5c6ZdLtpCYtYsC0n8kN5Na7mhNLy5AnAurUvoOTvOniQjhtrjMzYySqVGHwBwtJcpvLLKCVr8XxZsR6n0NL2Sp8bFoiMHIFKk8ymJYMAwN5bHTnJ4vQvvrloaolZ8u0f1Ro3R75U2jTwSue0yj6HMzC2ff1Y",
+              "received": false
+            },
+            {
+              "_id": "69590e991c508c5d5e85ffef",
+              "name": "Hat21694",
+              "amount": 853,
+              "price": 55754,
+              "manufacturer": "Apple",
+              "notes": "psGOLRpUq9qruV6qkTPt9176rxAYb4OErS93FtEdVa5EU5a0pwnaPYNiDr9fjAf34H4meSSsGn8X7vgf7LT35q6pq5FlcrzMMGry7FTSxuX1BYuAJ7n0DZme94hk6GSqoUd110UCj8nbZVZHPiEuYL6wS7kogr61JdqfTwuCVd2qris40m0j4DJM89PU66BdPAPbTEtIH8jyQ79udT0TdpdQtSPIB7jGReeV5fWYvUSG6RSVXF1nJQe1Yk",
+              "received": false
+            },
+            {
+              "_id": "69590e9c1c508c5d5e8600cd",
+              "name": "Pants18365",
+              "amount": 526,
+              "price": 72040,
+              "manufacturer": "Xiaomi",
+              "notes": "z4xK6zGIzG6NYyjf17ezpHmUxTxThONY63j9WlT8LLDg6BwIWBnEBWdZTokBAS39ovoHi0sNjQ3oPbAGcMEBUYN4sRMNVTADGIz469WvAD5j21XH7NfVmuZJOem2pd28HoCwFkvIVPEZzcVwdYopMRCcWUwUL1s0Ymwft8V2kq7Gwq8N2W4kyIcmlAMZ7qhpn5MPpSD6aMXOh0Two2o7BzAT3p3QwjPTAqiVUCRRf2hhnEyhmHl6wB7BRc",
+              "received": false
+            }
+          ],
+          "total_price": 160058,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Port Carmela",
+              "street": "Prosacco Mountain",
+              "house": 4,
+              "flat": 467
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T12:42:06.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69590e931c508c5d5e85fe25",
+          "products": [
+            {
+              "_id": "69590e961c508c5d5e85ff12",
+              "name": "Pizza88593",
+              "amount": 640,
+              "price": 32264,
+              "manufacturer": "Microsoft",
+              "notes": "WlvsOrZHkOaAqSGxW7QjQlXersb0ttwlz3evpkwKVS8mGMUTw3Bo2jbnabzXkukMN9L2HSoJO4dztbTHNEW9hmn83CR8Lc5c6ZdLtpCYtYsC0n8kN5Na7mhNLy5AnAurUvoOTvOniQjhtrjMzYySqVGHwBwtJcpvLLKCVr8XxZsR6n0NL2Sp8bFoiMHIFKk8ymJYMAwN5bHTnJ4vQvvrloaolZ8u0f1Ro3R75U2jTwSue0yj6HMzC2ff1Y",
+              "received": false
+            },
+            {
+              "_id": "69590e991c508c5d5e85ffef",
+              "name": "Hat21694",
+              "amount": 853,
+              "price": 55754,
+              "manufacturer": "Apple",
+              "notes": "psGOLRpUq9qruV6qkTPt9176rxAYb4OErS93FtEdVa5EU5a0pwnaPYNiDr9fjAf34H4meSSsGn8X7vgf7LT35q6pq5FlcrzMMGry7FTSxuX1BYuAJ7n0DZme94hk6GSqoUd110UCj8nbZVZHPiEuYL6wS7kogr61JdqfTwuCVd2qris40m0j4DJM89PU66BdPAPbTEtIH8jyQ79udT0TdpdQtSPIB7jGReeV5fWYvUSG6RSVXF1nJQe1Yk",
+              "received": false
+            },
+            {
+              "_id": "69590e9c1c508c5d5e8600cd",
+              "name": "Pants18365",
+              "amount": 526,
+              "price": 72040,
+              "manufacturer": "Xiaomi",
+              "notes": "z4xK6zGIzG6NYyjf17ezpHmUxTxThONY63j9WlT8LLDg6BwIWBnEBWdZTokBAS39ovoHi0sNjQ3oPbAGcMEBUYN4sRMNVTADGIz469WvAD5j21XH7NfVmuZJOem2pd28HoCwFkvIVPEZzcVwdYopMRCcWUwUL1s0Ymwft8V2kq7Gwq8N2W4kyIcmlAMZ7qhpn5MPpSD6aMXOh0Two2o7BzAT3p3QwjPTAqiVUCRRf2hhnEyhmHl6wB7BRc",
+              "received": false
+            }
+          ],
+          "total_price": 160058,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Port Carmela",
+              "street": "Prosacco Mountain",
+              "house": 4,
+              "flat": 467
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T12:42:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69590e931c508c5d5e85fe25",
+          "products": [
+            {
+              "_id": "69590e961c508c5d5e85ff12",
+              "name": "Pizza88593",
+              "amount": 640,
+              "price": 32264,
+              "manufacturer": "Microsoft",
+              "notes": "WlvsOrZHkOaAqSGxW7QjQlXersb0ttwlz3evpkwKVS8mGMUTw3Bo2jbnabzXkukMN9L2HSoJO4dztbTHNEW9hmn83CR8Lc5c6ZdLtpCYtYsC0n8kN5Na7mhNLy5AnAurUvoOTvOniQjhtrjMzYySqVGHwBwtJcpvLLKCVr8XxZsR6n0NL2Sp8bFoiMHIFKk8ymJYMAwN5bHTnJ4vQvvrloaolZ8u0f1Ro3R75U2jTwSue0yj6HMzC2ff1Y",
+              "received": false
+            },
+            {
+              "_id": "69590e991c508c5d5e85ffef",
+              "name": "Hat21694",
+              "amount": 853,
+              "price": 55754,
+              "manufacturer": "Apple",
+              "notes": "psGOLRpUq9qruV6qkTPt9176rxAYb4OErS93FtEdVa5EU5a0pwnaPYNiDr9fjAf34H4meSSsGn8X7vgf7LT35q6pq5FlcrzMMGry7FTSxuX1BYuAJ7n0DZme94hk6GSqoUd110UCj8nbZVZHPiEuYL6wS7kogr61JdqfTwuCVd2qris40m0j4DJM89PU66BdPAPbTEtIH8jyQ79udT0TdpdQtSPIB7jGReeV5fWYvUSG6RSVXF1nJQe1Yk",
+              "received": false
+            },
+            {
+              "_id": "69590e9c1c508c5d5e8600cd",
+              "name": "Pants18365",
+              "amount": 526,
+              "price": 72040,
+              "manufacturer": "Xiaomi",
+              "notes": "z4xK6zGIzG6NYyjf17ezpHmUxTxThONY63j9WlT8LLDg6BwIWBnEBWdZTokBAS39ovoHi0sNjQ3oPbAGcMEBUYN4sRMNVTADGIz469WvAD5j21XH7NfVmuZJOem2pd28HoCwFkvIVPEZzcVwdYopMRCcWUwUL1s0Ymwft8V2kq7Gwq8N2W4kyIcmlAMZ7qhpn5MPpSD6aMXOh0Two2o7BzAT3p3QwjPTAqiVUCRRf2hhnEyhmHl6wB7BRc",
+              "received": false
+            }
+          ],
+          "total_price": 160058,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:42:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

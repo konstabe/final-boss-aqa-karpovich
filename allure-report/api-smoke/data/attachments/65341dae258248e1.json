@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:41:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3845",
+    "etag": "W/\"f05-K6+Dg5QJdAQqUuUSBEsvxdUBJqg\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69590e941c508c5d5e85fe73",
+      "status": "In Process",
+      "customer": {
+        "_id": "69590e911c508c5d5e85fd82",
+        "email": "Edwardo_Blick90@gmail.com",
+        "name": "Moshe Connelly",
+        "country": "Belarus",
+        "city": "Frisco",
+        "street": "Low Road",
+        "house": 50,
+        "flat": 640,
+        "phone": "+14064267858",
+        "createdOn": "2026-01-03T12:41:53.000Z",
+        "notes": "nyBDnIX66Gh2GWHf1NMmuTqYcNX5wyVCvcInXGnTz2Z4sXjZlO07wv6LhMdvT0YTo0LrcPQJfgk2bm8lpDOr999FM1DZQSIWzZaqCWiu7cudxfIBGEjtlW7rz1Qeo2lnDRDNePLQ2PE36NdAtBABaAKtozmYEg2KDLirSO2g7zu27QiM2oFbtiMmDFe5s1yS6ky4XMpJRjfytCgpznomrczLwK8dutKi7PwztOGjTFyuAdf4v1P1LHOsnp"
+      },
+      "products": [
+        {
+          "_id": "69590e941c508c5d5e85fe63",
+          "name": "Pizza3375",
+          "amount": 825,
+          "price": 45696,
+          "manufacturer": "Xiaomi",
+          "notes": "PoxU4mRR2KrmDLuRyN3hxUHhqfgpVuw6Kan98Fnzfe9YQVWToEKrtVrUHaWvC2sLgB5g6lE4YHROYpTPeoL5Vk7lsEsYg60Hnulz3yX2z4KugYldaFFb8YTNikeQv4Xg9pu8IVRnybrwDX34GnlkvaZ6xKDpjAejHMjgvpnMfo0kPAXfqcprj4LfW6R8mhF4cTrV4uI3mO708qIHVg9PrhU7XQHT7OwicYfti7zRaroeM4mhpBsjYAsS4d",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Frisco",
+          "street": "Low Road",
+          "house": 50,
+          "flat": 640
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 45696,
+      "createdOn": "2026-01-03T12:41:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69590e911c508c5d5e85fd82",
+          "products": [
+            {
+              "_id": "69590e941c508c5d5e85fe63",
+              "name": "Pizza3375",
+              "amount": 825,
+              "price": 45696,
+              "manufacturer": "Xiaomi",
+              "notes": "PoxU4mRR2KrmDLuRyN3hxUHhqfgpVuw6Kan98Fnzfe9YQVWToEKrtVrUHaWvC2sLgB5g6lE4YHROYpTPeoL5Vk7lsEsYg60Hnulz3yX2z4KugYldaFFb8YTNikeQv4Xg9pu8IVRnybrwDX34GnlkvaZ6xKDpjAejHMjgvpnMfo0kPAXfqcprj4LfW6R8mhF4cTrV4uI3mO708qIHVg9PrhU7XQHT7OwicYfti7zRaroeM4mhpBsjYAsS4d",
+              "received": false
+            }
+          ],
+          "total_price": 45696,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Frisco",
+              "street": "Low Road",
+              "house": 50,
+              "flat": 640
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T12:41:57.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69590e911c508c5d5e85fd82",
+          "products": [
+            {
+              "_id": "69590e941c508c5d5e85fe63",
+              "name": "Pizza3375",
+              "amount": 825,
+              "price": 45696,
+              "manufacturer": "Xiaomi",
+              "notes": "PoxU4mRR2KrmDLuRyN3hxUHhqfgpVuw6Kan98Fnzfe9YQVWToEKrtVrUHaWvC2sLgB5g6lE4YHROYpTPeoL5Vk7lsEsYg60Hnulz3yX2z4KugYldaFFb8YTNikeQv4Xg9pu8IVRnybrwDX34GnlkvaZ6xKDpjAejHMjgvpnMfo0kPAXfqcprj4LfW6R8mhF4cTrV4uI3mO708qIHVg9PrhU7XQHT7OwicYfti7zRaroeM4mhpBsjYAsS4d",
+              "received": false
+            }
+          ],
+          "total_price": 45696,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Frisco",
+              "street": "Low Road",
+              "house": 50,
+              "flat": 640
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T12:41:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69590e911c508c5d5e85fd82",
+          "products": [
+            {
+              "_id": "69590e941c508c5d5e85fe63",
+              "name": "Pizza3375",
+              "amount": 825,
+              "price": 45696,
+              "manufacturer": "Xiaomi",
+              "notes": "PoxU4mRR2KrmDLuRyN3hxUHhqfgpVuw6Kan98Fnzfe9YQVWToEKrtVrUHaWvC2sLgB5g6lE4YHROYpTPeoL5Vk7lsEsYg60Hnulz3yX2z4KugYldaFFb8YTNikeQv4Xg9pu8IVRnybrwDX34GnlkvaZ6xKDpjAejHMjgvpnMfo0kPAXfqcprj4LfW6R8mhF4cTrV4uI3mO708qIHVg9PrhU7XQHT7OwicYfti7zRaroeM4mhpBsjYAsS4d",
+              "received": false
+            }
+          ],
+          "total_price": 45696,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:41:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

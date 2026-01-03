@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:41:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-WmFl403VKZi19Bca49hHTrhfb8g\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69590e8f1c508c5d5e85fcb0",
+        "email": "Adrianna.Brekke33@yahoo.com",
+        "name": "Cassandra Buckridge",
+        "country": "France",
+        "city": "Rock Hill",
+        "street": "First Street",
+        "house": 14,
+        "flat": 504,
+        "phone": "+15632617886",
+        "createdOn": "2026-01-03T12:41:51.000Z",
+        "notes": "MyqVKciq4nIsTOAQI6aG8t2hh01BBGomIzWmnJZZmnyfI7CuRjORA76BDYbz6Vud1Ug5BhHGwYgz3abGpoDFxyJ3RfNDUHwor0ZPR2G4QJFkg5bP5soj0TCBDVJSqZauTxW4uBFHvPgg3ybjIX8f8PrceSIhCknVrqKTGDvhk2oZlPkRY7RDWCWpSZ33O6NHklpY0nJl4gQcfFPQNPrMRT5JEY6hQlwVMIIGNraAnkvQRuFN2KLpeiyZBi"
+      },
+      "products": [
+        {
+          "_id": "69590e921c508c5d5e85fde2",
+          "name": "Pants17416",
+          "amount": 585,
+          "price": 75944,
+          "manufacturer": "Xiaomi",
+          "notes": "u0wn72I5cG7YZ5T78zGIdU1ORKahdeKs4pAT0RG6xYVcbORMeG6OCswp6HdMytFy9QeieAtjiENRyYm1Um8kB8zjNXfTVhRaJiTaY2QrhQVY5dKDPKvWP8PC3slMkNO2u26crDNe7sqorcqefdBZWaPbwwRkC21oHUbSOBt1XjzLsbZYXWRpMsuvdRigPWsOhwO8WrSvJN4An8W7T95KK6IHSiGVeJxcNdAKiJTUNhUgJyIG0KS4ynEPFe",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 75944,
+      "createdOn": "2026-01-03T12:41:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69590e8f1c508c5d5e85fcb0",
+          "products": [
+            {
+              "_id": "69590e921c508c5d5e85fde2",
+              "name": "Pants17416",
+              "amount": 585,
+              "price": 75944,
+              "manufacturer": "Xiaomi",
+              "notes": "u0wn72I5cG7YZ5T78zGIdU1ORKahdeKs4pAT0RG6xYVcbORMeG6OCswp6HdMytFy9QeieAtjiENRyYm1Um8kB8zjNXfTVhRaJiTaY2QrhQVY5dKDPKvWP8PC3slMkNO2u26crDNe7sqorcqefdBZWaPbwwRkC21oHUbSOBt1XjzLsbZYXWRpMsuvdRigPWsOhwO8WrSvJN4An8W7T95KK6IHSiGVeJxcNdAKiJTUNhUgJyIG0KS4ynEPFe",
+              "received": false
+            }
+          ],
+          "total_price": 75944,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:41:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69590e921c508c5d5e85fdfe"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
