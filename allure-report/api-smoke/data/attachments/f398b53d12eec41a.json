@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:05:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-Y6C7yJ3nI4s9W04lNEvPEvO39Mg\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695930411c508c5d5e8d7335",
+        "email": "Rosemary.Bayer@hotmail.com",
+        "name": "Juana Stanton",
+        "country": "USA",
+        "city": "Port Keyshawn",
+        "street": "Tyshawn Union",
+        "house": 50,
+        "flat": 781,
+        "phone": "+17387501891",
+        "createdOn": "2026-01-03T15:05:37.000Z",
+        "notes": "kEF6TsvHYVNOoyxOLtvbdbEV5RDOAgmQFbbBaC51LPjmFsHifaRCsa6OMBgY1wzaWLBirG320ts7bzPh6OZU22lvAaDe7MoDJvhEKxocc2XNKnUUWa44Vo24iWqcToc2V6c0nKnRVBzeMhZCTsTbywsM3recOSZpjMYx9u5tLhwQNNBc35pqWxO8kBBbdLouHeP27aY3L8D7bigX2bHi94sWb0vgbvMNBboOFA24974ZMZ7zmSzptQNQWp"
+      },
+      "products": [
+        {
+          "_id": "695930471c508c5d5e8d73aa",
+          "name": "Bacon42520",
+          "amount": 709,
+          "price": 12347,
+          "manufacturer": "Tesla",
+          "notes": "woCsSEqERtgvzohSOoy7VQwoTv4x4475eDhr4XAhB5J5v7JSlXEUyZaJNp7frsAqSz14TaxhVYtAQ0f0nKloOQKBrtbazE9OLlR7Tea4wOqY5wuEz7Nm02nuyK5l4JmbSoIr6vFOpIXeyPWGjOoUOhZfHlCGcxNVb9VKeLJOI4h7iSUHs06DRzQTZ76FFt2vcsnsRcaO3ldRMDxTdcIwkbyfk8Aatu1cZweqSPL1pyTPlmGRntvMo2wRLu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 12347,
+      "createdOn": "2026-01-03T15:05:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695930411c508c5d5e8d7335",
+          "products": [
+            {
+              "_id": "695930471c508c5d5e8d73aa",
+              "name": "Bacon42520",
+              "amount": 709,
+              "price": 12347,
+              "manufacturer": "Tesla",
+              "notes": "woCsSEqERtgvzohSOoy7VQwoTv4x4475eDhr4XAhB5J5v7JSlXEUyZaJNp7frsAqSz14TaxhVYtAQ0f0nKloOQKBrtbazE9OLlR7Tea4wOqY5wuEz7Nm02nuyK5l4JmbSoIr6vFOpIXeyPWGjOoUOhZfHlCGcxNVb9VKeLJOI4h7iSUHs06DRzQTZ76FFt2vcsnsRcaO3ldRMDxTdcIwkbyfk8Aatu1cZweqSPL1pyTPlmGRntvMo2wRLu",
+              "received": false
+            }
+          ],
+          "total_price": 12347,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:05:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695930471c508c5d5e8d73b2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
