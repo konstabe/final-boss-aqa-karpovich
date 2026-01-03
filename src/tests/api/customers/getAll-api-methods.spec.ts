@@ -35,6 +35,9 @@ test.describe("Get customers all", () => {
 			registerSchema(customerSchema);
 			validateJsonSchema(response, customerAllSchema);
 
+			if (!createdCustomer) {
+				throw new Error("Created customer is missing");
+			}
 			const exists = response.body.Customers.some((c: ICustomerFromResponse) => c._id === createdCustomer._id);
 			expect(exists).toBe(true);
 		});
