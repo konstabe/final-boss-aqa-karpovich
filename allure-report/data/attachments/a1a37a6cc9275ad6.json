@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 09:23:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-Ys8awSUA7DpHcmY4t7Rv8ejUNZw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6958dff31c508c5d5e80b331",
+        "email": "Derrick_Conroy@gmail.com",
+        "name": "Elwyn Mitchell",
+        "country": "France",
+        "city": "Jacobsstad",
+        "street": "McLaughlin Haven",
+        "house": 39,
+        "flat": 286,
+        "phone": "+15575030470",
+        "createdOn": "2026-01-03T09:22:59.000Z",
+        "notes": "mTZBae1VbPlmG4QziOVmLMyQofn3UQhBX2dm7JturiWW4xngzmE1Ei6scGcM5tI9YFLJlyNRPCHZE9cWOmHHpBGabLxyXGQcgiJ0Ps6fJQ0DonMQCetHI8yFasxggUbirSDEqRBxfaDmD2hI4nUMMWYTAQ1ipd9oXaURhpKE8t6CNFu66XcE4K6roHh6TYRHVHbLGkbblTy1U6zx8tgVC4dSYBcJ6JXevQsVGkBt3489Wa5EGhEEKHw27n"
+      },
+      "products": [
+        {
+          "_id": "6958dff51c508c5d5e80b389",
+          "name": "Chips38123",
+          "amount": 597,
+          "price": 63676,
+          "manufacturer": "Apple",
+          "notes": "oNcWXvSwjSgFdePO4reMz6hn96y7FpXMUrduNmUilzrZWLR8yUV8XfKrQ7UUc4030Xo0388NiYwudx2mY0vtCnKeVWHoNW36hkkz33XMziTJDCibg3hNqy2RGuN5E4s5HzBoDmsFIspdbkM8vfLYP89vlaDUCEhIwUXDEyfiXpF8uFumRWgNjGhKzwvZQF3rZsrPUCJ5CDFVkIhpCikcNCcXGcELRjULV9QOVDI9pozPc80gbd90UmkNLE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 63676,
+      "createdOn": "2026-01-03T09:23:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958dff31c508c5d5e80b331",
+          "products": [
+            {
+              "_id": "6958dff51c508c5d5e80b389",
+              "name": "Chips38123",
+              "amount": 597,
+              "price": 63676,
+              "manufacturer": "Apple",
+              "notes": "oNcWXvSwjSgFdePO4reMz6hn96y7FpXMUrduNmUilzrZWLR8yUV8XfKrQ7UUc4030Xo0388NiYwudx2mY0vtCnKeVWHoNW36hkkz33XMziTJDCibg3hNqy2RGuN5E4s5HzBoDmsFIspdbkM8vfLYP89vlaDUCEhIwUXDEyfiXpF8uFumRWgNjGhKzwvZQF3rZsrPUCJ5CDFVkIhpCikcNCcXGcELRjULV9QOVDI9pozPc80gbd90UmkNLE",
+              "received": false
+            }
+          ],
+          "total_price": 63676,
+          "delivery": null,
+          "changedOn": "2026-01-03T09:23:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6958dff51c508c5d5e80b39d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

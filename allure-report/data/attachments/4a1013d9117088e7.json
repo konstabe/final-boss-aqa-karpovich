@@ -1,0 +1,303 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 09:23:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8657",
+    "etag": "W/\"21d1-FVKFQrBtecDdZlZdfaoqbdCQGGo\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958e0031c508c5d5e80b847",
+      "status": "Received",
+      "customer": {
+        "_id": "6958dffa1c508c5d5e80b446",
+        "email": "Florence_Rau@hotmail.com",
+        "name": "Vance Boyer",
+        "country": "Great Britain",
+        "city": "Lake Donnaton",
+        "street": "Kingsway",
+        "house": 48,
+        "flat": 565,
+        "phone": "+16512425366",
+        "createdOn": "2026-01-03T09:23:06.000Z",
+        "notes": "MZDgQupjwMyU34LEKjsMnxvhF94K0ewExlHodxHADjT5OvkXmaumRNs5oOIyjGeXfKMwRXtY22Hp614zKDTWGUo812mKiPq2SrBi7ojHwgMP18a1DNvVafGMqGz3tYd8KbKcBdCOX8YyEVmjWr28Qp3pYrfSNCrt4FhnSnb4BOlm1BVg7zU3DbrV4ffT8g1fMRDCHLFqtNykvXHUSkURQwPx02siJpaoj8tEu8DkzxYPX6H7y6OhgA9ofT"
+      },
+      "products": [
+        {
+          "_id": "6958dffc1c508c5d5e80b6a3",
+          "name": "Bike11009",
+          "amount": 309,
+          "price": 78130,
+          "manufacturer": "Sony",
+          "notes": "k1vzzG5EmLYjDpCCKu8tKeDlUC9VZBPVy7Y4g7iciNu6SMkqsRWBooY8YZ7MOdL95YBCP6hYqdCv5YcprtprC4IS8Qxi7kg96pXCHTfQlfKh7vW0cXxcKZVvcmcrXKXYgvXzl1qRe2s8EJEFdIIL6X2cz7bLe2MR53oHtUKv50r4kIyyFNsrb9TX822dgaPSVnyAbAzF7iGzmYUSMqrQr7VZk9UeeUGJMYeXRWu4Nb4mhnnE0cpEPCjpJi",
+          "received": true
+        },
+        {
+          "_id": "6958e0001c508c5d5e80b819",
+          "name": "Shoes62697",
+          "amount": 305,
+          "price": 61460,
+          "manufacturer": "Microsoft",
+          "notes": "r4XWXK8pOwHNntBMzg3UZzTKSyePdBROtqglxC1DeYIGro0IEXJmamcRLZsv7DiYZomdA4cBOsrKeYeMIAyXRjRYlNOYqbk9lzhwGj1zjsCs90ixhuTF2OAW6ntjDqsDkTDhHRfWcqUu8xAcPS7Ym0EQ2DopdmVEHfc6ye5GByuhFtQsVYJVM9SD2iNCkEgVtZZJUvJt3dxbq3kBtztPmubIrGTtw0rglusmQkNRNMZQ9xBSIezOdYltLn",
+          "received": true
+        },
+        {
+          "_id": "6958e0031c508c5d5e80b83b",
+          "name": "Pants10640",
+          "amount": 345,
+          "price": 72813,
+          "manufacturer": "Xiaomi",
+          "notes": "yeDY4rYeXtM2JVDYcgh6LIMzv8VuwwbJeIVWRtpHqVPecXJ293GUJSmnunigvgrplSjymF2Zv0VhZWbEfvNksYlVO4Z6BjrdvPRDsX23wxvbLneR7hJZhV7sl7FWbfLy4faBSig3C0D4LcKziQd52gYgP7X9kiurjh72P7jjvJaOWFvg50MDKl7CFvBoQ9bazfLPchwmsrbJnnQl1oTx7v4mR9xGPpIStwQY2oLKkwnWXyVvCkaS81fsfY",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Lake Donnaton",
+          "street": "Kingsway",
+          "house": 48,
+          "flat": 565
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 212403,
+      "createdOn": "2026-01-03T09:23:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6958dffa1c508c5d5e80b446",
+          "products": [
+            {
+              "_id": "6958dffc1c508c5d5e80b6a3",
+              "name": "Bike11009",
+              "amount": 309,
+              "price": 78130,
+              "manufacturer": "Sony",
+              "notes": "k1vzzG5EmLYjDpCCKu8tKeDlUC9VZBPVy7Y4g7iciNu6SMkqsRWBooY8YZ7MOdL95YBCP6hYqdCv5YcprtprC4IS8Qxi7kg96pXCHTfQlfKh7vW0cXxcKZVvcmcrXKXYgvXzl1qRe2s8EJEFdIIL6X2cz7bLe2MR53oHtUKv50r4kIyyFNsrb9TX822dgaPSVnyAbAzF7iGzmYUSMqrQr7VZk9UeeUGJMYeXRWu4Nb4mhnnE0cpEPCjpJi",
+              "received": true
+            },
+            {
+              "_id": "6958e0001c508c5d5e80b819",
+              "name": "Shoes62697",
+              "amount": 305,
+              "price": 61460,
+              "manufacturer": "Microsoft",
+              "notes": "r4XWXK8pOwHNntBMzg3UZzTKSyePdBROtqglxC1DeYIGro0IEXJmamcRLZsv7DiYZomdA4cBOsrKeYeMIAyXRjRYlNOYqbk9lzhwGj1zjsCs90ixhuTF2OAW6ntjDqsDkTDhHRfWcqUu8xAcPS7Ym0EQ2DopdmVEHfc6ye5GByuhFtQsVYJVM9SD2iNCkEgVtZZJUvJt3dxbq3kBtztPmubIrGTtw0rglusmQkNRNMZQ9xBSIezOdYltLn",
+              "received": true
+            },
+            {
+              "_id": "6958e0031c508c5d5e80b83b",
+              "name": "Pants10640",
+              "amount": 345,
+              "price": 72813,
+              "manufacturer": "Xiaomi",
+              "notes": "yeDY4rYeXtM2JVDYcgh6LIMzv8VuwwbJeIVWRtpHqVPecXJ293GUJSmnunigvgrplSjymF2Zv0VhZWbEfvNksYlVO4Z6BjrdvPRDsX23wxvbLneR7hJZhV7sl7FWbfLy4faBSig3C0D4LcKziQd52gYgP7X9kiurjh72P7jjvJaOWFvg50MDKl7CFvBoQ9bazfLPchwmsrbJnnQl1oTx7v4mR9xGPpIStwQY2oLKkwnWXyVvCkaS81fsfY",
+              "received": true
+            }
+          ],
+          "total_price": 212403,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lake Donnaton",
+              "street": "Kingsway",
+              "house": 48,
+              "flat": 565
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T09:23:16.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6958dffa1c508c5d5e80b446",
+          "products": [
+            {
+              "_id": "6958dffc1c508c5d5e80b6a3",
+              "name": "Bike11009",
+              "amount": 309,
+              "price": 78130,
+              "manufacturer": "Sony",
+              "notes": "k1vzzG5EmLYjDpCCKu8tKeDlUC9VZBPVy7Y4g7iciNu6SMkqsRWBooY8YZ7MOdL95YBCP6hYqdCv5YcprtprC4IS8Qxi7kg96pXCHTfQlfKh7vW0cXxcKZVvcmcrXKXYgvXzl1qRe2s8EJEFdIIL6X2cz7bLe2MR53oHtUKv50r4kIyyFNsrb9TX822dgaPSVnyAbAzF7iGzmYUSMqrQr7VZk9UeeUGJMYeXRWu4Nb4mhnnE0cpEPCjpJi",
+              "received": false
+            },
+            {
+              "_id": "6958e0001c508c5d5e80b819",
+              "name": "Shoes62697",
+              "amount": 305,
+              "price": 61460,
+              "manufacturer": "Microsoft",
+              "notes": "r4XWXK8pOwHNntBMzg3UZzTKSyePdBROtqglxC1DeYIGro0IEXJmamcRLZsv7DiYZomdA4cBOsrKeYeMIAyXRjRYlNOYqbk9lzhwGj1zjsCs90ixhuTF2OAW6ntjDqsDkTDhHRfWcqUu8xAcPS7Ym0EQ2DopdmVEHfc6ye5GByuhFtQsVYJVM9SD2iNCkEgVtZZJUvJt3dxbq3kBtztPmubIrGTtw0rglusmQkNRNMZQ9xBSIezOdYltLn",
+              "received": false
+            },
+            {
+              "_id": "6958e0031c508c5d5e80b83b",
+              "name": "Pants10640",
+              "amount": 345,
+              "price": 72813,
+              "manufacturer": "Xiaomi",
+              "notes": "yeDY4rYeXtM2JVDYcgh6LIMzv8VuwwbJeIVWRtpHqVPecXJ293GUJSmnunigvgrplSjymF2Zv0VhZWbEfvNksYlVO4Z6BjrdvPRDsX23wxvbLneR7hJZhV7sl7FWbfLy4faBSig3C0D4LcKziQd52gYgP7X9kiurjh72P7jjvJaOWFvg50MDKl7CFvBoQ9bazfLPchwmsrbJnnQl1oTx7v4mR9xGPpIStwQY2oLKkwnWXyVvCkaS81fsfY",
+              "received": false
+            }
+          ],
+          "total_price": 212403,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lake Donnaton",
+              "street": "Kingsway",
+              "house": 48,
+              "flat": 565
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T09:23:16.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958dffa1c508c5d5e80b446",
+          "products": [
+            {
+              "_id": "6958dffc1c508c5d5e80b6a3",
+              "name": "Bike11009",
+              "amount": 309,
+              "price": 78130,
+              "manufacturer": "Sony",
+              "notes": "k1vzzG5EmLYjDpCCKu8tKeDlUC9VZBPVy7Y4g7iciNu6SMkqsRWBooY8YZ7MOdL95YBCP6hYqdCv5YcprtprC4IS8Qxi7kg96pXCHTfQlfKh7vW0cXxcKZVvcmcrXKXYgvXzl1qRe2s8EJEFdIIL6X2cz7bLe2MR53oHtUKv50r4kIyyFNsrb9TX822dgaPSVnyAbAzF7iGzmYUSMqrQr7VZk9UeeUGJMYeXRWu4Nb4mhnnE0cpEPCjpJi",
+              "received": false
+            },
+            {
+              "_id": "6958e0001c508c5d5e80b819",
+              "name": "Shoes62697",
+              "amount": 305,
+              "price": 61460,
+              "manufacturer": "Microsoft",
+              "notes": "r4XWXK8pOwHNntBMzg3UZzTKSyePdBROtqglxC1DeYIGro0IEXJmamcRLZsv7DiYZomdA4cBOsrKeYeMIAyXRjRYlNOYqbk9lzhwGj1zjsCs90ixhuTF2OAW6ntjDqsDkTDhHRfWcqUu8xAcPS7Ym0EQ2DopdmVEHfc6ye5GByuhFtQsVYJVM9SD2iNCkEgVtZZJUvJt3dxbq3kBtztPmubIrGTtw0rglusmQkNRNMZQ9xBSIezOdYltLn",
+              "received": false
+            },
+            {
+              "_id": "6958e0031c508c5d5e80b83b",
+              "name": "Pants10640",
+              "amount": 345,
+              "price": 72813,
+              "manufacturer": "Xiaomi",
+              "notes": "yeDY4rYeXtM2JVDYcgh6LIMzv8VuwwbJeIVWRtpHqVPecXJ293GUJSmnunigvgrplSjymF2Zv0VhZWbEfvNksYlVO4Z6BjrdvPRDsX23wxvbLneR7hJZhV7sl7FWbfLy4faBSig3C0D4LcKziQd52gYgP7X9kiurjh72P7jjvJaOWFvg50MDKl7CFvBoQ9bazfLPchwmsrbJnnQl1oTx7v4mR9xGPpIStwQY2oLKkwnWXyVvCkaS81fsfY",
+              "received": false
+            }
+          ],
+          "total_price": 212403,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lake Donnaton",
+              "street": "Kingsway",
+              "house": 48,
+              "flat": 565
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T09:23:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958dffa1c508c5d5e80b446",
+          "products": [
+            {
+              "_id": "6958dffc1c508c5d5e80b6a3",
+              "name": "Bike11009",
+              "amount": 309,
+              "price": 78130,
+              "manufacturer": "Sony",
+              "notes": "k1vzzG5EmLYjDpCCKu8tKeDlUC9VZBPVy7Y4g7iciNu6SMkqsRWBooY8YZ7MOdL95YBCP6hYqdCv5YcprtprC4IS8Qxi7kg96pXCHTfQlfKh7vW0cXxcKZVvcmcrXKXYgvXzl1qRe2s8EJEFdIIL6X2cz7bLe2MR53oHtUKv50r4kIyyFNsrb9TX822dgaPSVnyAbAzF7iGzmYUSMqrQr7VZk9UeeUGJMYeXRWu4Nb4mhnnE0cpEPCjpJi",
+              "received": false
+            },
+            {
+              "_id": "6958e0001c508c5d5e80b819",
+              "name": "Shoes62697",
+              "amount": 305,
+              "price": 61460,
+              "manufacturer": "Microsoft",
+              "notes": "r4XWXK8pOwHNntBMzg3UZzTKSyePdBROtqglxC1DeYIGro0IEXJmamcRLZsv7DiYZomdA4cBOsrKeYeMIAyXRjRYlNOYqbk9lzhwGj1zjsCs90ixhuTF2OAW6ntjDqsDkTDhHRfWcqUu8xAcPS7Ym0EQ2DopdmVEHfc6ye5GByuhFtQsVYJVM9SD2iNCkEgVtZZJUvJt3dxbq3kBtztPmubIrGTtw0rglusmQkNRNMZQ9xBSIezOdYltLn",
+              "received": false
+            },
+            {
+              "_id": "6958e0031c508c5d5e80b83b",
+              "name": "Pants10640",
+              "amount": 345,
+              "price": 72813,
+              "manufacturer": "Xiaomi",
+              "notes": "yeDY4rYeXtM2JVDYcgh6LIMzv8VuwwbJeIVWRtpHqVPecXJ293GUJSmnunigvgrplSjymF2Zv0VhZWbEfvNksYlVO4Z6BjrdvPRDsX23wxvbLneR7hJZhV7sl7FWbfLy4faBSig3C0D4LcKziQd52gYgP7X9kiurjh72P7jjvJaOWFvg50MDKl7CFvBoQ9bazfLPchwmsrbJnnQl1oTx7v4mR9xGPpIStwQY2oLKkwnWXyVvCkaS81fsfY",
+              "received": false
+            }
+          ],
+          "total_price": 212403,
+          "delivery": null,
+          "changedOn": "2026-01-03T09:23:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
