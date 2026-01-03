@@ -24,12 +24,16 @@ jobs:
                     -H "Accept: application/vnd.github+json" \
                     -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
                     https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts \
-                    | python -c "import sys, json; data=json.load(sys.stdin); print([a['id'] for a in data['artifacts'] if a['name']=='regression-report'][0])")
-                  curl -L \
-                    -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
-                    https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts/$ARTIFACT_ID/zip \
-                    -o artifacts.zip
-                  mkdir allure-results && unzip artifacts.zip -d allure-results
+                    | python -c "import sys, json; data=json.load(sys.stdin); ids=[a['id'] for a in data.get('artifacts', []) if a['name']=='allure-results']; print(ids[0] if ids else '')")
+                  if [ -n "$ARTIFACT_ID" ]; then
+                    curl -L \
+                      -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
+                      https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts/$ARTIFACT_ID/zip \
+                      -o artifacts.zip
+                    mkdir allure-results && unzip artifacts.zip -d allure-results
+                  else
+                    echo "No allure-results artifact found"
+                  fi
 
             - name: Download github-pages artifact
               run: |
@@ -37,13 +41,19 @@ jobs:
                     -H "Accept: application/vnd.github+json" \
                     -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
                     https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts \
-                    | python -c "import sys, json; data=json.load(sys.stdin); print([a['id'] for a in data['artifacts'] if a['name']=='github-pages'][0])")
-                  curl -L \
-                    -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
-                    https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts/$REPORT_ID/zip \
-                    -o pages.zip
-                  mkdir old_pages pages_history && unzip pages.zip -d old_pages && tar -xvf old_pages/artifact.tar -C pages_history
-                  cp -r pages_history/history allure-results || true
+                    | python -c "import sys, json; data=json.load(sys.stdin); ids=[a['id'] for a in data.get('artifacts', []) if a['name']=='github-pages']; print(ids[0] if ids else '')")
+                  if [ -n "$REPORT_ID" ]; then
+                    curl -L \
+                      -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
+                      https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts/$REPORT_ID/zip \
+                      -o pages.zip
+                    mkdir old_pages pages_history
+                    unzip pages.zip -d old_pages
+                    tar -xvf old_pages/artifact.tar -C pages_history
+                    cp -r pages_history/history allure-results || true
+                  else
+                    echo "No github-pages artifact found"
+                  fi
 
             - name: Store allure history
               uses: actions/upload-artifact@v4
@@ -98,7 +108,7 @@ jobs:
             - name: Save Allure report
               uses: actions/upload-artifact@v4
               with:
-                  name: regression-report
+                  name: orders-report
                   path: ./allure-report
 
             - name: Deploy to GitHub Pages
