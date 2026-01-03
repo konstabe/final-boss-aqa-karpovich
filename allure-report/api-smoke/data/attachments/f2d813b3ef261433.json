@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:34:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2844",
+    "etag": "W/\"b1c-kzLKdDKeUuIkhNeiOFjCNiHWdm4\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695928d71c508c5d5e8c5944",
+      "status": "Draft",
+      "customer": {
+        "_id": "695928c31c508c5d5e8c55e6",
+        "email": "Hipolito.Torphy14@gmail.com",
+        "name": "Angeline Ernser",
+        "country": "Belarus",
+        "city": "West Adelinestad",
+        "street": "Commercial Road",
+        "house": 26,
+        "flat": 856,
+        "phone": "+18713123265",
+        "createdOn": "2026-01-03T14:33:39.000Z",
+        "notes": "BAZxivy9t6mQFvYzxUwsxk9RUFvHzFOHBJugxArNjU6lX7sHfqHUHQA9G552Y4yvKDhn1tcZvbc0wqPjmUcZ5QD93qxEbddvErAyWlzSZ9Ss6llkOBoGI1yaoxEZyTJLyVksISbGZW5cLI0BeJuNCiCOWvWGsTgsattksC53PQJiuKMHY7ZQxRjVvQlZU333CtjlmFIU0NT6dwUXWW2NM3Tq77uOn2gbmqSMu0In8yWZSpuxFcl5Bwlknn"
+      },
+      "products": [
+        {
+          "_id": "695928cd1c508c5d5e8c57c9",
+          "name": "Computer19551",
+          "amount": 858,
+          "price": 32093,
+          "manufacturer": "Microsoft",
+          "notes": "8f17xQypHUlErvEV1Z55FnmdvJE9jt3cxQVAjp1troEBwUT7005pXU6qPHgd9paXkp5GaVDXKCY44X0BZrFtXTN3nizCzN4JSxsETJOv3fVj1uwT40HaTq56t2FYQTzQYjRtJGc1eu6wuIX0l8HPU4ScCgy68FVvrCHv8iq9pk8Tjdnue4YelmXMyg8WfAB2J9192OxEkcjUgcqdVt6BbaHhcmVT4tvK0Cp1D6Tsu1bFCl7w3bwtcSHTCm",
+          "received": false
+        },
+        {
+          "_id": "695928d71c508c5d5e8c58df",
+          "name": "Chair37997",
+          "amount": 681,
+          "price": 78923,
+          "manufacturer": "Microsoft",
+          "notes": "8QvrxtQqLVffZRdgeJ1eN8uOHtnPvJ1vb3qFiFp3GLpGN7dXhcN2upmz30kMiBaafAQIfr0IP3CqgoldB7mELcd6ltFLI3wXf7CYd6820nE4G3rPTCMwZPQ50W2y2r75LxNwTyQUa9QAaXJYneEB2qCIjH0DoZQrmnqhKLxm69PG0jShXCaprHrJOlsDG4pekYoX7T85Sz7fkdqMmVgrqLb1V30AIGJQiWIYZ1iKxhpSyq5Wi3NLX06S9d",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 111016,
+      "createdOn": "2026-01-03T14:33:59.000Z",
+      "comments": [
+        {
+          "text": "9PbCs5rS9UYsr1DQo6AuZOtpsWCwJ1ES7O1VGHsZMn6JLK4Ft3aqPQgQEQhpnfMIv1gE9diJ2BB",
+          "createdOn": "2026-01-03T14:34:00.000Z",
+          "_id": "695928d81c508c5d5e8c5967"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695928c31c508c5d5e8c55e6",
+          "products": [
+            {
+              "_id": "695928cd1c508c5d5e8c57c9",
+              "name": "Computer19551",
+              "amount": 858,
+              "price": 32093,
+              "manufacturer": "Microsoft",
+              "notes": "8f17xQypHUlErvEV1Z55FnmdvJE9jt3cxQVAjp1troEBwUT7005pXU6qPHgd9paXkp5GaVDXKCY44X0BZrFtXTN3nizCzN4JSxsETJOv3fVj1uwT40HaTq56t2FYQTzQYjRtJGc1eu6wuIX0l8HPU4ScCgy68FVvrCHv8iq9pk8Tjdnue4YelmXMyg8WfAB2J9192OxEkcjUgcqdVt6BbaHhcmVT4tvK0Cp1D6Tsu1bFCl7w3bwtcSHTCm",
+              "received": false
+            },
+            {
+              "_id": "695928d71c508c5d5e8c58df",
+              "name": "Chair37997",
+              "amount": 681,
+              "price": 78923,
+              "manufacturer": "Microsoft",
+              "notes": "8QvrxtQqLVffZRdgeJ1eN8uOHtnPvJ1vb3qFiFp3GLpGN7dXhcN2upmz30kMiBaafAQIfr0IP3CqgoldB7mELcd6ltFLI3wXf7CYd6820nE4G3rPTCMwZPQ50W2y2r75LxNwTyQUa9QAaXJYneEB2qCIjH0DoZQrmnqhKLxm69PG0jShXCaprHrJOlsDG4pekYoX7T85Sz7fkdqMmVgrqLb1V30AIGJQiWIYZ1iKxhpSyq5Wi3NLX06S9d",
+              "received": false
+            }
+          ],
+          "total_price": 111016,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:33:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

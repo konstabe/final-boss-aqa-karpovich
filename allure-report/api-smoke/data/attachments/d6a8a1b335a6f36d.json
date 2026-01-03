@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:33:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1899",
+    "etag": "W/\"76b-BhNn3q4VDV+ut6BaPvgVcx09H/U\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695928bf1c508c5d5e8c5562",
+        "email": "Mariane_Murphy90@yahoo.com",
+        "name": "Bethany Hayes",
+        "country": "Great Britain",
+        "city": "West Lorenzachester",
+        "street": "Ethan Common",
+        "house": 48,
+        "flat": 622,
+        "phone": "+13547342205",
+        "createdOn": "2026-01-03T14:33:35.000Z",
+        "notes": "ZOkl888l0cyfLBwT7JJueCuefCjHozpmZpW9EBxzAJPdgryUL3dJmGni5w4CjeS7gygWMifL7RQwTo4ZPbLlL3Gd77kDE475ChihiwqmrvmU7iMBmdmEgZlyVMv7y8nIzJQSRfPi8ve79meze0LIHKvU01E2FwkukX7KoS4hRdxsIo8vPtH4DApxJah92eBuwS6eHG7ykdeSiVMirUYjUTrTZJ9P8SbkEvCMEDxxmBAoFTIstrIKOEpq7E"
+      },
+      "products": [
+        {
+          "_id": "695928c51c508c5d5e8c5654",
+          "name": "Bike7716",
+          "amount": 975,
+          "price": 67030,
+          "manufacturer": "Samsung",
+          "notes": "ypK0Qmw86rVNBPuhIJamLwaPbZ8tE5g3N0K3ksrWojTidNTaCRs2rmrfxJ5qSwhBtTBexAUD9Q0wnaoSiDoehFCebPfOspziQ1Y2VEvLgKqtLHMT5hLOGDYXAKU6hd8aZpnh5ZdqedZiZBECKLBF2cAejUcrGvNLKfEr1UCgM34691Opu59iTL6sVDGmysZwLkCdvkuk7siNoqimkibctUj20Lczu9B40yxb0x4GotzveTvoxhTc5APN2T",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 67030,
+      "createdOn": "2026-01-03T14:33:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695928bf1c508c5d5e8c5562",
+          "products": [
+            {
+              "_id": "695928c51c508c5d5e8c5654",
+              "name": "Bike7716",
+              "amount": 975,
+              "price": 67030,
+              "manufacturer": "Samsung",
+              "notes": "ypK0Qmw86rVNBPuhIJamLwaPbZ8tE5g3N0K3ksrWojTidNTaCRs2rmrfxJ5qSwhBtTBexAUD9Q0wnaoSiDoehFCebPfOspziQ1Y2VEvLgKqtLHMT5hLOGDYXAKU6hd8aZpnh5ZdqedZiZBECKLBF2cAejUcrGvNLKfEr1UCgM34691Opu59iTL6sVDGmysZwLkCdvkuk7siNoqimkibctUj20Lczu9B40yxb0x4GotzveTvoxhTc5APN2T",
+              "received": false
+            }
+          ],
+          "total_price": 67030,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:33:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695928c71c508c5d5e8c568c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:34:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2944",
+    "etag": "W/\"b80-UfLvlIEBB1lCWhoBIBE1yN+Xgkw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695928e91c508c5d5e8c5d89",
+      "status": "Draft",
+      "customer": {
+        "_id": "695928e01c508c5d5e8c5bf8",
+        "email": "Ramiro.Weissnat@yahoo.com",
+        "name": "Rosendo Rempel",
+        "country": "USA",
+        "city": "West Gail",
+        "street": "Mueller Union",
+        "house": 8,
+        "flat": 699,
+        "phone": "+17043188242",
+        "createdOn": "2026-01-03T14:34:08.000Z",
+        "notes": "sO3xz6XfJndZ7cFpO8OjHuHP6e1QJeUqD27KGiC653DwdbzkwPFl5cLsJ7iSfqM9mWdbvNmiCuWiKUhelLW31rty7NrMLf1alWjm2uuEwEcOjPYksJMtKT60Aicsk9z1s4LyVtWpYIOb9lsIsmXEmUQc7obgOdQCkS1oZSOXIODPktvGZuh8dcwdsZoXFp0VTme9kUwuIokhFeBsg35U0pjhtFi8qioG0yqofAiVHhS2BvQC3y6AoxvNPp"
+      },
+      "products": [
+        {
+          "_id": "695928e91c508c5d5e8c5d47",
+          "name": "Chair18397",
+          "amount": 19,
+          "price": 90296,
+          "manufacturer": "Apple",
+          "notes": "npuHMs5CUaQQf5meSQcYHqwMsUwlP9vkMrGvGh530faexEO4M07cCogkmUOi2g27VLNuyV3Jin1ctrIWmIZJA40xbHFqhFpAzKVxpg1hyc268IU003irPGH8Lb1XUFrZGo2pIYwDdupDlkNtEmqEZBGPEy0vNc46QYu9bA7KPOHMzUITAN6ZIMXfiIcFa2OBsIe76f0tg1suf7PbX0BHMVvv9KQXpfPu2ZgiFMH5WWSMeca5mRKIeJCGmj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 90296,
+      "createdOn": "2026-01-03T14:34:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695928e01c508c5d5e8c5bf8",
+          "products": [
+            {
+              "_id": "695928e91c508c5d5e8c5d47",
+              "name": "Chair18397",
+              "amount": 19,
+              "price": 90296,
+              "manufacturer": "Apple",
+              "notes": "npuHMs5CUaQQf5meSQcYHqwMsUwlP9vkMrGvGh530faexEO4M07cCogkmUOi2g27VLNuyV3Jin1ctrIWmIZJA40xbHFqhFpAzKVxpg1hyc268IU003irPGH8Lb1XUFrZGo2pIYwDdupDlkNtEmqEZBGPEy0vNc46QYu9bA7KPOHMzUITAN6ZIMXfiIcFa2OBsIe76f0tg1suf7PbX0BHMVvv9KQXpfPu2ZgiFMH5WWSMeca5mRKIeJCGmj",
+              "received": false
+            }
+          ],
+          "total_price": 90296,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:34:18.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695928e01c508c5d5e8c5bf8",
+          "products": [
+            {
+              "_id": "695928e91c508c5d5e8c5d47",
+              "name": "Chair18397",
+              "amount": 19,
+              "price": 90296,
+              "manufacturer": "Apple",
+              "notes": "npuHMs5CUaQQf5meSQcYHqwMsUwlP9vkMrGvGh530faexEO4M07cCogkmUOi2g27VLNuyV3Jin1ctrIWmIZJA40xbHFqhFpAzKVxpg1hyc268IU003irPGH8Lb1XUFrZGo2pIYwDdupDlkNtEmqEZBGPEy0vNc46QYu9bA7KPOHMzUITAN6ZIMXfiIcFa2OBsIe76f0tg1suf7PbX0BHMVvv9KQXpfPu2ZgiFMH5WWSMeca5mRKIeJCGmj",
+              "received": false
+            }
+          ],
+          "total_price": 90296,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:34:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
