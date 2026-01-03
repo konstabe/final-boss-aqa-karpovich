@@ -121,6 +121,7 @@ test.describe("[UI] [Orders]", () => {
 			async ({ ordersListPage, ordersListUIService, ordersApiService }) => {
 				token = await ordersListPage.getAuthToken();
 				await ordersApiService.createDraft(token, 1);
+				await ordersApiService.processOrder(token, 1);
 
 				await ordersListUIService.open();
 				await ordersListUIService.openFilterModal();
