@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:13:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2659",
+    "etag": "W/\"a63-MHtCiujvwMwdSrfE31xuEMXwoAA\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69595c581c508c5d5e95e599",
+        "email": "Elvera90@yahoo.com",
+        "name": "Mekhi White",
+        "country": "Great Britain",
+        "city": "Haagtown",
+        "street": "Walter Cliffs",
+        "house": 20,
+        "flat": 905,
+        "phone": "+16866587196",
+        "createdOn": "2026-01-03T18:13:44.000Z",
+        "notes": "DTqtayUGKwKwWeGF0Qqt5pcBETKxMleLd6z6pFd57I79PxzvaEKMlMg79VnIOJ12o2WkwEFwQc9xG7lRxVRxNGZenHOm7vBTeRja0o8GPKWkuZm0Hdb59xMcEIgHVFDmSuiR4uQSo1eEvOgdw2llYff2q0hI4M2yEWgN5ju1S7YKXgEzKbeWfsxJ8yup5mjY3vWbPZAVQ8wv2o5USmy6wBTNK68EscwF497NtmmYzx5VXIXNdgRIEOvvXF"
+      },
+      "products": [
+        {
+          "_id": "69595c591c508c5d5e95e619",
+          "name": "Shirt56001",
+          "amount": 485,
+          "price": 59928,
+          "manufacturer": "Microsoft",
+          "notes": "3zA5RpTWrIsfMIcHNQ2dRU7Nl8Rpxbz0Bt74S2jZe5CjznyQdbXHerOFHkGfagB0V4mKPlWzgaDSrGW4nhBXB54yDQmo67sjWMyt1y35TXg1P8itNuElsMkgR6irlzrJrtmUYRWJD8O21gWmV4aSGsAKhM2yrkfQZYeX9pPs4LdmcGalMYJqlT0YQB3tfkLOx0asdyJkN1GlkBcniMaQQFTkUoq5yVfnsIpxVydkGxh44ud5fHcwjbgNEr",
+          "received": false
+        },
+        {
+          "_id": "69595c5a1c508c5d5e95e666",
+          "name": "Hat59981",
+          "amount": 675,
+          "price": 66327,
+          "manufacturer": "Microsoft",
+          "notes": "maD3CsxwsKXDQ6LhH9NYDIwEI1CvSBpejuXkk1U7ZPdF5esAYi0T1jQzQZhrJXbJNFbbCi5HUhjVkIvfOko3HvgDlCHCn9Ak7mH3iTPNf3XjulgK6vyNGrAwGWML4Thv3Eowdm9hZKlFyUSSXniRG8AkXRpsjh772Ls8i0XaUJDiLH73LBL2EnD3KJPfMrbizuzcegiQIJGm3dff1DEgptfJDYVA2l37AnIROayDHXDSBrBkCviDQW8TV3",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 126255,
+      "createdOn": "2026-01-03T18:13:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69595c581c508c5d5e95e599",
+          "products": [
+            {
+              "_id": "69595c591c508c5d5e95e619",
+              "name": "Shirt56001",
+              "amount": 485,
+              "price": 59928,
+              "manufacturer": "Microsoft",
+              "notes": "3zA5RpTWrIsfMIcHNQ2dRU7Nl8Rpxbz0Bt74S2jZe5CjznyQdbXHerOFHkGfagB0V4mKPlWzgaDSrGW4nhBXB54yDQmo67sjWMyt1y35TXg1P8itNuElsMkgR6irlzrJrtmUYRWJD8O21gWmV4aSGsAKhM2yrkfQZYeX9pPs4LdmcGalMYJqlT0YQB3tfkLOx0asdyJkN1GlkBcniMaQQFTkUoq5yVfnsIpxVydkGxh44ud5fHcwjbgNEr",
+              "received": false
+            },
+            {
+              "_id": "69595c5a1c508c5d5e95e666",
+              "name": "Hat59981",
+              "amount": 675,
+              "price": 66327,
+              "manufacturer": "Microsoft",
+              "notes": "maD3CsxwsKXDQ6LhH9NYDIwEI1CvSBpejuXkk1U7ZPdF5esAYi0T1jQzQZhrJXbJNFbbCi5HUhjVkIvfOko3HvgDlCHCn9Ak7mH3iTPNf3XjulgK6vyNGrAwGWML4Thv3Eowdm9hZKlFyUSSXniRG8AkXRpsjh772Ls8i0XaUJDiLH73LBL2EnD3KJPfMrbizuzcegiQIJGm3dff1DEgptfJDYVA2l37AnIROayDHXDSBrBkCviDQW8TV3",
+              "received": false
+            }
+          ],
+          "total_price": 126255,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:13:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69595c5a1c508c5d5e95e6a0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

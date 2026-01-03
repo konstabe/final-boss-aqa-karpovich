@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:13:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-6wpGrIggPvVRm7Sk/A14wEDqprk\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69595c581c508c5d5e95e597",
+        "email": "Elwin.Mitchell-Bergnaum18@yahoo.com",
+        "name": "Neoma Cruickshank",
+        "country": "France",
+        "city": "Enochstead",
+        "street": "Jenkins Turnpike",
+        "house": 34,
+        "flat": 846,
+        "phone": "+16012489021",
+        "createdOn": "2026-01-03T18:13:44.000Z",
+        "notes": "JpKIWdtkbL5aiWN3CIRCJUafYG93Qs5qCrn9DpDJUbqKK1koseKuaiXRASN5z1y6uDr7nqTpifJy19W0NIOmxn7v7p5XJdl5TrZ9wuzAtVZGLplUnXqF29QuSJixaAc5DAKgP8ekmqF3HdpSzY5K9cgzENFQm5xnnRjAfSRjj7iDkfUM1SKvDRJQlREQOyXSKaglngRI8IAwxfPpq9phVPQLWMLUEnT7vZLk7bb8l35ty8VnJps8dFl6N7"
+      },
+      "products": [
+        {
+          "_id": "69595c591c508c5d5e95e61b",
+          "name": "Hat263",
+          "amount": 77,
+          "price": 28075,
+          "manufacturer": "Xiaomi",
+          "notes": "Qx5uS2FDRcDqCI0Qjqaj0ntIcXXzbLI2JCJO2y67lIqzBSKqYXDwzrf1G0r5bbGE9EaLhuHzDFl2NMvRks6KX7fSNnuMAfFRANcdj7sQih4M79M7dCrE11GlJUPGfCNDob8Bsnb1r2V7dSzpDzo0q83C36sBsvv52J8kAi6cQIHZkRsWoQv4KIUr39p3saRkRzt1rW8UoxASjEhW14HFxgDSNlhuEKJLGxnT9GqvI6glUk2tl2Q45GDfXb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 28075,
+      "createdOn": "2026-01-03T18:13:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69595c581c508c5d5e95e597",
+          "products": [
+            {
+              "_id": "69595c591c508c5d5e95e61b",
+              "name": "Hat263",
+              "amount": 77,
+              "price": 28075,
+              "manufacturer": "Xiaomi",
+              "notes": "Qx5uS2FDRcDqCI0Qjqaj0ntIcXXzbLI2JCJO2y67lIqzBSKqYXDwzrf1G0r5bbGE9EaLhuHzDFl2NMvRks6KX7fSNnuMAfFRANcdj7sQih4M79M7dCrE11GlJUPGfCNDob8Bsnb1r2V7dSzpDzo0q83C36sBsvv52J8kAi6cQIHZkRsWoQv4KIUr39p3saRkRzt1rW8UoxASjEhW14HFxgDSNlhuEKJLGxnT9GqvI6glUk2tl2Q45GDfXb",
+              "received": false
+            }
+          ],
+          "total_price": 28075,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:13:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69595c591c508c5d5e95e659"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
