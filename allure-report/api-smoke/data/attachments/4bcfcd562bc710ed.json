@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:09:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1412",
+    "etag": "W/\"584-Rhce4+5Ur/i3EIyfI6gjpPh+rts\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "69595b681c508c5d5e958020",
+        "status": "Draft",
+        "customer": "69595b671c508c5d5e957f73",
+        "products": [
+          {
+            "_id": "69595b671c508c5d5e957fd8",
+            "name": "Mouse24579",
+            "amount": 293,
+            "price": 40298,
+            "manufacturer": "Xiaomi",
+            "notes": "qqpoSh9m8vI25m6zYTYcJjFECBJB1smjwlIJLPDMk20Zvo7cy3J0kuy6ZYNxKufF7fKjMgbFA2Mg3Lh7fJNTjfGou5XSw3Jar13ngIJObjEuczM6FboQMg4Z06AWubrHjezMdmJc8qYUGjM6GqgESq9qSz7R2KIlSfIBrgNvEAyRclVYSiIosccpOHUPmr2xYGNQ0UDjVU2KBjDD1afRtRXlDJdEwfS2b3QP5Td1VqMFpWP0hQdWU0pzqT",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 40298,
+        "createdOn": "2026-01-03T18:09:44.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "69595b671c508c5d5e957f73",
+            "products": [
+              {
+                "_id": "69595b671c508c5d5e957fd8",
+                "name": "Mouse24579",
+                "amount": 293,
+                "price": 40298,
+                "manufacturer": "Xiaomi",
+                "notes": "qqpoSh9m8vI25m6zYTYcJjFECBJB1smjwlIJLPDMk20Zvo7cy3J0kuy6ZYNxKufF7fKjMgbFA2Mg3Lh7fJNTjfGou5XSw3Jar13ngIJObjEuczM6FboQMg4Z06AWubrHjezMdmJc8qYUGjM6GqgESq9qSz7R2KIlSfIBrgNvEAyRclVYSiIosccpOHUPmr2xYGNQ0UDjVU2KBjDD1afRtRXlDJdEwfS2b3QP5Td1VqMFpWP0hQdWU0pzqT",
+                "received": false
+              }
+            ],
+            "total_price": 40298,
+            "delivery": null,
+            "changedOn": "2026-01-03T18:09:44.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953315",
+              "username": "student2@gmail.com",
+              "firstName": "Wilfrid",
+              "lastName": "Daugherty",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

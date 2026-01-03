@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:09:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-gQwMCL7SM589ye7+mq6tnolGKBg\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69595b681c508c5d5e95805d",
+        "email": "Dave.Runolfsdottir83@yahoo.com",
+        "name": "Octavia Rodriguez",
+        "country": "Canada",
+        "city": "Joliehaven",
+        "street": "Shea Views",
+        "house": 21,
+        "flat": 475,
+        "phone": "+16057760842",
+        "createdOn": "2026-01-03T18:09:44.000Z",
+        "notes": "5FQCn4VrDUo1VOiHxZI5rqELALE16uKGiJeGToprYRnCjjvz1U0JfyvqbGhW1nXHT4rL9vgdBN9lGdqHqQHoNeRzHVP5u00i5Ld0jqvxWyskPsoi5rr19vNi35O466ZenwxtmNqyOIDQEZKnB6fKhvYnxZWV0WWoJfvdugmRrRcBKHh7rVjFhcLYmqZmUq8TY0wk7jnTzXrjPIfK75yv0ln4cQDhOWnRBdmC6QVxtN3sVcMcjZVaXA3cnG"
+      },
+      "products": [
+        {
+          "_id": "69595b6a1c508c5d5e958187",
+          "name": "Soap75023",
+          "amount": 491,
+          "price": 36955,
+          "manufacturer": "Sony",
+          "notes": "THuwcY3hVrWW6e3N6w5sSPRexSwOmcx6wV4YtPp4viVYpf5rjYBwpP5Yvefe8oJIqvCZnACGLw6zZFBKXIgyrsR4RGvRGWutDhiaXLKx6isUvQWKWdrVIAUpwRv6gJKzIvAZ0VeMbfD3QZ0FukXZww1jU4UsmuEVpPVWVom1neJ4UnqkxwgJZtPhM98OED8Qobw10B9bivIQaTBRoXw7qbaie0TVd03cHhIEU3GzbVBuV9rlfMpAExlwaB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 36955,
+      "createdOn": "2026-01-03T18:09:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69595b681c508c5d5e95805d",
+          "products": [
+            {
+              "_id": "69595b6a1c508c5d5e958187",
+              "name": "Soap75023",
+              "amount": 491,
+              "price": 36955,
+              "manufacturer": "Sony",
+              "notes": "THuwcY3hVrWW6e3N6w5sSPRexSwOmcx6wV4YtPp4viVYpf5rjYBwpP5Yvefe8oJIqvCZnACGLw6zZFBKXIgyrsR4RGvRGWutDhiaXLKx6isUvQWKWdrVIAUpwRv6gJKzIvAZ0VeMbfD3QZ0FukXZww1jU4UsmuEVpPVWVom1neJ4UnqkxwgJZtPhM98OED8Qobw10B9bivIQaTBRoXw7qbaie0TVd03cHhIEU3GzbVBuV9rlfMpAExlwaB",
+              "received": false
+            }
+          ],
+          "total_price": 36955,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:09:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69595b6b1c508c5d5e95820f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

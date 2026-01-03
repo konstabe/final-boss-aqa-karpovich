@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:09:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-9t8hGhpCAyqE1dQ9Q4mPFWcLVjY\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69595b6e1c508c5d5e9583bc",
+      "status": "Draft",
+      "customer": {
+        "_id": "69595b6b1c508c5d5e95822e",
+        "email": "Enid.Gutmann@hotmail.com",
+        "name": "Willow Hirthe",
+        "country": "Germany",
+        "city": "Kendall",
+        "street": "Corkery Path",
+        "house": 21,
+        "flat": 529,
+        "phone": "+15947914558",
+        "createdOn": "2026-01-03T18:09:47.000Z",
+        "notes": "XF2msWJGHbIFcgaycu5jS6lf6fHMAeLIBqj2RRFlnFcuBiAAHl2ck5zze67l5IROduXqbugICEj4bOtZwW1lFCYSHdDU7BrTOVoHUTZTFMVX1Fl6N9ipphLBq2gfWKZnIIuHCO01ny6WCI9Sqc3e8oO3ykzra0v6F9VaaoasMyqSMQf2Em47uIcTfodknbfng8ImM3HVOj7Nxa3khvp50tUxrzE502R2x0LTXPX8IaRJT8HaFhwQRD7myC"
+      },
+      "products": [
+        {
+          "_id": "69595b6d1c508c5d5e958373",
+          "name": "Shirt42964",
+          "amount": 416,
+          "price": 19637,
+          "manufacturer": "Samsung",
+          "notes": "bTsQBgc0tOHC4twN0unEiuoX2LX9eERxhYqx7HCdA29t3NfrKaiOUBZNT2GXb0YQbHPWTGq59jK15DX7TuDVLaRPhQzJDiqNYwh88Z9yxd71vhlGHNRHr1VU74AoIwMhF5ttiBHH6Al7iJClZgnWe6ACAGdNJw6kIBlgkibim532olNTwqaAGKwYe8axpKxlga5d8nzaNeDTHBY2JknlxWRsvzGy8yYDMnhVi2L6PiFDD8EY1P44D9P1Zx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 19637,
+      "createdOn": "2026-01-03T18:09:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69595b6b1c508c5d5e95822e",
+          "products": [
+            {
+              "_id": "69595b6d1c508c5d5e958373",
+              "name": "Shirt42964",
+              "amount": 416,
+              "price": 19637,
+              "manufacturer": "Samsung",
+              "notes": "bTsQBgc0tOHC4twN0unEiuoX2LX9eERxhYqx7HCdA29t3NfrKaiOUBZNT2GXb0YQbHPWTGq59jK15DX7TuDVLaRPhQzJDiqNYwh88Z9yxd71vhlGHNRHr1VU74AoIwMhF5ttiBHH6Al7iJClZgnWe6ACAGdNJw6kIBlgkibim532olNTwqaAGKwYe8axpKxlga5d8nzaNeDTHBY2JknlxWRsvzGy8yYDMnhVi2L6PiFDD8EY1P44D9P1Zx",
+              "received": false
+            }
+          ],
+          "total_price": 19637,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:09:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
