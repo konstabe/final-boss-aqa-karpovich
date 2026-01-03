@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 11:37:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "654",
+    "etag": "W/\"28e-AWXJygpW2hzF9NXCfuNLtg4XwPI\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Notifications": [
+      {
+        "_id": "6958ed561c508c5d5e8139a4",
+        "userId": "692337cd1c508c5d5e953315",
+        "type": "assigned",
+        "orderId": "6958ed561c508c5d5e81397d",
+        "message": "You have been assigned to order",
+        "read": true,
+        "expiresAt": "2026-01-04T10:20:06.685Z",
+        "createdAt": "2026-01-03T10:20:06.686Z",
+        "updatedAt": "2026-01-03T10:20:07.046Z"
+      },
+      {
+        "_id": "695832881c508c5d5e75996d",
+        "userId": "692337cd1c508c5d5e953315",
+        "type": "assigned",
+        "orderId": "69582ded1c508c5d5e74fe1f",
+        "message": "You have been assigned to order",
+        "read": true,
+        "expiresAt": "2026-01-03T21:03:04.391Z",
+        "createdAt": "2026-01-02T21:03:04.392Z",
+        "updatedAt": "2026-01-02T22:16:42.921Z"
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

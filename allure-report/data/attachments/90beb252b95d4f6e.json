@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 11:37:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2940",
+    "etag": "W/\"b7c-aIlB5ykcnmTKTycf1SD3LfbKMl0\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958ff761c508c5d5e854ef2",
+      "status": "Draft",
+      "customer": {
+        "_id": "6958ff731c508c5d5e854e1d",
+        "email": "Hillary80@yahoo.com",
+        "name": "Ora Erdman",
+        "country": "Germany",
+        "city": "Ziemeworth",
+        "street": "Frontage Road",
+        "house": 18,
+        "flat": 409,
+        "phone": "+14845953532",
+        "createdOn": "2026-01-03T11:37:23.000Z",
+        "notes": "max3zwZ4klazWHQF4f88MMcI9XAtewKtMs4yLKNPEMV4g1CZslqXYjFWdZjKZc44PMayl0l6kiafu0b1IO2fKYUOm72C2XojXd7WvQCmTzPwnfYMp1bRhrsAE4fDg0cYmA9aPDcprSJN0JQYDAszJyv71IWE74xw2WiLWYXTz5USlbv0b7Sn3IuX5KTMElny6CrLStz3G0EJlB1k3GLALSpnpoVQ6ElkJcndmP621RCYaDWJOHOAmhifMB"
+      },
+      "products": [
+        {
+          "_id": "6958ff751c508c5d5e854ee1",
+          "name": "Chair38444",
+          "amount": 973,
+          "price": 46026,
+          "manufacturer": "Sony",
+          "notes": "k1UgiGZnHFZA3Au1Am2W3ce7gWgjukj8vPUUG6lN6U9FCXGqiifPU3nJDlIcXbAEH95HY1sc1OrfzTDd3ndwiVGhSh2a1gjuqN0GTJs0jBTZdqwjptxUWJrizJnga4lHAbmJjcy9cdoJmUSRJj9TnIgzkEDimvfI8lewpTquqdyaohqFCiPwL27KlyKWJCXxg1T640RNsJiAbykGmOP38LYVqueG3jjqxZbpYkYVy8ZGzTReijCMlwTU7k",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 46026,
+      "createdOn": "2026-01-03T11:37:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958ff731c508c5d5e854e1d",
+          "products": [
+            {
+              "_id": "6958ff751c508c5d5e854ee1",
+              "name": "Chair38444",
+              "amount": 973,
+              "price": 46026,
+              "manufacturer": "Sony",
+              "notes": "k1UgiGZnHFZA3Au1Am2W3ce7gWgjukj8vPUUG6lN6U9FCXGqiifPU3nJDlIcXbAEH95HY1sc1OrfzTDd3ndwiVGhSh2a1gjuqN0GTJs0jBTZdqwjptxUWJrizJnga4lHAbmJjcy9cdoJmUSRJj9TnIgzkEDimvfI8lewpTquqdyaohqFCiPwL27KlyKWJCXxg1T640RNsJiAbykGmOP38LYVqueG3jjqxZbpYkYVy8ZGzTReijCMlwTU7k",
+              "received": false
+            }
+          ],
+          "total_price": 46026,
+          "delivery": null,
+          "changedOn": "2026-01-03T11:37:26.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6958ff731c508c5d5e854e1d",
+          "products": [
+            {
+              "_id": "6958ff751c508c5d5e854ee1",
+              "name": "Chair38444",
+              "amount": 973,
+              "price": 46026,
+              "manufacturer": "Sony",
+              "notes": "k1UgiGZnHFZA3Au1Am2W3ce7gWgjukj8vPUUG6lN6U9FCXGqiifPU3nJDlIcXbAEH95HY1sc1OrfzTDd3ndwiVGhSh2a1gjuqN0GTJs0jBTZdqwjptxUWJrizJnga4lHAbmJjcy9cdoJmUSRJj9TnIgzkEDimvfI8lewpTquqdyaohqFCiPwL27KlyKWJCXxg1T640RNsJiAbykGmOP38LYVqueG3jjqxZbpYkYVy8ZGzTReijCMlwTU7k",
+              "received": false
+            }
+          ],
+          "total_price": 46026,
+          "delivery": null,
+          "changedOn": "2026-01-03T11:37:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
