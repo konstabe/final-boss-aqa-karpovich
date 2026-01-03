@@ -26,7 +26,7 @@ jobs:
                       -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
                       https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts/$ARTIFACT_ID/zip \
                       -o artifacts.zip
-                    mkdir smoke-history && unzip artifacts.zip -d smoke-history
+                    mkdir smoke-history-input && unzip artifacts.zip -d smoke-history-input
                   else
                     echo "No smoke-history artifact found"
                   fi
@@ -46,16 +46,16 @@ jobs:
                     mkdir old_pages pages_history
                     unzip pages.zip -d old_pages
                     tar -xvf old_pages/artifact.tar -C pages_history
-                    cp -r pages_history/history smoke-history || true
+                    cp -r pages_history/history smoke-history-input || true
                   else
                     echo "No github-pages artifact found"
                   fi
 
-            - name: Store smoke history
+            - name: Store smoke history input
               uses: actions/upload-artifact@v4
               with:
-                  name: smoke-history
-                  path: smoke-history
+                  name: smoke-history-input
+                  path: smoke-history-input
                   retention-days: 10
                   if-no-files-found: ignore
 
@@ -92,7 +92,7 @@ jobs:
               continue-on-error: true
 
             - name: Copy old history into report
-              run: cp -r smoke-history/history allure-report/history || true
+              run: cp -r smoke-history-input/history allure-report/history || true
 
             - name: Create Allure report
               run: npm run allure-report
