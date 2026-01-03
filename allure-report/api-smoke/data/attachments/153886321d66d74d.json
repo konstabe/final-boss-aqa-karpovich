@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:00:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-Mh1UtMtfeOok4h8bh4vAH5fVyS8\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695967471c508c5d5e976427",
+        "email": "Jada58@hotmail.com",
+        "name": "Patricia Turcotte",
+        "country": "Ukraine",
+        "city": "Port Cleve",
+        "street": "Velma Mall",
+        "house": 32,
+        "flat": 599,
+        "phone": "+12873130081",
+        "createdOn": "2026-01-03T19:00:23.000Z",
+        "notes": "pNHKfKlRenA9rvquyNRVj37SVMYFsJ1jLx6x99KmI25RTP7z4cSgwF6maQM3Pk5XNTB2lhoaK3LpD6mlNWNGqqZc8p1oXoFKUVfKZcMCLMjhpHeBuRt6Bx1N2o8qHxTSliLrdusRMnIcdmkZAe72EwXvsfIpxjgYG3OtVDRS9EnF5NdHORVmpoKAnBXBcsCcEbdBp02um2R8os7h2QdVJHJ8OyOkA1sIMdDCnSpGkmcWQFznOEmJpkQ6iC"
+      },
+      "products": [
+        {
+          "_id": "695967491c508c5d5e97642d",
+          "name": "Keyboard44673",
+          "amount": 154,
+          "price": 61640,
+          "manufacturer": "Amazon",
+          "notes": "TU6XqJXLABeznp5NFKvCStqpzYCuiSeLVn8a9diabc8jMoFf01dHdP6ZblOhhTOi20I3HpTnABJ7MxsNtJXZt9qiE8El6rdCRHqlPxxZkIh4jOoZuMbGOqYfz9Zef6062sARbvZLsho25QC5ijYxXjNGLpNF4Ppnun3aZMjd0lzB9Tuy4TgDpMaCguMnr6yRHWpaIo0MLkzmD9tcIh80Fknrm4G2AfBT1G52vgurA4vAsaTvhHSrYauRdi",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 61640,
+      "createdOn": "2026-01-03T19:00:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695967471c508c5d5e976427",
+          "products": [
+            {
+              "_id": "695967491c508c5d5e97642d",
+              "name": "Keyboard44673",
+              "amount": 154,
+              "price": 61640,
+              "manufacturer": "Amazon",
+              "notes": "TU6XqJXLABeznp5NFKvCStqpzYCuiSeLVn8a9diabc8jMoFf01dHdP6ZblOhhTOi20I3HpTnABJ7MxsNtJXZt9qiE8El6rdCRHqlPxxZkIh4jOoZuMbGOqYfz9Zef6062sARbvZLsho25QC5ijYxXjNGLpNF4Ppnun3aZMjd0lzB9Tuy4TgDpMaCguMnr6yRHWpaIo0MLkzmD9tcIh80Fknrm4G2AfBT1G52vgurA4vAsaTvhHSrYauRdi",
+              "received": false
+            }
+          ],
+          "total_price": 61640,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:00:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695967491c508c5d5e976435"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
