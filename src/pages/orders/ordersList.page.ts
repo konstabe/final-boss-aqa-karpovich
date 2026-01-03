@@ -1,11 +1,16 @@
 import { IOrderInTable, OrdersTableHeader, OrderStatus } from "data/types/order.types";
 import { SalesPortalPage } from "../salesPortal.page";
 import { logStep } from "utils/report/logStep.utils";
+import { CreateOrderModal } from "pages/orders/createOrder.modal";
+import { ReopenModal } from "pages/reOpenOder.modal";
+import { FilterModal } from "pages/filter.modal";
+import { ExportDataModal } from "pages/exportData.modal";
 
 export class OrdersListPage extends SalesPortalPage {
-	// readonly filtersModal = new FiltersModal(this.page);
-	// readonly exportDataModal = new ExportDataModal(this.page);
-	// readonly createOrderModal = new CreateOrderModal(this.page);
+	readonly filterModal = new FilterModal(this.page);
+	readonly exportDataModal = new ExportDataModal(this.page);
+	readonly createOrderModal = new CreateOrderModal(this.page);
+	readonly reopenModal = new ReopenModal(this.page);
 
 	readonly createOrderButton = this.page.locator("button[name='add-button']");
 	readonly uniqueElement = this.createOrderButton;
@@ -28,6 +33,8 @@ export class OrdersListPage extends SalesPortalPage {
 
 	readonly detailsButton = (orderId: string) => this.tableRowByOrderNumber(orderId).getByTitle("Details");
 	readonly reopenButton = (orderId: string) => this.tableRowByOrderNumber(orderId).getByTitle("Reopen");
+
+	readonly filtredOrdersButtons = this.page.locator("#chip-buttons > div");
 
 	@logStep("Click Create Order Button")
 	async clickCreateOrder() {
@@ -62,6 +69,11 @@ export class OrdersListPage extends SalesPortalPage {
 	@logStep("Click Details Button")
 	async clickDetailsByOrderId(orderId: string) {
 		await this.detailsButton(orderId).click();
+	}
+
+	@logStep("Click order row by order id")
+	async clickRowByOrderId(orderId: string) {
+		await this.tableRowByOrderNumber(orderId).click();
 	}
 
 	@logStep("Click Reopen Button")

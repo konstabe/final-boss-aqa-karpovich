@@ -6,6 +6,12 @@ export enum NOTIFICATIONS {
 	CREATED_FAIL_INCORRET_REQUEST_BODY = "Incorrect request body",
 	CUSTOMER_CREATED = "Customer was successfully created",
 	COMMENT_WAS_NOT_FOUND = "Comment was not found",
+	ORDER_CREATED = "Order was successfully created",
+	PRODUCTS_RECEIVED = "Products were successfully received",
+	ORDER_CANCELED = "Order was successfully canceled",
+	ORDER_UPDATED = "Order was successfully updated",
+	ORDER_REOPENED = "Order was successfully reopened",
+	DATA_EXPORTED = "Data was successfully exported",
 }
 
 export const ERROR_MESSAGES = {

@@ -2,8 +2,10 @@
   "name": "sales-portal-api",
   "version": "1.0.0",
   "description": "test framework",
+  "type": "module",
   "scripts": {
     "test": "npx playwright test",
+    "test:setup": "playwright test src/tests/auth.setup.ts",
     "test:api": "npm run test -- --project=sales-portal-api",
     "test:ui": "npm run test -- --project=sales-portal-ui",
     "test:api-smoke": "npm run test -- --project=sales-portal-api --grep @smoke",
@@ -42,6 +44,7 @@
     "@eslint/js": "^9.39.1",
     "@playwright/test": "^1.57.0",
     "@types/lodash": "^4.17.21",
+    "@types/moment": "^2.11.29",
     "@types/node": "^24.10.1",
     "@types/node-telegram-bot-api": "^0.64.13",
     "@typescript-eslint/eslint-plugin": "^8.48.0",
@@ -63,6 +66,7 @@
     "@faker-js/faker": "^10.1.0",
     "dotenv": "^17.2.3",
     "lodash": "^4.17.21",
-    "node-telegram-bot-api": "^0.66.0"
+    "moment": "^2.30.1",
+    "node-telegram-bot-api": "^0.63.0"
   }
 }

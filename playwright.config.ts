@@ -14,7 +14,7 @@ loadEnv();
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-	globalTeardown: require.resolve("./src/config/global.teardown"),
+	globalTeardown: "./src/config/global.teardown",
 	testDir: "./src/tests",
 	/* Run tests in files in parallel */
 	fullyParallel: true,
@@ -49,34 +49,36 @@ export default defineConfig({
 	/* Configure projects for major browsers */
 	projects: [
 		{
-			name: "sales-portal-api",
-			use: {
-				...devices["Desktop Chrome"],
-			},
-			testDir: "src/tests/api",
+			name: "setup",
+			use: { ...devices["Desktop Chrome"] },
+			testDir: "src/tests/ui/orders",
+			testMatch: /\.setup\.ts/,
 		},
 		{
 			name: "sales-portal-ui",
 			use: {
 				...devices["Desktop Chrome"],
 				viewport: { width: 1920, height: 1080 },
+				storageState: "src/.auth/user.json",
 			},
-			testDir: "src/tests/ui",
+			dependencies: ["setup"],
+			testDir: "src/tests/ui/orders",
 		},
 		{
-			name: "chromium",
-			use: { ...devices["Desktop Chrome"] },
+			name: "sales-portal-api",
+			use: {
+				...devices["Desktop Chrome"],
+			},
+			testDir: "src/tests/api",
 		},
-
-		{
-			name: "firefox",
-			use: { ...devices["Desktop Firefox"] },
-		},
-
-		{
-			name: "webkit",
-			use: { ...devices["Desktop Safari"] },
-		},
+		// {
+		// 	name: "sales-portal-ui",
+		// 	use: {
+		// 		...devices["Desktop Chrome"],
+		// 		viewport: { width: 1920, height: 1080 },
+		// 	},
+		// 	testDir: "src/tests/ui",
+		// },
 
 		/* Test against mobile viewports. */
 		// {

@@ -22,7 +22,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 	test.describe("[Update Positive]", () => {
 		test(
 			"Update a draft order with existing customer and existing products",
-			{ tag: [TAGS.API, TAGS.SMOKE, TAGS.REGRESSION] },
+			{ tag: [TAGS.API, TAGS.SMOKE, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersApiService, ordersApi }) => {
 				const order = await ordersApiService.createDraft(token, 5);
 
@@ -54,7 +54,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 	test.describe("[Update Negative]", () => {
 		test(
 			"Update an order without authorization token",
-			{ tag: [TAGS.API, TAGS.REGRESSION] },
+			{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersApiService, ordersApi }) => {
 				const order = await ordersApiService.createDraft(token, 2);
 
@@ -73,7 +73,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 
 		test(
 			"Update an order with invalid token",
-			{ tag: [TAGS.API, TAGS.REGRESSION] },
+			{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersApiService, ordersApi }) => {
 				const order = await ordersApiService.createDraft(token, 3);
 
@@ -92,7 +92,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 
 		test(
 			"Update an order with empty request body",
-			{ tag: [TAGS.API, TAGS.REGRESSION] },
+			{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersApiService, ordersApi }) => {
 				const order = await ordersApiService.createDraft(token, 3);
 
@@ -107,7 +107,7 @@ test.describe("[API] [Sales Portal] [Orders]", () => {
 
 		test(
 			"Update an order in process",
-			{ tag: [TAGS.API, TAGS.REGRESSION] },
+			{ tag: [TAGS.API, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersApi, ordersApiService }) => {
 				const orderInProcess = await ordersApiService.processOrder(token, 5);
 

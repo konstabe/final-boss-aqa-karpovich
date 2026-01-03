@@ -3,6 +3,7 @@ import { ICustomer, ICustomerFromResponse } from "./customer.types";
 import { IProductForOrder, IProductFromResponse } from "./product.types";
 import { ORDER_HISTORY_ACTIONS } from "data/orderHistoryActions";
 import { ROLE } from "data/roles";
+import { ORDER_STATUS } from "data/orders/orderStatus";
 
 export interface IOrder {
 	customer: string;
@@ -100,6 +101,15 @@ export type OrdersTableHeader =
 	| "Assigned Manager"
 	| "Created On";
 
+export type ExportDataFields =
+	| "Status"
+	| "Total Price"
+	| "Delivery"
+	| "Customer"
+	| "Products"
+	| "Assigned Manager"
+	| "Created On";
+
 export interface IOrderInTable extends ICreatedOn, ID {
 	email: string;
 	price: number;
@@ -107,3 +117,46 @@ export interface IOrderInTable extends ICreatedOn, ID {
 	status: OrderStatus;
 	assignedManager: string;
 }
+
+export interface ICreatedProductsForOrder {
+	productsIds: string[];
+	productNames: string[];
+}
+
+export interface ICreatedCustomerForOrder {
+	customerId: string;
+	customerName: string;
+	customerEmail: string;
+}
+
+export interface IOrderMock {
+	_id: string;
+	status: ORDER_STATUS;
+	customer: {
+		email: string;
+	};
+	delivery: {
+		finalDate: string;
+	} | null;
+	total_price: number;
+	createdOn: string;
+	assignedManager: {
+		firstName: string;
+		lastName: string;
+	} | null;
+}
+export interface IOrdersMock extends IResponseFields {
+	Orders: IOrderMock[];
+	total: number;
+	page: number;
+	limit: number;
+	search: string;
+	status: [];
+	sorting: {
+		sortField: OrderSortField;
+		sortOrder: SortOrder;
+	};
+}
+
+export type ModalsOnOrdersList = "reopenModal" | "filterModal" | "exportDataModal"; //добавить createOrderModal
+export type ModalsOnOrderDetails = "processOrderModal"; //добавить остальные модалки

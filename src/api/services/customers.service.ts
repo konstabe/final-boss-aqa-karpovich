@@ -38,4 +38,13 @@ export class CustomersApiService {
 
 		return response;
 	}
+
+	async getOrders(id: string, token: string) {
+		const response = await this.customersApi.getOrdersForCustomer(id, token);
+		validateResponse(response, {
+			status: STATUS_CODES.OK,
+		});
+
+		return response;
+	}
 }

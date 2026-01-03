@@ -1,15 +1,20 @@
+import { CONFIRMATION_MODAL_TEXT } from "data/orders/modalText";
+import { generateOrderMock, generateOrdersListUIMock } from "data/orders/generateOrdersListResponse";
+import { ORDER_STATUS } from "data/orders/orderStatus";
 import { TAGS } from "data/tags";
 import { expect, test } from "fixtures";
 
 test.describe("[UI] [Orders]", () => {
-	test.beforeEach(async ({ loginUIService }) => {
-		//убрать, когда появится global setup
-		await loginUIService.loginAsAdmin();
+	let token = "";
+
+	test.afterEach(async ({ ordersApiService }) => {
+		await ordersApiService.fullDelete(token);
 	});
+
 	test.describe("[Navigation to Orders List Page]", () => {
 		test(
 			"Should open Orders List page via direct URL",
-			{ tag: [TAGS.UI, TAGS.REGRESSION] },
+			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersListPage }) => {
 				await ordersListPage.open("orders");
 				await ordersListPage.waitForOpened();
@@ -22,7 +27,8 @@ test.describe("[UI] [Orders]", () => {
 		test(
 			"Should open Orders List page from Home page via 'View Orders' button",
 			{ tag: [TAGS.UI, TAGS.REGRESSION] },
-			async ({ homePage, ordersListPage }) => {
+			async ({ homePage, ordersListPage, homeUIService }) => {
+				await homeUIService.open();
 				await homePage.clickOnViewModule("Orders");
 				await ordersListPage.waitForOpened();
 
@@ -34,7 +40,8 @@ test.describe("[UI] [Orders]", () => {
 		test(
 			"Should open Orders List page via Navigation Menu",
 			{ tag: [TAGS.UI, TAGS.REGRESSION] },
-			async ({ ordersListPage }) => {
+			async ({ ordersListPage, homeUIService }) => {
+				await homeUIService.open();
 				await ordersListPage.navBarMenu.clickModule("Orders");
 				await ordersListPage.waitForOpened();
 
@@ -47,7 +54,7 @@ test.describe("[UI] [Orders]", () => {
 	test.describe("[Check UI components on Orders List Page]", () => {
 		test(
 			"Should display all main UI components on Orders List page",
-			{ tag: [TAGS.UI, TAGS.REGRESSION] },
+			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
 			async ({ ordersListPage, ordersListUIService }) => {
 				await ordersListUIService.open();
 
@@ -61,6 +68,107 @@ test.describe("[UI] [Orders]", () => {
 				await expect.soft(ordersListPage.createOrderButton).toBeVisible();
 				await expect.soft(ordersListPage.createOrderButton).toBeEnabled();
 				await expect.soft(ordersListPage.table).toBeVisible();
+			},
+		);
+	});
+
+	test.describe("[Navigation to Order Details Page]", () => {
+		test(
+			"Should open Order Details page via order row click",
+			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
+			async ({ ordersListPage, ordersListUIService, ordersApiService, orderDetailsPage }) => {
+				token = await ordersListPage.getAuthToken();
+				const order = await ordersApiService.createDraft(token, 1);
+
+				await ordersListUIService.open();
+				await expect(ordersListPage.tableRowByOrderNumber(order._id)).toBeVisible();
+
+				await ordersListPage.clickRowByOrderId(order._id);
+
+				await orderDetailsPage.waitForOpened();
+				const numberText = await orderDetailsPage.header.getOrderNumber();
+				expect(numberText ?? "").toContain(order._id);
+			},
+		);
+	});
+
+	test.describe("[Confirmation modals on Orders List Page]", () => {
+		test(
+			"Check UI components on Reopen Order Modal",
+			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
+			async ({ ordersListPage, ordersListUIService, mock }) => {
+				const order = generateOrderMock({ status: ORDER_STATUS.CANCELED });
+				const mockData = generateOrdersListUIMock([order]);
+				await mock.ordersListPage(mockData);
+
+				await ordersListUIService.open();
+				await ordersListUIService.clickReopenOrder(order._id);
+
+				expect(ordersListPage.reopenModal.title).toHaveText(CONFIRMATION_MODAL_TEXT.reopen.title);
+				expect(ordersListPage.reopenModal.confirmationMessage).toHaveText(CONFIRMATION_MODAL_TEXT.reopen.body);
+				expect(ordersListPage.reopenModal.closeButton).toBeEnabled();
+				expect(ordersListPage.reopenModal.reopenButton).toBeEnabled();
+				expect(ordersListPage.reopenModal.reopenButton).toHaveText(
+					CONFIRMATION_MODAL_TEXT.reopen.confirmButton,
+				);
+				expect(ordersListPage.reopenModal.cancelButton).toBeEnabled();
+				expect(ordersListPage.reopenModal.cancelButton).toHaveText(CONFIRMATION_MODAL_TEXT.cancelButton);
+			},
+		);
+
+		test(
+			"Should close Reopen Order Modal by clicking Close",
+			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
+			async ({ ordersListPage, ordersListUIService, ordersApiService }) => {
+				token = await ordersListPage.getAuthToken();
+				const canceledOrder = await ordersApiService.cancelOrderInProgress(token, 1);
+				await ordersListUIService.open();
+				await ordersListUIService.clickReopenOrder(canceledOrder._id);
+
+				await ordersListUIService.closeModal("reopenModal");
+
+				const orderInTable = await ordersListPage.getOrderData(canceledOrder._id);
+				expect(orderInTable.status).toBe(ORDER_STATUS.CANCELED);
+				await expect(ordersListPage.reopenButton(canceledOrder._id)).toBeVisible();
+			},
+		);
+
+		test(
+			"Should close Reopen Order Modal by clicking Cancel",
+			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
+			async ({ ordersListPage, ordersListUIService, ordersApiService }) => {
+				token = await ordersListPage.getAuthToken();
+				const canceledOrder = await ordersApiService.cancelOrderInProgress(token, 1);
+				await ordersListUIService.open();
+				await ordersListUIService.clickReopenOrder(canceledOrder._id);
+
+				await ordersListUIService.cancelModal("reopenModal");
+
+				const orderInTable = await ordersListPage.getOrderData(canceledOrder._id);
+				expect(orderInTable.status).toBe(ORDER_STATUS.CANCELED);
+				await expect(ordersListPage.reopenButton(canceledOrder._id)).toBeVisible();
+			},
+		);
+
+		test(
+			"Should confirm action by clicking Confirm",
+			{ tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDER] },
+			async ({ ordersListPage, ordersListUIService, ordersApiService }) => {
+				token = await ordersListPage.getAuthToken();
+				const canceledOrder = await ordersApiService.cancelOrderInProgress(token, 1);
+				await ordersListUIService.open();
+				await ordersListUIService.clickReopenOrder(canceledOrder._id);
+
+				await ordersListPage.reopenModal.clickReopen();
+				await ordersListPage.reopenModal.waitForClosed();
+				//можно добавить проверку на orderDetailsPage
+
+				await ordersListPage.navBarMenu.clickModule("Orders");
+				await ordersListPage.waitForOpened();
+
+				const orderInTable = await ordersListPage.getOrderData(canceledOrder._id);
+				expect(orderInTable.status).toBe(ORDER_STATUS.DRAFT);
+				await expect(ordersListPage.reopenButton(canceledOrder._id)).not.toBeVisible();
 			},
 		);
 	});

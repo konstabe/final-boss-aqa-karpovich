@@ -9,6 +9,7 @@ export abstract class SalesPortalPage extends BasePage {
 	readonly spinner = this.page.locator(".spinner-border");
 	readonly toastMessage = this.page.locator(".toast-body");
 	readonly navBar = this.page.locator("#main-header");
+	readonly closeNotificationButton = this.page.locator(".toast-container button.btn-close");
 	abstract readonly uniqueElement: Locator;
 
 	async waitForOpened() {
@@ -20,7 +21,13 @@ export abstract class SalesPortalPage extends BasePage {
 		await expect(this.spinner).toHaveCount(0, { timeout: 10000 });
 	}
 
-	async open(route?: string) {
-		await this.page.goto(SALES_PORTAL_URL + route);
+	async open(route = "") {
+		const normalizedRoute = route ? (route.startsWith("/") || route.startsWith("#") ? route : `/#/${route}`) : "";
+		await this.page.goto(`${SALES_PORTAL_URL}${normalizedRoute}`);
+	}
+
+	async clickCloseNotification() {
+		await this.closeNotificationButton.click();
+		await expect(this.toastMessage).not.toBeVisible();
 	}
 }
