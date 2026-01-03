@@ -26,7 +26,7 @@ jobs:
                       -H "Authorization: Bearer ${{ secrets.TOKEN_CI }}" \
                       https://api.github.com/repos/konstabe/final-boss-aqa-karpovich/actions/artifacts/$ARTIFACT_ID/zip \
                       -o artifacts.zip
-                    mkdir history && unzip artifacts.zip -d history
+                    mkdir smoke-history && unzip artifacts.zip -d smoke-history
                   else
                     echo "No smoke-history artifact found"
                   fi
@@ -46,7 +46,7 @@ jobs:
                     mkdir old_pages pages_history
                     unzip pages.zip -d old_pages
                     tar -xvf old_pages/artifact.tar -C pages_history
-                    cp -r pages_history/history history || true
+                    cp -r pages_history/history smoke-history || true
                   else
                     echo "No github-pages artifact found"
                   fi
@@ -55,7 +55,7 @@ jobs:
               uses: actions/upload-artifact@v4
               with:
                   name: smoke-history
-                  path: history
+                  path: smoke-history
                   retention-days: 10
                   if-no-files-found: ignore
 
@@ -91,11 +91,19 @@ jobs:
               run: npm run test:api-smoke
               continue-on-error: true
 
+            - name: Copy old history into report
+              run: cp -r smoke-history/history allure-report/history || true
+
             - name: Create Allure report
               run: npm run allure-report
 
-            - name: Copy history into report
-              run: cp -r history allure-report/history || true
+            - name: Save Allure history
+              uses: actions/upload-artifact@v4
+              with:
+                  name: smoke-history
+                  path: allure-report/history
+                  retention-days: 10
+                  if-no-files-found: ignore
 
             - name: Save Allure report
               uses: actions/upload-artifact@v4
