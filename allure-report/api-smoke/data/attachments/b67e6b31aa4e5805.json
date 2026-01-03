@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:05:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-iz1VwU8NChpB8WqhszF2D1Db54g\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695968761c508c5d5e97662b",
+        "email": "Christina.Schiller95@yahoo.com",
+        "name": "Polly McClure",
+        "country": "USA",
+        "city": "Tadhaven",
+        "street": "Fritsch Mount",
+        "house": 20,
+        "flat": 580,
+        "phone": "+16164005515",
+        "createdOn": "2026-01-03T19:05:26.000Z",
+        "notes": "YHuAyX0bgxaYKMchZL21amIxjQ8dGUaGxdbyskPKuU2e8Upak5AxZuTya8qmtIRxuFhws5GvI5OJOrg4Dyiflfw0tADaaxUG0BQ4qzjdz5RKAJEh4JfqK6B1ZwS4w9L8IpRYudI8bjtTrtmz5eFBHyUgQG6JZkazLmkEishzx4KkWPizmnTeCKjaKRMGuWQg5VZ6mtTdyWmzoh9sOeDu1jWOTpzIeD1j8W4aTqYkYFpSDgh5NVsRTt4M3S"
+      },
+      "products": [
+        {
+          "_id": "695968771c508c5d5e9766ee",
+          "name": "Soap48833",
+          "amount": 274,
+          "price": 85564,
+          "manufacturer": "Amazon",
+          "notes": "1mR0Olo9wWcSTsrYmZF1JVj53on5KZfYJUK1ihzmq2l14Hj9NpTfjxd7dwtftCigPRzmsYlKZdWx6iRFaf2ekE45dIX9dles8nkiMEo1Nd2HrGKOI1QHI4p6UXvQYIjSzsmKuPRD0nP81Up1FWHP49jEIzKMrm6qwkIC5k3YROgWYzgOFOJZkTCH6kx0i3zvaN5TQYvsE6GXhhCkb3wvMVWygBRXXhp8JhUoEpegzPn9CYhB0vmhS9YQxU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 85564,
+      "createdOn": "2026-01-03T19:05:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695968761c508c5d5e97662b",
+          "products": [
+            {
+              "_id": "695968771c508c5d5e9766ee",
+              "name": "Soap48833",
+              "amount": 274,
+              "price": 85564,
+              "manufacturer": "Amazon",
+              "notes": "1mR0Olo9wWcSTsrYmZF1JVj53on5KZfYJUK1ihzmq2l14Hj9NpTfjxd7dwtftCigPRzmsYlKZdWx6iRFaf2ekE45dIX9dles8nkiMEo1Nd2HrGKOI1QHI4p6UXvQYIjSzsmKuPRD0nP81Up1FWHP49jEIzKMrm6qwkIC5k3YROgWYzgOFOJZkTCH6kx0i3zvaN5TQYvsE6GXhhCkb3wvMVWygBRXXhp8JhUoEpegzPn9CYhB0vmhS9YQxU",
+              "received": false
+            }
+          ],
+          "total_price": 85564,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:05:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695968781c508c5d5e976715"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:05:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-IhaMEb6MdUtA61KSbo1bohZZoyA\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695968781c508c5d5e9766f0",
+        "email": "Micheal.Waelchi66@gmail.com",
+        "name": "Greyson Daniel",
+        "country": "France",
+        "city": "Justinaland",
+        "street": "Margie Fields",
+        "house": 3,
+        "flat": 531,
+        "phone": "+14118559675",
+        "createdOn": "2026-01-03T19:05:28.000Z",
+        "notes": "ToWmGIG9KlZhU0lSnkrlxVo9XrvEwtozf6zB7D8eEj39zrYf6hHuSMVkahytmrk2zP6VFz9GMktqOoQIjpRvROibHbyZ2HOAPKJjK92WIXsQmag9JQI10hA0DvR809Yy30jSLJbOJH5dZdMtwcZSgMHvOozL7EBw7MiirV0YuZaY7mECTVLGtP5FL3VnwU0VnpvpPg6BevhIphw8y0LPGReZFvY7t7TpqsZkuo7yUXTwmYwrAw6wvtMx9w"
+      },
+      "products": [
+        {
+          "_id": "6959687a1c508c5d5e97677b",
+          "name": "Mouse2548",
+          "amount": 502,
+          "price": 51496,
+          "manufacturer": "Xiaomi",
+          "notes": "hwUwhe48gQ3qGSJVSEbMC9dwn8fnBA37z2mdJo7FRqZUabPhQJ4taelo8s2bWlqS0a7WLtaRwpuhHER9JkeEsGJGGv3D6xJuqilLNKv2QxNuVql2igJcduxpQbV4QJMyaqwKJZGYWXAMbFXReuFRDVq67BxvdznqS54wzZlITjfHOMXeDYrc1EEnx1zhyriOgSx0x66tYWrwSM9pjN3NeJ2Pu5m3yW3TZ5DcWNdNps9eyEX5lJUnmtF6Xo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 51496,
+      "createdOn": "2026-01-03T19:05:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695968781c508c5d5e9766f0",
+          "products": [
+            {
+              "_id": "6959687a1c508c5d5e97677b",
+              "name": "Mouse2548",
+              "amount": 502,
+              "price": 51496,
+              "manufacturer": "Xiaomi",
+              "notes": "hwUwhe48gQ3qGSJVSEbMC9dwn8fnBA37z2mdJo7FRqZUabPhQJ4taelo8s2bWlqS0a7WLtaRwpuhHER9JkeEsGJGGv3D6xJuqilLNKv2QxNuVql2igJcduxpQbV4QJMyaqwKJZGYWXAMbFXReuFRDVq67BxvdznqS54wzZlITjfHOMXeDYrc1EEnx1zhyriOgSx0x66tYWrwSM9pjN3NeJ2Pu5m3yW3TZ5DcWNdNps9eyEX5lJUnmtF6Xo",
+              "received": false
+            }
+          ],
+          "total_price": 51496,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:05:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6959687a1c508c5d5e97678b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

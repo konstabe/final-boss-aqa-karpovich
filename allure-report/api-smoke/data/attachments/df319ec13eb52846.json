@@ -1,0 +1,303 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:05:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8642",
+    "etag": "W/\"21c2-mZA+PoC4VY8nofa4PIKMwW0Gw/k\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695968851c508c5d5e976d0c",
+      "status": "Received",
+      "customer": {
+        "_id": "6959687f1c508c5d5e9769e2",
+        "email": "Laverne_Waelchi@yahoo.com",
+        "name": "Ross Lesch",
+        "country": "France",
+        "city": "Aliyacester",
+        "street": "Brady Crossroad",
+        "house": 26,
+        "flat": 535,
+        "phone": "+19719307310",
+        "createdOn": "2026-01-03T19:05:35.000Z",
+        "notes": "wYQc27IFBs5yDZeMrGwl3yv5VvZSwTY4AFnDkGH9kG7UrHVHqCJrzOjS5uvftp0BKF4aGIuSkY5m4OJsanXR9LyegGepbqIImdBsPFYLMijvv3sgt4DTh91DCYbLguLklFxQCfCPfxdIl9JoOZssk7quu8VznA8iRVEyfE4UqaqFLru4nmENDSRhIcA8NvVDM7FX6lEygxsq23nJvYnEtptXMiZ5E2IhXWxd5D3Gs98LFLBhlGnPpo7zJV"
+      },
+      "products": [
+        {
+          "_id": "695968811c508c5d5e976a30",
+          "name": "Bike14457",
+          "amount": 892,
+          "price": 14298,
+          "manufacturer": "Xiaomi",
+          "notes": "nu72h2DlLQij7PzJ0XwRaJoKBHFXdAmFvCApsOCDym2rea53icHUT50odkZuiA21DgWTm9S2hL2KdccStxOJpKe8bnA2y2EnHkO8eBv0a6btu5Fp4jGAdnGIZtRLsc1MT3mzEtBhw3zd6bhQuwsxGqpViVPtmvQ7CvkexEvjOX6pKyt1wDJcGF61HbbLWWodH5ze6HzTasd9QZpm03oEumfNhJD7zenFJjIgaytH9QqlrQ4IkP244L6Bpo",
+          "received": true
+        },
+        {
+          "_id": "695968821c508c5d5e976ae6",
+          "name": "Hat82990",
+          "amount": 762,
+          "price": 54876,
+          "manufacturer": "Google",
+          "notes": "vApIj4OrdLb57FFb3FKIuyPM0PyWDCNWQU3rhaFlkhaibKTukIecDGP49ybSN7YRGgCzHM6U2lLS1pKJGmy1izjHqPQVoOmkQAST7PI8vVu3ncxnMPckfhOoHn2BZC3R9109zf7aBxnqX3Dv4g2V9jw1LZu8Sj1zDB3d2Xy9AXJhvLIJVkNq1E07DIah4JFiQSirsE8T5cv4hfuppioX037Gqjg5kTxfslfXovxUHxxTrwZFaYgs26nPri",
+          "received": true
+        },
+        {
+          "_id": "695968841c508c5d5e976ce0",
+          "name": "Sausages17249",
+          "amount": 110,
+          "price": 86383,
+          "manufacturer": "Apple",
+          "notes": "O8VsQ9b2gOd3u8ti4TEv6toLe1VISZMAsFBhWwBaVlG49PXZil9uL6eyJfWZBz2b3KgU5XPzNJei4y8aywxdTGVxK6dFX8xJP3qIQ8xdDgIAYp635zTzNY5hdsVchW42L3ehNM5arjP2XwGMjqcqoJy1zsn7lhtSo0JXRByvTVRfTJ92Zaz2ZtFecJCcteZ03Tss1sJ5fWZFIkrNuH7aKORDdr2yBYFYJ279bIp2G1SrQ5A2jvEZnx4dQv",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Aliyacester",
+          "street": "Brady Crossroad",
+          "house": 26,
+          "flat": 535
+        },
+        "finalDate": "2026-01-12T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 155557,
+      "createdOn": "2026-01-03T19:05:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6959687f1c508c5d5e9769e2",
+          "products": [
+            {
+              "_id": "695968811c508c5d5e976a30",
+              "name": "Bike14457",
+              "amount": 892,
+              "price": 14298,
+              "manufacturer": "Xiaomi",
+              "notes": "nu72h2DlLQij7PzJ0XwRaJoKBHFXdAmFvCApsOCDym2rea53icHUT50odkZuiA21DgWTm9S2hL2KdccStxOJpKe8bnA2y2EnHkO8eBv0a6btu5Fp4jGAdnGIZtRLsc1MT3mzEtBhw3zd6bhQuwsxGqpViVPtmvQ7CvkexEvjOX6pKyt1wDJcGF61HbbLWWodH5ze6HzTasd9QZpm03oEumfNhJD7zenFJjIgaytH9QqlrQ4IkP244L6Bpo",
+              "received": true
+            },
+            {
+              "_id": "695968821c508c5d5e976ae6",
+              "name": "Hat82990",
+              "amount": 762,
+              "price": 54876,
+              "manufacturer": "Google",
+              "notes": "vApIj4OrdLb57FFb3FKIuyPM0PyWDCNWQU3rhaFlkhaibKTukIecDGP49ybSN7YRGgCzHM6U2lLS1pKJGmy1izjHqPQVoOmkQAST7PI8vVu3ncxnMPckfhOoHn2BZC3R9109zf7aBxnqX3Dv4g2V9jw1LZu8Sj1zDB3d2Xy9AXJhvLIJVkNq1E07DIah4JFiQSirsE8T5cv4hfuppioX037Gqjg5kTxfslfXovxUHxxTrwZFaYgs26nPri",
+              "received": true
+            },
+            {
+              "_id": "695968841c508c5d5e976ce0",
+              "name": "Sausages17249",
+              "amount": 110,
+              "price": 86383,
+              "manufacturer": "Apple",
+              "notes": "O8VsQ9b2gOd3u8ti4TEv6toLe1VISZMAsFBhWwBaVlG49PXZil9uL6eyJfWZBz2b3KgU5XPzNJei4y8aywxdTGVxK6dFX8xJP3qIQ8xdDgIAYp635zTzNY5hdsVchW42L3ehNM5arjP2XwGMjqcqoJy1zsn7lhtSo0JXRByvTVRfTJ92Zaz2ZtFecJCcteZ03Tss1sJ5fWZFIkrNuH7aKORDdr2yBYFYJ279bIp2G1SrQ5A2jvEZnx4dQv",
+              "received": true
+            }
+          ],
+          "total_price": 155557,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Aliyacester",
+              "street": "Brady Crossroad",
+              "house": 26,
+              "flat": 535
+            },
+            "finalDate": "2026-01-12T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T19:05:43.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6959687f1c508c5d5e9769e2",
+          "products": [
+            {
+              "_id": "695968811c508c5d5e976a30",
+              "name": "Bike14457",
+              "amount": 892,
+              "price": 14298,
+              "manufacturer": "Xiaomi",
+              "notes": "nu72h2DlLQij7PzJ0XwRaJoKBHFXdAmFvCApsOCDym2rea53icHUT50odkZuiA21DgWTm9S2hL2KdccStxOJpKe8bnA2y2EnHkO8eBv0a6btu5Fp4jGAdnGIZtRLsc1MT3mzEtBhw3zd6bhQuwsxGqpViVPtmvQ7CvkexEvjOX6pKyt1wDJcGF61HbbLWWodH5ze6HzTasd9QZpm03oEumfNhJD7zenFJjIgaytH9QqlrQ4IkP244L6Bpo",
+              "received": false
+            },
+            {
+              "_id": "695968821c508c5d5e976ae6",
+              "name": "Hat82990",
+              "amount": 762,
+              "price": 54876,
+              "manufacturer": "Google",
+              "notes": "vApIj4OrdLb57FFb3FKIuyPM0PyWDCNWQU3rhaFlkhaibKTukIecDGP49ybSN7YRGgCzHM6U2lLS1pKJGmy1izjHqPQVoOmkQAST7PI8vVu3ncxnMPckfhOoHn2BZC3R9109zf7aBxnqX3Dv4g2V9jw1LZu8Sj1zDB3d2Xy9AXJhvLIJVkNq1E07DIah4JFiQSirsE8T5cv4hfuppioX037Gqjg5kTxfslfXovxUHxxTrwZFaYgs26nPri",
+              "received": false
+            },
+            {
+              "_id": "695968841c508c5d5e976ce0",
+              "name": "Sausages17249",
+              "amount": 110,
+              "price": 86383,
+              "manufacturer": "Apple",
+              "notes": "O8VsQ9b2gOd3u8ti4TEv6toLe1VISZMAsFBhWwBaVlG49PXZil9uL6eyJfWZBz2b3KgU5XPzNJei4y8aywxdTGVxK6dFX8xJP3qIQ8xdDgIAYp635zTzNY5hdsVchW42L3ehNM5arjP2XwGMjqcqoJy1zsn7lhtSo0JXRByvTVRfTJ92Zaz2ZtFecJCcteZ03Tss1sJ5fWZFIkrNuH7aKORDdr2yBYFYJ279bIp2G1SrQ5A2jvEZnx4dQv",
+              "received": false
+            }
+          ],
+          "total_price": 155557,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Aliyacester",
+              "street": "Brady Crossroad",
+              "house": 26,
+              "flat": 535
+            },
+            "finalDate": "2026-01-12T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T19:05:43.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959687f1c508c5d5e9769e2",
+          "products": [
+            {
+              "_id": "695968811c508c5d5e976a30",
+              "name": "Bike14457",
+              "amount": 892,
+              "price": 14298,
+              "manufacturer": "Xiaomi",
+              "notes": "nu72h2DlLQij7PzJ0XwRaJoKBHFXdAmFvCApsOCDym2rea53icHUT50odkZuiA21DgWTm9S2hL2KdccStxOJpKe8bnA2y2EnHkO8eBv0a6btu5Fp4jGAdnGIZtRLsc1MT3mzEtBhw3zd6bhQuwsxGqpViVPtmvQ7CvkexEvjOX6pKyt1wDJcGF61HbbLWWodH5ze6HzTasd9QZpm03oEumfNhJD7zenFJjIgaytH9QqlrQ4IkP244L6Bpo",
+              "received": false
+            },
+            {
+              "_id": "695968821c508c5d5e976ae6",
+              "name": "Hat82990",
+              "amount": 762,
+              "price": 54876,
+              "manufacturer": "Google",
+              "notes": "vApIj4OrdLb57FFb3FKIuyPM0PyWDCNWQU3rhaFlkhaibKTukIecDGP49ybSN7YRGgCzHM6U2lLS1pKJGmy1izjHqPQVoOmkQAST7PI8vVu3ncxnMPckfhOoHn2BZC3R9109zf7aBxnqX3Dv4g2V9jw1LZu8Sj1zDB3d2Xy9AXJhvLIJVkNq1E07DIah4JFiQSirsE8T5cv4hfuppioX037Gqjg5kTxfslfXovxUHxxTrwZFaYgs26nPri",
+              "received": false
+            },
+            {
+              "_id": "695968841c508c5d5e976ce0",
+              "name": "Sausages17249",
+              "amount": 110,
+              "price": 86383,
+              "manufacturer": "Apple",
+              "notes": "O8VsQ9b2gOd3u8ti4TEv6toLe1VISZMAsFBhWwBaVlG49PXZil9uL6eyJfWZBz2b3KgU5XPzNJei4y8aywxdTGVxK6dFX8xJP3qIQ8xdDgIAYp635zTzNY5hdsVchW42L3ehNM5arjP2XwGMjqcqoJy1zsn7lhtSo0JXRByvTVRfTJ92Zaz2ZtFecJCcteZ03Tss1sJ5fWZFIkrNuH7aKORDdr2yBYFYJ279bIp2G1SrQ5A2jvEZnx4dQv",
+              "received": false
+            }
+          ],
+          "total_price": 155557,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Aliyacester",
+              "street": "Brady Crossroad",
+              "house": 26,
+              "flat": 535
+            },
+            "finalDate": "2026-01-12T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T19:05:42.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959687f1c508c5d5e9769e2",
+          "products": [
+            {
+              "_id": "695968811c508c5d5e976a30",
+              "name": "Bike14457",
+              "amount": 892,
+              "price": 14298,
+              "manufacturer": "Xiaomi",
+              "notes": "nu72h2DlLQij7PzJ0XwRaJoKBHFXdAmFvCApsOCDym2rea53icHUT50odkZuiA21DgWTm9S2hL2KdccStxOJpKe8bnA2y2EnHkO8eBv0a6btu5Fp4jGAdnGIZtRLsc1MT3mzEtBhw3zd6bhQuwsxGqpViVPtmvQ7CvkexEvjOX6pKyt1wDJcGF61HbbLWWodH5ze6HzTasd9QZpm03oEumfNhJD7zenFJjIgaytH9QqlrQ4IkP244L6Bpo",
+              "received": false
+            },
+            {
+              "_id": "695968821c508c5d5e976ae6",
+              "name": "Hat82990",
+              "amount": 762,
+              "price": 54876,
+              "manufacturer": "Google",
+              "notes": "vApIj4OrdLb57FFb3FKIuyPM0PyWDCNWQU3rhaFlkhaibKTukIecDGP49ybSN7YRGgCzHM6U2lLS1pKJGmy1izjHqPQVoOmkQAST7PI8vVu3ncxnMPckfhOoHn2BZC3R9109zf7aBxnqX3Dv4g2V9jw1LZu8Sj1zDB3d2Xy9AXJhvLIJVkNq1E07DIah4JFiQSirsE8T5cv4hfuppioX037Gqjg5kTxfslfXovxUHxxTrwZFaYgs26nPri",
+              "received": false
+            },
+            {
+              "_id": "695968841c508c5d5e976ce0",
+              "name": "Sausages17249",
+              "amount": 110,
+              "price": 86383,
+              "manufacturer": "Apple",
+              "notes": "O8VsQ9b2gOd3u8ti4TEv6toLe1VISZMAsFBhWwBaVlG49PXZil9uL6eyJfWZBz2b3KgU5XPzNJei4y8aywxdTGVxK6dFX8xJP3qIQ8xdDgIAYp635zTzNY5hdsVchW42L3ehNM5arjP2XwGMjqcqoJy1zsn7lhtSo0JXRByvTVRfTJ92Zaz2ZtFecJCcteZ03Tss1sJ5fWZFIkrNuH7aKORDdr2yBYFYJ279bIp2G1SrQ5A2jvEZnx4dQv",
+              "received": false
+            }
+          ],
+          "total_price": 155557,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:05:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

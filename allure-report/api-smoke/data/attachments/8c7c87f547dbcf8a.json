@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:05:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2798",
+    "etag": "W/\"aee-LrTBpqid/PjjHRnCZXszIf6WXMs\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959687b1c508c5d5e9767a8",
+      "status": "Draft",
+      "customer": {
+        "_id": "695968771c508c5d5e97664c",
+        "email": "Weston14@gmail.com",
+        "name": "Nyah Tromp",
+        "country": "USA",
+        "city": "Roswell",
+        "street": "Tomas Curve",
+        "house": 40,
+        "flat": 88,
+        "phone": "+15776503453",
+        "createdOn": "2026-01-03T19:05:27.000Z",
+        "notes": "ucwzAAB2jEw1NtaNu6EtYjOiauWg6zFUf7QSvVF3N3JIndXdHkbOt09H3SXZ3pjZLYb4WIgC3WD9iLJ0ShaLG0uSNQ5N9Fylt76sFDCdsGe4dVCtKDAMSP09ZOXkMbhXw2h0Hy6bA0Lms0cOWQzfnF9twZaYCXLpQYemC0raoWxqUcjdsqC65439xyDIR8EmAmTpdOFCFytfkckPtGFYr0NvsPKfFKlyAIIrQwP3OSRnNSg0aP8EqJDX1e"
+      },
+      "products": [
+        {
+          "_id": "695968791c508c5d5e976755",
+          "name": "Gloves26949",
+          "amount": 571,
+          "price": 44824,
+          "manufacturer": "Tesla",
+          "notes": "5cYcIRt9Kb8iisYFX7A5gOCoyqJLHFC0ozFCBc4GfL4ZDzmRgrSLMp27xfDxhOJ9hNkJ6aWC8jck2LtKPFGsj36qIQHKIM7VDFtWiI1hzja4rHUbrY17gAMtJEsZIv31GIW4q2GyHQS0yDJLzGQY7lavgeTUR5aVf3NjRaCMW2rEyMNni2Q4Xyqc9Ssq9cVECEkxKDckUfKZqXpunjN67Re2BCANJ7rYa2Se8Iu8DnkxbzL8GyEZdsXSi8",
+          "received": false
+        },
+        {
+          "_id": "6959687b1c508c5d5e97679c",
+          "name": "Chair1818",
+          "amount": 326,
+          "price": 64653,
+          "manufacturer": "Microsoft",
+          "notes": "wjcztBcGaEMtjylmGpbf6Byn9fY5Q3tClAKnsw8OlVbXO5dju6KqecE4VaeHHkN17yhEfBlvLOgBJn6TcFVuQxGnblHxLeyjFi0NqxQa46zv8EPCjtQsLo5TcmHP8zMoiKgfwyyIiYVu4f5IuyexQtb1nrkzoCyeek4gJGuAeeVHPnTalmIeTAJoMYZ7gLu6s06zxMStNL9n90FMHdmNOwXd0Oa7znWTk7m0LmTEmXbv9kqZE6StOQoFw3",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 109477,
+      "createdOn": "2026-01-03T19:05:31.000Z",
+      "comments": [
+        {
+          "text": "m9E69dkl0TVPTuSEIfBpU5j2ndUHEh9V51Wb9yMjY7JYaxvP14WtVm2VSVPukmfC79XMHhXEGve",
+          "createdOn": "2026-01-03T19:05:31.000Z",
+          "_id": "6959687b1c508c5d5e9767c3"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695968771c508c5d5e97664c",
+          "products": [
+            {
+              "_id": "695968791c508c5d5e976755",
+              "name": "Gloves26949",
+              "amount": 571,
+              "price": 44824,
+              "manufacturer": "Tesla",
+              "notes": "5cYcIRt9Kb8iisYFX7A5gOCoyqJLHFC0ozFCBc4GfL4ZDzmRgrSLMp27xfDxhOJ9hNkJ6aWC8jck2LtKPFGsj36qIQHKIM7VDFtWiI1hzja4rHUbrY17gAMtJEsZIv31GIW4q2GyHQS0yDJLzGQY7lavgeTUR5aVf3NjRaCMW2rEyMNni2Q4Xyqc9Ssq9cVECEkxKDckUfKZqXpunjN67Re2BCANJ7rYa2Se8Iu8DnkxbzL8GyEZdsXSi8",
+              "received": false
+            },
+            {
+              "_id": "6959687b1c508c5d5e97679c",
+              "name": "Chair1818",
+              "amount": 326,
+              "price": 64653,
+              "manufacturer": "Microsoft",
+              "notes": "wjcztBcGaEMtjylmGpbf6Byn9fY5Q3tClAKnsw8OlVbXO5dju6KqecE4VaeHHkN17yhEfBlvLOgBJn6TcFVuQxGnblHxLeyjFi0NqxQa46zv8EPCjtQsLo5TcmHP8zMoiKgfwyyIiYVu4f5IuyexQtb1nrkzoCyeek4gJGuAeeVHPnTalmIeTAJoMYZ7gLu6s06zxMStNL9n90FMHdmNOwXd0Oa7znWTk7m0LmTEmXbv9kqZE6StOQoFw3",
+              "received": false
+            }
+          ],
+          "total_price": 109477,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:05:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

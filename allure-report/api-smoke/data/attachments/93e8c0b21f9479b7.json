@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 19:05:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-nSFpT8HkthqcA5YfAeI7oIrCxbw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695968761c508c5d5e976620",
+        "email": "Chanelle_Haley@yahoo.com",
+        "name": "Julian Streich",
+        "country": "Germany",
+        "city": "Jennyferfort",
+        "street": "Emmett Crest",
+        "house": 12,
+        "flat": 277,
+        "phone": "+14954148267",
+        "createdOn": "2026-01-03T19:05:26.000Z",
+        "notes": "u0VoCcKFTM2XKZ668jjqfgt5jr8iRfWrmw7tn5JjyViDHvKSBj8kidal8SI7PclJG7lScEH9xWjCKaz5FnX3eU5mB7AyDNPhblzyIO46SKVFW2z9QAsCbQAUhQflOXWsP20D8PgXEN9rxGMy1qaxdg0OQ7CBkBh9f6sT8mEQjBzwDV7K9a3q98kztdlaZBqHLrWjfXQGj5Qeu0KrowEFR86UI5DToOmR1XOCa20krjdOUToXo33yyhiJlu"
+      },
+      "products": [
+        {
+          "_id": "695968771c508c5d5e9766ec",
+          "name": "Gloves60494",
+          "amount": 842,
+          "price": 35429,
+          "manufacturer": "Google",
+          "notes": "NYROntPKqeIyUNodA4v5SLlE3c04RDZfp5KTXrDmQy6l8hfp9qPc7hB5zK13dsU1LfKDCTOVebKYADbYZozoM8qI86Vsn7pp4EYHIS0s0uWyD7mSxdcDXCVXARhJU8dusTsIzhO9K8Dm1228644VN6YejagOgmJYmx7UdrQDE7UCVsbhAHaRB6qT7lEvt700DI8wbDpNoVZ2l52N248u921UncJvjvxAko4p7IWeeWZjKOj6obgwUquB5K",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35429,
+      "createdOn": "2026-01-03T19:05:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695968761c508c5d5e976620",
+          "products": [
+            {
+              "_id": "695968771c508c5d5e9766ec",
+              "name": "Gloves60494",
+              "amount": 842,
+              "price": 35429,
+              "manufacturer": "Google",
+              "notes": "NYROntPKqeIyUNodA4v5SLlE3c04RDZfp5KTXrDmQy6l8hfp9qPc7hB5zK13dsU1LfKDCTOVebKYADbYZozoM8qI86Vsn7pp4EYHIS0s0uWyD7mSxdcDXCVXARhJU8dusTsIzhO9K8Dm1228644VN6YejagOgmJYmx7UdrQDE7UCVsbhAHaRB6qT7lEvt700DI8wbDpNoVZ2l52N248u921UncJvjvxAko4p7IWeeWZjKOj6obgwUquB5K",
+              "received": false
+            }
+          ],
+          "total_price": 35429,
+          "delivery": null,
+          "changedOn": "2026-01-03T19:05:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695968781c508c5d5e976712"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
