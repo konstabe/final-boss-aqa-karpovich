@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 10:50:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2937",
+    "etag": "W/\"b79-riofVmoV2NPkmZR7eNaa46lGGOQ\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a45eb1c508c5d5ea20891",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a45e81c508c5d5ea207c8",
+        "email": "Verner44@hotmail.com",
+        "name": "Damien Moore",
+        "country": "Canada",
+        "city": "Thornton",
+        "street": "Thiel Light",
+        "house": 7,
+        "flat": 627,
+        "phone": "+17873873861",
+        "createdOn": "2026-01-04T10:50:16.000Z",
+        "notes": "UFrk5xTBGsVHbygFCP8sD50fzxec2OofoAiuNRuKvLzD1Aeo5g7P8NrXddJ0H5d1CJKv5IOSzvQWfnr830UFy213MhiSGa6XPbsMH1ehjsKTejAAFiITLyPbYmCtjtWLtti1SDOgHvcxw94htW0yTdEDbksXF2agEM5hQk7HAPfY1oOMtOh4UbXcnZyQOmSB4xQ5lUQjTDi2zx1LMzhR1nlwU5jOUUEuJa4ttBIPPOBb6fv3nA26wGS27c"
+      },
+      "products": [
+        {
+          "_id": "695a45eb1c508c5d5ea20882",
+          "name": "Shirt66997",
+          "amount": 440,
+          "price": 33987,
+          "manufacturer": "Sony",
+          "notes": "9Zzq4guxYkWQjt0M44K5QMIe01rsJqlpzoNbiQI8Y90UCMf1LPMtsl6oVynTjtGdHW9BvqmVYsmK0OMW6rlKrLpMftcrM0AWB7AvQDpqqyWdw8Z4uHGgmXiSH8tQlRMrmHY7pXpsGQsYnQAj5XaWCBgDumoTfQf2E3Pu32mzoi0efroy8JaQM53BlFrQcH7P9OI33fw6lvfzFZYGMd5SbbReGlRvDTwlNyZPA1nLvedoNGLAVGM9EDYr8H",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 33987,
+      "createdOn": "2026-01-04T10:50:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a45e81c508c5d5ea207c8",
+          "products": [
+            {
+              "_id": "695a45eb1c508c5d5ea20882",
+              "name": "Shirt66997",
+              "amount": 440,
+              "price": 33987,
+              "manufacturer": "Sony",
+              "notes": "9Zzq4guxYkWQjt0M44K5QMIe01rsJqlpzoNbiQI8Y90UCMf1LPMtsl6oVynTjtGdHW9BvqmVYsmK0OMW6rlKrLpMftcrM0AWB7AvQDpqqyWdw8Z4uHGgmXiSH8tQlRMrmHY7pXpsGQsYnQAj5XaWCBgDumoTfQf2E3Pu32mzoi0efroy8JaQM53BlFrQcH7P9OI33fw6lvfzFZYGMd5SbbReGlRvDTwlNyZPA1nLvedoNGLAVGM9EDYr8H",
+              "received": false
+            }
+          ],
+          "total_price": 33987,
+          "delivery": null,
+          "changedOn": "2026-01-04T10:50:20.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": {
+            "_id": "692337cd1c508c5d5e953339",
+            "username": "student8@gmail.com",
+            "firstName": "Virginie",
+            "lastName": "Schmitt",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695a45e81c508c5d5ea207c8",
+          "products": [
+            {
+              "_id": "695a45eb1c508c5d5ea20882",
+              "name": "Shirt66997",
+              "amount": 440,
+              "price": 33987,
+              "manufacturer": "Sony",
+              "notes": "9Zzq4guxYkWQjt0M44K5QMIe01rsJqlpzoNbiQI8Y90UCMf1LPMtsl6oVynTjtGdHW9BvqmVYsmK0OMW6rlKrLpMftcrM0AWB7AvQDpqqyWdw8Z4uHGgmXiSH8tQlRMrmHY7pXpsGQsYnQAj5XaWCBgDumoTfQf2E3Pu32mzoi0efroy8JaQM53BlFrQcH7P9OI33fw6lvfzFZYGMd5SbbReGlRvDTwlNyZPA1nLvedoNGLAVGM9EDYr8H",
+              "received": false
+            }
+          ],
+          "total_price": 33987,
+          "delivery": null,
+          "changedOn": "2026-01-04T10:50:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337cd1c508c5d5e953339",
+        "username": "student8@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Schmitt",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:25"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 10:50:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1412",
+    "etag": "W/\"584-+N60yqApCeSquQwgfguZJvSmrjM\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "695a45eb1c508c5d5ea20884",
+        "status": "Draft",
+        "customer": "695a45e81c508c5d5ea207ae",
+        "products": [
+          {
+            "_id": "695a45eb1c508c5d5ea20877",
+            "name": "Shoes44121",
+            "amount": 262,
+            "price": 25123,
+            "manufacturer": "Google",
+            "notes": "imjFfiPid7WQGJDqnD2JqL7vdkTL4ZudgUbBU0ODb5Dha5G41CzxZlq1aKCmm9IzAbzSf35dSO5Z1Km4RQ1Ugpk7HINB6CEHybojJSjevt4vgvN1ZRzF9IbxhIWd4jjskNglDA4cvt87VlsFfWPQP5wrGisESfy221Mezbi0wgKgLwvDXPBEuiHHhPk9aAL4h7LP9R75mU6Mb9Z5LrK6RnEbda2Ee7NHeU2i6BDjLbiFoGlOHGIrlETSYJ",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 25123,
+        "createdOn": "2026-01-04T10:50:19.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695a45e81c508c5d5ea207ae",
+            "products": [
+              {
+                "_id": "695a45eb1c508c5d5ea20877",
+                "name": "Shoes44121",
+                "amount": 262,
+                "price": 25123,
+                "manufacturer": "Google",
+                "notes": "imjFfiPid7WQGJDqnD2JqL7vdkTL4ZudgUbBU0ODb5Dha5G41CzxZlq1aKCmm9IzAbzSf35dSO5Z1Km4RQ1Ugpk7HINB6CEHybojJSjevt4vgvN1ZRzF9IbxhIWd4jjskNglDA4cvt87VlsFfWPQP5wrGisESfy221Mezbi0wgKgLwvDXPBEuiHHhPk9aAL4h7LP9R75mU6Mb9Z5LrK6RnEbda2Ee7NHeU2i6BDjLbiFoGlOHGIrlETSYJ",
+                "received": false
+              }
+            ],
+            "total_price": 25123,
+            "delivery": null,
+            "changedOn": "2026-01-04T10:50:19.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337cd1c508c5d5e953315",
+              "username": "student2@gmail.com",
+              "firstName": "Wilfrid",
+              "lastName": "Daugherty",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:25"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
