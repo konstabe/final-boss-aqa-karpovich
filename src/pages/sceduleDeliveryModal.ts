@@ -10,7 +10,6 @@ export class ScheduleDeliveryModal extends ConfirmationModal {
 	readonly title = this.uniqueElement.locator("h2");
 	readonly saveDeliveryButton = this.uniqueElement.locator("#save-delivery");
 	readonly deliveryType = this.uniqueElement.locator("select#inputType");
-	readonly selectedDeliveryType = this.deliveryType.locator("option[selected]");
 	readonly date = this.uniqueElement.locator("#datepicker"); //date
 	readonly availableDays = this.page.locator(".datepicker-days td:not(.disabled)");
 	readonly dateInput = this.uniqueElement.locator("#date-input");
@@ -31,7 +30,7 @@ export class ScheduleDeliveryModal extends ConfirmationModal {
 		await this.saveDeliveryButton.click();
 	}
 
-	@logStep("Click deliveryType dropdown")
+	@logStep("Select deliveryType")
 	async selectDeliveryMethod(method: ConditionDelivery) {
 		await this.deliveryType.selectOption(method);
 	}
@@ -71,6 +70,7 @@ export class ScheduleDeliveryModal extends ConfirmationModal {
 		await this.availableDays.first().click();
 	}
 
+	@logStep("Get all available days in calendar")
 	async getAllAvailableDays() {
 		const dates = await this.availableDays.allInnerTexts();
 		return dates;
