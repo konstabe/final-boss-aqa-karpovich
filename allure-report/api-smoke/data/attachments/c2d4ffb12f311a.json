@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:00:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-GvM16mxhlV9cfZkeFYarOMbjt8w\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a483f1c508c5d5ea27f6a",
+        "email": "Caleb_Klocko@gmail.com",
+        "name": "Bonita Hand",
+        "country": "Ukraine",
+        "city": "Port Karleycester",
+        "street": "Lowe Tunnel",
+        "house": 40,
+        "flat": 308,
+        "phone": "+15607933650",
+        "createdOn": "2026-01-04T11:00:15.000Z",
+        "notes": "nMlUSy9tHHo3gEPjs28jvS6uXQgvfu3S7nHXNZwUZR8hNhwOBAgZkoFckF3rMBslgEzuTdfoae3pkrY5Q02OUPMqga51IaStfNhwN6D6AbRWMarRYsYs6Nov4LvPWdL8WJtq1M5Cd5VvsRHdjMXVsFmEHGAnPdg4XR6fd17BgHjLFBrAmxy9ySwmwnITCzgZ6sQtGHDYjv3q8XTW6hVSvl1dFc766gYkGcjvlmkA2ejigfAzyhgYYm9CZz"
+      },
+      "products": [
+        {
+          "_id": "695a48421c508c5d5ea2801a",
+          "name": "Bike99792",
+          "amount": 349,
+          "price": 76551,
+          "manufacturer": "Microsoft",
+          "notes": "FCW7kuZbGaG2C2kbXCGTwntZKLFHvujgru9vKdHHjzAumy6SSDWrsn6yXJTuNzt84bxUit0KlrJVyjXWcdLEW1kUteSpcSe88QntA7VzwbF4URUHBl5E8AYGEpsY4kTJXZN92YB79jaEGjaPYQeXdGcm96uTsgAPFhdslsDOovMmOWUtEUL46wXscCWMwHDPg7xP0m16l6iUtyNnDD4PdMedqeev9vsPBTXz5B1xaFSLmmsLIA632MMMuq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 76551,
+      "createdOn": "2026-01-04T11:00:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a483f1c508c5d5ea27f6a",
+          "products": [
+            {
+              "_id": "695a48421c508c5d5ea2801a",
+              "name": "Bike99792",
+              "amount": 349,
+              "price": 76551,
+              "manufacturer": "Microsoft",
+              "notes": "FCW7kuZbGaG2C2kbXCGTwntZKLFHvujgru9vKdHHjzAumy6SSDWrsn6yXJTuNzt84bxUit0KlrJVyjXWcdLEW1kUteSpcSe88QntA7VzwbF4URUHBl5E8AYGEpsY4kTJXZN92YB79jaEGjaPYQeXdGcm96uTsgAPFhdslsDOovMmOWUtEUL46wXscCWMwHDPg7xP0m16l6iUtyNnDD4PdMedqeev9vsPBTXz5B1xaFSLmmsLIA632MMMuq",
+              "received": false
+            }
+          ],
+          "total_price": 76551,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:00:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a48421c508c5d5ea28022"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:00:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-pTwQhkfoRJn6FYvFtfJ/ybFni4k\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a48351c508c5d5ea27d7c",
+        "email": "Phoebe71@hotmail.com",
+        "name": "Chauncey Goyette",
+        "country": "Russia",
+        "city": "Murfreesboro",
+        "street": "Robyn Coves",
+        "house": 28,
+        "flat": 638,
+        "phone": "+19092386949",
+        "createdOn": "2026-01-04T11:00:05.000Z",
+        "notes": "LGmF1JXtRL03G8uwKwzZDf1NwxqkJ7c9LBF2kPjpzSvpzkjV4lhJWMhyv3vWfrpgqQP0wJqdJN93PJiCAaNPTi2FN9btizosWdpTLAkebtF4fXaTpon08Sqbf4nc5SuEt9gbH9q4Utvh6HdFBvjd1hmnymLx6FZEqYfUKZrZrvVPdRXVnKoKvXsNXMMbC4Nm8aELFQZaOtKZ7e5zkMuwZXEgtTExMoRGVXkMDgD0mdKgyrECYhJIwjHJOT"
+      },
+      "products": [
+        {
+          "_id": "695a48381c508c5d5ea27db9",
+          "name": "Table19113",
+          "amount": 229,
+          "price": 48997,
+          "manufacturer": "Microsoft",
+          "notes": "DkkcuxMdtVy37ZPPauFr3Cs0hh2RExsoY8Yf614J5OxevesScg3VhQlmqX8cMvqnacLYjgU3pbgh4RcHermyGjnenGL4unghLEK4n2tx6kaqpqQb4ecWll14ndJxnSqCPnDEG1Kb4tPr4kzhV8x2sIQ3PhATwqw8Ub5aFpkpeeKmkQIyJ68NBMn6SgGXkWfkf3PWQ9zRogfPLkThNbLQq8LRovKGWXDX5Hcp4gkKwOBfQ6BDBzKZxDs8iS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 48997,
+      "createdOn": "2026-01-04T11:00:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a48351c508c5d5ea27d7c",
+          "products": [
+            {
+              "_id": "695a48381c508c5d5ea27db9",
+              "name": "Table19113",
+              "amount": 229,
+              "price": 48997,
+              "manufacturer": "Microsoft",
+              "notes": "DkkcuxMdtVy37ZPPauFr3Cs0hh2RExsoY8Yf614J5OxevesScg3VhQlmqX8cMvqnacLYjgU3pbgh4RcHermyGjnenGL4unghLEK4n2tx6kaqpqQb4ecWll14ndJxnSqCPnDEG1Kb4tPr4kzhV8x2sIQ3PhATwqw8Ub5aFpkpeeKmkQIyJ68NBMn6SgGXkWfkf3PWQ9zRogfPLkThNbLQq8LRovKGWXDX5Hcp4gkKwOBfQ6BDBzKZxDs8iS",
+              "received": false
+            }
+          ],
+          "total_price": 48997,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:00:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a48381c508c5d5ea27dd2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

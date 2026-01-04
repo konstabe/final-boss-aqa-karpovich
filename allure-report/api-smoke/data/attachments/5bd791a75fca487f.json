@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:00:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2795",
+    "etag": "W/\"aeb-A7vcbAn9JU5xIbkK8ORu2JbkVB0\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a48401c508c5d5ea27fb7",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a48391c508c5d5ea27e10",
+        "email": "Dewitt97@gmail.com",
+        "name": "Maci Fahey",
+        "country": "France",
+        "city": "West New York",
+        "street": "Cathryn Forges",
+        "house": 19,
+        "flat": 210,
+        "phone": "+18924702866",
+        "createdOn": "2026-01-04T11:00:09.000Z",
+        "notes": "votmvqQyO6sJXPuekphfO3O8v4RDhpVPRwaicUStMmDyXwfwvaRNBFnmwzghaTOTvRUe5q4lcqC3W5VZXNNGx8HHeA0JyA3yclEsrvEaTDRJwjqclmWjuQALzEvivE21eireu3DC7VRQjyge26vJNg905vRG5GRbJzD4koGTMOLooib1y4EvqBnJ7gJai9WBIi2mmAtBRY34r1MkjxskOWjrEM7LxiRoV0psooV1tOP3F0sqChppVRUGy6"
+      },
+      "products": [
+        {
+          "_id": "695a483c1c508c5d5ea27ef0",
+          "name": "Car8817",
+          "amount": 144,
+          "price": 32557,
+          "manufacturer": "Sony",
+          "notes": "nTVct3Rr8mU28maT6ZQiNcp1cHb5cSQp2AvBLJpSll7ee5GQDWSSiuKkXrntyUNvTcGTeUXe7i7fvCRe3Cg0M9QI2rZJCFpX2m3s2sGFFKsDUeklvxJglu9bIOpASxpehEId7RTwEBtZxVatnVthT5TBPCtQJC0GjKnw8jHr3ci5VvqIBz43kBfMvYXwiaqJW7PLVZZi13TytVSNQfBODIbw2nDQg6eKRMlcYqwg4Lz3U4mcYJow2cRXAs",
+          "received": false
+        },
+        {
+          "_id": "695a483f1c508c5d5ea27f81",
+          "name": "Shoes89852",
+          "amount": 892,
+          "price": 82622,
+          "manufacturer": "Apple",
+          "notes": "acII7lGcJ5jUUwJNdEeUdr60qcwAy8kJEOSDxCu0OUEyNuriRKshfy7s8mBlAshP6GwPrWPpWqDXRPmYdNGqEu2TxaYGRIYpfAEEDzTcHNmPBgK2ibSvJJDmbjNVsq4nuyy0vQEah0JQdt0hXusA0hXPNKoNlwjpRcigANK0pl8ovJRPDveZC8bD4leDxURXWzWLmcycHncoRlAjFMPy2ieS5C7RXXf6pb2RYPfm3PJ48ukn3c3ImB3g1Z",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 115179,
+      "createdOn": "2026-01-04T11:00:16.000Z",
+      "comments": [
+        {
+          "text": "ujGp25hWBHFYjNB8UJ6PDPfwH30nohc5GoncD5qwGUYZwywN1EC03uN776JlnwYOfansvxOpAmO",
+          "createdOn": "2026-01-04T11:00:16.000Z",
+          "_id": "695a48401c508c5d5ea27fd6"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a48391c508c5d5ea27e10",
+          "products": [
+            {
+              "_id": "695a483c1c508c5d5ea27ef0",
+              "name": "Car8817",
+              "amount": 144,
+              "price": 32557,
+              "manufacturer": "Sony",
+              "notes": "nTVct3Rr8mU28maT6ZQiNcp1cHb5cSQp2AvBLJpSll7ee5GQDWSSiuKkXrntyUNvTcGTeUXe7i7fvCRe3Cg0M9QI2rZJCFpX2m3s2sGFFKsDUeklvxJglu9bIOpASxpehEId7RTwEBtZxVatnVthT5TBPCtQJC0GjKnw8jHr3ci5VvqIBz43kBfMvYXwiaqJW7PLVZZi13TytVSNQfBODIbw2nDQg6eKRMlcYqwg4Lz3U4mcYJow2cRXAs",
+              "received": false
+            },
+            {
+              "_id": "695a483f1c508c5d5ea27f81",
+              "name": "Shoes89852",
+              "amount": 892,
+              "price": 82622,
+              "manufacturer": "Apple",
+              "notes": "acII7lGcJ5jUUwJNdEeUdr60qcwAy8kJEOSDxCu0OUEyNuriRKshfy7s8mBlAshP6GwPrWPpWqDXRPmYdNGqEu2TxaYGRIYpfAEEDzTcHNmPBgK2ibSvJJDmbjNVsq4nuyy0vQEah0JQdt0hXusA0hXPNKoNlwjpRcigANK0pl8ovJRPDveZC8bD4leDxURXWzWLmcycHncoRlAjFMPy2ieS5C7RXXf6pb2RYPfm3PJ48ukn3c3ImB3g1Z",
+              "received": false
+            }
+          ],
+          "total_price": 115179,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:00:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

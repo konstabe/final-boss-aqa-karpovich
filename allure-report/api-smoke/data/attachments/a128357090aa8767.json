@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:01:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4955",
+    "etag": "W/\"135b-OAqJYxfuUt5R1rjlKXiIzCpBgMA\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a48681c508c5d5ea28c75",
+        "email": "Olin_Bergstrom82@gmail.com",
+        "name": "Shayna Hettinger",
+        "country": "Germany",
+        "city": "East Jonasborough",
+        "street": "Manor Way",
+        "house": 12,
+        "flat": 252,
+        "phone": "+19373425893",
+        "createdOn": "2026-01-04T11:00:56.000Z",
+        "notes": "OFPXF7mcldYH0bo1ildj5S5bim3KfE6I444tuUrICdah7B2S1KjPmm096tTKL1LkB4RkMpXiHPSySW615W7sGsEca7RUWRiR9FYjDslu2wRE8WCHSDS3LiTjQxxqFUkg35GIoshiATr0UmC7AnhomZ83DMwzSp7psQKygp1TRYV8gxOf5AUOGjZop8Tqwy94wFeO2pY6ishAz9lhakQ6PdTr1HpV9WeJyHVgxIjXSwAbaYLHI94um98NhH"
+      },
+      "products": [
+        {
+          "_id": "695a486b1c508c5d5ea28d98",
+          "name": "Tuna90707",
+          "amount": 147,
+          "price": 7914,
+          "manufacturer": "Tesla",
+          "notes": "TekQRbynzw7Y07Iu1IixIB6cUhh2GrgbdaBNe5dlYph7EDCUCFgu8E05uZ1RVxWXJxCTtFxL1iG2ayCZGX3yr82YYOmoyCVIl0Us2QamDFV825r9mp014Omb3uQt9g2pKTbuGcICzKhP1VgOcDjrLbE1Ijjt0FhNt0S70UyF0XFTEYz9qJHdDVyf26UkRWwvsASsp98pGUVTdrNolPsm4sJG1f26cCaoTA5pHFZr7Z2u9Q4SBthCZ9F0fK",
+          "received": false
+        },
+        {
+          "_id": "695a486e1c508c5d5ea28f39",
+          "name": "Bacon1043",
+          "amount": 398,
+          "price": 24227,
+          "manufacturer": "Google",
+          "notes": "YP1SIFHRfz6By2WzoroCCPnzGVcDCQLW0EqGyBJ2uPiisByR1mC10IFY5U9twzrNgOrhMiTeO9W1hpIez7C3gAgmvovlQsMP4xyez65C8oG2vmnq962GDeQEacS0h8Zf0itmDxa4HkWlO46JGJnxXUBNY2eN9HzvbAblexALu6rZUpVrpWozRzN46R8oy3B92yvzdfP8jiADVyVk2pjeOrRi4u8p6XjLXgTI7wgAvWTm1Ph5BEXeMJANLU",
+          "received": false
+        },
+        {
+          "_id": "695a48711c508c5d5ea29160",
+          "name": "Towels34507",
+          "amount": 17,
+          "price": 93008,
+          "manufacturer": "Google",
+          "notes": "uLX5rlwmTAYgIjih03qmnQFM3xZzRPtNVxMLaamNuuhfj4oMu8CsYCoIcjL3bycx2nRlvnWbNzWcbZJopLha01AUoHFHz2hv6lauZuXhrhOes8Tq0euibPg2lGNRnHJb7ax8GSzxWOPoZHpwsKz5G18TgrGlvUo8rkrliMl2zugLSx4yCqfZmbVjiKfCTntSn1AhAIB1fL2D6HDHV9EW9FswnQXOoEukNQe2YYY4nncARwgTHeRfXAmw01",
+          "received": false
+        },
+        {
+          "_id": "695a48761c508c5d5ea29303",
+          "name": "Tuna29637",
+          "amount": 943,
+          "price": 47688,
+          "manufacturer": "Samsung",
+          "notes": "4mHMPdukTwYbNilZMu94i6NyS9YkUkTQqlA6xRLoLJsSStdW2Er7GiCZuh5r9dkLRLE95bZMaPCJTzftWFRc4cXIaw5YNHTWIVW5miWJjkJ543kXRqEhwvVaQGv0QtefWF0d9EIJfE2HhhlqMlzAG3On2n5o0aPl9db24tfVjRY88iQV2fnQK1w3uN6XOM3eeeIXrxPDAWanq0AdZo5k4YzkNT1yO5jaVUhwnId1g3cIt52cv1VzGRBRjK",
+          "received": false
+        },
+        {
+          "_id": "695a48791c508c5d5ea294da",
+          "name": "Ball76597",
+          "amount": 781,
+          "price": 54816,
+          "manufacturer": "Tesla",
+          "notes": "OupPDeEIJ6vPo2NYs1tWrfL2dHYC4eaQ3NDEzt7tzYNQ9Ml7ZzyTPCeJ3tY58eai9UBbLtSHY94mTpiUNYj3dWqN6gxcjjlN6U26WTopLZ1l6JUBb8yvcbvJOQJWhJepLeoCIHncbZ7lzuFfQY8kaww1YxRdrnVgwRFa0xX3EvjEl0DOClQ4kWGMQtk1fIi3kAhq3Rfc0vdc6EjWaxevBH8AoGXbVXbpBLU21COLOeqM7puBzZzy53TMf3",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 227653,
+      "createdOn": "2026-01-04T11:01:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a48681c508c5d5ea28c75",
+          "products": [
+            {
+              "_id": "695a486b1c508c5d5ea28d98",
+              "name": "Tuna90707",
+              "amount": 147,
+              "price": 7914,
+              "manufacturer": "Tesla",
+              "notes": "TekQRbynzw7Y07Iu1IixIB6cUhh2GrgbdaBNe5dlYph7EDCUCFgu8E05uZ1RVxWXJxCTtFxL1iG2ayCZGX3yr82YYOmoyCVIl0Us2QamDFV825r9mp014Omb3uQt9g2pKTbuGcICzKhP1VgOcDjrLbE1Ijjt0FhNt0S70UyF0XFTEYz9qJHdDVyf26UkRWwvsASsp98pGUVTdrNolPsm4sJG1f26cCaoTA5pHFZr7Z2u9Q4SBthCZ9F0fK",
+              "received": false
+            },
+            {
+              "_id": "695a486e1c508c5d5ea28f39",
+              "name": "Bacon1043",
+              "amount": 398,
+              "price": 24227,
+              "manufacturer": "Google",
+              "notes": "YP1SIFHRfz6By2WzoroCCPnzGVcDCQLW0EqGyBJ2uPiisByR1mC10IFY5U9twzrNgOrhMiTeO9W1hpIez7C3gAgmvovlQsMP4xyez65C8oG2vmnq962GDeQEacS0h8Zf0itmDxa4HkWlO46JGJnxXUBNY2eN9HzvbAblexALu6rZUpVrpWozRzN46R8oy3B92yvzdfP8jiADVyVk2pjeOrRi4u8p6XjLXgTI7wgAvWTm1Ph5BEXeMJANLU",
+              "received": false
+            },
+            {
+              "_id": "695a48711c508c5d5ea29160",
+              "name": "Towels34507",
+              "amount": 17,
+              "price": 93008,
+              "manufacturer": "Google",
+              "notes": "uLX5rlwmTAYgIjih03qmnQFM3xZzRPtNVxMLaamNuuhfj4oMu8CsYCoIcjL3bycx2nRlvnWbNzWcbZJopLha01AUoHFHz2hv6lauZuXhrhOes8Tq0euibPg2lGNRnHJb7ax8GSzxWOPoZHpwsKz5G18TgrGlvUo8rkrliMl2zugLSx4yCqfZmbVjiKfCTntSn1AhAIB1fL2D6HDHV9EW9FswnQXOoEukNQe2YYY4nncARwgTHeRfXAmw01",
+              "received": false
+            },
+            {
+              "_id": "695a48761c508c5d5ea29303",
+              "name": "Tuna29637",
+              "amount": 943,
+              "price": 47688,
+              "manufacturer": "Samsung",
+              "notes": "4mHMPdukTwYbNilZMu94i6NyS9YkUkTQqlA6xRLoLJsSStdW2Er7GiCZuh5r9dkLRLE95bZMaPCJTzftWFRc4cXIaw5YNHTWIVW5miWJjkJ543kXRqEhwvVaQGv0QtefWF0d9EIJfE2HhhlqMlzAG3On2n5o0aPl9db24tfVjRY88iQV2fnQK1w3uN6XOM3eeeIXrxPDAWanq0AdZo5k4YzkNT1yO5jaVUhwnId1g3cIt52cv1VzGRBRjK",
+              "received": false
+            },
+            {
+              "_id": "695a48791c508c5d5ea294da",
+              "name": "Ball76597",
+              "amount": 781,
+              "price": 54816,
+              "manufacturer": "Tesla",
+              "notes": "OupPDeEIJ6vPo2NYs1tWrfL2dHYC4eaQ3NDEzt7tzYNQ9Ml7ZzyTPCeJ3tY58eai9UBbLtSHY94mTpiUNYj3dWqN6gxcjjlN6U26WTopLZ1l6JUBb8yvcbvJOQJWhJepLeoCIHncbZ7lzuFfQY8kaww1YxRdrnVgwRFa0xX3EvjEl0DOClQ4kWGMQtk1fIi3kAhq3Rfc0vdc6EjWaxevBH8AoGXbVXbpBLU21COLOeqM7puBzZzy53TMf3",
+              "received": false
+            }
+          ],
+          "total_price": 227653,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:01:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a487a1c508c5d5ea294f9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

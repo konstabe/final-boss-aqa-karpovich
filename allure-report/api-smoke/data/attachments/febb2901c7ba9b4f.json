@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:00:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-ygDMWq0FTT6MjBkSyu7K0d4AEvM\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a48571c508c5d5ea28678",
+        "email": "Alan.Balistreri15@gmail.com",
+        "name": "Cristina Braun",
+        "country": "France",
+        "city": "Milpitas",
+        "street": "Wilkinson Cove",
+        "house": 35,
+        "flat": 560,
+        "phone": "+19188109724",
+        "createdOn": "2026-01-04T11:00:39.000Z",
+        "notes": "7eECEDAeDJC64KFchOmZLWGSCU6ynA5Y2ccSq8M7AqjIZSrmAjBzGtbSCBjTp1IAiIR0EwBOyjLik9QrxLVXZu7dgaElQX7poECIIumHz8hUjgLste1IsiBhte4vViJtJ1JidSDtHDxVBod23ej9ek83z0TAQq6LrZ3xYMus53v6fIad3P13XlluoSdFkVepoHsGhzx7MqOIOCHkHLBlG2WVNmt7OOaEnQOHqQdaOzMZjRUlEduqrGljgK"
+      },
+      "products": [
+        {
+          "_id": "695a485a1c508c5d5ea287ad",
+          "name": "Salad6570",
+          "amount": 513,
+          "price": 38003,
+          "manufacturer": "Microsoft",
+          "notes": "fitEy9GkSkFj0jqFA1AXYBWmJOVL5R0xYxmGmAosRDETUOvWVlpKXp5p5qCh49mf9D6PFbWTHgE4fgN77Dh8gNhz1s6DqRP2ZlGwPFtLtkdbbgRisVtaxuynFVWGT6fHTIt0fCTm5tvyLcRNt6hBdqORdSaOJjIKuE3hmGDeh09MtweUELn5SQw5ORlBwhVcGmIxA9p7oYzJH7BedXOHJnD6NFgNF1L5WbdZ9dEsJg42obyZK2BrkREVV8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 38003,
+      "createdOn": "2026-01-04T11:00:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a48571c508c5d5ea28678",
+          "products": [
+            {
+              "_id": "695a485a1c508c5d5ea287ad",
+              "name": "Salad6570",
+              "amount": 513,
+              "price": 38003,
+              "manufacturer": "Microsoft",
+              "notes": "fitEy9GkSkFj0jqFA1AXYBWmJOVL5R0xYxmGmAosRDETUOvWVlpKXp5p5qCh49mf9D6PFbWTHgE4fgN77Dh8gNhz1s6DqRP2ZlGwPFtLtkdbbgRisVtaxuynFVWGT6fHTIt0fCTm5tvyLcRNt6hBdqORdSaOJjIKuE3hmGDeh09MtweUELn5SQw5ORlBwhVcGmIxA9p7oYzJH7BedXOHJnD6NFgNF1L5WbdZ9dEsJg42obyZK2BrkREVV8",
+              "received": false
+            }
+          ],
+          "total_price": 38003,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:00:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a485b1c508c5d5ea287c5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

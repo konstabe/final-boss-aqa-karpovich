@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:00:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-2X7fY5hZ6Dw8CoMGie3dIwFBLrM\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a483a1c508c5d5ea27e20",
+        "email": "Althea.Schowalter@hotmail.com",
+        "name": "Cruz Toy",
+        "country": "Ukraine",
+        "city": "Shadfort",
+        "street": "Stan Harbor",
+        "house": 27,
+        "flat": 27,
+        "phone": "+14425979958",
+        "createdOn": "2026-01-04T11:00:10.000Z",
+        "notes": "LgPNONJHb70HcV6hrbMSN9207RB99qJmVXVZvlit8hzZhYOaIqUMQLKXkW211buLuhiBZFTWDB4UPphSftKFphzBPXkPko2T0lHyW6YJccczvTIsLPGAMz2OtkYEQHtektj357Z2p4z86s4Ge2XCfLiNGHK4UUGGkGmOLQZh0UkaPfUOWvi6ZKOB7GdwJKq0riz9Beh3ICyBCV6xhdgRy1cHjFUPR4jeEBV6IwX2b36VNDOyL83mv6ORBH"
+      },
+      "products": [
+        {
+          "_id": "695a483d1c508c5d5ea27ef7",
+          "name": "Pants19010",
+          "amount": 549,
+          "price": 70985,
+          "manufacturer": "Google",
+          "notes": "VBhnpVwp2Ng15GRmrCGeMRjaUjqTND0ZzD2tjFWefHeBkgGBtc4vh2izjAvpApRGw4JoUYzRDmR87bpJfjXeKbjvhgpxGeUe1j9fcPyD200nGMhGnIKvtcvYgztbu9XWTVdBx2ulXb32Sn3oydELxyZeJpoh8BVAZEpEjdrE8cLmr1ncnJTZtKQHrRp832T1mL58vi0ENH7QNVLIKrrUMuYvS7BpX7lMZmHR9pYnyMVS41APy3AZNhNue4",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 70985,
+      "createdOn": "2026-01-04T11:00:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a483a1c508c5d5ea27e20",
+          "products": [
+            {
+              "_id": "695a483d1c508c5d5ea27ef7",
+              "name": "Pants19010",
+              "amount": 549,
+              "price": 70985,
+              "manufacturer": "Google",
+              "notes": "VBhnpVwp2Ng15GRmrCGeMRjaUjqTND0ZzD2tjFWefHeBkgGBtc4vh2izjAvpApRGw4JoUYzRDmR87bpJfjXeKbjvhgpxGeUe1j9fcPyD200nGMhGnIKvtcvYgztbu9XWTVdBx2ulXb32Sn3oydELxyZeJpoh8BVAZEpEjdrE8cLmr1ncnJTZtKQHrRp832T1mL58vi0ENH7QNVLIKrrUMuYvS7BpX7lMZmHR9pYnyMVS41APy3AZNhNue4",
+              "received": false
+            }
+          ],
+          "total_price": 70985,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:00:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a483d1c508c5d5ea27f05"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

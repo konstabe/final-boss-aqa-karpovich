@@ -1,0 +1,303 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:00:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8621",
+    "etag": "W/\"21ad-yVVw2dW2PLL/p1tqmzOdYE9Uvps\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a484a1c508c5d5ea28226",
+      "status": "Received",
+      "customer": {
+        "_id": "695a48401c508c5d5ea27fbe",
+        "email": "Georgiana41@gmail.com",
+        "name": "Sylvester Tremblay",
+        "country": "Canada",
+        "city": "Hilllfort",
+        "street": "Destiny Spurs",
+        "house": 50,
+        "flat": 611,
+        "phone": "+14466720201",
+        "createdOn": "2026-01-04T11:00:16.000Z",
+        "notes": "8Nw6Cd1OJQ7Gc8QWKjla5TQ8EhCN678Crnn2EJ9DyGEgj7yNzIFdfxsdTD97nvosh31qAjwBAqLcMs6yG7GljSR389Yqu5F3UZvvy77d5jxb9gN5MAZpeBjoUGoMacWYt2pgY5pm23HO5FUYCydCuUL3Y5KOMbHtPrx1LfqkD4xpKTrFT1Nyiux5Q5Zh39LYPd3Mpc4x6ILvY9UQIqPSeLvtRcxxrgVG4wV7lSH5DlnMduAnxOjqKgRZRe"
+      },
+      "products": [
+        {
+          "_id": "695a48431c508c5d5ea28039",
+          "name": "Towels4579",
+          "amount": 977,
+          "price": 48771,
+          "manufacturer": "Amazon",
+          "notes": "SwcrXP9ew07IdV09bpu90975qC6qzRqasGykKw2BwQuSwK90ONyIG9WmKfNWVhoazxFs6vAwzDp0DTYwuWuKHpaKaGfBaNR377PPFD1MqBv4fG4LDqRNDLfpJZt2egHaQcMD8RjQYUp3ZSwDDiHtUzqGt1qpScBRFDZq0qlFkXsaQOUUZTWxX72alcrGNDbIZaSlbja6TSgjXSF8dVNz8lVr7yfAy1G4lwi1OInw1vNRB3gyyMXSdrNih0",
+          "received": true
+        },
+        {
+          "_id": "695a48461c508c5d5ea2817e",
+          "name": "Bike42407",
+          "amount": 420,
+          "price": 34166,
+          "manufacturer": "Xiaomi",
+          "notes": "GcNkiiSH0obEOkhQRABkc9SFPIxDdPH1R9JiZ0ss2BmNJPbeLW5Z10wClYoJzrtYOx4I9uvJikUN4m0On4U5pIHqxQZ8uQmQPZiYHOefmQG8tzdr3VAjG8ontGLuBqRkZAqY888AdACR9eveJHRK1uCoqbFfKYveTqnyfeGm142GxBXIrwtXSO76q3XZ0fXPHRpBMInJ7igYpxIY7XbSBrbdTWjgL54Hr9ceqGI6a8ttTBUI6A1YsREkRd",
+          "received": true
+        },
+        {
+          "_id": "695a484a1c508c5d5ea2820d",
+          "name": "Hat98761",
+          "amount": 509,
+          "price": 88327,
+          "manufacturer": "Samsung",
+          "notes": "XzPxLyWjTtjJMRCtptVE3C8kI2kOqMSZOnrDDR5KFsAHw0yuRl4MpbUW9qBLerUD9QrqfTDvAf0hDhZLFENG14FdS3gwZShqIvlrox3sMgGDZzn3EupvIdQfhXH6iMgL15XpraPy6lEnZfCaUzmO4L04hgm9fCwxJ65gpNqZ3QiqLCbKtQgCY7BDKl3tsKg0b0lWdHhzQ5vIPtBRJuia0x5HJaELaleka2vt3W62GsIhoNoFiiaFOG3uOK",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Hilllfort",
+          "street": "Destiny Spurs",
+          "house": 50,
+          "flat": 611
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 171264,
+      "createdOn": "2026-01-04T11:00:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695a48401c508c5d5ea27fbe",
+          "products": [
+            {
+              "_id": "695a48431c508c5d5ea28039",
+              "name": "Towels4579",
+              "amount": 977,
+              "price": 48771,
+              "manufacturer": "Amazon",
+              "notes": "SwcrXP9ew07IdV09bpu90975qC6qzRqasGykKw2BwQuSwK90ONyIG9WmKfNWVhoazxFs6vAwzDp0DTYwuWuKHpaKaGfBaNR377PPFD1MqBv4fG4LDqRNDLfpJZt2egHaQcMD8RjQYUp3ZSwDDiHtUzqGt1qpScBRFDZq0qlFkXsaQOUUZTWxX72alcrGNDbIZaSlbja6TSgjXSF8dVNz8lVr7yfAy1G4lwi1OInw1vNRB3gyyMXSdrNih0",
+              "received": true
+            },
+            {
+              "_id": "695a48461c508c5d5ea2817e",
+              "name": "Bike42407",
+              "amount": 420,
+              "price": 34166,
+              "manufacturer": "Xiaomi",
+              "notes": "GcNkiiSH0obEOkhQRABkc9SFPIxDdPH1R9JiZ0ss2BmNJPbeLW5Z10wClYoJzrtYOx4I9uvJikUN4m0On4U5pIHqxQZ8uQmQPZiYHOefmQG8tzdr3VAjG8ontGLuBqRkZAqY888AdACR9eveJHRK1uCoqbFfKYveTqnyfeGm142GxBXIrwtXSO76q3XZ0fXPHRpBMInJ7igYpxIY7XbSBrbdTWjgL54Hr9ceqGI6a8ttTBUI6A1YsREkRd",
+              "received": true
+            },
+            {
+              "_id": "695a484a1c508c5d5ea2820d",
+              "name": "Hat98761",
+              "amount": 509,
+              "price": 88327,
+              "manufacturer": "Samsung",
+              "notes": "XzPxLyWjTtjJMRCtptVE3C8kI2kOqMSZOnrDDR5KFsAHw0yuRl4MpbUW9qBLerUD9QrqfTDvAf0hDhZLFENG14FdS3gwZShqIvlrox3sMgGDZzn3EupvIdQfhXH6iMgL15XpraPy6lEnZfCaUzmO4L04hgm9fCwxJ65gpNqZ3QiqLCbKtQgCY7BDKl3tsKg0b0lWdHhzQ5vIPtBRJuia0x5HJaELaleka2vt3W62GsIhoNoFiiaFOG3uOK",
+              "received": true
+            }
+          ],
+          "total_price": 171264,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Hilllfort",
+              "street": "Destiny Spurs",
+              "house": 50,
+              "flat": 611
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-04T11:00:28.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695a48401c508c5d5ea27fbe",
+          "products": [
+            {
+              "_id": "695a48431c508c5d5ea28039",
+              "name": "Towels4579",
+              "amount": 977,
+              "price": 48771,
+              "manufacturer": "Amazon",
+              "notes": "SwcrXP9ew07IdV09bpu90975qC6qzRqasGykKw2BwQuSwK90ONyIG9WmKfNWVhoazxFs6vAwzDp0DTYwuWuKHpaKaGfBaNR377PPFD1MqBv4fG4LDqRNDLfpJZt2egHaQcMD8RjQYUp3ZSwDDiHtUzqGt1qpScBRFDZq0qlFkXsaQOUUZTWxX72alcrGNDbIZaSlbja6TSgjXSF8dVNz8lVr7yfAy1G4lwi1OInw1vNRB3gyyMXSdrNih0",
+              "received": false
+            },
+            {
+              "_id": "695a48461c508c5d5ea2817e",
+              "name": "Bike42407",
+              "amount": 420,
+              "price": 34166,
+              "manufacturer": "Xiaomi",
+              "notes": "GcNkiiSH0obEOkhQRABkc9SFPIxDdPH1R9JiZ0ss2BmNJPbeLW5Z10wClYoJzrtYOx4I9uvJikUN4m0On4U5pIHqxQZ8uQmQPZiYHOefmQG8tzdr3VAjG8ontGLuBqRkZAqY888AdACR9eveJHRK1uCoqbFfKYveTqnyfeGm142GxBXIrwtXSO76q3XZ0fXPHRpBMInJ7igYpxIY7XbSBrbdTWjgL54Hr9ceqGI6a8ttTBUI6A1YsREkRd",
+              "received": false
+            },
+            {
+              "_id": "695a484a1c508c5d5ea2820d",
+              "name": "Hat98761",
+              "amount": 509,
+              "price": 88327,
+              "manufacturer": "Samsung",
+              "notes": "XzPxLyWjTtjJMRCtptVE3C8kI2kOqMSZOnrDDR5KFsAHw0yuRl4MpbUW9qBLerUD9QrqfTDvAf0hDhZLFENG14FdS3gwZShqIvlrox3sMgGDZzn3EupvIdQfhXH6iMgL15XpraPy6lEnZfCaUzmO4L04hgm9fCwxJ65gpNqZ3QiqLCbKtQgCY7BDKl3tsKg0b0lWdHhzQ5vIPtBRJuia0x5HJaELaleka2vt3W62GsIhoNoFiiaFOG3uOK",
+              "received": false
+            }
+          ],
+          "total_price": 171264,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Hilllfort",
+              "street": "Destiny Spurs",
+              "house": 50,
+              "flat": 611
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-04T11:00:27.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a48401c508c5d5ea27fbe",
+          "products": [
+            {
+              "_id": "695a48431c508c5d5ea28039",
+              "name": "Towels4579",
+              "amount": 977,
+              "price": 48771,
+              "manufacturer": "Amazon",
+              "notes": "SwcrXP9ew07IdV09bpu90975qC6qzRqasGykKw2BwQuSwK90ONyIG9WmKfNWVhoazxFs6vAwzDp0DTYwuWuKHpaKaGfBaNR377PPFD1MqBv4fG4LDqRNDLfpJZt2egHaQcMD8RjQYUp3ZSwDDiHtUzqGt1qpScBRFDZq0qlFkXsaQOUUZTWxX72alcrGNDbIZaSlbja6TSgjXSF8dVNz8lVr7yfAy1G4lwi1OInw1vNRB3gyyMXSdrNih0",
+              "received": false
+            },
+            {
+              "_id": "695a48461c508c5d5ea2817e",
+              "name": "Bike42407",
+              "amount": 420,
+              "price": 34166,
+              "manufacturer": "Xiaomi",
+              "notes": "GcNkiiSH0obEOkhQRABkc9SFPIxDdPH1R9JiZ0ss2BmNJPbeLW5Z10wClYoJzrtYOx4I9uvJikUN4m0On4U5pIHqxQZ8uQmQPZiYHOefmQG8tzdr3VAjG8ontGLuBqRkZAqY888AdACR9eveJHRK1uCoqbFfKYveTqnyfeGm142GxBXIrwtXSO76q3XZ0fXPHRpBMInJ7igYpxIY7XbSBrbdTWjgL54Hr9ceqGI6a8ttTBUI6A1YsREkRd",
+              "received": false
+            },
+            {
+              "_id": "695a484a1c508c5d5ea2820d",
+              "name": "Hat98761",
+              "amount": 509,
+              "price": 88327,
+              "manufacturer": "Samsung",
+              "notes": "XzPxLyWjTtjJMRCtptVE3C8kI2kOqMSZOnrDDR5KFsAHw0yuRl4MpbUW9qBLerUD9QrqfTDvAf0hDhZLFENG14FdS3gwZShqIvlrox3sMgGDZzn3EupvIdQfhXH6iMgL15XpraPy6lEnZfCaUzmO4L04hgm9fCwxJ65gpNqZ3QiqLCbKtQgCY7BDKl3tsKg0b0lWdHhzQ5vIPtBRJuia0x5HJaELaleka2vt3W62GsIhoNoFiiaFOG3uOK",
+              "received": false
+            }
+          ],
+          "total_price": 171264,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Hilllfort",
+              "street": "Destiny Spurs",
+              "house": 50,
+              "flat": 611
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-04T11:00:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a48401c508c5d5ea27fbe",
+          "products": [
+            {
+              "_id": "695a48431c508c5d5ea28039",
+              "name": "Towels4579",
+              "amount": 977,
+              "price": 48771,
+              "manufacturer": "Amazon",
+              "notes": "SwcrXP9ew07IdV09bpu90975qC6qzRqasGykKw2BwQuSwK90ONyIG9WmKfNWVhoazxFs6vAwzDp0DTYwuWuKHpaKaGfBaNR377PPFD1MqBv4fG4LDqRNDLfpJZt2egHaQcMD8RjQYUp3ZSwDDiHtUzqGt1qpScBRFDZq0qlFkXsaQOUUZTWxX72alcrGNDbIZaSlbja6TSgjXSF8dVNz8lVr7yfAy1G4lwi1OInw1vNRB3gyyMXSdrNih0",
+              "received": false
+            },
+            {
+              "_id": "695a48461c508c5d5ea2817e",
+              "name": "Bike42407",
+              "amount": 420,
+              "price": 34166,
+              "manufacturer": "Xiaomi",
+              "notes": "GcNkiiSH0obEOkhQRABkc9SFPIxDdPH1R9JiZ0ss2BmNJPbeLW5Z10wClYoJzrtYOx4I9uvJikUN4m0On4U5pIHqxQZ8uQmQPZiYHOefmQG8tzdr3VAjG8ontGLuBqRkZAqY888AdACR9eveJHRK1uCoqbFfKYveTqnyfeGm142GxBXIrwtXSO76q3XZ0fXPHRpBMInJ7igYpxIY7XbSBrbdTWjgL54Hr9ceqGI6a8ttTBUI6A1YsREkRd",
+              "received": false
+            },
+            {
+              "_id": "695a484a1c508c5d5ea2820d",
+              "name": "Hat98761",
+              "amount": 509,
+              "price": 88327,
+              "manufacturer": "Samsung",
+              "notes": "XzPxLyWjTtjJMRCtptVE3C8kI2kOqMSZOnrDDR5KFsAHw0yuRl4MpbUW9qBLerUD9QrqfTDvAf0hDhZLFENG14FdS3gwZShqIvlrox3sMgGDZzn3EupvIdQfhXH6iMgL15XpraPy6lEnZfCaUzmO4L04hgm9fCwxJ65gpNqZ3QiqLCbKtQgCY7BDKl3tsKg0b0lWdHhzQ5vIPtBRJuia0x5HJaELaleka2vt3W62GsIhoNoFiiaFOG3uOK",
+              "received": false
+            }
+          ],
+          "total_price": 171264,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:00:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

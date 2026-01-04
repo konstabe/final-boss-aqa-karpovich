@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:00:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2656",
+    "etag": "W/\"a60-AK/1+IT9TpMiJ05Vfd9llJj8DAQ\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a483a1c508c5d5ea27e1e",
+        "email": "Dora.Heidenreich94@hotmail.com",
+        "name": "Scotty Collins",
+        "country": "Canada",
+        "city": "New Lulacester",
+        "street": "Jones Cliffs",
+        "house": 14,
+        "flat": 417,
+        "phone": "+12058579744",
+        "createdOn": "2026-01-04T11:00:10.000Z",
+        "notes": "NNl7A3aJOehmP49aAodDMmuzGQ2Dd89LzhhFR3KWeh89m1JIi2MuDrQZqFGcXX0GGRailQB1XIXuLVhSugOn6qvVfE64gHYYhYbQCT2mFisfGZZPIdK34FL3lohvTyd3dhlDQMfuNPTqMD3iDqRD1RjXFnCY9PsuXu4v9CB5ISKFI02Gg78pHoLgmBuyauH33yLIltFJcUx6DIvJ5KdwvjyCOkz0EBWPSmMv3dABt1g36IEFF1crAnAvfM"
+      },
+      "products": [
+        {
+          "_id": "695a483d1c508c5d5ea27ef5",
+          "name": "Shoes81606",
+          "amount": 633,
+          "price": 46918,
+          "manufacturer": "Sony",
+          "notes": "Cvwl0ygx7suf0gDoe8HLOKYQQMqUDq5VbCA6e05sk7Owqm1iSiwdwLspMfdI3ko2HNghoGNYHqbszYdw3y862n0zo5Efsl9Xm2617vAv73ffQAHlJsfzVXxpWnJcbbiDgnIPfuDIr5oDAb77xLSoiyTzZ0viU0X7mD5YgiwNMmawAyJlrcgpjQOqtUXPUek93wneyLP5aqkTsBXeGRo1SXTHKmqfp0gZQgfF0HkIrHuAFROxTBQh6rq3A3",
+          "received": false
+        },
+        {
+          "_id": "695a48401c508c5d5ea27fa1",
+          "name": "Pizza18186",
+          "amount": 488,
+          "price": 84097,
+          "manufacturer": "Sony",
+          "notes": "aqsx8JevJsLOnfLXpU51P8Y01Fiqf9WZp6fLnZgi8gs1S8v7m1PSl3LFuDIAwsgpad4VFHEVCcZYRFCj8Wui99DtTb6mRYA8y0SvxCcskHOoA87HtD9SvG5ogbePKg924g8e1SPHi1OBhkD1r9qtGUcgusopBHTp5EQqTRoI3OHmKUDxYMF6pZUhQ5brOBmJeh7xoq0gLFFHiWvt0zU6JmEguqu1GuM6Yt0pyqbl1vyn1DcBxhaJn021yI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 131015,
+      "createdOn": "2026-01-04T11:00:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a483a1c508c5d5ea27e1e",
+          "products": [
+            {
+              "_id": "695a483d1c508c5d5ea27ef5",
+              "name": "Shoes81606",
+              "amount": 633,
+              "price": 46918,
+              "manufacturer": "Sony",
+              "notes": "Cvwl0ygx7suf0gDoe8HLOKYQQMqUDq5VbCA6e05sk7Owqm1iSiwdwLspMfdI3ko2HNghoGNYHqbszYdw3y862n0zo5Efsl9Xm2617vAv73ffQAHlJsfzVXxpWnJcbbiDgnIPfuDIr5oDAb77xLSoiyTzZ0viU0X7mD5YgiwNMmawAyJlrcgpjQOqtUXPUek93wneyLP5aqkTsBXeGRo1SXTHKmqfp0gZQgfF0HkIrHuAFROxTBQh6rq3A3",
+              "received": false
+            },
+            {
+              "_id": "695a48401c508c5d5ea27fa1",
+              "name": "Pizza18186",
+              "amount": 488,
+              "price": 84097,
+              "manufacturer": "Sony",
+              "notes": "aqsx8JevJsLOnfLXpU51P8Y01Fiqf9WZp6fLnZgi8gs1S8v7m1PSl3LFuDIAwsgpad4VFHEVCcZYRFCj8Wui99DtTb6mRYA8y0SvxCcskHOoA87HtD9SvG5ogbePKg924g8e1SPHi1OBhkD1r9qtGUcgusopBHTp5EQqTRoI3OHmKUDxYMF6pZUhQ5brOBmJeh7xoq0gLFFHiWvt0zU6JmEguqu1GuM6Yt0pyqbl1vyn1DcBxhaJn021yI",
+              "received": false
+            }
+          ],
+          "total_price": 131015,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:00:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a48401c508c5d5ea27fca"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
