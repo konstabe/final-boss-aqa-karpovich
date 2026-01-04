@@ -36,29 +36,22 @@ jobs:
               run: npm run test:api-smoke
               continue-on-error: true
 
-            # подтягиваем историю из предыдущего отчёта
-            - name: Download previous report
-              uses: actions/download-artifact@v4
+            # подтягиваем старый отчёт из gh-pages
+            - name: Checkout gh-pages
+              uses: actions/checkout@v4
               with:
-                  name: smoke-report
-                  path: ./prev-report
+                  ref: gh-pages
+                  path: gh-pages
 
             - name: Copy old history into results
-              run: cp -r prev-report/history allure-results/history || true
+              run: |
+                  mkdir -p allure-results/history
+                  cp -r gh-pages/allure-report/api-smoke/history allure-results/ || true
 
             - name: Create Allure report
               run: npm run allure-report
 
-            - name: Save Allure history
-              uses: actions/upload-artifact@v4
-              with:
-                  name: smoke-history
-                  path: allure-report/history
-                  retention-days: 10
-                  if-no-files-found: ignore
-                  overwrite: true
-
-            - name: Save Allure report
+            - name: Save Allure report as artifact
               uses: actions/upload-artifact@v4
               with:
                   name: smoke-report
