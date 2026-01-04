@@ -1,0 +1,303 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 10:54:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8670",
+    "etag": "W/\"21de-0jg1aTQzSHnaqDWdoNDFfysercY\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a46f51c508c5d5ea249df",
+      "status": "Received",
+      "customer": {
+        "_id": "695a46e81c508c5d5ea2456f",
+        "email": "Barney.Bosco@hotmail.com",
+        "name": "Karine Goldner",
+        "country": "Great Britain",
+        "city": "South Laceyboro",
+        "street": "Turcotte Key",
+        "house": 20,
+        "flat": 61,
+        "phone": "+12127024340",
+        "createdOn": "2026-01-04T10:54:32.000Z",
+        "notes": "ohrwHDdllIrhGbPDNSdv8OH6m96NsvbNtsDziUMe8MWkCupNcX6vbp4UdRSJtvi8GNyoFglh8nAfdjJgBh7etgZj13WtX9aq8PbJIN2LXPeeE1jMWS72TgmGBFFHdbgfgWfdFEUq9rXuRgSffMCPQzjiJFJamRuTtNO5a8ENhFdZUWM6iAtBaNH8MAir2gMZvUyMo3P8fAQSsbsbD0HVDRsH7ZAegCH7OWIahFioX9e1gFcFz3298wJYgZ"
+      },
+      "products": [
+        {
+          "_id": "695a46eb1c508c5d5ea24684",
+          "name": "Mouse9342",
+          "amount": 193,
+          "price": 55243,
+          "manufacturer": "Apple",
+          "notes": "5uHWSqV37k4MYh1PjlUJz7HVy3pDSatapl5udzalLNqF4y9Hromi8MRPB7y0yf4BbDWwDWLJDd5CKlKOkuOI1T3pegWD3pwK6DoWgophQQF2W0mg569jGwdIjUExuKDrulImBDQ2HWh7Cg1GEmfXSWBHyBY16ZT8m1ote8hV7ZPF3g2lmPF5oYumZe5sT3xYdDC5fPKa9WXfW3kANHghfXmNHzeNpYPGYrmUyNHXnh2GkZ1JUWzxaD3KBj",
+          "received": true
+        },
+        {
+          "_id": "695a46ee1c508c5d5ea246e9",
+          "name": "Pants55603",
+          "amount": 20,
+          "price": 49241,
+          "manufacturer": "Samsung",
+          "notes": "fwGMCfkYpk1xgeDdi0W8YkjmDurR4OACO7IziAHmFpkUW5AyWfqWcNXo5con5CCc1nh2cOQv694w2z3GWTYZIksQaWjVSBaCY3u6uPUSSOVyudQAhyPSFD0KKMVK5VUvvElaWPGNntCgTcTdQ5UoF1SEFKMiPx5fnhD8PhJdfRMbsQF1S4RRKXx1sfStIcCsns8zgTkzDFHk37rLndccUDVFwudulnU0k98ZABCdBNrmqrPwrlvWrl0ZuH",
+          "received": true
+        },
+        {
+          "_id": "695a46f41c508c5d5ea2494f",
+          "name": "Hat22307",
+          "amount": 601,
+          "price": 62498,
+          "manufacturer": "Samsung",
+          "notes": "xmsw0HEXC89W6oYNU6gtK73Nnk9KDC0oW9kM5NrYt4URhasgy3BE9w199rJN81etby3QQ3walIabxWKvb8MDt6lkms4cpWHYZbXTpD53oC44eC3hArySBVVSUy7Vp14O4OuGXYHf1JCB49iHZtt7LXnF1662Dqx06D9MpvjLUAkZRl0m9wMIv8HJn5OPPy2LkLHO5y2DT14JzDe8053KMwFrYklLIhOlZjBdJrTNnD6hYE313w1CVC1lPV",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "South Laceyboro",
+          "street": "Turcotte Key",
+          "house": 20,
+          "flat": 61
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 166982,
+      "createdOn": "2026-01-04T10:54:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695a46e81c508c5d5ea2456f",
+          "products": [
+            {
+              "_id": "695a46eb1c508c5d5ea24684",
+              "name": "Mouse9342",
+              "amount": 193,
+              "price": 55243,
+              "manufacturer": "Apple",
+              "notes": "5uHWSqV37k4MYh1PjlUJz7HVy3pDSatapl5udzalLNqF4y9Hromi8MRPB7y0yf4BbDWwDWLJDd5CKlKOkuOI1T3pegWD3pwK6DoWgophQQF2W0mg569jGwdIjUExuKDrulImBDQ2HWh7Cg1GEmfXSWBHyBY16ZT8m1ote8hV7ZPF3g2lmPF5oYumZe5sT3xYdDC5fPKa9WXfW3kANHghfXmNHzeNpYPGYrmUyNHXnh2GkZ1JUWzxaD3KBj",
+              "received": true
+            },
+            {
+              "_id": "695a46ee1c508c5d5ea246e9",
+              "name": "Pants55603",
+              "amount": 20,
+              "price": 49241,
+              "manufacturer": "Samsung",
+              "notes": "fwGMCfkYpk1xgeDdi0W8YkjmDurR4OACO7IziAHmFpkUW5AyWfqWcNXo5con5CCc1nh2cOQv694w2z3GWTYZIksQaWjVSBaCY3u6uPUSSOVyudQAhyPSFD0KKMVK5VUvvElaWPGNntCgTcTdQ5UoF1SEFKMiPx5fnhD8PhJdfRMbsQF1S4RRKXx1sfStIcCsns8zgTkzDFHk37rLndccUDVFwudulnU0k98ZABCdBNrmqrPwrlvWrl0ZuH",
+              "received": true
+            },
+            {
+              "_id": "695a46f41c508c5d5ea2494f",
+              "name": "Hat22307",
+              "amount": 601,
+              "price": 62498,
+              "manufacturer": "Samsung",
+              "notes": "xmsw0HEXC89W6oYNU6gtK73Nnk9KDC0oW9kM5NrYt4URhasgy3BE9w199rJN81etby3QQ3walIabxWKvb8MDt6lkms4cpWHYZbXTpD53oC44eC3hArySBVVSUy7Vp14O4OuGXYHf1JCB49iHZtt7LXnF1662Dqx06D9MpvjLUAkZRl0m9wMIv8HJn5OPPy2LkLHO5y2DT14JzDe8053KMwFrYklLIhOlZjBdJrTNnD6hYE313w1CVC1lPV",
+              "received": true
+            }
+          ],
+          "total_price": 166982,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "South Laceyboro",
+              "street": "Turcotte Key",
+              "house": 20,
+              "flat": 61
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-04T10:54:47.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695a46e81c508c5d5ea2456f",
+          "products": [
+            {
+              "_id": "695a46eb1c508c5d5ea24684",
+              "name": "Mouse9342",
+              "amount": 193,
+              "price": 55243,
+              "manufacturer": "Apple",
+              "notes": "5uHWSqV37k4MYh1PjlUJz7HVy3pDSatapl5udzalLNqF4y9Hromi8MRPB7y0yf4BbDWwDWLJDd5CKlKOkuOI1T3pegWD3pwK6DoWgophQQF2W0mg569jGwdIjUExuKDrulImBDQ2HWh7Cg1GEmfXSWBHyBY16ZT8m1ote8hV7ZPF3g2lmPF5oYumZe5sT3xYdDC5fPKa9WXfW3kANHghfXmNHzeNpYPGYrmUyNHXnh2GkZ1JUWzxaD3KBj",
+              "received": false
+            },
+            {
+              "_id": "695a46ee1c508c5d5ea246e9",
+              "name": "Pants55603",
+              "amount": 20,
+              "price": 49241,
+              "manufacturer": "Samsung",
+              "notes": "fwGMCfkYpk1xgeDdi0W8YkjmDurR4OACO7IziAHmFpkUW5AyWfqWcNXo5con5CCc1nh2cOQv694w2z3GWTYZIksQaWjVSBaCY3u6uPUSSOVyudQAhyPSFD0KKMVK5VUvvElaWPGNntCgTcTdQ5UoF1SEFKMiPx5fnhD8PhJdfRMbsQF1S4RRKXx1sfStIcCsns8zgTkzDFHk37rLndccUDVFwudulnU0k98ZABCdBNrmqrPwrlvWrl0ZuH",
+              "received": false
+            },
+            {
+              "_id": "695a46f41c508c5d5ea2494f",
+              "name": "Hat22307",
+              "amount": 601,
+              "price": 62498,
+              "manufacturer": "Samsung",
+              "notes": "xmsw0HEXC89W6oYNU6gtK73Nnk9KDC0oW9kM5NrYt4URhasgy3BE9w199rJN81etby3QQ3walIabxWKvb8MDt6lkms4cpWHYZbXTpD53oC44eC3hArySBVVSUy7Vp14O4OuGXYHf1JCB49iHZtt7LXnF1662Dqx06D9MpvjLUAkZRl0m9wMIv8HJn5OPPy2LkLHO5y2DT14JzDe8053KMwFrYklLIhOlZjBdJrTNnD6hYE313w1CVC1lPV",
+              "received": false
+            }
+          ],
+          "total_price": 166982,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "South Laceyboro",
+              "street": "Turcotte Key",
+              "house": 20,
+              "flat": 61
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-04T10:54:46.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a46e81c508c5d5ea2456f",
+          "products": [
+            {
+              "_id": "695a46eb1c508c5d5ea24684",
+              "name": "Mouse9342",
+              "amount": 193,
+              "price": 55243,
+              "manufacturer": "Apple",
+              "notes": "5uHWSqV37k4MYh1PjlUJz7HVy3pDSatapl5udzalLNqF4y9Hromi8MRPB7y0yf4BbDWwDWLJDd5CKlKOkuOI1T3pegWD3pwK6DoWgophQQF2W0mg569jGwdIjUExuKDrulImBDQ2HWh7Cg1GEmfXSWBHyBY16ZT8m1ote8hV7ZPF3g2lmPF5oYumZe5sT3xYdDC5fPKa9WXfW3kANHghfXmNHzeNpYPGYrmUyNHXnh2GkZ1JUWzxaD3KBj",
+              "received": false
+            },
+            {
+              "_id": "695a46ee1c508c5d5ea246e9",
+              "name": "Pants55603",
+              "amount": 20,
+              "price": 49241,
+              "manufacturer": "Samsung",
+              "notes": "fwGMCfkYpk1xgeDdi0W8YkjmDurR4OACO7IziAHmFpkUW5AyWfqWcNXo5con5CCc1nh2cOQv694w2z3GWTYZIksQaWjVSBaCY3u6uPUSSOVyudQAhyPSFD0KKMVK5VUvvElaWPGNntCgTcTdQ5UoF1SEFKMiPx5fnhD8PhJdfRMbsQF1S4RRKXx1sfStIcCsns8zgTkzDFHk37rLndccUDVFwudulnU0k98ZABCdBNrmqrPwrlvWrl0ZuH",
+              "received": false
+            },
+            {
+              "_id": "695a46f41c508c5d5ea2494f",
+              "name": "Hat22307",
+              "amount": 601,
+              "price": 62498,
+              "manufacturer": "Samsung",
+              "notes": "xmsw0HEXC89W6oYNU6gtK73Nnk9KDC0oW9kM5NrYt4URhasgy3BE9w199rJN81etby3QQ3walIabxWKvb8MDt6lkms4cpWHYZbXTpD53oC44eC3hArySBVVSUy7Vp14O4OuGXYHf1JCB49iHZtt7LXnF1662Dqx06D9MpvjLUAkZRl0m9wMIv8HJn5OPPy2LkLHO5y2DT14JzDe8053KMwFrYklLIhOlZjBdJrTNnD6hYE313w1CVC1lPV",
+              "received": false
+            }
+          ],
+          "total_price": 166982,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "South Laceyboro",
+              "street": "Turcotte Key",
+              "house": 20,
+              "flat": 61
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-04T10:54:45.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a46e81c508c5d5ea2456f",
+          "products": [
+            {
+              "_id": "695a46eb1c508c5d5ea24684",
+              "name": "Mouse9342",
+              "amount": 193,
+              "price": 55243,
+              "manufacturer": "Apple",
+              "notes": "5uHWSqV37k4MYh1PjlUJz7HVy3pDSatapl5udzalLNqF4y9Hromi8MRPB7y0yf4BbDWwDWLJDd5CKlKOkuOI1T3pegWD3pwK6DoWgophQQF2W0mg569jGwdIjUExuKDrulImBDQ2HWh7Cg1GEmfXSWBHyBY16ZT8m1ote8hV7ZPF3g2lmPF5oYumZe5sT3xYdDC5fPKa9WXfW3kANHghfXmNHzeNpYPGYrmUyNHXnh2GkZ1JUWzxaD3KBj",
+              "received": false
+            },
+            {
+              "_id": "695a46ee1c508c5d5ea246e9",
+              "name": "Pants55603",
+              "amount": 20,
+              "price": 49241,
+              "manufacturer": "Samsung",
+              "notes": "fwGMCfkYpk1xgeDdi0W8YkjmDurR4OACO7IziAHmFpkUW5AyWfqWcNXo5con5CCc1nh2cOQv694w2z3GWTYZIksQaWjVSBaCY3u6uPUSSOVyudQAhyPSFD0KKMVK5VUvvElaWPGNntCgTcTdQ5UoF1SEFKMiPx5fnhD8PhJdfRMbsQF1S4RRKXx1sfStIcCsns8zgTkzDFHk37rLndccUDVFwudulnU0k98ZABCdBNrmqrPwrlvWrl0ZuH",
+              "received": false
+            },
+            {
+              "_id": "695a46f41c508c5d5ea2494f",
+              "name": "Hat22307",
+              "amount": 601,
+              "price": 62498,
+              "manufacturer": "Samsung",
+              "notes": "xmsw0HEXC89W6oYNU6gtK73Nnk9KDC0oW9kM5NrYt4URhasgy3BE9w199rJN81etby3QQ3walIabxWKvb8MDt6lkms4cpWHYZbXTpD53oC44eC3hArySBVVSUy7Vp14O4OuGXYHf1JCB49iHZtt7LXnF1662Dqx06D9MpvjLUAkZRl0m9wMIv8HJn5OPPy2LkLHO5y2DT14JzDe8053KMwFrYklLIhOlZjBdJrTNnD6hYE313w1CVC1lPV",
+              "received": false
+            }
+          ],
+          "total_price": 166982,
+          "delivery": null,
+          "changedOn": "2026-01-04T10:54:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

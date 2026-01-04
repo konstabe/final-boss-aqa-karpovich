@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 10:54:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-rfUH6bOdddHCdKfY5TwaMCOsyu8\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a46ec1c508c5d5ea246a4",
+        "email": "Armando_Krajcik@yahoo.com",
+        "name": "Rowena Kautzer",
+        "country": "Russia",
+        "city": "Jenkinscester",
+        "street": "Dante Hollow",
+        "house": 16,
+        "flat": 881,
+        "phone": "+13883912281",
+        "createdOn": "2026-01-04T10:54:36.000Z",
+        "notes": "OpNXpQiV6ONYbMPhLxCBEHEsOSo18mRIlpkFrpZnHb7EzpsyHm9pQmlv7tpVCBJNUlhr8sSL3YtQQRrssPnOtKlOTyP7PkQYbOmBFzdGD5D7yJyfxM8XaKVa5ozHzJUOTj3jYZX41PtADgX3heqzLc6my0Yh2aDD7dYVTaktgYtdKVs10mV8Kf0V8T6ofdnTsmw9AzPc6IBH9Z9SJyhxqa7Bzclu7fcEoR6CFexWk0hRmtC7VhrAiaCdab"
+      },
+      "products": [
+        {
+          "_id": "695a46ef1c508c5d5ea24763",
+          "name": "Soap27156",
+          "amount": 72,
+          "price": 17647,
+          "manufacturer": "Apple",
+          "notes": "hcKm4oXUUkzu4g9dROCOo4P1fB7QpSm7aGiJD7HfobMdXmPUqMJjcCFFpbfXLKZ2rpNKQ4PO8tKvbnlFAJBXQOY9oZIRBLIB2md2eRcOOFjRreBm6NXZBL7M1Py2y9ywsHWmx9Sr8eMb0wSe9Y2k68pUsDovmZZtbzYLaDVlHyecSwyPza3bzRG36jitnrg6EaD73NPFGPIGaimM9SbiatW9HrTR83Csgi7JhKucxKuGFtGGhsSZ82YRDP",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 17647,
+      "createdOn": "2026-01-04T10:54:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a46ec1c508c5d5ea246a4",
+          "products": [
+            {
+              "_id": "695a46ef1c508c5d5ea24763",
+              "name": "Soap27156",
+              "amount": 72,
+              "price": 17647,
+              "manufacturer": "Apple",
+              "notes": "hcKm4oXUUkzu4g9dROCOo4P1fB7QpSm7aGiJD7HfobMdXmPUqMJjcCFFpbfXLKZ2rpNKQ4PO8tKvbnlFAJBXQOY9oZIRBLIB2md2eRcOOFjRreBm6NXZBL7M1Py2y9ywsHWmx9Sr8eMb0wSe9Y2k68pUsDovmZZtbzYLaDVlHyecSwyPza3bzRG36jitnrg6EaD73NPFGPIGaimM9SbiatW9HrTR83Csgi7JhKucxKuGFtGGhsSZ82YRDP",
+              "received": false
+            }
+          ],
+          "total_price": 17647,
+          "delivery": null,
+          "changedOn": "2026-01-04T10:54:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a46f01c508c5d5ea247b1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

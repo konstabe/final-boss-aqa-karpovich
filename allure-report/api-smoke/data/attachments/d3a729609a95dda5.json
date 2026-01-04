@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 10:54:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2805",
+    "etag": "W/\"af5-eIGBMI/6RXu9muZXae3L9A+ZWRI\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a46da1c508c5d5ea24014",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a46cf1c508c5d5ea23db5",
+        "email": "Jamey14@gmail.com",
+        "name": "Darian Hartmann",
+        "country": "Belarus",
+        "city": "Oak Lawn",
+        "street": "Dickens Glens",
+        "house": 5,
+        "flat": 548,
+        "phone": "+18575495733",
+        "createdOn": "2026-01-04T10:54:07.000Z",
+        "notes": "fAKziDJtugK5uxz8eN7c4YZEUoTDzBVxHzWd1NS1L62qaQ1BxO9ZtgDS9FpHzZNnMM8Cnr0kQU86USsbp3jsmxXCGII7toUFT8z1PG8k3SMudQoQ3ClNl0ioKcNsUGCmlZWNUjPwnvAuaJoT4POvqbIvvqipCmC44qpEn705W3p7ssd5RvcdCsYz7AFl6TYG1MqTv50DUOLRHlPZqFqc1G2okSjEqOJbihCF07GPK3NwszETXWHATZXQTy"
+      },
+      "products": [
+        {
+          "_id": "695a46d71c508c5d5ea23f26",
+          "name": "Table12690",
+          "amount": 448,
+          "price": 59234,
+          "manufacturer": "Xiaomi",
+          "notes": "PaB1vMZrS05MiFzq2yKBSUhdG6XEUvddPVGKWLrRCgDdL6aUrFUi6yi0qQkKXNh2wQBZs5Zpe0ssucRwGxvzLICF0pVw4gBdM5gB47P2x4GbjsL9yo1OQRm8PpwdzHiLEinmpVFAHCnNLXENoIckoOt6WaHmER6uFZOi49Udt1bn79zMyp6mi5aSd5C4eVSeJkekCCbvAYzMadlNnuL15q6ShyiuPbDRdUkVmSPf66nVFW6zM8BhvYYpTW",
+          "received": false
+        },
+        {
+          "_id": "695a46d91c508c5d5ea23ffd",
+          "name": "Bacon86089",
+          "amount": 130,
+          "price": 66848,
+          "manufacturer": "Amazon",
+          "notes": "IzDT35SqWIhvP1eCyJlINgLCd97QnDAMZiR6ShN71tjrZlEcy85c33utvDTz9myN6bGsivQA3hRTLIR5UtMYsF0Xc6Dr0Wr8NyN7VZnbX2WVQ13qqAfw6aqq0FCQjn8Ac8KZjRZ7bUYY3IR7Ea7c8EVOn0yYYoZl19zzZ2zfhFaZ62qSdRebwh9kpzyAHKZ5e9KjI9ZddSihLgU3Xue17QMOjAOpcydponoOsn8xVY3OXBTZ1qkgJNFTK7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 126082,
+      "createdOn": "2026-01-04T10:54:18.000Z",
+      "comments": [
+        {
+          "text": "A3TRswXCMG7tfO8JObtLKjQdMAR6minhVMXZJfZiyfdn2xgCBHZKyr5FfLbrAwnSXC3DIoKPveD",
+          "createdOn": "2026-01-04T10:54:18.000Z",
+          "_id": "695a46da1c508c5d5ea2401f"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a46cf1c508c5d5ea23db5",
+          "products": [
+            {
+              "_id": "695a46d71c508c5d5ea23f26",
+              "name": "Table12690",
+              "amount": 448,
+              "price": 59234,
+              "manufacturer": "Xiaomi",
+              "notes": "PaB1vMZrS05MiFzq2yKBSUhdG6XEUvddPVGKWLrRCgDdL6aUrFUi6yi0qQkKXNh2wQBZs5Zpe0ssucRwGxvzLICF0pVw4gBdM5gB47P2x4GbjsL9yo1OQRm8PpwdzHiLEinmpVFAHCnNLXENoIckoOt6WaHmER6uFZOi49Udt1bn79zMyp6mi5aSd5C4eVSeJkekCCbvAYzMadlNnuL15q6ShyiuPbDRdUkVmSPf66nVFW6zM8BhvYYpTW",
+              "received": false
+            },
+            {
+              "_id": "695a46d91c508c5d5ea23ffd",
+              "name": "Bacon86089",
+              "amount": 130,
+              "price": 66848,
+              "manufacturer": "Amazon",
+              "notes": "IzDT35SqWIhvP1eCyJlINgLCd97QnDAMZiR6ShN71tjrZlEcy85c33utvDTz9myN6bGsivQA3hRTLIR5UtMYsF0Xc6Dr0Wr8NyN7VZnbX2WVQ13qqAfw6aqq0FCQjn8Ac8KZjRZ7bUYY3IR7Ea7c8EVOn0yYYoZl19zzZ2zfhFaZ62qSdRebwh9kpzyAHKZ5e9KjI9ZddSihLgU3Xue17QMOjAOpcydponoOsn8xVY3OXBTZ1qkgJNFTK7",
+              "received": false
+            }
+          ],
+          "total_price": 126082,
+          "delivery": null,
+          "changedOn": "2026-01-04T10:54:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337cd1c508c5d5e953315",
+            "username": "student2@gmail.com",
+            "firstName": "Wilfrid",
+            "lastName": "Daugherty",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:25"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
